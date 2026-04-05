@@ -28,7 +28,7 @@ export function Contact() {
                 GitHub
               </a>
               <a
-                href="https://linkedin.com/in/jagdishkumarpatel"
+                href="https://www.linkedin.com/in/jagjpatel/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 border border-primary text-primary px-6 py-3 rounded-lg hover:bg-primary/10 transition-colors"

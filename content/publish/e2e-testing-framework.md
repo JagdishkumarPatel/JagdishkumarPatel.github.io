@@ -1,0 +1,60 @@
+---
+title: "🚀 Over the past few weeks, I've built a language-agnostic API & AI/ML E2E testing framework..."
+date: "2026-04-05"
+description: "Building a plug-and-play reliability engine for modern API and AI/ML systems."
+tags: ["MLOps", "E2ETesting", "Playwright", "Automation", "API", "DevOps", "AIEngineering", "CICD", "SoftwareEngineering", "TechLeadership", "Testing", "QualityEngineering"]
+feature_image: "/images/e2e-testing-framework.jpg"
+---
+
+Over the past few weeks, I've built a language-agnostic API & AI/ML E2E testing framework that plugs seamlessly into any Python, .NET, or AI/ML project.
+
+The idea is simple but powerful:
+👉 Drop a JSON use-case
+👉 Run multi-step tests automatically
+👉 Get full observability + SLA enforcement
+
+Just define your use cases and run.
+Works across APIs, ML workflows, backend — and extensible to frontend.
+
+💭 One thing I learned while building this:
+
+Success isn't just about passing tests — it's about making testing accessible.
+The goal was simple: enable QA, PMs, and Data Scientists to validate complex AI systems and ML pipelines without needing deep coding expertise.
+
+✨ Why this matters — Problems it solves
+
+🌐 Fragmented E2E testing → Different frameworks per project, duplicated effort
+⚡ Slow validation → Manual testing delays releases and ML iterations
+🔍 Lack of observability → Hard to debug across APIs + ML workflows
+🔄 Hard to scale → Every new project = new test setup
+
+🛠 Stack & Technologies
+
+💻 Playwright (@playwright/test)
+⚡ TypeScript / Node.js
+🧩 JSON-driven DSL (e2e-core)
+🔑 Auth: Bearer · API Key · Basic · mTLS
+📐 Validation: ajv (JSON Schema) · zod
+📊 Observability: Structured logs · Traces · SLA enforcement
+🔗 CI/CD: GitHub Actions + environment-based config
+🤖 MLOps: Supports ML pipelines, batch jobs, model endpoints
+
+💎 Why not just pytest?
+
+⚡ JSON-driven → No need to write test code for flows
+🚀 Parallel execution → Fast, isolated runs
+🌐 Cross-stack → One framework for Python, .NET, ML
+🔍 Built-in observability → Logs, traces, SLA
+🔄 CI/CD ready → Plug-and-play into pipelines
+
+💡 What this unlocks
+
+⏱ Faster validation of APIs + ML workflows
+🛡 Reduced manual testing effort
+🔄 One consistent framework across teams and projects
+
+This isn't just testing.
+
+It's a plug-and-play reliability engine for modern API and AI/ML systems.
+
+#MLOps #E2ETesting #Playwright #Automation #API #DevOps #AIEngineering #CICD #SoftwareEngineering #TechLeadership #Testing #QualityEngineering
