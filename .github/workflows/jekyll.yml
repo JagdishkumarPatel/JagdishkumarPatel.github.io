@@ -1,4 +1,4 @@
-name: Build and Deploy Jekyll Site
+name: Build and Deploy Next.js Site
 
 on:
   push:
@@ -16,17 +16,20 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
 
-    - name: Setup Ruby
-      uses: ruby/setup-ruby@v1
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
       with:
-        ruby-version: '3.1'
-        bundler-cache: true
+        node-version: '20'
+        cache: 'npm'
+
+    - name: Install dependencies
+      run: npm ci
 
     - name: Build site
-      run: bundle exec jekyll build
+      run: npm run build
 
-    - name: Test site
-      run: bundle exec htmlproofer _site --disable-external
+    - name: Test build
+      run: npm run lint
 
   deploy:
     if: github.ref == 'refs/heads/main'
@@ -37,17 +40,20 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
 
-    - name: Setup Ruby
-      uses: ruby/setup-ruby@v1
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
       with:
-        ruby-version: '3.1'
-        bundler-cache: true
+        node-version: '20'
+        cache: 'npm'
+
+    - name: Install dependencies
+      run: npm ci
 
     - name: Build site
-      run: bundle exec jekyll build
+      run: npm run build
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: _site
+        publish_dir: ./out
