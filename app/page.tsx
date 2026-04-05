@@ -1,8 +1,8 @@
-import { Hero } from '@/components/hero'
-import { About } from '@/components/about'
-import { Projects } from '@/components/projects'
-import { Blog } from '@/components/blog'
-import { Contact } from '@/components/contact'
+import { Hero } from '@/components/portfolio/hero'
+import { About } from '@/components/portfolio/about'
+import { Projects } from '@/components/portfolio/projects'
+import { Blog } from '@/components/portfolio/blog'
+import { Contact } from '@/components/portfolio/contact'
 
 export default function Home() {
   return (
