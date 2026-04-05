@@ -1,15 +1,23 @@
+import createMDX from '@next/mdx'
+import remarkGfm from 'remark-gfm'
+import rehypeSlug from 'rehype-slug'
+import rehypeHighlight from 'rehype-highlight'
+
+const withMDX = createMDX({
+  options: {
+    remarkPlugins: [remarkGfm],
+    rehypePlugins: [rehypeSlug, rehypeHighlight],
+  },
+})
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Enable static export for GitHub Pages
   output: 'export',
-  
-  // Disable Next.js image optimisation (GitHub Pages doesn't support it)
   images: {
     unoptimized: true,
   },
-  
-  // Ensure URLs end with /
   trailingSlash: true,
+  pageExtensions: ['ts', 'tsx', 'md', 'mdx'],
 }
 
-export default nextConfig;
+export default withMDX(nextConfig)
