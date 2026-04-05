@@ -3,7 +3,7 @@ title: "🚀 Over the past few weeks, I've built a language-agnostic API & AI/ML
 date: "2026-04-05"
 description: "Building a plug-and-play reliability engine for modern API and AI/ML systems."
 tags: ["MLOps", "E2ETesting", "Playwright", "Automation", "API", "DevOps", "AIEngineering", "CICD", "SoftwareEngineering", "TechLeadership", "Testing", "QualityEngineering"]
-feature_image: "/images/e2e-testing-framework.jpg"
+feature_image: "/images/e2e-testing-framework.jfif"
 ---
 
 Over the past few weeks, I've built a language-agnostic API & AI/ML E2E testing framework that plugs seamlessly into any Python, .NET, or AI/ML project.
