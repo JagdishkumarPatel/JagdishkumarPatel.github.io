@@ -11,6 +11,14 @@ const ROOT = process.cwd();
 const PUBLISH_DIR = path.join(ROOT, 'content', 'publish');
 const PUBLIC_DIR = path.join(ROOT, 'public');
 
+// Ensure directories exist
+if (!fs.existsSync(PUBLISH_DIR)) {
+  fs.mkdirSync(PUBLISH_DIR, { recursive: true });
+}
+if (!fs.existsSync(PUBLIC_DIR)) {
+  fs.mkdirSync(PUBLIC_DIR, { recursive: true });
+}
+
 const SITE_URL = process.env.SITE_URL || 'https://jagdishkumarpatel.github.io';
 const STATIC_ROUTES = ['/', '/blog/'];
 

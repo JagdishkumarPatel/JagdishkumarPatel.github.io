@@ -6,6 +6,14 @@ const ROOT = process.cwd();
 const PUBLISH_DIR = path.join(ROOT, "content/publish");
 const RSS_DIR = path.join(ROOT, "public/rss");
 
+// Ensure directories exist
+if (!fs.existsSync(PUBLISH_DIR)) {
+  fs.mkdirSync(PUBLISH_DIR, { recursive: true });
+}
+if (!fs.existsSync(RSS_DIR)) {
+  fs.mkdirSync(RSS_DIR, { recursive: true });
+}
+
 const siteUrl = "https://jagdishkumarpatel.github.io";
 const siteTitle = "Jag Patel — Blog";
 const siteDescription = "AI/ML engineering, MLOps, cloud architecture, and platform insights.";

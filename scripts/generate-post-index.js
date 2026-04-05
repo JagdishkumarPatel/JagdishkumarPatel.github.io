@@ -5,6 +5,14 @@ import matter from "gray-matter";
 const PUBLISH_DIR = path.join(process.cwd(), "content/publish");
 const OUT_FILE = path.join(process.cwd(), "public/metadata/blog-posts.json");
 
+// Ensure directories exist
+if (!fs.existsSync(PUBLISH_DIR)) {
+  fs.mkdirSync(PUBLISH_DIR, { recursive: true });
+}
+if (!fs.existsSync(path.dirname(OUT_FILE))) {
+  fs.mkdirSync(path.dirname(OUT_FILE), { recursive: true });
+}
+
 function extractExcerpt(content) {
   const lines = content
     .split("\n")
