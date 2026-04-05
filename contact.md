@@ -34,8 +34,8 @@ description: Get in touch with Jag Patel for collaborations, opportunities, or t
 <section class="section">
   <h3>Other Ways to Connect</h3>
   <ul>
-    <li><strong>Email:</strong> <a href="mailto:jag.patel@example.com">jag.patel@example.com</a></li>
-    <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/jagdishkumarpatel" target="_blank">linkedin.com/in/jagdishkumarpatel</a></li>
+    <li><strong>Email:</strong> <a href="mailto:patel.jag.j@gmail.com">patel.jag.j@gmail.com</a></li>
+    <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/jagjpatel/" target="_blank">linkedin.com/in/jagjpatel/</a></li>
     <li><strong>GitHub:</strong> <a href="https://github.com/jagdishkumarpatel" target="_blank">github.com/jagdishkumarpatel</a></li>
   </ul>
 </section>
