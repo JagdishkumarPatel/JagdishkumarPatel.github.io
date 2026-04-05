@@ -1,4 +1,3 @@
-import { motion } from 'framer-motion'
 import { ExternalLink, Github } from 'lucide-react'
 
 const projects = [
@@ -26,21 +25,12 @@ export function Projects() {
   return (
     <section id="projects" className="py-20 bg-muted/50">
       <div className="container mx-auto px-4">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          viewport={{ once: true }}
-        >
+        <div>
           <h2 className="text-3xl font-bold text-center mb-12">My Projects</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {projects.map((project, index) => (
-              <motion.div
+            {projects.map((project) => (
+              <div
                 key={project.title}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8, delay: index * 0.1 }}
-                viewport={{ once: true }}
                 className="bg-card rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow"
               >
                 <h3 className="text-xl font-semibold mb-3">{project.title}</h3>
@@ -65,10 +55,10 @@ export function Projects() {
                   View on GitHub
                   <ExternalLink size={14} />
                 </a>
-              </motion.div>
+              </div>
             ))}
           </div>
-        </motion.div>
+        </div>
       </div>
     </section>
   )

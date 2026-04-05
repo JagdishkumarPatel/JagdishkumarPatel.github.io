@@ -1,14 +1,8 @@
-import { motion } from 'framer-motion'
-
 export function Hero() {
   return (
     <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-primary/20 to-secondary/20">
       <div className="container mx-auto px-4 text-center">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-        >
+        <div>
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
             Hi, I'm Jag Patel
           </h1>
@@ -32,7 +26,7 @@ export function Hero() {
               Read Blog
             </a>
           </div>
-        </motion.div>
+        </div>
       </div>
     </section>
   )
