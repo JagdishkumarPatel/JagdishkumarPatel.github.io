@@ -9,7 +9,7 @@ export function About() {
               With over 10+ years of experience in software engineering, I specialize in designing and implementing AI/ML solutions that drive business value. My journey spans from traditional software development to cutting-edge machine learning systems, with a focus on production-ready, scalable architectures.
             </p>
             <p className="text-lg mb-8">
-              Currently working as a Principal AI/ML Engineer, I lead teams in building intelligent systems, implementing MLOps practices, and architecting cloud-native solutions. I'm passionate about bridging the gap between research and production, ensuring AI models deliver real-world impact.
+              Currently working as a Principal AI/ML Engineer, I lead teams in building intelligent systems, implementing MLOps practices, and architecting cloud-native solutions. I&apos;m passionate about bridging the gap between research and production, ensuring AI models deliver real-world impact.
             </p>
             <div className="grid md:grid-cols-2 gap-8">
               <div>

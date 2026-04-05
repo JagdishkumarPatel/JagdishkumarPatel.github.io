@@ -9,7 +9,7 @@ export function Blog() {
             <div className="bg-card rounded-lg p-6 shadow-lg">
               <h3 className="text-xl font-semibold mb-2">Welcome to My Blog</h3>
               <p className="text-muted-foreground mb-4">
-                Introducing my new blog where I'll share insights on AI/ML engineering, MLOps best practices, and software development experiences.
+                Introducing my new blog where I&apos;ll share insights on AI/ML engineering, MLOps best practices, and software development experiences.
               </p>
               <div className="text-sm text-muted-foreground">
                 April 5, 2024 • AI, ML, Career

@@ -8,7 +8,7 @@ export function Contact() {
           <h2 className="text-3xl font-bold text-center mb-12">Get In Touch</h2>
           <div className="max-w-2xl mx-auto">
             <p className="text-center text-lg mb-8">
-              I'm always interested in discussing new opportunities, collaborations, or sharing knowledge about AI/ML and software engineering.
+              I&apos;m always interested in discussing new opportunities, collaborations, or sharing knowledge about AI/ML and software engineering.
             </p>
             <div className="flex justify-center gap-6">
               <a

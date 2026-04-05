@@ -4,7 +4,7 @@ export function Hero() {
       <div className="container mx-auto px-4 text-center">
         <div>
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
-            Hi, I'm Jag Patel
+            Hi, I&apos;m Jag Patel
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8">
             Principal AI/ML Engineer & Senior Full-Stack Developer
