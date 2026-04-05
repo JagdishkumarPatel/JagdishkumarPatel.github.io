@@ -14,7 +14,7 @@ export function Blog() {
                   <img
                     src={post.feature_image}
                     alt={post.title}
-                    className="w-full h-48 object-cover rounded-lg mb-4"
+                    className="w-full object-cover rounded-lg mb-4"
                   />
                 )}
                 <h3 className="text-xl font-semibold mb-2">{post.title}</h3>
