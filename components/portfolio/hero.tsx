@@ -7,7 +7,7 @@ export function Hero() {
             Hi, I&apos;m Jag Patel
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8">
-            Principal AI/ML Engineer & Senior Full-Stack Developer
+            Principal AI/ML Engineer
           </p>
           <p className="text-lg mb-8 max-w-2xl mx-auto">
             Building intelligent systems and scalable solutions at the intersection of AI/ML, cloud architecture, and full-stack development. Passionate about solving complex problems with cutting-edge technology.
