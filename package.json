@@ -4,10 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "generate": "node scripts/generate-post-index.js && node scripts/generate-rss.js && node scripts/generate-sitemap.js",
+    "build": "npm run generate && next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "next build && next export",
+    "export": "npm run generate && next build && next export",
     "release": "semantic-release"
   },
   "dependencies": {
@@ -21,7 +22,8 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
     "tailwind-merge": "^2.0.0",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "gray-matter": "^4.0.3"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",

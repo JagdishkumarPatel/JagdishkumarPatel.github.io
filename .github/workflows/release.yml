@@ -16,7 +16,8 @@ jobs:
         with:
           node-version: '20'
           cache: 'npm'
-      - run: npm ci
+          cache-dependency-path: package.json
+      - run: npm install
       - run: npx semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
