@@ -10,13 +10,13 @@ export function Hero() {
           transition={{ duration: 0.8 }}
         >
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
-            Jag Patel
+            Hi, I'm Jag Patel
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8">
             Principal AI/ML Engineer & Senior Full-Stack Developer
           </p>
           <p className="text-lg mb-8 max-w-2xl mx-auto">
-            Specializing in AI/ML systems, MLOps, cloud architecture, and scalable solutions
+            Building intelligent systems and scalable solutions at the intersection of AI/ML, cloud architecture, and full-stack development. Passionate about solving complex problems with cutting-edge technology.
           </p>
           <div className="flex gap-4 justify-center">
             <a

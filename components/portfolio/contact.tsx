@@ -18,7 +18,7 @@ export function Contact() {
             </p>
             <div className="flex justify-center gap-6">
               <a
-                href="mailto:jag.patel@example.com"
+                href="mailto:hello@jagpatel.dev"
                 className="flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-lg hover:bg-primary/90 transition-colors"
               >
                 <Mail size={20} />

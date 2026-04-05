@@ -13,26 +13,28 @@ export function About() {
           <h2 className="text-3xl font-bold text-center mb-12">About Me</h2>
           <div className="max-w-4xl mx-auto">
             <p className="text-lg mb-8">
-              With over a decade of experience in software engineering, I specialize in building intelligent systems that leverage AI/ML to solve complex business problems. My expertise spans full-stack development, cloud platforms, and DevOps practices.
+              With over 10+ years of experience in software engineering, I specialize in designing and implementing AI/ML solutions that drive business value. My journey spans from traditional software development to cutting-edge machine learning systems, with a focus on production-ready, scalable architectures.
             </p>
             <p className="text-lg mb-8">
-              I'm passionate about creating scalable, maintainable code and sharing knowledge through technical writing and open-source contributions.
+              Currently working as a Principal AI/ML Engineer, I lead teams in building intelligent systems, implementing MLOps practices, and architecting cloud-native solutions. I'm passionate about bridging the gap between research and production, ensuring AI models deliver real-world impact.
             </p>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-xl font-semibold mb-4">AI/ML Expertise</h3>
                 <ul className="space-y-2 text-muted-foreground">
-                  <li>• Deep learning, NLP, computer vision</li>
-                  <li>• Model deployment and MLOps</li>
-                  <li>• Python, TensorFlow, PyTorch</li>
+                  <li>• Machine Learning & Deep Learning</li>
+                  <li>• MLOps & Model Deployment</li>
+                  <li>• Python, TensorFlow, PyTorch, Scikit-learn</li>
+                  <li>• Computer Vision & NLP</li>
                 </ul>
               </div>
               <div>
-                <h3 className="text-xl font-semibold mb-4">Technical Skills</h3>
+                <h3 className="text-xl font-semibold mb-4">Technical Leadership</h3>
                 <ul className="space-y-2 text-muted-foreground">
-                  <li>• Cloud platforms (AWS, Azure, GCP)</li>
-                  <li>• Full-stack development (React, Node.js)</li>
-                  <li>• DevOps & CI/CD pipelines</li>
+                  <li>• Cloud Platforms (AWS, Azure, GCP)</li>
+                  <li>• Full-Stack Development (React, Node.js, TypeScript)</li>
+                  <li>• DevOps & CI/CD (GitHub Actions, Terraform)</li>
+                  <li>• Team Leadership & Architecture</li>
                 </ul>
               </div>
             </div>
