@@ -10,7 +10,7 @@ export function Hero() {
             Principal AI/ML Engineer
           </p>
           <p className="text-lg mb-8 max-w-2xl mx-auto">
-            Building intelligent systems and scalable solutions at the intersection of AI/ML, cloud architecture, and full-stack development. Passionate about solving complex problems with cutting-edge technology.
+            Designing and delivering intelligent, scalable systems at the convergence of AI/ML, cloud-native architecture, and full-stack engineering. Focused on translating complex problems into robust, production-grade solutions through modern technologies and disciplined engineering practices.
           </p>
           <div className="flex gap-4 justify-center">
             <a
