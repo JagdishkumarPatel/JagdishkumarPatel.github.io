@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.1.1...v1.2.0) (2026-04-06)
+
+
+### Features
+
+* link projects to blog posts via blogSlug ([e33d423](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/commit/e33d423537939b7ad76ef3815e4631b1d77d69c5))
+
 ## [1.1.1](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.1.0...v1.1.1) (2026-04-06)
 
 
