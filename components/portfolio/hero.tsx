@@ -4,7 +4,6 @@ import Image from "next/image"
 import { Github, Linkedin, Mail } from "lucide-react"
 import { useEffect, useState } from "react"
 import { motion } from "framer-motion"
-import { motion } from "framer-motion"
 
 export function Hero() {
   const [mounted, setMounted] = useState(false)
