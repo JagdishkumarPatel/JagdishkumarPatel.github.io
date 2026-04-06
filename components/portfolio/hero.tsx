@@ -39,8 +39,7 @@ export function Hero() {
             {">"} Principal AI/ML Engineer
           </p>
           <p className="max-w-xl text-muted-foreground text-base md:text-lg leading-relaxed">
-            Designing intelligent, scalable systems at the intersection of AI, cloud-native
-            architecture, and platform engineering. Turning research into production.
+            Building production-grade AI systems at scale — from architecture and model design to deployment and platform engineering.
           </p>
         </div>
 
@@ -73,7 +72,10 @@ export function Hero() {
         {/* Animated tagline */}
         <div className="mt-4 flex flex-col items-center gap-2">
           <span className="animate-pulse font-mono text-xs tracking-widest text-muted-foreground/60 uppercase">
-            Jag Patel · AI/ML Engineer
+            Turning research into real-world, scalable solutions.
+          </span>
+          <span className="font-mono text-xs text-muted-foreground/60">
+            18+ years across AI/ML, Cloud, and DevSecOps.
           </span>
           <div className="flex flex-col items-center gap-0.5 animate-bounce text-muted-foreground/40">
             <div className="w-px h-4 bg-current" />
