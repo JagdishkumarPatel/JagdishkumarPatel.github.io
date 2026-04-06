@@ -1,0 +1,51 @@
+---
+title: "Building a Local AI Billing Chat with FastAPI and Ollama"
+slug: "local-ai-billing-chat"
+date: "2026-04-06"
+description: "I built a local AI-powered billing chat that reads cloud cost CSVs (AWS, Azure) and lets you query cost changes, new services, and team breakdowns in plain language — no external APIs, fully on-device with Ollama and FastAPI."
+tags: ["AI", "FastAPI", "Python", "Ollama", "Local LLM", "Cloud Cost Management", "FinOps", "Automation", "MLOps", "Pandas", "AWS", "Azure", "LLM", "Platform Engineering"]
+feature_image: "/images/local-ai-billing-chat.png"
+---
+
+One common challenge in cloud operations — stakeholders always ask: *why did the bill go up? Which service costs more this month? How are costs split across teams?*
+
+Answering these questions manually across emails or dashboards is slow and error-prone.
+
+So I built a **local AI-powered Billing Chat** — you upload your cloud billing CSV and have a conversation with your cost data in plain language.
+
+## 💡 What It Does
+
+- Reads cloud billing CSVs from **AWS, Azure**, or any provider
+- Answers natural language questions about your spend
+- Surfaces cost changes, new services, and business-unit breakdowns
+- Generates structured reports via **WeasyPrint + Jinja2**
+- Runs **fully local** — no cloud API, no data leaves your machine
+
+## ⚙️ Tech Stack
+
+| Layer | Technology |
+|---|---|
+| API server | FastAPI + Uvicorn |
+| Data processing | Pandas + OpenPyXL |
+| Local LLM | Ollama |
+| Report generation | Jinja2 + WeasyPrint |
+| File handling | Python-Multipart |
+
+## 🔐 Why Local?
+
+Cloud billing data is sensitive — it reveals your infrastructure footprint, team budgets, and vendor relationships. Running the LLM locally with **Ollama** means billing CSVs never leave your machine. No SaaS, no telemetry, no third-party storage.
+
+## 📘 What I Learned
+
+Running LLMs locally gave me a deeper understanding of how lightweight apps can deliver real business insights without relying on external APIs.
+
+It also reinforced how quickly an idea becomes useful once you wrap it with an API, a bit of data logic, and a clean interface. The gap between "prototype" and "useful tool" is surprisingly small.
+
+> FinOps teams spend hours each month answering the same cost questions. A local LLM with access to billing CSVs can answer most of them in seconds.
+
+## Related Topics
+
+- **Ollama** — run Llama 3, Mistral, Phi-3 and more models locally
+- **LangChain CSV Agent** — alternative for structured data Q&A
+- **AWS Cost Explorer API / Azure Cost Management API** — for real-time ingestion instead of CSV uploads
+- **OpenCost** — open source Kubernetes cost monitoring that pairs well with this approach
