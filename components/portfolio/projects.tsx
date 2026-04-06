@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { ExternalLink, Github } from 'lucide-react'
+import { ExternalLink, Github, BookOpen } from 'lucide-react'
 import projectsData from '@/public/metadata/projects.json'
 
 type Project = {
@@ -8,6 +8,7 @@ type Project = {
   tech: string[]
   github: string
   demo?: string
+  blogSlug?: string
 }
 
 function ProjectCard({ project }: { project: Project }) {
@@ -42,6 +43,14 @@ function ProjectCard({ project }: { project: Project }) {
           >
             <ExternalLink size={15} /> Live Demo
           </a>
+        )}
+        {project.blogSlug && (
+          <Link
+            href={`/blog/${project.blogSlug}`}
+            className="inline-flex items-center gap-1.5 text-sm text-primary hover:underline transition-colors"
+          >
+            <BookOpen size={15} /> Read Post
+          </Link>
         )}
       </div>
     </div>
