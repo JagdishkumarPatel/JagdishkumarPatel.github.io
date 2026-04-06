@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.0.0...v1.1.0) (2026-04-06)
+
+
+### Features
+
+* certifications, education, dedicated pages, SEO metadataBase, nav updates, remove resume link ([7ba5689](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/commit/7ba5689f932c6e8bbeaf6a2c4d749896143ef6dc))
+
 # 1.0.0 (2026-04-06)
 
 
