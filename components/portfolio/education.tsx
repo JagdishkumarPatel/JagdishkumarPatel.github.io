@@ -25,7 +25,7 @@ export function EducationPage() {
       </div>
       <div className="mb-12">
         <p className="font-mono text-sm text-primary mb-1">{`>`} education</p>
-        <h1 className="text-3xl font-extrabold tracking-tight">Education</h1>
+        <h1 className="text-3xl font-extrabold tracking-tight gradient-heading">Education</h1>
         <p className="mt-3 text-muted-foreground max-w-2xl">
           Academic background and formal qualifications.
         </p>

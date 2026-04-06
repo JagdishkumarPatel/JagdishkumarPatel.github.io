@@ -75,7 +75,7 @@ export function CertificationsPage() {
       </div>
       <div className="mb-12">
         <p className="font-mono text-sm text-primary mb-1">{`>`} credentials</p>
-        <h1 className="text-3xl font-extrabold tracking-tight">Licenses &amp; Certifications</h1>
+        <h1 className="text-3xl font-extrabold tracking-tight gradient-heading">Licenses &amp; Certifications</h1>
         <p className="mt-3 text-muted-foreground max-w-2xl">
           Industry certifications and professional credentials across cloud, DevSecOps, AI/ML, and infrastructure engineering.
         </p>

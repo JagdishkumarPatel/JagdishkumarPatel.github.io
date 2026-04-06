@@ -32,7 +32,7 @@ export function Hero() {
 
         {/* Name + role */}
         <div className="space-y-3">
-          <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight">
+          <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight gradient-heading">
             Jag Patel
           </h1>
           <p className="font-mono text-lg md:text-xl text-primary">
@@ -70,10 +70,15 @@ export function Hero() {
           </a>
         </div>
 
-        {/* Scroll hint */}
-        <div className="mt-4 flex flex-col items-center gap-1 text-muted-foreground/50 text-xs">
-          <span>scroll</span>
-          <div className="w-px h-8 bg-muted-foreground/20" />
+        {/* Animated tagline */}
+        <div className="mt-4 flex flex-col items-center gap-2">
+          <span className="animate-pulse font-mono text-xs tracking-widest text-muted-foreground/60 uppercase">
+            Jag Patel · AI/ML Engineer
+          </span>
+          <div className="flex flex-col items-center gap-0.5 animate-bounce text-muted-foreground/40">
+            <div className="w-px h-4 bg-current" />
+            <div className="w-px h-4 bg-current" />
+          </div>
         </div>
       </div>
     </section>

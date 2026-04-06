@@ -44,7 +44,7 @@ function ContactContent({ standalone = false }: { standalone?: boolean }) {
         )}
         <div className="mb-10">
           <p className="font-mono text-sm text-primary mb-1">{`>`} connect</p>
-          <h2 className="text-3xl font-extrabold tracking-tight">Get In Touch</h2>
+          <h2 className="text-3xl font-extrabold tracking-tight gradient-heading">Get In Touch</h2>
         </div>
         <p className="text-muted-foreground text-lg mb-10 leading-relaxed">
           I&apos;m always open to discussing new opportunities, collaborations, or sharing knowledge about AI/ML and platform engineering.

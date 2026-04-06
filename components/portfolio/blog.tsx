@@ -12,7 +12,7 @@ export function Blog() {
       <div className="mb-12 flex items-end justify-between">
         <div>
           <p className="font-mono text-sm text-primary mb-1">{">"} writing</p>
-          <h2 className="text-3xl font-extrabold tracking-tight">Latest Posts</h2>
+          <h2 className="text-3xl font-extrabold tracking-tight gradient-heading">Latest Posts</h2>
         </div>
       </div>
 
