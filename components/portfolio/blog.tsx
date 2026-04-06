@@ -1,5 +1,6 @@
 
 import Link from "next/link"
+import Image from "next/image"
 import { ArrowRight } from "lucide-react"
 import { getAllPosts } from "@/lib/posts"
 
@@ -21,11 +22,12 @@ export function Blog() {
             <div className="flex gap-5 rounded-xl border border-border bg-card hover:border-primary/50 hover:shadow-md transition-all duration-200 overflow-hidden">
               {/* Image */}
               {post.feature_image && (
-                <div className="hidden sm:block shrink-0 w-40 h-32 overflow-hidden">
-                  <img
+                <div className="hidden sm:block relative shrink-0 w-40 h-32 overflow-hidden">
+                  <Image
                     src={post.feature_image}
                     alt={post.title}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                 </div>
               )}

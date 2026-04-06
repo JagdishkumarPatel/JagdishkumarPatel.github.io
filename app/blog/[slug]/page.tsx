@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
+import Image from 'next/image'
 import { MDXRemote } from 'next-mdx-remote/rsc'
 import remarkGfm from 'remark-gfm'
 import rehypeSlug from 'rehype-slug'
@@ -54,11 +55,15 @@ export default function BlogPostPage({ params }: Props) {
         {/* Main content */}
         <article className="flex-1 min-w-0">
           {post.feature_image && (
-            <img
-              src={post.feature_image}
-              alt={post.title}
-              className="w-full rounded-xl object-cover mb-8 max-h-80"
-            />
+            <div className="relative w-full rounded-xl overflow-hidden mb-8" style={{ aspectRatio: '16/5' }}>
+              <Image
+                src={post.feature_image}
+                alt={post.title}
+                fill
+                className="object-cover"
+                priority
+              />
+            </div>
           )}
 
           <header className="mb-10">
