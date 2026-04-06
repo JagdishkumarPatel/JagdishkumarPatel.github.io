@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { Github, Linkedin, Mail, FileText } from "lucide-react"
+import { Github, Linkedin, Mail } from "lucide-react"
 
 export function Hero() {
   return (
@@ -47,13 +47,13 @@ export function Hero() {
         {/* CTA buttons */}
         <div className="flex flex-wrap gap-3 justify-center">
           <a
-            href="/#contact"
+            href="/contact"
             className="inline-flex items-center gap-2 rounded-full bg-primary text-primary-foreground px-5 py-2.5 text-sm font-medium hover:bg-primary/90 transition-colors"
           >
             <Mail className="h-4 w-4" /> Contact
           </a>
           <a
-            href="https://www.linkedin.com/in/jagdishkumarpatel"
+            href="https://www.linkedin.com/in/jagjpatel/"
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center gap-2 rounded-full border border-border bg-background/50 text-foreground px-5 py-2.5 text-sm font-medium hover:border-primary hover:text-primary transition-colors"
@@ -67,14 +67,6 @@ export function Hero() {
             className="inline-flex items-center gap-2 rounded-full border border-border bg-background/50 text-foreground px-5 py-2.5 text-sm font-medium hover:border-primary hover:text-primary transition-colors"
           >
             <Github className="h-4 w-4" /> GitHub
-          </a>
-          <a
-            href="/resume/jag-patel-resume.pdf"
-            target="_blank"
-            rel="noreferrer"
-            className="inline-flex items-center gap-2 rounded-full border border-border bg-background/50 text-foreground px-5 py-2.5 text-sm font-medium hover:border-primary hover:text-primary transition-colors"
-          >
-            <FileText className="h-4 w-4" /> Resume
           </a>
         </div>
 

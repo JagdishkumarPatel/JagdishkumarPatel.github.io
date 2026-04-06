@@ -6,10 +6,11 @@ import { Menu, X } from "lucide-react"
 import { ThemeSwitcher } from "@/components/theme-switcher"
 
 const navLinks = [
-  { label: "About", href: "/#about" },
-  { label: "Projects", href: "/#projects" },
+  { label: "About", href: "/about" },
+  { label: "Projects", href: "/projects" },
+  { label: "Certifications", href: "/certifications" },
   { label: "Blog", href: "/#blog" },
-  { label: "Contact", href: "/#contact" },
+  { label: "Contact", href: "/contact" },
 ]
 
 export function Nav() {

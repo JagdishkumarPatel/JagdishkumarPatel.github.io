@@ -1,38 +1,36 @@
+import fs from 'fs'
+import path from 'path'
+import matter from 'gray-matter'
+import { MDXRemote } from 'next-mdx-remote/rsc'
+import remarkGfm from 'remark-gfm'
+import rehypeSlug from 'rehype-slug'
+
+function getAboutContent() {
+  const filePath = path.join(process.cwd(), 'content', 'about.mdx')
+  const raw = fs.readFileSync(filePath, 'utf-8')
+  const { content } = matter(raw)
+  return content
+}
+
 export function About() {
+  const content = getAboutContent()
+
   return (
-    <section id="about" className="py-20">
-      <div className="container mx-auto px-4">
-        <div>
-          <h2 className="text-3xl font-bold text-center mb-12">About Me</h2>
-          <div className="max-w-4xl mx-auto">
-            <p className="text-lg mb-8">
-              With over 10+ years of experience in software engineering, I specialize in designing and implementing AI/ML solutions that drive business value. My journey spans from traditional software development to cutting-edge machine learning systems, with a focus on production-ready, scalable architectures.
-            </p>
-            <p className="text-lg mb-8">
-              Currently working as a Principal AI/ML Engineer, I lead teams in building intelligent systems, implementing MLOps practices, and architecting cloud-native solutions. I&apos;m passionate about bridging the gap between research and production, ensuring AI models deliver real-world impact.
-            </p>
-            <div className="grid md:grid-cols-2 gap-8">
-              <div>
-                <h3 className="text-xl font-semibold mb-4">AI/ML Expertise</h3>
-                <ul className="space-y-2 text-muted-foreground">
-                  <li>• Machine Learning & Deep Learning</li>
-                  <li>• MLOps & Model Deployment</li>
-                  <li>• Python, TensorFlow, PyTorch, Scikit-learn</li>
-                  <li>• Computer Vision & NLP</li>
-                </ul>
-              </div>
-              <div>
-                <h3 className="text-xl font-semibold mb-4">Technical Leadership</h3>
-                <ul className="space-y-2 text-muted-foreground">
-                  <li>• Cloud Platforms (AWS, Azure, GCP)</li>
-                  <li>• Full-Stack Development (React, Node.js, TypeScript)</li>
-                  <li>• DevOps & CI/CD (GitHub Actions, Terraform)</li>
-                  <li>• Team Leadership & Architecture</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
+    <section id="about" className="py-24 mx-auto max-w-4xl px-6">
+      <div className="mb-12">
+        <p className="font-mono text-sm text-primary mb-1">{`>`} about</p>
+        <h2 className="text-3xl font-extrabold tracking-tight">About Me</h2>
+      </div>
+      <div className="prose prose-slate max-w-none dark:prose-invert prose-headings:font-semibold prose-a:text-primary prose-code:text-primary prose-code:before:content-none prose-code:after:content-none">
+        <MDXRemote
+          source={content}
+          options={{
+            mdxOptions: {
+              remarkPlugins: [remarkGfm],
+              rehypePlugins: [rehypeSlug],
+            },
+          }}
+        />
       </div>
     </section>
   )

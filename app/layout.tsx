@@ -5,8 +5,21 @@ import { Nav } from '@/components/layout/nav'
 import { Footer } from '@/components/layout/footer'
 
 export const metadata: Metadata = {
-  title: 'Jag Patel - Principal AI/ML Engineer',
-  description: 'Portfolio showcasing AI/ML projects, MLOps systems, cloud expertise, and professional insights',
+  metadataBase: new URL('https://jagdishkumarpatel.github.io'),
+  title: {
+    default: 'Jag Patel — Principal AI/ML Engineer',
+    template: '%s | Jag Patel',
+  },
+  description: 'Principal AI/ML Engineer with 18+ years across AI/ML, DevSecOps, cloud infrastructure, and platform engineering.',
+  openGraph: {
+    siteName: 'Jag Patel',
+    type: 'website',
+    locale: 'en_AU',
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 }
 
 export default function RootLayout({

@@ -15,10 +15,10 @@ export function Footer() {
 
         {/* Nav */}
         <nav className="flex items-center gap-6 text-sm text-muted-foreground">
-          {["About", "Projects", "Blog", "Contact"].map((item) => (
+          {["About", "Projects", "Certifications", "Education", "Blog", "Contact"].map((item) => (
             <Link
               key={item}
-              href={`/#${item.toLowerCase()}`}
+              href={item === 'Contact' ? '/contact' : item === 'Projects' ? '/projects' : item === 'About' ? '/about' : item === 'Certifications' ? '/certifications' : item === 'Education' ? '/education' : `/#${item.toLowerCase()}`}
               className="hover:text-foreground transition-colors"
             >
               {item}
@@ -39,7 +39,7 @@ export function Footer() {
               <Github className="h-4 w-4" />
             </a>
             <a
-              href="https://www.linkedin.com/in/jagdishkumarpatel"
+              href="https://www.linkedin.com/in/jagjpatel/"
               target="_blank"
               rel="noreferrer"
               aria-label="LinkedIn"
