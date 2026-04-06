@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.2.0...v1.2.1) (2026-04-06)
+
+
+### Bug Fixes
+
+* add Education tab to nav header ([842448c](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/commit/842448ce1d6e1f60d1457c471eb8528aea738fae))
+
 # [1.2.0](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.1.1...v1.2.0) (2026-04-06)
 
 
