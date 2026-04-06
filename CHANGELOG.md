@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.1.0...v1.1.1) (2026-04-06)
+
+
+### Bug Fixes
+
+* correct feature image path for MCP blog post ([df3b3ab](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/commit/df3b3abee019ada39edd7cf8bebcf278cfdc1532))
+
 # [1.1.0](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.0.0...v1.1.0) (2026-04-06)
 
 
