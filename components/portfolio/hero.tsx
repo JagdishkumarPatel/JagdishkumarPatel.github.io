@@ -1,9 +1,14 @@
 
+"use client"
 import Image from "next/image"
 import { Github, Linkedin, Mail } from "lucide-react"
+import { useEffect, useState } from "react"
+import { motion } from "framer-motion"
 import { motion } from "framer-motion"
 
 export function Hero() {
+  const [mounted, setMounted] = useState(false)
+  useEffect(() => { setMounted(true) }, [])
   return (
     <section className="relative flex items-center justify-center overflow-hidden">
       {/* Dot-grid background */}
@@ -71,34 +76,36 @@ export function Hero() {
           </a>
         </div>
 
-        {/* Animated tagline with Framer Motion */}
-        <motion.div
-          className="mt-4 flex flex-col items-center gap-2"
-          initial={{ opacity: 0, y: 24 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1.6, ease: 'easeOut' }}
-        >
-          <motion.span
-            className="font-mono text-xs tracking-widest text-muted-foreground/60 uppercase"
-            initial={{ opacity: 0, y: 16 }}
+        {/* Animated tagline with Framer Motion, client-only */}
+        {mounted && (
+          <motion.div
+            className="mt-4 flex flex-col items-center gap-2"
+            initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.7, duration: 1.2, ease: 'easeOut' }}
+            transition={{ duration: 1.6, ease: 'easeOut' }}
           >
-            Turning research into real-world, scalable solutions.
-          </motion.span>
-          <motion.span
-            className="font-mono text-xs text-muted-foreground/60"
-            initial={{ opacity: 0, y: 16 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 1.1, duration: 1.2, ease: 'easeOut' }}
-          >
-            18+ years across AI/ML, Cloud, and DevOps.
-          </motion.span>
-          <div className="flex flex-col items-center gap-0.5 animate-bounce text-muted-foreground/40">
-            <div className="w-px h-4 bg-current" />
-            <div className="w-px h-4 bg-current" />
-          </div>
-        </motion.div>
+            <motion.span
+              className="font-mono text-xs tracking-widest text-muted-foreground/60 uppercase"
+              initial={{ opacity: 0, y: 16 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.7, duration: 1.2, ease: 'easeOut' }}
+            >
+              Turning research into real-world, scalable solutions.
+            </motion.span>
+            <motion.span
+              className="font-mono text-xs text-muted-foreground/60"
+              initial={{ opacity: 0, y: 16 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 1.1, duration: 1.2, ease: 'easeOut' }}
+            >
+              18+ years across AI/ML, Cloud, and DevSecOps.
+            </motion.span>
+            <div className="flex flex-col items-center gap-0.5 animate-bounce text-muted-foreground/40">
+              <div className="w-px h-4 bg-current" />
+              <div className="w-px h-4 bg-current" />
+            </div>
+          </motion.div>
+        )}
       </div>
     </section>
   )
