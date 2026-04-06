@@ -37,7 +37,7 @@ export function Nav() {
           href="/"
           className="font-mono font-bold text-lg text-foreground hover:text-primary transition-colors"
         >
-          <span className="text-primary">{">"}</span> JP
+          <span className="text-primary">{">"}</span> Jag Patel
         </Link>
 
         {/* Desktop nav */}

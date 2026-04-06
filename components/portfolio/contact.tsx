@@ -33,7 +33,7 @@ function EmailButton() {
 
 function ContactContent({ standalone = false }: { standalone?: boolean }) {
   return (
-    <section id="contact" className="py-20">
+    <section id="contact" className="py-14">
       <div className="mx-auto max-w-2xl px-6">
         {standalone && (
           <div className="mb-8 flex items-center gap-2 text-sm text-muted-foreground">

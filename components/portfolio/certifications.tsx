@@ -67,7 +67,7 @@ export function CertificationsPage() {
   const groups = groupByCategory(certsData as Cert[])
 
   return (
-    <div className="mx-auto max-w-4xl px-6 py-20">
+    <div className="mx-auto max-w-4xl px-6 py-14">
       <div className="mb-4 flex items-center gap-2 text-sm text-muted-foreground">
         <Link href="/" className="hover:text-foreground transition-colors">Home</Link>
         <span>/</span>

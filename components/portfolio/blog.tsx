@@ -8,7 +8,7 @@ export function Blog() {
   const blogPosts = getAllPosts()
 
   return (
-    <section id="blog" className="py-24 mx-auto max-w-4xl px-6">
+    <section id="blog" className="py-14 mx-auto max-w-4xl px-6">
       <div className="mb-12 flex items-end justify-between">
         <div>
           <p className="font-mono text-sm text-primary mb-1">{">"} writing</p>

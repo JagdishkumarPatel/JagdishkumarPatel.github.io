@@ -50,7 +50,7 @@ function ProjectCard({ project }: { project: Project }) {
 
 export function Projects() {
   return (
-    <section id="projects" className="py-24 mx-auto max-w-4xl px-6">
+    <section id="projects" className="py-14 mx-auto max-w-4xl px-6">
       <div className="mb-12 flex items-end justify-between">
         <div>
           <p className="font-mono text-sm text-primary mb-1">{`>`} work</p>
@@ -71,7 +71,7 @@ export function Projects() {
 
 export function ProjectsPage({ projects }: { projects: Project[] }) {
   return (
-    <div className="mx-auto max-w-4xl px-6 py-20">
+    <div className="mx-auto max-w-4xl px-6 py-14">
       <div className="mb-8 flex items-center gap-2 text-sm text-muted-foreground">
         <Link href="/" className="hover:text-foreground transition-colors">Home</Link>
         <span>/</span>

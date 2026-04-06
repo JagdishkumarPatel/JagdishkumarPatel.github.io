@@ -16,7 +16,7 @@ export function About() {
   const content = getAboutContent()
 
   return (
-    <section id="about" className="py-24 mx-auto max-w-4xl px-6">
+    <section id="about" className="pt-10 pb-14 mx-auto max-w-4xl px-6">
       <div className="mb-12">
         <p className="font-mono text-sm text-primary mb-1">{`>`} about</p>
         <h2 className="text-3xl font-extrabold tracking-tight">About Me</h2>
