@@ -12,16 +12,71 @@ export const metadata: Metadata = {
     default: 'Jag Patel — Principal AI/ML Engineer',
     template: '%s | Jag Patel',
   },
-  description: 'Principal AI/ML Engineer with 18+ years across AI/ML, DevSecOps, cloud infrastructure, and platform engineering.',
+  description: 'Jag Patel — Principal AI/ML Engineer. 18+ years in AI/ML, LLMs, PromptFlow, DevSecOps, and cloud automation. Building transparent, production-grade AI systems and secure platforms.',
+  keywords: [
+    'Jag Patel',
+    'AI/ML Engineer',
+    'Principal AI/ML Engineer',
+    'MLOps',
+    'PromptFlow',
+    'Mistral',
+    'GPT4All',
+    'Cloud',
+    'DevSecOps',
+    'Azure',
+    'AWS',
+    'Bicep',
+    'Terraform',
+    'LLM',
+    'Platform Engineering',
+    'Python',
+    'FastAPI',
+    'Ollama',
+    'LangChain',
+    'Cloud Security',
+    'Automation',
+    'Leadership',
+  ],
   openGraph: {
     siteName: 'Jag Patel',
-    type: 'website',
+    type: 'profile',
     locale: 'en_AU',
+    title: 'Jag Patel — Principal AI/ML Engineer',
+    description: 'Principal AI/ML Engineer with 18+ years in AI, MLOps, PromptFlow, DevSecOps, and cloud automation.',
+    url: 'https://jagdishkumarpatel.github.io',
+    images: [
+      {
+        url: '/images/avatar.jpg',
+        width: 800,
+        height: 800,
+        alt: 'Jag Patel — Principal AI/ML Engineer',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Jag Patel — Principal AI/ML Engineer',
+    description: '18+ years in AI/ML, LLMs, PromptFlow, DevSecOps, and cloud automation.',
+    images: ['/images/avatar.jpg'],
   },
   robots: {
     index: true,
     follow: true,
   },
+}
+
+// Add JSON-LD structured data for Person
+export const structuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: 'Jag Patel',
+  jobTitle: 'Principal AI/ML Engineer',
+  url: 'https://jagdishkumarpatel.github.io',
+  sameAs: [
+    'https://www.linkedin.com/in/jagjpatel/',
+    'https://github.com/JagdishkumarPatel',
+  ],
+  description: 'Principal AI/ML Engineer with 18+ years in AI, MLOps, PromptFlow, DevSecOps, and cloud automation.',
 }
 
 export default function RootLayout({
@@ -31,6 +86,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning className={`${GeistSans.variable} ${GeistMono.variable}`}>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        />
+      </head>
       <body className="font-sans bg-background text-foreground antialiased flex flex-col min-h-screen">
         <ThemeProvider
           attribute="data-theme"
