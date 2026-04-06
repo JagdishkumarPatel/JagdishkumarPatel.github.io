@@ -1,0 +1,63 @@
+---
+title: "Building a Local MCP Server to Automate Daily DevOps Tasks"
+slug: "local-mcp-server-automation"
+date: "2026-04-06"
+description: "I built a fully local MCP (Model Context Protocol) server using FastAPI and Phi-3 Mini to automate repetitive cloud and DevOps tasks — no cloud, no API keys, entirely on-device."
+tags: ["MCP", "Model Context Protocol", "FastAPI", "Local LLM", "Phi-3", "GPT4All", "AI Agents", "DevOps Automation", "MLOps", "Platform Engineering", "Python", "Productivity", "LLM", "On-Device AI"]
+feature_image: "/images/local-mcp-server.jpg"
+---
+
+I got tired of switching between terminals, running the same commands, and checking the same things every day.
+
+So I built something simple: a **local MCP (Model Context Protocol) server** that understands what I'm asking — and just does it. No cloud. No API keys. Runs entirely on my laptop using **FastAPI** and **Phi-3 Mini via GPT4All**.
+
+## 🧠 MCP — Three Core Primitives
+
+MCP (Model Context Protocol) works on three building blocks:
+
+### 🔧 Tools — actions it can execute
+
+- "start the frontend"
+- "restart a web app"
+- "check ML endpoint logs"
+
+### 📦 Resources — context it can read
+
+Current environment state, service status, config values — all available to the agent as structured context.
+
+### 📝 Prompts — reusable workflows
+
+Define a sequence once, trigger it by name. `"morning check"` automatically runs a chain of tools — no manual steps.
+
+> You define what's exposed. The agent just speaks your language and acts on it.
+
+## ⚙️ Under the Hood
+
+| Component | Tech |
+|---|---|
+| MCP Server | FastAPI |
+| Local LLM | Phi-3 Mini via GPT4All |
+| Routing | Hybrid (keyword → fast, LLM → when needed) |
+| Tool definitions | Modular JSON |
+
+## 🔐 Fully Local
+
+Prompts, infrastructure details, internal workflows — nothing leaves my machine. No SaaS subscriptions, no data residency concerns.
+
+## 💡 Why I Built It
+
+Not for AI hype — just to move faster and stop doing repetitive work.
+
+It feels like a lightweight personal assistant for daily cloud tasks, but fully under my control. The hybrid routing is the key — keywords handle the 80% of fast, predictable tasks instantly, and the LLM only kicks in when you need flexible natural language interpretation.
+
+What would you automate first with something like this?
+
+## Related Topics
+
+If you're exploring this space, these are worth researching alongside MCP:
+
+- **LangChain / LangGraph** — for orchestrating multi-step agent workflows
+- **Ollama** — alternative local LLM runtime (llama3, mistral, phi-3)
+- **OpenAI function calling** — cloud equivalent of MCP tools
+- **AutoGen / CrewAI** — multi-agent frameworks that pair well with MCP servers
+- **FastAPI + Pydantic** — the backbone for building typed, validated MCP tool endpoints

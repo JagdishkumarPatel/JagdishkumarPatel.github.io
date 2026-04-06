@@ -55,12 +55,12 @@ export default function BlogPostPage({ params }: Props) {
         {/* Main content */}
         <article className="flex-1 min-w-0">
           {post.feature_image && (
-            <div className="relative w-full rounded-xl overflow-hidden mb-8" style={{ aspectRatio: '16/5' }}>
+            <div className="relative w-full rounded-xl overflow-hidden mb-8 bg-muted" style={{ aspectRatio: '16/9' }}>
               <Image
                 src={post.feature_image}
                 alt={post.title}
                 fill
-                className="object-cover"
+                className="object-contain"
                 priority
               />
             </div>
