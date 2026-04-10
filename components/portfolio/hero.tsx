@@ -45,7 +45,7 @@ export function Hero() {
             {">"} Principal AI/ML Engineer
           </p>
           <p className="max-w-xl text-muted-foreground text-base md:text-lg leading-relaxed">
-            Building production-grade AI systems at scale — from architecture and model design to deployment and platform engineering.
+            18+ years designing and delivering scalable, secure, production-grade systems across AI/ML, cloud, and DevSecOps — from solution design and model development to platform engineering and production operations.
           </p>
         </div>
 
