@@ -1,5 +1,13 @@
 [
   {
+    "title": "Python Logging SDK — Production-Grade Distributed Observability",
+    "description": "A lightweight, plug-and-play Python Logging SDK that standardizes structured observability across AI/ML pipelines, distributed systems, and backend services. Automatic context injection (trace_id, request_id, span_id), sensitive data redaction, environment-aware config, and OpenTelemetry-compatible integration with Azure Monitor.",
+    "tech": ["Python", "Structured Logging", "OpenTelemetry", "Azure Monitor", "Async Context", "JSON Logging"],
+    "github": "",
+    "demo": "",
+    "blogSlug": "python-logging-sdk"
+  },
+  {
     "title": "Language-Agnostic API & AI/ML E2E Testing Framework",
     "description": "A plug-and-play reliability engine for modern API and AI/ML systems. JSON-driven DSL, parallel execution, built-in observability with structured logs, traces, and SLA enforcement. Works across Python, .NET, and ML pipelines.",
     "tech": ["TypeScript", "Playwright", "Node.js", "JSON DSL", "GitHub Actions"],
