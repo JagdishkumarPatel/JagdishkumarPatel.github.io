@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.2.1...v1.3.0) (2026-04-10)
+
+
+### Features
+
+* add Python Logging SDK post with SEO optimisation for Jag Patel keyword ([a751418](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/commit/a7514187184e04aaaec1e0e1e03ac96f819328bb))
+
 ## [1.2.1](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.2.0...v1.2.1) (2026-04-06)
 
 
