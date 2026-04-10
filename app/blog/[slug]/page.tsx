@@ -17,15 +17,35 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const post = getPostBySlug(params.slug)
   if (!post) return {}
+  const url = `https://jagdishkumarpatel.github.io/blog/${post.slug}`
+  const description = post.description || post.excerpt
   return {
-    title: `${post.title} | Jag Patel`,
-    description: post.description || post.excerpt,
+    title: post.title.startsWith('Jag Patel') ? post.title : `${post.title} | Jag Patel`,
+    description,
+    keywords: (post as any).keywords ?? post.tags ?? [],
+    authors: [{ name: 'Jag Patel', url: 'https://jagdishkumarpatel.github.io' }],
+    alternates: { canonical: url },
     openGraph: {
       title: post.title,
-      description: post.description || post.excerpt,
-      images: post.feature_image ? [post.feature_image] : [],
+      description,
+      url,
+      siteName: 'Jag Patel',
+      images: post.feature_image
+        ? [{ url: post.feature_image, width: 1400, height: 788, alt: post.title }]
+        : [],
       type: 'article',
+      publishedTime: post.date,
+      authors: ['Jag Patel'],
+      tags: post.tags ?? [],
     },
+    twitter: {
+      card: 'summary_large_image',
+      title: post.title,
+      description,
+      images: post.feature_image ? [post.feature_image] : [],
+      creator: '@JagPatel',
+    },
+    robots: { index: true, follow: true },
   }
 }
 
