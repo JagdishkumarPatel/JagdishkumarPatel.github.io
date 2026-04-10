@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.3.1...v1.3.2) (2026-04-10)
+
+
+### Bug Fixes
+
+* sync .dark class for all dark themes to fix text visibility across site ([e221aa7](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/commit/e221aa7bef1e265b2bdee174a17233b0488085d7))
+
 ## [1.3.1](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.3.0...v1.3.1) (2026-04-10)
 
 
