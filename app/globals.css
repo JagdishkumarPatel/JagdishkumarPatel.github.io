@@ -228,7 +228,16 @@
   @apply prose prose-slate max-w-none dark:prose-invert;
 }
 
-/* Gradient heading utility */
+/* Gradient heading utility — uses theme-aware primary colour */
 .gradient-heading {
-  @apply bg-gradient-to-r from-blue-500 via-purple-500 to-purple-600 bg-clip-text text-transparent;
+  background: linear-gradient(
+    to right,
+    hsl(var(--primary)),
+    hsl(var(--primary) / 0.75),
+    hsl(var(--primary))
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
 }

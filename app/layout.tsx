@@ -3,6 +3,7 @@ import { GeistSans } from 'geist/font/sans'
 import { GeistMono } from 'geist/font/mono'
 import './globals.css'
 import { ThemeProvider } from '@/components/theme-provider'
+import { ThemeDarkSync } from '@/components/theme-dark-sync'
 import { Nav } from '@/components/layout/nav'
 import { Footer } from '@/components/layout/footer'
 
@@ -99,6 +100,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
+          <ThemeDarkSync />
           <Nav />
           <main className="flex-1">{children}</main>
           <Footer />
