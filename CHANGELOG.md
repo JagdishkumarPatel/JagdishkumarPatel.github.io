@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.4.0...v1.5.0) (2026-04-11)
+
+
+### Features
+
+* add tag filters to blog and projects pages, add /blog listing page ([f34e0e3](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/commit/f34e0e3a368bfba7232107ea37eaa4d768f1973b))
+
 # [1.4.0](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.3.2...v1.4.0) (2026-04-11)
 
 
