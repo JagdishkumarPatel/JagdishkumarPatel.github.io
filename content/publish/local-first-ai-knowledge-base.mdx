@@ -1,0 +1,117 @@
+---
+title: "Building a Local-First AI Knowledge Base — Chat with Your Files, Offline"
+slug: "local-first-ai-knowledge-base"
+date: "2026-04-12"
+description: "I built a unified local AI chat interface that lets you query PDFs, Word files, PPTs, markdown, and notes using RAG — fully on-device with Gemma 4 (2B) via Ollama, ChromaDB, and NetworkX. No cloud. No data leaves your machine."
+tags: ["AI", "RAG", "Local LLM", "Ollama", "ChromaDB", "FastAPI", "Next.js", "Python", "Knowledge Graph", "NetworkX", "Privacy", "On-Device AI", "LLM", "Platform Engineering", "MLOps", "GenerativeAI", "OpenSource"]
+feature_image: "/images/local-first-ai-knowledge-base.png"
+---
+
+The AI industry is quietly shifting from cloud-first to local-first intelligence — driven by privacy, cost, and on-device compute. Major vendors like Apple, Google, and Microsoft are already moving in this direction, especially for personal data where privacy is critical.
+
+That's exactly what I've been exploring: a **local-first AI system** built for real-world use cases.
+
+Chat with your PDFs, Word files, PPTs, and notes — like ChatGPT but everything stays offline. What would you ask your own knowledge base if it lived on your laptop?
+
+## 🧠 Choosing the Right Model
+
+Not all local models are equal. Here's what I found during testing:
+
+| Model | Best For | Notes |
+|---|---|---|
+| **Phi-3** | Lightweight apps, edge devices, fast inference | Efficient and strong for its size |
+| **Gemma 3** | RAG systems, chat interfaces, knowledge-heavy workflows | Better context, usability, and scalability |
+| **Gemma 4 (2B)** | Next-gen privacy-first AI workflows | My current pick — promising direction |
+
+For a RAG-based knowledge base, **Gemma 3 and Gemma 4** win on context handling and retrieval quality. Phi-3 is excellent if you prioritise raw inference speed or are targeting edge devices.
+
+## ⚙️ What I Built
+
+A unified chat interface where you can:
+
+- Chat with **PDFs, Word docs, PPTs, markdown, and plain notes**
+- Query your internal knowledge base in natural language
+- Get **instant, context-aware answers with citations**
+- Work fully **offline** — zero cloud dependency
+
+## 🏗️ Architecture
+
+### Frontend
+
+| Layer | Technology |
+|---|---|
+| Framework | Next.js 15 + React 19 |
+| UI components | shadcn/ui + Tailwind v4 |
+| Auth | NextAuth |
+
+### Backend
+
+| Layer | Technology |
+|---|---|
+| API server | FastAPI (Python), local MCP server |
+| Local LLM | Gemma 4 (2B) via Ollama |
+| Vector store | ChromaDB |
+| Knowledge graph | NetworkX |
+| Embeddings | nomic-embed-text |
+
+## 📚 RAG — How the Knowledge Base Works
+
+The retrieval pipeline combines **vector search** (ChromaDB) with a **knowledge graph** (NetworkX) to deliver richer, more contextual answers than vector search alone.
+
+When you ask a question:
+
+1. The query is embedded using `nomic-embed-text`
+2. ChromaDB performs semantic similarity search across indexed documents
+3. NetworkX traverses relationship edges to surface connected concepts
+4. Relevant chunks are assembled into a context window
+5. Gemma 4 generates a response with source citations
+
+## ⚡ Smart Indexing — Only What Changed
+
+One of the most practical features is **hash-based incremental indexing**:
+
+- Files are fingerprinted on startup
+- Only **changed or new files** are re-embedded — not the entire corpus
+- Indexing runs in the background, so the UI is immediately usable
+- The knowledge graph is **persisted to disk** for fast cold starts
+
+This makes the system fast enough for daily use, even on a laptop without a GPU.
+
+## 🔐 Why Local-First?
+
+Personal documents contain sensitive data — financial records, legal notes, personal journals, internal research. Sending these to a cloud API means:
+
+- Data residency risk
+- Vendor access to your content
+- Ongoing SaaS costs
+- Internet dependency
+
+Running everything locally with **Ollama** eliminates all four concerns. The model, the embeddings, and the graph all run on your machine. Nothing leaves.
+
+## 💡 What This Unlocks
+
+Once your knowledge base is indexed, the system becomes a **personal research assistant**:
+
+- Ask questions about meeting notes from six months ago
+- Cross-reference concepts between multiple documents
+- Surface information you forgot you had
+- Work offline, on a plane, without a VPN
+
+> Local-first AI + your own knowledge base = practical, private intelligence.
+
+## 📘 What I Learned
+
+The combination of **vector search + knowledge graph** is more powerful than either alone. ChromaDB handles semantic proximity well, but NetworkX lets me encode explicit relationships between entities — people, projects, concepts — that embeddings alone miss.
+
+The incremental indexer was the hardest part to get right. Getting hash comparison, background threading, and graph persistence to work reliably together took iteration. But it's the feature that makes the system usable every day.
+
+Model choice at this scale matters less than indexing quality. A well-chunked, well-indexed corpus with a smaller model outperforms a larger model on poorly prepared data.
+
+## Related Topics
+
+- **Ollama** — run Gemma, Phi-3, Mistral and more locally
+- **LlamaIndex** — alternative RAG orchestration framework
+- **LangChain** — multi-step agent and retrieval pipelines
+- **ChromaDB** — open source vector store for embedding-based search
+- **NetworkX** — Python library for building and querying knowledge graphs
+- **nomic-embed-text** — high-quality open source embedding model
