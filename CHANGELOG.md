@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.3.2...v1.4.0) (2026-04-11)
+
+
+### Features
+
+* add local-first AI knowledge base blog post and project entry ([85ee3fe](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/commit/85ee3fe0d6b23a27ed7ace1ec55c37c3e5c39692))
+
 ## [1.3.2](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.3.1...v1.3.2) (2026-04-10)
 
 
@@ -68,6 +75,3 @@
 * add personalized content for Jag Patel's portfolio ([a33d7bb](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/commit/a33d7bb5d8887a1888ec41c1a31261cec1ad19df))
 * add sticky nav, hero with avatar, footer, horizontal blog cards, blog TOC ([2699efc](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/commit/2699efc4220d7c7c80e3abb59115cbeeea54937d))
 * implement clean Next.js structure with semantic release and deployment ([f5001e2](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/commit/f5001e219ee87ec4edcdef030e4c6fba27f5f0b1))
-
-
-
