@@ -47,6 +47,7 @@ const posts = fs
       date: data.date || "",
       excerpt,
       feature_image,
+      tags: data.tags || [],
     };
   })
   .sort((a, b) => (a.date < b.date ? 1 : -1));
