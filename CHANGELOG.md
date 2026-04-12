@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.9.1...v1.10.0) (2026-04-12)
+
+
+### Features
+
+* add typewriter keyword animation to hero tagline ([073d331](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/commit/073d331d499f946a8f3ffad2d791e18171c041b3))
+
 ## [1.9.1](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.9.0...v1.9.1) (2026-04-12)
 
 
