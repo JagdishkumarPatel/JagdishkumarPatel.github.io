@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.5.0...v1.6.0) (2026-04-12)
+
+
+### Features
+
+* add multi-select dropdown filter to blog and projects pages, limit homepage to 3 posts ([0e777ba](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/commit/0e777ba398b7c5dee1f3f801e9d10ccdd871d73f))
+
 # [1.5.0](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.4.0...v1.5.0) (2026-04-11)
 
 
