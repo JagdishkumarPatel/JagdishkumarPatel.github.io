@@ -26,18 +26,17 @@ export function HomeEntry({ children }: { children: React.ReactNode }) {
   }
 
   return (
-    <div>
-      <div className="flex justify-end px-6 pt-4">
-        <button
-          className="text-xs text-muted-foreground hover:text-primary border border-border rounded-full px-4 py-1.5 transition-colors"
-          onClick={() => {
-            localStorage.removeItem(STORAGE_KEY)
-            setView("neural")
-          }}
-        >
-          🧠 Neural View
-        </button>
-      </div>
+    <div className="relative">
+      {/* Fixed floating button — below nav (z-50) but always visible */}
+      <button
+        className="fixed bottom-6 right-6 z-40 text-xs text-muted-foreground hover:text-primary border border-border bg-background/80 backdrop-blur-sm rounded-full px-4 py-2 shadow-md transition-colors"
+        onClick={() => {
+          localStorage.removeItem(STORAGE_KEY)
+          setView("neural")
+        }}
+      >
+        🧠 Neural View
+      </button>
       {children}
     </div>
   )
