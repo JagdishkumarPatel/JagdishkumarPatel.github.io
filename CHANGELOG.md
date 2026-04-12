@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.6.0...v1.7.0) (2026-04-12)
+
+
+### Features
+
+* right-align filter dropdown on blog and projects pages, replace pill filters with dropdown, fix nav blog link ([017271c](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/commit/017271c1b21ff14edfbc45605978aebd6a043186))
+
 # [1.6.0](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.5.0...v1.6.0) (2026-04-12)
 
 
