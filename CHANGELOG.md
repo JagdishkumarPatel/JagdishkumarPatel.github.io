@@ -1,3 +1,10 @@
+## [1.11.1](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.11.0...v1.11.1) (2026-04-12)
+
+
+### Bug Fixes
+
+* rewrite neural network nodes as div overlay for reliable click/hover ([2917a89](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/commit/2917a89da5c8e38f03b7f8166d8f0ae58367b25d))
+
 # [1.11.0](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.10.0...v1.11.0) (2026-04-12)
 
 
