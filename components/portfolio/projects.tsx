@@ -111,6 +111,7 @@ export function ProjectsPage({ projects }: { projects: Project[] }) {
         <div>
           <p className="font-mono text-sm text-primary mb-1">{`>`} work</p>
           <h1 className="text-3xl font-extrabold tracking-tight">Projects</h1>
+          <hr className="border-border mb-8 mt-2" />
           <p className="text-sm text-muted-foreground mt-2">
             {filtered.length} project{filtered.length !== 1 ? 's' : ''}
             {selectedTechs.length > 0 ? ` matching selected tech` : ''}
@@ -127,7 +128,6 @@ export function ProjectsPage({ projects }: { projects: Project[] }) {
           </div>
         )}
       </div>
-      <hr className="border-border mb-8" />
 
       <div className="grid md:grid-cols-2 gap-6">
         {filtered.map((project) => (
