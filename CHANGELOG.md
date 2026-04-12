@@ -1,3 +1,10 @@
+## [1.13.1](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.13.0...v1.13.1) (2026-04-12)
+
+
+### Bug Fixes
+
+* stable node positions during hover re-renders, fix text overflow in circles ([c4ba6a7](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/commit/c4ba6a725741345171a05d17c5bf33117a03ec05))
+
 # [1.13.0](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.12.0...v1.13.0) (2026-04-12)
 
 
