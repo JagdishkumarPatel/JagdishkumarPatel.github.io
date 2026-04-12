@@ -1,3 +1,10 @@
+# [1.13.0](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.12.0...v1.13.0) (2026-04-12)
+
+
+### Features
+
+* draggable nodes, auto-fit text, real-time edge tracking, reset layout ([aa3b563](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/commit/aa3b563f2936ea9d71f9d4ef986081257453c7cc))
+
 # [1.12.0](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.11.1...v1.12.0) (2026-04-12)
 
 
