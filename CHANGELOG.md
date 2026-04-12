@@ -1,3 +1,10 @@
+## [1.13.2](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.13.1...v1.13.2) (2026-04-12)
+
+
+### Bug Fixes
+
+* pin deploy-pages to v3, add environment url output to fix status polling timeout ([ae8920a](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/commit/ae8920a0578f8a663258bec2b7dd5134518689c7))
+
 ## [1.13.1](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.13.0...v1.13.1) (2026-04-12)
 
 
