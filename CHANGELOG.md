@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.7.0...v1.8.0) (2026-04-12)
+
+
+### Features
+
+* add Capabilities section to homepage after About ([7978487](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/commit/7978487cdcd947fd22dae909cb5b1d976227a380))
+
 # [1.7.0](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.6.0...v1.7.0) (2026-04-12)
 
 
