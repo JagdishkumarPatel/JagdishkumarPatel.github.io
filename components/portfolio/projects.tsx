@@ -19,6 +19,7 @@ function ProjectCard({ project }: { project: Project }) {
   return (
     <div className="flex flex-col rounded-xl border border-border bg-card p-6 hover:border-primary/50 hover:shadow-md transition-all duration-200">
       <h3 className="font-semibold text-lg mb-2 leading-snug">{project.title}</h3>
+      <hr className="border-border mb-8" /> {/* Add a divider */}
       <p className="text-sm text-muted-foreground mb-4 leading-relaxed flex-1">{project.description}</p>
       <div className="flex flex-wrap gap-2 mb-5">
         {project.tech.map((tech) => (
