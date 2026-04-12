@@ -9,20 +9,20 @@ import { useRouter } from "next/navigation"
 type Node = { id: string; label: string; href: string; layer: 0|1|2|3; description: string }
 
 const NODES: Node[] = [
-  { id: "jag",      label: "Jag Patel",      href: "/about",          layer: 0, description: "Principal AI/ML Engineer · 18+ yrs" },
-  { id: "aiml",     label: "AI / ML",         href: "/projects",       layer: 1, description: "Machine Learning · Deep Learning · Agents" },
-  { id: "mlops",    label: "MLOps",           href: "/projects",       layer: 1, description: "Pipelines · CI/CD · Monitoring" },
-  { id: "cloud",    label: "Cloud Eng",       href: "/projects",       layer: 1, description: "Azure · AWS · Platform Engineering" },
-  { id: "llm",      label: "LLM Eng",         href: "/blog",           layer: 1, description: "Prompt Design · RAG · Fine-tuning" },
-  { id: "proj",     label: "Projects",        href: "/projects",       layer: 2, description: "Real-world AI & cloud systems" },
-  { id: "certs",    label: "Certs",           href: "/certifications", layer: 2, description: "Azure · AWS · Professional certs" },
-  { id: "edu",      label: "Education",       href: "/education",      layer: 2, description: "Academic & professional background" },
-  { id: "blog",     label: "Blogs",           href: "/blog",           layer: 2, description: "Thoughts, tutorials & deep dives" },
-  { id: "devsec",   label: "DevSecOps",       href: "/projects",       layer: 3, description: "Security · Compliance · Zero Trust" },
-  { id: "platform", label: "Platform",        href: "/projects",       layer: 3, description: "Self-hosted infra · Developer portals" },
-  { id: "obs",      label: "Observability",   href: "/projects",       layer: 3, description: "Logging SDK · Dashboards · Alerting" },
-  { id: "contact",  label: "Contact",         href: "/contact",        layer: 3, description: "Get in touch" },
-  { id: "about",    label: "About",           href: "/about",          layer: 3, description: "Background & experience" },
+  { id: "jag",      label: "Jag Patel",    href: "/about",          layer: 0, description: "Principal AI/ML Engineer · 18+ yrs" },
+  { id: "aiml",     label: "AI / ML",      href: "/projects",       layer: 1, description: "Machine Learning · Deep Learning · Agents" },
+  { id: "mlops",    label: "MLOps",        href: "/projects",       layer: 1, description: "Pipelines · CI/CD · Monitoring" },
+  { id: "cloud",    label: "Cloud Eng",    href: "/projects",       layer: 1, description: "Azure · AWS · Platform Engineering" },
+  { id: "llm",      label: "LLM Eng",      href: "/blog",           layer: 1, description: "Prompt Design · RAG · Fine-tuning" },
+  { id: "proj",     label: "Projects",     href: "/projects",       layer: 2, description: "Real-world AI & cloud systems" },
+  { id: "certs",    label: "Certs",        href: "/certifications", layer: 2, description: "Azure · AWS · Professional certs" },
+  { id: "edu",      label: "Education",    href: "/education",      layer: 2, description: "Academic & professional background" },
+  { id: "blog",     label: "Blogs",        href: "/blog",           layer: 2, description: "Thoughts, tutorials & deep dives" },
+  { id: "devsec",   label: "DevSecOps",    href: "/projects",       layer: 3, description: "Security · Compliance · Zero Trust" },
+  { id: "platform", label: "Platform",     href: "/projects",       layer: 3, description: "Self-hosted infra · Developer portals" },
+  { id: "obs",      label: "Observ-ability", href: "/projects",     layer: 3, description: "Logging SDK · Dashboards · Alerting" },
+  { id: "contact",  label: "Contact",      href: "/contact",        layer: 3, description: "Get in touch" },
+  { id: "about",    label: "About",        href: "/about",          layer: 3, description: "Background & experience" },
 ]
 
 // Initial positions as % [left, top]
@@ -50,16 +50,22 @@ const LAYER_BG: Record<number, string> = {
   2: "from-emerald-500 to-emerald-700",
   3: "from-amber-500 to-amber-700",
 }
-const NODE_SIZE: Record<number, number> = { 0: 74, 1: 60, 2: 56, 3: 52 }
+const NODE_SIZE: Record<number, number> = { 0: 80, 1: 64, 2: 58, 3: 54 }
 
-// Dynamic font size to fit label inside circle
-function labelFontSize(label: string, size: number): number {
-  const maxWidth = size * 0.62
-  const approxCharW = 6.2
-  const charsPerLine = Math.floor(maxWidth / approxCharW)
-  const lines = Math.ceil(label.length / charsPerLine)
-  const available = (size * 0.62) / Math.max(lines, 1)
-  return Math.max(7, Math.min(13, available * 0.8))
+/** Returns { fontSize, lines } so text fills the circle as best as possible */
+function fitText(label: string, size: number): { fontSize: number; lineHeight: number } {
+  // Usable square inside circle ≈ size * 0.65
+  const usable = size * 0.65
+  // Try fitting in 1, 2, 3 lines — pick largest font that fits
+  for (const lines of [1, 2, 3]) {
+    const charsPerLine = Math.ceil(label.length / lines)
+    // approx 5.5px per char at 10px fontSize → scale proportionally
+    const fontForWidth = (usable / charsPerLine) / 0.55
+    const fontForHeight = (usable / lines) * 0.72
+    const fs = Math.min(fontForWidth, fontForHeight)
+    if (fs >= 7) return { fontSize: Math.min(fs, 14), lineHeight: 1.15 }
+  }
+  return { fontSize: 7, lineHeight: 1.15 }
 }
 
 // ─── Component ───────────────────────────────────────────────────────────────
@@ -71,23 +77,58 @@ export function NeuralNetworkHome({ onSkip }: { onSkip: () => void }) {
   const [hoveredId, setHoveredId] = useState<string | null>(null)
   const [tooltip, setTooltip] = useState<Node | null>(null)
   const [ready, setReady] = useState(false)
+  // resetKey forces full remount of motion.divs (clears Framer Motion internal drag offset)
+  const [resetKey, setResetKey] = useState(0)
 
-  // Track absolute pixel positions for nodes (for SVG lines)
-  const nodePosRef = useRef<Record<string, { x: number; y: number }>>({})
-  // Refs to SVG line elements for direct DOM updates (no re-render on drag)
+  // ── Position tracking ──────────────────────────────────────────────────────
+  // initPosRef: stable pixel positions for left/top CSS — NEVER updated by drag
+  const initPosRef = useRef<Record<string, { x: number; y: number }>>({})
+  // dragOffRef: accumulated drag offset per node — used only for SVG line positions
+  const dragOffRef = useRef<Record<string, { dx: number; dy: number }>>({})
+  // SVG line DOM refs for direct updates (no re-render on drag)
   const lineElRefs = useRef<Record<string, SVGLineElement | null>>({})
-  // Per-node: is this a drag or a click?
+  // Per-node: was this a drag gesture (vs a click)?
   const dragOccurredRef = useRef<Record<string, boolean>>({})
 
-  // Initialize positions from POS percentages
   const initPositions = useCallback((w: number, h: number) => {
     NODES.forEach(n => {
-      nodePosRef.current[n.id] = {
+      initPosRef.current[n.id] = {
         x: (POS[n.id][0] / 100) * w,
         y: (POS[n.id][1] / 100) * h,
       }
+      dragOffRef.current[n.id] = { dx: 0, dy: 0 }
     })
   }, [])
+
+  // Current visual center of a node = stable init pos + accumulated drag offset
+  const getCenter = useCallback((id: string) => {
+    const ip = initPosRef.current[id]
+    if (!ip) return { x: 0, y: 0 }
+    const off = dragOffRef.current[id] ?? { dx: 0, dy: 0 }
+    return { x: ip.x + off.dx, y: ip.y + off.dy }
+  }, [])
+
+  // Update connected SVG lines directly via DOM (zero re-render overhead)
+  const updateLines = useCallback((id: string) => {
+    EDGES.forEach(([a, b]) => {
+      if (a !== id && b !== id) return
+      const el = lineElRefs.current[`${a}-${b}`]
+      if (!el) return
+      const pa = getCenter(a), pb = getCenter(b)
+      el.setAttribute("x1", String(pa.x))
+      el.setAttribute("y1", String(pa.y))
+      el.setAttribute("x2", String(pb.x))
+      el.setAttribute("y2", String(pb.y))
+    })
+  }, [getCenter])
+
+  // Called on every drag frame — only updates refs + DOM, no setState
+  const handleDrag = useCallback((id: string, info: PanInfo) => {
+    dragOccurredRef.current[id] = true
+    const off = dragOffRef.current[id] ?? { dx: 0, dy: 0 }
+    dragOffRef.current[id] = { dx: off.dx + info.delta.x, dy: off.dy + info.delta.y }
+    updateLines(id)
+  }, [updateLines])
 
   useEffect(() => {
     function measure() {
@@ -98,43 +139,25 @@ export function NeuralNetworkHome({ onSkip }: { onSkip: () => void }) {
       initPositions(r.width, r.height)
     }
     measure()
-    // Retry after paint
     const t1 = setTimeout(measure, 50)
     const t2 = setTimeout(() => setReady(true), 120)
     window.addEventListener("resize", measure)
     return () => { window.removeEventListener("resize", measure); clearTimeout(t1); clearTimeout(t2) }
   }, [initPositions])
 
-  const getPos = (id: string) => nodePosRef.current[id] ?? { x: (POS[id][0]/100)*dims.w, y: (POS[id][1]/100)*dims.h }
-
-  // Update connected SVG lines directly via DOM (no React re-render = no lag)
-  const updateLines = useCallback((id: string) => {
-    EDGES.forEach(([a, b]) => {
-      if (a !== id && b !== id) return
-      const el = lineElRefs.current[`${a}-${b}`]
-      if (!el) return
-      const pa = getPos(a), pb = getPos(b)
-      el.setAttribute("x1", String(pa.x))
-      el.setAttribute("y1", String(pa.y))
-      el.setAttribute("x2", String(pb.x))
-      el.setAttribute("y2", String(pb.y))
-    })
-  }, [dims])
-
-  // Called on every drag frame
-  const handleDrag = useCallback((id: string, info: PanInfo) => {
-    dragOccurredRef.current[id] = true
-    const prev = nodePosRef.current[id] ?? getPos(id)
-    nodePosRef.current[id] = { x: prev.x + info.delta.x, y: prev.y + info.delta.y }
-    updateLines(id)
-  }, [updateLines])
-
   const isHighlighted = (id: string) =>
     !hoveredId || hoveredId === id ||
     EDGES.some(([a,b]) => (a===hoveredId||b===hoveredId) && (a===id||b===id))
 
+  const handleReset = () => {
+    if (containerRef.current) {
+      const r = containerRef.current.getBoundingClientRect()
+      initPositions(r.width, r.height)
+    }
+    setResetKey(k => k + 1)
+  }
+
   if (dims.w === 0) {
-    // Render invisible container to measure
     return (
       <div className="relative min-h-screen w-full flex flex-col items-center justify-center bg-background pt-20 pb-6">
         <div ref={containerRef} className="relative w-full max-w-4xl mx-auto px-4" style={{ height: "min(80vh, 620px)" }} />
@@ -157,7 +180,7 @@ export function NeuralNetworkHome({ onSkip }: { onSkip: () => void }) {
       {/* Canvas */}
       <div ref={containerRef} className="relative w-full max-w-4xl mx-auto px-4" style={{ height: "min(80vh, 620px)" }}>
 
-        {/* SVG edges — line elements stored in refs for direct DOM updates */}
+        {/* SVG edges */}
         <svg className="absolute inset-0 w-full h-full pointer-events-none" style={{ zIndex: 1 }}>
           <defs>
             <filter id="ln-glow" x="-50%" y="-50%" width="200%" height="200%">
@@ -166,7 +189,7 @@ export function NeuralNetworkHome({ onSkip }: { onSkip: () => void }) {
             </filter>
           </defs>
           {EDGES.map(([a, b]) => {
-            const pa = getPos(a), pb = getPos(b)
+            const pa = getCenter(a), pb = getCenter(b)
             const active = !hoveredId || a === hoveredId || b === hoveredId
             const srcColor = LAYER_COLOR[NODES.find(n => n.id === a)!.layer]
             return (
@@ -183,7 +206,7 @@ export function NeuralNetworkHome({ onSkip }: { onSkip: () => void }) {
           })}
           {/* Animated pulse dots on hover */}
           {hoveredId && EDGES.filter(([a,b]) => a===hoveredId||b===hoveredId).map(([a,b]) => {
-            const pa = getPos(a), pb = getPos(b)
+            const pa = getCenter(a), pb = getCenter(b)
             return (
               <motion.circle key={`p-${a}-${b}`} r={3.5} fill="#a78bfa"
                 initial={{ x: pa.x, y: pa.y }}
@@ -194,17 +217,28 @@ export function NeuralNetworkHome({ onSkip }: { onSkip: () => void }) {
           })}
         </svg>
 
-        {/* Nodes */}
+        {/* Nodes — key includes resetKey so remounting clears Framer internal drag offset */}
         {ready && NODES.map((node, i) => {
-          const { x, y } = getPos(node.id)
+          const ip = initPosRef.current[node.id]
+          if (!ip) return null
           const size = NODE_SIZE[node.layer]
           const highlighted = isHighlighted(node.id)
-          const fs = labelFontSize(node.label, size)
+          const { fontSize, lineHeight } = fitText(node.label, size)
 
           return (
-            <motion.div key={node.id}
+            <motion.div
+              key={`${resetKey}-${node.id}`}
               className="absolute select-none"
-              style={{ left: x, top: y, width: size, height: size, marginLeft: -size/2, marginTop: -size/2, zIndex: hoveredId === node.id ? 10 : 2 }}
+              style={{
+                // left/top use ONLY the stable init positions — never updated by drag
+                left: ip.x,
+                top: ip.y,
+                width: size,
+                height: size,
+                marginLeft: -size/2,
+                marginTop: -size/2,
+                zIndex: hoveredId === node.id ? 10 : 2,
+              }}
               initial={{ scale: 0, opacity: 0 }}
               animate={{ scale: 1, opacity: highlighted ? 1 : 0.18 }}
               transition={{ duration: 0.35, delay: node.layer * 0.08 + i * 0.02, type: "spring", stiffness: 220 }}
@@ -213,15 +247,15 @@ export function NeuralNetworkHome({ onSkip }: { onSkip: () => void }) {
               dragElastic={0}
               onDragStart={() => { dragOccurredRef.current[node.id] = false }}
               onDrag={(_, info) => handleDrag(node.id, info)}
-              whileDrag={{ scale: 1.12, zIndex: 20 }}
+              whileDrag={{ scale: 1.15, zIndex: 20 }}
             >
               <button
                 className={`w-full h-full rounded-full bg-gradient-to-br ${LAYER_BG[node.layer]} text-white font-semibold flex items-center justify-center text-center border-2 border-white/20 shadow-lg focus:outline-none cursor-grab active:cursor-grabbing`}
                 style={{
-                  fontSize: fs,
-                  lineHeight: 1.2,
-                  padding: "4px",
-                  boxShadow: hoveredId === node.id ? `0 0 24px 7px ${LAYER_COLOR[node.layer]}66` : undefined,
+                  fontSize,
+                  lineHeight,
+                  padding: "6px",
+                  boxShadow: hoveredId === node.id ? `0 0 28px 8px ${LAYER_COLOR[node.layer]}66` : undefined,
                 }}
                 onPointerEnter={() => { setHoveredId(node.id); setTooltip(node) }}
                 onPointerLeave={() => { setHoveredId(null); setTooltip(null) }}
@@ -231,7 +265,14 @@ export function NeuralNetworkHome({ onSkip }: { onSkip: () => void }) {
                 }}
                 aria-label={node.label}
               >
-                <span className="overflow-hidden" style={{ display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical" as const, maxWidth: size * 0.75 }}>
+                <span style={{
+                  display: "block",
+                  width: "100%",
+                  wordBreak: "break-word",
+                  overflowWrap: "break-word",
+                  textAlign: "center",
+                  hyphens: "auto",
+                }}>
                   {node.label}
                 </span>
               </button>
@@ -265,16 +306,15 @@ export function NeuralNetworkHome({ onSkip }: { onSkip: () => void }) {
         ))}
       </motion.div>
 
-      {/* Reset positions */}
+      {/* Reset & Skip */}
       <motion.button
         className="mt-2 z-10 text-[10px] text-muted-foreground/50 hover:text-muted-foreground transition-colors"
         initial={{ opacity: 0 }} animate={{ opacity: ready ? 1 : 0 }} transition={{ delay: 1 }}
-        onClick={() => { initPositions(dims.w, dims.h); setReady(false); setTimeout(() => setReady(true), 50) }}
+        onClick={handleReset}
       >
         ↺ Reset layout
       </motion.button>
 
-      {/* Skip */}
       <motion.button
         className="mt-3 z-10 px-5 py-2 rounded-full border border-border text-sm text-muted-foreground hover:text-foreground hover:border-primary transition-colors"
         initial={{ opacity: 0 }} animate={{ opacity: ready ? 1 : 0 }} transition={{ delay: 1.1 }}
