@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.8.0...v1.9.0) (2026-04-12)
+
+
+### Features
+
+* add Google Search Console verification file ([ebe890e](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/commit/ebe890e53d314cc89e1eead06351c41c84ad0e82))
+
 # [1.8.0](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.7.0...v1.8.0) (2026-04-12)
 
 
