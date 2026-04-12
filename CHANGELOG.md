@@ -5,6 +5,13 @@
 
 * move Google Search Console verification file to public/ ([0d8695d](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/commit/0d8695df2e86b09b4b95a0126244578bfc51ef0e))
 
+## [1.9.1](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.9.0...v1.9.1) (2026-04-12)
+
+
+### Bug Fixes
+
+* move Google Search Console verification file to public/ ([0d8695d](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/commit/0d8695df2e86b09b4b95a0126244578bfc51ef0e))
+
 # [1.9.0](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.8.0...v1.9.0) (2026-04-12)
 
 
