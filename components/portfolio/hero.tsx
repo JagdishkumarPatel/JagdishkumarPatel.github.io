@@ -45,7 +45,7 @@ export function Hero() {
             {">"} Principal AI/ML Engineer
           </p>
           <p className="max-w-xl text-muted-foreground text-base md:text-lg leading-relaxed">
-            18+ years designing and delivering scalable, secure, production-grade systems across AI/ML, cloud, and DevSecOps — from solution design and model development to platform engineering and production operations.
+            18+ years designing and delivering scalable, secure, production-grade systems — spanning AI/ML engineering, machine learning, MLOps, cloud engineering, DevSecOps, and platform engineering.
           </p>
         </div>
 
@@ -97,7 +97,7 @@ export function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 1.1, duration: 1.2, ease: 'easeOut' }}
             >
-              18+ years across AI/ML, Cloud, and DevSecOps.
+              AI/ML · Machine Learning · MLOps · Cloud Engineering · DevSecOps
             </motion.span>
             <div className="flex flex-col items-center gap-0.5 animate-bounce text-muted-foreground/40">
               <div className="w-px h-4 bg-current" />

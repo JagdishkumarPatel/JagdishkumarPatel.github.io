@@ -20,7 +20,7 @@ if (!fs.existsSync(PUBLIC_DIR)) {
 }
 
 const SITE_URL = process.env.SITE_URL || 'https://jagdishkumarpatel.github.io';
-const STATIC_ROUTES = ['/', '/blog/'];
+const STATIC_ROUTES = ['/', '/about/', '/blog/', '/projects/', '/certifications/', '/education/', '/contact/'];
 
 function isoDate(d) {
   try {
