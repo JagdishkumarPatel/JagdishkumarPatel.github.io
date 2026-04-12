@@ -1,3 +1,10 @@
+# [1.12.0](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.11.1...v1.12.0) (2026-04-12)
+
+
+### Features
+
+* expand neural network to 14 nodes across 4 layers with full page routing ([af25118](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/commit/af25118ffe3a91caaa844c3d9adc9728faa3552a))
+
 ## [1.11.1](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.11.0...v1.11.1) (2026-04-12)
 
 
