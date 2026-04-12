@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.10.0...v1.11.0) (2026-04-12)
+
+
+### Features
+
+* add neural network homepage with classic view toggle ([7bcceaf](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/commit/7bcceaf25720827439a8408fcba9dbfb2e06295b))
+
 # [1.10.0](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.9.1...v1.10.0) (2026-04-12)
 
 
