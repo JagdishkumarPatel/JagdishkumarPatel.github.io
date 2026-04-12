@@ -40,7 +40,7 @@ export function BlogPage({ posts }: { posts: PostMeta[] }) {
         <span>/</span>
         <span className="text-foreground">Blog</span>
       </div>
-      <div className="mb-8 flex items-end justify-between gap-4">
+      <div className="mb-2 flex items-end justify-between gap-4">
         <div>
           <p className="font-mono text-sm text-primary mb-1">{'>'} writing</p>
           <h1 className="text-3xl font-extrabold tracking-tight">All Posts</h1>
@@ -60,6 +60,7 @@ export function BlogPage({ posts }: { posts: PostMeta[] }) {
           </div>
         )}
       </div>
+      <hr className="border-border mb-8" />
 
       <div className="space-y-6">
         {filtered.map((post) => (

@@ -106,7 +106,7 @@ export function ProjectsPage({ projects }: { projects: Project[] }) {
         <span>/</span>
         <span className="text-foreground">Projects</span>
       </div>
-      <div className="mb-8 flex items-end justify-between gap-4">
+      <div className="mb-2 flex items-end justify-between gap-4">
         <div>
           <p className="font-mono text-sm text-primary mb-1">{`>`} work</p>
           <h1 className="text-3xl font-extrabold tracking-tight">Projects</h1>
@@ -126,6 +126,7 @@ export function ProjectsPage({ projects }: { projects: Project[] }) {
           </div>
         )}
       </div>
+      <hr className="border-border mb-8" />
 
       <div className="grid md:grid-cols-2 gap-6">
         {filtered.map((project) => (
