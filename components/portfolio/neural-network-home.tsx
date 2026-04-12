@@ -13,39 +13,54 @@ type Node = {
 }
 
 const NODES: Node[] = [
-  { id: "jag",     label: "Jag Patel",     href: "/about",    layer: 0, description: "Principal AI/ML Engineer · 18+ yrs" },
-  { id: "ai",      label: "AI Systems",    href: "/projects", layer: 1, description: "LLM · RAG · Agents" },
-  { id: "mlops",   label: "MLOps",         href: "/projects", layer: 1, description: "Pipelines · CI/CD · Monitoring" },
-  { id: "obs",     label: "Observability", href: "/projects", layer: 1, description: "Logging SDK · Dashboards" },
-  { id: "llm",     label: "LLM Eng",       href: "/blog",     layer: 1, description: "Prompt Design · Fine-tuning" },
-  { id: "proj",    label: "Projects",      href: "/projects", layer: 2, description: "Real-world AI systems" },
-  { id: "pipe",    label: "Pipelines",     href: "/projects", layer: 2, description: "End-to-end ML pipelines" },
-  { id: "sdk",     label: "Logging SDK",   href: "/projects", layer: 2, description: "Open-source observability" },
-  { id: "blog",    label: "Blogs",         href: "/blog",     layer: 2, description: "Thoughts & tutorials" },
-  { id: "contact", label: "Contact",       href: "/contact",  layer: 3, description: "Get in touch" },
-  { id: "about",   label: "About",         href: "/about",    layer: 3, description: "Background & experience" },
+  // Layer 0 – Identity
+  { id: "jag",      label: "Jag Patel",       href: "/about",           layer: 0, description: "Principal AI/ML Engineer · 18+ yrs" },
+  // Layer 1 – Who I am
+  { id: "aiml",     label: "AI/ML",            href: "/projects",        layer: 1, description: "Machine Learning · Deep Learning · Agents" },
+  { id: "mlops",    label: "MLOps",            href: "/projects",        layer: 1, description: "Pipelines · CI/CD · Monitoring" },
+  { id: "cloud",    label: "Cloud Eng",        href: "/projects",        layer: 1, description: "Azure · AWS · Platform Engineering" },
+  { id: "llm",      label: "LLM Eng",          href: "/blog",            layer: 1, description: "Prompt Design · RAG · Fine-tuning" },
+  // Layer 2 – What I show
+  { id: "proj",     label: "Projects",         href: "/projects",        layer: 2, description: "Real-world AI & cloud systems" },
+  { id: "certs",    label: "Certifications",   href: "/certifications",  layer: 2, description: "Azure · AWS · Professional certs" },
+  { id: "edu",      label: "Education",        href: "/education",       layer: 2, description: "Academic & professional background" },
+  { id: "blog",     label: "Blogs",            href: "/blog",            layer: 2, description: "Thoughts, tutorials & deep dives" },
+  // Layer 3 – Skills & utility
+  { id: "devsec",   label: "DevSecOps",        href: "/projects",        layer: 3, description: "Security · Compliance · Zero Trust" },
+  { id: "platform", label: "Platform Eng",     href: "/projects",        layer: 3, description: "Self-hosted infra · Developer portals" },
+  { id: "obs",      label: "Observability",    href: "/projects",        layer: 3, description: "Logging SDK · Dashboards · Alerting" },
+  { id: "contact",  label: "Contact",          href: "/contact",         layer: 3, description: "Get in touch" },
+  { id: "about",    label: "About",            href: "/about",           layer: 3, description: "Background & experience" },
 ]
 
 // Positions as percentage [left%, top%] of canvas
 const POS: Record<string, [number, number]> = {
-  jag:     [50, 44],
-  ai:      [18, 22],
-  mlops:   [36, 14],
-  obs:     [64, 14],
-  llm:     [82, 22],
-  proj:    [14, 64],
-  pipe:    [36, 72],
-  sdk:     [64, 72],
-  blog:    [86, 64],
-  contact: [33, 88],
-  about:   [67, 88],
+  jag:      [50,  46],
+  aiml:     [20,  24],
+  mlops:    [38,  14],
+  cloud:    [62,  14],
+  llm:      [80,  24],
+  proj:     [14,  63],
+  certs:    [37,  73],
+  edu:      [63,  73],
+  blog:     [86,  63],
+  devsec:   [18,  90],
+  platform: [35,  93],
+  obs:      [50,  88],
+  contact:  [65,  93],
+  about:    [82,  90],
 }
 
 const EDGES: [string, string][] = [
-  ["jag","ai"], ["jag","mlops"], ["jag","obs"], ["jag","llm"],
-  ["ai","proj"], ["mlops","pipe"], ["obs","sdk"], ["llm","blog"],
-  ["proj","contact"], ["proj","about"], ["pipe","contact"],
-  ["sdk","about"], ["blog","contact"],
+  ["jag","aiml"], ["jag","mlops"], ["jag","cloud"], ["jag","llm"],
+  ["aiml","proj"], ["aiml","blog"],
+  ["mlops","proj"], ["mlops","certs"],
+  ["cloud","proj"], ["cloud","edu"],
+  ["llm","blog"], ["llm","certs"],
+  ["proj","devsec"], ["proj","platform"], ["proj","obs"],
+  ["blog","obs"], ["blog","contact"],
+  ["certs","about"], ["certs","contact"],
+  ["edu","about"], ["edu","platform"],
 ]
 
 const LAYER_COLOR: Record<number, string> = {
@@ -57,7 +72,7 @@ const LAYER_BG: Record<number, string> = {
   2: "from-emerald-500 to-emerald-700",
   3: "from-amber-500 to-amber-700",
 }
-const NODE_SIZE: Record<number, number> = { 0: 74, 1: 58, 2: 54, 3: 52 }
+const NODE_SIZE: Record<number, number> = { 0: 72, 1: 56, 2: 52, 3: 48 }
 
 export function NeuralNetworkHome({ onSkip }: { onSkip: () => void }) {
   const router = useRouter()
@@ -105,7 +120,7 @@ export function NeuralNetworkHome({ onSkip }: { onSkip: () => void }) {
       </motion.p>
 
       {/* Canvas: SVG lines behind, div nodes on top */}
-      <div ref={containerRef} className="relative w-full max-w-3xl" style={{ height: "min(72vh, 520px)" }}>
+      <div ref={containerRef} className="relative w-full max-w-4xl" style={{ height: "min(82vh, 640px)" }}>
 
         {/* SVG lines */}
         <svg className="absolute inset-0 w-full h-full pointer-events-none" style={{ zIndex: 1 }}>
