@@ -3,7 +3,8 @@
 import { useState, useMemo } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import { ArrowRight, X } from 'lucide-react'
+import { ArrowRight } from 'lucide-react'
+import { FilterDropdown } from '@/components/portfolio/filter-dropdown'
 
 type PostMeta = {
   slug: string
@@ -15,47 +16,8 @@ type PostMeta = {
   description?: string
 }
 
-function TagFilter({
-  tags,
-  selected,
-  onToggle,
-  onClear,
-}: {
-  tags: string[]
-  selected: string | null
-  onToggle: (tag: string) => void
-  onClear: () => void
-}) {
-  return (
-    <div className="flex flex-wrap items-center gap-2 mb-8">
-      <span className="text-xs text-muted-foreground font-mono mr-1">filter:</span>
-      {tags.map((tag) => (
-        <button
-          key={tag}
-          onClick={() => onToggle(tag)}
-          className={`rounded-full px-3 py-1 text-xs font-medium transition-colors ${
-            selected === tag
-              ? 'bg-primary text-primary-foreground'
-              : 'bg-secondary text-secondary-foreground hover:bg-primary/20 hover:text-primary'
-          }`}
-        >
-          {tag}
-        </button>
-      ))}
-      {selected && (
-        <button
-          onClick={onClear}
-          className="inline-flex items-center gap-1 text-xs text-muted-foreground hover:text-foreground transition-colors ml-1"
-        >
-          <X size={12} /> clear
-        </button>
-      )}
-    </div>
-  )
-}
-
 export function BlogPage({ posts }: { posts: PostMeta[] }) {
-  const [selectedTag, setSelectedTag] = useState<string | null>(null)
+  const [selectedTags, setSelectedTags] = useState<string[]>([])
 
   const allTags = useMemo(() => {
     const set = new Set<string>()
@@ -64,8 +26,11 @@ export function BlogPage({ posts }: { posts: PostMeta[] }) {
   }, [posts])
 
   const filtered = useMemo(
-    () => (selectedTag ? posts.filter((p) => p.tags?.includes(selectedTag)) : posts),
-    [posts, selectedTag]
+    () =>
+      selectedTags.length === 0
+        ? posts
+        : posts.filter((p) => selectedTags.every((t) => p.tags?.includes(t))),
+    [posts, selectedTags]
   )
 
   return (
@@ -78,15 +43,18 @@ export function BlogPage({ posts }: { posts: PostMeta[] }) {
       <div className="mb-8">
         <p className="font-mono text-sm text-primary mb-1">{'>'} writing</p>
         <h1 className="text-3xl font-extrabold tracking-tight">All Posts</h1>
-        <p className="text-sm text-muted-foreground mt-2">{filtered.length} post{filtered.length !== 1 ? 's' : ''}{selectedTag ? ` tagged "${selectedTag}"` : ''}</p>
+        <p className="text-sm text-muted-foreground mt-2">
+          {filtered.length} post{filtered.length !== 1 ? 's' : ''}
+          {selectedTags.length > 0 ? ` matching selected tags` : ''}
+        </p>
       </div>
 
       {allTags.length > 0 && (
-        <TagFilter
-          tags={allTags}
-          selected={selectedTag}
-          onToggle={(tag) => setSelectedTag((prev) => (prev === tag ? null : tag))}
-          onClear={() => setSelectedTag(null)}
+        <FilterDropdown
+          label="Filter by tag"
+          options={allTags}
+          selected={selectedTags}
+          onChange={setSelectedTags}
         />
       )}
 
@@ -128,7 +96,7 @@ export function BlogPage({ posts }: { posts: PostMeta[] }) {
                       <span
                         key={tag}
                         className={`rounded-full px-2 py-0.5 text-xs transition-colors ${
-                          selectedTag === tag
+                          selectedTags.includes(tag)
                             ? 'bg-primary text-primary-foreground'
                             : 'bg-secondary text-secondary-foreground'
                         }`}

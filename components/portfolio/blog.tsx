@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react"
 import { getAllPosts } from "@/lib/posts"
 
 export function Blog() {
-  const blogPosts = getAllPosts()
+  const blogPosts = getAllPosts().slice(0, 3)
 
   return (
     <section id="blog" className="py-14 mx-auto max-w-4xl px-6">

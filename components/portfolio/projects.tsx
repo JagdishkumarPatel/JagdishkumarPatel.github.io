@@ -2,8 +2,9 @@
 
 import { useState, useMemo } from 'react'
 import Link from 'next/link'
-import { ExternalLink, Github, BookOpen, X } from 'lucide-react'
+import { ExternalLink, Github, BookOpen } from 'lucide-react'
 import projectsData from '@/public/metadata/projects.json'
+import { FilterDropdown } from '@/components/portfolio/filter-dropdown'
 
 type Project = {
   title: string
@@ -82,17 +83,20 @@ export function Projects() {
 }
 
 export function ProjectsPage({ projects }: { projects: Project[] }) {
-  const [selectedTag, setSelectedTag] = useState<string | null>(null)
+  const [selectedTechs, setSelectedTechs] = useState<string[]>([])
 
-  const allTags = useMemo(() => {
+  const allTechs = useMemo(() => {
     const set = new Set<string>()
     projects.forEach((p) => p.tech.forEach((t) => set.add(t)))
     return Array.from(set).sort()
   }, [projects])
 
   const filtered = useMemo(
-    () => (selectedTag ? projects.filter((p) => p.tech.includes(selectedTag)) : projects),
-    [projects, selectedTag]
+    () =>
+      selectedTechs.length === 0
+        ? projects
+        : projects.filter((p) => selectedTechs.every((t) => p.tech.includes(t))),
+    [projects, selectedTechs]
   )
 
   return (
@@ -105,34 +109,19 @@ export function ProjectsPage({ projects }: { projects: Project[] }) {
       <div className="mb-8">
         <p className="font-mono text-sm text-primary mb-1">{`>`} work</p>
         <h1 className="text-3xl font-extrabold tracking-tight">Projects</h1>
-        <p className="text-sm text-muted-foreground mt-2">{filtered.length} project{filtered.length !== 1 ? 's' : ''}{selectedTag ? ` using "${selectedTag}"` : ''}</p>
+        <p className="text-sm text-muted-foreground mt-2">
+          {filtered.length} project{filtered.length !== 1 ? 's' : ''}
+          {selectedTechs.length > 0 ? ` matching selected tech` : ''}
+        </p>
       </div>
 
-      {allTags.length > 0 && (
-        <div className="flex flex-wrap items-center gap-2 mb-8">
-          <span className="text-xs text-muted-foreground font-mono mr-1">filter:</span>
-          {allTags.map((tag) => (
-            <button
-              key={tag}
-              onClick={() => setSelectedTag((prev) => (prev === tag ? null : tag))}
-              className={`rounded-full px-3 py-1 text-xs font-medium transition-colors ${
-                selectedTag === tag
-                  ? 'bg-primary text-primary-foreground'
-                  : 'bg-secondary text-secondary-foreground hover:bg-primary/20 hover:text-primary'
-              }`}
-            >
-              {tag}
-            </button>
-          ))}
-          {selectedTag && (
-            <button
-              onClick={() => setSelectedTag(null)}
-              className="inline-flex items-center gap-1 text-xs text-muted-foreground hover:text-foreground transition-colors ml-1"
-            >
-              <X size={12} /> clear
-            </button>
-          )}
-        </div>
+      {allTechs.length > 0 && (
+        <FilterDropdown
+          label="Filter by tech"
+          options={allTechs}
+          selected={selectedTechs}
+          onChange={setSelectedTechs}
+        />
       )}
 
       <div className="grid md:grid-cols-2 gap-6">
