@@ -10,7 +10,7 @@ import { Footer } from '@/components/layout/footer'
 export const metadata: Metadata = {
   metadataBase: new URL('https://jagdishkumarpatel.github.io'),
   title: {
-    default: 'Jag Patel — Principal AI/ML Engineer',
+    default: 'Jag Patel — Principal AI/ML Engineer, MLOps & Cloud',
     template: '%s | Jag Patel',
   },
   description: 'Jag Patel — Principal AI/ML Engineer. 18+ years in AI/ML, LLMs, PromptFlow, DevSecOps, and cloud automation. Building transparent, production-grade AI systems and secure platforms.',
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     siteName: 'Jag Patel',
     type: 'profile',
     locale: 'en_AU',
-    title: 'Jag Patel — Principal AI/ML Engineer',
+    title: 'Jag Patel — Principal AI/ML Engineer, MLOps & Cloud',
     description: 'Principal AI/ML Engineer with 18+ years in AI, MLOps, PromptFlow, DevSecOps, and cloud automation.',
     url: 'https://jagdishkumarpatel.github.io',
     images: [
