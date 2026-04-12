@@ -1,9 +1,46 @@
-
 "use client"
 import Image from "next/image"
 import { Github, Linkedin, Mail } from "lucide-react"
-import { useEffect, useState } from "react"
+import { useEffect, useRef, useState } from "react"
 import { motion } from "framer-motion"
+
+const KEYWORDS = [
+  "AI/ML",
+  "Machine Learning",
+  "MLOps",
+  "Cloud Engineering",
+  "DevSecOps",
+  "Platform Engineering",
+]
+
+function useTypewriter(words: string[], delay = 1800) {
+  const [index, setIndex] = useState(0)
+  const [displayed, setDisplayed] = useState(words[0])
+  const timeout = useRef<ReturnType<typeof setTimeout>>()
+
+  useEffect(() => {
+    timeout.current = setTimeout(() => {
+      setIndex(i => (i + 1) % words.length)
+    }, delay)
+    return () => clearTimeout(timeout.current)
+  }, [index, words, delay])
+
+  useEffect(() => {
+    setDisplayed(words[index])
+  }, [index, words])
+
+  return displayed
+}
+
+function TypewriterKeywords() {
+  const word = useTypewriter(KEYWORDS, 1800)
+  return (
+    <span className="inline-block min-w-[12ch] align-middle">
+      <span className="transition-colors duration-300 text-primary font-semibold">{word}</span>
+      <span className="animate-pulse text-primary/60">|</span>
+    </span>
+  )
+}
 
 export function Hero() {
   const [mounted, setMounted] = useState(false)
@@ -89,15 +126,9 @@ export function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.7, duration: 1.2, ease: 'easeOut' }}
             >
-              Turning research into real-world, scalable solutions.
-            </motion.span>
-            <motion.span
-              className="font-mono text-xs text-muted-foreground/60"
-              initial={{ opacity: 0, y: 16 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 1.1, duration: 1.2, ease: 'easeOut' }}
-            >
-              AI/ML · Machine Learning · MLOps · Cloud Engineering · DevSecOps
+              Turning research into real-world, scalable solutions.{' '}
+              <span className="text-primary/60">|</span>{' '}
+              <TypewriterKeywords />
             </motion.span>
             <div className="flex flex-col items-center gap-0.5 animate-bounce text-muted-foreground/40">
               <div className="w-px h-4 bg-current" />
