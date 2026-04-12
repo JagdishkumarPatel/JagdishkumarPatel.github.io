@@ -5,6 +5,7 @@ import { Capabilities } from '@/components/portfolio/capabilities'
 import { Projects } from '@/components/portfolio/projects'
 import { Blog } from '@/components/portfolio/blog'
 import { Contact } from '@/components/portfolio/contact'
+import { HomeEntry } from '@/components/portfolio/home-entry'
 
 export const metadata: Metadata = {
   title: 'Jag Patel — Principal AI/ML Engineer | Machine Learning, MLOps & Cloud',
@@ -28,13 +29,13 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div>
+    <HomeEntry>
       <Hero />
       <About />
       <Capabilities />
       <Projects />
       <Blog />
       <Contact />
-    </div>
+    </HomeEntry>
   )
 }
