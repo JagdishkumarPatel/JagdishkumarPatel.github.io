@@ -40,23 +40,26 @@ export function BlogPage({ posts }: { posts: PostMeta[] }) {
         <span>/</span>
         <span className="text-foreground">Blog</span>
       </div>
-      <div className="mb-8">
-        <p className="font-mono text-sm text-primary mb-1">{'>'} writing</p>
-        <h1 className="text-3xl font-extrabold tracking-tight">All Posts</h1>
-        <p className="text-sm text-muted-foreground mt-2">
-          {filtered.length} post{filtered.length !== 1 ? 's' : ''}
-          {selectedTags.length > 0 ? ` matching selected tags` : ''}
-        </p>
+      <div className="mb-8 flex items-end justify-between gap-4">
+        <div>
+          <p className="font-mono text-sm text-primary mb-1">{'>'} writing</p>
+          <h1 className="text-3xl font-extrabold tracking-tight">All Posts</h1>
+          <p className="text-sm text-muted-foreground mt-2">
+            {filtered.length} post{filtered.length !== 1 ? 's' : ''}
+            {selectedTags.length > 0 ? ` matching selected tags` : ''}
+          </p>
+        </div>
+        {allTags.length > 0 && (
+          <div className="shrink-0">
+            <FilterDropdown
+              label="Filter by tag"
+              options={allTags}
+              selected={selectedTags}
+              onChange={setSelectedTags}
+            />
+          </div>
+        )}
       </div>
-
-      {allTags.length > 0 && (
-        <FilterDropdown
-          label="Filter by tag"
-          options={allTags}
-          selected={selectedTags}
-          onChange={setSelectedTags}
-        />
-      )}
 
       <div className="space-y-6">
         {filtered.map((post) => (

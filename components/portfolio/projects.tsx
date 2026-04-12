@@ -106,23 +106,26 @@ export function ProjectsPage({ projects }: { projects: Project[] }) {
         <span>/</span>
         <span className="text-foreground">Projects</span>
       </div>
-      <div className="mb-8">
-        <p className="font-mono text-sm text-primary mb-1">{`>`} work</p>
-        <h1 className="text-3xl font-extrabold tracking-tight">Projects</h1>
-        <p className="text-sm text-muted-foreground mt-2">
-          {filtered.length} project{filtered.length !== 1 ? 's' : ''}
-          {selectedTechs.length > 0 ? ` matching selected tech` : ''}
-        </p>
+      <div className="mb-8 flex items-end justify-between gap-4">
+        <div>
+          <p className="font-mono text-sm text-primary mb-1">{`>`} work</p>
+          <h1 className="text-3xl font-extrabold tracking-tight">Projects</h1>
+          <p className="text-sm text-muted-foreground mt-2">
+            {filtered.length} project{filtered.length !== 1 ? 's' : ''}
+            {selectedTechs.length > 0 ? ` matching selected tech` : ''}
+          </p>
+        </div>
+        {allTechs.length > 0 && (
+          <div className="shrink-0">
+            <FilterDropdown
+              label="Filter by tech"
+              options={allTechs}
+              selected={selectedTechs}
+              onChange={setSelectedTechs}
+            />
+          </div>
+        )}
       </div>
-
-      {allTechs.length > 0 && (
-        <FilterDropdown
-          label="Filter by tech"
-          options={allTechs}
-          selected={selectedTechs}
-          onChange={setSelectedTechs}
-        />
-      )}
 
       <div className="grid md:grid-cols-2 gap-6">
         {filtered.map((project) => (

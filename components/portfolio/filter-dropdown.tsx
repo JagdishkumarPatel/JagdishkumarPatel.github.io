@@ -40,7 +40,7 @@ export function FilterDropdown({ label, options, selected, onChange }: FilterDro
   const hasSelection = selected.length > 0
 
   return (
-    <div className="flex items-center gap-3 mb-8" ref={ref}>
+    <div className="flex items-center gap-3" ref={ref}>
       {/* Dropdown trigger */}
       <div className="relative">
         <button
