@@ -4,282 +4,206 @@ import React, { useEffect, useRef, useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { useRouter } from "next/navigation"
 
-// ─── Data ───────────────────────────────────────────────────────────────────
-
 type Node = {
   id: string
   label: string
-  href: string | null
-  layer: number
-  description?: string
+  href: string
+  layer: 0 | 1 | 2 | 3
+  description: string
 }
 
 const NODES: Node[] = [
-  // Layer 0 – Identity
-  { id: "jag", label: "Jag Patel", href: "/about", layer: 0, description: "Principal AI/ML Engineer" },
-  // Layer 1 – Core Capabilities
-  { id: "ai", label: "AI Systems", href: "/projects", layer: 1, description: "LLM · RAG · Agents" },
-  { id: "mlops", label: "MLOps", href: "/projects", layer: 1, description: "Pipelines · CI/CD · Monitoring" },
-  { id: "obs", label: "Observability", href: "/projects", layer: 1, description: "Logging SDK · Dashboards" },
-  { id: "llm", label: "LLM Eng", href: "/blog", layer: 1, description: "Prompt Design · Fine-tuning" },
-  // Layer 2 – Proof
-  { id: "proj", label: "Projects", href: "/projects", layer: 2, description: "Real-world AI systems" },
-  { id: "pipe", label: "Pipelines", href: "/projects", layer: 2, description: "End-to-end ML pipelines" },
-  { id: "sdk", label: "Logging SDK", href: "/projects", layer: 2, description: "Open-source observability" },
-  { id: "blog", label: "Blogs", href: "/blog", layer: 2, description: "Thoughts & tutorials" },
-  // Layer 3 – Utility
-  { id: "contact", label: "Contact", href: "/contact", layer: 3, description: "Get in touch" },
-  { id: "about", label: "About", href: "/about", layer: 3, description: "Background & experience" },
+  { id: "jag",     label: "Jag Patel",     href: "/about",    layer: 0, description: "Principal AI/ML Engineer · 18+ yrs" },
+  { id: "ai",      label: "AI Systems",    href: "/projects", layer: 1, description: "LLM · RAG · Agents" },
+  { id: "mlops",   label: "MLOps",         href: "/projects", layer: 1, description: "Pipelines · CI/CD · Monitoring" },
+  { id: "obs",     label: "Observability", href: "/projects", layer: 1, description: "Logging SDK · Dashboards" },
+  { id: "llm",     label: "LLM Eng",       href: "/blog",     layer: 1, description: "Prompt Design · Fine-tuning" },
+  { id: "proj",    label: "Projects",      href: "/projects", layer: 2, description: "Real-world AI systems" },
+  { id: "pipe",    label: "Pipelines",     href: "/projects", layer: 2, description: "End-to-end ML pipelines" },
+  { id: "sdk",     label: "Logging SDK",   href: "/projects", layer: 2, description: "Open-source observability" },
+  { id: "blog",    label: "Blogs",         href: "/blog",     layer: 2, description: "Thoughts & tutorials" },
+  { id: "contact", label: "Contact",       href: "/contact",  layer: 3, description: "Get in touch" },
+  { id: "about",   label: "About",         href: "/about",    layer: 3, description: "Background & experience" },
 ]
 
-// Edges: [from, to]
+// Positions as percentage [left%, top%] of canvas
+const POS: Record<string, [number, number]> = {
+  jag:     [50, 44],
+  ai:      [18, 22],
+  mlops:   [36, 14],
+  obs:     [64, 14],
+  llm:     [82, 22],
+  proj:    [14, 64],
+  pipe:    [36, 72],
+  sdk:     [64, 72],
+  blog:    [86, 64],
+  contact: [33, 88],
+  about:   [67, 88],
+}
+
 const EDGES: [string, string][] = [
-  ["jag", "ai"], ["jag", "mlops"], ["jag", "obs"], ["jag", "llm"],
-  ["ai", "proj"], ["mlops", "pipe"], ["obs", "sdk"], ["llm", "blog"],
-  ["proj", "contact"], ["proj", "about"], ["blog", "contact"], ["sdk", "about"],
-  ["pipe", "contact"],
+  ["jag","ai"], ["jag","mlops"], ["jag","obs"], ["jag","llm"],
+  ["ai","proj"], ["mlops","pipe"], ["obs","sdk"], ["llm","blog"],
+  ["proj","contact"], ["proj","about"], ["pipe","contact"],
+  ["sdk","about"], ["blog","contact"],
 ]
 
-// ─── Layout positions (relative to 0,0 center, in a 900×600 vb) ─────────────
-
-const POSITIONS: Record<string, [number, number]> = {
-  jag:     [0,    0],
-  ai:      [-270, -140],
-  mlops:   [-90,  -170],
-  obs:     [90,   -170],
-  llm:     [270,  -140],
-  proj:    [-300, 90],
-  pipe:    [-100, 120],
-  sdk:     [100,  120],
-  blog:    [300,  90],
-  contact: [-140, 270],
-  about:   [140,  270],
+const LAYER_COLOR: Record<number, string> = {
+  0: "#7c3aed", 1: "#3b82f6", 2: "#10b981", 3: "#f59e0b",
 }
-
-// ─── Colours per layer ───────────────────────────────────────────────────────
-
-const LAYER_COLORS: Record<number, string> = {
-  0: "#7c3aed", // violet
-  1: "#2563eb", // blue
-  2: "#059669", // emerald
-  3: "#d97706", // amber
+const LAYER_BG: Record<number, string> = {
+  0: "from-violet-600 to-violet-800",
+  1: "from-blue-500 to-blue-700",
+  2: "from-emerald-500 to-emerald-700",
+  3: "from-amber-500 to-amber-700",
 }
-
-const LAYER_GLOW: Record<number, string> = {
-  0: "0 0 28px 8px #7c3aed88",
-  1: "0 0 18px 5px #2563eb66",
-  2: "0 0 14px 4px #05966966",
-  3: "0 0 12px 3px #d9770666",
-}
-
-// ─── Component ───────────────────────────────────────────────────────────────
+const NODE_SIZE: Record<number, number> = { 0: 74, 1: 58, 2: 54, 3: 52 }
 
 export function NeuralNetworkHome({ onSkip }: { onSkip: () => void }) {
   const router = useRouter()
+  const containerRef = useRef<HTMLDivElement>(null)
+  const [dims, setDims] = useState({ w: 800, h: 500 })
   const [hoveredId, setHoveredId] = useState<string | null>(null)
+  const [tooltip, setTooltip] = useState<Node | null>(null)
   const [ready, setReady] = useState(false)
 
   useEffect(() => {
-    const t = setTimeout(() => setReady(true), 100)
-    return () => clearTimeout(t)
+    function measure() {
+      if (containerRef.current) {
+        const r = containerRef.current.getBoundingClientRect()
+        setDims({ w: r.width, h: r.height })
+      }
+    }
+    measure()
+    window.addEventListener("resize", measure)
+    const t = setTimeout(() => setReady(true), 80)
+    return () => { window.removeEventListener("resize", measure); clearTimeout(t) }
   }, [])
 
-  const connectedToHovered = hoveredId
-    ? EDGES
-        .filter(([a, b]) => a === hoveredId || b === hoveredId)
-        .flatMap(([a, b]) => [a, b])
+  const px = (id: string) => ({
+    x: (POS[id][0] / 100) * dims.w,
+    y: (POS[id][1] / 100) * dims.h,
+  })
+
+  const connectedIds = hoveredId
+    ? EDGES.filter(([a, b]) => a === hoveredId || b === hoveredId).flatMap(([a, b]) => [a, b])
     : []
 
-  const isHighlighted = (id: string) =>
-    !hoveredId || hoveredId === id || connectedToHovered.includes(id)
-
-  const isEdgeHighlighted = (a: string, b: string) =>
-    !hoveredId || a === hoveredId || b === hoveredId
-
-  // ViewBox: [-450, -320, 900, 620]
-  const VW = 900, VH = 620, ox = 450, oy = 270
+  const isHighlighted = (id: string) => !hoveredId || hoveredId === id || connectedIds.includes(id)
+  const isEdgeActive  = (a: string, b: string) => !hoveredId || a === hoveredId || b === hoveredId
 
   return (
     <div className="relative min-h-screen w-full flex flex-col items-center justify-center bg-background overflow-hidden">
       {/* Dot-grid bg */}
-      <div
-        className="pointer-events-none absolute inset-0 opacity-[0.04]"
-        style={{
-          backgroundImage: "radial-gradient(circle, hsl(var(--foreground)) 1px, transparent 1px)",
-          backgroundSize: "28px 28px",
-        }}
+      <div className="pointer-events-none absolute inset-0 opacity-[0.04]"
+        style={{ backgroundImage: "radial-gradient(circle, hsl(var(--foreground)) 1px, transparent 1px)", backgroundSize: "28px 28px" }}
       />
 
-      {/* Title */}
-      <motion.p
-        className="text-muted-foreground text-sm tracking-widest uppercase mb-4 z-10"
-        initial={{ opacity: 0, y: -12 }}
-        animate={{ opacity: ready ? 1 : 0, y: ready ? 0 : -12 }}
-        transition={{ duration: 0.6 }}
-      >
-        Click any node to explore
+      <motion.p className="text-muted-foreground text-xs tracking-widest uppercase mb-3 z-10"
+        initial={{ opacity: 0 }} animate={{ opacity: ready ? 1 : 0 }} transition={{ delay: 1 }}>
+        Hover to explore · Click to navigate
       </motion.p>
 
-      {/* SVG Network */}
-      <motion.div
-        className="relative w-full max-w-4xl"
-        initial={{ opacity: 0, scale: 0.92 }}
-        animate={{ opacity: ready ? 1 : 0, scale: ready ? 1 : 0.92 }}
-        transition={{ duration: 0.7, ease: "easeOut" }}
-      >
-        <svg
-          viewBox={`${-ox} ${-oy} ${VW} ${VH}`}
-          className="w-full h-auto"
-          style={{ minHeight: 340 }}
-        >
-          {/* Edges */}
+      {/* Canvas: SVG lines behind, div nodes on top */}
+      <div ref={containerRef} className="relative w-full max-w-3xl" style={{ height: "min(72vh, 520px)" }}>
+
+        {/* SVG lines */}
+        <svg className="absolute inset-0 w-full h-full pointer-events-none" style={{ zIndex: 1 }}>
+          <defs>
+            <filter id="ln-glow" x="-50%" y="-50%" width="200%" height="200%">
+              <feGaussianBlur stdDeviation="2.5" result="blur"/>
+              <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+            </filter>
+          </defs>
           {EDGES.map(([a, b]) => {
-            const [ax, ay] = POSITIONS[a]
-            const [bx, by] = POSITIONS[b]
-            const highlighted = isEdgeHighlighted(a, b)
+            const pa = px(a), pb = px(b)
+            const active = isEdgeActive(a, b)
+            const srcColor = LAYER_COLOR[NODES.find(n => n.id === a)!.layer]
             return (
-              <motion.line
-                key={`${a}-${b}`}
-                x1={ax} y1={ay} x2={bx} y2={by}
-                stroke={highlighted ? "#7c3aed" : "#334155"}
-                strokeWidth={highlighted ? 2 : 1}
-                strokeOpacity={highlighted ? 0.7 : 0.18}
-                initial={{ pathLength: 0, opacity: 0 }}
-                animate={{ pathLength: 1, opacity: 1 }}
-                transition={{ duration: 1.2, ease: "easeInOut" }}
-                style={{ filter: highlighted && hoveredId ? "drop-shadow(0 0 4px #7c3aed88)" : undefined }}
+              <motion.line key={`${a}-${b}`}
+                x1={pa.x} y1={pa.y} x2={pb.x} y2={pb.y}
+                stroke={active && hoveredId ? srcColor : "#334155"}
+                strokeWidth={active && hoveredId ? 2 : 1}
+                strokeOpacity={active ? (hoveredId ? 0.85 : 0.28) : 0.06}
+                filter={active && hoveredId ? "url(#ln-glow)" : undefined}
+                initial={{ pathLength: 0 }} animate={{ pathLength: 1 }}
+                transition={{ duration: 1.4, ease: "easeInOut" }}
               />
             )
           })}
-
-          {/* Animated pulse along edges on hover */}
+          {/* Pulse dots on active edges */}
           {hoveredId && EDGES.filter(([a, b]) => a === hoveredId || b === hoveredId).map(([a, b]) => {
-            const [ax, ay] = POSITIONS[a]
-            const [bx, by] = POSITIONS[b]
+            const pa = px(a), pb = px(b)
             return (
-              <motion.circle
-                key={`pulse-${a}-${b}`}
-                r={3}
-                fill="#a78bfa"
-                initial={{ offsetDistance: "0%" } as never}
-                animate={{ offsetDistance: "100%" } as never}
-                transition={{ duration: 0.9, repeat: Infinity, ease: "linear" }}
-              >
-                <animateMotion dur="0.9s" repeatCount="indefinite">
-                  <mpath />
-                </animateMotion>
-              </motion.circle>
-            )
-          })}
-
-          {/* Nodes rendered in SVG foreignObject for rich styling */}
-          {NODES.map((node) => {
-            const [x, y] = POSITIONS[node.id]
-            const color = LAYER_COLORS[node.layer]
-            const glow = LAYER_GLOW[node.layer]
-            const highlighted = isHighlighted(node.id)
-            const isCenter = node.layer === 0
-
-            return (
-              <motion.g
-                key={node.id}
-                transform={`translate(${x},${y})`}
-                style={{ cursor: node.href ? "pointer" : "default" }}
-                initial={{ scale: 0, opacity: 0 }}
-                animate={{ scale: 1, opacity: highlighted ? 1 : 0.25 }}
-                transition={{ duration: 0.5, delay: node.layer * 0.15 + 0.1 }}
-                whileHover={{ scale: 1.15 }}
-                onHoverStart={() => setHoveredId(node.id)}
-                onHoverEnd={() => setHoveredId(null)}
-                onClick={() => node.href && router.push(node.href)}
-              >
-                {/* Glow ring */}
-                <motion.circle
-                  r={isCenter ? 48 : 34}
-                  fill="transparent"
-                  stroke={color}
-                  strokeWidth={isCenter ? 3 : 2}
-                  opacity={0.35}
-                  animate={hoveredId === node.id ? { r: isCenter ? 54 : 40, opacity: 0.7 } : {}}
-                  transition={{ duration: 0.3 }}
-                  style={{ filter: hoveredId === node.id ? glow : undefined }}
-                />
-                {/* Main circle */}
-                <circle
-                  r={isCenter ? 42 : 28}
-                  fill={color}
-                  opacity={0.92}
-                />
-                {/* Label */}
-                <text
-                  textAnchor="middle"
-                  dominantBaseline="middle"
-                  fill="white"
-                  fontSize={isCenter ? 13 : 10}
-                  fontWeight={isCenter ? 700 : 600}
-                  style={{ pointerEvents: "none", fontFamily: "inherit" }}
-                >
-                  {node.label}
-                </text>
-                {/* Description tooltip on hover */}
-                <AnimatePresence>
-                  {hoveredId === node.id && node.description && (
-                    <motion.g
-                      initial={{ opacity: 0, y: 8 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      exit={{ opacity: 0, y: 8 }}
-                      transition={{ duration: 0.2 }}
-                    >
-                      <rect
-                        x={-60} y={isCenter ? 50 : 35}
-                        width={120} height={22}
-                        rx={6} fill="#1e1b4b" opacity={0.92}
-                      />
-                      <text
-                        x={0} y={isCenter ? 64 : 49}
-                        textAnchor="middle"
-                        fill="#c4b5fd"
-                        fontSize={8}
-                        fontWeight={500}
-                        style={{ pointerEvents: "none", fontFamily: "inherit" }}
-                      >
-                        {node.description}
-                      </text>
-                    </motion.g>
-                  )}
-                </AnimatePresence>
-              </motion.g>
+              <motion.circle key={`pulse-${a}-${b}`} r={3.5} fill="#a78bfa"
+                initial={{ x: pa.x, y: pa.y }}
+                animate={{ x: pb.x, y: pb.y }}
+                transition={{ duration: 0.75, repeat: Infinity, ease: "linear" }}
+              />
             )
           })}
         </svg>
-      </motion.div>
+
+        {/* Div nodes */}
+        {NODES.map((node, i) => {
+          const { x, y } = px(node.id)
+          const size = NODE_SIZE[node.layer]
+          const highlighted = isHighlighted(node.id)
+
+          return (
+            <motion.div key={node.id}
+              className="absolute"
+              style={{ left: x, top: y, width: size, height: size, marginLeft: -size/2, marginTop: -size/2, zIndex: 2 }}
+              initial={{ scale: 0, opacity: 0 }}
+              animate={{ scale: 1, opacity: highlighted ? 1 : 0.15 }}
+              transition={{ duration: 0.4, delay: node.layer * 0.1 + i * 0.025, type: "spring", stiffness: 200 }}
+            >
+              <motion.button
+                className={`w-full h-full rounded-full bg-gradient-to-br ${LAYER_BG[node.layer]} text-white font-bold flex items-center justify-center text-center leading-tight border-2 border-white/20 cursor-pointer shadow-lg focus:outline-none`}
+                style={{ fontSize: node.layer === 0 ? 11 : 9, boxShadow: hoveredId === node.id ? `0 0 22px 6px ${LAYER_COLOR[node.layer]}77` : undefined }}
+                whileHover={{ scale: 1.18 }}
+                whileTap={{ scale: 0.93 }}
+                onHoverStart={() => { setHoveredId(node.id); setTooltip(node) }}
+                onHoverEnd={() => { setHoveredId(null); setTooltip(null) }}
+                onClick={() => router.push(node.href)}
+                aria-label={node.label}
+              >
+                <span className="px-1 break-words">{node.label}</span>
+              </motion.button>
+
+              {/* Tooltip */}
+              <AnimatePresence>
+                {tooltip?.id === node.id && (
+                  <motion.div
+                    className="absolute whitespace-nowrap bg-[#1e1b4b] text-violet-200 text-[10px] px-2.5 py-1 rounded-full shadow-xl pointer-events-none border border-violet-700"
+                    style={{ bottom: "110%", left: "50%", x: "-50%", zIndex: 20 }}
+                    initial={{ opacity: 0, y: 4 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: 4 }}
+                    transition={{ duration: 0.15 }}
+                  >
+                    {node.description}
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </motion.div>
+          )
+        })}
+      </div>
 
       {/* Legend */}
-      <motion.div
-        className="flex flex-wrap gap-4 mt-4 z-10 justify-center"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: ready ? 1 : 0 }}
-        transition={{ delay: 0.9 }}
-      >
-        {[
-          { label: "Identity", color: LAYER_COLORS[0] },
-          { label: "Core Capabilities", color: LAYER_COLORS[1] },
-          { label: "Proof of Work", color: LAYER_COLORS[2] },
-          { label: "Utility", color: LAYER_COLORS[3] },
-        ].map(({ label, color }) => (
-          <span key={label} className="flex items-center gap-1.5 text-xs text-muted-foreground">
-            <span className="w-3 h-3 rounded-full inline-block" style={{ background: color }} />
-            {label}
+      <motion.div className="flex flex-wrap gap-4 mt-4 z-10 justify-center"
+        initial={{ opacity: 0 }} animate={{ opacity: ready ? 1 : 0 }} transition={{ delay: 1 }}>
+        {([0,1,2,3] as const).map(l => (
+          <span key={l} className="flex items-center gap-1.5 text-xs text-muted-foreground">
+            <span className="w-2.5 h-2.5 rounded-full" style={{ background: LAYER_COLOR[l] }} />
+            {["Identity","Core Capabilities","Proof of Work","Utility"][l]}
           </span>
         ))}
       </motion.div>
 
-      {/* Skip button */}
+      {/* Skip */}
       <motion.button
-        className="mt-8 z-10 px-5 py-2 rounded-full border border-border text-sm text-muted-foreground hover:text-foreground hover:border-primary transition-colors"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: ready ? 1 : 0 }}
-        transition={{ delay: 1.2 }}
+        className="mt-6 z-10 px-5 py-2 rounded-full border border-border text-sm text-muted-foreground hover:text-foreground hover:border-primary transition-colors"
+        initial={{ opacity: 0 }} animate={{ opacity: ready ? 1 : 0 }} transition={{ delay: 1.3 }}
         onClick={onSkip}
       >
         Classic View →
