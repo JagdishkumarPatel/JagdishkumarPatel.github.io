@@ -20,8 +20,15 @@ export function FilterDropdown({ label, options, selected, onChange }: FilterDro
         setOpen(false)
       }
     }
+    function handleKeyDown(e: KeyboardEvent) {
+      if (e.key === 'Escape') setOpen(false)
+    }
     document.addEventListener('mousedown', handleClickOutside)
-    return () => document.removeEventListener('mousedown', handleClickOutside)
+    document.addEventListener('keydown', handleKeyDown)
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside)
+      document.removeEventListener('keydown', handleKeyDown)
+    }
   }, [])
 
   function toggle(option: string) {
@@ -68,8 +75,8 @@ export function FilterDropdown({ label, options, selected, onChange }: FilterDro
         </button>
 
         {open && (
-          <div className="absolute left-0 top-full mt-1.5 z-50 min-w-[200px] max-h-72 overflow-y-auto rounded-xl border border-border bg-card shadow-lg">
-            <div className="p-1">
+          <div className="absolute right-0 top-full mt-1.5 z-50 min-w-[220px] rounded-xl border border-border bg-card shadow-lg">
+            <div className="p-1 max-h-64 overflow-y-auto">
               {options.map((option) => {
                 const isSelected = selected.includes(option)
                 return (
@@ -87,6 +94,22 @@ export function FilterDropdown({ label, options, selected, onChange }: FilterDro
                   </button>
                 )
               })}
+            </div>
+            <div className="border-t border-border p-2 flex items-center justify-between gap-2">
+              {selected.length > 0 && (
+                <button
+                  onClick={clearAll}
+                  className="text-xs text-muted-foreground hover:text-foreground transition-colors px-2 py-1"
+                >
+                  Clear all
+                </button>
+              )}
+              <button
+                onClick={() => setOpen(false)}
+                className="ml-auto rounded-lg bg-primary px-3 py-1.5 text-xs font-medium text-primary-foreground hover:bg-primary/90 transition-colors"
+              >
+                Done
+              </button>
             </div>
           </div>
         )}
@@ -110,12 +133,6 @@ export function FilterDropdown({ label, options, selected, onChange }: FilterDro
               </button>
             </span>
           ))}
-          <button
-            onClick={clearAll}
-            className="text-xs text-muted-foreground hover:text-foreground transition-colors"
-          >
-            Clear all
-          </button>
         </div>
       )}
     </div>
