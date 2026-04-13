@@ -105,7 +105,7 @@ export default function RootLayout({
       <body className="font-sans bg-background text-foreground antialiased flex flex-col min-h-screen">
         <ThemeProvider
           attribute="data-theme"
-          defaultTheme="system"
+          defaultTheme="dark"
           enableSystem
           disableTransitionOnChange
         >
