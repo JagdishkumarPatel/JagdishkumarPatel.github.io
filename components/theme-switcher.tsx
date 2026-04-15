@@ -14,7 +14,10 @@ const categoryLabels = {
 export function ThemeSwitcher() {
   const { theme, setTheme } = useTheme()
   const [open, setOpen] = React.useState(false)
+  const [mounted, setMounted] = React.useState(false)
   const ref = React.useRef<HTMLDivElement>(null)
+
+  React.useEffect(() => { setMounted(true) }, [])
 
   React.useEffect(() => {
     function handleClick(e: MouseEvent) {
@@ -26,7 +29,7 @@ export function ThemeSwitcher() {
     return () => document.removeEventListener("mousedown", handleClick)
   }, [])
 
-  const current = themes.find((t) => t.value === theme) ?? themes[0]
+  const current = mounted ? (themes.find((t) => t.value === theme) ?? themes[0]) : themes[0]
 
   return (
     <div ref={ref} className="relative">
@@ -36,7 +39,7 @@ export function ThemeSwitcher() {
         aria-label="Switch theme"
       >
         <Palette className="h-4 w-4" />
-        <span className="hidden sm:inline">{current.name}</span>
+        <span className="hidden sm:inline">{mounted ? current.name : ""}</span>
         <ChevronDown className="h-3 w-3 opacity-60" />
       </button>
 

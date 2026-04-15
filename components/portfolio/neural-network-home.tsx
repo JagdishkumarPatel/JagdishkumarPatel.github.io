@@ -1,327 +1,280 @@
-"use client"
+﻿"use client";
 
-import React, { useCallback, useEffect, useRef, useState } from "react"
-import { motion, AnimatePresence, type PanInfo } from "framer-motion"
-import { useRouter } from "next/navigation"
+import React, { useCallback, useEffect, useRef, useState } from "react";
+import "react-flow-renderer/dist/style.css";
+import ReactFlow, {
+  Background,
+  BackgroundVariant,
+  Controls,
+  useNodesState,
+  useEdgesState,
+  addEdge,
+  MarkerType,
+  Connection,
+  Node,
+} from "react-flow-renderer";
+import { useRouter } from "next/navigation";
+import NeuralNetworkNode from "./NeuralNetworkNode";
+import NeuralNetworkEdge from "./NeuralNetworkEdge";
 
-// ─── Types & Data ────────────────────────────────────────────────────────────
+// Page route for each node
+const NODE_ROUTES: Record<string, string> = {
+  jag: "/about",
+  aiml: "/about",
+  mlops: "/about",
+  cloud: "/about",
+  llm: "/about",
+  proj: "/projects",
+  certs: "/certifications",
+  edu: "/education",
+  blog: "/blog",
+  devsec: "/projects",
+  platform: "/projects",
+  obs: "/projects",
+  contact: "/contact",
+  about: "/about",
+};
 
-type Node = { id: string; label: string; href: string; layer: 0|1|2|3; description: string }
+// Which nodes each node connects TO
+const ADJACENCY: Record<string, string[]> = {
+  jag: ["aiml", "mlops", "cloud", "llm"],
+  aiml: ["proj", "blog"],
+  mlops: ["proj", "certs"],
+  cloud: ["proj", "edu"],
+  llm: ["blog", "certs"],
+  proj: ["devsec", "platform", "obs"],
+  blog: ["obs", "contact"],
+  certs: ["about", "contact"],
+  edu: ["about", "platform"],
+  devsec: [], platform: [], obs: [], contact: [], about: [],
+};
 
-const NODES: Node[] = [
-  { id: "jag",      label: "Jag Patel",    href: "/about",          layer: 0, description: "Principal AI/ML Engineer · 18+ yrs" },
-  { id: "aiml",     label: "AI / ML",      href: "/projects",       layer: 1, description: "Machine Learning · Deep Learning · Agents" },
-  { id: "mlops",    label: "MLOps",        href: "/projects",       layer: 1, description: "Pipelines · CI/CD · Monitoring" },
-  { id: "cloud",    label: "Cloud Eng",    href: "/projects",       layer: 1, description: "Azure · AWS · Platform Engineering" },
-  { id: "llm",      label: "LLM Eng",      href: "/blog",           layer: 1, description: "Prompt Design · RAG · Fine-tuning" },
-  { id: "proj",     label: "Projects",     href: "/projects",       layer: 2, description: "Real-world AI & cloud systems" },
-  { id: "certs",    label: "Certs",        href: "/certifications", layer: 2, description: "Azure · AWS · Professional certs" },
-  { id: "edu",      label: "Education",    href: "/education",      layer: 2, description: "Academic & professional background" },
-  { id: "blog",     label: "Blogs",        href: "/blog",           layer: 2, description: "Thoughts, tutorials & deep dives" },
-  { id: "devsec",   label: "DevSecOps",    href: "/projects",       layer: 3, description: "Security · Compliance · Zero Trust" },
-  { id: "platform", label: "Platform",     href: "/projects",       layer: 3, description: "Self-hosted infra · Developer portals" },
-  { id: "obs",      label: "Observ-ability", href: "/projects",     layer: 3, description: "Logging SDK · Dashboards · Alerting" },
-  { id: "contact",  label: "Contact",      href: "/contact",        layer: 3, description: "Get in touch" },
-  { id: "about",    label: "About",        href: "/about",          layer: 3, description: "Background & experience" },
-]
+// Base positions (layered)
+const BASE: Record<string, { x: number; y: number }> = {
+  jag:      { x: 350, y: 30  },
+  aiml:     { x: 50,  y: 180 },
+  mlops:    { x: 210, y: 180 },
+  cloud:    { x: 370, y: 180 },
+  llm:      { x: 530, y: 180 },
+  proj:     { x: 50,  y: 340 },
+  certs:    { x: 210, y: 340 },
+  edu:      { x: 370, y: 340 },
+  blog:     { x: 530, y: 340 },
+  devsec:   { x: 0,   y: 490 },
+  platform: { x: 130, y: 490 },
+  obs:      { x: 270, y: 490 },
+  contact:  { x: 430, y: 490 },
+  about:    { x: 570, y: 490 },
+};
 
-// Initial positions as % [left, top]
-const POS: Record<string, [number, number]> = {
-  jag:      [50, 44], aiml:     [22, 22], mlops:    [39, 13],
-  cloud:    [61, 13], llm:      [78, 22], proj:     [16, 62],
-  certs:    [38, 72], edu:      [62, 72], blog:     [84, 62],
-  devsec:   [20, 88], platform: [36, 93], obs:      [50, 87],
-  contact:  [64, 93], about:    [80, 88],
+// Unique float phase per node so they drift independently
+const PHASES: Record<string, number> = {
+  jag: 0, aiml: 0.8, mlops: 1.6, cloud: 2.4, llm: 3.2,
+  proj: 0.4, certs: 1.2, edu: 2.0, blog: 2.8,
+  devsec: 0.6, platform: 1.4, obs: 2.2, contact: 3.0, about: 3.8,
+};
+
+function makeNodes(active: string | null, lit: Set<string>): Node[] {
+  return Object.keys(BASE).map((id) => ({
+    id,
+    position: { ...BASE[id] },
+    data: {
+      label: {
+        jag: "Jag Patel", aiml: "AI / ML", mlops: "MLOps", cloud: "Cloud Eng",
+        llm: "LLM Eng", proj: "Projects", certs: "Certs", edu: "Education",
+        blog: "Blogs", devsec: "DevSecOps", platform: "Platform",
+        obs: "Observability", contact: "Contact", about: "About",
+      }[id],
+      description: {
+        jag: "Principal AI/ML Engineer", aiml: "Machine Learning · Agents",
+        mlops: "Pipelines · CI/CD · Monitoring", cloud: "Azure · AWS · Platform Engineering",
+        llm: "Prompt Design · RAG · Fine-tuning", proj: "Real-world AI & cloud systems",
+        certs: "Azure · AWS · Professional certs", edu: "Academic & professional background",
+        blog: "Thoughts, tutorials & deep dives", devsec: "Security · Compliance · Zero Trust",
+        platform: "Self-hosted infra · Developer portals", obs: "Logging SDK · Dashboards · Alerting",
+        contact: "Get in touch", about: "Background & experience",
+      }[id],
+      active: active === id,
+      lit: lit.has(id),
+      href: NODE_ROUTES[id],
+    },
+    type: "neuralNode",
+    draggable: true,
+  }));
 }
 
-const EDGES: [string, string][] = [
-  ["jag","aiml"],["jag","mlops"],["jag","cloud"],["jag","llm"],
-  ["aiml","proj"],["aiml","blog"],["mlops","proj"],["mlops","certs"],
-  ["cloud","proj"],["cloud","edu"],["llm","blog"],["llm","certs"],
-  ["proj","devsec"],["proj","platform"],["proj","obs"],
-  ["blog","obs"],["blog","contact"],["certs","about"],["certs","contact"],
-  ["edu","about"],["edu","platform"],
-]
+const BASE_EDGES = Object.entries(ADJACENCY).flatMap(([src, targets]) =>
+  targets.map((tgt) => ({
+    id: `e-${src}-${tgt}`,
+    source: src,
+    target: tgt,
+    type: "neuralEdge",
+    markerEnd: { type: MarkerType.ArrowClosed },
+    data: { firing: false },
+  }))
+);
 
-const LAYER_COLOR: Record<number, string> = { 0:"#7c3aed", 1:"#3b82f6", 2:"#10b981", 3:"#f59e0b" }
-const LAYER_BG: Record<number, string> = {
-  0: "from-violet-600 to-violet-800",
-  1: "from-blue-500 to-blue-700",
-  2: "from-emerald-500 to-emerald-700",
-  3: "from-amber-500 to-amber-700",
-}
-const NODE_SIZE: Record<number, number> = { 0: 80, 1: 64, 2: 58, 3: 54 }
+const nodeTypes = { neuralNode: NeuralNetworkNode };
+const edgeTypes = { neuralEdge: NeuralNetworkEdge };
 
-/** Returns { fontSize, lines } so text fills the circle as best as possible */
-function fitText(label: string, size: number): { fontSize: number; lineHeight: number } {
-  // Usable square inside circle ≈ size * 0.65
-  const usable = size * 0.65
-  // Try fitting in 1, 2, 3 lines — pick largest font that fits
-  for (const lines of [1, 2, 3]) {
-    const charsPerLine = Math.ceil(label.length / lines)
-    // approx 5.5px per char at 10px fontSize → scale proportionally
-    const fontForWidth = (usable / charsPerLine) / 0.55
-    const fontForHeight = (usable / lines) * 0.72
-    const fs = Math.min(fontForWidth, fontForHeight)
-    if (fs >= 7) return { fontSize: Math.min(fs, 14), lineHeight: 1.15 }
-  }
-  return { fontSize: 7, lineHeight: 1.15 }
-}
+export function NeuralNetworkHome({ onSkip }: { onSkip?: () => void }) {
+  const router = useRouter();
+  const [activeNode, setActiveNode] = useState<string | null>(null);
+  const [litNodes, setLitNodes] = useState<Set<string>>(new Set());
+  const [firingEdges, setFiringEdges] = useState<Set<string>>(new Set());
+  const animRef = useRef<number>(0);
+  const startTimeRef = useRef<number>(performance.now());
 
-// ─── Component ───────────────────────────────────────────────────────────────
+  const [nodes, setNodes, onNodesChange] = useNodesState(makeNodes(null, new Set()));
+  const [edges, setEdges, onEdgesChange] = useEdgesState(BASE_EDGES);
 
-export function NeuralNetworkHome({ onSkip }: { onSkip: () => void }) {
-  const router = useRouter()
-  const containerRef = useRef<HTMLDivElement>(null)
-  const [dims, setDims] = useState({ w: 0, h: 0 })
-  const [hoveredId, setHoveredId] = useState<string | null>(null)
-  const [tooltip, setTooltip] = useState<Node | null>(null)
-  const [ready, setReady] = useState(false)
-  // resetKey forces full remount of motion.divs (clears Framer Motion internal drag offset)
-  const [resetKey, setResetKey] = useState(0)
-
-  // ── Position tracking ──────────────────────────────────────────────────────
-  // initPosRef: stable pixel positions for left/top CSS — NEVER updated by drag
-  const initPosRef = useRef<Record<string, { x: number; y: number }>>({})
-  // dragOffRef: accumulated drag offset per node — used only for SVG line positions
-  const dragOffRef = useRef<Record<string, { dx: number; dy: number }>>({})
-  // SVG line DOM refs for direct updates (no re-render on drag)
-  const lineElRefs = useRef<Record<string, SVGLineElement | null>>({})
-  // Per-node: was this a drag gesture (vs a click)?
-  const dragOccurredRef = useRef<Record<string, boolean>>({})
-
-  const initPositions = useCallback((w: number, h: number) => {
-    NODES.forEach(n => {
-      initPosRef.current[n.id] = {
-        x: (POS[n.id][0] / 100) * w,
-        y: (POS[n.id][1] / 100) * h,
-      }
-      dragOffRef.current[n.id] = { dx: 0, dy: 0 }
-    })
-  }, [])
-
-  // Current visual center of a node = stable init pos + accumulated drag offset
-  const getCenter = useCallback((id: string) => {
-    const ip = initPosRef.current[id]
-    if (!ip) return { x: 0, y: 0 }
-    const off = dragOffRef.current[id] ?? { dx: 0, dy: 0 }
-    return { x: ip.x + off.dx, y: ip.y + off.dy }
-  }, [])
-
-  // Update connected SVG lines directly via DOM (zero re-render overhead)
-  const updateLines = useCallback((id: string) => {
-    EDGES.forEach(([a, b]) => {
-      if (a !== id && b !== id) return
-      const el = lineElRefs.current[`${a}-${b}`]
-      if (!el) return
-      const pa = getCenter(a), pb = getCenter(b)
-      el.setAttribute("x1", String(pa.x))
-      el.setAttribute("y1", String(pa.y))
-      el.setAttribute("x2", String(pb.x))
-      el.setAttribute("y2", String(pb.y))
-    })
-  }, [getCenter])
-
-  // Called on every drag frame — only updates refs + DOM, no setState
-  const handleDrag = useCallback((id: string, info: PanInfo) => {
-    dragOccurredRef.current[id] = true
-    const off = dragOffRef.current[id] ?? { dx: 0, dy: 0 }
-    dragOffRef.current[id] = { dx: off.dx + info.delta.x, dy: off.dy + info.delta.y }
-    updateLines(id)
-  }, [updateLines])
-
+  // Circular motion animation loop
   useEffect(() => {
-    function measure() {
-      if (!containerRef.current) return
-      const r = containerRef.current.getBoundingClientRect()
-      if (r.width === 0) return
-      setDims({ w: r.width, h: r.height })
-      initPositions(r.width, r.height)
+    const center = { x: 320, y: 320 }; // Center of the circle
+    const baseRadius = 220;
+    const nodeIds = Object.keys(BASE);
+    const totalNodes = nodeIds.length - 1; // Exclude center node
+    const speed = 0.00025;
+    const zoomSpeed = 0.00013;
+
+    function tick() {
+      const t = (performance.now() - startTimeRef.current);
+      // Animate radius for breathing effect
+      const radius = baseRadius + 40 * Math.sin(t * zoomSpeed);
+      // Animate zoom for React Flow
+      const zoom = 0.85 + 0.18 * Math.sin(t * zoomSpeed);
+
+      setNodes((nds) =>
+        nds.map((n) => {
+          if (n.id === "jag") {
+            // Keep Jag Patel at the center
+            return {
+              ...n,
+              position: { x: center.x, y: center.y },
+              draggable: false,
+            };
+          }
+          // Arrange other nodes in a circle
+          const idx = nodeIds.filter((id) => id !== "jag").indexOf(n.id);
+          const angle = (2 * Math.PI * idx) / totalNodes + t * speed;
+          return {
+            ...n,
+            position: {
+              x: center.x + radius * Math.cos(angle),
+              y: center.y + radius * Math.sin(angle),
+            },
+            draggable: true,
+          };
+        })
+      );
+
+      // Animate zoom in/out
+      try {
+        const rf = document.querySelector('.react-flow__renderer');
+        if (rf) {
+          rf.style.transition = 'transform 0.3s cubic-bezier(0.4,0,0.2,1)';
+          rf.style.transform = `scale(${zoom})`;
+        }
+      } catch {}
+
+      animRef.current = requestAnimationFrame(tick);
     }
-    measure()
-    const t1 = setTimeout(measure, 50)
-    const t2 = setTimeout(() => setReady(true), 120)
-    window.addEventListener("resize", measure)
-    return () => { window.removeEventListener("resize", measure); clearTimeout(t1); clearTimeout(t2) }
-  }, [initPositions])
+    animRef.current = requestAnimationFrame(tick);
+    return () => {
+      cancelAnimationFrame(animRef.current);
+      // Reset zoom
+      const rf = document.querySelector('.react-flow__renderer');
+      if (rf) rf.style.transform = '';
+    };
+  }, []);
 
-  const isHighlighted = (id: string) =>
-    !hoveredId || hoveredId === id ||
-    EDGES.some(([a,b]) => (a===hoveredId||b===hoveredId) && (a===id||b===id))
+  // Sync active/lit into node data
+  useEffect(() => {
+    setNodes((nds) =>
+      nds.map((n) => ({
+        ...n,
+        data: {
+          ...n.data,
+          active: activeNode === n.id,
+          lit: litNodes.has(n.id),
+        },
+      }))
+    );
+  }, [activeNode, litNodes]);
 
-  const handleReset = () => {
-    if (containerRef.current) {
-      const r = containerRef.current.getBoundingClientRect()
-      initPositions(r.width, r.height)
-    }
-    setResetKey(k => k + 1)
-  }
+  // Sync firing into edge data
+  useEffect(() => {
+    setEdges((eds) =>
+      eds.map((e) => ({
+        ...e,
+        data: { firing: firingEdges.has(e.id) },
+      }))
+    );
+  }, [firingEdges]);
 
-  if (dims.w === 0) {
-    return (
-      <div className="relative min-h-screen w-full flex flex-col items-center justify-center bg-background pt-20 pb-6">
-        <div ref={containerRef} className="relative w-full max-w-4xl mx-auto px-4" style={{ height: "min(80vh, 620px)" }} />
-      </div>
-    )
-  }
+  const handleNodeClick = useCallback(
+    (_: React.MouseEvent, node: Node) => {
+      const id = node.id;
+      const targets = ADJACENCY[id] ?? [];
+      const edgeIds = new Set(targets.map((t) => `e-${id}-${t}`));
+
+      // Fire: activate node + firing edges
+      setActiveNode(id);
+      setFiringEdges(edgeIds);
+
+      // 350ms later: light up target nodes
+      setTimeout(() => {
+        setLitNodes(new Set(targets));
+      }, 350);
+
+      // 800ms later: navigate
+      setTimeout(() => {
+        setActiveNode(null);
+        setLitNodes(new Set());
+        setFiringEdges(new Set());
+        const route = NODE_ROUTES[id];
+        if (route) router.push(route);
+      }, 800);
+    },
+    [router]
+  );
+
+  const onConnect = useCallback(
+    (params: Connection) =>
+      setEdges((eds) =>
+        addEdge({ ...params, type: "neuralEdge", markerEnd: { type: MarkerType.ArrowClosed }, data: { firing: false } }, eds)
+      ),
+    [setEdges]
+  );
 
   return (
-    <div className="relative min-h-screen w-full flex flex-col items-center justify-center bg-background overflow-hidden pt-20 pb-6">
-      {/* Dot-grid bg */}
-      <div className="pointer-events-none absolute inset-0 opacity-[0.04]"
-        style={{ backgroundImage: "radial-gradient(circle, hsl(var(--foreground)) 1px, transparent 1px)", backgroundSize: "28px 28px" }}
-      />
-
-      <motion.p className="text-muted-foreground text-[10px] tracking-widest uppercase mb-2 z-10 select-none"
-        initial={{ opacity: 0 }} animate={{ opacity: ready ? 1 : 0 }} transition={{ delay: 0.8 }}>
-        Drag nodes · Hover to explore · Click to navigate
-      </motion.p>
-
-      {/* Canvas */}
-      <div ref={containerRef} className="relative w-full max-w-4xl mx-auto px-4" style={{ height: "min(80vh, 620px)" }}>
-
-        {/* SVG edges */}
-        <svg className="absolute inset-0 w-full h-full pointer-events-none" style={{ zIndex: 1 }}>
-          <defs>
-            <filter id="ln-glow" x="-50%" y="-50%" width="200%" height="200%">
-              <feGaussianBlur stdDeviation="2.5" result="blur"/>
-              <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-            </filter>
-          </defs>
-          {EDGES.map(([a, b]) => {
-            const pa = getCenter(a), pb = getCenter(b)
-            const active = !hoveredId || a === hoveredId || b === hoveredId
-            const srcColor = LAYER_COLOR[NODES.find(n => n.id === a)!.layer]
-            return (
-              <line
-                key={`${a}-${b}`}
-                ref={el => { lineElRefs.current[`${a}-${b}`] = el }}
-                x1={pa.x} y1={pa.y} x2={pb.x} y2={pb.y}
-                stroke={active && hoveredId ? srcColor : "#334155"}
-                strokeWidth={active && hoveredId ? 2 : 1}
-                strokeOpacity={active ? (hoveredId ? 0.85 : 0.3) : 0.07}
-                filter={active && hoveredId ? "url(#ln-glow)" : undefined}
-              />
-            )
-          })}
-          {/* Animated pulse dots on hover */}
-          {hoveredId && EDGES.filter(([a,b]) => a===hoveredId||b===hoveredId).map(([a,b]) => {
-            const pa = getCenter(a), pb = getCenter(b)
-            return (
-              <motion.circle key={`p-${a}-${b}`} r={3.5} fill="#a78bfa"
-                initial={{ x: pa.x, y: pa.y }}
-                animate={{ x: pb.x, y: pb.y }}
-                transition={{ duration: 0.7, repeat: Infinity, ease: "linear" }}
-              />
-            )
-          })}
-        </svg>
-
-        {/* Nodes — key includes resetKey so remounting clears Framer internal drag offset */}
-        {ready && NODES.map((node, i) => {
-          const ip = initPosRef.current[node.id]
-          if (!ip) return null
-          const size = NODE_SIZE[node.layer]
-          const highlighted = isHighlighted(node.id)
-          const { fontSize, lineHeight } = fitText(node.label, size)
-
-          return (
-            <motion.div
-              key={`${resetKey}-${node.id}`}
-              className="absolute select-none"
-              style={{
-                // left/top use ONLY the stable init positions — never updated by drag
-                left: ip.x,
-                top: ip.y,
-                width: size,
-                height: size,
-                marginLeft: -size/2,
-                marginTop: -size/2,
-                zIndex: hoveredId === node.id ? 10 : 2,
-              }}
-              initial={{ scale: 0, opacity: 0 }}
-              animate={{ scale: 1, opacity: highlighted ? 1 : 0.18 }}
-              transition={{ duration: 0.35, delay: node.layer * 0.08 + i * 0.02, type: "spring", stiffness: 220 }}
-              drag
-              dragMomentum={false}
-              dragElastic={0}
-              onDragStart={() => { dragOccurredRef.current[node.id] = false }}
-              onDrag={(_, info) => handleDrag(node.id, info)}
-              whileDrag={{ scale: 1.15, zIndex: 20 }}
-            >
-              <button
-                className={`w-full h-full rounded-full bg-gradient-to-br ${LAYER_BG[node.layer]} text-white font-semibold flex items-center justify-center text-center border-2 border-white/20 shadow-lg focus:outline-none cursor-grab active:cursor-grabbing`}
-                style={{
-                  fontSize,
-                  lineHeight,
-                  padding: "6px",
-                  boxShadow: hoveredId === node.id ? `0 0 28px 8px ${LAYER_COLOR[node.layer]}66` : undefined,
-                }}
-                onPointerEnter={() => { setHoveredId(node.id); setTooltip(node) }}
-                onPointerLeave={() => { setHoveredId(null); setTooltip(null) }}
-                onClick={() => {
-                  if (dragOccurredRef.current[node.id]) return
-                  router.push(node.href)
-                }}
-                aria-label={node.label}
-              >
-                <span style={{
-                  display: "block",
-                  width: "100%",
-                  wordBreak: "break-word",
-                  overflowWrap: "break-word",
-                  textAlign: "center",
-                  hyphens: "auto",
-                }}>
-                  {node.label}
-                </span>
-              </button>
-
-              {/* Tooltip */}
-              <AnimatePresence>
-                {tooltip?.id === node.id && (
-                  <motion.div
-                    className="absolute whitespace-nowrap bg-[#1e1b4b] text-violet-200 text-[10px] px-2.5 py-1 rounded-full shadow-xl pointer-events-none border border-violet-700"
-                    style={{ bottom: "110%", left: "50%", x: "-50%", zIndex: 30 }}
-                    initial={{ opacity: 0, y: 4 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: 4 }}
-                    transition={{ duration: 0.15 }}
-                  >
-                    {node.description}
-                  </motion.div>
-                )}
-              </AnimatePresence>
-            </motion.div>
-          )
-        })}
-      </div>
-
-      {/* Legend */}
-      <motion.div className="flex flex-wrap gap-3 mt-3 z-10 justify-center"
-        initial={{ opacity: 0 }} animate={{ opacity: ready ? 1 : 0 }} transition={{ delay: 0.9 }}>
-        {([0,1,2,3] as const).map(l => (
-          <span key={l} className="flex items-center gap-1.5 text-[10px] text-muted-foreground">
-            <span className="w-2 h-2 rounded-full flex-shrink-0" style={{ background: LAYER_COLOR[l] }} />
-            {["Identity","Core Capabilities","Proof of Work","Utility"][l]}
-          </span>
-        ))}
-      </motion.div>
-
-      {/* Reset & Skip */}
-      <motion.button
-        className="mt-2 z-10 text-[10px] text-muted-foreground/50 hover:text-muted-foreground transition-colors"
-        initial={{ opacity: 0 }} animate={{ opacity: ready ? 1 : 0 }} transition={{ delay: 1 }}
-        onClick={handleReset}
+    <div style={{ width: "100%", height: "100vh", background: "#020817", position: "relative" }}>
+      {onSkip && (
+        <button
+          onClick={onSkip}
+          style={{ position: "absolute", top: 12, right: 12, zIndex: 10 }}
+          className="text-xs text-muted-foreground hover:text-primary border border-border bg-background/80 backdrop-blur-sm rounded-full px-4 py-2 shadow-md transition-colors"
+        >
+          Skip to Classic View
+        </button>
+      )}
+      <ReactFlow
+        nodes={nodes}
+        edges={edges}
+        onNodesChange={onNodesChange}
+        onEdgesChange={onEdgesChange}
+        onConnect={onConnect}
+        onNodeClick={handleNodeClick}
+        nodeTypes={nodeTypes}
+        edgeTypes={edgeTypes}
+        fitView
+        nodesDraggable
+        panOnDrag
+        zoomOnScroll
       >
-        ↺ Reset layout
-      </motion.button>
-
-      <motion.button
-        className="mt-3 z-10 px-5 py-2 rounded-full border border-border text-sm text-muted-foreground hover:text-foreground hover:border-primary transition-colors"
-        initial={{ opacity: 0 }} animate={{ opacity: ready ? 1 : 0 }} transition={{ delay: 1.1 }}
-        onClick={onSkip}
-      >
-        Classic View →
-      </motion.button>
+        <Background variant={BackgroundVariant.Dots} gap={24} size={1} color="#1e293b" />
+        <Controls showInteractive={false} />
+      </ReactFlow>
     </div>
-  )
+  );
 }
