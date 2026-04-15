@@ -1,3 +1,10 @@
+## [1.14.2](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.14.1...v1.14.2) (2026-04-15)
+
+
+### Bug Fixes
+
+* remove invalid ReactFlow props, fix hook deps, move NODE_ROUTES outside component ([8953093](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/commit/89530932555b9e65df685cb0ad78064f1e178191))
+
 ## [1.14.1](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.14.0...v1.14.1) (2026-04-15)
 
 
