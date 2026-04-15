@@ -1,3 +1,10 @@
+## [1.14.1](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.14.0...v1.14.1) (2026-04-15)
+
+
+### Bug Fixes
+
+* correct getBezierPath usage for edge rendering (TS build error) ([adbe81f](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/commit/adbe81f2e42c50179d4af661af40828b7938cd2f))
+
 # [1.14.0](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.13.3...v1.14.0) (2026-04-15)
 
 
