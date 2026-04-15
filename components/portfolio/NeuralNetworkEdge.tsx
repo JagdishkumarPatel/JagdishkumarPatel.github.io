@@ -1,73 +1,43 @@
 "use client";
 
-import React, { useState } from "react";
-import { getBezierPath, EdgeProps } from "react-flow-renderer";
-import { motion } from "framer-motion";
+import React from "react";
+import { getBezierPath, EdgeProps, Position } from "react-flow-renderer";
 
 export default function NeuralNetworkEdge({
-  id, sourceX, sourceY, targetX, targetY, selected, data,
+  id, sourceX, sourceY, sourcePosition, targetX, targetY, targetPosition, data,
 }: EdgeProps) {
-  const [hovered, setHovered] = useState(false);
-  const firing: boolean = data?.firing ?? false;
-  const highlight = firing || hovered || selected;
-
-  const edgePath: string = getBezierPath({ sourceX, sourceY, targetX, targetY })[0];
-  const strokeColor = firing ? "#0ff" : hovered || selected ? "#7c3aed" : "#1e3a5f";
-  const strokeWidth = firing ? 2.5 : hovered || selected ? 2 : 1.2;
-
+  const [edgePath] = getBezierPath({
+    sourceX,
+    sourceY,
+    sourcePosition: sourcePosition ?? Position.Bottom,
+    targetX,
+    targetY,
+    targetPosition: targetPosition ?? Position.Top,
+  });
+  const markerId = `arrow-${id}`;
   return (
-    <g
-      onPointerEnter={() => setHovered(true)}
-      onPointerLeave={() => setHovered(false)}
-      style={{ pointerEvents: "all" }}
-    >
+    <g style={{ pointerEvents: "all" }}>
       <defs>
         <marker
-          id={`arrow-${id}`}
-          markerWidth="7"
-          markerHeight="7"
-          refX="6"
-          refY="3.5"
+          id={markerId}
+          markerWidth="12"
+          markerHeight="12"
+          refX="12"
+          refY="6"
           orient="auto"
           markerUnits="strokeWidth"
         >
-          <path d="M0,0 L7,3.5 L0,7 Z" fill={strokeColor} />
+          <path d="M2,2 L12,6 L2,10 L6,6 L2,2" fill="#38bdf8" />
         </marker>
       </defs>
-
-      {/* Base edge path */}
-      <motion.path
+      <path
         d={edgePath}
-        stroke={strokeColor}
-        strokeWidth={strokeWidth}
+        stroke="#38bdf8"
+        strokeWidth={2}
         fill="none"
-        strokeDasharray={highlight ? "10 6" : "6 8"}
-        animate={{
-          strokeDashoffset: [20, 0],
-          filter: firing
-            ? ["drop-shadow(0 0 4px #0ff)", "drop-shadow(0 0 10px #0ff)", "drop-shadow(0 0 4px #0ff)"]
-            : highlight
-            ? "drop-shadow(0 0 4px #7c3aed)"
-            : "none",
-        }}
-        transition={{
-          strokeDashoffset: { duration: firing ? 0.3 : 1.5, repeat: Infinity, ease: "linear" },
-          filter: { duration: 0.4, repeat: firing ? Infinity : 0 },
-        }}
-        markerEnd={`url(#arrow-${id})`}
+        opacity={0.8}
+        markerEnd={`url(#${markerId})`}
       />
-
-      {/* Enhanced firing particles — multiple glowing dots for visible effect */}
-      {firing && [0, 0.2, 0.4].map((delay, idx) => (
-        <motion.circle
-          key={idx}
-          r={6 - idx * 1.5}
-          fill="#0ff"
-          style={{ offsetPath: `path('${edgePath}')`, filter: `drop-shadow(0 0 12px #0ff)` } as React.CSSProperties}
-          animate={{ offsetDistance: ["0%", "100%"], opacity: [0.7, 1, 0] }}
-          transition={{ duration: 0.7, ease: "easeInOut", repeat: Infinity, delay }}
-        />
-      ))}
     </g>
   );
 }
