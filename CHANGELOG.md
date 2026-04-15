@@ -1,3 +1,10 @@
+# [1.14.0](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.13.3...v1.14.0) (2026-04-15)
+
+
+### Features
+
+* responsive neural network, node navigation, mobile/laptop fit, animation, and bugfixes ([08efdc3](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/commit/08efdc3184af92a14358f7ebae9b51eceaafa690))
+
 ## [1.13.3](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.13.2...v1.13.3) (2026-04-12)
 
 
