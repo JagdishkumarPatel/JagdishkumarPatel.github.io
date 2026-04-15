@@ -6,7 +6,7 @@ import { getBezierPath, EdgeProps, Position } from "react-flow-renderer";
 export default function NeuralNetworkEdge({
   id, sourceX, sourceY, sourcePosition, targetX, targetY, targetPosition, data,
 }: EdgeProps) {
-  const [edgePath] = getBezierPath({
+  const edgePath = getBezierPath({
     sourceX,
     sourceY,
     sourcePosition: sourcePosition ?? Position.Bottom,
