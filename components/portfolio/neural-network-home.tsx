@@ -59,6 +59,23 @@ function makeEdges(firingEdges: Set<string> = new Set()) {
 
 const nodeTypes = { neuralNode: NeuralNetworkNode };
 
+// Node id → route mapping (outside component to keep stable reference)
+const NODE_ROUTES: Record<string, string> = {
+  jag: "/about",
+  aiml: "/projects",
+  mlops: "/projects",
+  cloud: "/projects",
+  llm: "/projects",
+  proj: "/projects",
+  certs: "/certifications",
+  edu: "/education",
+  blog: "/blog",
+  devsec: "/projects",
+  platform: "/projects",
+  obs: "/projects",
+  contact: "/contact",
+  about: "/about",
+};
 
 export function NeuralNetworkHome({ onSkip }: { onSkip?: () => void }) {
   const router = useRouter();
@@ -130,7 +147,7 @@ export function NeuralNetworkHome({ onSkip }: { onSkip?: () => void }) {
         },
       }))
     );
-  }, [activeNode, litNodes, hoveredNode]);
+  }, [activeNode, litNodes, hoveredNode, setNodes]);
 
   // Sync firing and highlight into edge data
   useEffect(() => {
@@ -198,27 +215,9 @@ export function NeuralNetworkHome({ onSkip }: { onSkip?: () => void }) {
         };
       })
     );
-  }, [firingEdges, hoveredNode]);
+  }, [firingEdges, hoveredNode, setEdges]);
 
   // Build adjacency map once
-  // Node id → route mapping
-  const NODE_ROUTES: Record<string, string> = {
-    jag: "/about",        // Central — about me
-    aiml: "/projects",    // AI/ML → projects showcase
-    mlops: "/projects",   // MLOps → projects showcase
-    cloud: "/projects",   // Cloud Eng → projects showcase
-    llm: "/projects",     // LLM Eng → projects showcase
-    proj: "/projects",    // Projects
-    certs: "/certifications", // Certifications
-    edu: "/education",    // Education
-    blog: "/blog",        // Blog
-    devsec: "/projects",  // DevSecOps → projects
-    platform: "/projects",// Platform → projects
-    obs: "/projects",     // Observability → projects
-    contact: "/contact",  // Contact
-    about: "/about",      // About
-  };
-
   const adjacency = buildAdjacency();
 
   const handleNodeClick = useCallback(
@@ -290,8 +289,6 @@ export function NeuralNetworkHome({ onSkip }: { onSkip?: () => void }) {
             panOnScroll={false}
             preventScrolling={false}
             zoomOnDoubleClick={false}
-            autoPanOnConnect={false}
-            autoPanOnNodeDrag={false}
           >
             <Background variant={BackgroundVariant.Dots} gap={24} size={1} color="#1e293b" />
             <Controls showInteractive={false} />
