@@ -87,6 +87,7 @@ export function NeuralNetworkHome({ onSkip }: { onSkip?: () => void }) {
   const [search, setSearch] = useState("");
   const animRef = useRef<number>(0);
   const startTimeRef = useRef<number>(performance.now());
+  const pausedRef = useRef<boolean>(false);
   const isMobile = typeof window !== "undefined" && window.innerWidth < 768;
 
   // Initial scatter, then animate to circle
@@ -94,6 +95,7 @@ export function NeuralNetworkHome({ onSkip }: { onSkip?: () => void }) {
   const [edges, setEdges, onEdgesChange] = useEdgesState(makeEdges());
 
   // Circular motion animation loop — fixed coord system, fitView handles scaling
+  // Animation loop with pause/resume
   useEffect(() => {
     const nodeIds = NODE_CONFIG.map((n) => n.id);
     const totalNodes = nodeIds.filter((id) => id !== "jag").length;
@@ -102,17 +104,30 @@ export function NeuralNetworkHome({ onSkip }: { onSkip?: () => void }) {
     // Fixed radius in ReactFlow coords — fitView scales to fill screen
     const BASE_RADIUS = 260;
 
+    // 3D depth mapping helpers
+    function getDepth(angleRad: number) {
+      // 0 = top (farthest), pi = bottom (closest)
+      // Map to [0,1]: 0 (back) to 1 (front)
+      // Use cosine so bottom (pi) is 1, top (0/2pi) is 0
+      return 0.5 * (1 + Math.cos(angleRad - Math.PI));
+    }
+
     function tick() {
+      if (pausedRef.current) {
+        animRef.current = requestAnimationFrame(tick);
+        return;
+      }
       const t = performance.now() - startTimeRef.current;
       const radius = BASE_RADIUS + BASE_RADIUS * 0.08 * Math.sin(t * breatheSpeed);
 
       setNodes((nds) =>
         nds.map((n) => {
           if (n.id === "jag") {
-            return { ...n, position: { x: -45, y: -45 }, draggable: false };
+            return { ...n, position: { x: -45, y: -45 }, draggable: false, data: { ...n.data, depth: 1 } };
           }
           const idx = nodeIds.filter((id) => id !== "jag").indexOf(n.id);
           const angle = (2 * Math.PI * idx) / totalNodes + t * speed;
+          const depth = getDepth(angle);
           return {
             ...n,
             position: {
@@ -120,6 +135,10 @@ export function NeuralNetworkHome({ onSkip }: { onSkip?: () => void }) {
               y: radius * Math.sin(angle),
             },
             draggable: true,
+            data: {
+              ...n.data,
+              depth,
+            },
           };
         })
       );
@@ -129,6 +148,11 @@ export function NeuralNetworkHome({ onSkip }: { onSkip?: () => void }) {
     animRef.current = requestAnimationFrame(tick);
     return () => { cancelAnimationFrame(animRef.current); };
   }, []);
+
+  // Pause/resume animation based on hoveredNode
+  useEffect(() => {
+    pausedRef.current = hoveredNode !== null;
+  }, [hoveredNode]);
 
   // Sync active/lit/hover highlight into node data
   useEffect(() => {

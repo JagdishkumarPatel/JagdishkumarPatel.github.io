@@ -14,9 +14,18 @@ export default function NeuralNetworkNode({ data, selected }: NodeProps) {
   const weight = data.weight || getNodeWeight(data.id);
   const isCentral = data.id === "jag";
 
+  // 3D depth-based visual mapping
+  const depth = typeof data.depth === "number" ? data.depth : 1; // [0,1], 1=front, 0=back
   // Node size and glow by weight — larger on mobile
   const isMobile = typeof window !== "undefined" && window.innerWidth < 768;
-  const size = isCentral ? 90 : weight === "strong" ? (isMobile ? 48 : 56) : weight === "medium" ? (isMobile ? 40 : 46) : (isMobile ? 32 : 36);
+  const baseSize = isCentral ? 90 : weight === "strong" ? (isMobile ? 48 : 56) : weight === "medium" ? (isMobile ? 40 : 46) : (isMobile ? 32 : 36);
+  // Scale: 0.85 (back) to 1.15 (front)
+  const scale3d = 0.85 + 0.3 * depth;
+  // Opacity: 0.45 (back) to 1 (front)
+  const opacity3d = 0.45 + 0.55 * depth;
+  // zIndex: 1 (back) to 100 (front), central always 200
+  const zIndex3d = isCentral ? 200 : Math.round(1 + 99 * depth);
+  const size = baseSize * scale3d;
   const ringColor = isCentral
     ? "#38bdf8"
     : active
@@ -39,11 +48,40 @@ export default function NeuralNetworkNode({ data, selected }: NodeProps) {
     ? "#a855f720"
     : "transparent";
 
+  // Mobile tap-to-focus handler
+
+  function handleTouchStart(e: React.TouchEvent) {
+    setHovered(true);
+  }
+  function handleTouchEnd(e: React.TouchEvent) {
+    setHovered(false);
+  }
+
+  function handleMouseEnter() {
+    setHovered(true);
+  }
+  function handleMouseLeave() {
+    setHovered(false);
+  }
+
   return (
     <div
-      onMouseEnter={() => setHovered(true)}
-      onMouseLeave={() => setHovered(false)}
-      style={{ position: "relative", display: "flex", flexDirection: "column", alignItems: "center", cursor: "pointer" }}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+      onTouchStart={handleTouchStart}
+      onTouchEnd={handleTouchEnd}
+      style={{
+        position: "relative",
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        cursor: "pointer",
+        opacity: opacity3d,
+        zIndex: zIndex3d,
+        transition: "opacity 0.3s, z-index 0.3s",
+        minWidth: 44, // ensure touch target size
+        minHeight: 44,
+      }}
     >
       <Handle type="target" position={Position.Top} style={{ opacity: 0, pointerEvents: "none" }} />
 
@@ -75,7 +113,7 @@ export default function NeuralNetworkNode({ data, selected }: NodeProps) {
           boxShadow: highlight
             ? `0 0 0 3px ${ringColor}, 0 0 48px 16px ${glowColor}cc`
             : `0 0 0 1.5px ${ringColor}88, 0 0 16px 4px ${glowColor}22`,
-          scale: active ? 1.18 : lit ? 1.1 : hovered ? 1.08 : 1,
+          scale: (active ? 1.18 : lit ? 1.1 : hovered ? 1.08 : 1) * scale3d,
           backgroundColor: bgColor,
         }}
         transition={{ type: "spring", stiffness: 400, damping: 22 }}
