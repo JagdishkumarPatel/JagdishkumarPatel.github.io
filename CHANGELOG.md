@@ -1,3 +1,10 @@
+## [1.14.3](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.14.2...v1.14.3) (2026-04-16)
+
+
+### Bug Fixes
+
+* robust animation pause/resume on node hover, always resumes when mouse leaves all nodes ([b745772](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/commit/b7457723878a01f7ae817bfbcb6c9eb3f0ee0068))
+
 ## [1.14.2](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.14.1...v1.14.2) (2026-04-15)
 
 
