@@ -1,3 +1,10 @@
+# [1.16.0](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.15.0...v1.16.0) (2026-04-18)
+
+
+### Features
+
+* add local-first ai security auditor to projects, rebuild static site ([76722e7](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/commit/76722e733f78beff72393d705c83e8d13dbde1b7))
+
 # [1.15.0](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.14.3...v1.15.0) (2026-04-18)
 
 
