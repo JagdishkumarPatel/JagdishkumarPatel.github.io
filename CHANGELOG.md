@@ -1,3 +1,10 @@
+# [1.15.0](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.14.3...v1.15.0) (2026-04-18)
+
+
+### Features
+
+* add local-first ai security auditor blog post, rebuild index and static site ([9be0b62](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/commit/9be0b623026bedb87d2a479ef395d0fa230c3e35))
+
 ## [1.14.3](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.14.2...v1.14.3) (2026-04-16)
 
 
