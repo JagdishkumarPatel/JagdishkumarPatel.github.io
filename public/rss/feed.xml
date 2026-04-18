@@ -5,8 +5,16 @@
     <link>https://jagdishkumarpatel.github.io/blog</link>
     <description><![CDATA[AI/ML engineering, MLOps, cloud architecture, and platform insights.]]></description>
     <language>en</language>
-    <lastBuildDate>Tue, 14 Apr 2026 21:59:43 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 05:13:08 GMT</lastBuildDate>
     
+    <item>
+      <title><![CDATA[Local-First AI Security Auditor: Evidence, Not Excuses]]></title>
+      <link>https://jagdishkumarpatel.github.io/blog/local-first-ai-security-auditor/</link>
+      <guid>https://jagdishkumarpatel.github.io/blog/local-first-ai-security-auditor/</guid>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[A local-first AI-powered security auditor that ingests SARIF/JSON from any tool, deduplicates findings, and outputs a single, evidence-based Markdown report—no hallucinations, no data leakage.]]></description>
+      <enclosure url="https://jagdishkumarpatel.github.io/images/local-first-ai-security-auditor.png" type="image/png" />
+    </item>
     <item>
       <title><![CDATA[Building a Local-First AI Knowledge Base — Chat with Your Files, Offline]]></title>
       <link>https://jagdishkumarpatel.github.io/blog/local-first-ai-knowledge-base/</link>
@@ -38,6 +46,14 @@
       <pubDate>Mon, 06 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[I built a local AI-powered billing chat that reads cloud cost CSVs (AWS, Azure) and lets you query cost changes, new services, and team breakdowns in plain language — no external APIs, fully on-device with Ollama and FastAPI.]]></description>
       <enclosure url="https://jagdishkumarpatel.github.io/images/local-ai-billing-chat.png" type="image/png" />
+    </item>
+    <item>
+      <title><![CDATA[Building an AI Decision Engine with Mistral, FastAPI & PromptFlow]]></title>
+      <link>https://jagdishkumarpatel.github.io/blog/ai-decision-engine-mistral-promptflow/</link>
+      <guid>https://jagdishkumarpatel.github.io/blog/ai-decision-engine-mistral-promptflow/</guid>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[I built a dynamic decision engine that evaluates user data against JSON-defined rules and provides AI-driven reasoning using Mistral-7B-OpenOrca via GPT4All — with PromptFlow for workflow orchestration, human-readable PDF reports, and a full CI/CD pipeline on Azure App Services.]]></description>
+      <enclosure url="https://jagdishkumarpatel.github.io/images/ai-decision-engine-mistral-promptflow.png" type="image/png" />
     </item>
     <item>
       <title><![CDATA[Building a Local MCP Server to Automate Daily DevOps Tasks]]></title>
