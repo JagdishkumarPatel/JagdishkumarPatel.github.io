@@ -1,9 +1,9 @@
 name: Build and Deploy - Site
 
+
 on:
-  push:
-    branches:
-      - main
+  release:
+    types: [published]
   pull_request:
     branches:
       - main
