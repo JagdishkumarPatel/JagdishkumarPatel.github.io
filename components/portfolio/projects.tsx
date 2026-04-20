@@ -75,7 +75,7 @@ export function Projects() {
         </Link>
       </div>
       <div className="grid md:grid-cols-2 gap-6">
-        {projectsData.map((project) => (
+        {projectsData.slice(0, 4).map((project) => (
           <ProjectCard key={project.title} project={project} />
         ))}
       </div>

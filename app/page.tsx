@@ -6,6 +6,8 @@ import { Projects } from '@/components/portfolio/projects'
 import { Blog } from '@/components/portfolio/blog'
 import { Contact } from '@/components/portfolio/contact'
 import { HomeEntry } from '@/components/portfolio/home-entry'
+import { Carousel } from '@/components/portfolio/Carousel'
+import { getAllPosts } from '@/lib/posts'
 
 export const metadata: Metadata = {
   title: 'Jag Patel — Principal AI/ML Engineer | Machine Learning, MLOps & Cloud',
@@ -28,10 +30,19 @@ export const metadata: Metadata = {
 }
 
 export default function Home() {
+  const posts = getAllPosts();
   return (
     <HomeEntry>
       <Hero />
       <About />
+      {/* VisualCarousel below About section */}
+      <section className="py-14 mx-auto max-w-4xl px-6">
+        <div className="mb-10">
+          <p className="font-mono text-sm text-primary mb-1">{'>'} highlights</p>
+          <h2 className="text-3xl font-extrabold tracking-tight gradient-heading">Featured Projects</h2>
+        </div>
+        <Carousel posts={posts} />
+      </section>
       <Capabilities />
       <Projects />
       <Blog />

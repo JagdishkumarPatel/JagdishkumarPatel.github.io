@@ -12,6 +12,12 @@ export type PostMeta = {
   feature_image?: string | null
   tags?: string[]
   description?: string
+  // Carousel fields
+  carousel?: boolean;
+  thumbnail?: string;
+  thumbnailLight?: string;
+  thumbnailDark?: string;
+  order?: number;
 }
 
 export type Post = PostMeta & {
@@ -52,7 +58,12 @@ export function getAllPosts(): PostMeta[] {
         excerpt,
         feature_image: data.feature_image || null,
         tags: data.tags || [],
-        description: data.description || '',
+        description: (data.description ?? '').toString(),
+        carousel: data.carousel ?? false,
+        thumbnail: data.thumbnail ?? '',
+        thumbnailLight: data.thumbnailLight ?? '',
+        thumbnailDark: data.thumbnailDark ?? '',
+        order: typeof data.order === 'number' ? data.order : 0,
       }
     })
     .sort((a, b) => (a.date < b.date ? 1 : -1))
@@ -72,7 +83,7 @@ export function getPostBySlug(slug: string): Post | null {
         content,
         feature_image: data.feature_image || null,
         tags: data.tags || [],
-        description: data.description || '',
+        description: (data.description ?? '').toString(),
       }
     }
   }
