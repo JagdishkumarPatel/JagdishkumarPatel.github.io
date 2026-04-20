@@ -2,8 +2,11 @@
 
 import * as React from "react"
 import Link from "next/link"
+import { usePathname } from "next/navigation"
 import { Menu, X } from "lucide-react"
 import { ThemeSwitcher } from "@/components/theme-switcher"
+
+const STORAGE_KEY = "portfolio-view"
 
 const navLinks = [
   { label: "About", href: "/about" },
@@ -17,6 +20,13 @@ const navLinks = [
 export function Nav() {
   const [open, setOpen] = React.useState(false)
   const [scrolled, setScrolled] = React.useState(false)
+  const [neuralView, setNeuralView] = React.useState(false)
+  const pathname = usePathname()
+  const isHome = pathname === "/"
+
+  React.useEffect(() => {
+    setNeuralView(localStorage.getItem(STORAGE_KEY) !== "classic")
+  }, [])
 
   React.useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20)
@@ -57,6 +67,26 @@ export function Nav() {
         {/* Right actions */}
         <div className="flex items-center gap-3">
           <ThemeSwitcher />
+          {isHome && (
+            <button
+              className="inline-flex items-center gap-1.5 text-xs text-muted-foreground hover:text-primary border border-border bg-background/80 backdrop-blur-sm rounded-full px-2 py-1.5 md:px-3 transition-colors"
+              title={neuralView ? "Switch to Classic View" : "Switch to Neural View"}
+              aria-label={neuralView ? "Switch to Classic View" : "Switch to Neural View"}
+              onClick={() => {
+                const next = !neuralView
+                setNeuralView(next)
+                if (next) {
+                  localStorage.removeItem(STORAGE_KEY)
+                } else {
+                  localStorage.setItem(STORAGE_KEY, "classic")
+                }
+                window.location.reload()
+              }}
+            >
+              <span>{neuralView ? "⚡" : "🧠"}</span>
+              <span className="hidden md:inline whitespace-nowrap">{neuralView ? "Classic View" : "Neural View"}</span>
+            </button>
+          )}
           {/* Mobile toggle */}
           <button
             className="md:hidden p-2 rounded-md hover:bg-accent transition-colors"

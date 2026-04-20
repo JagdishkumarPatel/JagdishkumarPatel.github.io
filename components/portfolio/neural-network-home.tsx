@@ -58,6 +58,10 @@ function makeEdges(firingEdges: Set<string> = new Set()) {
 }
 
 const nodeTypes = { neuralNode: NeuralNetworkNode };
+const edgeTypes = { neuralEdge: NeuralNetworkEdge };
+
+// Build adjacency map once outside component — stable reference
+const adjacency = buildAdjacency();
 
 // Node id → route mapping (outside component to keep stable reference)
 const NODE_ROUTES: Record<string, string> = {
@@ -101,18 +105,15 @@ export function NeuralNetworkHome({ onSkip }: { onSkip?: () => void }) {
     const totalNodes = nodeIds.filter((id) => id !== "jag").length;
     const speed = 0.00025;
     const breatheSpeed = 0.00013;
-    // Fixed radius in ReactFlow coords — fitView scales to fill screen
     const BASE_RADIUS = 260;
+    let cancelled = false; // guard against React Strict Mode double-invoke
 
-    // 3D depth mapping helpers
     function getDepth(angleRad: number) {
-      // 0 = top (farthest), pi = bottom (closest)
-      // Map to [0,1]: 0 (back) to 1 (front)
-      // Use cosine so bottom (pi) is 1, top (0/2pi) is 0
       return 0.5 * (1 + Math.cos(angleRad - Math.PI));
     }
 
     function tick() {
+      if (cancelled) return;
       if (pausedRef.current) {
         animRef.current = requestAnimationFrame(tick);
         return;
@@ -135,10 +136,7 @@ export function NeuralNetworkHome({ onSkip }: { onSkip?: () => void }) {
               y: radius * Math.sin(angle),
             },
             draggable: true,
-            data: {
-              ...n.data,
-              depth,
-            },
+            data: { ...n.data, depth },
           };
         })
       );
@@ -146,7 +144,10 @@ export function NeuralNetworkHome({ onSkip }: { onSkip?: () => void }) {
       animRef.current = requestAnimationFrame(tick);
     }
     animRef.current = requestAnimationFrame(tick);
-    return () => { cancelAnimationFrame(animRef.current); };
+    return () => {
+      cancelled = true;
+      cancelAnimationFrame(animRef.current);
+    };
   }, []);
 
   // Pause/resume animation based on hoveredNode
@@ -158,7 +159,7 @@ export function NeuralNetworkHome({ onSkip }: { onSkip?: () => void }) {
   useEffect(() => {
     let highlightLevels: Record<string, number> = {};
     if (hoveredNode) {
-      highlightLevels = getConnectionLevels(hoveredNode, 3); // BFS: 0=self, 1=direct, 2=secondary
+      highlightLevels = getConnectionLevels(hoveredNode, 3);
     }
     setNodes((nds) =>
       nds.map((n) => ({
@@ -171,7 +172,8 @@ export function NeuralNetworkHome({ onSkip }: { onSkip?: () => void }) {
         },
       }))
     );
-  }, [activeNode, litNodes, hoveredNode, setNodes]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [activeNode, litNodes, hoveredNode]);
 
   // Sync firing and highlight into edge data
   useEffect(() => {
@@ -239,10 +241,10 @@ export function NeuralNetworkHome({ onSkip }: { onSkip?: () => void }) {
         };
       })
     );
-  }, [firingEdges, hoveredNode, setEdges]);
+  }, [firingEdges, hoveredNode]);
 
   // Build adjacency map once
-  const adjacency = buildAdjacency();
+  // (moved to module scope — stable reference, no re-render trigger)
 
   const handleNodeClick = useCallback(
     (_: React.MouseEvent, node: Node) => {
@@ -286,15 +288,7 @@ export function NeuralNetworkHome({ onSkip }: { onSkip?: () => void }) {
 
       return (
         <div style={{ width: "100%", height: "100svh", background: "#020817", position: "relative" }}>
-          {onSkip && (
-            <button
-              onClick={onSkip}
-              style={{ position: "absolute", top: 12, right: 12, zIndex: 50 }}
-              className="text-xs text-muted-foreground hover:text-primary border border-border bg-background/80 backdrop-blur-sm rounded-full px-4 py-2 shadow-md transition-colors"
-            >
-              Skip to Classic View
-            </button>
-          )}
+          {onSkip && null}
           <ReactFlow
             nodes={nodes}
             edges={edges}
@@ -305,6 +299,7 @@ export function NeuralNetworkHome({ onSkip }: { onSkip?: () => void }) {
             onNodeMouseEnter={isMobile ? undefined : handleNodeMouseEnter}
             onNodeMouseLeave={isMobile ? undefined : handleNodeMouseLeave}
             nodeTypes={nodeTypes}
+            edgeTypes={edgeTypes}
             fitView
             fitViewOptions={{ padding: 0.18 }}
             nodesDraggable={false}

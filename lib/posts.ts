@@ -4,25 +4,33 @@ import matter from 'gray-matter'
 
 const PUBLISH_DIR = path.join(process.cwd(), 'content/publish')
 
+
+export type BlogCarouselGalleryItem = {
+  src: string;
+  title?: string;
+  description?: string;
+};
+
 export type PostMeta = {
-  slug: string
-  title: string
-  date: string
-  excerpt?: string
-  feature_image?: string | null
-  tags?: string[]
-  description?: string
+  slug: string;
+  title: string;
+  date: string;
+  excerpt?: string;
+  feature_image?: string | null;
+  tags?: string[];
+  description?: string;
   // Carousel fields
   carousel?: boolean;
   thumbnail?: string;
   thumbnailLight?: string;
   thumbnailDark?: string;
   order?: number;
-}
+  gallery?: BlogCarouselGalleryItem[];
+};
 
 export type Post = PostMeta & {
-  content: string
-}
+  content: string;
+};
 
 export function getAllPostSlugs(): string[] {
   if (!fs.existsSync(PUBLISH_DIR)) return []
@@ -64,6 +72,7 @@ export function getAllPosts(): PostMeta[] {
         thumbnailLight: data.thumbnailLight ?? '',
         thumbnailDark: data.thumbnailDark ?? '',
         order: typeof data.order === 'number' ? data.order : 0,
+        gallery: Array.isArray(data.gallery) ? data.gallery : undefined,
       }
     })
     .sort((a, b) => (a.date < b.date ? 1 : -1))
@@ -84,6 +93,12 @@ export function getPostBySlug(slug: string): Post | null {
         feature_image: data.feature_image || null,
         tags: data.tags || [],
         description: (data.description ?? '').toString(),
+        carousel: data.carousel ?? false,
+        thumbnail: data.thumbnail ?? '',
+        thumbnailLight: data.thumbnailLight ?? '',
+        thumbnailDark: data.thumbnailDark ?? '',
+        order: typeof data.order === 'number' ? data.order : 0,
+        gallery: Array.isArray(data.gallery) ? data.gallery : undefined,
       }
     }
   }

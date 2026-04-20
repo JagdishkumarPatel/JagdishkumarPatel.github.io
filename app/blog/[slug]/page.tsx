@@ -6,6 +6,8 @@ import remarkGfm from 'remark-gfm'
 import rehypeSlug from 'rehype-slug'
 import rehypeHighlight from 'rehype-highlight'
 import { getAllPostSlugs, getPostBySlug } from '@/lib/posts'
+import dynamic from 'next/dynamic'
+const BlogCarousel = dynamic(() => import('@/components/portfolio/BlogCarousel'), { ssr: false })
 import type { Metadata } from 'next'
 
 type Props = { params: { slug: string } }
@@ -74,17 +76,6 @@ export default function BlogPostPage({ params }: Props) {
       <div className="flex gap-12">
         {/* Main content */}
         <article className="flex-1 min-w-0">
-          {post.feature_image && (
-            <div className="relative w-full rounded-xl overflow-hidden mb-8 bg-muted" style={{ aspectRatio: '16/9' }}>
-              <Image
-                src={post.feature_image}
-                alt={post.title}
-                fill
-                className="object-contain"
-                priority
-              />
-            </div>
-          )}
 
           <header className="mb-10">
             <h1 className="text-3xl md:text-4xl font-extrabold leading-tight mb-4">{post.title}</h1>
@@ -115,6 +106,26 @@ export default function BlogPostPage({ params }: Props) {
               )}
             </div>
           </header>
+
+          {/* Gallery carousel — after title so reader has context */}
+          {Array.isArray(post.gallery) && post.gallery.length > 0 && (
+            <div className="mb-10">
+              <BlogCarousel gallery={post.gallery} />
+            </div>
+          )}
+
+          {/* Single feature image — after title, same pattern as carousel */}
+          {!Array.isArray(post.gallery) && post.feature_image && (
+            <div className="relative w-full rounded-xl overflow-hidden mb-10 bg-muted" style={{ aspectRatio: '16/9' }}>
+              <Image
+                src={post.feature_image}
+                alt={post.title}
+                fill
+                className="object-contain"
+                priority
+              />
+            </div>
+          )}
 
           <div className="prose prose-slate max-w-none dark:prose-invert prose-headings:font-semibold prose-a:text-primary prose-code:text-primary prose-code:before:content-none prose-code:after:content-none">
             <MDXRemote

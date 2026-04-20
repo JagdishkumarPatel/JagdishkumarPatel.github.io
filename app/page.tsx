@@ -39,7 +39,7 @@ export default function Home() {
       <section className="py-14 mx-auto max-w-4xl px-6">
         <div className="mb-10">
           <p className="font-mono text-sm text-primary mb-1">{'>'} highlights</p>
-          <h2 className="text-3xl font-extrabold tracking-tight gradient-heading">Featured Projects</h2>
+          <h2 className="text-3xl font-extrabold tracking-tight gradient-heading">Highlights</h2>
         </div>
         <Carousel posts={posts} />
       </section>
