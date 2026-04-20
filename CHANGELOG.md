@@ -1,3 +1,10 @@
+## [1.16.1](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.16.0...v1.16.1) (2026-04-20)
+
+
+### Bug Fixes
+
+* **carousel:** slide index and dots now reflect leftmost visible card for intuitive navigation ([a572b05](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/commit/a572b051d1cf8be8a897913b8df0d65d29bc4cdd))
+
 # [1.16.0](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.15.0...v1.16.0) (2026-04-18)
 
 
