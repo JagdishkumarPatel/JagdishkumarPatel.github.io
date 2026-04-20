@@ -28,17 +28,33 @@ export const Carousel: React.FC<CarouselProps> = ({ posts, className }) => {
   const theme = useTheme();
   const scrollRef = useRef<HTMLDivElement>(null);
   const [scroll, setScroll] = useState({ left: 0, width: 0, scrollWidth: 0 });
+  const [activeIndex, setActiveIndex] = useState(0);
 
   // Sort and filter posts
   const carouselPosts = posts
     .filter((p) => p.carousel)
     .sort((a, b) => (a.order ?? 0) - (b.order ?? 0));
 
-  // Scroll progress
+  // Scroll progress and active index
   useEffect(() => {
     const el = scrollRef.current;
     if (!el) return;
-    const onScroll = () => setScroll({ left: el.scrollLeft, width: el.clientWidth, scrollWidth: el.scrollWidth });
+    const onScroll = () => {
+      setScroll({ left: el.scrollLeft, width: el.clientWidth, scrollWidth: el.scrollWidth });
+      const children = Array.from(el.children);
+      let leftmostIdx = 0;
+      const containerLeft = el.getBoundingClientRect().left + 2; // fudge for border
+      let minDist = Infinity;
+      children.forEach((child, i) => {
+        const rect = (child as HTMLElement).getBoundingClientRect();
+        const dist = Math.abs(rect.left - containerLeft);
+        if (dist < minDist) {
+          minDist = dist;
+          leftmostIdx = i;
+        }
+      });
+      setActiveIndex(leftmostIdx);
+    };
     el.addEventListener('scroll', onScroll);
     onScroll();
     return () => el.removeEventListener('scroll', onScroll);
@@ -144,6 +160,37 @@ export const Carousel: React.FC<CarouselProps> = ({ posts, className }) => {
             </motion.div>
           );
         })}
+      </div>
+      {/* Slide index and dots */}
+      <div className="flex flex-col items-center mt-4">
+        {/* Slide index */}
+        <span className="text-xs text-muted-foreground mb-2">
+          {carouselPosts.length > 0 && activeIndex < carouselPosts.length
+            ? `${activeIndex + 1} / ${carouselPosts.length}`
+            : `${carouselPosts.length} / ${carouselPosts.length}`}
+        </span>
+        {/* Dots */}
+        <div className="flex gap-2">
+          {carouselPosts.map((_, i) => (
+            <button
+              key={i}
+              className={clsx(
+                'w-2.5 h-2.5 rounded-full border border-border transition-colors',
+                i === activeIndex ? 'bg-primary' : 'bg-border'
+              )}
+              aria-label={`Go to slide ${i + 1}`}
+              tabIndex={0}
+              onClick={() => {
+                const el = scrollRef.current;
+                if (!el) return;
+                const child = el.children[i] as HTMLElement;
+                if (child) {
+                  el.scrollTo({ left: child.offsetLeft, behavior: 'smooth' });
+                }
+              }}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );
