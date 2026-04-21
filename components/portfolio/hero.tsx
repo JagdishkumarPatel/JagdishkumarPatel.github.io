@@ -76,8 +76,11 @@ export function Hero() {
         {/* Name + role */}
         <div className="space-y-3">
           <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight gradient-heading">
-            Jag Patel
+            Jag Patel — Principal AI/ML Engineer in Melbourne, Australia
           </h1>
+          <h2 className="text-2xl md:text-3xl font-semibold text-primary">
+            Machine Learning, MLOps, and Cloud Engineering Expert
+          </h2>
           <p className="font-mono text-lg md:text-xl text-primary">
             {">"} Principal AI/ML Engineer
           </p>

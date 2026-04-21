@@ -82,11 +82,26 @@ export const structuredData = {
   name: 'Jag Patel',
   jobTitle: 'Principal AI/ML Engineer',
   url: 'https://jagdishkumarpatel.github.io',
+  description: 'Principal AI/ML Engineer based in Melbourne, Australia, with 18+ years in AI, MLOps, PromptFlow, DevSecOps, and cloud automation.',
+  address: {
+    '@type': 'PostalAddress',
+    addressLocality: 'Melbourne',
+    addressRegion: 'VIC',
+    addressCountry: 'Australia',
+  },
+  alumniOf: {
+    '@type': 'Organization',
+    name: 'Monash University',
+    sameAs: 'https://www.monash.edu/'
+  },
   sameAs: [
     'https://www.linkedin.com/in/jagjpatel/',
     'https://github.com/JagdishkumarPatel',
+    'https://twitter.com/JagPatel',
+    'https://scholar.google.com/citations?user=JagPatel',
+    'https://www.kaggle.com/jagpatel',
+    'https://www.monash.edu/',
   ],
-  description: 'Principal AI/ML Engineer with 18+ years in AI, MLOps, PromptFlow, DevSecOps, and cloud automation.',
 }
 
 export default function RootLayout({
@@ -97,7 +112,18 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning className={`${GeistSans.variable} ${GeistMono.variable}`}>
       <head>
+        {/* Google Analytics (GA4) */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-J0DJH4C4DR"></script>
         <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-J0DJH4C4DR');
+            `,
+          }}
+        />
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
         />

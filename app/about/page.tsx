@@ -3,26 +3,27 @@ import { About } from '@/components/portfolio/about'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'About Jag Patel | Principal AI/ML Engineer',
-  description: 'Jag Patel is a Principal AI/ML Engineer with 18+ years across AI/ML, LLMs, MLOps, DevSecOps, and cloud infrastructure. Based in Australia.',
+  title: 'About Jag Patel | Principal AI/ML Engineer in Melbourne, Australia',
+  description: 'Jag Patel is a Principal AI/ML Engineer based in Melbourne, Australia, with 18+ years across AI/ML, LLMs, MLOps, DevSecOps, and cloud infrastructure.',
   keywords: [
     'Jag Patel', 'Jagdishkumar Patel', 'about Jag Patel', 'Principal AI ML Engineer',
-    'AI ML Engineer Australia', 'MLOps engineer', 'LLM engineer', 'DevSecOps engineer',
-    'cloud engineer Australia', 'platform engineer',
+    'AI ML Engineer Australia', 'AI ML Engineer Melbourne', 'MLOps engineer', 'LLM engineer', 'DevSecOps engineer',
+    'cloud engineer Australia', 'cloud engineer Melbourne', 'platform engineer',
   ],
   authors: [{ name: 'Jag Patel', url: 'https://jagdishkumarpatel.github.io' }],
   alternates: { canonical: 'https://jagdishkumarpatel.github.io/about' },
   openGraph: {
-    title: 'About Jag Patel | Principal AI/ML Engineer',
-    description: 'Jag Patel — Principal AI/ML Engineer with 18+ years in AI, MLOps, DevSecOps, and cloud automation.',
+    title: 'About Jag Patel | Principal AI/ML Engineer in Melbourne, Australia',
+    description: 'Jag Patel — Principal AI/ML Engineer based in Melbourne, Australia, with 18+ years in AI, MLOps, DevSecOps, and cloud automation.',
     url: 'https://jagdishkumarpatel.github.io/about',
     siteName: 'Jag Patel',
     type: 'profile',
+    locale: 'en_AU',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'About Jag Patel | Principal AI/ML Engineer',
-    description: 'Jag Patel — 18+ years in AI/ML, LLMs, MLOps, DevSecOps, and cloud automation.',
+    title: 'About Jag Patel | Principal AI/ML Engineer in Melbourne, Australia',
+    description: 'Jag Patel — 18+ years in AI/ML, LLMs, MLOps, DevSecOps, and cloud automation. Based in Melbourne, Australia.',
     creator: '@JagPatel',
   },
   robots: { index: true, follow: true },

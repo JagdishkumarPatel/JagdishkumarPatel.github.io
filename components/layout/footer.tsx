@@ -11,6 +11,7 @@ export function Footer() {
             <span className="text-primary">{">"}</span> Jag Patel
           </p>
           <p className="text-xs text-muted-foreground mt-0.5">Principal AI/ML Engineer</p>
+          <p className="text-xs text-muted-foreground mt-0.5">Melbourne, Australia</p>
         </div>
 
         {/* Nav */}
