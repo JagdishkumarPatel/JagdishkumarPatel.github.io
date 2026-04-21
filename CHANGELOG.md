@@ -1,3 +1,10 @@
+# [1.17.0](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.16.1...v1.17.0) (2026-04-21)
+
+
+### Features
+
+* 3D carousel for homepage, blog galleries, and related posts ([35c949d](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/commit/35c949dba80540afca3d011223af77c879c53d4e))
+
 ## [1.16.1](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.16.0...v1.16.1) (2026-04-20)
 
 
