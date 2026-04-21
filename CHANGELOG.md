@@ -1,3 +1,10 @@
+# [1.18.0](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.17.0...v1.18.0) (2026-04-21)
+
+
+### Features
+
+* **seo:** add Google Analytics, local SEO improvements, and homepage keyword optimization ([e7ed666](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/commit/e7ed666e574af521b99e75edb508a6164c718264))
+
 # [1.17.0](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.16.1...v1.17.0) (2026-04-21)
 
 
