@@ -125,6 +125,51 @@ Post content here...
 2. Add a feature image to `public/images/your-post-slug.png`.
 3. Run `npm run build` — the post index is auto-generated at build time.
 
+### Add a New Post to the Homepage Carousel
+
+To feature a blog post in the homepage 3D carousel (and as a related post):
+
+1. **Create your post** in `content/publish/your-post-slug.mdx` with the following frontmatter fields:
+
+```mdx
+---
+slug: your-post-slug
+carousel: true                # <-- Required to show in homepage carousel
+order: 1                      # Lower numbers appear first (optional, default: 0)
+title: "Your Post Title"
+date: YYYY-MM-DD
+description: "Short summary for carousel and SEO."
+thumbnail: /images/your-post-slug.png
+thumbnailLight: /images/your-post-slug-light.png   # (optional, for light theme)
+thumbnailDark: /images/your-post-slug-dark.png     # (optional, for dark theme)
+---
+```
+
+2. **Add your carousel image(s):**
+   - Place your main image at `public/images/your-post-slug.png`.
+   - (Optional) Add theme-specific images as `your-post-slug-light.png` and `your-post-slug-dark.png` in the same folder.
+
+3. **(Optional) Add a gallery:**
+   - To show a 3D image carousel inside the blog post, add a `gallery` array in the frontmatter:
+
+```mdx
+---
+gallery:
+  - src: /images/your-post-slug-1.png
+    title: "Step 1"
+    description: "Description for image 1."
+  - src: /images/your-post-slug-2.png
+    title: "Step 2"
+    description: "Description for image 2."
+---
+```
+
+4. **Rebuild the site:**
+   - Run `npm run build` to update the homepage carousel and blog post galleries.
+
+**Result:**
+- The post will appear in the homepage 3D carousel, in the related posts carousel, and (if a gallery is present) as a 3D image carousel inside the blog post.
+
 ### New Project
 
 Edit `public/metadata/projects.json` and add an entry:

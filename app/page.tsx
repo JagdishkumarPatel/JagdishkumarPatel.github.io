@@ -6,7 +6,7 @@ import { Projects } from '@/components/portfolio/projects'
 import { Blog } from '@/components/portfolio/blog'
 import { Contact } from '@/components/portfolio/contact'
 import { HomeEntry } from '@/components/portfolio/home-entry'
-import { Carousel } from '@/components/portfolio/Carousel'
+import Carousel3D from '@/components/portfolio/Carousel3D'
 import { getAllPosts } from '@/lib/posts'
 
 export const metadata: Metadata = {
@@ -41,7 +41,7 @@ export default function Home() {
           <p className="font-mono text-sm text-primary mb-1">{'>'} highlights</p>
           <h2 className="text-3xl font-extrabold tracking-tight gradient-heading">Highlights</h2>
         </div>
-        <Carousel posts={posts} />
+        <Carousel3D posts={posts} />
       </section>
       <Capabilities />
       <Projects />
