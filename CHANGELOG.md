@@ -1,3 +1,10 @@
+# [1.20.0](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.19.0...v1.20.0) (2026-04-25)
+
+
+### Features
+
+* AI Trends page — filters, summaries, JSON-LD SEO, enriched tags ([f6da5b7](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/commit/f6da5b71dcbba7bc96365843b2bf102b6fd323b3))
+
 # [1.19.0](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.18.1...v1.19.0) (2026-04-25)
 
 
