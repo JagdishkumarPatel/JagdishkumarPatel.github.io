@@ -1,3 +1,10 @@
+# [1.19.0](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.18.1...v1.19.0) (2026-04-25)
+
+
+### Features
+
+* add AI Trends page with auto-updating HN feed ([556817e](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/commit/556817eb0533be363af2e8801531c1dda3b179d7))
+
 ## [1.18.1](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.18.0...v1.18.1) (2026-04-21)
 
 
