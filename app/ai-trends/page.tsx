@@ -1,7 +1,8 @@
 "use client"
 
 import * as React from "react"
-import type { Metadata } from "next"
+import { FilterDropdown } from "@/components/portfolio/filter-dropdown"
+import { ChevronDown } from "lucide-react"
 
 interface NewsItem {
   title: string
@@ -19,17 +20,6 @@ interface NewsFeed {
   items: NewsItem[]
 }
 
-const TAG_COLORS: Record<string, string> = {
-  LLM: "bg-violet-500/15 text-violet-400 border-violet-500/30",
-  Agents: "bg-blue-500/15 text-blue-400 border-blue-500/30",
-  Research: "bg-emerald-500/15 text-emerald-400 border-emerald-500/30",
-  "Open Source": "bg-orange-500/15 text-orange-400 border-orange-500/30",
-  RAG: "bg-cyan-500/15 text-cyan-400 border-cyan-500/30",
-  Vision: "bg-pink-500/15 text-pink-400 border-pink-500/30",
-  Safety: "bg-yellow-500/15 text-yellow-400 border-yellow-500/30",
-  AI: "bg-primary/15 text-primary border-primary/30",
-}
-
 function timeAgo(iso: string) {
   const diff = Date.now() - new Date(iso).getTime()
   const h = Math.floor(diff / 3600000)
@@ -38,10 +28,52 @@ function timeAgo(iso: string) {
   return `${Math.floor(h / 24)}d ago`
 }
 
+const TIME_PERIODS = [
+  { label: "All time", value: 0 },
+  { label: "Last 24h", value: 1 },
+  { label: "Last week", value: 7 },
+  { label: "Last month", value: 30 },
+]
+
 export default function AITrendsPage() {
   const [feed, setFeed] = React.useState<NewsFeed | null>(null)
   const [loading, setLoading] = React.useState(true)
   const [error, setError] = React.useState("")
+  const [activeTag, setActiveTag] = React.useState<string[]>([])
+  const [activeDays, setActiveDays] = React.useState(0)
+  const [timeOpen, setTimeOpen] = React.useState(false)
+  const timeRef = React.useRef<HTMLDivElement>(null)
+
+  React.useEffect(() => {
+    function onClickOutside(e: MouseEvent) {
+      if (timeRef.current && !timeRef.current.contains(e.target as Node)) setTimeOpen(false)
+    }
+    function onKey(e: KeyboardEvent) { if (e.key === "Escape") setTimeOpen(false) }
+    document.addEventListener("mousedown", onClickOutside)
+    document.addEventListener("keydown", onKey)
+    return () => {
+      document.removeEventListener("mousedown", onClickOutside)
+      document.removeEventListener("keydown", onKey)
+    }
+  }, [])
+
+  // Derive available tags and filtered items
+  const allTags = React.useMemo(() => {
+    if (!feed) return []
+    const tagSet = new Set<string>()
+    feed.items.forEach((item) => item.tags.forEach((t) => tagSet.add(t)))
+    return Array.from(tagSet).sort()
+  }, [feed])
+
+  const filteredItems = React.useMemo(() => {
+    if (!feed) return []
+    const cutoff = activeDays > 0 ? Date.now() - activeDays * 86400000 : 0
+    return feed.items.filter((item) => {
+      if (activeTag.length > 0 && !activeTag.some((t) => item.tags.includes(t))) return false
+      if (cutoff && new Date(item.publishedAt).getTime() < cutoff) return false
+      return true
+    })
+  }, [feed, activeTag, activeDays])
 
   React.useEffect(() => {
     fetch("/data/top-news.json")
@@ -65,7 +97,7 @@ export default function AITrendsPage() {
 
         {/* Header */}
         <div className="mb-10">
-          <p className="font-mono text-primary text-sm mb-2">// real-time intelligence</p>
+          <p className="font-mono text-primary text-sm mb-2"><span>{'// real-time intelligence'}</span></p>
           <h1 className="text-3xl md:text-4xl font-bold text-foreground tracking-tight mb-3">
             Top 10 AI Trends
           </h1>
@@ -80,6 +112,55 @@ export default function AITrendsPage() {
             </p>
           )}
         </div>
+
+        {/* Filters — side by side, matching blog page pattern */}
+        {!loading && !error && (
+          <div className="mb-8 flex items-center gap-3">
+            {/* Time period dropdown */}
+            <div className="relative shrink-0" ref={timeRef}>
+              <button
+                onClick={() => setTimeOpen((o) => !o)}
+                className={`inline-flex items-center gap-2 rounded-lg border px-3.5 py-2 text-sm font-medium transition-colors ${
+                  activeDays > 0
+                    ? "border-primary bg-primary/10 text-primary"
+                    : "border-border bg-card text-muted-foreground hover:border-primary/50 hover:text-foreground"
+                }`}
+              >
+                {TIME_PERIODS.find((p) => p.value === activeDays)?.label ?? "All time"}
+                <ChevronDown size={14} className={`transition-transform duration-200 ${timeOpen ? "rotate-180" : ""}`} />
+              </button>
+              {timeOpen && (
+                <div className="absolute left-0 top-full mt-1.5 z-50 min-w-[160px] rounded-xl border border-border bg-card shadow-lg">
+                  <div className="p-1">
+                    {TIME_PERIODS.map((p) => (
+                      <button
+                        key={p.value}
+                        onClick={() => { setActiveDays(p.value); setTimeOpen(false) }}
+                        className={`w-full flex items-center gap-2 rounded-lg px-3 py-2 text-sm text-left transition-colors ${
+                          activeDays === p.value
+                            ? "bg-primary/10 text-primary font-medium"
+                            : "text-muted-foreground hover:bg-accent hover:text-foreground"
+                        }`}
+                      >
+                        {p.label}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+
+            {/* Tag dropdown — reuse blog FilterDropdown */}
+            {allTags.length > 0 && (
+              <FilterDropdown
+                label="Filter by tag"
+                options={allTags}
+                selected={activeTag}
+                onChange={setActiveTag}
+              />
+            )}
+          </div>
+        )}
 
         {/* Loading */}
         {loading && (
@@ -105,9 +186,13 @@ export default function AITrendsPage() {
           <p className="text-muted-foreground text-sm">Feed is being populated. Check back soon.</p>
         )}
 
-        {!loading && !error && feed && feed.items.length > 0 && (
+        {!loading && !error && feed && filteredItems.length === 0 && feed.items.length > 0 && (
+          <p className="text-muted-foreground text-sm">No articles match the current filters. <button onClick={() => { setActiveTag([]); setActiveDays(0) }} className="text-primary hover:underline">Clear filters</button></p>
+        )}
+
+        {!loading && !error && feed && filteredItems.length > 0 && (
           <ol className="space-y-4">
-            {feed.items.map((item, idx) => (
+            {filteredItems.map((item, idx) => (
               <li key={item.url}>
                 <a
                   href={item.url}
@@ -140,14 +225,19 @@ export default function AITrendsPage() {
                         )}
                       </div>
 
+                      {/* Summary */}
+                      {item.summary && (
+                        <p className="text-sm text-muted-foreground leading-relaxed mb-3 line-clamp-2">
+                          {item.summary}
+                        </p>
+                      )}
+
                       {/* Tags */}
                       <div className="flex flex-wrap gap-1.5">
                         {item.tags.map((tag) => (
                           <span
                             key={tag}
-                            className={`text-[11px] px-2 py-0.5 rounded-full border font-medium ${
-                              TAG_COLORS[tag] ?? "bg-muted text-muted-foreground border-border"
-                            }`}
+                            className="text-[11px] px-2 py-0.5 rounded-full border font-medium bg-muted text-muted-foreground border-border"
                           >
                             {tag}
                           </span>
@@ -161,6 +251,29 @@ export default function AITrendsPage() {
           </ol>
         )}
 
+        {/* Dynamic JSON-LD for Google rich snippets */}
+        {!loading && feed && feed.items.length > 0 && (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "ItemList",
+                name: "Top 10 AI/ML Trends — Curated by Jag Patel, Principal AI/ML Engineer",
+                url: "https://jagdishkumarpatel.github.io/ai-trends",
+                numberOfItems: feed.items.length,
+                itemListElement: feed.items.map((item, idx) => ({
+                  "@type": "ListItem",
+                  position: idx + 1,
+                  name: item.title,
+                  url: item.url,
+                  description: item.summary || undefined,
+                })),
+              }),
+            }}
+          />
+        )}
+
         {/* Footer attribution */}
         <div className="mt-12 pt-8 border-t border-border text-xs text-muted-foreground font-mono">
           <p>
@@ -168,7 +281,7 @@ export default function AITrendsPage() {
             <a href="https://news.ycombinator.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
               Hacker News
             </a>{" "}
-            · Ranked by Jag Patel's scoring algorithm · Updated every 3 hours
+            · Ranked by Jag Patel&apos;s scoring algorithm · Updated every 3 hours
           </p>
         </div>
       </div>

@@ -53,7 +53,7 @@ export function Nav() {
         </Link>
 
         {/* Desktop nav */}
-        <nav className="hidden md:flex items-center gap-8">
+        <nav className="hidden lg:flex items-center gap-6">
           {navLinks.map((link) => (
             <Link
               key={link.label}
@@ -90,7 +90,7 @@ export function Nav() {
           )}
           {/* Mobile toggle */}
           <button
-            className="md:hidden p-2 rounded-md hover:bg-accent transition-colors"
+            className="lg:hidden p-2 rounded-md hover:bg-accent transition-colors"
             onClick={() => setOpen((o) => !o)}
             aria-label="Toggle menu"
           >
@@ -101,7 +101,7 @@ export function Nav() {
 
       {/* Mobile menu */}
       {open && (
-        <div className="md:hidden bg-background/95 backdrop-blur-md border-b border-border px-6 py-4 flex flex-col gap-4">
+        <div className="lg:hidden bg-background/95 backdrop-blur-md border-b border-border px-6 py-4 flex flex-col gap-4">
           {navLinks.map((link) => (
             <Link
               key={link.label}

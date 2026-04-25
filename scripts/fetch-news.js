@@ -4,9 +4,12 @@
  * Fetches top AI/ML news from Hacker News and writes top 10 to public/data/top-news.json
  */
 
-const fs = require('fs')
-const path = require('path')
-const https = require('https')
+import fs from 'fs'
+import path from 'path'
+import https from 'https'
+import { fileURLToPath } from 'url'
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
 const AI_KEYWORDS = [
   'ai', 'ml', 'llm', 'gpt', 'machine learning', 'deep learning', 'neural',
@@ -54,16 +57,19 @@ function getSourceWeight(url = '') {
   return 1.0
 }
 
-function inferTags(title = '') {
-  const t = title.toLowerCase()
+function inferTags(title = '', summary = '') {
+  const t = (title + ' ' + summary).toLowerCase()
   const tags = []
-  if (t.includes('llm') || t.includes('gpt') || t.includes('claude') || t.includes('gemini') || t.includes('language model')) tags.push('LLM')
-  if (t.includes('agent')) tags.push('Agents')
-  if (t.includes('research') || t.includes('arxiv') || t.includes('paper')) tags.push('Research')
-  if (t.includes('open source') || t.includes('github')) tags.push('Open Source')
-  if (t.includes('rag') || t.includes('retrieval')) tags.push('RAG')
-  if (t.includes('image') || t.includes('diffusion') || t.includes('stable') || t.includes('vision')) tags.push('Vision')
-  if (t.includes('safety') || t.includes('align') || t.includes('bias')) tags.push('Safety')
+  if (t.includes('llm') || t.includes('gpt') || t.includes('claude') || t.includes('gemini') || t.includes('language model') || t.includes('chatgpt') || t.includes('mistral') || t.includes('openai') || t.includes('anthropic')) tags.push('LLM')
+  if (t.includes('agent') || t.includes('agentic') || t.includes('autonomous') || t.includes('multi-agent')) tags.push('Agents')
+  if (t.includes('research') || t.includes('arxiv') || t.includes('paper') || t.includes('theory') || t.includes('study') || t.includes('findings') || t.includes('scientific')) tags.push('Research')
+  if (t.includes('open source') || t.includes('github') || t.includes('open-source') || t.includes('released') || t.includes('hugging face') || t.includes('huggingface')) tags.push('Open Source')
+  if (t.includes('rag') || t.includes('retrieval') || t.includes('embedding') || t.includes('vector') || t.includes('knowledge base')) tags.push('RAG')
+  if (t.includes('image') || t.includes('diffusion') || t.includes('stable') || t.includes('vision') || t.includes('multimodal') || t.includes('video') || t.includes('visual')) tags.push('Vision')
+  if (t.includes('safety') || t.includes('align') || t.includes('bias') || t.includes('ethics') || t.includes('risk') || t.includes('regulation') || t.includes('policy') || t.includes('harm')) tags.push('Safety')
+  if (t.includes('tool') || t.includes('code') || t.includes('coding') || t.includes('developer') || t.includes('api') || t.includes('sdk') || t.includes('copilot') || t.includes('cursor') || t.includes('programming')) tags.push('Dev Tools')
+  if (t.includes('model') && (t.includes('train') || t.includes('fine-tun') || t.includes('pretrain') || t.includes('weight') || t.includes('parameter') || t.includes('benchmark'))) tags.push('ML Infra')
+  if (t.includes('startup') || t.includes('funding') || t.includes('invest') || t.includes('acqui') || t.includes('billion') || t.includes('valuation') || t.includes('ipo')) tags.push('Industry')
   if (tags.length === 0) tags.push('AI')
   return tags
 }
@@ -75,6 +81,29 @@ function scoreArticle(item) {
   const engagement = Math.log10(Math.max(1, item.score || 1)) / Math.log10(1000)
   const sourceWeight = getSourceWeight(item.url || '')
   return parseFloat(((recency * 0.4 + engagement * 0.4) * sourceWeight).toFixed(4))
+}
+
+/** Fetch summary via microlink.io free API — handles bot protection & JS sites */
+function fetchSummary(url) {
+  return new Promise((resolve) => {
+    const apiUrl = `https://api.microlink.io?url=${encodeURIComponent(url)}`
+    const req = https.get(apiUrl, { headers: { 'User-Agent': 'ai-trends-bot/1.0' }, timeout: 8000 }, (res) => {
+      let data = ''
+      res.on('data', (chunk) => (data += chunk))
+      res.on('end', () => {
+        try {
+          const json = JSON.parse(data)
+          const desc = json?.data?.description || ''
+          resolve(desc.slice(0, 300).trim())
+        } catch {
+          resolve('')
+        }
+      })
+      res.on('error', () => resolve(''))
+    })
+    req.on('error', () => resolve(''))
+    req.on('timeout', () => { req.destroy(); resolve('') })
+  })
 }
 
 async function fetchHNStories() {
@@ -112,7 +141,7 @@ async function main() {
       score: scoreArticle(s),
       publishedAt: new Date(s.time * 1000).toISOString(),
       summary: '',
-      tags: inferTags(s.title),
+      tags: inferTags(s.title, ''),
       hnScore: s.score || 0,
     }))
 
@@ -125,6 +154,17 @@ async function main() {
   })
 
   const top10 = unique.sort((a, b) => b.score - a.score).slice(0, 10)
+
+  // Enrich with summaries fetched from article pages
+  console.log('Fetching article summaries...')
+  await Promise.all(
+    top10.map(async (item) => {
+      item.summary = await fetchSummary(item.url)
+      // Re-infer tags now that we have the summary
+      item.tags = inferTags(item.title, item.summary)
+      if (item.summary) console.log(`  ✓ ${item.source}: ${item.summary.slice(0, 60)}...`)
+    })
+  )
 
   const output = {
     updatedAt: new Date().toISOString(),

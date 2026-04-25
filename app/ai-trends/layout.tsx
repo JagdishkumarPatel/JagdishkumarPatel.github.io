@@ -29,6 +29,33 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true },
 }
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: "AI Trends — Top 10 AI/ML Developments",
+  description: "Top 10 AI/ML developments ranked by importance, curated by Jag Patel, Principal AI/ML Engineer.",
+  url: "https://jagdishkumarpatel.github.io/ai-trends",
+  author: {
+    "@type": "Person",
+    name: "Jag Patel",
+    jobTitle: "Principal AI/ML Engineer",
+    url: "https://jagdishkumarpatel.github.io",
+  },
+  publisher: {
+    "@type": "Person",
+    name: "Jag Patel",
+    url: "https://jagdishkumarpatel.github.io",
+  },
+}
+
 export default function AITrendsLayout({ children }: { children: React.ReactNode }) {
-  return <>{children}</>
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      {children}
+    </>
+  )
 }
