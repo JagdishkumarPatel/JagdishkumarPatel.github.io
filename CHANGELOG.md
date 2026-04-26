@@ -1,3 +1,10 @@
+# [1.21.0](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.20.0...v1.21.0) (2026-04-26)
+
+
+### Features
+
+* multi-source AI news feed + home preview section ([031ba03](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/commit/031ba036fe8bb3831745dc337b61bc6d53673eea))
+
 # [1.20.0](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.19.0...v1.20.0) (2026-04-25)
 
 
