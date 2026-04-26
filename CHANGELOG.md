@@ -1,3 +1,10 @@
+## [1.22.2](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.22.1...v1.22.2) (2026-04-26)
+
+
+### Bug Fixes
+
+* git pull --rebase before push in ai-news workflow to avoid rejection ([a7cb5fe](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/commit/a7cb5feba7fdae2a961d5962f9edf26ff514847c))
+
 ## [1.22.1](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.22.0...v1.22.1) (2026-04-26)
 
 
