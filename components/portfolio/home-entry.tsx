@@ -10,7 +10,7 @@ export function HomeEntry({ children }: { children: React.ReactNode }) {
 
   useEffect(() => {
     const saved = localStorage.getItem(STORAGE_KEY)
-    setView(saved === "classic" ? "classic" : "neural")
+    setView(saved === "neural" ? "neural" : "classic")
   }, [])
 
   const skipToClassic = () => {

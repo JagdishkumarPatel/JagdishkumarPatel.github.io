@@ -4,6 +4,7 @@ import { About } from '@/components/portfolio/about'
 import { Capabilities } from '@/components/portfolio/capabilities'
 import { Projects } from '@/components/portfolio/projects'
 import { Blog } from '@/components/portfolio/blog'
+import { AiTrendsPreview } from '@/components/portfolio/ai-trends-preview'
 import { Contact } from '@/components/portfolio/contact'
 import { HomeEntry } from '@/components/portfolio/home-entry'
 import Carousel3D from '@/components/portfolio/Carousel3D'
@@ -17,7 +18,7 @@ export const metadata: Metadata = {
     'Principal AI/ML Engineer', 'Machine Learning Engineer', 'Data Science Engineer',
     'MLOps Engineer', 'Cloud Engineer', 'Cloud Engineering', 'Cloud DevOps Engineer',
     'Cloud DevSecOps Engineer', 'DevSecOps', 'LLM', 'Ollama', 'Azure', 'AWS',
-    'Platform Engineering', 'Python',
+    'Platform Engineering', 'Python', 'AI Trends', 'AI News', 'Machine Learning News',
   ],
   alternates: { canonical: 'https://jagdishkumarpatel.github.io' },
   openGraph: {
@@ -46,6 +47,7 @@ export default function Home() {
       <Capabilities />
       <Projects />
       <Blog />
+      <AiTrendsPreview />
       <Contact />
     </HomeEntry>
   )

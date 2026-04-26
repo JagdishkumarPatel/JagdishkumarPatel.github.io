@@ -1,21 +1,34 @@
 #!/usr/bin/env node
 /**
  * fetch-news.js
- * Fetches top AI/ML news from Hacker News and writes top 10 to public/data/top-news.json
+ * Fetches top AI/ML news from Hacker News, Reddit, and arXiv.
+ * Writes top 50 scored articles to public/data/top-news.json.
  */
 
 import fs from 'fs'
 import path from 'path'
 import https from 'https'
+import http from 'http'
 import { fileURLToPath } from 'url'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
+
+/** Config — toggle sources on/off without touching logic */
+const SOURCES = {
+  hackernews: { enabled: true },
+  reddit: { enabled: true, subs: ['MachineLearning', 'LocalLLaMA', 'artificial'] },
+  arxiv: { enabled: true, feeds: ['cs.AI', 'cs.LG'] },
+}
+
+/** How many scored articles to store in JSON (user sees 10 by default, can expand) */
+const STORE_TOP_N = 50
 
 const AI_KEYWORDS = [
   'ai', 'ml', 'llm', 'gpt', 'machine learning', 'deep learning', 'neural',
   'openai', 'anthropic', 'gemini', 'claude', 'mistral', 'transformer',
   'diffusion', 'rag', 'agent', 'copilot', 'langchain', 'hugging face',
   'reinforcement learning', 'embeddings', 'vector', 'inference', 'fine-tun',
+  'arxiv', 'paper', 'model', 'language model', 'multimodal',
 ]
 
 const SOURCE_WEIGHTS = {
@@ -28,19 +41,43 @@ const SOURCE_WEIGHTS = {
   'techcrunch.com': 1.1,
   'theverge.com': 1.1,
   'wired.com': 1.1,
+  'reddit.com': 1.0,
 }
 
-function get(url) {
+/** HTTP/HTTPS GET with redirect following and optional JSON parse */
+function request(url, asText = false) {
   return new Promise((resolve, reject) => {
-    https.get(url, { headers: { 'User-Agent': 'ai-trends-bot/1.0' } }, (res) => {
+    const parsed = new URL(url)
+    const mod = parsed.protocol === 'https:' ? https : http
+    const req = mod.get(url, {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (compatible; ai-trends-bot/2.0; +https://jagdishkumarpatel.github.io)',
+        'Accept': 'application/json, application/xml, text/xml, */*',
+      },
+      timeout: 12000,
+    }, (res) => {
+      // Follow redirects (301/302/307/308)
+      if ([301, 302, 307, 308].includes(res.statusCode) && res.headers.location) {
+        return resolve(request(res.headers.location, asText))
+      }
+      if (res.statusCode && res.statusCode >= 400) {
+        return reject(new Error(`HTTP ${res.statusCode} for ${url}`))
+      }
       let data = ''
       res.on('data', (chunk) => (data += chunk))
       res.on('end', () => {
-        try { resolve(JSON.parse(data)) } catch { reject(new Error('JSON parse error')) }
+        if (asText) return resolve(data)
+        try { resolve(JSON.parse(data)) } catch { reject(new Error(`JSON parse error for ${url}`)) }
       })
-    }).on('error', reject)
+      res.on('error', reject)
+    })
+    req.on('error', reject)
+    req.on('timeout', () => { req.destroy(); reject(new Error(`Timeout: ${url}`)) })
   })
 }
+
+function get(url) { return request(url, false) }
+function getText(url) { return request(url, true) }
 
 function isAIRelated(title = '', url = '') {
   const text = (title + ' ' + url).toLowerCase()
@@ -76,9 +113,9 @@ function inferTags(title = '', summary = '') {
 
 function scoreArticle(item) {
   const now = Date.now() / 1000
-  const ageHours = (now - item.time) / 3600
+  const ageHours = (now - (item.time || 0)) / 3600
   const recency = Math.max(0, 1 - ageHours / 72) // decay over 72h
-  const engagement = Math.log10(Math.max(1, item.score || 1)) / Math.log10(1000)
+  const engagement = Math.log10(Math.max(1, item.engagementScore || 1)) / Math.log10(1000)
   const sourceWeight = getSourceWeight(item.url || '')
   return parseFloat(((recency * 0.4 + engagement * 0.4) * sourceWeight).toFixed(4))
 }
@@ -106,14 +143,14 @@ function fetchSummary(url) {
   })
 }
 
+// ─── Source fetchers ────────────────────────────────────────────────────────
+
 async function fetchHNStories() {
-  console.log('Fetching Hacker News top stories...')
+  console.log('📰 Fetching Hacker News top stories...')
   const ids = await get('https://hacker-news.firebaseio.com/v0/topstories.json')
   const top200 = ids.slice(0, 200)
-
   const stories = []
   const batchSize = 20
-
   for (let i = 0; i < top200.length; i += batchSize) {
     const batch = top200.slice(i, i + batchSize)
     const results = await Promise.allSettled(
@@ -125,57 +162,166 @@ async function fetchHNStories() {
       }
     }
   }
-
   return stories
-}
-
-async function main() {
-  const stories = await fetchHNStories()
-
-  const aiStories = stories
     .filter((s) => isAIRelated(s.title, s.url))
     .map((s) => ({
       title: s.title,
       url: s.url,
+      feedSource: 'Hacker News',
       source: (() => { try { return new URL(s.url).hostname.replace('www.', '') } catch { return 'Hacker News' } })(),
-      score: scoreArticle(s),
-      publishedAt: new Date(s.time * 1000).toISOString(),
-      summary: '',
-      tags: inferTags(s.title, ''),
-      hnScore: s.score || 0,
+      engagementScore: s.score || 0,
+      time: s.time,
     }))
+}
+
+async function fetchRedditStories() {
+  if (!SOURCES.reddit.enabled) return []
+  console.log('🤖 Fetching Reddit stories...')
+  const all = []
+  for (const sub of SOURCES.reddit.subs) {
+    try {
+      const json = await get(`https://www.reddit.com/r/${sub}/hot.json?limit=50`)
+      const posts = json?.data?.children ?? []
+      for (const { data: p } of posts) {
+        if (!p.title) continue
+        // Use external URL if available, otherwise the Reddit post itself
+        const url = p.is_self || !p.url || p.url.startsWith('https://www.reddit.com')
+          ? `https://www.reddit.com${p.permalink}`
+          : p.url
+        if (!isAIRelated(p.title, url)) continue
+        all.push({
+          title: p.title,
+          url,
+          feedSource: 'Reddit',
+          source: p.is_self || !p.url || p.url.startsWith('https://www.reddit.com')
+            ? `r/${sub}`
+            : (() => { try { return new URL(p.url).hostname.replace('www.', '') } catch { return `r/${sub}` } })(),
+          engagementScore: p.score || 0,
+          time: p.created_utc,
+        })
+      }
+      console.log(`  ✓ r/${sub}: ${posts.length} posts fetched`)
+    } catch (err) {
+      console.warn(`  ⚠ r/${sub}: ${err.message}`)
+    }
+  }
+  return all
+}
+
+/** Minimal RSS XML parser — no external deps */
+function parseRssItems(xml) {
+  const items = []
+  const itemRe = /<item>([\s\S]*?)<\/item>/g
+  let m
+  while ((m = itemRe.exec(xml)) !== null) {
+    const block = m[1]
+    const title = (/<title><!\[CDATA\[([\s\S]*?)\]\]><\/title>/.exec(block) || /<title>(.*?)<\/title>/.exec(block) || [])[1]?.trim() || ''
+    const link = (/<link>(.*?)<\/link>/.exec(block) || [])[1]?.trim() || ''
+    const desc = (/<description><!\[CDATA\[([\s\S]*?)\]\]><\/description>/.exec(block) || /<description>([\s\S]*?)<\/description>/.exec(block) || [])[1]?.trim() || ''
+    const pubDate = (/<pubDate>(.*?)<\/pubDate>/.exec(block) || [])[1]?.trim() || ''
+    if (title && link) {
+      items.push({ title: title.replace(/\[.*?\]$/, '').trim(), link, desc, pubDate })
+    }
+  }
+  return items
+}
+
+async function fetchArxivStories() {
+  if (!SOURCES.arxiv.enabled) return []
+  console.log('🔬 Fetching arXiv stories...')
+  const all = []
+  for (const feed of SOURCES.arxiv.feeds) {
+    try {
+      const xml = await getText(`https://rss.arxiv.org/rss/${feed}`)
+      const items = parseRssItems(xml)
+      for (const item of items) {
+        all.push({
+          title: item.title,
+          url: item.link,
+          feedSource: 'arXiv',
+          source: 'arxiv.org',
+          engagementScore: 0,
+          time: item.pubDate ? Math.floor(new Date(item.pubDate).getTime() / 1000) : Math.floor(Date.now() / 1000),
+          preloadSummary: item.desc.replace(/<[^>]+>/g, '').slice(0, 300).trim(),
+        })
+      }
+      console.log(`  ✓ arXiv ${feed}: ${items.length} papers`)
+    } catch (err) {
+      console.warn(`  ⚠ arXiv ${feed}: ${err.message}`)
+    }
+  }
+  return all
+}
+
+// ─── Main ────────────────────────────────────────────────────────────────────
+
+async function main() {
+  const [hnRaw, redditRaw, arxivRaw] = await Promise.all([
+    fetchHNStories(),
+    fetchRedditStories(),
+    fetchArxivStories(),
+  ])
+
+  const allRaw = [...hnRaw, ...redditRaw, ...arxivRaw]
 
   // Deduplicate by URL
   const seen = new Set()
-  const unique = aiStories.filter((a) => {
+  const unique = allRaw.filter((a) => {
     if (seen.has(a.url)) return false
     seen.add(a.url)
     return true
   })
 
-  const top10 = unique.sort((a, b) => b.score - a.score).slice(0, 10)
+  // Score and sort
+  const scored = unique
+    .map((s) => ({
+      title: s.title,
+      url: s.url,
+      feedSource: s.feedSource,
+      source: s.source,
+      score: scoreArticle(s),
+      publishedAt: new Date((s.time || 0) * 1000).toISOString(),
+      summary: s.preloadSummary || '',
+      tags: inferTags(s.title, s.preloadSummary || ''),
+      engagementScore: s.engagementScore || 0,
+    }))
+    .sort((a, b) => b.score - a.score)
+    .slice(0, STORE_TOP_N)
 
-  // Enrich with summaries fetched from article pages
-  console.log('Fetching article summaries...')
+  // Enrich summaries for articles that don't have one (HN and Reddit items)
+  const needSummary = scored.filter((a) => !a.summary)
+  console.log(`\nFetching summaries for ${needSummary.length} articles...`)
+
   await Promise.all(
-    top10.map(async (item) => {
+    needSummary.map(async (item) => {
       item.summary = await fetchSummary(item.url)
-      // Re-infer tags now that we have the summary
       item.tags = inferTags(item.title, item.summary)
       if (item.summary) console.log(`  ✓ ${item.source}: ${item.summary.slice(0, 60)}...`)
     })
   )
 
+  // Re-infer tags for arXiv items too now that we confirm their preloadSummary
+  scored.filter((a) => a.feedSource === 'arXiv').forEach((item) => {
+    item.tags = inferTags(item.title, item.summary)
+  })
+
   const output = {
     updatedAt: new Date().toISOString(),
-    items: top10,
+    sources: Object.keys(SOURCES).filter((k) => SOURCES[k].enabled),
+    items: scored,
   }
 
   const outDir = path.join(__dirname, '..', 'public', 'data')
   if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true })
 
   fs.writeFileSync(path.join(outDir, 'top-news.json'), JSON.stringify(output, null, 2))
-  console.log(`✅ Written ${top10.length} articles to public/data/top-news.json`)
+  console.log(`\n✅ Written ${scored.length} articles to public/data/top-news.json`)
+
+  const bySource = scored.reduce((acc, a) => {
+    acc[a.feedSource] = (acc[a.feedSource] || 0) + 1
+    return acc
+  }, {})
+  console.log('   Distribution:', Object.entries(bySource).map(([k, v]) => `${k}: ${v}`).join(', '))
 }
 
 main().catch((err) => {

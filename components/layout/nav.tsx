@@ -26,7 +26,7 @@ export function Nav() {
   const isHome = pathname === "/"
 
   React.useEffect(() => {
-    setNeuralView(localStorage.getItem(STORAGE_KEY) !== "classic")
+    setNeuralView(localStorage.getItem(STORAGE_KEY) === "neural")
   }, [])
 
   React.useEffect(() => {
@@ -77,9 +77,9 @@ export function Nav() {
                 const next = !neuralView
                 setNeuralView(next)
                 if (next) {
-                  localStorage.removeItem(STORAGE_KEY)
+                  localStorage.setItem(STORAGE_KEY, "neural")
                 } else {
-                  localStorage.setItem(STORAGE_KEY, "classic")
+                  localStorage.removeItem(STORAGE_KEY)
                 }
                 window.location.reload()
               }}
