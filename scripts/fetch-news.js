@@ -18,6 +18,26 @@ const SOURCES = {
   hackernews: { enabled: true },
   reddit: { enabled: true, subs: ['MachineLearning', 'LocalLLaMA', 'artificial'] },
   arxiv: { enabled: true, feeds: ['cs.AI', 'cs.LG'] },
+  blogs: {
+    enabled: true,
+    feeds: [
+      // Official AI labs
+      { name: 'OpenAI',           feedSource: 'OpenAI',           url: 'https://openai.com/news/rss.xml',                                          domain: 'openai.com' },
+      { name: 'Anthropic',        feedSource: 'Anthropic',        url: 'https://www.anthropic.com/rss.xml',                                        domain: 'anthropic.com' },
+      { name: 'Google AI',        feedSource: 'Google AI',        url: 'https://blog.google/technology/ai/rss/',                                   domain: 'blog.google' },
+      { name: 'Microsoft AI',     feedSource: 'Microsoft AI',     url: 'https://blogs.microsoft.com/ai/feed/',                                     domain: 'blogs.microsoft.com' },
+      { name: 'DeepMind',         feedSource: 'DeepMind',         url: 'https://deepmind.google/blog/rss.xml',                                     domain: 'deepmind.google' },
+      { name: 'Meta AI',          feedSource: 'Meta AI',          url: 'https://ai.meta.com/blog/rss/',                                            domain: 'ai.meta.com' },
+      { name: 'Hugging Face',     feedSource: 'Hugging Face',     url: 'https://huggingface.co/blog/feed.xml',                                     domain: 'huggingface.co' },
+      // Tech media
+      { name: 'VentureBeat AI',   feedSource: 'VentureBeat',      url: 'https://venturebeat.com/category/ai/feed/',                                domain: 'venturebeat.com' },
+      { name: 'MIT Tech Review',  feedSource: 'MIT Tech Review',  url: 'https://www.technologyreview.com/feed/',                                   domain: 'technologyreview.com' },
+      { name: 'The Verge AI',     feedSource: 'The Verge',        url: 'https://www.theverge.com/ai-artificial-intelligence/rss/index.xml',        domain: 'theverge.com' },
+      { name: 'Wired AI',         feedSource: 'Wired',            url: 'https://www.wired.com/feed/tag/artificial-intelligence/latest/rss',        domain: 'wired.com' },
+      // Research & community
+      { name: 'Papers With Code', feedSource: 'Papers With Code', url: 'https://paperswithcode.com/latest.rss',                                    domain: 'paperswithcode.com' },
+    ],
+  },
 }
 
 /** How many scored articles to store in JSON (user sees 10 by default, can expand) */
@@ -32,15 +52,26 @@ const AI_KEYWORDS = [
 ]
 
 const SOURCE_WEIGHTS = {
+  // AI labs — highest authority
+  'openai.com': 1.5,
+  'anthropic.com': 1.5,
+  'deepmind.google': 1.4,
+  'ai.meta.com': 1.4,
+  'research.google': 1.4,
   'arxiv.org': 1.4,
-  'openai.com': 1.3,
-  'anthropic.com': 1.3,
-  'huggingface.co': 1.2,
-  'deepmind.com': 1.2,
-  'research.google': 1.2,
-  'techcrunch.com': 1.1,
+  // Tools & community
+  'huggingface.co': 1.3,
+  'paperswithcode.com': 1.3,
+  // Microsoft & Google blogs
+  'blogs.microsoft.com': 1.2,
+  'blog.google': 1.2,
+  // Tech media
+  'technologyreview.com': 1.2,
+  'venturebeat.com': 1.15,
   'theverge.com': 1.1,
   'wired.com': 1.1,
+  'techcrunch.com': 1.1,
+  // Community
   'reddit.com': 1.0,
 }
 
@@ -253,16 +284,44 @@ async function fetchArxivStories() {
   return all
 }
 
+async function fetchBlogStories() {
+  if (!SOURCES.blogs.enabled) return []
+  console.log('📡 Fetching company blog RSS feeds...')
+  const all = []
+  for (const feed of SOURCES.blogs.feeds) {
+    try {
+      const xml = await getText(feed.url)
+      const items = parseRssItems(xml)
+      for (const item of items) {
+        all.push({
+          title: item.title,
+          url: item.link,
+          feedSource: feed.feedSource,
+          source: feed.domain,
+          engagementScore: 0,
+          time: item.pubDate ? Math.floor(new Date(item.pubDate).getTime() / 1000) : Math.floor(Date.now() / 1000),
+          preloadSummary: item.desc.replace(/<[^>]+>/g, '').slice(0, 300).trim(),
+        })
+      }
+      console.log(`  ✓ ${feed.name}: ${items.length} posts`)
+    } catch (err) {
+      console.warn(`  ⚠ ${feed.name}: ${err.message}`)
+    }
+  }
+  return all
+}
+
 // ─── Main ────────────────────────────────────────────────────────────────────
 
 async function main() {
-  const [hnRaw, redditRaw, arxivRaw] = await Promise.all([
+  const [hnRaw, redditRaw, arxivRaw, blogRaw] = await Promise.all([
     fetchHNStories(),
     fetchRedditStories(),
     fetchArxivStories(),
+    fetchBlogStories(),
   ])
 
-  const allRaw = [...hnRaw, ...redditRaw, ...arxivRaw]
+  const allRaw = [...hnRaw, ...redditRaw, ...arxivRaw, ...blogRaw]
 
   // Deduplicate by URL
   const seen = new Set()

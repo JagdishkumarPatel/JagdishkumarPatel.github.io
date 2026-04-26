@@ -23,9 +23,21 @@ function timeAgo(iso: string) {
 }
 
 const SOURCE_STYLES: Record<string, string> = {
-  "Hacker News": "bg-orange-500/10 text-orange-500",
-  Reddit: "bg-red-500/10 text-red-500",
-  arXiv: "bg-blue-500/10 text-blue-500",
+  "Hacker News":     "bg-orange-500/10 text-orange-500",
+  "Reddit":          "bg-red-500/10 text-red-500",
+  "arXiv":           "bg-blue-500/10 text-blue-500",
+  "OpenAI":          "bg-emerald-500/10 text-emerald-500",
+  "Anthropic":       "bg-amber-500/10 text-amber-600",
+  "Google AI":       "bg-sky-500/10 text-sky-500",
+  "Microsoft AI":    "bg-indigo-500/10 text-indigo-500",
+  "DeepMind":        "bg-violet-500/10 text-violet-500",
+  "Meta AI":         "bg-blue-600/10 text-blue-600",
+  "Hugging Face":    "bg-yellow-500/10 text-yellow-600",
+  "VentureBeat":     "bg-pink-500/10 text-pink-500",
+  "MIT Tech Review": "bg-rose-500/10 text-rose-500",
+  "The Verge":       "bg-purple-500/10 text-purple-500",
+  "Wired":           "bg-slate-500/10 text-slate-500",
+  "Papers With Code":"bg-teal-500/10 text-teal-500",
 }
 
 function getTopItems(): NewsItem[] {
@@ -49,7 +61,7 @@ export function AiTrendsPreview() {
           <p className="font-mono text-sm text-primary mb-1">{">"}  ai latest news</p>
           <h2 className="text-3xl font-extrabold tracking-tight gradient-heading">AI Latest News</h2>
           <p className="mt-2 text-sm text-muted-foreground max-w-md">
-            Top AI/ML developments right now — curated from Hacker News, Reddit, and arXiv.
+            Top AI/ML developments right now — curated from HN, Reddit, arXiv, OpenAI, Anthropic, Google, Microsoft, DeepMind, Meta & more.
           </p>
         </div>
         <Link

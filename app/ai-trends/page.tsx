@@ -283,9 +283,21 @@ export default function AITrendsPage() {
                         <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-muted-foreground mb-3">
                           {/* Feed source badge */}
                           <span className={`inline-block px-1.5 py-0.5 rounded text-[10px] font-semibold uppercase tracking-wide ${
-                            item.feedSource === 'Hacker News' ? 'bg-orange-500/10 text-orange-500' :
-                            item.feedSource === 'Reddit' ? 'bg-red-500/10 text-red-500' :
-                            item.feedSource === 'arXiv' ? 'bg-blue-500/10 text-blue-500' :
+                            item.feedSource === 'Hacker News'     ? 'bg-orange-500/10 text-orange-500' :
+                            item.feedSource === 'Reddit'          ? 'bg-red-500/10 text-red-500' :
+                            item.feedSource === 'arXiv'           ? 'bg-blue-500/10 text-blue-500' :
+                            item.feedSource === 'OpenAI'          ? 'bg-emerald-500/10 text-emerald-500' :
+                            item.feedSource === 'Anthropic'       ? 'bg-amber-500/10 text-amber-600' :
+                            item.feedSource === 'Google AI'       ? 'bg-sky-500/10 text-sky-500' :
+                            item.feedSource === 'Microsoft AI'    ? 'bg-indigo-500/10 text-indigo-500' :
+                            item.feedSource === 'DeepMind'        ? 'bg-violet-500/10 text-violet-500' :
+                            item.feedSource === 'Meta AI'         ? 'bg-blue-600/10 text-blue-600' :
+                            item.feedSource === 'Hugging Face'    ? 'bg-yellow-500/10 text-yellow-600' :
+                            item.feedSource === 'VentureBeat'     ? 'bg-pink-500/10 text-pink-500' :
+                            item.feedSource === 'MIT Tech Review' ? 'bg-rose-500/10 text-rose-500' :
+                            item.feedSource === 'The Verge'       ? 'bg-purple-500/10 text-purple-500' :
+                            item.feedSource === 'Wired'           ? 'bg-slate-500/10 text-slate-500' :
+                            item.feedSource === 'Papers With Code'? 'bg-teal-500/10 text-teal-500' :
                             'bg-muted text-muted-foreground'
                           }`}>{item.feedSource}</span>
                           <span className="font-mono">{item.source}</span>
@@ -380,7 +392,17 @@ export default function AITrendsPage() {
             <a href="https://reddit.com/r/MachineLearning" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Reddit</a>
             {" · "}
             <a href="https://arxiv.org/list/cs.AI/recent" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">arXiv</a>
-            {" · "}Ranked by Jag Patel&apos;s scoring algorithm · Updated every 3 hours
+            {" · "}
+            <a href="https://openai.com/news" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">OpenAI</a>
+            {" · "}
+            <a href="https://anthropic.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Anthropic</a>
+            {" · "}
+            <a href="https://deepmind.google/blog" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">DeepMind</a>
+            {" · "}
+            <a href="https://ai.meta.com/blog" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Meta AI</a>
+            {" · "}
+            <a href="https://huggingface.co/blog" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Hugging Face</a>
+            {" · "}and more · Ranked by Jag Patel&apos;s scoring algorithm · Updated every 3 hours
           </p>
         </div>
       </div>
