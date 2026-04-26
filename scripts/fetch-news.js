@@ -71,7 +71,9 @@ const SOURCE_WEIGHTS = {
   'theverge.com': 1.1,
   'wired.com': 1.1,
   'techcrunch.com': 1.1,
-  // Community
+  // Community (HN items link to external URLs so most won't match here,
+  // but reddit.com posts do — kept at 1.0 to not over-inflate)
+  'news.ycombinator.com': 1.0,
   'reddit.com': 1.0,
 }
 
@@ -146,9 +148,17 @@ function scoreArticle(item) {
   const now = Date.now() / 1000
   const ageHours = (now - (item.time || 0)) / 3600
   const recency = Math.max(0, 1 - ageHours / 72) // decay over 72h
-  const engagement = Math.log10(Math.max(1, item.engagementScore || 1)) / Math.log10(1000)
+
+  // HN/Reddit have real engagement (upvotes). RSS/blog feeds have 0 — give them
+  // a synthetic baseline of 50 so they're not penalised just for lacking vote counts.
+  const rawEngagement = item.engagementScore > 0 ? item.engagementScore : 50
+  const engagement = Math.log10(Math.max(1, rawEngagement)) / Math.log10(1000)
+
   const sourceWeight = getSourceWeight(item.url || '')
-  return parseFloat(((recency * 0.4 + engagement * 0.4) * sourceWeight).toFixed(4))
+
+  // Increase the sourceWeight contribution so authoritative blogs
+  // can compete with high-engagement HN posts.
+  return parseFloat(((recency * 0.35 + engagement * 0.25 + 0.4 * (sourceWeight - 1.0)) * sourceWeight).toFixed(4))
 }
 
 /** Fetch summary via microlink.io free API — handles bot protection & JS sites */
@@ -345,7 +355,7 @@ async function main() {
   })
 
   // Score and sort
-  const scored = unique
+  const sortedAll = unique
     .map((s) => ({
       title: s.title,
       url: s.url,
@@ -358,7 +368,17 @@ async function main() {
       engagementScore: s.engagementScore || 0,
     }))
     .sort((a, b) => b.score - a.score)
-    .slice(0, STORE_TOP_N)
+
+  // Cap per feedSource to ensure diversity — no single source fills the list
+  const MAX_PER_SOURCE = 8
+  const sourceCounts = {}
+  const scored = []
+  for (const item of sortedAll) {
+    const src = item.feedSource || 'unknown'
+    sourceCounts[src] = (sourceCounts[src] || 0) + 1
+    if (sourceCounts[src] <= MAX_PER_SOURCE) scored.push(item)
+    if (scored.length >= STORE_TOP_N) break
+  }
 
   // Enrich summaries for articles that don't have one (HN and Reddit items)
   const needSummary = scored.filter((a) => !a.summary)
