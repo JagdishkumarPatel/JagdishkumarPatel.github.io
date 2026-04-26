@@ -138,7 +138,7 @@ export default function AITrendsPage() {
   }, [])
 
   return (
-    <main className="min-h-screen bg-background pt-24 pb-16 px-6">
+    <main className="min-h-screen pt-24 pb-16 px-6">
       <div className="mx-auto max-w-3xl">
 
         {/* Header */}

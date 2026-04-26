@@ -129,7 +129,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
         />
       </head>
-      <body className="font-sans bg-background text-foreground antialiased flex flex-col min-h-screen">
+      <body className="font-sans text-foreground antialiased flex flex-col min-h-screen">
         <ThemeProvider
           attribute="data-theme"
           defaultTheme="dark"

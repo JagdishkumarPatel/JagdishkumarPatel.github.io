@@ -287,7 +287,7 @@ export function NeuralNetworkHome({ onSkip }: { onSkip?: () => void }) {
   );
 
       return (
-        <div style={{ width: "100%", height: "100svh", background: "#020817", position: "relative" }}>
+        <div style={{ width: "100%", height: "100svh", background: "transparent", position: "relative" }}>
           {onSkip && null}
           <ReactFlow
             nodes={nodes}
