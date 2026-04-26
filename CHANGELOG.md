@@ -1,3 +1,10 @@
+## [1.26.3](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.26.2...v1.26.3) (2026-04-26)
+
+
+### Bug Fixes
+
+* cache-bust news feed fetch and show last updated in AEST ([6ffc75a](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/commit/6ffc75ac44ce6503582661648b4f700518e771c9))
+
 ## [1.26.2](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.26.1...v1.26.2) (2026-04-26)
 
 
