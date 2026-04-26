@@ -1,3 +1,10 @@
+# [1.26.0](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.25.0...v1.26.0) (2026-04-26)
+
+
+### Features
+
+* galaxy background images for dark/light theme ([cbcc9f9](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/commit/cbcc9f936ec3d75ccc443fcde6896daedbd061ba))
+
 # [1.25.0](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.24.0...v1.25.0) (2026-04-26)
 
 
