@@ -1,3 +1,10 @@
+# [1.25.0](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.24.0...v1.25.0) (2026-04-26)
+
+
+### Features
+
+* weekly AI post generator + first AI in Practice post (26 Apr 2026) ([a6d948a](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/commit/a6d948a208b573501db418d0a143125bdf118acd))
+
 # [1.24.0](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.23.0...v1.24.0) (2026-04-26)
 
 
