@@ -1,3 +1,10 @@
+## [1.22.1](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.22.0...v1.22.1) (2026-04-26)
+
+
+### Bug Fixes
+
+* correct broken RSS URLs (Anthropic, Meta AI, The Verge, Wired), Reddit 403 via old.reddit.com, add Atom parsing for Papers With Code ([9de320c](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/commit/9de320c8f351e47f33b61a9cc62359cfcb951c20))
+
 # [1.22.0](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.21.0...v1.22.0) (2026-04-26)
 
 
