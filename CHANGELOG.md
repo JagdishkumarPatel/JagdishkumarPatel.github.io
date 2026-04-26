@@ -1,3 +1,10 @@
+## [1.22.3](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.22.2...v1.22.3) (2026-04-26)
+
+
+### Bug Fixes
+
+* add per-source cap (max 8) and synthetic engagement baseline for RSS feeds to ensure diverse source distribution ([70acff7](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/commit/70acff701403016ba41c05421410e1c85c4bea73))
+
 ## [1.22.2](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.22.1...v1.22.2) (2026-04-26)
 
 
