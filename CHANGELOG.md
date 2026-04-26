@@ -1,3 +1,10 @@
+# [1.22.0](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.21.0...v1.22.0) (2026-04-26)
+
+
+### Features
+
+* add DeepMind, Meta AI, HuggingFace, VentureBeat, MIT Tech Review, The Verge, Wired, Papers With Code as news sources ([b677fbe](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/commit/b677fbebb1d21272b72470a37bbc2e7f428a8b97))
+
 # [1.21.0](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.20.0...v1.21.0) (2026-04-26)
 
 
