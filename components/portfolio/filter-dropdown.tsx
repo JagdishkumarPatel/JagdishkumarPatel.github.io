@@ -75,7 +75,7 @@ export function FilterDropdown({ label, options, selected, onChange }: FilterDro
         </button>
 
         {open && (
-          <div className="absolute right-0 top-full mt-1.5 z-50 min-w-[220px] rounded-xl border border-border bg-card shadow-lg">
+          <div className="absolute right-0 top-full mt-1.5 z-50 w-[min(220px,90vw)] rounded-xl border border-border bg-card shadow-lg">
             <div className="p-1 max-h-64 overflow-y-auto">
               {options.map((option) => {
                 const isSelected = selected.includes(option)

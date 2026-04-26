@@ -2,7 +2,7 @@
 
 import * as React from "react"
 import { FilterDropdown } from "@/components/portfolio/filter-dropdown"
-import { ChevronDown, Search, X } from "lucide-react"
+import { ChevronDown, Search, X, SlidersHorizontal } from "lucide-react"
 
 const DEFAULT_VISIBLE = 10
 
@@ -50,13 +50,16 @@ export default function AITrendsPage() {
   const [visibleCount, setVisibleCount] = React.useState(DEFAULT_VISIBLE)
   const [sortBy, setSortBy] = React.useState<"score" | "date">("score")
   const [timeOpen, setTimeOpen] = React.useState(false)
+  const [filterSheetOpen, setFilterSheetOpen] = React.useState(false)
   const timeRef = React.useRef<HTMLDivElement>(null)
 
   React.useEffect(() => {
     function onClickOutside(e: MouseEvent) {
       if (timeRef.current && !timeRef.current.contains(e.target as Node)) setTimeOpen(false)
     }
-    function onKey(e: KeyboardEvent) { if (e.key === "Escape") setTimeOpen(false) }
+    function onKey(e: KeyboardEvent) {
+      if (e.key === "Escape") { setTimeOpen(false); setFilterSheetOpen(false) }
+    }
     document.addEventListener("mousedown", onClickOutside)
     document.addEventListener("keydown", onKey)
     return () => {
@@ -64,6 +67,12 @@ export default function AITrendsPage() {
       document.removeEventListener("keydown", onKey)
     }
   }, [])
+
+  // Lock body scroll when bottom sheet open
+  React.useEffect(() => {
+    document.body.style.overflow = filterSheetOpen ? "hidden" : ""
+    return () => { document.body.style.overflow = "" }
+  }, [filterSheetOpen])
 
   // Derive available tags, sources and filtered items
   const allTags = React.useMemo(() => {
@@ -97,7 +106,8 @@ export default function AITrendsPage() {
     return filtered
   }, [feed, activeTag, activeSource, activeDays, keyword, sortBy])
 
-  const hasActiveFilters = activeTag.length > 0 || activeSource.length > 0 || activeDays > 0 || keyword.trim() !== "" || sortBy !== "score"
+  const filterCount = (activeSource.length > 0 ? 1 : 0) + (activeTag.length > 0 ? 1 : 0) + (activeDays > 0 ? 1 : 0)
+  const hasActiveFilters = filterCount > 0 || keyword.trim() !== "" || sortBy !== "score"
 
   function clearFilters() {
     setActiveTag([])
@@ -152,7 +162,8 @@ export default function AITrendsPage() {
         {/* Filters */}
         {!loading && !error && (
           <div className="mb-8 space-y-3">
-            {/* Keyword search */}
+
+            {/* Search */}
             <div className="relative">
               <Search size={14} className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground pointer-events-none" />
               <input
@@ -169,16 +180,14 @@ export default function AITrendsPage() {
               )}
             </div>
 
-            {/* Dropdown filters — side by side */}
-            <div className="flex flex-wrap items-center gap-3">
-              {/* Sort toggle */}
+            {/* Controls row */}
+            <div className="flex items-center gap-3">
+              {/* Sort toggle — always visible */}
               <div className="inline-flex rounded-lg border border-border bg-card overflow-hidden shrink-0">
                 <button
                   onClick={() => setSortBy("score")}
                   className={`px-3 py-2 text-sm font-medium transition-colors ${
-                    sortBy === "score"
-                      ? "bg-primary/10 text-primary"
-                      : "text-muted-foreground hover:text-foreground"
+                    sortBy === "score" ? "bg-primary/10 text-primary" : "text-muted-foreground hover:text-foreground"
                   }`}
                 >
                   Relevance
@@ -186,75 +195,109 @@ export default function AITrendsPage() {
                 <button
                   onClick={() => setSortBy("date")}
                   className={`px-3 py-2 text-sm font-medium transition-colors border-l border-border ${
-                    sortBy === "date"
-                      ? "bg-primary/10 text-primary"
-                      : "text-muted-foreground hover:text-foreground"
+                    sortBy === "date" ? "bg-primary/10 text-primary" : "text-muted-foreground hover:text-foreground"
                   }`}
                 >
                   Newest
                 </button>
               </div>
-              {/* Time period */}
-              <div className="relative shrink-0" ref={timeRef}>
-                <button
-                  onClick={() => setTimeOpen((o) => !o)}
-                  className={`inline-flex items-center gap-2 rounded-lg border px-3.5 py-2 text-sm font-medium transition-colors ${
-                    activeDays > 0
-                      ? "border-primary bg-primary/10 text-primary"
-                      : "border-border bg-card text-muted-foreground hover:border-primary/50 hover:text-foreground"
-                  }`}
-                >
-                  {TIME_PERIODS.find((p) => p.value === activeDays)?.label ?? "All time"}
-                  <ChevronDown size={14} className={`transition-transform duration-200 ${timeOpen ? "rotate-180" : ""}`} />
-                </button>
-                {timeOpen && (
-                  <div className="absolute left-0 top-full mt-1.5 z-50 min-w-[160px] rounded-xl border border-border bg-card shadow-lg">
-                    <div className="p-1">
-                      {TIME_PERIODS.map((p) => (
-                        <button
-                          key={p.value}
-                          onClick={() => { setActiveDays(p.value); setTimeOpen(false) }}
-                          className={`w-full flex items-center gap-2 rounded-lg px-3 py-2 text-sm text-left transition-colors ${
-                            activeDays === p.value
-                              ? "bg-primary/10 text-primary font-medium"
-                              : "text-muted-foreground hover:bg-accent hover:text-foreground"
-                          }`}
-                        >
-                          {p.label}
-                        </button>
-                      ))}
+
+              {/* Mobile: single Filters button */}
+              <button
+                onClick={() => setFilterSheetOpen(true)}
+                className={`md:hidden inline-flex items-center gap-2 rounded-lg border px-3.5 py-2 text-sm font-medium transition-colors ${
+                  filterCount > 0
+                    ? "border-primary bg-primary/10 text-primary"
+                    : "border-border bg-card text-muted-foreground hover:border-primary/50 hover:text-foreground"
+                }`}
+              >
+                <SlidersHorizontal size={14} />
+                Filters
+                {filterCount > 0 && (
+                  <span className="rounded-full bg-primary text-primary-foreground text-xs px-1.5 py-0.5 leading-none">
+                    {filterCount}
+                  </span>
+                )}
+              </button>
+
+              {/* Desktop: inline dropdowns */}
+              <div className="hidden md:flex items-center gap-3">
+                {/* Time period */}
+                <div className="relative shrink-0" ref={timeRef}>
+                  <button
+                    onClick={() => setTimeOpen((o) => !o)}
+                    className={`inline-flex items-center gap-2 rounded-lg border px-3.5 py-2 text-sm font-medium transition-colors ${
+                      activeDays > 0
+                        ? "border-primary bg-primary/10 text-primary"
+                        : "border-border bg-card text-muted-foreground hover:border-primary/50 hover:text-foreground"
+                    }`}
+                  >
+                    {TIME_PERIODS.find((p) => p.value === activeDays)?.label ?? "All time"}
+                    <ChevronDown size={14} className={`transition-transform duration-200 ${timeOpen ? "rotate-180" : ""}`} />
+                  </button>
+                  {timeOpen && (
+                    <div className="absolute right-0 top-full mt-1.5 z-50 min-w-[160px] rounded-xl border border-border bg-card shadow-lg">
+                      <div className="p-1">
+                        {TIME_PERIODS.map((p) => (
+                          <button
+                            key={p.value}
+                            onClick={() => { setActiveDays(p.value); setTimeOpen(false) }}
+                            className={`w-full flex items-center gap-2 rounded-lg px-3 py-2 text-sm text-left transition-colors ${
+                              activeDays === p.value
+                                ? "bg-primary/10 text-primary font-medium"
+                                : "text-muted-foreground hover:bg-accent hover:text-foreground"
+                            }`}
+                          >
+                            {p.label}
+                          </button>
+                        ))}
+                      </div>
                     </div>
-                  </div>
+                  )}
+                </div>
+                {allFeedSources.length > 1 && (
+                  <FilterDropdown label="Source" options={allFeedSources} selected={activeSource} onChange={setActiveSource} />
+                )}
+                {allTags.length > 0 && (
+                  <FilterDropdown label="Tag" options={allTags} selected={activeTag} onChange={setActiveTag} />
                 )}
               </div>
 
-              {/* Source filter */}
-              {allFeedSources.length > 1 && (
-                <FilterDropdown
-                  label="Source"
-                  options={allFeedSources}
-                  selected={activeSource}
-                  onChange={setActiveSource}
-                />
-              )}
-
-              {/* Tag filter */}
-              {allTags.length > 0 && (
-                <FilterDropdown
-                  label="Filter by tag"
-                  options={allTags}
-                  selected={activeTag}
-                  onChange={setActiveTag}
-                />
-              )}
-
-              {/* Clear */}
+              {/* Clear all — desktop */}
               {hasActiveFilters && (
-                <button onClick={clearFilters} className="text-xs text-muted-foreground hover:text-primary transition-colors">
+                <button onClick={clearFilters} className="hidden md:block text-xs text-muted-foreground hover:text-primary transition-colors ml-auto">
                   Clear all
                 </button>
               )}
             </div>
+
+            {/* Active filter pills — both mobile and desktop */}
+            {(activeSource.length > 0 || activeTag.length > 0 || activeDays > 0) && (
+              <div className="flex flex-wrap gap-2">
+                {activeDays > 0 && (
+                  <span className="inline-flex items-center gap-1 rounded-full bg-primary/10 text-primary border border-primary/20 px-2.5 py-1 text-xs font-medium">
+                    {TIME_PERIODS.find((p) => p.value === activeDays)?.label}
+                    <button onClick={() => setActiveDays(0)} className="hover:text-primary/60 ml-0.5"><X size={11} /></button>
+                  </span>
+                )}
+                {activeSource.map((s) => (
+                  <span key={s} className="inline-flex items-center gap-1 rounded-full bg-primary/10 text-primary border border-primary/20 px-2.5 py-1 text-xs font-medium">
+                    {s}
+                    <button onClick={() => setActiveSource(activeSource.filter((x) => x !== s))} className="hover:text-primary/60 ml-0.5"><X size={11} /></button>
+                  </span>
+                ))}
+                {activeTag.map((t) => (
+                  <span key={t} className="inline-flex items-center gap-1 rounded-full bg-primary/10 text-primary border border-primary/20 px-2.5 py-1 text-xs font-medium">
+                    {t}
+                    <button onClick={() => setActiveTag(activeTag.filter((x) => x !== t))} className="hover:text-primary/60 ml-0.5"><X size={11} /></button>
+                  </span>
+                ))}
+                {/* Mobile clear all */}
+                <button onClick={clearFilters} className="md:hidden text-xs text-muted-foreground hover:text-primary transition-colors self-center ml-1">
+                  Clear all
+                </button>
+              </div>
+            )}
           </div>
         )}
 
@@ -435,6 +478,108 @@ export default function AITrendsPage() {
           </p>
         </div>
       </div>
+
+      {/* Mobile filter bottom sheet — rendered inside <main> so it's in the React tree */}
+      {filterSheetOpen && (
+        <>
+          {/* Backdrop */}
+          <div
+            className="fixed inset-0 z-40 bg-black/50 backdrop-blur-sm"
+            onClick={() => setFilterSheetOpen(false)}
+          />
+          {/* Sheet */}
+          <div className="fixed bottom-0 left-0 right-0 z-50 rounded-t-2xl border-t border-border bg-background px-5 pb-8 pt-4 shadow-2xl">
+            {/* Handle */}
+            <div className="mx-auto mb-4 h-1 w-10 rounded-full bg-muted" />
+            <div className="flex items-center justify-between mb-5">
+              <h3 className="text-base font-semibold text-foreground">Filters</h3>
+              <button onClick={() => setFilterSheetOpen(false)} className="text-muted-foreground hover:text-foreground"><X size={18} /></button>
+            </div>
+
+            {/* Time period */}
+            <div className="mb-5">
+              <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-2">Time period</p>
+              <div className="flex flex-wrap gap-2">
+                {TIME_PERIODS.map((p) => (
+                  <button
+                    key={p.value}
+                    onClick={() => setActiveDays(p.value)}
+                    className={`rounded-full border px-3.5 py-1.5 text-sm font-medium transition-colors ${
+                      activeDays === p.value
+                        ? "border-primary bg-primary/10 text-primary"
+                        : "border-border text-muted-foreground hover:border-primary/40 hover:text-foreground"
+                    }`}
+                  >
+                    {p.label}
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            {/* Source */}
+            {allFeedSources.length > 1 && (
+              <div className="mb-5">
+                <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-2">Source</p>
+                <div className="flex flex-wrap gap-2">
+                  {allFeedSources.map((s) => (
+                    <button
+                      key={s}
+                      onClick={() => setActiveSource(activeSource.includes(s) ? activeSource.filter((x) => x !== s) : [...activeSource, s])}
+                      className={`rounded-full border px-3.5 py-1.5 text-sm font-medium transition-colors ${
+                        activeSource.includes(s)
+                          ? "border-primary bg-primary/10 text-primary"
+                          : "border-border text-muted-foreground hover:border-primary/40 hover:text-foreground"
+                      }`}
+                    >
+                      {s}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Tags */}
+            {allTags.length > 0 && (
+              <div className="mb-6">
+                <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-2">Topic</p>
+                <div className="flex flex-wrap gap-2">
+                  {allTags.map((t) => (
+                    <button
+                      key={t}
+                      onClick={() => setActiveTag(activeTag.includes(t) ? activeTag.filter((x) => x !== t) : [...activeTag, t])}
+                      className={`rounded-full border px-3.5 py-1.5 text-sm font-medium transition-colors ${
+                        activeTag.includes(t)
+                          ? "border-primary bg-primary/10 text-primary"
+                          : "border-border text-muted-foreground hover:border-primary/40 hover:text-foreground"
+                      }`}
+                    >
+                      {t}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Actions */}
+            <div className="flex gap-3">
+              {filterCount > 0 && (
+                <button
+                  onClick={() => { setActiveTag([]); setActiveSource([]); setActiveDays(0) }}
+                  className="flex-1 rounded-xl border border-border py-3 text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  Clear filters
+                </button>
+              )}
+              <button
+                onClick={() => setFilterSheetOpen(false)}
+                className="flex-1 rounded-xl bg-primary py-3 text-sm font-semibold text-primary-foreground hover:bg-primary/90 transition-colors"
+              >
+                {filteredItems.length === 0 ? "No results" : `Show ${filteredItems.length} article${filteredItems.length !== 1 ? "s" : ""}`}
+              </button>
+            </div>
+          </div>
+        </>
+      )}
     </main>
   )
 }
