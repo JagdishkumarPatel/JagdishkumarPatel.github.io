@@ -122,7 +122,7 @@ export default function AITrendsPage() {
   React.useEffect(() => { setVisibleCount(DEFAULT_VISIBLE) }, [activeTag, activeSource, activeDays, keyword])
 
   React.useEffect(() => {
-    fetch("/data/top-news.json")
+    fetch(`/data/top-news.json?v=${Date.now()}`)
       .then((r) => {
         if (!r.ok) throw new Error("Failed to load feed")
         return r.json()
@@ -154,7 +154,7 @@ export default function AITrendsPage() {
           </p>
           {feed?.updatedAt && (
             <p className="mt-3 text-xs text-muted-foreground font-mono">
-              Last updated: {new Date(feed.updatedAt).toUTCString()}
+              Last updated: {new Date(feed.updatedAt).toLocaleString("en-AU", { timeZone: "Australia/Melbourne", dateStyle: "medium", timeStyle: "short" })} AEST
             </p>
           )}
         </div>
