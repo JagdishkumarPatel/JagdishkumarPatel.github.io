@@ -1,3 +1,11 @@
+# [1.23.0](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.22.3...v1.23.0) (2026-04-26)
+
+
+### Features
+
+* add Relevance/Newest sort toggle on AI Latest News page ([fe4c9e9](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/commit/fe4c9e9fea4294f89e7bcacb0c068702c00a1fe9))
+* add Relevance/Newest sort toggle on AI Latest News page ([dfbaae7](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/commit/dfbaae7b3a3e9031a5f3205d471e0b1ed720a1f7))
+
 ## [1.22.3](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.22.2...v1.22.3) (2026-04-26)
 
 
