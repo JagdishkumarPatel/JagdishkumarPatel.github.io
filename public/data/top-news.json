@@ -1,49 +1,59 @@
 {
-  "updatedAt": "2026-04-25T22:25:18.115Z",
+  "updatedAt": "2026-04-26T01:09:03.162Z",
+  "sources": [
+    "hackernews",
+    "reddit",
+    "arxiv",
+    "blogs"
+  ],
   "items": [
     {
       "title": "GPT‑5.5 Bio Bug Bounty",
       "url": "https://openai.com/index/gpt-5-5-bio-bug-bounty/",
+      "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.8185,
+      "score": 0.9303,
       "publishedAt": "2026-04-25T14:17:31.000Z",
       "summary": "Explore the GPT-5.5 Bio Bug Bounty: a red-teaming challenge to find universal jailbreaks for bio safety risks, with rewards up to $25,000.",
       "tags": [
         "LLM",
         "Safety"
       ],
-      "hnScore": 115
-    },
-    {
-      "title": "There Will Be a Scientific Theory of Deep Learning",
-      "url": "https://arxiv.org/abs/2604.21691",
-      "source": "arxiv.org",
-      "score": 0.8118,
-      "publishedAt": "2026-04-24T18:06:05.000Z",
-      "summary": "In this paper, we make the case that a scientific theory of deep learning is emerging. By this we mean a theory which characterizes important properties and statistics of the training process, hidden representations, final weights, and performance of neural networks. We pull together major strands o",
-      "tags": [
-        "Research"
-      ],
-      "hnScore": 338
+      "engagementScore": 127
     },
     {
       "title": "OpenAI releases GPT-5.5 and GPT-5.5 Pro in the API",
       "url": "https://developers.openai.com/api/docs/changelog",
+      "feedSource": "Hacker News",
       "source": "developers.openai.com",
-      "score": 0.7344,
+      "score": 0.8247,
       "publishedAt": "2026-04-24T18:23:32.000Z",
       "summary": "See all of the latest features and updates to the OpenAI API.",
       "tags": [
         "LLM",
         "Dev Tools"
       ],
-      "hnScore": 254
+      "engagementScore": 254
+    },
+    {
+      "title": "There Will Be a Scientific Theory of Deep Learning",
+      "url": "https://arxiv.org/abs/2604.21691",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.7908,
+      "publishedAt": "2026-04-24T18:06:05.000Z",
+      "summary": "In this paper, we make the case that a scientific theory of deep learning is emerging. By this we mean a theory which characterizes important properties and statistics of the training process, hidden representations, final weights, and performance of neural networks. We pull together major strands o",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 339
     },
     {
       "title": "GPT-5.5",
       "url": "https://openai.com/index/introducing-gpt-5-5/",
+      "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.695,
+      "score": 0.7792,
       "publishedAt": "2026-04-23T18:01:39.000Z",
       "summary": "Introducing GPT-5.5, our smartest model yet—faster, more capable, and built for complex tasks like coding, research, and data analysis across tools.",
       "tags": [
@@ -51,37 +61,14 @@
         "Research",
         "Dev Tools"
       ],
-      "hnScore": 1558
-    },
-    {
-      "title": "The AI Industry Is Discovering That the Public Hates It",
-      "url": "https://newrepublic.com/article/209163/ai-industry-discovering-public-backlash",
-      "source": "newrepublic.com",
-      "score": 0.678,
-      "publishedAt": "2026-04-25T21:11:11.000Z",
-      "summary": "If there was any doubt over the brewing public backlash to this technology, the last few weeks have erased it.",
-      "tags": [
-        "AI"
-      ],
-      "hnScore": 137
-    },
-    {
-      "title": "ML supports existence of unrecognized transient astronomical phenomena",
-      "url": "https://arxiv.org/abs/2604.18799",
-      "source": "arxiv.org",
-      "score": 0.6548,
-      "publishedAt": "2026-04-24T14:01:43.000Z",
-      "summary": "Transient, star-like point sources that appear and vanish over short timescales are described in astronomical images prior to launch of Sputnik. We have reported that transient numbers diminish significantly in Earth’s shadow (shadow deficit) and are more likely within (plus/minus) one day of nuclea",
-      "tags": [
-        "Vision"
-      ],
-      "hnScore": 72
+      "engagementScore": 1558
     },
     {
       "title": "An update on recent Claude Code quality reports",
       "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+      "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.6546,
+      "score": 0.7325,
       "publishedAt": "2026-04-23T17:48:38.000Z",
       "summary": "Anthropic is an AI safety and research company that’s working to build reliable, interpretable, and steerable AI systems.",
       "tags": [
@@ -90,13 +77,66 @@
         "Safety",
         "Dev Tools"
       ],
-      "hnScore": 930
+      "engagementScore": 930
+    },
+    {
+      "title": "The AI industry is discovering that the public hates it",
+      "url": "https://newrepublic.com/article/209163/ai-industry-discovering-public-backlash",
+      "feedSource": "Hacker News",
+      "source": "newrepublic.com",
+      "score": 0.6839,
+      "publishedAt": "2026-04-25T21:11:11.000Z",
+      "summary": "If there was any doubt over the brewing public backlash to this technology, the last few weeks have erased it.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 197
+    },
+    {
+      "title": "Different language models learn similar number representations",
+      "url": "https://arxiv.org/abs/2604.20817",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.675,
+      "publishedAt": "2026-04-24T14:34:23.000Z",
+      "summary": "",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 114
+    },
+    {
+      "title": "USB Cheat Sheet (2022)",
+      "url": "https://fabiensanglard.net/usbcheat/index.html",
+      "feedSource": "Hacker News",
+      "source": "fabiensanglard.net",
+      "score": 0.6662,
+      "publishedAt": "2026-04-25T21:51:18.000Z",
+      "summary": "May 05, 2022",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 136
+    },
+    {
+      "title": "ML supports existence of unrecognized transient astronomical phenomena",
+      "url": "https://arxiv.org/abs/2604.18799",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.6335,
+      "publishedAt": "2026-04-24T14:01:43.000Z",
+      "summary": "Transient, star-like point sources that appear and vanish over short timescales are described in astronomical images prior to launch of Sputnik. We have reported that transient numbers diminish significantly in Earth’s shadow (shadow deficit) and are more likely within (plus/minus) one day of nuclea",
+      "tags": [
+        "Vision"
+      ],
+      "engagementScore": 72
     },
     {
       "title": "Show HN: A Karpathy-style LLM wiki your agents maintain (Markdown and Git)",
       "url": "https://github.com/nex-crm/wuphf",
+      "feedSource": "Hacker News",
       "source": "github.com",
-      "score": 0.6364,
+      "score": 0.6226,
       "publishedAt": "2026-04-25T08:53:53.000Z",
       "summary": "Slack for AI employees with a shared brain. Get Claudes, Codexes and OpenClaws to collaborate and do your work autonomously while never losing context. - nex-crm/wuphf",
       "tags": [
@@ -104,31 +144,542 @@
         "Agents",
         "Dev Tools"
       ],
-      "hnScore": 217
-    },
-    {
-      "title": "I cancelled Claude: Token issues, declining quality, and poor support",
-      "url": "https://nickyreinert.de/en/2026/2026-04-24-claude-critics/",
-      "source": "nickyreinert.de",
-      "score": 0.6268,
-      "publishedAt": "2026-04-24T15:59:19.000Z",
-      "summary": "Prefix Note As this post is gaining more attention than expected on HN, I want to make some things clear - although I thought they are obvious.\nIt sounds like a rant about Claude’s quality in general - if you don’t read to the end. But my concerns are more focused on the support performance and toke",
-      "tags": [
-        "LLM"
-      ],
-      "hnScore": 932
+      "engagementScore": 222
     },
     {
       "title": "Hokusai and Tesselations",
       "url": "https://dl.ndl.go.jp/pid/1899550/1/11/",
+      "feedSource": "Hacker News",
       "source": "dl.ndl.go.jp",
-      "score": 0.6263,
+      "score": 0.6179,
       "publishedAt": "2026-04-25T17:21:22.000Z",
       "summary": "著者：葛飾北齋 画, 出版者：探古堂, 出版年月日：1884.8",
       "tags": [
         "AI"
       ],
-      "hnScore": 81
+      "engagementScore": 91
+    },
+    {
+      "title": "I cancelled Claude: Token issues, declining quality, and poor support",
+      "url": "https://nickyreinert.de/en/2026/2026-04-24-claude-critics/",
+      "feedSource": "Hacker News",
+      "source": "nickyreinert.de",
+      "score": 0.6119,
+      "publishedAt": "2026-04-24T15:59:19.000Z",
+      "summary": "Prefix Note As this post is gaining more attention than expected on HN, I want to make some things clear - although I thought they are obvious.\nIt sounds like a rant about Claude’s quality in general - if you don’t read to the end. But my concerns are more focused on the support performance and toke",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 936
+    },
+    {
+      "title": "America's Geothermal Breakthrough",
+      "url": "https://oilprice.com/Alternative-Energy/Geothermal-Energy/Americas-Geothermal-Breakthrough-Could-Unlock-a-150-Gigawatt-Energy-Revolution.html",
+      "feedSource": "Hacker News",
+      "source": "oilprice.com",
+      "score": 0.6075,
+      "publishedAt": "2026-04-25T19:38:55.000Z",
+      "summary": "Enhanced geothermal systems are poised to dramatically expand U.S. clean energy capacity by unlocking vast underground heat resources and providing reliable, round-the-clock power.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 61
+    },
+    {
+      "title": "Lambda Calculus Benchmark for AI",
+      "url": "https://victortaelin.github.io/lambench/",
+      "feedSource": "Hacker News",
+      "source": "victortaelin.github.io",
+      "score": 0.6065,
+      "publishedAt": "2026-04-25T11:16:23.000Z",
+      "summary": "github.com/VictorTaelin/LamBench v1",
+      "tags": [
+        "Open Source"
+      ],
+      "engagementScore": 134
+    },
+    {
+      "title": "ChatGPT Images 2.0",
+      "url": "https://openai.com/index/introducing-chatgpt-images-2-0/",
+      "feedSource": "Hacker News",
+      "source": "openai.com",
+      "score": 0.6037,
+      "publishedAt": "2026-04-21T18:50:00.000Z",
+      "summary": "ChatGPT Images 2.0 introduces a state-of-the-art image generation model with improved text rendering, multilingual support, and advanced visual reasoning.",
+      "tags": [
+        "LLM",
+        "Vision"
+      ],
+      "engagementScore": 1043
+    },
+    {
+      "title": "Google plans to invest up to $40B in Anthropic",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-24/google-plans-to-invest-up-to-40-billion-in-anthropic",
+      "feedSource": "Hacker News",
+      "source": "bloomberg.com",
+      "score": 0.603,
+      "publishedAt": "2026-04-24T16:04:41.000Z",
+      "summary": "",
+      "tags": [
+        "LLM",
+        "Industry"
+      ],
+      "engagementScore": 795
+    },
+    {
+      "title": "Plain text has been around for decades and it’s here to stay",
+      "url": "https://unsung.aresluna.org/plain-text-has-been-around-for-decades-and-its-here-to-stay/",
+      "feedSource": "Hacker News",
+      "source": "unsung.aresluna.org",
+      "score": 0.5918,
+      "publishedAt": "2026-04-25T01:03:09.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 277
+    },
+    {
+      "title": "What's missing in the 'agentic' story: a well-defined user agent role",
+      "url": "https://www.mnot.net/blog/2026/04/24/agents_as_collective_bargains",
+      "feedSource": "Hacker News",
+      "source": "mnot.net",
+      "score": 0.5835,
+      "publishedAt": "2026-04-25T15:51:11.000Z",
+      "summary": "Every online interaction is a lopsided negotiation. For AI to truly work for us, we need more than just safety -- we need to start building true agency as a form of collective bargaining.",
+      "tags": [
+        "Agents",
+        "Safety"
+      ],
+      "engagementScore": 58
+    },
+    {
+      "title": "Europe to burned American scientists: We'll take you in",
+      "url": "https://www.politico.eu/article/europe-exploit-dunald-trump-brain-drain-academic-research-progressive-institutions/",
+      "feedSource": "Hacker News",
+      "source": "politico.eu",
+      "score": 0.5637,
+      "publishedAt": "2026-04-26T00:29:23.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 18
+    },
+    {
+      "title": "Open source memory layer so any AI agent can do what Claude.ai and ChatGPT do",
+      "url": "https://alash3al.github.io/stash?_v01",
+      "feedSource": "Hacker News",
+      "source": "alash3al.github.io",
+      "score": 0.562,
+      "publishedAt": "2026-04-25T01:24:40.000Z",
+      "summary": "Give any AI agent a persistent memory in minutes. Works with Claude, ChatGPT, Ollama, OpenRouter, and any MCP-compatible agent. Open source, self-hosted, model-agnostic.",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Open Source"
+      ],
+      "engagementScore": 160
+    },
+    {
+      "title": "Turkey to Ban Anonymous VPNs",
+      "url": "https://reclaimthenet.org/turkey-to-ban-anonymous-vpns",
+      "feedSource": "Hacker News",
+      "source": "reclaimthenet.org",
+      "score": 0.5576,
+      "publishedAt": "2026-04-25T18:46:57.000Z",
+      "summary": "Ankara wants a VPN market where “approved” means logged and “unlicensed” means illegal, leaving Turkish users a choice between surveillance and a criminal record.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 28
+    },
+    {
+      "title": "Agents Aren't Coworkers, Embed Them in Your Software",
+      "url": "https://www.feldera.com/blog/ai-agents-arent-coworkers-embed-them-in-your-software",
+      "feedSource": "Hacker News",
+      "source": "feldera.com",
+      "score": 0.5571,
+      "publishedAt": "2026-04-25T23:53:40.000Z",
+      "summary": "",
+      "tags": [
+        "Agents"
+      ],
+      "engagementScore": 17
+    },
+    {
+      "title": "AI agents that argue with each other to improve decisions",
+      "url": "https://github.com/rockcat/HATS",
+      "feedSource": "Hacker News",
+      "source": "github.com",
+      "score": 0.5471,
+      "publishedAt": "2026-04-25T18:30:12.000Z",
+      "summary": "AI Personas. Contribute to rockcat/HATS development by creating an account on GitHub.",
+      "tags": [
+        "Agents",
+        "Open Source"
+      ],
+      "engagementScore": 24
+    },
+    {
+      "title": "Education must go beyond the mere production of words",
+      "url": "https://www.ncregister.com/commentaries/schnell-repairing-the-ruins",
+      "feedSource": "Hacker News",
+      "source": "ncregister.com",
+      "score": 0.5454,
+      "publishedAt": "2026-04-25T00:11:43.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 135
+    },
+    {
+      "title": "California Coastal Community Must Reject CBP's AI-Powered Surveillance Tower",
+      "url": "https://www.eff.org/deeplinks/2026/04/california-coastal-community-must-reject-cbps-ai-powered-surveillance-tower",
+      "feedSource": "Hacker News",
+      "source": "eff.org",
+      "score": 0.5443,
+      "publishedAt": "2026-04-25T18:26:02.000Z",
+      "summary": "Customs and Border Protection (CBP) is seeking permission from the California city of San Clemente to install an Anduril Industries surveillance tower on a cliff that would allow for constant monitoring of entire coastal neighborhoods. The proposed tower is Anduril’s Sentry, part of the Autonomous…",
+      "tags": [
+        "Agents"
+      ],
+      "engagementScore": 23
+    },
+    {
+      "title": "Her Life Savings Mysteriously Disappeared After a Systems Glitch",
+      "url": "https://www.nytimes.com/2026/04/25/your-money/fidelity-investments-fraud-alert.html",
+      "feedSource": "Hacker News",
+      "source": "nytimes.com",
+      "score": 0.5439,
+      "publishedAt": "2026-04-25T23:32:18.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 14
+    },
+    {
+      "title": "Nicholas Carlini – Black-hat LLMs [video]",
+      "url": "https://www.youtube.com/watch?v=1sd26pWhfmg",
+      "feedSource": "Hacker News",
+      "source": "youtube.com",
+      "score": 0.5359,
+      "publishedAt": "2026-04-25T20:04:37.000Z",
+      "summary": "",
+      "tags": [
+        "LLM",
+        "Vision"
+      ],
+      "engagementScore": 17
+    },
+    {
+      "title": "The U.K. Smoking Ban Is Illiberal",
+      "url": "https://www.theatlantic.com/ideas/2026/04/case-against-uk-smoking-ban/686949/",
+      "feedSource": "Hacker News",
+      "source": "theatlantic.com",
+      "score": 0.533,
+      "publishedAt": "2026-04-25T20:11:35.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 16
+    },
+    {
+      "title": "SFO Quiet Airport (2025)",
+      "url": "https://viewfromthewing.com/san-francisco-airport-removed-90-minutes-of-daily-noise-travelers-say-it-changed-everything/",
+      "feedSource": "Hacker News",
+      "source": "viewfromthewing.com",
+      "score": 0.5199,
+      "publishedAt": "2026-04-24T18:29:53.000Z",
+      "summary": "The airport targeted gate announcements, overlapping PA messages, and tenant music. Instead of blasting departure calls terminal-wide, messages are limited to each gate and their immediate surroundings. In 2020, they worked with airlines to centralize and reduce announcements, cutting 40% of the pag",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 150
+    },
+    {
+      "title": "Tariffs Raised Consumers' Prices, but the Refunds Go Only to Businesses",
+      "url": "https://www.nytimes.com/2026/04/24/us/politics/companies-consumers-tariff-refunds.html",
+      "feedSource": "Hacker News",
+      "source": "nytimes.com",
+      "score": 0.5192,
+      "publishedAt": "2026-04-24T17:11:24.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 168
+    },
+    {
+      "title": "Our Survey on Creativity, Writing, and Reading in the Age of AI",
+      "url": "https://ellipsus.com/blog/survey-on-writing-and-ai",
+      "feedSource": "Hacker News",
+      "source": "ellipsus.com",
+      "score": 0.5116,
+      "publishedAt": "2026-04-25T21:13:56.000Z",
+      "summary": "What does it actually feel like to be a writer in the age of AI? For nearly three years, we’ve been building Ellipsus alongside a growing community of writers. And in that time, AI has shifted from background noise to an unavoidable force shaping the tools, platforms, and economies of writing—affect",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 10
+    },
+    {
+      "title": "Refuse to let your doctor record you",
+      "url": "https://buttondown.com/maiht3k/archive/why-you-should-refuse-to-let-your-doctor-record/",
+      "feedSource": "Hacker News",
+      "source": "buttondown.com",
+      "score": 0.5104,
+      "publishedAt": "2026-04-24T15:48:16.000Z",
+      "summary": "By: Emily M. Bender and Decca Muldowney At a recent appointment, Emily’s physical therapist (who knows some about her research) said, “Before we get started,…",
+      "tags": [
+        "Research",
+        "Dev Tools"
+      ],
+      "engagementScore": 165
+    },
+    {
+      "title": "Escrow Security for iCloud Keychain",
+      "url": "https://support.apple.com/guide/security/escrow-security-for-icloud-keychain-sec3e341e75d/web",
+      "feedSource": "Hacker News",
+      "source": "support.apple.com",
+      "score": 0.5095,
+      "publishedAt": "2026-04-25T06:56:23.000Z",
+      "summary": "iCloud provides a secure infrastructure for keychain escrow to help ensure that only authorized users and devices can perform a recovery.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 38
+    },
+    {
+      "title": "I Went to Jail",
+      "url": "https://lincolnquirk.substack.com/p/i-went-to-jail",
+      "feedSource": "Hacker News",
+      "source": "lincolnquirk.substack.com",
+      "score": 0.5007,
+      "publishedAt": "2026-04-25T23:00:04.000Z",
+      "summary": "For a good reason :)",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 7
+    },
+    {
+      "title": "Hear your agent suffer through your code",
+      "url": "https://github.com/AndrewVos/endless-toil",
+      "feedSource": "Hacker News",
+      "source": "github.com",
+      "score": 0.4976,
+      "publishedAt": "2026-04-24T10:58:45.000Z",
+      "summary": "",
+      "tags": [
+        "Agents",
+        "Dev Tools"
+      ],
+      "engagementScore": 210
+    },
+    {
+      "title": "Prediction Market Accuracy: Crowd Wisdom or Informed Minority?",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6617059",
+      "feedSource": "Hacker News",
+      "source": "papers.ssrn.com",
+      "score": 0.4945,
+      "publishedAt": "2026-04-25T19:15:53.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 9
+    },
+    {
+      "title": "US special forces soldier arrested after allegedly winning $400k on Maduro raid",
+      "url": "https://www.cnn.com/2026/04/23/politics/us-special-forces-soldier-arrested-maduro-raid-trade",
+      "feedSource": "Hacker News",
+      "source": "cnn.com",
+      "score": 0.4932,
+      "publishedAt": "2026-04-23T21:56:15.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 680
+    },
+    {
+      "title": "Could a Claude Code routine watch my finances?",
+      "url": "https://driggsby.com/blog/claude-code-routine-watch-my-finances",
+      "feedSource": "Hacker News",
+      "source": "driggsby.com",
+      "score": 0.4886,
+      "publishedAt": "2026-04-24T19:25:15.000Z",
+      "summary": "After tinkering with Claude Code routines, I wondered: how far could I push this?",
+      "tags": [
+        "LLM",
+        "Dev Tools"
+      ],
+      "engagementScore": 80
+    },
+    {
+      "title": "Show HN: Browser Harness – Gives LLM freedom to complete any browser task",
+      "url": "https://github.com/browser-use/browser-harness",
+      "feedSource": "Hacker News",
+      "source": "github.com",
+      "score": 0.4834,
+      "publishedAt": "2026-04-24T14:31:38.000Z",
+      "summary": "Browser Harness | Self-healing harness that enables LLMs to complete any task. - browser-use/browser-harness",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 117
+    },
+    {
+      "title": "AI Is Cannibalizing Human Intelligence",
+      "url": "https://www.wsj.com/tech/ai/is-ai-smarter-than-humans-cyborg-956e0f0e",
+      "feedSource": "Hacker News",
+      "source": "wsj.com",
+      "score": 0.481,
+      "publishedAt": "2026-04-25T16:49:11.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 9
+    },
+    {
+      "title": "Jailbreaking a robot vacuum to run Tailscale and Valetudo",
+      "url": "https://tailscale.com/blog/tailscale-sucks",
+      "feedSource": "Hacker News",
+      "source": "tailscale.com",
+      "score": 0.4806,
+      "publishedAt": "2026-04-25T12:55:12.000Z",
+      "summary": "Let’s jailbreak a robotic vacuum cleaner and put Tailscale on it.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 13
+    },
+    {
+      "title": "42 lost pages of the New Testament manuscript discovered",
+      "url": "https://phys.org/news/2026-04-lost-pages-testament-manuscript.html",
+      "feedSource": "Hacker News",
+      "source": "phys.org",
+      "score": 0.4714,
+      "publishedAt": "2026-04-25T10:30:01.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 14
+    },
+    {
+      "title": "CC-Canary: Detect early signs of regressions in Claude Code",
+      "url": "https://github.com/delta-hq/cc-canary",
+      "feedSource": "Hacker News",
+      "source": "github.com",
+      "score": 0.469,
+      "publishedAt": "2026-04-24T17:53:37.000Z",
+      "summary": "",
+      "tags": [
+        "LLM",
+        "Dev Tools"
+      ],
+      "engagementScore": 66
+    },
+    {
+      "title": "A Common Diabetes Drug May Hold the Key to Stopping HIV from Coming Back",
+      "url": "https://scitechdaily.com/a-common-diabetes-drug-may-hold-the-key-to-stopping-hiv-from-coming-back/",
+      "feedSource": "Hacker News",
+      "source": "scitechdaily.com",
+      "score": 0.4671,
+      "publishedAt": "2026-04-25T18:33:17.000Z",
+      "summary": "Researchers found that certain immune cells, genes, and the drug metformin may help keep HIV dormant after treatment stops, offering new paths toward long-term control.",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 6
+    },
+    {
+      "title": "Bitwarden CLI compromised in ongoing Checkmarx supply chain campaign",
+      "url": "https://socket.dev/blog/bitwarden-cli-compromised",
+      "feedSource": "Hacker News",
+      "source": "socket.dev",
+      "score": 0.4643,
+      "publishedAt": "2026-04-23T14:17:08.000Z",
+      "summary": "Bitwarden CLI 2026.4.0 was compromised in the Checkmarx supply chain campaign after attackers abused a GitHub Action in Bitwarden’s CI/CD pipeline.",
+      "tags": [
+        "Open Source"
+      ],
+      "engagementScore": 861
+    },
+    {
+      "title": "MiniZinc, constraint modelling language solve discrete optimisation problems",
+      "url": "https://www.minizinc.org",
+      "feedSource": "Hacker News",
+      "source": "minizinc.org",
+      "score": 0.4634,
+      "publishedAt": "2026-04-24T18:47:04.000Z",
+      "summary": "MiniZinc is a free and open-source constraint modeling language.",
+      "tags": [
+        "Open Source",
+        "ML Infra"
+      ],
+      "engagementScore": 55
+    },
+    {
+      "title": "Investigation uncovers two sophisticated telecom surveillance campaigns",
+      "url": "https://techcrunch.com/2026/04/23/surveillance-vendors-caught-abusing-access-to-telcos-to-track-peoples-phone-locations-researchers-say/",
+      "feedSource": "Hacker News",
+      "source": "techcrunch.com",
+      "score": 0.4501,
+      "publishedAt": "2026-04-23T12:12:03.000Z",
+      "summary": "",
+      "tags": [
+        "Industry"
+      ],
+      "engagementScore": 406
+    },
+    {
+      "title": "Which one is more important: more parameters or more computation? (2021)",
+      "url": "https://parl.ai/projects/params_vs_compute/",
+      "feedSource": "Hacker News",
+      "source": "parl.ai",
+      "score": 0.4442,
+      "publishedAt": "2026-04-24T16:44:57.000Z",
+      "summary": "When we talk about the power of a deep learning model, often the only metric we pay attention to is its size, which is measured by the number parameters in that model. However, the amount of computation to run that model is an important metric too, but it is often overlooked because it is usually ti",
+      "tags": [
+        "ML Infra"
+      ],
+      "engagementScore": 48
+    },
+    {
+      "title": "Workspace Agents in ChatGPT",
+      "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt/",
+      "feedSource": "Hacker News",
+      "source": "openai.com",
+      "score": 0.4408,
+      "publishedAt": "2026-04-22T17:47:07.000Z",
+      "summary": "Reload to try again, or go back.",
+      "tags": [
+        "LLM",
+        "Agents"
+      ],
+      "engagementScore": 160
+    },
+    {
+      "title": "Show HN: Agent MCP Studio – build multi-agent MCP systems in a browser tab",
+      "url": "https://www.agentmcp.studio",
+      "feedSource": "Hacker News",
+      "source": "agentmcp.studio",
+      "score": 0.4386,
+      "publishedAt": "2026-04-25T07:06:31.000Z",
+      "summary": "Pick a runtime, describe the tool in plain English, and the LLM will write the code. Each runtime has its own sandbox.",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Dev Tools"
+      ],
+      "engagementScore": 11
     }
   ]
 }

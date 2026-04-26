@@ -16,24 +16,24 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 /** Config — toggle sources on/off without touching logic */
 const SOURCES = {
   hackernews: { enabled: true },
-  reddit: { enabled: true, subs: ['MachineLearning', 'LocalLLaMA', 'artificial'] },
+  reddit: { enabled: true, subs: ['MachineLearning', 'LocalLLaMA', 'artificial'], useOld: true },
   arxiv: { enabled: true, feeds: ['cs.AI', 'cs.LG'] },
   blogs: {
     enabled: true,
     feeds: [
       // Official AI labs
       { name: 'OpenAI',           feedSource: 'OpenAI',           url: 'https://openai.com/news/rss.xml',                                          domain: 'openai.com' },
-      { name: 'Anthropic',        feedSource: 'Anthropic',        url: 'https://www.anthropic.com/rss.xml',                                        domain: 'anthropic.com' },
+      { name: 'Anthropic',        feedSource: 'Anthropic',        url: 'https://www.anthropic.com/news/rss',                                        domain: 'anthropic.com' },
       { name: 'Google AI',        feedSource: 'Google AI',        url: 'https://blog.google/technology/ai/rss/',                                   domain: 'blog.google' },
       { name: 'Microsoft AI',     feedSource: 'Microsoft AI',     url: 'https://blogs.microsoft.com/ai/feed/',                                     domain: 'blogs.microsoft.com' },
       { name: 'DeepMind',         feedSource: 'DeepMind',         url: 'https://deepmind.google/blog/rss.xml',                                     domain: 'deepmind.google' },
-      { name: 'Meta AI',          feedSource: 'Meta AI',          url: 'https://ai.meta.com/blog/rss/',                                            domain: 'ai.meta.com' },
+      { name: 'Meta AI',          feedSource: 'Meta AI',          url: 'https://ai.meta.com/blog/feed/',                                           domain: 'ai.meta.com' },
       { name: 'Hugging Face',     feedSource: 'Hugging Face',     url: 'https://huggingface.co/blog/feed.xml',                                     domain: 'huggingface.co' },
       // Tech media
       { name: 'VentureBeat AI',   feedSource: 'VentureBeat',      url: 'https://venturebeat.com/category/ai/feed/',                                domain: 'venturebeat.com' },
       { name: 'MIT Tech Review',  feedSource: 'MIT Tech Review',  url: 'https://www.technologyreview.com/feed/',                                   domain: 'technologyreview.com' },
-      { name: 'The Verge AI',     feedSource: 'The Verge',        url: 'https://www.theverge.com/ai-artificial-intelligence/rss/index.xml',        domain: 'theverge.com' },
-      { name: 'Wired AI',         feedSource: 'Wired',            url: 'https://www.wired.com/feed/tag/artificial-intelligence/latest/rss',        domain: 'wired.com' },
+      { name: 'The Verge AI',     feedSource: 'The Verge',        url: 'https://www.theverge.com/rss/ai-artificial-intelligence/index.xml',        domain: 'theverge.com' },
+      { name: 'Wired AI',         feedSource: 'Wired',            url: 'https://www.wired.com/feed/rss',                                           domain: 'wired.com' },
       // Research & community
       { name: 'Papers With Code', feedSource: 'Papers With Code', url: 'https://paperswithcode.com/latest.rss',                                    domain: 'paperswithcode.com' },
     ],
@@ -211,7 +211,8 @@ async function fetchRedditStories() {
   const all = []
   for (const sub of SOURCES.reddit.subs) {
     try {
-      const json = await get(`https://www.reddit.com/r/${sub}/hot.json?limit=50`)
+      // old.reddit.com JSON API works without OAuth; www.reddit.com returns 403
+      const json = await get(`https://old.reddit.com/r/${sub}/hot.json?limit=50`)
       const posts = json?.data?.children ?? []
       for (const { data: p } of posts) {
         if (!p.title) continue
@@ -239,10 +240,12 @@ async function fetchRedditStories() {
   return all
 }
 
-/** Minimal RSS XML parser — no external deps */
+/** Minimal RSS/Atom XML parser — no external deps */
 function parseRssItems(xml) {
   const items = []
-  const itemRe = /<item>([\s\S]*?)<\/item>/g
+
+  // Try RSS <item> first
+  const itemRe = /<item>([\/\s\S]*?)<\/item>/g
   let m
   while ((m = itemRe.exec(xml)) !== null) {
     const block = m[1]
@@ -250,9 +253,19 @@ function parseRssItems(xml) {
     const link = (/<link>(.*?)<\/link>/.exec(block) || [])[1]?.trim() || ''
     const desc = (/<description><!\[CDATA\[([\s\S]*?)\]\]><\/description>/.exec(block) || /<description>([\s\S]*?)<\/description>/.exec(block) || [])[1]?.trim() || ''
     const pubDate = (/<pubDate>(.*?)<\/pubDate>/.exec(block) || [])[1]?.trim() || ''
-    if (title && link) {
-      items.push({ title: title.replace(/\[.*?\]$/, '').trim(), link, desc, pubDate })
-    }
+    if (title && link) items.push({ title: title.replace(/\[.*?\]$/, '').trim(), link, desc, pubDate })
+  }
+  if (items.length > 0) return items
+
+  // Fallback: Atom <entry> (Papers With Code, some others)
+  const entryRe = /<entry>([\/\s\S]*?)<\/entry>/g
+  while ((m = entryRe.exec(xml)) !== null) {
+    const block = m[1]
+    const title = (/<title[^>]*><!\[CDATA\[([\s\S]*?)\]\]><\/title>/.exec(block) || /<title[^>]*>([\s\S]*?)<\/title>/.exec(block) || [])[1]?.trim() || ''
+    const link = (/<link[^>]+href=["']([^"']+)["']/.exec(block) || [])[1]?.trim() || ''
+    const desc = (/<summary[^>]*><!\[CDATA\[([\s\S]*?)\]\]><\/summary>/.exec(block) || /<summary[^>]*>([\s\S]*?)<\/summary>/.exec(block) || [])[1]?.trim() || ''
+    const pubDate = (/<updated>(.*?)<\/updated>/.exec(block) || /<published>(.*?)<\/published>/.exec(block) || [])[1]?.trim() || ''
+    if (title && link) items.push({ title: title.replace(/\[.*?\]$/, '').trim(), link, desc, pubDate })
   }
   return items
 }
