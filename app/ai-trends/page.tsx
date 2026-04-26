@@ -48,6 +48,7 @@ export default function AITrendsPage() {
   const [activeDays, setActiveDays] = React.useState(0)
   const [keyword, setKeyword] = React.useState("")
   const [visibleCount, setVisibleCount] = React.useState(DEFAULT_VISIBLE)
+  const [sortBy, setSortBy] = React.useState<"score" | "date">("score")
   const [timeOpen, setTimeOpen] = React.useState(false)
   const timeRef = React.useRef<HTMLDivElement>(null)
 
@@ -83,22 +84,27 @@ export default function AITrendsPage() {
     if (!feed) return []
     const cutoff = activeDays > 0 ? Date.now() - activeDays * 86400000 : 0
     const kw = keyword.trim().toLowerCase()
-    return feed.items.filter((item) => {
+    const filtered = feed.items.filter((item) => {
       if (activeSource.length > 0 && !activeSource.includes(item.feedSource)) return false
       if (activeTag.length > 0 && !activeTag.some((t) => item.tags.includes(t))) return false
       if (cutoff && new Date(item.publishedAt).getTime() < cutoff) return false
       if (kw && !item.title.toLowerCase().includes(kw) && !item.summary.toLowerCase().includes(kw) && !item.source.toLowerCase().includes(kw)) return false
       return true
     })
-  }, [feed, activeTag, activeSource, activeDays, keyword])
+    if (sortBy === "date") {
+      return [...filtered].sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
+    }
+    return filtered
+  }, [feed, activeTag, activeSource, activeDays, keyword, sortBy])
 
-  const hasActiveFilters = activeTag.length > 0 || activeSource.length > 0 || activeDays > 0 || keyword.trim() !== ""
+  const hasActiveFilters = activeTag.length > 0 || activeSource.length > 0 || activeDays > 0 || keyword.trim() !== "" || sortBy !== "score"
 
   function clearFilters() {
     setActiveTag([])
     setActiveSource([])
     setActiveDays(0)
     setKeyword("")
+    setSortBy("score")
     setVisibleCount(DEFAULT_VISIBLE)
   }
 
@@ -165,6 +171,29 @@ export default function AITrendsPage() {
 
             {/* Dropdown filters — side by side */}
             <div className="flex flex-wrap items-center gap-3">
+              {/* Sort toggle */}
+              <div className="inline-flex rounded-lg border border-border bg-card overflow-hidden shrink-0">
+                <button
+                  onClick={() => setSortBy("score")}
+                  className={`px-3 py-2 text-sm font-medium transition-colors ${
+                    sortBy === "score"
+                      ? "bg-primary/10 text-primary"
+                      : "text-muted-foreground hover:text-foreground"
+                  }`}
+                >
+                  Relevance
+                </button>
+                <button
+                  onClick={() => setSortBy("date")}
+                  className={`px-3 py-2 text-sm font-medium transition-colors border-l border-border ${
+                    sortBy === "date"
+                      ? "bg-primary/10 text-primary"
+                      : "text-muted-foreground hover:text-foreground"
+                  }`}
+                >
+                  Newest
+                </button>
+              </div>
               {/* Time period */}
               <div className="relative shrink-0" ref={timeRef}>
                 <button
