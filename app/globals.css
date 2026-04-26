@@ -228,7 +228,16 @@
   }
   body {
     @apply bg-background text-foreground;
+    background-image: url('/images/bg-dark.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
   }
+}
+
+[data-theme="light"] body {
+  background-image: url('/images/bg-light.png');
 }
 
 /* Blog prose styles */
