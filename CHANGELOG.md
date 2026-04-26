@@ -1,3 +1,10 @@
+## [1.26.1](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.26.0...v1.26.1) (2026-04-26)
+
+
+### Bug Fixes
+
+* skip deploy on bot data/draft commits ([9283515](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/commit/92835151a9e596421a68873021df38e44c32f60e))
+
 # [1.26.0](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.25.0...v1.26.0) (2026-04-26)
 
 
