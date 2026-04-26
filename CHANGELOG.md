@@ -1,3 +1,10 @@
+# [1.24.0](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.23.0...v1.24.0) (2026-04-26)
+
+
+### Features
+
+* Apple-style filter UX — bottom sheet on mobile, inline dropdowns on desktop, active filter pills ([393a3e0](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/commit/393a3e0f1baaba379d6dffa86ac3b538e97a084b))
+
 # [1.23.0](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.22.3...v1.23.0) (2026-04-26)
 
 
