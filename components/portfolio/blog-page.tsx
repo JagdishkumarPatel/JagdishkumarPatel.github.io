@@ -67,12 +67,12 @@ export function BlogPage({ posts }: { posts: PostMeta[] }) {
           <Link key={post.slug} href={`/blog/${post.slug}`} className="group block">
             <div className="flex gap-5 rounded-xl border border-border bg-card hover:border-primary/50 hover:shadow-md transition-all duration-200 overflow-hidden">
               {post.feature_image && (
-                <div className="hidden sm:block relative shrink-0 w-40 h-32 overflow-hidden">
+                <div className="hidden sm:block relative shrink-0 w-64 h-36 overflow-hidden">
                   <Image
                     src={post.feature_image}
                     alt={post.title}
                     fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-300"
+                    className="object-cover object-center group-hover:scale-105 transition-transform duration-300"
                   />
                 </div>
               )}

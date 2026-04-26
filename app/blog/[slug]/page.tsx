@@ -7,6 +7,20 @@ import rehypeSlug from 'rehype-slug'
 import rehypeHighlight from 'rehype-highlight'
 import { getAllPostSlugs, getPostBySlug, getAllPosts } from '@/lib/posts'
 import dynamic from 'next/dynamic'
+
+// Custom MDX link — external links open in new tab, internal stay same tab
+function MdxLink({ href, children, ...props }: React.AnchorHTMLAttributes<HTMLAnchorElement>) {
+  const isExternal = href?.startsWith('http')
+  return (
+    <a
+      href={href}
+      {...props}
+      {...(isExternal ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+    >
+      {children}
+    </a>
+  )
+}
 const BlogCarousel = dynamic(() => import('@/components/portfolio/BlogCarousel'), { ssr: false })
 const Carousel3D = dynamic(() => import('@/components/portfolio/Carousel3D'), { ssr: false })
 import type { Metadata } from 'next'
@@ -139,7 +153,7 @@ export default function BlogPostPage({ params }: Props) {
               </div>
             )}
 
-            <div className="prose prose-slate max-w-none dark:prose-invert prose-headings:font-semibold prose-a:text-primary prose-code:text-primary prose-code:before:content-none prose-code:after:content-none">
+            <div className="prose prose-slate max-w-none dark:prose-invert prose-headings:font-semibold prose-a:text-primary prose-a:underline prose-code:text-primary prose-code:before:content-none prose-code:after:content-none">
               <MDXRemote
                 source={post.content}
                 options={{
@@ -148,6 +162,7 @@ export default function BlogPostPage({ params }: Props) {
                     rehypePlugins: [rehypeSlug, rehypeHighlight],
                   },
                 }}
+                components={{ a: MdxLink }}
               />
             </div>
           </article>
