@@ -1,3 +1,10 @@
+## [1.26.2](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.26.1...v1.26.2) (2026-04-26)
+
+
+### Bug Fixes
+
+* remove hardcoded background from neural view to show galaxy background ([42ea02e](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/commit/42ea02ea085495047f8233995314af45e63200aa))
+
 ## [1.26.1](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.26.0...v1.26.1) (2026-04-26)
 
 
