@@ -7,6 +7,10 @@ on:
       - main
     paths-ignore:
       - 'content/drafts/**'
+  workflow_run:
+    workflows: ["AI Trends - Fetch News"]
+    types: [completed]
+    branches: [main]
   release:
     types: [published]
   pull_request:
