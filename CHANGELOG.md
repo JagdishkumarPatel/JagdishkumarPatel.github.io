@@ -1,3 +1,10 @@
+## [1.26.5](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.26.4...v1.26.5) (2026-04-27)
+
+
+### Bug Fixes
+
+* trigger site deploy on ai-news workflow completion ([72af690](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/commit/72af69043a86d1e7fbc67a4876adf870f68d642b))
+
 ## [1.26.4](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.26.3...v1.26.4) (2026-04-27)
 
 
