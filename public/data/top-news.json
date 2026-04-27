@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-26T21:42:39.064Z",
+  "updatedAt": "2026-04-27T03:32:19.618Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,20 +12,33 @@
       "url": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 1.0578,
+      "score": 1.0282,
       "publishedAt": "2026-04-26T13:58:13.000Z",
       "summary": "SWE-bench Verified is increasingly contaminated and mismeasures frontier coding progress. Our analysis shows flawed tests and training leakage. We recommend SWE-bench Pro.",
       "tags": [
         "Dev Tools"
       ],
-      "engagementScore": 206
+      "engagementScore": 261
+    },
+    {
+      "title": "Our principles",
+      "url": "https://openai.com/index/our-principles",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.9533,
+      "publishedAt": "2026-04-26T16:00:00.000Z",
+      "summary": "Our mission is to ensure that AGI benefits all of humanity. Sam Altman shares five principles that guide our work.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "GPT‑5.5 Bio Bug Bounty",
       "url": "https://openai.com/index/gpt-5-5-bio-bug-bounty/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.8694,
+      "score": 0.8269,
       "publishedAt": "2026-04-25T14:17:31.000Z",
       "summary": "Explore the GPT-5.5 Bio Bug Bounty: a red-teaming challenge to find universal jailbreaks for bio safety risks, with rewards up to $25,000.",
       "tags": [
@@ -47,71 +60,42 @@
         "Research",
         "Dev Tools"
       ],
-      "engagementScore": 1564
-    },
-    {
-      "title": "ChatGPT Images 2.0",
-      "url": "https://openai.com/index/introducing-chatgpt-images-2-0/",
-      "feedSource": "Hacker News",
-      "source": "openai.com",
-      "score": 0.6774,
-      "publishedAt": "2026-04-21T18:50:00.000Z",
-      "summary": "ChatGPT Images 2.0 introduces a state-of-the-art image generation model with improved text rendering, multilingual support, and advanced visual reasoning.",
-      "tags": [
-        "LLM",
-        "Vision"
-      ],
-      "engagementScore": 1045
+      "engagementScore": 1566
     },
     {
       "title": "An update on recent Claude Code quality reports",
       "url": "https://www.anthropic.com/engineering/april-23-postmortem",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.6713,
+      "score": 0.6714,
       "publishedAt": "2026-04-23T17:48:38.000Z",
-      "summary": "Anthropic is an AI safety and research company that’s working to build reliable, interpretable, and steerable AI systems.",
+      "summary": "",
       "tags": [
         "LLM",
-        "Research",
-        "Safety",
         "Dev Tools"
       ],
-      "engagementScore": 934
-    },
-    {
-      "title": "There Will Be a Scientific Theory of Deep Learning",
-      "url": "https://arxiv.org/abs/2604.21691",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.6604,
-      "publishedAt": "2026-04-24T18:06:05.000Z",
-      "summary": "In this paper, we make the case that a scientific theory of deep learning is emerging. By this we mean a theory which characterizes important properties and statistics of the training process, hidden representations, final weights, and performance of neural networks. We pull together major strands o",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 356
+      "engagementScore": 936
     },
     {
       "title": "OpenAI Privacy Filter",
       "url": "https://openai.com/index/introducing-openai-privacy-filter/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.6069,
+      "score": 0.6072,
       "publishedAt": "2026-04-23T00:14:55.000Z",
       "summary": "OpenAI Privacy Filter is an open-weight model for detecting and redacting personally identifiable information (PII) in text with state-of-the-art accuracy",
       "tags": [
         "LLM",
         "ML Infra"
       ],
-      "engagementScore": 285
+      "engagementScore": 287
     },
     {
       "title": "Different language models learn similar number representations",
       "url": "https://arxiv.org/abs/2604.20817",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.5787,
+      "score": 0.5391,
       "publishedAt": "2026-04-24T14:34:23.000Z",
       "summary": "Language models trained on natural text learn to represent numbers using periodic features with dominant periods at $T=2, 5, 10$. In this paper, we identify a two-tiered hierarchy of these features: while Transformers, Linear RNNs, LSTMs, and classical word embeddings trained in different ways all l",
       "tags": [
@@ -123,108 +107,41 @@
       "engagementScore": 114
     },
     {
+      "title": "GoDaddy gave a domain to a stranger without any documentation",
+      "url": "https://anchor.host/godaddy-gave-a-domain-to-a-stranger-without-any-documentation/",
+      "feedSource": "Hacker News",
+      "source": "anchor.host",
+      "score": 0.5275,
+      "publishedAt": "2026-04-26T16:57:56.000Z",
+      "summary": "What would you do if your organization had used a domain name for 27 years, and the registrar holding the domain seized it without any advance warning? All",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 558
+    },
+    {
+      "title": "An AI agent deleted our production database. The agent's confession is below",
+      "url": "https://twitter.com/lifeof_jer/status/2048103471019434248",
+      "feedSource": "Hacker News",
+      "source": "twitter.com",
+      "score": 0.5221,
+      "publishedAt": "2026-04-26T16:27:29.000Z",
+      "summary": "An AI Agent Just Destroyed Our Production Data. It Confessed in Writing.",
+      "tags": [
+        "Agents"
+      ],
+      "engagementScore": 514
+    },
+    {
       "title": "‘STAGED’: Conspiracy Theories Are Everywhere Following White House Correspondents’ Dinner Shooting",
       "url": "https://www.wired.com/story/staged-conspiracy-theories-are-everywhere-following-white-house-correspondents-dinner-shooting/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5474,
+      "score": 0.5163,
       "publishedAt": "2026-04-26T14:43:47.000Z",
       "summary": "The word “staged” exploded on social media following the attack, as both right- and left-wing influencers and anonymous accounts spread unfounded conspiracy theories.",
       "tags": [
         "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Best Kindle Accessories (2026): Cases, Page Turners, Stickers",
-      "url": "https://www.wired.com/story/best-kindle-accessories/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5305,
-      "publishedAt": "2026-04-26T11:34:00.000Z",
-      "summary": "Looking to better protect your Kindle or add a little personality to your favorite e-reader? From cases and covers to page-turners and even charms, this is the guide for you.",
-      "tags": [
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Smart Bird Feeders Everyone’s Talking About (and Actually Buying) (2026)",
-      "url": "https://www.wired.com/story/best-smart-bird-feeders/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5278,
-      "publishedAt": "2026-04-26T11:04:00.000Z",
-      "summary": "These bird feeders come with cameras and connected apps to let you see and learn about the birds in your neighborhood.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Best Permanent Outdoor Lights (2026): Govee, Eufy, Cync",
-      "url": "https://www.wired.com/story/should-you-get-permanent-outdoor-lights/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5249,
-      "publishedAt": "2026-04-26T10:31:00.000Z",
-      "summary": "Permanent eave lights that attach to the exterior of your home are becoming more popular. But are they worth the effort and cost?",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Ikea's New Blow-Up Chair Was Tested by Cats",
-      "url": "https://www.wired.com/story/ikea-new-blow-up-chair-was-tested-by-cats/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5221,
-      "publishedAt": "2026-04-26T10:00:00.000Z",
-      "summary": "Part of the new PS 2026 collection, it's taken the Swedish company 26 years to finally nail inflatable furniture.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Della Optima TP Series Mini-Split AC Review: Cheap, Smart, and (Mostly) Reliable",
-      "url": "https://www.wired.com/review/della-optima-tp-series-mini-split-air-conditioner/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5202,
-      "publishedAt": "2026-04-26T09:38:00.000Z",
-      "summary": "Ductless AC systems get smart tech features—and the growing pains that come with them.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "What Type of Mattress Is Right for You? (2026)",
-      "url": "https://www.wired.com/story/mattress-types-explained/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.518,
-      "publishedAt": "2026-04-26T09:14:00.000Z",
-      "summary": "Here’s how to pick the best mattress for your sleep needs, straight from a professional mattress tester.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Introducing GPT-5.5",
-      "url": "https://openai.com/index/introducing-gpt-5-5",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5124,
-      "publishedAt": "2026-04-23T11:00:00.000Z",
-      "summary": "Introducing GPT-5.5, our smartest model yet—faster, more capable, and built for complex tasks like coding, research, and data analysis across tools.",
-      "tags": [
-        "LLM",
-        "Research",
-        "Dev Tools"
       ],
       "engagementScore": 0
     },
@@ -244,14 +161,16 @@
       "engagementScore": 0
     },
     {
-      "title": "Automations",
-      "url": "https://openai.com/academy/codex-automations",
+      "title": "Introducing GPT-5.5",
+      "url": "https://openai.com/index/introducing-gpt-5-5",
       "feedSource": "OpenAI",
       "source": "openai.com",
       "score": 0.5124,
-      "publishedAt": "2026-04-23T10:00:00.000Z",
-      "summary": "Learn how to automate tasks in Codex using schedules and triggers to create reports, summaries, and recurring workflows without manual effort.",
+      "publishedAt": "2026-04-23T11:00:00.000Z",
+      "summary": "Introducing GPT-5.5, our smartest model yet—faster, more capable, and built for complex tasks like coding, research, and data analysis across tools.",
       "tags": [
+        "LLM",
+        "Research",
         "Dev Tools"
       ],
       "engagementScore": 0
@@ -270,39 +189,13 @@
       "engagementScore": 0
     },
     {
-      "title": "Plugins and skills",
-      "url": "https://openai.com/academy/codex-plugins-and-skills",
+      "title": "How to get started with Codex",
+      "url": "https://openai.com/academy/codex-how-to-start",
       "feedSource": "OpenAI",
       "source": "openai.com",
       "score": 0.5124,
       "publishedAt": "2026-04-23T10:00:00.000Z",
-      "summary": "Learn how to use Codex plugins and skills to connect tools, access data, and follow repeatable workflows to automate tasks and improve results.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Working with Codex",
-      "url": "https://openai.com/academy/working-with-codex",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5124,
-      "publishedAt": "2026-04-23T10:00:00.000Z",
-      "summary": "Learn how to set up your Codex workspace, create threads and projects, manage files, and start completing tasks with step-by-step guidance.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Codex settings",
-      "url": "https://openai.com/academy/codex-settings",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5124,
-      "publishedAt": "2026-04-23T10:00:00.000Z",
-      "summary": "Learn how to configure Codex settings, including personalization, detail level, and permissions, to run tasks smoothly and customize your workflow.",
+      "summary": "Learn how to get started with Codex by setting up projects, creating threads, and completing your first tasks with step-by-step guidance.",
       "tags": [
         "Dev Tools"
       ],
@@ -322,11 +215,115 @@
       "engagementScore": 0
     },
     {
+      "title": "Automations",
+      "url": "https://openai.com/academy/codex-automations",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.5124,
+      "publishedAt": "2026-04-23T10:00:00.000Z",
+      "summary": "Learn how to automate tasks in Codex using schedules and triggers to create reports, summaries, and recurring workflows without manual effort.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Codex settings",
+      "url": "https://openai.com/academy/codex-settings",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.5124,
+      "publishedAt": "2026-04-23T10:00:00.000Z",
+      "summary": "Learn how to configure Codex settings, including personalization, detail level, and permissions, to run tasks smoothly and customize your workflow.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Best Kindle Accessories (2026): Cases, Page Turners, Stickers",
+      "url": "https://www.wired.com/story/best-kindle-accessories/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4993,
+      "publishedAt": "2026-04-26T11:34:00.000Z",
+      "summary": "Looking to better protect your Kindle or add a little personality to your favorite e-reader? From cases and covers to page-turners and even charms, this is the guide for you.",
+      "tags": [
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Smart Bird Feeders Everyone’s Talking About (and Actually Buying) (2026)",
+      "url": "https://www.wired.com/story/best-smart-bird-feeders/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4967,
+      "publishedAt": "2026-04-26T11:04:00.000Z",
+      "summary": "These bird feeders come with cameras and connected apps to let you see and learn about the birds in your neighborhood.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Best Permanent Outdoor Lights (2026): Govee, Eufy, Cync",
+      "url": "https://www.wired.com/story/should-you-get-permanent-outdoor-lights/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4937,
+      "publishedAt": "2026-04-26T10:31:00.000Z",
+      "summary": "Permanent eave lights that attach to the exterior of your home are becoming more popular. But are they worth the effort and cost?",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Ikea's New Blow-Up Chair Was Tested by Cats",
+      "url": "https://www.wired.com/story/ikea-new-blow-up-chair-was-tested-by-cats/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.491,
+      "publishedAt": "2026-04-26T10:00:00.000Z",
+      "summary": "Part of the new PS 2026 collection, it's taken the Swedish company 26 years to finally nail inflatable furniture.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Della Optima TP Series Mini-Split AC Review: Cheap, Smart, and (Mostly) Reliable",
+      "url": "https://www.wired.com/review/della-optima-tp-series-mini-split-air-conditioner/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.489,
+      "publishedAt": "2026-04-26T09:38:00.000Z",
+      "summary": "Ductless AC systems get smart tech features—and the growing pains that come with them.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "What Type of Mattress Is Right for You? (2026)",
+      "url": "https://www.wired.com/story/mattress-types-explained/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4869,
+      "publishedAt": "2026-04-26T09:14:00.000Z",
+      "summary": "Here’s how to pick the best mattress for your sleep needs, straight from a professional mattress tester.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "California Engineer Identified in Suspected Shooting at White House Correspondents’ Dinner",
       "url": "https://www.wired.com/story/california-engineer-identified-in-suspected-shooting-at-white-house-correspondents-dinner/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4871,
+      "score": 0.4559,
       "publishedAt": "2026-04-26T03:26:42.000Z",
       "summary": "A 31-year-old engineer and self-described indie game developer is suspected of firing shots at the annual event attended by President Donald Trump, high-profile media figures, and US government officials.",
       "tags": [
@@ -445,7 +442,7 @@
       "url": "https://www.technologyreview.com/2026/04/24/1136422/why-deepseeks-v4-matters/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4057,
+      "score": 0.3718,
       "publishedAt": "2026-04-24T21:40:58.000Z",
       "summary": "On Friday, Chinese AI firm DeepSeek released a preview of V4, its long-awaited new flagship model. Notably, the model can process much longer prompts than its last generation, thanks to a new design that helps it handle large amounts of text more efficiently. Like DeepSeek’s previous models, V4 is o",
       "tags": [
@@ -458,7 +455,7 @@
       "url": "https://blog.google/products-and-platforms/products/gemini/gemini-spring-cleaning-tips/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.3901,
+      "score": 0.3561,
       "publishedAt": "2026-04-24T19:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Spring_Cleaning_hero.max-600x600.format-webp.webp\"&gt;Organize your home and digital space with Gemini. Use AI-powered tips for cleaning schedules, inbox decluttering, seasonal chores.",
       "tags": [
@@ -474,26 +471,11 @@
       "url": "https://huggingface.co/blog/deepseekv4",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.3545,
+      "score": 0.3401,
       "publishedAt": "2026-04-24T00:00:00.000Z",
       "summary": "",
       "tags": [
         "Agents"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Download: supercharged scams and studying AI healthcare",
-      "url": "https://www.technologyreview.com/2026/04/24/1136400/the-download-supercharged-scams-questionable-ai-healthcare/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.3502,
-      "publishedAt": "2026-04-24T12:10:00.000Z",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. We’re in a new era of AI-driven scams When ChatGPT was released in late 2022, it showed how easily generative AI could create human-like text. This qu",
-      "tags": [
-        "LLM",
-        "Research",
-        "Open Source"
       ],
       "engagementScore": 0
     },
@@ -591,11 +573,26 @@
       "engagementScore": 0
     },
     {
+      "title": "The Download: supercharged scams and studying AI healthcare",
+      "url": "https://www.technologyreview.com/2026/04/24/1136400/the-download-supercharged-scams-questionable-ai-healthcare/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.3162,
+      "publishedAt": "2026-04-24T12:10:00.000Z",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. We’re in a new era of AI-driven scams When ChatGPT was released in late 2022, it showed how easily generative AI could create human-like text. This qu",
+      "tags": [
+        "LLM",
+        "Research",
+        "Open Source"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Health-care AI is here. We don’t know if it actually helps patients.",
       "url": "https://www.technologyreview.com/2026/04/24/1136352/health-care-ai-dont-know-actually-helps-patients/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.3318,
+      "score": 0.2978,
       "publishedAt": "2026-04-24T09:00:00.000Z",
       "summary": "I don’t need to tell you that AI is everywhere. Or that it is being used, increasingly, in hospitals. Doctors are using AI to help them with notetaking. AI-based tools are trawling through patient records, flagging people who may require certain support or treatments. They are also used to interpret",
       "tags": [
@@ -608,7 +605,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/917755/musk-altman-openai-xai-gossip",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.326,
+      "score": 0.2948,
       "publishedAt": "2026-04-24T21:19:03.000Z",
       "summary": "Elon Musk cofounded OpenAI, and then flounced off in a huff when he wasn't anointed CEO, leaving Sam Altman as the last power-hungry man standing. Now, Musk is back with a lawsuit, and a trial is scheduled to start in Oakland, California, on April 27th. Theoretically, it's a legal case about whether",
       "tags": [
@@ -621,50 +618,11 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/917996/project-maven-military-ai-katrina-manson",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.3013,
+      "score": 0.2701,
       "publishedAt": "2026-04-24T16:42:02.000Z",
       "summary": "In the first 24 hours of the assault on Iran, the US military struck more than 1,000 targets, nearly double the scale of the \"shock and awe\" attack on Iraq over two decades ago. This acceleration was made possible by AI systems that speed up the targeting process. Chief among them is the Maven Smart",
       "tags": [
         "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Meta is laying off 10 percent of its staff",
-      "url": "https://www.theverge.com/tech/917690/meta-is-laying-off-10-percent-of-its-staff",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.2925,
-      "publishedAt": "2026-04-24T15:03:06.000Z",
-      "summary": "Meta is planning to layoff around 10 percent of employees in May, according to a memo from the company's chief people officer, Janelle Gale, published by Bloomberg. That means approximately 8,000 people will see their jobs cut. Meta will also be closing around 6,000 open roles, according to Gale. Th",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "AirPods, Touch Bars, and the rest of Tim Cook&#8217;s legacy",
-      "url": "https://www.theverge.com/podcast/917965/apple-ceo-cook-ternus-transition",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.2907,
-      "publishedAt": "2026-04-24T14:43:07.000Z",
-      "summary": "We knew at some point Tim Cook would step down from his position as Apple's CEO. Over the last year, it has become increasingly obvious that John Ternus was his likely successor. The news this week was still a surprise, though - and this year's succession could lead to some important changes at the",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "THE PEOPLE DO NOT YEARN FOR AUTOMATION",
-      "url": "https://www.theverge.com/podcast/917029/software-brain-ai-backlash-databases-automation",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.2892,
-      "publishedAt": "2026-04-24T14:26:17.000Z",
-      "summary": "Today on Decoder, I want to lay out an idea that&#8217;s been banging around my head for weeks now as we&#8217;ve been reporting on AI and having conversations here on this show. I&#8217;ve been calling it software brain, and it&#8217;s a particular way of seeing the world that fits everything into",
-      "tags": [
-        "Dev Tools"
       ],
       "engagementScore": 0
     },
@@ -679,6 +637,55 @@
       "tags": [
         "RAG",
         "Vision",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Elevating Austria: Google invests in its first data center in the Alps.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/google-data-center-austria/",
+      "feedSource": "Google AI",
+      "source": "blog.google",
+      "score": 0.2659,
+      "publishedAt": "2026-04-23T09:00:00.000Z",
+      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Kronstorf_Data_Center_1.max-600x600.format-webp.webp\"&gt;Google has been a proud part of Austria’s landscape for years, and today, we’re announcing our first data center in Kronstorf, generating 100 direct jobs. This",
+      "tags": [
+        "RAG",
+        "Vision",
+        "Dev Tools",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "We're launching two specialized TPUs for the agentic era.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/tpus-8t-8i-cloud-next/",
+      "feedSource": "Google AI",
+      "source": "blog.google",
+      "score": 0.2659,
+      "publishedAt": "2026-04-22T12:00:00.000Z",
+      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Were_launching_two_TPUs_social.max-600x600.format-webp.webp\"&gt;The eighth generation of Google’s TPU includes two specialized chips that will power the future of AI.",
+      "tags": [
+        "Agents",
+        "RAG",
+        "Vision",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "3 new ways Ads Advisor is making Google Ads safer and faster",
+      "url": "https://blog.google/products/ads-commerce/ads-advisor-google-ads/",
+      "feedSource": "Google AI",
+      "source": "blog.google",
+      "score": 0.2659,
+      "publishedAt": "2026-04-21T14:30:00.000Z",
+      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Road_to_GML_Master-Header.max-600x600.format-webp.webp\"&gt;Three new agentic safety and policy features integrated into Ads Advisor will help protect and streamline your Google Ads account.",
+      "tags": [
+        "Agents",
+        "RAG",
+        "Vision",
+        "Safety",
         "Dev Tools"
       ],
       "engagementScore": 0
