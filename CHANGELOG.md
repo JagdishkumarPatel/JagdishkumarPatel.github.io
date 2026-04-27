@@ -1,3 +1,10 @@
+## [1.26.4](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.26.3...v1.26.4) (2026-04-27)
+
+
+### Bug Fixes
+
+* allow news feed commits to trigger site rebuild and deploy ([f3f1214](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/commit/f3f1214151c1d7ecb7239ecf22b433709579701b))
+
 ## [1.26.3](https://github.com/JagdishkumarPatel/JagdishkumarPatel.github.io/compare/v1.26.2...v1.26.3) (2026-04-26)
 
 
