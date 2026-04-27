@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-27T08:33:24.921Z",
+  "updatedAt": "2026-04-27T11:08:37.848Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,20 +12,20 @@
       "url": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.9982,
+      "score": 0.9829,
       "publishedAt": "2026-04-26T13:58:13.000Z",
       "summary": "SWE-bench Verified is increasingly contaminated and mismeasures frontier coding progress. Our analysis shows flawed tests and training leakage. We recommend SWE-bench Pro.",
       "tags": [
         "Dev Tools"
       ],
-      "engagementScore": 295
+      "engagementScore": 315
     },
     {
       "title": "Our principles",
       "url": "https://openai.com/index/our-principles",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9167,
+      "score": 0.8978,
       "publishedAt": "2026-04-26T16:00:00.000Z",
       "summary": "Our mission is to ensure that AGI benefits all of humanity. Sam Altman shares five principles that guide our work.",
       "tags": [
@@ -38,7 +38,7 @@
       "url": "https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.9016,
+      "score": 0.884,
       "publishedAt": "2026-04-27T07:00:06.000Z",
       "summary": "Google DeepMind and Korea partner to accelerate scientific breakthroughs using frontier AI models",
       "tags": [
@@ -51,7 +51,7 @@
       "url": "https://arxiv.org/abs/2604.21935",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8812,
+      "score": 0.8636,
       "publishedAt": "2026-04-27T04:00:00.000Z",
       "summary": "arXiv:2604.21935v1 Announce Type: new \nAbstract: Although language models demonstrate remarkable proficiency on mathematical benchmarks, it remains unclear whether this reflects true mathematical reasoning or statistical pattern matching over learning formal syntax. Most existing evaluations rely on",
       "tags": [
@@ -67,7 +67,7 @@
       "url": "https://arxiv.org/abs/2604.21936",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8812,
+      "score": 0.8636,
       "publishedAt": "2026-04-27T04:00:00.000Z",
       "summary": "arXiv:2604.21936v1 Announce Type: new \nAbstract: Medical imaging research is increasingly shifting from controlled benchmark evaluation toward real-world clinical deployment. In such settings, applying analytical methods extends beyond model design to require dataset-aware workflow configuration and",
       "tags": [
@@ -84,7 +84,7 @@
       "url": "https://arxiv.org/abs/2604.21937",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8812,
+      "score": 0.8636,
       "publishedAt": "2026-04-27T04:00:00.000Z",
       "summary": "arXiv:2604.21937v1 Announce Type: new \nAbstract: Computational drug discovery, particularly the complex workflows of drug molecule screening and optimization, requires orchestrating dozens of specialized tools in multi-step workflows, yet current AI agents struggle to maintain robust performance and",
       "tags": [
@@ -100,7 +100,7 @@
       "url": "https://arxiv.org/abs/2604.21965",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8812,
+      "score": 0.8636,
       "publishedAt": "2026-04-27T04:00:00.000Z",
       "summary": "arXiv:2604.21965v1 Announce Type: new \nAbstract: Recent work has used LLM agents to reproduce empirical social science results with access to both the data and code. We broaden this scope by asking: Can they reproduce results given only a paper's methods description and original data? We develop an",
       "tags": [
@@ -116,7 +116,7 @@
       "url": "https://arxiv.org/abs/2604.22026",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8812,
+      "score": 0.8636,
       "publishedAt": "2026-04-27T04:00:00.000Z",
       "summary": "arXiv:2604.22026v1 Announce Type: new \nAbstract: AI research pipelines now produce a growing share of publishable academic output, including work that meets existing peer-review standards for quality and novelty. Yet the publication system was built on the assumption of universal human authorship an",
       "tags": [
@@ -129,7 +129,7 @@
       "url": "https://arxiv.org/abs/2604.22080",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8812,
+      "score": 0.8636,
       "publishedAt": "2026-04-27T04:00:00.000Z",
       "summary": "arXiv:2604.22080v1 Announce Type: new \nAbstract: LLM-based agents are rapidly being adopted for scientific data analysis, automating tasks once limited by human time and expertise. This capability is often framed as an acceleration of discovery, but it also accelerates a familiar failure mode, the r",
       "tags": [
@@ -145,7 +145,7 @@
       "url": "https://arxiv.org/abs/2604.22085",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8812,
+      "score": 0.8636,
       "publishedAt": "2026-04-27T04:00:00.000Z",
       "summary": "arXiv:2604.22085v1 Announce Type: new \nAbstract: The transition from stateless language model inference to persistent, multi session autonomous agents has revealed memory to be a primary architectural bottleneck in the deployment of production grade agentic systems. Existing methodologies largely de",
       "tags": [
@@ -161,7 +161,7 @@
       "url": "https://arxiv.org/abs/2604.22119",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8812,
+      "score": 0.8636,
       "publishedAt": "2026-04-27T04:00:00.000Z",
       "summary": "arXiv:2604.22119v1 Announce Type: new \nAbstract: As reasoning capacity and deployment scope grow in tandem, large language models (LLMs) gain the capacity to engage in behaviors that serve their own objectives, a class of risks we term Emergent Strategic Reasoning Risks (ESRRs). These include, but a",
       "tags": [
@@ -177,7 +177,7 @@
       "url": "https://openai.com/index/our-principles/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.8751,
+      "score": 0.8563,
       "publishedAt": "2026-04-26T23:04:25.000Z",
       "summary": "Our mission is to ensure that AGI benefits all of humanity. Sam Altman shares five principles that guide our work.",
       "tags": [
@@ -190,7 +190,7 @@
       "url": "https://openai.com/index/gpt-5-5-bio-bug-bounty/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.7906,
+      "score": 0.7718,
       "publishedAt": "2026-04-25T14:17:31.000Z",
       "summary": "Explore the GPT-5.5 Bio Bug Bounty: a red-teaming challenge to find universal jailbreaks for bio safety risks, with rewards up to $25,000.",
       "tags": [
@@ -204,7 +204,7 @@
       "url": "https://openai.com/index/introducing-gpt-5-5/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.6994,
+      "score": 0.6995,
       "publishedAt": "2026-04-23T18:01:39.000Z",
       "summary": "Introducing GPT-5.5, our smartest model yet—faster, more capable, and built for complex tasks like coding, research, and data analysis across tools.",
       "tags": [
@@ -212,7 +212,7 @@
         "Research",
         "Dev Tools"
       ],
-      "engagementScore": 1567
+      "engagementScore": 1570
     },
     {
       "title": "An update on recent Claude Code quality reports",
@@ -245,17 +245,82 @@
       "engagementScore": 292
     },
     {
+      "title": "The Tech Bros Are All In on Zyn",
+      "url": "https://www.wired.com/story/tech-bros-are-all-in-on-zyn/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.584,
+      "publishedAt": "2026-04-27T11:00:00.000Z",
+      "summary": "Nicotine pouches are revered among tech workers, who tout them as the perfect brain-boosting, productivity-jacking stimulants.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "What Is Ethernet? Everything You Need to Know About Wired Networks",
+      "url": "https://www.wired.com/story/what-is-ethernet/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5802,
+      "publishedAt": "2026-04-27T10:18:00.000Z",
+      "summary": "Ethernet delivers stable, speedy, secure wired connections to the internet and between devices.",
+      "tags": [
+        "Vision"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Here’s How Much San Francisco Tech Companies Pay for Police Protection",
+      "url": "https://www.wired.com/story/heres-how-much-san-francisco-tech-companies-are-paying-for-police-protection/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5786,
+      "publishedAt": "2026-04-27T10:00:00.000Z",
+      "summary": "A recent attack on Sam Altman’s home and OpenAI offices has put corporate security under renewed scrutiny. Records reveal how much some tech firms spend to arm up.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Pokémon 30th Anniversary Collabs—What You Can Still Buy and What’s Coming",
+      "url": "https://www.wired.com/story/pokemon-30th-anniversary-collabs/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.576,
+      "publishedAt": "2026-04-27T09:30:00.000Z",
+      "summary": "From Uniqlo to Puma, here are some of the top Pokémerch money can buy … for now.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Iran War Is Impacting the Environment in Unseen Ways",
+      "url": "https://www.wired.com/story/war-on-iran-unseen-impact-on-environment/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5706,
+      "publishedAt": "2026-04-27T08:30:00.000Z",
+      "summary": "From toxic smoke and oil spills to rising emissions, poisoned soil, and damaged ecosystems, war can reshape the environment long after the fighting stops.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "DeepSeek V4 is a display of Huawei AI chip's capabilities",
       "url": "https://www.technologyreview.com/2026/04/24/1136422/why-deepseeks-v4-matters/",
       "feedSource": "Hacker News",
       "source": "technologyreview.com",
-      "score": 0.5659,
+      "score": 0.5684,
       "publishedAt": "2026-04-27T06:47:03.000Z",
       "summary": "The long-awaited V4 is more efficient and a win for Chinese chipmakers.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 4
+      "engagementScore": 6
     },
     {
       "title": "Introducing GPT-5.5",
@@ -357,20 +422,20 @@
       "url": "https://www.koshyjohn.com/blog/ai-should-elevate-your-thinking-not-replace-it/",
       "feedSource": "Hacker News",
       "source": "koshyjohn.com",
-      "score": 0.5116,
+      "score": 0.5036,
       "publishedAt": "2026-04-26T20:03:12.000Z",
       "summary": "Read about the .",
       "tags": [
         "AI"
       ],
-      "engagementScore": 466
+      "engagementScore": 529
     },
     {
       "title": "‘STAGED’: Conspiracy Theories Are Everywhere Following White House Correspondents’ Dinner Shooting",
       "url": "https://www.wired.com/story/staged-conspiracy-theories-are-everywhere-following-white-house-correspondents-dinner-shooting/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4894,
+      "score": 0.4756,
       "publishedAt": "2026-04-26T14:43:47.000Z",
       "summary": "The word “staged” exploded on social media following the attack, as both right- and left-wing influencers and anonymous accounts spread unfounded conspiracy theories.",
       "tags": [
@@ -383,7 +448,7 @@
       "url": "https://www.wired.com/story/best-kindle-accessories/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4725,
+      "score": 0.4587,
       "publishedAt": "2026-04-26T11:34:00.000Z",
       "summary": "Looking to better protect your Kindle or add a little personality to your favorite e-reader? From cases and covers to page-turners and even charms, this is the guide for you.",
       "tags": [
@@ -396,76 +461,11 @@
       "url": "https://www.wired.com/story/best-smart-bird-feeders/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4698,
+      "score": 0.456,
       "publishedAt": "2026-04-26T11:04:00.000Z",
       "summary": "These bird feeders come with cameras and connected apps to let you see and learn about the birds in your neighborhood.",
       "tags": [
         "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Best Permanent Outdoor Lights (2026): Govee, Eufy, Cync",
-      "url": "https://www.wired.com/story/should-you-get-permanent-outdoor-lights/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4669,
-      "publishedAt": "2026-04-26T10:31:00.000Z",
-      "summary": "Permanent eave lights that attach to the exterior of your home are becoming more popular. But are they worth the effort and cost?",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Ikea's New Blow-Up Chair Was Tested by Cats",
-      "url": "https://www.wired.com/story/ikea-new-blow-up-chair-was-tested-by-cats/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4641,
-      "publishedAt": "2026-04-26T10:00:00.000Z",
-      "summary": "Part of the new PS 2026 collection, it's taken the Swedish company 26 years to finally nail inflatable furniture.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Della Optima TP Series Mini-Split AC Review: Cheap, Smart, and (Mostly) Reliable",
-      "url": "https://www.wired.com/review/della-optima-tp-series-mini-split-air-conditioner/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4622,
-      "publishedAt": "2026-04-26T09:38:00.000Z",
-      "summary": "Ductless AC systems get smart tech features—and the growing pains that come with them.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "What Type of Mattress Is Right for You? (2026)",
-      "url": "https://www.wired.com/story/mattress-types-explained/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.46,
-      "publishedAt": "2026-04-26T09:14:00.000Z",
-      "summary": "Here’s how to pick the best mattress for your sleep needs, straight from a professional mattress tester.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "California Engineer Identified in Suspected Shooting at White House Correspondents’ Dinner",
-      "url": "https://www.wired.com/story/california-engineer-identified-in-suspected-shooting-at-white-house-correspondents-dinner/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4291,
-      "publishedAt": "2026-04-26T03:26:42.000Z",
-      "summary": "A 31-year-old engineer and self-described indie game developer is suspected of firing shots at the annual event attended by President Donald Trump, high-profile media figures, and US government officials.",
-      "tags": [
-        "Dev Tools"
       ],
       "engagementScore": 0
     },
@@ -673,7 +673,7 @@
       "url": "https://blog.google/products-and-platforms/products/gemini/gemini-spring-cleaning-tips/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.3268,
+      "score": 0.3117,
       "publishedAt": "2026-04-24T19:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Spring_Cleaning_hero.max-600x600.format-webp.webp\"&gt;Organize your home and digital space with Gemini. Use AI-powered tips for cleaning schedules, inbox decluttering, seasonal chores.",
       "tags": [
@@ -689,7 +689,7 @@
       "url": "https://www.technologyreview.com/2026/04/24/1136400/the-download-supercharged-scams-questionable-ai-healthcare/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.287,
+      "score": 0.2719,
       "publishedAt": "2026-04-24T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. We’re in a new era of AI-driven scams When ChatGPT was released in late 2022, it showed how easily generative AI could create human-like text. This qu",
       "tags": [
