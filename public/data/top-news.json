@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-27T03:32:19.618Z",
+  "updatedAt": "2026-04-27T08:33:24.921Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,20 +12,20 @@
       "url": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 1.0282,
+      "score": 0.9982,
       "publishedAt": "2026-04-26T13:58:13.000Z",
       "summary": "SWE-bench Verified is increasingly contaminated and mismeasures frontier coding progress. Our analysis shows flawed tests and training leakage. We recommend SWE-bench Pro.",
       "tags": [
         "Dev Tools"
       ],
-      "engagementScore": 261
+      "engagementScore": 295
     },
     {
       "title": "Our principles",
       "url": "https://openai.com/index/our-principles",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9533,
+      "score": 0.9167,
       "publishedAt": "2026-04-26T16:00:00.000Z",
       "summary": "Our mission is to ensure that AGI benefits all of humanity. Sam Altman shares five principles that guide our work.",
       "tags": [
@@ -34,25 +34,177 @@
       "engagementScore": 0
     },
     {
+      "title": "Announcing our partnership with the Republic of Korea",
+      "url": "https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/",
+      "feedSource": "DeepMind",
+      "source": "deepmind.google",
+      "score": 0.9016,
+      "publishedAt": "2026-04-27T07:00:06.000Z",
+      "summary": "Google DeepMind and Korea partner to accelerate scientific breakthroughs using frontier AI models",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Math Takes Two: A test for emergent mathematical reasoning in communication",
+      "url": "https://arxiv.org/abs/2604.21935",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8812,
+      "publishedAt": "2026-04-27T04:00:00.000Z",
+      "summary": "arXiv:2604.21935v1 Announce Type: new \nAbstract: Although language models demonstrate remarkable proficiency on mathematical benchmarks, it remains unclear whether this reflects true mathematical reasoning or statistical pattern matching over learning formal syntax. Most existing evaluations rely on",
+      "tags": [
+        "LLM",
+        "Research",
+        "ML Infra",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "An Artifact-based Agent Framework for Adaptive and Reproducible Medical Image Processing",
+      "url": "https://arxiv.org/abs/2604.21936",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8812,
+      "publishedAt": "2026-04-27T04:00:00.000Z",
+      "summary": "arXiv:2604.21936v1 Announce Type: new \nAbstract: Medical imaging research is increasingly shifting from controlled benchmark evaluation toward real-world clinical deployment. In such settings, applying analytical methods extends beyond model design to require dataset-aware workflow configuration and",
+      "tags": [
+        "Agents",
+        "Research",
+        "Vision",
+        "ML Infra",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "MolClaw: An Autonomous Agent with Hierarchical Skills for Drug Molecule Evaluation, Screening, and Optimization",
+      "url": "https://arxiv.org/abs/2604.21937",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8812,
+      "publishedAt": "2026-04-27T04:00:00.000Z",
+      "summary": "arXiv:2604.21937v1 Announce Type: new \nAbstract: Computational drug discovery, particularly the complex workflows of drug molecule screening and optimization, requires orchestrating dozens of specialized tools in multi-step workflows, yet current AI agents struggle to maintain robust performance and",
+      "tags": [
+        "Agents",
+        "Research",
+        "Dev Tools",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Read the Paper, Write the Code: Agentic Reproduction of Social-Science Results",
+      "url": "https://arxiv.org/abs/2604.21965",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8812,
+      "publishedAt": "2026-04-27T04:00:00.000Z",
+      "summary": "arXiv:2604.21965v1 Announce Type: new \nAbstract: Recent work has used LLM agents to reproduce empirical social science results with access to both the data and code. We broaden this scope by asking: Can they reproduce results given only a paper's methods description and original data? We develop an",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Research",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Rethinking Publication: A Certification Framework for AI-Enabled Research",
+      "url": "https://arxiv.org/abs/2604.22026",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8812,
+      "publishedAt": "2026-04-27T04:00:00.000Z",
+      "summary": "arXiv:2604.22026v1 Announce Type: new \nAbstract: AI research pipelines now produce a growing share of publishable academic output, including work that meets existing peer-review standards for quality and novelty. Yet the publication system was built on the assumption of universal human authorship an",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Sound Agentic Science Requires Adversarial Experiments",
+      "url": "https://arxiv.org/abs/2604.22080",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8812,
+      "publishedAt": "2026-04-27T04:00:00.000Z",
+      "summary": "arXiv:2604.22080v1 Announce Type: new \nAbstract: LLM-based agents are rapidly being adopted for scientific data analysis, automating tasks once limited by human time and expertise. This capability is often framed as an acceleration of discovery, but it also accelerates a familiar failure mode, the r",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Research",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Memanto: Typed Semantic Memory with Information-Theoretic Retrieval for Long-Horizon Agents",
+      "url": "https://arxiv.org/abs/2604.22085",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8812,
+      "publishedAt": "2026-04-27T04:00:00.000Z",
+      "summary": "arXiv:2604.22085v1 Announce Type: new \nAbstract: The transition from stateless language model inference to persistent, multi session autonomous agents has revealed memory to be a primary architectural bottleneck in the deployment of production grade agentic systems. Existing methodologies largely de",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Research",
+        "RAG"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Emergent Strategic Reasoning Risks in AI: A Taxonomy-Driven Evaluation Framework",
+      "url": "https://arxiv.org/abs/2604.22119",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8812,
+      "publishedAt": "2026-04-27T04:00:00.000Z",
+      "summary": "arXiv:2604.22119v1 Announce Type: new \nAbstract: As reasoning capacity and deployment scope grow in tandem, large language models (LLMs) gain the capacity to engage in behaviors that serve their own objectives, a class of risks we term Emergent Strategic Reasoning Risks (ESRRs). These include, but a",
+      "tags": [
+        "LLM",
+        "Research",
+        "Safety",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Our Principles",
+      "url": "https://openai.com/index/our-principles/",
+      "feedSource": "Hacker News",
+      "source": "openai.com",
+      "score": 0.8751,
+      "publishedAt": "2026-04-26T23:04:25.000Z",
+      "summary": "Our mission is to ensure that AGI benefits all of humanity. Sam Altman shares five principles that guide our work.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 9
+    },
+    {
       "title": "GPT‑5.5 Bio Bug Bounty",
       "url": "https://openai.com/index/gpt-5-5-bio-bug-bounty/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.8269,
+      "score": 0.7906,
       "publishedAt": "2026-04-25T14:17:31.000Z",
       "summary": "Explore the GPT-5.5 Bio Bug Bounty: a red-teaming challenge to find universal jailbreaks for bio safety risks, with rewards up to $25,000.",
       "tags": [
         "LLM",
         "Safety"
       ],
-      "engagementScore": 154
+      "engagementScore": 155
     },
     {
       "title": "GPT-5.5",
       "url": "https://openai.com/index/introducing-gpt-5-5/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.6993,
+      "score": 0.6994,
       "publishedAt": "2026-04-23T18:01:39.000Z",
       "summary": "Introducing GPT-5.5, our smartest model yet—faster, more capable, and built for complex tasks like coding, research, and data analysis across tools.",
       "tags": [
@@ -60,88 +212,63 @@
         "Research",
         "Dev Tools"
       ],
-      "engagementScore": 1566
+      "engagementScore": 1567
     },
     {
       "title": "An update on recent Claude Code quality reports",
       "url": "https://www.anthropic.com/engineering/april-23-postmortem",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.6714,
+      "score": 0.6716,
       "publishedAt": "2026-04-23T17:48:38.000Z",
-      "summary": "",
+      "summary": "Anthropic is an AI safety and research company that’s working to build reliable, interpretable, and steerable AI systems.",
       "tags": [
         "LLM",
+        "Research",
+        "Safety",
         "Dev Tools"
       ],
-      "engagementScore": 936
+      "engagementScore": 939
     },
     {
       "title": "OpenAI Privacy Filter",
       "url": "https://openai.com/index/introducing-openai-privacy-filter/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.6072,
+      "score": 0.6082,
       "publishedAt": "2026-04-23T00:14:55.000Z",
       "summary": "OpenAI Privacy Filter is an open-weight model for detecting and redacting personally identifiable information (PII) in text with state-of-the-art accuracy",
       "tags": [
         "LLM",
         "ML Infra"
       ],
-      "engagementScore": 287
+      "engagementScore": 292
     },
     {
-      "title": "Different language models learn similar number representations",
-      "url": "https://arxiv.org/abs/2604.20817",
+      "title": "DeepSeek V4 is a display of Huawei AI chip's capabilities",
+      "url": "https://www.technologyreview.com/2026/04/24/1136422/why-deepseeks-v4-matters/",
       "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.5391,
-      "publishedAt": "2026-04-24T14:34:23.000Z",
-      "summary": "Language models trained on natural text learn to represent numbers using periodic features with dominant periods at $T=2, 5, 10$. In this paper, we identify a two-tiered hierarchy of these features: while Transformers, Linear RNNs, LSTMs, and classical word embeddings trained in different ways all l",
+      "source": "technologyreview.com",
+      "score": 0.5659,
+      "publishedAt": "2026-04-27T06:47:03.000Z",
+      "summary": "The long-awaited V4 is more efficient and a win for Chinese chipmakers.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 4
+    },
+    {
+      "title": "Introducing GPT-5.5",
+      "url": "https://openai.com/index/introducing-gpt-5-5",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.5124,
+      "publishedAt": "2026-04-23T11:00:00.000Z",
+      "summary": "Introducing GPT-5.5, our smartest model yet—faster, more capable, and built for complex tasks like coding, research, and data analysis across tools.",
       "tags": [
         "LLM",
         "Research",
-        "RAG",
-        "ML Infra"
-      ],
-      "engagementScore": 114
-    },
-    {
-      "title": "GoDaddy gave a domain to a stranger without any documentation",
-      "url": "https://anchor.host/godaddy-gave-a-domain-to-a-stranger-without-any-documentation/",
-      "feedSource": "Hacker News",
-      "source": "anchor.host",
-      "score": 0.5275,
-      "publishedAt": "2026-04-26T16:57:56.000Z",
-      "summary": "What would you do if your organization had used a domain name for 27 years, and the registrar holding the domain seized it without any advance warning? All",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 558
-    },
-    {
-      "title": "An AI agent deleted our production database. The agent's confession is below",
-      "url": "https://twitter.com/lifeof_jer/status/2048103471019434248",
-      "feedSource": "Hacker News",
-      "source": "twitter.com",
-      "score": 0.5221,
-      "publishedAt": "2026-04-26T16:27:29.000Z",
-      "summary": "An AI Agent Just Destroyed Our Production Data. It Confessed in Writing.",
-      "tags": [
-        "Agents"
-      ],
-      "engagementScore": 514
-    },
-    {
-      "title": "‘STAGED’: Conspiracy Theories Are Everywhere Following White House Correspondents’ Dinner Shooting",
-      "url": "https://www.wired.com/story/staged-conspiracy-theories-are-everywhere-following-white-house-correspondents-dinner-shooting/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5163,
-      "publishedAt": "2026-04-26T14:43:47.000Z",
-      "summary": "The word “staged” exploded on social media following the attack, as both right- and left-wing influencers and anonymous accounts spread unfounded conspiracy theories.",
-      "tags": [
-        "AI"
+        "Dev Tools"
       ],
       "engagementScore": 0
     },
@@ -161,41 +288,13 @@
       "engagementScore": 0
     },
     {
-      "title": "Introducing GPT-5.5",
-      "url": "https://openai.com/index/introducing-gpt-5-5",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5124,
-      "publishedAt": "2026-04-23T11:00:00.000Z",
-      "summary": "Introducing GPT-5.5, our smartest model yet—faster, more capable, and built for complex tasks like coding, research, and data analysis across tools.",
-      "tags": [
-        "LLM",
-        "Research",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Top 10 uses for Codex at work",
-      "url": "https://openai.com/academy/top-10-use-cases-codex-for-work",
+      "title": "Plugins and skills",
+      "url": "https://openai.com/academy/codex-plugins-and-skills",
       "feedSource": "OpenAI",
       "source": "openai.com",
       "score": 0.5124,
       "publishedAt": "2026-04-23T10:00:00.000Z",
-      "summary": "Explore 10 practical Codex use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "How to get started with Codex",
-      "url": "https://openai.com/academy/codex-how-to-start",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5124,
-      "publishedAt": "2026-04-23T10:00:00.000Z",
-      "summary": "Learn how to get started with Codex by setting up projects, creating threads, and completing your first tasks with step-by-step guidance.",
+      "summary": "Learn how to use Codex plugins and skills to connect tools, access data, and follow repeatable workflows to automate tasks and improve results.",
       "tags": [
         "Dev Tools"
       ],
@@ -228,15 +327,54 @@
       "engagementScore": 0
     },
     {
-      "title": "Codex settings",
-      "url": "https://openai.com/academy/codex-settings",
+      "title": "How to get started with Codex",
+      "url": "https://openai.com/academy/codex-how-to-start",
       "feedSource": "OpenAI",
       "source": "openai.com",
       "score": 0.5124,
       "publishedAt": "2026-04-23T10:00:00.000Z",
-      "summary": "Learn how to configure Codex settings, including personalization, detail level, and permissions, to run tasks smoothly and customize your workflow.",
+      "summary": "Learn how to get started with Codex by setting up projects, creating threads, and completing your first tasks with step-by-step guidance.",
       "tags": [
         "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Top 10 uses for Codex at work",
+      "url": "https://openai.com/academy/top-10-use-cases-codex-for-work",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.5124,
+      "publishedAt": "2026-04-23T10:00:00.000Z",
+      "summary": "Explore 10 practical Codex use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "AI should elevate your thinking, not replace it",
+      "url": "https://www.koshyjohn.com/blog/ai-should-elevate-your-thinking-not-replace-it/",
+      "feedSource": "Hacker News",
+      "source": "koshyjohn.com",
+      "score": 0.5116,
+      "publishedAt": "2026-04-26T20:03:12.000Z",
+      "summary": "Read about the .",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 466
+    },
+    {
+      "title": "‘STAGED’: Conspiracy Theories Are Everywhere Following White House Correspondents’ Dinner Shooting",
+      "url": "https://www.wired.com/story/staged-conspiracy-theories-are-everywhere-following-white-house-correspondents-dinner-shooting/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4894,
+      "publishedAt": "2026-04-26T14:43:47.000Z",
+      "summary": "The word “staged” exploded on social media following the attack, as both right- and left-wing influencers and anonymous accounts spread unfounded conspiracy theories.",
+      "tags": [
+        "AI"
       ],
       "engagementScore": 0
     },
@@ -245,7 +383,7 @@
       "url": "https://www.wired.com/story/best-kindle-accessories/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4993,
+      "score": 0.4725,
       "publishedAt": "2026-04-26T11:34:00.000Z",
       "summary": "Looking to better protect your Kindle or add a little personality to your favorite e-reader? From cases and covers to page-turners and even charms, this is the guide for you.",
       "tags": [
@@ -258,7 +396,7 @@
       "url": "https://www.wired.com/story/best-smart-bird-feeders/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4967,
+      "score": 0.4698,
       "publishedAt": "2026-04-26T11:04:00.000Z",
       "summary": "These bird feeders come with cameras and connected apps to let you see and learn about the birds in your neighborhood.",
       "tags": [
@@ -271,7 +409,7 @@
       "url": "https://www.wired.com/story/should-you-get-permanent-outdoor-lights/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4937,
+      "score": 0.4669,
       "publishedAt": "2026-04-26T10:31:00.000Z",
       "summary": "Permanent eave lights that attach to the exterior of your home are becoming more popular. But are they worth the effort and cost?",
       "tags": [
@@ -284,7 +422,7 @@
       "url": "https://www.wired.com/story/ikea-new-blow-up-chair-was-tested-by-cats/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.491,
+      "score": 0.4641,
       "publishedAt": "2026-04-26T10:00:00.000Z",
       "summary": "Part of the new PS 2026 collection, it's taken the Swedish company 26 years to finally nail inflatable furniture.",
       "tags": [
@@ -297,7 +435,7 @@
       "url": "https://www.wired.com/review/della-optima-tp-series-mini-split-air-conditioner/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.489,
+      "score": 0.4622,
       "publishedAt": "2026-04-26T09:38:00.000Z",
       "summary": "Ductless AC systems get smart tech features—and the growing pains that come with them.",
       "tags": [
@@ -310,7 +448,7 @@
       "url": "https://www.wired.com/story/mattress-types-explained/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4869,
+      "score": 0.46,
       "publishedAt": "2026-04-26T09:14:00.000Z",
       "summary": "Here’s how to pick the best mattress for your sleep needs, straight from a professional mattress tester.",
       "tags": [
@@ -323,7 +461,7 @@
       "url": "https://www.wired.com/story/california-engineer-identified-in-suspected-shooting-at-white-house-correspondents-dinner/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4559,
+      "score": 0.4291,
       "publishedAt": "2026-04-26T03:26:42.000Z",
       "summary": "A 31-year-old engineer and self-described indie game developer is suspected of firing shots at the annual event attended by President Donald Trump, high-profile media figures, and US government officials.",
       "tags": [
@@ -421,48 +559,6 @@
       "tags": [
         "Research",
         "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Lyria 3 Pro: Create longer tracks in more",
-      "url": "https://deepmind.google/blog/lyria-3-pro-create-longer-tracks-in-more/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-03-25T16:01:39.000Z",
-      "summary": "Introducing Lyria 3 Pro, which unlocks longer tracks with structural awareness. We’re also bringing Lyria to more Google products and surfaces.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Three reasons why DeepSeek’s new model matters",
-      "url": "https://www.technologyreview.com/2026/04/24/1136422/why-deepseeks-v4-matters/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.3718,
-      "publishedAt": "2026-04-24T21:40:58.000Z",
-      "summary": "On Friday, Chinese AI firm DeepSeek released a preview of V4, its long-awaited new flagship model. Notably, the model can process much longer prompts than its last generation, thanks to a new design that helps it handle large amounts of text more efficiently. Like DeepSeek’s previous models, V4 is o",
-      "tags": [
-        "Open Source"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "8 Gemini tips for organizing your space (and life)",
-      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-spring-cleaning-tips/",
-      "feedSource": "Google AI",
-      "source": "blog.google",
-      "score": 0.3561,
-      "publishedAt": "2026-04-24T19:00:00.000Z",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Spring_Cleaning_hero.max-600x600.format-webp.webp\"&gt;Organize your home and digital space with Gemini. Use AI-powered tips for cleaning schedules, inbox decluttering, seasonal chores.",
-      "tags": [
-        "LLM",
-        "RAG",
-        "Vision",
-        "Dev Tools"
       ],
       "engagementScore": 0
     },
@@ -573,120 +669,33 @@
       "engagementScore": 0
     },
     {
+      "title": "8 Gemini tips for organizing your space (and life)",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-spring-cleaning-tips/",
+      "feedSource": "Google AI",
+      "source": "blog.google",
+      "score": 0.3268,
+      "publishedAt": "2026-04-24T19:00:00.000Z",
+      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Spring_Cleaning_hero.max-600x600.format-webp.webp\"&gt;Organize your home and digital space with Gemini. Use AI-powered tips for cleaning schedules, inbox decluttering, seasonal chores.",
+      "tags": [
+        "LLM",
+        "RAG",
+        "Vision",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "The Download: supercharged scams and studying AI healthcare",
       "url": "https://www.technologyreview.com/2026/04/24/1136400/the-download-supercharged-scams-questionable-ai-healthcare/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.3162,
+      "score": 0.287,
       "publishedAt": "2026-04-24T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. We’re in a new era of AI-driven scams When ChatGPT was released in late 2022, it showed how easily generative AI could create human-like text. This qu",
       "tags": [
         "LLM",
         "Research",
         "Open Source"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Health-care AI is here. We don’t know if it actually helps patients.",
-      "url": "https://www.technologyreview.com/2026/04/24/1136352/health-care-ai-dont-know-actually-helps-patients/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.2978,
-      "publishedAt": "2026-04-24T09:00:00.000Z",
-      "summary": "I don’t need to tell you that AI is everywhere. Or that it is being used, increasingly, in hospitals. Doctors are using AI to help them with notetaking. AI-based tools are trawling through patient records, flagging people who may require certain support or treatments. They are also used to interpret",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Musk vs. Altman is here, and it&#8217;s going to get messy",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/917755/musk-altman-openai-xai-gossip",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.2948,
-      "publishedAt": "2026-04-24T21:19:03.000Z",
-      "summary": "Elon Musk cofounded OpenAI, and then flounced off in a huff when he wasn't anointed CEO, leaving Sam Altman as the last power-hungry man standing. Now, Musk is back with a lawsuit, and a trial is scheduled to start in Oakland, California, on April 27th. Theoretically, it's a legal case about whether",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "How Project Maven taught the military to love AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/917996/project-maven-military-ai-katrina-manson",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.2701,
-      "publishedAt": "2026-04-24T16:42:02.000Z",
-      "summary": "In the first 24 hours of the assault on Iran, the US military struck more than 1,000 targets, nearly double the scale of the \"shock and awe\" attack on Iraq over two decades ago. This acceleration was made possible by AI systems that speed up the targeting process. Chief among them is the Maven Smart",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Here’s how our TPUs power increasingly demanding AI workloads.",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/what-is-a-tpu/",
-      "feedSource": "Google AI",
-      "source": "blog.google",
-      "score": 0.2659,
-      "publishedAt": "2026-04-23T12:00:00.000Z",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/What_is_a_TPU_social.max-600x600.format-webp.webp\"&gt;Learn how Google’s TPUs power increasingly demanding AI workloads with this new video.",
-      "tags": [
-        "RAG",
-        "Vision",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Elevating Austria: Google invests in its first data center in the Alps.",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/google-data-center-austria/",
-      "feedSource": "Google AI",
-      "source": "blog.google",
-      "score": 0.2659,
-      "publishedAt": "2026-04-23T09:00:00.000Z",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Kronstorf_Data_Center_1.max-600x600.format-webp.webp\"&gt;Google has been a proud part of Austria’s landscape for years, and today, we’re announcing our first data center in Kronstorf, generating 100 direct jobs. This",
-      "tags": [
-        "RAG",
-        "Vision",
-        "Dev Tools",
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "We're launching two specialized TPUs for the agentic era.",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/tpus-8t-8i-cloud-next/",
-      "feedSource": "Google AI",
-      "source": "blog.google",
-      "score": 0.2659,
-      "publishedAt": "2026-04-22T12:00:00.000Z",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Were_launching_two_TPUs_social.max-600x600.format-webp.webp\"&gt;The eighth generation of Google’s TPU includes two specialized chips that will power the future of AI.",
-      "tags": [
-        "Agents",
-        "RAG",
-        "Vision",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "3 new ways Ads Advisor is making Google Ads safer and faster",
-      "url": "https://blog.google/products/ads-commerce/ads-advisor-google-ads/",
-      "feedSource": "Google AI",
-      "source": "blog.google",
-      "score": 0.2659,
-      "publishedAt": "2026-04-21T14:30:00.000Z",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Road_to_GML_Master-Header.max-600x600.format-webp.webp\"&gt;Three new agentic safety and policy features integrated into Ads Advisor will help protect and streamline your Google Ads account.",
-      "tags": [
-        "Agents",
-        "RAG",
-        "Vision",
-        "Safety",
-        "Dev Tools"
       ],
       "engagementScore": 0
     }
