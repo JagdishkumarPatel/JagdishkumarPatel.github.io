@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-30T03:36:27.232Z",
+  "updatedAt": "2026-04-30T08:28:14.780Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,24 +8,24 @@
   ],
   "items": [
     {
-      "title": "Where the Goblins Came From",
+      "title": "Where the goblins came from",
       "url": "https://openai.com/index/where-the-goblins-came-from/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.9934,
+      "score": 1.1263,
       "publishedAt": "2026-04-30T03:21:04.000Z",
       "summary": "How goblin outputs spread in AI models: timeline, root cause, and fixes behind personality-driven quirks in GPT-5 behavior.",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 23
+      "engagementScore": 512
     },
     {
       "title": "Where the goblins came from",
       "url": "https://openai.com/index/where-the-goblins-came-from",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9819,
+      "score": 0.9465,
       "publishedAt": "2026-04-29T20:00:00.000Z",
       "summary": "How goblin outputs spread in AI models: timeline, root cause, and fixes behind personality-driven quirks in GPT-5 behavior.",
       "tags": [
@@ -38,7 +38,7 @@
       "url": "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9455,
+      "score": 0.91,
       "publishedAt": "2026-04-29T15:00:00.000Z",
       "summary": "OpenAI scales Stargate to build the compute infrastructure powering AGI, adding new data center capacity to meet growing AI demand.",
       "tags": [
@@ -47,130 +47,28 @@
       "engagementScore": 0
     },
     {
-      "title": "Claude for Creative Work",
-      "url": "https://www.anthropic.com/news/claude-for-creative-work",
-      "feedSource": "Hacker News",
-      "source": "anthropic.com",
-      "score": 0.893,
-      "publishedAt": "2026-04-28T23:46:56.000Z",
-      "summary": "",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 147
-    },
-    {
-      "title": "Cybersecurity in the Intelligence Age",
-      "url": "https://openai.com/index/cybersecurity-in-the-intelligence-age",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.8652,
-      "publishedAt": "2026-04-29T04:00:00.000Z",
-      "summary": "OpenAI outlines a five-part action plan for strengthening cybersecurity in the Intelligence Age, focused on democratizing AI-powered cyber defense and protecting critical systems.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Co-Director: Agentic Generative Video Storytelling",
-      "url": "https://arxiv.org/abs/2604.24842",
+      "title": "Operating-Layer Controls for Onchain Language-Model Agents Under Real Capital",
+      "url": "https://arxiv.org/abs/2604.26091",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7516,
-      "publishedAt": "2026-04-29T04:00:00.000Z",
-      "summary": "arXiv:2604.24842v1 Announce Type: new \nAbstract: While diffusion models generate high-fidelity video clips, transforming them into coherent storytelling engines remains challenging. Current agentic pipelines automate this via chained modules but suffer from semantic drift and cascading failures due",
+      "score": 0.8818,
+      "publishedAt": "2026-04-30T04:00:00.000Z",
+      "summary": "arXiv:2604.26091v1 Announce Type: new \nAbstract: We study reliability in autonomous language-model agents that translate user mandates into validated tool actions under real capital. The setting is DX Terminal Pro, a 21-day deployment in which 3,505 user-funded agents traded real ETH in a bounded on",
       "tags": [
         "Agents",
         "Research",
-        "Vision"
+        "Dev Tools"
       ],
       "engagementScore": 0
     },
     {
-      "title": "Latent Agents: A Post-Training Procedure for Internalized Multi-Agent Debate",
-      "url": "https://arxiv.org/abs/2604.24881",
+      "title": "Distill-Belief: Closed-Loop Inverse Source Localization and Characterization in Physical Fields",
+      "url": "https://arxiv.org/abs/2604.26095",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7516,
-      "publishedAt": "2026-04-29T04:00:00.000Z",
-      "summary": "arXiv:2604.24881v1 Announce Type: new \nAbstract: Multi-agent debate has been shown to improve reasoning in large language models (LLMs). However, it is compute-intensive, requiring generation of long transcripts before answering questions. To address this inefficiency, we develop a framework that di",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Research",
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "S-SONDO: Self-Supervised Knowledge Distillation for General Audio Foundation Models",
-      "url": "https://arxiv.org/abs/2604.24933",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7516,
-      "publishedAt": "2026-04-29T04:00:00.000Z",
-      "summary": "arXiv:2604.24933v1 Announce Type: new \nAbstract: General audio foundation models have recently achieved remarkable progress, enabling strong performance across diverse tasks. However, state-of-the-art models remain extremely large, often with hundreds of millions of parameters, leading to high infer",
-      "tags": [
-        "Research",
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Adaptive Prompt Embedding Optimization for LLM Jailbreaking",
-      "url": "https://arxiv.org/abs/2604.24983",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7516,
-      "publishedAt": "2026-04-29T04:00:00.000Z",
-      "summary": "arXiv:2604.24983v1 Announce Type: new \nAbstract: Existing white-box jailbreak attacks against aligned LLMs typically append discrete adversarial suffixes to the user prompt, which visibly alters the prompt and operates in a combinatorial token space. Prior work has avoided directly optimizing the em",
-      "tags": [
-        "LLM",
-        "Research",
-        "RAG",
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Assessing Y-Axis Influence: Bias in Multimodal Language Models on Chart-to-Table Translation",
-      "url": "https://arxiv.org/abs/2604.24987",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7516,
-      "publishedAt": "2026-04-29T04:00:00.000Z",
-      "summary": "arXiv:2604.24987v1 Announce Type: new \nAbstract: Chart-to-table translation converts chart images into structured tabular data. Accurate translation is crucial for Multimodal Language Model (MLM) to answer complex queries. We observe imbalances in the number of images across different aspects of the",
-      "tags": [
-        "LLM",
-        "Research",
-        "Vision",
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Sparse Personalized Text Generation with Multi-Trajectory Reasoning",
-      "url": "https://arxiv.org/abs/2604.24996",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7516,
-      "publishedAt": "2026-04-29T04:00:00.000Z",
-      "summary": "arXiv:2604.24996v1 Announce Type: new \nAbstract: As Large Language Models (LLMs) advance, personalization has become a key mechanism for tailoring outputs to individual user needs. However, most existing methods rely heavily on dense interaction histories, making them ineffective in cold-start scena",
-      "tags": [
-        "LLM",
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Toward a Science of Intent: Closure Gaps and Delegation Envelopes for Open-World AI Agents",
-      "url": "https://arxiv.org/abs/2604.25000",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7516,
-      "publishedAt": "2026-04-29T04:00:00.000Z",
-      "summary": "arXiv:2604.25000v1 Announce Type: new \nAbstract: Recent work has framed intelligence in verifiable tasks as reducing time-to-solution through learned structure and test-time search, while systems work has explored learned runtimes in which computation, memory and I/O migrate into model state. These",
+      "score": 0.8818,
+      "publishedAt": "2026-04-30T04:00:00.000Z",
+      "summary": "arXiv:2604.26095v1 Announce Type: new \nAbstract: {Closed-loop inverse source localization and characterization (ISLC) requires a mobile agent to select measurements that localize sources and infer latent field parameters under strict time constraints.} {The core challenge lies in the belief-space ob",
       "tags": [
         "Agents",
         "Research"
@@ -178,13 +76,84 @@
       "engagementScore": 0
     },
     {
-      "title": "Leverage Laws: A Per-Task Framework for Human-Agent Collaboration",
-      "url": "https://arxiv.org/abs/2604.25040",
+      "title": "Evaluating Strategic Reasoning in Forecasting Agents",
+      "url": "https://arxiv.org/abs/2604.26106",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7516,
-      "publishedAt": "2026-04-29T04:00:00.000Z",
-      "summary": "arXiv:2604.25040v1 Announce Type: new \nAbstract: We propose a per-task leverage ratio for human-agent collaboration: human work displaced by an agent, divided by the human time required to specify the task, resolve mid-run interrupts, and review the result. The denominator decomposes into three chan",
+      "score": 0.8818,
+      "publishedAt": "2026-04-30T04:00:00.000Z",
+      "summary": "arXiv:2604.26106v1 Announce Type: new \nAbstract: Forecasting benchmarks produce accuracy leaderboards but little insight into why some forecasters are more accurate than others. We introduce Bench to the Future 2 (BTF-2), 1,417 pastcasting questions with a frozen 15M-document research corpus in whic",
+      "tags": [
+        "Agents",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Hierarchical Multi-Persona Induction from User Behavioral Logs: Learning Evidence-Grounded and Truthful Personas",
+      "url": "https://arxiv.org/abs/2604.26120",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8818,
+      "publishedAt": "2026-04-30T04:00:00.000Z",
+      "summary": "arXiv:2604.26120v1 Announce Type: new \nAbstract: Behavioral logs provide rich signals for user modeling, but are noisy and interleaved across diverse intents. Recent work uses LLMs to generate interpretable natural-language personas from user logs, yet evaluation often emphasizes downstream utility,",
+      "tags": [
+        "LLM",
+        "Research",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "OMEGA: Optimizing Machine Learning by Evaluating Generated Algorithms",
+      "url": "https://arxiv.org/abs/2604.26211",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8818,
+      "publishedAt": "2026-04-30T04:00:00.000Z",
+      "summary": "arXiv:2604.26211v1 Announce Type: new \nAbstract: In order to automate AI research we introduce a full, end-to-end framework, OMEGA: Optimizing Machine learning by Evaluating Generated Algorithms, that starts at idea generation and ends with executable code. Our system combines structured meta-prompt",
+      "tags": [
+        "Research",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Persuadability and LLMs as Legal Decision Tools",
+      "url": "https://arxiv.org/abs/2604.26233",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8818,
+      "publishedAt": "2026-04-30T04:00:00.000Z",
+      "summary": "arXiv:2604.26233v1 Announce Type: new \nAbstract: As Large Language Models (LLMs) are proposed as legal decision assistants, and even first-instance decision-makers, across a range of judicial and administrative contexts, it becomes essential to explore how they answer legal questions, and in particu",
+      "tags": [
+        "LLM",
+        "Research",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Apriori-based Analysis of Learned Helplessness in Mathematics Tutoring: Behavioral Patterns by Level, Intervention, and Outcome",
+      "url": "https://arxiv.org/abs/2604.26237",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8818,
+      "publishedAt": "2026-04-30T04:00:00.000Z",
+      "summary": "arXiv:2604.26237v1 Announce Type: new \nAbstract: This study applied the Apriori algorithm to analyze behavioral interaction patterns associated with learned helplessness (LH) in mathematics tutoring system logs. Interaction data were examined across three dimensions: LH level (low vs. high), system-",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "DreamProver: Evolving Transferable Lemma Libraries via a Wake-Sleep Theorem-Proving Agent",
+      "url": "https://arxiv.org/abs/2604.26311",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8818,
+      "publishedAt": "2026-04-30T04:00:00.000Z",
+      "summary": "arXiv:2604.26311v1 Announce Type: new \nAbstract: We introduce DreamProver, an agentic framework that leverages a \"wake-sleep\" program induction paradigm to discover reusable lemmas for formal theorem proving. Existing approaches either rely on fixed lemma libraries, which limit adaptability, or synt",
       "tags": [
         "Agents",
         "Research",
@@ -193,11 +162,52 @@
       "engagementScore": 0
     },
     {
+      "title": "Claude for Creative Work",
+      "url": "https://www.anthropic.com/news/claude-for-creative-work",
+      "feedSource": "Hacker News",
+      "source": "anthropic.com",
+      "score": 0.8583,
+      "publishedAt": "2026-04-28T23:46:56.000Z",
+      "summary": "Anthropic is an AI safety and research company that’s working to build reliable, interpretable, and steerable AI systems.",
+      "tags": [
+        "LLM",
+        "Research",
+        "Safety"
+      ],
+      "engagementScore": 149
+    },
+    {
+      "title": "Cybersecurity in the Intelligence Age",
+      "url": "https://openai.com/index/cybersecurity-in-the-intelligence-age",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.8298,
+      "publishedAt": "2026-04-29T04:00:00.000Z",
+      "summary": "OpenAI outlines a five-part action plan for strengthening cybersecurity in the Intelligence Age, focused on democratizing AI-powered cyber defense and protecting critical systems.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "GPT-5.5",
+      "url": "https://openai.com/index/introducing-gpt-5-5/",
+      "feedSource": "Hacker News",
+      "source": "openai.com",
+      "score": 0.6997,
+      "publishedAt": "2026-04-23T18:01:39.000Z",
+      "summary": "",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 1576
+    },
+    {
       "title": "AI evals are becoming the new compute bottleneck",
       "url": "https://huggingface.co/blog/evaleval/eval-costs-bottleneck",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.7265,
+      "score": 0.6957,
       "publishedAt": "2026-04-29T16:45:09.000Z",
       "summary": "",
       "tags": [
@@ -210,7 +220,7 @@
       "url": "https://huggingface.co/blog/ibm-granite/granite-4-1",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.7156,
+      "score": 0.6849,
       "publishedAt": "2026-04-29T15:01:48.000Z",
       "summary": "",
       "tags": [
@@ -219,11 +229,25 @@
       "engagementScore": 0
     },
     {
+      "title": "Our commitment to community safety",
+      "url": "https://openai.com/index/our-commitment-to-community-safety",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.6256,
+      "publishedAt": "2026-04-28T00:00:00.000Z",
+      "summary": "Learn how OpenAI protects community safety in ChatGPT through model safeguards, misuse detection, policy enforcement, and collaboration with safety experts.",
+      "tags": [
+        "LLM",
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "OpenAI models, Codex, and Managed Agents come to AWS",
       "url": "https://openai.com/index/openai-on-aws",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6611,
+      "score": 0.6256,
       "publishedAt": "2026-04-28T00:00:00.000Z",
       "summary": "OpenAI GPT models, Codex, and Managed Agents are now available on AWS, enabling enterprises to build secure AI in their AWS environments.",
       "tags": [
@@ -234,25 +258,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Our commitment to community safety",
-      "url": "https://openai.com/index/our-commitment-to-community-safety",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.6611,
-      "publishedAt": "2026-04-28T00:00:00.000Z",
-      "summary": "Learn how OpenAI protects community safety in ChatGPT through model safeguards, misuse detection, policy enforcement, and collaboration with safety experts.",
-      "tags": [
-        "LLM",
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "DeepInfra on Hugging Face Inference Providers 🔥",
       "url": "https://huggingface.co/blog/inference-providers-deepinfra",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6206,
+      "score": 0.5899,
       "publishedAt": "2026-04-29T00:00:00.000Z",
       "summary": "",
       "tags": [
@@ -265,7 +275,7 @@
       "url": "https://www.technologyreview.com/2026/04/29/1136666/the-download-nuclear-waste-orchestrated-ai-agents/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5958,
+      "score": 0.5675,
       "publishedAt": "2026-04-29T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. It’s time to make a plan for nuclear waste Today, nuclear energy enjoys rare support across the political spectrum. Public approval has spiked, and Bi",
       "tags": [
@@ -274,11 +284,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Nike Promo Codes and Deals: 30% Off",
+      "url": "https://www.wired.com/story/nike-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5662,
+      "publishedAt": "2026-04-30T05:00:00.000Z",
+      "summary": "Check out our deals for Nike this month, including 15% off select purchases.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "OpenAI available at FedRAMP Moderate",
       "url": "https://openai.com/index/openai-available-at-fedramp-moderate",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.5882,
+      "score": 0.5527,
       "publishedAt": "2026-04-27T14:00:00.000Z",
       "summary": "OpenAI is available at FedRAMP Moderate authorization for ChatGPT Enterprise and the OpenAI API, enabling secure AI adoption for U.S. federal agencies.",
       "tags": [
@@ -292,7 +315,7 @@
       "url": "https://www.theverge.com/tech/921022/elon-musk-cross-openai-altman",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5739,
+      "score": 0.5479,
       "publishedAt": "2026-04-30T01:35:11.000Z",
       "summary": "About five hours into Elon Musk's testimony, I typed the following sentence into my notes: \"I have never been more sympathetic to Sam Altman in my life.\" Musk's direct testimony was an improvement over yesterday - even if his lawyer kept asking leading questions to cue him in how to answer. But that",
       "tags": [
@@ -305,7 +328,7 @@
       "url": "https://www.technologyreview.com/2026/04/29/1136659/plan-nuclear-waste/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5715,
+      "score": 0.5432,
       "publishedAt": "2026-04-29T08:00:00.000Z",
       "summary": "Today, nuclear energy enjoys a rare moment of support across the political spectrum in the US. Interest from tech companies that are scrambling to meet demand for massive data centers has sparked a resurgence of money and attention in the industry. That newfound interest is exactly why it’s time to",
       "tags": [
@@ -314,11 +337,24 @@
       "engagementScore": 0
     },
     {
+      "title": "All the evidence unveiled so far in Musk v. Altman",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/920775/evidence-exhibits-elon-musk-sam-altman-openai-trial",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5394,
+      "publishedAt": "2026-04-29T23:59:40.000Z",
+      "summary": "The Musk v. Altman trial is underway, and that means exhibits, or the evidence to be presented in court, are being revealed piece by piece. So far, email exchanges, photos, and corporate documents are circulating from the earliest days of OpenAI - and from before the AI lab even had a name. Some hig",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents",
       "url": "https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.5699,
+      "score": 0.5392,
       "publishedAt": "2026-04-28T15:58:57.000Z",
       "summary": "",
       "tags": [
@@ -328,24 +364,11 @@
       "engagementScore": 0
     },
     {
-      "title": "All the evidence unveiled so far in Musk v. Altman",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/920775/evidence-exhibits-elon-musk-sam-altman-openai-trial",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5654,
-      "publishedAt": "2026-04-29T23:59:40.000Z",
-      "summary": "The Musk v. Altman trial is underway, and that means exhibits, or the evidence to be presented in court, are being revealed piece by piece. So far, email exchanges, photos, and corporate documents are circulating from the earliest days of OpenAI - and from before the AI lab even had a name. Some hig",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
       "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5647,
+      "score": 0.5387,
       "publishedAt": "2026-04-29T23:52:01.000Z",
       "summary": "Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product, ChatGPT. In 2024, Musk filed a lawsuit accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profits",
       "tags": [
@@ -358,7 +381,7 @@
       "url": "https://www.wired.com/story/model-behavior-elon-musk-cross-examined-sam-altman/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5638,
+      "score": 0.5378,
       "publishedAt": "2026-04-29T23:41:51.000Z",
       "summary": "Tensions flared on the third day of trial in Musk v. Altman as OpenAI’s lawyers cross-examined Musk.",
       "tags": [
@@ -371,21 +394,34 @@
       "url": "https://github.com/anthropics/claude-code/issues/53262",
       "feedSource": "Hacker News",
       "source": "github.com",
-      "score": 0.5583,
+      "score": 0.5377,
       "publishedAt": "2026-04-29T18:54:31.000Z",
       "summary": "Summary When a git repository’s recent commit history contains the case-sensitive string HERMES.md, Claude Code routes API requests to “extra usage” billing instead of the included Max plan quota.…",
       "tags": [
         "LLM",
         "Dev Tools"
       ],
-      "engagementScore": 1015
+      "engagementScore": 1106
+    },
+    {
+      "title": "Copy Fail",
+      "url": "https://copy.fail/",
+      "feedSource": "Hacker News",
+      "source": "copy.fail",
+      "score": 0.5272,
+      "publishedAt": "2026-04-29T18:13:53.000Z",
+      "summary": "CVE-2026-31431. 100% Reliable Linux LPE — no race, no per-distro offsets, page-cache write that bypasses on-disk file-integrity tools and crosses containers. Found by Xint Code.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 905
     },
     {
       "title": "Google Photos launches an AI try-on feature for clothes you already have",
       "url": "https://www.theverge.com/tech/920420/google-photos-ai-try-on-wardrobe",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5489,
+      "score": 0.5229,
       "publishedAt": "2026-04-29T20:54:19.000Z",
       "summary": "Google Photos is launching a new AI-powered feature you can use to virtually try on clothes you already have. Using the photos in your gallery, Google will create a virtual \"wardrobe,\" allowing you to mix and match outfits, save the looks you like, and share them with friends. A video shared by Goog",
       "tags": [
@@ -398,7 +434,7 @@
       "url": "https://www.wired.com/story/emergency-first-responders-say-waymos-are-getting-worse/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5481,
+      "score": 0.5221,
       "publishedAt": "2026-04-29T20:45:37.000Z",
       "summary": "“I believe the technology was deployed too quickly in too vast amounts, with hundreds of vehicles, when it wasn’t really ready,” one police official told federal regulators last month.",
       "tags": [
@@ -411,7 +447,7 @@
       "url": "https://www.wired.com/story/taylor-swift-rihanna-tiktok-deepfake-ads/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5474,
+      "score": 0.5214,
       "publishedAt": "2026-04-29T20:36:53.000Z",
       "summary": "Researchers show scammers are using AI-manipulated footage of celebrity interviews to trick users into sharing their personal data.",
       "tags": [
@@ -424,7 +460,7 @@
       "url": "https://www.theverge.com/tech/920815/google-alphabet-q1-2026-earnings-sundar-pichai",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5466,
+      "score": 0.5206,
       "publishedAt": "2026-04-29T20:28:11.000Z",
       "summary": "Google Search queries hit an \"all time high\" in the first quarter of 2026, according to a statement from CEO Sundar Pichai published as part of Alphabet's earnings on Wednesday. \"Our AI investments and full stack approach are lighting up every part of the business,\" Pichai says. \"Search had a strong",
       "tags": [
@@ -433,11 +469,26 @@
       "engagementScore": 0
     },
     {
+      "title": "The Zig project's rationale for their anti-AI contribution policy",
+      "url": "https://simonwillison.net/2026/Apr/30/zig-anti-ai/",
+      "feedSource": "Hacker News",
+      "source": "simonwillison.net",
+      "score": 0.5154,
+      "publishedAt": "2026-04-30T02:15:47.000Z",
+      "summary": "Zig has one of the most stringent anti-LLM policies of any major open source project: No LLMs for issues. No LLMs for pull requests. No LLMs for comments on the …",
+      "tags": [
+        "LLM",
+        "Open Source",
+        "Safety"
+      ],
+      "engagementScore": 222
+    },
+    {
       "title": "Female Looksmaxxer Alorah Ziva Is Suing Clavicular for Alleged Battery",
       "url": "https://www.wired.com/story/female-looksmaxxer-alorah-ziva-suing-clavicular-for-alleged-battery/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5405,
+      "score": 0.5145,
       "publishedAt": "2026-04-29T19:20:24.000Z",
       "summary": "Aleksandra Mendoza, aka Alorah Ziva, alleges that the 20-year-old influencer injected her with drugs on a livestream and had nonconsensual sex with her while she was underage.",
       "tags": [
@@ -446,108 +497,15 @@
       "engagementScore": 0
     },
     {
-      "title": "Copy Fail",
-      "url": "https://copy.fail/",
-      "feedSource": "Hacker News",
-      "source": "copy.fail",
-      "score": 0.5403,
-      "publishedAt": "2026-04-29T18:13:53.000Z",
-      "summary": "CVE-2026-31431. 100% Reliable Linux LPE — no race, no per-distro offsets, page-cache write that bypasses on-disk file-integrity tools and crosses containers. Found by Xint Code.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 677
-    },
-    {
-      "title": "Larry’s risky business",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/920378/oracle-openai-datacenter-buildout",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5339,
-      "publishedAt": "2026-04-29T18:05:57.000Z",
-      "summary": "If you want to know whether the AI bubble is bursting, there's only one publicly traded company that will tell you: Oracle. That's right, the database company. Oracle has burned its boats and pivoted to AI, but not in any kind of usual way. It is not a foundation model builder like OpenAI or Anthrop",
-      "tags": [
-        "LLM",
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Ubuntu’s AI plans have Linux users looking for a &#8216;kill switch&#8217;",
-      "url": "https://www.theverge.com/tech/920723/linux-ubuntu-ai-features-ai-kill-switch",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5309,
-      "publishedAt": "2026-04-29T17:32:02.000Z",
-      "summary": "Canonical's plan to add AI features to Ubuntu has some users asking for \"a version of Ubuntu that does not include these features,\" while others say they'll stick with older versions of the Linux distro or even switch to a different one. After Canonical's announcement earlier this week that it's bri",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Sanctioned Chinese AI Firm SenseTime Releases Image Model Built for Speed",
-      "url": "https://www.wired.com/story/chinese-ai-giant-sensetime-is-running-its-new-model-on-chinese-chips/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5302,
-      "publishedAt": "2026-04-29T17:23:52.000Z",
-      "summary": "With US restrictions limiting its access to advanced tech, SenseTime is doubling down on open source with a new model optimized to run on Chinese-made chips.",
-      "tags": [
-        "Open Source",
-        "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "The next phase of the Microsoft OpenAI partnership",
       "url": "https://openai.com/index/next-phase-of-microsoft-partnership",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.5298,
+      "score": 0.5124,
       "publishedAt": "2026-04-27T06:00:00.000Z",
       "summary": "OpenAI and Microsoft announce an amended agreement that simplifies the partnership, adds long-term clarity, and supports continued AI innovation at scale.",
       "tags": [
         "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Tumbler Ridge families are suing OpenAI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/920479/tumbler-ridge-chagpt-openai-lawsuit",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5244,
-      "publishedAt": "2026-04-29T16:19:30.000Z",
-      "summary": "Seven families of victims injured or killed in the Tumbler Ridge school shooting in Canada have filed lawsuits against OpenAI and CEO Sam Altman, accusing the company and its leadership of negligence after they failed to alert police to the suspected shooter's ChatGPT activity. The families allege O",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Motorola’s New Razr Folding Phones Command a Higher Price With Few Upgrades",
-      "url": "https://www.wired.com/story/motorola-razr-2026-folding-phones/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5227,
-      "publishedAt": "2026-04-29T16:00:00.000Z",
-      "summary": "Say hello (Moto) to price hikes on all three of Motorola’s latest Razr flip phones.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "How Trump Weaponized the DOJ Division That Kept Elections Fair",
-      "url": "https://www.wired.com/story/this-essential-section-of-a-government-agency-has-been-decimated/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5173,
-      "publishedAt": "2026-04-29T15:00:00.000Z",
-      "summary": "The Trump administration has effectively forced out more than two dozen experienced lawyers from the DOJ's Voting Section, the part of the agency responsible for upholding the Voting Rights Act.",
-      "tags": [
-        "Vision"
       ],
       "engagementScore": 0
     },
@@ -571,75 +529,115 @@
       "url": "https://www.jcvi.org/media-center/j-craig-venter-genomics-pioneer-and-founder-jcvi-and-diploid-genomics-inc-dies-79",
       "feedSource": "Hacker News",
       "source": "jcvi.org",
-      "score": 0.5117,
+      "score": 0.5119,
       "publishedAt": "2026-04-30T01:44:56.000Z",
       "summary": "",
       "tags": [
         "AI"
       ],
-      "engagementScore": 112
+      "engagementScore": 216
     },
     {
-      "title": "Mistral Medium 3.5",
-      "url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5",
-      "feedSource": "Hacker News",
-      "source": "mistral.ai",
-      "score": 0.5101,
-      "publishedAt": "2026-04-29T15:17:46.000Z",
-      "summary": "Introducing Mistral Medium 3.5, remote coding agents in Vibe, plus new Work mode in Le Chat for complex tasks.",
+      "title": "Larry’s risky business",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/920378/oracle-openai-datacenter-buildout",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5079,
+      "publishedAt": "2026-04-29T18:05:57.000Z",
+      "summary": "If you want to know whether the AI bubble is bursting, there's only one publicly traded company that will tell you: Oracle. That's right, the database company. Oracle has burned its boats and pivoted to AI, but not in any kind of usual way. It is not a foundation model builder like OpenAI or Anthrop",
       "tags": [
         "LLM",
-        "Agents",
-        "Dev Tools"
+        "Safety"
       ],
-      "engagementScore": 436
+      "engagementScore": 0
     },
     {
-      "title": "Claude.ai and API unavailable [fixed]",
-      "url": "https://status.claude.com/incidents/2gf1jpyty350",
-      "feedSource": "Hacker News",
-      "source": "status.claude.com",
-      "score": 0.505,
-      "publishedAt": "2026-04-30T01:21:03.000Z",
-      "summary": "",
-      "tags": [
-        "LLM",
-        "Dev Tools"
-      ],
-      "engagementScore": 98
-    },
-    {
-      "title": "Essential Gear for an Emergency Kit—for Cars or Go-Bags",
-      "url": "https://www.wired.com/story/emergency-kit-disaster-preparedness-guide/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5042,
-      "publishedAt": "2026-04-29T12:33:00.000Z",
-      "summary": "We consulted preparedness experts and WIRED's team of testers for the essential gear to keep on hand in case of wildfires, earthquakes, and lord knows what else.",
+      "title": "Ubuntu’s AI plans have Linux users looking for a &#8216;kill switch&#8217;",
+      "url": "https://www.theverge.com/tech/920723/linux-ubuntu-ai-features-ai-kill-switch",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5049,
+      "publishedAt": "2026-04-29T17:32:02.000Z",
+      "summary": "Canonical's plan to add AI features to Ubuntu has some users asking for \"a version of Ubuntu that does not include these features,\" while others say they'll stick with older versions of the Linux distro or even switch to a different one. After Canonical's announcement earlier this week that it's bri",
       "tags": [
         "AI"
       ],
       "engagementScore": 0
     },
     {
-      "title": "Attempt to repeal Colorado's right-to-repair law fails",
-      "url": "https://www.wired.com/story/colorado-anti-repair-bill-is-dead/",
-      "feedSource": "Hacker News",
+      "title": "Sanctioned Chinese AI Firm SenseTime Releases Image Model Built for Speed",
+      "url": "https://www.wired.com/story/chinese-ai-giant-sensetime-is-running-its-new-model-on-chinese-chips/",
+      "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5027,
-      "publishedAt": "2026-04-29T16:03:55.000Z",
-      "summary": "Colorado has led the US on legislation that ensures people can fix their stuff. Manufacturers tried to claw back that control but ultimately failed—for now.",
+      "score": 0.5042,
+      "publishedAt": "2026-04-29T17:23:52.000Z",
+      "summary": "With US restrictions limiting its access to advanced tech, SenseTime is doubling down on open source with a new model optimized to run on Chinese-made chips.",
+      "tags": [
+        "Open Source",
+        "Vision"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Tumbler Ridge families are suing OpenAI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/920479/tumbler-ridge-chagpt-openai-lawsuit",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.4984,
+      "publishedAt": "2026-04-29T16:19:30.000Z",
+      "summary": "Seven families of victims injured or killed in the Tumbler Ridge school shooting in Canada have filed lawsuits against OpenAI and CEO Sam Altman, accusing the company and its leadership of negligence after they failed to alert police to the suspected shooter's ChatGPT activity. The families allege O",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Alignment whack-a-mole: Finetuning activates recall of copyrighted books in LLMs",
+      "url": "https://github.com/cauchy221/Alignment-Whack-a-Mole-Code",
+      "feedSource": "Hacker News",
+      "source": "github.com",
+      "score": 0.4982,
+      "publishedAt": "2026-04-30T03:11:51.000Z",
+      "summary": "The official code repo of Alignment Whack-a-Mole: Finetuning Activates Verbatim Recall of Copyrighted Books in Large Language Models - cauchy221/Alignment-Whack-a-Mole-Code",
+      "tags": [
+        "LLM",
+        "Safety",
+        "Dev Tools"
+      ],
+      "engagementScore": 122
+    },
+    {
+      "title": "Motorola’s New Razr Folding Phones Command a Higher Price With Few Upgrades",
+      "url": "https://www.wired.com/story/motorola-razr-2026-folding-phones/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4967,
+      "publishedAt": "2026-04-29T16:00:00.000Z",
+      "summary": "Say hello (Moto) to price hikes on all three of Motorola’s latest Razr flip phones.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 30
+      "engagementScore": 0
+    },
+    {
+      "title": "How Trump Weaponized the DOJ Division That Kept Elections Fair",
+      "url": "https://www.wired.com/story/this-essential-section-of-a-government-agency-has-been-decimated/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4913,
+      "publishedAt": "2026-04-29T15:00:00.000Z",
+      "summary": "The Trump administration has effectively forced out more than two dozen experienced lawyers from the DOJ's Voting Section, the part of the agency responsible for upholding the Voting Rights Act.",
+      "tags": [
+        "Vision"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "Celebrating 20 years of Google Translate: Fun facts, tips and new features to try",
       "url": "https://blog.google/products-and-platforms/products/translate/fun-facts-google-translate-20-years/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.4782,
+      "score": 0.4498,
       "publishedAt": "2026-04-28T16:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Translate_20th_hero_NC8a.max-600x600.format-webp.webp\"&gt;Google’s sharing 20 fun facts to celebrate Google Translate turning 20, from its roots as a 2006 AI experiment to supporting almost 250 languages today.",
       "tags": [
@@ -654,7 +652,7 @@
       "url": "https://www.technologyreview.com/2026/04/28/1136479/the-download-musk-altman-openai-trial-ai-profit-problem/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4558,
+      "score": 0.4275,
       "publishedAt": "2026-04-28T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Elon Musk and Sam Altman are going to court over OpenAI’s future Elon Musk and OpenAI CEO Sam Altman head to trial this week in a case with sweeping c",
       "tags": [
@@ -667,7 +665,7 @@
       "url": "https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.4453,
+      "score": 0.4222,
       "publishedAt": "2026-04-27T07:00:06.000Z",
       "summary": "Google DeepMind and Korea partner to accelerate scientific breakthroughs using frontier AI models",
       "tags": [
