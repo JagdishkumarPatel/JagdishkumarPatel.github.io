@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-01T03:48:18.984Z",
+  "updatedAt": "2026-05-01T08:19:23.474Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,20 +12,146 @@
       "url": "https://openai.com/index/where-the-goblins-came-from/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 1.0227,
+      "score": 0.9904,
       "publishedAt": "2026-04-30T03:21:04.000Z",
       "summary": "How goblin outputs spread in AI models: timeline, root cause, and fixes behind personality-driven quirks in GPT-5 behavior.",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 1018
+      "engagementScore": 1030
+    },
+    {
+      "title": "How People ask Claude for personal guidance",
+      "url": "https://www.anthropic.com/research/claude-personal-guidance",
+      "feedSource": "Hacker News",
+      "source": "anthropic.com",
+      "score": 0.8925,
+      "publishedAt": "2026-05-01T05:35:49.000Z",
+      "summary": "",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 5
+    },
+    {
+      "title": "Compositional Meta-Learning for Mitigating Task Heterogeneity in Physics-Informed Neural Networks",
+      "url": "https://arxiv.org/abs/2604.26999",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8828,
+      "publishedAt": "2026-05-01T04:00:00.000Z",
+      "summary": "arXiv:2604.26999v1 Announce Type: new \nAbstract: Physics-informed neural networks (PINNs) approximate solutions of partial differential equations (PDEs) by embedding physical laws into the loss function. In parameterized PDE families, variations in coefficients or boundary/initial conditions define",
+      "tags": [
+        "Research",
+        "RAG"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Binary Spiking Neural Networks as Causal Models",
+      "url": "https://arxiv.org/abs/2604.27007",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8828,
+      "publishedAt": "2026-05-01T04:00:00.000Z",
+      "summary": "arXiv:2604.27007v1 Announce Type: new \nAbstract: We provide a causal analysis of Binary Spiking Neural Networks (BSNNs) to explain their behavior. We formally define a BSNN and represent its spiking activity as a binary causal model. Thanks to this causal representation, we are able to explain the o",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "When Your LLM Reaches End-of-Life: A Framework for Confident Model Migration in Production Systems",
+      "url": "https://arxiv.org/abs/2604.27082",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8828,
+      "publishedAt": "2026-05-01T04:00:00.000Z",
+      "summary": "arXiv:2604.27082v1 Announce Type: new \nAbstract: We present a framework for migrating production Large Language Model (LLM) based systems when the underlying model reaches end-of-life or requires replacement. The key contribution is a Bayesian statistical approach that calibrates automated evaluatio",
+      "tags": [
+        "LLM",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "End-to-end autonomous scientific discovery on a real optical platform",
+      "url": "https://arxiv.org/abs/2604.27092",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8828,
+      "publishedAt": "2026-05-01T04:00:00.000Z",
+      "summary": "arXiv:2604.27092v1 Announce Type: new \nAbstract: Scientific research has long been human-led, driving new knowledge and transformative technologies through the continual revision of questions, methods and claims as evidence accumulates. Although large language model (LLM)-based agents are beginning",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Research",
+        "Vision"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Think it, Run it: Autonomous ML pipeline generation via self-healing multi-agent AI",
+      "url": "https://arxiv.org/abs/2604.27096",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8828,
+      "publishedAt": "2026-05-01T04:00:00.000Z",
+      "summary": "arXiv:2604.27096v1 Announce Type: new \nAbstract: The purpose of our paper is to develop a unified multi-agent architecture that automates end-to-end machine learning (ML) pipeline generation from datasets and natural-language (NL) goals, improving efficiency, robustness and explainability. A five-ag",
+      "tags": [
+        "Agents",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Unsupervised Electrofacies Classification and Porosity Characterization in the Offshore Keta Basin Using Wireline Logs",
+      "url": "https://arxiv.org/abs/2604.27126",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8828,
+      "publishedAt": "2026-05-01T04:00:00.000Z",
+      "summary": "arXiv:2604.27126v1 Announce Type: new \nAbstract: This study presents an unsupervised machine learning workflow for electrofacies analysis in the offshore Keta Basin, Ghana, where core data are scarce. Six standard wireline logs from Well~C were analysed over a depth interval comprising approximately",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "TRUST: A Framework for Decentralized AI Service v.0.1",
+      "url": "https://arxiv.org/abs/2604.27132",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8828,
+      "publishedAt": "2026-05-01T04:00:00.000Z",
+      "summary": "arXiv:2604.27132v1 Announce Type: new \nAbstract: Large Reasoning Models (LRMs) and Multi-Agent Systems (MAS) in high-stakes domains demand reliable verification, yet centralized approaches suffer four limitations: (1) Robustness, with single points of failure vulnerable to attacks and bias; (2) Scal",
+      "tags": [
+        "Agents",
+        "Research",
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Unpacking Vibe Coding: Help-Seeking Processes in Student-AI Interactions While Programming",
+      "url": "https://arxiv.org/abs/2604.27134",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8828,
+      "publishedAt": "2026-05-01T04:00:00.000Z",
+      "summary": "arXiv:2604.27134v1 Announce Type: new \nAbstract: Generative AI is reshaping higher education programming through vibe coding, where students collaborate with AI via natural language rather than writing code line-by-line. We conceptualize this practice as help-seeking, analyzing 19,418 interaction tu",
+      "tags": [
+        "Research",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "Introducing Advanced Account Security",
       "url": "https://openai.com/index/advanced-account-security",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8346,
+      "score": 0.8017,
       "publishedAt": "2026-04-30T00:00:00.000Z",
       "summary": "Introducing Advanced Account Security: phishing-resistant login, stronger recovery, and enhanced protections to safeguard sensitive data and prevent account takeover.",
       "tags": [
@@ -38,7 +164,7 @@
       "url": "https://deepmind.google/blog/ai-co-clinician/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.8063,
+      "score": 0.7755,
       "publishedAt": "2026-04-30T12:14:15.000Z",
       "summary": "Researching the path to AI-augmented care and development of an AI co-clinician.",
       "tags": [
@@ -51,7 +177,7 @@
       "url": "https://openai.com/index/where-the-goblins-came-from",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8055,
+      "score": 0.7725,
       "publishedAt": "2026-04-29T20:00:00.000Z",
       "summary": "How goblin outputs spread in AI models: timeline, root cause, and fixes behind personality-driven quirks in GPT-5 behavior.",
       "tags": [
@@ -60,11 +186,38 @@
       "engagementScore": 0
     },
     {
+      "title": "Agentic Harness Engineering",
+      "url": "https://arxiv.org/abs/2604.25850",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.7647,
+      "publishedAt": "2026-05-01T01:17:12.000Z",
+      "summary": "Harnesses are now central to coding-agent performance, mediating how models interact with tools and execution environments. Yet harness engineering remains a manual craft, because automating it faces a heterogeneous action space across editable components, voluminous trajectories that bury actionabl",
+      "tags": [
+        "Agents",
+        "Dev Tools"
+      ],
+      "engagementScore": 7
+    },
+    {
+      "title": "C8s: A Confidential Kubernetes Architecture",
+      "url": "https://arxiv.org/abs/2604.26974",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.7435,
+      "publishedAt": "2026-05-01T04:28:24.000Z",
+      "summary": "This paper presents C8s, a confidential computing architecture for Kubernetes that provides cryptographically rooted confidentiality, integrity, and verifiability guarantees for Kubernetes clusters from infrastructure operators. These guarantees are cryptographically provable to any independent thir",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 3
+    },
+    {
       "title": "Building the compute infrastructure for the Intelligence Age",
       "url": "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.769,
+      "score": 0.7361,
       "publishedAt": "2026-04-29T15:00:00.000Z",
       "summary": "OpenAI scales Stargate to build the compute infrastructure powering AGI, adding new data center capacity to meet growing AI demand.",
       "tags": [
@@ -73,139 +226,24 @@
       "engagementScore": 0
     },
     {
-      "title": "Operating-Layer Controls for Onchain Language-Model Agents Under Real Capital",
-      "url": "https://arxiv.org/abs/2604.26091",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7502,
-      "publishedAt": "2026-04-30T04:00:00.000Z",
-      "summary": "arXiv:2604.26091v1 Announce Type: new \nAbstract: We study reliability in autonomous language-model agents that translate user mandates into validated tool actions under real capital. The setting is DX Terminal Pro, a 21-day deployment in which 3,505 user-funded agents traded real ETH in a bounded on",
-      "tags": [
-        "Agents",
-        "Research",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Distill-Belief: Closed-Loop Inverse Source Localization and Characterization in Physical Fields",
-      "url": "https://arxiv.org/abs/2604.26095",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7502,
-      "publishedAt": "2026-04-30T04:00:00.000Z",
-      "summary": "arXiv:2604.26095v1 Announce Type: new \nAbstract: {Closed-loop inverse source localization and characterization (ISLC) requires a mobile agent to select measurements that localize sources and infer latent field parameters under strict time constraints.} {The core challenge lies in the belief-space ob",
-      "tags": [
-        "Agents",
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Evaluating Strategic Reasoning in Forecasting Agents",
-      "url": "https://arxiv.org/abs/2604.26106",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7502,
-      "publishedAt": "2026-04-30T04:00:00.000Z",
-      "summary": "arXiv:2604.26106v1 Announce Type: new \nAbstract: Forecasting benchmarks produce accuracy leaderboards but little insight into why some forecasters are more accurate than others. We introduce Bench to the Future 2 (BTF-2), 1,417 pastcasting questions with a frozen 15M-document research corpus in whic",
-      "tags": [
-        "Agents",
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Hierarchical Multi-Persona Induction from User Behavioral Logs: Learning Evidence-Grounded and Truthful Personas",
-      "url": "https://arxiv.org/abs/2604.26120",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7502,
-      "publishedAt": "2026-04-30T04:00:00.000Z",
-      "summary": "arXiv:2604.26120v1 Announce Type: new \nAbstract: Behavioral logs provide rich signals for user modeling, but are noisy and interleaved across diverse intents. Recent work uses LLMs to generate interpretable natural-language personas from user logs, yet evaluation often emphasizes downstream utility,",
-      "tags": [
-        "LLM",
-        "Research",
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "OMEGA: Optimizing Machine Learning by Evaluating Generated Algorithms",
-      "url": "https://arxiv.org/abs/2604.26211",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7502,
-      "publishedAt": "2026-04-30T04:00:00.000Z",
-      "summary": "arXiv:2604.26211v1 Announce Type: new \nAbstract: In order to automate AI research we introduce a full, end-to-end framework, OMEGA: Optimizing Machine learning by Evaluating Generated Algorithms, that starts at idea generation and ends with executable code. Our system combines structured meta-prompt",
-      "tags": [
-        "Research",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Persuadability and LLMs as Legal Decision Tools",
-      "url": "https://arxiv.org/abs/2604.26233",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7502,
-      "publishedAt": "2026-04-30T04:00:00.000Z",
-      "summary": "arXiv:2604.26233v1 Announce Type: new \nAbstract: As Large Language Models (LLMs) are proposed as legal decision assistants, and even first-instance decision-makers, across a range of judicial and administrative contexts, it becomes essential to explore how they answer legal questions, and in particu",
-      "tags": [
-        "LLM",
-        "Research",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Apriori-based Analysis of Learned Helplessness in Mathematics Tutoring: Behavioral Patterns by Level, Intervention, and Outcome",
-      "url": "https://arxiv.org/abs/2604.26237",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7502,
-      "publishedAt": "2026-04-30T04:00:00.000Z",
-      "summary": "arXiv:2604.26237v1 Announce Type: new \nAbstract: This study applied the Apriori algorithm to analyze behavioral interaction patterns associated with learned helplessness (LH) in mathematics tutoring system logs. Interaction data were examined across three dimensions: LH level (low vs. high), system-",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "DreamProver: Evolving Transferable Lemma Libraries via a Wake-Sleep Theorem-Proving Agent",
-      "url": "https://arxiv.org/abs/2604.26311",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7502,
-      "publishedAt": "2026-04-30T04:00:00.000Z",
-      "summary": "arXiv:2604.26311v1 Announce Type: new \nAbstract: We introduce DreamProver, an agentic framework that leverages a \"wake-sleep\" program induction paradigm to discover reusable lemmas for formal theorem proving. Existing approaches either rely on fixed lemma libraries, which limit adaptability, or synt",
-      "tags": [
-        "Agents",
-        "Research",
-        "RAG"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Fast GPU Linear Algebra via Compile Time Expression Fusion",
       "url": "https://arxiv.org/abs/2604.22242",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7434,
+      "score": 0.7186,
       "publishedAt": "2026-04-30T16:38:14.000Z",
       "summary": "We describe the Bandicoot GPU linear algebra toolkit, a C++ based library that prioritises ease of use without compromising efficiency. Bandicoot’s API is compatible with the popular Armadillo CPU linear algebra library, enabling easy transition for existing CPU-based codebases. Unlike other GPU-foc",
       "tags": [
         "Dev Tools"
       ],
-      "engagementScore": 8
+      "engagementScore": 9
     },
     {
       "title": "The Abstraction Fallacy: Why AI can simulate but not instantiate consciousness",
       "url": "https://deepmind.google/research/publications/231971/",
       "feedSource": "Hacker News",
       "source": "deepmind.google",
-      "score": 0.6966,
+      "score": 0.6658,
       "publishedAt": "2026-04-29T17:30:15.000Z",
       "summary": "Computational functionalism dominates current debates on AI consciousness. This is the hypothesis that subjective experience emerges entirely from abstract causal topology, regardless of the underlying physical substrate. We argue this view fundamentally mischaracterizes how physics relates to infor",
       "tags": [
@@ -218,7 +256,7 @@
       "url": "https://openai.com/index/cybersecurity-in-the-intelligence-age",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6888,
+      "score": 0.6559,
       "publishedAt": "2026-04-29T04:00:00.000Z",
       "summary": "OpenAI outlines a five-part action plan for strengthening cybersecurity in the Intelligence Age, focused on democratizing AI-powered cyber defense and protecting critical systems.",
       "tags": [
@@ -227,24 +265,11 @@
       "engagementScore": 0
     },
     {
-      "title": "DeepSeek: Thinking with Visual Primitives [pdf]",
-      "url": "https://huggingface.co/datasets/NodeLinker/deepseek-ai-Thinking-with-Visual-Primitives-deleted-repo/blob/main/Thinking_with_Visual_Primitives.pdf",
-      "feedSource": "Hacker News",
-      "source": "huggingface.co",
-      "score": 0.6521,
-      "publishedAt": "2026-04-30T19:49:40.000Z",
-      "summary": "",
-      "tags": [
-        "Vision"
-      ],
-      "engagementScore": 7
-    },
-    {
       "title": "Exclusive eBook: Inside the stealthy startup that pitched brainless human clones",
       "url": "https://www.technologyreview.com/2026/04/30/1136684/exclusive-ebook-inside-the-stealthy-startup-that-pitched-brainless-human-clones/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6329,
+      "score": 0.6065,
       "publishedAt": "2026-04-30T18:42:50.000Z",
       "summary": "The ultimate plan to live forever is a brand new body. This subscriber-only eBook explores R3 Bio, a small startup that has pitched a startling and ethically charged vision for &#8220;brainless clones&#8221; to serve the role of backup human bodies. by Antonio Regalado March 20, 2026 Related Stories",
       "tags": [
@@ -258,7 +283,7 @@
       "url": "https://www.technologyreview.com/2026/04/30/1136721/this-startups-new-mechanistic-interpretability-tool-lets-you-debug-llms/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.617,
+      "score": 0.5907,
       "publishedAt": "2026-04-30T15:59:41.000Z",
       "summary": "The San Francisco–based startup Goodfire just released a new tool, called Silico, that lets researchers and engineers peer inside an AI model and adjust its parameters—the settings that determine a model’s behavior—during training. This could give model makers more fine-grained control over how this",
       "tags": [
@@ -276,7 +301,7 @@
       "url": "https://www.technologyreview.com/2026/04/30/1136713/the-download-north-pole-future-humanoid-data/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5947,
+      "score": 0.5683,
       "publishedAt": "2026-04-30T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Digging for clues about the North Pole’s past In the past, getting to the North Pole involved a treacherous trip through ice many meters thick. But la",
       "tags": [
@@ -285,11 +310,115 @@
       "engagementScore": 0
     },
     {
+      "title": "Top Google Workspace Promo Codes for May",
+      "url": "https://www.wired.com/story/google-workspace-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.567,
+      "publishedAt": "2026-05-01T05:00:00.000Z",
+      "summary": "Boost your productivity and save with exclusive Google Workspace coupons from WIRED. Get up to 14% off plans for three months, including Starter, Standard, and Plus tiers.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Booking.com Promo Codes: Up to 20% Off",
+      "url": "https://www.wired.com/story/booking-com-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.567,
+      "publishedAt": "2026-05-01T05:00:00.000Z",
+      "summary": "Enjoy big savings on your next adventure with our Booking.com promo codes, coupons, and handpicked travel deals.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "NordVPN Coupons and Deals: 77% Off in May 2026",
+      "url": "https://www.wired.com/story/nordvpn-coupon/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.567,
+      "publishedAt": "2026-05-01T05:00:00.000Z",
+      "summary": "Save up to 77% on 2-year plans and get 3 free months with our NordVPN discount codes.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "50% Off Home Depot Promo Codes | May 2026",
+      "url": "https://www.wired.com/story/home-depot-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.567,
+      "publishedAt": "2026-05-01T05:00:00.000Z",
+      "summary": "Save up to 50% today with the latest Home Depot promo codes for appliances, power tools, and more this May.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Chewy Promo Codes: $20 Off May 2026",
+      "url": "https://www.wired.com/story/chewy-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.567,
+      "publishedAt": "2026-05-01T05:00:00.000Z",
+      "summary": "Explore Chewy coupon codes for $30 off, $20 off your first order $49, 50% off pet food, and more May 2026 discounts.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "10% Dell Coupon Codes | May 2026",
+      "url": "https://www.wired.com/story/dell-coupon-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.567,
+      "publishedAt": "2026-05-01T05:00:00.000Z",
+      "summary": "Get 10% off with verified Dell promo code, plus today’s coupons for up to $600 off laptops, Alienware monitors, and all things tech.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "50% Off DoorDash Promo Code | May 2026",
+      "url": "https://www.wired.com/story/doordash-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.567,
+      "publishedAt": "2026-05-01T05:00:00.000Z",
+      "summary": "Explore today’s top DoorDash promo codes for $25 off your first order, free delivery, and 50% off DashPass for students and select users.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Top Peacock Promo Codes: 40% Off May 2026",
+      "url": "https://www.wired.com/story/peacock-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.567,
+      "publishedAt": "2026-05-01T05:00:00.000Z",
+      "summary": "Stream your favorite shows for up to $80 off this month, and save on subscription plans with the latest Peacock TV coupons from WIRED.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "AI evals are becoming the new compute bottleneck",
       "url": "https://huggingface.co/blog/evaleval/eval-costs-bottleneck",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.5735,
+      "score": 0.545,
       "publishedAt": "2026-04-29T16:45:09.000Z",
       "summary": "",
       "tags": [
@@ -298,24 +427,11 @@
       "engagementScore": 0
     },
     {
-      "title": "How Shivon Zilis Operated as Elon Musk’s OpenAI Insider",
-      "url": "https://www.wired.com/story/model-behavior-why-everything-in-musk-v-altman-leads-back-to-shivon-zelis/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.569,
-      "publishedAt": "2026-05-01T00:51:18.000Z",
-      "summary": "Messages presented at trial reveal how Zilis, the mother of four of Musk’s children, acted as an intermediary between him and OpenAI.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "The craziest part of Musk v. Altman happened while the jury was out of the room",
       "url": "https://www.theverge.com/ai-artificial-intelligence/921713/musk-v-altman-jared-birchall-screw-up-xai",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5676,
+      "score": 0.5435,
       "publishedAt": "2026-05-01T00:36:02.000Z",
       "summary": "Okay, I am not a lawyer so I only understood about half of what just happened. But I am fairly sure, given the context, that Elon Musk's lawyers may have just fucked up big. Jared \"James Brickhouse\" Birchall, Musk's finance guy and all-around fixer, took the stand after Musk today. Most of his testi",
       "tags": [
@@ -324,24 +440,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Granite 4.1 LLMs: How They’re Built",
-      "url": "https://huggingface.co/blog/ibm-granite/granite-4-1",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.5627,
-      "publishedAt": "2026-04-29T15:01:48.000Z",
-      "summary": "",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
       "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5606,
+      "score": 0.5365,
       "publishedAt": "2026-04-30T23:17:51.000Z",
       "summary": "Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product, ChatGPT. In 2024, Musk filed a lawsuit accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profits",
       "tags": [
@@ -350,39 +453,13 @@
       "engagementScore": 0
     },
     {
-      "title": "Good Luck Getting a Mac Mini for the Next ‘Several Months’",
-      "url": "https://www.wired.com/story/apple-sold-out-mac-mini-openclaw/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5591,
-      "publishedAt": "2026-04-30T23:00:51.000Z",
-      "summary": "Apple CEO Tim Cook told analysts that AI adoption has happened faster than expected.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "All the evidence unveiled so far in Musk v. Altman",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/920775/evidence-exhibits-elon-musk-sam-altman-openai-trial",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5378,
-      "publishedAt": "2026-04-30T19:01:39.000Z",
-      "summary": "The Musk v. Altman trial is underway, and that means exhibits, or the evidence to be presented in court, are being revealed piece by piece. So far, email exchanges, photos, and corporate documents are circulating from the earliest days of OpenAI - and from before the AI lab even had a name. Some hig",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Musk v. Altman Kicks Off, DOJ Guts Voting Rights Unit, and Is the AI Job Apocalypse Overhyped?",
-      "url": "https://www.wired.com/story/uncanny-valley-podcast-musk-v-altman-doj-guts-voting-rights-unit-is-ai-job-apocalypse-overhyped/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5372,
-      "publishedAt": "2026-04-30T18:54:54.000Z",
-      "summary": "In this episode of Uncanny Valley, we get into how the Elon Musk-Sam Altman trial goes way beyond their rivalry and could have major implications both for OpenAI and also the AI industry at large.",
+      "title": "Granite 4.1 LLMs: How They’re Built",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-4-1",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.5341,
+      "publishedAt": "2026-04-29T15:01:48.000Z",
+      "summary": "",
       "tags": [
         "LLM"
       ],
@@ -393,150 +470,25 @@
       "url": "https://twitter.com/theo/status/2049645973350363168",
       "feedSource": "Hacker News",
       "source": "twitter.com",
-      "score": 0.5363,
+      "score": 0.5184,
       "publishedAt": "2026-04-30T14:36:58.000Z",
       "summary": "Fun fact - if you have a recent commit that mentions OpenClaw in a json blob, Claude Code will either refuse your request or bill you extra money. This is an empty repo, I’m just calling Claude Code directly. Insanity.",
       "tags": [
         "LLM",
         "Dev Tools"
       ],
-      "engagementScore": 1012
+      "engagementScore": 1131
     },
     {
-      "title": "MAGA Is Confused About ‘Animal Farm’",
-      "url": "https://www.wired.com/story/maga-is-confused-about-animal-farm/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.534,
-      "publishedAt": "2026-04-30T18:19:28.000Z",
-      "summary": "The new film is the latest adaptation of George Orwell’s novel. Based on the critiques coming from right-wing influencers, it seems few of them fully grasp the book’s message.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Elon Musk confirms xAI used OpenAI’s models to train Grok",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/921546/elon-musk-xai-openai-trial-model-distillation",
+      "title": "All the evidence unveiled so far in Musk v. Altman",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/920775/evidence-exhibits-elon-musk-sam-altman-openai-trial",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5338,
-      "publishedAt": "2026-04-30T18:16:57.000Z",
-      "summary": "In a federal courtroom in California on Thursday, Elon Musk testified that his own AI startup, xAI, has used OpenAI's models to improve its own. The matter at question is model distillation, a common industry practice by which one larger AI model acts as a \"teacher\" of sorts to pass on knowledge to",
-      "tags": [
-        "LLM",
-        "ML Infra",
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Don’t Let Industry Jargon Cost You When Shopping for a Smart Bed",
-      "url": "https://www.wired.com/story/adjustable-mattress-vs-adjustable-frame-vs-smart-bed/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5308,
-      "publishedAt": "2026-04-30T17:42:52.000Z",
-      "summary": "Why the terms “smart bed,” \"adjustable mattress,\" and “adjustable frame” are not interchangeable, and how to avoid an expensive mistake.",
-      "tags": [
-        "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Elon Musk Seemingly Admits xAI Has Used OpenAI’s Models to Train Its Own",
-      "url": "https://www.wired.com/story/elon-musk-distill-openai-models-partly-xai/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5306,
-      "publishedAt": "2026-04-30T17:41:14.000Z",
-      "summary": "While answering questions under oath, Musk argued it’s standard practice for AI labs to use their competitors’ models.",
-      "tags": [
-        "LLM",
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "OpenAI Rolls Out ‘Advanced’ Security Mode for At-Risk Accounts",
-      "url": "https://www.wired.com/story/openai-chatgpt-codex-advanced-account-security/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5297,
-      "publishedAt": "2026-04-30T17:30:39.000Z",
-      "summary": "OpenAI is rolling out Advanced Account Security for people concerned that their ChatGPT or Codex accounts could be potential targets of phishing attacks.",
-      "tags": [
-        "LLM",
-        "Safety",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Meta is running get-rich-quick ads for its AI tools",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/915970/meta-manus-ai-ads-website-slop",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5259,
-      "publishedAt": "2026-04-30T16:48:13.000Z",
-      "summary": "Manus, an AI company Meta acquired for $2 billion last year is running ads promising quick, easy money with AI: Find local businesses without websites or with bad websites, have AI build them one, then call them up and sell it to them. As part of the campaign, Manus was paying content creators to bu",
-      "tags": [
-        "Dev Tools",
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Scientists Are Starting to Unlock the Nanoscale Secrets of the Immune System",
-      "url": "https://www.wired.com/story/daniel-davis-immunology-wired-health/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5245,
-      "publishedAt": "2026-04-30T16:32:14.000Z",
-      "summary": "At WIRED Health, immunologist Daniel Davis detailed the ways in which new technologies are enabling a better understanding of the human immune system.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Here&#8217;s how the new Microsoft and OpenAI deal breaks down",
-      "url": "https://www.theverge.com/tech/921210/microsoft-openai-partnership-divorce-notepad",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5218,
-      "publishedAt": "2026-04-30T16:01:58.000Z",
-      "summary": "Microsoft's relationship with OpenAI has always been complicated, so I expected the close partnership-turned-situationship to end in tears. After all, executive disagreements, rearranged contracts, and frustrations over AI infrastructure have all regularly been part of the partnership, creating plen",
+      "score": 0.5137,
+      "publishedAt": "2026-04-30T19:01:39.000Z",
+      "summary": "The Musk v. Altman trial is underway, and that means exhibits, or the evidence to be presented in court, are being revealed piece by piece. So far, email exchanges, photos, and corporate documents are circulating from the earliest days of OpenAI - and from before the AI lab even had a name. Some hig",
       "tags": [
         "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Belgium stops decommissioning nuclear power plants",
-      "url": "https://dpa-international.com/general-news/urn:newsml:dpa.com:20090101:260430-930-14717/",
-      "feedSource": "Hacker News",
-      "source": "dpa-international.com",
-      "score": 0.5151,
-      "publishedAt": "2026-04-30T12:17:14.000Z",
-      "summary": "30.04.2026, 11:37 Uhr",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 770
-    },
-    {
-      "title": "OpenAI models, Codex, and Managed Agents come to AWS",
-      "url": "https://openai.com/index/openai-on-aws",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5124,
-      "publishedAt": "2026-04-28T00:00:00.000Z",
-      "summary": "OpenAI GPT models, Codex, and Managed Agents are now available on AWS, enabling enterprises to build secure AI in their AWS environments.",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Dev Tools"
       ],
       "engagementScore": 0
     },
@@ -551,6 +503,21 @@
       "tags": [
         "LLM",
         "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "OpenAI models, Codex, and Managed Agents come to AWS",
+      "url": "https://openai.com/index/openai-on-aws",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.5124,
+      "publishedAt": "2026-04-28T00:00:00.000Z",
+      "summary": "OpenAI GPT models, Codex, and Managed Agents are now available on AWS, enabling enterprises to build secure AI in their AWS environments.",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Dev Tools"
       ],
       "engagementScore": 0
     },
@@ -582,11 +549,66 @@
       "engagementScore": 0
     },
     {
+      "title": "Elon Musk confirms xAI used OpenAI’s models to train Grok",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/921546/elon-musk-xai-openai-trial-model-distillation",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5097,
+      "publishedAt": "2026-04-30T18:16:57.000Z",
+      "summary": "In a federal courtroom in California on Thursday, Elon Musk testified that his own AI startup, xAI, has used OpenAI's models to improve its own. The matter at question is model distillation, a common industry practice by which one larger AI model acts as a \"teacher\" of sorts to pass on knowledge to",
+      "tags": [
+        "LLM",
+        "ML Infra",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Meta is running get-rich-quick ads for its AI tools",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/915970/meta-manus-ai-ads-website-slop",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5018,
+      "publishedAt": "2026-04-30T16:48:13.000Z",
+      "summary": "Manus, an AI company Meta acquired for $2 billion last year is running ads promising quick, easy money with AI: Find local businesses without websites or with bad websites, have AI build them one, then call them up and sell it to them. As part of the campaign, Manus was paying content creators to bu",
+      "tags": [
+        "Dev Tools",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Here&#8217;s how the new Microsoft and OpenAI deal breaks down",
+      "url": "https://www.theverge.com/tech/921210/microsoft-openai-partnership-divorce-notepad",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.4976,
+      "publishedAt": "2026-04-30T16:01:58.000Z",
+      "summary": "Microsoft's relationship with OpenAI has always been complicated, so I expected the close partnership-turned-situationship to end in tears. After all, executive disagreements, rearranged contracts, and frustrations over AI infrastructure have all regularly been part of the partnership, creating plen",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Belgium stops decommissioning nuclear power plants",
+      "url": "https://dpa-international.com/general-news/urn:newsml:dpa.com:20090101:260430-930-14717/",
+      "feedSource": "Hacker News",
+      "source": "dpa-international.com",
+      "score": 0.4948,
+      "publishedAt": "2026-04-30T12:17:14.000Z",
+      "summary": "30.04.2026, 11:37 Uhr",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 805
+    },
+    {
       "title": "All these smart glasses and nothing to do",
       "url": "https://www.theverge.com/tech/921159/smart-glasses-review-wearable-even-realities-g2-meta-ray-ban-rokid-lucyd-oakley-meta-vanguard",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5108,
+      "score": 0.4867,
       "publishedAt": "2026-04-30T13:59:01.000Z",
       "summary": "I'm currently wearing a pair of smart glasses called the Even Realities G2. Another two pairs, from Rokid, sit on my desk. A few feet away, I've got the Meta Ray-Ban Display charging alongside their Neural Wristband. In my closet are six pairs of $50 smart sunnies that an overzealous Walmart rep sen",
       "tags": [
@@ -595,24 +617,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Spain's parliament will act against massive IP blockages by LaLiga",
-      "url": "https://www.democrata.es/en/politics/congress-and-senate/congress-will-act-against-massive-ip-blockages-by-laliga/",
-      "feedSource": "Hacker News",
-      "source": "democrata.es",
-      "score": 0.5096,
-      "publishedAt": "2026-04-30T15:31:40.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 428
-    },
-    {
       "title": "OpenAI talks about not talking about goblins",
       "url": "https://www.theverge.com/ai-artificial-intelligence/921181/openai-codex-goblins",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5094,
+      "score": 0.4852,
       "publishedAt": "2026-04-30T13:42:29.000Z",
       "summary": "OpenAI is opening up about its goblin problem. After a report from Wired revealed instructions to OpenAI's coding model to \"never talk about goblins, gremlins, raccoons, trolls, ogres, pigeons, or other animals or creatures,\" the AI startup published an explanation on its website, calling references",
       "tags": [
@@ -623,24 +632,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Shai-Hulud Themed Malware Found in the PyTorch Lightning AI Training Library",
-      "url": "https://semgrep.dev/blog/2026/malicious-dependency-in-pytorch-lightning-used-for-ai-training/",
-      "feedSource": "Hacker News",
-      "source": "semgrep.dev",
-      "score": 0.5043,
-      "publishedAt": "2026-04-30T16:09:26.000Z",
-      "summary": "The PyPI package lightning was compromised in versions 2.6.2 and 2.6.3 with Mini Shai-Hulud themed malicious code to execute credential-stealing malware on import.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 340
-    },
-    {
       "title": "DeepInfra on Hugging Face Inference Providers 🔥",
       "url": "https://huggingface.co/blog/inference-providers-deepinfra",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.4677,
+      "score": 0.4391,
       "publishedAt": "2026-04-29T00:00:00.000Z",
       "summary": "",
       "tags": [
@@ -653,24 +649,11 @@
       "url": "https://www.technologyreview.com/2026/04/29/1136666/the-download-nuclear-waste-orchestrated-ai-agents/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4547,
+      "score": 0.4283,
       "publishedAt": "2026-04-29T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. It’s time to make a plan for nuclear waste Today, nuclear energy enjoys rare support across the political spectrum. Public approval has spiked, and Bi",
       "tags": [
         "Agents"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "It’s time to make a plan for nuclear waste",
-      "url": "https://www.technologyreview.com/2026/04/29/1136659/plan-nuclear-waste/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.4304,
-      "publishedAt": "2026-04-29T08:00:00.000Z",
-      "summary": "Today, nuclear energy enjoys a rare moment of support across the political spectrum in the US. Interest from tech companies that are scrambling to meet demand for massive data centers has sparked a resurgence of money and attention in the industry. That newfound interest is exactly why it’s time to",
-      "tags": [
-        "AI"
       ],
       "engagementScore": 0
     },
@@ -684,6 +667,19 @@
       "summary": "Google DeepMind and Korea partner to accelerate scientific breakthroughs using frontier AI models",
       "tags": [
         "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Decoupled DiLoCo: A new frontier for resilient, distributed AI training",
+      "url": "https://deepmind.google/blog/decoupled-diloco/",
+      "feedSource": "DeepMind",
+      "source": "deepmind.google",
+      "score": 0.4222,
+      "publishedAt": "2026-04-22T10:20:03.000Z",
+      "summary": "Google’s new distributed architecture keeps AI training runs on track across distant data centers, with exceptional efficiency – even when hardware fails.",
+      "tags": [
+        "AI"
       ],
       "engagementScore": 0
     }
