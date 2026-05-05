@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-04T22:05:44.884Z",
+  "updatedAt": "2026-05-05T03:24:47.979Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,20 +12,33 @@
       "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 1.0684,
+      "score": 1.0806,
       "publishedAt": "2026-05-04T19:42:47.000Z",
       "summary": "How OpenAI rebuilt its WebRTC stack to power real-time Voice AI with low latency, global scale, and seamless conversational turn-taking.",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 122
+      "engagementScore": 312
+    },
+    {
+      "title": "Transformers Are Inherently Succinct (2025)",
+      "url": "https://arxiv.org/abs/2510.19315",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.8508,
+      "publishedAt": "2026-05-04T20:03:08.000Z",
+      "summary": "We propose succinctness as a measure of the expressive power of a transformer in describing a concept. To this end, we prove that transformers are highly expressive in that they can represent formal languages substantially more succinctly than standard representations of formal languages like finite",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 40
     },
     {
       "title": "How OpenAI delivers low-latency voice AI at scale",
       "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8763,
+      "score": 0.8375,
       "publishedAt": "2026-05-04T00:00:00.000Z",
       "summary": "How OpenAI rebuilt its WebRTC stack to power real-time Voice AI with low latency, global scale, and seamless conversational turn-taking.",
       "tags": [
@@ -34,24 +47,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Transformers Are Inherently Succinct",
-      "url": "https://arxiv.org/abs/2510.19315",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.8055,
-      "publishedAt": "2026-05-04T20:03:08.000Z",
-      "summary": "We propose succinctness as a measure of the expressive power of a transformer in describing a concept. To this end, we prove that transformers are highly expressive in that they can represent formal languages substantially more succinctly than standard representations of formal languages like finite",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 8
-    },
-    {
       "title": "TADI: Tool-Augmented Drilling Intelligence via Agentic LLM Orchestration over Heterogeneous Wellsite Data",
       "url": "https://arxiv.org/abs/2605.00060",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7891,
+      "score": 0.7529,
       "publishedAt": "2026-05-04T04:00:00.000Z",
       "summary": "arXiv:2605.00060v1 Announce Type: new \nAbstract: We present TADI (Tool-Augmented Drilling Intelligence), an agentic AI system that transforms drilling operational data into evidence-based analytical intelligence. Applied to the Equinor Volve Field dataset, TADI integrates 1,759 daily drilling report",
       "tags": [
@@ -67,7 +67,7 @@
       "url": "https://arxiv.org/abs/2605.00073",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7891,
+      "score": 0.7529,
       "publishedAt": "2026-05-04T04:00:00.000Z",
       "summary": "arXiv:2605.00073v1 Announce Type: new \nAbstract: Decentralized, agentic AI marketplaces are rapidly emerging to support software engineering tasks such as debugging, patch generation, and security auditing, often operating without centralized oversight. However, existing reputation mechanisms fail i",
       "tags": [
@@ -82,7 +82,7 @@
       "url": "https://arxiv.org/abs/2605.00123",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7891,
+      "score": 0.7529,
       "publishedAt": "2026-05-04T04:00:00.000Z",
       "summary": "arXiv:2605.00123v1 Announce Type: new \nAbstract: Safety trained large language models (LLMs) can often be induced to answer harmful requests through jailbreak prompts. Because we lack a robust understanding of why LLMs are susceptible to jailbreaks, future frontier models operating more autonomously",
       "tags": [
@@ -99,7 +99,7 @@
       "url": "https://arxiv.org/abs/2605.00136",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7891,
+      "score": 0.7529,
       "publishedAt": "2026-05-04T04:00:00.000Z",
       "summary": "arXiv:2605.00136v1 Announce Type: new \nAbstract: Tool-augmented reasoning has become a popular direction for LLM-based agents, and it is widely assumed to improve reasoning and reliability. However, we demonstrate that this consensus does not always hold: in the presence of semantic distractors, too",
       "tags": [
@@ -115,7 +115,7 @@
       "url": "https://arxiv.org/abs/2605.00224",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7891,
+      "score": 0.7529,
       "publishedAt": "2026-05-04T04:00:00.000Z",
       "summary": "arXiv:2605.00224v1 Announce Type: new \nAbstract: Aligning large language models (LLMs) with human preferences is commonly done via reinforcement learning from human feedback (RLHF) with Proximal Policy Optimization (PPO) or, more simply, via Direct Preference Optimization (DPO). While DPO is stable",
       "tags": [
@@ -131,7 +131,7 @@
       "url": "https://arxiv.org/abs/2605.00245",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7891,
+      "score": 0.7529,
       "publishedAt": "2026-05-04T04:00:00.000Z",
       "summary": "arXiv:2605.00245v1 Announce Type: new \nAbstract: Large language models (LLMs) are now being explored for defense applications that require reliable and legally compliant decision support. They also hold significant potential to enhance decision making, coordination, and operational efficiency in mil",
       "tags": [
@@ -147,7 +147,7 @@
       "url": "https://arxiv.org/abs/2605.00248",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7891,
+      "score": 0.7529,
       "publishedAt": "2026-05-04T04:00:00.000Z",
       "summary": "arXiv:2605.00248v1 Announce Type: new \nAbstract: A key challenge for the safety of advanced AI systems is the possibility that multiple simpler agents might inadvertently form a collective agent with capabilities and goals distinct from those of any individual. More generally, determining when a gro",
       "tags": [
@@ -162,7 +162,7 @@
       "url": "https://arxiv.org/abs/2605.00276",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7891,
+      "score": 0.7529,
       "publishedAt": "2026-05-04T04:00:00.000Z",
       "summary": "arXiv:2605.00276v1 Announce Type: new \nAbstract: Trip planning for intelligent vehicles increasingly requires selecting optimal routes rather than merely producing feasible itineraries, as interacting factors such as travel time, energy consumption, and traffic conditions directly affect plan qualit",
       "tags": [
@@ -176,7 +176,7 @@
       "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.6562,
+      "score": 0.6252,
       "publishedAt": "2026-05-04T17:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/April_2026_AI_Recap_still.max-600x600.format-webp.webp\"&gt;Here are Google’s latest AI updates from April 2026",
       "tags": [
@@ -191,7 +191,7 @@
       "url": "https://www.technologyreview.com/2026/05/04/1136826/week-one-of-the-musk-v-altman-trial-what-it-was-like-in-the-room/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6495,
+      "score": 0.6185,
       "publishedAt": "2026-05-04T15:51:27.000Z",
       "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. Two of the most powerful people in AI—Sam Altman and Elon Musk—began their face-off in court in Oakland, California, last week. Musk is suing OpenAI, allegin",
       "tags": [
@@ -204,7 +204,7 @@
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.6474,
+      "score": 0.6164,
       "publishedAt": "2026-05-04T15:30:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/WebhooksGeminiAPI-hero.max-600x600.format-webp.webp\"&gt;Event-Driven Webhooks are a push-based notification system that eliminates the need for inefficient polling.",
       "tags": [
@@ -220,7 +220,7 @@
       "url": "https://www.technologyreview.com/2026/05/04/1134425/tailoring-ai-solutions-for-health-care-needs/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6328,
+      "score": 0.6018,
       "publishedAt": "2026-05-04T13:00:00.000Z",
       "summary": "The AI market is full of big promises of grand transformation. Health care is a prime target for those promises, beset as it is by financial pressures, labor shortages, and the growing burden of caring for an aging population. AI developers are targeting functions that vary widely, from curing cance",
       "tags": [
@@ -229,15 +229,15 @@
       "engagementScore": 0
     },
     {
-      "title": "How the internet’s favorite squirrel dad made the hottest camera app of 2026",
-      "url": "https://www.theverge.com/tech/921690/dualshot-recorder-iphone-camera-app-derrick-downey-jr",
+      "title": "OpenAI’s president does ‘all the things,’ except answer a question",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/923684/musk-brockman-altman-openai-trial",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5816,
-      "publishedAt": "2026-05-04T21:30:16.000Z",
-      "summary": "It's not hyperbole to call DualShot Recorder an overnight sensation. It took only 12 hours from the time it was released to hit number one on the App Store's list of top paid apps. It was a surprise success - but what's even more surprising is the app's origin story: it all started with a [&#8230;]",
+      "score": 0.5676,
+      "publishedAt": "2026-05-05T00:12:35.000Z",
+      "summary": "The strongest witness for Elon Musk's case against OpenAI so far has been Greg Brockman's journal. Brockman himself is running as a close second. Brockman was called to the stand in a rather unusual way - he was cross-examined first, followed by a direct examination - and he had some serious high sc",
       "tags": [
-        "Open Source"
+        "LLM"
       ],
       "engagementScore": 0
     },
@@ -246,11 +246,50 @@
       "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5814,
-      "publishedAt": "2026-05-04T21:28:20.000Z",
+      "score": 0.5643,
+      "publishedAt": "2026-05-04T23:35:13.000Z",
       "summary": "Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product, ChatGPT. In 2024, Musk filed a lawsuit accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profits",
       "tags": [
         "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Greg Brockman Defends $30B OpenAI Stake: ‘Blood, Sweat, and Tears’",
+      "url": "https://www.wired.com/story/greg-brockman-testifies-musk-v-altman-trial/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5629,
+      "publishedAt": "2026-05-04T23:19:52.000Z",
+      "summary": "OpenAI’s cofounder and president revealed in federal court on Monday that he’s one of the largest individual stakeholders in the AI lab.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "What the Spirit Airlines Implosion Means for Your Vacation",
+      "url": "https://www.wired.com/story/what-the-spirit-airlines-implosion-means-for-your-vacation/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5612,
+      "publishedAt": "2026-05-04T23:00:55.000Z",
+      "summary": "The news isn’t good.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "How the internet’s favorite squirrel dad made the hottest camera app of 2026",
+      "url": "https://www.theverge.com/tech/921690/dualshot-recorder-iphone-camera-app-derrick-downey-jr",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5531,
+      "publishedAt": "2026-05-04T21:30:16.000Z",
+      "summary": "It's not hyperbole to call DualShot Recorder an overnight sensation. It took only 12 hours from the time it was released to hit number one on the App Store's list of top paid apps. It was a surprise success - but what's even more surprising is the app's origin story: it all started with a [&#8230;]",
+      "tags": [
+        "Open Source"
       ],
       "engagementScore": 0
     },
@@ -259,7 +298,7 @@
       "url": "https://www.wired.com/story/what-to-know-about-sony-785-million-playstation-settlement/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5808,
+      "score": 0.5524,
       "publishedAt": "2026-05-04T21:22:03.000Z",
       "summary": "Are you eligible for a payout? Probably, but it might take a while and will likely be pretty small.",
       "tags": [
@@ -272,7 +311,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/922947/roomba-creator-new-robot-familiar-machines-magic-ai-launch",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5737,
+      "score": 0.5452,
       "publishedAt": "2026-05-04T20:01:21.000Z",
       "summary": "Colin Angle, the maker of the Roomba and the man who helped put 50 million household robots into people's homes, is back with a new robot. But this one is designed as a companion, not a cleaner. The first robot from Angle's new company, Familiar Machines &#38; Magic, is a dog-sized robotic pet that",
       "tags": [
@@ -285,7 +324,7 @@
       "url": "https://www.wired.com/story/best-smart-locks/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.572,
+      "score": 0.5436,
       "publishedAt": "2026-05-04T19:42:52.000Z",
       "summary": "Upgrade your locks with fingerprint-scanning or a keypad, whether it’s at the front door or a sliding glass entryway.",
       "tags": [
@@ -294,11 +333,24 @@
       "engagementScore": 0
     },
     {
+      "title": "All the evidence revealed so far in Musk v. Altman",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/920775/evidence-exhibits-elon-musk-sam-altman-openai-trial",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5325,
+      "publishedAt": "2026-05-04T17:38:06.000Z",
+      "summary": "The Musk v. Altman trial is underway, and that means exhibits, or the evidence to be presented in court, are being revealed piece by piece. So far, email exchanges, photos, and corporate documents are circulating from the earliest days of OpenAI - and from before the AI lab even had a name. Some hig",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Refusal in Language Models Is Mediated by a Single Direction",
       "url": "https://arxiv.org/abs/2406.11717",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.568,
+      "score": 0.5318,
       "publishedAt": "2026-05-02T13:15:23.000Z",
       "summary": "Conversational large language models are fine-tuned for both instruction-following and safety, resulting in models that obey benign requests but refuse harmful ones. While this refusal behavior is widespread across chat models, its underlying mechanisms remain poorly understood. In this work, we sho",
       "tags": [
@@ -309,37 +361,11 @@
       "engagementScore": 116
     },
     {
-      "title": "All the evidence revealed so far in Musk v. Altman",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/920775/evidence-exhibits-elon-musk-sam-altman-openai-trial",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5609,
-      "publishedAt": "2026-05-04T17:38:06.000Z",
-      "summary": "The Musk v. Altman trial is underway, and that means exhibits, or the evidence to be presented in court, are being revealed piece by piece. So far, email exchanges, photos, and corporate documents are circulating from the earliest days of OpenAI - and from before the AI lab even had a name. Some hig",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The craziest part of Musk v. Altman happened while the jury was out of the room",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/921713/musk-v-altman-jared-birchall-screw-up-xai",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5598,
-      "publishedAt": "2026-05-04T17:25:52.000Z",
-      "summary": "Okay, I am not a lawyer so I only understood about half of what just happened. But I am fairly sure, given the context, that Elon Musk's lawyers may have just fucked up big. Jared \"James Brickhouse\" Birchall, Musk's finance guy and all-around fixer, took the stand after Musk today. Most of his testi",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Best Mother’s Day Deals on Mom-Approved Gifts (2026)",
       "url": "https://www.wired.com/story/mothers-day-deals-2026/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5595,
+      "score": 0.5311,
       "publishedAt": "2026-05-04T17:22:43.000Z",
       "summary": "Give Mom the best and save some cash in the process with these legitimate discounts on WIRED-approved gifts.",
       "tags": [
@@ -352,7 +378,7 @@
       "url": "https://www.theverge.com/column/921599/ai-music-is-flooding-streaming-services-but-who-wants-it",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.553,
+      "score": 0.5246,
       "publishedAt": "2026-05-04T16:09:31.000Z",
       "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on how AI is changing music and the music industry, follow Terrence O'Brien. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started The use of g",
       "tags": [
@@ -365,7 +391,7 @@
       "url": "https://www.wired.com/story/dhs-demanded-google-surrender-data-on-canadians-activity-location-over-anti-ice-posts/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5455,
+      "score": 0.517,
       "publishedAt": "2026-05-04T14:45:00.000Z",
       "summary": "Using a 1930s trade law, Homeland Security targeted the man—who hasn’t entered the US in more than a decade—following posts on X condemning the killings of Renee Good and Alex Pretti.",
       "tags": [
@@ -378,48 +404,9 @@
       "url": "https://www.wired.com/story/metalenz-has-figured-out-a-way-to-make-face-id-invisible/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5415,
+      "score": 0.513,
       "publishedAt": "2026-05-04T14:00:00.000Z",
       "summary": "Metalenz’s Polar ID face-scanning technology works even when the camera is hidden under the display.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "RFK Jr.’s New Podcast Is as Weird as You’d Expect",
-      "url": "https://www.wired.com/story/rfk-jrs-new-podcast-is-as-weird-as-youd-expect/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5254,
-      "publishedAt": "2026-05-04T11:00:00.000Z",
-      "summary": "The first two episodes of Robert F. Kennedy Jr.’s new podcast feature him discoursing on food with a reality-TV chef and, for some reason, Mike Tyson. Vaccines are not on the agenda.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Do Lightsaber Blades Have Mass?",
-      "url": "https://www.wired.com/story/do-lightsaber-blades-have-mass/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5254,
-      "publishedAt": "2026-05-04T11:00:00.000Z",
-      "summary": "On Star Wars Day, we put to rest a question that has bedeviled sci-fi nerds for years.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "What I Packed to Run 80 Miles Across the Italian Apennine Mountains",
-      "url": "https://www.wired.com/story/what-i-packed-to-run-80-miles-italian-apennine/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5229,
-      "publishedAt": "2026-05-04T10:32:00.000Z",
-      "summary": "Here’s everything you need to survive while running many mountain miles. It all fits into a 10-pound pack.",
       "tags": [
         "AI"
       ],
@@ -521,70 +508,85 @@
       "engagementScore": 0
     },
     {
+      "title": "Y Combinator's Stake in OpenAI (0.6%)",
+      "url": "https://daringfireball.net/2026/05/y_combinators_stake_in_openai",
+      "feedSource": "Hacker News",
+      "source": "daringfireball.net",
+      "score": 0.5092,
+      "publishedAt": "2026-05-05T00:09:01.000Z",
+      "summary": "The fact that Paul Graham personally has billions of dollars at stake with OpenAI doesn’t mean that his public opinion on Sam Altman’s trustworthiness and leadership is invalid. But it certainly seems like the sort of thing that ought to be disclosed when quoting Graham as an Altman character refere",
+      "tags": [
+        "LLM",
+        "Industry"
+      ],
+      "engagementScore": 126
+    },
+    {
+      "title": "Agent Skills",
+      "url": "https://addyosmani.com/blog/agent-skills/",
+      "feedSource": "Hacker News",
+      "source": "addyosmani.com",
+      "score": 0.503,
+      "publishedAt": "2026-05-04T21:40:42.000Z",
+      "summary": "AI coding agents take the shortest path to done, which usually means skipping the specs, tests, and reviews that make software reliable at scale. Agent Skill…",
+      "tags": [
+        "Agents",
+        "Dev Tools"
+      ],
+      "engagementScore": 148
+    },
+    {
+      "title": "RFK Jr.’s New Podcast Is as Weird as You’d Expect",
+      "url": "https://www.wired.com/story/rfk-jrs-new-podcast-is-as-weird-as-youd-expect/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.497,
+      "publishedAt": "2026-05-04T11:00:00.000Z",
+      "summary": "The first two episodes of Robert F. Kennedy Jr.’s new podcast feature him discoursing on food with a reality-TV chef and, for some reason, Mike Tyson. Vaccines are not on the agenda.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Securing a DoD contractor: Finding a multi-tenant authorization vulnerability",
       "url": "https://www.strix.ai/blog/how-strix-found-zero-auth-vulnerability-dod-backed-startup",
       "feedSource": "Hacker News",
       "source": "strix.ai",
-      "score": 0.5065,
+      "score": 0.4909,
       "publishedAt": "2026-05-04T17:46:32.000Z",
       "summary": "Zero tenant isolation, exposed military training data, and a five-month responsible disclosure timeline.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 135
+      "engagementScore": 179
     },
     {
       "title": "Does Employment Slow Cognitive Decline? Evidence from Labor Market Shocks",
       "url": "https://www.nber.org/papers/w35117",
       "feedSource": "Hacker News",
       "source": "nber.org",
-      "score": 0.5014,
+      "score": 0.489,
       "publishedAt": "2026-05-04T15:32:46.000Z",
       "summary": "Founded in 1920, the NBER is a private, non-profit, non-partisan organization dedicated to conducting economic research and to disseminating research findings among academics, public policy makers, and business professionals.",
       "tags": [
         "Research",
         "Safety"
       ],
-      "engagementScore": 158
+      "engagementScore": 229
     },
     {
       "title": "“Kitten Space Agency”, a Spiritual Successor to “Kerbal Space Program” (2025)",
       "url": "https://www.space.com/entertainment/space-games/kitten-space-agency-is-the-spiritual-successor-to-kerbal-space-program-and-they-have-an-ex-spacex-engineer-on-the-team-interview",
       "feedSource": "Hacker News",
       "source": "space.com",
-      "score": 0.4971,
+      "score": 0.483,
       "publishedAt": "2026-05-04T17:33:48.000Z",
       "summary": "DayZ and Kerbal Space Program’s creators have joined forces with an ex-SpaceX engineer to create the ultimate spaceflight simulator.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 107
-    },
-    {
-      "title": "Offenders sentenced up to 10 years for spying on TSMC",
-      "url": "https://www.taipeitimes.com/News/front/archives/2026/04/28/2003856358",
-      "feedSource": "Hacker News",
-      "source": "taipeitimes.com",
-      "score": 0.4921,
-      "publishedAt": "2026-05-04T18:04:33.000Z",
-      "summary": "Bringing Taiwan to the World and the World to Taiwan",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 87
-    },
-    {
-      "title": "White House Considers Vetting A.I. Models Before They Are Released",
-      "url": "https://www.nytimes.com/2026/05/04/technology/trump-ai-models.html",
-      "feedSource": "Hacker News",
-      "source": "nytimes.com",
-      "score": 0.4907,
-      "publishedAt": "2026-05-04T19:18:22.000Z",
-      "summary": "",
-      "tags": [
-        "Open Source"
-      ],
-      "engagementScore": 71
+      "engagementScore": 148
     },
     {
       "title": "Enabling a new model for healthcare with AI co-clinician",
