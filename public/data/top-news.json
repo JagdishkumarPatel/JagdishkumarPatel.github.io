@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-05T10:49:35.491Z",
+  "updatedAt": "2026-05-05T16:27:41.564Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,24 +8,37 @@
   ],
   "items": [
     {
+      "title": "Agents for financial services and insurance",
+      "url": "https://www.anthropic.com/news/finance-agents",
+      "feedSource": "Hacker News",
+      "source": "anthropic.com",
+      "score": 1.0441,
+      "publishedAt": "2026-05-05T15:05:47.000Z",
+      "summary": "",
+      "tags": [
+        "Agents"
+      ],
+      "engagementScore": 68
+    },
+    {
       "title": "How OpenAI delivers low-latency voice AI at scale",
       "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 1.0414,
+      "score": 1.007,
       "publishedAt": "2026-05-04T19:42:47.000Z",
       "summary": "How OpenAI rebuilt its WebRTC stack to power real-time Voice AI with low latency, global scale, and seamless conversational turn-taking.",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 410
+      "engagementScore": 464
     },
     {
       "title": "OpenAI and PwC collaborate to reimagine the office of the CFO",
       "url": "https://openai.com/index/openai-pwc-finance-collaboration",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9366,
+      "score": 0.8955,
       "publishedAt": "2026-05-04T21:00:00.000Z",
       "summary": "OpenAI and PwC are partnering to help enterprises use AI agents to automate finance workflows, improve forecasting, strengthen controls, and modernize the CFO function.",
       "tags": [
@@ -39,7 +52,7 @@
       "url": "https://arxiv.org/abs/2605.00060",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8658,
+      "score": 0.8274,
       "publishedAt": "2026-05-05T04:00:00.000Z",
       "summary": "arXiv:2605.00060v1 Announce Type: new \nAbstract: We present TADI (Tool-Augmented Drilling Intelligence), an agentic AI system that transforms drilling operational data into evidence-based analytical intelligence. Applied to the Equinor Volve Field dataset, TADI integrates 1,759 daily drilling report",
       "tags": [
@@ -55,7 +68,7 @@
       "url": "https://arxiv.org/abs/2605.00073",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8658,
+      "score": 0.8274,
       "publishedAt": "2026-05-05T04:00:00.000Z",
       "summary": "arXiv:2605.00073v1 Announce Type: new \nAbstract: Decentralized, agentic AI marketplaces are rapidly emerging to support software engineering tasks such as debugging, patch generation, and security auditing, often operating without centralized oversight. However, existing reputation mechanisms fail i",
       "tags": [
@@ -70,7 +83,7 @@
       "url": "https://arxiv.org/abs/2605.00123",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8658,
+      "score": 0.8274,
       "publishedAt": "2026-05-05T04:00:00.000Z",
       "summary": "arXiv:2605.00123v1 Announce Type: new \nAbstract: Safety trained large language models (LLMs) can often be induced to answer harmful requests through jailbreak prompts. Because we lack a robust understanding of why LLMs are susceptible to jailbreaks, future frontier models operating more autonomously",
       "tags": [
@@ -87,7 +100,7 @@
       "url": "https://arxiv.org/abs/2605.00136",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8658,
+      "score": 0.8274,
       "publishedAt": "2026-05-05T04:00:00.000Z",
       "summary": "arXiv:2605.00136v1 Announce Type: new \nAbstract: Tool-augmented reasoning has become a popular direction for LLM-based agents, and it is widely assumed to improve reasoning and reliability. However, we demonstrate that this consensus does not always hold: in the presence of semantic distractors, too",
       "tags": [
@@ -103,7 +116,7 @@
       "url": "https://arxiv.org/abs/2605.00224",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8658,
+      "score": 0.8274,
       "publishedAt": "2026-05-05T04:00:00.000Z",
       "summary": "arXiv:2605.00224v1 Announce Type: new \nAbstract: Aligning large language models (LLMs) with human preferences is commonly done via reinforcement learning from human feedback (RLHF) with Proximal Policy Optimization (PPO) or, more simply, via Direct Preference Optimization (DPO). While DPO is stable",
       "tags": [
@@ -119,7 +132,7 @@
       "url": "https://arxiv.org/abs/2605.00245",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8658,
+      "score": 0.8274,
       "publishedAt": "2026-05-05T04:00:00.000Z",
       "summary": "arXiv:2605.00245v1 Announce Type: new \nAbstract: Large language models (LLMs) are now being explored for defense applications that require reliable and legally compliant decision support. They also hold significant potential to enhance decision making, coordination, and operational efficiency in mil",
       "tags": [
@@ -135,7 +148,7 @@
       "url": "https://arxiv.org/abs/2605.00248",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8658,
+      "score": 0.8274,
       "publishedAt": "2026-05-05T04:00:00.000Z",
       "summary": "arXiv:2605.00248v1 Announce Type: new \nAbstract: A key challenge for the safety of advanced AI systems is the possibility that multiple simpler agents might inadvertently form a collective agent with capabilities and goals distinct from those of any individual. More generally, determining when a gro",
       "tags": [
@@ -150,7 +163,7 @@
       "url": "https://arxiv.org/abs/2605.00276",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8658,
+      "score": 0.8274,
       "publishedAt": "2026-05-05T04:00:00.000Z",
       "summary": "arXiv:2605.00276v1 Announce Type: new \nAbstract: Trip planning for intelligent vehicles increasingly requires selecting optimal routes rather than merely producing feasible itineraries, as interacting factors such as travel time, energy consumption, and traffic conditions directly affect plan qualit",
       "tags": [
@@ -164,20 +177,33 @@
       "url": "https://arxiv.org/abs/2510.19315",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8165,
+      "score": 0.7817,
       "publishedAt": "2026-05-04T20:03:08.000Z",
       "summary": "We propose succinctness as a measure of the expressive power of a transformer in describing a concept. To this end, we prove that transformers are highly expressive in that they can represent formal languages substantially more succinctly than standard representations of formal languages like finite",
       "tags": [
         "AI"
       ],
-      "engagementScore": 55
+      "engagementScore": 59
+    },
+    {
+      "title": "Inexpressibility in Exp-Minus-Log (EML)",
+      "url": "https://arxiv.org/abs/2605.01636",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.765,
+      "publishedAt": "2026-05-05T06:05:49.000Z",
+      "summary": "Odrzywołek defined a system Exp-Minus-Log (EML) that reduces all elementary functions over complex numbers down to a constant `$1$’, and a single two place function $E(α, β) = \\exp(α) - \\log(β)$. This paper shows that in this system, equivalent to Chow’s EL numbers, every EML-expressible number is c",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 11
     },
     {
       "title": "How OpenAI delivers low-latency voice AI at scale",
       "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7834,
+      "score": 0.7424,
       "publishedAt": "2026-05-04T00:00:00.000Z",
       "summary": "How OpenAI rebuilt its WebRTC stack to power real-time Voice AI with low latency, global scale, and seamless conversational turn-taking.",
       "tags": [
@@ -186,26 +212,237 @@
       "engagementScore": 0
     },
     {
-      "title": "Inexpressibility in Exp-Minus-Log (EML)",
-      "url": "https://arxiv.org/abs/2605.01636",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.7726,
-      "publishedAt": "2026-05-05T06:05:49.000Z",
-      "summary": "Odrzywołek defined a system Exp-Minus-Log (EML) that reduces all elementary functions over complex numbers down to a constant `$1$’, and a single two place function $E(α, β) = \\exp(α) - \\log(β)$. This paper shows that in this system, equivalent to Chow’s EL numbers, every EML-expressible number is c",
+      "title": "Google is partnering with XPRIZE and Range Media Partners on the $3.5 million Future Vision film competition.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/future-vision-film-competition-xprize/",
+      "feedSource": "Google AI",
+      "source": "blog.google",
+      "score": 0.6832,
+      "publishedAt": "2026-05-05T16:00:00.000Z",
+      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/futurevisionxprize_social.max-600x600.format-webp.webp\"&gt;Google is partnering with XPRIZE and Range Media Partners on the $3.5 million Future Vision film competition.",
       "tags": [
-        "Research"
+        "RAG",
+        "Vision",
+        "Dev Tools"
       ],
-      "engagementScore": 6
+      "engagementScore": 0
+    },
+    {
+      "title": "The Download: inside the Musk v. Altman trial, and AI for democracy",
+      "url": "https://www.technologyreview.com/2026/05/05/1136848/the-download-musk-openai-altman-trial-ai-democracy/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6609,
+      "publishedAt": "2026-05-05T12:10:00.000Z",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Week one of the Musk v. Altman trial: what it was like in the room Two of the most powerful figures in AI—Sam Altman and Elon Musk—are in the middle o",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "A blueprint for using AI to strengthen democracy",
       "url": "https://www.technologyreview.com/2026/05/05/1136843/ai-democracy-blueprint/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6752,
+      "score": 0.6424,
       "publishedAt": "2026-05-05T09:00:00.000Z",
       "summary": "Every few centuries, changes in how information moves reshape how societies govern themselves. The printing press spread vernacular literacy, helping give rise to the Reformation and, eventually, representative government. The telegraph made it possible to administer vast nations like the US, accele",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Researchers gaslit Claude into giving instructions to build explosives",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/923961/security-researchers-mindgard-gaslit-claude-forbidden-information",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5839,
+      "publishedAt": "2026-05-05T16:18:08.000Z",
+      "summary": "Anthropic has spent years building itself up as the safe AI company. But new security research shared with The Verge suggests Claude's carefully crafted helpful personality may itself be a vulnerability. Researchers at AI red-teaming company Mindgard say they got Claude to offer up erotica, maliciou",
+      "tags": [
+        "LLM",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
+      "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5838,
+      "publishedAt": "2026-05-05T16:17:20.000Z",
+      "summary": "Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product, ChatGPT. In 2024, Musk filed a lawsuit accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profits",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "OpenAI is reportedly launching a phone for ChatGPT",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/924063/openai-phone-rumors-2027-ming-chi-kuo",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5805,
+      "publishedAt": "2026-05-05T15:40:07.000Z",
+      "summary": "OpenAI's first hardware product might be a phone instead of a mysterious Jony Ive gadget. As reported by MacRumors, supply chain analyst Ming-Chi Kuo shared details about the rumored phone, claiming OpenAI is \"fast-tracking\" it and aiming to start mass production in early 2027. According to Kuo, the",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Italian Dubbing of ‘The Devil Wears Prada 2’ Has Stirred Up a Surprising Controversy",
+      "url": "https://www.wired.com/story/the-italian-dubbing-of-the-devil-wears-prada-2-has-stirred-up-a-surprising-controversy/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.58,
+      "publishedAt": "2026-05-05T15:34:33.000Z",
+      "summary": "The voice actors from the original film have returned for the sequel—and not everyone is happy about it.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Pornhub Restores Access for UK Adults Who Use Apple’s Age Verification",
+      "url": "https://www.wired.com/story/pornhub-restores-access-for-uk-adults-who-use-apples-age-verification/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5779,
+      "publishedAt": "2026-05-05T15:10:19.000Z",
+      "summary": "The porn giant blocked its content from new UK users in February but says device-based age verification is more secure than third-party sites.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Google, Microsoft, and xAI will allow the US government to review their new AI models",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/924017/google-microsoft-xai-government-review",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.574,
+      "publishedAt": "2026-05-05T14:26:59.000Z",
+      "summary": "Google DeepMind, Microsoft, and Elon Musk's xAI have agreed to allow the US government to review new AI models before they're released to the public. In an announcement on Tuesday, the Commerce Department's Center for AI Standards and Innovation (CAISI) says it will work with the AI companies to per",
+      "tags": [
+        "Open Source"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "What an AI-designed car looks like",
+      "url": "https://www.theverge.com/podcast/923974/ai-car-design-codex-vergecast",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.57,
+      "publishedAt": "2026-05-05T13:42:18.000Z",
+      "summary": "The cars rolling off production lines right now are filled with old ideas. From beginning to end, the creation of a new vehicle can take five years or longer - which is plenty of time for a lot of tastes, politics, and gas prices to change. That's one reason car manufacturers are so enthusiastic abo",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "OpenAI’s president does ‘all the things,’ except answer a question",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/923684/musk-brockman-altman-openai-trial",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5675,
+      "publishedAt": "2026-05-05T13:14:04.000Z",
+      "summary": "The strongest witness for Elon Musk's case against OpenAI so far has been Greg Brockman's journal. Brockman himself is running as a close second. Brockman was called to the stand in a rather unusual way - he was cross-examined first, followed by a direct examination - and he had some serious high sc",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Google’s AI architect lived rent-free in Elon Musk’s head",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/923518/musk-altman-trial-openai-demis-hassabis-google-deepmind",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5673,
+      "publishedAt": "2026-05-05T13:11:58.000Z",
+      "summary": "About a week into the Musk v. Altman trial, we've heard from some of the most powerful people in tech - including OpenAI president Greg Brockman, Elon Musk's fixer Jared Birchall, and Musk himself. But one of the most prominent characters is hovering around the margins: Demis Hassabis, CEO of Google",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Bose Brings Back Its ‘Lifestyle’ Branding With New Speakers for the Home",
+      "url": "https://www.wired.com/story/bose-brings-back-its-lifestyle-branding-with-new-speakers-for-the-home/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5609,
+      "publishedAt": "2026-05-05T12:00:00.000Z",
+      "summary": "The new Lifestyle Ultra Speaker, Ultra Soundbar, and Ultra Subwoofer introduce a cozier look.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Google DeepMind Workers Vote to Unionize Over Military AI Deals",
+      "url": "https://www.wired.com/story/google-deepmind-workers-vote-to-unionize-over-military-ai-deals/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5608,
+      "publishedAt": "2026-05-05T11:59:20.000Z",
+      "summary": "UK staff of Google’s AI research lab hope to block the use of the company’s artificial intelligence models in military settings.",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Murena /e/OS Tablet Review: Privacy for a Price",
+      "url": "https://www.wired.com/review/murena-volla-tablet/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5584,
+      "publishedAt": "2026-05-05T11:32:00.000Z",
+      "summary": "Murena's /e/OS tablet offers an iPadOS- and Google-free, privacy-friendly tablet experience, but you'll have to pay for it.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Google DeepMind workers are unionizing over AI military contracts",
+      "url": "https://www.theverge.com/tech/923918/google-deepmind-union-bid-ai-military-israel",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5565,
+      "publishedAt": "2026-05-05T11:10:43.000Z",
+      "summary": "Staffers at Google DeepMind's headquarters have voted to unionize in an effort to prevent the AI firm's technology from being used by Israel and the US military. In a letter to Google management on Tuesday, employees requested that the Communication Workers Union (CWU) and Unite the Union be recogni",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The iPhone That Never Was",
+      "url": "https://www.wired.com/story/book-excerpt-david-epstein-inside-the-box-general-magic/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5555,
+      "publishedAt": "2026-05-05T11:00:00.000Z",
+      "summary": "In 1990, three former Apple employees launched a company that epitomized the Silicon Valley dream. What they invented looked like an iPhone—more than a decade earlier. The device never came to be.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "9 Best Portable Power Stations (2026): Power Capacity, Portability, Camping, and More",
+      "url": "https://www.wired.com/gallery/best-portable-power-stations/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5555,
+      "publishedAt": "2026-05-05T11:00:00.000Z",
+      "summary": "Whether you’re going off-grid or safeguarding against blackouts, these beefy, WIRED-tested batteries can keep the lights on.",
       "tags": [
         "AI"
       ],
@@ -216,22 +453,9 @@
       "url": "https://www.wired.com/story/best-gifts-for-mom-2026/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5831,
+      "score": 0.553,
       "publishedAt": "2026-05-05T10:31:00.000Z",
       "summary": "Your mom never gets you a thoughtless gift, so you shouldn’t get her one, either. Here’s every cool gift WIRED writers would give their mothers.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Secret to Amelia Dimoldenberg’s Online Superstardom? Control",
-      "url": "https://www.wired.com/story/the-big-interview-podcast-amelia-dimoldenberg/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.583,
-      "publishedAt": "2026-05-05T10:30:00.000Z",
-      "summary": "The host of Chicken Shop Date joined WIRED’s Big Interview podcast to talk about turning down bad deals, beating the algorithm, and the importance of being over-prepared.",
       "tags": [
         "AI"
       ],
@@ -242,7 +466,7 @@
       "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.5819,
+      "score": 0.5491,
       "publishedAt": "2026-05-04T17:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/April_2026_AI_Recap_still.max-600x600.format-webp.webp\"&gt;Here are Google’s latest AI updates from April 2026",
       "tags": [
@@ -253,50 +477,40 @@
       "engagementScore": 0
     },
     {
-      "title": "Google DeepMind workers are unionizing over AI military contracts",
-      "url": "https://www.theverge.com/tech/923918/google-deepmind-union-bid-ai-military-israel",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5811,
-      "publishedAt": "2026-05-05T10:08:33.000Z",
-      "summary": "Staffers at Google DeepMind's headquarters have voted to unionize in an effort to prevent the AI firm's technology from being used by Israel and the US military. In a letter to Google management on Tuesday, employees requested that the Communication Workers Union (CWU) and Unite the Union be recogni",
+      "title": "Google Chrome silently installs a 4 GB AI model on your device without consent",
+      "url": "https://www.thatprivacyguy.com/blog/chrome-silent-nano-install/",
+      "feedSource": "Hacker News",
+      "source": "thatprivacyguy.com",
+      "score": 0.546,
+      "publishedAt": "2026-05-05T07:34:55.000Z",
+      "summary": "Google Chrome is downloading a 4 GB Gemini Nano model onto users’ machines without consent, with no opt-in, no opt-out short of enterprise tooling, and an automatic re-download every time the user deletes it. The pattern is identical to the Anthropic Claude Desktop case I wrote about last month, but",
       "tags": [
-        "AI"
+        "LLM",
+        "Dev Tools"
       ],
-      "engagementScore": 0
+      "engagementScore": 741
     },
     {
-      "title": "He Couldn’t Land a Job Interview. Was AI to Blame?",
-      "url": "https://www.wired.com/story/he-couldnt-land-a-job-interview-was-ai-to-blame/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5803,
-      "publishedAt": "2026-05-05T10:00:00.000Z",
-      "summary": "Armed with some Python and a white-hot sense of injustice, one medical student spent six months trying to figure out whether an algorithm trashed his job application.",
+      "title": "AI didn't delete your database, you did",
+      "url": "https://idiallo.com/blog/ai-didnt-delete-your-database-you-did",
+      "feedSource": "Hacker News",
+      "source": "idiallo.com",
+      "score": 0.5445,
+      "publishedAt": "2026-05-05T14:07:50.000Z",
+      "summary": "Last week, a tweet went viral showing a guy claiming that a Cursor/Claude agent deleted his company’s production database. We watched from the sidelines as he tried to get a confession from the agent:",
       "tags": [
-        "AI"
+        "LLM",
+        "Agents",
+        "Dev Tools"
       ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Best Food Gifts to Buy Online, as Tested by Our Tastebuds (2026)",
-      "url": "https://www.wired.com/gallery/the-best-food-gifts/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5785,
-      "publishedAt": "2026-05-05T09:39:00.000Z",
-      "summary": "From tinned fish to baked goodies, you can deliver the best-tasting treats to their door—even if you don’t live close by.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
+      "engagementScore": 295
     },
     {
       "title": "Week one of the Musk v. Altman trial: What it was like in the room",
       "url": "https://www.technologyreview.com/2026/05/04/1136826/week-one-of-the-musk-v-altman-trial-what-it-was-like-in-the-room/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5752,
+      "score": 0.5424,
       "publishedAt": "2026-05-04T15:51:27.000Z",
       "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. Two of the most powerful people in AI—Sam Altman and Elon Musk—began their face-off in court in Oakland, California, last week. Musk is suing OpenAI, allegin",
       "tags": [
@@ -305,24 +519,11 @@
       "engagementScore": 0
     },
     {
-      "title": "The Best Sustainable Surf Gear (2026): Patagonia, Billabong, Outerknown",
-      "url": "https://www.wired.com/story/best-sustainable-surf-gear/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5752,
-      "publishedAt": "2026-05-05T09:02:00.000Z",
-      "summary": "Reduce unnecessary plastic waste and petroleum-based neoprene at your local break with the best sustainable wetsuits, sunglasses, and more.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Reduce friction and latency for long-running jobs with Webhooks in Gemini API",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.5732,
+      "score": 0.5403,
       "publishedAt": "2026-05-04T15:30:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/WebhooksGeminiAPI-hero.max-600x600.format-webp.webp\"&gt;Event-Driven Webhooks are a push-based notification system that eliminates the need for inefficient polling.",
       "tags": [
@@ -338,7 +539,7 @@
       "url": "https://www.technologyreview.com/2026/05/04/1134425/tailoring-ai-solutions-for-health-care-needs/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5586,
+      "score": 0.5257,
       "publishedAt": "2026-05-04T13:00:00.000Z",
       "summary": "The AI market is full of big promises of grand transformation. Health care is a prime target for those promises, beset as it is by financial pressures, labor shortages, and the growing burden of caring for an aging population. AI developers are targeting functions that vary widely, from curing cance",
       "tags": [
@@ -347,110 +548,18 @@
       "engagementScore": 0
     },
     {
-      "title": "Loop Earplugs Discount Codes: 40% Off",
-      "url": "https://www.wired.com/story/loop-earplugs-discount-code/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5536,
-      "publishedAt": "2026-05-05T05:00:00.000Z",
-      "summary": "Save on Loop Earplugs, including Quiet 2 and popular gift sets for improved sleep, focus, and comfort.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Meta Quest Promo Codes: $50 Off | May 2026",
-      "url": "https://www.wired.com/story/meta-quest-promo-code/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5536,
-      "publishedAt": "2026-05-05T05:00:00.000Z",
-      "summary": "Experience cutting-edge VR and save up to 20% with coupons for the latest games, Meta Quest 3, Ray-Ban AI glasses, and more deals.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "B&amp;H Photo Promo Codes and Deals This May",
-      "url": "https://www.wired.com/story/bh-photo-coupon/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5536,
-      "publishedAt": "2026-05-05T05:00:00.000Z",
-      "summary": "Enjoy top deals on cameras, computers, and tech essentials at B&amp;H Photo.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Google Chrome silently installs a 4 GB AI model on your device without consent",
-      "url": "https://www.thatprivacyguy.com/blog/chrome-silent-nano-install/",
+      "title": "AI Product Graveyard",
+      "url": "https://tooldirectory.ai/ai-graveyard",
       "feedSource": "Hacker News",
-      "source": "thatprivacyguy.com",
-      "score": 0.5366,
-      "publishedAt": "2026-05-05T07:34:55.000Z",
-      "summary": "Google Chrome is downloading a 4 GB Gemini Nano model onto users’ machines without consent, with no opt-in, no opt-out short of enterprise tooling, and an automatic re-download every time the user deletes it. The pattern is identical to the Anthropic Claude Desktop case I wrote about last month, but",
+      "source": "tooldirectory.ai",
+      "score": 0.5191,
+      "publishedAt": "2026-05-05T13:00:47.000Z",
+      "summary": "Curated list of AI tools and AI startups that have shut down, been acquired and folded, or had their domains lapse. Updated as our editorial team confirms each death.",
       "tags": [
-        "LLM",
-        "Dev Tools"
+        "Dev Tools",
+        "Industry"
       ],
-      "engagementScore": 268
-    },
-    {
-      "title": "OpenAI’s president does ‘all the things,’ except answer a question",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/923684/musk-brockman-altman-openai-trial",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.528,
-      "publishedAt": "2026-05-05T00:12:35.000Z",
-      "summary": "The strongest witness for Elon Musk's case against OpenAI so far has been Greg Brockman's journal. Brockman himself is running as a close second. Brockman was called to the stand in a rather unusual way - he was cross-examined first, followed by a direct examination - and he had some serious high sc",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
-      "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5246,
-      "publishedAt": "2026-05-04T23:35:13.000Z",
-      "summary": "Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product, ChatGPT. In 2024, Musk filed a lawsuit accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profits",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Train Your Own LLM from Scratch",
-      "url": "https://github.com/angelos-p/llm-from-scratch",
-      "feedSource": "Hacker News",
-      "source": "github.com",
-      "score": 0.5196,
-      "publishedAt": "2026-05-05T04:09:17.000Z",
-      "summary": "Contribute to angelos-p/llm-from-scratch development by creating an account on GitHub.",
-      "tags": [
-        "LLM",
-        "Open Source"
-      ],
-      "engagementScore": 266
-    },
-    {
-      "title": "How the internet’s favorite squirrel dad made the hottest camera app of 2026",
-      "url": "https://www.theverge.com/tech/921690/dualshot-recorder-iphone-camera-app-derrick-downey-jr",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5135,
-      "publishedAt": "2026-05-04T21:30:16.000Z",
-      "summary": "It's not hyperbole to call DualShot Recorder an overnight sensation. It took only 12 hours from the time it was released to hit number one on the App Store's list of top paid apps. It was a surprise success - but what's even more surprising is the app's origin story: it all started with a [&#8230;]",
-      "tags": [
-        "Open Source"
-      ],
-      "engagementScore": 0
+      "engagementScore": 170
     },
     {
       "title": "Introducing Advanced Account Security",
@@ -534,84 +643,18 @@
       "engagementScore": 0
     },
     {
-      "title": "Y Combinator's Stake in OpenAI (0.6%?)",
-      "url": "https://daringfireball.net/2026/05/y_combinators_stake_in_openai",
+      "title": "Train Your Own LLM from Scratch",
+      "url": "https://github.com/angelos-p/llm-from-scratch",
       "feedSource": "Hacker News",
-      "source": "daringfireball.net",
-      "score": 0.5085,
-      "publishedAt": "2026-05-05T00:09:01.000Z",
-      "summary": "The fact that Paul Graham personally has billions of dollars at stake with OpenAI doesn’t mean that his public opinion on Sam Altman’s trustworthiness and leadership is invalid. But it certainly seems like the sort of thing that ought to be disclosed when quoting Graham as an Altman character refere",
+      "source": "github.com",
+      "score": 0.5055,
+      "publishedAt": "2026-05-05T04:09:17.000Z",
+      "summary": "Contribute to angelos-p/llm-from-scratch development by creating an account on GitHub.",
       "tags": [
         "LLM",
-        "Industry"
+        "Open Source"
       ],
-      "engagementScore": 335
-    },
-    {
-      "title": "The creator of Roomba is back with a furry robot companion",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/922947/roomba-creator-new-robot-familiar-machines-magic-ai-launch",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5056,
-      "publishedAt": "2026-05-04T20:01:21.000Z",
-      "summary": "Colin Angle, the maker of the Roomba and the man who helped put 50 million household robots into people's homes, is back with a new robot. But this one is designed as a companion, not a cleaner. The first robot from Angle's new company, Familiar Machines &#38; Magic, is a dog-sized robotic pet that",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "All the evidence revealed so far in Musk v. Altman",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/920775/evidence-exhibits-elon-musk-sam-altman-openai-trial",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4928,
-      "publishedAt": "2026-05-04T17:38:06.000Z",
-      "summary": "The Musk v. Altman trial is underway, and that means exhibits, or the evidence to be presented in court, are being revealed piece by piece. So far, email exchanges, photos, and corporate documents are circulating from the earliest days of OpenAI - and from before the AI lab even had a name. Some hig",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Hand Drawn QR Codes",
-      "url": "https://sethmlarson.dev/hand-drawn-qr-codes",
-      "feedSource": "Hacker News",
-      "source": "sethmlarson.dev",
-      "score": 0.4899,
-      "publishedAt": "2026-05-05T04:02:01.000Z",
-      "summary": "I really like QR codes. Recently I purchased a new sticky-note-like\npad from a new local stationery store in Minneapolis.\nThe sheets have a 10x10 grid and 2x10 grid. I knew what I wanted to…",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 119
-    },
-    {
-      "title": "Agent Skills",
-      "url": "https://addyosmani.com/blog/agent-skills/",
-      "feedSource": "Hacker News",
-      "source": "addyosmani.com",
-      "score": 0.4879,
-      "publishedAt": "2026-05-04T21:40:42.000Z",
-      "summary": "AI coding agents take the shortest path to done, which usually means skipping the specs, tests, and reviews that make software reliable at scale. Agent Skill…",
-      "tags": [
-        "Agents",
-        "Dev Tools"
-      ],
-      "engagementScore": 264
-    },
-    {
-      "title": "AI music is flooding streaming services — but who wants it?",
-      "url": "https://www.theverge.com/column/921599/ai-music-is-flooding-streaming-services-but-who-wants-it",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4849,
-      "publishedAt": "2026-05-04T16:09:31.000Z",
-      "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on how AI is changing music and the music industry, follow Terrence O'Brien. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started The use of g",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
+      "engagementScore": 383
     },
     {
       "title": "Enabling a new model for healthcare with AI co-clinician",
@@ -649,46 +692,6 @@
       "summary": "Google’s new distributed architecture keeps AI training runs on track across distant data centers, with exceptional efficiency – even when hardware fails.",
       "tags": [
         "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Partnering with industry leaders to accelerate AI transformation",
-      "url": "https://deepmind.google/blog/partnering-with-industry-leaders-to-accelerate-ai-transformation/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-04-21T14:54:15.000Z",
-      "summary": "Google DeepMind partners with global consultancies to bring the power of frontier AI to organizations around the world.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
-      "url": "https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-04-15T16:03:19.000Z",
-      "summary": "Our newest audio model introduces granular audio tags that give you precise control to direct AI speech for expressive audio generation.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Gemini Robotics-ER 1.6: Powering real-world robotics tasks through enhanced embodied reasoning",
-      "url": "https://deepmind.google/blog/gemini-robotics-er-1-6/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-04-13T15:52:13.000Z",
-      "summary": "Gemini Robotics ER 1.6: Enhancing spatial reasoning and multi-view understanding for autonomous robotics.",
-      "tags": [
-        "LLM",
-        "Agents"
       ],
       "engagementScore": 0
     }
