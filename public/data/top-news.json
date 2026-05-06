@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-06T14:24:48.764Z",
+  "updatedAt": "2026-05-06T16:46:02.859Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,39 +8,66 @@
   ],
   "items": [
     {
+      "title": "Higher usage limits for Claude and a compute deal with SpaceX",
+      "url": "https://www.anthropic.com/news/higher-limits-spacex",
+      "feedSource": "Hacker News",
+      "source": "anthropic.com",
+      "score": 1.0062,
+      "publishedAt": "2026-05-06T16:17:33.000Z",
+      "summary": "",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 30
+    },
+    {
       "title": "Agents for financial services and insurance",
       "url": "https://www.anthropic.com/news/finance-agents",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.9543,
+      "score": 0.9378,
       "publishedAt": "2026-05-05T15:05:47.000Z",
-      "summary": "We’re releasing ten new Cowork and Claude Code plugins, integrations with the Microsoft 365 suite, new connectors, and an MCP app for financial services and insurance organizations.",
+      "summary": "",
+      "tags": [
+        "Agents"
+      ],
+      "engagementScore": 251
+    },
+    {
+      "title": "How frontier enterprises are building an AI advantage",
+      "url": "https://openai.com/index/introducing-b2b-signals",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.9151,
+      "publishedAt": "2026-05-06T00:00:00.000Z",
+      "summary": "OpenAI’s B2B Signals research shows how frontier enterprises deepen AI adoption, scale Codex-powered agentic workflows, and build durable competitive advantage.",
       "tags": [
         "LLM",
         "Agents",
+        "Research",
         "Dev Tools"
       ],
-      "engagementScore": 248
+      "engagementScore": 0
     },
     {
       "title": "GPT‑5.5 Instant",
       "url": "https://openai.com/index/gpt-5-5-instant/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.9084,
+      "score": 0.8919,
       "publishedAt": "2026-05-05T17:02:23.000Z",
       "summary": "GPT-5.5 Instant updates ChatGPT’s default model with smarter, more accurate answers, reduced hallucinations, and improved personalization controls.",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 82
+      "engagementScore": 83
     },
     {
       "title": "How OpenAI delivers low-latency voice AI at scale",
       "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.8508,
+      "score": 0.8336,
       "publishedAt": "2026-05-04T19:42:47.000Z",
       "summary": "How OpenAI rebuilt its WebRTC stack to power real-time Voice AI with low latency, global scale, and seamless conversational turn-taking.",
       "tags": [
@@ -53,7 +80,7 @@
       "url": "https://arxiv.org/abs/2605.00839",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8414,
+      "score": 0.8253,
       "publishedAt": "2026-05-06T04:00:00.000Z",
       "summary": "arXiv:2605.00839v1 Announce Type: new \nAbstract: The evolution of artificial intelligence (AI) and machine learning (ML) is reshaping smart manufacturing by providing new capabilities for efficiency, adaptability, and autonomy across industrial value chains. However, the deployment of AI and ML in i",
       "tags": [
@@ -67,7 +94,7 @@
       "url": "https://arxiv.org/abs/2605.00841",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8414,
+      "score": 0.8253,
       "publishedAt": "2026-05-06T04:00:00.000Z",
       "summary": "arXiv:2605.00841v1 Announce Type: new \nAbstract: This study presents a novel, AI-driven framework for assessing Environmental, Social, and Governance (ESG) performance in European small and medium-sized enterprises (SMEs). An initial phase established expert-validated ESG baseline scores from a subs",
       "tags": [
@@ -81,7 +108,7 @@
       "url": "https://arxiv.org/abs/2605.00842",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8414,
+      "score": 0.8253,
       "publishedAt": "2026-05-06T04:00:00.000Z",
       "summary": "arXiv:2605.00842v1 Announce Type: new \nAbstract: Emergent misalignment, where fine-tuning on narrow, non-harmful tasks induces harmful behaviors, poses a key challenge for AI safety in LLMs. Despite growing empirical evidence, its underlying mechanism remains unclear. To uncover the reason behind th",
       "tags": [
@@ -96,7 +123,7 @@
       "url": "https://arxiv.org/abs/2605.00846",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8414,
+      "score": 0.8253,
       "publishedAt": "2026-05-06T04:00:00.000Z",
       "summary": "arXiv:2605.00846v1 Announce Type: new \nAbstract: Clinical diagnosis requires answers that are accurate, verifiable, and explicitly grounded in official guidelines. While large language models excel at natural language processing, their tendency to hallucinate undermines their utility in high-stakes",
       "tags": [
@@ -111,7 +138,7 @@
       "url": "https://arxiv.org/abs/2605.00909",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8414,
+      "score": 0.8253,
       "publishedAt": "2026-05-06T04:00:00.000Z",
       "summary": "arXiv:2605.00909v1 Announce Type: new \nAbstract: The time-consuming formation process critically impacts the longevity of sodium-ion coin cells and End Of Life (EOL) performance. This study aims to optimize formation protocols for duration efficiency, targeting high-performance outcomes while minimi",
       "tags": [
@@ -124,7 +151,7 @@
       "url": "https://arxiv.org/abs/2605.01030",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8414,
+      "score": 0.8253,
       "publishedAt": "2026-05-06T04:00:00.000Z",
       "summary": "arXiv:2605.01030v2 Announce Type: new \nAbstract: We present a machine-checked formalization of structurally governed AI workflow architectures and prove that effect-level governance can be imposed without reducing internal computational expressivity. Using Interaction Trees in Rocq 8.19, we define a",
       "tags": [
@@ -137,7 +164,7 @@
       "url": "https://arxiv.org/abs/2605.01032",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8414,
+      "score": 0.8253,
       "publishedAt": "2026-05-06T04:00:00.000Z",
       "summary": "arXiv:2605.01032v2 Announce Type: new \nAbstract: We present an algebraic semantics for governed execution in which governance is axiomatized, compositional, and coterminous with expressibility. The framework, mechanized in 32 Rocq modules (~12,000 lines, 454 theorems, 0 admitted), is built on intera",
       "tags": [
@@ -150,7 +177,7 @@
       "url": "https://arxiv.org/abs/2605.01100",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8414,
+      "score": 0.8253,
       "publishedAt": "2026-05-06T04:00:00.000Z",
       "summary": "arXiv:2605.01100v1 Announce Type: new \nAbstract: This work presents a knowledge-driven decision-support system that integrates structured defect knowledge with LLM-based reasoning to provide explainable defect diagnosis and mitigation guidance in manufacturing, using LPBF as a representative, safety",
       "tags": [
@@ -161,11 +188,39 @@
       "engagementScore": 0
     },
     {
+      "title": "GLM-5V-Turbo: Toward a Native Foundation Model for Multimodal Agents",
+      "url": "https://arxiv.org/abs/2604.26752",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.8144,
+      "publishedAt": "2026-05-05T17:52:31.000Z",
+      "summary": "We present GLM-5V-Turbo, a step toward native foundation models for multimodal agents. As foundation models are increasingly deployed in real environments, agentic capability depends not only on language reasoning, but also on the ability to perceive, interpret, and act over heterogeneous contexts s",
+      "tags": [
+        "Agents",
+        "Vision"
+      ],
+      "engagementScore": 157
+    },
+    {
+      "title": "Unlocking large scale AI training networks with MRC (Multipath Reliable Connection)",
+      "url": "https://openai.com/index/mrc-supercomputer-networking",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.813,
+      "publishedAt": "2026-05-05T10:00:00.000Z",
+      "summary": "OpenAI introduces MRC (Multipath Reliable Connection), a new supercomputer networking protocol released via OCP to improve resilience and performance in large-scale AI training clusters.",
+      "tags": [
+        "LLM",
+        "Open Source"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "GPT-5.5 Instant System Card",
       "url": "https://openai.com/index/gpt-5-5-instant-system-card",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8302,
+      "score": 0.813,
       "publishedAt": "2026-05-05T10:00:00.000Z",
       "summary": "GPT‑5.5 Instant is our latest Instant model, and explained in our blog⁠. The comprehensive safety mitigation approach for this model is similar to previous models in this series, but this is the first Instant model that we are treating as High capability in our Cybersecurity and Biological & Chemica",
       "tags": [
@@ -179,7 +234,7 @@
       "url": "https://openai.com/index/gpt-5-5-instant",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8302,
+      "score": 0.813,
       "publishedAt": "2026-05-05T10:00:00.000Z",
       "summary": "GPT-5.5 Instant updates ChatGPT’s default model with smarter, more accurate answers, reduced hallucinations, and improved personalization controls.",
       "tags": [
@@ -188,39 +243,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Unlocking large scale AI training networks with MRC (Multipath Reliable Connection)",
-      "url": "https://openai.com/index/mrc-supercomputer-networking",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.8302,
-      "publishedAt": "2026-05-05T10:00:00.000Z",
-      "summary": "OpenAI introduces MRC (Multipath Reliable Connection), a new supercomputer networking protocol released via OCP to improve resilience and performance in large-scale AI training clusters.",
-      "tags": [
-        "LLM",
-        "Open Source"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "GLM-5V-Turbo: Toward a Native Foundation Model for Multimodal Agents",
-      "url": "https://arxiv.org/abs/2604.26752",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.8301,
-      "publishedAt": "2026-05-05T17:52:31.000Z",
-      "summary": "We present GLM-5V-Turbo, a step toward native foundation models for multimodal agents. As foundation models are increasingly deployed in real environments, agentic capability depends not only on language reasoning, but also on the ability to perceive, interpret, and act over heterogeneous contexts s",
-      "tags": [
-        "Agents",
-        "Vision"
-      ],
-      "engagementScore": 156
-    },
-    {
       "title": "New ways to buy ChatGPT ads",
       "url": "https://openai.com/index/new-ways-to-buy-chatgpt-ads",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7573,
+      "score": 0.7401,
       "publishedAt": "2026-05-05T00:00:00.000Z",
       "summary": "OpenAI expands ChatGPT ads with a beta self-serve Ads Manager, CPC bidding, and enhanced measurement tools—built to protect privacy and keep conversations separate from ads.",
       "tags": [
@@ -234,7 +261,7 @@
       "url": "https://openai.com/index/openai-pwc-finance-collaboration",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7354,
+      "score": 0.7182,
       "publishedAt": "2026-05-04T21:00:00.000Z",
       "summary": "OpenAI and PwC are partnering to help enterprises use AI agents to automate finance workflows, improve forecasting, strengthen controls, and modernize the CFO function.",
       "tags": [
@@ -248,7 +275,7 @@
       "url": "https://huggingface.co/blog/open-asr-leaderboard-private-data",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.704,
+      "score": 0.6891,
       "publishedAt": "2026-05-06T00:00:00.000Z",
       "summary": "",
       "tags": [
@@ -257,11 +284,26 @@
       "engagementScore": 0
     },
     {
+      "title": "5 gardening tips you can try right in Search",
+      "url": "https://blog.google/products-and-platforms/products/search/gardening-tips/",
+      "feedSource": "Google AI",
+      "source": "blog.google",
+      "score": 0.6814,
+      "publishedAt": "2026-05-06T16:00:00.000Z",
+      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/01-Google_Gardening_Header.max-600x600.format-webp.webp\"&gt;We’ve rounded up the top ways you can use Google’s AI Mode, Search Live and Shopping to help your plants thrive.",
+      "tags": [
+        "RAG",
+        "Vision",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "The Download: seafloor science and military chatbots",
       "url": "https://www.technologyreview.com/2026/05/06/1136917/the-download-seafloor-science-military-ai-chatbots/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6728,
+      "score": 0.6591,
       "publishedAt": "2026-05-06T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Inexpensive seafloor-hopping submersibles could stoke deep-sea science—and mining Last week, two oblong neon submersibles started to descend nearly 6,",
       "tags": [
@@ -274,20 +316,20 @@
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/",
       "feedSource": "Hacker News",
       "source": "blog.google",
-      "score": 0.6655,
+      "score": 0.6534,
       "publishedAt": "2026-05-05T16:14:17.000Z",
       "summary": "An overview of how Multi-Token Prediction (MTP) drafters are making Gemma 4 models up to 3x faster at inference.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 615
+      "engagementScore": 638
     },
     {
       "title": "Transformers Are Inherently Succinct (2025)",
       "url": "https://arxiv.org/abs/2510.19315",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.634,
+      "score": 0.618,
       "publishedAt": "2026-05-04T20:03:08.000Z",
       "summary": "We propose succinctness as a measure of the expressive power of a transformer in describing a concept. To this end, we prove that transformers are highly expressive in that they can represent formal languages substantially more succinctly than standard representations of formal languages like finite",
       "tags": [
@@ -296,15 +338,41 @@
       "engagementScore": 61
     },
     {
-      "title": "How OpenAI delivers low-latency voice AI at scale",
-      "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5823,
-      "publishedAt": "2026-05-04T00:00:00.000Z",
-      "summary": "How OpenAI rebuilt its WebRTC stack to power real-time Voice AI with low latency, global scale, and seamless conversational turn-taking.",
+      "title": "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
+      "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5826,
+      "publishedAt": "2026-05-06T16:21:33.000Z",
+      "summary": "Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product, ChatGPT. In 2024, Musk filed a lawsuit accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profits",
       "tags": [
         "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Hackers Hate AI Slop Even More Than You Do",
+      "url": "https://www.wired.com/story/cybercriminals-are-complaining-about-ai-slop-flooding-their-forums/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5797,
+      "publishedAt": "2026-05-06T15:49:12.000Z",
+      "summary": "It's not just you. Scammers, hackers, and other cybercriminals are complaining about “AI shit” flooding platforms where they discuss cyberattacks and other illegal activity.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Best Carry-On Suitcases (2026): Away, Rimowa, Tumi",
+      "url": "https://www.wired.com/story/best-carry-on-suitcases/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5711,
+      "publishedAt": "2026-05-06T14:13:19.000Z",
+      "summary": "I feel about luggage carousels the same way I feel about head lice: avoid at all costs. These are the best carry-on suitcases for those who never want to check a bag again.",
+      "tags": [
+        "AI"
       ],
       "engagementScore": 0
     },
@@ -313,7 +381,7 @@
       "url": "https://www.wired.com/story/a-library-dedicated-solely-to-the-epstein-files-is-opening-in-new-york/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5799,
+      "score": 0.5673,
       "publishedAt": "2026-05-06T13:30:00.000Z",
       "summary": "The Institute for Primary Facts has compiled more than 3.5 million pages of the Epstein files for public display at the newly opened Donald J. Trump and Jeffrey Epstein Memorial Reading Room.",
       "tags": [
@@ -322,11 +390,24 @@
       "engagementScore": 0
     },
     {
+      "title": "How OpenAI delivers low-latency voice AI at scale",
+      "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.5651,
+      "publishedAt": "2026-05-04T00:00:00.000Z",
+      "summary": "How OpenAI rebuilt its WebRTC stack to power real-time Voice AI with low latency, global scale, and seamless conversational turn-taking.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Google&#8217;s AI search summaries will now quote Reddit",
       "url": "https://www.theverge.com/tech/924993/google-ai-search-mode-overviews-update-reddit-links",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5775,
+      "score": 0.5649,
       "publishedAt": "2026-05-06T13:03:37.000Z",
       "summary": "Google is updating its AI Search features to make it easier for users to find information from sources they know and trust. One of the more notable changes introduces \"a preview of perspectives\" from firsthand sources like social media, Reddit, and other web forums, effectively linking your search q",
       "tags": [
@@ -339,7 +420,7 @@
       "url": "https://www.wired.com/story/zest-maps-is-the-second-coming-of-foursquare/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5772,
+      "score": 0.5646,
       "publishedAt": "2026-05-06T13:00:00.000Z",
       "summary": "This new app tracks every time you swipe your card at a cool restaurant—and tells all your friends.",
       "tags": [
@@ -352,7 +433,7 @@
       "url": "https://www.theverge.com/tech/924931/microsoft-office-copilot-windows-reorg-shuffle",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5754,
+      "score": 0.5628,
       "publishedAt": "2026-05-06T12:39:43.000Z",
       "summary": "Microsoft's LinkedIn chief, Ryan Roslansky, took on an expanded role at the company as head of Office last year, and he's now getting more responsibilities as part of the latest leadership reshuffle inside Microsoft. Sources tell me that the Microsoft Teams organization is moving to report to Roslan",
       "tags": [
@@ -365,7 +446,7 @@
       "url": "https://www.wired.com/gallery/best-smart-notebooks-and-smart-pens/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.575,
+      "score": 0.5624,
       "publishedAt": "2026-05-06T12:35:00.000Z",
       "summary": "These nifty tools combine the ease of jotting notes by hand with the power of saving them digitally.",
       "tags": [
@@ -378,7 +459,7 @@
       "url": "https://www.wired.com/review/remarkable-paper-pure/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.572,
+      "score": 0.5594,
       "publishedAt": "2026-05-06T12:02:00.000Z",
       "summary": "After six years, the ReMarkable 2 gets a replacement in the form of the ReMarkable Paper Pure.",
       "tags": [
@@ -391,7 +472,7 @@
       "url": "https://www.wired.com/gallery/best-security-cameras/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5693,
+      "score": 0.5568,
       "publishedAt": "2026-05-06T11:32:00.000Z",
       "summary": "Cameras can offer peace of mind, but choose carefully before inviting one into your home.",
       "tags": [
@@ -404,35 +485,9 @@
       "url": "https://www.wired.com/story/best-webcams/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5667,
+      "score": 0.5541,
       "publishedAt": "2026-05-06T11:02:00.000Z",
       "summary": "I tested all the major webcams across the price spectrum in attempts to find the very best. Here's what I learned.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Apple Will Pay $250 Million to Settle Lawsuit Over Siri's AI Features",
-      "url": "https://www.wired.com/story/apple-will-pay-dollar250-million-to-settle-lawsuit-over-siris-ai-features/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5649,
-      "publishedAt": "2026-05-06T10:41:37.000Z",
-      "summary": "If you bought an iPhone 15 or 16 in the US, you could be set to pocket up to $95 per device as part of the settlement.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Focal Mu-So Hekla Soundbar Review: Dolby Atmos With 1 Speaker",
-      "url": "https://www.wired.com/review/focal-muso-hekla/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5638,
-      "publishedAt": "2026-05-06T10:30:00.000Z",
-      "summary": "The Focal Mu-so Hekla can almost replace a multi-speaker surround-sound setup.",
       "tags": [
         "AI"
       ],
@@ -443,7 +498,7 @@
       "url": "https://www.theverge.com/tech/924933/google-chrome-4gb-gemini-nano-ai-features",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5623,
+      "score": 0.5497,
       "publishedAt": "2026-05-06T10:13:09.000Z",
       "summary": "Google Chrome may be taking up more of your storage than expected thanks to a large on-device AI model file that, in some cases, is being automatically downloaded to the browser's system folders. Users who have noticed unexplained drops in their available desktop device storage are now discovering t",
       "tags": [
@@ -456,7 +511,7 @@
       "url": "https://blog.google/innovation-and-ai/technology/ai/future-vision-film-competition-xprize/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.5552,
+      "score": 0.5414,
       "publishedAt": "2026-05-05T16:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/futurevisionxprize_social.max-600x600.format-webp.webp\"&gt;Google is partnering with XPRIZE and Range Media Partners on the $3.5 million Future Vision film competition.",
       "tags": [
@@ -471,36 +526,9 @@
       "url": "https://www.technologyreview.com/2026/05/05/1136848/the-download-musk-openai-altman-trial-ai-democracy/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5328,
+      "score": 0.5191,
       "publishedAt": "2026-05-05T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Week one of the Musk v. Altman trial: what it was like in the room Two of the most powerful figures in AI—Sam Altman and Elon Musk—are in the middle o",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Agents can now create Cloudflare accounts, buy domains, and deploy",
-      "url": "https://blog.cloudflare.com/agents-stripe-projects/",
-      "feedSource": "Hacker News",
-      "source": "blog.cloudflare.com",
-      "score": 0.5179,
-      "publishedAt": "2026-05-06T03:10:33.000Z",
-      "summary": "Starting today, agents can now be Cloudflare customers. They can create a Cloudflare account, start a paid subscription, register a domain, and get back an API token to deploy code right away. Humans can be in the loop to grant permission, but there’s no need to go to the dashboard, copy and paste A",
-      "tags": [
-        "Agents",
-        "Dev Tools"
-      ],
-      "engagementScore": 468
-    },
-    {
-      "title": "A blueprint for using AI to strengthen democracy",
-      "url": "https://www.technologyreview.com/2026/05/05/1136843/ai-democracy-blueprint/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.5143,
-      "publishedAt": "2026-05-05T09:00:00.000Z",
-      "summary": "Every few centuries, changes in how information moves reshape how societies govern themselves. The printing press spread vernacular literacy, helping give rise to the Reformation and, eventually, representative government. The telegraph made it possible to administer vast nations like the US, accele",
       "tags": [
         "AI"
       ],
@@ -520,52 +548,40 @@
       "engagementScore": 0
     },
     {
-      "title": "Where the goblins came from",
-      "url": "https://openai.com/index/where-the-goblins-came-from",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5124,
-      "publishedAt": "2026-04-29T20:00:00.000Z",
-      "summary": "How goblin outputs spread in AI models: timeline, root cause, and fixes behind personality-driven quirks in GPT-5 behavior.",
+      "title": "Agents can now create Cloudflare accounts, buy domains, and deploy",
+      "url": "https://blog.cloudflare.com/agents-stripe-projects/",
+      "feedSource": "Hacker News",
+      "source": "blog.cloudflare.com",
+      "score": 0.511,
+      "publishedAt": "2026-05-06T03:10:33.000Z",
+      "summary": "Starting today, agents can now be Cloudflare customers. They can create a Cloudflare account, start a paid subscription, register a domain, and get back an API token to deploy code right away. Humans can be in the loop to grant permission, but there’s no need to go to the dashboard, copy and paste A",
       "tags": [
-        "LLM"
+        "Agents",
+        "Dev Tools"
       ],
-      "engagementScore": 0
+      "engagementScore": 531
     },
     {
-      "title": "Ombudsman column: The Pentagon is trying to silence me",
-      "url": "https://www.stripes.com/opinion/2026-04-23/stripes-former-ombudsman-pentagon-trying-to-silence-21465037.html",
-      "feedSource": "Hacker News",
-      "source": "stripes.com",
-      "score": 0.5009,
-      "publishedAt": "2026-05-06T03:24:49.000Z",
-      "summary": "",
+      "title": "A blueprint for using AI to strengthen democracy",
+      "url": "https://www.technologyreview.com/2026/05/05/1136843/ai-democracy-blueprint/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.5006,
+      "publishedAt": "2026-05-05T09:00:00.000Z",
+      "summary": "Every few centuries, changes in how information moves reshape how societies govern themselves. The printing press spread vernacular literacy, helping give rise to the Reformation and, eventually, representative government. The telegraph made it possible to administer vast nations like the US, accele",
       "tags": [
         "AI"
       ],
-      "engagementScore": 283
+      "engagementScore": 0
     },
     {
       "title": "Google Home&#8217;s Gemini AI can handle more complicated requests",
       "url": "https://www.theverge.com/tech/924755/google-home-gemini-3-1-upgrade",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4957,
+      "score": 0.4832,
       "publishedAt": "2026-05-05T21:46:04.000Z",
       "summary": "Google Home users can now ask Gemini to complete more complex, multi-step tasks and combine multiple tasks in a single command. Google has updated Gemini for Home to Gemini 3.1, which it says will improve the smart home assistant's ability to interpret and act on requests. The upgrade will also make",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
-      "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4886,
-      "publishedAt": "2026-05-05T20:26:22.000Z",
-      "summary": "Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product, ChatGPT. In 2024, Musk filed a lawsuit accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profits",
       "tags": [
         "LLM"
       ],
@@ -576,7 +592,7 @@
       "url": "https://www.theverge.com/games/924551/microsoft-xbox-ceo-copilot-ai-asha-sharma",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4862,
+      "score": 0.4736,
       "publishedAt": "2026-05-05T19:58:45.000Z",
       "summary": "Xbox is \"winding down Copilot on mobile\" and \"will stop development of Copilot on console,\" new Xbox CEO Asha Sharma announced on Tuesday. The move follows Sharma's reorganization of the Xbox platform team earlier on Tuesday, which added executives from Microsoft's CoreAI team - where Sharma worked",
       "tags": [
@@ -590,7 +606,7 @@
       "url": "https://www.theverge.com/tech/924515/apple-intelligence-third-party-chatbot-extensions-ios-27",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.485,
+      "score": 0.4724,
       "publishedAt": "2026-05-05T19:45:30.000Z",
       "summary": "The next update to Apple's operating systems could allow users to choose their preferred AI model for running Apple Intelligence. According to Bloomberg's Mark Gurman, Apple is planning to allow third-party chatbots to power its AI features system-wide in iOS 27, iPadOS 27, and macOS 27, all expecte",
       "tags": [
@@ -603,7 +619,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/924225/openai-chatgpt-default-model-gpt-5-5-instant",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4757,
+      "score": 0.4631,
       "publishedAt": "2026-05-05T18:01:24.000Z",
       "summary": "OpenAI's newest default model for ChatGPT might not make stuff up as much. Hallucinations have been an ongoing problem for AI models, but OpenAI says its new GPT-5.5 Instant model has \"significant improvements in factuality across the board.\" The company claims that, based on \"internal evaluations,\"",
       "tags": [
@@ -661,19 +677,6 @@
       "summary": "Google DeepMind partners with global consultancies to bring the power of frontier AI to organizations around the world.",
       "tags": [
         "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
-      "url": "https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-04-15T16:03:19.000Z",
-      "summary": "Our newest audio model introduces granular audio tags that give you precise control to direct AI speech for expressive audio generation.",
-      "tags": [
-        "LLM"
       ],
       "engagementScore": 0
     }
