@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-08T07:47:46.946Z",
+  "updatedAt": "2026-05-08T10:27:10.725Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,21 +12,21 @@
       "url": "https://www.anthropic.com/research/natural-language-autoencoders",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 1.0253,
+      "score": 1.011,
       "publishedAt": "2026-05-07T17:54:02.000Z",
       "summary": "Turning Claude’s thoughts into text",
       "tags": [
         "LLM",
         "Dev Tools"
       ],
-      "engagementScore": 259
+      "engagementScore": 284
     },
     {
       "title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
       "url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9003,
+      "score": 0.881,
       "publishedAt": "2026-05-07T13:00:00.000Z",
       "summary": "OpenAI expands Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber, helping verified defenders accelerate vulnerability research and protect critical infrastructure.",
       "tags": [
@@ -36,11 +36,27 @@
       "engagementScore": 0
     },
     {
+      "title": "AlphaEvolve: Gemini-powered coding agent scaling impact across fields",
+      "url": "https://deepmind.google/blog/alphaevolve-impact/",
+      "feedSource": "Hacker News",
+      "source": "deepmind.google",
+      "score": 0.87,
+      "publishedAt": "2026-05-07T15:02:20.000Z",
+      "summary": "Discover how AlphaEvolve optimizes algorithms for genomics, quantum physics, global infrastructure, and more to accelerate scientific progress and solve real-world challenges.",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Research",
+        "Dev Tools"
+      ],
+      "engagementScore": 295
+    },
+    {
       "title": "LCM: Lossless Context Management",
       "url": "https://arxiv.org/abs/2605.04050",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8864,
+      "score": 0.8683,
       "publishedAt": "2026-05-08T04:00:00.000Z",
       "summary": "arXiv:2605.04050v1 Announce Type: new \nAbstract: We introduce Lossless Context Management (LCM), a deterministic architecture for LLM memory that outperforms Claude Code on long-context tasks. When benchmarked using Opus 4.6, our LCM-augmented coding agent, Volt, achieves higher scores than Claude C",
       "tags": [
@@ -56,7 +72,7 @@
       "url": "https://arxiv.org/abs/2605.04100",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8864,
+      "score": 0.8683,
       "publishedAt": "2026-05-08T04:00:00.000Z",
       "summary": "arXiv:2605.04100v1 Announce Type: new \nAbstract: Off-policy temporal-difference (TD) learning with function approximation faces a structural tradeoff among stability, projection geometry, and variance control. Emphatic TD (ETD) improves the off-policy projection geometry through follow-on emphasis,",
       "tags": [
@@ -70,7 +86,7 @@
       "url": "https://arxiv.org/abs/2605.04169",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8864,
+      "score": 0.8683,
       "publishedAt": "2026-05-08T04:00:00.000Z",
       "summary": "arXiv:2605.04169v1 Announce Type: new \nAbstract: Surgical team performance arises from complex interactions between technical execution and non-technical skills, including communication and coordination dynamics. However, current surgical AI systems predominantly model visual workflow signals, lacki",
       "tags": [
@@ -84,7 +100,7 @@
       "url": "https://arxiv.org/abs/2605.04193",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8864,
+      "score": 0.8683,
       "publishedAt": "2026-05-08T04:00:00.000Z",
       "summary": "arXiv:2605.04193v1 Announce Type: new \nAbstract: Inductive Logic Programming (ILP) aims to learn interpretable first-order rules from data, but existing symbolic and neuro-symbolic approaches struggle to scale to noisy and probabilistic settings. Classical ILP relies on discrete combinatorial rule s",
       "tags": [
@@ -98,7 +114,7 @@
       "url": "https://arxiv.org/abs/2605.04227",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8864,
+      "score": 0.8683,
       "publishedAt": "2026-05-08T04:00:00.000Z",
       "summary": "arXiv:2605.04227v1 Announce Type: new \nAbstract: Procedural tasks with multiple ordered steps are ubiquitous in daily life. Recent advances in multimodal large language models (MLLMs) have enabled personal assistants that support daily activities. However, existing systems primarily provide reactive",
       "tags": [
@@ -113,7 +129,7 @@
       "url": "https://arxiv.org/abs/2605.04243",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8864,
+      "score": 0.8683,
       "publishedAt": "2026-05-08T04:00:00.000Z",
       "summary": "arXiv:2605.04243v1 Announce Type: new \nAbstract: Despite significant advances, large language models (LLMs) continue to exhibit brittle performance on complex temporal reasoning tasks. This failure mode is widely attributed to inherent deficits in autoregressive logical deduction. In this paper, we",
       "tags": [
@@ -127,7 +143,7 @@
       "url": "https://arxiv.org/abs/2605.04263",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8864,
+      "score": 0.8683,
       "publishedAt": "2026-05-08T04:00:00.000Z",
       "summary": "arXiv:2605.04263v1 Announce Type: new \nAbstract: We introduce PARSE (PArallel pRefix Speculative Engine), a speculative generation framework that accelerates large language model (LLM) inference by parallelizing prefix verification on a semantic level. Existing speculative decoding methods are funda",
       "tags": [
@@ -142,7 +158,7 @@
       "url": "https://arxiv.org/abs/2605.04312",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8864,
+      "score": 0.8683,
       "publishedAt": "2026-05-08T04:00:00.000Z",
       "summary": "arXiv:2605.04312v1 Announce Type: new \nAbstract: Static capabilities benchmarks suffer from saturation and contamination, making it difficult to track capabilities progress over time. We introduce Agent Island, a multiplayer simulation environment in which language-model agents compete in a game of",
       "tags": [
@@ -153,27 +169,11 @@
       "engagementScore": 0
     },
     {
-      "title": "AlphaEvolve: Gemini-powered coding agent scaling impact across fields",
-      "url": "https://deepmind.google/blog/alphaevolve-impact/",
-      "feedSource": "Hacker News",
-      "source": "deepmind.google",
-      "score": 0.8862,
-      "publishedAt": "2026-05-07T15:02:20.000Z",
-      "summary": "Discover how AlphaEvolve optimizes algorithms for genomics, quantum physics, global infrastructure, and more to accelerate scientific progress and solve real-world challenges.",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Research",
-        "Dev Tools"
-      ],
-      "engagementScore": 284
-    },
-    {
       "title": "Parloa builds service agents customers want to talk to",
       "url": "https://openai.com/index/parloa",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8857,
+      "score": 0.8664,
       "publishedAt": "2026-05-07T11:00:00.000Z",
       "summary": "Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliable, real-time interactions.",
       "tags": [
@@ -188,7 +188,7 @@
       "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8784,
+      "score": 0.8591,
       "publishedAt": "2026-05-07T10:00:00.000Z",
       "summary": "Explore new realtime voice models in the OpenAI API that can reason, translate, and transcribe speech, enabling more natural and intelligent voice experiences.",
       "tags": [
@@ -202,20 +202,20 @@
       "url": "https://www.anthropic.com/news/higher-limits-spacex",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.8746,
+      "score": 0.8554,
       "publishedAt": "2026-05-06T16:17:33.000Z",
       "summary": "We’ve raised Claude’s usage limits and agreed a new compute partnership with SpaceX that will substantially increase our capacity in the near term.",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 503
+      "engagementScore": 504
     },
     {
       "title": "Testing ads in ChatGPT",
       "url": "https://openai.com/index/testing-ads-in-chatgpt",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8055,
+      "score": 0.7862,
       "publishedAt": "2026-05-07T00:00:00.000Z",
       "summary": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
       "tags": [
@@ -228,7 +228,7 @@
       "url": "https://openai.com/index/introducing-trusted-contact-in-chatgpt",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8055,
+      "score": 0.7862,
       "publishedAt": "2026-05-07T00:00:00.000Z",
       "summary": "Introducing Trusted Contact in ChatGPT, an optional safety feature that notifies someone you trust if serious self-harm concerns are detected.",
       "tags": [
@@ -242,7 +242,7 @@
       "url": "https://openai.com/index/simplex",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8055,
+      "score": 0.7862,
       "publishedAt": "2026-05-07T00:00:00.000Z",
       "summary": "Simplex boosts software development with ChatGPT Enterprise and Codex, reducing design, build, and testing time while scaling AI-driven workflows.",
       "tags": [
@@ -252,11 +252,24 @@
       "engagementScore": 0
     },
     {
+      "title": "MedQA: Fine-Tuning a Clinical AI on AMD ROCm — No CUDA Required",
+      "url": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/medqa",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.779,
+      "publishedAt": "2026-05-08T07:54:18.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "ProgramBench: Can language models rebuild programs from scratch?",
       "url": "https://arxiv.org/abs/2605.03546",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.774,
+      "score": 0.7581,
       "publishedAt": "2026-05-07T03:46:15.000Z",
       "summary": "Turning ideas into full software projects from scratch has become a popular use case for language models. Agents are being deployed to seed, maintain, and grow codebases over extended periods with minimal human oversight. Such settings require models to make high-level software architecture decision",
       "tags": [
@@ -264,14 +277,40 @@
         "Agents",
         "Dev Tools"
       ],
-      "engagementScore": 141
+      "engagementScore": 147
+    },
+    {
+      "title": "Here’s how technology transformed babymaking",
+      "url": "https://www.technologyreview.com/2026/05/08/1136974/heres-how-technology-transformed-babymaking-ivf/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6774,
+      "publishedAt": "2026-05-08T09:00:00.000Z",
+      "summary": "Technology is changing the way we make babies. The pioneering work of the scientists who invented IVF led to the birth of the first “test tube baby” in 1978. We’ve come a long, long way since then. This week, I’ve been working on a piece about the cutting edge of IVF technologies and what’s coming&#",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "How OpenAI delivers low-latency voice AI at scale",
+      "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale/",
+      "feedSource": "Hacker News",
+      "source": "openai.com",
+      "score": 0.6381,
+      "publishedAt": "2026-05-04T19:42:47.000Z",
+      "summary": "How OpenAI rebuilt its WebRTC stack to power real-time Voice AI with low latency, global scale, and seamless conversational turn-taking.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 507
     },
     {
       "title": "Singular Bank helps bankers move fast with ChatGPT and Codex",
       "url": "https://openai.com/index/singular-bank",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6305,
+      "score": 0.6112,
       "publishedAt": "2026-05-06T00:00:00.000Z",
       "summary": "Singular Bank built Singularity, an internal assistant using ChatGPT and Codex to help bankers save 60–90 minutes daily on meeting prep, portfolio analysis, and follow-up.",
       "tags": [
@@ -285,7 +324,7 @@
       "url": "https://openai.com/index/uber",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6305,
+      "score": 0.6112,
       "publishedAt": "2026-05-06T00:00:00.000Z",
       "summary": "Uber uses OpenAI to power AI assistants and voice features that help drivers earn smarter and riders book faster across a global real-time marketplace.",
       "tags": [
@@ -294,11 +333,116 @@
       "engagementScore": 0
     },
     {
+      "title": "Billie Eilish Doesn't Know if There Will Ever Be Another Billie Eilish",
+      "url": "https://www.wired.com/story/billie-eilish-doesnt-know-if-there-will-ever-be-another-billie-eilish/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5837,
+      "publishedAt": "2026-05-08T10:15:00.000Z",
+      "summary": "In an interview with WIRED ahead of her new concert film Hit Me Hard and Soft: The Tour (Live in 3D), Billie Eilish talked about whether or not future artists will be able to leverage SoundCloud the way she did.",
+      "tags": [
+        "RAG"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "ChatGPT&#8217;s &#8216;Trusted Contact&#8217; will alert loved ones of safety concerns",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/925874/chatgpt-trusted-contact-emergency-self-harm-notification",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5832,
+      "publishedAt": "2026-05-08T10:10:09.000Z",
+      "summary": "OpenAI is launching an optional safety feature for ChatGPT that allows adult users to assign an emergency contact for mental health and safety concerns. Friends, family members, or caregivers designated as a \"Trusted Contact\" will be notified if OpenAI detects that a person may have discussed topics",
+      "tags": [
+        "LLM",
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "SpaceX has a $55 billion plan to build AI chips in Texas",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/926356/spacex-terafab-plant-cost-ai-chips",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5824,
+      "publishedAt": "2026-05-08T10:00:54.000Z",
+      "summary": "Elon Musk's plans to get into the AI chip manufacturing business are going to be costly. As the The New York Times and CNBC report, SpaceX is planning to invest at least $55 billion into its \"Terafab\" chip plant in Austin, Texas. That's according to the details of a public hearing notice filed in Gr",
+      "tags": [
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The New Wild West of AI Kids’ Toys",
+      "url": "https://www.wired.com/story/the-new-wild-west-of-ai-kids-toys/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5823,
+      "publishedAt": "2026-05-08T10:00:00.000Z",
+      "summary": "These cuddly, connected companions could disrupt everything from make-believe to bedtime stories. No wonder some lawmakers want them banned.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Apple&#8217;s AirPods with cameras for AI are apparently close to production",
+      "url": "https://www.theverge.com/tech/926376/apple-airpods-cameras-ai-production",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5822,
+      "publishedAt": "2026-05-08T09:59:04.000Z",
+      "summary": "Apple's rumored AirPods with cameras are nearing a stage where the company will test early mass production, Bloomberg's Mark Gurman reports. Currently, Apple testers are \"actively using\" prototypes that are in the design validation test stage, which is one step before the production validation test",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Best Cat Water Fountains of 2026: Petlibro, Petkit, Oneisall",
+      "url": "https://www.wired.com/gallery/the-best-cat-water-fountains/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5798,
+      "publishedAt": "2026-05-08T09:32:00.000Z",
+      "summary": "Ensuring your cat stays hydrated is one of the best ways to keep your pet healthy. The right pet water fountain can help.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Venom and Hot Peppers Offer a Key to Killing Resistant Bacteria",
+      "url": "https://www.wired.com/story/mexican-science-transforms-scorpion-venom-and-habanero-chile-into-antibiotics-against-resistant-bacteria/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.577,
+      "publishedAt": "2026-05-08T09:00:00.000Z",
+      "summary": "Researchers have developed three new antibiotics from scorpion venom and habanero peppers to combat tuberculosis and other drug-resistant pathogens.",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Meet Rassvet, Russia’s Answer to Starlink",
+      "url": "https://www.wired.com/story/meet-rassvet-russias-answer-to-starlink/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5743,
+      "publishedAt": "2026-05-08T08:30:00.000Z",
+      "summary": "With the launch of the first 16 satellites, Russia begins construction of a network for satellite internet that aims to cover the entire country by 2030. But getting there won’t be easy.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "The Download: the tech reshaping IVF and the rise of balcony solar",
       "url": "https://www.technologyreview.com/2026/05/07/1136956/the-download-ivf-tech-balcony-solar/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5714,
+      "score": 0.5559,
       "publishedAt": "2026-05-07T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. What’s next for IVF IVF has brought millions of babies into the world over the last four decades. But the process can still be slow, painful, and expe",
       "tags": [
@@ -311,7 +455,7 @@
       "url": "https://www.wired.com/story/canvas-hack-shinyhunters-ransomware-instructure/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.57,
+      "score": 0.5558,
       "publishedAt": "2026-05-08T05:02:40.000Z",
       "summary": "Thousands of schools around the US were paralyzed on Thursday after education tech firm Instructure shut down access to its Canvas platform following a breach by hackers going by the name ShinyHunters.",
       "tags": [
@@ -324,7 +468,7 @@
       "url": "https://www.wired.com/story/doordash-promo-code/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5698,
+      "score": 0.5556,
       "publishedAt": "2026-05-08T05:00:00.000Z",
       "summary": "Explore today’s top DoorDash promo codes for $25 off your first order, free delivery, and 50% off DashPass for students and select users.",
       "tags": [
@@ -337,12 +481,11 @@
       "url": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.5633,
+      "score": 0.5465,
       "publishedAt": "2026-05-06T19:06:55.000Z",
-      "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "summary": "",
       "tags": [
-        "LLM",
-        "Open Source"
+        "LLM"
       ],
       "engagementScore": 0
     },
@@ -351,22 +494,9 @@
       "url": "https://www.technologyreview.com/2026/05/07/1136933/balcony-solar-boom/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5588,
+      "score": 0.5433,
       "publishedAt": "2026-05-07T10:00:00.000Z",
       "summary": "Dozens of US states are considering legislation to allow people to install plug-in solar systems, often called balcony solar. These small arrays require little to no setup and could help cut emissions and power bills. Balcony solar is already popular in Europe, and proponents say that the systems co",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "What’s next for IVF",
-      "url": "https://www.technologyreview.com/2026/05/07/1136946/whats-next-for-ivf-ai-robot-pgt-gene-editing/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.5534,
-      "publishedAt": "2026-05-07T09:04:50.000Z",
-      "summary": "MIT Technology Review’s What’s Next series looks across industries, trends, and technologies to give you a first look at the future. You can read the rest of them here. Forty-eight years ago this July, Louise Joy Brown became the world’s first person born with the help of in vitro fertilization. Mil",
       "tags": [
         "AI"
       ],
@@ -377,7 +507,7 @@
       "url": "https://www.wired.com/story/microsoft-executives-discuss-openai-sam-altman-2018/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5522,
+      "score": 0.538,
       "publishedAt": "2026-05-08T01:42:14.000Z",
       "summary": "Leaders at the tech giant were skeptical of OpenAI—but wary of pushing it into the arms of Amazon, according to emails dating back to 2018.",
       "tags": [
@@ -386,11 +516,24 @@
       "engagementScore": 0
     },
     {
+      "title": "What’s next for IVF",
+      "url": "https://www.technologyreview.com/2026/05/07/1136946/whats-next-for-ivf-ai-robot-pgt-gene-editing/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.5379,
+      "publishedAt": "2026-05-07T09:04:50.000Z",
+      "summary": "MIT Technology Review’s What’s Next series looks across industries, trends, and technologies to give you a first look at the future. You can read the rest of them here. Forty-eight years ago this July, Louise Joy Brown became the world’s first person born with the help of in vitro fertilization. Mil",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Mira Murati’s deposition pulled back the curtain on Sam Altman’s ouster",
       "url": "https://www.theverge.com/ai-artificial-intelligence/926383/mira-murati-sam-altman-musk-trial-ouster",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5391,
+      "score": 0.5249,
       "publishedAt": "2026-05-07T23:16:06.000Z",
       "summary": "The week leading up to Thanksgiving 2023 was the AI industry's biggest soap opera moment. OpenAI CEO Sam Altman was abruptly ousted from his role at the ChatGPT maker. The explanation? That Altman was \"not consistently candid in his communications with the board.\" Now, via witness testimony and tria",
       "tags": [
@@ -399,11 +542,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Maybe you shouldn't install new software for a bit",
+      "url": "https://xeiaso.net/blog/2026/abstain-from-install/",
+      "feedSource": "Hacker News",
+      "source": "xeiaso.net",
+      "score": 0.5219,
+      "publishedAt": "2026-05-07T23:02:11.000Z",
+      "summary": "Oh boy yet more linux kernel vulns",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 536
+    },
+    {
       "title": "Google’s taking a big swing at AI health with the Fitbit Air",
       "url": "https://www.theverge.com/gadgets/925458/google-health-fitbit-air-ai-coaching-wearables-fitness-trackers",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5335,
+      "score": 0.5193,
       "publishedAt": "2026-05-07T22:13:01.000Z",
       "summary": "It's a Whoop dupe. That was my first thought when I saw the new $99 Google Fitbit Air. You can hardly blame me. The band is screenless with a metallic fabric clasp. My eyes flickered between the Fitbit Air and my wrist, where I'm wearing a Whoop MG. Was I not seeing double? But as [&#8230;]",
       "tags": [
@@ -412,50 +568,37 @@
       "engagementScore": 0
     },
     {
-      "title": "Trump Pivots on AI Regulation, Worker Ousted by DOGE Runs for Office, and Hantavirus Explained",
-      "url": "https://www.wired.com/story/uncanny-valley-podcast-trump-pivots-ai-regulation-worker-ousted-by-doge-runs-for-office-hantavirus-explained/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5303,
-      "publishedAt": "2026-05-07T21:37:20.000Z",
-      "summary": "Today on Uncanny Valley, we’re diving into recent reports that the Trump administration is considering an executive order that would establish some sort of federal oversight over new AI models.",
+      "title": "Dirtyfrag: Universal Linux LPE",
+      "url": "https://www.openwall.com/lists/oss-security/2026/05/07/8",
+      "feedSource": "Hacker News",
+      "source": "openwall.com",
+      "score": 0.5109,
+      "publishedAt": "2026-05-07T19:21:32.000Z",
+      "summary": "Powered by blists - more mailing lists",
       "tags": [
-        "Safety"
+        "RAG"
       ],
-      "engagementScore": 0
+      "engagementScore": 648
     },
     {
-      "title": "Maybe you shouldn't install new software for a bit",
-      "url": "https://xeiaso.net/blog/2026/abstain-from-install/",
+      "title": "AI slop is killing online communities",
+      "url": "https://rmoff.net/2026/05/06/ai-slop-is-killing-online-communities/",
       "feedSource": "Hacker News",
-      "source": "xeiaso.net",
-      "score": 0.527,
-      "publishedAt": "2026-05-07T23:02:11.000Z",
-      "summary": "Oh boy yet more linux kernel vulns",
+      "source": "rmoff.net",
+      "score": 0.5095,
+      "publishedAt": "2026-05-07T18:46:25.000Z",
+      "summary": "Like a young child coming home from kindergarten with their latest crayon scrawls, the internet is currently awash with people sharing their AI-generated work.\nAnd just like the young child’s drawings, much of that work should be proudly put up on the walls within the artist’s house—and no further.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 432
-    },
-    {
-      "title": "How to Disable Google's Gemini in Chrome",
-      "url": "https://www.wired.com/story/you-can-disable-gemini-in-chrome-if-its-freaking-you-out/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5245,
-      "publishedAt": "2026-05-07T20:31:57.000Z",
-      "summary": "Chrome users were caught off guard by a 4-GB Google AI model baked into Chrome, sparking privacy concerns. The good news: You can easily uninstall it. The bad? You might not want to.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
+      "engagementScore": 673
     },
     {
       "title": "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
       "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5212,
+      "score": 0.507,
       "publishedAt": "2026-05-07T19:54:20.000Z",
       "summary": "Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product, ChatGPT. In 2024, Musk filed a lawsuit accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profits",
       "tags": [
@@ -464,115 +607,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Dirtyfrag: Universal Linux LPE",
-      "url": "https://www.openwall.com/lists/oss-security/2026/05/07/8",
-      "feedSource": "Hacker News",
-      "source": "openwall.com",
-      "score": 0.5209,
-      "publishedAt": "2026-05-07T19:21:32.000Z",
-      "summary": "Powered by blists - more mailing lists",
-      "tags": [
-        "RAG"
-      ],
-      "engagementScore": 598
-    },
-    {
-      "title": "Apple&#8217;s AirPods with cameras for AI are apparently close to production",
-      "url": "https://www.theverge.com/tech/926376/apple-airpods-cameras-ai-production",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5198,
-      "publishedAt": "2026-05-07T19:39:22.000Z",
-      "summary": "Apple's rumored AirPods with cameras are nearing a stage where the company will test early mass production, Bloomberg's Mark Gurman reports. Currently, Apple testers are \"actively using\" prototypes that are in the design validation test stage, which is one step before the production validation test",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Why the Hantavirus Cruise Ship Outbreak Isn’t Likely to Become a Global Crisis",
-      "url": "https://www.wired.com/story/hantavirus-cruise-ship-what-you-need-to-know/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5196,
-      "publishedAt": "2026-05-07T19:36:46.000Z",
-      "summary": "While the outbreak aboard a cruise ship in the Atlantic is concerning, the virus isn’t easily transmitted through casual contact.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "AI slop is killing online communities",
-      "url": "https://rmoff.net/2026/05/06/ai-slop-is-killing-online-communities/",
-      "feedSource": "Hacker News",
-      "source": "rmoff.net",
-      "score": 0.5188,
-      "publishedAt": "2026-05-07T18:46:25.000Z",
-      "summary": "Like a young child coming home from kindergarten with their latest crayon scrawls, the internet is currently awash with people sharing their AI-generated work.\nAnd just like the young child’s drawings, much of that work should be proudly put up on the walls within the artist’s house—and no further.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 610
-    },
-    {
-      "title": "SpaceX has a $55 billion plan to build AI chips in Texas",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/926356/spacex-terafab-plant-cost-ai-chips",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5187,
-      "publishedAt": "2026-05-07T19:26:16.000Z",
-      "summary": "Elon Musk's plans to get into the AI chip manufacturing business are going to be costly. As the New York Times and CNBC report, SpaceX is planning to invest at least $55 billion into its \"Terafab\" chip plant in Austin, Texas. That's according to the details of a public hearing notice filed in Grimes",
-      "tags": [
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "How I Fixed My Webcam Lighting for Zoom Calls (2026)",
-      "url": "https://www.wired.com/story/how-to-fix-bad-webcam-lighting/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5136,
-      "publishedAt": "2026-05-07T18:29:54.000Z",
-      "summary": "I have a horrendous lighting setup in my home office, but as a mixed-use room, my options for fixing it were limited.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "ChatGPT Has ‘Goblin’ Mania in the US. In China It Will ‘Catch You Steadily’",
-      "url": "https://www.wired.com/story/chatgpt-chinese-catch-you-steadily-sycophancy/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5026,
-      "publishedAt": "2026-05-07T16:25:48.000Z",
-      "summary": "OpenAI’s chatbot has some weird linguistic tics in Chinese that are driving users crazy.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Chrome removes claim of On-device Al not sending data to Google Servers",
-      "url": "https://old.reddit.com/r/chrome/comments/1t5qayz/chrome_removes_claim_of_ondevice_al_not_sending/",
-      "feedSource": "Hacker News",
-      "source": "old.reddit.com",
-      "score": 0.501,
-      "publishedAt": "2026-05-07T15:56:33.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 545
-    },
-    {
       "title": "Musk’s biggest loyalist became his biggest liability",
       "url": "https://www.theverge.com/ai-artificial-intelligence/925665/musk-altman-trial-shivon-zilis-testimony",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4999,
+      "score": 0.4857,
       "publishedAt": "2026-05-07T15:55:46.000Z",
       "summary": "I sat down in the Musk v. Altman trial courtroom today, painfully aware that no one was going to ask Shivon Zilis the question on everyone's minds: Girl, what the fuck are you doing? Zilis, who testified under oath that she is the mother of four of Musk's children, was… What's the best way to [&#823",
       "tags": [
@@ -585,7 +624,7 @@
       "url": "https://www.theverge.com/entertainment/925916/save-to-spotify-ai-podcasts",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4958,
+      "score": 0.4816,
       "publishedAt": "2026-05-07T15:09:36.000Z",
       "summary": "Save to Spotify is a new command-line tool designed specifically for AI agents like OpenClaw, Claude Code, or OpenAI Codex. If you're the kind of person who collects research on a topic, then feeds it through their AI of choice to create audio summaries and personal podcasts, this lets you save them",
       "tags": [
@@ -597,24 +636,11 @@
       "engagementScore": 0
     },
     {
-      "title": "How David Sacks crashed and burned in the White House",
-      "url": "https://www.theverge.com/column/925487/david-sacks-trump-administration-ai-model-review",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4904,
-      "publishedAt": "2026-05-07T14:09:41.000Z",
-      "summary": "Hello and welcome to Regulator, a newsletter exclusively for Verge subscribers about tech, politics, and Washington intrigue. (It's basically House of Cards, but for nerds.) Not a subscriber yet? You really should become one, and to save you a Google search, here is the direct link to do so! And do",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "5 gardening tips you can try right in Search",
       "url": "https://blog.google/products-and-platforms/products/search/gardening-tips/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.4538,
+      "score": 0.4383,
       "publishedAt": "2026-05-06T16:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/01-Google_Gardening_Header.max-600x600.format-webp.webp\"&gt;We’ve rounded up the top ways you can use Google’s AI Mode, Search Live and Shopping to help your plants thrive.",
       "tags": [
@@ -629,22 +655,9 @@
       "url": "https://huggingface.co/blog/open-asr-leaderboard-private-data",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.4425,
+      "score": 0.4257,
       "publishedAt": "2026-05-06T00:00:00.000Z",
-      "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-      "tags": [
-        "Open Source"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Download: seafloor science and military chatbots",
-      "url": "https://www.technologyreview.com/2026/05/06/1136917/the-download-seafloor-science-military-ai-chatbots/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.4314,
-      "publishedAt": "2026-05-06T12:10:00.000Z",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Inexpensive seafloor-hopping submersibles could stoke deep-sea science—and mining Last week, two oblong neon submersibles started to descend nearly 6,",
+      "summary": "",
       "tags": [
         "AI"
       ],
@@ -673,19 +686,6 @@
       "summary": "Google DeepMind and Korea partner to accelerate scientific breakthroughs using frontier AI models",
       "tags": [
         "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Decoupled DiLoCo: A new frontier for resilient, distributed AI training",
-      "url": "https://deepmind.google/blog/decoupled-diloco/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-04-22T10:20:03.000Z",
-      "summary": "Google’s new distributed architecture keeps AI training runs on track across distant data centers, with exceptional efficiency – even when hardware fails.",
-      "tags": [
-        "AI"
       ],
       "engagementScore": 0
     }
