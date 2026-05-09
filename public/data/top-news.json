@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-08T22:01:01.185Z",
+  "updatedAt": "2026-05-09T03:30:00.956Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,11 +8,27 @@
   ],
   "items": [
     {
+      "title": "Teaching Claude Why",
+      "url": "https://www.anthropic.com/research/teaching-claude-why",
+      "feedSource": "Hacker News",
+      "source": "anthropic.com",
+      "score": 1.0089,
+      "publishedAt": "2026-05-08T17:59:41.000Z",
+      "summary": "New research on how we’ve reduced agentic misalignment",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Research",
+        "Safety"
+      ],
+      "engagementScore": 106
+    },
+    {
       "title": "Running Codex safely at OpenAI",
       "url": "https://openai.com/index/running-codex-safely",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.968,
+      "score": 0.928,
       "publishedAt": "2026-05-08T12:30:00.000Z",
       "summary": "How OpenAI runs Codex securely with sandboxing, approvals, network policies, and agent-native telemetry to support safe and compliant coding agent adoption.",
       "tags": [
@@ -23,52 +39,51 @@
       "engagementScore": 0
     },
     {
-      "title": "Teaching Claude Why",
-      "url": "https://www.anthropic.com/research/teaching-claude-why",
-      "feedSource": "Hacker News",
-      "source": "anthropic.com",
-      "score": 0.961,
-      "publishedAt": "2026-05-08T17:59:41.000Z",
-      "summary": "",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 21
-    },
-    {
       "title": "Natural Language Autoencoders: Turning Claude's Thoughts into Text",
       "url": "https://www.anthropic.com/research/natural-language-autoencoders",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.9388,
+      "score": 0.8997,
       "publishedAt": "2026-05-07T17:54:02.000Z",
-      "summary": "",
+      "summary": "Turning Claude’s thoughts into text",
       "tags": [
         "LLM",
         "Dev Tools"
       ],
-      "engagementScore": 355
+      "engagementScore": 361
     },
     {
-      "title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
-      "url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.7966,
-      "publishedAt": "2026-05-07T13:00:00.000Z",
-      "summary": "OpenAI expands Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber, helping verified defenders accelerate vulnerability research and protect critical infrastructure.",
+      "title": "Teaching Claude Why",
+      "url": "https://alignment.anthropic.com/2026/teaching-claude-why/",
+      "feedSource": "Hacker News",
+      "source": "alignment.anthropic.com",
+      "score": 0.8618,
+      "publishedAt": "2026-05-08T22:13:31.000Z",
+      "summary": "Jonathan Kutasov*, Adam Jermyn",
       "tags": [
-        "LLM",
-        "Research"
+        "LLM"
       ],
-      "engagementScore": 0
+      "engagementScore": 4
+    },
+    {
+      "title": "Hallucinations Undermine Trust; Metacognition Is a Way Forward",
+      "url": "https://arxiv.org/abs/2605.01428",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.7713,
+      "publishedAt": "2026-05-08T15:16:11.000Z",
+      "summary": "Despite significant strides in factual reliability, errors -- often termed hallucinations -- remain a major concern for generative AI, especially as LLMs are increasingly expected to be helpful in more complex or nuanced setups. Yet even in the simplest setting -- factoid question-answering with cle",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 16
     },
     {
       "title": "AlphaEvolve: Gemini-powered coding agent scaling impact across fields",
       "url": "https://deepmind.google/blog/alphaevolve-impact/",
       "feedSource": "Hacker News",
       "source": "deepmind.google",
-      "score": 0.7956,
+      "score": 0.7583,
       "publishedAt": "2026-05-07T15:02:20.000Z",
       "summary": "Discover how AlphaEvolve optimizes algorithms for genomics, quantum physics, global infrastructure, and more to accelerate scientific progress and solve real-world challenges.",
       "tags": [
@@ -80,11 +95,25 @@
       "engagementScore": 321
     },
     {
+      "title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
+      "url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.7567,
+      "publishedAt": "2026-05-07T13:00:00.000Z",
+      "summary": "OpenAI expands Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber, helping verified defenders accelerate vulnerability research and protect critical infrastructure.",
+      "tags": [
+        "LLM",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "LCM: Lossless Context Management",
       "url": "https://arxiv.org/abs/2605.04050",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7896,
+      "score": 0.7523,
       "publishedAt": "2026-05-08T04:00:00.000Z",
       "summary": "arXiv:2605.04050v1 Announce Type: new \nAbstract: We introduce Lossless Context Management (LCM), a deterministic architecture for LLM memory that outperforms Claude Code on long-context tasks. When benchmarked using Opus 4.6, our LCM-augmented coding agent, Volt, achieves higher scores than Claude C",
       "tags": [
@@ -100,7 +129,7 @@
       "url": "https://arxiv.org/abs/2605.04100",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7896,
+      "score": 0.7523,
       "publishedAt": "2026-05-08T04:00:00.000Z",
       "summary": "arXiv:2605.04100v1 Announce Type: new \nAbstract: Off-policy temporal-difference (TD) learning with function approximation faces a structural tradeoff among stability, projection geometry, and variance control. Emphatic TD (ETD) improves the off-policy projection geometry through follow-on emphasis,",
       "tags": [
@@ -114,7 +143,7 @@
       "url": "https://arxiv.org/abs/2605.04169",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7896,
+      "score": 0.7523,
       "publishedAt": "2026-05-08T04:00:00.000Z",
       "summary": "arXiv:2605.04169v1 Announce Type: new \nAbstract: Surgical team performance arises from complex interactions between technical execution and non-technical skills, including communication and coordination dynamics. However, current surgical AI systems predominantly model visual workflow signals, lacki",
       "tags": [
@@ -128,7 +157,7 @@
       "url": "https://arxiv.org/abs/2605.04193",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7896,
+      "score": 0.7523,
       "publishedAt": "2026-05-08T04:00:00.000Z",
       "summary": "arXiv:2605.04193v1 Announce Type: new \nAbstract: Inductive Logic Programming (ILP) aims to learn interpretable first-order rules from data, but existing symbolic and neuro-symbolic approaches struggle to scale to noisy and probabilistic settings. Classical ILP relies on discrete combinatorial rule s",
       "tags": [
@@ -142,7 +171,7 @@
       "url": "https://arxiv.org/abs/2605.04227",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7896,
+      "score": 0.7523,
       "publishedAt": "2026-05-08T04:00:00.000Z",
       "summary": "arXiv:2605.04227v1 Announce Type: new \nAbstract: Procedural tasks with multiple ordered steps are ubiquitous in daily life. Recent advances in multimodal large language models (MLLMs) have enabled personal assistants that support daily activities. However, existing systems primarily provide reactive",
       "tags": [
@@ -157,7 +186,7 @@
       "url": "https://arxiv.org/abs/2605.04243",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7896,
+      "score": 0.7523,
       "publishedAt": "2026-05-08T04:00:00.000Z",
       "summary": "arXiv:2605.04243v1 Announce Type: new \nAbstract: Despite significant advances, large language models (LLMs) continue to exhibit brittle performance on complex temporal reasoning tasks. This failure mode is widely attributed to inherent deficits in autoregressive logical deduction. In this paper, we",
       "tags": [
@@ -171,7 +200,7 @@
       "url": "https://arxiv.org/abs/2605.04263",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7896,
+      "score": 0.7523,
       "publishedAt": "2026-05-08T04:00:00.000Z",
       "summary": "arXiv:2605.04263v1 Announce Type: new \nAbstract: We introduce PARSE (PArallel pRefix Speculative Engine), a speculative generation framework that accelerates large language model (LLM) inference by parallelizing prefix verification on a semantic level. Existing speculative decoding methods are funda",
       "tags": [
@@ -186,7 +215,7 @@
       "url": "https://arxiv.org/abs/2605.04312",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7896,
+      "score": 0.7523,
       "publishedAt": "2026-05-08T04:00:00.000Z",
       "summary": "arXiv:2605.04312v1 Announce Type: new \nAbstract: Static capabilities benchmarks suffer from saturation and contamination, making it difficult to track capabilities progress over time. We introduce Agent Island, a multiplayer simulation environment in which language-model agents compete in a game of",
       "tags": [
@@ -197,24 +226,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Hallucinations Undermine Trust; Metacognition Is a Way Forward",
-      "url": "https://arxiv.org/abs/2605.01428",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.7848,
-      "publishedAt": "2026-05-08T15:16:11.000Z",
-      "summary": "Despite significant strides in factual reliability, errors -- often termed hallucinations -- remain a major concern for generative AI, especially as LLMs are increasingly expected to be helpful in more complex or nuanced setups. Yet even in the simplest setting -- factoid question-answering with cle",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 10
-    },
-    {
       "title": "Parloa builds service agents customers want to talk to",
       "url": "https://openai.com/index/parloa",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7821,
+      "score": 0.7421,
       "publishedAt": "2026-05-07T11:00:00.000Z",
       "summary": "Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliable, real-time interactions.",
       "tags": [
@@ -229,7 +245,7 @@
       "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7748,
+      "score": 0.7348,
       "publishedAt": "2026-05-07T10:00:00.000Z",
       "summary": "Explore new realtime voice models in the OpenAI API that can reason, translate, and transcribe speech, enabling more natural and intelligent voice experiences.",
       "tags": [
@@ -239,24 +255,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Higher usage limits for Claude and a compute deal with SpaceX",
-      "url": "https://www.anthropic.com/news/higher-limits-spacex",
-      "feedSource": "Hacker News",
-      "source": "anthropic.com",
-      "score": 0.7713,
-      "publishedAt": "2026-05-06T16:17:33.000Z",
-      "summary": "",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 506
-    },
-    {
       "title": "CyberSecQwen-4B: Why Defensive Cyber Needs Small, Specialized, Locally-Runnable Models",
       "url": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/cybersecqwen-4b",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.7677,
+      "score": 0.733,
       "publishedAt": "2026-05-08T17:41:05.000Z",
       "summary": "",
       "tags": [
@@ -265,11 +268,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Higher usage limits for Claude and a compute deal with SpaceX",
+      "url": "https://www.anthropic.com/news/higher-limits-spacex",
+      "feedSource": "Hacker News",
+      "source": "anthropic.com",
+      "score": 0.7314,
+      "publishedAt": "2026-05-06T16:17:33.000Z",
+      "summary": "We’ve raised Claude’s usage limits and agreed a new compute partnership with SpaceX that will substantially increase our capacity in the near term.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 507
+    },
+    {
       "title": "EMO: Pretraining mixture of experts for emergent modularity",
       "url": "https://huggingface.co/blog/allenai/emo",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.7574,
+      "score": 0.7228,
       "publishedAt": "2026-05-08T16:03:50.000Z",
       "summary": "",
       "tags": [
@@ -278,11 +294,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman",
+      "url": "https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6654,
+      "publishedAt": "2026-05-08T23:59:19.000Z",
+      "summary": "In the second week of the landmark trial between Elon Musk and OpenAI, Musk’s motivations for bringing the suit were under scrutiny. Last week, Musk took the stand, alleging that OpenAI CEO Sam Altman and president Greg Brockman had deceived him into donating $38 million to the company. He claimed t",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Testing ads in ChatGPT",
       "url": "https://openai.com/index/testing-ads-in-chatgpt",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7018,
+      "score": 0.6619,
       "publishedAt": "2026-05-07T00:00:00.000Z",
       "summary": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
       "tags": [
@@ -295,7 +324,7 @@
       "url": "https://openai.com/index/introducing-trusted-contact-in-chatgpt",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7018,
+      "score": 0.6619,
       "publishedAt": "2026-05-07T00:00:00.000Z",
       "summary": "Introducing Trusted Contact in ChatGPT, an optional safety feature that notifies someone you trust if serious self-harm concerns are detected.",
       "tags": [
@@ -309,7 +338,7 @@
       "url": "https://openai.com/index/simplex",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7018,
+      "score": 0.6619,
       "publishedAt": "2026-05-07T00:00:00.000Z",
       "summary": "Simplex boosts software development with ChatGPT Enterprise and Codex, reducing design, build, and testing time while scaling AI-driven workflows.",
       "tags": [
@@ -323,7 +352,7 @@
       "url": "https://arxiv.org/abs/2605.03546",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.68,
+      "score": 0.6427,
       "publishedAt": "2026-05-07T03:46:15.000Z",
       "summary": "Turning ideas into full software projects from scratch has become a popular use case for language models. Agents are being deployed to seed, maintain, and grow codebases over extended periods with minimal human oversight. Such settings require models to make high-level software architecture decision",
       "tags": [
@@ -338,7 +367,7 @@
       "url": "https://www.technologyreview.com/2026/05/08/1136988/heres-what-you-need-to-know-about-the-cruise-ship-hantavirus-outbreak/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6527,
+      "score": 0.6207,
       "publishedAt": "2026-05-08T16:19:40.000Z",
       "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. Eight passengers aboard a Dutch-flagged cruise ship have contracted a type of hantavirus, a rare virus transmitted by rat",
       "tags": [
@@ -351,7 +380,7 @@
       "url": "https://blog.google/company-news/inside-google/company-announcements/the-small-brief/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.645,
+      "score": 0.613,
       "publishedAt": "2026-05-08T15:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Group_Icons_1x1.max-600x600.format-webp.webp\"&gt;Today we're launching The Small Brief, an initiative bringing together three ad industry icons to champion a local businesses they love. Their mission is to build breakt…",
       "tags": [
@@ -366,7 +395,7 @@
       "url": "https://www.technologyreview.com/2026/05/08/1136985/the-download-ai-malaise-babymaking-ivf-tech/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6285,
+      "score": 0.5965,
       "publishedAt": "2026-05-08T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. We’ve entered the era of AI malaise AI is spreading everywhere, and it is not going away. But what will it do? What effect will it have on our society",
       "tags": [
@@ -379,9 +408,22 @@
       "url": "https://www.technologyreview.com/2026/05/08/1136974/heres-how-technology-transformed-babymaking-ivf/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.61,
+      "score": 0.578,
       "publishedAt": "2026-05-08T09:00:00.000Z",
       "summary": "Technology is changing the way we make babies. The pioneering work of the scientists who invented IVF led to the birth of the first “test tube baby” in 1978. We’ve come a long, long way since then. This week, I’ve been working on a piece about the cutting edge of IVF technologies and what’s coming&#",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Top Megelin Deals for Laser and LED Therapy Devices (2026)",
+      "url": "https://www.wired.com/story/megelin-deals-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5629,
+      "publishedAt": "2026-05-08T23:24:33.000Z",
+      "summary": "This Mother's Day, Megelin is slashing prices on its best-selling laser and LED devices.",
       "tags": [
         "AI"
       ],
@@ -392,7 +434,7 @@
       "url": "https://openai.com/index/how-chatgpt-protects-privacy",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.5852,
+      "score": 0.5452,
       "publishedAt": "2026-05-06T08:00:00.000Z",
       "summary": "Learn how ChatGPT safeguards your privacy, reduces personal data in training, and gives you control over whether your conversations improve AI models.",
       "tags": [
@@ -402,24 +444,24 @@
       "engagementScore": 0
     },
     {
-      "title": "Canvas online again as ShinyHunters threatens to leak schools’ data",
-      "url": "https://www.theverge.com/tech/926458/canvas-shinyhunters-breach",
+      "title": "Google broke reCAPTCHA for de-googled Android users",
+      "url": "https://reclaimthenet.org/google-broke-recaptcha-for-de-googled-android-users",
       "feedSource": "Hacker News",
-      "source": "theverge.com",
-      "score": 0.5729,
-      "publishedAt": "2026-05-07T22:22:21.000Z",
-      "summary": "Homework may have to wait.",
+      "source": "reclaimthenet.org",
+      "score": 0.545,
+      "publishedAt": "2026-05-08T18:45:58.000Z",
+      "summary": "The company that decides whether you’re a bot now also requires you run its software to prove otherwise.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 890
+      "engagementScore": 706
     },
     {
       "title": "Nanoleaf bets its future on robots, red light therapy, and AI",
       "url": "https://www.theverge.com/tech/926342/nanoleaf-smart-lighting-ai-robotics-red-light-wellness",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5708,
+      "score": 0.5414,
       "publishedAt": "2026-05-08T19:23:58.000Z",
       "summary": "Smart lighting company Nanoleaf has been unusually quiet recently. While competitors such as Govee and Philips Hue have been pumping out new products and innovative features at an impressive pace, Nanoleaf has launched just a handful of smart lighting products in the last two years. There's a reason",
       "tags": [
@@ -432,7 +474,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5699,
+      "score": 0.5406,
       "publishedAt": "2026-05-08T19:14:10.000Z",
       "summary": "Massive new data centers are the physical foundation for tech companies’ hopes and dreams for AI. But the rush to expand warehouses full of energy-hungry servers has also kicked up fights across the world over their impact on power grids, utility bills, nearby communities, and the environment.&#160;",
       "tags": [
@@ -445,7 +487,7 @@
       "url": "https://www.wired.com/story/pentagon-drops-new-ufo-files/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5649,
+      "score": 0.5356,
       "publishedAt": "2026-05-08T18:18:24.000Z",
       "summary": "The Defense Department has released a new trove of declassified documents about government UFO sightings.",
       "tags": [
@@ -458,7 +500,7 @@
       "url": "https://www.wired.com/story/the-latest-tesla-recall-wheels-may-fall-off-cybertrucks/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5644,
+      "score": 0.5351,
       "publishedAt": "2026-05-08T18:12:42.000Z",
       "summary": "In what is the 11th Cybertruck recall, certain models of Elon Musk’s embattled pickup could experience a sudden, unexpected wheel separation, thanks to the wrong grease and loose nuts.",
       "tags": [
@@ -471,7 +513,7 @@
       "url": "https://www.theverge.com/report/926771/microsoft-openai-amazon-worries-shit-talk-azure",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5629,
+      "score": 0.5336,
       "publishedAt": "2026-05-08T17:55:39.000Z",
       "summary": "When OpenAI was busy experimenting with AI-powered gaming bots, Microsoft CEO Satya Nadella and OpenAI CEO Sam Altman were in the early days of forming an AI partnership. Court documents from the ongoing Musk v. Altman trial have provided a rare look at the communications between Microsoft's top exe",
       "tags": [
@@ -484,7 +526,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/926383/mira-murati-sam-altman-musk-trial-ouster",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5628,
+      "score": 0.5334,
       "publishedAt": "2026-05-08T17:54:13.000Z",
       "summary": "The week leading up to Thanksgiving 2023 was the AI industry's biggest soap opera moment. OpenAI CEO Sam Altman was abruptly ousted from his role at the ChatGPT maker. The explanation? That Altman was \"not consistently candid in his communications with the board.\" Now, via witness testimony and tria",
       "tags": [
@@ -497,7 +539,7 @@
       "url": "https://www.theverge.com/games/926914/sony-playstation-ai-powerful-tool-games",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5555,
+      "score": 0.5262,
       "publishedAt": "2026-05-08T16:32:38.000Z",
       "summary": "As part of an earnings presentation on Friday, Sony shared how it's thinking about AI at the company, including many details about how it's evaluating AI as part of making PlayStation games. Generative AI has recently been showing up in bigger games - though many indie developers still reject it - a",
       "tags": [
@@ -510,7 +552,7 @@
       "url": "https://www.wired.com/story/nick-bostrom-has-a-plan-for-humanitys-big-retirement/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5472,
+      "score": 0.5179,
       "publishedAt": "2026-05-08T15:00:00.000Z",
       "summary": "The philosopher thinks humans should pursue advanced AI and the promise of a “solved world.”",
       "tags": [
@@ -523,7 +565,7 @@
       "url": "https://www.wired.com/story/tom-steyer-proposes-jobs-guarantee-to-protect-california-workers-from-ai/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5472,
+      "score": 0.5179,
       "publishedAt": "2026-05-08T15:00:00.000Z",
       "summary": "California gubernatorial candidate Tom Steyer is proposing a new jobs guarantee for workers displaced by artificial intelligence.",
       "tags": [
@@ -536,7 +578,7 @@
       "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5466,
+      "score": 0.5173,
       "publishedAt": "2026-05-08T14:52:40.000Z",
       "summary": "Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product, ChatGPT. In 2024, Musk filed a lawsuit accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profits",
       "tags": [
@@ -549,7 +591,7 @@
       "url": "https://www.theverge.com/podcast/926707/openai-ceo-murati-musk-trial-vergecast",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5394,
+      "score": 0.51,
       "publishedAt": "2026-05-08T13:31:37.000Z",
       "summary": "Sometimes, companies pick CEOs based on carefully laid succession plans designed to maximize investor confidence and future performance. Other times, apparently, companies pick CEOs based on a bunch of video calls while the current CEO is texting the former CEO about who the new CEO even is. Such wa",
       "tags": [
@@ -563,7 +605,7 @@
       "url": "https://www.wired.com/story/best-mobile-gaming-controllers/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.526,
+      "score": 0.4967,
       "publishedAt": "2026-05-08T11:02:00.000Z",
       "summary": "Your iPhone or Android phone can work overtime as a full-on gaming console with the help of these mobile controllers. Backbone makes my favorite.",
       "tags": [
@@ -572,24 +614,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Google broke reCAPTCHA for de-googled Android users",
-      "url": "https://reclaimthenet.org/google-broke-recaptcha-for-de-googled-android-users",
-      "feedSource": "Hacker News",
-      "source": "reclaimthenet.org",
-      "score": 0.5237,
-      "publishedAt": "2026-05-08T18:45:58.000Z",
-      "summary": "The company that decides whether you’re a bot now also requires you run its software to prove otherwise.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 188
-    },
-    {
       "title": "We Asked Coffee Pros to Blind Test Coffee Machines. The Results Were Surprising",
       "url": "https://www.wired.com/story/we-asked-coffee-pros-to-blind-test-coffee-machines-the-results-were-surprising/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5232,
+      "score": 0.4938,
       "publishedAt": "2026-05-08T10:30:00.000Z",
       "summary": "For our latest WIRED Blind Test, we sat coffee industry professionals down to rank leading do-it-all coffee machines—and the winner wasn't what anyone expected.",
       "tags": [
@@ -602,7 +631,7 @@
       "url": "https://www.wired.com/story/billie-eilish-doesnt-know-if-there-will-ever-be-another-billie-eilish/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5218,
+      "score": 0.4925,
       "publishedAt": "2026-05-08T10:15:00.000Z",
       "summary": "In an interview with WIRED ahead of her new concert film Hit Me Hard and Soft: The Tour (Live in 3D), Billie Eilish talked about whether or not future artists will be able to leverage SoundCloud the way she did.",
       "tags": [
@@ -615,7 +644,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/925874/chatgpt-trusted-contact-emergency-self-harm-notification",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5214,
+      "score": 0.4921,
       "publishedAt": "2026-05-08T10:10:09.000Z",
       "summary": "OpenAI is launching an optional safety feature for ChatGPT that allows adult users to assign an emergency contact for mental health and safety concerns. Friends, family members, or caregivers designated as a \"Trusted Contact\" will be notified if OpenAI detects that a person may have discussed topics",
       "tags": [
@@ -625,24 +654,11 @@
       "engagementScore": 0
     },
     {
-      "title": "The New Wild West of AI Kids’ Toys",
-      "url": "https://www.wired.com/story/the-new-wild-west-of-ai-kids-toys/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5205,
-      "publishedAt": "2026-05-08T10:00:00.000Z",
-      "summary": "These cuddly, connected companions could disrupt everything from make-believe to bedtime stories. No wonder some lawmakers want them banned.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "The Download: the tech reshaping IVF and the rise of balcony solar",
       "url": "https://www.technologyreview.com/2026/05/07/1136956/the-download-ivf-tech-balcony-solar/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4885,
+      "score": 0.4565,
       "publishedAt": "2026-05-07T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. What’s next for IVF IVF has brought millions of babies into the world over the last four decades. But the process can still be slow, painful, and expe",
       "tags": [
@@ -655,7 +671,7 @@
       "url": "https://www.technologyreview.com/2026/05/07/1136933/balcony-solar-boom/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4758,
+      "score": 0.4438,
       "publishedAt": "2026-05-07T10:00:00.000Z",
       "summary": "Dozens of US states are considering legislation to allow people to install plug-in solar systems, often called balcony solar. These small arrays require little to no setup and could help cut emissions and power bills. Balcony solar is already popular in Europe, and proponents say that the systems co",
       "tags": [
@@ -668,24 +684,11 @@
       "url": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.4734,
+      "score": 0.4387,
       "publishedAt": "2026-05-06T19:06:55.000Z",
       "summary": "",
       "tags": [
         "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "What’s next for IVF",
-      "url": "https://www.technologyreview.com/2026/05/07/1136946/whats-next-for-ivf-ai-robot-pgt-gene-editing/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.4704,
-      "publishedAt": "2026-05-07T09:04:50.000Z",
-      "summary": "MIT Technology Review’s What’s Next series looks across industries, trends, and technologies to give you a first look at the future. You can read the rest of them here. Forty-eight years ago this July, Louise Joy Brown became the world’s first person born with the help of in vitro fertilization. Mil",
-      "tags": [
-        "AI"
       ],
       "engagementScore": 0
     }
