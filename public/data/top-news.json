@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-09T15:57:21.601Z",
+  "updatedAt": "2026-05-09T19:09:19.469Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,7 +12,7 @@
       "url": "https://www.anthropic.com/research/teaching-claude-why",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.9574,
+      "score": 0.9377,
       "publishedAt": "2026-05-08T17:59:41.000Z",
       "summary": "New research on how we’ve reduced agentic misalignment",
       "tags": [
@@ -21,28 +21,28 @@
         "Research",
         "Safety"
       ],
-      "engagementScore": 219
+      "engagementScore": 234
     },
     {
-      "title": "LLMs Corrupt Your Documents When You Delegate",
+      "title": "LLMs corrupt your documents when you delegate",
       "url": "https://arxiv.org/abs/2604.15597",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.9104,
+      "score": 0.9239,
       "publishedAt": "2026-05-09T08:44:34.000Z",
       "summary": "Large Language Models (LLMs) are poised to disrupt knowledge work, with the emergence of delegated work as a new interaction paradigm (e.g., vibe coding). Delegation requires trust - the expectation that the LLM will faithfully execute the task without introducing errors into documents. We introduce",
       "tags": [
         "LLM",
         "Dev Tools"
       ],
-      "engagementScore": 127
+      "engagementScore": 255
     },
     {
       "title": "Running Codex safely at OpenAI",
       "url": "https://openai.com/index/running-codex-safely",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8372,
+      "score": 0.8138,
       "publishedAt": "2026-05-08T12:30:00.000Z",
       "summary": "How OpenAI runs Codex securely with sandboxing, approvals, network policies, and agent-native telemetry to support safe and compliant coding agent adoption.",
       "tags": [
@@ -57,7 +57,7 @@
       "url": "https://arxiv.org/abs/2605.05329",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8309,
+      "score": 0.8091,
       "publishedAt": "2026-05-09T04:00:00.000Z",
       "summary": "arXiv:2605.05329v1 Announce Type: new \nAbstract: Safety policies define what constitutes safe and unsafe AI outputs, guiding data annotation and model development. However, annotation disagreement is pervasive and can stem from multiple sources such as operational failures (annotators misunderstand",
       "tags": [
@@ -71,7 +71,7 @@
       "url": "https://arxiv.org/abs/2605.05365",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8309,
+      "score": 0.8091,
       "publishedAt": "2026-05-09T04:00:00.000Z",
       "summary": "arXiv:2605.05365v1 Announce Type: new \nAbstract: We present ZAYA1-8B, a reasoning-focused mixture-of-experts (MoE) model with 700M active and 8B total parameters, built on Zyphra's MoE++ architecture. ZAYA1-8B's core pretraining, midtraining, and supervised fine-tuning (SFT) were performed on a full",
       "tags": [
@@ -85,7 +85,7 @@
       "url": "https://arxiv.org/abs/2605.05379",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8309,
+      "score": 0.8091,
       "publishedAt": "2026-05-09T04:00:00.000Z",
       "summary": "arXiv:2605.05379v1 Announce Type: new \nAbstract: Enterprise agents increasingly operate inside scoped retrieval systems, delegated workflows, and policy-constrained evidence environments. In these settings, access control can be enforced correctly while the system still produces an answer that appea",
       "tags": [
@@ -101,7 +101,7 @@
       "url": "https://arxiv.org/abs/2605.05386",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8309,
+      "score": 0.8091,
       "publishedAt": "2026-05-09T04:00:00.000Z",
       "summary": "arXiv:2605.05386v1 Announce Type: new \nAbstract: Large language models increasingly operate in interactive settings where solving a task requires multiple rounds of information exchange with a user. However, most current systems treat dialogue reactively and lack a principled mechanism to reason abo",
       "tags": [
@@ -116,7 +116,7 @@
       "url": "https://arxiv.org/abs/2605.05402",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8309,
+      "score": 0.8091,
       "publishedAt": "2026-05-09T04:00:00.000Z",
       "summary": "arXiv:2605.05402v1 Announce Type: new \nAbstract: Artificial intelligence (AI) and computer vision are transforming transportation data collection. This study introduces an AI-enabled analytics framework leveraging existing CCTV infrastructure to evaluate the impact of soft interventions, such as tem",
       "tags": [
@@ -131,7 +131,7 @@
       "url": "https://arxiv.org/abs/2605.05403",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8309,
+      "score": 0.8091,
       "publishedAt": "2026-05-09T04:00:00.000Z",
       "summary": "arXiv:2605.05403v1 Announce Type: new \nAbstract: This position paper argues that sycophancy in LLMs is a boundary failure between social alignment and epistemic integrity. Existing work often operationalizes sycophancy through external behavior such as agreement with incorrect user beliefs, position",
       "tags": [
@@ -146,7 +146,7 @@
       "url": "https://arxiv.org/abs/2605.05407",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8309,
+      "score": 0.8091,
       "publishedAt": "2026-05-09T04:00:00.000Z",
       "summary": "arXiv:2605.05407v1 Announce Type: new \nAbstract: Scaling LLM-based embodied agents from text-only environments to complex multimodal settings remains a major challenge. Recent work identifies a perception-reasoning-decision gap in standalone Vision-Language Models (VLMs), which often overlook task-c",
       "tags": [
@@ -162,7 +162,7 @@
       "url": "https://arxiv.org/abs/2605.05409",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8309,
+      "score": 0.8091,
       "publishedAt": "2026-05-09T04:00:00.000Z",
       "summary": "arXiv:2605.05409v1 Announce Type: new \nAbstract: Financial document question answering (QA) demands complex multi-step numerical reasoning over heterogeneous evidence--structured tables, textual narratives, and footnotes--scattered across corporate filings. Existing retrieval-augmented generation (R",
       "tags": [
@@ -173,11 +173,24 @@
       "engagementScore": 0
     },
     {
+      "title": "&quot;OncoAgent: A Dual-Tier Multi-Agent Framework for Privacy-Preserving Oncology Clinical Decision Support&quot;",
+      "url": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/oncoagent-official-paper",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.7888,
+      "publishedAt": "2026-05-09T18:09:28.000Z",
+      "summary": "",
+      "tags": [
+        "Agents"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Natural Language Autoencoders: Turning Claude's Thoughts into Text",
       "url": "https://www.anthropic.com/research/natural-language-autoencoders",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.8093,
+      "score": 0.786,
       "publishedAt": "2026-05-07T17:54:02.000Z",
       "summary": "Turning Claude’s thoughts into text",
       "tags": [
@@ -191,33 +204,33 @@
       "url": "https://alignment.anthropic.com/2026/teaching-claude-why/",
       "feedSource": "Hacker News",
       "source": "alignment.anthropic.com",
-      "score": 0.793,
+      "score": 0.778,
       "publishedAt": "2026-05-08T22:13:31.000Z",
       "summary": "Jonathan Kutasov*, Adam Jermyn",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 6
+      "engagementScore": 7
     },
     {
       "title": "Hallucinations Undermine Trust; Metacognition Is a Way Forward",
       "url": "https://arxiv.org/abs/2605.01428",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.6896,
+      "score": 0.6707,
       "publishedAt": "2026-05-08T15:16:11.000Z",
       "summary": "Despite significant strides in factual reliability, errors -- often termed hallucinations -- remain a major concern for generative AI, especially as LLMs are increasingly expected to be helpful in more complex or nuanced setups. Yet even in the simplest setting -- factoid question-answering with cle",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 17
+      "engagementScore": 18
     },
     {
       "title": "AlphaEvolve: Gemini-powered coding agent scaling impact across fields",
       "url": "https://deepmind.google/blog/alphaevolve-impact/",
       "feedSource": "Hacker News",
       "source": "deepmind.google",
-      "score": 0.6738,
+      "score": 0.6522,
       "publishedAt": "2026-05-07T15:02:20.000Z",
       "summary": "Discover how AlphaEvolve optimizes algorithms for genomics, quantum physics, global infrastructure, and more to accelerate scientific progress and solve real-world challenges.",
       "tags": [
@@ -226,14 +239,14 @@
         "Research",
         "Dev Tools"
       ],
-      "engagementScore": 323
+      "engagementScore": 324
     },
     {
       "title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
       "url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6658,
+      "score": 0.6425,
       "publishedAt": "2026-05-07T13:00:00.000Z",
       "summary": "OpenAI expands Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber, helping verified defenders accelerate vulnerability research and protect critical infrastructure.",
       "tags": [
@@ -243,24 +256,11 @@
       "engagementScore": 0
     },
     {
-      "title": "CyberSecQwen-4B: Why Defensive Cyber Needs Small, Specialized, Locally-Runnable Models",
-      "url": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/cybersecqwen-4b",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.6543,
-      "publishedAt": "2026-05-08T17:41:05.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Parloa builds service agents customers want to talk to",
       "url": "https://openai.com/index/parloa",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6512,
+      "score": 0.6279,
       "publishedAt": "2026-05-07T11:00:00.000Z",
       "summary": "Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliable, real-time interactions.",
       "tags": [
@@ -275,7 +275,7 @@
       "url": "https://huggingface.co/blog/allenai/emo",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6441,
+      "score": 0.6239,
       "publishedAt": "2026-05-08T16:03:50.000Z",
       "summary": "",
       "tags": [
@@ -288,7 +288,7 @@
       "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6439,
+      "score": 0.6206,
       "publishedAt": "2026-05-07T10:00:00.000Z",
       "summary": "Explore new realtime voice models in the OpenAI API that can reason, translate, and transcribe speech, enabling more natural and intelligent voice experiences.",
       "tags": [
@@ -302,9 +302,22 @@
       "url": "https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5928,
+      "score": 0.5741,
       "publishedAt": "2026-05-08T23:59:19.000Z",
       "summary": "In the second week of the landmark trial between Elon Musk and OpenAI, Musk’s motivations for bringing the suit were under scrutiny. Last week, Musk took the stand, alleging that OpenAI CEO Sam Altman and president Greg Brockman had deceived him into donating $38 million to the company. He claimed t",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
+      "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.568,
+      "publishedAt": "2026-05-09T16:01:23.000Z",
+      "summary": "Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product, ChatGPT. In 2024, Musk filed a lawsuit accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profits",
       "tags": [
         "LLM"
       ],
@@ -315,7 +328,7 @@
       "url": "https://openai.com/index/testing-ads-in-chatgpt",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.571,
+      "score": 0.5477,
       "publishedAt": "2026-05-07T00:00:00.000Z",
       "summary": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
       "tags": [
@@ -328,7 +341,7 @@
       "url": "https://openai.com/index/introducing-trusted-contact-in-chatgpt",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.571,
+      "score": 0.5477,
       "publishedAt": "2026-05-07T00:00:00.000Z",
       "summary": "Introducing Trusted Contact in ChatGPT, an optional safety feature that notifies someone you trust if serious self-harm concerns are detected.",
       "tags": [
@@ -342,7 +355,7 @@
       "url": "https://openai.com/index/simplex",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.571,
+      "score": 0.5477,
       "publishedAt": "2026-05-07T00:00:00.000Z",
       "summary": "Simplex boosts software development with ChatGPT Enterprise and Codex, reducing design, build, and testing time while scaling AI-driven workflows.",
       "tags": [
@@ -356,9 +369,22 @@
       "url": "https://www.wired.com/gallery/best-captioning-glasses/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5582,
+      "score": 0.5411,
       "publishedAt": "2026-05-09T11:00:00.000Z",
       "summary": "Can’t hear what they’re saying? Now you can turn on the subtitles for real-life conversations.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Hackable Robot Lawn Mower Unlocks a New Nightmare",
+      "url": "https://www.wired.com/story/security-news-this-week-hackable-robot-lawnmower-unlocks-a-new-nightmare/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5385,
+      "publishedAt": "2026-05-09T10:30:00.000Z",
+      "summary": "Plus: Meta officially kills encrypted Instagram DMs, the Trump administration targets “violent left wing extremists,” leaked documents reveal Russia's school for elite hackers, and more.",
       "tags": [
         "AI"
       ],
@@ -369,7 +395,7 @@
       "url": "https://arxiv.org/abs/2605.03546",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.558,
+      "score": 0.5362,
       "publishedAt": "2026-05-07T03:46:15.000Z",
       "summary": "Turning ideas into full software projects from scratch has become a popular use case for language models. Agents are being deployed to seed, maintain, and grow codebases over extended periods with minimal human oversight. Such settings require models to make high-level software architecture decision",
       "tags": [
@@ -380,24 +406,11 @@
       "engagementScore": 149
     },
     {
-      "title": "Hackable Robot Lawn Mower Unlocks a New Nightmare",
-      "url": "https://www.wired.com/story/security-news-this-week-hackable-robot-lawnmower-unlocks-a-new-nightmare/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5556,
-      "publishedAt": "2026-05-09T10:30:00.000Z",
-      "summary": "Plus: Meta officially kills encrypted Instagram DMs, the Trump administration targets “violent left wing extremists,” leaked documents reveal Russia's school for elite hackers, and more.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "The 19 Most Exciting Cars at the Beijing Auto Show 2026",
       "url": "https://www.wired.com/story/most-exciting-cars-at-beijing-auto-show-auto-china-2026/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5529,
+      "score": 0.5358,
       "publishedAt": "2026-05-09T10:00:00.000Z",
       "summary": "The cars that debuted at the Beijing Auto Show demonstrate that the Chinese market is now at the forefront of electrification and intelligence. These are the 19 most intriguing models we saw.",
       "tags": [
@@ -410,7 +423,7 @@
       "url": "https://www.technologyreview.com/2026/05/08/1136988/heres-what-you-need-to-know-about-the-cruise-ship-hantavirus-outbreak/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5481,
+      "score": 0.5294,
       "publishedAt": "2026-05-08T16:19:40.000Z",
       "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. Eight passengers aboard a Dutch-flagged cruise ship have contracted a type of hantavirus, a rare virus transmitted by rat",
       "tags": [
@@ -423,91 +436,13 @@
       "url": "https://blog.google/company-news/inside-google/company-announcements/the-small-brief/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.5403,
+      "score": 0.5217,
       "publishedAt": "2026-05-08T15:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Group_Icons_1x1.max-600x600.format-webp.webp\"&gt;Today we're launching The Small Brief, an initiative bringing together three ad industry icons to champion a local businesses they love. Their mission is to build breakt…",
       "tags": [
         "RAG",
         "Vision",
         "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Instacart Promo Code: $15 Off | May 2026",
-      "url": "https://www.wired.com/story/instacart-promo/code/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5262,
-      "publishedAt": "2026-05-09T05:00:00.000Z",
-      "summary": "Find the best Instacart promo code for massive savings in May 2026",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "HelloFresh Coupon Codes: 55% Off + Free Meals",
-      "url": "https://www.wired.com/story/hellofresh-coupon/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5262,
-      "publishedAt": "2026-05-09T05:00:00.000Z",
-      "summary": "Get up to 55% off and free meal boxes using a HelloFresh coupon code today. Discover our best codes and discounts to let you save time and money.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "50% Off Blue Apron Promo Codes | May 2026",
-      "url": "https://www.wired.com/story/blue-apron-coupon/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5262,
-      "publishedAt": "2026-05-09T05:00:00.000Z",
-      "summary": "Browse chef-curated meal plans, plus get $25 off with an exclusive Blue Apron coupon code, plus 50% off your first 2 orders, and more top coupons on WIRED.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "T-Mobile Promo Codes: 25% Off | May",
-      "url": "https://www.wired.com/story/t-mobile-business-promo-code/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5262,
-      "publishedAt": "2026-05-09T05:00:00.000Z",
-      "summary": "Discover how to save on T-Mobile Business Internet and phone plans, from sign-up perks and switching rewards to bundled offers and free lines.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Logitech Promo Codes and Deals: Up to $100 Off",
-      "url": "https://www.wired.com/story/logitech-promo-code/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5262,
-      "publishedAt": "2026-05-09T05:00:00.000Z",
-      "summary": "Score up to $100 off refurbished premium products, free shipping on orders of $29+, and more at Logitech.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Download: AI malaise and babymaking tech",
-      "url": "https://www.technologyreview.com/2026/05/08/1136985/the-download-ai-malaise-babymaking-ivf-tech/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.5238,
-      "publishedAt": "2026-05-08T12:10:00.000Z",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. We’ve entered the era of AI malaise AI is spreading everywhere, and it is not going away. But what will it do? What effect will it have on our society",
-      "tags": [
-        "AI"
       ],
       "engagementScore": 0
     },
@@ -526,25 +461,103 @@
       "engagementScore": 0
     },
     {
+      "title": "Instacart Promo Code: $15 Off | May 2026",
+      "url": "https://www.wired.com/story/instacart-promo/code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5091,
+      "publishedAt": "2026-05-09T05:00:00.000Z",
+      "summary": "Find the best Instacart promo code for massive savings in May 2026",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "HelloFresh Coupon Codes: 55% Off + Free Meals",
+      "url": "https://www.wired.com/story/hellofresh-coupon/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5091,
+      "publishedAt": "2026-05-09T05:00:00.000Z",
+      "summary": "Get up to 55% off and free meal boxes using a HelloFresh coupon code today. Discover our best codes and discounts to let you save time and money.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "50% Off Blue Apron Promo Codes | May 2026",
+      "url": "https://www.wired.com/story/blue-apron-coupon/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5091,
+      "publishedAt": "2026-05-09T05:00:00.000Z",
+      "summary": "Browse chef-curated meal plans, plus get $25 off with an exclusive Blue Apron coupon code, plus 50% off your first 2 orders, and more top coupons on WIRED.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "T-Mobile Promo Codes: 25% Off | May",
+      "url": "https://www.wired.com/story/t-mobile-business-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5091,
+      "publishedAt": "2026-05-09T05:00:00.000Z",
+      "summary": "Discover how to save on T-Mobile Business Internet and phone plans, from sign-up perks and switching rewards to bundled offers and free lines.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Logitech Promo Codes and Deals: Up to $100 Off",
+      "url": "https://www.wired.com/story/logitech-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5091,
+      "publishedAt": "2026-05-09T05:00:00.000Z",
+      "summary": "Score up to $100 off refurbished premium products, free shipping on orders of $29+, and more at Logitech.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Download: AI malaise and babymaking tech",
+      "url": "https://www.technologyreview.com/2026/05/08/1136985/the-download-ai-malaise-babymaking-ivf-tech/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.5051,
+      "publishedAt": "2026-05-08T12:10:00.000Z",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. We’ve entered the era of AI malaise AI is spreading everywhere, and it is not going away. But what will it do? What effect will it have on our society",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "A recent experience with ChatGPT 5.5 Pro",
       "url": "https://gowers.wordpress.com/2026/05/08/a-recent-experience-with-chatgpt-5-5-pro/",
       "feedSource": "Hacker News",
       "source": "gowers.wordpress.com",
-      "score": 0.5097,
+      "score": 0.4967,
       "publishedAt": "2026-05-09T02:41:42.000Z",
       "summary": "We are all having to keep revising upwards our assessments of the mathematical capabilities of large language models. I have just made a fairly large revision as a result of ChatGPT 5.5 Pro, to whi…",
       "tags": [
         "LLM",
         "Vision"
       ],
-      "engagementScore": 489
+      "engagementScore": 525
     },
     {
       "title": "Here’s how technology transformed babymaking",
       "url": "https://www.technologyreview.com/2026/05/08/1136974/heres-how-technology-transformed-babymaking-ivf/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5053,
+      "score": 0.4867,
       "publishedAt": "2026-05-08T09:00:00.000Z",
       "summary": "Technology is changing the way we make babies. The pioneering work of the scientists who invented IVF led to the birth of the first “test tube baby” in 1978. We’ve come a long, long way since then. This week, I’ve been working on a piece about the cutting edge of IVF technologies and what’s coming&#",
       "tags": [
@@ -557,7 +570,7 @@
       "url": "https://www.theverge.com/tech/926342/nanoleaf-smart-lighting-ai-robotics-red-light-wellness",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4748,
+      "score": 0.4577,
       "publishedAt": "2026-05-08T19:23:58.000Z",
       "summary": "Smart lighting company Nanoleaf has been unusually quiet recently. While competitors such as Govee and Philips Hue have been pumping out new products and innovative features at an impressive pace, Nanoleaf has launched just a handful of smart lighting products in the last two years. There's a reason",
       "tags": [
@@ -570,7 +583,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.474,
+      "score": 0.4568,
       "publishedAt": "2026-05-08T19:14:10.000Z",
       "summary": "Massive new data centers are the physical foundation for tech companies’ hopes and dreams for AI. But the rush to expand warehouses full of energy-hungry servers has also kicked up fights across the world over their impact on power grids, utility bills, nearby communities, and the environment.&#160;",
       "tags": [
@@ -583,7 +596,7 @@
       "url": "https://www.theverge.com/report/926771/microsoft-openai-amazon-worries-shit-talk-azure",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.467,
+      "score": 0.4498,
       "publishedAt": "2026-05-08T17:55:39.000Z",
       "summary": "When OpenAI was busy experimenting with AI-powered gaming bots, Microsoft CEO Satya Nadella and OpenAI CEO Sam Altman were in the early days of forming an AI partnership. Court documents from the ongoing Musk v. Altman trial have provided a rare look at the communications between Microsoft's top exe",
       "tags": [
@@ -596,7 +609,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/926383/mira-murati-sam-altman-musk-trial-ouster",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4668,
+      "score": 0.4497,
       "publishedAt": "2026-05-08T17:54:13.000Z",
       "summary": "The week leading up to Thanksgiving 2023 was the AI industry's biggest soap opera moment. OpenAI CEO Sam Altman was abruptly ousted from his role at the ChatGPT maker. The explanation? That Altman was \"not consistently candid in his communications with the board.\" Now, via witness testimony and tria",
       "tags": [
@@ -609,7 +622,7 @@
       "url": "https://www.theverge.com/games/926914/sony-playstation-ai-powerful-tool-games",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4596,
+      "score": 0.4424,
       "publishedAt": "2026-05-08T16:32:38.000Z",
       "summary": "As part of an earnings presentation on Friday, Sony shared how it's thinking about AI at the company, including many details about how it's evaluating AI as part of making PlayStation games. Generative AI has recently been showing up in bigger games - though many indie developers still reject it - a",
       "tags": [
@@ -618,43 +631,16 @@
       "engagementScore": 0
     },
     {
-      "title": "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
-      "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4506,
-      "publishedAt": "2026-05-08T14:52:40.000Z",
-      "summary": "Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product, ChatGPT. In 2024, Musk filed a lawsuit accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profits",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Everybody wants to rule the AI world",
       "url": "https://www.theverge.com/podcast/926707/openai-ceo-murati-musk-trial-vergecast",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4434,
+      "score": 0.4263,
       "publishedAt": "2026-05-08T13:31:37.000Z",
       "summary": "Sometimes, companies pick CEOs based on carefully laid succession plans designed to maximize investor confidence and future performance. Other times, apparently, companies pick CEOs based on a bunch of video calls while the current CEO is texting the former CEO about who the new CEO even is. Such wa",
       "tags": [
         "Vision",
         "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "ChatGPT&#8217;s &#8216;Trusted Contact&#8217; will alert loved ones of safety concerns",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/925874/chatgpt-trusted-contact-emergency-self-harm-notification",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4255,
-      "publishedAt": "2026-05-08T10:10:09.000Z",
-      "summary": "OpenAI is launching an optional safety feature for ChatGPT that allows adult users to assign an emergency contact for mental health and safety concerns. Friends, family members, or caregivers designated as a \"Trusted Contact\" will be notified if OpenAI detects that a person may have discussed topics",
-      "tags": [
-        "LLM",
-        "Safety"
       ],
       "engagementScore": 0
     },
@@ -692,6 +678,19 @@
       "score": 0.4222,
       "publishedAt": "2026-04-22T10:20:03.000Z",
       "summary": "Google’s new distributed architecture keeps AI training runs on track across distant data centers, with exceptional efficiency – even when hardware fails.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Partnering with industry leaders to accelerate AI transformation",
+      "url": "https://deepmind.google/blog/partnering-with-industry-leaders-to-accelerate-ai-transformation/",
+      "feedSource": "DeepMind",
+      "source": "deepmind.google",
+      "score": 0.4222,
+      "publishedAt": "2026-04-21T14:54:15.000Z",
+      "summary": "Google DeepMind partners with global consultancies to bring the power of frontier AI to organizations around the world.",
       "tags": [
         "AI"
       ],
