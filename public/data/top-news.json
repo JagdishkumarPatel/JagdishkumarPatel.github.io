@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-10T15:58:20.982Z",
+  "updatedAt": "2026-05-10T19:11:41.453Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,35 +12,48 @@
       "url": "https://arxiv.org/abs/2605.05419",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8662,
+      "score": 0.8511,
       "publishedAt": "2026-05-10T08:22:12.000Z",
       "summary": "LLMorphism is the biased belief that human cognition works like a large language model. I argue that the rise of conversational LLMs may make this bias increasingly psychologically available. When artificial systems produce human-like language, people may draw a reverse inference: if LLMs can speak",
       "tags": [
         "LLM",
         "Safety"
       ],
-      "engagementScore": 56
+      "engagementScore": 64
+    },
+    {
+      "title": "MachinaCheck: Building a Multi-Agent CNC Manufacturability System on AMD MI300X",
+      "url": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/machinacheck",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.7922,
+      "publishedAt": "2026-05-10T18:44:11.000Z",
+      "summary": "",
+      "tags": [
+        "Agents"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "LLMs corrupt your documents when you delegate",
       "url": "https://arxiv.org/abs/2604.15597",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8108,
+      "score": 0.7898,
       "publishedAt": "2026-05-09T08:44:34.000Z",
       "summary": "Large Language Models (LLMs) are poised to disrupt knowledge work, with the emergence of delegated work as a new interaction paradigm (e.g., vibe coding). Delegation requires trust - the expectation that the LLM will faithfully execute the task without introducing errors into documents. We introduce",
       "tags": [
         "LLM",
         "Dev Tools"
       ],
-      "engagementScore": 448
+      "engagementScore": 456
     },
     {
       "title": "Teaching Claude Why",
       "url": "https://www.anthropic.com/research/teaching-claude-why",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.791,
+      "score": 0.7677,
       "publishedAt": "2026-05-08T17:59:41.000Z",
       "summary": "New research on how we’ve reduced agentic misalignment",
       "tags": [
@@ -49,28 +62,28 @@
         "Research",
         "Safety"
       ],
-      "engagementScore": 257
+      "engagementScore": 258
     },
     {
       "title": "Superintelligent Retrieval Agent: The Next Frontier of Information Retrieval",
       "url": "https://arxiv.org/abs/2605.06647",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7375,
+      "score": 0.7248,
       "publishedAt": "2026-05-10T02:16:30.000Z",
       "summary": "Retrieval-augmented agents are increasingly the interface to large organizational knowledge bases, yet most still treat retrieval as a black box: they issue exploratory queries, inspect returned snippets, and iteratively reformulate until useful evidence emerges. This approach resembles how a newcom",
       "tags": [
         "Agents",
         "RAG"
       ],
-      "engagementScore": 10
+      "engagementScore": 12
     },
     {
       "title": "Running Codex safely at OpenAI",
       "url": "https://openai.com/index/running-codex-safely",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6621,
+      "score": 0.6386,
       "publishedAt": "2026-05-08T12:30:00.000Z",
       "summary": "How OpenAI runs Codex securely with sandboxing, approvals, network policies, and agent-native telemetry to support safe and compliant coding agent adoption.",
       "tags": [
@@ -81,24 +94,11 @@
       "engagementScore": 0
     },
     {
-      "title": "&quot;OncoAgent: A Dual-Tier Multi-Agent Framework for Privacy-Preserving Oncology Clinical Decision Support&quot;",
-      "url": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/oncoagent-official-paper",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.6572,
-      "publishedAt": "2026-05-09T18:09:28.000Z",
-      "summary": "",
-      "tags": [
-        "Agents"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Gemini API File Search is now multimodal",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanded-gemini-api-file-search-multimodal-rag/",
       "feedSource": "Hacker News",
       "source": "blog.google",
-      "score": 0.6555,
+      "score": 0.638,
       "publishedAt": "2026-05-10T03:22:02.000Z",
       "summary": "Updates to the Gemini API File Search tool makes building efficient, multimodal file retrieval systems easier for developers.",
       "tags": [
@@ -107,28 +107,27 @@
         "Vision",
         "Dev Tools"
       ],
-      "engagementScore": 135
+      "engagementScore": 139
     },
     {
-      "title": "Natural Language Autoencoders: Turning Claude's Thoughts into Text",
-      "url": "https://www.anthropic.com/research/natural-language-autoencoders",
+      "title": "Chrome's AI features may be hogging 4GB of your computer storage",
+      "url": "https://www.theverge.com/tech/924933/google-chrome-4gb-gemini-nano-ai-features",
       "feedSource": "Hacker News",
-      "source": "anthropic.com",
-      "score": 0.6347,
-      "publishedAt": "2026-05-07T17:54:02.000Z",
-      "summary": "Turning Claude’s thoughts into text",
+      "source": "theverge.com",
+      "score": 0.5703,
+      "publishedAt": "2026-05-10T15:22:46.000Z",
+      "summary": "You can take steps to delete it though.",
       "tags": [
-        "LLM",
-        "Dev Tools"
+        "RAG"
       ],
-      "engagementScore": 367
+      "engagementScore": 58
     },
     {
       "title": "Could Contact-Tracing Apps Help With the Hantavirus? Not Really",
       "url": "https://www.wired.com/story/could-contact-tracing-apps-help-with-the-hantavirus-not-really/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5582,
+      "score": 0.5409,
       "publishedAt": "2026-05-10T11:00:00.000Z",
       "summary": "Contact-tracing apps were widely deployed during the Covid pandemic. They aren’t as helpful during smaller outbreaks.",
       "tags": [
@@ -141,7 +140,7 @@
       "url": "https://www.wired.com/story/do-city-delivery-drones-make-sense-no-one-knows-but-theyre-flying-over-nyc/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5555,
+      "score": 0.5383,
       "publishedAt": "2026-05-10T10:30:00.000Z",
       "summary": "One of the country’s busiest airspaces has a new kind of flying machine—maybe temporarily.",
       "tags": [
@@ -154,7 +153,7 @@
       "url": "https://www.wired.com/story/why-you-need-a-handheld-translator-for-travel/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5528,
+      "score": 0.5356,
       "publishedAt": "2026-05-10T10:00:00.000Z",
       "summary": "Your cell phone can handle basic language translation, but bespoke tools can offer a much more immersive experience.",
       "tags": [
@@ -167,7 +166,7 @@
       "url": "https://www.wired.com/story/reservation-hijacks-scam-safety-tips/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5501,
+      "score": 0.5329,
       "publishedAt": "2026-05-10T09:30:00.000Z",
       "summary": "The hotel staffer who calls you with an urgent request for payment isn’t necessarily who they say they are.",
       "tags": [
@@ -176,11 +175,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Louis Rossmann offers to pay legal fees for a threatened OrcaSlicer developer",
+      "url": "https://www.tomshardware.com/3d-printing/louis-rossmann-tells-3d-printer-maker-bambu-lab-to-go-bleep-yourself-over-its-lawsuit-against-enthusiast-right-to-repair-advocate-offers-to-pay-the-legal-fees-for-a-threatened-orcaslicer-developer",
+      "feedSource": "Hacker News",
+      "source": "tomshardware.com",
+      "score": 0.5316,
+      "publishedAt": "2026-05-10T14:47:05.000Z",
+      "summary": "Bambu Labs controversy heats up.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 273
+    },
+    {
       "title": "AlphaEvolve: Gemini-powered coding agent scaling impact across fields",
       "url": "https://deepmind.google/blog/alphaevolve-impact/",
       "feedSource": "Hacker News",
       "source": "deepmind.google",
-      "score": 0.5171,
+      "score": 0.5172,
       "publishedAt": "2026-05-07T15:02:20.000Z",
       "summary": "Discover how AlphaEvolve optimizes algorithms for genomics, quantum physics, global infrastructure, and more to accelerate scientific progress and solve real-world challenges.",
       "tags": [
@@ -189,20 +201,7 @@
         "Research",
         "Dev Tools"
       ],
-      "engagementScore": 325
-    },
-    {
-      "title": "Louis Rossmann tells 3D printer maker Bambu Lab to 'Go (Bleep) yourself'",
-      "url": "https://www.tomshardware.com/3d-printing/louis-rossmann-tells-3d-printer-maker-bambu-lab-to-go-bleep-yourself-over-its-lawsuit-against-enthusiast-right-to-repair-advocate-offers-to-pay-the-legal-fees-for-a-threatened-orcaslicer-developer",
-      "feedSource": "Hacker News",
-      "source": "tomshardware.com",
-      "score": 0.5166,
-      "publishedAt": "2026-05-10T14:47:05.000Z",
-      "summary": "Bambu Labs controversy heats up.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 117
+      "engagementScore": 326
     },
     {
       "title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
@@ -307,7 +306,7 @@
       "url": "https://huggingface.co/blog/allenai/emo",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.4923,
+      "score": 0.4719,
       "publishedAt": "2026-05-08T16:03:50.000Z",
       "summary": "",
       "tags": [
@@ -320,7 +319,7 @@
       "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4567,
+      "score": 0.4395,
       "publishedAt": "2026-05-09T16:01:23.000Z",
       "summary": "Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product, ChatGPT. In 2024, Musk filed a lawsuit accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profits",
       "tags": [
@@ -333,50 +332,11 @@
       "url": "https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4527,
+      "score": 0.4339,
       "publishedAt": "2026-05-08T23:59:19.000Z",
       "summary": "In the second week of the landmark trial between Elon Musk and OpenAI, Musk’s motivations for bringing the suit were under scrutiny. Last week, Musk took the stand, alleging that OpenAI CEO Sam Altman and president Greg Brockman had deceived him into donating $38 million to the company. He claimed t",
       "tags": [
         "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Best Live-Captioning Smart Glasses (2026), WIRED tested",
-      "url": "https://www.wired.com/gallery/best-captioning-glasses/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4298,
-      "publishedAt": "2026-05-09T11:00:00.000Z",
-      "summary": "Can’t hear what they’re saying? Now you can turn on the subtitles for real-life conversations.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Hackable Robot Lawn Mower Unlocks a New Nightmare",
-      "url": "https://www.wired.com/story/security-news-this-week-hackable-robot-lawnmower-unlocks-a-new-nightmare/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4272,
-      "publishedAt": "2026-05-09T10:30:00.000Z",
-      "summary": "Plus: Meta officially kills encrypted Instagram DMs, the Trump administration targets “violent left wing extremists,” leaked documents reveal Russia's school for elite hackers, and more.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The 19 Most Exciting Cars at the Beijing Auto Show 2026",
-      "url": "https://www.wired.com/story/most-exciting-cars-at-beijing-auto-show-auto-china-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4245,
-      "publishedAt": "2026-05-09T10:00:00.000Z",
-      "summary": "The cars that debuted at the Beijing Auto Show demonstrate that the Chinese market is now at the forefront of electrification and intelligence. These are the 19 most intriguing models we saw.",
-      "tags": [
-        "AI"
       ],
       "engagementScore": 0
     },
@@ -486,11 +446,50 @@
       "engagementScore": 0
     },
     {
+      "title": "Best Live-Captioning Smart Glasses (2026), WIRED tested",
+      "url": "https://www.wired.com/gallery/best-captioning-glasses/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4126,
+      "publishedAt": "2026-05-09T11:00:00.000Z",
+      "summary": "Can’t hear what they’re saying? Now you can turn on the subtitles for real-life conversations.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Hackable Robot Lawn Mower Unlocks a New Nightmare",
+      "url": "https://www.wired.com/story/security-news-this-week-hackable-robot-lawnmower-unlocks-a-new-nightmare/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4099,
+      "publishedAt": "2026-05-09T10:30:00.000Z",
+      "summary": "Plus: Meta officially kills encrypted Instagram DMs, the Trump administration targets “violent left wing extremists,” leaked documents reveal Russia's school for elite hackers, and more.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The 19 Most Exciting Cars at the Beijing Auto Show 2026",
+      "url": "https://www.wired.com/story/most-exciting-cars-at-beijing-auto-show-auto-china-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4072,
+      "publishedAt": "2026-05-09T10:00:00.000Z",
+      "summary": "The cars that debuted at the Beijing Auto Show demonstrate that the Chinese market is now at the forefront of electrification and intelligence. These are the 19 most intriguing models we saw.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Here’s what you need to know about the cruise ship hantavirus outbreak",
       "url": "https://www.technologyreview.com/2026/05/08/1136988/heres-what-you-need-to-know-about-the-cruise-ship-hantavirus-outbreak/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.408,
+      "score": 0.3892,
       "publishedAt": "2026-05-08T16:19:40.000Z",
       "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. Eight passengers aboard a Dutch-flagged cruise ship have contracted a type of hantavirus, a rare virus transmitted by rat",
       "tags": [
@@ -503,7 +502,7 @@
       "url": "https://blog.google/company-news/inside-google/company-announcements/the-small-brief/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.4002,
+      "score": 0.3814,
       "publishedAt": "2026-05-08T15:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Group_Icons_1x1.max-600x600.format-webp.webp\"&gt;Today we're launching The Small Brief, an initiative bringing together three ad industry icons to champion a local businesses they love. Their mission is to build breakt…",
       "tags": [
@@ -518,7 +517,7 @@
       "url": "https://www.wired.com/story/instacart-promo/code/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.3977,
+      "score": 0.3805,
       "publishedAt": "2026-05-09T05:00:00.000Z",
       "summary": "Find the best Instacart promo code for massive savings in May 2026",
       "tags": [
@@ -531,7 +530,7 @@
       "url": "https://www.technologyreview.com/2026/05/08/1136985/the-download-ai-malaise-babymaking-ivf-tech/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.3837,
+      "score": 0.3649,
       "publishedAt": "2026-05-08T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. We’ve entered the era of AI malaise AI is spreading everywhere, and it is not going away. But what will it do? What effect will it have on our society",
       "tags": [
@@ -544,35 +543,9 @@
       "url": "https://www.technologyreview.com/2026/05/08/1136974/heres-how-technology-transformed-babymaking-ivf/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.3652,
+      "score": 0.3464,
       "publishedAt": "2026-05-08T09:00:00.000Z",
       "summary": "Technology is changing the way we make babies. The pioneering work of the scientists who invented IVF led to the birth of the first “test tube baby” in 1978. We’ve come a long, long way since then. This week, I’ve been working on a piece about the cutting edge of IVF technologies and what’s coming&#",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Nanoleaf bets its future on robots, red light therapy, and AI",
-      "url": "https://www.theverge.com/tech/926342/nanoleaf-smart-lighting-ai-robotics-red-light-wellness",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.3464,
-      "publishedAt": "2026-05-08T19:23:58.000Z",
-      "summary": "Smart lighting company Nanoleaf has been unusually quiet recently. While competitors such as Govee and Philips Hue have been pumping out new products and innovative features at an impressive pace, Nanoleaf has launched just a handful of smart lighting products in the last two years. There's a reason",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "All the latest updates on AI data centers",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.3455,
-      "publishedAt": "2026-05-08T19:14:10.000Z",
-      "summary": "Massive new data centers are the physical foundation for tech companies’ hopes and dreams for AI. But the rush to expand warehouses full of energy-hungry servers has also kicked up fights across the world over their impact on power grids, utility bills, nearby communities, and the environment.&#160;",
       "tags": [
         "AI"
       ],
@@ -658,11 +631,37 @@
       "engagementScore": 0
     },
     {
+      "title": "Nanoleaf bets its future on robots, red light therapy, and AI",
+      "url": "https://www.theverge.com/tech/926342/nanoleaf-smart-lighting-ai-robotics-red-light-wellness",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.3292,
+      "publishedAt": "2026-05-08T19:23:58.000Z",
+      "summary": "Smart lighting company Nanoleaf has been unusually quiet recently. While competitors such as Govee and Philips Hue have been pumping out new products and innovative features at an impressive pace, Nanoleaf has launched just a handful of smart lighting products in the last two years. There's a reason",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "All the latest updates on AI data centers",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.3283,
+      "publishedAt": "2026-05-08T19:14:10.000Z",
+      "summary": "Massive new data centers are the physical foundation for tech companies’ hopes and dreams for AI. But the rush to expand warehouses full of energy-hungry servers has also kicked up fights across the world over their impact on power grids, utility bills, nearby communities, and the environment.&#160;",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Microsoft was worried OpenAI would run off to Amazon and ‘shit-talk’ Azure",
       "url": "https://www.theverge.com/report/926771/microsoft-openai-amazon-worries-shit-talk-azure",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.3385,
+      "score": 0.3213,
       "publishedAt": "2026-05-08T17:55:39.000Z",
       "summary": "When OpenAI was busy experimenting with AI-powered gaming bots, Microsoft CEO Satya Nadella and OpenAI CEO Sam Altman were in the early days of forming an AI partnership. Court documents from the ongoing Musk v. Altman trial have provided a rare look at the communications between Microsoft's top exe",
       "tags": [
@@ -675,7 +674,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/926383/mira-murati-sam-altman-musk-trial-ouster",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.3384,
+      "score": 0.3212,
       "publishedAt": "2026-05-08T17:54:13.000Z",
       "summary": "The week leading up to Thanksgiving 2023 was the AI industry's biggest soap opera moment. OpenAI CEO Sam Altman was abruptly ousted from his role at the ChatGPT maker. The explanation? That Altman was \"not consistently candid in his communications with the board.\" Now, via witness testimony and tria",
       "tags": [
