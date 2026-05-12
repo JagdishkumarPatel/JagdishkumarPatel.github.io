@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-11T22:10:26.537Z",
+  "updatedAt": "2026-05-12T03:39:02.170Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,7 +12,7 @@
       "url": "https://openai.com/signals/research/2026q1-update",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9851,
+      "score": 0.9451,
       "publishedAt": "2026-05-11T15:00:00.000Z",
       "summary": "ChatGPT adoption surged in Q1 2026, with fastest growth among users over 35 and more balanced gender usage, signaling broader mainstream AI adoption.",
       "tags": [
@@ -25,7 +25,7 @@
       "url": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9486,
+      "score": 0.9087,
       "publishedAt": "2026-05-11T10:00:00.000Z",
       "summary": "How enterprises scale AI: from early experiments to compounding impact through trust, governance, workflow design, and quality at scale.",
       "tags": [
@@ -38,7 +38,7 @@
       "url": "https://openai.com/index/openai-campus-network-student-club-interest-form",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9486,
+      "score": 0.9087,
       "publishedAt": "2026-05-11T10:00:00.000Z",
       "summary": "Join the OpenAI Campus Network—connect student clubs worldwide, access AI tools, host events, and build an AI-powered campus community.",
       "tags": [
@@ -52,7 +52,7 @@
       "url": "https://openai.com/index/openai-launches-the-deployment-company",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9195,
+      "score": 0.8795,
       "publishedAt": "2026-05-11T06:00:00.000Z",
       "summary": "OpenAI launches DeployCo, a new enterprise deployment company built to help organizations bring frontier AI into production and turn it into measurable business impact.",
       "tags": [
@@ -61,11 +61,38 @@
       "engagementScore": 0
     },
     {
+      "title": "Daybreak Frontier AI for cyber defenders",
+      "url": "https://openai.com/daybreak/",
+      "feedSource": "Hacker News",
+      "source": "openai.com",
+      "score": 0.8677,
+      "publishedAt": "2026-05-11T18:01:27.000Z",
+      "summary": "Deploy AI for cyber defense with GPT-5.5 and Codex Security to identify threats, generate patches, and verify remediation across code and systems.",
+      "tags": [
+        "LLM",
+        "Dev Tools"
+      ],
+      "engagementScore": 8
+    },
+    {
+      "title": "Building Blocks for Foundation Model Training and Inference on AWS",
+      "url": "https://huggingface.co/blog/amazon/foundation-model-building-blocks",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.7676,
+      "publishedAt": "2026-05-11T23:18:26.000Z",
+      "summary": "",
+      "tags": [
+        "ML Infra"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "GraphDC: A Divide-and-Conquer Multi-Agent System for Scalable Graph Algorithm Reasoning",
       "url": "https://arxiv.org/abs/2605.06671",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7885,
+      "score": 0.7513,
       "publishedAt": "2026-05-11T04:00:00.000Z",
       "summary": "arXiv:2605.06671v1 Announce Type: new \nAbstract: Large Language Models (LLMs) have demonstrated strong potential for many mathematical problems. However, their performance on graph algorithmic tasks is still unsatisfying, since graphs are naturally more complex in topology and often require systemat",
       "tags": [
@@ -80,7 +107,7 @@
       "url": "https://arxiv.org/abs/2605.06672",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7885,
+      "score": 0.7513,
       "publishedAt": "2026-05-11T04:00:00.000Z",
       "summary": "arXiv:2605.06672v1 Announce Type: new \nAbstract: Chain-of-thought (CoT) reasoning and reasoning-tuned models such as DeepSeek-R1 are commonly assumed to reduce shallow heuristic biases by thinking carefully. We test this on position bias in multiple-choice QA and find a different story: within any r",
       "tags": [
@@ -94,7 +121,7 @@
       "url": "https://arxiv.org/abs/2605.06682",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7885,
+      "score": 0.7513,
       "publishedAt": "2026-05-11T04:00:00.000Z",
       "summary": "arXiv:2605.06682v1 Announce Type: new \nAbstract: Spatial redistricting is a practical combinatorial optimization problem that demands high-quality solutions, rapid turnaround, and flexibility to accommodate multi-criteria objectives and interactive refinement. A central challenge is the contiguity c",
       "tags": [
@@ -108,7 +135,7 @@
       "url": "https://arxiv.org/abs/2605.06690",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7885,
+      "score": 0.7513,
       "publishedAt": "2026-05-11T04:00:00.000Z",
       "summary": "arXiv:2605.06690v1 Announce Type: new \nAbstract: Recursive reasoning systems alternate between acquiring new evidence and refining an accumulated understanding. Two design choices are typically left implicit: how to represent the evolving reasoning state, and when to stop iterating. This paper addre",
       "tags": [
@@ -122,7 +149,7 @@
       "url": "https://arxiv.org/abs/2605.06696",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7885,
+      "score": 0.7513,
       "publishedAt": "2026-05-11T04:00:00.000Z",
       "summary": "arXiv:2605.06696v1 Announce Type: new \nAbstract: Collections of interacting AI agents can form coalitions, creating emergent group-level organization that is critical for AI safety and alignment. However, observing agent behavior alone is often insufficient to distinguish genuine informational coupl",
       "tags": [
@@ -137,7 +164,7 @@
       "url": "https://arxiv.org/abs/2605.06702",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7885,
+      "score": 0.7513,
       "publishedAt": "2026-05-11T04:00:00.000Z",
       "summary": "arXiv:2605.06702v1 Announce Type: new \nAbstract: Large language models (LLMs) have become a central foundation of modern artificial intelligence, yet their lifecycle remains constrained by a rigid separation between training and deployment, after which learning effectively ceases. This limitation co",
       "tags": [
@@ -152,7 +179,7 @@
       "url": "https://arxiv.org/abs/2605.06716",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7885,
+      "score": 0.7513,
       "publishedAt": "2026-05-11T04:00:00.000Z",
       "summary": "arXiv:2605.06716v1 Announce Type: new \nAbstract: Large Language Model (LLM)-based agents have fundamentally reshaped artificial intelligence by integrating external tools and planning capabilities. While memory mechanisms have emerged as the architectural cornerstone of these systems, current resear",
       "tags": [
@@ -169,7 +196,7 @@
       "url": "https://arxiv.org/abs/2605.06723",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7885,
+      "score": 0.7513,
       "publishedAt": "2026-05-11T04:00:00.000Z",
       "summary": "arXiv:2605.06723v1 Announce Type: new \nAbstract: Language models often generate reasoning before giving a final answer, but the visible answer does not reveal when the model's answer preference became stable. We study this question through a narrow computable object: \\emph{finite-answer preference s",
       "tags": [
@@ -184,7 +211,7 @@
       "url": "https://arxiv.org/abs/2605.05419",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.6788,
+      "score": 0.6415,
       "publishedAt": "2026-05-10T08:22:12.000Z",
       "summary": "LLMorphism is the biased belief that human cognition works like a large language model. I argue that the rise of conversational LLMs may make this bias increasingly psychologically available. When artificial systems produce human-like language, people may draw a reverse inference: if LLMs can speak",
       "tags": [
@@ -198,7 +225,7 @@
       "url": "https://www.technologyreview.com/2026/05/11/1137090/three-things-in-ai-to-watch-according-to-a-nobel-winning-economist/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6592,
+      "score": 0.6272,
       "publishedAt": "2026-05-11T17:35:12.000Z",
       "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. A few months before he was awarded the Nobel Prize in economics in 2024, Daron Acemoglu published a paper that earned him few fans in Silicon Valley. Contrary to",
       "tags": [
@@ -211,7 +238,7 @@
       "url": "https://www.technologyreview.com/2026/05/11/1136967/fostering-breakthrough-ai-innovation-through-customer-back-engineering/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6356,
+      "score": 0.6037,
       "publishedAt": "2026-05-11T13:33:06.000Z",
       "summary": "Despite years of digitization, organizations capture less than one-third of the value expected from digital investments, according to McKinsey research. That’s because most big companies begin with technological capabilities and bolt applications onto them, rather than starting with customer needs a",
       "tags": [
@@ -225,7 +252,7 @@
       "url": "https://www.technologyreview.com/2026/05/11/1136406/innovation-abounds-in-device-charging/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6324,
+      "score": 0.6004,
       "publishedAt": "2026-05-11T13:00:00.000Z",
       "summary": "The changes may be less perceptible than in smartphones, tablets, or wearables, but chargers have also been quietly reinvented over the last decade. At one time a bulky mix of tangled cables and connectors, slow to perform and prone to overheating, they’re now smaller, safer, and faster, thanks to a",
       "tags": [
@@ -238,7 +265,7 @@
       "url": "https://www.technologyreview.com/2026/05/11/1136786/implementing-advanced-ai-technologies-in-finance/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6324,
+      "score": 0.6004,
       "publishedAt": "2026-05-11T13:00:00.000Z",
       "summary": "In finance departments that have long been defined by precision and control, AI has arrived less as a neatly managed upgrade than as a quiet insurgency. Employees are already using it while leadership races to impose structure, governance, and strategy after the fact. The result is a paradox: one of",
       "tags": [
@@ -251,7 +278,7 @@
       "url": "https://www.technologyreview.com/2026/05/11/1137031/the-download-hantavirus-outbreak-musk-altman-trial/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6275,
+      "score": 0.5956,
       "publishedAt": "2026-05-11T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Here’s what you need to know about the cruise ship hantavirus outbreak Last week, eight passengers aboard a Dutch-flagged cruise ship contracted a typ",
       "tags": [
@@ -264,21 +291,63 @@
       "url": "https://arxiv.org/abs/2604.15597",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.608,
+      "score": 0.5708,
       "publishedAt": "2026-05-09T08:44:34.000Z",
       "summary": "Large Language Models (LLMs) are poised to disrupt knowledge work, with the emergence of delegated work as a new interaction paradigm (e.g., vibe coding). Delegation requires trust - the expectation that the LLM will faithfully execute the task without introducing errors into documents. We introduce",
       "tags": [
         "LLM",
         "Dev Tools"
       ],
-      "engagementScore": 473
+      "engagementScore": 474
+    },
+    {
+      "title": "Ilya Sutskever Stands by His Role in Sam Altman’s OpenAI Ouster: ‘I Didn’t Want It to Be Destroyed’",
+      "url": "https://www.wired.com/story/ilya-sutskever-testifies-musk-v-altman-trial/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5645,
+      "publishedAt": "2026-05-11T23:51:35.000Z",
+      "summary": "The former OpenAI chief scientist may be estranged from the company, but he still came to its defense as he testified on Monday.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "GM just laid off IT workers to hire those with stronger AI skills",
+      "url": "https://techcrunch.com/2026/05/11/gm-just-laid-off-hundreds-of-it-workers-to-hire-those-with-stronger-ai-skills/",
+      "feedSource": "Hacker News",
+      "source": "techcrunch.com",
+      "score": 0.5612,
+      "publishedAt": "2026-05-11T23:33:04.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 48
+    },
+    {
+      "title": "OpenAI just released its answer to Claude Mythos",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/928342/openai-daybreak-security-ai",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5604,
+      "publishedAt": "2026-05-11T23:05:51.000Z",
+      "summary": "OpenAI is launching Daybreak, an AI initiative focused on detecting and patching vulnerabilities before attackers find them. Daybreak uses the Codex Security AI agent that launched in March to create a threat model based on an organization's code and focus on possible attack paths, validate likely v",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Open Source",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "The new AI-powered Google Finance is expanding to Europe.",
       "url": "https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.5916,
+      "score": 0.5596,
       "publishedAt": "2026-05-11T06:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/UK_1920x1080.max-600x600.format-webp.webp\"&gt;This week, the new, AI-powered Google Finance is launching across Europe, with full local language support. This reimagined experience offers a suite of powerful capabil…",
       "tags": [
@@ -289,11 +358,37 @@
       "engagementScore": 0
     },
     {
+      "title": "Here&#8217;s what Mira Murati&#8217;s AI company is up to",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/928309/mira-murati-thinking-machines-ai-interaction-model",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5562,
+      "publishedAt": "2026-05-11T22:19:15.000Z",
+      "summary": "Thinking Machines, the AI company founded by former OpenAI CTO Mira Murati, announced Monday that it's working on something called \"interaction models.\" The idea behind interaction models, according to Thinking Machines, is that they will let people \"collaborate with AI the way we naturally collabor",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Postmortem: TanStack npm supply-chain compromise",
+      "url": "https://tanstack.com/blog/npm-supply-chain-compromise-postmortem",
+      "feedSource": "Hacker News",
+      "source": "tanstack.com",
+      "score": 0.5499,
+      "publishedAt": "2026-05-11T21:08:25.000Z",
+      "summary": "On 2026-05-11, an attacker chained a pull_request_target Pwn Request, GitHub Actions cache poisoning across the fork↔base trust boundary, and OIDC token extraction from runner memory to publish 84 malicious versions across 42 @tanstack/* packages on npm. Full postmortem.",
+      "tags": [
+        "Open Source"
+      ],
+      "engagementScore": 600
+    },
+    {
       "title": "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
       "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.576,
+      "score": 0.5467,
       "publishedAt": "2026-05-11T20:31:59.000Z",
       "summary": "Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product, ChatGPT. In 2024, Musk filed a lawsuit accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profits",
       "tags": [
@@ -306,7 +401,7 @@
       "url": "https://www.wired.com/story/moving-beyond-bad-cholesterol-test/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5661,
+      "score": 0.5368,
       "publishedAt": "2026-05-11T18:40:37.000Z",
       "summary": "There’s a more accurate way of measuring who’s at risk for cholesterol-related health issues. So why don’t more doctors use it?",
       "tags": [
@@ -319,7 +414,7 @@
       "url": "https://www.wired.com/story/bad-bunny-super-bowl-fcc-complaints/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5625,
+      "score": 0.5332,
       "publishedAt": "2026-05-11T18:00:35.000Z",
       "summary": "The complaints, obtained by WIRED, described Bad Bunny’s performance as being overly sexual and protested that the show was in Spanish.",
       "tags": [
@@ -332,7 +427,7 @@
       "url": "https://www.wired.com/story/video-game-trump-iran-war/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5595,
+      "score": 0.5302,
       "publishedAt": "2026-05-11T17:27:22.000Z",
       "summary": "The game, developed by the group of anonymous artists known as Secret Handshake, is available online and in person in Washington, DC.",
       "tags": [
@@ -345,7 +440,7 @@
       "url": "https://www.wired.com/story/a-new-hantavirus-vaccine-is-in-the-works/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5585,
+      "score": 0.5292,
       "publishedAt": "2026-05-11T17:16:02.000Z",
       "summary": "Since 2023, Moderna and Korea University have been developing a new mRNA vaccine for hantavirus. The work has been promising so far, but a finished product isn't likely coming any time soon.",
       "tags": [
@@ -358,7 +453,7 @@
       "url": "https://www.wired.com/story/update-your-iphone-now-for-better-encrypted-messaging-with-android/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5577,
+      "score": 0.5284,
       "publishedAt": "2026-05-11T17:06:53.000Z",
       "summary": "As part of the iOS 26.5 update, Apple’s Messages app can now encrypt texts between some iPhone and Android smartphones.",
       "tags": [
@@ -371,7 +466,7 @@
       "url": "https://www.theverge.com/tech/928007/google-ai-zero-day-exploit-stopped",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5543,
+      "score": 0.525,
       "publishedAt": "2026-05-11T16:28:15.000Z",
       "summary": "For the first time, Google says it has spotted and stopped a zero-day exploit developed with AI. According to a report from Google Threat Intelligence Group (GTIG), \"prominent cyber crime threat actors\" were planning to use the vulnerability for a \"mass exploitation event\" that would have allowed th",
       "tags": [
@@ -380,82 +475,17 @@
       "engagementScore": 0
     },
     {
-      "title": "Joanna Stern is not a robot, but she lived with them",
-      "url": "https://www.theverge.com/podcast/926752/joanna-stern-i-am-not-a-robot-new-things-media-youtube-ai-automation",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5401,
-      "publishedAt": "2026-05-11T13:48:57.000Z",
-      "summary": "My guest today is longtime friend of the show Joanna Stern. You all know Joanna: she is the former senior personal technology columnist for The Wall Street Journal, a former Decoder guest host, one of my cofounders here at The Verge, and also just one of my very closest friends. I mention that becau",
+      "title": "If AI writes your code, why use Python?",
+      "url": "https://medium.com/@NMitchem/if-ai-writes-your-code-why-use-python-bf8c4ba1a055",
+      "feedSource": "Hacker News",
+      "source": "medium.com",
+      "score": 0.5149,
+      "publishedAt": "2026-05-11T20:45:55.000Z",
+      "summary": "",
       "tags": [
         "Dev Tools"
       ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Papa Johns Is Getting Into Drone Delivery—but Not for Pizza",
-      "url": "https://www.wired.com/story/papa-johns-is-getting-into-drone-delivery-but-its-not-flying-pizza/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5303,
-      "publishedAt": "2026-05-11T12:00:00.000Z",
-      "summary": "A new collaboration with Alphabet’s Wing will only deliver sandwiches. It demonstrates the tricky parts of taking to the sky.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "CUDA-oxide: Nvidia's official Rust to CUDA compiler",
-      "url": "https://nvlabs.github.io/cuda-oxide/index.html",
-      "feedSource": "Hacker News",
-      "source": "nvlabs.github.io",
-      "score": 0.5293,
-      "publishedAt": "2026-05-11T15:55:07.000Z",
-      "summary": "cuda-oxide is an experimental Rust-to-CUDA compiler that lets you write (SIMT) GPU kernels in safe(ish), idiomatic Rust. It compiles standard Rust code directly to PTX — no DSLs, no foreign language bindings, just Rust.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 328
-    },
-    {
-      "title": "A Chevron Texas Power Plant Seeks School District Tax Break",
-      "url": "https://www.wired.com/story/chevron-wants-school-district-tax-break-data-center-power-plant-texas/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.525,
-      "publishedAt": "2026-05-11T11:00:00.000Z",
-      "summary": "The move could save the oil company hundreds of millions, even as Texas lawmakers start looking at reining in incentives for data centers.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Can someone please explain whether Cloudflare blackmailed Canonical?",
-      "url": "https://www.flyingpenguin.com/can-someone-please-explain-whether-cloudflare-blackmailed-canonical/",
-      "feedSource": "Hacker News",
-      "source": "flyingpenguin.com",
-      "score": 0.5197,
-      "publishedAt": "2026-05-11T18:12:38.000Z",
-      "summary": "30 April 2026, 16:33:37 UTC. Canonical’s incident monitoring system marks blog.ubuntu.com as Service Down.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 185
-    },
-    {
-      "title": "CUDA Proves Nvidia Is a Software Company",
-      "url": "https://www.wired.com/story/cuda-proves-nvidia-is-a-software-company/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5197,
-      "publishedAt": "2026-05-11T10:00:00.000Z",
-      "summary": "There’s a deep, forbidding moat that surrounds Nvidia—and it has nothing to do with hardware.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
+      "engagementScore": 240
     },
     {
       "title": "Running Codex safely at OpenAI",
@@ -516,56 +546,69 @@
       "engagementScore": 0
     },
     {
-      "title": "Gmail registration now requires scanning a QR code and sending a text message",
-      "url": "https://discuss.privacyguides.net/t/google-account-registration-now-requires-sending-an-sms-via-phone-instead-of-receiving-an-sms/36082",
-      "feedSource": "Hacker News",
-      "source": "discuss.privacyguides.net",
-      "score": 0.5036,
-      "publishedAt": "2026-05-11T07:26:54.000Z",
-      "summary": "I have tried it myself, the registration is no longer possible with the QR code. Supposedly, using the QR code on the smartphone triggers an SMS sent from your phone to Google in order to verify your phone number. Supposedly, this is for security. A valid argument, since finish is harder this way, a",
+      "title": "Joanna Stern is not a robot, but she lived with them",
+      "url": "https://www.theverge.com/podcast/926752/joanna-stern-i-am-not-a-robot-new-things-media-youtube-ai-automation",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5108,
+      "publishedAt": "2026-05-11T13:48:57.000Z",
+      "summary": "My guest today is longtime friend of the show Joanna Stern. You all know Joanna: she is the former senior personal technology columnist for The Wall Street Journal, a former Decoder guest host, one of my cofounders here at The Verge, and also just one of my very closest friends. I mention that becau",
       "tags": [
         "Dev Tools"
       ],
-      "engagementScore": 503
+      "engagementScore": 0
     },
     {
-      "title": "590k buyers paid $59M for Trump's gold phone, but not one has shipped",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/590-000-buyers-paid-59-223500998.html",
+      "title": "CUDA-oxide: Nvidia's official Rust to CUDA compiler",
+      "url": "https://nvlabs.github.io/cuda-oxide/index.html",
       "feedSource": "Hacker News",
-      "source": "finance.yahoo.com",
-      "score": 0.4992,
-      "publishedAt": "2026-05-11T20:19:38.000Z",
-      "summary": "Customers paid a collective $59 million toward a gold smartphone that Trump Mobile promised would be “Made in the USA” — but that doesn’t seem to have actually been made.",
+      "source": "nvlabs.github.io",
+      "score": 0.5073,
+      "publishedAt": "2026-05-11T15:55:07.000Z",
+      "summary": "cuda-oxide is an experimental Rust-to-CUDA compiler that lets you write (SIMT) GPU kernels in safe(ish), idiomatic Rust. It compiles standard Rust code directly to PTX — no DSLs, no foreign language bindings, just Rust.",
       "tags": [
-        "AI"
+        "Dev Tools"
       ],
-      "engagementScore": 79
-    },
-    {
-      "title": "Students Boo Commencement Speaker After She Calls AI Next Industrial Revolution",
-      "url": "https://www.404media.co/ucf-ai-commencement-speaker-booed/",
-      "feedSource": "Hacker News",
-      "source": "404media.co",
-      "score": 0.4988,
-      "publishedAt": "2026-05-11T15:53:23.000Z",
-      "summary": "A commencement speaker at the University of Central Florida was booed, with graduating humanities students yelling out, “AI SUCKS!”",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 142
+      "engagementScore": 373
     },
     {
       "title": "UCLA discovers first stroke rehabilitation drug to repair brain damage (2025)",
       "url": "https://stemcell.ucla.edu/news/ucla-discovers-first-stroke-rehabilitation-drug-repair-brain-damage",
       "feedSource": "Hacker News",
       "source": "stemcell.ucla.edu",
-      "score": 0.4944,
+      "score": 0.5045,
       "publishedAt": "2026-05-11T17:53:08.000Z",
       "summary": "A new study by UCLA Health has discovered what researchers say is the first drug to fully reproduce the effects of physical stroke rehabilitation in model mice.",
       "tags": [
         "Research"
       ],
-      "engagementScore": 96
+      "engagementScore": 265
+    },
+    {
+      "title": "Papa Johns Is Getting Into Drone Delivery—but Not for Pizza",
+      "url": "https://www.wired.com/story/papa-johns-is-getting-into-drone-delivery-but-its-not-flying-pizza/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5011,
+      "publishedAt": "2026-05-11T12:00:00.000Z",
+      "summary": "A new collaboration with Alphabet’s Wing will only deliver sandwiches. It demonstrates the tricky parts of taking to the sky.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "A Chevron Texas Power Plant Seeks School District Tax Break",
+      "url": "https://www.wired.com/story/chevron-wants-school-district-tax-break-data-center-power-plant-texas/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4957,
+      "publishedAt": "2026-05-11T11:00:00.000Z",
+      "summary": "The move could save the oil company hundreds of millions, even as Texas lawmakers start looking at reining in incentives for data centers.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "AlphaEvolve: How our Gemini-powered coding agent is scaling impact across fields",
@@ -644,46 +687,6 @@
       "summary": "Our newest audio model introduces granular audio tags that give you precise control to direct AI speech for expressive audio generation.",
       "tags": [
         "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Gemini Robotics-ER 1.6: Powering real-world robotics tasks through enhanced embodied reasoning",
-      "url": "https://deepmind.google/blog/gemini-robotics-er-1-6/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-04-13T15:52:13.000Z",
-      "summary": "Gemini Robotics ER 1.6: Enhancing spatial reasoning and multi-view understanding for autonomous robotics.",
-      "tags": [
-        "LLM",
-        "Agents"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Gemma 4: Byte for byte, the most capable open models",
-      "url": "https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-04-02T16:00:49.000Z",
-      "summary": "Gemma 4: Our most intelligent open models to date, purpose-built for advanced reasoning and agentic workflows.",
-      "tags": [
-        "Agents"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "EMO: Pretraining mixture of experts for emergent modularity",
-      "url": "https://huggingface.co/blog/allenai/emo",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.3401,
-      "publishedAt": "2026-05-08T16:03:50.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
       ],
       "engagementScore": 0
     }
