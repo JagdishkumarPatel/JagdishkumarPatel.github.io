@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-13T03:48:52.026Z",
+  "updatedAt": "2026-05-13T08:50:03.805Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,11 +8,24 @@
   ],
   "items": [
     {
+      "title": "Deterministic Fully-Static Whole-Binary Translation Without Heuristics",
+      "url": "https://arxiv.org/abs/2605.08419",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.9375,
+      "publishedAt": "2026-05-13T04:25:03.000Z",
+      "summary": "We present Elevator, the first binary translator that statically translates entire x86-64 executables to AArch64 without debug information, source code, or assumptions about code layout. Unlike existing systems, which rely on heuristics or runtime fallbacks to handle code-versus-data decoding errors",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 149
+    },
+    {
       "title": "How finance teams use Codex",
       "url": "https://openai.com/academy/how-finance-teams-use-codex",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9439,
+      "score": 0.9073,
       "publishedAt": "2026-05-12T15:00:00.000Z",
       "summary": "See how finance teams can use Codex to build MBRs, reporting packs, variance bridges, model checks, and planning scenarios from real work inputs.",
       "tags": [
@@ -21,38 +34,159 @@
       "engagementScore": 0
     },
     {
+      "title": "A Cascaded Generative Approach for e-Commerce Recommendations",
+      "url": "https://arxiv.org/abs/2605.11118",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8793,
+      "publishedAt": "2026-05-13T04:00:00.000Z",
+      "summary": "arXiv:2605.11118v1 Announce Type: new \nAbstract: Personalized storefronts in large e-commerce marketplaces are often assembled from many independent components: static themes per page section (\"placement\"), retrieval systems to fetch eligible products per placement, and pointwise rankers to order co",
+      "tags": [
+        "Research",
+        "RAG"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "EVOCHAMBER: Test-Time Co-evolution of Multi-Agent System at Individual, Team, and Population Scales",
+      "url": "https://arxiv.org/abs/2605.11136",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8793,
+      "publishedAt": "2026-05-13T04:00:00.000Z",
+      "summary": "arXiv:2605.11136v1 Announce Type: new \nAbstract: We argue that multi-agent test-time evolution is not single-agent evolution replicated N times. A single-agent learner can only evolve its own context and memory. A multi-agent system additionally evolves who collaborates, how they collaborate, and ho",
+      "tags": [
+        "Agents",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "RankQ: Offline-to-Online Reinforcement Learning via Self-Supervised Action Ranking",
+      "url": "https://arxiv.org/abs/2605.11151",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8793,
+      "publishedAt": "2026-05-13T04:00:00.000Z",
+      "summary": "arXiv:2605.11151v1 Announce Type: new \nAbstract: Offline-to-online reinforcement learning (RL) improves sample efficiency by leveraging pre-collected datasets prior to online interaction. A key challenge, however, is learning an accurate critic in large state--action spaces with limited dataset cove",
+      "tags": [
+        "Research",
+        "RAG"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "OLIVIA: Online Learning via Inference-time Action Adaptation for Decision Making in LLM ReAct Agents",
+      "url": "https://arxiv.org/abs/2605.11169",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8793,
+      "publishedAt": "2026-05-13T04:00:00.000Z",
+      "summary": "arXiv:2605.11169v1 Announce Type: new \nAbstract: Large language model agents interleave reasoning, action selection, and observation to solve sequential decision-making tasks. In deployed settings where agents repeatedly handle related multi-step tasks, small action-selection errors can accumulate i",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Many Faces of On-Policy Distillation: Pitfalls, Mechanisms, and Fixes",
+      "url": "https://arxiv.org/abs/2605.11182",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8793,
+      "publishedAt": "2026-05-13T04:00:00.000Z",
+      "summary": "arXiv:2605.11182v1 Announce Type: new \nAbstract: On-policy distillation (OPD) and on-policy self-distillation (OPSD) have emerged as promising post-training methods for large language models, offering dense token-level supervision on trajectories sampled from the model's own policy. However, existin",
+      "tags": [
+        "LLM",
+        "Research",
+        "Vision",
+        "Safety",
+        "ML Infra"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Don't Look at the Numbers: Visual Anchoring Bias and Layer-wise Representation in VLMs",
+      "url": "https://arxiv.org/abs/2605.11218",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8793,
+      "publishedAt": "2026-05-13T04:00:00.000Z",
+      "summary": "arXiv:2605.11218v1 Announce Type: new \nAbstract: Embedded numeric anchors on images systematically bias Vision-Language Model quality judgments across six VLMs from five architectural families (ANOVA eta^2 = 0.18-0.77, all p &lt; 0.001). Anchor effects are 2.5x larger than severe image quality degra",
+      "tags": [
+        "LLM",
+        "Research",
+        "Vision",
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Do Vision-Language-Models show human-like logical problem-solving capability in point and click puzzle games?",
+      "url": "https://arxiv.org/abs/2605.11223",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8793,
+      "publishedAt": "2026-05-13T04:00:00.000Z",
+      "summary": "arXiv:2605.11223v1 Announce Type: new \nAbstract: Vision-Language(-Action) Models (VLMs) are increasingly applied to interactive environments, yet existing benchmarks often overlook the complex physical reasoning required for point-and-click puzzle games. This paper introduces Vision-Language Against",
+      "tags": [
+        "Research",
+        "Vision",
+        "ML Infra"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "PIVOT: Bridging Planning and Execution in LLM Agents via Trajectory Refinement",
+      "url": "https://arxiv.org/abs/2605.11225",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8793,
+      "publishedAt": "2026-05-13T04:00:00.000Z",
+      "summary": "arXiv:2605.11225v1 Announce Type: new \nAbstract: Large language model (LLM)-based agents frequently generate seemingly coherent plans that fail upon execution due to infeasible actions, constraint violations, and compounding errors over extended horizons. PIVOT (Plan-Inspect-eVOlve Trajectories) add",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Research",
+        "ML Infra"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Reimagining the mouse pointer for the AI era",
       "url": "https://deepmind.google/blog/ai-pointer/",
       "feedSource": "Hacker News",
       "source": "deepmind.google",
-      "score": 0.9028,
+      "score": 0.8775,
       "publishedAt": "2026-05-12T17:40:13.000Z",
       "summary": "Google DeepMind is transforming the mouse pointer into a context-aware AI partner. Move beyond the friction of traditional prompting with intuitive AI collaboration in Chrome and beyond.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 162
+      "engagementScore": 193
     },
     {
       "title": "Beyond Semantic Similarity",
       "url": "https://arxiv.org/abs/2605.05242",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.856,
+      "score": 0.8288,
       "publishedAt": "2026-05-12T19:51:41.000Z",
       "summary": "Modern retrieval systems, whether lexical or semantic, expose a corpus through a fixed similarity interface that compresses access into a single top-k retrieval step before reasoning. This abstraction is efficient, but for agentic search, it becomes a bottleneck: exact lexical constraints, sparse cl",
       "tags": [
         "Agents",
         "RAG"
       ],
-      "engagementScore": 48
+      "engagementScore": 55
     },
     {
       "title": "How NVIDIA engineers and researchers build with Codex",
       "url": "https://openai.com/index/nvidia",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8346,
+      "score": 0.798,
       "publishedAt": "2026-05-12T00:00:00.000Z",
       "summary": "Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments.",
       "tags": [
@@ -67,7 +201,7 @@
       "url": "https://openai.com/index/what-parameter-golf-taught-us",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8346,
+      "score": 0.798,
       "publishedAt": "2026-05-12T00:00:00.000Z",
       "summary": "Parameter Golf brought together 1,000+ participants and 2,000+ submissions to explore AI-assisted machine learning research, coding agents, quantization, and novel model design under strict constraints.",
       "tags": [
@@ -83,7 +217,7 @@
       "url": "https://openai.com/index/autoscout24",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8346,
+      "score": 0.798,
       "publishedAt": "2026-05-12T00:00:00.000Z",
       "summary": "Learn how AutoScout24 Group uses Codex and ChatGPT to speed development cycles, improve code quality, and expand AI adoption.",
       "tags": [
@@ -97,21 +231,21 @@
       "url": "https://arxiv.org/abs/2604.20913",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7782,
+      "score": 0.7568,
       "publishedAt": "2026-05-12T17:35:51.000Z",
       "summary": "Large language models are increasingly deployed on CPU-only platforms where memory bandwidth is the primary bottleneck for autoregressive generation. Weight quantization to four bits or below reduces memory pressure, yet existing systems still dequantize weights and perform floating-point multiplica",
       "tags": [
         "LLM",
         "ML Infra"
       ],
-      "engagementScore": 14
+      "engagementScore": 18
     },
     {
       "title": "How ChatGPT adoption broadened in early 2026",
       "url": "https://openai.com/signals/research/2026q1-update",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7689,
+      "score": 0.7323,
       "publishedAt": "2026-05-11T15:00:00.000Z",
       "summary": "ChatGPT adoption surged in Q1 2026, with fastest growth among users over 35 and more balanced gender usage, signaling broader mainstream AI adoption.",
       "tags": [
@@ -120,129 +254,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Where Reliability Lives in Vision-Language Models: A Mechanistic Study of Attention, Hidden States, and Causal Circuits",
-      "url": "https://arxiv.org/abs/2605.08200",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7502,
-      "publishedAt": "2026-05-12T04:00:00.000Z",
-      "summary": "arXiv:2605.08200v1 Announce Type: new \nAbstract: A pervasive intuition holds that vision-language models (VLMs) are most trustworthy when their attention maps look sharp: concentrated attention on the queried region should imply a confident, calibrated answer. We test this Attention-Confidence Assum",
-      "tags": [
-        "LLM",
-        "Research",
-        "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Spatial Priming Outperforms Semantic Prompting: A Grid-Based Approach to Improving LLM Accuracy on Chart Data Extraction",
-      "url": "https://arxiv.org/abs/2605.08220",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7502,
-      "publishedAt": "2026-05-12T04:00:00.000Z",
-      "summary": "arXiv:2605.08220v1 Announce Type: new \nAbstract: The automated extraction of data from scientific charts is a critical task for large-scale literature analysis. While multimodal Large Language Models (LLMs) show promise, their accuracy on non-standardized charts remains a challenge. This raises a ke",
-      "tags": [
-        "LLM",
-        "Research",
-        "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Auto-Rubric as Reward: From Implicit Preferences to Explicit Multimodal Generative Criteria",
-      "url": "https://arxiv.org/abs/2605.08354",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7502,
-      "publishedAt": "2026-05-12T04:00:00.000Z",
-      "summary": "arXiv:2605.08354v1 Announce Type: new \nAbstract: Aligning multimodal generative models with human preferences demands reward signals that respect the compositional, multi-dimensional structure of human judgment. Prevailing RLHF approaches reduce this structure to scalar or pairwise labels, collapsin",
-      "tags": [
-        "Research",
-        "Vision",
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Embeddings for Preferences, Not Semantics",
-      "url": "https://arxiv.org/abs/2605.08360",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7502,
-      "publishedAt": "2026-05-12T04:00:00.000Z",
-      "summary": "arXiv:2605.08360v1 Announce Type: new \nAbstract: Modern AI is opening the door to collective decision-making in which participants express their views as free-form text rather than voting on a fixed set of candidates. A natural idea is to embed these opinions in a vector space so that the substantia",
-      "tags": [
-        "Research",
-        "RAG"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "On Distinguishing Capability Elicitation from Capability Creation in Post-Training: A Free-Energy Perspective",
-      "url": "https://arxiv.org/abs/2605.08368",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7502,
-      "publishedAt": "2026-05-12T04:00:00.000Z",
-      "summary": "arXiv:2605.08368v1 Announce Type: new \nAbstract: Debates about large language model post-training often treat supervised fine-tuning (SFT) as imitation and reinforcement learning (RL) as discovery. But this distinction is too coarse. What matters is whether a training procedure increases the probabi",
-      "tags": [
-        "LLM",
-        "Research",
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "MemQ: Integrating Q-Learning into Self-Evolving Memory Agents over Provenance DAGs",
-      "url": "https://arxiv.org/abs/2605.08374",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7502,
-      "publishedAt": "2026-05-12T04:00:00.000Z",
-      "summary": "arXiv:2605.08374v2 Announce Type: new \nAbstract: Episodic memory allows LLM agents to accumulate and retrieve experience, but current methods treat each memory independently, i.e., evaluating retrieval quality in isolation without accounting for the dependency chains through which memories enable th",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Research",
-        "RAG"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "SkillLens: Adaptive Multi-Granularity Skill Reuse for Cost-Efficient LLM Agents",
-      "url": "https://arxiv.org/abs/2605.08386",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7502,
-      "publishedAt": "2026-05-12T04:00:00.000Z",
-      "summary": "arXiv:2605.08386v1 Announce Type: new \nAbstract: Skill libraries have become a practical way for LLM agents to reuse procedural experience across tasks. However, existing systems typically treat skills as flat, single-resolution prompt blocks. This creates a tension between relevance and cost: injec",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "PLACO: A Multi-Stage Framework for Cost-Effective Performance in Human-AI Teams",
-      "url": "https://arxiv.org/abs/2605.08388",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7502,
-      "publishedAt": "2026-05-12T04:00:00.000Z",
-      "summary": "arXiv:2605.08388v1 Announce Type: new \nAbstract: Human-AI teams play a pivotal role in improving overall system performance when neither the human nor the model can achieve such performance on their own. With the advent of powerful and accessible Generative AI models, several mundane tasks have morp",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "How enterprises are scaling AI",
       "url": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7325,
+      "score": 0.6959,
       "publishedAt": "2026-05-11T10:00:00.000Z",
       "summary": "How enterprises scale AI: from early experiments to compounding impact through trust, governance, workflow design, and quality at scale.",
       "tags": [
@@ -255,7 +271,7 @@
       "url": "https://openai.com/index/openai-campus-network-student-club-interest-form",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7325,
+      "score": 0.6959,
       "publishedAt": "2026-05-11T10:00:00.000Z",
       "summary": "Join the OpenAI Campus Network—connect student clubs worldwide, access AI tools, host events, and build an AI-powered campus community.",
       "tags": [
@@ -269,7 +285,7 @@
       "url": "https://openai.com/index/openai-launches-the-deployment-company",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7033,
+      "score": 0.6667,
       "publishedAt": "2026-05-11T06:00:00.000Z",
       "summary": "OpenAI launches DeployCo, a new enterprise deployment company built to help organizations bring frontier AI into production and turn it into measurable business impact.",
       "tags": [
@@ -282,7 +298,7 @@
       "url": "https://www.technologyreview.com/2026/05/12/1137134/world-models-10-things-that-matter-in-ai-right-now/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6192,
+      "score": 0.5899,
       "publishedAt": "2026-05-12T16:22:15.000Z",
       "summary": "World models recently made our list of 10 Things That Matter in AI Right Now. Watch executive editor Niall Firth explain why this emerging area of AI is gaining so much attention. Join MIT Technology Review editors and reporters for a subscriber-only Roundtables discussion, &#8220;Can AI Learn to Un",
       "tags": [
@@ -295,7 +311,7 @@
       "url": "https://huggingface.co/blog/amazon/foundation-model-building-blocks",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6149,
+      "score": 0.5832,
       "publishedAt": "2026-05-11T23:18:26.000Z",
       "summary": "",
       "tags": [
@@ -304,11 +320,24 @@
       "engagementScore": 0
     },
     {
+      "title": "NASA’s Curiosity Rover Got Its Drill Stuck on a Rock. Here’s How They Freed It",
+      "url": "https://www.wired.com/story/nasas-curiosity-rover-got-its-drill-stuck-on-a-rock-heres-how-they-freed-it/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.583,
+      "publishedAt": "2026-05-13T08:30:00.000Z",
+      "summary": "This is the first time NASA has encountered a situation like this, and it took nearly a week to resolve.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "The Download: a Nobel winner on AI, and the case for fixing everything",
       "url": "https://www.technologyreview.com/2026/05/12/1137103/the-download-nobel-winner-ai-maintenance-of-everything/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5946,
+      "score": 0.5653,
       "publishedAt": "2026-05-12T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Three things in AI to watch, according to a Nobel-winning economist A few months before he won the Nobel Prize in economics in 2024, Daron Acemoglu pu",
       "tags": [
@@ -317,53 +346,104 @@
       "engagementScore": 0
     },
     {
+      "title": "Naturepedic Promo Codes and Deals: 20% Off",
+      "url": "https://www.wired.com/story/naturepedic-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5642,
+      "publishedAt": "2026-05-13T05:00:00.000Z",
+      "summary": "Shop the Naturepedic sale this May.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "20% Off LG Promo Code &amp; Coupons | May 2026",
+      "url": "https://www.wired.com/story/lg-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5642,
+      "publishedAt": "2026-05-13T05:00:00.000Z",
+      "summary": "Save 20% with an LG promo code today, plus up to $1,000 off appliances, 40% off bestselling TVs and monitors.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Google Workspace Promo Codes: 14% Off for May",
+      "url": "https://www.wired.com/story/google-workspace-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5642,
+      "publishedAt": "2026-05-13T05:00:00.000Z",
+      "summary": "Boost your productivity and save with exclusive Google Workspace coupons from WIRED. Get up to 14% off plans for three months, including Starter, Standard, and Plus tiers.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Top Nomad Goods Promo Codes: Get 25% Off in May 2026",
+      "url": "https://www.wired.com/story/nomad-discount-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5642,
+      "publishedAt": "2026-05-13T05:00:00.000Z",
+      "summary": "Save up to 25% on Nomad Goods accessories such as Nomad phone cases, Nomad wallets, and more this May.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Peacock Promo Codes: 40% Off May 2026",
+      "url": "https://www.wired.com/story/peacock-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5642,
+      "publishedAt": "2026-05-13T05:00:00.000Z",
+      "summary": "Stream your favorite shows for up to $80 off this month, and save on subscription plans with the latest Peacock TV coupons from WIRED.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Corsair Discount Code: 50% Off on Gaming Gear in May 2026",
+      "url": "https://www.wired.com/story/corsair-coupon/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5642,
+      "publishedAt": "2026-05-13T05:00:00.000Z",
+      "summary": "Upgrade your gaming setup or PC build for less with these verified Corsair coupon codes, student discounts, and refurbished deals.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Valvoline Coupons &amp; Promo Codes for May 2026",
+      "url": "https://www.wired.com/story/valvoline-coupons/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5642,
+      "publishedAt": "2026-05-13T05:00:00.000Z",
+      "summary": "Unlock significant savings on Valvoline oil changes and auto services. We've gathered all the top Valvoline coupons and promo codes for May 2026, including deals on full synthetic oil changes and other essential maintenance.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Sam Altman was winning on the stand, but it might not be enough",
       "url": "https://www.theverge.com/ai-artificial-intelligence/929129/sam-altman-testimony-elon-musk-openai-trial",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5656,
+      "score": 0.5387,
       "publishedAt": "2026-05-13T00:13:34.000Z",
       "summary": "After two weeks of hearing from assorted witnesses that he was a lying snake, the jury finally heard from the lying snake himself: Sam Altman. At the end of the testimony, his lawyer William Savitt asked him how it felt to be accused of stealing a charity. \"We created, through a ton of hard work, [&",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Elon Musk Had ‘Hair-Raising’ Idea of Passing OpenAI On to His Kids, Sam Altman Says",
-      "url": "https://www.wired.com/story/sam-altman-testifies-musk-v-altman-trial/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5653,
-      "publishedAt": "2026-05-13T00:10:05.000Z",
-      "summary": "Musk’s lawyers questioned Altman over allegations of deception and his network of financial investments, but the OpenAI CEO painted a picture of Musk as obsessed with controlling the company.",
-      "tags": [
-        "LLM",
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Unitree GD01 Is a Giant Mecha Robot You Can Actually Buy",
-      "url": "https://www.wired.com/story/unitree-gd01-mecha-robot/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5583,
-      "publishedAt": "2026-05-12T22:51:45.000Z",
-      "summary": "China’s Unitree, famous for making low-cost dancing robots, will now sell you a giant, wall-smashing mecha.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Foxconn Ransomware Attack Shows Nothing Is Safe Forever",
-      "url": "https://www.wired.com/story/foxconn-ransomware-attack-shows-nothing-is-safe-forever/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.553,
-      "publishedAt": "2026-05-12T21:52:05.000Z",
-      "summary": "Famous for helping build Apple’s iPhones, Foxconn just suffered another cyberattack, highlighting the perils of warehousing some of the world’s most valuable data.",
       "tags": [
         "AI"
       ],
@@ -374,7 +454,7 @@
       "url": "https://www.theverge.com/tech/929091/meta-ai-threads-account-block",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.547,
+      "score": 0.5202,
       "publishedAt": "2026-05-12T20:45:49.000Z",
       "summary": "Meta announced on Tuesday that it's testing a Threads feature that lets users tag a Meta AI account to get answers to questions or context about a conversation on the platform. If you've spent any time looking at replies on X as of late, this new feature sounds a lot like Meta's take on people [&#82",
       "tags": [
@@ -383,50 +463,24 @@
       "engagementScore": 0
     },
     {
-      "title": "MAHA Keeps Being Weird as Hell About Fertility",
-      "url": "https://www.wired.com/story/maha-is-still-creepily-obsessed-with-your-fertility/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5464,
-      "publishedAt": "2026-05-12T20:38:52.000Z",
-      "summary": "RFK Jr. and Mehmet Oz’s comments about teen sperm count and “underbabied” Americans at a recent women’s health event underscore the White House’s pronatalist agenda.",
+      "title": "European governments: 3.000 tracking sites, 1.000 phpMyAdmins, and 99% poorly",
+      "url": "https://internetcleanup.foundation/2026/05/european-governments-3000-tracking-sites-1000-phpmyadmins-and-99pct-poorly-encrypted-email-introducing-securitybaseline-eu/",
+      "feedSource": "Hacker News",
+      "source": "internetcleanup.foundation",
+      "score": 0.5097,
+      "publishedAt": "2026-05-13T07:11:17.000Z",
+      "summary": "On May 13, 2026, the website SecurityBaseline.eu was launched. It is a spin-off from the Dutch “Basisbeveiliging”, which has monitored baseline security for over a decade and is part of governmental policy. Three months ago we sent tens of thousands of e-mails to European governments indicating the",
       "tags": [
-        "AI"
+        "Safety"
       ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Audemars Piguet x Swatch Collaboration Is Here for Real",
-      "url": "https://www.wired.com/story/this-is-the-real-swatch-x-audemars-piguet-royal-pop-collaboration/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5442,
-      "publishedAt": "2026-05-12T20:13:26.000Z",
-      "summary": "With Instagram awash with inaccurate AI-generated concepts for its Royal Pop collab, Swatch was forced to reveal the genuine article.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Iran Is Using Tiny ‘Mosquito’ Boats to Shut Down the Strait of Hormuz",
-      "url": "https://www.wired.com/story/iran-is-using-tiny-mosquito-boats-to-shut-down-the-strait-of-hormuz/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5382,
-      "publishedAt": "2026-05-12T19:06:26.000Z",
-      "summary": "Iran’s traditional naval fleet has been almost completely destroyed by US-Israeli raids. But Iran’s military has put a fleet of small vessels on the water that is crippling every passageway.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
+      "engagementScore": 103
     },
     {
       "title": "Sam Altman says Elon Musk’s mind games were damaging OpenAI",
       "url": "https://www.theverge.com/ai-artificial-intelligence/928861/openai-sam-altman-elon-musk-damage",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5329,
+      "score": 0.5061,
       "publishedAt": "2026-05-12T18:07:26.000Z",
       "summary": "OpenAI CEO Sam Altman says Elon Musk did \"huge damage\" to the culture of the AI startup. During testimony as part of Musk's lawsuit against OpenAI, Altman said Musk required OpenAI president Greg Brockman and former chief scientist Ilya Sutskever to rank researchers by their accomplishments and \"tak",
       "tags": [
@@ -441,7 +495,7 @@
       "url": "https://www.theverge.com/tech/928724/gemini-intelligence-android-io-autofill",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5329,
+      "score": 0.5061,
       "publishedAt": "2026-05-12T18:07:37.000Z",
       "summary": "It is, once again, Gemini season. Google is announcing a host of new Gemini features during its pre-I/O Android showcase, many of which aim to help use your phone for you. You'll find Gemini in more places, like Chrome on Android, in your autofill suggestions, and all up in your apps - if you want.",
       "tags": [
@@ -454,7 +508,7 @@
       "url": "https://www.theverge.com/tech/928653/google-android-17-9-biggest-new-features-android-show-io",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.527,
+      "score": 0.5002,
       "publishedAt": "2026-05-12T17:00:59.000Z",
       "summary": "Would it shock you to hear that Android 17 is filled with new AI-enabled features, like improved dictation and vibe-coded widgets? Fortunately, that's not all. The platform is getting non-AI updates too, from an emoji overhaul to a new screentime tool that helps you avoid distracting apps. Google ha",
       "tags": [
@@ -463,63 +517,25 @@
       "engagementScore": 0
     },
     {
-      "title": "The Top New Features in Google’s Android 17—and Gemini Intelligence—Coming This Summer",
-      "url": "https://www.wired.com/story/android-17-gemini-top-new-features/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5269,
-      "publishedAt": "2026-05-12T17:00:00.000Z",
-      "summary": "You’ll soon be able to generate your own widgets or ask Gemini to finish a booking in Chrome on Android.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Googlebook Is Google’s New AI-Powered Laptop Platform Built on Android",
-      "url": "https://www.wired.com/story/googlebook-laptop-platform/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5269,
-      "publishedAt": "2026-05-12T17:00:00.000Z",
-      "summary": "They won’t replace Chromebooks, but Googlebooks have an Android-centered operating system, AI-first features like the Magic Pointer, and a promise of desktop-grade apps.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "xAI Adds 19 New Gas Turbines Despite Ongoing Lawsuit",
-      "url": "https://www.wired.com/story/xai-adds-19-new-gas-turbines-despite-ongoing-lawsuit/",
+      "title": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
+      "url": "https://github.com/cactus-compute/needle",
       "feedSource": "Hacker News",
-      "source": "wired.com",
-      "score": 0.5233,
-      "publishedAt": "2026-05-13T00:21:37.000Z",
-      "summary": "Emails show that Elon Musk’s company is expanding its use of portable gas-fired power at its Colossus 2 site as a fight over air quality continues.",
+      "source": "github.com",
+      "score": 0.4984,
+      "publishedAt": "2026-05-12T18:03:11.000Z",
+      "summary": "26m function call model that runs on incredibly small devices - cactus-compute/needle",
       "tags": [
-        "AI"
+        "LLM",
+        "Dev Tools"
       ],
-      "engagementScore": 17
-    },
-    {
-      "title": "Sam Altman takes the stand in trial against Elon Musk",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/916975/altman-takes-stand-elon-musk-openai-trial",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5221,
-      "publishedAt": "2026-05-12T16:05:20.000Z",
-      "summary": "OpenAI CEO Sam Altman has begun his testimony against Elon Musk in a high-profile jury trial in a California federal courtroom. Altman, alongside OpenAI president Greg Brockman, is a primary defendant in the trial brought by Musk. Altman, Brockman, and Musk were all part of the initial founding team",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
+      "engagementScore": 439
     },
     {
       "title": "George Clooney, Tom Hanks, and Meryl Streep back new &#8216;Human Consent Standard&#8217; for AI licensing",
       "url": "https://www.theverge.com/ai-artificial-intelligence/928534/rsl-media-human-consent-standard",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5221,
+      "score": 0.4953,
       "publishedAt": "2026-05-12T16:06:19.000Z",
       "summary": "Hollywood actors and producers are standing behind a new AI licensing standard that will tell AI systems whether they'll need to pay to use a person's likeness, creative work, characters, and designs. With the Human Consent Standard, people can set terms for the use of their work or likeness, includ",
       "tags": [
@@ -528,11 +544,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Sam Altman takes the stand in trial against Elon Musk",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/916975/altman-takes-stand-elon-musk-openai-trial",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.4952,
+      "publishedAt": "2026-05-12T16:05:20.000Z",
+      "summary": "OpenAI CEO Sam Altman has begun his testimony against Elon Musk in a high-profile jury trial in a California federal courtroom. Altman, alongside OpenAI president Greg Brockman, is a primary defendant in the trial brought by Musk. Altman, Brockman, and Musk were all part of the initial founding team",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Rivian’s AI-powered voice assistant is ready to roll",
       "url": "https://www.theverge.com/transportation/928651/rivian-ai-voice-assistant-r1-r2",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5208,
+      "score": 0.494,
       "publishedAt": "2026-05-12T15:51:38.000Z",
       "summary": "Rivian's AI-powered voice assistant is rolling out today to the company's vehicle fleet. The assistant will be available through a software update to all compatible Rivian Gen 1 and Gen 2 vehicle owners who subscribe to the company's Connect Plus cellular service, which costs $15 a month or $150 a y",
       "tags": [
@@ -541,64 +570,37 @@
       "engagementScore": 0
     },
     {
-      "title": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
-      "url": "https://github.com/cactus-compute/needle",
-      "feedSource": "Hacker News",
-      "source": "github.com",
-      "score": 0.5114,
-      "publishedAt": "2026-05-12T18:03:11.000Z",
-      "summary": "26m function call model that runs on incredibly small devices - cactus-compute/needle",
-      "tags": [
-        "LLM",
-        "Dev Tools"
-      ],
-      "engagementScore": 321
-    },
-    {
       "title": "Why senior developers fail to communicate their expertise",
       "url": "https://www.nair.sh/guides-and-opinions/communicating-your-expertise/why-senior-developers-fail-to-communicate-their-expertise",
       "feedSource": "Hacker News",
       "source": "nair.sh",
-      "score": 0.5072,
+      "score": 0.4922,
       "publishedAt": "2026-05-12T15:08:40.000Z",
       "summary": "Why senior developers talk in terms of complexity while the rest of the business is worried about uncertainty — and what to do about it now that AI is in the picture.",
       "tags": [
         "Dev Tools"
       ],
-      "engagementScore": 422
+      "engagementScore": 548
     },
     {
       "title": "CERT is releasing six CVEs for serious security vulnerabilities in dnsmasq",
       "url": "https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2026q2/018471.html",
       "feedSource": "Hacker News",
       "source": "lists.thekelleys.org.uk",
-      "score": 0.5046,
+      "score": 0.4865,
       "publishedAt": "2026-05-12T18:12:28.000Z",
       "summary": "",
       "tags": [
         "AI"
       ],
-      "engagementScore": 260
-    },
-    {
-      "title": "Parents say ChatGPT got their son killed with bad advice on party drugs",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/928691/openai-chatgpt-wrongful-death-overdose",
-      "feedSource": "Hacker News",
-      "source": "theverge.com",
-      "score": 0.4924,
-      "publishedAt": "2026-05-12T16:39:40.000Z",
-      "summary": "ChatGPT allegedly “coached” the 19-year-old about how to use drugs.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 22
+      "engagementScore": 310
     },
     {
       "title": "Three things in AI to watch, according to a Nobel-winning economist",
       "url": "https://www.technologyreview.com/2026/05/11/1137090/three-things-in-ai-to-watch-according-to-a-nobel-winning-economist/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4862,
+      "score": 0.457,
       "publishedAt": "2026-05-11T17:35:12.000Z",
       "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. A few months before he was awarded the Nobel Prize in economics in 2024, Daron Acemoglu published a paper that earned him few fans in Silicon Valley. Contrary to",
       "tags": [
@@ -611,7 +613,7 @@
       "url": "https://www.technologyreview.com/2026/05/11/1136967/fostering-breakthrough-ai-innovation-through-customer-back-engineering/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4627,
+      "score": 0.4334,
       "publishedAt": "2026-05-11T13:33:06.000Z",
       "summary": "Despite years of digitization, organizations capture less than one-third of the value expected from digital investments, according to McKinsey research. That’s because most big companies begin with technological capabilities and bolt applications onto them, rather than starting with customer needs a",
       "tags": [
@@ -625,7 +627,7 @@
       "url": "https://www.technologyreview.com/2026/05/11/1136406/innovation-abounds-in-device-charging/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4595,
+      "score": 0.4302,
       "publishedAt": "2026-05-11T13:00:00.000Z",
       "summary": "The changes may be less perceptible than in smartphones, tablets, or wearables, but chargers have also been quietly reinvented over the last decade. At one time a bulky mix of tangled cables and connectors, slow to perform and prone to overheating, they’re now smaller, safer, and faster, thanks to a",
       "tags": [
@@ -638,7 +640,7 @@
       "url": "https://www.technologyreview.com/2026/05/11/1136786/implementing-advanced-ai-technologies-in-finance/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4595,
+      "score": 0.4302,
       "publishedAt": "2026-05-11T13:00:00.000Z",
       "summary": "In finance departments that have long been defined by precision and control, AI has arrived less as a neatly managed upgrade than as a quiet insurgency. Employees are already using it while leadership races to impose structure, governance, and strategy after the fact. The result is a paradox: one of",
       "tags": [
@@ -651,7 +653,7 @@
       "url": "https://www.technologyreview.com/2026/05/11/1137031/the-download-hantavirus-outbreak-musk-altman-trial/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4546,
+      "score": 0.4253,
       "publishedAt": "2026-05-11T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Here’s what you need to know about the cruise ship hantavirus outbreak Last week, eight passengers aboard a Dutch-flagged cruise ship contracted a typ",
       "tags": [
