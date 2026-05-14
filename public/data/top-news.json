@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-13T22:17:18.388Z",
+  "updatedAt": "2026-05-14T03:47:25.385Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,7 +12,7 @@
       "url": "https://openai.com/index/building-codex-windows-sandbox",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9551,
+      "score": 0.9149,
       "publishedAt": "2026-05-13T11:00:00.000Z",
       "summary": "Learn how OpenAI built a secure sandbox for Codex on Windows, enabling safe, efficient coding agents with controlled file access and network restrictions.",
       "tags": [
@@ -27,20 +27,20 @@
       "url": "https://arxiv.org/abs/2605.08419",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8793,
+      "score": 0.842,
       "publishedAt": "2026-05-13T04:25:03.000Z",
       "summary": "We present Elevator, the first binary translator that statically translates entire x86-64 executables to AArch64 without debug information, source code, or assumptions about code layout. Unlike existing systems, which rely on heuristics or runtime fallbacks to handle code-versus-data decoding errors",
       "tags": [
         "Dev Tools"
       ],
-      "engagementScore": 288
+      "engagementScore": 289
     },
     {
       "title": "How finance teams use Codex",
       "url": "https://openai.com/academy/how-finance-teams-use-codex",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8092,
+      "score": 0.7691,
       "publishedAt": "2026-05-12T15:00:00.000Z",
       "summary": "See how finance teams can use Codex to build MBRs, reporting packs, variance bridges, model checks, and planning scenarios from real work inputs.",
       "tags": [
@@ -53,7 +53,7 @@
       "url": "https://deepmind.google/blog/ai-pointer/",
       "feedSource": "Hacker News",
       "source": "deepmind.google",
-      "score": 0.798,
+      "score": 0.7605,
       "publishedAt": "2026-05-12T17:40:13.000Z",
       "summary": "Google DeepMind is transforming the mouse pointer into a context-aware AI partner. Move beyond the friction of traditional prompting with intuitive AI collaboration in Chrome and beyond.",
       "tags": [
@@ -62,11 +62,26 @@
       "engagementScore": 245
     },
     {
+      "title": "Continual Harness: Online Adaptation for Self-Improving Foundation Agents",
+      "url": "https://arxiv.org/abs/2605.09998",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.754,
+      "publishedAt": "2026-05-13T19:11:10.000Z",
+      "summary": "Coding harnesses such as Claude Code and OpenHands wrap foundation models with tools, memory, and planning, but no equivalent exists for embodied agents’ long-horizon partial-observability decision-making. We first report our Gemini Plays Pokemon (GPP) experiments. With iterative human-in-the-loop h",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Dev Tools"
+      ],
+      "engagementScore": 7
+    },
+    {
       "title": "A Cascaded Generative Approach for e-Commerce Recommendations",
       "url": "https://arxiv.org/abs/2605.11118",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7878,
+      "score": 0.7503,
       "publishedAt": "2026-05-13T04:00:00.000Z",
       "summary": "arXiv:2605.11118v1 Announce Type: new \nAbstract: Personalized storefronts in large e-commerce marketplaces are often assembled from many independent components: static themes per page section (\"placement\"), retrieval systems to fetch eligible products per placement, and pointwise rankers to order co",
       "tags": [
@@ -80,7 +95,7 @@
       "url": "https://arxiv.org/abs/2605.11136",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7878,
+      "score": 0.7503,
       "publishedAt": "2026-05-13T04:00:00.000Z",
       "summary": "arXiv:2605.11136v1 Announce Type: new \nAbstract: We argue that multi-agent test-time evolution is not single-agent evolution replicated N times. A single-agent learner can only evolve its own context and memory. A multi-agent system additionally evolves who collaborates, how they collaborate, and ho",
       "tags": [
@@ -94,7 +109,7 @@
       "url": "https://arxiv.org/abs/2605.11151",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7878,
+      "score": 0.7503,
       "publishedAt": "2026-05-13T04:00:00.000Z",
       "summary": "arXiv:2605.11151v1 Announce Type: new \nAbstract: Offline-to-online reinforcement learning (RL) improves sample efficiency by leveraging pre-collected datasets prior to online interaction. A key challenge, however, is learning an accurate critic in large state--action spaces with limited dataset cove",
       "tags": [
@@ -108,7 +123,7 @@
       "url": "https://arxiv.org/abs/2605.11169",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7878,
+      "score": 0.7503,
       "publishedAt": "2026-05-13T04:00:00.000Z",
       "summary": "arXiv:2605.11169v1 Announce Type: new \nAbstract: Large language model agents interleave reasoning, action selection, and observation to solve sequential decision-making tasks. In deployed settings where agents repeatedly handle related multi-step tasks, small action-selection errors can accumulate i",
       "tags": [
@@ -123,7 +138,7 @@
       "url": "https://arxiv.org/abs/2605.11182",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7878,
+      "score": 0.7503,
       "publishedAt": "2026-05-13T04:00:00.000Z",
       "summary": "arXiv:2605.11182v1 Announce Type: new \nAbstract: On-policy distillation (OPD) and on-policy self-distillation (OPSD) have emerged as promising post-training methods for large language models, offering dense token-level supervision on trajectories sampled from the model's own policy. However, existin",
       "tags": [
@@ -140,7 +155,7 @@
       "url": "https://arxiv.org/abs/2605.11218",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7878,
+      "score": 0.7503,
       "publishedAt": "2026-05-13T04:00:00.000Z",
       "summary": "arXiv:2605.11218v1 Announce Type: new \nAbstract: Embedded numeric anchors on images systematically bias Vision-Language Model quality judgments across six VLMs from five architectural families (ANOVA eta^2 = 0.18-0.77, all p &lt; 0.001). Anchor effects are 2.5x larger than severe image quality degra",
       "tags": [
@@ -156,7 +171,7 @@
       "url": "https://arxiv.org/abs/2605.11223",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7878,
+      "score": 0.7503,
       "publishedAt": "2026-05-13T04:00:00.000Z",
       "summary": "arXiv:2605.11223v1 Announce Type: new \nAbstract: Vision-Language(-Action) Models (VLMs) are increasingly applied to interactive environments, yet existing benchmarks often overlook the complex physical reasoning required for point-and-click puzzle games. This paper introduces Vision-Language Against",
       "tags": [
@@ -171,7 +186,7 @@
       "url": "https://arxiv.org/abs/2605.11225",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7878,
+      "score": 0.7503,
       "publishedAt": "2026-05-13T04:00:00.000Z",
       "summary": "arXiv:2605.11225v1 Announce Type: new \nAbstract: Large language model (LLM)-based agents frequently generate seemingly coherent plans that fail upon execution due to infeasible actions, constraint violations, and compounding errors over extended horizons. PIVOT (Plan-Inspect-eVOlve Trajectories) add",
       "tags": [
@@ -183,44 +198,43 @@
       "engagementScore": 0
     },
     {
-      "title": "Continual Harness: Online Adaptation for Self-Improving Foundation Agents",
-      "url": "https://arxiv.org/abs/2605.09998",
+      "title": "EditLens: Quantifying the extent of AI editing in text (2025)",
+      "url": "https://arxiv.org/abs/2510.03154",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7631,
-      "publishedAt": "2026-05-13T19:11:10.000Z",
-      "summary": "Coding harnesses such as Claude Code and OpenHands wrap foundation models with tools, memory, and planning, but no equivalent exists for embodied agents’ long-horizon partial-observability decision-making. We first report our Gemini Plays Pokemon (GPP) experiments. With iterative human-in-the-loop h",
+      "score": 0.7124,
+      "publishedAt": "2026-05-13T19:22:14.000Z",
+      "summary": "A significant proportion of queries to large language models ask them to edit user-provided text, rather than generate new text from scratch. While previous work focuses on detecting fully AI-generated text, we demonstrate that AI-edited text is distinguishable from human-written and AI-generated te",
       "tags": [
-        "LLM",
-        "Agents",
-        "Dev Tools"
+        "LLM"
       ],
-      "engagementScore": 4
+      "engagementScore": 3
     },
     {
       "title": "Beyond Semantic Similarity",
       "url": "https://arxiv.org/abs/2605.05242",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7433,
+      "score": 0.7074,
       "publishedAt": "2026-05-12T19:51:41.000Z",
       "summary": "Modern retrieval systems, whether lexical or semantic, expose a corpus through a fixed similarity interface that compresses access into a single top-k retrieval step before reasoning. This abstraction is efficient, but for agentic search, it becomes a bottleneck: exact lexical constraints, sparse cl",
       "tags": [
         "Agents",
         "RAG"
       ],
-      "engagementScore": 62
+      "engagementScore": 64
     },
     {
-      "title": "AutoScout24 scales engineering with AI-powered workflows",
-      "url": "https://openai.com/index/autoscout24",
+      "title": "How NVIDIA engineers and researchers build with Codex",
+      "url": "https://openai.com/index/nvidia",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6999,
+      "score": 0.6597,
       "publishedAt": "2026-05-12T00:00:00.000Z",
-      "summary": "Learn how AutoScout24 Group uses Codex and ChatGPT to speed development cycles, improve code quality, and expand AI adoption.",
+      "summary": "Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments.",
       "tags": [
         "LLM",
+        "Research",
         "Dev Tools"
       ],
       "engagementScore": 0
@@ -230,7 +244,7 @@
       "url": "https://openai.com/index/what-parameter-golf-taught-us",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6999,
+      "score": 0.6597,
       "publishedAt": "2026-05-12T00:00:00.000Z",
       "summary": "Parameter Golf brought together 1,000+ participants and 2,000+ submissions to explore AI-assisted machine learning research, coding agents, quantization, and novel model design under strict constraints.",
       "tags": [
@@ -242,16 +256,15 @@
       "engagementScore": 0
     },
     {
-      "title": "How NVIDIA engineers and researchers build with Codex",
-      "url": "https://openai.com/index/nvidia",
+      "title": "AutoScout24 scales engineering with AI-powered workflows",
+      "url": "https://openai.com/index/autoscout24",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6999,
+      "score": 0.6597,
       "publishedAt": "2026-05-12T00:00:00.000Z",
-      "summary": "Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments.",
+      "summary": "Learn how AutoScout24 Group uses Codex and ChatGPT to speed development cycles, improve code quality, and expand AI adoption.",
       "tags": [
         "LLM",
-        "Research",
         "Dev Tools"
       ],
       "engagementScore": 0
@@ -261,7 +274,7 @@
       "url": "https://arxiv.org/abs/2604.20913",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.6776,
+      "score": 0.6402,
       "publishedAt": "2026-05-12T17:35:51.000Z",
       "summary": "Large language models are increasingly deployed on CPU-only platforms where memory bandwidth is the primary bottleneck for autoregressive generation. Weight quantization to four bits or below reduces memory pressure, yet existing systems still dequantize weights and perform floating-point multiplica",
       "tags": [
@@ -275,7 +288,7 @@
       "url": "https://www.technologyreview.com/2026/05/13/1137203/ai-chatbots-are-giving-out-peoples-real-phone-numbers/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6618,
+      "score": 0.6297,
       "publishedAt": "2026-05-13T18:09:03.000Z",
       "summary": "People report that their personal contact info was surfaced by Google AI—and there’s apparently no easy way to prevent it.&#160; A Redditor recently wrote that he was “desperate for help”: for about a month, he said, his phone had been inundated by calls from “strangers” who were “looking for a lawy",
       "tags": [
@@ -284,24 +297,11 @@
       "engagementScore": 0
     },
     {
-      "title": "How ChatGPT adoption broadened in early 2026",
-      "url": "https://openai.com/signals/research/2026q1-update",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.6342,
-      "publishedAt": "2026-05-11T15:00:00.000Z",
-      "summary": "ChatGPT adoption surged in Q1 2026, with fastest growth among users over 35 and more balanced gender usage, signaling broader mainstream AI adoption.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "The Download: making drugs in orbit and NASA’s nuclear-powered spacecraft",
       "url": "https://www.technologyreview.com/2026/05/13/1137176/the-download-drugs-in-orbit-nasa-nuclear-spacecraft/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6269,
+      "score": 0.5948,
       "publishedAt": "2026-05-13T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. A plan to make drugs in orbit is going commercial A startup called Varda Space Industries is betting that the future of pharmaceuticals lies in orbit.",
       "tags": [
@@ -311,11 +311,37 @@
       "engagementScore": 0
     },
     {
+      "title": "How ChatGPT adoption broadened in early 2026",
+      "url": "https://openai.com/signals/research/2026q1-update",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.5941,
+      "publishedAt": "2026-05-11T15:00:00.000Z",
+      "summary": "ChatGPT adoption surged in Q1 2026, with fastest growth among users over 35 and more balanced gender usage, signaling broader mainstream AI adoption.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Meta won't let you block its AI account on Threads",
+      "url": "https://www.theverge.com/tech/929091/meta-ai-threads-account-block",
+      "feedSource": "Hacker News",
+      "source": "theverge.com",
+      "score": 0.5849,
+      "publishedAt": "2026-05-13T20:22:21.000Z",
+      "summary": "Hey Meta, why are Threads users angry?",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 136
+    },
+    {
       "title": "A plan to make drugs in orbit is going commercial",
       "url": "https://www.technologyreview.com/2026/05/13/1137153/varda-united-therapeutics-drug-manufacturing-in-space/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6142,
+      "score": 0.5821,
       "publishedAt": "2026-05-13T10:00:00.000Z",
       "summary": "Varda Space Industries, a startup that’s been pitching its ability to perform drug experiments in space, says it has signed up the pharmaceutical company United Therapeutics in what may be remembered as a notable step toward in-orbit manufacturing. The idea of building things in outer space for use",
       "tags": [
@@ -325,11 +351,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Medicare's new payment model is built for AI. Most of the tech world has no idea",
+      "url": "https://techcrunch.com/2026/05/12/medicares-new-payment-model-is-built-for-ai-and-most-of-the-tech-world-has-no-idea/",
+      "feedSource": "Hacker News",
+      "source": "techcrunch.com",
+      "score": 0.5622,
+      "publishedAt": "2026-05-13T21:24:14.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 67
+    },
+    {
       "title": "OpenAI Campus Network: Student club interest form",
       "url": "https://openai.com/index/openai-campus-network-student-club-interest-form",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.5978,
+      "score": 0.5577,
       "publishedAt": "2026-05-11T10:00:00.000Z",
       "summary": "Join the OpenAI Campus Network—connect student clubs worldwide, access AI tools, host events, and build an AI-powered campus community.",
       "tags": [
@@ -343,7 +382,7 @@
       "url": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.5978,
+      "score": 0.5577,
       "publishedAt": "2026-05-11T10:00:00.000Z",
       "summary": "How enterprises scale AI: from early experiments to compounding impact through trust, governance, workflow design, and quality at scale.",
       "tags": [
@@ -356,7 +395,7 @@
       "url": "https://www.theverge.com/tech/930188/microsoft-edge-copilot-ai-tabs",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5836,
+      "score": 0.5542,
       "publishedAt": "2026-05-13T22:04:28.000Z",
       "summary": "Microsoft Edge is adding a new feature that will allow its Copilot AI chatbot to gather information from all of your open tabs. When you start a conversation with Copilot, you can ask the chatbot questions about what's in your tabs, compare the products you're looking at, summarize your open article",
       "tags": [
@@ -369,7 +408,7 @@
       "url": "https://www.wired.com/story/fancy-butt-pillows-musk-v-altman-trial/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5831,
+      "score": 0.5537,
       "publishedAt": "2026-05-13T21:58:47.000Z",
       "summary": "The plaintiffs and defense have rested their cases, as well as their rear ends.",
       "tags": [
@@ -382,7 +421,7 @@
       "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5819,
+      "score": 0.5525,
       "publishedAt": "2026-05-13T21:45:37.000Z",
       "summary": "Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product, ChatGPT. In 2024, Musk filed a lawsuit accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profits",
       "tags": [
@@ -395,7 +434,7 @@
       "url": "https://www.wired.com/story/instagrams-new-instants-app-is-a-snapchat-clone-for-thirst-traps/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5769,
+      "score": 0.5475,
       "publishedAt": "2026-05-13T20:49:17.000Z",
       "summary": "Instagram’s Instants app lets you send disappearing photos—and it’s probably where your horny friends will post spicy pics.",
       "tags": [
@@ -408,7 +447,7 @@
       "url": "https://www.wired.com/story/what-it-will-take-to-make-ai-sustainable/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5686,
+      "score": 0.5392,
       "publishedAt": "2026-05-13T19:15:59.000Z",
       "summary": "Researcher Sasha Luccioni argues we need better emissions data and a better sense of how people are using AI in the first place.",
       "tags": [
@@ -421,7 +460,7 @@
       "url": "https://www.wired.com/story/dhs-plans-experiment-running-reconnaissance-drones-along-the-us-canada-border/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5675,
+      "score": 0.538,
       "publishedAt": "2026-05-13T19:03:19.000Z",
       "summary": "Autonomous drones and ground vehicles will stream “battlefield intelligence” over 5G along the US-Canada border in a bilateral DHS experiment this fall.",
       "tags": [
@@ -430,24 +469,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Meta won't let you block its AI account on Threads",
-      "url": "https://www.theverge.com/tech/929091/meta-ai-threads-account-block",
-      "feedSource": "Hacker News",
-      "source": "theverge.com",
-      "score": 0.5636,
-      "publishedAt": "2026-05-13T20:22:21.000Z",
-      "summary": "Hey Meta, why are Threads users angry?",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 38
-    },
-    {
       "title": "Overworked AI Agents Turn Marxist, Researchers Find",
       "url": "https://www.wired.com/story/overworked-ai-agents-turn-marxist-study/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5626,
+      "score": 0.5332,
       "publishedAt": "2026-05-13T18:08:33.000Z",
       "summary": "In a recent experiment, mistreated AI agents started grumbling about inequality and calling for collective bargaining rights.",
       "tags": [
@@ -461,7 +487,7 @@
       "url": "https://www.wired.com/story/musk-altman-trial-ass-statue-evidence/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5572,
+      "score": 0.5278,
       "publishedAt": "2026-05-13T17:08:01.000Z",
       "summary": "In Musk v. Altman, the company claimed a remarkable trophy was physical proof of Elon Musk’s concerning behavior.",
       "tags": [
@@ -474,7 +500,7 @@
       "url": "https://www.theverge.com/tech/929791/meta-ai-incognito-chats",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5559,
+      "score": 0.5265,
       "publishedAt": "2026-05-13T16:54:04.000Z",
       "summary": "Meta CEO Mark Zuckerberg says its new Incognito Chat is \"the first major AI product where there is no log of your conversations stored on servers.\" Messages in Incognito Chat aren't saved or stored in users' chat history, similar to incognito modes on other AI chatbots, but Meta says its version is",
       "tags": [
@@ -487,7 +513,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/929692/microsoft-musk-altman-openai-trial",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5537,
+      "score": 0.5243,
       "publishedAt": "2026-05-13T16:29:27.000Z",
       "summary": "Maybe I'm just punch-drunk in my third week attending Musk v. Altman, but I have become very, very fond of Microsoft during the course of this trial. They don't want to be here any more than I do. Their opening statement was honestly one of the most Microsoft things I've ever seen. More than anythin",
       "tags": [
@@ -500,7 +526,7 @@
       "url": "https://www.wired.com/story/trump-inner-circle-2028-presidential-ticket/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5458,
+      "score": 0.5164,
       "publishedAt": "2026-05-13T15:00:00.000Z",
       "summary": "Republicans still have the midterms to get through, but administration officials have already set their sights on the next election.",
       "tags": [
@@ -513,7 +539,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/929457/amazon-announces-alexa-for-shopping-ai-assistant-rufus",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5443,
+      "score": 0.5149,
       "publishedAt": "2026-05-13T14:43:28.000Z",
       "summary": "Amazon is bringing Alexa Plus to Amazon.com, integrating its LLM-powered AI assistant directly into the company's shopping experience. Beginning today, when you type a query into Amazon, you'll be talking to Alexa for Shopping, the company's new shopping assistant, powered by Alexa Plus. So, while a",
       "tags": [
@@ -522,24 +548,11 @@
       "engagementScore": 0
     },
     {
-      "title": "I moved my digital stack to Europe",
-      "url": "https://monokai.com/articles/how-i-moved-my-digital-stack-to-europe/",
-      "feedSource": "Hacker News",
-      "source": "monokai.com",
-      "score": 0.5419,
-      "publishedAt": "2026-05-13T11:42:20.000Z",
-      "summary": "On digital sovereignty, and why European cloud is better than you think",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 833
-    },
-    {
       "title": "WhatsApp Adds Meta AI Chats That Are Built to Be Fully Private",
       "url": "https://www.wired.com/story/whatsapp-incognito-chat-meta-ai/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5404,
+      "score": 0.511,
       "publishedAt": "2026-05-13T14:00:00.000Z",
       "summary": "The company says its new Incognito Chat allows you to use its AI chatbot without anyone else—including Meta—being able to access your conversations.",
       "tags": [
@@ -548,24 +561,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Setting up a free *.city.state.us locality domain (2025)",
-      "url": "https://fredchan.org/blog/locality-domains-guide/",
-      "feedSource": "Hacker News",
-      "source": "fredchan.org",
-      "score": 0.5329,
-      "publishedAt": "2026-05-13T14:45:18.000Z",
-      "summary": "In the US, you can get a domain name like `somename.city.state.us` for free. If your town has its own domain, you can get nameservers from Amazon Lightsail, send the *Interim .US Domain Template* to the delegated manager for your locality, then point DNS entries at your webhost.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 431
-    },
-    {
       "title": "World Models: 10 Things That Matter in AI Right Now",
       "url": "https://www.technologyreview.com/2026/05/12/1137134/world-models-10-things-that-matter-in-ai-right-now/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5114,
+      "score": 0.4793,
       "publishedAt": "2026-05-12T16:22:15.000Z",
       "summary": "World models recently made our list of 10 Things That Matter in AI Right Now. Watch executive editor Niall Firth explain why this emerging area of AI is gaining so much attention. Join MIT Technology Review editors and reporters for a subscriber-only Roundtables discussion, &#8220;Can AI Learn to Un",
       "tags": [
@@ -578,7 +578,7 @@
       "url": "https://huggingface.co/blog/amazon/foundation-model-building-blocks",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.4982,
+      "score": 0.4634,
       "publishedAt": "2026-05-11T23:18:26.000Z",
       "summary": "",
       "tags": [
@@ -591,7 +591,7 @@
       "url": "https://www.technologyreview.com/2026/05/12/1137103/the-download-nobel-winner-ai-maintenance-of-everything/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4869,
+      "score": 0.4548,
       "publishedAt": "2026-05-12T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Three things in AI to watch, according to a Nobel-winning economist A few months before he won the Nobel Prize in economics in 2024, Daron Acemoglu pu",
       "tags": [
@@ -604,7 +604,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/928963/data-center-rural-america-jobs-jay-maine",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.477,
+      "score": 0.4476,
       "publishedAt": "2026-05-13T02:08:42.000Z",
       "summary": "At its peak, the Androscoggin paper mill in Jay, Maine, a rural town about 67 miles northwest of Portland, employed about 1,500 people - until a pulp digester exploded in 2020, forcing the mill to close permanently. In 2023, the 1.4 million-square-foot facility was purchased through a joint venture",
       "tags": [
@@ -617,26 +617,11 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/929129/sam-altman-testimony-elon-musk-openai-trial",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4668,
+      "score": 0.4374,
       "publishedAt": "2026-05-13T00:13:34.000Z",
       "summary": "After two weeks of hearing from assorted witnesses that he was a lying snake, the jury finally heard from the lying snake himself: Sam Altman. At the end of the testimony, his lawyer William Savitt asked him how it felt to be accused of stealing a charity. \"We created, through a ton of hard work, [&",
       "tags": [
         "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Sam Altman says Elon Musk’s mind games were damaging OpenAI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/928861/openai-sam-altman-elon-musk-damage",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4341,
-      "publishedAt": "2026-05-12T18:07:26.000Z",
-      "summary": "OpenAI CEO Sam Altman says Elon Musk did \"huge damage\" to the culture of the AI startup. During testimony as part of Musk's lawsuit against OpenAI, Altman said Musk required OpenAI president Greg Brockman and former chief scientist Ilya Sutskever to rank researchers by their accomplishments and \"tak",
-      "tags": [
-        "LLM",
-        "Research",
-        "Industry"
       ],
       "engagementScore": 0
     },
@@ -689,6 +674,19 @@
       "score": 0.4222,
       "publishedAt": "2026-04-22T10:20:03.000Z",
       "summary": "Google’s new distributed architecture keeps AI training runs on track across distant data centers, with exceptional efficiency – even when hardware fails.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Partnering with industry leaders to accelerate AI transformation",
+      "url": "https://deepmind.google/blog/partnering-with-industry-leaders-to-accelerate-ai-transformation/",
+      "feedSource": "DeepMind",
+      "source": "deepmind.google",
+      "score": 0.4222,
+      "publishedAt": "2026-04-21T14:54:15.000Z",
+      "summary": "Google DeepMind partners with global consultancies to bring the power of frontier AI to organizations around the world.",
       "tags": [
         "AI"
       ],
