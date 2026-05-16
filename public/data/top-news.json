@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-16T13:41:08.650Z",
+  "updatedAt": "2026-05-16T16:01:09.117Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,7 +12,7 @@
       "url": "https://openai.com/index/malta-chatgpt-plus-partnership",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9376,
+      "score": 0.9206,
       "publishedAt": "2026-05-16T00:00:00.000Z",
       "summary": "OpenAI and Malta partner to expand AI access, offering ChatGPT Plus and training to help citizens build practical AI skills and use AI responsibly.",
       "tags": [
@@ -25,7 +25,7 @@
       "url": "https://arxiv.org/abs/2605.12357",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.9194,
+      "score": 0.9163,
       "publishedAt": "2026-05-16T09:30:06.000Z",
       "summary": "Large language models increasingly need to accumulate and reuse historical information in long-term assistants and agent systems. Simply expanding the context window is costly and often fails to ensure effective context utilization. We propose $δ$-mem, a lightweight memory mechanism that augments a",
       "tags": [
@@ -33,28 +33,28 @@
         "Agents",
         "ML Infra"
       ],
-      "engagementScore": 101
+      "engagementScore": 130
     },
     {
       "title": "Codex is now in the ChatGPT mobile app",
       "url": "https://openai.com/index/work-with-codex-from-anywhere/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.8565,
+      "score": 0.8396,
       "publishedAt": "2026-05-14T20:06:14.000Z",
       "summary": "Reload to try again, or go back.",
       "tags": [
         "LLM",
         "Dev Tools"
       ],
-      "engagementScore": 476
+      "engagementScore": 477
     },
     {
       "title": "GraphBit: A Graph-based Agentic Framework for Non-Linear Agent Orchestration",
       "url": "https://arxiv.org/abs/2605.13848",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8463,
+      "score": 0.8304,
       "publishedAt": "2026-05-16T04:00:00.000Z",
       "summary": "arXiv:2605.13848v1 Announce Type: new \nAbstract: Agentic LLM frameworks that rely on prompted orchestration, where the model itself determines workflow transitions, often suffer from hallucinated routing, infinite loops, and non-reproducible execution. We introduce GraphBit, an engine-orchestrated f",
       "tags": [
@@ -69,7 +69,7 @@
       "url": "https://arxiv.org/abs/2605.13849",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8463,
+      "score": 0.8304,
       "publishedAt": "2026-05-16T04:00:00.000Z",
       "summary": "arXiv:2605.13849v1 Announce Type: new \nAbstract: Determining what to eat to satisfy nutritional requirements is one of the oldest optimization problems in operations research, yet existing formulations have two persistent limitations: continuous variables produce impractical fractional servings (1.7",
       "tags": [
@@ -83,7 +83,7 @@
       "url": "https://arxiv.org/abs/2605.13850",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8463,
+      "score": 0.8304,
       "publishedAt": "2026-05-16T04:00:00.000Z",
       "summary": "arXiv:2605.13850v1 Announce Type: new \nAbstract: Existing frameworks for LLM-based agent architectures describe systems from a single perspective: industry guides (Anthropic, Google, LangChain) focus on execution topology -- how data flows -- while cognitive science surveys focus on cognitive functi",
       "tags": [
@@ -98,7 +98,7 @@
       "url": "https://arxiv.org/abs/2605.13851",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8463,
+      "score": 0.8304,
       "publishedAt": "2026-05-16T04:00:00.000Z",
       "summary": "arXiv:2605.13851v1 Announce Type: new \nAbstract: Multi-agent orchestration -- in which a hidden coordinator manages specialized worker agents -- is becoming the default architecture for enterprise AI deployment, yet the safety implications of orchestrator invisibility have never been empirically tes",
       "tags": [
@@ -114,7 +114,7 @@
       "url": "https://arxiv.org/abs/2605.13880",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8463,
+      "score": 0.8304,
       "publishedAt": "2026-05-16T04:00:00.000Z",
       "summary": "arXiv:2605.13880v1 Announce Type: new \nAbstract: Agent memory is typically constructed either offline from curated demonstrations or online from post-deployment interactions. However, regardless of how it is built, an agent faces a cold-start gap when first introduced to a new environment without an",
       "tags": [
@@ -128,7 +128,7 @@
       "url": "https://arxiv.org/abs/2605.14002",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8463,
+      "score": 0.8304,
       "publishedAt": "2026-05-16T04:00:00.000Z",
       "summary": "arXiv:2605.14002v1 Announce Type: new \nAbstract: Large Reasoning Models (LRMs) embedded in agentic frameworks have transformed information retrieval from static, long context question answering into open-ended exploration. Yet real world use requires models to discover and synthesize \"long-tail\" fac",
       "tags": [
@@ -144,7 +144,7 @@
       "url": "https://arxiv.org/abs/2605.14004",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8463,
+      "score": 0.8304,
       "publishedAt": "2026-05-16T04:00:00.000Z",
       "summary": "arXiv:2605.14004v1 Announce Type: new \nAbstract: Generative models are often trained with a next-token prediction objective, yet many downstream applications require the ability to estimate or control sequence-level properties. Next-token prediction can lead to overfitting of local patterns during t",
       "tags": [
@@ -158,7 +158,7 @@
       "url": "https://arxiv.org/abs/2605.14033",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8463,
+      "score": 0.8304,
       "publishedAt": "2026-05-16T04:00:00.000Z",
       "summary": "arXiv:2605.14033v1 Announce Type: new \nAbstract: Scientific theory shift in AI agents requires more than fitting equations to data. An artificial scientific agent must detect whether an existing representational framework remains transportable into a new regime, or whether its language has become lo",
       "tags": [
@@ -172,7 +172,7 @@
       "url": "https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7626,
+      "score": 0.7456,
       "publishedAt": "2026-05-15T00:00:00.000Z",
       "summary": "See how business operations teams can use Codex to create initiative briefs, strategy updates, leadership decision packets, progress updates, and more from real work inputs.",
       "tags": [
@@ -185,7 +185,7 @@
       "url": "https://openai.com/index/databricks",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7626,
+      "score": 0.7456,
       "publishedAt": "2026-05-15T00:00:00.000Z",
       "summary": "Databricks uses GPT-5.5 for enterprise agent workflows after the model set a new state of the art on the OfficeQA Pro benchmark.",
       "tags": [
@@ -200,7 +200,7 @@
       "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7626,
+      "score": 0.7456,
       "publishedAt": "2026-05-15T00:00:00.000Z",
       "summary": "See how data science teams can use Codex to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
       "tags": [
@@ -213,7 +213,7 @@
       "url": "https://openai.com/index/personal-finance-chatgpt",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7626,
+      "score": 0.7456,
       "publishedAt": "2026-05-15T00:00:00.000Z",
       "summary": "Preview a new personal finance experience in ChatGPT for Pro users in the U.S. Securely connect your financial accounts and get AI-powered insights and guidance grounded in your financial context, goals, and priorities.",
       "tags": [
@@ -226,7 +226,7 @@
       "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7626,
+      "score": 0.7456,
       "publishedAt": "2026-05-15T00:00:00.000Z",
       "summary": "See how sales teams can use Codex to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
       "tags": [
@@ -239,21 +239,21 @@
       "url": "https://www.anthropic.com/news/claude-for-small-business",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.7452,
+      "score": 0.7283,
       "publishedAt": "2026-05-14T03:59:35.000Z",
-      "summary": "We’re launching Claude for Small Business, a package of connectors and ready-to-run workflows that put Claude inside the tools small businesses use every day.",
+      "summary": "We���re launching Claude for Small Business, a package of connectors and ready-to-run workflows that put Claude inside the tools small businesses use every day.",
       "tags": [
         "LLM",
         "Dev Tools"
       ],
-      "engagementScore": 533
+      "engagementScore": 534
     },
     {
       "title": "Sea's View on the Future of Agentic Software Development with Codex",
       "url": "https://openai.com/index/sea-david-chen",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7371,
+      "score": 0.7201,
       "publishedAt": "2026-05-14T20:30:00.000Z",
       "summary": "Sea Limited's CPO explains why the company is deploying Codex across engineering teams to accelerate AI-native software development in Asia.",
       "tags": [
@@ -267,7 +267,7 @@
       "url": "https://openai.com/index/work-with-codex-from-anywhere",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6824,
+      "score": 0.6654,
       "publishedAt": "2026-05-14T13:00:00.000Z",
       "summary": "Use Codex anywhere with the ChatGPT mobile app. Monitor, steer, and approve coding tasks in real time across devices and remote environments.",
       "tags": [
@@ -281,7 +281,7 @@
       "url": "https://www.technologyreview.com/2026/05/15/1137357/musk-v-altman-week-3/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6041,
+      "score": 0.5905,
       "publishedAt": "2026-05-15T23:39:35.000Z",
       "summary": "In the final week of the Musk v. Altman trial, lawyers traded blows over Elon Musk’s and OpenAI CEO Sam Altman’s credibility. Altman was grilled on his alleged history of lying and self-dealing involving companies that do business with OpenAI. But he fired back, painting Musk as a power-seeker who w",
       "tags": [
@@ -290,11 +290,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Sony tries to explain that its AI Camera Assistant doesn’t suck",
+      "url": "https://www.theverge.com/tech/932133/sony-xperia-1-xiii-ai-camera-assistant",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5826,
+      "publishedAt": "2026-05-16T15:37:05.000Z",
+      "summary": "After Sony drew some unwanted attention for a post demonstrating its AI Camera Assistant on the Xperia 1 XIII, it's trying to clarify how the feature works. The company says it doesn't edit photos, but makes suggestions based on lighting, depth, and subject. Point the camera at something, and it wil",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Old Oil and Gas Wells Could Find Second Life Producing Clean Energy",
       "url": "https://www.wired.com/story/oil-wells-second-life-clean-energy/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5704,
+      "score": 0.5579,
       "publishedAt": "2026-05-16T11:00:00.000Z",
       "summary": "States across the US are looking to take major sources of pollution and use them to generate much-needed power.",
       "tags": [
@@ -307,7 +320,7 @@
       "url": "https://www.wired.com/story/control-everything-on-your-phone-with-your-voice-ios-android/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5704,
+      "score": 0.5579,
       "publishedAt": "2026-05-16T11:00:00.000Z",
       "summary": "Go fully hands-free with these tips for Android and iOS.",
       "tags": [
@@ -320,7 +333,7 @@
       "url": "https://www.wired.com/story/security-news-this-week-cybercriminal-twins-caught-after-they-forgot-to-turn-off-microsoft-teams-recording/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5677,
+      "score": 0.5552,
       "publishedAt": "2026-05-16T10:30:00.000Z",
       "summary": "Plus: Instructure’s Canvas ransomware debacle comes to a close, an alleged dark net market kingpin gets arrested, OpenAI workers fall victim to a supply chain attack, and more.",
       "tags": [
@@ -333,7 +346,7 @@
       "url": "https://www.wired.com/gallery/best-indoor-gardening-systems/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5652,
+      "score": 0.5527,
       "publishedAt": "2026-05-16T10:02:00.000Z",
       "summary": "Grow a backyard’s worth of greens and vegetables in your house with a vertical hydroponic garden. Here are a few that might be worth the investment.",
       "tags": [
@@ -346,7 +359,7 @@
       "url": "https://www.wired.com/story/after-struggling-with-evs-us-automakers-pivot-to-energy/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.565,
+      "score": 0.5526,
       "publishedAt": "2026-05-16T10:00:00.000Z",
       "summary": "Ford and GM are backing away from electric vehicles and moving into the battery storage business. And it all comes back to AI.",
       "tags": [
@@ -359,7 +372,7 @@
       "url": "https://www.wired.com/story/some-asexual-people-are-using-ai-companions-for-intimacy-without-the-sex/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5624,
+      "score": 0.5499,
       "publishedAt": "2026-05-16T09:30:00.000Z",
       "summary": "“I’ve got one hand on the keyboard, one hand down below,” an artist who role-plays with their chatbot tells WIRED. But some asexual advocates aren’t thrilled about the association.",
       "tags": [
@@ -372,7 +385,7 @@
       "url": "https://www.wired.com/story/asteroid-2026-jh2-is-about-to-fly-right-past-the-earth-relatively-speaking/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5597,
+      "score": 0.5472,
       "publishedAt": "2026-05-16T09:00:00.000Z",
       "summary": "On May 18, an asteroid about the size of Chicago’s Cloud Gate will fly four times closer to Earth than the moon.",
       "tags": [
@@ -385,7 +398,7 @@
       "url": "https://www.wired.com/story/sportsmans-warehouse-promo-code/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5383,
+      "score": 0.5258,
       "publishedAt": "2026-05-16T05:00:00.000Z",
       "summary": "Whether you are hunting for firearms, camping supplies, or boating gear, use these Sportsman’s Warehouse coupons to maximize your savings this month.",
       "tags": [
@@ -398,7 +411,7 @@
       "url": "https://www.technologyreview.com/2026/05/15/1137341/the-download-china-short-drama-ai-who-health-targets/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.537,
+      "score": 0.5234,
       "publishedAt": "2026-05-15T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. How Chinese short dramas became AI content machines China’s short drama industry is fueled by bite-sized, melodramatic, and smutty shows built for sma",
       "tags": [
@@ -411,20 +424,20 @@
       "url": "https://twitter.com/mitchellh/status/2055380239711457578",
       "feedSource": "Hacker News",
       "source": "twitter.com",
-      "score": 0.5314,
+      "score": 0.522,
       "publishedAt": "2026-05-15T20:26:47.000Z",
       "summary": "I strongly believe there are entire companies right now under heavy AI psychosis and its impossible to have rational conversations about it with them. I can’t name any specific people because they include personal friends I deeply respect, but I worry about how this plays out. I",
       "tags": [
         "AI"
       ],
-      "engagementScore": 1521
+      "engagementScore": 1606
     },
     {
       "title": "Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings with 32K Context — Best Sub-100M Retrieval Quality",
       "url": "https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.5248,
+      "score": 0.51,
       "publishedAt": "2026-05-14T18:55:01.000Z",
       "summary": "",
       "tags": [
@@ -433,11 +446,38 @@
       "engagementScore": 0
     },
     {
+      "title": "SANA-WM, a 2.6B open-source world model for 1-minute 720p video",
+      "url": "https://nvlabs.github.io/Sana/WM/",
+      "feedSource": "Hacker News",
+      "source": "nvlabs.github.io",
+      "score": 0.5077,
+      "publishedAt": "2026-05-16T12:06:21.000Z",
+      "summary": "SANA-WM is an efficient minute-scale world model for camera-controlled 720p video generation.",
+      "tags": [
+        "Open Source",
+        "Vision"
+      ],
+      "engagementScore": 132
+    },
+    {
+      "title": "Frontier AI has broken the open CTF format",
+      "url": "https://kabir.au/blog/the-ctf-scene-is-dead",
+      "feedSource": "Hacker News",
+      "source": "kabir.au",
+      "score": 0.5061,
+      "publishedAt": "2026-05-16T07:01:55.000Z",
+      "summary": "Why frontier AI has broken the open CTF format, hollowed out the scoreboard, and made competitive CTF performance a weaker signal than it used to be.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 250
+    },
+    {
       "title": "The world is on track to miss its health targets",
       "url": "https://www.technologyreview.com/2026/05/15/1137270/the-world-is-on-track-to-miss-its-health-targets/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5186,
+      "score": 0.505,
       "publishedAt": "2026-05-15T09:00:00.000Z",
       "summary": "Every year the World Health Organization publishes a global health statistics report. It features the numbers behind world health trends and, importantly, assesses whether we’re on track to reach ambitious goals set in 2015. It’s a bit like a health grade. The 2026 report was published on Wednesday.",
       "tags": [
@@ -450,7 +490,7 @@
       "url": "https://www.technologyreview.com/2026/05/15/1137326/chinese-short-dramas-ai/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5186,
+      "score": 0.505,
       "publishedAt": "2026-05-15T09:00:00.000Z",
       "summary": "In a dimly lit bedroom, a frightened young woman is thrown onto a bed by a tall, muscular man. He grabs her hand, and flame-like vines crawl across her body, fusing with her flesh. She levitates, then drops. A dragon-shaped tattoo appears across her chest. “Two months,” the man says. “Give me an hei",
       "tags": [
@@ -459,24 +499,37 @@
       "engagementScore": 0
     },
     {
-      "title": "Frontier AI has broken the open CTF format",
-      "url": "https://kabir.au/blog/the-ctf-scene-is-dead",
+      "title": "Accelerando (2005)",
+      "url": "https://www.antipope.org/charlie/blog-static/fiction/accelerando/accelerando.html",
       "feedSource": "Hacker News",
-      "source": "kabir.au",
-      "score": 0.5114,
-      "publishedAt": "2026-05-16T07:01:55.000Z",
-      "summary": "Why frontier AI has broken the open CTF format, hollowed out the scoreboard, and made competitive CTF performance a weaker signal than it used to be.",
+      "source": "antipope.org",
+      "score": 0.5027,
+      "publishedAt": "2026-05-16T11:36:32.000Z",
+      "summary": "A novel by Charles Stross",
       "tags": [
         "AI"
       ],
-      "engagementScore": 211
+      "engagementScore": 123
+    },
+    {
+      "title": "Moving away from Tailwind, and learning to structure my CSS",
+      "url": "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/",
+      "feedSource": "Hacker News",
+      "source": "jvns.ca",
+      "score": 0.4991,
+      "publishedAt": "2026-05-16T09:14:26.000Z",
+      "summary": "Moving away from Tailwind, and learning to structure my CSS",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 153
     },
     {
       "title": "YouTube is expanding its AI deepfake detection tool to all adult users",
       "url": "https://www.theverge.com/news/931884/youtube-likeness-detection-ai-deepfake-expansion-all-adults",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5028,
+      "score": 0.4903,
       "publishedAt": "2026-05-15T22:21:33.000Z",
       "summary": "YouTube is expanding its AI likeness detection program to all users over the age of 18 - meaning just about anyone can have the platform hunt for potential deepfakes of themselves. The likeness detection feature uses a selfie-style scan of a person's face to monitor YouTube for lookalikes. If there",
       "tags": [
@@ -489,7 +542,7 @@
       "url": "https://www.theverge.com/science/931766/arxiv-ai-slop-ban-researchers",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4936,
+      "score": 0.4811,
       "publishedAt": "2026-05-15T20:38:19.000Z",
       "summary": "ArXiv, a popular platform for preprint academic research, is taking a new step to attempt to reduce the volume of papers that include AI slop. If a paper has \"incontrovertible evidence that the authors did not check the results of LLM generation,\" such as hallucinated references or \"meta-comments\" l",
       "tags": [
@@ -499,51 +552,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Meet the Sad Wives of AI",
-      "url": "https://www.wired.com/story/meet-the-sad-wives-of-ai/",
-      "feedSource": "Hacker News",
-      "source": "wired.com",
-      "score": 0.4907,
-      "publishedAt": "2026-05-16T08:04:49.000Z",
-      "summary": "Men are obsessed with AI. Many of their wives absolutely hate it—and them.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 10
-    },
-    {
-      "title": "OpenClaw Creator Spent $1.3M on OpenAI Tokens in 30 Days",
-      "url": "https://twitter.com/steipete/status/2055346265869721905",
-      "feedSource": "Hacker News",
-      "source": "twitter.com",
-      "score": 0.4891,
-      "publishedAt": "2026-05-16T11:34:04.000Z",
-      "summary": "The latest CodexBar update renders API costs wayyyy nicer. https://codexbar.app/",
-      "tags": [
-        "LLM",
-        "Dev Tools"
-      ],
-      "engagementScore": 62
-    },
-    {
-      "title": "Accelerando (2005)",
-      "url": "https://www.antipope.org/charlie/blog-static/fiction/accelerando/accelerando.html",
-      "feedSource": "Hacker News",
-      "source": "antipope.org",
-      "score": 0.4843,
-      "publishedAt": "2026-05-16T11:36:32.000Z",
-      "summary": "A novel by Charles Stross",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 54
-    },
-    {
       "title": "OpenAI keeps shuffling its executives in bid to win AI agent battle",
       "url": "https://www.theverge.com/ai-artificial-intelligence/931544/openai-keeps-shuffling-its-executives-in-bid-to-win-ai-agent-battle",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.482,
+      "score": 0.4695,
       "publishedAt": "2026-05-15T18:27:58.000Z",
       "summary": "OpenAI announced yet another reorganization Friday, consolidating certain areas and making company president Greg Brockman the official lead of all things product. In a memo viewed by The Verge, Brockman wrote that since OpenAI's product strategy for this year is to go all-in on AI agents, the compa",
       "tags": [
@@ -557,7 +570,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/931479/andon-labs-ai-radio-companies",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.475,
+      "score": 0.4625,
       "publishedAt": "2026-05-15T17:09:16.000Z",
       "summary": "Andon Labs has been running a series of experiments in which AI agents run businesses without human intervention. Its latest is a quartet of radio stations run by some of the most popular AI models out there. \"Thinking Frequencies\" is run by Claude, \"OpenAIR\" by ChatGPT, \"Backlink Broadcast\" by Goog",
       "tags": [
@@ -571,7 +584,7 @@
       "url": "https://www.theverge.com/gadgets/931347/trump-mobile-t1-phone-logo-flag-stars-stripes",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.473,
+      "score": 0.4605,
       "publishedAt": "2026-05-15T16:47:16.000Z",
       "summary": "Where's the Trump phone? We're going to keep talking about it every week. We've reached out, as usual, to ask about the Trump phone's whereabouts. This week, despite our best hopes, we still don't have our phone - but we do have some fresh doubts about the company's patriotic credentials. This has b",
       "tags": [
@@ -584,7 +597,7 @@
       "url": "https://www.theverge.com/tech/931416/google-ai-search-spam-policy",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4726,
+      "score": 0.4601,
       "publishedAt": "2026-05-15T16:42:59.000Z",
       "summary": "Google updated its spam policy to mark attempts to \"manipulate\" its AI model in search results as spam, including results in AI Overview or AI Mode in Search, as Search Engine Land reports: \"In the context of Google Search, spam refers to techniques used to deceive users or manipulate our Search sys",
       "tags": [
@@ -593,24 +606,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Closing time",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/931006/musk-v-altman-closing-arguments-analysis",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4684,
-      "publishedAt": "2026-05-15T15:56:05.000Z",
-      "summary": "Today was closing arguments in the Musk v. Altman trial, and I almost feel bad writing about the unbelievable demolition derby I just witnessed. Steven Molo, Musk's lawyer, stumbled over his words. He at one point called Greg Brockman - a co-defendant - Greg Altman. He erroneously claimed that Musk",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "AI research papers are getting better, and it’s a big problem for scientists",
       "url": "https://www.theverge.com/ai-artificial-intelligence/930522/ai-research-papers-slop-peer-review-problem",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.458,
+      "score": 0.4455,
       "publishedAt": "2026-05-15T13:58:26.000Z",
       "summary": "Last summer, Peter Degen's postdoctoral supervisor came to him with an unusual problem: One of his papers was being cited too much. Citations are the currency of academia, but there was something unusual about these. Published in 2017, the paper had assessed the accuracy of a particular type of stat",
       "tags": [
