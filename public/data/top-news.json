@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-17T19:15:11.926Z",
+  "updatedAt": "2026-05-17T21:59:04.528Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,34 +12,34 @@
       "url": "https://openai.com/index/malta-chatgpt-plus-partnership/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.9653,
+      "score": 0.9487,
       "publishedAt": "2026-05-16T20:14:06.000Z",
-      "summary": "OpenAI and Malta partner to expand AI access, offering ChatGPT Plus and training to help citizens build practical AI skills and use AI responsibly.",
+      "summary": "",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 292
+      "engagementScore": 310
     },
     {
       "title": "Self-Distillation Enables Continual Learning [pdf]",
       "url": "https://arxiv.org/abs/2601.19897",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8194,
+      "score": 0.803,
       "publishedAt": "2026-05-17T01:19:14.000Z",
       "summary": "Continual learning, enabling models to acquire new skills and knowledge without degrading existing capabilities, remains a fundamental challenge for foundation models. While on-policy reinforcement learning can reduce forgetting, it requires explicit reward functions that are often unavailable. Lear",
       "tags": [
         "Safety",
         "Industry"
       ],
-      "engagementScore": 89
+      "engagementScore": 93
     },
     {
       "title": "δ-mem: Efficient Online Memory for Large Language Models",
       "url": "https://arxiv.org/abs/2605.12357",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7603,
+      "score": 0.7419,
       "publishedAt": "2026-05-16T09:30:06.000Z",
       "summary": "Large language models increasingly need to accumulate and reuse historical information in long-term assistants and agent systems. Simply expanding the context window is costly and often fails to ensure effective context utilization. We propose $δ$-mem, a lightweight memory mechanism that augments a",
       "tags": [
@@ -47,47 +47,20 @@
         "Agents",
         "ML Infra"
       ],
-      "engagementScore": 232
+      "engagementScore": 233
     },
     {
       "title": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
       "url": "https://openai.com/index/malta-chatgpt-plus-partnership",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.722,
+      "score": 0.7021,
       "publishedAt": "2026-05-16T00:00:00.000Z",
       "summary": "OpenAI and Malta partner to expand AI access, offering ChatGPT Plus and training to help citizens build practical AI skills and use AI responsibly.",
       "tags": [
         "LLM"
       ],
       "engagementScore": 0
-    },
-    {
-      "title": "The Impossibility of Supersized Machines (2017)",
-      "url": "https://arxiv.org/abs/1703.10987",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.6757,
-      "publishedAt": "2026-05-16T20:28:56.000Z",
-      "summary": "In recent years, a number of prominent computer scientists, along with academics in fields such as philosophy and physics, have lent credence to the notion that machines may one day become as large as humans. Many have further argued that machines could even come to exceed human size by a significan",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 10
-    },
-    {
-      "title": "Codex is now in the ChatGPT mobile app",
-      "url": "https://openai.com/index/work-with-codex-from-anywhere/",
-      "feedSource": "Hacker News",
-      "source": "openai.com",
-      "score": 0.6417,
-      "publishedAt": "2026-05-14T20:06:14.000Z",
-      "summary": "Use Codex anywhere with the ChatGPT mobile app. Monitor, steer, and approve coding tasks in real time across devices and remote environments.",
-      "tags": [
-        "LLM",
-        "Dev Tools"
-      ],
-      "engagementScore": 483
     },
     {
       "title": "Claude for Small Business",
@@ -104,11 +77,25 @@
       "engagementScore": 538
     },
     {
+      "title": "Codex is now in the ChatGPT mobile app",
+      "url": "https://openai.com/index/work-with-codex-from-anywhere/",
+      "feedSource": "Hacker News",
+      "source": "openai.com",
+      "score": 0.6355,
+      "publishedAt": "2026-05-14T20:06:14.000Z",
+      "summary": "Use Codex anywhere with the ChatGPT mobile app. Monitor, steer, and approve coding tasks in real time across devices and remote environments.",
+      "tags": [
+        "LLM",
+        "Dev Tools"
+      ],
+      "engagementScore": 483
+    },
+    {
       "title": "Revamped Siri will reportedly offer auto-deleting chats",
       "url": "https://www.theverge.com/tech/932207/siri-apple-intelligence-auto-deleting-chats",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5817,
+      "score": 0.567,
       "publishedAt": "2026-05-17T18:40:28.000Z",
       "summary": "Apple is hoping that its record on privacy can be the differentiator on the AI front, and maybe even buy it a little slack as it continues to lag behind the competition. According to Bloomberg's Mark Gurman, the more chatbot-like Siri set to debut in iOS 27 will include the option to autodelete chat",
       "tags": [
@@ -117,24 +104,24 @@
       "engagementScore": 0
     },
     {
-      "title": "University of Arizona students boo Eric Schmidt’s AI cheerleading during commencement",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/932203/university-of-arizona-students-boo-eric-schmidt-ai-commencement",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5747,
-      "publishedAt": "2026-05-17T17:22:23.000Z",
-      "summary": "Former Google CEO Eric Schmidt delivered the commencement address at the University of Arizona on Friday. And, as his speech veered into talk of AI, he was repeatedly drowned out by boos. AI is already a contentious topic, and it's not surprising that those about to enter a ravaged job market feel p",
+      "title": "AI chatbots are giving out people's real phone numbers",
+      "url": "https://www.technologyreview.com/2026/05/13/1137203/ai-chatbots-are-giving-out-peoples-real-phone-numbers/",
+      "feedSource": "Hacker News",
+      "source": "technologyreview.com",
+      "score": 0.5539,
+      "publishedAt": "2026-05-17T18:09:03.000Z",
+      "summary": "People report that their personal contact info was surfaced by Google AI—and there’s apparently no easy way to prevent it.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 0
+      "engagementScore": 4
     },
     {
       "title": "How business operations teams use Codex",
       "url": "https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.547,
+      "score": 0.5271,
       "publishedAt": "2026-05-15T00:00:00.000Z",
       "summary": "See how business operations teams can use Codex to create initiative briefs, strategy updates, leadership decision packets, progress updates, and more from real work inputs.",
       "tags": [
@@ -147,7 +134,7 @@
       "url": "https://openai.com/index/databricks",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.547,
+      "score": 0.5271,
       "publishedAt": "2026-05-15T00:00:00.000Z",
       "summary": "Databricks uses GPT-5.5 for enterprise agent workflows after the model set a new state of the art on the OfficeQA Pro benchmark.",
       "tags": [
@@ -162,7 +149,7 @@
       "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.547,
+      "score": 0.5271,
       "publishedAt": "2026-05-15T00:00:00.000Z",
       "summary": "See how data science teams can use Codex to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
       "tags": [
@@ -175,7 +162,7 @@
       "url": "https://openai.com/index/personal-finance-chatgpt",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.547,
+      "score": 0.5271,
       "publishedAt": "2026-05-15T00:00:00.000Z",
       "summary": "Preview a new personal finance experience in ChatGPT for Pro users in the U.S. Securely connect your financial accounts and get AI-powered insights and guidance grounded in your financial context, goals, and priorities.",
       "tags": [
@@ -188,7 +175,7 @@
       "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.547,
+      "score": 0.5271,
       "publishedAt": "2026-05-15T00:00:00.000Z",
       "summary": "See how sales teams can use Codex to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
       "tags": [
@@ -197,24 +184,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Security researcher says Microsoft built a Bitlocker backdoor, releases exploit",
-      "url": "https://www.techspot.com/news/112410-security-researcher-microsoft-secretly-built-backdoor-bitlocker-releases.html",
-      "feedSource": "Hacker News",
-      "source": "techspot.com",
-      "score": 0.5435,
-      "publishedAt": "2026-05-17T13:42:30.000Z",
-      "summary": "According to the researcher, YellowKey appears unusual for a previously unknown security bug. Nightmare-Eclipse explained that the flaw can be reproduced by copying an attached “FsTx” folder…",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 442
-    },
-    {
       "title": "Oto Smart Sprinkler Review (2026): Solar-Powered and Simple to Use",
       "url": "https://www.wired.com/review/oto-smart-sprinkler/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5408,
+      "score": 0.5262,
       "publishedAt": "2026-05-17T11:02:00.000Z",
       "summary": "The Oto Smart Sprinkler makes it easy to keep your lawn watered—as long as it gets three hours a day of direct sun to stay charged.",
       "tags": [
@@ -227,7 +201,7 @@
       "url": "https://www.wired.com/story/best-grills-and-smart-grills/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5382,
+      "score": 0.5236,
       "publishedAt": "2026-05-17T10:33:00.000Z",
       "summary": "I grilled, smoked, seared, cleaned, and synced digital temp controllers to find the best grill option for every cookout and tailgate.",
       "tags": [
@@ -240,7 +214,7 @@
       "url": "https://www.wired.com/story/free-debt-calculator-apps-services/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5379,
+      "score": 0.5233,
       "publishedAt": "2026-05-17T10:30:00.000Z",
       "summary": "These free debt calculators help you set up payment plans to get back in the black.",
       "tags": [
@@ -249,11 +223,24 @@
       "engagementScore": 0
     },
     {
+      "title": "I don't think AI will make your processes go faster",
+      "url": "https://frederickvanbrabant.com/blog/2026-05-15-i-dont-think-ai-will-make-your-processes-go-faster/",
+      "feedSource": "Hacker News",
+      "source": "frederickvanbrabant.com",
+      "score": 0.523,
+      "publishedAt": "2026-05-17T12:13:45.000Z",
+      "summary": "Explore the delirious rantings of Frederick Vanbrabant. A blog focused on the intersection of Enterprise Architecture, product, and business strategy.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 442
+    },
+    {
       "title": "If You’re a Serious Bowler, You Need to Know About Bowling Lane Oil",
       "url": "https://www.wired.com/story/bowling-lane-oil/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5353,
+      "score": 0.5207,
       "publishedAt": "2026-05-17T10:00:00.000Z",
       "summary": "Bowling centers apply oil to their lanes using a machine that works like a giant inkjet printer. The pattern in which it’s applied can change everything about how the ball travels.",
       "tags": [
@@ -266,7 +253,7 @@
       "url": "https://www.wired.com/story/the-first-atomic-bomb-test-in-1945-created-an-entirely-new-material/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5326,
+      "score": 0.518,
       "publishedAt": "2026-05-17T09:30:00.000Z",
       "summary": "The discovery from the Trinity nuclear test site shows how extreme conditions can result in materials never before seen in nature or in the lab.",
       "tags": [
@@ -275,24 +262,11 @@
       "engagementScore": 0
     },
     {
-      "title": "I don't think AI will make your processes go faster",
-      "url": "https://frederickvanbrabant.com/blog/2026-05-15-i-dont-think-ai-will-make-your-processes-go-faster/",
-      "feedSource": "Hacker News",
-      "source": "frederickvanbrabant.com",
-      "score": 0.5304,
-      "publishedAt": "2026-05-17T12:13:45.000Z",
-      "summary": "Explore the delirious rantings of Frederick Vanbrabant. A blog focused on the intersection of Enterprise Architecture, product, and business strategy.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 375
-    },
-    {
       "title": "Gaza Is Rebuilding With Lego-Like Bricks Made From Rubble",
       "url": "https://www.wired.com/story/gaza-is-rebuilding-with-lego-like-bricks-made-from-rubble/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5299,
+      "score": 0.5153,
       "publishedAt": "2026-05-17T09:00:00.000Z",
       "summary": "As reconstruction materials remain blocked, Palestinians are crushing debris into interlocking blocks to build shelters from destruction.",
       "tags": [
@@ -301,11 +275,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Meta deletes popular 1M follower account after Kuwaiti request",
+      "url": "https://twitter.com/ryangrim/status/2055992439031185782",
+      "feedSource": "Hacker News",
+      "source": "twitter.com",
+      "score": 0.5136,
+      "publishedAt": "2026-05-17T17:10:48.000Z",
+      "summary": "Looks like @Meta plans to delete an account with more than a million followers because Ahmed was arrested and then acquitted in Kuwait amid their crackdown. Bowing down to Kuwait is pretty weak, gotta say.",
+      "tags": [
+        "Industry"
+      ],
+      "engagementScore": 175
+    },
+    {
       "title": "Sea's View on the Future of Agentic Software Development with Codex",
       "url": "https://openai.com/index/sea-david-chen",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.5215,
+      "score": 0.5124,
       "publishedAt": "2026-05-14T20:30:00.000Z",
       "summary": "Sea Limited's CPO explains why the company is deploying Codex across engineering teams to accelerate AI-native software development in Asia.",
       "tags": [
@@ -333,24 +320,11 @@
       "url": "https://www.theverge.com/tech/932133/sony-xperia-1-xiii-ai-camera-assistant",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.437,
+      "score": 0.4224,
       "publishedAt": "2026-05-16T15:37:05.000Z",
       "summary": "After Sony drew some unwanted attention for a post demonstrating its AI Camera Assistant on the Xperia 1 XIII, it's trying to clarify how the feature works. The company says it doesn't edit photos, but makes suggestions based on lighting, depth, and subject. Point the camera at something, and it wil",
       "tags": [
         "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Musk v. Altman week 3: Elon Musk and Sam Altman traded blows over each other’s credibility. Now the jury will pick a side.",
-      "url": "https://www.technologyreview.com/2026/05/15/1137357/musk-v-altman-week-3/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.4316,
-      "publishedAt": "2026-05-15T23:39:35.000Z",
-      "summary": "In the final week of the Musk v. Altman trial, lawyers traded blows over Elon Musk’s and OpenAI CEO Sam Altman’s credibility. Altman was grilled on his alleged history of lying and self-dealing involving companies that do business with OpenAI. But he fired back, painting Musk as a power-seeker who w",
-      "tags": [
-        "LLM"
       ],
       "engagementScore": 0
     },
@@ -462,11 +436,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Musk v. Altman week 3: Elon Musk and Sam Altman traded blows over each other’s credibility. Now the jury will pick a side.",
+      "url": "https://www.technologyreview.com/2026/05/15/1137357/musk-v-altman-week-3/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.4157,
+      "publishedAt": "2026-05-15T23:39:35.000Z",
+      "summary": "In the final week of the Musk v. Altman trial, lawyers traded blows over Elon Musk’s and OpenAI CEO Sam Altman’s credibility. Altman was grilled on his alleged history of lying and self-dealing involving companies that do business with OpenAI. But he fired back, painting Musk as a power-seeker who w",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Old Oil and Gas Wells Could Find Second Life Producing Clean Energy",
       "url": "https://www.wired.com/story/oil-wells-second-life-clean-energy/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4123,
+      "score": 0.3977,
       "publishedAt": "2026-05-16T11:00:00.000Z",
       "summary": "States across the US are looking to take major sources of pollution and use them to generate much-needed power.",
       "tags": [
@@ -479,7 +466,7 @@
       "url": "https://www.wired.com/story/control-everything-on-your-phone-with-your-voice-ios-android/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4123,
+      "score": 0.3977,
       "publishedAt": "2026-05-16T11:00:00.000Z",
       "summary": "Go fully hands-free with these tips for Android and iOS.",
       "tags": [
@@ -492,50 +479,11 @@
       "url": "https://www.technologyreview.com/2026/05/15/1137341/the-download-china-short-drama-ai-who-health-targets/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.3646,
+      "score": 0.3486,
       "publishedAt": "2026-05-15T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. How Chinese short dramas became AI content machines China’s short drama industry is fueled by bite-sized, melodramatic, and smutty shows built for sma",
       "tags": [
         "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The world is on track to miss its health targets",
-      "url": "https://www.technologyreview.com/2026/05/15/1137270/the-world-is-on-track-to-miss-its-health-targets/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.3461,
-      "publishedAt": "2026-05-15T09:00:00.000Z",
-      "summary": "Every year the World Health Organization publishes a global health statistics report. It features the numbers behind world health trends and, importantly, assesses whether we’re on track to reach ambitious goals set in 2015. It’s a bit like a health grade. The 2026 report was published on Wednesday.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "How Chinese short dramas became AI content machines",
-      "url": "https://www.technologyreview.com/2026/05/15/1137326/chinese-short-dramas-ai/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.3461,
-      "publishedAt": "2026-05-15T09:00:00.000Z",
-      "summary": "In a dimly lit bedroom, a frightened young woman is thrown onto a bed by a tall, muscular man. He grabs her hand, and flame-like vines crawl across her body, fusing with her flesh. She levitates, then drops. A dragon-shaped tattoo appears across her chest. “Two months,” the man says. “Give me an hei",
-      "tags": [
-        "RAG"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "YouTube is expanding its AI deepfake detection tool to all adult users",
-      "url": "https://www.theverge.com/news/931884/youtube-likeness-detection-ai-deepfake-expansion-all-adults",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.3447,
-      "publishedAt": "2026-05-15T22:21:33.000Z",
-      "summary": "YouTube is expanding its AI likeness detection program to all users over the age of 18 - meaning just about anyone can have the platform hunt for potential deepfakes of themselves. The likeness detection feature uses a selfie-style scan of a person's face to monitor YouTube for lookalikes. If there",
-      "tags": [
-        "Dev Tools"
       ],
       "engagementScore": 0
     },
@@ -644,11 +592,50 @@
       "engagementScore": 0
     },
     {
+      "title": "The world is on track to miss its health targets",
+      "url": "https://www.technologyreview.com/2026/05/15/1137270/the-world-is-on-track-to-miss-its-health-targets/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.3302,
+      "publishedAt": "2026-05-15T09:00:00.000Z",
+      "summary": "Every year the World Health Organization publishes a global health statistics report. It features the numbers behind world health trends and, importantly, assesses whether we’re on track to reach ambitious goals set in 2015. It’s a bit like a health grade. The 2026 report was published on Wednesday.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "How Chinese short dramas became AI content machines",
+      "url": "https://www.technologyreview.com/2026/05/15/1137326/chinese-short-dramas-ai/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.3302,
+      "publishedAt": "2026-05-15T09:00:00.000Z",
+      "summary": "In a dimly lit bedroom, a frightened young woman is thrown onto a bed by a tall, muscular man. He grabs her hand, and flame-like vines crawl across her body, fusing with her flesh. She levitates, then drops. A dragon-shaped tattoo appears across her chest. “Two months,” the man says. “Give me an hei",
+      "tags": [
+        "RAG"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "YouTube is expanding its AI deepfake detection tool to all adult users",
+      "url": "https://www.theverge.com/news/931884/youtube-likeness-detection-ai-deepfake-expansion-all-adults",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.3301,
+      "publishedAt": "2026-05-15T22:21:33.000Z",
+      "summary": "YouTube is expanding its AI likeness detection program to all users over the age of 18 - meaning just about anyone can have the platform hunt for potential deepfakes of themselves. The likeness detection feature uses a selfie-style scan of a person's face to monitor YouTube for lookalikes. If there",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "ArXiv will ban researchers who upload papers full of AI slop",
       "url": "https://www.theverge.com/science/931766/arxiv-ai-slop-ban-researchers",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.3355,
+      "score": 0.3209,
       "publishedAt": "2026-05-15T20:38:19.000Z",
       "summary": "ArXiv, a popular platform for preprint academic research, is taking a new step to attempt to reduce the volume of papers that include AI slop. If a paper has \"incontrovertible evidence that the authors did not check the results of LLM generation,\" such as hallucinated references or \"meta-comments\" l",
       "tags": [
@@ -662,9 +649,23 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/931544/openai-keeps-shuffling-its-executives-in-bid-to-win-ai-agent-battle",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.3239,
+      "score": 0.3093,
       "publishedAt": "2026-05-15T18:27:58.000Z",
       "summary": "OpenAI announced yet another reorganization Friday, consolidating certain areas and making company president Greg Brockman the official lead of all things product. In a memo viewed by The Verge, Brockman wrote that since OpenAI's product strategy for this year is to go all-in on AI agents, the compa",
+      "tags": [
+        "LLM",
+        "Agents"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "AI radio hosts demonstrate why AI can’t be trusted alone",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/931479/andon-labs-ai-radio-companies",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.3023,
+      "publishedAt": "2026-05-15T17:09:16.000Z",
+      "summary": "Andon Labs has been running a series of experiments in which AI agents run businesses without human intervention. Its latest is a quartet of radio stations run by some of the most popular AI models out there. \"Thinking Frequencies\" is run by Claude, \"OpenAIR\" by ChatGPT, \"Backlink Broadcast\" by Goog",
       "tags": [
         "LLM",
         "Agents"
