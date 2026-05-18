@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-18T04:04:58.734Z",
+  "updatedAt": "2026-05-18T10:13:31.583Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,7 +12,7 @@
       "url": "https://arxiv.org/abs/2605.15202",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.9117,
+      "score": 0.8699,
       "publishedAt": "2026-05-18T04:00:00.000Z",
       "summary": "arXiv:2605.15202v1 Announce Type: new \nAbstract: Presentations are a primary medium for scholarly communication, yet most AI slide generators optimize the artifact (a visually plausible deck) while under-optimizing the delivery process (pacing, narrative, and presentation preparation). We present De",
       "tags": [
@@ -26,7 +26,7 @@
       "url": "https://arxiv.org/abs/2605.15204",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.9117,
+      "score": 0.8699,
       "publishedAt": "2026-05-18T04:00:00.000Z",
       "summary": "arXiv:2605.15204v1 Announce Type: new \nAbstract: Multi-agent orchestration frameworks such as LangChain, LangGraph, and CrewAI route tasks through graph-based pipelines but do not enforce the stage constraints that govern real business processes. We present SDOF, a framework that treats multi-agent",
       "tags": [
@@ -41,7 +41,7 @@
       "url": "https://arxiv.org/abs/2605.15205",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.9117,
+      "score": 0.8699,
       "publishedAt": "2026-05-18T04:00:00.000Z",
       "summary": "arXiv:2605.15205v1 Announce Type: new \nAbstract: Improving the Theory of Mind (ToM) capability of Large Language Models (LLMs) is crucial for effective social interactions between these AI models and humans. However, the existing benchmarks often measure ToM capability improvement through story-read",
       "tags": [
@@ -57,7 +57,7 @@
       "url": "https://arxiv.org/abs/2605.15215",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.9117,
+      "score": 0.8699,
       "publishedAt": "2026-05-18T04:00:00.000Z",
       "summary": "arXiv:2605.15215v1 Announce Type: new \nAbstract: Recently, skills have been widely adopted in large language model (LLM)-based agent systems across various domains. In existing frameworks, skills are typically injected into the agent reasoning loop as contextual guidance once matched to a runtime ta",
       "tags": [
@@ -72,7 +72,7 @@
       "url": "https://arxiv.org/abs/2605.15217",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.9117,
+      "score": 0.8699,
       "publishedAt": "2026-05-18T04:00:00.000Z",
       "summary": "arXiv:2605.15217v1 Announce Type: new \nAbstract: Instruction-tuned language models exhibit behavioural fairness in high-stakes decisions while retaining biased associations in their internal representations. However, whether these suppressed representations can affect model outputs - and whether suc",
       "tags": [
@@ -87,7 +87,7 @@
       "url": "https://arxiv.org/abs/2605.15218",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.9117,
+      "score": 0.8699,
       "publishedAt": "2026-05-18T04:00:00.000Z",
       "summary": "arXiv:2605.15218v1 Announce Type: new \nAbstract: Large language models deployed for MAPDL finite-element simulation face practical reliability challenges: without structured execution control, tool encapsulation, and fault recovery, outputs may be inconsistent and task failures are common. The Agent",
       "tags": [
@@ -104,7 +104,7 @@
       "url": "https://arxiv.org/abs/2605.15219",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.9117,
+      "score": 0.8699,
       "publishedAt": "2026-05-18T04:00:00.000Z",
       "summary": "arXiv:2605.15219v1 Announce Type: new \nAbstract: Can AI systems discover genuinely new knowledge through iterative self improvement, and if so, at what cost? We introduce the NOVA framework, which models the common ``generate, verify, accumulate, retrain'' loop as an adaptive sampling process over a",
       "tags": [
@@ -118,7 +118,7 @@
       "url": "https://arxiv.org/abs/2605.15224",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.9117,
+      "score": 0.8699,
       "publishedAt": "2026-05-18T04:00:00.000Z",
       "summary": "arXiv:2605.15224v1 Announce Type: new \nAbstract: Large language model-based agents make mistakes, yet critique can often guide the same model toward correct behavior. However, when critique is removed, the model may fail again on the same query, indicating that it has not internalized the critique's",
       "tags": [
@@ -133,34 +133,34 @@
       "url": "https://openai.com/index/malta-chatgpt-plus-partnership/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.9053,
+      "score": 0.861,
       "publishedAt": "2026-05-16T20:14:06.000Z",
       "summary": "OpenAI and Malta partner to expand AI access, offering ChatGPT Plus and training to help citizens build practical AI skills and use AI responsibly.",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 316
+      "engagementScore": 319
     },
     {
       "title": "Self-Distillation Enables Continual Learning [pdf]",
       "url": "https://arxiv.org/abs/2601.19897",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7647,
+      "score": 0.7239,
       "publishedAt": "2026-05-17T01:19:14.000Z",
       "summary": "Continual learning, enabling models to acquire new skills and knowledge without degrading existing capabilities, remains a fundamental challenge for foundation models. While on-policy reinforcement learning can reduce forgetting, it requires explicit reward functions that are often unavailable. Lear",
       "tags": [
         "Safety",
         "Industry"
       ],
-      "engagementScore": 99
+      "engagementScore": 101
     },
     {
       "title": "δ-mem: Efficient Online Memory for Large Language Models",
       "url": "https://arxiv.org/abs/2605.12357",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7006,
+      "score": 0.6593,
       "publishedAt": "2026-05-16T09:30:06.000Z",
       "summary": "Large language models increasingly need to accumulate and reuse historical information in long-term assistants and agent systems. Simply expanding the context window is costly and often fails to ensure effective context utilization. We propose $δ$-mem, a lightweight memory mechanism that augments a",
       "tags": [
@@ -168,14 +168,28 @@
         "Agents",
         "ML Infra"
       ],
-      "engagementScore": 234
+      "engagementScore": 236
+    },
+    {
+      "title": "Codex is now in the ChatGPT mobile app",
+      "url": "https://openai.com/index/work-with-codex-from-anywhere/",
+      "feedSource": "Hacker News",
+      "source": "openai.com",
+      "score": 0.6357,
+      "publishedAt": "2026-05-14T20:06:14.000Z",
+      "summary": "Reload to try again, or go back.",
+      "tags": [
+        "LLM",
+        "Dev Tools"
+      ],
+      "engagementScore": 485
     },
     {
       "title": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
       "url": "https://openai.com/index/malta-chatgpt-plus-partnership",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6576,
+      "score": 0.6128,
       "publishedAt": "2026-05-16T00:00:00.000Z",
       "summary": "OpenAI and Malta partner to expand AI access, offering ChatGPT Plus and training to help citizens build practical AI skills and use AI responsibly.",
       "tags": [
@@ -184,93 +198,119 @@
       "engagementScore": 0
     },
     {
-      "title": "Claude for Small Business",
-      "url": "https://www.anthropic.com/news/claude-for-small-business",
-      "feedSource": "Hacker News",
-      "source": "anthropic.com",
-      "score": 0.6414,
-      "publishedAt": "2026-05-14T03:59:35.000Z",
-      "summary": "We’re launching Claude for Small Business, a package of connectors and ready-to-run workflows that put Claude inside the tools small businesses use every day.",
+      "title": "I’m a Normie. Can Normies Really Vibe Code?",
+      "url": "https://www.wired.com/story/normie-vibe-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5835,
+      "publishedAt": "2026-05-18T10:00:00.000Z",
+      "summary": "Apparently anyone can vibe code anything these days. So Claude and I tried to make a database for tracking the petty grievances of the masses.",
       "tags": [
         "LLM",
         "Dev Tools"
       ],
-      "engagementScore": 539
+      "engagementScore": 0
     },
     {
-      "title": "Codex is now in the ChatGPT mobile app",
-      "url": "https://openai.com/index/work-with-codex-from-anywhere/",
-      "feedSource": "Hacker News",
-      "source": "openai.com",
-      "score": 0.6356,
-      "publishedAt": "2026-05-14T20:06:14.000Z",
-      "summary": "",
-      "tags": [
-        "LLM",
-        "Dev Tools"
-      ],
-      "engagementScore": 484
-    },
-    {
-      "title": "Most Americans don't trust AI – or the people in charge of it (2025)",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/644853/pew-gallup-data-americans-dont-trust-ai",
-      "feedSource": "Hacker News",
-      "source": "theverge.com",
-      "score": 0.5639,
-      "publishedAt": "2026-05-18T01:39:30.000Z",
-      "summary": "New research reveals how Americans are thinking about artificial intelligence.",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 41
-    },
-    {
-      "title": "AI chatbots are giving out people's real phone numbers",
-      "url": "https://www.technologyreview.com/2026/05/13/1137203/ai-chatbots-are-giving-out-peoples-real-phone-numbers/",
-      "feedSource": "Hacker News",
-      "source": "technologyreview.com",
-      "score": 0.5535,
-      "publishedAt": "2026-05-17T18:09:03.000Z",
-      "summary": "People report that their personal contact info was surfaced by Google AI—and there’s apparently no easy way to prevent it.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 9
-    },
-    {
-      "title": "University of Arizona students boo Eric Schmidt's AI cheerleading",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/932203/university-of-arizona-students-boo-eric-schmidt-ai-commencement",
-      "feedSource": "Hacker News",
-      "source": "theverge.com",
-      "score": 0.5428,
-      "publishedAt": "2026-05-17T18:37:59.000Z",
-      "summary": "SiIicon Valley can’t seem to read the room.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 62
-    },
-    {
-      "title": "Revamped Siri will reportedly offer auto-deleting chats",
-      "url": "https://www.theverge.com/tech/932207/siri-apple-intelligence-auto-deleting-chats",
+      "title": "Sony tries to explain that its AI Camera Assistant doesn’t suck",
+      "url": "https://www.theverge.com/tech/932133/sony-xperia-1-xiii-ai-camera-assistant",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5344,
-      "publishedAt": "2026-05-17T18:40:28.000Z",
-      "summary": "Apple is hoping that its record on privacy can be the differentiator on the AI front, and maybe even buy it a little slack as it continues to lag behind the competition. According to Bloomberg's Mark Gurman, the more chatbot-like Siri set to debut in iOS 27 will include the option to autodelete chat",
+      "score": 0.5826,
+      "publishedAt": "2026-05-18T09:48:53.000Z",
+      "summary": "After Sony drew some unwanted attention for a post demonstrating its AI Camera Assistant on the Xperia 1 XIII, it's trying to clarify how the feature works. The company says it doesn't edit photos, but makes suggestions based on lighting, depth, and subject. Point the camera at something, and it wil",
       "tags": [
         "AI"
       ],
       "engagementScore": 0
     },
     {
-      "title": "How business operations teams use Codex",
-      "url": "https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex",
+      "title": "An ICE Firearms Trainer Was Involved in At Least 4 Deadly Shootings",
+      "url": "https://www.wired.com/story/an-ice-firearms-trainer-was-involved-in-at-least-4-deadly-shootings/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5809,
+      "publishedAt": "2026-05-18T09:30:00.000Z",
+      "summary": "David Norman, a former Phoenix police officer who’s described himself as “a fucking savage,” now runs a company that provided training to Homeland Security’s Special Response Teams.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Revamped Siri will reportedly offer autodeleting chats",
+      "url": "https://www.theverge.com/tech/932207/siri-apple-intelligence-auto-deleting-chats",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5805,
+      "publishedAt": "2026-05-18T09:25:53.000Z",
+      "summary": "Apple is hoping that its record on privacy can be the differentiator on the AI front and maybe even buy it a little slack as it continues to lag behind the competition. According to Bloomberg's Mark Gurman, the more chatbot-like Siri set to debut in iOS 27 will include the option to autodelete chat",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "A Danish Couple’s Maverick African Research Finds Its Moment in RFK Jr.’s Vaccine Policy",
+      "url": "https://www.wired.com/story/a-danish-couples-maverick-african-research-finds-its-moment-in-rfk-jrs-vaccine-policy/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5782,
+      "publishedAt": "2026-05-18T09:00:00.000Z",
+      "summary": "The work of Peter Aaby and Christine Stabell Benn has long been controversial. Until Robert F. Kennedy Jr. became US health policy chief, most vaccine scientists tended to ignore it. Now they can’t.",
+      "tags": [
+        "Research",
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Most Americans don't trust AI – or the people in charge of it (2025)",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/644853/pew-gallup-data-americans-dont-trust-ai",
+      "feedSource": "Hacker News",
+      "source": "theverge.com",
+      "score": 0.5653,
+      "publishedAt": "2026-05-18T01:39:30.000Z",
+      "summary": "New research reveals how Americans are thinking about artificial intelligence.",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 97
+    },
+    {
+      "title": "University of Arizona students boo Eric Schmidt's AI cheerleading",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/932203/university-of-arizona-students-boo-eric-schmidt-ai-commencement",
+      "feedSource": "Hacker News",
+      "source": "theverge.com",
+      "score": 0.522,
+      "publishedAt": "2026-05-17T18:37:59.000Z",
+      "summary": "SiIicon Valley can’t seem to read the room.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 84
+    },
+    {
+      "title": "A new personal finance experience in ChatGPT",
+      "url": "https://openai.com/index/personal-finance-chatgpt",
       "feedSource": "OpenAI",
       "source": "openai.com",
       "score": 0.5124,
       "publishedAt": "2026-05-15T00:00:00.000Z",
-      "summary": "See how business operations teams can use Codex to create initiative briefs, strategy updates, leadership decision packets, progress updates, and more from real work inputs.",
+      "summary": "Preview a new personal finance experience in ChatGPT for Pro users in the U.S. Securely connect your financial accounts and get AI-powered insights and guidance grounded in your financial context, goals, and priorities.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "How data science teams use Codex",
+      "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.5124,
+      "publishedAt": "2026-05-15T00:00:00.000Z",
+      "summary": "See how data science teams can use Codex to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
       "tags": [
         "Dev Tools"
       ],
@@ -292,32 +332,6 @@
       "engagementScore": 0
     },
     {
-      "title": "How data science teams use Codex",
-      "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5124,
-      "publishedAt": "2026-05-15T00:00:00.000Z",
-      "summary": "See how data science teams can use Codex to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "A new personal finance experience in ChatGPT",
-      "url": "https://openai.com/index/personal-finance-chatgpt",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5124,
-      "publishedAt": "2026-05-15T00:00:00.000Z",
-      "summary": "Preview a new personal finance experience in ChatGPT for Pro users in the U.S. Securely connect your financial accounts and get AI-powered insights and guidance grounded in your financial context, goals, and priorities.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "How sales teams use Codex",
       "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
       "feedSource": "OpenAI",
@@ -325,6 +339,19 @@
       "score": 0.5124,
       "publishedAt": "2026-05-15T00:00:00.000Z",
       "summary": "See how sales teams can use Codex to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "How business operations teams use Codex",
+      "url": "https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.5124,
+      "publishedAt": "2026-05-15T00:00:00.000Z",
+      "summary": "See how business operations teams can use Codex to create initiative briefs, strategy updates, leadership decision packets, progress updates, and more from real work inputs.",
       "tags": [
         "Dev Tools"
       ],
@@ -359,11 +386,37 @@
       "engagementScore": 0
     },
     {
+      "title": "Two EA-18 fighter jets collide at Mountain Home airshow, pilots ejected safely",
+      "url": "https://idahonews.com/news/local/two-f-18-fighter-jets-have-crashed-during-an-airshow-at-mountain-home-air-force-base",
+      "feedSource": "Hacker News",
+      "source": "idahonews.com",
+      "score": 0.4804,
+      "publishedAt": "2026-05-17T21:45:30.000Z",
+      "summary": "Two F-18 fighter jets have crashed while performing in the Fighter Skies airshow at the Mountain Home Air Force Base.This is a developing story and details are",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 196
+    },
+    {
+      "title": "WriteUp: 16 Bytes of x86 that turn Matrix rain into sound",
+      "url": "https://hellmood.111mb.de//wake_up_16b_writeup.html",
+      "feedSource": "Hacker News",
+      "source": "hellmood.111mb.de",
+      "score": 0.4756,
+      "publishedAt": "2026-05-17T23:10:09.000Z",
+      "summary": "Released at the Outline Demoparty in May 2026, Ommen, NL An exploration of algorithmic density in 16 bytes of x86 assembly.",
+      "tags": [
+        "Open Source"
+      ],
+      "engagementScore": 142
+    },
+    {
       "title": "Oto Smart Sprinkler Review (2026): Solar-Powered and Simple to Use",
       "url": "https://www.wired.com/review/oto-smart-sprinkler/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4936,
+      "score": 0.4607,
       "publishedAt": "2026-05-17T11:02:00.000Z",
       "summary": "The Oto Smart Sprinkler makes it easy to keep your lawn watered—as long as it gets three hours a day of direct sun to stay charged.",
       "tags": [
@@ -376,7 +429,7 @@
       "url": "https://www.wired.com/story/best-grills-and-smart-grills/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.491,
+      "score": 0.4581,
       "publishedAt": "2026-05-17T10:33:00.000Z",
       "summary": "I grilled, smoked, seared, cleaned, and synced digital temp controllers to find the best grill option for every cookout and tailgate.",
       "tags": [
@@ -389,7 +442,7 @@
       "url": "https://www.wired.com/story/free-debt-calculator-apps-services/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4907,
+      "score": 0.4579,
       "publishedAt": "2026-05-17T10:30:00.000Z",
       "summary": "These free debt calculators help you set up payment plans to get back in the black.",
       "tags": [
@@ -402,7 +455,7 @@
       "url": "https://www.wired.com/story/bowling-lane-oil/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4881,
+      "score": 0.4552,
       "publishedAt": "2026-05-17T10:00:00.000Z",
       "summary": "Bowling centers apply oil to their lanes using a machine that works like a giant inkjet printer. The pattern in which it’s applied can change everything about how the ball travels.",
       "tags": [
@@ -415,22 +468,9 @@
       "url": "https://www.wired.com/story/the-first-atomic-bomb-test-in-1945-created-an-entirely-new-material/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4854,
+      "score": 0.4525,
       "publishedAt": "2026-05-17T09:30:00.000Z",
       "summary": "The discovery from the Trinity nuclear test site shows how extreme conditions can result in materials never before seen in nature or in the lab.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Gaza Is Rebuilding With Lego-Like Bricks Made From Rubble",
-      "url": "https://www.wired.com/story/gaza-is-rebuilding-with-lego-like-bricks-made-from-rubble/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4827,
-      "publishedAt": "2026-05-17T09:00:00.000Z",
-      "summary": "As reconstruction materials remain blocked, Palestinians are crushing debris into interlocking blocks to build shelters from destruction.",
       "tags": [
         "AI"
       ],
@@ -544,54 +584,15 @@
       "engagementScore": 0
     },
     {
-      "title": "Sony tries to explain that its AI Camera Assistant doesn’t suck",
-      "url": "https://www.theverge.com/tech/932133/sony-xperia-1-xiii-ai-camera-assistant",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.3898,
-      "publishedAt": "2026-05-16T15:37:05.000Z",
-      "summary": "After Sony drew some unwanted attention for a post demonstrating its AI Camera Assistant on the Xperia 1 XIII, it's trying to clarify how the feature works. The company says it doesn't edit photos, but makes suggestions based on lighting, depth, and subject. Point the camera at something, and it wil",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Musk v. Altman week 3: Elon Musk and Sam Altman traded blows over each other’s credibility. Now the jury will pick a side.",
       "url": "https://www.technologyreview.com/2026/05/15/1137357/musk-v-altman-week-3/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.3801,
+      "score": 0.3443,
       "publishedAt": "2026-05-15T23:39:35.000Z",
       "summary": "In the final week of the Musk v. Altman trial, lawyers traded blows over Elon Musk’s and OpenAI CEO Sam Altman’s credibility. Altman was grilled on his alleged history of lying and self-dealing involving companies that do business with OpenAI. But he fired back, painting Musk as a power-seeker who w",
       "tags": [
         "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Old Oil and Gas Wells Could Find Second Life Producing Clean Energy",
-      "url": "https://www.wired.com/story/oil-wells-second-life-clean-energy/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.3651,
-      "publishedAt": "2026-05-16T11:00:00.000Z",
-      "summary": "States across the US are looking to take major sources of pollution and use them to generate much-needed power.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "How to Control Everything on Your Phone With Your Voice (iOS and Android)",
-      "url": "https://www.wired.com/story/control-everything-on-your-phone-with-your-voice-ios-android/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.3651,
-      "publishedAt": "2026-05-16T11:00:00.000Z",
-      "summary": "Go fully hands-free with these tips for Android and iOS.",
-      "tags": [
-        "AI"
       ],
       "engagementScore": 0
     },
