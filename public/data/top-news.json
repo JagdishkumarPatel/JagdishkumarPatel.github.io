@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-19T03:58:00.369Z",
+  "updatedAt": "2026-05-19T09:54:20.685Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,7 +12,7 @@
       "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 1.0688,
+      "score": 1.0338,
       "publishedAt": "2026-05-18T17:01:21.000Z",
       "summary": "Anthropic is an AI safety and research company that’s working to build reliable, interpretable, and steerable AI systems.",
       "tags": [
@@ -21,44 +21,15 @@
         "Safety",
         "Industry"
       ],
-      "engagementScore": 388
-    },
-    {
-      "title": "OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments",
-      "url": "https://openai.com/index/dell-codex-enterprise-partnership",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.9064,
-      "publishedAt": "2026-05-18T10:00:00.000Z",
-      "summary": "OpenAI and Dell partner to bring Codex to hybrid and on-premise environments, helping enterprises deploy AI coding agents securely across data and workflows.",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Alignment pretraining: AI discourse creates self-fulfilling (mis)alignment",
-      "url": "https://arxiv.org/abs/2601.10160",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.8405,
-      "publishedAt": "2026-05-18T21:29:13.000Z",
-      "summary": "Pretraining corpora contain extensive discourse about AI systems, yet the causal influence of this discourse on downstream alignment remains poorly understood. If prevailing descriptions of AI behaviour are predominantly negative, LLMs may internalise corresponding behavioural priors, giving rise to",
-      "tags": [
-        "LLM",
-        "Safety"
-      ],
-      "engagementScore": 29
+      "engagementScore": 452
     },
     {
       "title": "DeepSlide: From Artifacts to Presentation Delivery",
       "url": "https://arxiv.org/abs/2605.15202",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7491,
-      "publishedAt": "2026-05-18T04:00:00.000Z",
+      "score": 0.872,
+      "publishedAt": "2026-05-19T04:00:00.000Z",
       "summary": "arXiv:2605.15202v1 Announce Type: new \nAbstract: Presentations are a primary medium for scholarly communication, yet most AI slide generators optimize the artifact (a visually plausible deck) while under-optimizing the delivery process (pacing, narrative, and presentation preparation). We present De",
       "tags": [
         "Research",
@@ -71,8 +42,8 @@
       "url": "https://arxiv.org/abs/2605.15204",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7491,
-      "publishedAt": "2026-05-18T04:00:00.000Z",
+      "score": 0.872,
+      "publishedAt": "2026-05-19T04:00:00.000Z",
       "summary": "arXiv:2605.15204v1 Announce Type: new \nAbstract: Multi-agent orchestration frameworks such as LangChain, LangGraph, and CrewAI route tasks through graph-based pipelines but do not enforce the stage constraints that govern real business processes. We present SDOF, a framework that treats multi-agent",
       "tags": [
         "Agents",
@@ -86,8 +57,8 @@
       "url": "https://arxiv.org/abs/2605.15205",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7491,
-      "publishedAt": "2026-05-18T04:00:00.000Z",
+      "score": 0.872,
+      "publishedAt": "2026-05-19T04:00:00.000Z",
       "summary": "arXiv:2605.15205v1 Announce Type: new \nAbstract: Improving the Theory of Mind (ToM) capability of Large Language Models (LLMs) is crucial for effective social interactions between these AI models and humans. However, the existing benchmarks often measure ToM capability improvement through story-read",
       "tags": [
         "LLM",
@@ -102,8 +73,8 @@
       "url": "https://arxiv.org/abs/2605.15215",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7491,
-      "publishedAt": "2026-05-18T04:00:00.000Z",
+      "score": 0.872,
+      "publishedAt": "2026-05-19T04:00:00.000Z",
       "summary": "arXiv:2605.15215v1 Announce Type: new \nAbstract: Recently, skills have been widely adopted in large language model (LLM)-based agent systems across various domains. In existing frameworks, skills are typically injected into the agent reasoning loop as contextual guidance once matched to a runtime ta",
       "tags": [
         "LLM",
@@ -117,8 +88,8 @@
       "url": "https://arxiv.org/abs/2605.15217",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7491,
-      "publishedAt": "2026-05-18T04:00:00.000Z",
+      "score": 0.872,
+      "publishedAt": "2026-05-19T04:00:00.000Z",
       "summary": "arXiv:2605.15217v1 Announce Type: new \nAbstract: Instruction-tuned language models exhibit behavioural fairness in high-stakes decisions while retaining biased associations in their internal representations. However, whether these suppressed representations can affect model outputs - and whether suc",
       "tags": [
         "LLM",
@@ -132,8 +103,8 @@
       "url": "https://arxiv.org/abs/2605.15218",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7491,
-      "publishedAt": "2026-05-18T04:00:00.000Z",
+      "score": 0.872,
+      "publishedAt": "2026-05-19T04:00:00.000Z",
       "summary": "arXiv:2605.15218v1 Announce Type: new \nAbstract: Large language models deployed for MAPDL finite-element simulation face practical reliability challenges: without structured execution control, tool encapsulation, and fault recovery, outputs may be inconsistent and task failures are common. The Agent",
       "tags": [
         "LLM",
@@ -149,8 +120,8 @@
       "url": "https://arxiv.org/abs/2605.15219",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7491,
-      "publishedAt": "2026-05-18T04:00:00.000Z",
+      "score": 0.872,
+      "publishedAt": "2026-05-19T04:00:00.000Z",
       "summary": "arXiv:2605.15219v1 Announce Type: new \nAbstract: Can AI systems discover genuinely new knowledge through iterative self improvement, and if so, at what cost? We introduce the NOVA framework, which models the common ``generate, verify, accumulate, retrain'' loop as an adaptive sampling process over a",
       "tags": [
         "Research",
@@ -163,8 +134,8 @@
       "url": "https://arxiv.org/abs/2605.15224",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7491,
-      "publishedAt": "2026-05-18T04:00:00.000Z",
+      "score": 0.872,
+      "publishedAt": "2026-05-19T04:00:00.000Z",
       "summary": "arXiv:2605.15224v1 Announce Type: new \nAbstract: Large language model-based agents make mistakes, yet critique can often guide the same model toward correct behavior. However, when critique is removed, the model may fail again on the same query, indicating that it has not internalized the critique's",
       "tags": [
         "LLM",
@@ -174,11 +145,40 @@
       "engagementScore": 0
     },
     {
+      "title": "OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments",
+      "url": "https://openai.com/index/dell-codex-enterprise-partnership",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.8631,
+      "publishedAt": "2026-05-18T10:00:00.000Z",
+      "summary": "OpenAI and Dell partner to bring Codex to hybrid and on-premise environments, helping enterprises deploy AI coding agents securely across data and workflows.",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Alignment pretraining: AI discourse creates self-fulfilling (mis)alignment",
+      "url": "https://arxiv.org/abs/2601.10160",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.8335,
+      "publishedAt": "2026-05-18T21:29:13.000Z",
+      "summary": "Pretraining corpora contain extensive discourse about AI systems, yet the causal influence of this discourse on downstream alignment remains poorly understood. If prevailing descriptions of AI behaviour are predominantly negative, LLMs may internalise corresponding behavioural priors, giving rise to",
+      "tags": [
+        "LLM",
+        "Safety"
+      ],
+      "engagementScore": 56
+    },
+    {
       "title": "OpenAI and Government of Malta partner to roll out ChatGPT Plus to all citizens",
       "url": "https://openai.com/index/malta-chatgpt-plus-partnership/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.7331,
+      "score": 0.6898,
       "publishedAt": "2026-05-16T20:14:06.000Z",
       "summary": "OpenAI and Malta partner to expand AI access, offering ChatGPT Plus and training to help citizens build practical AI skills and use AI responsibly.",
       "tags": [
@@ -191,7 +191,7 @@
       "url": "https://huggingface.co/blog/nvidia/cosmos-fine-tuning-for-robot-video-generation",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.7195,
+      "score": 0.6819,
       "publishedAt": "2026-05-18T16:00:21.000Z",
       "summary": "",
       "tags": [
@@ -204,7 +204,7 @@
       "url": "https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.7145,
+      "score": 0.6769,
       "publishedAt": "2026-05-18T15:12:46.000Z",
       "summary": "",
       "tags": [
@@ -217,7 +217,7 @@
       "url": "https://huggingface.co/blog/ibm-research/open-agent-leaderboard",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.7082,
+      "score": 0.6706,
       "publishedAt": "2026-05-18T14:12:58.000Z",
       "summary": "",
       "tags": [
@@ -230,7 +230,7 @@
       "url": "https://www.technologyreview.com/2026/05/18/1137488/elon-musk-suit-openai-verdict/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6679,
+      "score": 0.6333,
       "publishedAt": "2026-05-19T00:53:10.000Z",
       "summary": "On Monday, the jury in Musk v. Altman dealt Elon Musk a major blow—reaching a unanimous advisory verdict that he had sued OpenAI too late and, as a result, his claims are barred by the applicable statutes of limitations. US District Judge Yvonne Gonzalez Rogers immediately accepted it.&#160; Musk an",
       "tags": [
@@ -243,20 +243,20 @@
       "url": "https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/",
       "feedSource": "Hacker News",
       "source": "techcrunch.com",
-      "score": 0.6419,
+      "score": 0.6152,
       "publishedAt": "2026-05-18T17:38:22.000Z",
       "summary": "",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 841
+      "engagementScore": 954
     },
     {
       "title": "What to expect from Google this week",
       "url": "https://www.technologyreview.com/2026/05/18/1137439/what-to-expect-from-google-this-week/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6254,
+      "score": 0.5908,
       "publishedAt": "2026-05-18T17:35:43.000Z",
       "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. When Google opens its doors tomorrow for its annual developer conference, I/O, it will do so as a clear third place in the foundation model race. A year ago, at G",
       "tags": [
@@ -269,7 +269,7 @@
       "url": "https://www.technologyreview.com/2026/05/18/1137430/the-signals-that-matter-mit-insiders-panel/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6217,
+      "score": 0.5871,
       "publishedAt": "2026-05-18T16:57:44.000Z",
       "summary": "Go behind the curtain with MIT Technology Review’s editorial team as they reveal the trends, tensions, and technological shifts shaping AI’s next chapter.",
       "tags": [
@@ -278,11 +278,24 @@
       "engagementScore": 0
     },
     {
+      "title": "How to Make Apps and Websites Remove Your Nonconsensual Nudes",
+      "url": "https://www.wired.com/story/how-to-remove-nudes-take-it-down-act/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5826,
+      "publishedAt": "2026-05-19T09:30:00.000Z",
+      "summary": "Starting May 19, tech platforms in the US will have to start complying with the Take It Down Act. Here's how more than a dozen of the largest platforms are handling takedown demands for your nudes.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Inside Anduril and Meta’s quest to make smart glasses for warfare",
       "url": "https://www.technologyreview.com/2026/05/18/1137412/inside-anduril-and-metas-quest-to-make-smart-glasses-for-warfare/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6163,
+      "score": 0.5816,
       "publishedAt": "2026-05-18T16:01:39.000Z",
       "summary": "The defense-tech company Anduril has shared new details about the augmented-reality headset for the military it’s prototyping with Meta, including a vision for ordering drone strikes via eye-tracking and voice commands. Quay Barnett, who leads the efforts as a vice president at Anduril following a c",
       "tags": [
@@ -295,21 +308,21 @@
       "url": "https://arxiv.org/abs/2601.19897",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.6051,
+      "score": 0.5652,
       "publishedAt": "2026-05-17T01:19:14.000Z",
       "summary": "Continual learning, enabling models to acquire new skills and knowledge without degrading existing capabilities, remains a fundamental challenge for foundation models. While on-policy reinforcement learning can reduce forgetting, it requires explicit reward functions that are often unavailable. Lear",
       "tags": [
         "Safety",
         "Industry"
       ],
-      "engagementScore": 105
+      "engagementScore": 106
     },
     {
       "title": "The Download: Musk v. Altman week 3, and Trump’s tech trading",
       "url": "https://www.technologyreview.com/2026/05/18/1137407/the-download-musk-altman-trial-trump-tech-trading/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5937,
+      "score": 0.5591,
       "publishedAt": "2026-05-18T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Musk v. Altman week 3: Musk and Altman traded blows over each other’s credibility. Now the jury will pick a side. In the final week of the Musk v. Alt",
       "tags": [
@@ -318,11 +331,116 @@
       "engagementScore": 0
     },
     {
+      "title": "Tempo Promo Code: 60% Off Ready-to-Heat Meals in 2026",
+      "url": "https://www.wired.com/story/tempo-meals-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5585,
+      "publishedAt": "2026-05-19T05:00:00.000Z",
+      "summary": "Upgrade your meal prep with these Tempo discount codes and offers. Save on high-protein, ready-to-heat meals delivered to your door.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "HBO Max Promo Code: 50% Off | May",
+      "url": "https://www.wired.com/story/max-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5585,
+      "publishedAt": "2026-05-19T05:00:00.000Z",
+      "summary": "Stream your favorite shows and save up to 50% today with HBO Max discount codes and subscription deals.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Norton Coupon Codes: Up to 58% Off",
+      "url": "https://www.wired.com/story/norton-coupon-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5585,
+      "publishedAt": "2026-05-19T05:00:00.000Z",
+      "summary": "Whether you’re looking to protect your small business or your personal computer, we have the top coupons and deals to help you save at Norton.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Limited Time: TurboTax Full Service Coupons This May",
+      "url": "https://www.wired.com/story/turbotax-coupon/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5585,
+      "publishedAt": "2026-05-19T05:00:00.000Z",
+      "summary": "Tax season doesn’t have to be stressful. Score 10% off full service expert on federal tax filings and more exclusive TurboTax discount codes on WIRED.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Booking.com Promo Codes: 20% Off | May 2026",
+      "url": "https://www.wired.com/story/booking-com-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5585,
+      "publishedAt": "2026-05-19T05:00:00.000Z",
+      "summary": "Enjoy big savings on your next adventure with our Booking.com promo codes, coupons, and handpicked travel deals.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Lenovo Coupon Codes and Deals in May 2026",
+      "url": "https://www.wired.com/story/lenovo-coupon-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5585,
+      "publishedAt": "2026-05-19T05:00:00.000Z",
+      "summary": "Whether you’re shopping for a ThinkPad, Yoga laptop, or Legion gaming PC, these Lenovo discount codes and promotions can help you save big on your next tech upgrade.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "50% Off Home Depot Promo Codes | May 2026",
+      "url": "https://www.wired.com/story/home-depot-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5585,
+      "publishedAt": "2026-05-19T05:00:00.000Z",
+      "summary": "Save up to 50% today with the latest Home Depot promo codes for appliances, power tools, and more this May.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The last six months in LLMs in five minutes",
+      "url": "https://simonwillison.net/2026/May/19/5-minute-llms/",
+      "feedSource": "Hacker News",
+      "source": "simonwillison.net",
+      "score": 0.5293,
+      "publishedAt": "2026-05-19T01:30:42.000Z",
+      "summary": "I put together these annotated slides from my five minute lightning talk at PyCon US 2026, using the latest iteration of my annotated presentation tool. # I presented this lightning …",
+      "tags": [
+        "LLM",
+        "Dev Tools"
+      ],
+      "engagementScore": 438
+    },
+    {
       "title": "Elon Musk loses his case against Sam Altman",
       "url": "https://www.theverge.com/ai-artificial-intelligence/932383/jury-verdict-musk-v-altman-openai-trial",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5504,
+      "score": 0.5186,
       "publishedAt": "2026-05-18T21:32:06.000Z",
       "summary": "After around two hours of deliberation, the jury has reached a unanimous verdict in Musk v. Altman, the tech trial of the year. The group found that two claims were barred by the statute of limitations, and a third failed thanks to the dismissal of one of these. The jury here is an advisory jury, [&",
       "tags": [
@@ -335,91 +453,11 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/932464/musk-v-altman-proved-that-ai-is-led-by-the-wrong-people",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5499,
+      "score": 0.5181,
       "publishedAt": "2026-05-18T21:26:49.000Z",
       "summary": "The tech trial of the year, Musk v. Altman, was ultimately a fight for control. Elon Musk argued that Sam Altman, with whom he helped found the now-massive company OpenAI, shouldn't direct the future of AI. Altman's lawyers, in turn, poked at Musk's own credibility. A jury came to a verdict on Monda",
       "tags": [
         "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "δ-mem: Efficient Online Memory for Large Language Models",
-      "url": "https://arxiv.org/abs/2605.12357",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.5389,
-      "publishedAt": "2026-05-16T09:30:06.000Z",
-      "summary": "Large language models increasingly need to accumulate and reuse historical information in long-term assistants and agent systems. Simply expanding the context window is costly and often fails to ensure effective context utilization. We propose $δ$-mem, a lightweight memory mechanism that augments a",
-      "tags": [
-        "LLM",
-        "Agents",
-        "ML Infra"
-      ],
-      "engagementScore": 238
-    },
-    {
-      "title": "These 11 Automatic Cat Feeders Were the Best We Tested in 2026",
-      "url": "https://www.wired.com/gallery/best-automatic-cat-feeders/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.532,
-      "publishedAt": "2026-05-18T18:06:12.000Z",
-      "summary": "We tested some of the most popular automatic dry- and wet-food pet feeders to see which ones are worth the money.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "All of the updates from Elon Musk and Sam Altman’s battle over OpenAI",
-      "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5306,
-      "publishedAt": "2026-05-18T17:50:10.000Z",
-      "summary": "Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product, ChatGPT. In 2024, Musk filed a lawsuit accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profits",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Elon Musk Loses Landmark Lawsuit Against OpenAI",
-      "url": "https://www.wired.com/story/musk-v-altman-jury-verdict/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5297,
-      "publishedAt": "2026-05-18T17:40:30.000Z",
-      "summary": "The nine-member panel took only two hours to return a verdict in favor of OpenAI on Monday, which the judge quickly adopted as her own final decision.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Amazon Alexa Plus can now create AI-generated podcasts",
-      "url": "https://www.theverge.com/tech/932375/amazon-alexa-plus-ai-podcasts",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5216,
-      "publishedAt": "2026-05-18T16:09:12.000Z",
-      "summary": "Alexa Plus, Amazon's upgraded AI assistant, can now generate podcasts on \"virtually any topic,\" according to an announcement on Monday. With the update, Amazon says you can give Alexa Plus a topic, and the AI assistant will offer an overview of what its AI hosts plan to talk about, allowing you to s",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Leica Cine Play 1 Review: Pricey but Worth Every Penny",
-      "url": "https://www.wired.com/review/review-leica-cine-play-1/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.513,
-      "publishedAt": "2026-05-18T14:33:00.000Z",
-      "summary": "Leica’s first home entertainment projector is pricey, but like the company’s cameras, the image quality is worth the splurge.",
-      "tags": [
-        "Vision"
       ],
       "engagementScore": 0
     },
@@ -518,94 +556,54 @@
       "engagementScore": 0
     },
     {
-      "title": "Haiku OS runs on M1 Macs now",
-      "url": "https://discuss.haiku-os.org/t/my-haiku-arm64-progress/19044?page=2",
-      "feedSource": "Hacker News",
-      "source": "discuss.haiku-os.org",
-      "score": 0.5091,
-      "publishedAt": "2026-05-18T18:30:55.000Z",
-      "summary": "Got Haiku booting in UTM with some small fixes. Mouse movement is slow and choppy though, so it’s not especially fun to use",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 289
-    },
-    {
-      "title": "We stopped AI bot spam in our GitHub repo using Git's –author flag",
-      "url": "https://archestra.ai/blog/only-responsible-ai",
-      "feedSource": "Hacker News",
-      "source": "archestra.ai",
-      "score": 0.5088,
-      "publishedAt": "2026-05-18T15:24:19.000Z",
-      "summary": "Is it the end of open source we know and love?",
-      "tags": [
-        "Open Source"
-      ],
-      "engagementScore": 435
-    },
-    {
-      "title": "The Catastrophic Swatch x Audemars Piguet Launch Was Entirely Predictable and Utterly Avoidable",
-      "url": "https://www.wired.com/story/the-catastrophic-swatch-x-audemars-piguet-launch-was-entirely-predictable-and-utterly-avoidable/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5081,
-      "publishedAt": "2026-05-18T13:38:01.000Z",
-      "summary": "So why didn’t Swatch do anything to avoid it?",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "How to Watch Google I/O 2026",
-      "url": "https://www.wired.com/story/how-to-watch-google-io/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.494,
-      "publishedAt": "2026-05-18T11:00:00.000Z",
-      "summary": "Google I/O is back with updates to Search, Android, Gemini, and a fresh peek at upcoming Android XR smart glasses. Here's how to watch the announcements live and what to expect.",
+      "title": "All of the updates from Elon Musk and Sam Altman’s battle over OpenAI",
+      "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.4988,
+      "publishedAt": "2026-05-18T17:50:10.000Z",
+      "summary": "Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product, ChatGPT. In 2024, Musk filed a lawsuit accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profits",
       "tags": [
         "LLM"
       ],
       "engagementScore": 0
     },
     {
-      "title": "The Backward Logic of Chickenpox Parties",
-      "url": "https://www.wired.com/story/chickenpox-parties-and-the-pre-vaccine-internet/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.494,
-      "publishedAt": "2026-05-18T11:00:00.000Z",
-      "summary": "Before vaccines, some parents intentionally exposed their children to the virus. In the internet age, that thinking is resurfacing.",
+      "title": "Pope Leo XIV’s first encyclical Magnifica humanitas to be published May 25",
+      "url": "https://www.vaticannews.va/en/pope/news/2026-05/pope-leo-xiv-first-encyclical-magnifica-humanitas.html",
+      "feedSource": "Hacker News",
+      "source": "vaticannews.va",
+      "score": 0.4948,
+      "publishedAt": "2026-05-18T23:18:10.000Z",
+      "summary": "Pope Leo XIV’s first encyclical, Magnifica humanitas, on preserving the human person in the age of artificial intelligence, will be released on May…",
+      "tags": [
+        "Open Source"
+      ],
+      "engagementScore": 227
+    },
+    {
+      "title": "Peter Salus has died",
+      "url": "https://www.tuhs.org/pipermail/tuhs/2026-May/033750.html",
+      "feedSource": "Hacker News",
+      "source": "tuhs.org",
+      "score": 0.4937,
+      "publishedAt": "2026-05-19T02:56:42.000Z",
+      "summary": "",
       "tags": [
         "AI"
       ],
-      "engagementScore": 0
+      "engagementScore": 135
     },
     {
-      "title": "Supercharging Immune Cells May Help Control HIV Long-Term",
-      "url": "https://www.wired.com/story/car-t-therapy-may-help-control-hiv-long-term/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4913,
-      "publishedAt": "2026-05-18T10:30:00.000Z",
-      "summary": "CAR-T cell therapy is already a potent treatment for certain cancers. Now, a small study is showing early promise for managing HIV.",
+      "title": "Amazon Alexa Plus can now create AI-generated podcasts",
+      "url": "https://www.theverge.com/tech/932375/amazon-alexa-plus-ai-podcasts",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.4898,
+      "publishedAt": "2026-05-18T16:09:12.000Z",
+      "summary": "Alexa Plus, Amazon's upgraded AI assistant, can now generate podcasts on \"virtually any topic,\" according to an announcement on Monday. With the update, Amazon says you can give Alexa Plus a topic, and the AI assistant will offer an overview of what its AI hosts plan to talk about, allowing you to s",
       "tags": [
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "I’m a Normie. Can Normies Really Vibe Code?",
-      "url": "https://www.wired.com/story/normie-vibe-code/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4887,
-      "publishedAt": "2026-05-18T10:00:00.000Z",
-      "summary": "Apparently anyone can vibe code anything these days. So Claude and I tried to make a database for tracking the petty grievances of the masses.",
-      "tags": [
-        "LLM",
-        "Dev Tools"
+        "AI"
       ],
       "engagementScore": 0
     },
@@ -614,7 +612,7 @@
       "url": "https://www.theverge.com/tech/932133/sony-xperia-1-xiii-ai-camera-assistant",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4877,
+      "score": 0.4559,
       "publishedAt": "2026-05-18T09:48:53.000Z",
       "summary": "After Sony drew some unwanted attention for a post demonstrating its AI Camera Assistant on the Xperia 1 XIII, it's trying to clarify how the feature works. The company says it doesn't edit photos, but makes suggestions based on lighting, depth, and subject. Point the camera at something, and it wil",
       "tags": [
@@ -627,7 +625,7 @@
       "url": "https://www.theverge.com/tech/932207/siri-apple-intelligence-auto-deleting-chats",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4856,
+      "score": 0.4539,
       "publishedAt": "2026-05-18T09:25:53.000Z",
       "summary": "Apple is hoping that its record on privacy can be the differentiator on the AI front and maybe even buy it a little slack as it continues to lag behind the competition. According to Bloomberg's Mark Gurman, the more chatbot-like Siri set to debut in iOS 27 will include the option to autodelete chat",
       "tags": [
