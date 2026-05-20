@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-19T22:19:00.305Z",
+  "updatedAt": "2026-05-20T03:58:56.656Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,7 +12,7 @@
       "url": "https://openai.com/index/advancing-content-provenance/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 1.0561,
+      "score": 1.057,
       "publishedAt": "2026-05-19T19:34:30.000Z",
       "summary": "OpenAI advances AI content provenance with Content Credentials, SynthID, and a verification tool to help people identify and trust AI-generated media.",
       "tags": [
@@ -20,14 +20,41 @@
         "Vision",
         "Dev Tools"
       ],
-      "engagementScore": 102
+      "engagementScore": 222
+    },
+    {
+      "title": "Introducing OpenAI for Singapore",
+      "url": "https://openai.com/index/introducing-openai-for-singapore",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.9828,
+      "publishedAt": "2026-05-19T20:30:00.000Z",
+      "summary": "OpenAI for Singapore launches a multi-year AI partnership to expand deployment, build local talent, and support businesses and public services with AI.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Gemini Omni",
+      "url": "https://deepmind.google/models/gemini-omni/",
+      "feedSource": "Hacker News",
+      "source": "deepmind.google",
+      "score": 0.9313,
+      "publishedAt": "2026-05-19T17:46:19.000Z",
+      "summary": "Create anything from anything from any input – starting with video",
+      "tags": [
+        "LLM",
+        "Vision"
+      ],
+      "engagementScore": 287
     },
     {
       "title": "Advancing content provenance for a safer, more transparent AI ecosystem",
       "url": "https://openai.com/index/advancing-content-provenance",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.953,
+      "score": 0.9117,
       "publishedAt": "2026-05-19T10:45:00.000Z",
       "summary": "OpenAI advances AI content provenance with Content Credentials, SynthID, and a verification tool to help people identify and trust AI-generated media.",
       "tags": [
@@ -37,25 +64,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Gemini Omni",
-      "url": "https://deepmind.google/models/gemini-omni/",
-      "feedSource": "Hacker News",
-      "source": "deepmind.google",
-      "score": 0.9518,
-      "publishedAt": "2026-05-19T17:46:19.000Z",
-      "summary": "Create anything from anything from any input – starting with video",
-      "tags": [
-        "LLM",
-        "Vision"
-      ],
-      "engagementScore": 201
-    },
-    {
       "title": "Anthropic acquires Stainless",
       "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.951,
+      "score": 0.9101,
       "publishedAt": "2026-05-18T17:01:21.000Z",
       "summary": "Anthropic is an AI safety and research company that’s working to build reliable, interpretable, and steerable AI systems.",
       "tags": [
@@ -64,126 +77,149 @@
         "Safety",
         "Industry"
       ],
-      "engagementScore": 521
+      "engagementScore": 525
     },
     {
-      "title": "DeepSlide: From Artifacts to Presentation Delivery",
-      "url": "https://arxiv.org/abs/2605.15202",
+      "title": "AgentWall: A Runtime Safety Layer for Local AI Agents",
+      "url": "https://arxiv.org/abs/2605.16265",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7876,
+      "score": 0.749,
       "publishedAt": "2026-05-19T04:00:00.000Z",
-      "summary": "arXiv:2605.15202v1 Announce Type: new \nAbstract: Presentations are a primary medium for scholarly communication, yet most AI slide generators optimize the artifact (a visually plausible deck) while under-optimizing the delivery process (pacing, narrative, and presentation preparation). We present De",
+      "summary": "arXiv:2605.16265v1 Announce Type: new \nAbstract: The safety of autonomous AI agents is increasingly recognized as a critical open problem. As agents transition from passive text generators to active actors capable of executing shell commands, modifying files, calling APIs, and browsing the web, the",
+      "tags": [
+        "Agents",
+        "Research",
+        "Safety",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "ANNEAL: Adapting LLM Agents via Governed Symbolic Patch Learning",
+      "url": "https://arxiv.org/abs/2605.16309",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.749,
+      "publishedAt": "2026-05-19T04:00:00.000Z",
+      "summary": "arXiv:2605.16309v1 Announce Type: new \nAbstract: LLM-based agents can recover from individual execution errors, yet they repeatedly fail on the same fault when the underlying process knowledge--operator schemas, preconditions, and constraints--remains unrepaired. Existing self-evolving approaches ad",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "From Prompts to Protocols: An AI Agent for Laboratory Automation",
+      "url": "https://arxiv.org/abs/2605.16552",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.749,
+      "publishedAt": "2026-05-19T04:00:00.000Z",
+      "summary": "arXiv:2605.16552v1 Announce Type: new \nAbstract: Automating science laboratories enables faster, safer, more accurate, and more reproducible execution of protocols, accelerating the discovery and testing of new materials, drugs, and more. However, setting up and running autonomous labs requires coor",
+      "tags": [
+        "Agents",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Skim: Speculative Execution for Fast and Efficient Web Agents",
+      "url": "https://arxiv.org/abs/2605.16565",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.749,
+      "publishedAt": "2026-05-19T04:00:00.000Z",
+      "summary": "arXiv:2605.16565v2 Announce Type: new \nAbstract: Skim is a speculative execution framework for web agents that exploits the predictable structure of purpose-built websites. Today's web-agent expense is not intrinsic to the tasks but a property of how agents are composed: frontier-model inference, br",
+      "tags": [
+        "Agents",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Scalable Uncertainty Reasoning in Knowledge Graphs",
+      "url": "https://arxiv.org/abs/2605.16568",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.749,
+      "publishedAt": "2026-05-19T04:00:00.000Z",
+      "summary": "arXiv:2605.16568v1 Announce Type: new \nAbstract: Knowledge Graphs are pivotal for semantic data integration. The real-world data they model is often inherently uncertain. Within knowledge graphs, uncertainty manifests in three distinct levels: imprecise attribute values, probabilistic triple existen",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Counterparty Modeling is Not Strategy: The Limits of LLM Negotiators",
+      "url": "https://arxiv.org/abs/2605.16575",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.749,
+      "publishedAt": "2026-05-19T04:00:00.000Z",
+      "summary": "arXiv:2605.16575v1 Announce Type: new \nAbstract: Negotiation requires more than inferring what the other side wants: it requires using that information to make advantageous offers and counteroffers over multiple turns. We study whether large language model (LLM) agents do this in a controlled multi-",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "PRISMat: Policy-Driven, Permutation-Invariant Autoregressive Material Generation",
+      "url": "https://arxiv.org/abs/2605.16612",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.749,
+      "publishedAt": "2026-05-19T04:00:00.000Z",
+      "summary": "arXiv:2605.16612v1 Announce Type: new \nAbstract: Rapid identification of candidate materials with target properties has become a key task in materials science. Machine learning has emerged as an alternative to physics-based simulation, offering a faster and cheaper way to filter materials based on t",
       "tags": [
         "Research",
+        "Safety",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "TTE-Flash: Accelerating Reasoning-based Multimodal Representations via Think-Then-Embed Tokens",
+      "url": "https://arxiv.org/abs/2605.16638",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.749,
+      "publishedAt": "2026-05-19T04:00:00.000Z",
+      "summary": "arXiv:2605.16638v1 Announce Type: new \nAbstract: Recent research has demonstrated that Universal Multimodal Embedding (UME) benefits significantly from Chain-of-Thought (CoT) reasoning. In this paradigm, a generative model produces explicit reasoning traces for a multimodal query, with the final rep",
+      "tags": [
+        "Research",
+        "RAG",
         "Vision"
       ],
       "engagementScore": 0
     },
     {
-      "title": "SDOF: Taming the Alignment Tax in Multi-Agent Orchestration with State-Constrained Dispatch",
-      "url": "https://arxiv.org/abs/2605.15204",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7876,
-      "publishedAt": "2026-05-19T04:00:00.000Z",
-      "summary": "arXiv:2605.15204v1 Announce Type: new \nAbstract: Multi-agent orchestration frameworks such as LangChain, LangGraph, and CrewAI route tasks through graph-based pipelines but do not enforce the stage constraints that govern real business processes. We present SDOF, a framework that treats multi-agent",
-      "tags": [
-        "Agents",
-        "Research",
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Does Theory of Mind Improvement Really Benefit Human-AI Interactions? Empirical Findings from Interactive Evaluations",
-      "url": "https://arxiv.org/abs/2605.15205",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7876,
-      "publishedAt": "2026-05-19T04:00:00.000Z",
-      "summary": "arXiv:2605.15205v1 Announce Type: new \nAbstract: Improving the Theory of Mind (ToM) capability of Large Language Models (LLMs) is crucial for effective social interactions between these AI models and humans. However, the existing benchmarks often measure ToM capability improvement through story-read",
+      "title": "Gemini 3.5 Flash",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
+      "feedSource": "Hacker News",
+      "source": "blog.google",
+      "score": 0.7369,
+      "publishedAt": "2026-05-19T17:43:45.000Z",
+      "summary": "At Google I/O we released Gemini 3.5, our latest series of models combining frontier intelligence with action.",
       "tags": [
         "LLM",
-        "Research",
-        "ML Infra",
-        "Industry"
+        "Open Source"
       ],
-      "engagementScore": 0
+      "engagementScore": 642
     },
     {
-      "title": "SkillSmith: Compiling Agent Skills into Boundary-Guided Runtime Interfaces",
-      "url": "https://arxiv.org/abs/2605.15215",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7876,
-      "publishedAt": "2026-05-19T04:00:00.000Z",
-      "summary": "arXiv:2605.15215v1 Announce Type: new \nAbstract: Recently, skills have been widely adopted in large language model (LLM)-based agent systems across various domains. In existing frameworks, skills are typically injected into the agent reasoning loop as contextual guidance once matched to a runtime ta",
+      "title": "OlmoEarth v1.1: A more efficient family of models",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-v1-1",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.736,
+      "publishedAt": "2026-05-19T18:38:09.000Z",
+      "summary": "",
       "tags": [
-        "LLM",
-        "Agents",
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Fair outputs, Biased Internals: Causal Potency and Asymmetry of Latent Bias in LLMs for High-Stakes Decisions",
-      "url": "https://arxiv.org/abs/2605.15217",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7876,
-      "publishedAt": "2026-05-19T04:00:00.000Z",
-      "summary": "arXiv:2605.15217v1 Announce Type: new \nAbstract: Instruction-tuned language models exhibit behavioural fairness in high-stakes decisions while retaining biased associations in their internal representations. However, whether these suppressed representations can affect model outputs - and whether suc",
-      "tags": [
-        "LLM",
-        "Research",
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "CAX-Agent: A Lightweight Agent Harness for Reliable APDL Automation",
-      "url": "https://arxiv.org/abs/2605.15218",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7876,
-      "publishedAt": "2026-05-19T04:00:00.000Z",
-      "summary": "arXiv:2605.15218v1 Announce Type: new \nAbstract: Large language models deployed for MAPDL finite-element simulation face practical reliability challenges: without structured execution control, tool encapsulation, and fault recovery, outputs may be inconsistent and task failures are common. The Agent",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Research",
-        "Dev Tools",
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "NOVA: Fundamental Limits of Knowledge Discovery Through AI",
-      "url": "https://arxiv.org/abs/2605.15219",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7876,
-      "publishedAt": "2026-05-19T04:00:00.000Z",
-      "summary": "arXiv:2605.15219v1 Announce Type: new \nAbstract: Can AI systems discover genuinely new knowledge through iterative self improvement, and if so, at what cost? We introduce the NOVA framework, which models the common ``generate, verify, accumulate, retrain'' loop as an adaptive sampling process over a",
-      "tags": [
-        "Research",
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "ICRL: Learning to Internalize Self-Critique with Reinforcement Learning",
-      "url": "https://arxiv.org/abs/2605.15224",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7876,
-      "publishedAt": "2026-05-19T04:00:00.000Z",
-      "summary": "arXiv:2605.15224v1 Announce Type: new \nAbstract: Large language model-based agents make mistakes, yet critique can often guide the same model toward correct behavior. However, when critique is removed, the model may fail again on the same query, indicating that it has not internalized the critique's",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Research"
+        "AI"
       ],
       "engagementScore": 0
     },
@@ -192,7 +228,7 @@
       "url": "https://openai.com/index/dell-codex-enterprise-partnership",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7726,
+      "score": 0.7313,
       "publishedAt": "2026-05-18T10:00:00.000Z",
       "summary": "OpenAI and Dell partner to bring Codex to hybrid and on-premise environments, helping enterprises deploy AI coding agents securely across data and workflows.",
       "tags": [
@@ -203,52 +239,25 @@
       "engagementScore": 0
     },
     {
-      "title": "OlmoEarth v1.1: A more efficient family of models",
-      "url": "https://huggingface.co/blog/allenai/olmoearth-v1-1",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.7718,
-      "publishedAt": "2026-05-19T18:38:09.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Alignment pretraining: AI discourse creates self-fulfilling (mis)alignment",
       "url": "https://arxiv.org/abs/2601.10160",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7631,
+      "score": 0.7266,
       "publishedAt": "2026-05-18T21:29:13.000Z",
       "summary": "Pretraining corpora contain extensive discourse about AI systems, yet the causal influence of this discourse on downstream alignment remains poorly understood. If prevailing descriptions of AI behaviour are predominantly negative, LLMs may internalise corresponding behavioural priors, giving rise to",
       "tags": [
         "LLM",
         "Safety"
       ],
-      "engagementScore": 74
-    },
-    {
-      "title": "Gemini 3.5 Flash",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
-      "feedSource": "Hacker News",
-      "source": "blog.google",
-      "score": 0.7501,
-      "publishedAt": "2026-05-19T17:43:45.000Z",
-      "summary": "At Google I/O we released Gemini 3.5, our latest series of models combining frontier intelligence with action.",
-      "tags": [
-        "LLM",
-        "Open Source"
-      ],
-      "engagementScore": 406
+      "engagementScore": 77
     },
     {
       "title": "Fast-tracking genetic leads to reverse cellular aging",
       "url": "https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.722,
+      "score": 0.6834,
       "publishedAt": "2026-05-18T18:21:39.000Z",
       "summary": "Biologists use Co-Scientist to find novel factors that successfully rejuvenate human cells.",
       "tags": [
@@ -261,7 +270,7 @@
       "url": "https://www.technologyreview.com/2026/05/19/1137454/roundtables-inside-the-musk-v-altman-trial/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6739,
+      "score": 0.6408,
       "publishedAt": "2026-05-19T20:15:18.000Z",
       "summary": "Listen to the session or watch below Elon Musk lost his suit against OpenAI, in which he alleged CEO Sam Altman and President Greg Brockman had deceived him over the company’s non-profit status. Watch as AI reporter and attorney Michelle Kim, who covered the trial for MIT Technology Review, joins in",
       "tags": [
@@ -274,7 +283,7 @@
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.6593,
+      "score": 0.6262,
       "publishedAt": "2026-05-19T17:45:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/Collection-Hero.gif\"&gt;At Google I/O 2026, we shared how we’re making AI more helpful for everyone. See everything we announced.",
       "tags": [
@@ -289,7 +298,7 @@
       "url": "https://blog.google/products-and-platforms/products/search/ai-mode-us-insights/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.6593,
+      "score": 0.6262,
       "publishedAt": "2026-05-19T17:45:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_Mode_US.max-600x600.format-webp.webp\"&gt;One year after launch, see how AI Mode’s users are shifting from keywords to natural language queries.",
       "tags": [
@@ -304,7 +313,7 @@
       "url": "https://blog.google/products-and-platforms/products/workspace/workspace-updates/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.6593,
+      "score": 0.6262,
       "publishedAt": "2026-05-19T17:45:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/GoogleWorkspace-IO.max-600x600.format-webp.webp\"&gt;Announcing new voice capabilities in Gmail, Docs and Keep, a new design tool called Google Pics and updates to AI Inbox.",
       "tags": [
@@ -319,7 +328,7 @@
       "url": "https://blog.google/innovation-and-ai/sundar-pichai-io-2026/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.6593,
+      "score": 0.6262,
       "publishedAt": "2026-05-19T17:45:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/SundarKeynote-hero.max-600x600.format-webp.webp\"&gt;The latest from Google I/O: See how we’re helping you get more done with Gemini.",
       "tags": [
@@ -336,7 +345,7 @@
       "url": "https://blog.google/products-and-platforms/products/search/search-io-2026/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.6593,
+      "score": 0.6262,
       "publishedAt": "2026-05-19T17:45:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Search_AI_and_search_engine_v46.max-600x600.format-webp.webp\"&gt;We shared the next step in our journey to bring together the best of a search engine with the best of AI.",
       "tags": [
@@ -351,7 +360,7 @@
       "url": "https://blog.google/products-and-platforms/products/google-one/google-ai-subscriptions/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.6593,
+      "score": 0.6262,
       "publishedAt": "2026-05-19T17:45:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/I_O_26_Header_1_AYohnR4.max-600x600.format-webp.webp\"&gt;Introducing a $100 AI Ultra plan — plus, new features and benefits for Google AI Plus, Pro and Ultra subscribers.",
       "tags": [
@@ -366,7 +375,7 @@
       "url": "https://huggingface.co/blog/ettin-reranker",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.654,
+      "score": 0.6182,
       "publishedAt": "2026-05-19T00:00:00.000Z",
       "summary": "",
       "tags": [
@@ -379,7 +388,7 @@
       "url": "https://www.technologyreview.com/2026/05/19/1136925/understanding-the-modern-cybercrime-landscape/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6316,
+      "score": 0.5985,
       "publishedAt": "2026-05-19T13:00:00.000Z",
       "summary": "Throughout 2025, HPE observed significant changes in how cybercriminals operate. Analyzing real-world threats, our HPE Threat Labs highlighted an industrialization of the cyber criminals’ methods in its new In the Wild Report, enabling greater scale, speed and structure in their campaigns. They typi",
       "tags": [
@@ -392,7 +401,7 @@
       "url": "https://www.technologyreview.com/2026/05/19/1137505/the-download-musk-altman-trial-smart-glasses-warfare-google-i-o/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6267,
+      "score": 0.5936,
       "publishedAt": "2026-05-19T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Here’s why Elon Musk lost his suit against OpenAI Elon Musk has lost his lawsuit against OpenAI, which centered on whether the company breached its fo",
       "tags": [
@@ -405,7 +414,7 @@
       "url": "https://www.technologyreview.com/2026/05/19/1137471/colossal-biosciences-is-growing-chickens-in-a-3d-printed-container/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6257,
+      "score": 0.5927,
       "publishedAt": "2026-05-19T12:00:00.000Z",
       "summary": "The baby chicks were shifting and starting to pip—or trying to hatch. But not from an egg.&#160; Instead, these chickens were growing inside transparent 3D-printed plastic cups at the Dallas headquarters of Colossal Biosciences. The biotech company today claimed it has developed a “fully artificial",
       "tags": [
@@ -418,7 +427,7 @@
       "url": "https://huggingface.co/blog/nvidia/cosmos-fine-tuning-for-robot-video-generation",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6035,
+      "score": 0.5677,
       "publishedAt": "2026-05-18T16:00:21.000Z",
       "summary": "",
       "tags": [
@@ -431,9 +440,48 @@
       "url": "https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.5985,
+      "score": 0.5627,
       "publishedAt": "2026-05-18T15:12:46.000Z",
       "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The future of Google is a search box that does everything",
+      "url": "https://www.theverge.com/tech/934217/google-search-box-does-everything-ai-io-2026",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5611,
+      "publishedAt": "2026-05-19T23:33:48.000Z",
+      "summary": "Last year, after watching Google's I/O keynote, I wrote that it felt like Google's future was Google googling. After watching this year's I/O keynote on Tuesday, I don't think Google just wants to google for you - I think it wants to do everything for you, all from a search box. Take the trusty Goog",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Demis Hassabis said this might be the ‘foothills of the singularity.’ What?",
+      "url": "https://www.theverge.com/tech/934260/google-io-ai-singularity-demis-hassabis",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5589,
+      "publishedAt": "2026-05-19T23:09:00.000Z",
+      "summary": "Welcome to a \"profound moment for humanity,\" according to Google DeepMind CEO Demis Hassabis, who closed out Google I/O's keynote presentation on Tuesday, saying: Google's cutting-edge research and products will help unlock AGI's incredible potential for the benefit of the entire world. When we look",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Literary Prizewinners Are Facing AI Allegations. It Feels Like the New Normal",
+      "url": "https://www.wired.com/story/commonwealth-short-story-prize-ai-allegations/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5575,
+      "publishedAt": "2026-05-19T22:53:04.000Z",
+      "summary": "Three of five regional winners of the prestigious Commonwealth Short Story Prize are suspected of relying on chatbots. They’re certainly not alone.",
       "tags": [
         "AI"
       ],
@@ -444,7 +492,7 @@
       "url": "https://huggingface.co/blog/ibm-research/open-agent-leaderboard",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.5922,
+      "score": 0.5564,
       "publishedAt": "2026-05-18T14:12:58.000Z",
       "summary": "",
       "tags": [
@@ -453,26 +501,13 @@
       "engagementScore": 0
     },
     {
-      "title": "Demis Hassabis said this might be the &#8216;foothills of the singularity.&#8217; What?",
-      "url": "https://www.theverge.com/tech/934260/google-io-ai-singularity-demis-hassabis",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5845,
-      "publishedAt": "2026-05-19T22:16:02.000Z",
-      "summary": "Welcome to a \"profound moment for humanity,\" according to Google DeepMind CEO Demis Hassabis, who closed out Google I/O's keynote presentation on Tuesday, saying: Google's cutting-edge research and products will help unlock AGI's incredible potential for the benefit of the entire world. When we look",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The future of Google is a search box that does everything",
-      "url": "https://www.theverge.com/tech/934217/google-search-box-does-everything-ai-io-2026",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.58,
-      "publishedAt": "2026-05-19T21:25:12.000Z",
-      "summary": "Last year, after watching Google's I/O keynote, I wrote that it felt like Google's future was Google googling. After watching this year's I/O keynote on Tuesday, I don't think Google just wants to google for you - I think it wants to do everything for you, all from a search box. Take the trusty Goog",
+      "title": "California’s Wildfire Season Is Already Overactive",
+      "url": "https://www.wired.com/story/californias-wildfire-season-already-overactive/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5546,
+      "publishedAt": "2026-05-19T22:20:37.000Z",
+      "summary": "Major fires are threatening homes and ecologically sensitive areas following a hot, dry winter.",
       "tags": [
         "AI"
       ],
@@ -483,7 +518,7 @@
       "url": "https://www.theverge.com/tech/934172/google-io-gemini-ai-trust-personal-data",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5779,
+      "score": 0.5476,
       "publishedAt": "2026-05-19T21:02:08.000Z",
       "summary": "Google has big promises for its AI-powered future - and a lot of it depends on your trust. At I/O 2026, Google described a bunch of new tools that it claims will make your life easier. Gemini Spark, Google's always-on AI agent, can help organize an upcoming event, while Daily Brief can offer a rundo",
       "tags": [
@@ -494,11 +529,24 @@
       "engagementScore": 0
     },
     {
+      "title": "I’ve joined Anthropic",
+      "url": "https://twitter.com/karpathy/status/2056753169888334312",
+      "feedSource": "Hacker News",
+      "source": "twitter.com",
+      "score": 0.5448,
+      "publishedAt": "2026-05-19T15:07:45.000Z",
+      "summary": "Personal update: I’ve joined Anthropic. I think the next few years at the frontier of LLMs will be especially formative. I am very excited to join the team here and get back to R&amp;D. I remain deeply passionate about education and plan to resume my work on it in time.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 1222
+    },
+    {
       "title": "Everything Announced at Google I/O 2026: Gemini, Search, Smart Glasses",
       "url": "https://www.wired.com/story/everything-google-announced-at-google-io-2026/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5724,
+      "score": 0.5421,
       "publishedAt": "2026-05-19T20:00:48.000Z",
       "summary": "Google is sprucing up its Gemini models, revamping search, and enabling AI agents in everything. There are also some spiffy new smart glasses coming this fall.",
       "tags": [
@@ -512,7 +560,7 @@
       "url": "https://www.theverge.com/tech/933921/google-wants-to-compete-with-anthropics-mythos",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5699,
+      "score": 0.5396,
       "publishedAt": "2026-05-19T19:32:09.000Z",
       "summary": "Google is making a big push into cybersecurity. At I/O, the company announced that it was inviting select groups of experts to test the API for CodeMender, an \"AI agent for code security\" it debuted last October. The difference is that Google is now making the tool more widely available externally -",
       "tags": [
@@ -527,7 +575,7 @@
       "url": "https://www.theverge.com/tech/933415/google-io-2026-biggest-announcements-ai-gemini",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5698,
+      "score": 0.5395,
       "publishedAt": "2026-05-19T19:31:01.000Z",
       "summary": "Google's I/O 2026 keynote today was once again full of AI-related announcements including a new family of Gemini 3.5 AI models, new features for Search and Gmail, and updates about its Project Aura smart glasses. If you weren't able to tune into the event's livestream today or follow along with our",
       "tags": [
@@ -536,11 +584,63 @@
       "engagementScore": 0
     },
     {
+      "title": "Meta Employees Are Scrambling to Use Up Benefits Ahead of Layoffs",
+      "url": "https://www.wired.com/story/meta-employees-scramble-benefits-layoffs-ai/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5368,
+      "publishedAt": "2026-05-19T19:00:46.000Z",
+      "summary": "On the eve of about 8,000 jobs being cut, employees are cashing in on headphone stipends and other perks while they still can.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Railway Blocked by Google Cloud",
+      "url": "https://status.railway.com/?date=20260519",
+      "feedSource": "Hacker News",
+      "source": "status.railway.com",
+      "score": 0.5353,
+      "publishedAt": "2026-05-20T00:23:54.000Z",
+      "summary": "Railway",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 271
+    },
+    {
+      "title": "Gemini will use Volvo’s external cameras to interpret parking signs",
+      "url": "https://www.theverge.com/transportation/933556/google-io-gemini-volvo-ex60-camera-ai-parking",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5336,
+      "publishedAt": "2026-05-19T18:25:22.000Z",
+      "summary": "Gemini is gaining the power of sight and mobility. Today at the I/O conference, Google and Volvo announced that the AI-powered assistant will be able to access external cameras in the upcoming EX60 SUV to help explain and interpret its surroundings to vehicle owners. The upgrade is possible thanks t",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Google Search is getting its biggest changes ever",
+      "url": "https://www.theverge.com/tech/932970/google-search-ai-update-io-2026",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5306,
+      "publishedAt": "2026-05-19T17:50:57.000Z",
+      "summary": "Google Search is entering the next phase of its AI evolution. During Google I/O 2026, the company showed off a reimagined search box that makes it easier to flow between AI Overviews, the AI-generated summaries that appear at the top of search results, and AI Mode, Google's chatbot-like search exper",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Simulate real-world places with Project Genie and Street View",
       "url": "https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.569,
+      "score": 0.5305,
       "publishedAt": "2026-05-17T19:53:18.000Z",
       "summary": "We’re expanding access to Google AI Ultra subscribers globally and introducing a new capability powered by Street View.",
       "tags": [
@@ -553,7 +653,7 @@
       "url": "https://deepmind.google/blog/introducing-gemini-omni/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.5688,
+      "score": 0.5302,
       "publishedAt": "2026-05-17T19:50:57.000Z",
       "summary": "Introducing Gemini Omni, which allows you to create anything from any input and edit naturally using conversational language.",
       "tags": [
@@ -562,67 +662,17 @@
       "engagementScore": 0
     },
     {
-      "title": "Introducing Google Antigravity 2.0",
-      "url": "https://deepmind.google/blog/introducing-google-antigravity-2-0/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.5679,
-      "publishedAt": "2026-05-17T19:43:45.000Z",
-      "summary": "Introducing Google Antigravity 2.0",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Meta Employees Are Scrambling to Use Up Benefits Ahead of Layoffs",
-      "url": "https://www.wired.com/story/meta-employees-scramble-benefits-layoffs-ai/",
+      "title": "Google Search Goes Agentic—and Doesn’t Need You Anymore",
+      "url": "https://www.wired.com/story/google-search-goes-agentic-and-doesnt-need-you-anymore/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5671,
-      "publishedAt": "2026-05-19T19:00:46.000Z",
-      "summary": "On the eve of about 8,000 jobs being cut, employees are cashing in on headphone stipends and other perks while they still can.",
+      "score": 0.53,
+      "publishedAt": "2026-05-19T17:45:00.000Z",
+      "summary": "Vibe-coded results! Super widgets! Bots that never sleep! Google’s vision for the future of Search is hyper-personalized, automated, and extremely AI.",
       "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "I’ve joined Anthropic",
-      "url": "https://twitter.com/karpathy/status/2056753169888334312",
-      "feedSource": "Hacker News",
-      "source": "twitter.com",
-      "score": 0.5668,
-      "publishedAt": "2026-05-19T15:07:45.000Z",
-      "summary": "Personal update: I’ve joined Anthropic. I think the next few years at the frontier of LLMs will be especially formative. I am very excited to join the team here and get back to R&amp;D. I remain deeply passionate about education and plan to resume my work on it in time.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 1048
-    },
-    {
-      "title": "Gemini will use Volvo’s external cameras to interpret parking signs",
-      "url": "https://www.theverge.com/transportation/933556/google-io-gemini-volvo-ex60-camera-ai-parking",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5639,
-      "publishedAt": "2026-05-19T18:25:22.000Z",
-      "summary": "Gemini is gaining the power of sight and mobility. Today at the I/O conference, Google and Volvo announced that the AI-powered assistant will be able to access external cameras in the upcoming EX60 SUV to help explain and interpret its surroundings to vehicle owners. The upgrade is possible thanks t",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Here’s why Elon Musk lost his suit against OpenAI",
-      "url": "https://www.technologyreview.com/2026/05/18/1137488/elon-musk-suit-openai-verdict/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.5609,
-      "publishedAt": "2026-05-19T00:53:10.000Z",
-      "summary": "On Monday, the jury in Musk v. Altman dealt Elon Musk a major blow—reaching a unanimous advisory verdict that he had sued OpenAI too late and, as a result, his claims are barred by the applicable statutes of limitations. US District Judge Yvonne Gonzalez Rogers immediately accepted it.&#160; Musk an",
-      "tags": [
-        "LLM"
+        "Agents",
+        "Vision",
+        "Dev Tools"
       ],
       "engagementScore": 0
     },
@@ -631,7 +681,7 @@
       "url": "https://www.wired.com/story/demis-hassabis-ai-layoffs-deepmind-google-io/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5603,
+      "score": 0.53,
       "publishedAt": "2026-05-19T17:45:00.000Z",
       "summary": "The CEO of Google DeepMind tells WIRED that companies should use the productivity gains of AI to do more, not lay people off.",
       "tags": [
@@ -644,67 +694,11 @@
       "url": "https://www.wired.com/story/google-makes-it-easy-to-make-a-deepfake-of-yourself/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5603,
+      "score": 0.53,
       "publishedAt": "2026-05-19T17:45:00.000Z",
       "summary": "Google’s overhaul of its AI creation software, Flow, includes a new video model and a tool for generating selfie videos called avatars.",
       "tags": [
         "Vision",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Google Search Goes Agentic—and Doesn’t Need You Anymore",
-      "url": "https://www.wired.com/story/google-search-goes-agentic-and-doesnt-need-you-anymore/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5603,
-      "publishedAt": "2026-05-19T17:45:00.000Z",
-      "summary": "Vibe-coded results! Super widgets! Bots that never sleep! Google’s vision for the future of Search is hyper-personalized, automated, and extremely AI.",
-      "tags": [
-        "Agents",
-        "Vision",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Hands-On With All of Google’s New Upcoming Android XR Smart Glasses",
-      "url": "https://www.wired.com/story/hands-on-with-all-of-google-new-upcoming-android-xr-smart-glasses/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5603,
-      "publishedAt": "2026-05-19T17:45:00.000Z",
-      "summary": "Here’s your first look at smart glasses coming from Warby Parker and Gentle Monster, powered by Google and Samsung’s XR platform.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Gemini Spark Is Google’s Response to OpenClaw’s 24/7 AI Agent",
-      "url": "https://www.wired.com/story/googles-response-to-openclaws-24-7-ai-agent/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5603,
-      "publishedAt": "2026-05-19T17:45:00.000Z",
-      "summary": "Google’s always-running, data-hungry AI agent is designed to spend your money and send your emails.",
-      "tags": [
-        "LLM",
-        "Agents"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Would you let robots spend your money? Google is betting on it",
-      "url": "https://www.theverge.com/news/932927/google-io-agentic-ai-shopping-universal-cart",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5569,
-      "publishedAt": "2026-05-19T17:07:06.000Z",
-      "summary": "Google is going all in on AI-driven shopping even as some competitors back off. At Google I/O, the company unveiled the latest iteration of its AI commerce tools: a \"Universal Cart\" that works across different retailers and Google products like Gemini - and eventually YouTube and Gmail, too. Users c",
-      "tags": [
-        "LLM",
         "Dev Tools"
       ],
       "engagementScore": 0
