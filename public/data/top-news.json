@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-21T19:59:13.578Z",
+  "updatedAt": "2026-05-21T22:22:55.992Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,20 +12,20 @@
       "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 1.0351,
+      "score": 1.0181,
       "publishedAt": "2026-05-20T19:05:30.000Z",
       "summary": "Reload to try again, or go back.",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 1359
+      "engagementScore": 1369
     },
     {
       "title": "AdventHealth advances whole-person care with OpenAI",
       "url": "https://openai.com/index/adventhealth",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9791,
+      "score": 0.9617,
       "publishedAt": "2026-05-21T12:00:00.000Z",
       "summary": "AdventHealth is using ChatGPT for Healthcare to streamline workflows, reduce administrative burden, and return more time to patient care.",
       "tags": [
@@ -34,11 +34,40 @@
       "engagementScore": 0
     },
     {
+      "title": "We’re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks",
+      "url": "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/",
+      "feedSource": "DeepMind",
+      "source": "deepmind.google",
+      "score": 0.8945,
+      "publishedAt": "2026-05-21T19:46:42.000Z",
+      "summary": "The Asia-Pacific region is a global engine for economic growth, but it’s also highly vulnerable to climate change. While green technologies are gaining momentum, a recen…",
+      "tags": [
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Multi-Stream LLMs: new paper on parallelizing/separating prompts, thinking, I/O",
+      "url": "https://arxiv.org/abs/2605.12460",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.8692,
+      "publishedAt": "2026-05-21T19:37:26.000Z",
+      "summary": "The continued improvements in language model capability have unlocked their widespread use as drivers of autonomous agents, for example in coding or computer use applications. However, the core of these systems has not changed much since early instruction-tuned models like ChatGPT. Even advanced AI",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Research",
+        "Dev Tools"
+      ],
+      "engagementScore": 31
+    },
+    {
       "title": "Position: Let's Develop Data Probes to Fundamentally Understand How Data Affects LLM Performance",
       "url": "https://arxiv.org/abs/2605.18801",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8034,
+      "score": 0.7871,
       "publishedAt": "2026-05-21T04:00:00.000Z",
       "summary": "arXiv:2605.18801v1 Announce Type: new \nAbstract: Data is fundamental to large language models (LLMs). However, understanding of what makes certain data useful for different stages of an LLM workflow, including training, tuning, alignment, in-context learning, etc., and why, remains an open question.",
       "tags": [
@@ -54,7 +83,7 @@
       "url": "https://arxiv.org/abs/2605.18818",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8034,
+      "score": 0.7871,
       "publishedAt": "2026-05-21T04:00:00.000Z",
       "summary": "arXiv:2605.18818v1 Announce Type: new \nAbstract: Academic research tends to focus on new models for document understanding creating a wide gap in the literature between model definition and running models at production scale. To close that gap, we present a microservice architecture that encapsulate",
       "tags": [
@@ -68,7 +97,7 @@
       "url": "https://arxiv.org/abs/2605.18937",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8034,
+      "score": 0.7871,
       "publishedAt": "2026-05-21T04:00:00.000Z",
       "summary": "arXiv:2605.18937v1 Announce Type: new \nAbstract: Patient-managed Personal Health Records (PHRs) promises to empower patients to better understand their health; but information in the record is complex, potentially hindering insights. In this study, we assess the potential of large language models (L",
       "tags": [
@@ -82,7 +111,7 @@
       "url": "https://arxiv.org/abs/2605.19008",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8034,
+      "score": 0.7871,
       "publishedAt": "2026-05-21T04:00:00.000Z",
       "summary": "arXiv:2605.19008v1 Announce Type: new \nAbstract: Modern language-model training is increasingly exposed to instability, degraded runs, and wasted compute, especially under aggressive learning-rate, scale, and runtime-stress conditions. This paper introduces Learn-by-Wire Guard (LBW-Guard), a bounded",
       "tags": [
@@ -97,7 +126,7 @@
       "url": "https://arxiv.org/abs/2605.19010",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8034,
+      "score": 0.7871,
       "publishedAt": "2026-05-21T04:00:00.000Z",
       "summary": "arXiv:2605.19010v1 Announce Type: new \nAbstract: Natural language to SQL (NL2SQL) conversion is an important problem for researchers and enterprises due to the ubiquitous importance of relational databases in broad-ranging practical problems. Despite the rapid advancements in the capabilities of LLM",
       "tags": [
@@ -113,7 +142,7 @@
       "url": "https://arxiv.org/abs/2605.19031",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8034,
+      "score": 0.7871,
       "publishedAt": "2026-05-21T04:00:00.000Z",
       "summary": "arXiv:2605.19031v1 Announce Type: new \nAbstract: Kolmogorov-Arnold Networks (KANs) have demonstrated an exceptional ability to learn complex functions on clean, low-dimensional data but struggle to maintain performance on noisy and imperfect real-world datasets. In contrast, conventional multi-layer",
       "tags": [
@@ -127,7 +156,7 @@
       "url": "https://arxiv.org/abs/2605.19035",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8034,
+      "score": 0.7871,
       "publishedAt": "2026-05-21T04:00:00.000Z",
       "summary": "arXiv:2605.19035v1 Announce Type: new \nAbstract: The rapid advancement of Large Language Models has given rise to autonomous LLM-based agents capable of complex reasoning and execution. As these agents transition from isolated operation to collaborative ecosystems, we witness the emergence of the Ag",
       "tags": [
@@ -143,7 +172,7 @@
       "url": "https://arxiv.org/abs/2605.19042",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8034,
+      "score": 0.7871,
       "publishedAt": "2026-05-21T04:00:00.000Z",
       "summary": "arXiv:2605.19042v1 Announce Type: new \nAbstract: Machine unlearning aims to remove the contribution of designated training data from a trained model while preserving performance on the remaining data. Existing work mainly focuses on single-task settings, whereas modern models often operate in multi-",
       "tags": [
@@ -157,7 +186,7 @@
       "url": "https://openai.com/index/advancing-content-provenance/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.787,
+      "score": 0.7695,
       "publishedAt": "2026-05-19T19:34:30.000Z",
       "summary": "OpenAI advances AI content provenance with Content Credentials, SynthID, and a verification tool to help people identify and trust AI-generated media.",
       "tags": [
@@ -168,25 +197,11 @@
       "engagementScore": 331
     },
     {
-      "title": "OpenAI Guaranteed Capacity",
-      "url": "https://openai.com/business/guaranteed-capacity/",
-      "feedSource": "Hacker News",
-      "source": "openai.com",
-      "score": 0.7835,
-      "publishedAt": "2026-05-20T20:26:48.000Z",
-      "summary": "OpenAI Guaranteed Capacity helps eligible customers secure access to OpenAI compute across supported cloud providers for critical AI workloads, agents, and production infrastructure.",
-      "tags": [
-        "LLM",
-        "Agents"
-      ],
-      "engagementScore": 11
-    },
-    {
       "title": "Stable Audio 3",
       "url": "https://arxiv.org/abs/2605.17991",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7497,
+      "score": 0.7334,
       "publishedAt": "2026-05-20T15:10:05.000Z",
       "summary": "Stable Audio 3 is a family of fast latent diffusion models (small, medium, large) for variable-length audio generation and editing. Since our models can generate several minutes of audio, variable-length generations are key to avoid the cost of producing full-length generations for short sounds. We",
       "tags": [
@@ -195,38 +210,11 @@
       "engagementScore": 97
     },
     {
-      "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
-      "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.7166,
-      "publishedAt": "2026-05-20T00:00:00.000Z",
-      "summary": "An OpenAI model solved the 80-year-old unit distance problem, disproving a major conjecture in discrete geometry and marking a milestone in AI-driven mathematics.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The next phase of OpenAI’s Education for Countries",
-      "url": "https://openai.com/index/the-next-phase-of-education-for-countries",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.7166,
-      "publishedAt": "2026-05-20T00:00:00.000Z",
-      "summary": "OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.",
-      "tags": [
-        "LLM",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "How Ramp engineers accelerate code review with Codex",
       "url": "https://openai.com/index/ramp",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7166,
+      "score": 0.6992,
       "publishedAt": "2026-05-20T00:00:00.000Z",
       "summary": "How Ramp engineers use Codex with GPT-5.5 to review code and ship improvements, allowing them to get substantive feedback in minutes instead of hours.",
       "tags": [
@@ -236,11 +224,51 @@
       "engagementScore": 0
     },
     {
+      "title": "The next phase of OpenAI’s Education for Countries",
+      "url": "https://openai.com/index/the-next-phase-of-education-for-countries",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.6992,
+      "publishedAt": "2026-05-20T00:00:00.000Z",
+      "summary": "OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.",
+      "tags": [
+        "LLM",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
+      "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.6992,
+      "publishedAt": "2026-05-20T00:00:00.000Z",
+      "summary": "An OpenAI model solved the 80-year-old unit distance problem, disproving a major conjecture in discrete geometry and marking a milestone in AI-driven mathematics.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Roundtables: Can AI Learn to Understand the World?",
+      "url": "https://www.technologyreview.com/2026/05/21/1137756/roundtables-can-ai-learn-to-understand-the-world/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.676,
+      "publishedAt": "2026-05-21T20:41:05.000Z",
+      "summary": "Listen to the session or watch below AI companies want to build systems that understand the external world and overcome the limitations of LLMs. Recent developments have brought world models to the forefront of the AI discussion. Watch a conversation with editor in chief Mat Honan, senior AI editor",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Introducing OpenAI for Singapore",
       "url": "https://openai.com/index/introducing-openai-for-singapore",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6911,
+      "score": 0.6737,
       "publishedAt": "2026-05-19T20:30:00.000Z",
       "summary": "OpenAI for Singapore launches a multi-year AI partnership to expand deployment, build local talent, and support businesses and public services with AI.",
       "tags": [
@@ -253,7 +281,7 @@
       "url": "https://www.technologyreview.com/2026/05/21/1137613/scaling-creativity-in-the-age-of-ai/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6818,
+      "score": 0.6678,
       "publishedAt": "2026-05-21T19:16:43.000Z",
       "summary": "Storytelling is core to humanity&#8217;s DNA, stemming from our impulse to express ideals, warnings, hopes, and experiences. Technology has always been woven through the medium and the distribution: from early humans&#8217; innovation of natural pigments and charcoals for cave paintings to literal r",
       "tags": [
@@ -266,7 +294,7 @@
       "url": "https://www.technologyreview.com/2026/05/21/1137735/anthropics-code-with-claude-showed-off-codings-future-whether-you-like-it-or-not/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.654,
+      "score": 0.64,
       "publishedAt": "2026-05-21T14:30:45.000Z",
       "summary": "The vibes were strong at Code with Claude, Anthropic’s two-day event for software developers in London that kicked off on May 19, the same day as Google’s I/O in Palo Alto. (A coincidence, not a flex, Anthropic staffers assured me.) “Who here has shipped a pull request in the last week that was comp",
       "tags": [
@@ -280,7 +308,7 @@
       "url": "https://www.technologyreview.com/2026/05/21/1137733/the-download-online-safety-climate-tech-pivot/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6403,
+      "score": 0.6263,
       "publishedAt": "2026-05-21T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Tech researchers are suing the Trump administration over the future of online safety For months, the Trump administration has been going after researc",
       "tags": [
@@ -294,7 +322,7 @@
       "url": "https://www.technologyreview.com/2026/05/21/1137622/climate-tech-pivot-critical-minerals/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6276,
+      "score": 0.6137,
       "publishedAt": "2026-05-21T10:00:00.000Z",
       "summary": "We’re over a year into the second Trump administration here in the US, and support for climate causes is weak. But climate tech companies are finding ways to survive and even thrive in this new environment, including by focusing on potential benefits outside decarbonization. Suddenly, it feels like",
       "tags": [
@@ -307,7 +335,7 @@
       "url": "https://www.technologyreview.com/2026/05/21/1137632/lawsuit-trump-administration-online-safety-coalition-for-independent-technology-research/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6218,
+      "score": 0.6078,
       "publishedAt": "2026-05-21T09:00:00.000Z",
       "summary": "Since its earliest days back in office, the Trump administration has been going after researchers who study and try to counter hate speech, harassment, propaganda, and disinformation online.&#160; Now, some of those researchers are fighting back. Last week their lawsuit—which could have global reper",
       "tags": [
@@ -321,7 +349,7 @@
       "url": "https://openai.com/index/advancing-content-provenance",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.62,
+      "score": 0.6026,
       "publishedAt": "2026-05-19T10:45:00.000Z",
       "summary": "OpenAI advances AI content provenance with Content Credentials, SynthID, and a verification tool to help people identify and trust AI-generated media.",
       "tags": [
@@ -331,11 +359,115 @@
       "engagementScore": 0
     },
     {
+      "title": "What to Do in LA if You’re Here for Business (2025)",
+      "url": "https://www.wired.com/story/los-angeles-tech-travel-guide/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5816,
+      "publishedAt": "2026-05-21T21:47:47.000Z",
+      "summary": "A tech industry guide to where to stay, eat, work, and play while visiting LA.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "‘Creepy’ Listening Tool for Targeted Ads Didn’t Actually Work, FTC Says",
+      "url": "https://www.wired.com/story/creepy-listening-tool-for-targeted-ads-didnt-actually-work-ftc-says/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5806,
+      "publishedAt": "2026-05-21T21:35:52.000Z",
+      "summary": "Three firms will pay nearly $1 million for selling “Active Listening” technology that they claimed tapped people’s phones for advertising. The FTC alleges the “tech” was just pricey email lists.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Meta Is in Crisis, Google Search’s Makeover, and AI Gets Booed by Graduates",
+      "url": "https://www.wired.com/story/uncanny-valley-podcast-meta-in-crisis-google-search-makeover-ai-booed-by-graduates/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.576,
+      "publishedAt": "2026-05-21T20:44:53.000Z",
+      "summary": "In this episode of Uncanny Valley, we unpack the mass layoffs at Meta, big announcements at Google I/O, and the latest backlash against AI.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Best Window Air Conditioners of 2026: Midea, Zafro, GE",
+      "url": "https://www.wired.com/gallery/best-window-air-conditioners/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5735,
+      "publishedAt": "2026-05-21T20:17:04.000Z",
+      "summary": "These are the AC units we’ve trusted to cool our homes for months, if not years.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "All of the updates from Elon Musk and Sam Altman’s battle over OpenAI",
+      "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5734,
+      "publishedAt": "2026-05-21T20:15:26.000Z",
+      "summary": "Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product, ChatGPT. In 2024, Musk filed a lawsuit accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profits",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Musk v. Altman: Much ado about nothing",
+      "url": "https://www.theverge.com/podcast/934869/elon-musk-sam-altman-openai-suit-loss-pointless",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5727,
+      "publishedAt": "2026-05-21T20:07:37.000Z",
+      "summary": "Today I’m talking with Liz Lopatto, who spent the last month covering the Musk v. Altman trial in all its chaos. You’ll hear her describe the courthouse as a “zoo” and explain that there were protests of one kind or another happening outside every day. Both Elon Musk and Sam Altman are big personali",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "This AI guitar pedal let me roll my own effects",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/935219/polyend-endless-ai-guitar-effects-pedal",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5722,
+      "publishedAt": "2026-05-21T20:01:54.000Z",
+      "summary": "I'm not sure anyone was really asking for an AI guitar pedal. But it was inevitable that someone would build one. One of the first to take the plunge is Polyend, a well-respected music gear maker with a reputation for building niche, idiosyncratic devices. The company has built grooveboxes around ol",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "In desperate times, graduates find hope in humiliating tech CEOs",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/935602/graduates-boo-ai-ceos",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.572,
+      "publishedAt": "2026-05-21T20:00:06.000Z",
+      "summary": "University graduates are booing and heckling corporate executives who praise AI during their commencement ceremonies, and the only people who seem to be genuinely surprised by this are the executives themselves. In a procession of viral videos, 2026 commencement speakers like former Google CEO Eric",
+      "tags": [
+        "Vision"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Mustard Made Storage Lockers Are on a Rare Sale Through May 31",
       "url": "https://www.wired.com/story/mustard-made-sale/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5761,
+      "score": 0.5633,
       "publishedAt": "2026-05-21T18:22:40.000Z",
       "summary": "We love this brand’s stylish storage lockers, and there's a big sale on eight colors through the end of the month.",
       "tags": [
@@ -344,11 +476,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Palantir Held a Hack Week to Add New Controls to Software Used by ICE",
+      "title": "Palantir Held Another ‘Hack Week.’ This Time, the Focus Was ICE",
       "url": "https://www.wired.com/story/palantir-held-a-hack-week-to-add-new-controls-to-software-used-by-ice/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5728,
+      "score": 0.5599,
       "publishedAt": "2026-05-21T17:44:42.000Z",
       "summary": "The hackathon, held to build user-auditing tools for Palantir customers, comes as the company struggles to address employee concerns over its relationship with ICE.",
       "tags": [
@@ -357,24 +489,11 @@
       "engagementScore": 0
     },
     {
-      "title": "The Endless AI guitar pedal has potential",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/935219/polyend-endless-ai-guitar-effects-pedal",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5672,
-      "publishedAt": "2026-05-21T16:42:06.000Z",
-      "summary": "I'm not sure anyone was really asking for an AI guitar pedal. But it was inevitable that someone would build one. One of the first to take the plunge is Polyend, a well-respected music gear maker with a reputation for building niche, idiosyncratic devices. The company has built grooveboxes around ol",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "AI video is moving beyond clip slop",
       "url": "https://www.theverge.com/column/935310/ai-video-luma-hollywood",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5652,
+      "score": 0.5524,
       "publishedAt": "2026-05-21T16:19:36.000Z",
       "summary": "This is Lowpass by Janko Roettgers, a newsletter on the ever-evolving intersection of tech and entertainment, syndicated just for The Verge subscribers once a week. Hollywood is cooked - or so a growing number of people on social media would like you to believe. Their purported proof: AI-generated c",
       "tags": [
@@ -387,7 +506,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/935379/spotify-umg-ai-covers-remix",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.565,
+      "score": 0.5522,
       "publishedAt": "2026-05-21T16:17:41.000Z",
       "summary": "Spotify and Universal Music Group (UMG) just announced a licensing deal that will allow users to prompt the creation of AI-generated remixes and covers for streaming songs. The tool will be a paid add-on for Premium subscribers. Artists will be able to opt out of the program, but those who do partic",
       "tags": [
@@ -400,7 +519,7 @@
       "url": "https://www.theverge.com/entertainment/935390/spotify-studio-ai-app-personal-podcasts",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5648,
+      "score": 0.552,
       "publishedAt": "2026-05-21T16:15:48.000Z",
       "summary": "Studio by Spotify Labs is a new standalone AI app that generates a daily briefing, podcasts, and playlists on your PC using chatbot prompts. The AI-generated content draws from your Spotify listening history, as well as info from apps you connect to it, like your email inbox, calendar, and notes. Sp",
       "tags": [
@@ -413,7 +532,7 @@
       "url": "https://www.wired.com/story/why-the-2026-hurricane-season-might-not-be-that-bad/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5633,
+      "score": 0.5505,
       "publishedAt": "2026-05-21T15:58:27.000Z",
       "summary": "The impending arrival of El Niño will help keep the number of storms low. But it only takes one landfall to create a catastrophe.",
       "tags": [
@@ -426,7 +545,7 @@
       "url": "https://www.theverge.com/science/935229/spacex-anthropic-ipo-ai-capacity-deal-colossus",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5626,
+      "score": 0.5498,
       "publishedAt": "2026-05-21T15:50:40.000Z",
       "summary": "Earlier this month, SpaceX and Anthropic announced a new compute partnership that provides access to the rocket company's Colossus data centers in Memphis, TN. Now, with the release of SpaceX's IPO filing, we have more details about that deal, including how much Anthropic is paying to Elon Musk's co",
       "tags": [
@@ -440,7 +559,7 @@
       "url": "https://www.wired.com/story/i-cloned-myself-with-geminis-ai-avatar-tool-the-result-was-unnervingly-me/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5624,
+      "score": 0.5496,
       "publishedAt": "2026-05-21T15:48:24.000Z",
       "summary": "I used the Gemini app to generate lifelike videos featuring a digital clone of myself. Google sees this as the future of creation. I’m still creeped out.",
       "tags": [
@@ -455,73 +574,33 @@
       "url": "https://axelk.ee/ai-is-just-unauthorised-plagiarism-at-a-bigger-scale/",
       "feedSource": "Hacker News",
       "source": "axelk.ee",
-      "score": 0.556,
+      "score": 0.5463,
       "publishedAt": "2026-05-21T13:38:12.000Z",
       "summary": "AI takes in all the input, whether the original authors have consented or not, and do some “learning”, and then the AI companies sell these learned result to…",
       "tags": [
         "AI"
       ],
-      "engagementScore": 696
+      "engagementScore": 734
     },
     {
-      "title": "I can’t believe how fast Google vibe coded my first Android app",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/935056/google-vibe-coding-first-android-app-gemini-ai-studio",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5544,
-      "publishedAt": "2026-05-21T14:18:10.000Z",
-      "summary": "Yesterday, I built my first Android app. Then, I made two more - three in one afternoon. For one, I literally typed 148 words into my web browser and walked away. Ten minutes later, I had an entire new app on my actual Android phone. I did have to prep that phone by enabling a [&#8230;]",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Musk v. Altman: Much ado about nothing",
-      "url": "https://www.theverge.com/podcast/934869/elon-musk-sam-altman-openai-suit-loss-pointless",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.554,
-      "publishedAt": "2026-05-21T14:14:30.000Z",
-      "summary": "Today I’m talking with Liz Lopatto, who spent the last month covering the Musk v. Altman trial in all its chaos. You’ll hear her describe the courthouse as a “zoo” and explain that there were protests of one kind or another happening outside every day. Both Elon Musk and Sam Altman are big personali",
+      "title": "Project Hail Mary – Stellar Navigation Chart",
+      "url": "https://valhovey.github.io/gaia-mary/",
+      "feedSource": "Hacker News",
+      "source": "valhovey.github.io",
+      "score": 0.5364,
+      "publishedAt": "2026-05-21T16:23:11.000Z",
+      "summary": "See a recreation of the Project Hail Mary in-ship navigation computer with accurate star data from the GAIA DR3 mission.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 0
-    },
-    {
-      "title": "In SpaceX’s IPO, Elon Musk is the risk factor",
-      "url": "https://www.theverge.com/science/935102/spacex-ipo-elon-musk-tesla-cybertruck-xai-risk-factor",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5539,
-      "publishedAt": "2026-05-21T14:13:33.000Z",
-      "summary": "The SpaceX IPO is here, and it's more than just an historic public offering that could make Elon Musk the world's first trillionaire. It also reveals more ways in which Elon Musk's companies interact and overlap with each other, shuffling money around in ways that are often difficult to keep track o",
-      "tags": [
-        "Safety",
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "NYC and LA Are Teaming Up to Fight for EVs",
-      "url": "https://www.wired.com/story/nyc-and-la-are-teaming-up-to-fight-for-evs/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5504,
-      "publishedAt": "2026-05-21T13:33:42.000Z",
-      "summary": "After the Trump administration turned away from electrification, two of the nation’s biggest governments will advocate for more electric vans, police cars, and eventually, snowplows.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
+      "engagementScore": 386
     },
     {
       "title": "We’re announcing new community investments in Missouri.",
       "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/missouri-programs/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.5499,
+      "score": 0.5359,
       "publishedAt": "2026-05-20T20:40:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/MissouriSocial.max-600x600.format-webp.webp\"&gt;We’re helping build the state’s next-generation workforce and investing in energy programs.",
       "tags": [
@@ -537,20 +616,34 @@
       "url": "https://techcrunch.com/2026/05/20/intuit-to-lay-off-over-3000-employees-to-refocus-on-ai/",
       "feedSource": "Hacker News",
       "source": "techcrunch.com",
-      "score": 0.544,
+      "score": 0.5322,
       "publishedAt": "2026-05-21T00:36:01.000Z",
       "summary": "",
       "tags": [
         "AI"
       ],
-      "engagementScore": 243
+      "engagementScore": 249
+    },
+    {
+      "title": "Google's Antigravity bait and switch",
+      "url": "https://www.0xsid.com/blog/antigravity-bait-n-switch",
+      "feedSource": "Hacker News",
+      "source": "0xsid.com",
+      "score": 0.531,
+      "publishedAt": "2026-05-21T13:50:59.000Z",
+      "summary": "The day was to begin like any other, with Antigravity open, expecting to get some work done before my attention fragments. But Google had other plans. They had rolled out a new version of Antigravity the day before, at I/O 2026, presenting it as a shiny, standalone Codex-style experience.",
+      "tags": [
+        "RAG",
+        "Dev Tools"
+      ],
+      "engagementScore": 467
     },
     {
       "title": "100 things we announced at I/O 2026",
       "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.5431,
+      "score": 0.5291,
       "publishedAt": "2026-05-20T19:30:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/100_things_Social.max-600x600.format-webp.webp\"&gt;This year at Google I/O 2026, we announced Gemini Omni, Google Antigravity, Universal Cart and so much more. Here are the highlights.",
       "tags": [
@@ -562,77 +655,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Best Duffel Bags: Eastpak, Patagonia, Baboon to the Moon (2026)",
-      "url": "https://www.wired.com/gallery/best-duffel-bags/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5422,
-      "publishedAt": "2026-05-21T12:02:00.000Z",
-      "summary": "Need to schlep some stuff? These field-tested duffels can handle your baggage.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "11 Best Meal Delivery Services, Tested by an Ex-Restaurant Critic",
-      "url": "https://www.wired.com/gallery/best-meal-kit-services-1/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5422,
-      "publishedAt": "2026-05-21T12:02:00.000Z",
-      "summary": "Here are the best meal kits in 2026, including Martha Stewart’s delivery box, a GLP-1–supportive plan, and a budget-friendly option.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "5 Best Android Tablets in 2026: OnePlus, Lenovo, and Pixel Compared",
-      "url": "https://www.wired.com/story/the-best-android-tablets/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5396,
-      "publishedAt": "2026-05-21T11:33:00.000Z",
-      "summary": "Whether you need a portable, around-the-house entertainment center or a full-on laptop replacement, these are the best Android tablets.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Google's Antigravity Bait and Switch",
-      "url": "https://www.0xsid.com/blog/antigravity-bait-n-switch",
-      "feedSource": "Hacker News",
-      "source": "0xsid.com",
-      "score": 0.5371,
-      "publishedAt": "2026-05-21T13:50:59.000Z",
-      "summary": "The day was to begin like any other, with Antigravity open, expecting to get some work done before my attention fragments. But Google had other plans. They had rolled out a new version of Antigravity the day before, at I/O 2026, presenting it as a shiny, standalone Codex-style experience.",
-      "tags": [
-        "RAG",
-        "Dev Tools"
-      ],
-      "engagementScore": 401
-    },
-    {
-      "title": "Project Hail Mary – Stellar Navigation Chart",
-      "url": "https://valhovey.github.io/gaia-mary/",
-      "feedSource": "Hacker News",
-      "source": "valhovey.github.io",
-      "score": 0.5293,
-      "publishedAt": "2026-05-21T16:23:11.000Z",
-      "summary": "See a recreation of the Project Hail Mary in-ship navigation computer with accurate star data from the GAIA DR3 mission.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 230
-    },
-    {
       "title": "A new experiment brings better group meetings to Google Beam",
       "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-beam-group-meetings/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.527,
+      "score": 0.513,
       "publishedAt": "2026-05-20T16:45:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Screenshot_2026-05-15_at_4.21.2.max-600x600.format-webp.webp\"&gt;See and hear your colleagues in true-to-life size and sound, making hybrid meetings feel more inclusive and connected.",
       "tags": [
@@ -667,32 +694,6 @@
       "summary": "OpenAI and Malta partner to expand AI access, offering ChatGPT Plus and training to help citizens build practical AI skills and use AI responsibly.",
       "tags": [
         "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Green steel startup Boston Metal is doubling down on critical metals",
-      "url": "https://www.technologyreview.com/2026/05/20/1137523/boston-metal-funding-critical-metals/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.5051,
-      "publishedAt": "2026-05-20T13:00:00.000Z",
-      "summary": "The startup Boston Metal has raised a $75 million funding round to produce critical metals, MIT Technology Review can exclusively report.&#160;&#160; The company has been known largely for its efforts to clean up steel production, an industry that&#8217;s responsible for about 8% of global greenhous",
-      "tags": [
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Download: fully artificial chicken eggs and why Musk lost",
-      "url": "https://www.technologyreview.com/2026/05/20/1137579/the-download-colossal-biosciences-egg-musk-altman-trial/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.5003,
-      "publishedAt": "2026-05-20T12:10:00.000Z",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Colossal Biosciences is growing chickens in a 3D-printed artificial eggshell The baby chicks were shifting and starting to pip—or trying to hatch. But",
-      "tags": [
-        "AI"
       ],
       "engagementScore": 0
     }
