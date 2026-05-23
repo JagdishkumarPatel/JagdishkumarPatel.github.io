@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-23T03:39:52.098Z",
+  "updatedAt": "2026-05-23T08:25:06.328Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,20 +12,153 @@
       "url": "https://www.anthropic.com/research/glasswing-initial-update",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 1.0831,
+      "score": 1.0584,
       "publishedAt": "2026-05-22T19:31:45.000Z",
       "summary": "An early update on what we’ve learned from Project Glasswing.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 346
+      "engagementScore": 416
+    },
+    {
+      "title": "Benchmarking and Improving Monitors for Out-Of-Distribution Alignment Failure in LLMs",
+      "url": "https://arxiv.org/abs/2605.21602",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8822,
+      "publishedAt": "2026-05-23T04:00:00.000Z",
+      "summary": "arXiv:2605.21602v1 Announce Type: new \nAbstract: Many safety and alignment failures of large language models (LLMs) occur due to out-of-distribution (OOD) situations: unusual prompt or response patterns that are unforeseen by model developers. We systematically study whether LLM monitoring pipelines",
+      "tags": [
+        "LLM",
+        "Research",
+        "Safety",
+        "Dev Tools",
+        "ML Infra"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "TO-Agents: A Multi-Agent AI Pipeline for Preference-Guided Topology Optimization",
+      "url": "https://arxiv.org/abs/2605.21622",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8822,
+      "publishedAt": "2026-05-23T04:00:00.000Z",
+      "summary": "arXiv:2605.21622v1 Announce Type: new \nAbstract: Topology optimization can generate efficient structures, but designers often must manually translate qualitative intent, such as desired visual style, product experience, or manufacturability into solver settings that are not directly tied to those pr",
+      "tags": [
+        "Agents",
+        "Research",
+        "Vision"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Shape of Testimony: A Scalable Framework for Oral History Archive Comparison",
+      "url": "https://arxiv.org/abs/2605.21623",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8822,
+      "publishedAt": "2026-05-23T04:00:00.000Z",
+      "summary": "arXiv:2605.21623v1 Announce Type: new \nAbstract: Researchers in Holocaust studies have often distinguished between two styles of oral survivor testimony: the USC Shoah Foundation's interviews tend to follow a structured, interviewer-guided format, whereas the Yale Fortunoff Video Archive generally f",
+      "tags": [
+        "Research",
+        "Vision"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "MindLoom: Composing Thought Modes for Frontier-Level Reasoning Data Synthesis",
+      "url": "https://arxiv.org/abs/2605.21630",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8822,
+      "publishedAt": "2026-05-23T04:00:00.000Z",
+      "summary": "arXiv:2605.21630v1 Announce Type: new \nAbstract: Although LLMs have made substantial progress in reasoning, systematically producing frontier-level reasoning data remains difficult. Existing synthesis methods often have limited visibility into the structural factors that govern problem difficulty, w",
+      "tags": [
+        "LLM",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "AOP-Wiki EMOD 3.0: Data Model Expansions and Content Evaluation Framework for Using Agentic AI to Improve Integration between AOPs and New Approach Methodologies (NAMs)",
+      "url": "https://arxiv.org/abs/2605.21645",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8822,
+      "publishedAt": "2026-05-23T04:00:00.000Z",
+      "summary": "arXiv:2605.21645v1 Announce Type: new \nAbstract: Adverse Outcome Pathways (AOP) are logic models that causally link biological mechanisms that can be measured in a lab to adverse outcomes, relevant to chemical regulatory endpoints. AOPs contextualize new approach methodologies (NAMs), in vitro and i",
+      "tags": [
+        "Agents",
+        "Research",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Investigating Concept Alignment Using Implausible Category Members",
+      "url": "https://arxiv.org/abs/2605.21683",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8822,
+      "publishedAt": "2026-05-23T04:00:00.000Z",
+      "summary": "arXiv:2605.21683v1 Announce Type: new \nAbstract: Developing AI systems with a human-like understanding of everyday concepts is a key step towards developing safe, reliable systems whose behavior makes sense to humans. When probing concept understanding, asking questions about plausible category memb",
+      "tags": [
+        "Research",
+        "Safety",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Impact of AI Usage and Informativeness on Skill Development in Logical Reasoning",
+      "url": "https://arxiv.org/abs/2605.21695",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8822,
+      "publishedAt": "2026-05-23T04:00:00.000Z",
+      "summary": "arXiv:2605.21695v1 Announce Type: new \nAbstract: Artificial intelligence (AI) is being increasingly integrated into human problem-solving, yet its effects on individual skill development remain unclear. We examine how both AI usage and informativeness can shape learning in the context of a controlle",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Latent-space Attacks for Refusal Evasion in Language Models",
+      "url": "https://arxiv.org/abs/2605.21706",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8822,
+      "publishedAt": "2026-05-23T04:00:00.000Z",
+      "summary": "arXiv:2605.21706v1 Announce Type: new \nAbstract: Safety-aligned language models are trained to refuse harmful requests, yet refusal behavior can be suppressed by steering their internal representations. Existing methods do so by ablating a refusal direction from model activations, aiming to remove r",
+      "tags": [
+        "LLM",
+        "Research",
+        "Safety",
+        "ML Infra"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Domain-Camouflaged Injection Attacks Evade Detection in Multi-Agent LLM Systems",
+      "url": "https://arxiv.org/abs/2605.22001",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.8013,
+      "publishedAt": "2026-05-22T18:46:07.000Z",
+      "summary": "Injection detectors deployed to protect LLM agents are calibrated on static, template-based payloads that announce themselves as override directives. We identify a systematic blind spot: when payloads are generated to mimic the domain vocabulary and authority structures of the target document, what",
+      "tags": [
+        "LLM",
+        "Agents"
+      ],
+      "engagementScore": 35
     },
     {
       "title": "OpenAI named a Leader in enterprise coding agents by Gartner",
       "url": "https://openai.com/index/gartner-2026-agentic-coding-leader",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8357,
+      "score": 0.801,
       "publishedAt": "2026-05-22T00:00:00.000Z",
       "summary": "OpenAI is named a leader in the 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents, with Codex recognized for innovation and enterprise-scale deployment.",
       "tags": [
@@ -40,7 +173,7 @@
       "url": "https://openai.com/index/virgin-atlantic",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8357,
+      "score": 0.801,
       "publishedAt": "2026-05-22T00:00:00.000Z",
       "summary": "How Virgin Atlantic used Codex to ship its revamped mobile app on a fixed holiday travel deadline, reaching near-total unit test coverage and zero P1 defects.",
       "tags": [
@@ -50,51 +183,37 @@
       "engagementScore": 0
     },
     {
-      "title": "Domain-Camouflaged Injection Attacks Evade Detection in Multi-Agent LLM Systems",
-      "url": "https://arxiv.org/abs/2605.22001",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.8321,
-      "publishedAt": "2026-05-22T18:46:07.000Z",
-      "summary": "Injection detectors deployed to protect LLM agents are calibrated on static, template-based payloads that announce themselves as override directives. We identify a systematic blind spot: when payloads are generated to mimic the domain vocabulary and authority structures of the target document, what",
-      "tags": [
-        "LLM",
-        "Agents"
-      ],
-      "engagementScore": 34
-    },
-    {
       "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
       "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.8062,
+      "score": 0.7715,
       "publishedAt": "2026-05-20T19:05:30.000Z",
       "summary": "Reload to try again, or go back.",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 1410
+      "engagementScore": 1411
     },
     {
       "title": "CODA: Rewriting Transformer Blocks as GEMM-Epilogue Programs",
       "url": "https://arxiv.org/abs/2605.19269",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.793,
+      "score": 0.7611,
       "publishedAt": "2026-05-22T04:54:33.000Z",
       "summary": "Transformer training systems are built around dense linear algebra, yet a nontrivial fraction of end-to-end time is spent on surrounding memory-bound operators. Normalization, activations, residual updates, reductions, and related computations repeatedly move large intermediate tensors through globa",
       "tags": [
         "AI"
       ],
-      "engagementScore": 101
+      "engagementScore": 102
     },
     {
       "title": "Towards Speed-of-Light Text Generation with Nemotron-Labs Diffusion Language Models",
       "url": "https://huggingface.co/blog/nvidia/nemotron-labs-diffusion",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.7721,
+      "score": 0.7421,
       "publishedAt": "2026-05-23T00:02:03.000Z",
       "summary": "",
       "tags": [
@@ -104,147 +223,11 @@
       "engagementScore": 0
     },
     {
-      "title": "SOLAR: A Self-Optimizing Open-Ended Autonomous Agent for Lifelong Learning and Continual Adaptation",
-      "url": "https://arxiv.org/abs/2605.20189",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7512,
-      "publishedAt": "2026-05-22T04:00:00.000Z",
-      "summary": "arXiv:2605.20189v1 Announce Type: new \nAbstract: Despite the remarkable success of large language models (LLMs), they still face bottlenecks while deploying in dynamic, real-world settings with primary challenges being concept drift and the high cost of gradient-based adaptation. Traditional fine-tu",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Tool-Augmented Agent for Closed-loop Optimization,Simulation,and Modeling Orchestration",
-      "url": "https://arxiv.org/abs/2605.20190",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7512,
-      "publishedAt": "2026-05-22T04:00:00.000Z",
-      "summary": "arXiv:2605.20190v1 Announce Type: new \nAbstract: Iterative industrial design-simulation optimization is bottlenecked by the CAD-CAE semantic gap: translating simulation feedback into valid geometric edits under diverse, coupled constraints. To fill this gap, we propose COSMO-Agent (Closed-loop Optim",
-      "tags": [
-        "Agents",
-        "Research",
-        "Dev Tools",
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "OSCToM: RL-Guided Adversarial Generation for High-Order Theory of Mind",
-      "url": "https://arxiv.org/abs/2605.20423",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7512,
-      "publishedAt": "2026-05-22T04:00:00.000Z",
-      "summary": "arXiv:2605.20423v1 Announce Type: new \nAbstract: Large Language Models (LLMs) perform well on many language tasks, but their Theory of Mind (ToM) reasoning is still uneven in complex social settings. Existing benchmarks, including ExploreToM, do not always test the recursive beliefs and information",
-      "tags": [
-        "LLM",
-        "Research",
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "AgentCo-op: Retrieval-Based Synthesis of Interoperable Multi-Agent Workflows",
-      "url": "https://arxiv.org/abs/2605.20425",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7512,
-      "publishedAt": "2026-05-22T04:00:00.000Z",
-      "summary": "arXiv:2605.20425v1 Announce Type: new \nAbstract: Designing multi-agent workflows is especially difficult in open-ended scientific settings where tasks lack curated training sets, reliable scalar evaluation metrics, and standardized interfaces between existing tools and agents. We propose AgentCo-op,",
-      "tags": [
-        "Agents",
-        "Research",
-        "RAG",
-        "Dev Tools",
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "High Quality Embeddings for Horn Logic Reasoning",
-      "url": "https://arxiv.org/abs/2605.20467",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7512,
-      "publishedAt": "2026-05-22T04:00:00.000Z",
-      "summary": "arXiv:2605.20467v1 Announce Type: new \nAbstract: Neural networks can be trained to rank the choices made by logical reasoners, resulting in more efficient searches for answers. A key step in this process is creating useful embeddings, i.e., numeric representations of logical statements. This paper i",
-      "tags": [
-        "Research",
-        "RAG"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "$ECUAS_n$: A family of metrics for principled evaluation of uncertainty-augmented systems",
-      "url": "https://arxiv.org/abs/2605.20490",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7512,
-      "publishedAt": "2026-05-22T04:00:00.000Z",
-      "summary": "arXiv:2605.20490v2 Announce Type: new \nAbstract: In high-stakes automated decision-making, access to predictive uncertainty is essential for enabling users -- human or downstream systems -- to accept or reject predictions based on application-specific cost trade-offs. Such uncertainty-augmented (UA)",
-      "tags": [
-        "Research",
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Open-World Evaluations for Measuring Frontier AI Capabilities",
-      "url": "https://arxiv.org/abs/2605.20520",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7512,
-      "publishedAt": "2026-05-22T04:00:00.000Z",
-      "summary": "arXiv:2605.20520v1 Announce Type: new \nAbstract: Benchmark-based evaluation remains important for tracking frontier AI progress. But it can both overstate and understate deployed capability because it privileges tasks that can be precisely specified, automatically graded, easy to optimize for, and r",
-      "tags": [
-        "Research",
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "AgentAtlas: Beyond Outcome Leaderboards for LLM Agents",
-      "url": "https://arxiv.org/abs/2605.20530",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7512,
-      "publishedAt": "2026-05-22T04:00:00.000Z",
-      "summary": "arXiv:2605.20530v1 Announce Type: new \nAbstract: Large language model agents now act on codebases, browsers, operating systems, calendars, files, and tool ecosystems, but the benchmarks used to evaluate them are fragmented: each emphasizes a different unit of measurement (final task success, tool-ca",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Research",
-        "RAG",
-        "Dev Tools",
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "AdventHealth advances whole-person care with OpenAI",
-      "url": "https://openai.com/index/adventhealth",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.7482,
-      "publishedAt": "2026-05-21T12:00:00.000Z",
-      "summary": "AdventHealth is using ChatGPT for Healthcare to streamline workflows, reduce administrative burden, and return more time to patient care.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Multi-Stream LLMs: new paper on parallelizing/separating prompts, thinking, I/O",
       "url": "https://arxiv.org/abs/2605.12460",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7481,
+      "score": 0.7161,
       "publishedAt": "2026-05-21T19:37:26.000Z",
       "summary": "The continued improvements in language model capability have unlocked their widespread use as drivers of autonomous agents, for example in coding or computer use applications. However, the core of these systems has not changed much since early instruction-tuned models like ChatGPT. Even advanced AI",
       "tags": [
@@ -253,14 +236,14 @@
         "Research",
         "Dev Tools"
       ],
-      "engagementScore": 145
+      "engagementScore": 146
     },
     {
       "title": "Event Tensor: A Unified Abstraction for Compiling Dynamic Megakernel",
       "url": "https://arxiv.org/abs/2604.13327",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.746,
+      "score": 0.7136,
       "publishedAt": "2026-05-22T22:02:34.000Z",
       "summary": "Modern GPU workloads, especially large language model (LLM) inference, suffer from kernel launch overheads and coarse synchronization that limit inter-kernel parallelism. Recent megakernel techniques fuse multiple operators into a single persistent kernel to eliminate launch gaps and expose inter-ke",
       "tags": [
@@ -269,11 +252,24 @@
       "engagementScore": 4
     },
     {
+      "title": "AdventHealth advances whole-person care with OpenAI",
+      "url": "https://openai.com/index/adventhealth",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.7135,
+      "publishedAt": "2026-05-21T12:00:00.000Z",
+      "summary": "AdventHealth is using ChatGPT for Healthcare to streamline workflows, reduce administrative burden, and return more time to patient care.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Specialization Beats Scale: A Strategic Variable Most AI Procurement Decisions Overlook",
       "url": "https://huggingface.co/blog/Dharma-AI/specialization-beats-scale",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.7178,
+      "score": 0.6877,
       "publishedAt": "2026-05-22T15:25:59.000Z",
       "summary": "",
       "tags": [
@@ -286,7 +282,7 @@
       "url": "https://arxiv.org/abs/2605.22794",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.6955,
+      "score": 0.6631,
       "publishedAt": "2026-05-22T07:48:05.000Z",
       "summary": "Autonomous agentic systems are largely static after deployment: they do not learn from user interactions, and recurring failures persist until the next human-driven update ships a fix. Self-evolving agents have emerged in response, but all confine evolution to text-mutable artifacts -- skill files,",
       "tags": [
@@ -299,7 +295,7 @@
       "url": "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.6952,
+      "score": 0.6629,
       "publishedAt": "2026-05-21T19:46:42.000Z",
       "summary": "The Asia-Pacific region is a global engine for economic growth, but it’s also highly vulnerable to climate change. While green technologies are gaining momentum, a recen…",
       "tags": [
@@ -312,7 +308,7 @@
       "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.6295,
+      "score": 0.6018,
       "publishedAt": "2026-05-22T18:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IO26_Dialogues_3z680sK.max-600x600.format-webp.webp\"&gt;A recap of the 2026 I/O Dialogues, where leaders discuss the future of AI, quantum computing, robotics and creativity.",
       "tags": [
@@ -323,11 +319,37 @@
       "engagementScore": 0
     },
     {
+      "title": "All Vehicles Sold in the EU Must Be Able to Hook Up to a Breathalyzer",
+      "url": "https://www.wired.com/story/all-vehicles-sold-in-the-eu-must-have-breathalyzer-hook-up/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5772,
+      "publishedAt": "2026-05-23T07:00:00.000Z",
+      "summary": "The measure is part of a European Union–led strategy to eliminate all drunk-driving-related deaths and injuries by 2050.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Best Early Memorial Day Mattress Deals: Helix, Saatva (2026)",
+      "url": "https://www.wired.com/story/memorial-day-mattress-deals-2026-1/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5766,
+      "publishedAt": "2026-05-23T06:54:00.000Z",
+      "summary": "It’s one of the best times of the year to buy a mattress, and deals on our favorite models are in full swing.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "The Download: coding&#8217;s future, the &#8216;Steroid Olympics,&#8217; and AI-driven science",
       "url": "https://www.technologyreview.com/2026/05/22/1137845/the-download-coding-future-steroid-olympics-ai-science/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5955,
+      "score": 0.5678,
       "publishedAt": "2026-05-22T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Anthropic’s Code with Claude showed off coding’s future—whether you like it or not At Anthropic’s developer event in London this week, Code with Claud",
       "tags": [
@@ -337,13 +359,78 @@
       "engagementScore": 0
     },
     {
-      "title": "Google I/O showed how the path for AI-driven science is shifting",
-      "url": "https://www.technologyreview.com/2026/05/22/1137813/google-i-o-showed-how-the-path-for-ai-science-is-shifting/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.5829,
-      "publishedAt": "2026-05-22T10:00:00.000Z",
-      "summary": "During Tuesday’s Google I/O keynote, Demis Hassabis, the CEO of Google DeepMind, proclaimed that we are currently “standing in the foothills of the singularity.” It was a striking statement—the singularity is the theoretical future moment when AI rapidly exceeds human intelligence and dramatically t",
+      "title": "Lowe’s Promo Codes and Deals: Up to $300 Off Appliances",
+      "url": "https://www.wired.com/story/lowes-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5665,
+      "publishedAt": "2026-05-23T05:00:00.000Z",
+      "summary": "Find the latest Lowe’s promo codes and offers, including up to $300 off select major appliances and $5 off $50 with sign-up, here at WIRED.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Ulta Promo Codes: Up to 50% Off in May",
+      "url": "https://www.wired.com/story/ulta-coupon/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5665,
+      "publishedAt": "2026-05-23T05:00:00.000Z",
+      "summary": "Shop the latest beauty trends and save big using an Ulta promo code for beauty tech, makeup, and more.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Valvoline Coupons &amp; Promo Codes for May 2026",
+      "url": "https://www.wired.com/story/valvoline-coupons/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5665,
+      "publishedAt": "2026-05-23T05:00:00.000Z",
+      "summary": "We've gathered all the top Valvoline coupons and promo codes for May 2026, including deals on full synthetic oil changes and other essential maintenance.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Loop Earplugs Discount Codes: 40% Off",
+      "url": "https://www.wired.com/story/loop-earplugs-discount-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5665,
+      "publishedAt": "2026-05-23T05:00:00.000Z",
+      "summary": "Save on Loop Earplugs, including Quiet 2 and popular gift sets for improved sleep, focus, and comfort.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Hoka Coupon Codes: 30% Off | May 2026",
+      "url": "https://www.wired.com/story/hoka-coupon-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5665,
+      "publishedAt": "2026-05-23T05:00:00.000Z",
+      "summary": "Unlock free expedited shipping or 10% off with today’s Hoka discount codes, plus save up to 30% with the best discounts for May 2026.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Squarespace Promo Codes: 20% Off in May 2026",
+      "url": "https://www.wired.com/story/squarespace-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5665,
+      "publishedAt": "2026-05-23T05:00:00.000Z",
+      "summary": "Get 20% off your next website, 10% off with exclusive Squarespace discount code, 50% off plans, and more top coupons from WIRED.",
       "tags": [
         "Dev Tools"
       ],
@@ -354,7 +441,7 @@
       "url": "https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad",
       "feedSource": "Hacker News",
       "source": "theverge.com",
-      "score": 0.5779,
+      "score": 0.5636,
       "publishedAt": "2026-05-22T17:32:04.000Z",
       "summary": "Thousands of Microsoft developers will use GitHub Copilot CLI instead",
       "tags": [
@@ -362,14 +449,27 @@
         "Open Source",
         "Dev Tools"
       ],
-      "engagementScore": 164
+      "engagementScore": 217
+    },
+    {
+      "title": "Google I/O showed how the path for AI-driven science is shifting",
+      "url": "https://www.technologyreview.com/2026/05/22/1137813/google-i-o-showed-how-the-path-for-ai-science-is-shifting/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.5551,
+      "publishedAt": "2026-05-22T10:00:00.000Z",
+      "summary": "During Tuesday’s Google I/O keynote, Demis Hassabis, the CEO of Google DeepMind, proclaimed that we are currently “standing in the foothills of the singularity.” It was a striking statement—the singularity is the theoretical future moment when AI rapidly exceeds human intelligence and dramatically t",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "The Enhanced Games fit right in with the rest of 2026’s longevity vibes",
       "url": "https://www.technologyreview.com/2026/05/22/1137753/the-enhanced-games-fit-right-in-with-the-rest-of-2026s-longevity-vibes/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.577,
+      "score": 0.5493,
       "publishedAt": "2026-05-22T09:00:00.000Z",
       "summary": "This Sunday, a group of 42 athletes will gather in Las Vegas to compete in a somewhat unusual sporting competition. Participants in the inaugural Enhanced Games are being encouraged to take performance-enhancing drugs. The goal is to “push the boundaries of human performance.” The games’ organizers",
       "tags": [
@@ -382,113 +482,9 @@
       "url": "https://www.theverge.com/tech/936176/google-ai-overviews-search-disregard",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5606,
+      "score": 0.5351,
       "publishedAt": "2026-05-22T23:08:29.000Z",
       "summary": "Google's AI Overviews are running into an interesting problem right now. Earlier on Friday, if you searched for the term \"disregard,\" the AI Overview section would include a response like what you'd see from a more traditional AI chatbot instead of the typical AI summary, as spotted on X. As you can",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Memorial Day Tech Deals: Sony, Apple, Beats (2026)",
-      "url": "https://www.wired.com/story/memorial-day-tech-deals-2026-1/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5378,
-      "publishedAt": "2026-05-22T18:52:47.000Z",
-      "summary": "Lots of our most-recommended headphones, power banks, and other gadgets are on sale for Memorial Day.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Spotify says its AI remix tool is for superfans, but I&#8217;m not convinced",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/936072/spotify-umg-ai-music-remix-cover-superfan",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5327,
-      "publishedAt": "2026-05-22T17:55:48.000Z",
-      "summary": "AI covers and remixes of songs are already a blight on the internet. Spotify, YouTube, TikTok, and Instagram are awash in flat reggae versions of \"Smells Like Teen Spirit,\" dinky country renditions of The Weeknd, and monotonous Motown reimaginings of AC/DC. Now, a new tool from Spotify will make the",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Shein Buying Everlane Actually Makes Perfect Sense",
-      "url": "https://www.wired.com/story/made-in-china-why-shein-bought-everlane/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5324,
-      "publishedAt": "2026-05-22T17:53:01.000Z",
-      "summary": "The acquisition struck many people as a bizarre mismatch, but it's really a sign of where Chinese ecommerce giants are already going.",
-      "tags": [
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Memorial Day 2026 Grill and Griddle Deals: Weber, Traeger, Recteq",
-      "url": "https://www.wired.com/story/memorial-day-grill-griddle-deals-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5321,
-      "publishedAt": "2026-05-22T17:48:45.000Z",
-      "summary": "Some of WIRED's favorite griddles, grills, and pellet smokers are as much as $250 off for Memorial Day weekend.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Elon, stop trying to make Grok happen",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/936219/elon-stop-trying-to-make-grok-happen",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5292,
-      "publishedAt": "2026-05-22T17:17:06.000Z",
-      "summary": "There is a harsh truth about Elon Musk's \"truth-seeking\" AI chatbot Grok: It's not very good, and not many people are using it. That's the takeaway of a new Reuters report, which found that Grok barely appears in federal records of how the US government used AI last year. It's not the only sign xAI'",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The literary world isn’t prepared for AI",
-      "url": "https://www.theverge.com/tech/936073/ai-writing-granta-commonwealth-prize",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5216,
-      "publishedAt": "2026-05-22T15:50:46.000Z",
-      "summary": "Since 2012, the British literary magazine Granta has published the regional winners of the annual Commonwealth Short Story Prize. This year, however, there was something off about one of the selections for the prestigious award: It appears to have been written by AI. Jamir Nazir's \"The Serpent in th",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Routers vs. Modems: What You Need to Get Online",
-      "url": "https://www.wired.com/story/router-vs-modem/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5183,
-      "publishedAt": "2026-05-22T15:14:37.000Z",
-      "summary": "Your modem and router are the dynamic duo you need to get online, so long as you don't mistake one for the other.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Even If You Hate AI, You Will Use Google AI Search",
-      "url": "https://www.wired.com/story/even-if-you-hate-ai-you-will-use-google-ai-search/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.517,
-      "publishedAt": "2026-05-22T15:00:00.000Z",
-      "summary": "The search giant’s AI-crafted answers are so convenient, you’ll be sucked in—to the detriment of the web and the artists and thinkers behind it.",
       "tags": [
         "AI"
       ],
@@ -563,11 +559,50 @@
       "engagementScore": 0
     },
     {
+      "title": "Spotify says its AI remix tool is for superfans, but I&#8217;m not convinced",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/936072/spotify-umg-ai-music-remix-cover-superfan",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5073,
+      "publishedAt": "2026-05-22T17:55:48.000Z",
+      "summary": "AI covers and remixes of songs are already a blight on the internet. Spotify, YouTube, TikTok, and Instagram are awash in flat reggae versions of \"Smells Like Teen Spirit,\" dinky country renditions of The Weeknd, and monotonous Motown reimaginings of AC/DC. Now, a new tool from Spotify will make the",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Elon, stop trying to make Grok happen",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/936219/elon-stop-trying-to-make-grok-happen",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5038,
+      "publishedAt": "2026-05-22T17:17:06.000Z",
+      "summary": "There is a harsh truth about Elon Musk's \"truth-seeking\" AI chatbot Grok: It's not very good, and not many people are using it. That's the takeaway of a new Reuters report, which found that Grok barely appears in federal records of how the US government used AI last year. It's not the only sign xAI'",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The literary world isn’t prepared for AI",
+      "url": "https://www.theverge.com/tech/936073/ai-writing-granta-commonwealth-prize",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.4961,
+      "publishedAt": "2026-05-22T15:50:46.000Z",
+      "summary": "Since 2012, the British literary magazine Granta has published the regional winners of the annual Commonwealth Short Story Prize. This year, however, there was something off about one of the selections for the prestigious award: It appears to have been written by AI. Jamir Nazir's \"The Serpent in th",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Roundtables: Can AI Learn to Understand the World?",
       "url": "https://www.technologyreview.com/2026/05/21/1137756/roundtables-can-ai-learn-to-understand-the-world/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5052,
+      "score": 0.4775,
       "publishedAt": "2026-05-21T20:41:05.000Z",
       "summary": "Listen to the session or watch below AI companies want to build systems that understand the external world and overcome the limitations of LLMs. Recent developments have brought world models to the forefront of the AI discussion. Watch a conversation with editor in chief Mat Honan, senior AI editor",
       "tags": [
@@ -576,37 +611,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Samsung Movingstyle M7 Review: A Screen on Wheels",
-      "url": "https://www.wired.com/review/samsung-movingstyle-32-m7/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4999,
-      "publishedAt": "2026-05-22T11:48:00.000Z",
-      "summary": "Made for those who hate having a TV in the home, Samsung’s Movingstyle monitor-on-wheels brings the entertainment when you need it and hides away in a closet when you don’t.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Best Vacuum Cleaner (2026): Cordless Vacuums, Robot Vacuums, Dysons",
-      "url": "https://www.wired.com/gallery/the-best-vacuum-cleaner/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4984,
-      "publishedAt": "2026-05-22T11:31:00.000Z",
-      "summary": "Looking for all our top recommended vacuums? Here are our favorites in every style we’ve tested, from stick vacs to robot vacuums.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Samsung&#8217;s memory chip employees negotiated $340,000 bonuses this year",
       "url": "https://www.theverge.com/tech/936002/samsung-memory-chip-employees-deal-strike-bonus",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4972,
+      "score": 0.4718,
       "publishedAt": "2026-05-22T11:17:51.000Z",
       "summary": "Details have emerged about a tentative deal struck between Samsung and semiconductor employees who had threatened to strike. The deal reportedly makes some workers eligible for average annual bonuses of $340,000. The proposed 18-day strike had hinged on Samsung's bonus cap for employees in the semic",
       "tags": [
@@ -615,24 +624,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Scaling creativity in the age of AI",
-      "url": "https://www.technologyreview.com/2026/05/21/1137613/scaling-creativity-in-the-age-of-ai/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.497,
-      "publishedAt": "2026-05-21T19:16:43.000Z",
-      "summary": "Storytelling is core to humanity&#8217;s DNA, stemming from our impulse to express ideals, warnings, hopes, and experiences. Technology has always been woven through the medium and the distribution: from early humans&#8217; innovation of natural pigments and charcoals for cave paintings to literal r",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "In desperate times, graduates find hope in humiliating tech CEOs",
       "url": "https://www.theverge.com/ai-artificial-intelligence/935602/graduates-boo-ai-ceos",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.497,
+      "score": 0.4715,
       "publishedAt": "2026-05-22T11:14:54.000Z",
       "summary": "University graduates are booing and heckling corporate executives who praise AI during their commencement ceremonies, and the only people who seem to be genuinely surprised by this are the executives themselves. In a procession of viral videos, 2026 commencement speakers like former Google CEO Eric",
       "tags": [
@@ -641,13 +637,13 @@
       "engagementScore": 0
     },
     {
-      "title": "The 13 Best Fans to Buy Before It Gets Hot Again (2026)",
-      "url": "https://www.wired.com/story/the-best-fans-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4959,
-      "publishedAt": "2026-05-22T11:03:00.000Z",
-      "summary": "Swap out your creaky old box fan for a new model that lights up, mists, or even follows you around the room.",
+      "title": "Scaling creativity in the age of AI",
+      "url": "https://www.technologyreview.com/2026/05/21/1137613/scaling-creativity-in-the-age-of-ai/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.4693,
+      "publishedAt": "2026-05-21T19:16:43.000Z",
+      "summary": "Storytelling is core to humanity&#8217;s DNA, stemming from our impulse to express ideals, warnings, hopes, and experiences. Technology has always been woven through the medium and the distribution: from early humans&#8217; innovation of natural pigments and charcoals for cave paintings to literal r",
       "tags": [
         "AI"
       ],
@@ -658,7 +654,7 @@
       "url": "https://www.technologyreview.com/2026/05/21/1137735/anthropics-code-with-claude-showed-off-codings-future-whether-you-like-it-or-not/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4692,
+      "score": 0.4415,
       "publishedAt": "2026-05-21T14:30:45.000Z",
       "summary": "The vibes were strong at Code with Claude, Anthropic’s two-day event for software developers in London that kicked off on May 19, the same day as Google’s I/O in Palo Alto. (A coincidence, not a flex, Anthropic staffers assured me.) “Who here has shipped a pull request in the last week that was comp",
       "tags": [
@@ -672,7 +668,7 @@
       "url": "https://www.technologyreview.com/2026/05/21/1137733/the-download-online-safety-climate-tech-pivot/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4555,
+      "score": 0.4278,
       "publishedAt": "2026-05-21T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Tech researchers are suing the Trump administration over the future of online safety For months, the Trump administration has been going after researc",
       "tags": [
@@ -682,13 +678,13 @@
       "engagementScore": 0
     },
     {
-      "title": "Climate tech companies are pivoting to critical minerals",
-      "url": "https://www.technologyreview.com/2026/05/21/1137622/climate-tech-pivot-critical-minerals/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.4429,
-      "publishedAt": "2026-05-21T10:00:00.000Z",
-      "summary": "We’re over a year into the second Trump administration here in the US, and support for climate causes is weak. But climate tech companies are finding ways to survive and even thrive in this new environment, including by focusing on potential benefits outside decarbonization. Suddenly, it feels like",
+      "title": "Fast-tracking genetic leads to reverse cellular aging",
+      "url": "https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/",
+      "feedSource": "DeepMind",
+      "source": "deepmind.google",
+      "score": 0.4222,
+      "publishedAt": "2026-05-18T18:21:39.000Z",
+      "summary": "Biologists use Co-Scientist to find novel factors that successfully rejuvenate human cells.",
       "tags": [
         "AI"
       ],
