@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-24T08:34:53.296Z",
+  "updatedAt": "2026-05-24T10:43:56.514Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,33 +12,33 @@
       "url": "https://www.anthropic.com/research/glasswing-initial-update",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.8955,
+      "score": 0.8799,
       "publishedAt": "2026-05-22T19:31:45.000Z",
       "summary": "An early update on what we’ve learned from Project Glasswing.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 531
+      "engagementScore": 532
     },
     {
       "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
       "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.6939,
+      "score": 0.694,
       "publishedAt": "2026-05-20T19:05:30.000Z",
       "summary": "Reload to try again, or go back.",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 1417
+      "engagementScore": 1418
     },
     {
       "title": "OpenAI named a Leader in enterprise coding agents by Gartner",
       "url": "https://openai.com/index/gartner-2026-agentic-coding-leader",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6248,
+      "score": 0.6091,
       "publishedAt": "2026-05-22T00:00:00.000Z",
       "summary": "OpenAI is named a leader in the 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents, with Codex recognized for innovation and enterprise-scale deployment.",
       "tags": [
@@ -53,7 +53,7 @@
       "url": "https://openai.com/index/virgin-atlantic",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6248,
+      "score": 0.6091,
       "publishedAt": "2026-05-22T00:00:00.000Z",
       "summary": "How Virgin Atlantic used Codex to ship its revamped mobile app on a fixed holiday travel deadline, reaching near-total unit test coverage and zero P1 defects.",
       "tags": [
@@ -67,7 +67,7 @@
       "url": "https://arxiv.org/abs/2605.19269",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.5982,
+      "score": 0.5835,
       "publishedAt": "2026-05-22T04:54:33.000Z",
       "summary": "Transformer training systems are built around dense linear algebra, yet a nontrivial fraction of end-to-end time is spent on surrounding memory-bound operators. Normalization, activations, residual updates, reductions, and related computations repeatedly move large intermediate tensors through globa",
       "tags": [
@@ -76,11 +76,37 @@
       "engagementScore": 105
     },
     {
+      "title": "These Robots Are Making Meals for a Nonprofit in San Francisco’s Tenderloin",
+      "url": "https://www.wired.com/story/these-robots-are-making-meals-for-a-nonprofit-in-san-franciscos-tenderloin/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5835,
+      "publishedAt": "2026-05-24T10:30:00.000Z",
+      "summary": "A nonprofit in the city’s most troubled district has turned to robotic meal prep tech to make up for a dearth of human volunteers.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "14 New Tools for Taking on the Great Outdoors Properly",
+      "url": "https://www.wired.com/story/14-new-tools-for-taking-on-the-great-outdoors-properly/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5782,
+      "publishedAt": "2026-05-24T09:30:00.000Z",
+      "summary": "It’s time to prep your kit ahead of the summer season. These tools will do the job.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Towards Speed-of-Light Text Generation with Nemotron-Labs Diffusion Language Models",
       "url": "https://huggingface.co/blog/nvidia/nemotron-labs-diffusion",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.5894,
+      "score": 0.5758,
       "publishedAt": "2026-05-23T00:02:03.000Z",
       "summary": "",
       "tags": [
@@ -90,11 +116,37 @@
       "engagementScore": 0
     },
     {
+      "title": "Why Garlic Repels Mosquitoes and Keeps Them From Breeding",
+      "url": "https://www.wired.com/story/why-garlic-repels-mosquitoes-and-keeps-them-from-breeding/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5755,
+      "publishedAt": "2026-05-24T09:00:00.000Z",
+      "summary": "Garlic, as your grandmother may have told you, repels mosquitoes; it also completely blocks them from mating and laying eggs. Diallyl disulfide, it turns out, deserves the credit.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "A Fundamental Principle of Aeronautical Engineering Has Been Overturned",
+      "url": "https://www.wired.com/story/a-fundamental-principle-of-aeronautical-engineering-has-been-overturned/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5728,
+      "publishedAt": "2026-05-24T08:30:00.000Z",
+      "summary": "It's long been accepted that the smoother the surface, the lower the aerodynamic drag. That turns out not always to be the case.",
+      "tags": [
+        "RAG"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "The Universe Is Full of ‘Impossible’ Black Holes. Now Scientists Know Why",
       "url": "https://www.wired.com/story/the-universe-is-full-of-impossible-black-holes-now-scientists-know-why/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5816,
+      "score": 0.5701,
       "publishedAt": "2026-05-24T08:00:00.000Z",
       "summary": "There are black holes that are too big to be born from the death of a star but aren’t quite supermassive either. There’s finally evidence for where those came from.",
       "tags": [
@@ -107,7 +159,7 @@
       "url": "https://arxiv.org/abs/2605.12460",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.5544,
+      "score": 0.5397,
       "publishedAt": "2026-05-21T19:37:26.000Z",
       "summary": "The continued improvements in language model capability have unlocked their widespread use as drivers of autonomous agents, for example in coding or computer use applications. However, the core of these systems has not changed much since early instruction-tuned models like ChatGPT. Even advanced AI",
       "tags": [
@@ -123,7 +175,7 @@
       "url": "https://openai.com/index/adventhealth",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.5373,
+      "score": 0.5216,
       "publishedAt": "2026-05-21T12:00:00.000Z",
       "summary": "AdventHealth is using ChatGPT for Healthcare to streamline workflows, reduce administrative burden, and return more time to patient care.",
       "tags": [
@@ -136,26 +188,13 @@
       "url": "https://huggingface.co/blog/Dharma-AI/specialization-beats-scale",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.535,
+      "score": 0.5214,
       "publishedAt": "2026-05-22T15:25:59.000Z",
       "summary": "",
       "tags": [
         "AI"
       ],
       "engagementScore": 0
-    },
-    {
-      "title": "Texas woman arrested for Facebook post about town water quality",
-      "url": "https://reclaimthenet.org/texas-woman-arrested-for-facebook-post-about-town-water-quality",
-      "feedSource": "Hacker News",
-      "source": "reclaimthenet.org",
-      "score": 0.5167,
-      "publishedAt": "2026-05-23T18:02:42.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 705
     },
     {
       "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
@@ -226,24 +265,50 @@
       "engagementScore": 0
     },
     {
+      "title": "Texas woman arrested for Facebook post about town water quality",
+      "url": "https://reclaimthenet.org/texas-woman-arrested-for-facebook-post-about-town-water-quality",
+      "feedSource": "Hacker News",
+      "source": "reclaimthenet.org",
+      "score": 0.5068,
+      "publishedAt": "2026-05-23T18:02:42.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 716
+    },
+    {
       "title": "Wake up! 16b",
       "url": "https://hellmood.111mb.de/wake_up_16b_writeup.html",
       "feedSource": "Hacker News",
       "source": "hellmood.111mb.de",
-      "score": 0.5022,
+      "score": 0.5007,
       "publishedAt": "2026-05-24T00:30:50.000Z",
       "summary": "Released at the Outline Demoparty in May 2026, Ommen, NL An exploration of algorithmic density in 16 bytes of x86 assembly.",
       "tags": [
         "Open Source"
       ],
-      "engagementScore": 198
+      "engagementScore": 254
+    },
+    {
+      "title": "Time to talk about my writerdeck",
+      "url": "https://veronicaexplains.net/my-first-writerdeck/",
+      "feedSource": "Hacker News",
+      "source": "veronicaexplains.net",
+      "score": 0.4869,
+      "publishedAt": "2026-05-23T18:45:37.000Z",
+      "summary": "tldr: * I installed console-only Debian on an old laptop (no desktop OS at all) * I added some packages to make it work better for writing: * network-manager for connecting to hotspots while I’m away * kmscon for custom fonts and more than 16 colors in the tty * tmux for a nice status",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 375
     },
     {
       "title": "We’re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks",
       "url": "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.4984,
+      "score": 0.4838,
       "publishedAt": "2026-05-21T19:46:42.000Z",
       "summary": "The Asia-Pacific region is a global engine for economic growth, but it’s also highly vulnerable to climate change. While green technologies are gaining momentum, a recen…",
       "tags": [
@@ -252,24 +317,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Time to talk about my writerdeck",
-      "url": "https://veronicaexplains.net/my-first-writerdeck/",
-      "feedSource": "Hacker News",
-      "source": "veronicaexplains.net",
-      "score": 0.4965,
-      "publishedAt": "2026-05-23T18:45:37.000Z",
-      "summary": "tldr: * I installed console-only Debian on an old laptop (no desktop OS at all) * I added some packages to make it work better for writing: * network-manager for connecting to hotspots while I’m away * kmscon for custom fonts and more than 16 colors in the tty * tmux for a nice status",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 367
-    },
-    {
       "title": "Best Power Banks (2026): My Picks After Testing Over 100",
       "url": "https://www.wired.com/gallery/best-portable-chargers-power-banks/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4934,
+      "score": 0.4819,
       "publishedAt": "2026-05-23T15:30:00.000Z",
       "summary": "Keep your phone, laptop, handheld gaming console, and other electronics running with these travel-friendly power banks.",
       "tags": [
@@ -282,7 +334,7 @@
       "url": "https://www.wired.com/story/dyson-vacuum-deals-memorial-day-2026/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4834,
+      "score": 0.4719,
       "publishedAt": "2026-05-23T13:37:45.000Z",
       "summary": "Wishing for your very own Dyson vacuum? Don’t miss these vacuum deals happening over the holiday weekend.",
       "tags": [
@@ -295,20 +347,20 @@
       "url": "https://www.euronews.com/my-europe/2026/05/21/italy-moves-to-airbus-a330-tankers-in-major-nato-aligned-shift",
       "feedSource": "Hacker News",
       "source": "euronews.com",
-      "score": 0.4702,
+      "score": 0.4601,
       "publishedAt": "2026-05-23T16:02:43.000Z",
       "summary": "Rome shifts course: six Airbus A330 MRTT tanker aircraft, worth around €1.39 billion in total, to bolster the European pillar in NATO. #EuropeNews",
       "tags": [
         "Industry"
       ],
-      "engagementScore": 255
+      "engagementScore": 258
     },
     {
       "title": "L.L.Bean's Zip Hunter's Tote Is the Only Carryall You Need",
       "url": "https://www.wired.com/story/llbean-zip-hunters-tote-bag/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4694,
+      "score": 0.4579,
       "publishedAt": "2026-05-23T11:01:00.000Z",
       "summary": "Its do-it-all thermoplastic lining can both carry gear through wet muck and transport wet, mucky groceries home from the store.",
       "tags": [
@@ -317,82 +369,16 @@
       "engagementScore": 0
     },
     {
-      "title": "Quantum ‘Jamming’ Could Help Unlock the Mysteries of Causality",
-      "url": "https://www.wired.com/story/quantum-jamming-could-help-unlock-the-mysteries-of-causality/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4693,
-      "publishedAt": "2026-05-23T11:00:00.000Z",
-      "summary": "To keep communications secure in a post-quantum world, cryptographers are digging down into the concept of cause and effect.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Best Smart Sprinklers and Irrigation Systems: In-Ground Sprinklers, Hose Timers (2026)",
-      "url": "https://www.wired.com/story/best-smart-sprinklers-and-irrigation-systems/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4674,
-      "publishedAt": "2026-05-23T10:38:00.000Z",
-      "summary": "We’ve tested almost a dozen options that handle everything from scheduling and weather changes to water conservation, so you don’t have to.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The FBI Wants ‘Near Real-Time’ Access to US License Plate Readers",
-      "url": "https://www.wired.com/story/security-news-this-week-fbi-license-plate-reader-real-time-access/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4667,
-      "publishedAt": "2026-05-23T10:30:00.000Z",
-      "summary": "Plus: Google publishes a live exploit for an unpatched flaw, the feds arrest two men accused of creating thousands of nonconsensual deepfake nudes, and more.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Cosmic Voids May Contain the Universe’s Best Secrets",
-      "url": "https://www.wired.com/story/cosmic-voids-might-contain-universes-best-secrets/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.464,
-      "publishedAt": "2026-05-23T10:00:00.000Z",
-      "summary": "Once dismissed as empty expanses between galaxies, cosmic voids are becoming one of the most promising tools for probing the universe’s biggest mysteries.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Catch up on the Dialogues stage at Google I/O 2026.",
       "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.4609,
+      "score": 0.4483,
       "publishedAt": "2026-05-22T18:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IO26_Dialogues_3z680sK.max-600x600.format-webp.webp\"&gt;A recap of the 2026 I/O Dialogues, where leaders discuss the future of AI, quantum computing, robotics and creativity.",
       "tags": [
         "RAG",
         "Vision",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Download: coding&#8217;s future, the &#8216;Steroid Olympics,&#8217; and AI-driven science",
-      "url": "https://www.technologyreview.com/2026/05/22/1137845/the-download-coding-future-steroid-olympics-ai-science/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.4268,
-      "publishedAt": "2026-05-22T12:10:00.000Z",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Anthropic’s Code with Claude showed off coding’s future—whether you like it or not At Anthropic’s developer event in London this week, Code with Claud",
-      "tags": [
-        "LLM",
         "Dev Tools"
       ],
       "engagementScore": 0
@@ -491,11 +477,25 @@
       "engagementScore": 0
     },
     {
+      "title": "The Download: coding&#8217;s future, the &#8216;Steroid Olympics,&#8217; and AI-driven science",
+      "url": "https://www.technologyreview.com/2026/05/22/1137845/the-download-coding-future-steroid-olympics-ai-science/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.4143,
+      "publishedAt": "2026-05-22T12:10:00.000Z",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Anthropic’s Code with Claude showed off coding’s future—whether you like it or not At Anthropic’s developer event in London this week, Code with Claud",
+      "tags": [
+        "LLM",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Google I/O showed how the path for AI-driven science is shifting",
       "url": "https://www.technologyreview.com/2026/05/22/1137813/google-i-o-showed-how-the-path-for-ai-science-is-shifting/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4142,
+      "score": 0.4016,
       "publishedAt": "2026-05-22T10:00:00.000Z",
       "summary": "During Tuesday’s Google I/O keynote, Demis Hassabis, the CEO of Google DeepMind, proclaimed that we are currently “standing in the foothills of the singularity.” It was a striking statement—the singularity is the theoretical future moment when AI rapidly exceeds human intelligence and dramatically t",
       "tags": [
@@ -508,7 +508,7 @@
       "url": "https://www.theverge.com/tech/936507/gemini-omni-hands-on-deepfake-ai-video",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4096,
+      "score": 0.3981,
       "publishedAt": "2026-05-22T23:49:26.000Z",
       "summary": "Last year I deepfaked my kid's stuffed animal to make it look like his plush deer was on vacation. It was an experiment to see if I could re-create the events depicted in a Gemini ad Google was running, and I never showed the videos of Buddy the deer on his adventures to my four-year-old. [&#8230;]",
       "tags": [
@@ -522,7 +522,7 @@
       "url": "https://www.technologyreview.com/2026/05/22/1137753/the-enhanced-games-fit-right-in-with-the-rest-of-2026s-longevity-vibes/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4084,
+      "score": 0.3958,
       "publishedAt": "2026-05-22T09:00:00.000Z",
       "summary": "This Sunday, a group of 42 athletes will gather in Las Vegas to compete in a somewhat unusual sporting competition. Participants in the inaugural Enhanced Games are being encouraged to take performance-enhancing drugs. The goal is to “push the boundaries of human performance.” The games’ organizers",
       "tags": [
@@ -535,7 +535,7 @@
       "url": "https://www.theverge.com/tech/936176/google-ai-overviews-search-disregard",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4059,
+      "score": 0.3944,
       "publishedAt": "2026-05-22T23:08:29.000Z",
       "summary": "Google's AI Overviews are running into an interesting problem right now. Earlier on Friday, if you searched for the term \"disregard,\" the AI Overview section would include a response like what you'd see from a more traditional AI chatbot instead of the typical AI summary, as spotted on X. As you can",
       "tags": [
@@ -548,7 +548,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/936072/spotify-umg-ai-music-remix-cover-superfan",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.3781,
+      "score": 0.3666,
       "publishedAt": "2026-05-22T17:55:48.000Z",
       "summary": "AI covers and remixes of songs are already a blight on the internet. Spotify, YouTube, TikTok, and Instagram are awash in flat reggae versions of \"Smells Like Teen Spirit,\" dinky country renditions of The Weeknd, and monotonous Motown reimaginings of AC/DC. Now, a new tool from Spotify will make the",
       "tags": [
@@ -561,7 +561,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/936219/elon-stop-trying-to-make-grok-happen",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.3746,
+      "score": 0.3631,
       "publishedAt": "2026-05-22T17:17:06.000Z",
       "summary": "There is a harsh truth about Elon Musk's \"truth-seeking\" AI chatbot Grok: It's not very good, and not many people are using it. That's the takeaway of a new Reuters report, which found that Grok barely appears in federal records of how the US government used AI last year. It's not the only sign xAI'",
       "tags": [
@@ -574,37 +574,11 @@
       "url": "https://www.theverge.com/tech/936073/ai-writing-granta-commonwealth-prize",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.3669,
+      "score": 0.3554,
       "publishedAt": "2026-05-22T15:50:46.000Z",
       "summary": "Since 2012, the British literary magazine Granta has published the regional winners of the annual Commonwealth Short Story Prize. This year, however, there was something off about one of the selections for the prestigious award: It appears to have been written by AI. Jamir Nazir's \"The Serpent in th",
       "tags": [
         "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Samsung&#8217;s memory chip employees negotiated $340,000 bonuses this year",
-      "url": "https://www.theverge.com/tech/936002/samsung-memory-chip-employees-deal-strike-bonus",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.3426,
-      "publishedAt": "2026-05-22T11:17:51.000Z",
-      "summary": "Details have emerged about a tentative deal struck between Samsung and semiconductor employees who had threatened to strike. The deal reportedly makes some workers eligible for average annual bonuses of $340,000. The proposed 18-day strike had hinged on Samsung's bonus cap for employees in the semic",
-      "tags": [
-        "RAG"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "In desperate times, graduates find hope in humiliating tech CEOs",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/935602/graduates-boo-ai-ceos",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.3423,
-      "publishedAt": "2026-05-22T11:14:54.000Z",
-      "summary": "University graduates are booing and heckling corporate executives who praise AI during their commencement ceremonies, and the only people who seem to be genuinely surprised by this are the executives themselves. In a procession of viral videos, 2026 commencement speakers like former Google CEO Eric",
-      "tags": [
-        "Vision"
       ],
       "engagementScore": 0
     },
@@ -668,6 +642,32 @@
       "score": 0.3401,
       "publishedAt": "2026-05-14T18:55:01.000Z",
       "summary": "",
+      "tags": [
+        "RAG"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Unlocking asynchronicity in continuous batching",
+      "url": "https://huggingface.co/blog/continuous_async",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.3401,
+      "publishedAt": "2026-05-14T00:00:00.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Samsung&#8217;s memory chip employees negotiated $340,000 bonuses this year",
+      "url": "https://www.theverge.com/tech/936002/samsung-memory-chip-employees-deal-strike-bonus",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.3311,
+      "publishedAt": "2026-05-22T11:17:51.000Z",
+      "summary": "Details have emerged about a tentative deal struck between Samsung and semiconductor employees who had threatened to strike. The deal reportedly makes some workers eligible for average annual bonuses of $340,000. The proposed 18-day strike had hinged on Samsung's bonus cap for employees in the semic",
       "tags": [
         "RAG"
       ],
