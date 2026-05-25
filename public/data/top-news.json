@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-25T15:16:49.982Z",
+  "updatedAt": "2026-05-25T19:47:04.768Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,11 +8,37 @@
   ],
   "items": [
     {
+      "title": "Anthropic Cofounder Chris Olah's Remarks on Pope Leo XIV's \"Magnifica Humanitas\"",
+      "url": "https://www.anthropic.com/news/chris-olah-pope-leo-encyclical",
+      "feedSource": "Hacker News",
+      "source": "anthropic.com",
+      "score": 0.8961,
+      "publishedAt": "2026-05-25T19:12:29.000Z",
+      "summary": "",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 4
+    },
+    {
+      "title": "OpenAI, Grupo Folha and Grupo UOL announce strategic content partnership",
+      "url": "https://openai.com/index/grupo-folha-grupo-uol-partnership",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.8931,
+      "publishedAt": "2026-05-25T00:00:00.000Z",
+      "summary": "OpenAI partners with Grupo Folha and Grupo UOL to bring trusted Brazilian journalism to ChatGPT, expanding access to news with attribution and transparency.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "BOHM: Zero-Cost Hierarchical Attribution for Compound AI Systems",
       "url": "https://arxiv.org/abs/2605.22866",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8355,
+      "score": 0.8048,
       "publishedAt": "2026-05-25T04:00:00.000Z",
       "summary": "arXiv:2605.22866v1 Announce Type: new \nAbstract: Compound AI systems route tasks through hierarchies of specialised components. Attribution is dominated by Shapley-based methods (SHAP), which decompose a coalition value function into per-component marginal contributions and require evaluation of the",
       "tags": [
@@ -26,7 +52,7 @@
       "url": "https://arxiv.org/abs/2605.22874",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8355,
+      "score": 0.8048,
       "publishedAt": "2026-05-25T04:00:00.000Z",
       "summary": "arXiv:2605.22874v1 Announce Type: new \nAbstract: Effectively translating between natural language (NL) and formal logics like Linear Temporal Logic (LTL) requires expertise that limits formal verification's reach in safety-critical development. Template-based approaches sacrifice expressiveness for",
       "tags": [
@@ -40,7 +66,7 @@
       "url": "https://arxiv.org/abs/2605.22875",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8355,
+      "score": 0.8048,
       "publishedAt": "2026-05-25T04:00:00.000Z",
       "summary": "arXiv:2605.22875v1 Announce Type: new \nAbstract: We present $\\textbf{Research Math Agents (RMA)}$, an agentic framework for automated reasoning on research-level mathematical problems. Unlike prior studies centered on competition mathematics or formal theorem proving, RMA targets research-level math",
       "tags": [
@@ -54,7 +80,7 @@
       "url": "https://arxiv.org/abs/2605.22878",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8355,
+      "score": 0.8048,
       "publishedAt": "2026-05-25T04:00:00.000Z",
       "summary": "arXiv:2605.22878v1 Announce Type: new \nAbstract: The exponential growth of global academic output has confronted researchers and AI agents with an unprecedented ``information explosion,'' where fragmented and unstructured knowledge organization impedes deep interdisciplinary integration. Current aca",
       "tags": [
@@ -69,7 +95,7 @@
       "url": "https://arxiv.org/abs/2605.22883",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8355,
+      "score": 0.8048,
       "publishedAt": "2026-05-25T04:00:00.000Z",
       "summary": "arXiv:2605.22883v1 Announce Type: new \nAbstract: Current AI energy benchmarks measure consumption at the granularity of a single model invocation or training run. For classical single-turn workloads this unit remains coherent. For agentic systems - where a single user goal may trigger multi-step orc",
       "tags": [
@@ -84,7 +110,7 @@
       "url": "https://arxiv.org/abs/2605.22885",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8355,
+      "score": 0.8048,
       "publishedAt": "2026-05-25T04:00:00.000Z",
       "summary": "arXiv:2605.22885v1 Announce Type: new \nAbstract: Formal mathematics libraries are rapidly expanding, creating a growing need to refactor verified proofs for maintainability and to improve training data quality for neural provers. However, scalable proof optimization is hindered by heterogeneous and",
       "tags": [
@@ -98,7 +124,7 @@
       "url": "https://arxiv.org/abs/2605.22900",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8355,
+      "score": 0.8048,
       "publishedAt": "2026-05-25T04:00:00.000Z",
       "summary": "arXiv:2605.22900v1 Announce Type: new \nAbstract: Mediative Fuzzy Logic was conceived as a practical scheme for reconciling hesitant or conflicting assessments in fuzzy control and decision-making. However, its logical and semantic foundations remain underdeveloped, especially beyond operational type",
       "tags": [
@@ -111,7 +137,7 @@
       "url": "https://arxiv.org/abs/2605.22905",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8355,
+      "score": 0.8048,
       "publishedAt": "2026-05-25T04:00:00.000Z",
       "summary": "arXiv:2605.22905v1 Announce Type: new \nAbstract: Self-evolving agents should not train on examples they cannot justify. Data-free self-evolving search agents offer a scalable route to systems that generate their own questions, answer them, and improve from their own feedback without human annotation",
       "tags": [
@@ -125,7 +151,7 @@
       "url": "https://arxiv.org/abs/2605.06445",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8178,
+      "score": 0.7886,
       "publishedAt": "2026-05-24T12:55:53.000Z",
       "summary": "Large Language Model (LLM) agents demonstrate strong performance in autonomous code generation under loose specifications. However, production-grade software requires strict adherence to structural constraints, such as architectural patterns, databases, and object-relational mappings. Existing bench",
       "tags": [
@@ -135,7 +161,7 @@
         "Dev Tools",
         "ML Infra"
       ],
-      "engagementScore": 267
+      "engagementScore": 275
     },
     {
       "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
@@ -148,27 +174,79 @@
       "tags": [
         "LLM"
       ],
-      "engagementScore": 1423
+      "engagementScore": 1424
+    },
+    {
+      "title": "Harness, Scaffold, and the AI Agent Terms Worth Getting Right",
+      "url": "https://huggingface.co/blog/agent-glossary",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.67,
+      "publishedAt": "2026-05-25T00:00:00.000Z",
+      "summary": "",
+      "tags": [
+        "Agents"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "Project Glasswing: An Initial Update",
       "url": "https://www.anthropic.com/research/glasswing-initial-update",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.6736,
+      "score": 0.6427,
       "publishedAt": "2026-05-22T19:31:45.000Z",
       "summary": "",
       "tags": [
         "AI"
       ],
-      "engagementScore": 551
+      "engagementScore": 552
+    },
+    {
+      "title": "A Swimmer Broke a World Record at the Enhanced Games",
+      "url": "https://www.wired.com/story/a-swimmer-broke-a-world-record-at-the-enhanced-games/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5728,
+      "publishedAt": "2026-05-25T17:32:55.000Z",
+      "summary": "Dozens of juiced athletes competed at the Enhanced Games in Las Vegas. Most won’t admit what drugs they used.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Memorial Day Tech Deals: Sony, Apple, Anker, and More",
+      "url": "https://www.wired.com/story/memorial-day-tech-deals-2026-2/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.572,
+      "publishedAt": "2026-05-25T17:23:29.000Z",
+      "summary": "Lots of our most-recommended headphones, power banks, and other gadgets are on sale for Memorial Day.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Best Memorial Day Mattress Deals: Helix, Saatva (2026)",
+      "url": "https://www.wired.com/story/memorial-day-mattress-deals-2026-2/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5717,
+      "publishedAt": "2026-05-25T17:20:48.000Z",
+      "summary": "It’s one of the best times of the year to buy a mattress, and deals on our favorite models end tonight.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "Pope Leo calls for being ‘profoundly human’ in the age of AI",
       "url": "https://www.theverge.com/news/936945/pope-leo-letter-encyclical-ai-anthropic-labor-warfare",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5837,
+      "score": 0.5596,
       "publishedAt": "2026-05-25T15:05:07.000Z",
       "summary": "Pope Leo XIV warned of the risks of AI and unconstrained technological power in his first major papal document released on Monday. Magnifica Humanitas is the pope's manifesto on \"safeguarding the human person in the time of artificial intelligence,\" in which he discusses the dangers of AI-powered wa",
       "tags": [
@@ -178,11 +256,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Magnifica Humanitas",
+      "url": "https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html",
+      "feedSource": "Hacker News",
+      "source": "vatican.va",
+      "score": 0.5547,
+      "publishedAt": "2026-05-25T10:11:29.000Z",
+      "summary": "ENCYCLICAL LETTER MAGNIFICA HUMANITAS OF HIS HOLINESS POPE LEO XIV ON SAFEGUARDING THE HUMAN PERSON IN THE TIME OF ARTIFICIAL INTELLIGENCE [ Multimedia ] ___________________________",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 1037
+    },
+    {
       "title": "Best Memorial Day Deals: Garmin, Birdfy, Branch (2026)",
       "url": "https://www.wired.com/story/best-memorial-day-deals-2026-2/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.576,
+      "score": 0.5519,
       "publishedAt": "2026-05-25T13:38:18.000Z",
       "summary": "Memorial Day isn’t until Monday, but sales on our favorite gear are going on all weekend.",
       "tags": [
@@ -195,7 +286,7 @@
       "url": "https://www.wired.com/story/these-privacy-conscious-gay-dating-apps-want-to-dethrone-grindr/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5645,
+      "score": 0.5405,
       "publishedAt": "2026-05-25T11:30:00.000Z",
       "summary": "As public backlash against Big Dating mounts, a batch of new gay hookup apps offer community-powered alternatives.",
       "tags": [
@@ -208,7 +299,7 @@
       "url": "https://www.wired.com/story/i-stopped-tolerating-crossbody-pain-thanks-to-this-lululemon-duffel/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5619,
+      "score": 0.5379,
       "publishedAt": "2026-05-25T11:01:00.000Z",
       "summary": "Say what you will about the brand's leggings, but you'll never convince me to hate this marvel of a carryall.",
       "tags": [
@@ -221,7 +312,7 @@
       "url": "https://www.wired.com/story/use-tiny11-to-rescue-a-computer-running-windows-10/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5619,
+      "score": 0.5378,
       "publishedAt": "2026-05-25T11:00:00.000Z",
       "summary": "If you can’t—or don’t want to—upgrade to full Windows 11, consider this lightweight version of Microsoft’s operating system that works on a wide range of computers.",
       "tags": [
@@ -234,7 +325,7 @@
       "url": "https://www.wired.com/story/the-ai-era-is-creating-a-bug-hunting-arms-race/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5592,
+      "score": 0.5351,
       "publishedAt": "2026-05-25T10:30:00.000Z",
       "summary": "As attackers ramp up their AI exploit development, the search for software vulnerabilities is changing rapidly.",
       "tags": [
@@ -243,69 +334,44 @@
       "engagementScore": 0
     },
     {
-      "title": "A Probe Took Incredible Pictures of Mars on Its Way to a Far-Off Asteroid",
-      "url": "https://www.wired.com/story/a-probe-took-incredible-pictures-of-mars-on-its-way-to-a-far-off-asteroid/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5512,
-      "publishedAt": "2026-05-25T09:00:00.000Z",
-      "summary": "NASA took advantage of the recent close approach of the Psyche probe to Mars to calibrate its observation instruments.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Magnifica Humanitas (Encyclical Letter)",
-      "url": "https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html",
+      "title": "Uber’s COO says it’s getting harder to justify money spent on tokenmaxxing",
+      "url": "https://www.businessinsider.com/uber-coo-andrew-macdonald-ai-token-spending-harder-justify-2026-5",
       "feedSource": "Hacker News",
-      "source": "vatican.va",
-      "score": 0.5445,
-      "publishedAt": "2026-05-25T10:11:29.000Z",
-      "summary": "ENCYCLICAL LETTER MAGNIFICA HUMANITAS OF HIS HOLINESS POPE LEO XIV ON SAFEGUARDING THE HUMAN PERSON IN THE TIME OF ARTIFICIAL INTELLIGENCE [ Multimedia ] ___________________________",
+      "source": "businessinsider.com",
+      "score": 0.5191,
+      "publishedAt": "2026-05-25T16:44:49.000Z",
+      "summary": "Operations chief Andrew Macdonald said he’s not seeing proportional productivity gains from increasing AI costs within Uber.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 427
+      "engagementScore": 161
     },
     {
-      "title": "30% Off Canon Promo Codes | May 2026",
-      "url": "https://www.wired.com/story/canon-promo-code/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5298,
-      "publishedAt": "2026-05-25T05:00:00.000Z",
-      "summary": "Save an extra 10% or 30% with Canon coupon codes, plus up to $1,600 on cameras, printers, and more this May.",
+      "title": "Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks",
+      "url": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
+      "feedSource": "Hacker News",
+      "source": "krebsonsecurity.com",
+      "score": 0.5153,
+      "publishedAt": "2026-05-25T13:56:39.000Z",
+      "summary": "Authorities in the Netherlands have arrested the co-owners of two related Internet hosting companies for operating IT infrastructure used by Russia to carry out cyberattacks, influence operations and disinformation campaigns inside the European Union. The two men were the focus…",
       "tags": [
+        "AI"
+      ],
+      "engagementScore": 211
+    },
+    {
+      "title": "How Virgin Atlantic ships faster with Codex",
+      "url": "https://openai.com/index/virgin-atlantic",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.5124,
+      "publishedAt": "2026-05-22T00:00:00.000Z",
+      "summary": "How Virgin Atlantic used Codex to ship its revamped mobile app on a fixed holiday travel deadline, reaching near-total unit test coverage and zero P1 defects.",
+      "tags": [
+        "RAG",
         "Dev Tools"
       ],
       "engagementScore": 0
-    },
-    {
-      "title": "HP Discount Codes: 60% Off May 2026",
-      "url": "https://www.wired.com/story/hp-coupon-code/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5298,
-      "publishedAt": "2026-05-25T05:00:00.000Z",
-      "summary": "Save up to 60%, plus an extra 20% with HP promo codes for laptops, printers, PCs, and more tech.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Pope Leo XIV says AI must serve humanity, not the powerful few",
-      "url": "https://religionnews.com/2026/05/25/in-his-first-encyclical-pope-leo-xiv-says-ai-must-serve-humanity-not-the-powerful-few/",
-      "feedSource": "Hacker News",
-      "source": "religionnews.com",
-      "score": 0.5271,
-      "publishedAt": "2026-05-25T13:17:58.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 174
     },
     {
       "title": "OpenAI named a Leader in enterprise coding agents by Gartner",
@@ -318,20 +384,6 @@
       "tags": [
         "LLM",
         "Agents",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "How Virgin Atlantic ships faster with Codex",
-      "url": "https://openai.com/index/virgin-atlantic",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5124,
-      "publishedAt": "2026-05-22T00:00:00.000Z",
-      "summary": "How Virgin Atlantic used Codex to ship its revamped mobile app on a fixed holiday travel deadline, reaching near-total unit test coverage and zero P1 defects.",
-      "tags": [
-        "RAG",
         "Dev Tools"
       ],
       "engagementScore": 0
@@ -363,20 +415,6 @@
       "engagementScore": 0
     },
     {
-      "title": "The next phase of OpenAI’s Education for Countries",
-      "url": "https://openai.com/index/the-next-phase-of-education-for-countries",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5124,
-      "publishedAt": "2026-05-20T00:00:00.000Z",
-      "summary": "OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.",
-      "tags": [
-        "LLM",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "How Ramp engineers accelerate code review with Codex",
       "url": "https://openai.com/index/ramp",
       "feedSource": "OpenAI",
@@ -384,6 +422,20 @@
       "score": 0.5124,
       "publishedAt": "2026-05-20T00:00:00.000Z",
       "summary": "How Ramp engineers use Codex with GPT-5.5 to review code and ship improvements, allowing them to get substantive feedback in minutes instead of hours.",
+      "tags": [
+        "LLM",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The next phase of OpenAI’s Education for Countries",
+      "url": "https://openai.com/index/the-next-phase-of-education-for-countries",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.5124,
+      "publishedAt": "2026-05-20T00:00:00.000Z",
+      "summary": "OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.",
       "tags": [
         "LLM",
         "Dev Tools"
@@ -404,57 +456,17 @@
       "engagementScore": 0
     },
     {
-      "title": "Advancing content provenance for a safer, more transparent AI ecosystem",
-      "url": "https://openai.com/index/advancing-content-provenance",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5124,
-      "publishedAt": "2026-05-19T10:45:00.000Z",
-      "summary": "OpenAI advances AI content provenance with Content Credentials, SynthID, and a verification tool to help people identify and trust AI-generated media.",
-      "tags": [
-        "LLM",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "The Eternal Sloptember",
       "url": "https://geohot.github.io//blog/jekyll/update/2026/05/24/the-eternal-sloptember.html",
       "feedSource": "Hacker News",
       "source": "geohot.github.io",
-      "score": 0.5108,
+      "score": 0.4914,
       "publishedAt": "2026-05-25T03:47:24.000Z",
       "summary": "I’m calling it now, the adoption of AI agents into software development will be one of the most costly mistakes in the field’s history. Agents cannot program, and it’s taking longer and longer to realize that they can’t. They are a highly sophisticated statistical model designed to mimic the distrib",
       "tags": [
         "Agents"
       ],
-      "engagementScore": 398
-    },
-    {
-      "title": "Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks",
-      "url": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
-      "feedSource": "Hacker News",
-      "source": "krebsonsecurity.com",
-      "score": 0.4951,
-      "publishedAt": "2026-05-25T13:56:39.000Z",
-      "summary": "Authorities in the Netherlands have arrested the co-owners of two related Internet hosting companies for operating IT infrastructure used by Russia to carry out cyberattacks, influence operations and disinformation campaigns inside the European Union. The two men were the focus…",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 66
-    },
-    {
-      "title": "Jira Is Turing-Complete",
-      "url": "https://seriot.ch/computation/jira.html",
-      "feedSource": "Hacker News",
-      "source": "seriot.ch",
-      "score": 0.4937,
-      "publishedAt": "2026-05-25T03:54:14.000Z",
-      "summary": "Building a Minsky Machine in Atlassian Automation\n22nd May 2026",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 244
+      "engagementScore": 426
     },
     {
       "title": "We’re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks",
@@ -515,7 +527,7 @@
       "source": "deepmind.google",
       "score": 0.4222,
       "publishedAt": "2026-05-17T19:43:45.000Z",
-      "summary": "Introducing Google Antigravity 2.0",
+      "summary": "",
       "tags": [
         "AI"
       ],
@@ -567,7 +579,7 @@
       "url": "https://huggingface.co/blog/nvidia/nemotron-labs-diffusion",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.3954,
+      "score": 0.3669,
       "publishedAt": "2026-05-23T00:02:03.000Z",
       "summary": "",
       "tags": [
@@ -581,7 +593,7 @@
       "url": "https://huggingface.co/blog/Dharma-AI/specialization-beats-scale",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.341,
+      "score": 0.3401,
       "publishedAt": "2026-05-22T15:25:59.000Z",
       "summary": "",
       "tags": [
@@ -655,24 +667,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Unlocking asynchronicity in continuous batching",
-      "url": "https://huggingface.co/blog/continuous_async",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.3401,
-      "publishedAt": "2026-05-14T00:00:00.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Catch up on the Dialogues stage at Google I/O 2026.",
       "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.2818,
+      "score": 0.2659,
       "publishedAt": "2026-05-22T18:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IO26_Dialogues_3z680sK.max-600x600.format-webp.webp\"&gt;A recap of the 2026 I/O Dialogues, where leaders discuss the future of AI, quantum computing, robotics and creativity.",
       "tags": [
