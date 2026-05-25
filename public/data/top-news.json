@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-25T04:13:22.510Z",
+  "updatedAt": "2026-05-25T10:17:32.142Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,7 +12,7 @@
       "url": "https://arxiv.org/abs/2605.22866",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.9107,
+      "score": 0.8694,
       "publishedAt": "2026-05-25T04:00:00.000Z",
       "summary": "arXiv:2605.22866v1 Announce Type: new \nAbstract: Compound AI systems route tasks through hierarchies of specialised components. Attribution is dominated by Shapley-based methods (SHAP), which decompose a coalition value function into per-component marginal contributions and require evaluation of the",
       "tags": [
@@ -26,7 +26,7 @@
       "url": "https://arxiv.org/abs/2605.22874",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.9107,
+      "score": 0.8694,
       "publishedAt": "2026-05-25T04:00:00.000Z",
       "summary": "arXiv:2605.22874v1 Announce Type: new \nAbstract: Effectively translating between natural language (NL) and formal logics like Linear Temporal Logic (LTL) requires expertise that limits formal verification's reach in safety-critical development. Template-based approaches sacrifice expressiveness for",
       "tags": [
@@ -40,7 +40,7 @@
       "url": "https://arxiv.org/abs/2605.22875",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.9107,
+      "score": 0.8694,
       "publishedAt": "2026-05-25T04:00:00.000Z",
       "summary": "arXiv:2605.22875v1 Announce Type: new \nAbstract: We present $\\textbf{Research Math Agents (RMA)}$, an agentic framework for automated reasoning on research-level mathematical problems. Unlike prior studies centered on competition mathematics or formal theorem proving, RMA targets research-level math",
       "tags": [
@@ -54,7 +54,7 @@
       "url": "https://arxiv.org/abs/2605.22878",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.9107,
+      "score": 0.8694,
       "publishedAt": "2026-05-25T04:00:00.000Z",
       "summary": "arXiv:2605.22878v1 Announce Type: new \nAbstract: The exponential growth of global academic output has confronted researchers and AI agents with an unprecedented ``information explosion,'' where fragmented and unstructured knowledge organization impedes deep interdisciplinary integration. Current aca",
       "tags": [
@@ -69,7 +69,7 @@
       "url": "https://arxiv.org/abs/2605.22883",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.9107,
+      "score": 0.8694,
       "publishedAt": "2026-05-25T04:00:00.000Z",
       "summary": "arXiv:2605.22883v1 Announce Type: new \nAbstract: Current AI energy benchmarks measure consumption at the granularity of a single model invocation or training run. For classical single-turn workloads this unit remains coherent. For agentic systems - where a single user goal may trigger multi-step orc",
       "tags": [
@@ -84,7 +84,7 @@
       "url": "https://arxiv.org/abs/2605.22885",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.9107,
+      "score": 0.8694,
       "publishedAt": "2026-05-25T04:00:00.000Z",
       "summary": "arXiv:2605.22885v1 Announce Type: new \nAbstract: Formal mathematics libraries are rapidly expanding, creating a growing need to refactor verified proofs for maintainability and to improve training data quality for neural provers. However, scalable proof optimization is hindered by heterogeneous and",
       "tags": [
@@ -98,7 +98,7 @@
       "url": "https://arxiv.org/abs/2605.22900",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.9107,
+      "score": 0.8694,
       "publishedAt": "2026-05-25T04:00:00.000Z",
       "summary": "arXiv:2605.22900v1 Announce Type: new \nAbstract: Mediative Fuzzy Logic was conceived as a practical scheme for reconciling hesitant or conflicting assessments in fuzzy control and decision-making. However, its logical and semantic foundations remain underdeveloped, especially beyond operational type",
       "tags": [
@@ -111,7 +111,7 @@
       "url": "https://arxiv.org/abs/2605.22905",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.9107,
+      "score": 0.8694,
       "publishedAt": "2026-05-25T04:00:00.000Z",
       "summary": "arXiv:2605.22905v1 Announce Type: new \nAbstract: Self-evolving agents should not train on examples they cannot justify. Data-free self-evolving search agents offer a scalable route to systems that generate their own questions, answer them, and improve from their own feedback without human annotation",
       "tags": [
@@ -125,7 +125,7 @@
       "url": "https://arxiv.org/abs/2605.06445",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8769,
+      "score": 0.8465,
       "publishedAt": "2026-05-24T12:55:53.000Z",
       "summary": "Large Language Model (LLM) agents demonstrate strong performance in autonomous code generation under loose specifications. However, production-grade software requires strict adherence to structural constraints, such as architectural patterns, databases, and object-relational mappings. Existing bench",
       "tags": [
@@ -135,20 +135,20 @@
         "Dev Tools",
         "ML Infra"
       ],
-      "engagementScore": 194
+      "engagementScore": 241
     },
     {
       "title": "Project Glasswing: An Initial Update",
       "url": "https://www.anthropic.com/research/glasswing-initial-update",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.7537,
+      "score": 0.7097,
       "publishedAt": "2026-05-22T19:31:45.000Z",
       "summary": "",
       "tags": [
         "AI"
       ],
-      "engagementScore": 545
+      "engagementScore": 548
     },
     {
       "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
@@ -157,37 +157,89 @@
       "source": "openai.com",
       "score": 0.6941,
       "publishedAt": "2026-05-20T19:05:30.000Z",
-      "summary": "",
+      "summary": "Reload to try again, or go back.",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 1421
+      "engagementScore": 1422
     },
     {
-      "title": "Memorial Day Tech Deals: Sony, Anker, Beats (2026)",
-      "url": "https://www.wired.com/story/memorial-day-tech-deals-2026-1/",
+      "title": "A Probe Took Incredible Pictures of Mars on Its Way to a Far-Off Asteroid",
+      "url": "https://www.wired.com/story/a-probe-took-incredible-pictures-of-mars-on-its-way-to-a-far-off-asteroid/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.519,
-      "publishedAt": "2026-05-24T15:55:15.000Z",
-      "summary": "Lots of our most-recommended headphones, power banks, and other gadgets are on sale for Memorial Day.",
+      "score": 0.5778,
+      "publishedAt": "2026-05-25T09:00:00.000Z",
+      "summary": "NASA took advantage of the recent close approach of the Psyche probe to Mars to calibrate its observation instruments.",
       "tags": [
         "AI"
       ],
       "engagementScore": 0
     },
     {
-      "title": "Best Memorial Day Mattress Deals: Helix, Saatva (2026)",
-      "url": "https://www.wired.com/story/memorial-day-mattress-deals-2026-1/",
+      "title": "30% Off Canon Promo Codes | May 2026",
+      "url": "https://www.wired.com/story/canon-promo-code/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5185,
-      "publishedAt": "2026-05-24T15:50:18.000Z",
-      "summary": "It’s one of the best times of the year to buy a mattress, and deals on our favorite models are in full swing.",
+      "score": 0.5564,
+      "publishedAt": "2026-05-25T05:00:00.000Z",
+      "summary": "Save an extra 10% or 30% with Canon coupon codes, plus up to $1,600 on cameras, printers, and more this May.",
       "tags": [
-        "AI"
+        "Dev Tools"
       ],
       "engagementScore": 0
+    },
+    {
+      "title": "HP Discount Codes: 60% Off May 2026",
+      "url": "https://www.wired.com/story/hp-coupon-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5564,
+      "publishedAt": "2026-05-25T05:00:00.000Z",
+      "summary": "Save up to 60%, plus an extra 20% with HP promo codes for laptops, printers, PCs, and more tech.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Design Within Reach Promo Codes: 30% Off | 2026",
+      "url": "https://www.wired.com/story/design-within-reach-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5564,
+      "publishedAt": "2026-05-25T05:00:00.000Z",
+      "summary": "Get 30% off, 20% off, and free shipping with our Design Within Reach coupon codes, plus up to 50% off furniture with these special discounts.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Shark Promo Codes for This May",
+      "url": "https://www.wired.com/story/shark-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5564,
+      "publishedAt": "2026-05-25T05:00:00.000Z",
+      "summary": "Shark makes some seriously powerful vacuums, from handheld vacs to steam mops. Don’t miss $100 off, 10% off, and more limited-time coupons from WIRED.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Eternal Sloptember",
+      "url": "https://geohot.github.io//blog/jekyll/update/2026/05/24/the-eternal-sloptember.html",
+      "feedSource": "Hacker News",
+      "source": "geohot.github.io",
+      "score": 0.5283,
+      "publishedAt": "2026-05-25T03:47:24.000Z",
+      "summary": "I’m calling it now, the adoption of AI agents into software development will be one of the most costly mistakes in the field’s history. Agents cannot program, and it’s taking longer and longer to realize that they can’t. They are a highly sophisticated statistical model designed to mimic the distrib",
+      "tags": [
+        "Agents"
+      ],
+      "engagementScore": 330
     },
     {
       "title": "OpenAI named a Leader in enterprise coding agents by Gartner",
@@ -300,107 +352,39 @@
       "engagementScore": 0
     },
     {
-      "title": "Memory has grown to nearly two-thirds of AI chip component costs",
-      "url": "https://epoch.ai/data-insights/ai-chip-component-cost-shares",
+      "title": "Jira Is Turing-Complete",
+      "url": "https://seriot.ch/computation/jira.html",
       "feedSource": "Hacker News",
-      "source": "epoch.ai",
-      "score": 0.5032,
-      "publishedAt": "2026-05-24T16:31:29.000Z",
-      "summary": "High-bandwidth memory (HBM) accounts for 63% of AI chip component costs, up from 52% in Q1 2024. Epoch AI’s breakdown of component cost shifts across major chip designers.",
+      "source": "seriot.ch",
+      "score": 0.5063,
+      "publishedAt": "2026-05-25T03:54:14.000Z",
+      "summary": "Building a Minsky Machine in Atlassian Automation\n22nd May 2026",
       "tags": [
         "AI"
       ],
-      "engagementScore": 332
+      "engagementScore": 177
     },
     {
-      "title": "Claude is not your architect. Stop letting it pretend",
-      "url": "https://www.hollandtech.net/claude-is-not-your-architect/",
-      "feedSource": "Hacker News",
-      "source": "hollandtech.net",
-      "score": 0.5002,
-      "publishedAt": "2026-05-24T18:28:11.000Z",
-      "summary": "Somewhere between ‘ask Claude for a quick opinion’ and ‘Claude is writing our Jira tickets,’ we lost the plot. AI agents are brilliant implementers. They’re also confidently wrong about every decision that matters. And when it all falls over, they won’t be the ones carrying the bag.",
-      "tags": [
-        "LLM",
-        "Agents"
-      ],
-      "engagementScore": 235
-    },
-    {
-      "title": "DeepSeek reasonix, DeepSeek native coding agent with high caching and low cost",
-      "url": "https://esengine.github.io/DeepSeek-Reasonix/",
-      "feedSource": "Hacker News",
-      "source": "esengine.github.io",
-      "score": 0.4996,
-      "publishedAt": "2026-05-24T13:02:06.000Z",
-      "summary": "Open-source AI coding agent for your terminal. Engineered around DeepSeek’s prefix-cache. MCP first-class · plan mode · MIT.",
-      "tags": [
-        "Agents",
-        "Open Source",
-        "Dev Tools"
-      ],
-      "engagementScore": 480
-    },
-    {
-      "title": "Topo Designs Rover Trail Pack Is the Best Backpack I’ve Ever Used",
-      "url": "https://www.wired.com/story/topo-designs-rover-trail-pack/",
+      "title": "Memorial Day Tech Deals: Sony, Anker, Beats (2026)",
+      "url": "https://www.wired.com/story/memorial-day-tech-deals-2026-1/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4927,
-      "publishedAt": "2026-05-24T11:01:00.000Z",
-      "summary": "Unsurprisingly, the Denver gorpcore brand that makes many of the best bags in the world has delivered a perfect backpack.",
+      "score": 0.4865,
+      "publishedAt": "2026-05-24T15:55:15.000Z",
+      "summary": "Lots of our most-recommended headphones, power banks, and other gadgets are on sale for Memorial Day.",
       "tags": [
         "AI"
       ],
       "engagementScore": 0
     },
     {
-      "title": "The Best Browser Extensions to Get More Out of YouTube",
-      "url": "https://www.wired.com/story/the-best-browser-extensions-to-get-more-out-of-youtube/",
+      "title": "Best Memorial Day Mattress Deals: Helix, Saatva (2026)",
+      "url": "https://www.wired.com/story/memorial-day-mattress-deals-2026-1/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4927,
-      "publishedAt": "2026-05-24T11:00:00.000Z",
-      "summary": "You can significantly improve the YouTube experience with these browser add-ons.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "These Robots Are Making Meals for a Nonprofit in San Francisco’s Tenderloin",
-      "url": "https://www.wired.com/story/these-robots-are-making-meals-for-a-nonprofit-in-san-franciscos-tenderloin/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.49,
-      "publishedAt": "2026-05-24T10:30:00.000Z",
-      "summary": "A nonprofit in the city’s most troubled district has turned to robotic meal prep tech to make up for a dearth of human volunteers.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "14 New Tools for Taking on the Great Outdoors Properly",
-      "url": "https://www.wired.com/story/14-new-tools-for-taking-on-the-great-outdoors-properly/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4846,
-      "publishedAt": "2026-05-24T09:30:00.000Z",
-      "summary": "It’s time to prep your kit ahead of the summer season. These tools will do the job.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Why Garlic Repels Mosquitoes and Keeps Them From Breeding",
-      "url": "https://www.wired.com/story/why-garlic-repels-mosquitoes-and-keeps-them-from-breeding/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.482,
-      "publishedAt": "2026-05-24T09:00:00.000Z",
-      "summary": "Garlic, as your grandmother may have told you, repels mosquitoes; it also completely blocks them from mating and laying eggs. Diallyl disulfide, it turns out, deserves the credit.",
+      "score": 0.4861,
+      "publishedAt": "2026-05-24T15:50:18.000Z",
+      "summary": "It’s one of the best times of the year to buy a mattress, and deals on our favorite models are in full swing.",
       "tags": [
         "AI"
       ],
@@ -411,7 +395,7 @@
       "url": "https://arxiv.org/abs/2605.12460",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.4795,
+      "score": 0.4799,
       "publishedAt": "2026-05-21T19:37:26.000Z",
       "summary": "The continued improvements in language model capability have unlocked their widespread use as drivers of autonomous agents, for example in coding or computer use applications. However, the core of these systems has not changed much since early instruction-tuned models like ChatGPT. Even advanced AI",
       "tags": [
@@ -420,40 +404,55 @@
         "Research",
         "Dev Tools"
       ],
-      "engagementScore": 155
+      "engagementScore": 156
     },
     {
-      "title": "A Fundamental Principle of Aeronautical Engineering Has Been Overturned",
-      "url": "https://www.wired.com/story/a-fundamental-principle-of-aeronautical-engineering-has-been-overturned/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4793,
-      "publishedAt": "2026-05-24T08:30:00.000Z",
-      "summary": "It’s long been accepted that the smoother the surface, the lower the aerodynamic drag. That turns out not always to be the case.",
-      "tags": [
-        "RAG"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "'AI washing': firms are scrambling to rebrand themselves as tech-focused",
-      "url": "https://www.theguardian.com/technology/2026/may/24/ai-washing-pr-firms-scrambling-rebrand",
+      "title": "Memory has grown to nearly two-thirds of AI chip component costs",
+      "url": "https://epoch.ai/data-insights/ai-chip-component-cost-shares",
       "feedSource": "Hacker News",
-      "source": "theguardian.com",
-      "score": 0.4695,
-      "publishedAt": "2026-05-24T15:21:28.000Z",
-      "summary": "PR executives say UK companies are forcing them to present ordinary automation as artificial intelligence",
+      "source": "epoch.ai",
+      "score": 0.4793,
+      "publishedAt": "2026-05-24T16:31:29.000Z",
+      "summary": "High-bandwidth memory (HBM) accounts for 63% of AI chip component costs, up from 52% in Q1 2024. Epoch AI’s breakdown of component cost shifts across major chip designers.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 153
+      "engagementScore": 387
+    },
+    {
+      "title": "DeepSeek reasonix, DeepSeek native coding agent with high caching and low cost",
+      "url": "https://esengine.github.io/DeepSeek-Reasonix/",
+      "feedSource": "Hacker News",
+      "source": "esengine.github.io",
+      "score": 0.4763,
+      "publishedAt": "2026-05-24T13:02:06.000Z",
+      "summary": "Open-source AI coding agent for your terminal. Engineered around DeepSeek’s prefix-cache. MCP first-class · plan mode · MIT.",
+      "tags": [
+        "Agents",
+        "Open Source",
+        "Dev Tools"
+      ],
+      "engagementScore": 569
+    },
+    {
+      "title": "Topo Designs Rover Trail Pack Is the Best Backpack I’ve Ever Used",
+      "url": "https://www.wired.com/story/topo-designs-rover-trail-pack/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4603,
+      "publishedAt": "2026-05-24T11:01:00.000Z",
+      "summary": "Unsurprisingly, the Denver gorpcore brand that makes many of the best bags in the world has delivered a perfect backpack.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "Towards Speed-of-Light Text Generation with Nemotron-Labs Diffusion Language Models",
       "url": "https://huggingface.co/blog/nvidia/nemotron-labs-diffusion",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.4653,
+      "score": 0.4269,
       "publishedAt": "2026-05-23T00:02:03.000Z",
       "summary": "",
       "tags": [
@@ -573,26 +572,11 @@
       "url": "https://huggingface.co/blog/Dharma-AI/specialization-beats-scale",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.4109,
+      "score": 0.3725,
       "publishedAt": "2026-05-22T15:25:59.000Z",
       "summary": "",
       "tags": [
         "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Catch up on the Dialogues stage at Google I/O 2026.",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap/",
-      "feedSource": "Google AI",
-      "source": "blog.google",
-      "score": 0.3463,
-      "publishedAt": "2026-05-22T18:00:00.000Z",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IO26_Dialogues_3z680sK.max-600x600.format-webp.webp\"&gt;A recap of the 2026 I/O Dialogues, where leaders discuss the future of AI, quantum computing, robotics and creativity.",
-      "tags": [
-        "RAG",
-        "Vision",
-        "Dev Tools"
       ],
       "engagementScore": 0
     },
@@ -675,11 +659,26 @@
       "engagementScore": 0
     },
     {
+      "title": "Catch up on the Dialogues stage at Google I/O 2026.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap/",
+      "feedSource": "Google AI",
+      "source": "blog.google",
+      "score": 0.3109,
+      "publishedAt": "2026-05-22T18:00:00.000Z",
+      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IO26_Dialogues_3z680sK.max-600x600.format-webp.webp\"&gt;A recap of the 2026 I/O Dialogues, where leaders discuss the future of AI, quantum computing, robotics and creativity.",
+      "tags": [
+        "RAG",
+        "Vision",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "The Download: coding&#8217;s future, the &#8216;Steroid Olympics,&#8217; and AI-driven science",
       "url": "https://www.technologyreview.com/2026/05/22/1137845/the-download-coding-future-steroid-olympics-ai-science/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.3122,
+      "score": 0.2768,
       "publishedAt": "2026-05-22T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Anthropic’s Code with Claude showed off coding’s future—whether you like it or not At Anthropic’s developer event in London this week, Code with Claud",
       "tags": [
