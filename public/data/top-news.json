@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-27T20:26:51.552Z",
+  "updatedAt": "2026-05-27T22:44:15.124Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,11 +8,25 @@
   ],
   "items": [
     {
+      "title": "Cisco and OpenAI redefine enterprise engineering with Codex",
+      "url": "https://openai.com/index/cisco",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.9518,
+      "publishedAt": "2026-05-27T11:00:00.000Z",
+      "summary": "Cisco and OpenAI are redefining enterprise engineering with Codex, helping Cisco scale AI-native development, accelerate AI Defense work, and automate defect remediation.",
+      "tags": [
+        "LLM",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Building self-improving tax agents with Codex",
       "url": "https://openai.com/index/building-self-improving-tax-agents-with-codex",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9393,
+      "score": 0.9226,
       "publishedAt": "2026-05-27T07:00:00.000Z",
       "summary": "See how OpenAI, Thrive, and Crete built a self-improving tax agent with Codex, automating filings, improving accuracy, and accelerating workflows.",
       "tags": [
@@ -27,20 +41,20 @@
       "url": "https://arxiv.org/abs/2605.22391",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.9219,
+      "score": 0.9106,
       "publishedAt": "2026-05-27T08:14:40.000Z",
       "summary": "We present Epicure, a family of three sibling skip-gram ingredient embeddings retrained from scratch on a multilingual recipe corpus. We aggregate 4.14M recipes from 11 sources spanning seven languages, English, Chinese, Russian, Vietnamese, Spanish, Turkish, Indonesian, German, and Indian-English,",
       "tags": [
         "RAG"
       ],
-      "engagementScore": 312
+      "engagementScore": 339
     },
     {
       "title": "Warp’s big bet on building open source with GPT-5.5",
       "url": "https://openai.com/index/warp",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8883,
+      "score": 0.8716,
       "publishedAt": "2026-05-27T00:00:00.000Z",
       "summary": "Warp uses GPT-5.5 and OpenAI models to coordinate coding agents across local, cloud, and open-source development workflows.",
       "tags": [
@@ -56,7 +70,7 @@
       "url": "https://openai.com/index/election-safeguards-2026",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8883,
+      "score": 0.8716,
       "publishedAt": "2026-05-27T00:00:00.000Z",
       "summary": "Ahead of global elections, we’re helping people access information, supporting cyber defenders, and increasing AI transparency",
       "tags": [
@@ -69,34 +83,34 @@
       "url": "https://arxiv.org/abs/2605.21779",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8564,
+      "score": 0.8641,
       "publishedAt": "2026-05-27T17:42:24.000Z",
       "summary": "Software vulnerabilities pose critical security threats, with nearly 50,000 CVEs reported in 2025. While Large Language Models (LLMs) show promise for automated vulnerability detection, three key challenges remain. First, LLM-generated vulnerability reports suffer from high false positive rates and",
       "tags": [
         "LLM",
         "Agents"
       ],
-      "engagementScore": 24
+      "engagementScore": 38
     },
     {
       "title": "Atomically precise mechanosynthesis of carbon structures on hydrogenated Silicon",
       "url": "https://arxiv.org/abs/2605.27250",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8477,
+      "score": 0.8391,
       "publishedAt": "2026-05-27T11:25:30.000Z",
       "summary": "The ability to build atomically precise structures on surfaces with complete control over both atomic placement and chemical bonding remains a central challenge in nanoscale fabrication. Here, we demonstrate simultaneous spatial and chemical control over the mechanosynthetic fabrication of carbon st",
       "tags": [
         "AI"
       ],
-      "engagementScore": 47
+      "engagementScore": 54
     },
     {
       "title": "BrickAnything: Geometry-Conditioned Buildable Brick Generation with Structure-Aware Tokenization",
       "url": "https://arxiv.org/abs/2605.26182",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8003,
+      "score": 0.7847,
       "publishedAt": "2026-05-27T04:00:00.000Z",
       "summary": "arXiv:2605.26182v1 Announce Type: new \nAbstract: Generating physically buildable brick structures from 3D shapes requires more than geometric reconstruction: the output must also satisfy discrete part constraints and structural stability. Existing brick generation methods either rely on heuristic op",
       "tags": [
@@ -109,7 +123,7 @@
       "url": "https://arxiv.org/abs/2605.26242",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8003,
+      "score": 0.7847,
       "publishedAt": "2026-05-27T04:00:00.000Z",
       "summary": "arXiv:2605.26242v1 Announce Type: new \nAbstract: Can large language models detect and report their own internal states? A number of studies have argued that the answer to this question is yes. We argue, based on lessons from human metacognition research, that this conclusion may be premature: to be",
       "tags": [
@@ -123,7 +137,7 @@
       "url": "https://arxiv.org/abs/2605.26252",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8003,
+      "score": 0.7847,
       "publishedAt": "2026-05-27T04:00:00.000Z",
       "summary": "arXiv:2605.26252v1 Announce Type: new \nAbstract: Long-running AI agents need persistent memory. Memory supports learning across sessions, reduces repeated context injection, and enables auditing of past decisions. Current agent memory systems and database paradigms treat memory as storage. They loca",
       "tags": [
@@ -138,7 +152,7 @@
       "url": "https://arxiv.org/abs/2605.26256",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8003,
+      "score": 0.7847,
       "publishedAt": "2026-05-27T04:00:00.000Z",
       "summary": "arXiv:2605.26256v1 Announce Type: new \nAbstract: Multimodal large language model (MLLM)-based embodied agents have shown strong potential for solving complex tasks in physical environments. However, personalized assistance requires more than following generic instruction or recognizing object catego",
       "tags": [
@@ -154,7 +168,7 @@
       "url": "https://arxiv.org/abs/2605.26279",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8003,
+      "score": 0.7847,
       "publishedAt": "2026-05-27T04:00:00.000Z",
       "summary": "arXiv:2605.26279v1 Announce Type: new \nAbstract: Constraint Acquisition (CA) and related research on the validation and enhancement of Mathematical Programming (MP) models from domain knowledge artifacts are currently limited by inadequate benchmarks. This deficiency impedes reproducibility and cros",
       "tags": [
@@ -170,7 +184,7 @@
       "url": "https://arxiv.org/abs/2605.26302",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8003,
+      "score": 0.7847,
       "publishedAt": "2026-05-27T04:00:00.000Z",
       "summary": "arXiv:2605.26302v1 Announce Type: new \nAbstract: Long-lived AI agents are increasingly deployed as persistent operational systems, yet they are still evaluated like freshly initialized models. Day-one benchmarks miss a basic systems question: how long does an agent remain reliable after deployment?",
       "tags": [
@@ -185,7 +199,7 @@
       "url": "https://arxiv.org/abs/2605.26305",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8003,
+      "score": 0.7847,
       "publishedAt": "2026-05-27T04:00:00.000Z",
       "summary": "arXiv:2605.26305v1 Announce Type: new \nAbstract: This paper details two novel frameworks for developing autonomous, agentic AI in scientific workflows. Both systems leverage a hybrid Local Body, Remote Brain architecture via Google Colab, utilizing Python-based local orchestrators to invoke large la",
       "tags": [
@@ -200,7 +214,7 @@
       "url": "https://arxiv.org/abs/2605.26321",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8003,
+      "score": 0.7847,
       "publishedAt": "2026-05-27T04:00:00.000Z",
       "summary": "arXiv:2605.26321v1 Announce Type: new \nAbstract: AI agents are beginning to complete valuable, long-horizon business operations tasks, but training and evaluation environments for enterprise work still struggle to balance realism, verifiability, and scale. Environment and task creation frequently su",
       "tags": [
@@ -215,7 +229,7 @@
       "url": "https://arxiv.org/abs/2605.26099",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7882,
+      "score": 0.7728,
       "publishedAt": "2026-05-26T15:36:24.000Z",
       "summary": "Transformer-based large language models are increasingly used for long-horizon tasks; however, their attention mechanism scales poorly with context length. To handle this, we study a sleep-like consolidation mechanism in which a model periodically converts recent context into persistent fast weights",
       "tags": [
@@ -223,14 +237,14 @@
         "Research",
         "ML Infra"
       ],
-      "engagementScore": 208
+      "engagementScore": 209
     },
     {
       "title": "ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks — by Artificial Analysis and IBM",
       "url": "https://huggingface.co/blog/ibm-research/itbench-aa",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.7754,
+      "score": 0.761,
       "publishedAt": "2026-05-27T17:20:29.000Z",
       "summary": "",
       "tags": [
@@ -244,7 +258,7 @@
       "url": "https://huggingface.co/blog/local-reachy-mini-conversation",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6658,
+      "score": 0.6514,
       "publishedAt": "2026-05-27T00:00:00.000Z",
       "summary": "",
       "tags": [
@@ -257,7 +271,7 @@
       "url": "https://huggingface.co/blog/delta-weight-sync",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6658,
+      "score": 0.6514,
       "publishedAt": "2026-05-27T00:00:00.000Z",
       "summary": "",
       "tags": [
@@ -270,20 +284,20 @@
       "url": "https://techcrunch.com/2026/05/27/tech-ceos-are-apparently-suffering-from-ai-psychosis/",
       "feedSource": "Hacker News",
       "source": "techcrunch.com",
-      "score": 0.6402,
+      "score": 0.636,
       "publishedAt": "2026-05-27T15:20:47.000Z",
       "summary": "",
       "tags": [
         "AI"
       ],
-      "engagementScore": 399
+      "engagementScore": 489
     },
     {
       "title": "The Download: keeping up with AI, and the future of IVF",
       "url": "https://www.technologyreview.com/2026/05/27/1138048/the-download-ai-future-ivf-technology/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6376,
+      "score": 0.6242,
       "publishedAt": "2026-05-27T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Stay on top of what’s going on in AI this summer Here at MIT Technology Review, we understand exactly how relentless the pace of news from the world o",
       "tags": [
@@ -292,37 +306,50 @@
       "engagementScore": 0
     },
     {
-      "title": "Valve raises Steam Deck prices by more than $200",
+      "title": "Valve raises Steam Deck prices",
       "url": "https://www.theverge.com/games/938340/valve-steam-deck-price-increase",
       "feedSource": "Hacker News",
       "source": "theverge.com",
-      "score": 0.6176,
+      "score": 0.6195,
       "publishedAt": "2026-05-27T17:58:47.000Z",
       "summary": "A big Steam Deck price hike.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 159
+      "engagementScore": 227
+    },
+    {
+      "title": "Google Security Engineer Arrested in Million-Dollar Polymarket Trading Scheme",
+      "url": "https://www.wired.com/story/google-employee-accused-of-polymarket-one-million/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5828,
+      "publishedAt": "2026-05-27T22:22:23.000Z",
+      "summary": "According to federal prosecutors, Michele Spagnuolo made more than $1 million on the prediction market platform using confidential information about Google Search traffic.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "I'm Tired of Talking to AI",
       "url": "https://orchidfiles.com/im-tired-of-ai-generated-answers/",
       "feedSource": "Hacker News",
       "source": "orchidfiles.com",
-      "score": 0.5737,
+      "score": 0.5632,
       "publishedAt": "2026-05-27T10:43:25.000Z",
       "summary": "I found GitHub repositories that were spreading malware. I asked AI what to do about it, but it gave me nothing useful. So I opened a discussion on GitHub. Someone replied. It was the exact same text the AI had given me. I called it out and the comment was",
       "tags": [
         "Open Source"
       ],
-      "engagementScore": 1787
+      "engagementScore": 1814
     },
     {
       "title": "Huawei's ‘Chip Queen’ Throws Down the Gauntlet",
       "url": "https://www.wired.com/story/huawei-chip-queen-moores-law-tau/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5717,
+      "score": 0.5594,
       "publishedAt": "2026-05-27T18:00:00.000Z",
       "summary": "The Chinese company is adapting to the demise of Moore’s Law, which guides chip production. It could complicate US chip dominance.",
       "tags": [
@@ -335,7 +362,7 @@
       "url": "https://www.wired.com/story/dating-app-blk-is-giving-away-free-gas-to-convince-people-to-get-out-of-the-house/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.571,
+      "score": 0.5588,
       "publishedAt": "2026-05-27T17:52:46.000Z",
       "summary": "Amid ongoing economic anxieties, BLK and other companies are giving away basic essentials to appeal to the public.",
       "tags": [
@@ -348,7 +375,7 @@
       "url": "https://www.wired.com/gallery/best-computer-speakers/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5636,
+      "score": 0.5514,
       "publishedAt": "2026-05-27T16:30:00.000Z",
       "summary": "These WIRED-tested computer speakers, from stereo speakers to surround sound, will suit any budget.",
       "tags": [
@@ -357,11 +384,24 @@
       "engagementScore": 0
     },
     {
+      "title": "DuckDuckGo search saw 28% more visits after Google said people love AI mode",
+      "url": "https://www.pcgamer.com/hardware/duckduckgos-ai-free-search-saw-nearly-28-percent-more-visits-in-the-week-following-googles-insistence-that-people-love-ai-mode/",
+      "feedSource": "Hacker News",
+      "source": "pcgamer.com",
+      "score": 0.5496,
+      "publishedAt": "2026-05-27T16:28:41.000Z",
+      "summary": "“People just want a choice.”",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 576
+    },
+    {
       "title": "AI tried to bury this politician — now people have actually heard of him",
       "url": "https://www.theverge.com/policy/937650/ai-alex-bores-openai-anthropic-ny12",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5591,
+      "score": 0.5469,
       "publishedAt": "2026-05-27T15:39:34.000Z",
       "summary": "By the time that the Democratic primary for New York's 12th congressional district wraps up in June, Anthropic and OpenAI will have spent millions on their battle over the political future of AI: who gets to regulate it, or who will be punished for trying to regulate it. But the real winner of their",
       "tags": [
@@ -374,7 +414,7 @@
       "url": "https://www.wired.com/story/i-like-ferrari-luce-ev-but-this-is-why-its-heartbreaking/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5563,
+      "score": 0.5441,
       "publishedAt": "2026-05-27T15:07:48.000Z",
       "summary": "Designed by Jony Ive and a host of ex-Cupertino colleagues, the Luce shows us what might have been had Apple made good on its $10 billion bet.",
       "tags": [
@@ -387,7 +427,7 @@
       "url": "https://www.wired.com/story/drone-ports-and-funding-mayhem-trumps-ballroom-takes-on-congress/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5556,
+      "score": 0.5434,
       "publishedAt": "2026-05-27T15:00:00.000Z",
       "summary": "“Republicans are just going to have to suck it up and get it done,” says one Trump aide about the funding melee. The votes, though, may simply not be there.",
       "tags": [
@@ -400,7 +440,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/938095/robinhood-ai-agent-stock-trading",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.555,
+      "score": 0.5427,
       "publishedAt": "2026-05-27T14:52:37.000Z",
       "summary": "Robinhood is opening its trading platform to AI agents. In an announcement on Wednesday, Robinhood says traders can now create a separate account for an AI agent and add a specific amount of money, allowing the agent to buy and sell stocks across the market. The company pitches the feature as a way",
       "tags": [
@@ -413,7 +453,7 @@
       "url": "https://www.theverge.com/tech/937628/coolfly-aura-smart-bird-feeder-review",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5516,
+      "score": 0.5394,
       "publishedAt": "2026-05-27T14:15:06.000Z",
       "summary": "Since moving to South Carolina's Lowcountry, I've been spellbound by the myriad of beautiful birds that share the coast with us - ospreys raising their babies in towering nests beside the road to my daughter's school, roseate spoonbills wading in the marsh on my morning walks, eagles circling over m",
       "tags": [
@@ -422,24 +462,11 @@
       "engagementScore": 0
     },
     {
-      "title": "DuckDuckGo search saw 28% more visits after Google said people love AI mode",
-      "url": "https://www.pcgamer.com/hardware/duckduckgos-ai-free-search-saw-nearly-28-percent-more-visits-in-the-week-following-googles-insistence-that-people-love-ai-mode/",
-      "feedSource": "Hacker News",
-      "source": "pcgamer.com",
-      "score": 0.5506,
-      "publishedAt": "2026-05-27T16:28:41.000Z",
-      "summary": "“People just want a choice.”",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 435
-    },
-    {
       "title": "Former Google and Apple Researchers Launch a Startup to Build AI’s Missing Feedback Loop",
       "url": "https://www.wired.com/story/ex-google-apple-ai-researchers-want-to-make-ai-that-gets-smarter-as-you-use-it/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5503,
+      "score": 0.538,
       "publishedAt": "2026-05-27T14:00:00.000Z",
       "summary": "Trajectory is betting the rapid iteration cycle that supercharged vibe-coding can help all kinds of companies build AI products that learn continuously.",
       "tags": [
@@ -454,22 +481,9 @@
       "url": "https://www.wired.com/story/xreal-expands-xbx-its-extra-light-smart-specs/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5498,
+      "score": 0.5376,
       "publishedAt": "2026-05-27T13:54:48.000Z",
       "summary": "These display smart glasses can connect to a phone, laptop, or gaming handheld and project the screen to your eyeballs.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The State Department Really Doesn’t Want to Talk About the Office of Remigration",
-      "url": "https://www.wired.com/story/the-state-department-really-doesnt-want-to-talk-about-the-office-of-remigration/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5484,
-      "publishedAt": "2026-05-27T13:38:46.000Z",
-      "summary": "The office was created a year ago and seemingly named for a far right European plan to expel minorities and immigrants from Western nations. It now works, a source says, with little to no oversight.",
       "tags": [
         "AI"
       ],
@@ -480,9 +494,22 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/937689/new-york-times-tech-guild-ai-monitoring-performance-union-contract",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5402,
+      "score": 0.5279,
       "publishedAt": "2026-05-27T12:06:35.000Z",
       "summary": "How newsrooms should use AI - or if they should at all - has been a recurrent debate within the media industry over the last several years. Increasingly, these rules are being hammered out at the bargaining table between unions and publishers. Right now, employees at The New York Times are gearing u",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Pope isn’t AGI-pilled",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/937933/pope-ai-encyclical-tech-industry-reactions",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5258,
+      "publishedAt": "2026-05-27T11:42:58.000Z",
+      "summary": "On Monday, Pope Leo XIV unveiled an encyclical letter addressing the societal implications of artificial intelligence. The letter, titled Magnifica Humanitas, warned that the \"use of AI is never a purely technical matter: when it enters processes that affect people's lives, it touches on rights, opp",
       "tags": [
         "AI"
       ],
@@ -493,7 +520,7 @@
       "url": "https://openai.com/index/grupo-folha-grupo-uol-partnership",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.5383,
+      "score": 0.5216,
       "publishedAt": "2026-05-25T00:00:00.000Z",
       "summary": "OpenAI partners with Grupo Folha and Grupo UOL to bring trusted Brazilian journalism to ChatGPT, expanding access to news with attribution and transparency.",
       "tags": [
@@ -502,24 +529,11 @@
       "engagementScore": 0
     },
     {
-      "title": "The Pope isn’t AGI-pilled",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/937933/pope-ai-encyclical-tech-industry-reactions",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5381,
-      "publishedAt": "2026-05-27T11:42:58.000Z",
-      "summary": "On Monday, Pope Leo XIV unveiled an encyclical letter addressing the societal implications of artificial intelligence. The letter, titled Magnifica Humanitas, warned that the \"use of AI is never a purely technical matter: when it enters processes that affect people's lives, it touches on rights, opp",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "YouTube is putting AI labels where you’ll actually see them",
       "url": "https://www.theverge.com/streaming/937915/youtube-ai-labels-shorts-automatic-identification-updates",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5301,
+      "score": 0.5179,
       "publishedAt": "2026-05-27T10:13:41.000Z",
       "summary": "In the wake of Google expanding its AI verification efforts at I/O, YouTube is now finally going to start taking AI labeling seriously. YouTube has announced that it's relocating AI disclosures on Shorts and long-form videos to make them easier to spot and will start automatically identifying and la",
       "tags": [
@@ -532,25 +546,11 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/937801/pope-leo-xiv-magnifica-humanitas-ai-pangram",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5284,
+      "score": 0.5162,
       "publishedAt": "2026-05-27T09:55:09.000Z",
       "summary": "It's possible that AI was used to write parts of Pope Leo XIV's latest encyclical about AI's impact on humanity. An analysis by Linch Zhang posted on the forum LessWrong found certain paragraphs of Magnifica Humanitas to be between 40 percent and 100 percent written by AI, according to the popular A",
       "tags": [
         "RAG"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Rethinking organizational design in the age of agentic AI",
-      "url": "https://www.technologyreview.com/2026/05/26/1137584/rethinking-organizational-design-in-the-age-of-agentic-ai/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.5136,
-      "publishedAt": "2026-05-26T14:54:10.000Z",
-      "summary": "Amid rapidly growing adoption of enterprise-level AI agents, there’s a disconnect emerging between ambition and execution.&#160; Although 85% of organizations say they want to be agentic within the next three years, 76% say their current operations and infrastructure can’t support that change. They",
-      "tags": [
-        "Agents",
-        "Dev Tools"
       ],
       "engagementScore": 0
     },
@@ -597,15 +597,15 @@
       "engagementScore": 0
     },
     {
-      "title": "The next phase of OpenAI’s Education for Countries",
-      "url": "https://openai.com/index/the-next-phase-of-education-for-countries",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5124,
-      "publishedAt": "2026-05-20T00:00:00.000Z",
-      "summary": "OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.",
+      "title": "Rethinking organizational design in the age of agentic AI",
+      "url": "https://www.technologyreview.com/2026/05/26/1137584/rethinking-organizational-design-in-the-age-of-agentic-ai/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.5002,
+      "publishedAt": "2026-05-26T14:54:10.000Z",
+      "summary": "Amid rapidly growing adoption of enterprise-level AI agents, there’s a disconnect emerging between ambition and execution.&#160; Although 85% of organizations say they want to be agentic within the next three years, 76% say their current operations and infrastructure can’t support that change. They",
       "tags": [
-        "LLM",
+        "Agents",
         "Dev Tools"
       ],
       "engagementScore": 0
@@ -615,7 +615,7 @@
       "url": "https://www.technologyreview.com/2026/05/26/1138028/the-download-ai-jobs-data/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4976,
+      "score": 0.4842,
       "publishedAt": "2026-05-26T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. A reality check on the AI jobs hysteria Despite the growing hysteria over AI’s threat to white-collar jobs, there’s still scant evidence that the tech",
       "tags": [
@@ -628,7 +628,7 @@
       "url": "https://www.technologyreview.com/2026/05/26/1137855/a-reality-check-on-the-ai-jobs-hysteria/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4791,
+      "score": 0.4658,
       "publishedAt": "2026-05-26T09:00:00.000Z",
       "summary": "Haven’t you heard? White-collar jobs are going away, decimated by AI. Waves of layoffs in the tech sector (most recently at Coinbase and Meta and Cisco) are said to presage what will soon come for all of us knowledge workers. But before you quit your job as a software developer or financial analyst—",
       "tags": [
@@ -641,7 +641,7 @@
       "url": "https://www.technologyreview.com/2026/05/26/1137865/its-time-to-address-the-looming-crisis-in-entry-level-work/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4791,
+      "score": 0.4658,
       "publishedAt": "2026-05-26T09:00:00.000Z",
       "summary": "Artificial intelligence has not so far produced a clean story of mass unemployment. Aggregate employment in developed countries remains broadly stable, and recent assessments have found limited evidence that AI has shifted the headline numbers. But a troubling change may be hiding beneath the surfac",
       "tags": [
@@ -654,7 +654,7 @@
       "url": "https://www.theverge.com/podcast/936445/sundar-pichai-ai-search-google-zero-youtube-web",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4457,
+      "score": 0.4335,
       "publishedAt": "2026-05-26T18:26:50.000Z",
       "summary": "Today, I’m talking with Google and Alphabet CEO Sundar Pichai, in a conversation we recorded just after the Google I/O developer conference. This is the fifth year Sundar and I have sat down after I/O, and it’s become one of my favorite Decoder traditions. There’s always a lot of news at I/O, and th",
       "tags": [
