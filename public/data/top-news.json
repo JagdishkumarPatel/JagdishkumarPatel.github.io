@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-26T22:22:58.069Z",
+  "updatedAt": "2026-05-27T04:12:37.577Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,11 +8,130 @@
   ],
   "items": [
     {
+      "title": "BrickAnything: Geometry-Conditioned Buildable Brick Generation with Structure-Aware Tokenization",
+      "url": "https://arxiv.org/abs/2605.26182",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9108,
+      "publishedAt": "2026-05-27T04:00:00.000Z",
+      "summary": "arXiv:2605.26182v1 Announce Type: new \nAbstract: Generating physically buildable brick structures from 3D shapes requires more than geometric reconstruction: the output must also satisfy discrete part constraints and structural stability. Existing brick generation methods either rely on heuristic op",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Can LLMs Introspect? A Reality Check",
+      "url": "https://arxiv.org/abs/2605.26242",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9108,
+      "publishedAt": "2026-05-27T04:00:00.000Z",
+      "summary": "arXiv:2605.26242v1 Announce Type: new \nAbstract: Can large language models detect and report their own internal states? A number of studies have argued that the answer to this question is yes. We argue, based on lessons from human metacognition research, that this conclusion may be premature: to be",
+      "tags": [
+        "LLM",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Is Agent Memory a Database? Rethinking Data Foundations for Long-Term AI Agent Memory",
+      "url": "https://arxiv.org/abs/2605.26252",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9108,
+      "publishedAt": "2026-05-27T04:00:00.000Z",
+      "summary": "arXiv:2605.26252v1 Announce Type: new \nAbstract: Long-running AI agents need persistent memory. Memory supports learning across sessions, reduces repeated context injection, and enables auditing of past decisions. Current agent memory systems and database paradigms treat memory as storage. They loca",
+      "tags": [
+        "Agents",
+        "Research",
+        "RAG"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Personalizing Embodied Multimodal Large Language Model Agents over Long-term User Interactions",
+      "url": "https://arxiv.org/abs/2605.26256",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9108,
+      "publishedAt": "2026-05-27T04:00:00.000Z",
+      "summary": "arXiv:2605.26256v1 Announce Type: new \nAbstract: Multimodal large language model (MLLM)-based embodied agents have shown strong potential for solving complex tasks in physical environments. However, personalized assistance requires more than following generic instruction or recognizing object catego",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Research",
+        "Vision"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Constraint acquisition needs better benchmarks",
+      "url": "https://arxiv.org/abs/2605.26279",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9108,
+      "publishedAt": "2026-05-27T04:00:00.000Z",
+      "summary": "arXiv:2605.26279v1 Announce Type: new \nAbstract: Constraint Acquisition (CA) and related research on the validation and enhancement of Mathematical Programming (MP) models from domain knowledge artifacts are currently limited by inadequate benchmarks. This deficiency impedes reproducibility and cros",
+      "tags": [
+        "Research",
+        "Dev Tools",
+        "ML Infra",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Your Agents Are Aging Too: Agent Lifespan Engineering for Deployed Systems",
+      "url": "https://arxiv.org/abs/2605.26302",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9108,
+      "publishedAt": "2026-05-27T04:00:00.000Z",
+      "summary": "arXiv:2605.26302v1 Announce Type: new \nAbstract: Long-lived AI agents are increasingly deployed as persistent operational systems, yet they are still evaluated like freshly initialized models. Day-one benchmarks miss a basic systems question: how long does an agent remain reliable after deployment?",
+      "tags": [
+        "Agents",
+        "Research",
+        "ML Infra"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Experiments in Agentic AI for Science",
+      "url": "https://arxiv.org/abs/2605.26305",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9108,
+      "publishedAt": "2026-05-27T04:00:00.000Z",
+      "summary": "arXiv:2605.26305v1 Announce Type: new \nAbstract: This paper details two novel frameworks for developing autonomous, agentic AI in scientific workflows. Both systems leverage a hybrid Local Body, Remote Brain architecture via Google Colab, utilizing Python-based local orchestrators to invoke large la",
+      "tags": [
+        "Agents",
+        "Research",
+        "RAG"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Anchor: Mitigating Artifact Drift in Agent Benchmark Generation",
+      "url": "https://arxiv.org/abs/2605.26321",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9108,
+      "publishedAt": "2026-05-27T04:00:00.000Z",
+      "summary": "arXiv:2605.26321v1 Announce Type: new \nAbstract: AI agents are beginning to complete valuable, long-horizon business operations tasks, but training and evaluation environments for enterprise work still struggle to balance realism, verifiability, and scale. Environment and task creation frequently su",
+      "tags": [
+        "Agents",
+        "Research",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "A sleep-like consolidation mechanism for LLMs",
       "url": "https://arxiv.org/abs/2605.26099",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.9278,
+      "score": 0.8941,
       "publishedAt": "2026-05-26T15:36:24.000Z",
       "summary": "Transformer-based large language models are increasingly used for long-horizon tasks; however, their attention mechanism scales poorly with context length. To handle this, we study a sleep-like consolidation mechanism in which a model periodically converts recent context into persistent fast weights",
       "tags": [
@@ -20,147 +139,20 @@
         "Research",
         "ML Infra"
       ],
-      "engagementScore": 169
-    },
-    {
-      "title": "In Search of the Ingredients of Open-Endedness: Replicating Picbreeder with Large Vision-Language Models",
-      "url": "https://arxiv.org/abs/2605.23908",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7871,
-      "publishedAt": "2026-05-26T04:00:00.000Z",
-      "summary": "arXiv:2605.23908v1 Announce Type: new \nAbstract: We are in the midst of large-scale industrial and academic efforts to automate the processes of scientific, technological and creative production through AI-driven assistants. Historically, a fundamental property of these processes in their human form",
-      "tags": [
-        "LLM",
-        "Research",
-        "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Confidence Calibration in Large Language Models",
-      "url": "https://arxiv.org/abs/2605.23909",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7871,
-      "publishedAt": "2026-05-26T04:00:00.000Z",
-      "summary": "arXiv:2605.23909v1 Announce Type: new \nAbstract: We investigate the calibration of large language models' (LLMs') confidence across diverse tasks. The results of our preregistered study show that the current crop of LLMs are, like people, too sure they are right: confidence exceeds accuracy, on aver",
-      "tags": [
-        "LLM",
-        "Research",
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "How Much Thinking is Enough? Quantifying and Understanding Redundancy in LLM Reasoning",
-      "url": "https://arxiv.org/abs/2605.23926",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7871,
-      "publishedAt": "2026-05-26T04:00:00.000Z",
-      "summary": "arXiv:2605.23926v1 Announce Type: new \nAbstract: Reasoning-capable large language models solve hard problems by emitting long chains of thought, paying heavily in latency, GPU time, and energy. Casual inspection of their traces reveals extensive reformulation, verification, and circular self-reflect",
-      "tags": [
-        "LLM",
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Context: Proactive Goal-Directed Intelligence via Composable Sandboxed Programs, Declarative Wiring, and Structured Interaction",
-      "url": "https://arxiv.org/abs/2605.23928",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7871,
-      "publishedAt": "2026-05-26T04:00:00.000Z",
-      "summary": "arXiv:2605.23928v1 Announce Type: new \nAbstract: We present Context, the intelligence layer of the Magarshak Architecture, which replaces reactive query-response chatbots with proactive goal-directed agents that advance shared tasks without waiting for user prompts. The architecture rests on three m",
-      "tags": [
-        "Agents",
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Toward Reliable Design of LLM-Enabled Agentic Workflows: Optimizing Latency-Reliability-Cost Tradeoffs",
-      "url": "https://arxiv.org/abs/2605.23929",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7871,
-      "publishedAt": "2026-05-26T04:00:00.000Z",
-      "summary": "arXiv:2605.23929v1 Announce Type: new \nAbstract: Modern AI systems increasingly rely on workflows composed of multiple interacting agents, some powered by large language models (LLMs) and others by conventional computational modules. This paper analyzes the fundamental tradeoffs between latency, rel",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Quantum Frog: Emergent Cooperation and Difficulty Scaling in a Quantized-Time Cooperative Game",
-      "url": "https://arxiv.org/abs/2605.23930",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7871,
-      "publishedAt": "2026-05-26T04:00:00.000Z",
-      "summary": "arXiv:2605.23930v1 Announce Type: new \nAbstract: We introduce \\emph{Quantum Frog}, a two-player cooperative game built on a novel \\emph{quantized-time} mechanic in which the environment advances only when a player acts. Inspired by the classic arcade game Frogger, Quantum Frog requires two frogs to",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "BODHI: Precise OS Kernel Specification Inference",
-      "url": "https://arxiv.org/abs/2605.23931",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7871,
-      "publishedAt": "2026-05-26T04:00:00.000Z",
-      "summary": "arXiv:2605.23931v1 Announce Type: new \nAbstract: The formal verification of operating system kernels requires precise specifications that capture the intended behavior of system calls. Writing these specifications manually demands deep domain expertise, motivating the use of large language models (L",
-      "tags": [
-        "LLM",
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "When Correct Beliefs Collapse: Epistemic Resilience of LLMs under Clinical Pressure",
-      "url": "https://arxiv.org/abs/2605.23932",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7871,
-      "publishedAt": "2026-05-26T04:00:00.000Z",
-      "summary": "arXiv:2605.23932v1 Announce Type: new \nAbstract: Despite strong medical benchmark accuracy, LLMs can exhibit severe multi-turn sycophancy in clinical dialogue, abandoning initial correct diagnosis under escalating pressure. We propose \\textbf{\\textsc{Med-Stress}}, a targeted stress test framework th",
-      "tags": [
-        "LLM",
-        "Research"
-      ],
-      "engagementScore": 0
+      "engagementScore": 190
     },
     {
       "title": "OpenAI, Grupo Folha and Grupo UOL announce strategic content partnership",
       "url": "https://openai.com/index/grupo-folha-grupo-uol-partnership",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6992,
+      "score": 0.6567,
       "publishedAt": "2026-05-25T00:00:00.000Z",
       "summary": "OpenAI partners with Grupo Folha and Grupo UOL to bring trusted Brazilian journalism to ChatGPT, expanding access to news with attribution and transparency.",
       "tags": [
         "LLM"
       ],
       "engagementScore": 0
-    },
-    {
-      "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
-      "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
-      "feedSource": "Hacker News",
-      "source": "openai.com",
-      "score": 0.6944,
-      "publishedAt": "2026-05-20T19:05:30.000Z",
-      "summary": "An OpenAI model solved the 80-year-old unit distance problem, disproving a major conjecture in discrete geometry and marking a milestone in AI-driven mathematics.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 1429
     },
     {
       "title": "Project Glasswing: An Initial Update",
@@ -180,7 +172,7 @@
       "url": "https://www.technologyreview.com/2026/05/26/1137584/rethinking-organizational-design-in-the-age-of-agentic-ai/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6423,
+      "score": 0.6083,
       "publishedAt": "2026-05-26T14:54:10.000Z",
       "summary": "Amid rapidly growing adoption of enterprise-level AI agents, there’s a disconnect emerging between ambition and execution.&#160; Although 85% of organizations say they want to be agentic within the next three years, 76% say their current operations and infrastructure can’t support that change. They",
       "tags": [
@@ -194,7 +186,7 @@
       "url": "https://www.technologyreview.com/2026/05/26/1138028/the-download-ai-jobs-data/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6263,
+      "score": 0.5923,
       "publishedAt": "2026-05-26T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. A reality check on the AI jobs hysteria Despite the growing hysteria over AI’s threat to white-collar jobs, there’s still scant evidence that the tech",
       "tags": [
@@ -207,20 +199,33 @@
       "url": "https://www.technologyreview.com/2026/05/26/1137855/a-reality-check-on-the-ai-jobs-hysteria/",
       "feedSource": "Hacker News",
       "source": "technologyreview.com",
-      "score": 0.6103,
+      "score": 0.5774,
       "publishedAt": "2026-05-26T11:04:54.000Z",
       "summary": "What do the numbers really say about the impact of artificial intelligence on the labor market? The answer might surprise you.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 40
+      "engagementScore": 41
+    },
+    {
+      "title": "It’s time to address the looming crisis in entry-level work.",
+      "url": "https://www.technologyreview.com/2026/05/26/1137865/its-time-to-address-the-looming-crisis-in-entry-level-work/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.5738,
+      "publishedAt": "2026-05-26T09:00:00.000Z",
+      "summary": "Artificial intelligence has not so far produced a clean story of mass unemployment. Aggregate employment in developed countries remains broadly stable, and recent assessments have found limited evidence that AI has shifted the headline numbers. But a troubling change may be hiding beneath the surfac",
+      "tags": [
+        "Vision"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "Constraint Decay: The Fragility of LLM Agents in Back End Code Generation",
       "url": "https://arxiv.org/abs/2605.06445",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.6091,
+      "score": 0.5696,
       "publishedAt": "2026-05-24T12:55:53.000Z",
       "summary": "Large Language Model (LLM) agents demonstrate strong performance in autonomous code generation under loose specifications. However, production-grade software requires strict adherence to structural constraints, such as architectural patterns, databases, and object-relational mappings. Existing bench",
       "tags": [
@@ -230,18 +235,31 @@
         "Dev Tools",
         "ML Infra"
       ],
-      "engagementScore": 283
+      "engagementScore": 284
     },
     {
-      "title": "It’s time to address the looming crisis in entry-level work.",
-      "url": "https://www.technologyreview.com/2026/05/26/1137865/its-time-to-address-the-looming-crisis-in-entry-level-work/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.6078,
-      "publishedAt": "2026-05-26T09:00:00.000Z",
-      "summary": "Artificial intelligence has not so far produced a clean story of mass unemployment. Aggregate employment in developed countries remains broadly stable, and recent assessments have found limited evidence that AI has shifted the headline numbers. But a troubling change may be hiding beneath the surfac",
+      "title": "Did the Pope use AI to write about the dangers of AI?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/937801/pope-leo-xiv-magnifica-humanitas-ai-pangram",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5658,
+      "publishedAt": "2026-05-27T00:40:12.000Z",
+      "summary": "It's possible that AI was used to write parts of Pope Leo XIV's latest encyclical about AI's impact on humanity. An analysis by Linch Zhang posted on the forum LessWrong found certain paragraphs of Magnifica Humanitas to be between 40 percent and 100 percent written by AI, according to the popular A",
       "tags": [
-        "Vision"
+        "RAG"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Pope Leo Schooled the Tech Bros on Tolkien",
+      "url": "https://www.wired.com/story/pope-leo-schooled-the-tech-bros-on-tolkien/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5586,
+      "publishedAt": "2026-05-26T23:19:03.000Z",
+      "summary": "The Holy Father referenced The Lord of the Rings in his encyclical about AI—an expert (if unintentional) troll of tech billionaires who keep misinterpreting the series.",
+      "tags": [
+        "Industry"
       ],
       "engagementScore": 0
     },
@@ -250,20 +268,20 @@
       "url": "https://www.theverge.com/transportation/937116/uber-ai-investment-hard-to-justify",
       "feedSource": "Hacker News",
       "source": "theverge.com",
-      "score": 0.5816,
+      "score": 0.5544,
       "publishedAt": "2026-05-26T10:01:39.000Z",
       "summary": "There’s no clear connection between AI usage and productivity.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 243
+      "engagementScore": 268
     },
     {
       "title": "Why the Vatican Invited Anthropic to the Pope’s AI Encyclical Presentation",
       "url": "https://www.wired.com/story/anthropic-christopher-olah-pope-ai-encyclical/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5761,
+      "score": 0.5449,
       "publishedAt": "2026-05-26T20:46:03.000Z",
       "summary": "Pope Leo’s first encyclical marks an unprecedented alliance between the Church and Silicon Valley.",
       "tags": [
@@ -276,7 +294,7 @@
       "url": "https://www.wired.com/story/the-9-best-movies-to-stream-right-now/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5747,
+      "score": 0.5435,
       "publishedAt": "2026-05-26T20:29:54.000Z",
       "summary": "Bugonia, Good Boy, and Send Help are among the films deserving of your eyeballs this month.",
       "tags": [
@@ -289,7 +307,7 @@
       "url": "https://www.wired.com/story/what-pope-leo-xivs-first-encyclical-says-about-the-power-of-ai/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5736,
+      "score": 0.5424,
       "publishedAt": "2026-05-26T20:17:47.000Z",
       "summary": "In Magnifica Humanitas, the Pope decries the concentration of technological power in a few global players.",
       "tags": [
@@ -302,7 +320,7 @@
       "url": "https://www.theverge.com/podcast/936445/sundar-pichai-ai-search-google-zero-youtube-web",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5637,
+      "score": 0.5325,
       "publishedAt": "2026-05-26T18:26:50.000Z",
       "summary": "Today, I’m talking with Google and Alphabet CEO Sundar Pichai, in a conversation we recorded just after the Google I/O developer conference. This is the fifth year Sundar and I have sat down after I/O, and it’s become one of my favorite Decoder traditions. There’s always a lot of news at I/O, and th",
       "tags": [
@@ -315,7 +333,7 @@
       "url": "https://www.theverge.com/news/936945/pope-leo-letter-encyclical-ai-anthropic-labor-warfare",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.563,
+      "score": 0.5318,
       "publishedAt": "2026-05-26T18:19:06.000Z",
       "summary": "Pope Leo XIV warned of the risks of AI and unconstrained technological power in his first major papal document released on Monday. Magnifica Humanitas is the pope's manifesto on \"safeguarding the human person in the time of artificial intelligence,\" in which he discusses the dangers of AI-powered wa",
       "tags": [
@@ -329,7 +347,7 @@
       "url": "https://www.wired.com/story/internet-in-iran-starts-to-return-after-3-month-blackout/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5588,
+      "score": 0.5276,
       "publishedAt": "2026-05-26T17:31:25.000Z",
       "summary": "Some internet connectivity is returning in Iran after nearly 90 days offline, web monitoring groups say. But it isn’t clear if the reconnection is permanent.",
       "tags": [
@@ -342,7 +360,7 @@
       "url": "https://www.wired.com/gallery/best-outdoor-security-cameras/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5544,
+      "score": 0.5232,
       "publishedAt": "2026-05-26T16:42:21.000Z",
       "summary": "These weatherproof outdoor security cams keep a watchful eye on your property while you get on with life. Our list includes battery-powered cameras that need no subscription.",
       "tags": [
@@ -355,7 +373,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/937059/nobody-wants-to-tell-me-why-they-only-listen-their-own-suno-slop",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5526,
+      "score": 0.5214,
       "publishedAt": "2026-05-26T16:22:01.000Z",
       "summary": "There's this alarming trend in the Suno subreddit. People aren't just prompting AI songs; they're sitting around listening almost exclusively to their own slop. And in some cases, they proudly proclaim that they don't listen to music on traditional streaming platforms anymore - it's just AI all day.",
       "tags": [
@@ -364,11 +382,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Spain blocks prediction markets Polymarket, Kalshi over lack of gambling licence",
+      "url": "https://www.reuters.com/business/spain-blocks-prediction-markets-polymarket-kalshi-over-lack-gambling-licences-2026-05-26/",
+      "feedSource": "Hacker News",
+      "source": "reuters.com",
+      "score": 0.5195,
+      "publishedAt": "2026-05-26T13:08:13.000Z",
+      "summary": "Spain’s Consumer Rights Ministry temporarily banned so-called prediction markets Polymarket and Kalshi ​for operating in the country without a ‌gambling licence, the official state gazette showed on Tuesday.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 818
+    },
+    {
       "title": "I've Tested Dozens of Packing Cubes. Here's What's Worth Taking on Your Next Trip",
       "url": "https://www.wired.com/gallery/the-best-packing-cubes/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5484,
+      "score": 0.5172,
       "publishedAt": "2026-05-26T15:35:00.000Z",
       "summary": "Whether you’re a no-frills backpacker or a bag-checking fashionista, there’s a perfect packing cube out there for you.",
       "tags": [
@@ -381,50 +412,11 @@
       "url": "https://www.wired.com/story/the-big-interview-podcast-jason-rezaian/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5437,
+      "score": 0.5125,
       "publishedAt": "2026-05-26T14:41:54.000Z",
       "summary": "Jason Rezaian spent years reporting from Iran before being imprisoned by the regime. He says internet access is key to transforming the country—if only the US government would do something about it.",
       "tags": [
         "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "15 Best Travel Toiletry Bags, Tested Over Many Miles (2026)",
-      "url": "https://www.wired.com/gallery/best-toiletry-bags/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.543,
-      "publishedAt": "2026-05-26T14:35:00.000Z",
-      "summary": "Our team evaluated a ton of toiletry bags to find the best storage, organization, and design options for all your essentials.",
-      "tags": [
-        "RAG"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Spain blocks prediction markets Polymarket, Kalshi over lack of gambling licence",
-      "url": "https://www.reuters.com/business/spain-blocks-prediction-markets-polymarket-kalshi-over-lack-gambling-licences-2026-05-26/",
-      "feedSource": "Hacker News",
-      "source": "reuters.com",
-      "score": 0.5404,
-      "publishedAt": "2026-05-26T13:08:13.000Z",
-      "summary": "Spain’s Consumer Rights Ministry temporarily banned so-called prediction markets Polymarket and Kalshi ​for operating in the country without a ‌gambling licence, the official state gazette showed on Tuesday.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 667
-    },
-    {
-      "title": "AI warfare is already here",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/937028/military-ai-warfare-red-lines",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5372,
-      "publishedAt": "2026-05-26T13:29:02.000Z",
-      "summary": "The Convention on Certain Conventional Weapons, an international forum that focuses on lethal autonomous systems, is hosted twice a year at the United Nations in Geneva. When Branka Marijan attended in November 2017, she thought the five-day sessions - which dealt largely in hypotheticals, speculati",
-      "tags": [
-        "Agents"
       ],
       "engagementScore": 0
     },
@@ -471,6 +463,20 @@
       "engagementScore": 0
     },
     {
+      "title": "The next phase of OpenAI’s Education for Countries",
+      "url": "https://openai.com/index/the-next-phase-of-education-for-countries",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.5124,
+      "publishedAt": "2026-05-20T00:00:00.000Z",
+      "summary": "OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.",
+      "tags": [
+        "LLM",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
       "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
       "feedSource": "OpenAI",
@@ -498,20 +504,6 @@
       "engagementScore": 0
     },
     {
-      "title": "The next phase of OpenAI’s Education for Countries",
-      "url": "https://openai.com/index/the-next-phase-of-education-for-countries",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5124,
-      "publishedAt": "2026-05-20T00:00:00.000Z",
-      "summary": "OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.",
-      "tags": [
-        "LLM",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Introducing OpenAI for Singapore",
       "url": "https://openai.com/index/introducing-openai-for-singapore",
       "feedSource": "OpenAI",
@@ -525,24 +517,50 @@
       "engagementScore": 0
     },
     {
+      "title": "AI warfare is already here",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/937028/military-ai-warfare-red-lines",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.506,
+      "publishedAt": "2026-05-26T13:29:02.000Z",
+      "summary": "The Convention on Certain Conventional Weapons, an international forum that focuses on lethal autonomous systems, is hosted twice a year at the United Nations in Geneva. When Branka Marijan attended in November 2017, she thought the five-day sessions - which dealt largely in hypotheticals, speculati",
+      "tags": [
+        "Agents"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Dropbox CEO Drew Houston to step down",
       "url": "https://www.cnbc.com/2026/05/26/dropbox-ceo-drew-houston-ashraf-alkarmi.html",
       "feedSource": "Hacker News",
       "source": "cnbc.com",
-      "score": 0.5032,
+      "score": 0.4856,
       "publishedAt": "2026-05-26T13:18:33.000Z",
       "summary": "",
       "tags": [
         "AI"
       ],
-      "engagementScore": 233
+      "engagementScore": 314
+    },
+    {
+      "title": "Scientists say they've reversed brain aging in mice with a nasal spray",
+      "url": "https://www.sciencedaily.com/releases/2026/05/260526022018.htm",
+      "feedSource": "Hacker News",
+      "source": "sciencedaily.com",
+      "score": 0.4843,
+      "publishedAt": "2026-05-27T01:52:16.000Z",
+      "summary": "Researchers at Texas A&amp;M have developed a nasal spray that appears to reverse brain aging by calming inflammation and restoring the brain’s energy systems. After just two doses, memory and cognitive function improved for months, raising hopes for future treatments targeting dementia and brain fo",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 56
     },
     {
       "title": "Harness, Scaffold, and the AI Agent Terms Worth Getting Right",
       "url": "https://huggingface.co/blog/agent-glossary",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.5019,
+      "score": 0.4651,
       "publishedAt": "2026-05-25T00:00:00.000Z",
       "summary": "",
       "tags": [
@@ -667,19 +685,6 @@
       "tags": [
         "LLM",
         "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Specialization Beats Scale: A Strategic Variable Most AI Procurement Decisions Overlook",
-      "url": "https://huggingface.co/blog/Dharma-AI/specialization-beats-scale",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.3401,
-      "publishedAt": "2026-05-22T15:25:59.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
       ],
       "engagementScore": 0
     }
