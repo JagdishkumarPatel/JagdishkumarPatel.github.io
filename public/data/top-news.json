@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-29T10:01:29.160Z",
+  "updatedAt": "2026-05-29T15:50:28.847Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,7 +12,7 @@
       "url": "https://www.anthropic.com/news/claude-opus-4-8",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 1.0977,
+      "score": 1.06,
       "publishedAt": "2026-05-28T16:49:14.000Z",
       "summary": "Our latest model, Claude Opus 4.8, is an upgrade to our Opus class of models, with stronger performance across coding, agentic tasks, and professional work, and the consistency to handle long-running work.",
       "tags": [
@@ -20,14 +20,14 @@
         "Agents",
         "Dev Tools"
       ],
-      "engagementScore": 1531
+      "engagementScore": 1670
     },
     {
       "title": "Anthropic raises $65B in Series H funding at $965B post-money valuation",
       "url": "https://www.anthropic.com/news/series-h",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 1.0264,
+      "score": 0.9859,
       "publishedAt": "2026-05-28T18:09:44.000Z",
       "summary": "Anthropic has raised $65 billion in Series H funding led by Altimeter Capital, Dragoneer, Greenoaks, and Sequoia Capital.",
       "tags": [
@@ -36,14 +36,42 @@
         "Dev Tools",
         "Industry"
       ],
-      "engagementScore": 344
+      "engagementScore": 356
+    },
+    {
+      "title": "OpenAI Announces Rosalind Biodefense",
+      "url": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense/",
+      "feedSource": "Hacker News",
+      "source": "openai.com",
+      "score": 0.9628,
+      "publishedAt": "2026-05-29T15:05:17.000Z",
+      "summary": "OpenAI launches Rosalind Biodefense, expanding trusted access to GPT-Rosalind for vetted developers and U.S. government partners advancing biodefense, public health, and pandemic preparedness through frontier AI.",
+      "tags": [
+        "LLM",
+        "Dev Tools"
+      ],
+      "engagementScore": 14
+    },
+    {
+      "title": "Strengthening societal resilience with Rosalind Biodefense",
+      "url": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.9437,
+      "publishedAt": "2026-05-29T03:00:00.000Z",
+      "summary": "OpenAI launches Rosalind Biodefense, expanding trusted access to GPT-Rosalind for vetted developers and U.S. government partners advancing biodefense, public health, and pandemic preparedness through frontier AI.",
+      "tags": [
+        "LLM",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "How Endava builds an agentic organization with Codex",
       "url": "https://openai.com/index/endava",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8768,
+      "score": 0.8344,
       "publishedAt": "2026-05-28T12:00:00.000Z",
       "summary": "Learn how Endava uses Codex to build an agentic organization, accelerating software delivery and reducing requirements analysis from weeks to hours.",
       "tags": [
@@ -57,7 +85,7 @@
       "url": "https://arxiv.org/abs/2605.28849",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8712,
+      "score": 0.8316,
       "publishedAt": "2026-05-29T04:00:00.000Z",
       "summary": "arXiv:2605.28849v1 Announce Type: new \nAbstract: Gradient temporal-difference methods provide stable off-policy prediction with linear function approximation, but their practical performance is strongly affected by the geometry induced by the auxiliary-variable metric. Existing Mirror-Prox TD method",
       "tags": [
@@ -72,7 +100,7 @@
       "url": "https://arxiv.org/abs/2605.28855",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8712,
+      "score": 0.8316,
       "publishedAt": "2026-05-29T04:00:00.000Z",
       "summary": "arXiv:2605.28855v1 Announce Type: new \nAbstract: Temporal-difference learning with function approximation can be unstable under off-policy sampling. TDC stabilizes off-policy TD through an auxiliary covariance correction, and TDRC further regularizes this correction in a single-timescale recursion.",
       "tags": [
@@ -87,7 +115,7 @@
       "url": "https://arxiv.org/abs/2605.28864",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8712,
+      "score": 0.8316,
       "publishedAt": "2026-05-29T04:00:00.000Z",
       "summary": "arXiv:2605.28864v1 Announce Type: new \nAbstract: The Cognitive Categorical Transformer (CCT) is a 306M-parameter architecture that augments a pretrained GPT-2 Small backbone with cognitively grounded components derived from category theory and several inspirations from cognitive science. Under a mat",
       "tags": [
@@ -103,7 +131,7 @@
       "url": "https://arxiv.org/abs/2605.28883",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8712,
+      "score": 0.8316,
       "publishedAt": "2026-05-29T04:00:00.000Z",
       "summary": "arXiv:2605.28883v1 Announce Type: new \nAbstract: Tropical forests worldwide are under intense deforestation pressure driven by economic and political interests, and scientific evidence suggests this deforestation contributes to climate change. This paper proposes a novel logging method for tropical",
       "tags": [
@@ -116,7 +144,7 @@
       "url": "https://arxiv.org/abs/2605.28897",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8712,
+      "score": 0.8316,
       "publishedAt": "2026-05-29T04:00:00.000Z",
       "summary": "arXiv:2605.28897v1 Announce Type: new \nAbstract: LLM-generated reviews for scientific papers are gaining considerable traction and are even being officially piloted by major conferences. We have to assume that not only reviewers are using LLM-assistance, but also that authors use LLMs to revise thei",
       "tags": [
@@ -131,7 +159,7 @@
       "url": "https://arxiv.org/abs/2605.28902",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8712,
+      "score": 0.8316,
       "publishedAt": "2026-05-29T04:00:00.000Z",
       "summary": "arXiv:2605.28902v1 Announce Type: new \nAbstract: Concept erasure has emerged as a promising approach to mitigate undesired or unsafe content in diffusion models, yet existing methods still face significant limitations. While training-based methods are effective, their high computational cost limits",
       "tags": [
@@ -146,7 +174,7 @@
       "url": "https://arxiv.org/abs/2605.28965",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8712,
+      "score": 0.8316,
       "publishedAt": "2026-05-29T04:00:00.000Z",
       "summary": "arXiv:2605.28965v1 Announce Type: new \nAbstract: Linking free-text phenotype descriptions to ontology terms, typically referred to as phenotype annotation, is essential for the cross-study integration of comparative morphological data. This labor intensive process has heavily relied on highly traine",
       "tags": [
@@ -161,7 +189,7 @@
       "url": "https://arxiv.org/abs/2605.28978",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8712,
+      "score": 0.8316,
       "publishedAt": "2026-05-29T04:00:00.000Z",
       "summary": "arXiv:2605.28978v1 Announce Type: new \nAbstract: Finite Element Analysis (FEA) serves as the cornerstone of modern engineering design. However, its workflow is inherently complex and relies heavily on domain expertise. Although recent efforts have integrated Large Language Models (LLMs) into FEA, ex",
       "tags": [
@@ -173,24 +201,11 @@
       "engagementScore": 0
     },
     {
-      "title": "MUFG aims to become AI-native with OpenAI",
-      "url": "https://openai.com/index/mufg",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.7893,
-      "publishedAt": "2026-05-28T00:00:00.000Z",
-      "summary": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "OpenAI’s Frontier Governance Framework",
       "url": "https://openai.com/index/openai-frontier-governance-framework",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7893,
+      "score": 0.7469,
       "publishedAt": "2026-05-28T00:00:00.000Z",
       "summary": "Explore OpenAI’s Frontier Governance Framework and how our AI safety, security, and risk practices align with emerging EU and California regulations.",
       "tags": [
@@ -200,25 +215,80 @@
       "engagementScore": 0
     },
     {
-      "title": "Coding Agents in the Social Sciences",
-      "url": "https://www.anthropic.com/research/coding-agents-social-sciences",
-      "feedSource": "Hacker News",
-      "source": "anthropic.com",
-      "score": 0.7525,
-      "publishedAt": "2026-05-28T13:45:46.000Z",
-      "summary": "Results from a survey of 1,260 social scientists about AI and coding agent use.",
+      "title": "MUFG aims to become AI-native with OpenAI",
+      "url": "https://openai.com/index/mufg",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.7469,
+      "publishedAt": "2026-05-28T00:00:00.000Z",
+      "summary": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
       "tags": [
-        "Agents",
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Profiling in PyTorch (Part 1): A Beginner&apos;s Guide to torch.profiler",
+      "url": "https://huggingface.co/blog/torch-profiler",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.695,
+      "publishedAt": "2026-05-29T00:00:00.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Download: unlocking lithium and controlling Ebola",
+      "url": "https://www.technologyreview.com/2026/05/29/1138110/the-download-lithium-extraction-ebola-ai-pope/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6645,
+      "publishedAt": "2026-05-29T12:10:00.000Z",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. How a new extraction process could unlock the world’s lithium A new method for extracting lithium could cut costs and emissions from one of the world’",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Check out real-life AI prototypes from the Futures Lab.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
+      "feedSource": "Google AI",
+      "source": "blog.google",
+      "score": 0.6635,
+      "publishedAt": "2026-05-29T12:00:00.000Z",
+      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/FutureLabs_social.max-600x600.format-webp.webp\"&gt;University of Waterloo students develop AI prototypes like sign language tutors to reshape the future of education and work.",
+      "tags": [
+        "RAG",
+        "Vision",
         "Dev Tools"
       ],
-      "engagementScore": 4
+      "engagementScore": 0
+    },
+    {
+      "title": "The deadly Ebola outbreak is proving difficult to control",
+      "url": "https://www.technologyreview.com/2026/05/29/1138093/the-deadly-ebola-outbreak-is-proving-difficult-to-control/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6596,
+      "publishedAt": "2026-05-29T11:19:52.000Z",
+      "summary": "The alert was raised on May 5. Four health-care workers in the Ituri Province of the Democratic Republic of the Congo had died from an unknown illness within four days. Rapid response teams were sent to investigate, and tests at a research center in Kinshasa revealed the culprit: the Bundibugyo viru",
+      "tags": [
+        "Research",
+        "Dev Tools",
+        "Industry"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "Cisco and OpenAI redefine enterprise engineering with Codex",
       "url": "https://openai.com/index/cisco",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6945,
+      "score": 0.6521,
       "publishedAt": "2026-05-27T11:00:00.000Z",
       "summary": "Cisco and OpenAI are redefining enterprise engineering with Codex, helping Cisco scale AI-native development, accelerate AI Defense work, and automate defect remediation.",
       "tags": [
@@ -228,24 +298,38 @@
       "engagementScore": 0
     },
     {
+      "title": "How the Pope’s Magnifica Humanitas offers a template for individuals to meet the AI moment",
+      "url": "https://www.technologyreview.com/2026/05/29/1138107/how-the-popes-magnifica-humanitas-offers-a-template-for-individuals-to-meet-the-ai-moment/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6518,
+      "publishedAt": "2026-05-29T10:00:00.000Z",
+      "summary": "Pope Leo XIV’s new encyclical on artificial intelligence includes a statement that warrants serious attention from technologists and policymakers: “Technology is never neutral.” Magnifica Humanitas (“Magnificent Humanity”) is a clarion call to all people to act with courage and solidarity as we ente",
+      "tags": [
+        "RAG",
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "All of human cooking compressed into 2 megabytes",
       "url": "https://arxiv.org/abs/2605.22391",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.683,
+      "score": 0.6436,
       "publishedAt": "2026-05-27T08:14:40.000Z",
       "summary": "We present Epicure, a family of three sibling skip-gram ingredient embeddings retrained from scratch on a multilingual recipe corpus. We aggregate 4.14M recipes from 11 sources spanning seven languages, English, Chinese, Russian, Vietnamese, Spanish, Turkish, Indonesian, German, and Indian-English,",
       "tags": [
         "RAG"
       ],
-      "engagementScore": 435
+      "engagementScore": 436
     },
     {
       "title": "Building self-improving tax agents with Codex",
       "url": "https://openai.com/index/building-self-improving-tax-agents-with-codex",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6653,
+      "score": 0.6229,
       "publishedAt": "2026-05-27T07:00:00.000Z",
       "summary": "See how OpenAI, Thrive, and Crete built a self-improving tax agent with Codex, automating filings, improving accuracy, and accelerating workflows.",
       "tags": [
@@ -260,21 +344,34 @@
       "url": "https://arxiv.org/abs/2605.21779",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.6427,
+      "score": 0.604,
       "publishedAt": "2026-05-27T17:42:24.000Z",
       "summary": "Software vulnerabilities pose critical security threats, with nearly 50,000 CVEs reported in 2025. While Large Language Models (LLMs) show promise for automated vulnerability detection, three key challenges remain. First, LLM-generated vulnerability reports suffer from high false positive rates and",
       "tags": [
         "LLM",
         "Agents"
       ],
-      "engagementScore": 55
+      "engagementScore": 56
+    },
+    {
+      "title": "The Vatican’s Man Inside Anthropic",
+      "url": "https://www.wired.com/story/the-vaticans-man-inside-anthropic/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5802,
+      "publishedAt": "2026-05-29T15:00:00.000Z",
+      "summary": "Pope Leo XIV may not be able to disarm AI, but he’s got the attention of the industry.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "Warp’s big bet on building open source with GPT-5.5",
       "url": "https://openai.com/index/warp",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6143,
+      "score": 0.5719,
       "publishedAt": "2026-05-27T00:00:00.000Z",
       "summary": "Warp uses GPT-5.5 and OpenAI models to coordinate coding agents across local, cloud, and open-source development workflows.",
       "tags": [
@@ -290,7 +387,7 @@
       "url": "https://openai.com/index/election-safeguards-2026",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6143,
+      "score": 0.5719,
       "publishedAt": "2026-05-27T00:00:00.000Z",
       "summary": "Ahead of global elections, we’re helping people access information, supporting cyber defenders, and increasing AI transparency",
       "tags": [
@@ -299,11 +396,91 @@
       "engagementScore": 0
     },
     {
+      "title": "Blue Origin Rocket Explodes in Fiery Setback",
+      "url": "https://www.wired.com/story/blue-origin-rocket-explodes-in-major-setback/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5716,
+      "publishedAt": "2026-05-29T13:22:27.000Z",
+      "summary": "The detonation of the New Glenn rocket resulted in a huge fireball in Florida and may have long-term implications for the company's ambitions.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Please Use AI",
+      "url": "https://shawnsmucker.substack.com/p/please-use-ai",
+      "feedSource": "Hacker News",
+      "source": "shawnsmucker.substack.com",
+      "score": 0.5708,
+      "publishedAt": "2026-05-29T13:50:25.000Z",
+      "summary": "Be sure to use AI when making",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 584
+    },
+    {
+      "title": "Jony Ive’s funky Ferrari",
+      "url": "https://www.theverge.com/podcast/939589/ferrari-luce-jony-ive-vergecast",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5664,
+      "publishedAt": "2026-05-29T12:25:12.000Z",
+      "summary": "Most people will never own, drive, or even sit inside a Ferrari Luce. (If you can, or do… hit us up.) There's still no question that Ferrari's first electric vehicle is one of the most interesting, surprising cars of the year. With a decidedly un-Ferrari look, and lots of new technology and designs",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "15 Best Wireless Chargers, All Tested and Reviewed (2026)",
+      "url": "https://www.wired.com/gallery/best-wireless-chargers/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5645,
+      "publishedAt": "2026-05-29T12:03:00.000Z",
+      "summary": "Stop fumbling for cables in the dark. These WIRED-tested stands and pads will take the hassle out of refueling your phone, wireless earbuds, and watch.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "This AI startup will clean your home for free to train future robots",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/939765/ai-training-data-startup-shift-free-cleaning",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5641,
+      "publishedAt": "2026-05-29T11:58:40.000Z",
+      "summary": "AI training startup Shift wants to clean your home for free. The catch - because, despite what its website says, there's always a catch - is that it will record cleaners as they scrub, vacuum, dust, tidy, and wash, and use that footage to train robots. Shift announced the unusual offer on social med",
+      "tags": [
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Adobe’s conversational AI agent is a mediocre design intern",
+      "url": "https://www.theverge.com/tech/939686/adobes-conversational-ai-agent-is-a-mediocre-design-intern",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5628,
+      "publishedAt": "2026-05-29T11:44:46.000Z",
+      "summary": "AI image tools rarely make me feel like I'm part of the creative process. They are, after all, mostly designed so that people with no design experience can type in a few words and get back a usable result. So I was pleasantly surprised by Adobe's latest take on an AI image assistant: It's a [&#8230;",
+      "tags": [
+        "Agents",
+        "Vision",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Atomically precise mechanosynthesis of carbon structures on hydrogenated Silicon",
       "url": "https://arxiv.org/abs/2605.27250",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.6017,
+      "score": 0.5621,
       "publishedAt": "2026-05-27T11:25:30.000Z",
       "summary": "The ability to build atomically precise structures on surfaces with complete control over both atomic placement and chemical bonding remains a central challenge in nanoscale fabrication. Here, we demonstrate simultaneous spatial and chemical control over the mechanosynthetic fabrication of carbon st",
       "tags": [
@@ -312,11 +489,24 @@
       "engagementScore": 57
     },
     {
+      "title": "This MacBook Privacy Screen Totally Changed How I Work in Public",
+      "url": "https://www.wired.com/story/targus-privacy-screen-travel/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5589,
+      "publishedAt": "2026-05-29T11:01:00.000Z",
+      "summary": "I'm one of those people who enjoy on planes and in public spaces in general. But the issue of privacy was always a hurdle.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "How a new extraction process could unlock the world’s lithium",
       "url": "https://www.technologyreview.com/2026/05/28/1138096/lithium-extraction-rock-zero/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5925,
+      "score": 0.5586,
       "publishedAt": "2026-05-28T18:01:00.000Z",
       "summary": "Researchers say they’ve found a new way to extract lithium, a crucial metal used in the lithium-ion batteries that power electric vehicles and energy storage arrays. This new technique could be more environmentally friendly and cheaper than existing ones.&#160; The research was published today in Sc",
       "tags": [
@@ -326,15 +516,54 @@
       "engagementScore": 0
     },
     {
-      "title": "The Best Espresso Accessories for Home Baristas (2026)",
-      "url": "https://www.wired.com/story/best-espresso-accessories-for-home-baristas/",
+      "title": "HP Omnibook 3 Review: Redefining the Budget Laptop",
+      "url": "https://www.wired.com/review/hp-omnibook-3/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5825,
-      "publishedAt": "2026-05-29T09:36:00.000Z",
-      "summary": "A longtime pro barista’s favorite tools for dialing in the perfect shot at home.",
+      "score": 0.5564,
+      "publishedAt": "2026-05-29T10:32:00.000Z",
+      "summary": "To get to $600, Apple and HP made different compromises. If you demand more power and performance, the HP Omnibook 3 delivers.",
       "tags": [
-        "Dev Tools"
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Physical Media Is Making a Comeback. The Next Console Generation Might Kill It",
+      "url": "https://www.wired.com/story/physical-media-is-having-a-comeback-the-next-console-generation-may-kill-it/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5562,
+      "publishedAt": "2026-05-29T10:30:00.000Z",
+      "summary": "Consoles with disc drives are the easiest way to enjoy all kinds of physical media, but that could end with the next-gen PlayStation 6 and Microsoft's Project Helix.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "GoRuck GR1 Review: Great For Travel, Rucking, the Gym, and More",
+      "url": "https://www.wired.com/story/the-goruck-gr1-is-a-rucking-great-pack/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5537,
+      "publishedAt": "2026-05-29T10:02:00.000Z",
+      "summary": "Built like a tank, the endlessly capable GoRuck GR1 is as close to a do-it-all bag as you can get.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Streamers Like Clavicular Are Humiliating OnlyFans Girls For Clout",
+      "url": "https://www.wired.com/story/streamers-like-clavicular-are-humiliating-onlyfans-girls-for-clout/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5535,
+      "publishedAt": "2026-05-29T10:00:00.000Z",
+      "summary": "Sex workers appear on the livestreams of famous manosphere influencers to boost their followings—but often end up being degraded.",
+      "tags": [
+        "AI"
       ],
       "engagementScore": 0
     },
@@ -343,7 +572,7 @@
       "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.5749,
+      "score": 0.541,
       "publishedAt": "2026-05-28T15:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/KW_KNH.max-600x600.format-webp.webp\"&gt;Here are 12 of the biggest Google I/O 2026 keynote moments, including news about Gemini Omni, Gemini 3.5 Flash and more.",
       "tags": [
@@ -359,7 +588,7 @@
       "url": "https://www.technologyreview.com/2026/05/28/1138085/the-download-climate-tech-ipos-ai-hype-index/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5584,
+      "score": 0.5245,
       "publishedAt": "2026-05-28T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Climate tech companies are going public. What’s next? Solar and battery company Solv Energy went public in February, hitting a $6 billion valuation. X",
       "tags": [
@@ -368,76 +597,11 @@
       "engagementScore": 0
     },
     {
-      "title": "AirDoctor Coupon Codes: 40% Off | June 2026",
-      "url": "https://www.wired.com/story/airdoctor-coupon-code/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5579,
-      "publishedAt": "2026-05-29T05:00:00.000Z",
-      "summary": "Save up to $400 on top air purifiers and filters with verified AirDoctor promo codes and special offers for May 2026.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Meta Quest Promo Codes and Coupons for June 2026",
-      "url": "https://www.wired.com/story/meta-quest-promo-code/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5579,
-      "publishedAt": "2026-05-29T05:00:00.000Z",
-      "summary": "Experience cutting-edge VR and save up to 20% with coupons for the latest games, Meta Quest 3, Ray-Ban AI glasses, and more deals.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Target Promo Code: $50 Off | June 2026",
-      "url": "https://www.wired.com/story/target-promo-code/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5579,
-      "publishedAt": "2026-05-29T05:00:00.000Z",
-      "summary": "Get $50 off your next order or up to 50% off site wide with Target coupon codes and Circle deals.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "eBay Coupons: 20% Off in June 2026",
-      "url": "https://www.wired.com/story/ebay-coupon-code/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5579,
-      "publishedAt": "2026-05-29T05:00:00.000Z",
-      "summary": "Save up to 60% on a selection of items at eBay, including electronics, home products, card games, car parts and more.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Bartesian Discount Codes: 35% Off",
-      "url": "https://www.wired.com/story/bartesian-discount-code/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5579,
-      "publishedAt": "2026-05-29T05:00:00.000Z",
-      "summary": "Upgrade your home bar with the latest Bartesian coupon codes and discounts. Save on the Professional Cocktail Maker, enjoy subscription discounts, and get free shipping on your favorite capsules.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Climate tech companies are going public. What’s next?",
       "url": "https://www.technologyreview.com/2026/05/28/1138067/climate-tech-ipos/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5458,
+      "score": 0.5118,
       "publishedAt": "2026-05-28T10:00:00.000Z",
       "summary": "This year, there’s been a wave of notable energy companies going public via IPO in the US. The solar and battery company Solv Energy went public in February, to the tune of $6 billion. X-energy, which is building small modular nuclear reactors, did the same in April, and its stocks surged on its fir",
       "tags": [
@@ -450,7 +614,7 @@
       "url": "https://www.technologyreview.com/2026/05/28/1138053/the-ai-hype-index-ai-gets-booed-in-graduation-season/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5449,
+      "score": 0.511,
       "publishedAt": "2026-05-28T09:51:11.000Z",
       "summary": "It is one thing to say AI will change the world. It is another to expect the class of 2026 to applaud it. In fact, when former Google CEO Eric Schmidt told University of Arizona graduates that their task is to help shape AI, he was met with a resounding chorus of boos. “I can&#8230;",
       "tags": [
@@ -459,11 +623,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Is AI causing a repeat of Front end's Lost Decade?",
+      "url": "https://mastrojs.github.io/blog/2026-05-23-is-AI-causing-a-repeat-of-frontends-lost-decade/",
+      "feedSource": "Hacker News",
+      "source": "mastrojs.github.io",
+      "score": 0.5109,
+      "publishedAt": "2026-05-29T11:09:32.000Z",
+      "summary": "AI is doing to programming what framework-brain did to the frontend before. Deskilling, or just working at a higher level of abstraction?",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 160
+    },
+    {
       "title": "ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks — by Artificial Analysis and IBM",
       "url": "https://huggingface.co/blog/ibm-research/itbench-aa",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.538,
+      "score": 0.5012,
       "publishedAt": "2026-05-27T17:20:29.000Z",
       "summary": "",
       "tags": [
@@ -473,37 +650,11 @@
       "engagementScore": 0
     },
     {
-      "title": "The GOP’s Attacks on James Talarico Are Straight Out of the Incel Handbook",
-      "url": "https://www.wired.com/story/gop-attacks-on-james-talarico-incel-handbook/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5302,
-      "publishedAt": "2026-05-28T23:49:53.000Z",
-      "summary": "Claims about low testosterone and false accusations of veganism might play well to the online far right, but will they win an election?",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "OpenAI, Grupo Folha and Grupo UOL announce strategic content partnership",
-      "url": "https://openai.com/index/grupo-folha-grupo-uol-partnership",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5124,
-      "publishedAt": "2026-05-25T00:00:00.000Z",
-      "summary": "OpenAI partners with Grupo Folha and Grupo UOL to bring trusted Brazilian journalism to ChatGPT, expanding access to news with attribution and transparency.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Microsoft 365 Copilot gets a speed boost and cleaner design",
       "url": "https://www.theverge.com/tech/939273/microsoft-365-copilot-redesign",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.511,
+      "score": 0.4799,
       "publishedAt": "2026-05-28T20:14:07.000Z",
       "summary": "Microsoft is launching a revamped version of Microsoft 365 Copilot, offering a cleaner design that the company claims loads twice as fast. As part of this update, Copilot will provide more reliable and structured responses that are easier to scan, according to Microsoft. The redesign, which is rolli",
       "tags": [
@@ -512,38 +663,11 @@
       "engagementScore": 0
     },
     {
-      "title": "GitHub bans security researcher who posted zero-day Windows exploits",
-      "url": "https://www.tomshardware.com/tech-industry/cyber-security/microsofts-github-bans-security-researcher-who-posted-zero-day-windows-exploits-because-company-ruined-their-life-expert-claims-action-is-vindictive-and-promises-further-retaliation",
-      "feedSource": "Hacker News",
-      "source": "tomshardware.com",
-      "score": 0.5066,
-      "publishedAt": "2026-05-28T21:45:54.000Z",
-      "summary": "“I will make sure your bones are shattered [on July 14]”",
-      "tags": [
-        "Research",
-        "Open Source"
-      ],
-      "engagementScore": 393
-    },
-    {
-      "title": "The $6 Billion Chinese Startup Trying to Build Hands for Every Robot",
-      "url": "https://www.wired.com/story/made-in-china-the-dollar6-billion-chinese-startup-making-hands-for-humanoids/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5057,
-      "publishedAt": "2026-05-28T19:14:31.000Z",
-      "summary": "LinkerBot makes dexterous robotic hands for as little as $600. It wants to become the standard for humanoids and automated factories—and eventually replace human labor altogether.",
-      "tags": [
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "A $2,000 AI-generated film will make its debut at Tribeca",
       "url": "https://www.theverge.com/entertainment/939067/ai-film-dreams-of-violets-tribeca",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4978,
+      "score": 0.4667,
       "publishedAt": "2026-05-28T17:45:26.000Z",
       "summary": "Next month's Tribeca Festival will include the premiere of an AI-generated film: Dreams of Violets. The 75-minute film is a fictional dramatization of the Iranian government's mass killing of protestors in January, with the people and images fully created by AI, as reported earlier by The Hollywood",
       "tags": [
@@ -552,24 +676,11 @@
       "engagementScore": 0
     },
     {
-      "title": "SF startup is testing robots in Airbnbs, and trashing them, lawsuit claims",
-      "url": "https://sfstandard.com/2026/05/28/sf-startup-secretly-testing-robots-airbnbs-trashing-lawsuit-claims/",
-      "feedSource": "Hacker News",
-      "source": "sfstandard.com",
-      "score": 0.4932,
-      "publishedAt": "2026-05-28T23:42:47.000Z",
-      "summary": "",
-      "tags": [
-        "Industry"
-      ],
-      "engagementScore": 209
-    },
-    {
       "title": "Claude’s new model is more ‘honest’ when it messes up",
       "url": "https://www.theverge.com/ai-artificial-intelligence/939094/anthropic-claude-4-8-opus-honesty-effort",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.492,
+      "score": 0.4609,
       "publishedAt": "2026-05-28T16:41:18.000Z",
       "summary": "Anthropic is releasing Claude Opus 4.8 on Thursday, and the company is touting the model's \"honesty.\" According to Anthropic, it trains \"all [its] models to be honest - for instance, to avoid making claims that they can't support.\" But it notes that \"a general problem with AI models is that they som",
       "tags": [
@@ -583,116 +694,11 @@
       "url": "https://www.theverge.com/streaming/939051/youtube-premium-podcast-features",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4888,
+      "score": 0.4577,
       "publishedAt": "2026-05-28T16:05:00.000Z",
       "summary": "New features coming to YouTube could make it better for listening to podcasts, rolling out to Premium subscribers starting today on Android and coming later to iOS. A new \"on-the-go mode\" shifts YouTube into an audio-first layout, with larger, simplified playback buttons, a still image in place of t",
       "tags": [
         "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "These new iOS 27 renders hint at Siri’s big redesign",
-      "url": "https://www.theverge.com/tech/938915/ios-27-siri-renders-bloomberg",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4811,
-      "publishedAt": "2026-05-28T14:38:32.000Z",
-      "summary": "Apple's long-awaited Siri overhaul, expected to arrive in iOS 27, might look a lot like ChatGPT with a splash of Liquid Glass. Renders from Bloomberg offer a preview of iOS 27, including the new app and chat interface for Siri. The renders are \"based on information viewed by Bloomberg and people wit",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Rivian’s software chief thinks you don&#8217;t need CarPlay or buttons",
-      "url": "https://www.theverge.com/podcast/929940/rivian-wassym-bensaid-software-volkswagen-carplay-assistant-ai",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4809,
-      "publishedAt": "2026-05-28T14:36:37.000Z",
-      "summary": "Today, I’m talking with Wassym Bensaid, the chief software officer at Rivian, and the co-CEO of Rivian’s platform joint venture with Volkswagen, which everyone just calls RV Tech. That joint venture kicked off about a year and a half ago with a nearly $6 billion investment from Volkswagen. It effect",
-      "tags": [
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "CNN sues Perplexity over ‘verbatim’ copycat articles",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/938893/cnn-perplexity-ai-copyright-lawsuit",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4784,
-      "publishedAt": "2026-05-28T14:08:36.000Z",
-      "summary": "CNN has filed a lawsuit against Perplexity, claiming that the startup's AI tools generate \"verbatim\" copies of its work, as reported earlier by CNN. The lawsuit, filed in a New York court on Thursday, also alleges that Perplexity provides users with information locked behind CNN's subscription. Perp",
-      "tags": [
-        "Dev Tools",
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "YouTube will let you ask AI to make a custom video feed",
-      "url": "https://www.theverge.com/streaming/938759/youtube-custom-ai-feed-prompt-availability",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4528,
-      "publishedAt": "2026-05-28T09:21:19.000Z",
-      "summary": "YouTube is launching a new AI feature that creates a personalized video feed based on descriptions of what you want to watch. In its announcement, YouTube says custom content feeds can be built around your specific interests, moods, or favorite topics, which you can then pin to the top of your YouTu",
-      "tags": [
-        "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Reachy Mini goes fully local",
-      "url": "https://huggingface.co/blog/local-reachy-mini-conversation",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.4284,
-      "publishedAt": "2026-05-27T00:00:00.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Shipping a Trillion Parameters With a Hub Bucket: Delta Weight Sync in TRL",
-      "url": "https://huggingface.co/blog/delta-weight-sync",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.4284,
-      "publishedAt": "2026-05-27T00:00:00.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "We’re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks",
-      "url": "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-05-21T19:46:42.000Z",
-      "summary": "The Asia-Pacific region is a global engine for economic growth, but it’s also highly vulnerable to climate change. While green technologies are gaining momentum, a recen…",
-      "tags": [
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Fast-tracking genetic leads to reverse cellular aging",
-      "url": "https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-05-18T18:21:39.000Z",
-      "summary": "Biologists use Co-Scientist to find novel factors that successfully rejuvenate human cells.",
-      "tags": [
-        "AI"
       ],
       "engagementScore": 0
     }
