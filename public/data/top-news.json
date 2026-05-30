@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-29T22:39:04.000Z",
+  "updatedAt": "2026-05-30T03:50:01.343Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,7 +12,7 @@
       "url": "https://www.anthropic.com/news/claude-opus-4-8",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 1.0118,
+      "score": 0.9745,
       "publishedAt": "2026-05-28T16:49:14.000Z",
       "summary": "Our latest model, Claude Opus 4.8, is an upgrade to our Opus class of models, with stronger performance across coding, agentic tasks, and professional work, and the consistency to handle long-running work.",
       "tags": [
@@ -20,14 +20,14 @@
         "Agents",
         "Dev Tools"
       ],
-      "engagementScore": 1717
+      "engagementScore": 1730
     },
     {
       "title": "Boston Children’s uses AI to unlock new diagnoses",
       "url": "https://openai.com/index/boston-childrens-hospital",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9597,
+      "score": 0.9219,
       "publishedAt": "2026-05-29T12:00:00.000Z",
       "summary": "Boston Children’s Hospital uses OpenAI technology to improve patient care, reduce operational burden, and help diagnose more than 40 rare disease cases.",
       "tags": [
@@ -40,7 +40,7 @@
       "url": "https://openai.com/index/braintrust",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9597,
+      "score": 0.9219,
       "publishedAt": "2026-05-29T12:00:00.000Z",
       "summary": "How Braintrust engineers use Codex with GPT-5.5 to run experiments and code faster.",
       "tags": [
@@ -54,7 +54,7 @@
       "url": "https://www.anthropic.com/news/series-h",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.9365,
+      "score": 0.8989,
       "publishedAt": "2026-05-28T18:09:44.000Z",
       "summary": "Anthropic has raised $65 billion in Series H funding led by Altimeter Capital, Dragoneer, Greenoaks, and Sequoia Capital.",
       "tags": [
@@ -63,14 +63,14 @@
         "Dev Tools",
         "Industry"
       ],
-      "engagementScore": 358
+      "engagementScore": 359
     },
     {
       "title": "Strengthening societal resilience with Rosalind Biodefense",
       "url": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8941,
+      "score": 0.8563,
       "publishedAt": "2026-05-29T03:00:00.000Z",
       "summary": "OpenAI launches Rosalind Biodefense, expanding trusted access to GPT-Rosalind for vetted developers and U.S. government partners advancing biodefense, public health, and pandemic preparedness through frontier AI.",
       "tags": [
@@ -84,7 +84,7 @@
       "url": "https://openai.com/index/trustworthy-third-party-evaluations-foundations",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8722,
+      "score": 0.8344,
       "publishedAt": "2026-05-29T00:00:00.000Z",
       "summary": "OpenAI shares guidance on third-party AI evaluations, covering how to assess model capabilities, safeguards, and validity for frontier systems.",
       "tags": [
@@ -94,11 +94,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Orbitals from Entanglement: Quantum Information gives rise to Chemical bonds",
+      "url": "https://arxiv.org/abs/2501.15699",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.7736,
+      "publishedAt": "2026-05-30T00:36:10.000Z",
+      "summary": "Chemical bonding is a nonlocal phenomenon that binds atoms into molecules. Its ubiquitous presence in chemistry, however, stands in stark contrast to its ambiguous definition and the lack of a universal perspective for its understanding. In this work, we rationalize and characterize chemical bonding",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 5
+    },
+    {
       "title": "Behavior-Induced Mirror-Prox Temporal-Difference Learning for Faster Off-Policy Prediction",
       "url": "https://arxiv.org/abs/2605.28849",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7853,
+      "score": 0.75,
       "publishedAt": "2026-05-29T04:00:00.000Z",
       "summary": "arXiv:2605.28849v1 Announce Type: new \nAbstract: Gradient temporal-difference methods provide stable off-policy prediction with linear function approximation, but their practical performance is strongly affected by the geometry induced by the auxiliary-variable metric. Existing Mirror-Prox TD method",
       "tags": [
@@ -113,7 +126,7 @@
       "url": "https://arxiv.org/abs/2605.28855",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7853,
+      "score": 0.75,
       "publishedAt": "2026-05-29T04:00:00.000Z",
       "summary": "arXiv:2605.28855v1 Announce Type: new \nAbstract: Temporal-difference learning with function approximation can be unstable under off-policy sampling. TDC stabilizes off-policy TD through an auxiliary covariance correction, and TDRC further regularizes this correction in a single-timescale recursion.",
       "tags": [
@@ -128,7 +141,7 @@
       "url": "https://arxiv.org/abs/2605.28864",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7853,
+      "score": 0.75,
       "publishedAt": "2026-05-29T04:00:00.000Z",
       "summary": "arXiv:2605.28864v1 Announce Type: new \nAbstract: The Cognitive Categorical Transformer (CCT) is a 306M-parameter architecture that augments a pretrained GPT-2 Small backbone with cognitively grounded components derived from category theory and several inspirations from cognitive science. Under a mat",
       "tags": [
@@ -144,7 +157,7 @@
       "url": "https://arxiv.org/abs/2605.28883",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7853,
+      "score": 0.75,
       "publishedAt": "2026-05-29T04:00:00.000Z",
       "summary": "arXiv:2605.28883v1 Announce Type: new \nAbstract: Tropical forests worldwide are under intense deforestation pressure driven by economic and political interests, and scientific evidence suggests this deforestation contributes to climate change. This paper proposes a novel logging method for tropical",
       "tags": [
@@ -157,7 +170,7 @@
       "url": "https://arxiv.org/abs/2605.28897",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7853,
+      "score": 0.75,
       "publishedAt": "2026-05-29T04:00:00.000Z",
       "summary": "arXiv:2605.28897v1 Announce Type: new \nAbstract: LLM-generated reviews for scientific papers are gaining considerable traction and are even being officially piloted by major conferences. We have to assume that not only reviewers are using LLM-assistance, but also that authors use LLMs to revise thei",
       "tags": [
@@ -172,7 +185,7 @@
       "url": "https://arxiv.org/abs/2605.28902",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7853,
+      "score": 0.75,
       "publishedAt": "2026-05-29T04:00:00.000Z",
       "summary": "arXiv:2605.28902v1 Announce Type: new \nAbstract: Concept erasure has emerged as a promising approach to mitigate undesired or unsafe content in diffusion models, yet existing methods still face significant limitations. While training-based methods are effective, their high computational cost limits",
       "tags": [
@@ -187,7 +200,7 @@
       "url": "https://arxiv.org/abs/2605.28965",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7853,
+      "score": 0.75,
       "publishedAt": "2026-05-29T04:00:00.000Z",
       "summary": "arXiv:2605.28965v1 Announce Type: new \nAbstract: Linking free-text phenotype descriptions to ontology terms, typically referred to as phenotype annotation, is essential for the cross-study integration of comparative morphological data. This labor intensive process has heavily relied on highly traine",
       "tags": [
@@ -202,7 +215,7 @@
       "url": "https://arxiv.org/abs/2605.28978",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7853,
+      "score": 0.75,
       "publishedAt": "2026-05-29T04:00:00.000Z",
       "summary": "arXiv:2605.28978v1 Announce Type: new \nAbstract: Finite Element Analysis (FEA) serves as the cornerstone of modern engineering design. However, its workflow is inherently complex and relies heavily on domain expertise. Although recent efforts have integrated Large Language Models (LLMs) into FEA, ex",
       "tags": [
@@ -218,7 +231,7 @@
       "url": "https://openai.com/index/endava",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7847,
+      "score": 0.7469,
       "publishedAt": "2026-05-28T12:00:00.000Z",
       "summary": "Learn how Endava uses Codex to build an agentic organization, accelerating software delivery and reducing requirements analysis from weeks to hours.",
       "tags": [
@@ -232,7 +245,7 @@
       "url": "https://openai.com/index/openai-frontier-governance-framework",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6972,
+      "score": 0.6594,
       "publishedAt": "2026-05-28T00:00:00.000Z",
       "summary": "Explore OpenAI’s Frontier Governance Framework and how our AI safety, security, and risk practices align with emerging EU and California regulations.",
       "tags": [
@@ -246,7 +259,7 @@
       "url": "https://openai.com/index/mufg",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6972,
+      "score": 0.6594,
       "publishedAt": "2026-05-28T00:00:00.000Z",
       "summary": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
       "tags": [
@@ -259,7 +272,7 @@
       "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.6646,
+      "score": 0.6344,
       "publishedAt": "2026-05-29T19:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOQuiz2026_social.max-600x600.format-webp.webp\"&gt;We used Google AI Studio to vibe code a quiz about our top I/O 2026 announcements.",
       "tags": [
@@ -274,7 +287,7 @@
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.6559,
+      "score": 0.6256,
       "publishedAt": "2026-05-29T17:30:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Omni_and_Gemini_3.5_hero.max-600x600.format-webp.webp\"&gt;Watch 9 videos showing the capabilities of Gemini Omni and Gemini 3.5, announced at Google I/O 2026.",
       "tags": [
@@ -290,7 +303,7 @@
       "url": "https://huggingface.co/blog/torch-profiler",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6519,
+      "score": 0.6192,
       "publishedAt": "2026-05-29T00:00:00.000Z",
       "summary": "",
       "tags": [
@@ -303,7 +316,7 @@
       "url": "https://www.technologyreview.com/2026/05/29/1138110/the-download-lithium-extraction-ebola-ai-pope/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6247,
+      "score": 0.5945,
       "publishedAt": "2026-05-29T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. How a new extraction process could unlock the world’s lithium A new method for extracting lithium could cut costs and emissions from one of the world’",
       "tags": [
@@ -316,7 +329,7 @@
       "url": "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.6238,
+      "score": 0.5935,
       "publishedAt": "2026-05-29T12:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/FutureLabs_social.max-600x600.format-webp.webp\"&gt;University of Waterloo students develop AI prototypes like sign language tutors to reshape the future of education and work.",
       "tags": [
@@ -331,7 +344,7 @@
       "url": "https://www.technologyreview.com/2026/05/29/1138093/the-deadly-ebola-outbreak-is-proving-difficult-to-control/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6199,
+      "score": 0.5896,
       "publishedAt": "2026-05-29T11:19:52.000Z",
       "summary": "The alert was raised on May 5. Four health-care workers in the Ituri Province of the Democratic Republic of the Congo had died from an unknown illness within four days. Rapid response teams were sent to investigate, and tests at a research center in Kinshasa revealed the culprit: the Bundibugyo viru",
       "tags": [
@@ -346,7 +359,7 @@
       "url": "https://www.technologyreview.com/2026/05/29/1138107/how-the-popes-magnifica-humanitas-offers-a-template-for-individuals-to-meet-the-ai-moment/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6121,
+      "score": 0.5819,
       "publishedAt": "2026-05-29T10:00:00.000Z",
       "summary": "Pope Leo XIV’s new encyclical on artificial intelligence includes a statement that warrants serious attention from technologists and policymakers: “Technology is never neutral.” Magnifica Humanitas (“Magnificent Humanity”) is a clarion call to all people to act with courage and solidarity as we ente",
       "tags": [
@@ -356,11 +369,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Shift will clean homes for free to train future robots",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/939765/ai-training-data-startup-shift-free-cleaning",
+      "feedSource": "Hacker News",
+      "source": "theverge.com",
+      "score": 0.5662,
+      "publishedAt": "2026-05-29T19:16:32.000Z",
+      "summary": "The dirtier the better, apparently.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 99
+    },
+    {
       "title": "Cisco and OpenAI redefine enterprise engineering with Codex",
       "url": "https://openai.com/index/cisco",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6024,
+      "score": 0.5646,
       "publishedAt": "2026-05-27T11:00:00.000Z",
       "summary": "Cisco and OpenAI are redefining enterprise engineering with Codex, helping Cisco scale AI-native development, accelerate AI Defense work, and automate defect remediation.",
       "tags": [
@@ -370,24 +396,37 @@
       "engagementScore": 0
     },
     {
+      "title": "24 Best Father’s Day Gifts for Dads (2026)",
+      "url": "https://www.wired.com/story/the-best-gifts-for-dads-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5575,
+      "publishedAt": "2026-05-29T22:44:00.000Z",
+      "summary": "Dads are traditionally tough to shop for—let me help with these handpicked gift ideas for fathers with great taste.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Robinhood now lets your AI agents trade stocks",
       "url": "https://techcrunch.com/2026/05/27/robinhood-now-lets-your-ai-agents-trade-stocks/",
       "feedSource": "Hacker News",
       "source": "techcrunch.com",
-      "score": 0.5798,
+      "score": 0.5548,
       "publishedAt": "2026-05-29T17:46:27.000Z",
       "summary": "",
       "tags": [
         "Agents"
       ],
-      "engagementScore": 85
+      "engagementScore": 91
     },
     {
       "title": "Amazon Is Making an AI-Animated ‘Good Advice Cupcake’ TV Show. Its Original Creator Is Furious",
       "url": "https://www.wired.com/story/story/amazon-is-making-an-ai-animated-good-advice-cupcake-tv-show-its-original-creator-is-furious/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5756,
+      "score": 0.5479,
       "publishedAt": "2026-05-29T20:56:59.000Z",
       "summary": "Loryn Brantz created The Good Advice Cupcake for BuzzFeed years ago. The company licensed the character for a new Amazon series—made with AI—without her consent.",
       "tags": [
@@ -400,7 +439,7 @@
       "url": "https://www.wired.com/story/white-house-aliens-gov-us-citizens-arrested/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5753,
+      "score": 0.5476,
       "publishedAt": "2026-05-29T20:53:09.000Z",
       "summary": "The website, which compares human beings to extraterrestrials, touts arrest numbers from the Trump administration’s sweeping immigration crackdown. But some of its details are really out there.",
       "tags": [
@@ -413,7 +452,7 @@
       "url": "https://www.wired.com/story/meta-covalen-protest-strike-dublin/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5722,
+      "score": 0.5445,
       "publishedAt": "2026-05-29T20:18:01.000Z",
       "summary": "Soon-to-be-laid-off Meta contractors say they’re being treated differently than Mark Zuckerberg’s full-time employees, who stand to receive more generous severance packages.",
       "tags": [
@@ -426,7 +465,7 @@
       "url": "https://www.wired.com/story/google-gemini-spark-ai-agent-hands-on/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5659,
+      "score": 0.5382,
       "publishedAt": "2026-05-29T19:07:46.000Z",
       "summary": "Google’s new AI agent combed through my emails, documents, and calendar to plan a birthday party and still didn’t clock the person most important to me.",
       "tags": [
@@ -436,24 +475,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Shift will clean homes for free to train future robots",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/939765/ai-training-data-startup-shift-free-cleaning",
-      "feedSource": "Hacker News",
-      "source": "theverge.com",
-      "score": 0.5634,
-      "publishedAt": "2026-05-29T19:16:32.000Z",
-      "summary": "The dirtier the better, apparently.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 46
-    },
-    {
       "title": "The Best Robotic Pool Cleaners of 2026: Beatbot, iGarden, Dreame",
       "url": "https://www.wired.com/story/best-pool-cleaning-robots/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.558,
+      "score": 0.5303,
       "publishedAt": "2026-05-29T17:39:04.000Z",
       "summary": "Send the pool guy packing. Let one of these robotic buddies maintain your water quality instead.",
       "tags": [
@@ -466,7 +492,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/940007/ai-companies-will-pay-for-robot-training-data",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5579,
+      "score": 0.5302,
       "publishedAt": "2026-05-29T17:37:43.000Z",
       "summary": "This week, an AI training startup called Shift said it would clean New Yorkers' homes for free. It has plans to expand into other cities as well, including London, and looking around my flat, I get the appeal. But there's a catch. There's always a catch. In exchange for the cleaning, Shift wants foo",
       "tags": [
@@ -479,7 +505,7 @@
       "url": "https://www.wired.com/story/future-of-truth-ai-interview/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5519,
+      "score": 0.5241,
       "publishedAt": "2026-05-29T16:30:00.000Z",
       "summary": "A book about how AI shapes perceptions of reality came under fire for using AI-generated quotes. Its problems go beyond that.",
       "tags": [
@@ -492,7 +518,7 @@
       "url": "https://www.wired.com/review/samsung-movingstyle-32-m7/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5485,
+      "score": 0.5208,
       "publishedAt": "2026-05-29T15:52:17.000Z",
       "summary": "Made for those who hate having a TV in the home, Samsung’s Movingstyle monitor-on-wheels brings the entertainment when you need it and hides away in a closet when you don’t.",
       "tags": [
@@ -501,37 +527,38 @@
       "engagementScore": 0
     },
     {
-      "title": "Please Use AI",
-      "url": "https://shawnsmucker.substack.com/p/please-use-ai",
+      "title": "The California state assembly has passed the 'Protect Our Games Act'",
+      "url": "https://www.invenglobal.com/articles/22330/stop-killing-games-movement-gains-momentum-california-assembly-passes-game-protection-bill",
       "feedSource": "Hacker News",
-      "source": "shawnsmucker.substack.com",
-      "score": 0.5443,
-      "publishedAt": "2026-05-29T13:50:25.000Z",
-      "summary": "Be sure to use AI when making",
+      "source": "invenglobal.com",
+      "score": 0.5041,
+      "publishedAt": "2026-05-29T19:55:56.000Z",
+      "summary": "©California State LegislatureThe ‘Stop Killing Games’ movement, which advocates for the right to continue playing games even after service termination, has achieved a significant legislative milestone in the U.S.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 700
+      "engagementScore": 204
     },
     {
-      "title": "The Vatican’s Man Inside Anthropic",
-      "url": "https://www.wired.com/story/the-vaticans-man-inside-anthropic/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5438,
-      "publishedAt": "2026-05-29T15:00:00.000Z",
-      "summary": "Pope Leo XIV may not be able to disarm AI, but he’s got the attention of the industry.",
+      "title": "Notes from the Mistral AI Now Summit",
+      "url": "https://koenvangilst.nl/lab/mistral-ai-now-summit",
+      "feedSource": "Hacker News",
+      "source": "koenvangilst.nl",
+      "score": 0.5027,
+      "publishedAt": "2026-05-29T16:22:01.000Z",
+      "summary": "A few days in Paris for the Mistral AI Now Summit: open models, on-prem deployment, agentic harnesses, and why Mistral wants to be the European full-stack AI partner.",
       "tags": [
-        "LLM"
+        "LLM",
+        "Agents"
       ],
-      "engagementScore": 0
+      "engagementScore": 317
     },
     {
       "title": "Jony Ive’s funky Ferrari",
       "url": "https://www.theverge.com/podcast/939589/ferrari-luce-jony-ive-vergecast",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.53,
+      "score": 0.5023,
       "publishedAt": "2026-05-29T12:25:12.000Z",
       "summary": "Most people will never own, drive, or even sit inside a Ferrari Luce. (If you can, or do… hit us up.) There's still no question that Ferrari's first electric vehicle is one of the most interesting, surprising cars of the year. With a decidedly un-Ferrari look, and lots of new technology and designs",
       "tags": [
@@ -544,7 +571,7 @@
       "url": "https://www.theverge.com/tech/939686/adobes-conversational-ai-agent-is-a-mediocre-design-intern",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5264,
+      "score": 0.4987,
       "publishedAt": "2026-05-29T11:44:46.000Z",
       "summary": "AI image tools rarely make me feel like I'm part of the creative process. They are, after all, mostly designed so that people with no design experience can type in a few words and get back a usable result. So I was pleasantly surprised by Adobe's latest take on an AI image assistant: It's a [&#8230;",
       "tags": [
@@ -555,25 +582,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Notes from the Mistral AI Now Summit in Paris",
-      "url": "https://koenvangilst.nl/lab/mistral-ai-now-summit",
-      "feedSource": "Hacker News",
-      "source": "koenvangilst.nl",
-      "score": 0.5236,
-      "publishedAt": "2026-05-29T16:22:01.000Z",
-      "summary": "A few days in Paris for the Mistral AI Now Summit: open models, on-prem deployment, agentic harnesses, and why Mistral wants to be the European full-stack AI partner.",
-      "tags": [
-        "LLM",
-        "Agents"
-      ],
-      "engagementScore": 282
-    },
-    {
       "title": "How a new extraction process could unlock the world’s lithium",
       "url": "https://www.technologyreview.com/2026/05/28/1138096/lithium-extraction-rock-zero/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5189,
+      "score": 0.4886,
       "publishedAt": "2026-05-28T18:01:00.000Z",
       "summary": "Researchers say they’ve found a new way to extract lithium, a crucial metal used in the lithium-ion batteries that power electric vehicles and energy storage arrays. This new technique could be more environmentally friendly and cheaper than existing ones.&#160; The research was published today in Sc",
       "tags": [
@@ -583,24 +596,24 @@
       "engagementScore": 0
     },
     {
-      "title": "The California state assembly has passed the 'Protect Our Games Act'",
-      "url": "https://www.invenglobal.com/articles/22330/stop-killing-games-movement-gains-momentum-california-assembly-passes-game-protection-bill",
+      "title": "Show HN: Tiny-vLLM – high performance LLM inference engine in C++ and CUDA",
+      "url": "https://github.com/jmaczan/tiny-vllm",
       "feedSource": "Hacker News",
-      "source": "invenglobal.com",
-      "score": 0.5156,
-      "publishedAt": "2026-05-29T19:55:56.000Z",
-      "summary": "©California State LegislatureThe ‘Stop Killing Games’ movement, which advocates for the right to continue playing games even after service termination, has achieved a significant legislative milestone in the U.S.",
+      "source": "github.com",
+      "score": 0.4786,
+      "publishedAt": "2026-05-29T19:38:27.000Z",
+      "summary": "Build your own high performance LLM inference engine in C++ and CUDA - a smaller version of vLLM - jmaczan/tiny-vllm",
       "tags": [
-        "AI"
+        "LLM"
       ],
-      "engagementScore": 140
+      "engagementScore": 105
     },
     {
       "title": "Catch up on 12 major I/O 2026 moments",
       "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.5013,
+      "score": 0.471,
       "publishedAt": "2026-05-28T15:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/KW_KNH.max-600x600.format-webp.webp\"&gt;Here are 12 of the biggest Google I/O 2026 keynote moments, including news about Gemini Omni, Gemini 3.5 Flash and more.",
       "tags": [
@@ -612,24 +625,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Is AI causing a repeat of frontend’s lost decade?",
-      "url": "https://mastrojs.github.io/blog/2026-05-23-is-AI-causing-a-repeat-of-frontends-lost-decade/",
-      "feedSource": "Hacker News",
-      "source": "mastrojs.github.io",
-      "score": 0.4951,
-      "publishedAt": "2026-05-29T11:09:32.000Z",
-      "summary": "AI is doing to programming what framework-brain did to the frontend before. Deskilling, or just working at a higher level of abstraction?",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 258
-    },
-    {
       "title": "The Download: climate tech goes public and the AI Hype Index returns",
       "url": "https://www.technologyreview.com/2026/05/28/1138085/the-download-climate-tech-ipos-ai-hype-index/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4847,
+      "score": 0.4545,
       "publishedAt": "2026-05-28T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Climate tech companies are going public. What’s next? Solar and battery company Solv Energy went public in February, hitting a $6 billion valuation. X",
       "tags": [
@@ -642,7 +642,7 @@
       "url": "https://www.technologyreview.com/2026/05/28/1138067/climate-tech-ipos/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4721,
+      "score": 0.4419,
       "publishedAt": "2026-05-28T10:00:00.000Z",
       "summary": "This year, there’s been a wave of notable energy companies going public via IPO in the US. The solar and battery company Solv Energy went public in February, to the tune of $6 billion. X-energy, which is building small modular nuclear reactors, did the same in April, and its stocks surged on its fir",
       "tags": [
@@ -655,7 +655,7 @@
       "url": "https://www.technologyreview.com/2026/05/28/1138053/the-ai-hype-index-ai-gets-booed-in-graduation-season/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4712,
+      "score": 0.441,
       "publishedAt": "2026-05-28T09:51:11.000Z",
       "summary": "It is one thing to say AI will change the world. It is another to expect the class of 2026 to applaud it. In fact, when former Google CEO Eric Schmidt told University of Arizona graduates that their task is to help shape AI, he was met with a resounding chorus of boos. “I can&#8230;",
       "tags": [
@@ -668,7 +668,7 @@
       "url": "https://huggingface.co/blog/ibm-research/itbench-aa",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.4582,
+      "score": 0.4254,
       "publishedAt": "2026-05-27T17:20:29.000Z",
       "summary": "",
       "tags": [
@@ -678,28 +678,28 @@
       "engagementScore": 0
     },
     {
-      "title": "Microsoft 365 Copilot gets a speed boost and cleaner design",
-      "url": "https://www.theverge.com/tech/939273/microsoft-365-copilot-redesign",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4435,
-      "publishedAt": "2026-05-28T20:14:07.000Z",
-      "summary": "Microsoft is launching a revamped version of Microsoft 365 Copilot, offering a cleaner design that the company claims loads twice as fast. As part of this update, Copilot will provide more reliable and structured responses that are easier to scan, according to Microsoft. The redesign, which is rolli",
+      "title": "We’re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks",
+      "url": "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/",
+      "feedSource": "DeepMind",
+      "source": "deepmind.google",
+      "score": 0.4222,
+      "publishedAt": "2026-05-21T19:46:42.000Z",
+      "summary": "The Asia-Pacific region is a global engine for economic growth, but it’s also highly vulnerable to climate change. While green technologies are gaining momentum, a recen…",
       "tags": [
-        "Dev Tools"
+        "Safety"
       ],
       "engagementScore": 0
     },
     {
-      "title": "A $2,000 AI-generated film will make its debut at Tribeca",
-      "url": "https://www.theverge.com/entertainment/939067/ai-film-dreams-of-violets-tribeca",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4302,
-      "publishedAt": "2026-05-28T17:45:26.000Z",
-      "summary": "Next month's Tribeca Festival will include the premiere of an AI-generated film: Dreams of Violets. The 75-minute film is a fictional dramatization of the Iranian government's mass killing of protestors in January, with the people and images fully created by AI, as reported earlier by The Hollywood",
+      "title": "Fast-tracking genetic leads to reverse cellular aging",
+      "url": "https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/",
+      "feedSource": "DeepMind",
+      "source": "deepmind.google",
+      "score": 0.4222,
+      "publishedAt": "2026-05-18T18:21:39.000Z",
+      "summary": "Biologists use Co-Scientist to find novel factors that successfully rejuvenate human cells.",
       "tags": [
-        "Vision"
+        "AI"
       ],
       "engagementScore": 0
     }
