@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-31T04:14:46.133Z",
+  "updatedAt": "2026-05-31T08:51:56.037Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,11 +8,24 @@
   ],
   "items": [
     {
+      "title": "A pictorial introduction to differential geometry (2017)",
+      "url": "https://arxiv.org/abs/1709.08492",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.8542,
+      "publishedAt": "2026-05-31T05:30:18.000Z",
+      "summary": "In this article we present pictorially the foundation of differential geometry which is a crucial tool for multiple areas of physics, notably general and special relativity, but also mechanics, thermodynamics and solving differential equations. As all the concepts are presented as pictures, there ar",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 25
+    },
+    {
       "title": "Rotary GPU: Exploring Local Execution for Large MoE Models Under Limited VRAM",
       "url": "https://arxiv.org/abs/2605.29135",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8342,
+      "score": 0.8182,
       "publishedAt": "2026-05-30T21:05:40.000Z",
       "summary": "Large language models have achieved remarkable capabilities through scaling, and this paper does not challenge that. It instead investigates a different question: once large models already exist, can they become more accessible to environments with substantially smaller hardware resources? The motiv",
       "tags": [
@@ -20,14 +33,14 @@
         "Research",
         "Industry"
       ],
-      "engagementScore": 28
+      "engagementScore": 38
     },
     {
       "title": "Claude Opus 4.8",
       "url": "https://www.anthropic.com/news/claude-opus-4-8",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.7969,
+      "score": 0.7633,
       "publishedAt": "2026-05-28T16:49:14.000Z",
       "summary": "Our latest model, Claude Opus 4.8, is an upgrade to our Opus class of models, with stronger performance across coding, agentic tasks, and professional work, and the consistency to handle long-running work.",
       "tags": [
@@ -35,14 +48,14 @@
         "Agents",
         "Dev Tools"
       ],
-      "engagementScore": 1744
+      "engagementScore": 1746
     },
     {
       "title": "Boston Children’s uses AI to unlock new diagnoses",
       "url": "https://openai.com/index/boston-childrens-hospital",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7439,
+      "score": 0.7102,
       "publishedAt": "2026-05-29T12:00:00.000Z",
       "summary": "Boston Children’s Hospital uses OpenAI technology to improve patient care, reduce operational burden, and help diagnose more than 40 rare disease cases.",
       "tags": [
@@ -55,7 +68,7 @@
       "url": "https://openai.com/index/braintrust",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7439,
+      "score": 0.7102,
       "publishedAt": "2026-05-29T12:00:00.000Z",
       "summary": "How Braintrust engineers use Codex with GPT-5.5 to run experiments and code faster.",
       "tags": [
@@ -69,7 +82,7 @@
       "url": "https://www.anthropic.com/news/series-h",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.7212,
+      "score": 0.6876,
       "publishedAt": "2026-05-28T18:09:44.000Z",
       "summary": "Anthropic has raised $65 billion in Series H funding led by Altimeter Capital, Dragoneer, Greenoaks, and Sequoia Capital.",
       "tags": [
@@ -78,14 +91,14 @@
         "Dev Tools",
         "Industry"
       ],
-      "engagementScore": 361
+      "engagementScore": 362
     },
     {
       "title": "Strengthening societal resilience with Rosalind Biodefense",
       "url": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6783,
+      "score": 0.6446,
       "publishedAt": "2026-05-29T03:00:00.000Z",
       "summary": "OpenAI launches Rosalind Biodefense, expanding trusted access to GPT-Rosalind for vetted developers and U.S. government partners advancing biodefense, public health, and pandemic preparedness through frontier AI.",
       "tags": [
@@ -99,7 +112,7 @@
       "url": "https://openai.com/index/trustworthy-third-party-evaluations-foundations",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6564,
+      "score": 0.6227,
       "publishedAt": "2026-05-29T00:00:00.000Z",
       "summary": "OpenAI shares guidance on third-party AI evaluations, covering how to assess model capabilities, safeguards, and validity for frontier systems.",
       "tags": [
@@ -109,38 +122,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Orbitals from Entanglement: Quantum Information gives rise to Chemical bonds",
-      "url": "https://arxiv.org/abs/2501.15699",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.6518,
-      "publishedAt": "2026-05-30T00:36:10.000Z",
-      "summary": "Chemical bonding is a nonlocal phenomenon that binds atoms into molecules. Its ubiquitous presence in chemistry, however, stands in stark contrast to its ambiguous definition and the lack of a universal perspective for its understanding. In this work, we rationalize and characterize chemical bonding",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 12
-    },
-    {
-      "title": "Step 3.7 Flash – 198B-A11B MoE vision-language model",
-      "url": "https://huggingface.co/stepfun-ai/Step-3.7-Flash",
-      "feedSource": "Hacker News",
-      "source": "huggingface.co",
-      "score": 0.6464,
-      "publishedAt": "2026-05-30T21:51:37.000Z",
-      "summary": "",
-      "tags": [
-        "LLM",
-        "Vision"
-      ],
-      "engagementScore": 5
-    },
-    {
       "title": "How Endava builds an agentic organization with Codex",
       "url": "https://openai.com/index/endava",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.5689,
+      "score": 0.5352,
       "publishedAt": "2026-05-28T12:00:00.000Z",
       "summary": "Learn how Endava uses Codex to build an agentic organization, accelerating software delivery and reducing requirements analysis from weeks to hours.",
       "tags": [
@@ -154,39 +140,26 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/938844/ai-tiktok-shop-blackface-shein-dropshipping",
       "feedSource": "Hacker News",
       "source": "theverge.com",
-      "score": 0.5438,
+      "score": 0.5325,
       "publishedAt": "2026-05-31T00:23:33.000Z",
       "summary": "Can race, guilt, and empathy get you to pay $40 for this $9 belt buckle on TikTok?",
       "tags": [
         "AI"
       ],
-      "engagementScore": 30
+      "engagementScore": 42
     },
     {
       "title": "Domain expertise has always been the real moat",
       "url": "https://www.brethorsting.com/blog/2026/05/domain-expertise-has-always-been-the-real-moat/",
       "feedSource": "Hacker News",
       "source": "brethorsting.com",
-      "score": 0.5258,
+      "score": 0.5195,
       "publishedAt": "2026-05-30T20:40:57.000Z",
       "summary": "Personal website for Aaron Brethorst - Seattleite, technology leader, photographer, transit enthusiast, erstwhile non-runner.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 355
-    },
-    {
-      "title": "Meta is reportedly developing an AI pendant",
-      "url": "https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/",
-      "feedSource": "Hacker News",
-      "source": "techcrunch.com",
-      "score": 0.5155,
-      "publishedAt": "2026-05-30T19:05:29.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 30
+      "engagementScore": 555
     },
     {
       "title": "OpenAI’s Frontier Governance Framework",
@@ -230,11 +203,37 @@
       "engagementScore": 0
     },
     {
+      "title": "OpenRouter raises $113M Series B",
+      "url": "https://openrouter.ai/announcements/series-b",
+      "feedSource": "Hacker News",
+      "source": "openrouter.ai",
+      "score": 0.4931,
+      "publishedAt": "2026-05-30T17:27:28.000Z",
+      "summary": "OpenRouter has raised a $113M Series B led by CapitalG, with participation from NVentures, ServiceNow Ventures, MongoDB Ventures, Snowflake Ventures, Databricks",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 413
+    },
+    {
+      "title": "EY Canada published a cybersecurity report and most citations were hallucinated",
+      "url": "https://gptzero.me/investigations/ey",
+      "feedSource": "Hacker News",
+      "source": "gptzero.me",
+      "score": 0.4889,
+      "publishedAt": "2026-05-30T19:02:54.000Z",
+      "summary": "An investigation into fabricated citations and broken references in EY’s “Points of Attack” cybersecurity report on loyalty system fraud.",
+      "tags": [
+        "Industry"
+      ],
+      "engagementScore": 297
+    },
+    {
       "title": "Keychron K2 HE Concrete Edition Review: Rock-Solid Typing",
       "url": "https://www.wired.com/review/keychron-k2-he-concrete-edition/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4925,
+      "score": 0.4678,
       "publishedAt": "2026-05-30T11:00:00.000Z",
       "summary": "Keychron's K2 HE Concrete Edition sounds like a cute gimmick, but as I discovered, there's a really solid keyboard beyond the absurd choice of materials.",
       "tags": [
@@ -247,7 +246,7 @@
       "url": "https://www.wired.com/story/backrooms-movie-kane-parsons-interview/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4925,
+      "score": 0.4678,
       "publishedAt": "2026-05-30T11:00:00.000Z",
       "summary": "Kane Parsons was just 16 years old when he created a viral YouTube horror series based on a 4chan meme. Now he’s ready to conquer the big screen.",
       "tags": [
@@ -256,26 +255,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
-      "feedSource": "Google AI",
-      "source": "blog.google",
-      "score": 0.492,
-      "publishedAt": "2026-05-29T19:00:00.000Z",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOQuiz2026_social.max-600x600.format-webp.webp\"&gt;We used Google AI Studio to vibe code a quiz about our top I/O 2026 announcements.",
-      "tags": [
-        "RAG",
-        "Vision",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Tello Mobile Plan Review (2026): Low Cost, Reliable Service",
       "url": "https://www.wired.com/review/tello-mobile-custom-plans/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4907,
+      "score": 0.466,
       "publishedAt": "2026-05-30T10:39:00.000Z",
       "summary": "With inflation and gas prices rising, I’m trying to save money wherever I can. I tested Tello’s budget cell phone plan, and for me, it turns out prepaid can be just as good.",
       "tags": [
@@ -288,7 +272,7 @@
       "url": "https://www.wired.com/story/security-news-this-week-cybercrime-crew-claims-it-hacked-mike-lindells-mypillow/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4899,
+      "score": 0.4652,
       "publishedAt": "2026-05-30T10:30:00.000Z",
       "summary": "Plus: A ransomware group is now stealing data in person, BusPatrol wants to hand its license plate surveillance data to the cops, and more.",
       "tags": [
@@ -297,11 +281,26 @@
       "engagementScore": 0
     },
     {
+      "title": "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
+      "feedSource": "Google AI",
+      "source": "blog.google",
+      "score": 0.465,
+      "publishedAt": "2026-05-29T19:00:00.000Z",
+      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOQuiz2026_social.max-600x600.format-webp.webp\"&gt;We used Google AI Studio to vibe code a quiz about our top I/O 2026 announcements.",
+      "tags": [
+        "RAG",
+        "Vision",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Quilts Are Better Than Sleeping Bags",
       "url": "https://www.wired.com/story/quilts-are-better-than-sleeping-bags/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4875,
+      "score": 0.4628,
       "publishedAt": "2026-05-30T10:04:00.000Z",
       "summary": "Tired of sleeping like a mummy in a bag? Improve your backcountry sleep and carry less weight with an ultralight quilt.",
       "tags": [
@@ -314,7 +313,7 @@
       "url": "https://www.wired.com/story/millions-of-bees-have-thrived-under-a-new-york-cemetery-for-more-than-a-century/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4872,
+      "score": 0.4625,
       "publishedAt": "2026-05-30T10:00:00.000Z",
       "summary": "A walk in the cemetery led to Cornell researchers discovering an underground colony of bees with an estimated population of 5.5 million—one of the largest ever recorded.",
       "tags": [
@@ -327,9 +326,22 @@
       "url": "https://www.wired.com/story/do-you-actually-need-to-pay-for-transcription-software/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4845,
+      "score": 0.4598,
       "publishedAt": "2026-05-30T09:30:00.000Z",
       "summary": "I tested Wispr Flow and various AI-powered transcription software to see whether you should bother subscribing or stick with free services.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Is the Ferrari Luce’s Design Really That Bad? 3 Italian Auto Experts Weigh In",
+      "url": "https://www.wired.com/story/is-the-ferrari-luce-design-really-bad-we-ask-3-italian-auto-experts/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4571,
+      "publishedAt": "2026-05-30T09:00:00.000Z",
+      "summary": "The first electric Ferrari is already this year’s most divisive car. We asked three Italian auto industry professionals to explain where the EV’s design makes sense, and where it doesn’t add up.",
       "tags": [
         "AI"
       ],
@@ -340,7 +352,7 @@
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.4832,
+      "score": 0.4563,
       "publishedAt": "2026-05-29T17:30:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Omni_and_Gemini_3.5_hero.max-600x600.format-webp.webp\"&gt;Watch 9 videos showing the capabilities of Gemini Omni and Gemini 3.5, announced at Google I/O 2026.",
       "tags": [
@@ -352,24 +364,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Is the Ferrari Luce’s Design Really That Bad? 3 Italian Auto Experts Weigh In",
-      "url": "https://www.wired.com/story/is-the-ferrari-luce-design-really-bad-we-ask-3-italian-auto-experts/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4818,
-      "publishedAt": "2026-05-30T09:00:00.000Z",
-      "summary": "The first electric Ferrari is already this year’s most divisive car. We asked three Italian auto industry professionals to explain where the EV’s design makes sense, and where it doesn’t add up.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Profiling in PyTorch (Part 1): A Beginner&apos;s Guide to torch.profiler",
       "url": "https://huggingface.co/blog/torch-profiler",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.4649,
+      "score": 0.4357,
       "publishedAt": "2026-05-29T00:00:00.000Z",
       "summary": "",
       "tags": [
@@ -382,7 +381,7 @@
       "url": "https://www.technologyreview.com/2026/05/29/1138110/the-download-lithium-extraction-ebola-ai-pope/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4521,
+      "score": 0.4252,
       "publishedAt": "2026-05-29T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. How a new extraction process could unlock the world’s lithium A new method for extracting lithium could cut costs and emissions from one of the world’",
       "tags": [
@@ -395,42 +394,13 @@
       "url": "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.4511,
+      "score": 0.4242,
       "publishedAt": "2026-05-29T12:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/FutureLabs_social.max-600x600.format-webp.webp\"&gt;University of Waterloo students develop AI prototypes like sign language tutors to reshape the future of education and work.",
       "tags": [
         "RAG",
         "Vision",
         "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The deadly Ebola outbreak is proving difficult to control",
-      "url": "https://www.technologyreview.com/2026/05/29/1138093/the-deadly-ebola-outbreak-is-proving-difficult-to-control/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.4472,
-      "publishedAt": "2026-05-29T11:19:52.000Z",
-      "summary": "The alert was raised on May 5. Four health-care workers in the Ituri Province of the Democratic Republic of the Congo had died from an unknown illness within four days. Rapid response teams were sent to investigate, and tests at a research center in Kinshasa revealed the culprit: the Bundibugyo viru",
-      "tags": [
-        "Research",
-        "Dev Tools",
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "How the Pope’s Magnifica Humanitas offers a template for individuals to meet the AI moment",
-      "url": "https://www.technologyreview.com/2026/05/29/1138107/how-the-popes-magnifica-humanitas-offers-a-template-for-individuals-to-meet-the-ai-moment/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.4395,
-      "publishedAt": "2026-05-29T10:00:00.000Z",
-      "summary": "Pope Leo XIV’s new encyclical on artificial intelligence includes a statement that warrants serious attention from technologists and policymakers: “Technology is never neutral.” Magnifica Humanitas (“Magnificent Humanity”) is a clarion call to all people to act with courage and solidarity as we ente",
-      "tags": [
-        "RAG",
-        "Safety"
       ],
       "engagementScore": 0
     },
@@ -480,7 +450,7 @@
       "source": "deepmind.google",
       "score": 0.4222,
       "publishedAt": "2026-05-17T19:50:57.000Z",
-      "summary": "Introducing Gemini Omni, which allows you to create anything from any input and edit naturally using conversational language.",
+      "summary": "",
       "tags": [
         "LLM"
       ],
@@ -493,7 +463,7 @@
       "source": "deepmind.google",
       "score": 0.4222,
       "publishedAt": "2026-05-17T19:43:45.000Z",
-      "summary": "Introducing Google Antigravity 2.0",
+      "summary": "",
       "tags": [
         "AI"
       ],
@@ -541,11 +511,40 @@
       "engagementScore": 0
     },
     {
+      "title": "The deadly Ebola outbreak is proving difficult to control",
+      "url": "https://www.technologyreview.com/2026/05/29/1138093/the-deadly-ebola-outbreak-is-proving-difficult-to-control/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.4203,
+      "publishedAt": "2026-05-29T11:19:52.000Z",
+      "summary": "The alert was raised on May 5. Four health-care workers in the Ituri Province of the Democratic Republic of the Congo had died from an unknown illness within four days. Rapid response teams were sent to investigate, and tests at a research center in Kinshasa revealed the culprit: the Bundibugyo viru",
+      "tags": [
+        "Research",
+        "Dev Tools",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "How the Pope’s Magnifica Humanitas offers a template for individuals to meet the AI moment",
+      "url": "https://www.technologyreview.com/2026/05/29/1138107/how-the-popes-magnifica-humanitas-offers-a-template-for-individuals-to-meet-the-ai-moment/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.4125,
+      "publishedAt": "2026-05-29T10:00:00.000Z",
+      "summary": "Pope Leo XIV’s new encyclical on artificial intelligence includes a statement that warrants serious attention from technologists and policymakers: “Technology is never neutral.” Magnifica Humanitas (“Magnificent Humanity”) is a clarion call to all people to act with courage and solidarity as we ente",
+      "tags": [
+        "RAG",
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Tech companies desperately want to film you doing chores",
       "url": "https://www.theverge.com/ai-artificial-intelligence/940007/ai-companies-will-pay-for-robot-training-data",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.3996,
+      "score": 0.3749,
       "publishedAt": "2026-05-29T17:37:43.000Z",
       "summary": "This week, an AI training startup called Shift said it would clean New Yorkers' homes for free. It has plans to expand into other cities as well, including London, and looking around my flat, I get the appeal. But there's a catch. There's always a catch. In exchange for the cleaning, Shift wants foo",
       "tags": [
@@ -558,7 +557,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/940001/elon-musk-spacex-ipo-ai",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.3991,
+      "score": 0.3744,
       "publishedAt": "2026-05-29T17:31:41.000Z",
       "summary": "I haven't seen anything as stupid as the WeWork IPO document in a very long time - that is, until Elon Musk filed to take SpaceX public. WeWork was a joke. SpaceX is a threat. And if Musk and his bankers have their way, you are going to be their bagholder. Lots of the top-line [&#8230;]",
       "tags": [
@@ -571,7 +570,7 @@
       "url": "https://www.theverge.com/tech/938245/past-maps-website-google-zero-ai",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.3831,
+      "score": 0.3584,
       "publishedAt": "2026-05-29T14:32:11.000Z",
       "summary": "Craig Campbell walked away from the river of investor money flowing into AI to create, of all things, a website. Sure, Campbell probably could have started an AI company. He's a former engineer at Meta and an experienced tech founder who in 2022 sold his last venture - an e-commerce tool for busines",
       "tags": [
@@ -585,7 +584,7 @@
       "url": "https://www.theverge.com/podcast/939589/ferrari-luce-jony-ive-vergecast",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.3718,
+      "score": 0.3471,
       "publishedAt": "2026-05-29T12:25:12.000Z",
       "summary": "Most people will never own, drive, or even sit inside a Ferrari Luce. (If you can, or do… hit us up.) There's still no question that Ferrari's first electric vehicle is one of the most interesting, surprising cars of the year. With a decidedly un-Ferrari look, and lots of new technology and designs",
       "tags": [
@@ -598,27 +597,13 @@
       "url": "https://www.theverge.com/tech/939686/adobes-conversational-ai-agent-is-a-mediocre-design-intern",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.3682,
+      "score": 0.3435,
       "publishedAt": "2026-05-29T11:44:46.000Z",
       "summary": "AI image tools rarely make me feel like I'm part of the creative process. They are, after all, mostly designed so that people with no design experience can type in a few words and get back a usable result. So I was pleasantly surprised by Adobe's latest take on an AI image assistant: It's a [&#8230;",
       "tags": [
         "Agents",
         "Vision",
         "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "How a new extraction process could unlock the world’s lithium",
-      "url": "https://www.technologyreview.com/2026/05/28/1138096/lithium-extraction-rock-zero/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.3462,
-      "publishedAt": "2026-05-28T18:01:00.000Z",
-      "summary": "Researchers say they’ve found a new way to extract lithium, a crucial metal used in the lithium-ion batteries that power electric vehicles and energy storage arrays. This new technique could be more environmentally friendly and cheaper than existing ones.&#160; The research was published today in Sc",
-      "tags": [
-        "Research",
-        "RAG"
       ],
       "engagementScore": 0
     },
@@ -686,6 +671,19 @@
       "tags": [
         "LLM",
         "Vision"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Specialization Beats Scale: A Strategic Variable Most AI Procurement Decisions Overlook",
+      "url": "https://huggingface.co/blog/Dharma-AI/specialization-beats-scale",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.3401,
+      "publishedAt": "2026-05-22T15:25:59.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
       ],
       "engagementScore": 0
     }
