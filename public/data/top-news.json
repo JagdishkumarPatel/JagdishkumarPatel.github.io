@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-02T23:04:37.917Z",
+  "updatedAt": "2026-06-03T04:41:42.292Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,35 +12,34 @@
       "url": "https://www.anthropic.com/news/expanding-project-glasswing",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 1.0243,
+      "score": 0.9893,
       "publishedAt": "2026-06-02T13:15:14.000Z",
       "summary": "We’re extending Project Glasswing to approximately 150 new organizations in more than fifteen countries",
       "tags": [
         "AI"
       ],
-      "engagementScore": 147
+      "engagementScore": 164
     },
     {
       "title": "OpenAI frontier models and Codex are now available on AWS",
       "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.9599,
+      "score": 0.9195,
       "publishedAt": "2026-06-01T21:50:02.000Z",
-      "summary": "OpenAI frontier models and Codex are now generally available on AWS, giving enterprises a new path to build with OpenAI through the AWS environments, controls, and procurement workflows they already use. Customers can get started with OpenAI on AWS and move faster from evaluation to production.",
+      "summary": "",
       "tags": [
         "LLM",
-        "Dev Tools",
-        "Industry"
+        "Dev Tools"
       ],
-      "engagementScore": 356
+      "engagementScore": 360
     },
     {
       "title": "Travelers deploys AI-powered claims countrywide with OpenAI",
       "url": "https://openai.com/index/travelers",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9566,
+      "score": 0.9156,
       "publishedAt": "2026-06-02T12:00:00.000Z",
       "summary": "Travelers built an AI-powered Claim Assistant with OpenAI to guide customers through filing claims, provide 24/7 support, and scale operations during peak demand.",
       "tags": [
@@ -49,24 +48,154 @@
       "engagementScore": 0
     },
     {
+      "title": "Visual Graph Scaffolds for Structural Reasoning in Large Language Models",
+      "url": "https://arxiv.org/abs/2606.02673",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9075,
+      "publishedAt": "2026-06-03T04:00:00.000Z",
+      "summary": "arXiv:2606.02673v1 Announce Type: new \nAbstract: Graphs have been used to enhance large language models (LLMs) for structured reasoning, mostly as external knowledge sources are provided to models at test time. In this paper, we take a different view: the value of graphs for LLMs lie not only in sup",
+      "tags": [
+        "LLM",
+        "Research",
+        "Vision"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "AURA: Action-Gated Memory for Robot Policies at Constant VRAM",
+      "url": "https://arxiv.org/abs/2606.02775",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9075,
+      "publishedAt": "2026-06-03T04:00:00.000Z",
+      "summary": "arXiv:2606.02775v1 Announce Type: new \nAbstract: The KV-cache is the right memory for datacenters but the wrong memory for robots. Datacenter inference batches many short requests and resets them, amortizing an attention cache across a crowd. Embodied agents instead run one long, non-resetting episo",
+      "tags": [
+        "Agents",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Evaluating Transformer and LSTM Frameworks for Prediction in Ungauged Basins",
+      "url": "https://arxiv.org/abs/2606.02791",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9075,
+      "publishedAt": "2026-06-03T04:00:00.000Z",
+      "summary": "arXiv:2606.02791v1 Announce Type: new \nAbstract: Watershed networks exhibit convergent topologies in which multiple tributaries merge into downstream channels,integrating diverse upstream hydrological processes. In ungauged basins, the absence of direct observations increases uncertainty and limits",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "BehaviorBench: Modeling Real-World User Decisions from Behavioral Traces",
+      "url": "https://arxiv.org/abs/2606.02798",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9075,
+      "publishedAt": "2026-06-03T04:00:00.000Z",
+      "summary": "arXiv:2606.02798v1 Announce Type: new \nAbstract: Many decision-support settings require systems that adapt to individual users, but evaluation data for this problem remain limited. Existing benchmarks for user understanding often rely on simulated users or model-generated behavior, even though recen",
+      "tags": [
+        "Research",
+        "ML Infra",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "ChatHealthAI: Aligning Electronic Health Record Representations with Large Language Models for Grounded Clinical Reasoning",
+      "url": "https://arxiv.org/abs/2606.02802",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9075,
+      "publishedAt": "2026-06-03T04:00:00.000Z",
+      "summary": "arXiv:2606.02802v1 Announce Type: new \nAbstract: Large language models (LLMs) exhibit strong natural-language reasoning abilities for clinical decision support, but struggle to effectively model structured longitudinal electronic health records (EHRs). In contrast, EHR foundation models can learn pr",
+      "tags": [
+        "LLM",
+        "Research",
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Traj-Evolve: A Self-Evolving Multi-Agent System for Patient Trajectory Modeling in Lung Cancer Early Detection",
+      "url": "https://arxiv.org/abs/2606.02812",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9075,
+      "publishedAt": "2026-06-03T04:00:00.000Z",
+      "summary": "arXiv:2606.02812v1 Announce Type: new \nAbstract: Modeling patient trajectories from longitudinal electronic health records (EHRs) requires reasoning over sparse, noisy, and long-context multimodal sequences. Existing LLM-based multi-agent systems address context length but process patients in isolat",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Research",
+        "Vision"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "An Exploration of Collision-based Enemy Morphology Generation",
+      "url": "https://arxiv.org/abs/2606.02832",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9075,
+      "publishedAt": "2026-06-03T04:00:00.000Z",
+      "summary": "arXiv:2606.02832v1 Announce Type: new \nAbstract: Despite a great deal of prior research into Procedural Content Generation (PCG), relatively little prior work has explored generating enemies for video games. In particular, there is almost no work on generating enemy morphologies, the basic body plan",
+      "tags": [
+        "Research",
+        "Vision"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Thinking Past the Answer: Evaluating Harmful Overthinking in Large Reasoning Models",
+      "url": "https://arxiv.org/abs/2606.02835",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9075,
+      "publishedAt": "2026-06-03T04:00:00.000Z",
+      "summary": "arXiv:2606.02835v1 Announce Type: new \nAbstract: Large Reasoning Models (LRMs) improve performance by generating explicit intermediate reasoning traces through increased test-time compute, yet the assumption that longer reasoning is consistently beneficial remains under-examined. While recent eviden",
+      "tags": [
+        "Research",
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Anthropic confidentially submits draft S-1 to the SEC",
       "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.9384,
+      "score": 0.8975,
       "publishedAt": "2026-06-01T16:00:40.000Z",
       "summary": "Anthropic has confidentially submitted a draft S-1 registration statement to the Securities and Exchange Commission",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 524
+      "engagementScore": 525
+    },
+    {
+      "title": "Sites and role specific plugins in Codex",
+      "url": "https://openai.com/index/codex-for-every-role-tool-workflow/",
+      "feedSource": "Hacker News",
+      "source": "openai.com",
+      "score": 0.8941,
+      "publishedAt": "2026-06-02T16:15:06.000Z",
+      "summary": "Discover new Codex plugins, sites, and annotations that help analysts, marketers, designers, investors, and other teams get more done with AI.",
+      "tags": [
+        "Dev Tools",
+        "Industry"
+      ],
+      "engagementScore": 19
     },
     {
       "title": "Codex for every role, tool, and workflow",
       "url": "https://openai.com/index/codex-for-every-role-tool-workflow",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9347,
+      "score": 0.8938,
       "publishedAt": "2026-06-02T09:00:00.000Z",
       "summary": "Discover new Codex plugins, sites, and annotations that help analysts, marketers, designers, investors, and other teams get more done with AI.",
       "tags": [
@@ -76,25 +205,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Sites and role specific plugins in Codex",
-      "url": "https://openai.com/index/codex-for-every-role-tool-workflow/",
-      "feedSource": "Hacker News",
-      "source": "openai.com",
-      "score": 0.929,
-      "publishedAt": "2026-06-02T16:15:06.000Z",
-      "summary": "Discover new Codex plugins, sites, and annotations that help analysts, marketers, designers, investors, and other teams get more done with AI.",
-      "tags": [
-        "Dev Tools",
-        "Industry"
-      ],
-      "engagementScore": 17
-    },
-    {
       "title": "Advancing youth safety and opportunity through global leadership",
       "url": "https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9201,
+      "score": 0.8792,
       "publishedAt": "2026-06-02T07:00:00.000Z",
       "summary": "OpenAI calls for global action on youth AI safety, proposing an international institute to strengthen safeguards, standards, and opportunities for young people.",
       "tags": [
@@ -108,7 +223,7 @@
       "url": "https://openai.com/index/codex-for-knowledge-work",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8837,
+      "score": 0.8427,
       "publishedAt": "2026-06-02T02:00:00.000Z",
       "summary": "The Next Era of Knowledge Work report explores how Codex is transforming productivity through AI-powered research, data analysis, workflow automation, and content creation.",
       "tags": [
@@ -122,7 +237,7 @@
       "url": "https://openai.com/index/our-views-on-ai-policy-and-political-advocacy",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8181,
+      "score": 0.7771,
       "publishedAt": "2026-06-01T17:00:00.000Z",
       "summary": "Our approach to AI policy and political advocacy, transparency, support for thoughtful regulation and AI safety, and that no outside political group speaks on the company’s behalf.",
       "tags": [
@@ -131,125 +246,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Position Paper: Post-Solve Robustness in Decision Engines: Feasible Regions and Smoothness Under Perturbations",
-      "url": "https://arxiv.org/abs/2606.00002",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7824,
-      "publishedAt": "2026-06-02T04:00:00.000Z",
-      "summary": "arXiv:2606.00002v1 Announce Type: new \nAbstract: Mixed-Integer Linear Programming (MILP) decision engines routinely output nominally optimal plans for high-stakes industrial systems. Yet deployment rarely matches solve-time assumptions: small perturbations in costs, demands, or resource availability",
-      "tags": [
-        "Research",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Emergent Collaborative Deliberation in Multi-Model AI Systems: A BFT-Derived Protocol for Epistemic Synthesis",
-      "url": "https://arxiv.org/abs/2606.00005",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7824,
-      "publishedAt": "2026-06-02T04:00:00.000Z",
-      "summary": "arXiv:2606.00005v1 Announce Type: new \nAbstract: We present the Consilium Protocol, a Byzantine Fault Tolerance-derived architecture for structured multi-model AI deliberation that treats inter-model disagreement as epistemic signal rather than error. The protocol assigns engineered cognitive person",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Deliberative Curation: A Protocol for Multi-Agent Knowledge Bases",
-      "url": "https://arxiv.org/abs/2606.00007",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7824,
-      "publishedAt": "2026-06-02T04:00:00.000Z",
-      "summary": "arXiv:2606.00007v1 Announce Type: new \nAbstract: As AI agents transition from isolated tools to collaborative participants in shared knowledge ecosystems, governing collective knowledge curation becomes a critical challenge. Human platform governance mechanisms do not transfer directly: agent statel",
-      "tags": [
-        "Agents",
-        "Research",
-        "RAG",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Agents on a Tree: Pathwise Coordination for Multi-Objective Molecular Optimization",
-      "url": "https://arxiv.org/abs/2606.00008",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7824,
-      "publishedAt": "2026-06-02T04:00:00.000Z",
-      "summary": "arXiv:2606.00008v1 Announce Type: new \nAbstract: Multi-objective molecular optimization requires searching vast chemical spaces under conflicting objectives, where early design decisions strongly constrain downstream outcomes. Existing methods typically rely on a single policy or fixed scalarization",
-      "tags": [
-        "Agents",
-        "Research",
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Optimal Transport-based Permutation-Invariant Bayesian Optimization of Offshore Wind Farm Layouts",
-      "url": "https://arxiv.org/abs/2606.00009",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7824,
-      "publishedAt": "2026-06-02T04:00:00.000Z",
-      "summary": "arXiv:2606.00009v1 Announce Type: new \nAbstract: Bayesian Optimization (BO) is widely and successfully adopted for solving optimization problems having an expensive-to-evaluate, black-box, and non-convex objective function. However, the vanilla BO algorithm is not able to exploit possible symmetries",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "MindGames Arena Generalization Track: In2AI Solution with Delayed Per-Step Reward Attribution",
-      "url": "https://arxiv.org/abs/2606.00017",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7824,
-      "publishedAt": "2026-06-02T04:00:00.000Z",
-      "summary": "arXiv:2606.00017v1 Announce Type: new \nAbstract: Training language model agents for multi-agent strategic interaction presents a core difficulty: the quality of any action may depend on future events that never materialize, on moves that violate game rules, or on decisions made by other players. Sta",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Research",
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Universal Quantum Transformer",
-      "url": "https://arxiv.org/abs/2606.00045",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7824,
-      "publishedAt": "2026-06-02T04:00:00.000Z",
-      "summary": "arXiv:2606.00045v1 Announce Type: new \nAbstract: Classical continuous-space neural networks fundamentally struggle to lock into exact mathematical symmetries, such as modular arithmetic and non-commutative algebra. To approximate these discrete logical rules, they often rely on massive parameter sca",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Grokers: Bottom-Up Inductive Comprehension and Write-Time Intelligence over Typed Knowledge Graphs",
-      "url": "https://arxiv.org/abs/2606.00050",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7824,
-      "publishedAt": "2026-06-02T04:00:00.000Z",
-      "summary": "arXiv:2606.00050v1 Announce Type: new \nAbstract: We present Grokers, an architecture for building persistent, structured comprehension of typed knowledge graphs through bottom-up inductive traversal of dependency subgraphs. Unlike retrieval-augmented generation (RAG), which pays full comprehension c",
-      "tags": [
-        "Research",
-        "RAG"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Building the infrastructure for the Intelligence Age in Michigan",
       "url": "https://openai.com/index/stargate-michigan-data-center",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7816,
+      "score": 0.7406,
       "publishedAt": "2026-06-01T12:00:00.000Z",
       "summary": "OpenAI breaks ground on a 1GW data center project in Michigan as part of Stargate, building AI infrastructure to expand access, create jobs, and support communities.",
       "tags": [
@@ -262,7 +263,7 @@
       "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.767,
+      "score": 0.7261,
       "publishedAt": "2026-06-01T10:00:00.000Z",
       "summary": "OpenAI frontier models and Codex are now generally available on AWS, giving enterprises a new path to build with OpenAI through the AWS environments, controls, and procurement workflows they already use. Customers can get started with OpenAI on AWS and move faster from evaluation to production.",
       "tags": [
@@ -277,7 +278,7 @@
       "url": "https://huggingface.co/blog/Hcompany/holo31",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.7391,
+      "score": 0.7036,
       "publishedAt": "2026-06-02T14:13:23.000Z",
       "summary": "",
       "tags": [
@@ -290,35 +291,20 @@
       "url": "https://arxiv.org/abs/2605.28781",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.723,
+      "score": 0.694,
       "publishedAt": "2026-06-02T07:15:25.000Z",
       "summary": "We disprove the sum-product conjecture for real numbers by constructing arbitrarily large $A\\subset \\mathbb{R}$ (whose elements are algebraic integers in a number field of degree $\\asymp \\log\\lvert A\\rvert$) such that \\[\\max(\\lvert A+A\\rvert ,\\lvert AA\\rvert)\\leq \\lvert A\\rvert^{2-c}\\] where $c>0$ i",
       "tags": [
         "AI"
       ],
-      "engagementScore": 10
-    },
-    {
-      "title": "Claude Opus 4.8",
-      "url": "https://www.anthropic.com/news/claude-opus-4-8",
-      "feedSource": "Hacker News",
-      "source": "anthropic.com",
-      "score": 0.7061,
-      "publishedAt": "2026-05-28T16:49:14.000Z",
-      "summary": "Our latest model, Claude Opus 4.8, is an upgrade to our Opus class of models, with stronger performance across coding, agentic tasks, and professional work, and the consistency to handle long-running work.",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Dev Tools"
-      ],
-      "engagementScore": 1772
+      "engagementScore": 12
     },
     {
       "title": "The Download: AI can run your admin department now",
       "url": "https://www.technologyreview.com/2026/06/02/1138277/the-download-ai-tips-small-businesses-admin/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6223,
+      "score": 0.5895,
       "publishedAt": "2026-06-02T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. How small businesses can leverage AI From accounting to design to market research and product development, there’s a staggering breadth of skills need",
       "tags": [
@@ -332,7 +318,7 @@
       "url": "https://www.technologyreview.com/2026/06/02/1137827/rehumanizing-global-health-care-with-agentic-ai/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6177,
+      "score": 0.585,
       "publishedAt": "2026-06-02T11:23:34.000Z",
       "summary": "The global health care sector is under increasing strain.&#160; Decades of chronic underinvestment and constraints in recruitment have coincided with a surge in demand for services for aging populations. Gaps in provision are already taking a toll, with fragmented access to care and high rates of st",
       "tags": [
@@ -348,7 +334,7 @@
       "url": "https://www.technologyreview.com/2026/06/02/1138227/how-small-businesses-can-leverage-ai/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6038,
+      "score": 0.571,
       "publishedAt": "2026-06-02T09:00:00.000Z",
       "summary": "This article is from Making AI Work, MIT Technology Review’s limited-run newsletter examining how to apply LLMs across industries. To receive it in your inbox,sign up here. From accounting to design to market research and product development, there’s a staggering breadth of skills needed to run a bu",
       "tags": [
@@ -363,9 +349,22 @@
       "url": "https://huggingface.co/blog/JetBrains/mellum2-launch",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.5971,
+      "score": 0.5616,
       "publishedAt": "2026-06-01T15:45:17.000Z",
       "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Palantir Contracts Have Become ‘An Unacceptable Point of Weakness,’ UK Politicians Warn",
+      "url": "https://www.wired.com/story/uk-government-palantir-warning-report/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5547,
+      "publishedAt": "2026-06-02T23:05:00.000Z",
+      "summary": "A government committee says that the country’s growing dependence on the data analytics company is a serious liability.",
       "tags": [
         "AI"
       ],
@@ -376,7 +375,7 @@
       "url": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.5851,
+      "score": 0.5496,
       "publishedAt": "2026-06-01T13:51:18.000Z",
       "summary": "",
       "tags": [
@@ -390,7 +389,7 @@
       "url": "https://www.theverge.com/tech/941668/microsoft-build-may-2026-live-news-updates",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5785,
+      "score": 0.5485,
       "publishedAt": "2026-06-02T21:55:03.000Z",
       "summary": "Microsoft Build 2026 kicked off with a keynote presentation that introduced some developer-focused Windows updates, an OpenClaw-based AI assistant called Scout, the new Majorana 2 quantum computing chip, and a Surface mini PC designed for AI developers. Microsoft also rolled out a new Android-based",
       "tags": [
@@ -399,11 +398,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Gmail thinks I'm stupid, so I left",
+      "url": "https://moddedbear.com/gmail-thinks-im-stupid-so-i-left",
+      "feedSource": "Hacker News",
+      "source": "moddedbear.com",
+      "score": 0.5433,
+      "publishedAt": "2026-06-02T19:27:40.000Z",
+      "summary": "Gmail’s rapid descent into belittling their users, powered by AI.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 721
+    },
+    {
       "title": "Microsoft Build 2026: The 7 biggest announcements",
       "url": "https://www.theverge.com/tech/941738/microsoft-build-2026-biggest-announcements",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5698,
+      "score": 0.5398,
       "publishedAt": "2026-06-02T20:17:22.000Z",
       "summary": "Microsoft just kicked off Build 2026 with a keynote from CEO Satya Nadella and other company leaders. As expected, it was filled with announcements, ranging from new Surface hardware to an always-on personal assistant and updates across Microsoft's in-house AI models. If you didn't watch the event l",
       "tags": [
@@ -416,7 +428,7 @@
       "url": "https://www.wired.com/story/he-blew-the-whistle-on-doge-then-his-brakes-were-cut/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5644,
+      "score": 0.5343,
       "publishedAt": "2026-06-02T19:16:01.000Z",
       "summary": "A federal IT staffer filed a complaint about DOGE, then went public. Shortly after Elon Musk boosted a post calling his claims false, his brake lines were cut. Now he’s suing for defamation.",
       "tags": [
@@ -429,7 +441,7 @@
       "url": "https://www.theverge.com/tech/941517/google-phone-scammer-ai-impersonation",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5617,
+      "score": 0.5316,
       "publishedAt": "2026-06-02T18:45:37.000Z",
       "summary": "Google is launching a new feature for its Phone app that aims to protect you from AI impersonation scams. Now, when you receive a call from a scammer that appears to be coming from the same number as one of your contacts, Phone by Google will flag the call as suspicious so you can hang [&#8230;]",
       "tags": [
@@ -442,7 +454,7 @@
       "url": "https://www.theverge.com/policy/941775/trump-ai-executive-order",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5606,
+      "score": 0.5306,
       "publishedAt": "2026-06-02T18:33:42.000Z",
       "summary": "President Donald Trump signed an executive order Tuesday creating a \"voluntary framework\" for AI companies to share their frontier models with the federal government before they're released \"to promote secure innovation and strengthen the cybersecurity of critical infrastructure.\" The order says the",
       "tags": [
@@ -451,24 +463,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Microsoft Scout is a new AI personal assistant built on OpenClaw",
-      "url": "https://www.theverge.com/news/939713/microsoft-scout-assistant-openclaw",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5602,
-      "publishedAt": "2026-06-02T18:28:48.000Z",
-      "summary": "Much like Google, Microsoft is launching its own version of OpenClaw. Microsoft Scout is an always-on assistant that integrates into Microsoft 365 apps like Outlook, OneDrive, and Microsoft Teams, allowing businesses to assign a virtual assistant to employees to help with organizing calendars, expen",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Microsoft’s first advanced reasoning AI is here",
       "url": "https://www.theverge.com/tech/941664/microsoft-ai-model-reasoning-mai-thinking-1-build-2026",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5601,
+      "score": 0.5301,
       "publishedAt": "2026-06-02T18:28:09.000Z",
       "summary": "Microsoft announced a bunch of new in-house AI models at Build 2026, including a new \"flagship\" model: MAI-Thinking-1. It's an ambitious step into model development for Microsoft, which introduced its initial in-house models last year - before then, it had relied on OpenAI's models. The two companie",
       "tags": [
@@ -477,13 +476,13 @@
       "engagementScore": 0
     },
     {
-      "title": "Android Is Fighting Phone Scams With a New Feature to Prove Who’s Calling",
-      "url": "https://www.wired.com/story/android-is-fighting-phone-scams-with-a-new-feature-to-prove-whos-calling/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5576,
-      "publishedAt": "2026-06-02T18:00:00.000Z",
-      "summary": "Available for Android 12 and later, the anti-scam feature is baked into Google Dialer, which sends a silent “confirmation signal” to ensure whoever’s calling you is who they appear to be.",
+      "title": "Microsoft Scout is a new AI personal assistant built on OpenClaw",
+      "url": "https://www.theverge.com/news/939713/microsoft-scout-assistant-openclaw",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5301,
+      "publishedAt": "2026-06-02T18:28:48.000Z",
+      "summary": "Much like Google, Microsoft is launching its own version of OpenClaw. Microsoft Scout is an always-on assistant that integrates into Microsoft 365 apps like Outlook, OneDrive, and Microsoft Teams, allowing businesses to assign a virtual assistant to employees to help with organizing calendars, expen",
       "tags": [
         "AI"
       ],
@@ -494,7 +493,7 @@
       "url": "https://www.wired.com/story/meet-microsoft-scout-your-ai-coworker-that-never-logs-off/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5576,
+      "score": 0.5276,
       "publishedAt": "2026-06-02T18:00:00.000Z",
       "summary": "Microsoft’s OpenClaw-style agent appears in Teams, just like a human colleague, and automates your dull office tasks.",
       "tags": [
@@ -503,24 +502,24 @@
       "engagementScore": 0
     },
     {
-      "title": "Gmail thinks I'm stupid, so I left",
-      "url": "https://moddedbear.com/gmail-thinks-im-stupid-so-i-left",
-      "feedSource": "Hacker News",
-      "source": "moddedbear.com",
-      "score": 0.5565,
-      "publishedAt": "2026-06-02T19:27:40.000Z",
-      "summary": "Gmail’s rapid descent into belittling their users, powered by AI.",
+      "title": "Android Is Fighting Phone Scams With a New Feature to Prove Who’s Calling",
+      "url": "https://www.wired.com/story/android-is-fighting-phone-scams-with-a-new-feature-to-prove-whos-calling/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5276,
+      "publishedAt": "2026-06-02T18:00:00.000Z",
+      "summary": "Available for Android 12 and later, the anti-scam feature is baked into Google Dialer, which sends a silent “confirmation signal” to ensure whoever’s calling you is who they appear to be.",
       "tags": [
-        "Dev Tools"
+        "AI"
       ],
-      "engagementScore": 488
+      "engagementScore": 0
     },
     {
       "title": "Microsoft&#8217;s Project Solara is an OS for AI agent gadgets",
       "url": "https://www.theverge.com/news/941830/microsoft-project-solara-os-ai-agent-gadgets",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5564,
+      "score": 0.5264,
       "publishedAt": "2026-06-02T17:46:30.000Z",
       "summary": "Microsoft just announced \"Project Solara,\" a new OS designed for gadgets that run AI agents, at Build 2026. The company is calling it \"a new platform built from the ground up to power agent-driven experiences.\" It's built on Android, not Windows. Microsoft demonstrated two concept Project Solara dev",
       "tags": [
@@ -533,7 +532,7 @@
       "url": "https://www.theverge.com/news/941271/microsoft-surface-rtx-spark-dev-box-specs-availability",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5516,
+      "score": 0.5216,
       "publishedAt": "2026-06-02T16:52:54.000Z",
       "summary": "Microsoft only just announced a new Surface Laptop Ultra at the weekend, and it's now revealing a miniature Surface PC aimed at developers. The new Surface RTX Spark Dev Box is powered by Nvidia's new Arm-based RTX Spark chips, just like the Surface Laptop Ultra, and is optimized for sustained workl",
       "tags": [
@@ -542,11 +541,24 @@
       "engagementScore": 0
     },
     {
+      "title": "MAI-Code-1-Flash",
+      "url": "https://microsoft.ai/news/introducingmai-code-1-flash/",
+      "feedSource": "Hacker News",
+      "source": "microsoft.ai",
+      "score": 0.5207,
+      "publishedAt": "2026-06-02T18:47:07.000Z",
+      "summary": "We make responsible AI to empower people’s lives.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 423
+    },
+    {
       "title": "Partiful Is Putting Ticket Payments on Its Platform",
       "url": "https://www.wired.com/story/partiful-is-putting-ticket-payments-on-its-platform/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5469,
+      "score": 0.5169,
       "publishedAt": "2026-06-02T16:00:00.000Z",
       "summary": "In the social event planner’s first major move toward monetization, Partiful is getting ticketing directly in the app.",
       "tags": [
@@ -559,77 +571,12 @@
       "url": "https://www.wired.com/story/opal-electronics-openai-investment-ai-powered-audio-gadget/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5442,
+      "score": 0.5142,
       "publishedAt": "2026-06-02T15:30:00.000Z",
       "summary": "Opal, the company famous for making a fancy webcam, has pivoted to making other consumer electronics. Fueled by big investments from OpenAI and Samsung, it’s working on an audio gadget first.",
       "tags": [
         "LLM",
         "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "MAI-Code-1-Flash",
-      "url": "https://microsoft.ai/news/introducingmai-code-1-flash/",
-      "feedSource": "Hacker News",
-      "source": "microsoft.ai",
-      "score": 0.5378,
-      "publishedAt": "2026-06-02T18:47:07.000Z",
-      "summary": "We make responsible AI to empower people’s lives.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 319
-    },
-    {
-      "title": "Welcome NVIDIA Cosmos 3: The First Open Omni-model for Physical AI Reasoning and Action",
-      "url": "https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.5276,
-      "publishedAt": "2026-06-01T04:44:55.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "4 Best Alexa Speakers (2026): Echo Dot Max, Echo Dot, Echo Show 11",
-      "url": "https://www.wired.com/gallery/best-alexa-and-amazon-echo-speakers/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5232,
-      "publishedAt": "2026-06-02T11:34:00.000Z",
-      "summary": "I’ve rounded up the best smart speakers that let you talk to Alexa, from the popular Echo Dot to the newest Echo Studio.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "How to Shop Like a Pro During Amazon Prime Day (2026)",
-      "url": "https://www.wired.com/story/amazon-prime-day-2026-tips-to-find-best-deals/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5203,
-      "publishedAt": "2026-06-02T11:02:00.000Z",
-      "summary": "Find the real deals on Amazon Prime Day this June.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "A Viral YouTube Show About an Unhinged AI Is Hitting Theaters. It’s a Big Test for Hollywood",
-      "url": "https://www.wired.com/story/amazing-digital-circus-shake-up-the-box-office/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5202,
-      "publishedAt": "2026-06-02T11:00:00.000Z",
-      "summary": "The Amazing Digital Circus finale will hit more than 4,000 theaters around the world Thursday. Two weeks later it’ll be on YouTube, bucking Hollywood trends and testing the power of online fandom.",
-      "tags": [
-        "AI"
       ],
       "engagementScore": 0
     },
@@ -647,11 +594,63 @@
       "engagementScore": 0
     },
     {
+      "title": "AI outperforms law professors in Stanford Law study",
+      "url": "https://law.stanford.edu/press/ai-outperforms-law-professors-in-stanford-law-study/",
+      "feedSource": "Hacker News",
+      "source": "law.stanford.edu",
+      "score": 0.5039,
+      "publishedAt": "2026-06-02T23:43:12.000Z",
+      "summary": "A groundbreaking study led by Stanford Law School Professor Julian Nyarko reveals that law professors overwhelmingly prefer AI-generated answers to st",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 137
+    },
+    {
+      "title": "4 Best Alexa Speakers (2026): Echo Dot Max, Echo Dot, Echo Show 11",
+      "url": "https://www.wired.com/gallery/best-alexa-and-amazon-echo-speakers/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4932,
+      "publishedAt": "2026-06-02T11:34:00.000Z",
+      "summary": "I’ve rounded up the best smart speakers that let you talk to Alexa, from the popular Echo Dot to the newest Echo Studio.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Welcome NVIDIA Cosmos 3: The First Open Omni-model for Physical AI Reasoning and Action",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.4921,
+      "publishedAt": "2026-06-01T04:44:55.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "How to Shop Like a Pro During Amazon Prime Day (2026)",
+      "url": "https://www.wired.com/story/amazon-prime-day-2026-tips-to-find-best-deals/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4903,
+      "publishedAt": "2026-06-02T11:02:00.000Z",
+      "summary": "Find the real deals on Amazon Prime Day this June.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "How we used Gemini to build Google I/O 2026",
       "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.5046,
+      "score": 0.4718,
       "publishedAt": "2026-06-01T16:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_IO.max-600x600.format-webp.webp\"&gt;Learn how Googlers used AI to produce Google I/O 2026.",
       "tags": [
@@ -667,7 +666,7 @@
       "url": "https://www.technologyreview.com/2026/06/01/1138207/the-download-china-bci-brain-implant-nvidia-ai-chips-laptops/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4823,
+      "score": 0.4495,
       "publishedAt": "2026-06-01T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. China has approved the world’s first invasive brain-computer chip—here’s what’s next Sitting in the courtyard of his house in China’s Henan province l",
       "tags": [
@@ -680,7 +679,7 @@
       "url": "https://www.technologyreview.com/2026/06/01/1138133/china-world-first-brain-chip/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4647,
+      "score": 0.4319,
       "publishedAt": "2026-06-01T09:09:00.000Z",
       "summary": "One day last October, sitting in the courtyard of his house in China’s Henan province, Dong Hui decided to see if he could hold a pen to write.&#160; Dong, 39, had sustained spinal cord injuries in a car accident six years earlier that left him paralyzed from the neck down. Slowly but determinedly,",
       "tags": [
