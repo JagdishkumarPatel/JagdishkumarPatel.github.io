@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-07T19:38:49.742Z",
+  "updatedAt": "2026-06-07T22:08:34.464Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,11 +8,26 @@
   ],
   "items": [
     {
+      "title": "If LLMs Have Human-Like Attributes, Then So Does Age of Empires II",
+      "url": "https://arxiv.org/abs/2605.31514",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.8849,
+      "publishedAt": "2026-06-07T18:54:55.000Z",
+      "summary": "Much research has been carried out on large language models (LLMs) and LLM-powered agentic workflows. However, many works within the field state emergence of, ascribe to, or assume, generalised anthropomorphic attributes to them (e.g., morality or understanding of natural language). Our goal is not",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Research"
+      ],
+      "engagementScore": 45
+    },
+    {
       "title": "Tokenomics: Quantifying Where Tokens Are Used in Agentic Software Engineering",
       "url": "https://arxiv.org/abs/2601.14470",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8481,
+      "score": 0.8324,
       "publishedAt": "2026-06-07T01:37:11.000Z",
       "summary": "LLM-based Multi-Agent (LLM-MA) systems are increasingly applied to automate complex software engineering tasks such as requirements engineering, code generation, and testing. However, their operational efficiency and resource consumption remain poorly understood, hindering practical adoption due to",
       "tags": [
@@ -20,32 +35,32 @@
         "Agents",
         "Dev Tools"
       ],
-      "engagementScore": 159
+      "engagementScore": 163
     },
     {
       "title": "Efficient and Training-Free Single-Image Diffusion Models",
       "url": "https://arxiv.org/abs/2606.04299",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8334,
+      "score": 0.8224,
       "publishedAt": "2026-06-07T09:43:45.000Z",
       "summary": "We consider the problem of generating images whose internal structure -- defined by the distribution of patches across multiple scales -- matches that of a single reference image. Recent approaches address this problem by training a diffusion model on a single image. But even in this setting, traini",
       "tags": [
         "Vision",
         "ML Infra"
       ],
-      "engagementScore": 40
+      "engagementScore": 45
     },
     {
-      "title": "Room360: Video-to-3D Spatial Reconstruction Platform",
-      "url": "https://huggingface.co/blog/build-small-hackathon/video-to-3d-spatial-reconstruction-platform",
+      "title": "Amazing Digital Dentures (a failed project)",
+      "url": "https://huggingface.co/blog/build-small-hackathon/amazingdigitaldentures",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.7942,
-      "publishedAt": "2026-06-07T19:30:16.000Z",
+      "score": 0.7799,
+      "publishedAt": "2026-06-07T19:44:27.000Z",
       "summary": "",
       "tags": [
-        "Vision"
+        "AI"
       ],
       "engagementScore": 0
     },
@@ -54,7 +69,7 @@
       "url": "https://help.openai.com/en/articles/20001061-lockdown-mode",
       "feedSource": "Hacker News",
       "source": "help.openai.com",
-      "score": 0.7767,
+      "score": 0.7585,
       "publishedAt": "2026-06-06T03:36:15.000Z",
       "summary": "Learn how Lockdown Mode limits access to the web and external services to help reduce data exfiltration risk from prompt injection attacks.",
       "tags": [
@@ -67,7 +82,7 @@
       "url": "https://openai.com/index/harness-engineering/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.7702,
+      "score": 0.7529,
       "publishedAt": "2026-06-05T18:20:06.000Z",
       "summary": "By Ryan Lopopolo, Member of the Technical Staff",
       "tags": [
@@ -75,33 +90,33 @@
         "RAG",
         "Dev Tools"
       ],
-      "engagementScore": 274
+      "engagementScore": 279
     },
     {
       "title": "Benchmarks in Leipzig",
       "url": "https://arxiv.org/abs/2606.05818",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7609,
+      "score": 0.7443,
       "publishedAt": "2026-06-06T14:00:52.000Z",
       "summary": "Between April 1 and May 15, 2026, a group of 49 mathematicians compiled a dataset of research-level mathematics questions with known answers. Most of the work was done during the 3-day workshop *Benchmarks in Leipzig* with 35 participants at the Max Planck Institute for Mathematics in the Sciences i",
       "tags": [
         "Research"
       ],
-      "engagementScore": 135
+      "engagementScore": 136
     },
     {
       "title": "Trees to Flows and Back: Unifying Decision Trees and Diffusion Models",
       "url": "https://arxiv.org/abs/2605.00414",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7047,
+      "score": 0.6886,
       "publishedAt": "2026-06-06T12:59:59.000Z",
       "summary": "Decision trees and diffusion models are ostensibly disparate model classes, one discrete and hierarchical, the other continuous and dynamic. This work unifies the two by establishing a crisp mathematical correspondence between hierarchical decision trees and diffusion processes in appropriate limiti",
       "tags": [
         "Vision"
       ],
-      "engagementScore": 51
+      "engagementScore": 52
     },
     {
       "title": "When AI Builds Itself: Our progress toward recursive self-improvement",
@@ -117,24 +132,11 @@
       "engagementScore": 526
     },
     {
-      "title": "Tracing a powerful GNSS interference source over Europe",
-      "url": "https://arxiv.org/abs/2606.03673",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.6184,
-      "publishedAt": "2026-06-05T08:32:16.000Z",
-      "summary": "This paper analyzes and identifies a space-based Global Navigation Satellite System (GNSS) interference source that has caused scores of powerful transient wide-area interference events over continental Europe, Greenland, and Canada since 2019. While terrestrial or near-terrestrial sources are prima",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 425
-    },
-    {
       "title": "Sigma BF Review (2026): Eccentric but Strangely Lovable",
       "url": "https://www.wired.com/review/sigma-bf-camera/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5386,
+      "score": 0.5252,
       "publishedAt": "2026-06-07T11:01:00.000Z",
       "summary": "Sigma’s new entry is both a bold design experiment and a pretty decent camera.",
       "tags": [
@@ -147,7 +149,7 @@
       "url": "https://www.wired.com/story/you-may-not-need-a-giant-chefs-knife-when-a-midsize-knife-does-the-trick/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5385,
+      "score": 0.5252,
       "publishedAt": "2026-06-07T11:00:00.000Z",
       "summary": "These 5- to 6-inch blades are the secret workhorses of the kitchen, whether you’re a smaller person, have smaller hands, or just desire a smaller but still high-functioning knife.",
       "tags": [
@@ -160,7 +162,7 @@
       "url": "https://www.wired.com/review/lauf-eelja-electric-mountain-bike/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5351,
+      "score": 0.5218,
       "publishedAt": "2026-06-07T10:22:00.000Z",
       "summary": "Lauf’s sleek new entry feels closer to a traditional mountain bike than anything I’ve ridden before.",
       "tags": [
@@ -173,7 +175,7 @@
       "url": "https://www.wired.com/story/best-red-light-therapy-for-hair-growth/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5333,
+      "score": 0.52,
       "publishedAt": "2026-06-07T10:02:00.000Z",
       "summary": "After 16 weeks of daily use, our WIRED testers saw visible hair regrowth with these red-light therapy devices.",
       "tags": [
@@ -186,7 +188,7 @@
       "url": "https://www.wired.com/story/how-to-watch-apple-wwdc-2026/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5305,
+      "score": 0.5171,
       "publishedAt": "2026-06-07T09:30:00.000Z",
       "summary": "The annual developer event is where Apple announces operating system updates—like iOS 27—and maybe even teases future hardware. Here’s how to see it all.",
       "tags": [
@@ -305,32 +307,6 @@
       "engagementScore": 0
     },
     {
-      "title": "The mayor of Shelbyville, Indiana, says only people who live in ‘shitty houses��� oppose data center",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/944984/shelbyville-indiana-mayor-shitty-houses-data-center",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4329,
-      "publishedAt": "2026-06-06T15:14:49.000Z",
-      "summary": "A proposed $2 billion data center has become a political flashpoint in the small city of Shelbyville, Indiana. And the controversy has only grown more intense after the mayor, Scott Furgeson, was caught on camera saying of the \"No Data Center\" signs going up that, \"I've seen a lot of these all over",
-      "tags": [
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Best 3-in-1 Apple Charging Stations After Testing Top Models",
-      "url": "https://www.wired.com/gallery/best-apple-3-in-1-wireless-chargers/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4262,
-      "publishedAt": "2026-06-06T14:00:00.000Z",
-      "summary": "I tried all the top models to find the best 3-in-1 Apple charging stations, pads, and more. Keep your iPhone, Apple Watch, and AirPods topped up with these WIRED-tested docking systems.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "We’re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks",
       "url": "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/",
       "feedSource": "DeepMind",
@@ -437,11 +413,37 @@
       "engagementScore": 0
     },
     {
+      "title": "The mayor of Shelbyville, Indiana, says only people who live in ‘shitty houses��� oppose data center",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/944984/shelbyville-indiana-mayor-shitty-houses-data-center",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.4195,
+      "publishedAt": "2026-06-06T15:14:49.000Z",
+      "summary": "A proposed $2 billion data center has become a political flashpoint in the small city of Shelbyville, Indiana. And the controversy has only grown more intense after the mayor, Scott Furgeson, was caught on camera saying of the \"No Data Center\" signs going up that, \"I've seen a lot of these all over",
+      "tags": [
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Best 3-in-1 Apple Charging Stations After Testing Top Models",
+      "url": "https://www.wired.com/gallery/best-apple-3-in-1-wireless-chargers/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4129,
+      "publishedAt": "2026-06-06T14:00:00.000Z",
+      "summary": "I tried all the top models to find the best 3-in-1 Apple charging stations, pads, and more. Keep your iPhone, Apple Watch, and AirPods topped up with these WIRED-tested docking systems.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Anti-Vax Dating Apps Are Going IRL. People Are Mad as Hell About It",
       "url": "https://www.wired.com/story/anti-vax-dating-apps-are-going-irl-people-are-mad-as-hell-about-it/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4102,
+      "score": 0.3968,
       "publishedAt": "2026-06-06T11:00:00.000Z",
       "summary": "Unjected and PureBlood.Dating are hosting in-person meetups—and have transformed the dating landscape into a political battleground over bodily autonomy.",
       "tags": [
@@ -454,7 +456,7 @@
       "url": "https://www.wired.com/story/the-best-bluetooth-trackers/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4082,
+      "score": 0.3949,
       "publishedAt": "2026-06-06T10:38:00.000Z",
       "summary": "These are the best Bluetooth, Wi-Fi, GPS, and cellular gadgets to ensure you never lose anything ever again.",
       "tags": [
@@ -467,7 +469,7 @@
       "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.3773,
+      "score": 0.3628,
       "publishedAt": "2026-06-05T14:45:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/May_AI_Recap_still.max-600x600.format-webp.webp\"&gt;Here are Google’s latest AI updates from May 2026",
       "tags": [
@@ -482,35 +484,9 @@
       "url": "https://www.technologyreview.com/2026/06/05/1138452/the-download-ai-hacking-mythos-chatbots-brain-impacts/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.3623,
+      "score": 0.3477,
       "publishedAt": "2026-06-05T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The Meta hack shows there’s more to AI security than Mythos On Monday, reports emerged that attackers had used Meta’s AI customer support agent to ste",
-      "tags": [
-        "Agents"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Are AI chatbots making us lose control of our brains?",
-      "url": "https://www.technologyreview.com/2026/06/05/1138427/are-ai-chatbots-making-us-lose-control-of-our-brains/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.3438,
-      "publishedAt": "2026-06-05T09:00:00.000Z",
-      "summary": "This week I’ve been at SXSW London. There’s been music, film, and a lot—and I mean a lot—of talk about AI. I also had the opportunity to sit down with Gloria Mark, a psychologist at the University of California, Irvine, who has spent the last 30 years studying how people interact with digital techno",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Meta hack shows there’s more to AI security than Mythos",
-      "url": "https://www.technologyreview.com/2026/06/05/1138437/the-meta-hack-shows-theres-more-to-ai-security-than-mythos/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.3438,
-      "publishedAt": "2026-06-05T09:00:00.000Z",
-      "summary": "On June 5, 404 Media reported that attackers had been using Meta’s AI customer support agent to steal Instagram accounts. Their approach was simple: They asked the agent to link the accounts to email addresses that they controlled, and the agent complied. One attacker broke into the dormant Obama Wh",
       "tags": [
         "Agents"
       ],
@@ -609,11 +585,37 @@
       "engagementScore": 0
     },
     {
+      "title": "Are AI chatbots making us lose control of our brains?",
+      "url": "https://www.technologyreview.com/2026/06/05/1138427/are-ai-chatbots-making-us-lose-control-of-our-brains/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.3292,
+      "publishedAt": "2026-06-05T09:00:00.000Z",
+      "summary": "This week I’ve been at SXSW London. There’s been music, film, and a lot—and I mean a lot—of talk about AI. I also had the opportunity to sit down with Gloria Mark, a psychologist at the University of California, Irvine, who has spent the last 30 years studying how people interact with digital techno",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Meta hack shows there’s more to AI security than Mythos",
+      "url": "https://www.technologyreview.com/2026/06/05/1138437/the-meta-hack-shows-theres-more-to-ai-security-than-mythos/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.3292,
+      "publishedAt": "2026-06-05T09:00:00.000Z",
+      "summary": "On June 5, 404 Media reported that attackers had been using Meta’s AI customer support agent to steal Instagram accounts. Their approach was simple: They asked the agent to link the accounts to email addresses that they controlled, and the agent complied. One attacker broke into the dormant Obama Wh",
+      "tags": [
+        "Agents"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Meta made its own AI-generated clickbait news feed",
       "url": "https://www.theverge.com/ai-artificial-intelligence/944235/meta-app-ai-clickbait-articles",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.3315,
+      "score": 0.3182,
       "publishedAt": "2026-06-05T20:17:26.000Z",
       "summary": "Facebook has long been filled with feeds of clickbait articles. Now, Meta is making its own clickbait articles with AI. The standalone Meta AI app now has a \"For You\" section that populates a list of clickbait-style stories for you to read. But the topics, images, and text are all AI-generated - and",
       "tags": [
@@ -626,7 +628,7 @@
       "url": "https://www.theverge.com/tech/944245/apple-wwdc-2026-ai-siri-gemini",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.3229,
+      "score": 0.3095,
       "publishedAt": "2026-06-05T18:40:17.000Z",
       "summary": "Apple has been on its back foot, AI-wise, for the past few years. But in a strange way, playing from behind might not be such a bad move. At WWDC on Monday, Apple appears to be getting ready to reintroduce us to the new Siri. Again. As a reminder, we met the new Siri in [&#8230;]",
       "tags": [
@@ -639,7 +641,7 @@
       "url": "https://www.theverge.com/policy/944041/new-york-data-center-moratorium",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.3129,
+      "score": 0.2996,
       "publishedAt": "2026-06-05T16:48:45.000Z",
       "summary": "The New York State legislature passed a one-year moratorium on new large data centers, the first statewide ban of its kind if Democratic Governor Kathy Hochul signs it into law. Lawmakers behind the bill say it's meant to give policymakers time to understand the impact of large data centers on the e",
       "tags": [
@@ -652,7 +654,7 @@
       "url": "https://www.theverge.com/podcast/944058/ai-laptop-nvidia-build-gemini-spark-vergecast",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.3121,
+      "score": 0.2987,
       "publishedAt": "2026-06-05T16:39:07.000Z",
       "summary": "We're now deep into developer conference season, and one of the themes so far is the relentless conviction from Big Tech companies that AI is going to change everything about how we do everything. Nvidia's Jensen Huang made that clearer than anyone this week, when he described a completely new way o",
       "tags": [
@@ -665,7 +667,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/943531/ai-script-quilty-simon-horsman-daniel-wood",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.3003,
+      "score": 0.2869,
       "publishedAt": "2026-06-05T14:26:50.000Z",
       "summary": "When Quilty hit the industry trades earlier this year, the AI startup promised that its tool could accurately predict a film's success just by reading the script. When people actually got a chance to experiment with Quilty's product, though, they were left skeptical. Even with all the available data",
       "tags": [
