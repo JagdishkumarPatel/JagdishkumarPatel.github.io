@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-08T16:01:03.258Z",
+  "updatedAt": "2026-06-08T20:23:39.815Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,11 +8,25 @@
   ],
   "items": [
     {
+      "title": "Introducing the OpenAI Economic Research Exchange",
+      "url": "https://openai.com/index/economic-research-exchange",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.8887,
+      "publishedAt": "2026-06-08T00:00:00.000Z",
+      "summary": "OpenAI launches the Economic Research Exchange to study AI’s impact on jobs, productivity, and the economy. Applications are now open for selected research projects.",
+      "tags": [
+        "LLM",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Detecting and Mitigating Bias by Treating Fairness as a Symmetry Operation",
       "url": "https://arxiv.org/abs/2606.06514",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8304,
+      "score": 0.8006,
       "publishedAt": "2026-06-08T04:00:00.000Z",
       "summary": "arXiv:2606.06514v1 Announce Type: new \nAbstract: Machine learning systems deployed in high stakes socioeconomic settings routinely display bias. We formalize bias as a symmetry breaking operation: a classifier is fair if its outputs remain invariant under the counterfactual operation of switching a",
       "tags": [
@@ -26,7 +40,7 @@
       "url": "https://arxiv.org/abs/2606.06518",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8304,
+      "score": 0.8006,
       "publishedAt": "2026-06-08T04:00:00.000Z",
       "summary": "arXiv:2606.06518v1 Announce Type: new \nAbstract: Sudoku is a representative constraint satisfaction problem that requires global structural reasoning under strict discrete constraints. The existing works of solving Sudoku mainly focus on two dominant approaches, i.e., traditional heuristic and deep",
       "tags": [
@@ -40,7 +54,7 @@
       "url": "https://arxiv.org/abs/2606.06519",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8304,
+      "score": 0.8006,
       "publishedAt": "2026-06-08T04:00:00.000Z",
       "summary": "arXiv:2606.06519v1 Announce Type: new \nAbstract: Open-weight LLMs are increasingly fine-tuned into customized assistants, but downstream fine-tuning can weaken safety alignment and make models more vulnerable to malicious prompts, even when the training data is not intentionally harmful. This create",
       "tags": [
@@ -56,7 +70,7 @@
       "url": "https://arxiv.org/abs/2606.06523",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8304,
+      "score": 0.8006,
       "publishedAt": "2026-06-08T04:00:00.000Z",
       "summary": "arXiv:2606.06523v1 Announce Type: new \nAbstract: Equipping Large Language Models (LLMs) to execute reliable multi-step workflows has become a central challenge in artificial intelligence. Despite recent advances in LLMs' agentic capabilities, most agent systems still lack formal methods for specifyi",
       "tags": [
@@ -71,7 +85,7 @@
       "url": "https://arxiv.org/abs/2606.06526",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8304,
+      "score": 0.8006,
       "publishedAt": "2026-06-08T04:00:00.000Z",
       "summary": "arXiv:2606.06526v1 Announce Type: new \nAbstract: Large language models have made substantial progress on mathematical reasoning, but existing benchmarks typically evaluate well-specified problems with final answers, step-by-step solutions, or complete proofs. They do not capture collaborative open-p",
       "tags": [
@@ -86,7 +100,7 @@
       "url": "https://arxiv.org/abs/2606.06529",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8304,
+      "score": 0.8006,
       "publishedAt": "2026-06-08T04:00:00.000Z",
       "summary": "arXiv:2606.06529v1 Announce Type: new \nAbstract: An attacker that strategically chooses when to attack is much harder to catch than one that attacks indiscriminately. AI control is a safety framework for deploying capable but untrusted AI agents under the oversight of a weaker, trusted monitor and a",
       "tags": [
@@ -102,7 +116,7 @@
       "url": "https://arxiv.org/abs/2606.06531",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8304,
+      "score": 0.8006,
       "publishedAt": "2026-06-08T04:00:00.000Z",
       "summary": "arXiv:2606.06531v1 Announce Type: new \nAbstract: The critical question after a correct driving veto is not only whether a maneuver is unsafe, but whether the blocked interaction admits a lawful, auditable, and responsibility-bounded repair. Prediction and game-theoretic planners can suggest plausibl",
       "tags": [
@@ -115,7 +129,7 @@
       "url": "https://arxiv.org/abs/2606.06533",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8304,
+      "score": 0.8006,
       "publishedAt": "2026-06-08T04:00:00.000Z",
       "summary": "arXiv:2606.06533v1 Announce Type: new \nAbstract: What would it mean to have a scientific understanding of AI? Models are not static objects: they are snapshots of time-evolving processes shaped by data, objectives, architectures, and optimization dynamics. Yet much of AI research treats models as fi",
       "tags": [
@@ -125,24 +139,11 @@
       "engagementScore": 0
     },
     {
-      "title": "The crash that vanished: control and emergence in a five-model economy",
-      "url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v3",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.7771,
-      "publishedAt": "2026-06-08T13:10:48.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Tokenomics: Quantifying Where Tokens Are Used in Agentic Software Engineering",
       "url": "https://arxiv.org/abs/2601.14470",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7135,
+      "score": 0.6837,
       "publishedAt": "2026-06-07T01:37:11.000Z",
       "summary": "LLM-based Multi-Agent (LLM-MA) systems are increasingly applied to automate complex software engineering tasks such as requirements engineering, code generation, and testing. However, their operational efficiency and resource consumption remain poorly understood, hindering practical adoption due to",
       "tags": [
@@ -157,7 +158,7 @@
       "url": "https://arxiv.org/abs/2606.04299",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7081,
+      "score": 0.6783,
       "publishedAt": "2026-06-07T09:43:45.000Z",
       "summary": "We consider the problem of generating images whose internal structure -- defined by the distribution of patches across multiple scales -- matches that of a single reference image. Recent approaches address this problem by training a diffusion model on a single image. But even in this setting, traini",
       "tags": [
@@ -171,7 +172,7 @@
       "url": "https://huggingface.co/blog/openenv-agentic-rl",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6938,
+      "score": 0.6662,
       "publishedAt": "2026-06-08T00:00:00.000Z",
       "summary": "",
       "tags": [
@@ -185,7 +186,7 @@
       "url": "https://www.technologyreview.com/2026/06/08/1138485/the-download-world-cup-ball-openai-super-app/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6634,
+      "score": 0.6379,
       "publishedAt": "2026-06-08T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Why this year’s World Cup ball may not fly as far Much is new about this month’s FIFA World Cup tournament. It hosts more teams than ever before. It’s",
       "tags": [
@@ -198,7 +199,7 @@
       "url": "https://www.technologyreview.com/2026/06/08/1138470/why-this-years-world-cup-ball-may-not-fly-as-far/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.645,
+      "score": 0.6194,
       "publishedAt": "2026-06-08T09:00:00.000Z",
       "summary": "Much is new about this month’s upcoming FIFA World Cup tournament, which will be held in the US, Canada, and Mexico. It hosts more teams than ever before. It’s the first to occur in three different host countries. And, like predecessor cups for over half a century, it will employ a soccer ball with",
       "tags": [
@@ -207,24 +208,11 @@
       "engagementScore": 0
     },
     {
-      "title": "When AI Builds Itself: Our progress toward recursive self-improvement",
-      "url": "https://www.anthropic.com/institute/recursive-self-improvement",
-      "feedSource": "Hacker News",
-      "source": "anthropic.com",
-      "score": 0.6404,
-      "publishedAt": "2026-06-04T16:20:17.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 529
-    },
-    {
       "title": "Harness engineering: Leveraging Codex in an agent-first world",
       "url": "https://openai.com/index/harness-engineering/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.6255,
+      "score": 0.6087,
       "publishedAt": "2026-06-05T18:20:06.000Z",
       "summary": "By Ryan Lopopolo, Member of the Technical Staff",
       "tags": [
@@ -232,27 +220,158 @@
         "RAG",
         "Dev Tools"
       ],
-      "engagementScore": 294
+      "engagementScore": 295
     },
     {
       "title": "Benchmarks in Leipzig",
       "url": "https://arxiv.org/abs/2606.05818",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.623,
+      "score": 0.5936,
       "publishedAt": "2026-06-06T14:00:52.000Z",
       "summary": "Between April 1 and May 15, 2026, a group of 49 mathematicians compiled a dataset of research-level mathematics questions with known answers. Most of the work was done during the 3-day workshop *Benchmarks in Leipzig* with 35 participants at the Max Planck Institute for Mathematics in the Sciences i",
       "tags": [
         "Research"
       ],
-      "engagementScore": 137
+      "engagementScore": 138
+    },
+    {
+      "title": "Everything Apple Announced at WWDC 2026",
+      "url": "https://www.wired.com/story/everything-apple-announced-at-wwdc-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5826,
+      "publishedAt": "2026-06-08T20:00:10.000Z",
+      "summary": "Updates include a new souped-up Siri, lots of iOS enhancements, and some inkling on how an AI partnership with Google has come to power Apple’s products.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Apple announces Siri AI and its next generation of Apple Intelligence",
+      "url": "https://www.theverge.com/tech/942416/apple-siri-ai-update-wwdc",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.577,
+      "publishedAt": "2026-06-08T18:56:58.000Z",
+      "summary": "Two years after first revealing its plans for Apple Intelligence and a smarter Siri that never fully materialized, at WWDC, Apple just revealed a new set of AI features and a smarter, more personalized Siri. Apple calls Siri AI an \"entirely new version of Siri\" and says it's both more conversational",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Apple’s iPhone Camera App Is Getting an AI Upgrade in iOS 27",
+      "url": "https://www.wired.com/story/apples-iphone-camera-app-is-getting-an-ai-upgrade-in-ios-27/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5756,
+      "publishedAt": "2026-06-08T18:40:32.000Z",
+      "summary": "Siri is now directly embedded into the camera app, and there are more artificial intelligence tools in the Photos app to alter your images.",
+      "tags": [
+        "Vision",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Apple’s New Siri AI Is Ready to Get Personal",
+      "url": "https://www.wired.com/story/apples-new-siri-ai-is-ready-to-get-personal/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5735,
+      "publishedAt": "2026-06-08T18:17:44.000Z",
+      "summary": "From a stand-alone app to a Google Gemini partnership, here’s everything you need to know from WWDC 2026 about Apple’s upcoming overhaul of Siri.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Amazon is launching AI-generated custom merch",
+      "url": "https://www.theverge.com/news/945905/amazon-alexa-shopping-ai-generated-custom-merch-design-printing",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5713,
+      "publishedAt": "2026-06-08T17:52:51.000Z",
+      "summary": "Amazon is expanding its print-on-demand features to AI-generated designs created using Alexa for Shopping for products like T-shirts, water bottles, and hoodies. Shoppers can use text prompts to generate images that are then printed on to blanks for sale on Amazon. They can then share the link to th",
+      "tags": [
+        "Vision"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The UK Is Betting on a Billion-Dollar AI Supercomputer to Kick Its Addiction to US Tech",
+      "url": "https://www.wired.com/story/uk-supercomputer-investment-ai-homegrown-semiconductor/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5706,
+      "publishedAt": "2026-06-08T17:44:28.000Z",
+      "summary": "The British government thinks a state-backed infrastructure initiative will help supercharge homegrown chip startups.",
+      "tags": [
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Meta Deletes Face-Recognition System From Its Smart Glasses App After WIRED Report",
+      "url": "https://www.wired.com/story/meta-removes-face-recognition-code-meta-ai-app-smart-glasses/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5694,
+      "publishedAt": "2026-06-08T17:31:11.000Z",
+      "summary": "The code WIRED identified is gone from the latest version of Meta AI, the companion app for the company’s smart glasses. Meta won’t say why or whether it’s coming back.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "WWDC 2026: How to watch and what to expect",
+      "url": "https://www.theverge.com/tech/944099/wwdc-2026-how-to-watch",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5647,
+      "publishedAt": "2026-06-08T16:39:13.000Z",
+      "summary": "Apple's biggest event of the year is nearly here. The company's Worldwide Developers Conference will spotlight updates to iOS, macOS, and all of Apple's other operating systems, and this year's event could also include a major overhaul for Siri. Here's how you can watch along live. When WWDC will ha",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Apple WWDC 2026 Live Blog: All the Updates, as They Happen",
+      "url": "https://www.wired.com/live/apple-wwdc-2026-live-blog-all-the-updates-as-they-happen/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5641,
+      "publishedAt": "2026-06-08T16:32:33.000Z",
+      "summary": "Follow our WWDC 2026 live blog for all of the updates coming to iOS, macOS, watchOS, and more.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "NotebookLM&#8217;s Gemini 3.5 upgrade adds a cloud computer and help finding sources",
+      "url": "https://www.theverge.com/tech/944325/google-notebooklm-ai-gemini-update",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5619,
+      "publishedAt": "2026-06-08T16:07:38.000Z",
+      "summary": "Google is rolling out \"across the board\" updates to NotebookLM. The AI-powered note-taking app now uses Google's upgraded Gemini 3.5 model, which will allow it to respond with \"more accurate and reliable information,\" according to a blog post on Monday. Launched in 2023, NotebookLM allows you to int",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "Watch Duty Is Adding Flood Alerts to Its Wildfire App",
       "url": "https://www.wired.com/story/watch-duty-is-adding-flood-alerts-to-its-wildfire-app/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5793,
+      "score": 0.5559,
       "publishedAt": "2026-06-08T15:00:00.000Z",
       "summary": "The popular wildfire tracking app is adding flood monitoring to its platform. It’s the first new disaster alert on the service, with many more to come.",
       "tags": [
@@ -265,7 +384,7 @@
       "url": "https://www.theverge.com/podcast/944138/microsoft-ai-ceo-mustafa-suleyman-superintelligence-agi-openai-automation",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5764,
+      "score": 0.553,
       "publishedAt": "2026-06-08T14:27:47.000Z",
       "summary": "Today I’m talking with Mustafa Suleyman, the CEO of Microsoft AI. And I’m actually going to keep today’s intro short — I’m working from my wife’s family farm this week, as you’ll see in the video, but also this is a real burner of an episode. We covered everything from Mustafa’s approach to training",
       "tags": [
@@ -274,24 +393,25 @@
       "engagementScore": 0
     },
     {
-      "title": "Trees to Flows and Back: Unifying Decision Trees and Diffusion Models",
-      "url": "https://arxiv.org/abs/2605.00414",
+      "title": "MiMo-v2.5-Pro-UltraSpeed: 1T model with 1000 tokens per second",
+      "url": "https://mimo.xiaomi.com/blog/mimo-tilert-1000tps",
       "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.5689,
-      "publishedAt": "2026-06-06T12:59:59.000Z",
-      "summary": "Decision trees and diffusion models are ostensibly disparate model classes, one discrete and hierarchical, the other continuous and dynamic. This work unifies the two by establishing a crisp mathematical correspondence between hierarchical decision trees and diffusion processes in appropriate limiti",
+      "source": "mimo.xiaomi.com",
+      "score": 0.5425,
+      "publishedAt": "2026-06-08T15:27:33.000Z",
+      "summary": "MiMo, in collaboration with TileRT, releases the UltraSpeed mode of Xiaomi MiMo-V2.5-Pro — breaking 1000 tokens/s generation speed on a 1T-parameter model for the first time on commodity GPUs through extreme model-system codesign.",
       "tags": [
-        "Vision"
+        "Dev Tools",
+        "ML Infra"
       ],
-      "engagementScore": 54
+      "engagementScore": 396
     },
     {
       "title": "Lenovo IdeaPad Slim 5x Review: The Best Laptop Under $1,000",
       "url": "https://www.wired.com/review/lenovo-ideapad-slim-5x/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5634,
+      "score": 0.54,
       "publishedAt": "2026-06-08T12:02:00.000Z",
       "summary": "Lenovo's IdeaPad Slim 5x just might be the best laptop you can buy for $850. It's hard to find any major flaws, which is basically unheard of in a laptop at this price.",
       "tags": [
@@ -300,69 +420,44 @@
       "engagementScore": 0
     },
     {
-      "title": "Momfluencers Are Pitching AI as a Better ‘Coparent’ Than Men",
-      "url": "https://www.wired.com/story/momfluencers-are-pitching-ai-as-a-better-coparent-than-men/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5552,
-      "publishedAt": "2026-06-08T10:30:00.000Z",
-      "summary": "Moms are outsourcing tedious household tasks to ChatGPT and selling courses teaching others to do the same. Where are all the dads?",
+      "title": "Trees to Flows and Back: Unifying Decision Trees and Diffusion Models",
+      "url": "https://arxiv.org/abs/2605.00414",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.5391,
+      "publishedAt": "2026-06-06T12:59:59.000Z",
+      "summary": "Decision trees and diffusion models are ostensibly disparate model classes, one discrete and hierarchical, the other continuous and dynamic. This work unifies the two by establishing a crisp mathematical correspondence between hierarchical decision trees and diffusion processes in appropriate limiti",
+      "tags": [
+        "Vision"
+      ],
+      "engagementScore": 54
+    },
+    {
+      "title": "AI Is Slowing Down",
+      "url": "https://www.wheresyoured.at/ai-is-slowing-down/",
+      "feedSource": "Hacker News",
+      "source": "wheresyoured.at",
+      "score": 0.5223,
+      "publishedAt": "2026-06-08T15:46:37.000Z",
+      "summary": "If you liked this piece, you should subscribe to my premium newsletter. It’s $70 a year, or $7 a month, and in return you get a weekly newsletter that’s usually anywhere from 5,000 to 18,000 words, including vast, detailed analyses of NVIDIA, Anthropic and OpenAI’s",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 0
+      "engagementScore": 217
     },
     {
-      "title": "Apple WWDC 2026 Live Blog: All the Updates, as They Happen",
-      "url": "https://www.wired.com/live/apple-wwdc-2026-live-blog-all-the-updates-as-they-happen/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5526,
-      "publishedAt": "2026-06-08T10:00:00.000Z",
-      "summary": "Follow our WWDC 2026 live blog for all of the updates coming to iOS, macOS, watchOS, and more.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Afroman Is Back—and He’s Bitcoin’s Latest Freedom Fighter",
-      "url": "https://www.wired.com/afroman-bitcoin-conference-free-speech/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5526,
-      "publishedAt": "2026-06-08T10:00:00.000Z",
-      "summary": "Earlier this year, the “Because I Got High” rapper went viral for winning a case against the cops. Now he’s crypto’s free-speech hero, even though he isn’t quite sure how the digital currency works.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Tracing a powerful GNSS interference source over Europe",
-      "url": "https://arxiv.org/abs/2606.03673",
+      "title": "xAI is looking more like a datacentre REIT than a frontier lab",
+      "url": "https://martinalderson.com/posts/xais-new-rental-business/",
       "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.5316,
-      "publishedAt": "2026-06-05T08:32:16.000Z",
-      "summary": "This paper analyzes and identifies a space-based Global Navigation Satellite System (GNSS) interference source that has caused scores of powerful transient wide-area interference events over continental Europe, Greenland, and Canada since 2019. While terrestrial or near-terrestrial sources are prima",
+      "source": "martinalderson.com",
+      "score": 0.5204,
+      "publishedAt": "2026-06-08T15:13:43.000Z",
+      "summary": "xAI is renting huge amounts of GPU capacity to Anthropic and Google. Financial engineering ahead of the SpaceX IPO, a real compute shortage, or a genuine datacentre advantage? Probably all three.",
       "tags": [
-        "Research"
+        "LLM",
+        "Industry"
       ],
-      "engagementScore": 433
-    },
-    {
-      "title": "All the Ways Europe Is Ditching American Technology",
-      "url": "https://www.wired.com/story/all-the-ways-europe-is-ditching-american-technology/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5312,
-      "publishedAt": "2026-06-08T06:00:00.000Z",
-      "summary": "A WIRED timeline shows how dozens of governments, companies, and other organizations across Europe are moving, or planning to shift, away from US Big Tech.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
+      "engagementScore": 222
     },
     {
       "title": "How Endava is redesigning software delivery around AI agents",
@@ -434,20 +529,6 @@
       "engagementScore": 0
     },
     {
-      "title": "OpenAI public policy agenda",
-      "url": "https://openai.com/index/public-policy-agenda",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5124,
-      "publishedAt": "2026-06-03T10:00:00.000Z",
-      "summary": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
-      "tags": [
-        "LLM",
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "A blueprint for democratic governance of frontier AI",
       "url": "https://openai.com/index/frontier-safety-blueprint",
       "feedSource": "OpenAI",
@@ -462,54 +543,16 @@
       "engagementScore": 0
     },
     {
-      "title": "Travelers deploys AI-powered claims countrywide with OpenAI",
-      "url": "https://openai.com/index/travelers",
+      "title": "OpenAI public policy agenda",
+      "url": "https://openai.com/index/public-policy-agenda",
       "feedSource": "OpenAI",
       "source": "openai.com",
       "score": 0.5124,
-      "publishedAt": "2026-06-02T12:00:00.000Z",
-      "summary": "Travelers built an AI-powered Claim Assistant with OpenAI to guide customers through filing claims, provide 24/7 support, and scale operations during peak demand.",
+      "publishedAt": "2026-06-03T10:00:00.000Z",
+      "summary": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
       "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Do transformers need three projections? Systematic study of QKV variants",
-      "url": "https://arxiv.org/abs/2606.04032",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.498,
-      "publishedAt": "2026-06-04T23:11:56.000Z",
-      "summary": "Transformers have become the standard solution for various AI tasks, with the query, key, and value (QKV) attention formulation playing a central role. However, the individual contribution of these three projections and the impact of omitting some remain poorly understood. We systematically evaluate",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 223
-    },
-    {
-      "title": "Sigma BF Review (2026): Eccentric but Strangely Lovable",
-      "url": "https://www.wired.com/review/sigma-bf-camera/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4297,
-      "publishedAt": "2026-06-07T11:01:00.000Z",
-      "summary": "Sigma’s new entry is both a bold design experiment and a pretty decent camera.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "You May Not Need a Giant Chef’s Knife When a Midsize Knife Does the Trick",
-      "url": "https://www.wired.com/story/you-may-not-need-a-giant-chefs-knife-when-a-midsize-knife-does-the-trick/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4296,
-      "publishedAt": "2026-06-07T11:00:00.000Z",
-      "summary": "These 5- to 6-inch blades are the secret workhorses of the kitchen, whether you’re a smaller person, have smaller hands, or just desire a smaller but still high-functioning knife.",
-      "tags": [
-        "AI"
+        "LLM",
+        "Safety"
       ],
       "engagementScore": 0
     },
@@ -620,19 +663,6 @@
       "engagementScore": 0
     },
     {
-      "title": "WWDC 2026: How to watch and what to expect",
-      "url": "https://www.theverge.com/tech/944099/wwdc-2026-how-to-watch",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.3612,
-      "publishedAt": "2026-06-06T22:12:51.000Z",
-      "summary": "Apple's biggest event of the year is nearly here. The company's Worldwide Developers Conference will spotlight updates to iOS, macOS, and all of Apple's other operating systems, and this year's event could also include a major overhaul for Siri. Here's how you can watch along live. When WWDC will ha",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
       "url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
       "feedSource": "Hugging Face",
@@ -656,32 +686,6 @@
       "summary": "",
       "tags": [
         "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Designing the hf CLI as an agent-optimized way to work with the Hub",
-      "url": "https://huggingface.co/blog/hf-cli-for-agents",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.3401,
-      "publishedAt": "2026-06-04T00:00:00.000Z",
-      "summary": "",
-      "tags": [
-        "Agents"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Direct Preference Optimization Beyond Chatbots",
-      "url": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.3401,
-      "publishedAt": "2026-06-03T12:55:11.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
       ],
       "engagementScore": 0
     }
