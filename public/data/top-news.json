@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-08T11:04:49.241Z",
+  "updatedAt": "2026-06-08T16:01:03.258Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,7 +12,7 @@
       "url": "https://arxiv.org/abs/2606.06514",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.864,
+      "score": 0.8304,
       "publishedAt": "2026-06-08T04:00:00.000Z",
       "summary": "arXiv:2606.06514v1 Announce Type: new \nAbstract: Machine learning systems deployed in high stakes socioeconomic settings routinely display bias. We formalize bias as a symmetry breaking operation: a classifier is fair if its outputs remain invariant under the counterfactual operation of switching a",
       "tags": [
@@ -26,7 +26,7 @@
       "url": "https://arxiv.org/abs/2606.06518",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.864,
+      "score": 0.8304,
       "publishedAt": "2026-06-08T04:00:00.000Z",
       "summary": "arXiv:2606.06518v1 Announce Type: new \nAbstract: Sudoku is a representative constraint satisfaction problem that requires global structural reasoning under strict discrete constraints. The existing works of solving Sudoku mainly focus on two dominant approaches, i.e., traditional heuristic and deep",
       "tags": [
@@ -40,7 +40,7 @@
       "url": "https://arxiv.org/abs/2606.06519",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.864,
+      "score": 0.8304,
       "publishedAt": "2026-06-08T04:00:00.000Z",
       "summary": "arXiv:2606.06519v1 Announce Type: new \nAbstract: Open-weight LLMs are increasingly fine-tuned into customized assistants, but downstream fine-tuning can weaken safety alignment and make models more vulnerable to malicious prompts, even when the training data is not intentionally harmful. This create",
       "tags": [
@@ -56,7 +56,7 @@
       "url": "https://arxiv.org/abs/2606.06523",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.864,
+      "score": 0.8304,
       "publishedAt": "2026-06-08T04:00:00.000Z",
       "summary": "arXiv:2606.06523v1 Announce Type: new \nAbstract: Equipping Large Language Models (LLMs) to execute reliable multi-step workflows has become a central challenge in artificial intelligence. Despite recent advances in LLMs' agentic capabilities, most agent systems still lack formal methods for specifyi",
       "tags": [
@@ -71,7 +71,7 @@
       "url": "https://arxiv.org/abs/2606.06526",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.864,
+      "score": 0.8304,
       "publishedAt": "2026-06-08T04:00:00.000Z",
       "summary": "arXiv:2606.06526v1 Announce Type: new \nAbstract: Large language models have made substantial progress on mathematical reasoning, but existing benchmarks typically evaluate well-specified problems with final answers, step-by-step solutions, or complete proofs. They do not capture collaborative open-p",
       "tags": [
@@ -86,7 +86,7 @@
       "url": "https://arxiv.org/abs/2606.06529",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.864,
+      "score": 0.8304,
       "publishedAt": "2026-06-08T04:00:00.000Z",
       "summary": "arXiv:2606.06529v1 Announce Type: new \nAbstract: An attacker that strategically chooses when to attack is much harder to catch than one that attacks indiscriminately. AI control is a safety framework for deploying capable but untrusted AI agents under the oversight of a weaker, trusted monitor and a",
       "tags": [
@@ -102,7 +102,7 @@
       "url": "https://arxiv.org/abs/2606.06531",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.864,
+      "score": 0.8304,
       "publishedAt": "2026-06-08T04:00:00.000Z",
       "summary": "arXiv:2606.06531v1 Announce Type: new \nAbstract: The critical question after a correct driving veto is not only whether a maneuver is unsafe, but whether the blocked interaction admits a lawful, auditable, and responsibility-bounded repair. Prediction and game-theoretic planners can suggest plausibl",
       "tags": [
@@ -115,7 +115,7 @@
       "url": "https://arxiv.org/abs/2606.06533",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.864,
+      "score": 0.8304,
       "publishedAt": "2026-06-08T04:00:00.000Z",
       "summary": "arXiv:2606.06533v1 Announce Type: new \nAbstract: What would it mean to have a scientific understanding of AI? Models are not static objects: they are snapshots of time-evolving processes shaped by data, objectives, architectures, and optimization dynamics. Yet much of AI research treats models as fi",
       "tags": [
@@ -125,11 +125,24 @@
       "engagementScore": 0
     },
     {
+      "title": "The crash that vanished: control and emergence in a five-model economy",
+      "url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v3",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.7771,
+      "publishedAt": "2026-06-08T13:10:48.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Tokenomics: Quantifying Where Tokens Are Used in Agentic Software Engineering",
       "url": "https://arxiv.org/abs/2601.14470",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7462,
+      "score": 0.7135,
       "publishedAt": "2026-06-07T01:37:11.000Z",
       "summary": "LLM-based Multi-Agent (LLM-MA) systems are increasingly applied to automate complex software engineering tasks such as requirements engineering, code generation, and testing. However, their operational efficiency and resource consumption remain poorly understood, hindering practical adoption due to",
       "tags": [
@@ -137,32 +150,46 @@
         "Agents",
         "Dev Tools"
       ],
-      "engagementScore": 169
+      "engagementScore": 172
     },
     {
       "title": "Efficient and Training-Free Single-Image Diffusion Models",
       "url": "https://arxiv.org/abs/2606.04299",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7407,
+      "score": 0.7081,
       "publishedAt": "2026-06-07T09:43:45.000Z",
       "summary": "We consider the problem of generating images whose internal structure -- defined by the distribution of patches across multiple scales -- matches that of a single reference image. Recent approaches address this problem by training a diffusion model on a single image. But even in this setting, traini",
       "tags": [
         "Vision",
         "ML Infra"
       ],
-      "engagementScore": 51
+      "engagementScore": 52
     },
     {
-      "title": "Amazing Digital Dentures (a failed project)",
-      "url": "https://huggingface.co/blog/build-small-hackathon/amazingdigitaldentures",
+      "title": "The Open Source Community is backing OpenEnv for Agentic RL",
+      "url": "https://huggingface.co/blog/openenv-agentic-rl",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6981,
-      "publishedAt": "2026-06-07T19:44:27.000Z",
+      "score": 0.6938,
+      "publishedAt": "2026-06-08T00:00:00.000Z",
       "summary": "",
       "tags": [
-        "AI"
+        "Agents",
+        "Open Source"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Download: how the World Cup ball will fly and OpenAI&#8217;s &#8220;super app&#8221;",
+      "url": "https://www.technologyreview.com/2026/06/08/1138485/the-download-world-cup-ball-openai-super-app/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6634,
+      "publishedAt": "2026-06-08T12:10:00.000Z",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Why this year’s World Cup ball may not fly as far Much is new about this month’s FIFA World Cup tournament. It hosts more teams than ever before. It’s",
+      "tags": [
+        "LLM"
       ],
       "engagementScore": 0
     },
@@ -171,7 +198,7 @@
       "url": "https://www.technologyreview.com/2026/06/08/1138470/why-this-years-world-cup-ball-may-not-fly-as-far/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6738,
+      "score": 0.645,
       "publishedAt": "2026-06-08T09:00:00.000Z",
       "summary": "Much is new about this month’s upcoming FIFA World Cup tournament, which will be held in the US, Canada, and Mexico. It hosts more teams than ever before. It’s the first to occur in three different host countries. And, like predecessor cups for over half a century, it will employ a soccer ball with",
       "tags": [
@@ -180,11 +207,24 @@
       "engagementScore": 0
     },
     {
+      "title": "When AI Builds Itself: Our progress toward recursive self-improvement",
+      "url": "https://www.anthropic.com/institute/recursive-self-improvement",
+      "feedSource": "Hacker News",
+      "source": "anthropic.com",
+      "score": 0.6404,
+      "publishedAt": "2026-06-04T16:20:17.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 529
+    },
+    {
       "title": "Harness engineering: Leveraging Codex in an agent-first world",
       "url": "https://openai.com/index/harness-engineering/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.6607,
+      "score": 0.6255,
       "publishedAt": "2026-06-05T18:20:06.000Z",
       "summary": "By Ryan Lopopolo, Member of the Technical Staff",
       "tags": [
@@ -192,14 +232,14 @@
         "RAG",
         "Dev Tools"
       ],
-      "engagementScore": 290
+      "engagementScore": 294
     },
     {
       "title": "Benchmarks in Leipzig",
       "url": "https://arxiv.org/abs/2606.05818",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.6566,
+      "score": 0.623,
       "publishedAt": "2026-06-06T14:00:52.000Z",
       "summary": "Between April 1 and May 15, 2026, a group of 49 mathematicians compiled a dataset of research-level mathematics questions with known answers. Most of the work was done during the 3-day workshop *Benchmarks in Leipzig* with 35 participants at the Max Planck Institute for Mathematics in the Sciences i",
       "tags": [
@@ -208,24 +248,37 @@
       "engagementScore": 137
     },
     {
-      "title": "When AI Builds Itself: Our progress toward recursive self-improvement",
-      "url": "https://www.anthropic.com/institute/recursive-self-improvement",
-      "feedSource": "Hacker News",
-      "source": "anthropic.com",
-      "score": 0.6403,
-      "publishedAt": "2026-06-04T16:20:17.000Z",
-      "summary": "",
+      "title": "Watch Duty Is Adding Flood Alerts to Its Wildfire App",
+      "url": "https://www.wired.com/story/watch-duty-is-adding-flood-alerts-to-its-wildfire-app/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5793,
+      "publishedAt": "2026-06-08T15:00:00.000Z",
+      "summary": "The popular wildfire tracking app is adding flood monitoring to its platform. It’s the first new disaster alert on the service, with many more to come.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 528
+      "engagementScore": 0
+    },
+    {
+      "title": "Microsoft’s AI chief says superintelligence is near, but won’t take your job",
+      "url": "https://www.theverge.com/podcast/944138/microsoft-ai-ceo-mustafa-suleyman-superintelligence-agi-openai-automation",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5764,
+      "publishedAt": "2026-06-08T14:27:47.000Z",
+      "summary": "Today I’m talking with Mustafa Suleyman, the CEO of Microsoft AI. And I’m actually going to keep today’s intro short — I’m working from my wife’s family farm this week, as you’ll see in the video, but also this is a real burner of an episode. We covered everything from Mustafa’s approach to training",
+      "tags": [
+        "Vision"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "Trees to Flows and Back: Unifying Decision Trees and Diffusion Models",
       "url": "https://arxiv.org/abs/2605.00414",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.6025,
+      "score": 0.5689,
       "publishedAt": "2026-06-06T12:59:59.000Z",
       "summary": "Decision trees and diffusion models are ostensibly disparate model classes, one discrete and hierarchical, the other continuous and dynamic. This work unifies the two by establishing a crisp mathematical correspondence between hierarchical decision trees and diffusion processes in appropriate limiti",
       "tags": [
@@ -238,8 +291,8 @@
       "url": "https://www.wired.com/review/lenovo-ideapad-slim-5x/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5844,
-      "publishedAt": "2026-06-08T11:01:00.000Z",
+      "score": 0.5634,
+      "publishedAt": "2026-06-08T12:02:00.000Z",
       "summary": "Lenovo's IdeaPad Slim 5x just might be the best laptop you can buy for $850. It's hard to find any major flaws, which is basically unheard of in a laptop at this price.",
       "tags": [
         "AI"
@@ -251,7 +304,7 @@
       "url": "https://www.wired.com/story/momfluencers-are-pitching-ai-as-a-better-coparent-than-men/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5816,
+      "score": 0.5552,
       "publishedAt": "2026-06-08T10:30:00.000Z",
       "summary": "Moms are outsourcing tedious household tasks to ChatGPT and selling courses teaching others to do the same. Where are all the dads?",
       "tags": [
@@ -264,7 +317,7 @@
       "url": "https://www.wired.com/live/apple-wwdc-2026-live-blog-all-the-updates-as-they-happen/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.579,
+      "score": 0.5526,
       "publishedAt": "2026-06-08T10:00:00.000Z",
       "summary": "Follow our WWDC 2026 live blog for all of the updates coming to iOS, macOS, watchOS, and more.",
       "tags": [
@@ -277,22 +330,9 @@
       "url": "https://www.wired.com/afroman-bitcoin-conference-free-speech/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.579,
+      "score": 0.5526,
       "publishedAt": "2026-06-08T10:00:00.000Z",
       "summary": "Earlier this year, the “Because I Got High” rapper went viral for winning a case against the cops. Now he’s crypto’s free-speech hero, even though he isn’t quite sure how the digital currency works.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "All the Ways Europe Is Ditching American Technology",
-      "url": "https://www.wired.com/story/all-the-ways-europe-is-ditching-american-technology/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5576,
-      "publishedAt": "2026-06-08T06:00:00.000Z",
-      "summary": "A WIRED timeline shows how dozens of governments, companies, and other organizations across Europe are moving, or planning to shift, away from US Big Tech.",
       "tags": [
         "AI"
       ],
@@ -303,13 +343,26 @@
       "url": "https://arxiv.org/abs/2606.03673",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.5315,
+      "score": 0.5316,
       "publishedAt": "2026-06-05T08:32:16.000Z",
       "summary": "This paper analyzes and identifies a space-based Global Navigation Satellite System (GNSS) interference source that has caused scores of powerful transient wide-area interference events over continental Europe, Greenland, and Canada since 2019. While terrestrial or near-terrestrial sources are prima",
       "tags": [
         "Research"
       ],
-      "engagementScore": 432
+      "engagementScore": 433
+    },
+    {
+      "title": "All the Ways Europe Is Ditching American Technology",
+      "url": "https://www.wired.com/story/all-the-ways-europe-is-ditching-american-technology/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5312,
+      "publishedAt": "2026-06-08T06:00:00.000Z",
+      "summary": "A WIRED timeline shows how dozens of governments, companies, and other organizations across Europe are moving, or planning to shift, away from US Big Tech.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "How Endava is redesigning software delivery around AI agents",
@@ -381,20 +434,6 @@
       "engagementScore": 0
     },
     {
-      "title": "A blueprint for democratic governance of frontier AI",
-      "url": "https://openai.com/index/frontier-safety-blueprint",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5124,
-      "publishedAt": "2026-06-03T10:00:00.000Z",
-      "summary": "OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security.",
-      "tags": [
-        "LLM",
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "OpenAI public policy agenda",
       "url": "https://openai.com/index/public-policy-agenda",
       "feedSource": "OpenAI",
@@ -402,6 +441,20 @@
       "score": 0.5124,
       "publishedAt": "2026-06-03T10:00:00.000Z",
       "summary": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
+      "tags": [
+        "LLM",
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "A blueprint for democratic governance of frontier AI",
+      "url": "https://openai.com/index/frontier-safety-blueprint",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.5124,
+      "publishedAt": "2026-06-03T10:00:00.000Z",
+      "summary": "OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security.",
       "tags": [
         "LLM",
         "Safety"
@@ -422,24 +475,24 @@
       "engagementScore": 0
     },
     {
-      "title": "DeepSeek V4 Pro beats GPT-5.5 Pro on precision",
-      "url": "https://runtimewire.com/article/deepseek-v4-pro-beats-gpt-5-5-pro-on-precision",
+      "title": "Do transformers need three projections? Systematic study of QKV variants",
+      "url": "https://arxiv.org/abs/2606.04032",
       "feedSource": "Hacker News",
-      "source": "runtimewire.com",
-      "score": 0.5087,
-      "publishedAt": "2026-06-08T01:39:30.000Z",
-      "summary": "DeepSeek V4 Pro wins this head-to-head by being more exact where it matters: following instructions, matching schemas, and solving edge cases cleanly. GPT-5.5 Pro is still strong, but it gave away points with avoidable deviations.",
+      "source": "arxiv.org",
+      "score": 0.498,
+      "publishedAt": "2026-06-04T23:11:56.000Z",
+      "summary": "Transformers have become the standard solution for various AI tasks, with the query, key, and value (QKV) attention formulation playing a central role. However, the individual contribution of these three projections and the impact of omitting some remain poorly understood. We systematically evaluate",
       "tags": [
-        "LLM"
+        "Research"
       ],
-      "engagementScore": 284
+      "engagementScore": 223
     },
     {
       "title": "Sigma BF Review (2026): Eccentric but Strangely Lovable",
       "url": "https://www.wired.com/review/sigma-bf-camera/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4561,
+      "score": 0.4297,
       "publishedAt": "2026-06-07T11:01:00.000Z",
       "summary": "Sigma’s new entry is both a bold design experiment and a pretty decent camera.",
       "tags": [
@@ -452,22 +505,9 @@
       "url": "https://www.wired.com/story/you-may-not-need-a-giant-chefs-knife-when-a-midsize-knife-does-the-trick/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.456,
+      "score": 0.4296,
       "publishedAt": "2026-06-07T11:00:00.000Z",
       "summary": "These 5- to 6-inch blades are the secret workhorses of the kitchen, whether you’re a smaller person, have smaller hands, or just desire a smaller but still high-functioning knife.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Lauf eElja Electric Mountain Bike Review: Power Trip",
-      "url": "https://www.wired.com/review/lauf-eelja-electric-mountain-bike/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4526,
-      "publishedAt": "2026-06-07T10:22:00.000Z",
-      "summary": "Lauf’s sleek new entry feels closer to a traditional mountain bike than anything I’ve ridden before.",
       "tags": [
         "AI"
       ],
@@ -532,7 +572,7 @@
       "source": "deepmind.google",
       "score": 0.4222,
       "publishedAt": "2026-05-17T19:43:45.000Z",
-      "summary": "",
+      "summary": "Introducing Google Antigravity 2.0",
       "tags": [
         "AI"
       ],
@@ -584,24 +624,11 @@
       "url": "https://www.theverge.com/tech/944099/wwdc-2026-how-to-watch",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.3876,
+      "score": 0.3612,
       "publishedAt": "2026-06-06T22:12:51.000Z",
       "summary": "Apple's biggest event of the year is nearly here. The company's Worldwide Developers Conference will spotlight updates to iOS, macOS, and all of Apple's other operating systems, and this year's event could also include a major overhaul for Siri. Here's how you can watch along live. When WWDC will ha",
       "tags": [
         "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The mayor of Shelbyville, Indiana, says only people who live in ‘shitty houses’ oppose data center",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/944984/shelbyville-indiana-mayor-shitty-houses-data-center",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.3504,
-      "publishedAt": "2026-06-06T15:14:49.000Z",
-      "summary": "A proposed $2 billion data center has become a political flashpoint in the small city of Shelbyville, Indiana. And the controversy has only grown more intense after the mayor, Scott Furgeson, was caught on camera saying of the \"No Data Center\" signs going up that, \"I've seen a lot of these all over",
-      "tags": [
-        "Industry"
       ],
       "engagementScore": 0
     },
@@ -655,32 +682,6 @@
       "summary": "",
       "tags": [
         "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Adding MCP Tools to Reachy Mini",
-      "url": "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.3401,
-      "publishedAt": "2026-06-03T00:00:00.000Z",
-      "summary": "",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Holo3.1: Fast &amp; Local Computer Use Agents",
-      "url": "https://huggingface.co/blog/Hcompany/holo31",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.3401,
-      "publishedAt": "2026-06-02T14:13:23.000Z",
-      "summary": "",
-      "tags": [
-        "Agents"
       ],
       "engagementScore": 0
     }
