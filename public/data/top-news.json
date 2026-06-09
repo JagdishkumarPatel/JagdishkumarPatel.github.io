@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-08T22:41:55.073Z",
+  "updatedAt": "2026-06-09T03:55:43.883Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,24 +8,24 @@
   ],
   "items": [
     {
-      "title": "OpenAI Submits S-1 Draft to SEC",
+      "title": "Confidential submission of draft S-1 to the SEC",
       "url": "https://openai.com/index/openai-submits-confidential-s-1/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 1.0691,
+      "score": 1.0894,
       "publishedAt": "2026-06-08T21:22:43.000Z",
       "summary": "OpenAI confirms a confidential S-1 submission to the SEC and has not yet determined timing for further action.",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 107
+      "engagementScore": 314
     },
     {
       "title": "Confidential submission of draft S-1 to the SEC",
       "url": "https://openai.com/index/openai-submits-confidential-s-1",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.974,
+      "score": 0.9358,
       "publishedAt": "2026-06-08T14:00:00.000Z",
       "summary": "OpenAI confirms a confidential S-1 submission to the SEC and has not yet determined timing for further action.",
       "tags": [
@@ -38,7 +38,7 @@
       "url": "https://openai.com/index/built-to-benefit-everyone-our-plan/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.9251,
+      "score": 0.9089,
       "publishedAt": "2026-06-08T20:56:24.000Z",
       "summary": "A vision for the future of AI, focusing on access, safety, and shared prosperity as OpenAI works to ensure AGI benefits everyone.",
       "tags": [
@@ -46,14 +46,14 @@
         "Vision",
         "Safety"
       ],
-      "engagementScore": 8
+      "engagementScore": 12
     },
     {
       "title": "Built to benefit everyone: our plan",
       "url": "https://openai.com/index/built-to-benefit-everyone-our-plan",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8828,
+      "score": 0.8447,
       "publishedAt": "2026-06-08T01:30:00.000Z",
       "summary": "A vision for the future of AI, focusing on access, safety, and shared prosperity as OpenAI works to ensure AGI benefits everyone.",
       "tags": [
@@ -68,7 +68,7 @@
       "url": "https://openai.com/index/economic-research-exchange",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8719,
+      "score": 0.8337,
       "publishedAt": "2026-06-08T00:00:00.000Z",
       "summary": "OpenAI launches the Economic Research Exchange to study AI’s impact on jobs, productivity, and the economy. Applications are now open for selected research projects.",
       "tags": [
@@ -78,11 +78,24 @@
       "engagementScore": 0
     },
     {
+      "title": "FP8 Is All You Need (Part 1): Debunking Hardware FP64 as the HPC Holy Grail",
+      "url": "https://arxiv.org/abs/2606.06510",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.7969,
+      "publishedAt": "2026-06-08T22:15:24.000Z",
+      "summary": "Conventional HPC dogma holds that native hardware FP64 silicon is the irreducible foundation of scientific computing -- the “holy grail” of double-precision simulation. This paper argues the dogma is wrong: on AI-optimised GPUs of the B300 generation and beyond, abundant FP8 tensor throughput combin",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 11
+    },
+    {
       "title": "Detecting and Mitigating Bias by Treating Fairness as a Symmetry Operation",
       "url": "https://arxiv.org/abs/2606.06514",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.785,
+      "score": 0.7494,
       "publishedAt": "2026-06-08T04:00:00.000Z",
       "summary": "arXiv:2606.06514v1 Announce Type: new \nAbstract: Machine learning systems deployed in high stakes socioeconomic settings routinely display bias. We formalize bias as a symmetry breaking operation: a classifier is fair if its outputs remain invariant under the counterfactual operation of switching a",
       "tags": [
@@ -96,7 +109,7 @@
       "url": "https://arxiv.org/abs/2606.06518",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.785,
+      "score": 0.7494,
       "publishedAt": "2026-06-08T04:00:00.000Z",
       "summary": "arXiv:2606.06518v1 Announce Type: new \nAbstract: Sudoku is a representative constraint satisfaction problem that requires global structural reasoning under strict discrete constraints. The existing works of solving Sudoku mainly focus on two dominant approaches, i.e., traditional heuristic and deep",
       "tags": [
@@ -110,7 +123,7 @@
       "url": "https://arxiv.org/abs/2606.06519",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.785,
+      "score": 0.7494,
       "publishedAt": "2026-06-08T04:00:00.000Z",
       "summary": "arXiv:2606.06519v1 Announce Type: new \nAbstract: Open-weight LLMs are increasingly fine-tuned into customized assistants, but downstream fine-tuning can weaken safety alignment and make models more vulnerable to malicious prompts, even when the training data is not intentionally harmful. This create",
       "tags": [
@@ -126,7 +139,7 @@
       "url": "https://arxiv.org/abs/2606.06523",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.785,
+      "score": 0.7494,
       "publishedAt": "2026-06-08T04:00:00.000Z",
       "summary": "arXiv:2606.06523v1 Announce Type: new \nAbstract: Equipping Large Language Models (LLMs) to execute reliable multi-step workflows has become a central challenge in artificial intelligence. Despite recent advances in LLMs' agentic capabilities, most agent systems still lack formal methods for specifyi",
       "tags": [
@@ -141,7 +154,7 @@
       "url": "https://arxiv.org/abs/2606.06526",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.785,
+      "score": 0.7494,
       "publishedAt": "2026-06-08T04:00:00.000Z",
       "summary": "arXiv:2606.06526v1 Announce Type: new \nAbstract: Large language models have made substantial progress on mathematical reasoning, but existing benchmarks typically evaluate well-specified problems with final answers, step-by-step solutions, or complete proofs. They do not capture collaborative open-p",
       "tags": [
@@ -156,7 +169,7 @@
       "url": "https://arxiv.org/abs/2606.06529",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.785,
+      "score": 0.7494,
       "publishedAt": "2026-06-08T04:00:00.000Z",
       "summary": "arXiv:2606.06529v1 Announce Type: new \nAbstract: An attacker that strategically chooses when to attack is much harder to catch than one that attacks indiscriminately. AI control is a safety framework for deploying capable but untrusted AI agents under the oversight of a weaker, trusted monitor and a",
       "tags": [
@@ -172,7 +185,7 @@
       "url": "https://arxiv.org/abs/2606.06531",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.785,
+      "score": 0.7494,
       "publishedAt": "2026-06-08T04:00:00.000Z",
       "summary": "arXiv:2606.06531v1 Announce Type: new \nAbstract: The critical question after a correct driving veto is not only whether a maneuver is unsafe, but whether the blocked interaction admits a lawful, auditable, and responsibility-bounded repair. Prediction and game-theoretic planners can suggest plausibl",
       "tags": [
@@ -185,7 +198,7 @@
       "url": "https://arxiv.org/abs/2606.06533",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.785,
+      "score": 0.7494,
       "publishedAt": "2026-06-08T04:00:00.000Z",
       "summary": "arXiv:2606.06533v1 Announce Type: new \nAbstract: What would it mean to have a scientific understanding of AI? Models are not static objects: they are snapshots of time-evolving processes shaped by data, objectives, architectures, and optimization dynamics. Yet much of AI research treats models as fi",
       "tags": [
@@ -199,7 +212,7 @@
       "url": "https://arxiv.org/abs/2601.14470",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.668,
+      "score": 0.6324,
       "publishedAt": "2026-06-07T01:37:11.000Z",
       "summary": "LLM-based Multi-Agent (LLM-MA) systems are increasingly applied to automate complex software engineering tasks such as requirements engineering, code generation, and testing. However, their operational efficiency and resource consumption remain poorly understood, hindering practical adoption due to",
       "tags": [
@@ -214,7 +227,7 @@
       "url": "https://arxiv.org/abs/2606.04299",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.6626,
+      "score": 0.627,
       "publishedAt": "2026-06-07T09:43:45.000Z",
       "summary": "We consider the problem of generating images whose internal structure -- defined by the distribution of patches across multiple scales -- matches that of a single reference image. Recent approaches address this problem by training a diffusion model on a single image. But even in this setting, traini",
       "tags": [
@@ -228,38 +241,12 @@
       "url": "https://huggingface.co/blog/openenv-agentic-rl",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6516,
+      "score": 0.6186,
       "publishedAt": "2026-06-08T00:00:00.000Z",
       "summary": "",
       "tags": [
         "Agents",
         "Open Source"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Nex N2 Pro: Frontier agentic performance at 400B",
-      "url": "https://huggingface.co/nex-agi/Nex-N2-Pro",
-      "feedSource": "Hacker News",
-      "source": "huggingface.co",
-      "score": 0.6461,
-      "publishedAt": "2026-06-08T17:55:34.000Z",
-      "summary": "",
-      "tags": [
-        "Agents"
-      ],
-      "engagementScore": 4
-    },
-    {
-      "title": "The Download: how the World Cup ball will fly and OpenAI&#8217;s &#8220;super app&#8221;",
-      "url": "https://www.technologyreview.com/2026/06/08/1138485/the-download-world-cup-ball-openai-super-app/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.6245,
-      "publishedAt": "2026-06-08T12:10:00.000Z",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Why this year’s World Cup ball may not fly as far Much is new about this month’s FIFA World Cup tournament. It hosts more teams than ever before. It’s",
-      "tags": [
-        "LLM"
       ],
       "engagementScore": 0
     },
@@ -279,11 +266,24 @@
       "engagementScore": 295
     },
     {
+      "title": "The Download: how the World Cup ball will fly and OpenAI&#8217;s &#8220;super app&#8221;",
+      "url": "https://www.technologyreview.com/2026/06/08/1138485/the-download-world-cup-ball-openai-super-app/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.594,
+      "publishedAt": "2026-06-08T12:10:00.000Z",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Why this year’s World Cup ball may not fly as far Much is new about this month’s FIFA World Cup tournament. It hosts more teams than ever before. It’s",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Why this year’s World Cup ball may not fly as far",
       "url": "https://www.technologyreview.com/2026/06/08/1138470/why-this-years-world-cup-ball-may-not-fly-as-far/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.606,
+      "score": 0.5755,
       "publishedAt": "2026-06-08T09:00:00.000Z",
       "summary": "Much is new about this month’s upcoming FIFA World Cup tournament, which will be held in the US, Canada, and Mexico. It hosts more teams than ever before. It’s the first to occur in three different host countries. And, like predecessor cups for over half a century, it will employ a soccer ball with",
       "tags": [
@@ -296,9 +296,9 @@
       "url": "https://www.theverge.com/tech/946345/apple-safari-ai-update-extensions",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5823,
-      "publishedAt": "2026-06-08T22:14:17.000Z",
-      "summary": "Apple is trying to solve one of Safari's biggest weaknesses with AI. Safari has long lacked the robust library of extensions that its rivals have, mainly due to the stringent development requirements from Apple. But now, Apple is inviting users to essentially vibe code their own extensions. In a dem",
+      "score": 0.5567,
+      "publishedAt": "2026-06-08T22:40:37.000Z",
+      "summary": "Apple is trying to solve one of Safari's biggest weaknesses with AI. Safari has long lacked the robust library of extensions that its rivals have, mainly due to the stringent development requirements from Apple. But now, Apple is inviting users to essentially vibe-code their own extensions. In a dem",
       "tags": [
         "Dev Tools"
       ],
@@ -309,7 +309,7 @@
       "url": "https://www.theverge.com/news/945905/amazon-alexa-shopping-ai-generated-custom-merch-design-printing",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.581,
+      "score": 0.553,
       "publishedAt": "2026-06-08T21:59:23.000Z",
       "summary": "Amazon is expanding its print-on-demand features to AI-generated designs created using Alexa for Shopping for products like T-shirts, water bottles, and hoodies. Shoppers can use text prompts to generate images that are then printed onto blanks for sale on Amazon. They can then share the link to the",
       "tags": [
@@ -322,7 +322,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/946335/openai-ipo-s-1-confidential",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5791,
+      "score": 0.5511,
       "publishedAt": "2026-06-08T21:38:29.000Z",
       "summary": "OpenAI on Monday checked off a preliminary step in the IPO race that it and rival Anthropic have been competing in for the better part of a year: The company announced it has confidentially submitted a Form S-1 with the US Securities and Exchange Commission, following Anthropic's decision to do the",
       "tags": [
@@ -336,7 +336,7 @@
       "url": "https://www.wired.com/story/openai-confidentially-files-for-ipo/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5785,
+      "score": 0.5505,
       "publishedAt": "2026-06-08T21:31:58.000Z",
       "summary": "The ChatGPT-maker announced it has filed paperwork to go public, just a week after rival Anthropic took the same step.",
       "tags": [
@@ -347,24 +347,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Benchmarks in Leipzig",
-      "url": "https://arxiv.org/abs/2606.05818",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.5779,
-      "publishedAt": "2026-06-06T14:00:52.000Z",
-      "summary": "Between April 1 and May 15, 2026, a group of 49 mathematicians compiled a dataset of research-level mathematics questions with known answers. Most of the work was done during the 3-day workshop *Benchmarks in Leipzig* with 35 participants at the Max Planck Institute for Mathematics in the Sciences i",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 138
-    },
-    {
       "title": "Polymarket and Kalshi Say Influencer Partners Can’t Deny Election Results, Actually",
       "url": "https://www.wired.com/story/kalshi-polymarket-influencer-election-denial-spencer-pratt/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5778,
+      "score": 0.5498,
       "publishedAt": "2026-06-08T21:23:27.000Z",
       "summary": "Social media posts questioning the integrity of LA’s mayoral election were labeled “paid partnerships.” Then Kalshi and Polymarket told creators to delete them.",
       "tags": [
@@ -377,7 +364,7 @@
       "url": "https://www.wired.com/story/everything-apple-announced-at-wwdc-2026/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5703,
+      "score": 0.5424,
       "publishedAt": "2026-06-08T20:00:10.000Z",
       "summary": "Updates include a new souped-up Siri, lots of iOS enhancements, and some inkling on how an AI partnership with Google has come to power Apple’s products.",
       "tags": [
@@ -386,11 +373,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Benchmarks in Leipzig",
+      "url": "https://arxiv.org/abs/2606.05818",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.5423,
+      "publishedAt": "2026-06-06T14:00:52.000Z",
+      "summary": "Between April 1 and May 15, 2026, a group of 49 mathematicians compiled a dataset of research-level mathematics questions with known answers. Most of the work was done during the 3-day workshop *Benchmarks in Leipzig* with 35 participants at the Max Planck Institute for Mathematics in the Sciences i",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 138
+    },
+    {
       "title": "Apple announces Siri AI and its next generation of Apple Intelligence",
       "url": "https://www.theverge.com/tech/942416/apple-siri-ai-update-wwdc",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5647,
+      "score": 0.5367,
       "publishedAt": "2026-06-08T18:56:58.000Z",
       "summary": "Two years after first revealing its plans for Apple Intelligence and a smarter Siri that never fully materialized, at WWDC, Apple just revealed a new set of AI features and a smarter, more personalized Siri. Apple calls Siri AI an \"entirely new version of Siri\" and says it's both more conversational",
       "tags": [
@@ -403,7 +403,7 @@
       "url": "https://www.wired.com/story/apples-iphone-camera-app-is-getting-an-ai-upgrade-in-ios-27/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5632,
+      "score": 0.5353,
       "publishedAt": "2026-06-08T18:40:32.000Z",
       "summary": "Siri is now directly embedded into the camera app, and there are more artificial intelligence tools in the Photos app to alter your images.",
       "tags": [
@@ -417,7 +417,7 @@
       "url": "https://www.wired.com/story/apples-new-siri-ai-is-ready-to-get-personal/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5612,
+      "score": 0.5332,
       "publishedAt": "2026-06-08T18:17:44.000Z",
       "summary": "From a stand-alone app to a Google Gemini partnership, here’s everything you need to know from WWDC 2026 about Apple’s upcoming overhaul of Siri.",
       "tags": [
@@ -430,7 +430,7 @@
       "url": "https://www.wired.com/story/uk-supercomputer-investment-ai-homegrown-semiconductor/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5582,
+      "score": 0.5303,
       "publishedAt": "2026-06-08T17:44:28.000Z",
       "summary": "The British government thinks a state-backed infrastructure initiative will help supercharge homegrown chip startups.",
       "tags": [
@@ -439,24 +439,24 @@
       "engagementScore": 0
     },
     {
-      "title": "Meta Deletes Face-Recognition System From Its Smart Glasses App After WIRED Report",
-      "url": "https://www.wired.com/story/meta-removes-face-recognition-code-meta-ai-app-smart-glasses/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5571,
-      "publishedAt": "2026-06-08T17:31:11.000Z",
-      "summary": "The code WIRED identified is gone from the latest version of Meta AI, the companion app for the company’s smart glasses. Meta won’t say why or whether it’s coming back.",
+      "title": "Apple bets cheaper AI will woo small developers",
+      "url": "https://techcrunch.com/2026/06/08/apple-bets-cheaper-ai-will-woo-small-developers/",
+      "feedSource": "Hacker News",
+      "source": "techcrunch.com",
+      "score": 0.5301,
+      "publishedAt": "2026-06-08T21:02:00.000Z",
+      "summary": "",
       "tags": [
         "Dev Tools"
       ],
-      "engagementScore": 0
+      "engagementScore": 32
     },
     {
       "title": "WWDC 2026: How to watch and what to expect",
       "url": "https://www.theverge.com/tech/944099/wwdc-2026-how-to-watch",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5524,
+      "score": 0.5245,
       "publishedAt": "2026-06-08T16:39:13.000Z",
       "summary": "Apple's biggest event of the year is nearly here. The company's Worldwide Developers Conference will spotlight updates to iOS, macOS, and all of Apple's other operating systems, and this year's event could also include a major overhaul for Siri. Here's how you can watch along live. When WWDC will ha",
       "tags": [
@@ -469,7 +469,7 @@
       "url": "https://www.wired.com/live/apple-wwdc-2026-live-blog-all-the-updates-as-they-happen/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5518,
+      "score": 0.5239,
       "publishedAt": "2026-06-08T16:32:33.000Z",
       "summary": "Follow our WWDC 2026 live blog for all of the updates coming to iOS, macOS, watchOS, and more.",
       "tags": [
@@ -482,7 +482,7 @@
       "url": "https://www.theverge.com/tech/944325/google-notebooklm-ai-gemini-update",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5496,
+      "score": 0.5216,
       "publishedAt": "2026-06-08T16:07:38.000Z",
       "summary": "Google is rolling out \"across the board\" updates to NotebookLM. The AI-powered note-taking app now uses Google's upgraded Gemini 3.5 model, which will allow it to respond with \"more accurate and reliable information,\" according to a blog post on Monday. Launched in 2023, NotebookLM allows you to int",
       "tags": [
@@ -491,30 +491,30 @@
       "engagementScore": 0
     },
     {
+      "title": "Watch Duty Is Adding Flood Alerts to Its Wildfire App",
+      "url": "https://www.wired.com/story/watch-duty-is-adding-flood-alerts-to-its-wildfire-app/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5156,
+      "publishedAt": "2026-06-08T15:00:00.000Z",
+      "summary": "The popular wildfire tracking app is adding flood monitoring to its platform. It’s the first new disaster alert on the service, with many more to come.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Microsoft’s AI chief says superintelligence is near, but won’t take your job",
       "url": "https://www.theverge.com/podcast/944138/microsoft-ai-ceo-mustafa-suleyman-superintelligence-agi-openai-automation",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5407,
+      "score": 0.5127,
       "publishedAt": "2026-06-08T14:27:47.000Z",
       "summary": "Today I’m talking with Mustafa Suleyman, the CEO of Microsoft AI. And I’m actually going to keep today’s intro short — I’m working from my wife’s family farm this week, as you’ll see in the video, but also this is a real burner of an episode. We covered everything from Mustafa’s approach to training",
       "tags": [
         "Vision"
       ],
       "engagementScore": 0
-    },
-    {
-      "title": "Apple reveals new AI architecture built around Google Gemini models",
-      "url": "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/",
-      "feedSource": "Hacker News",
-      "source": "macrumors.com",
-      "score": 0.5373,
-      "publishedAt": "2026-06-08T19:14:47.000Z",
-      "summary": "Apple today announced a major overhaul of its Apple Intelligence platform, revealing a new architecture built on foundation models developed in collaboration with Google using the technologies behind the Gemini family. The new architecture centers on Apple Foundation Models co-developed with Google,",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 281
     },
     {
       "title": "How Endava is redesigning software delivery around AI agents",
