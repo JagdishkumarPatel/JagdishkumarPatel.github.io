@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-09T09:53:22.132Z",
+  "updatedAt": "2026-06-09T15:13:01.038Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,20 +12,47 @@
       "url": "https://openai.com/index/openai-submits-confidential-s-1/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 1.0497,
+      "score": 1.0125,
       "publishedAt": "2026-06-08T21:22:43.000Z",
       "summary": "OpenAI confirms a confidential S-1 submission to the SEC and has not yet determined timing for further action.",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 337
+      "engagementScore": 347
+    },
+    {
+      "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
+      "url": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/",
+      "feedSource": "DeepMind",
+      "source": "deepmind.google",
+      "score": 0.9051,
+      "publishedAt": "2026-06-09T14:10:19.000Z",
+      "summary": "An overview of Gemma 4 12B, a model designed to bring high-performance multimodal intelligence directly to your laptop.",
+      "tags": [
+        "Vision",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Powering the future of robotics in Europe",
+      "url": "https://deepmind.google/blog/powering-the-future-of-robotics-in-europe/",
+      "feedSource": "DeepMind",
+      "source": "deepmind.google",
+      "score": 0.9042,
+      "publishedAt": "2026-06-09T14:02:33.000Z",
+      "summary": "Google DeepMind Accelerator selects 15 robotics companies from across Europe to join the program. Providing 3 months of intensive mentorship and technical support, enabl…",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "Confidential submission of draft S-1 to the SEC",
       "url": "https://openai.com/index/openai-submits-confidential-s-1",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8924,
+      "score": 0.8535,
       "publishedAt": "2026-06-08T14:00:00.000Z",
       "summary": "OpenAI confirms a confidential S-1 submission to the SEC and has not yet determined timing for further action.",
       "tags": [
@@ -38,7 +65,7 @@
       "url": "https://arxiv.org/abs/2606.07549",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8721,
+      "score": 0.8359,
       "publishedAt": "2026-06-09T04:00:00.000Z",
       "summary": "arXiv:2606.07549v1 Announce Type: new \nAbstract: Recent advances in Multimodal Large Language Models (MLLMs) and agent workflows have shown strong promise for computational pathology, yet reliable patch-level reasoning remains challenging. End-to-end pathology MLLMs often hallucinate morphological f",
       "tags": [
@@ -54,7 +81,7 @@
       "url": "https://arxiv.org/abs/2606.07577",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8721,
+      "score": 0.8359,
       "publishedAt": "2026-06-09T04:00:00.000Z",
       "summary": "arXiv:2606.07577v1 Announce Type: new \nAbstract: Audio-visual large language models (LLMs) hold strong promise for long-form video understanding, yet their long-video inference is fundamentally limited by the linear growth of video tokens and key-value (KV) caches. We present OmniMem, a memory-effic",
       "tags": [
@@ -69,7 +96,7 @@
       "url": "https://arxiv.org/abs/2606.07594",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8721,
+      "score": 0.8359,
       "publishedAt": "2026-06-09T04:00:00.000Z",
       "summary": "arXiv:2606.07594v1 Announce Type: new \nAbstract: Personal AI agents must increasingly operate across APIs, shells, web surfaces, and desktop GUIs, yet many systems remain tuned to a single interface and offer limited support for user teaching and auditability. We present Syll, an open-source, self-h",
       "tags": [
@@ -85,7 +112,7 @@
       "url": "https://arxiv.org/abs/2606.07718",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8721,
+      "score": 0.8359,
       "publishedAt": "2026-06-09T04:00:00.000Z",
       "summary": "arXiv:2606.07718v1 Announce Type: new \nAbstract: Agentic AI tools offer a promising path to automating software development bottlenecks in scientific research pipelines, particularly for stages that take domain experts days to months to build, where scientists care about correctness and robustness,",
       "tags": [
@@ -100,7 +127,7 @@
       "url": "https://arxiv.org/abs/2606.07720",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8721,
+      "score": 0.8359,
       "publishedAt": "2026-06-09T04:00:00.000Z",
       "summary": "arXiv:2606.07720v1 Announce Type: new \nAbstract: Large language models (LLMs) have demonstrated remarkable reasoning abilities on mathematical and multi-hop planning tasks. The CoCoNuT (Chain of Continuous Thought) paradigm~\\cite{hao2024coconut} extends this by enabling models to reason in latent sp",
       "tags": [
@@ -114,7 +141,7 @@
       "url": "https://arxiv.org/abs/2606.07721",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8721,
+      "score": 0.8359,
       "publishedAt": "2026-06-09T04:00:00.000Z",
       "summary": "arXiv:2606.07721v1 Announce Type: new \nAbstract: Objectives: Automatic data extraction from free-text radiology reports enables large-scale research, but few studies assessed the performance of large language models (LLMs) on Dutch neuroradiology reports. Methods: We analyzed 947 brain MRI reports f",
       "tags": [
@@ -129,7 +156,7 @@
       "url": "https://arxiv.org/abs/2606.07722",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8721,
+      "score": 0.8359,
       "publishedAt": "2026-06-09T04:00:00.000Z",
       "summary": "arXiv:2606.07722v1 Announce Type: new \nAbstract: This article offers a perspective on the nature of chatbots as genuine conversation partners when discussing problems in relation to their solutions. What can chatbots do and what can't they do, and how can this be explained? Our argument draws on Agg",
       "tags": [
@@ -143,7 +170,7 @@
       "url": "https://arxiv.org/abs/2606.07780",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8721,
+      "score": 0.8359,
       "publishedAt": "2026-06-09T04:00:00.000Z",
       "summary": "arXiv:2606.07780v1 Announce Type: new \nAbstract: Floods are among the most destructive natural hazards, and their increasing frequency under climate change makes satellite-based inundation mapping essential for disaster response. Geospatial foundation models pretrained on satellite archives offer ge",
       "tags": [
@@ -153,26 +180,55 @@
       "engagementScore": 0
     },
     {
-      "title": "Built to benefit everyone: our plan",
-      "url": "https://openai.com/index/built-to-benefit-everyone-our-plan/",
+      "title": "Unified Controllable and Faithful Text-to-CAD Generation with LLMs",
+      "url": "https://arxiv.org/abs/2604.19773",
       "feedSource": "Hacker News",
-      "source": "openai.com",
-      "score": 0.8698,
-      "publishedAt": "2026-06-08T20:56:24.000Z",
-      "summary": "A vision for the future of AI, focusing on access, safety, and shared prosperity as OpenAI works to ensure AGI benefits everyone.",
+      "source": "arxiv.org",
+      "score": 0.7878,
+      "publishedAt": "2026-06-09T14:04:54.000Z",
+      "summary": "The construction of CAD models has traditionally relied on labor-intensive manual operations and specialized expertise. Recent advances in large language models (LLMs) have inspired research into text-to-CAD generation. However, existing approaches typically treat generation and editing as disjoint",
       "tags": [
         "LLM",
-        "Vision",
-        "Safety"
+        "Research"
       ],
-      "engagementScore": 13
+      "engagementScore": 5
+    },
+    {
+      "title": "Is Grep All You Need? How Agent Harnesses Reshape Agentic Search",
+      "url": "https://arxiv.org/abs/2605.15184",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.7835,
+      "publishedAt": "2026-06-09T13:27:03.000Z",
+      "summary": "Recent advances in Large Language Model (LLM) agents have enabled complex agentic workflows where models autonomously retrieve information, call tools, and reason over large corpora to complete tasks on behalf of users. Despite the growing adoption of retrieval-augmented generation (RAG) in agentic",
+      "tags": [
+        "LLM",
+        "Agents",
+        "RAG",
+        "Dev Tools"
+      ],
+      "engagementScore": 5
+    },
+    {
+      "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
+      "url": "https://huggingface.co/blog/mishig/spaces-agents-md",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.767,
+      "publishedAt": "2026-06-09T10:46:19.000Z",
+      "summary": "",
+      "tags": [
+        "Agents",
+        "Open Source"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "Built to benefit everyone: our plan",
       "url": "https://openai.com/index/built-to-benefit-everyone-our-plan",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8012,
+      "score": 0.7624,
       "publishedAt": "2026-06-08T01:30:00.000Z",
       "summary": "A vision for the future of AI, focusing on access, safety, and shared prosperity as OpenAI works to ensure AGI benefits everyone.",
       "tags": [
@@ -187,7 +243,7 @@
       "url": "https://openai.com/index/economic-research-exchange",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7903,
+      "score": 0.7514,
       "publishedAt": "2026-06-08T00:00:00.000Z",
       "summary": "OpenAI launches the Economic Research Exchange to study AI’s impact on jobs, productivity, and the economy. Applications are now open for selected research projects.",
       "tags": [
@@ -197,37 +253,37 @@
       "engagementScore": 0
     },
     {
-      "title": "NeuroBait: I fine-tuned a model to spark dopamine for ADHD brain",
-      "url": "https://huggingface.co/blog/build-small-hackathon/neurobait-adhd",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.79,
-      "publishedAt": "2026-06-09T09:04:58.000Z",
-      "summary": "",
-      "tags": [
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "FP8 Is All You Need (Part 1): Debunking Hardware FP64 as the HPC Holy Grail",
       "url": "https://arxiv.org/abs/2606.06510",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7686,
+      "score": 0.7421,
       "publishedAt": "2026-06-08T22:15:24.000Z",
       "summary": "Conventional HPC dogma holds that native hardware FP64 silicon is the irreducible foundation of scientific computing -- the “holy grail” of double-precision simulation. This paper argues the dogma is wrong: on AI-optimised GPUs of the B300 generation and beyond, abundant FP8 tensor throughput combin",
       "tags": [
         "Research"
       ],
-      "engagementScore": 14
+      "engagementScore": 17
+    },
+    {
+      "title": "Measuring the impact of learning with AI in Sierra Leone and beyond",
+      "url": "https://deepmind.google/blog/measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond/",
+      "feedSource": "DeepMind",
+      "source": "deepmind.google",
+      "score": 0.7344,
+      "publishedAt": "2026-06-08T13:04:59.000Z",
+      "summary": "Results from a randomized controlled trial show the potential of Gemini’s Guided Learning feature to boost engagement and accelerate learning.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "Semantics for 2D Rasterization",
       "url": "https://arxiv.org/abs/2603.23696",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7134,
+      "score": 0.6772,
       "publishedAt": "2026-06-08T23:29:07.000Z",
       "summary": "Rasterization is the process of determining the color of every pixel drawn by an application. Powerful rasterization libraries like Skia, CoreGraphics, and Direct2D put exceptional effort into drawing, blending, and rendering efficiently. Yet applications are still hindered by the inefficient sequen",
       "tags": [
@@ -236,11 +292,50 @@
       "engagementScore": 4
     },
     {
+      "title": "The Download: whole-body rejuvenation drugs and five things to know about AI",
+      "url": "https://www.technologyreview.com/2026/06/09/1138604/the-download-anti-aging-drugs-ai-five-things-to-know/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6681,
+      "publishedAt": "2026-06-09T12:10:00.000Z",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. David Sinclair plans to test whole-body rejuvenation drugs in the XPrize competition The outspoken longevity scientist David Sinclair has predicted th",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Learning to lead in a hybrid human-AI enterprise",
+      "url": "https://www.technologyreview.com/2026/06/09/1137830/learning-to-lead-in-a-hybrid-human-ai-enterprise/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6574,
+      "publishedAt": "2026-06-09T10:20:06.000Z",
+      "summary": "As adoption of AI agents looks set to surge by as much as 300% in the next two years, leadership teams are carefully considering the implications of a hybrid human-AI workforce.  Unlike existing enterprise-level automation that relies on manual input, AI agents are capable of autonomously coordinati",
+      "tags": [
+        "Agents"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "David Sinclair plans to test whole-body rejuvenation drugs in the XPrize competition",
+      "url": "https://www.technologyreview.com/2026/06/09/1138545/david-sinclair-plans-to-test-whole-body-rejuvenation-drugs-in-the-xprize-competition/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6555,
+      "publishedAt": "2026-06-09T10:00:00.000Z",
+      "summary": "The outspoken longevity scientist David Sinclair has been predicting that one day, you’ll go to the doctor and get a prescription that will make you 10 years younger. Now MIT Technology Review has learned that he has plans to launch human tests of an oral &#8220;reprogramming&#8221; drug as part of",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Five things you need to know about AI",
       "url": "https://www.technologyreview.com/2026/06/09/1138582/five-things-you-need-to-know-about-ai/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6823,
+      "score": 0.6513,
       "publishedAt": "2026-06-09T09:16:45.000Z",
       "summary": "At SXSW London last week I gave a talk called “Five things you need to know about AI,” in which I shared what I think are the biggest themes in AI right now. I pulled a few things from our first AI10 list, an annual guide to the most important trends in this buzzy world,&#8230;",
       "tags": [
@@ -253,21 +348,34 @@
       "url": "https://techcrunch.com/2026/06/08/microsofts-open-source-tools-were-hacked-to-steal-passwords-of-ai-developers/",
       "feedSource": "Hacker News",
       "source": "techcrunch.com",
-      "score": 0.61,
+      "score": 0.6217,
       "publishedAt": "2026-06-09T07:33:16.000Z",
       "summary": "",
       "tags": [
         "Open Source",
         "Dev Tools"
       ],
-      "engagementScore": 129
+      "engagementScore": 354
+    },
+    {
+      "title": "An introduction to functional analysis for science and engineering",
+      "url": "https://arxiv.org/abs/1904.02539",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.6142,
+      "publishedAt": "2026-06-07T17:01:34.000Z",
+      "summary": "This is a tutorial introduction to the functional analysis mathematics needed in many physical problems, such as in waves in continuous media. Functional analysis takes us beyond finite matrices, allowing us to work with infinite sets of continuous functions. It resolves important issues, such as wh",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 69
     },
     {
       "title": "Harness engineering: Leveraging Codex in an agent-first world",
       "url": "https://openai.com/index/harness-engineering/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.6087,
+      "score": 0.6089,
       "publishedAt": "2026-06-05T18:20:06.000Z",
       "summary": "By Ryan Lopopolo, Member of the Technical Staff",
       "tags": [
@@ -275,33 +383,162 @@
         "RAG",
         "Dev Tools"
       ],
-      "engagementScore": 295
+      "engagementScore": 296
     },
     {
-      "title": "Tokenomics: Quantifying Where Tokens Are Used in Agentic Software Engineering",
-      "url": "https://arxiv.org/abs/2601.14470",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.5919,
-      "publishedAt": "2026-06-07T01:37:11.000Z",
-      "summary": "LLM-based Multi-Agent (LLM-MA) systems are increasingly applied to automate complex software engineering tasks such as requirements engineering, code generation, and testing. However, their operational efficiency and resource consumption remain poorly understood, hindering practical adoption due to",
+      "title": "Microsoft AI chief walks back comments about AI taking over white-collar work",
+      "url": "https://www.theverge.com/tech/946879/microsoft-mustafa-suleyman-ai-white-collar-jobs",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5834,
+      "publishedAt": "2026-06-09T14:58:09.000Z",
+      "summary": "Microsoft AI head Mustafa Suleyman is walking back his statement about AI automating jobs done by white-collar workers, including lawyers, accountants, and project managers. During an episode of Decoder on Monday, Suleyman says he meant AI will help these workers complete tasks, rather than do their",
       "tags": [
-        "LLM",
-        "Agents",
         "Dev Tools"
       ],
-      "engagementScore": 172
+      "engagementScore": 0
     },
     {
-      "title": "Exclusive: Get Bruvi’s Pod Coffee Maker for Nearly Half Off",
-      "url": "https://www.wired.com/story/bruvi-bv-01-deal-june-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5828,
-      "publishedAt": "2026-06-09T09:31:00.000Z",
-      "summary": "Use this WIRED-exclusive coupon code to get the best deal on this high-design machine and biodegradable pods.",
+      "title": "Apple’s AI pitch will live or die by its privacy promise",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/946705/apple-private-cloud-compute-ai-siri-intelligence-wwdc",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5834,
+      "publishedAt": "2026-06-09T14:58:00.000Z",
+      "summary": "As expected, yesterday's WWDC keynote was mostly about AI. And also as expected, Apple tried to turn its late arrival into its sales pitch: It didn't rush into AI because it was taking its time to do things right. In this case, \"right\" means \"with more privacy than anyone else.\" It's a good pitch -",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Apple’s AI promises are finally, almost, sort of, here",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/946780/apples-ai-promises-are-finally-almost-sort-of-here",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5813,
+      "publishedAt": "2026-06-09T14:34:25.000Z",
+      "summary": "Apple kicked off its annual developer conference with bold promises about AI. The company, CEO Tim Cook said, would be \"introducing new technologies and innovations that push the limits on what's possible.\" But its slew of announcements - centered on a brand-new \"Siri AI\" - had more to do with catch",
       "tags": [
         "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Apple’s best AI idea looks a lot like vibe coding",
+      "url": "https://www.theverge.com/tech/946733/apple-shortcuts-ai-safari-tabs-vibe-code",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.576,
+      "publishedAt": "2026-06-09T13:34:48.000Z",
+      "summary": "Most of Apple's current AI ideas are roughly the same as everyone else's AI ideas. A chatbot you can ask questions; quick ways to create or summarize text; bizarre, borderline creepy image-generation tools. The company spent most of its WWDC keynote playing catch-up with the state of the AI art, ann",
+      "tags": [
+        "Vision",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Longevity Startup Doses First Human in Bid to Reverse Age-Related Sight Loss",
+      "url": "https://www.wired.com/story/longevity-startup-doses-first-human-in-bid-to-reverse-age-related-sight-loss/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.575,
+      "publishedAt": "2026-06-09T13:23:53.000Z",
+      "summary": "It will be the first time ER-100 technology they claim can reverse aging in cells has been tested on a human.",
+      "tags": [
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Rivian R2 2026: Specs, Price, Availability",
+      "url": "https://www.wired.com/story/rivian-r2-first-drive/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5729,
+      "publishedAt": "2026-06-09T13:00:00.000Z",
+      "summary": "With a competitive price, winning design, and better performance than the R1, Rivian could be set to break into the big leagues. Just make sure you get the right model with the right tech.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Smart Bird Feeders Everyone’s Talking About (and Actually Buying) (2026)",
+      "url": "https://www.wired.com/story/best-smart-bird-feeders/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.565,
+      "publishedAt": "2026-06-09T11:31:00.000Z",
+      "summary": "These bird feeders come with cameras and connected apps to let you see and learn about the birds in your neighborhood.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Amazon Ember Artline Review: A Stylish Art Television",
+      "url": "https://www.wired.com/review/amazon-ember-artline/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5623,
+      "publishedAt": "2026-06-09T11:01:00.000Z",
+      "summary": "The affordable Artline doubles as a design piece and comes close to outshining the reigning champion of art TVs, the Samsung Frame Pro.",
+      "tags": [
+        "Vision"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Untold Story of the Google Buses That Took Over San Francisco",
+      "url": "https://www.wired.com/story/book-excerpt-city-on-the-edge-google-buses-san-francisco/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5622,
+      "publishedAt": "2026-06-09T11:00:00.000Z",
+      "summary": "A decade ago, commuter buses attracted big protests in San Francisco. Years later, the city is still feeling the repercussions.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Alex Vindman Survived Trump’s Retaliation Machine. Now He’s Running for Senate",
+      "url": "https://www.wired.com/story/the-big-interview-podcast-alex-vindman/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5595,
+      "publishedAt": "2026-06-09T10:30:00.000Z",
+      "summary": "In 2019, Alex Vindman testified during President Trump’s first impeachment trial–a decision that ended his military career. Now he wants to challenge the president from the halls of Congress.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Anguished Parents, Crying Doctors: Life Amid Utah’s Measles Outbreak",
+      "url": "https://www.wired.com/story/anguished-parents-crying-doctors-life-amid-utahs-measles-outbreak/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5568,
+      "publishedAt": "2026-06-09T10:00:00.000Z",
+      "summary": "The state’s outbreak means adapting to America’s new reality, in which vaccine-preventable diseases become common again.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Meta Changed Its Speech Rules. Then Threats Against Politicians Skyrocketed",
+      "url": "https://www.wired.com/story/threats-against-politicians-skyrocketed-after-meta-changed-its-speech-rules/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5568,
+      "publishedAt": "2026-06-09T10:00:00.000Z",
+      "summary": "New research finds that in the six months after Meta relaxed rules in the name of free speech, violent threats against lawmakers—including President Donald Trump—surged on Facebook.",
+      "tags": [
+        "Research"
       ],
       "engagementScore": 0
     },
@@ -310,7 +547,7 @@
       "url": "https://huggingface.co/blog/openenv-agentic-rl",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.5809,
+      "score": 0.5472,
       "publishedAt": "2026-06-08T00:00:00.000Z",
       "summary": "",
       "tags": [
@@ -324,168 +561,11 @@
       "url": "https://www.technologyreview.com/2026/06/08/1138485/the-download-world-cup-ball-openai-super-app/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5592,
+      "score": 0.5281,
       "publishedAt": "2026-06-08T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Why this year’s World Cup ball may not fly as far Much is new about this month’s FIFA World Cup tournament. It hosts more teams than ever before. It’s",
       "tags": [
         "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "1Password Coupon: Score a Free Trial in June 2026",
-      "url": "https://www.wired.com/story/1password-coupon/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5586,
-      "publishedAt": "2026-06-09T05:00:00.000Z",
-      "summary": "Save up to 28% on business and personal memberships with 1Password promo codes and deals.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "HelloFresh Promo Codes: 55% Off for June 2026",
-      "url": "https://www.wired.com/story/hellofresh-coupon/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5586,
-      "publishedAt": "2026-06-09T05:00:00.000Z",
-      "summary": "Get up to 55% off and free meal boxes using a HelloFresh coupon code in June 2026. Discover our best codes and discounts to let you save time and money.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "OnePlus Promo Codes: 30% Off June 2026",
-      "url": "https://www.wired.com/story/oneplus-promo-code/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5586,
-      "publishedAt": "2026-06-09T05:00:00.000Z",
-      "summary": "Save 30% with a OnePlus coupon in June 2026, plus save up to 10% on earbuds, phones, and more.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Noom Promo Codes: 50% Off Best Deals &amp; Free Trials for June 2026",
-      "url": "https://www.wired.com/story/noom-promo-code/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5586,
-      "publishedAt": "2026-06-09T05:00:00.000Z",
-      "summary": "Discover the best ways to save on Noom subscriptions, including free trials, limited-time offers for GLP-1Rx Plus, and essential tips for redeeming your Noom discount.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Womanizer Coupons: Save 15% in June",
-      "url": "https://www.wired.com/story/womanizer-coupon/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5586,
-      "publishedAt": "2026-06-09T05:00:00.000Z",
-      "summary": "Save on the Womanizer Duo Premium and more with our latest Womanizer discount codes.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Sony Coupons: 45% Off Sony Headphones, WF-1000XM6 Earbuds, and Sony Cameras for June",
-      "url": "https://www.wired.com/story/sony-promo-code/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5586,
-      "publishedAt": "2026-06-09T05:00:00.000Z",
-      "summary": "Upgrade your setup with Sony’s newest releases. Save on industry-leading noise-canceling audio, and pro-level Alpha cameras.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "eBay Coupons: 20% Off in June 2026",
-      "url": "https://www.wired.com/story/ebay-coupon-code/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5586,
-      "publishedAt": "2026-06-09T05:00:00.000Z",
-      "summary": "Save up to 60% on a selection of items at eBay, including electronics, home products, card games, car parts and more.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Why this year’s World Cup ball may not fly as far",
-      "url": "https://www.technologyreview.com/2026/06/08/1138470/why-this-years-world-cup-ball-may-not-fly-as-far/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.5407,
-      "publishedAt": "2026-06-08T09:00:00.000Z",
-      "summary": "Much is new about this month’s upcoming FIFA World Cup tournament, which will be held in the US, Canada, and Mexico. It hosts more teams than ever before. It’s the first to occur in three different host countries. And, like predecessor cups for over half a century, it will employ a soccer ball with",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Apple bets cheaper AI will woo small developers",
-      "url": "https://techcrunch.com/2026/06/08/apple-bets-cheaper-ai-will-woo-small-developers/",
-      "feedSource": "Hacker News",
-      "source": "techcrunch.com",
-      "score": 0.5265,
-      "publishedAt": "2026-06-08T21:02:00.000Z",
-      "summary": "",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 65
-    },
-    {
-      "title": "Apple is using AI to fix Safari’s extension problem",
-      "url": "https://www.theverge.com/tech/946345/apple-safari-ai-update-extensions",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5248,
-      "publishedAt": "2026-06-08T22:40:37.000Z",
-      "summary": "Apple is trying to solve one of Safari's biggest weaknesses with AI. Safari has long lacked the robust library of extensions that its rivals have, mainly due to the stringent development requirements from Apple. But now, Apple is inviting users to essentially vibe-code their own extensions. In a dem",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Amazon is launching AI-generated custom merch",
-      "url": "https://www.theverge.com/news/945905/amazon-alexa-shopping-ai-generated-custom-merch-design-printing",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5211,
-      "publishedAt": "2026-06-08T21:59:23.000Z",
-      "summary": "Amazon is expanding its print-on-demand features to AI-generated designs created using Alexa for Shopping for products like T-shirts, water bottles, and hoodies. Shoppers can use text prompts to generate images that are then printed onto blanks for sale on Amazon. They can then share the link to the",
-      "tags": [
-        "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "OpenAI files for IPO, following Anthropic",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/946335/openai-ipo-s-1-confidential",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5193,
-      "publishedAt": "2026-06-08T21:38:29.000Z",
-      "summary": "OpenAI on Monday checked off a preliminary step in the IPO race that it and rival Anthropic have been competing in for the better part of a year: The company announced it has confidentially submitted a Form S-1 with the US Securities and Exchange Commission, following Anthropic's decision to do the",
-      "tags": [
-        "LLM",
-        "Industry"
       ],
       "engagementScore": 0
     },
@@ -559,134 +639,55 @@
       "engagementScore": 0
     },
     {
-      "title": "Apple announces Siri AI and its next generation of Apple Intelligence",
-      "url": "https://www.theverge.com/tech/942416/apple-siri-ai-update-wwdc",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5049,
-      "publishedAt": "2026-06-08T18:56:58.000Z",
-      "summary": "Two years after first revealing its plans for Apple Intelligence and a smarter Siri that never fully materialized, at WWDC, Apple just revealed a new set of AI features and a smarter, more personalized Siri. Apple calls Siri AI an \"entirely new version of Siri\" and says it's both more conversational",
+      "title": "Why this year’s World Cup ball may not fly as far",
+      "url": "https://www.technologyreview.com/2026/06/08/1138470/why-this-years-world-cup-ball-may-not-fly-as-far/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.5096,
+      "publishedAt": "2026-06-08T09:00:00.000Z",
+      "summary": "Much is new about this month’s upcoming FIFA World Cup tournament, which will be held in the US, Canada, and Mexico. It hosts more teams than ever before. It’s the first to occur in three different host countries. And, like predecessor cups for over half a century, it will employ a soccer ball with",
       "tags": [
         "AI"
       ],
       "engagementScore": 0
     },
     {
-      "title": "WWDC 2026: How to watch and what to expect",
-      "url": "https://www.theverge.com/tech/944099/wwdc-2026-how-to-watch",
+      "title": "Apple is using AI to fix Safari’s extension problem",
+      "url": "https://www.theverge.com/tech/946345/apple-safari-ai-update-extensions",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4926,
-      "publishedAt": "2026-06-08T16:39:13.000Z",
-      "summary": "Apple's biggest event of the year is nearly here. The company's Worldwide Developers Conference will spotlight updates to iOS, macOS, and all of Apple's other operating systems, and this year's event could also include a major overhaul for Siri. Here's how you can watch along live. When WWDC will ha",
+      "score": 0.4963,
+      "publishedAt": "2026-06-08T22:40:37.000Z",
+      "summary": "Apple is trying to solve one of Safari's biggest weaknesses with AI. Safari has long lacked the robust library of extensions that its rivals have, mainly due to the stringent development requirements from Apple. But now, Apple is inviting users to essentially vibe-code their own extensions. In a dem",
       "tags": [
         "Dev Tools"
       ],
       "engagementScore": 0
     },
     {
-      "title": "NotebookLM&#8217;s Gemini 3.5 upgrade adds a cloud computer and help finding sources",
-      "url": "https://www.theverge.com/tech/944325/google-notebooklm-ai-gemini-update",
+      "title": "Amazon is launching AI-generated custom merch",
+      "url": "https://www.theverge.com/news/945905/amazon-alexa-shopping-ai-generated-custom-merch-design-printing",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4898,
-      "publishedAt": "2026-06-08T16:07:38.000Z",
-      "summary": "Google is rolling out \"across the board\" updates to NotebookLM. The AI-powered note-taking app now uses Google's upgraded Gemini 3.5 model, which will allow it to respond with \"more accurate and reliable information,\" according to a blog post on Monday. Launched in 2023, NotebookLM allows you to int",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Microsoft’s AI chief says superintelligence is near, but won’t take your job",
-      "url": "https://www.theverge.com/podcast/944138/microsoft-ai-ceo-mustafa-suleyman-superintelligence-agi-openai-automation",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4809,
-      "publishedAt": "2026-06-08T14:27:47.000Z",
-      "summary": "Today I’m talking with Mustafa Suleyman, the CEO of Microsoft AI. And I’m actually going to keep today’s intro short — I’m working from my wife’s family farm this week, as you’ll see in the video, but also this is a real burner of an episode. We covered everything from Mustafa’s approach to training",
+      "score": 0.4926,
+      "publishedAt": "2026-06-08T21:59:23.000Z",
+      "summary": "Amazon is expanding its print-on-demand features to AI-generated designs created using Alexa for Shopping for products like T-shirts, water bottles, and hoodies. Shoppers can use text prompts to generate images that are then printed onto blanks for sale on Amazon. They can then share the link to the",
       "tags": [
         "Vision"
       ],
       "engagementScore": 0
     },
     {
-      "title": "We’re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks",
-      "url": "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-05-21T19:46:42.000Z",
-      "summary": "The Asia-Pacific region is a global engine for economic growth, but it’s also highly vulnerable to climate change. While green technologies are gaining momentum, a recen…",
-      "tags": [
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Fast-tracking genetic leads to reverse cellular aging",
-      "url": "https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-05-18T18:21:39.000Z",
-      "summary": "Biologists use Co-Scientist to find novel factors that successfully rejuvenate human cells.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Simulate real-world places with Project Genie and Street View",
-      "url": "https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-05-17T19:53:18.000Z",
-      "summary": "We’re expanding access to Google AI Ultra subscribers globally and introducing a new capability powered by Street View.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Introducing Gemini Omni",
-      "url": "https://deepmind.google/blog/introducing-gemini-omni/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-05-17T19:50:57.000Z",
-      "summary": "Introducing Gemini Omni, which allows you to create anything from any input and edit naturally using conversational language.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Introducing Google Antigravity 2.0",
-      "url": "https://deepmind.google/blog/introducing-google-antigravity-2-0/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-05-17T19:43:45.000Z",
-      "summary": "Introducing Google Antigravity 2.0",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Gemini for Science: AI experiments and tools for a new era of discovery",
-      "url": "https://deepmind.google/blog/gemini-for-science-ai-experiments-and-tools-for-a-new-era-of-discovery/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-05-17T13:50:34.000Z",
-      "summary": "A collection of science tools and experiments to expand the scale and precision of scientific exploration.",
+      "title": "OpenAI files for IPO, following Anthropic",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/946335/openai-ipo-s-1-confidential",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.4908,
+      "publishedAt": "2026-06-08T21:38:29.000Z",
+      "summary": "OpenAI on Monday checked off a preliminary step in the IPO race that it and rival Anthropic have been competing in for the better part of a year: The company announced it has confidentially submitted a Form S-1 with the US Securities and Exchange Commission, following Anthropic's decision to do the",
       "tags": [
         "LLM",
-        "Research",
-        "Dev Tools"
+        "Industry"
       ],
       "engagementScore": 0
     }
