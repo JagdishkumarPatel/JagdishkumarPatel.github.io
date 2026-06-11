@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-11T10:44:18.280Z",
+  "updatedAt": "2026-06-11T16:10:07.484Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,25 +8,11 @@
   ],
   "items": [
     {
-      "title": "How an astrophysicist uses Codex to help simulate black holes",
-      "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.9591,
-      "publishedAt": "2026-06-11T00:00:00.000Z",
-      "summary": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
-      "tags": [
-        "Research",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
       "url": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9591,
+      "score": 0.9195,
       "publishedAt": "2026-06-11T00:00:00.000Z",
       "summary": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
       "tags": [
@@ -36,24 +22,38 @@
       "engagementScore": 0
     },
     {
+      "title": "How an astrophysicist uses Codex to help simulate black holes",
+      "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.9195,
+      "publishedAt": "2026-06-11T00:00:00.000Z",
+      "summary": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
+      "tags": [
+        "Research",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Claude Fable 5",
       "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.9466,
+      "score": 0.9073,
       "publishedAt": "2026-06-09T16:58:01.000Z",
-      "summary": "",
+      "summary": "Today we’re launching Claude Fable 5: a Mythos-class model that we’ve made safe for general use.",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 2568
+      "engagementScore": 2580
     },
     {
       "title": "Access OpenAI models and Codex through your Oracle cloud commitment",
       "url": "https://openai.com/index/openai-on-oracle-cloud",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9299,
+      "score": 0.8903,
       "publishedAt": "2026-06-10T20:00:00.000Z",
       "summary": "Access OpenAI models and Codex through Oracle Cloud, using existing commitments to build and deploy AI with enterprise security and governance.",
       "tags": [
@@ -64,10 +64,23 @@
     },
     {
       "title": "PRC-linked influence operations are targeting AI debates in the US",
+      "url": "https://openai.com/index/prc-linked-influence-operations-ai-debates/",
+      "feedSource": "Hacker News",
+      "source": "openai.com",
+      "score": 0.8399,
+      "publishedAt": "2026-06-10T20:17:37.000Z",
+      "summary": "A new report from OpenAI details PRC-linked influence operations using AI to target U.S. tech debates, data center narratives, tariffs, and false claims about ChatGPT.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 19
+    },
+    {
+      "title": "PRC-linked influence operations are targeting AI debates in the US",
       "url": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8716,
+      "score": 0.832,
       "publishedAt": "2026-06-10T12:00:00.000Z",
       "summary": "A new report from OpenAI details PRC-linked influence operations using AI to target U.S. tech debates, data center narratives, tariffs, and false claims  about ChatGPT.",
       "tags": [
@@ -76,24 +89,11 @@
       "engagementScore": 0
     },
     {
-      "title": "PRC-linked influence operations are targeting AI debates in the US",
-      "url": "https://openai.com/index/prc-linked-influence-operations-ai-debates/",
-      "feedSource": "Hacker News",
-      "source": "openai.com",
-      "score": 0.8702,
-      "publishedAt": "2026-06-10T20:17:37.000Z",
-      "summary": "A new report from OpenAI details PRC-linked influence operations using AI to target U.S. tech debates, data center narratives, tariffs, and false claims about ChatGPT.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 16
-    },
-    {
       "title": "From Explicit Elements to Implicit Intent: A Predefined Library for Auditable Behavioral Inference",
       "url": "https://arxiv.org/abs/2606.11207",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8664,
+      "score": 0.8294,
       "publishedAt": "2026-06-11T04:00:00.000Z",
       "summary": "arXiv:2606.11207v1 Announce Type: new \nAbstract: We present SemantiClean, a modular framework for extracting structured semantic signals from e-commerce session data and driving pluggable inference targets including purchase intent, customer segmentation, and product affinity through a shared elemen",
       "tags": [
@@ -106,7 +106,7 @@
       "url": "https://arxiv.org/abs/2606.11245",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8664,
+      "score": 0.8294,
       "publishedAt": "2026-06-11T04:00:00.000Z",
       "summary": "arXiv:2606.11245v1 Announce Type: new \nAbstract: Large Language Models (LLMs) have demonstrated remarkable capabilities across various tasks, raising expectations for Artificial General Intelligence (AGI). This position paper argues that integrating explicit memory is the cornerstone for advancing L",
       "tags": [
@@ -120,7 +120,7 @@
       "url": "https://arxiv.org/abs/2606.11337",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8664,
+      "score": 0.8294,
       "publishedAt": "2026-06-11T04:00:00.000Z",
       "summary": "arXiv:2606.11337v1 Announce Type: new \nAbstract: Scientific AI agents increasingly retrieve evidence, reason across sources, and synthesize conclusions used in consequential decisions. Yet, their ability to do so in high-stakes domains such as health remains unclear. We introduce SciConBench, a larg",
       "tags": [
@@ -134,7 +134,7 @@
       "url": "https://arxiv.org/abs/2606.11349",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8664,
+      "score": 0.8294,
       "publishedAt": "2026-06-11T04:00:00.000Z",
       "summary": "arXiv:2606.11349v1 Announce Type: new \nAbstract: In hierarchical reasoning, failures often originate at intermediate decision points where the agent commits to a wrong branch without recognizing that it lacks critical information. Rather than treating clarification as an external uncertainty trigger",
       "tags": [
@@ -148,7 +148,7 @@
       "url": "https://arxiv.org/abs/2606.11379",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8664,
+      "score": 0.8294,
       "publishedAt": "2026-06-11T04:00:00.000Z",
       "summary": "arXiv:2606.11379v1 Announce Type: new \nAbstract: Pre-mediation, the preparatory phase preceding direct human negotiation, plays a critical role in achieving mutually beneficial agreements, yet is often omitted due to cost, time, and limited access to trained mediators. We introduce an automated medi",
       "tags": [
@@ -162,7 +162,7 @@
       "url": "https://arxiv.org/abs/2606.11440",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8664,
+      "score": 0.8294,
       "publishedAt": "2026-06-11T04:00:00.000Z",
       "summary": "arXiv:2606.11440v1 Announce Type: new \nAbstract: Existing multi-agent LLM orchestration methods, ranging from brute-force ensembles to learned routers, select models and topologies based on task and model features. However, these methods do not consider the runtime state of the serving infrastructur",
       "tags": [
@@ -177,7 +177,7 @@
       "url": "https://arxiv.org/abs/2606.11445",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8664,
+      "score": 0.8294,
       "publishedAt": "2026-06-11T04:00:00.000Z",
       "summary": "arXiv:2606.11445v1 Announce Type: new \nAbstract: Trust in an AI system is often anchored by explanations of how it works, which one then uses to forecast its behavior on new inputs. For large reasoning models (LRMs), this conventional route is particularly difficult to follow: explanation methods fo",
       "tags": [
@@ -190,7 +190,7 @@
       "url": "https://arxiv.org/abs/2606.11522",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8664,
+      "score": 0.8294,
       "publishedAt": "2026-06-11T04:00:00.000Z",
       "summary": "arXiv:2606.11522v1 Announce Type: new \nAbstract: Autoresearch agents now propose, evaluate, and select scientific candidates against a metric, and that metric is usually an aggregate reduced over a heterogeneous space of regions, slices, or cohorts. We show that when scientific validity lives in tha",
       "tags": [
@@ -204,7 +204,7 @@
       "url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.7874,
+      "score": 0.7505,
       "publishedAt": "2026-06-10T16:24:11.000Z",
       "summary": "An overview of DiffusionGemma, an exceptionally fast text generation model with up to 4x faster speeds.",
       "tags": [
@@ -217,7 +217,7 @@
       "url": "https://openai.com/index/lseg",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7841,
+      "score": 0.7445,
       "publishedAt": "2026-06-10T00:00:00.000Z",
       "summary": "See how LSEG uses OpenAI to scale trusted AI across its global business, accelerating insights, shrinking release cycles, and empowering 4,000 employees.",
       "tags": [
@@ -226,11 +226,53 @@
       "engagementScore": 0
     },
     {
+      "title": "Investing in multi-agent AI safety research",
+      "url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
+      "feedSource": "DeepMind",
+      "source": "deepmind.google",
+      "score": 0.7093,
+      "publishedAt": "2026-06-10T10:21:19.000Z",
+      "summary": "Google DeepMind and partners announce a $10M funding call for multi-agent safety research.",
+      "tags": [
+        "Agents",
+        "Research",
+        "Safety",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP",
+      "url": "https://huggingface.co/blog/torch-mlp-fusion",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.6929,
+      "publishedAt": "2026-06-11T00:00:00.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Download: soccer&#8217;s data renaissance and China&#8217;s big nuclear plans",
+      "url": "https://www.technologyreview.com/2026/06/11/1138809/the-download-soccer-football-data-analytics-china-nuclear-power/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6626,
+      "publishedAt": "2026-06-11T12:10:00.000Z",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Inside soccer’s data renaissance Imagine tuning in to the opening kickoff of a World Cup match and seeing a player intentionally kick the ball out of",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "How engineers at Nextdoor use Codex to build without limits",
       "url": "https://openai.com/index/nextdoor",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6966,
+      "score": 0.657,
       "publishedAt": "2026-06-09T12:00:00.000Z",
       "summary": "How engineers at Nextdoor use Codex with GPT-5.5 to investigate hard-to-reproduce issues, build across platforms, and focus on product outcomes.",
       "tags": [
@@ -241,15 +283,18 @@
       "engagementScore": 0
     },
     {
-      "title": "What Codex unlocks for Notion",
-      "url": "https://openai.com/index/notion",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.682,
-      "publishedAt": "2026-06-09T10:00:00.000Z",
-      "summary": "How Notion uses Codex to one-shot specs, build AI Voice Input for the web, and multiply engineering power across small teams.",
+      "title": "Google DeepMind is worried about what happens when millions of agents start to interact",
+      "url": "https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6558,
+      "publishedAt": "2026-06-11T11:00:45.000Z",
+      "summary": "Google DeepMind is funding research into the potential dangers of situations where millions of different AI agents interact with each other online. According to Rohin Shah, who directs the company’s AGI safety and alignment research, the mass-market arrival of agents that can carry out tasks without",
       "tags": [
-        "Dev Tools"
+        "Agents",
+        "Research",
+        "Safety",
+        "Industry"
       ],
       "engagementScore": 0
     },
@@ -258,7 +303,7 @@
       "url": "https://www.technologyreview.com/2026/06/11/1138502/job-titles-natures-drug-designer-tim-cernak/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6816,
+      "score": 0.6499,
       "publishedAt": "2026-06-11T10:00:00.000Z",
       "summary": "In 2018, after nearly two decades working in Big Pharma, chemist Tim Cernak was ready to put his skills to a new use.&#160; For Merck, he’d developed precision therapies for cancer, HIV, and diabetes that could target disease while minimizing harm to healthy cells. But as a lifelong nature lover, he",
       "tags": [
@@ -272,7 +317,7 @@
       "url": "https://www.technologyreview.com/2026/06/11/1138506/inside-soccer-data-renaissance-jesse-davis/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6816,
+      "score": 0.6499,
       "publishedAt": "2026-06-11T10:00:00.000Z",
       "summary": "Imagine tuning in to the opening kickoff of a World Cup match and seeing a player intentionally send the ball all the way down the pitch and right out of bounds on the opponent’s end. Casual fans might scratch their heads. Where’s the logic in surrendering possession seconds into a game? If you were",
       "tags": [
@@ -285,7 +330,7 @@
       "url": "https://www.technologyreview.com/2026/06/11/1138789/china-big-nuclear-reactors/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6816,
+      "score": 0.6499,
       "publishedAt": "2026-06-11T10:00:00.000Z",
       "summary": "It’s a tale of two nuclear industries. In China, large reactors are coming together at a stunning pace. The country has nearly doubled its nuclear fleet since 2016, reaching nearly 60 gigawatts of total power capacity. The new facilities are nearly all gigawatt-scale pressurized-water reactors. Mean",
       "tags": [
@@ -294,11 +339,37 @@
       "engagementScore": 0
     },
     {
+      "title": "Minimax M3 weights to be released on Friday",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2.7/discussions/33",
+      "feedSource": "Hacker News",
+      "source": "huggingface.co",
+      "score": 0.6498,
+      "publishedAt": "2026-06-11T10:19:26.000Z",
+      "summary": "",
+      "tags": [
+        "Open Source"
+      ],
+      "engagementScore": 5
+    },
+    {
+      "title": "What Codex unlocks for Notion",
+      "url": "https://openai.com/index/notion",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.6424,
+      "publishedAt": "2026-06-09T10:00:00.000Z",
+      "summary": "How Notion uses Codex to one-shot specs, build AI Voice Input for the web, and multiply engineering power across small teams.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Is Grep All You Need? How Agent Harnesses Reshape Agentic Search",
       "url": "https://arxiv.org/abs/2605.15184",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.6633,
+      "score": 0.6266,
       "publishedAt": "2026-06-09T13:27:03.000Z",
       "summary": "Recent advances in Large Language Model (LLM) agents have enabled complex agentic workflows where models autonomously retrieve information, call tools, and reason over large corpora to complete tasks on behalf of users. Despite the growing adoption of retrieval-augmented generation (RAG) in agentic",
       "tags": [
@@ -307,14 +378,27 @@
         "RAG",
         "Dev Tools"
       ],
-      "engagementScore": 161
+      "engagementScore": 162
+    },
+    {
+      "title": "DiffusionGemma: 4x Faster Text Generation",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/",
+      "feedSource": "Hacker News",
+      "source": "blog.google",
+      "score": 0.6257,
+      "publishedAt": "2026-06-10T16:09:37.000Z",
+      "summary": "An overview of DiffusionGemma, an exceptionally fast text generation model with up to 4x faster speeds.",
+      "tags": [
+        "Vision"
+      ],
+      "engagementScore": 314
     },
     {
       "title": "Can LLMs Beat Classical Hyperparameter Optimization Algorithms?",
       "url": "https://arxiv.org/abs/2603.24647",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.6582,
+      "score": 0.6217,
       "publishedAt": "2026-06-09T15:01:15.000Z",
       "summary": "The autoresearch repository enables an LLM agent to optimize hyperparameters by editing training code directly. We use it as a testbed to compare classical HPO algorithms against LLM-based methods on tuning the hyperparameters of a small language model under a fixed compute budget. When defining a f",
       "tags": [
@@ -324,41 +408,27 @@
         "Dev Tools",
         "ML Infra"
       ],
-      "engagementScore": 118
+      "engagementScore": 119
     },
     {
-      "title": "DiffusionGemma: 4x Faster Text Generation",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/",
-      "feedSource": "Hacker News",
-      "source": "blog.google",
-      "score": 0.6564,
-      "publishedAt": "2026-06-10T16:09:37.000Z",
-      "summary": "An overview of DiffusionGemma, an exceptionally fast text generation model with up to 4x faster speeds.",
+      "title": "Drug Sites Hijacked Spotify’s Search Ranking Through Fake Podcasts, Report Finds",
+      "url": "https://www.wired.com/story/drug-sites-hijacked-spotifys-search-ranking-through-fake-podcasts-report-finds/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5845,
+      "publishedAt": "2026-06-11T16:07:30.000Z",
+      "summary": "A joint congressional report describes a spam operation that turned tens of thousands of fake podcasts into search-engine bait for illegal pharmacy and scam sites.",
       "tags": [
-        "Vision"
+        "Safety"
       ],
-      "engagementScore": 307
-    },
-    {
-      "title": "Unified Controllable and Faithful Text-to-CAD Generation with LLMs",
-      "url": "https://arxiv.org/abs/2604.19773",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.6192,
-      "publishedAt": "2026-06-09T14:04:54.000Z",
-      "summary": "The construction of CAD models has traditionally relied on labor-intensive manual operations and specialized expertise. Recent advances in large language models (LLMs) have inspired research into text-to-CAD generation. However, existing approaches typically treat generation and editing as disjoint",
-      "tags": [
-        "LLM",
-        "Research"
-      ],
-      "engagementScore": 62
+      "engagementScore": 0
     },
     {
       "title": "Fluid, natural voice translation with Gemini 3.5 Live Translate",
       "url": "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.6164,
+      "score": 0.5795,
       "publishedAt": "2026-06-09T15:16:25.000Z",
       "summary": "Gemini 3.5 Live Translate brings near real-time, natural speech translation to Google AI Studio, Google Translate and Google Meet.",
       "tags": [
@@ -367,24 +437,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Industrial policy for the Intelligence Age",
-      "url": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.6091,
-      "publishedAt": "2026-06-09T00:00:00.000Z",
-      "summary": "Explore our ambitious, people-first industrial policy ideas for the AI era—focused on expanding opportunity, sharing prosperity, and building resilient institutions as advanced intelligence evolves.",
-      "tags": [
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
       "url": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.6089,
+      "score": 0.572,
       "publishedAt": "2026-06-09T14:10:19.000Z",
       "summary": "An overview of Gemma 4 12B, a model designed to bring high-performance multimodal intelligence directly to your laptop.",
       "tags": [
@@ -398,34 +455,125 @@
       "url": "https://deepmind.google/blog/powering-the-future-of-robotics-in-europe/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.608,
+      "score": 0.5711,
       "publishedAt": "2026-06-09T14:02:33.000Z",
-      "summary": "Google DeepMind Accelerator selects 15 robotics companies from across Europe to join the program. Providing 3 months of intensive mentorship and technical support, enabl…",
+      "summary": "",
       "tags": [
         "AI"
       ],
       "engagementScore": 0
     },
     {
-      "title": "Using Optical Aberrations to Distinguish Real Astronomical Transients",
-      "url": "https://arxiv.org/abs/2606.08319",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.6021,
-      "publishedAt": "2026-06-09T15:12:30.000Z",
-      "summary": "The detection of fast astronomical transients in photographic plates from the Palomar sky surveys conducted in the 1950s, was subject to the criticism that such transients could be just the effect of otherwise unaccounted for plate artifacts. In this paper, we show that transient images exhibit the",
+      "title": "Industrial policy for the Intelligence Age",
+      "url": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.5695,
+      "publishedAt": "2026-06-09T00:00:00.000Z",
+      "summary": "Explore our ambitious, people-first industrial policy ideas for the AI era—focused on expanding opportunity, sharing prosperity, and building resilient institutions as advanced intelligence evolves.",
       "tags": [
-        "Research",
-        "Vision"
+        "Safety"
       ],
-      "engagementScore": 38
+      "engagementScore": 0
+    },
+    {
+      "title": "Best Smart Chess Boards (2026): Chessnut, Millennium",
+      "url": "https://www.wired.com/story/best-smart-chess-boards/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5625,
+      "publishedAt": "2026-06-11T12:01:00.000Z",
+      "summary": "I played the ultimate game of strategy on a variety of smart chess boards to find the best for online and in-person matches.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Signal Alums Reveal ‘Encrypted Spaces,’ a System for Making Private Collaboration Apps",
+      "url": "https://www.wired.com/story/signal-alums-release-encrypted-spaces-a-new-system-for-building-private-collaboration-apps/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5625,
+      "publishedAt": "2026-06-11T12:00:00.000Z",
+      "summary": "The new open-source project could serve as the basis for a future of apps with features as complex as Slack, Discord, or Google Docs—but with added protection against surveillance.",
+      "tags": [
+        "Open Source"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Anthropic apologizes for invisible Claude Fable guardrails",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5607,
+      "publishedAt": "2026-06-11T11:40:43.000Z",
+      "summary": "Anthropic has apologized for stealthily throttling its new AI model, Claude Fable 5, with hidden guardrails that undermine both researchers and rivals using it to develop competing systems. The company says it is reversing course and will be more transparent about when the restrictions kick in, even",
+      "tags": [
+        "LLM",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Best E-Readers of 2026: Kobo, Kindle",
+      "url": "https://www.wired.com/gallery/best-ereaders/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5601,
+      "publishedAt": "2026-06-11T11:33:00.000Z",
+      "summary": "These WIRED-tested ebook readers let you take your library anywhere.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Best Portable Monitors (2026): Add a Second Screen I've Tested",
+      "url": "https://www.wired.com/story/best-portable-monitors/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5571,
+      "publishedAt": "2026-06-11T11:00:00.000Z",
+      "summary": "If you're someone who needs to (or likes to) take their work on the go, a portable monitor will make a huge difference. These are my favorite that I tested.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Americans Are Trading Billions of Dollars on Polymarket’s Banned Offshore Platform",
+      "url": "https://www.wired.com/story/polymarket-study-illegal-trades-offshore-billions/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5571,
+      "publishedAt": "2026-06-11T11:00:00.000Z",
+      "summary": "It’s the first estimate of how many Americans are sneaking onto Polymarket’s banned crypto-based platform.",
+      "tags": [
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "YouTube Appears to Be Making Money Off of Sanctioned Iranians’ Accounts",
+      "url": "https://www.wired.com/story/youtube-appears-to-be-making-money-off-of-sanctioned-iranian-accounts/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5571,
+      "publishedAt": "2026-06-11T11:00:00.000Z",
+      "summary": "New research suggests that dozens of monetized YouTube channels are run by people and organizations that the US government has sanctioned for their ties to Tehran.",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "Fiido Air Carbon Fiber Electric Bike Review: A Light, Quiet Ebike",
       "url": "https://www.wired.com/review/fiido-air-carbon-fiber-electric-bike/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5841,
+      "score": 0.5551,
       "publishedAt": "2026-06-11T10:37:00.000Z",
       "summary": "This impressively light carbon commuter makes switching to an ebike easier than ever.",
       "tags": [
@@ -434,116 +582,38 @@
       "engagementScore": 0
     },
     {
-      "title": "Welcome to the Waymo World Cup",
-      "url": "https://www.wired.com/story/welcome-to-the-waymo-world-cup/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5835,
-      "publishedAt": "2026-06-11T10:30:00.000Z",
-      "summary": "It might not feel all that different from older World Cups—for better or worse.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Trump’s Border Crackdown Is Wreaking Havoc on the World Cup",
-      "url": "https://www.wired.com/story/world-cup-2026-immigration-visas-travel-issues/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5808,
-      "publishedAt": "2026-06-11T10:00:00.000Z",
-      "summary": "Travel bans and other visa issues are creating problems for World Cup participants even before the whistle blows.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Cameras, Sensors, and 3D Body Scans: All the Tech Helping Eliminate Blown Calls",
-      "url": "https://www.wired.com/story/world-cup-tech-helping-eliminate-bad-calls-var-sensors-3d-body-scans/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5808,
-      "publishedAt": "2026-06-11T10:00:00.000Z",
-      "summary": "Soccer officials already rely on cameras to see who’s offside and who sent the ball out of bounds. But during this World Cup, refs will use digital twins of each player to view plays from every angle.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "How Mexican World Cup Stadiums Achieved FIFA’s Environmental Certifications",
-      "url": "https://www.wired.com/story/how-mexican-world-cup-stadiums-achieved-fifas-environmental-certifications/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5808,
-      "publishedAt": "2026-06-11T10:00:00.000Z",
-      "summary": "Venues hosting the 2026 World Cup must meet high standards to obtain environmental certifications, but FIFA also requires that they use natural grass, which is water-intensive to maintain.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "How to Watch the 2026 World Cup",
-      "url": "https://www.wired.com/story/how-to-watch-the-2026-world-cup/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5808,
-      "publishedAt": "2026-06-11T10:00:00.000Z",
-      "summary": "The games start June 11 and end with a grand finale in New Jersey on July 19. There are 104 of them. Here’s how to watch ’em all.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "People Living Near xAI’s Dirty Data Centers Are Furious About the SpaceX IPO",
-      "url": "https://www.wired.com/story/spacex-ipo-how-people-living-near-xai-data-centers-feel/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5781,
-      "publishedAt": "2026-06-11T09:30:00.000Z",
-      "summary": "Elon Musk is set to make hundreds of billions even as communities in Mississippi and Tennessee are fighting to stop the gas turbines powering xAI's supercomputers.",
-      "tags": [
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Cybersecurity researchers aren't happy about the guardrails on Anthropic's Fable",
       "url": "https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/",
       "feedSource": "Hacker News",
       "source": "techcrunch.com",
-      "score": 0.576,
+      "score": 0.5549,
       "publishedAt": "2026-06-10T16:42:00.000Z",
       "summary": "Cybersecurity researchers are complaining that Anthropic’s new model Fable has guardrails that are too strict for any cybersecurity work.",
       "tags": [
         "LLM",
         "Research"
       ],
-      "engagementScore": 453
+      "engagementScore": 553
     },
     {
-      "title": "I Was Scammed Buying GLP-1s Online. I’m Not Alone",
-      "url": "https://www.wired.com/story/i-was-scammed-buying-glp-1s-online-im-not-alone/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5755,
-      "publishedAt": "2026-06-11T09:00:00.000Z",
-      "summary": "Customers have complained that a telehealth network selling compounded GLP-1s has been ripping them off—even after it had to pay $5 million to clients as part of a settlement with the US government.",
+      "title": "Pokémon Go Scans Trained the Navigation Tech for Military Drones",
+      "url": "https://dronexl.co/2026/06/09/pokemon-go-scans-niantic-vantor-military-drone-navigation/",
+      "feedSource": "Hacker News",
+      "source": "dronexl.co",
+      "score": 0.5335,
+      "publishedAt": "2026-06-11T06:42:06.000Z",
+      "summary": "Pokémon Go players’ 30 billion scans trained navigation tech now bound for military drones, via Niantic Spatial’s defense partnership with Vantor.",
       "tags": [
-        "AI"
+        "Industry"
       ],
-      "engagementScore": 0
+      "engagementScore": 567
     },
     {
       "title": "The Download: the “steroid olympics&#8221; and a safer Mythos",
       "url": "https://www.technologyreview.com/2026/06/10/1138739/the-download-steroid-olympics-enhanced-games-anthropic-mythos/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5542,
+      "score": 0.5226,
       "publishedAt": "2026-06-10T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The “steroid olympics” were a circus—and a window into our culture —Amit Katwala A couple of weeks ago, at a $50 million arena built in a casino parki",
       "tags": [
@@ -556,7 +626,7 @@
       "url": "https://huggingface.co/blog/ServiceNow-AI/code-switching",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.548,
+      "score": 0.5137,
       "publishedAt": "2026-06-09T19:38:28.000Z",
       "summary": "",
       "tags": [
@@ -570,7 +640,7 @@
       "url": "https://www.technologyreview.com/2026/06/10/1138670/enhanced-games-doping-steroids-hormones-supplements-longevity/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5358,
+      "score": 0.5041,
       "publishedAt": "2026-06-10T09:00:00.000Z",
       "summary": "Testosterone. Methenolone. Nandrolone. Human growth hormone and EPO. Meldonium, modafinil, and mixed amphetamine salts. Clomiphene, anastrozole, levothyroxine, and liothyronine. Patches and capsules, creams and pills. A whole galaxy of steroids, metabolic modulators, and synthetic hormones coursing",
       "tags": [
@@ -583,7 +653,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/948153/deezer-ai-music-detector-spotify-apple",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5258,
+      "score": 0.4968,
       "publishedAt": "2026-06-10T23:42:48.000Z",
       "summary": "Deezer will now scan your playlists on other streaming platforms to detect AI-generated music. Deezer was the first of the big streaming services to start labeling AI-generated music. It even offered its tech to other platforms, but it doesn't seem like it had many buyers. Qobuz launched its own det",
       "tags": [
@@ -596,7 +666,7 @@
       "url": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.5246,
+      "score": 0.4903,
       "publishedAt": "2026-06-09T15:56:23.000Z",
       "summary": "",
       "tags": [
@@ -605,83 +675,16 @@
       "engagementScore": 0
     },
     {
-      "title": "Claude Fable won’t answer basic biology questions",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/947973/fable-wont-answer-basic-biology-questions",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5008,
-      "publishedAt": "2026-06-10T19:02:08.000Z",
-      "summary": "Anthropic just released Claude Fable 5, calling it the most powerful AI model it has ever made widely available and praising its skills in biology, among others. But the model won't answer basic biology questions - the kind you'd expect a high schooler to handle. Instead, it hands off the query to t",
-      "tags": [
-        "LLM",
-        "Open Source"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Microsoft restricts Claude Fable for employees over data retention concerns",
       "url": "https://www.theverge.com/report/947575/microsoft-claude-fable-5-restricted-internally",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5004,
+      "score": 0.4714,
       "publishedAt": "2026-06-10T18:58:05.000Z",
       "summary": "Anthropic released Claude Fable, its first Mythos-class AI model, yesterday and it's already causing concerns inside Microsoft. Sources tell me that Microsoft is limiting the use of Claude Fable 5 for employees because of Anthropic's new data retention requirements. While Microsoft quickly rolled ou",
       "tags": [
         "LLM",
         "Open Source"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The future of AI regulation is courting the strangest, most anxious bedfellows",
-      "url": "https://www.theverge.com/column/947838/washington-ai-network-honors-2026-midterms",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4954,
-      "publishedAt": "2026-06-10T18:01:20.000Z",
-      "summary": "Hello and welcome to Regulator, a newsletter for Verge subscribers about tech politics, tech influence, and tech shenanigans in Washington, DC. (If you're not a subscriber, you can get on board here.) We're back after a two-week hiatus, during most of which I was gallivanting in the Netherlands for",
-      "tags": [
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "I tried Siri AI, and so far it actually works",
-      "url": "https://www.theverge.com/tech/947432/siri-ai-apple-intelligence-ios-27-wwdc",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4945,
-      "publishedAt": "2026-06-10T17:51:34.000Z",
-      "summary": "Parents want one thing, and one thing only, out of AI: to add a list of soccer games or \"spirit week\" theme days from an email or a poorly formatted flyer onto their calendar in one shot. And I have good news for parents with iPhones - the new Siri can finally do this. After [&#8230;]",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Microsoft, like, totally gets why students are booing AI-pilled graduation speakers",
-      "url": "https://www.theverge.com/news/947831/college-speakers-booed-ai-microsoft",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4939,
-      "publishedAt": "2026-06-10T17:45:11.000Z",
-      "summary": "New college graduates around the country have been booing and heckling commencement speakers who hype up AI. Microsoft would like everyone to talk it out. In a blog post running more than 3,100 words, Microsoft vice chair and president Brad Smith addressed the recent spate of viral clips from gradua",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Google won’t just admit it’s feeding YouTube creators to its music AI",
-      "url": "https://www.theverge.com/tech/947770/google-lyria-music-ai-lawsuit-youtube",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4923,
-      "publishedAt": "2026-06-10T17:26:56.000Z",
-      "summary": "If you've uploaded a song to YouTube, Google almost certainly considers your video fair game for training its Lyria music AI, it just won't admit it right now. A group of independent musicians is suing Google, claiming that it illegally used songs they uploaded to YouTube to train its Lyria 3 model.",
-      "tags": [
-        "Vision",
-        "ML Infra"
       ],
       "engagementScore": 0
     }
