@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-10T22:53:11.233Z",
+  "updatedAt": "2026-06-11T04:20:28.683Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,7 +12,7 @@
       "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 1.0455,
+      "score": 1.0057,
       "publishedAt": "2026-06-11T00:00:00.000Z",
       "summary": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
       "tags": [
@@ -26,20 +26,20 @@
       "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 1.0325,
+      "score": 0.993,
       "publishedAt": "2026-06-09T16:58:01.000Z",
       "summary": "Today we’re launching Claude Fable 5: a Mythos-class model that we’ve made safe for general use.",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 2543
+      "engagementScore": 2554
     },
     {
       "title": "Access OpenAI models and Codex through your Oracle cloud commitment",
       "url": "https://openai.com/index/openai-on-oracle-cloud",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 1.0163,
+      "score": 0.9766,
       "publishedAt": "2026-06-10T20:00:00.000Z",
       "summary": "Access OpenAI models and Codex through Oracle Cloud, using existing commitments to build and deploy AI with enterprise security and governance.",
       "tags": [
@@ -53,7 +53,7 @@
       "url": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.958,
+      "score": 0.9182,
       "publishedAt": "2026-06-10T12:00:00.000Z",
       "summary": "A new report from OpenAI details PRC-linked influence operations using AI to target U.S. tech debates, data center narratives, tariffs, and false claims  about ChatGPT.",
       "tags": [
@@ -62,24 +62,135 @@
       "engagementScore": 0
     },
     {
-      "title": "From data to decisions: how LSEG is scaling trusted AI",
-      "url": "https://openai.com/index/lseg",
-      "feedSource": "OpenAI",
+      "title": "From Explicit Elements to Implicit Intent: A Predefined Library for Auditable Behavioral Inference",
+      "url": "https://arxiv.org/abs/2606.11207",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9099,
+      "publishedAt": "2026-06-11T04:00:00.000Z",
+      "summary": "arXiv:2606.11207v1 Announce Type: new \nAbstract: We present SemantiClean, a modular framework for extracting structured semantic signals from e-commerce session data and driving pluggable inference targets including purchase intent, customer segmentation, and product affinity through a shared elemen",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Position: Hippocampal Explicit Memory Is the Cornerstone for AGI",
+      "url": "https://arxiv.org/abs/2606.11245",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9099,
+      "publishedAt": "2026-06-11T04:00:00.000Z",
+      "summary": "arXiv:2606.11245v1 Announce Type: new \nAbstract: Large Language Models (LLMs) have demonstrated remarkable capabilities across various tasks, raising expectations for Artificial General Intelligence (AGI). This position paper argues that integrating explicit memory is the cornerstone for advancing L",
+      "tags": [
+        "LLM",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Can AI Agents Synthesize Scientific Conclusions?",
+      "url": "https://arxiv.org/abs/2606.11337",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9099,
+      "publishedAt": "2026-06-11T04:00:00.000Z",
+      "summary": "arXiv:2606.11337v1 Announce Type: new \nAbstract: Scientific AI agents increasingly retrieve evidence, reason across sources, and synthesize conclusions used in consequential decisions. Yet, their ability to do so in high-stakes domains such as health remains unclear. We introduce SciConBench, a larg",
+      "tags": [
+        "Agents",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Knowing When to Ask: Self-Gated Clarification for Hierarchical Language Agents",
+      "url": "https://arxiv.org/abs/2606.11349",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9099,
+      "publishedAt": "2026-06-11T04:00:00.000Z",
+      "summary": "arXiv:2606.11349v1 Announce Type: new \nAbstract: In hierarchical reasoning, failures often originate at intermediate decision points where the agent commits to a wrong branch without recognizing that it lacks critical information. Rather than treating clarification as an external uncertainty trigger",
+      "tags": [
+        "Agents",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Automated Mediator for Human Negotiation: Pre-Mediation via a Structured LLM Pipeline",
+      "url": "https://arxiv.org/abs/2606.11379",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9099,
+      "publishedAt": "2026-06-11T04:00:00.000Z",
+      "summary": "arXiv:2606.11379v1 Announce Type: new \nAbstract: Pre-mediation, the preparatory phase preceding direct human negotiation, plays a critical role in achieving mutually beneficial agreements, yet is often omitted due to cost, time, and limited access to trained mediators. We introduce an automated medi",
+      "tags": [
+        "LLM",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "INFRAMIND: Infrastructure-Aware Multi-Agent Orchestration",
+      "url": "https://arxiv.org/abs/2606.11440",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9099,
+      "publishedAt": "2026-06-11T04:00:00.000Z",
+      "summary": "arXiv:2606.11440v1 Announce Type: new \nAbstract: Existing multi-agent LLM orchestration methods, ranging from brute-force ensembles to learned routers, select models and topologies based on task and model features. However, these methods do not consider the runtime state of the serving infrastructur",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Forecasting Future Behavior as a Learning Task",
+      "url": "https://arxiv.org/abs/2606.11445",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9099,
+      "publishedAt": "2026-06-11T04:00:00.000Z",
+      "summary": "arXiv:2606.11445v1 Announce Type: new \nAbstract: Trust in an AI system is often anchored by explanations of how it works, which one then uses to forecast its behavior on new inputs. For large reasoning models (LRMs), this conventional route is particularly difficult to follow: explanation methods fo",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Search Discipline for Long-Horizon Research Agents",
+      "url": "https://arxiv.org/abs/2606.11522",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9099,
+      "publishedAt": "2026-06-11T04:00:00.000Z",
+      "summary": "arXiv:2606.11522v1 Announce Type: new \nAbstract: Autoresearch agents now propose, evaluate, and select scientific candidates against a metric, and that metric is usually an aggregate reduced over a heterogeneous space of regions, slices, or cohorts. We show that when scientific validity lives in tha",
+      "tags": [
+        "Agents",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "PRC-linked influence operations are targeting AI debates in the US",
+      "url": "https://openai.com/index/prc-linked-influence-operations-ai-debates/",
+      "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.8705,
-      "publishedAt": "2026-06-10T00:00:00.000Z",
-      "summary": "See how LSEG uses OpenAI to scale trusted AI across its global business, accelerating insights, shrinking release cycles, and empowering 4,000 employees.",
+      "score": 0.9096,
+      "publishedAt": "2026-06-10T20:17:37.000Z",
+      "summary": "A new report from OpenAI details PRC-linked influence operations using AI to target U.S. tech debates, data center narratives, tariffs, and false claims about ChatGPT.",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 0
+      "engagementScore": 14
     },
     {
       "title": "DiffusionGemma: 4x faster text generation",
       "url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.8681,
+      "score": 0.831,
       "publishedAt": "2026-06-10T16:24:11.000Z",
       "summary": "An overview of DiffusionGemma, an exceptionally fast text generation model with up to 4x faster speeds.",
       "tags": [
@@ -88,116 +199,15 @@
       "engagementScore": 0
     },
     {
-      "title": "Business World Model",
-      "url": "https://arxiv.org/abs/2606.10044",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7837,
-      "publishedAt": "2026-06-10T04:00:00.000Z",
-      "summary": "arXiv:2606.10044v1 Announce Type: new \nAbstract: Businesses are increasingly adopting AI-enabled tools to improve productivity, reduce costs, and enhance products and services. However, the transformative potential of AI extends beyond automating predefined tasks: it lies in enabling intelligent sys",
+      "title": "From data to decisions: how LSEG is scaling trusted AI",
+      "url": "https://openai.com/index/lseg",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.8307,
+      "publishedAt": "2026-06-10T00:00:00.000Z",
+      "summary": "See how LSEG uses OpenAI to scale trusted AI across its global business, accelerating insights, shrinking release cycles, and empowering 4,000 employees.",
       "tags": [
-        "Research",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Deployment-Time Memorization in Foundation-Model Agents",
-      "url": "https://arxiv.org/abs/2606.10062",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7837,
-      "publishedAt": "2026-06-10T04:00:00.000Z",
-      "summary": "arXiv:2606.10062v1 Announce Type: new \nAbstract: Foundation-model agents are increasingly long-lived systems that remember users across interactions, making memorization an explicit deployment-time function rather than solely a property of model weights. Existing work addresses parametric memorizati",
-      "tags": [
-        "Agents",
-        "Research",
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Exploratory Responsiveness and Adaptive Rigidity under AI-Assisted Optimization",
-      "url": "https://arxiv.org/abs/2606.10086",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7837,
-      "publishedAt": "2026-06-10T04:00:00.000Z",
-      "summary": "arXiv:2606.10086v1 Announce Type: new \nAbstract: This paper develops a theory of exploratory adaptation under AI-assisted optimization. The central argument is that the long-run adaptive effects of AI systems depend critically on how predictive assistance interacts with exploratory responsiveness it",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Predictive Assistance and the Temporal Dynamics of Exploratory Compression",
-      "url": "https://arxiv.org/abs/2606.10094",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7837,
-      "publishedAt": "2026-06-10T04:00:00.000Z",
-      "summary": "arXiv:2606.10094v1 Announce Type: new \nAbstract: Classical theories of cognition describe problem solving as exploratory search through structured problem spaces in which repeated interaction gradually compresses search into efficient representational structures. Predictive artificial intelligence s",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "From Senses to Decisions: The Information Flow of Auditory and Visual Perception in Multimodal LLMs",
-      "url": "https://arxiv.org/abs/2606.10147",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7837,
-      "publishedAt": "2026-06-10T04:00:00.000Z",
-      "summary": "arXiv:2606.10147v1 Announce Type: new \nAbstract: Multimodal Large Language Models (MLLMs) can listen and see, but how do audio and visual signals actually travel through the network to shape an answer? Despite their growing role in research and real-world applications, the internal pathways through",
-      "tags": [
-        "LLM",
-        "Research",
-        "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Less Context, Better Agents: Efficient Context Engineering for Long-Horizon Tool-Using LLM Agents",
-      "url": "https://arxiv.org/abs/2606.10209",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7837,
-      "publishedAt": "2026-06-10T04:00:00.000Z",
-      "summary": "arXiv:2606.10209v1 Announce Type: new \nAbstract: Large language models deployed as autonomous agents for enterprise workflows face a key challenge: verbose tool responses from enterprise systems can cause context overflow, stale-state errors, and high inference cost. We study this problem in automat",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Research",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Minimalist Genetic Programming",
-      "url": "https://arxiv.org/abs/2606.10237",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7837,
-      "publishedAt": "2026-06-10T04:00:00.000Z",
-      "summary": "arXiv:2606.10237v1 Announce Type: new \nAbstract: Genetic programming (GP) is based on two important insights. First, that any learning task can fundamentally be posed as a program induction problem, where the goal is to construct a symbolic hierarchical model that is expressed as a syntax tree. Seco",
-      "tags": [
-        "Research",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Regimes: An Auditable, Held-Out-Gated Improvement Loop Demonstrated on LongMemEval with ActiveGraph",
-      "url": "https://arxiv.org/abs/2606.10241",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7837,
-      "publishedAt": "2026-06-10T04:00:00.000Z",
-      "summary": "arXiv:2606.10241v1 Announce Type: new \nAbstract: Autonomous improvement loops are hard to trust because the improvement process is usually external scaffolding bolted onto the agent: failures go unlogged, diagnoses cannot be replayed, and promote-or-discard decisions land in a side database rather t",
-      "tags": [
-        "Agents",
-        "Research"
+        "LLM"
       ],
       "engagementScore": 0
     },
@@ -206,7 +216,7 @@
       "url": "https://openai.com/index/nextdoor",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.783,
+      "score": 0.7432,
       "publishedAt": "2026-06-09T12:00:00.000Z",
       "summary": "How engineers at Nextdoor use Codex with GPT-5.5 to investigate hard-to-reproduce issues, build across platforms, and focus on product outcomes.",
       "tags": [
@@ -221,7 +231,7 @@
       "url": "https://openai.com/index/notion",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7684,
+      "score": 0.7286,
       "publishedAt": "2026-06-09T10:00:00.000Z",
       "summary": "How Notion uses Codex to one-shot specs, build AI Voice Input for the web, and multiply engineering power across small teams.",
       "tags": [
@@ -234,7 +244,7 @@
       "url": "https://arxiv.org/abs/2605.15184",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.743,
+      "score": 0.7065,
       "publishedAt": "2026-06-09T13:27:03.000Z",
       "summary": "Recent advances in Large Language Model (LLM) agents have enabled complex agentic workflows where models autonomously retrieve information, call tools, and reason over large corpora to complete tasks on behalf of users. Despite the growing adoption of retrieval-augmented generation (RAG) in agentic",
       "tags": [
@@ -243,14 +253,14 @@
         "RAG",
         "Dev Tools"
       ],
-      "engagementScore": 158
+      "engagementScore": 160
     },
     {
       "title": "Can LLMs Beat Classical Hyperparameter Optimization Algorithms?",
       "url": "https://arxiv.org/abs/2603.24647",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7384,
+      "score": 0.7017,
       "publishedAt": "2026-06-09T15:01:15.000Z",
       "summary": "The autoresearch repository enables an LLM agent to optimize hyperparameters by editing training code directly. We use it as a testbed to compare classical HPO algorithms against LLM-based methods on tuning the hyperparameters of a small language model under a fixed compute budget. When defining a f",
       "tags": [
@@ -260,27 +270,27 @@
         "Dev Tools",
         "ML Infra"
       ],
-      "engagementScore": 117
+      "engagementScore": 118
     },
     {
       "title": "DiffusionGemma: 4x Faster Text Generation",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/",
       "feedSource": "Hacker News",
       "source": "blog.google",
-      "score": 0.7181,
+      "score": 0.6913,
       "publishedAt": "2026-06-10T16:09:37.000Z",
       "summary": "An overview of DiffusionGemma, an exceptionally fast text generation model with up to 4x faster speeds.",
       "tags": [
         "Vision"
       ],
-      "engagementScore": 259
+      "engagementScore": 291
     },
     {
       "title": "Unified Controllable and Faithful Text-to-CAD Generation with LLMs",
       "url": "https://arxiv.org/abs/2604.19773",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.699,
+      "score": 0.6619,
       "publishedAt": "2026-06-09T14:04:54.000Z",
       "summary": "The construction of CAD models has traditionally relied on labor-intensive manual operations and specialized expertise. Recent advances in large language models (LLMs) have inspired research into text-to-CAD generation. However, existing approaches typically treat generation and editing as disjoint",
       "tags": [
@@ -294,7 +304,7 @@
       "url": "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.6971,
+      "score": 0.66,
       "publishedAt": "2026-06-09T15:16:25.000Z",
       "summary": "Gemini 3.5 Live Translate brings near real-time, natural speech translation to Google AI Studio, Google Translate and Google Meet.",
       "tags": [
@@ -307,7 +317,7 @@
       "url": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6955,
+      "score": 0.6557,
       "publishedAt": "2026-06-09T00:00:00.000Z",
       "summary": "Explore our ambitious, people-first industrial policy ideas for the AI era—focused on expanding opportunity, sharing prosperity, and building resilient institutions as advanced intelligence evolves.",
       "tags": [
@@ -320,7 +330,7 @@
       "url": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.6896,
+      "score": 0.6525,
       "publishedAt": "2026-06-09T14:10:19.000Z",
       "summary": "An overview of Gemma 4 12B, a model designed to bring high-performance multimodal intelligence directly to your laptop.",
       "tags": [
@@ -334,7 +344,7 @@
       "url": "https://deepmind.google/blog/powering-the-future-of-robotics-in-europe/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.6887,
+      "score": 0.6516,
       "publishedAt": "2026-06-09T14:02:33.000Z",
       "summary": "Google DeepMind Accelerator selects 15 robotics companies from across Europe to join the program. Providing 3 months of intensive mentorship and technical support, enabl…",
       "tags": [
@@ -347,7 +357,7 @@
       "url": "https://arxiv.org/abs/2606.08319",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.6827,
+      "score": 0.6456,
       "publishedAt": "2026-06-09T15:12:30.000Z",
       "summary": "The detection of fast astronomical transients in photographic plates from the Palomar sky surveys conducted in the 1950s, was subject to the criticism that such transients could be just the effect of otherwise unaccounted for plate artifacts. In this paper, we show that transient images exhibit the",
       "tags": [
@@ -357,11 +367,25 @@
       "engagementScore": 38
     },
     {
+      "title": "Cybersecurity researchers aren't happy about the guardrails on Anthropic's Fable",
+      "url": "https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/",
+      "feedSource": "Hacker News",
+      "source": "techcrunch.com",
+      "score": 0.5925,
+      "publishedAt": "2026-06-10T16:42:00.000Z",
+      "summary": "Cybersecurity researchers are complaining that Anthropic’s new model Fable has guardrails that are too strict for any cybersecurity work.",
+      "tags": [
+        "LLM",
+        "Research"
+      ],
+      "engagementScore": 290
+    },
+    {
       "title": "The Download: the “steroid olympics&#8221; and a safer Mythos",
       "url": "https://www.technologyreview.com/2026/06/10/1138739/the-download-steroid-olympics-enhanced-games-anthropic-mythos/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6234,
+      "score": 0.5916,
       "publishedAt": "2026-06-10T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The “steroid olympics” were a circus—and a window into our culture —Amit Katwala A couple of weeks ago, at a $50 million arena built in a casino parki",
       "tags": [
@@ -374,7 +398,7 @@
       "url": "https://huggingface.co/blog/ServiceNow-AI/code-switching",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6229,
+      "score": 0.5884,
       "publishedAt": "2026-06-09T19:38:28.000Z",
       "summary": "",
       "tags": [
@@ -388,7 +412,7 @@
       "url": "https://openai.com/index/openai-submits-confidential-s-1",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6226,
+      "score": 0.5828,
       "publishedAt": "2026-06-08T14:00:00.000Z",
       "summary": "OpenAI confirms a confidential S-1 submission to the SEC and has not yet determined timing for further action.",
       "tags": [
@@ -401,7 +425,7 @@
       "url": "https://www.technologyreview.com/2026/06/10/1138670/enhanced-games-doping-steroids-hormones-supplements-longevity/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6049,
+      "score": 0.5731,
       "publishedAt": "2026-06-10T09:00:00.000Z",
       "summary": "Testosterone. Methenolone. Nandrolone. Human growth hormone and EPO. Meldonium, modafinil, and mixed amphetamine salts. Clomiphene, anastrozole, levothyroxine, and liothyronine. Patches and capsules, creams and pills. A whole galaxy of steroids, metabolic modulators, and synthetic hormones coursing",
       "tags": [
@@ -414,7 +438,7 @@
       "url": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.5995,
+      "score": 0.565,
       "publishedAt": "2026-06-09T15:56:23.000Z",
       "summary": "",
       "tags": [
@@ -427,7 +451,7 @@
       "url": "https://www.wired.com/story/cisa-ai-vulnerability-directive/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5743,
+      "score": 0.5451,
       "publishedAt": "2026-06-10T20:55:40.000Z",
       "summary": "“Defenders cannot afford to take weeks to patch,” one Cybersecurity and Infrastructure Security Agency official warned on Wednesday.",
       "tags": [
@@ -440,7 +464,7 @@
       "url": "https://www.wired.com/story/trump-risks-key-surveillance-authority-over-unqualified-spy-chief-pick/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5719,
+      "score": 0.5427,
       "publishedAt": "2026-06-10T20:28:58.000Z",
       "summary": "US lawmakers are alarmed that Bill Pulte, a housing official with no intelligence experience, is poised to take charge of one of the government's most powerful surveillance tools.",
       "tags": [
@@ -454,7 +478,7 @@
       "url": "https://www.wired.com/story/meta-layoffs-immigration-customs-enforcement/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5684,
+      "score": 0.5392,
       "publishedAt": "2026-06-10T19:49:26.000Z",
       "summary": "Colleagues discussed the incident on internal message boards, according to documents seen by WIRED.",
       "tags": [
@@ -463,25 +487,11 @@
       "engagementScore": 0
     },
     {
-      "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
-      "url": "https://huggingface.co/blog/mishig/spaces-agents-md",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.5668,
-      "publishedAt": "2026-06-09T10:46:19.000Z",
-      "summary": "",
-      "tags": [
-        "Agents",
-        "Open Source"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Claude Fable won’t answer basic biology questions",
       "url": "https://www.theverge.com/ai-artificial-intelligence/947973/fable-wont-answer-basic-biology-questions",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5642,
+      "score": 0.535,
       "publishedAt": "2026-06-10T19:02:08.000Z",
       "summary": "Anthropic just released Claude Fable 5, calling it the most powerful AI model it has ever made widely available and praising its skills in biology, among others. But the model won't answer basic biology questions - the kind you'd expect a high schooler to handle. Instead, it hands off the query to t",
       "tags": [
@@ -495,7 +505,7 @@
       "url": "https://www.theverge.com/report/947575/microsoft-claude-fable-5-restricted-internally",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5638,
+      "score": 0.5346,
       "publishedAt": "2026-06-10T18:58:05.000Z",
       "summary": "Anthropic released Claude Fable, its first Mythos-class AI model, yesterday and it's already causing concerns inside Microsoft. Sources tell me that Microsoft is limiting the use of Claude Fable 5 for employees because of Anthropic's new data retention requirements. While Microsoft quickly rolled ou",
       "tags": [
@@ -505,11 +515,25 @@
       "engagementScore": 0
     },
     {
+      "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
+      "url": "https://huggingface.co/blog/mishig/spaces-agents-md",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.5324,
+      "publishedAt": "2026-06-09T10:46:19.000Z",
+      "summary": "",
+      "tags": [
+        "Agents",
+        "Open Source"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "The Best USB-C Cables (2026): for Smartphones, Tablets, and Laptops",
       "url": "https://www.wired.com/gallery/best-usb-c-cables/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5613,
+      "score": 0.5321,
       "publishedAt": "2026-06-10T18:29:45.000Z",
       "summary": "Unravel the tangled world of cords and find the ones you need to charge your gadgets and transfer data.",
       "tags": [
@@ -522,7 +546,7 @@
       "url": "https://www.theverge.com/column/947838/washington-ai-network-honors-2026-midterms",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5587,
+      "score": 0.5296,
       "publishedAt": "2026-06-10T18:01:20.000Z",
       "summary": "Hello and welcome to Regulator, a newsletter for Verge subscribers about tech politics, tech influence, and tech shenanigans in Washington, DC. (If you're not a subscriber, you can get on board here.) We're back after a two-week hiatus, during most of which I was gallivanting in the Netherlands for",
       "tags": [
@@ -535,7 +559,7 @@
       "url": "https://www.theverge.com/tech/947432/siri-ai-apple-intelligence-ios-27-wwdc",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5579,
+      "score": 0.5287,
       "publishedAt": "2026-06-10T17:51:34.000Z",
       "summary": "Parents want one thing, and one thing only, out of AI: to add a list of soccer games or \"spirit week\" theme days from an email or a poorly formatted flyer onto their calendar in one shot. And I have good news for parents with iPhones - the new Siri can finally do this. After [&#8230;]",
       "tags": [
@@ -548,7 +572,7 @@
       "url": "https://www.theverge.com/news/947831/college-speakers-booed-ai-microsoft",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5573,
+      "score": 0.5281,
       "publishedAt": "2026-06-10T17:45:11.000Z",
       "summary": "New college graduates around the country have been booing and heckling commencement speakers who hype up AI. Microsoft would like everyone to talk it out. In a blog post running more than 3,100 words, Microsoft vice chair and president Brad Smith addressed the recent spate of viral clips from gradua",
       "tags": [
@@ -561,7 +585,7 @@
       "url": "https://www.theverge.com/tech/947770/google-lyria-music-ai-lawsuit-youtube",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5557,
+      "score": 0.5265,
       "publishedAt": "2026-06-10T17:26:56.000Z",
       "summary": "If you've uploaded a song to YouTube, Google almost certainly considers your video fair game for training its Lyria music AI, it just won't admit it right now. A group of independent musicians is suing Google, claiming that it illegally used songs they uploaded to YouTube to train its Lyria 3 model.",
       "tags": [
@@ -575,7 +599,7 @@
       "url": "https://www.wired.com/story/donald-trump-ufc-white-house-south-lawn/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5533,
+      "score": 0.5241,
       "publishedAt": "2026-06-10T17:00:00.000Z",
       "summary": "The UFC event on the White House’s South Lawn is the president’s birthday gift to himself. Sources expect it to be a lobbying extravaganza.",
       "tags": [
@@ -588,7 +612,7 @@
       "url": "https://www.theverge.com/tech/947836/google-search-privacy-settings-images-audio",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5496,
+      "score": 0.5204,
       "publishedAt": "2026-06-10T16:18:45.000Z",
       "summary": "Google is making some changes to how it saves your interactions with Search. In an email sent to users, Google says it will save the images, files, audio, and video you use to search under a new \"Search Services History\" setting. That includes the images you search for with Google Lens, recordings f",
       "tags": [
@@ -597,24 +621,24 @@
       "engagementScore": 0
     },
     {
-      "title": "Building an HTML-first site doubled our users overnight",
-      "url": "https://mohkohn.co.uk/writing/html-first/",
-      "feedSource": "Hacker News",
-      "source": "mohkohn.co.uk",
-      "score": 0.5486,
-      "publishedAt": "2026-06-10T12:45:47.000Z",
-      "summary": "My client was a utility company, and they had a big problem…",
+      "title": "Wrongful Arrest Exposes Failures in One of the Oldest Police Face-Recognition Tools in the US",
+      "url": "https://www.wired.com/story/wrongful-arrest-tests-one-of-the-oldest-police-face-recognition-tools-in-the-us/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5081,
+      "publishedAt": "2026-06-10T14:00:00.000Z",
+      "summary": "The ACLU is suing two Florida police departments over the arrest of a Fort Myers man in a child-abduction case, saying officers treated a flawed face-recognition match as a near-certain ID.",
       "tags": [
-        "AI"
+        "Dev Tools"
       ],
-      "engagementScore": 942
+      "engagementScore": 0
     },
     {
       "title": "China Opens World’s First Wind-Powered Underwater Data Center",
       "url": "https://www.wired.com/story/china-opens-worlds-first-wind-powered-underwater-data-center/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5354,
+      "score": 0.5062,
       "publishedAt": "2026-06-10T13:39:32.000Z",
       "summary": "With an initial capacity of 24 megawatts, the innovative data center uses seawater as a natural cooling system.",
       "tags": [
@@ -627,7 +651,7 @@
       "url": "https://www.wired.com/story/affordable-digital-notebook-comparison-2026/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5322,
+      "score": 0.5031,
       "publishedAt": "2026-06-10T13:04:00.000Z",
       "summary": "The newest Kindle Scribe means there are now three digital notebooks you can buy in the $400 price range. Here’s which one you should get.",
       "tags": [
@@ -636,37 +660,11 @@
       "engagementScore": 0
     },
     {
-      "title": "What’s the Best Kindle of 2026? (So Far)",
-      "url": "https://www.wired.com/gallery/best-kindle/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5321,
-      "publishedAt": "2026-06-10T13:02:00.000Z",
-      "summary": "I’ve tried every single Kindle. Here’s how Amazon’s ebook readers stack up.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Claude Desktop spawns 1.8 GB Hyper-V VM on every launch, even for chat-only use",
-      "url": "https://github.com/anthropics/claude-code/issues/29045",
-      "feedSource": "Hacker News",
-      "source": "github.com",
-      "score": 0.529,
-      "publishedAt": "2026-06-10T17:11:56.000Z",
-      "summary": "Preflight Checklist I have searched existing issues and this hasn’t been reported yet This is a single bug report (please file separate reports for different bugs) I am using the latest version of…",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 302
-    },
-    {
       "title": "Measuring the impact of learning with AI in Sierra Leone and beyond",
       "url": "https://deepmind.google/blog/measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.5188,
+      "score": 0.4817,
       "publishedAt": "2026-06-08T13:04:59.000Z",
       "summary": "Results from a randomized controlled trial show the potential of Gemini’s Guided Learning feature to boost engagement and accelerate learning.",
       "tags": [
@@ -679,7 +677,7 @@
       "url": "https://huggingface.co/blog/github-ci-hf-jobs",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.4988,
+      "score": 0.4643,
       "publishedAt": "2026-06-09T00:00:00.000Z",
       "summary": "",
       "tags": [
