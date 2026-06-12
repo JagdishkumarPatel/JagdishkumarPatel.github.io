@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-12T10:20:48.597Z",
+  "updatedAt": "2026-06-12T15:24:10.956Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,7 +12,7 @@
       "url": "https://openai.com/index/preply",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9619,
+      "score": 0.9251,
       "publishedAt": "2026-06-12T00:00:00.000Z",
       "summary": "Preply uses OpenAI to launch AI-generated lesson summaries, providing personalised feedback and language learning exercises.",
       "tags": [
@@ -21,25 +21,38 @@
       "engagementScore": 0
     },
     {
+      "title": "Maxproof",
+      "url": "https://arxiv.org/abs/2606.13473",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.9147,
+      "publishedAt": "2026-06-12T12:00:02.000Z",
+      "summary": "We present MaxProof, a population-level test-time scaling framework for competition-level mathematical proof in the MiniMax-M3 series. M3 first trains three proof-oriented capabilities -- proof generation, proof verification, and critique-conditioned proof repair -- using a defense-in-depth generati",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 83
+    },
+    {
       "title": "Codex for Open Source",
       "url": "https://openai.com/form/codex-for-oss/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.9304,
+      "score": 0.9035,
       "publishedAt": "2026-06-11T22:20:03.000Z",
       "summary": "",
       "tags": [
         "Open Source",
         "Dev Tools"
       ],
-      "engagementScore": 35
+      "engagementScore": 42
     },
     {
       "title": "OpenAI to acquire Ona to expand Codex",
       "url": "https://openai.com/index/openai-to-acquire-ona/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.8926,
+      "score": 0.8582,
       "publishedAt": "2026-06-11T15:36:49.000Z",
       "summary": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
       "tags": [
@@ -48,14 +61,14 @@
         "Dev Tools",
         "Industry"
       ],
-      "engagementScore": 43
+      "engagementScore": 45
     },
     {
       "title": "OpenAI's June 2026 Report on Malicious Uses of AI [pdf]",
       "url": "https://cdn.openai.com/pdf/96b559fa-c165-4575-805d-e636909e2f78/June-2026-Threat-Report.pdf",
       "feedSource": "Hacker News",
       "source": "cdn.openai.com",
-      "score": 0.8903,
+      "score": 0.8535,
       "publishedAt": "2026-06-11T21:00:17.000Z",
       "summary": "",
       "tags": [
@@ -64,11 +77,25 @@
       "engagementScore": 20
     },
     {
+      "title": "Kimi K2.7-Code: open-source coding model with better token efficiency",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2.7-Code",
+      "feedSource": "Hacker News",
+      "source": "huggingface.co",
+      "score": 0.837,
+      "publishedAt": "2026-06-12T10:42:50.000Z",
+      "summary": "",
+      "tags": [
+        "Open Source",
+        "Dev Tools"
+      ],
+      "engagementScore": 229
+    },
+    {
       "title": "ToolSense: A Diagnostic Framework for Auditing Parametric Tool Knowledge in LLMs",
       "url": "https://arxiv.org/abs/2606.12451",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.869,
+      "score": 0.8346,
       "publishedAt": "2026-06-12T04:00:00.000Z",
       "summary": "arXiv:2606.12451v1 Announce Type: new \nAbstract: Large language models deployed as agents over large tool catalogs face a critical tool-retrieval bottleneck. As embedding-based retrieval approaches rely on compact encoders that may under-capture specialized tool semantics, parametric tool retrieval",
       "tags": [
@@ -85,7 +112,7 @@
       "url": "https://arxiv.org/abs/2606.12563",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.869,
+      "score": 0.8346,
       "publishedAt": "2026-06-12T04:00:00.000Z",
       "summary": "arXiv:2606.12563v1 Announce Type: new \nAbstract: Arbor is a multi-agent framework that introduces structured tree search as a cognition layer for autonomous agents operating in large, stateful action spaces. Prior autonomous optimization systems operate on isolated targets with stateless evaluation.",
       "tags": [
@@ -100,7 +127,7 @@
       "url": "https://arxiv.org/abs/2606.12587",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.869,
+      "score": 0.8346,
       "publishedAt": "2026-06-12T04:00:00.000Z",
       "summary": "arXiv:2606.12587v1 Announce Type: new \nAbstract: Traditionally, decision support studies how humans use machine learning models to make better decisions. In modern agentic systems, this division of roles is increasingly reversed: AI agents act on behalf of users, while humans and tools becomes suppo",
       "tags": [
@@ -116,7 +143,7 @@
       "url": "https://arxiv.org/abs/2606.12594",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.869,
+      "score": 0.8346,
       "publishedAt": "2026-06-12T04:00:00.000Z",
       "summary": "arXiv:2606.12594v1 Announce Type: new \nAbstract: Modern Lean theorem provers achieve strong performance only with substantial training and inference compute, driven in part by scarce verified proof data and the long reasoning traces of formal proof search, making both supervised fine-tuning (SFT) an",
       "tags": [
@@ -129,7 +156,7 @@
       "url": "https://arxiv.org/abs/2606.12616",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.869,
+      "score": 0.8346,
       "publishedAt": "2026-06-12T04:00:00.000Z",
       "summary": "arXiv:2606.12616v1 Announce Type: new \nAbstract: Closed-loop driving simulators typically populate their environments with non-ego traffic agents that behave largely the same way, produced either by rule-based traffic managers or by learned models trained toward a single behavioral mode. Recent work",
       "tags": [
@@ -145,7 +172,7 @@
       "url": "https://arxiv.org/abs/2606.12618",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.869,
+      "score": 0.8346,
       "publishedAt": "2026-06-12T04:00:00.000Z",
       "summary": "arXiv:2606.12618v1 Announce Type: new \nAbstract: Robust lie detectors for language models could enable powerful techniques for auditing, monitoring, and post-hoc investigation of model behaviour, but evaluating them requires testbeds where models verifiably believe the opposite of what they say. We",
       "tags": [
@@ -160,7 +187,7 @@
       "url": "https://arxiv.org/abs/2606.12657",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.869,
+      "score": 0.8346,
       "publishedAt": "2026-06-12T04:00:00.000Z",
       "summary": "arXiv:2606.12657v1 Announce Type: new \nAbstract: Human mobility data is important for transportation, urban planning, and epidemic control, but large-scale trajectory collection is often costly and privacy-constrained, motivating realistic synthetic trajectory generation. Existing LLM-based generato",
       "tags": [
@@ -175,7 +202,7 @@
       "url": "https://arxiv.org/abs/2606.12674",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.869,
+      "score": 0.8346,
       "publishedAt": "2026-06-12T04:00:00.000Z",
       "summary": "arXiv:2606.12674v1 Announce Type: new \nAbstract: Compact language models (LMs) reduce cost, latency, and deployment risk for tool agents. Yet MCP-style tool use requires more than isolated function calling: an agent must discover tools from live catalogs, satisfy schemas, preserve dependencies acros",
       "tags": [
@@ -188,39 +215,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
-      "url": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.7869,
-      "publishedAt": "2026-06-11T00:00:00.000Z",
-      "summary": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
-      "tags": [
-        "LLM",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "How an astrophysicist uses Codex to help simulate black holes",
-      "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.7869,
-      "publishedAt": "2026-06-11T00:00:00.000Z",
-      "summary": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
-      "tags": [
-        "Research",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "OpenAI to acquire Ona",
       "url": "https://openai.com/index/openai-to-acquire-ona",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7869,
+      "score": 0.7501,
       "publishedAt": "2026-06-11T00:00:00.000Z",
       "summary": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
       "tags": [
@@ -232,11 +231,25 @@
       "engagementScore": 0
     },
     {
+      "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
+      "url": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.7501,
+      "publishedAt": "2026-06-11T00:00:00.000Z",
+      "summary": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
+      "tags": [
+        "LLM",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "BBVA puts AI at the core of banking with OpenAI",
       "url": "https://openai.com/index/bbva",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7869,
+      "score": 0.7501,
       "publishedAt": "2026-06-11T00:00:00.000Z",
       "summary": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
       "tags": [
@@ -245,24 +258,38 @@
       "engagementScore": 0
     },
     {
+      "title": "How an astrophysicist uses Codex to help simulate black holes",
+      "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.7501,
+      "publishedAt": "2026-06-11T00:00:00.000Z",
+      "summary": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
+      "tags": [
+        "Research",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Claude Fable 5",
       "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.7752,
+      "score": 0.7384,
       "publishedAt": "2026-06-09T16:58:01.000Z",
       "summary": "Today we’re launching Claude Fable 5: a Mythos-class model that we’ve made safe for general use.",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 2603
+      "engagementScore": 2605
     },
     {
       "title": "Access OpenAI models and Codex through your Oracle cloud commitment",
       "url": "https://openai.com/index/openai-on-oracle-cloud",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7578,
+      "score": 0.7209,
       "publishedAt": "2026-06-10T20:00:00.000Z",
       "summary": "Access OpenAI models and Codex through Oracle Cloud, using existing commitments to build and deploy AI with enterprise security and governance.",
       "tags": [
@@ -272,11 +299,24 @@
       "engagementScore": 0
     },
     {
+      "title": "The Download: “reprogramming” aging, and the hidden sense of interoception",
+      "url": "https://www.technologyreview.com/2026/06/12/1138899/the-download-reprogramming-reverse-aging-interoception/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.667,
+      "publishedAt": "2026-06-12T12:10:00.000Z",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Why “reprogramming” is the buzziest approach to reversing aging right now Earlier this week, Life Biosciences, a biotech company focused on reversing",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "PRC-linked influence operations are targeting AI debates in the US",
       "url": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6994,
+      "score": 0.6626,
       "publishedAt": "2026-06-10T12:00:00.000Z",
       "summary": "A new report from OpenAI details PRC-linked influence operations using AI to target U.S. tech debates, data center narratives, tariffs, and false claims  about ChatGPT.",
       "tags": [
@@ -289,7 +329,7 @@
       "url": "https://www.technologyreview.com/2026/06/12/1138518/you-do-your-own-time-fiction/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6839,
+      "score": 0.6544,
       "publishedAt": "2026-06-12T10:00:00.000Z",
       "summary": "There we were, a regular murderers’ row of librarians. Little Jo. Eustace. And me. Turning around in the nave of our library to greet the sound of footsteps, pistols leveled in case whoever was coming in didn’t respect sanctuary. Little Jo had a stack of books under one arm. Eustace was holding the",
       "tags": [
@@ -302,7 +342,7 @@
       "url": "https://www.technologyreview.com/2026/06/12/1138829/reprogramming-buzziest-approach-reversing-aging-right-now/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.678,
+      "score": 0.6486,
       "publishedAt": "2026-06-12T09:00:00.000Z",
       "summary": "Earlier this week, Life Biosciences, a biotech company focused on reversing age-related diseases, announced that it had dosed its first volunteer. A person with glaucoma has had an experimental treatment injected straight into their eyeball. The idea is to try to treat the disease—which can cause vi",
       "tags": [
@@ -311,11 +351,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Inside Interoception: The hidden sense of how you feel inside",
+      "title": "Inside interoception: The hidden sense of how you feel inside",
       "url": "https://www.technologyreview.com/2026/06/12/1138833/inside-interoception-brain-body/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.678,
+      "score": 0.6486,
       "publishedAt": "2026-06-12T09:00:00.000Z",
       "summary": "MIT Technology Review&#160;Explains: Let our writers untangle the complex, messy world of science and technology to help you understand what’s coming next.&#160;You can read more from the series here. Your brain lives in the dark space of your skull. Yet it knows when the wind lifts the hairs on you",
       "tags": [
@@ -328,7 +368,7 @@
       "url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.6268,
+      "score": 0.5924,
       "publishedAt": "2026-06-10T16:24:11.000Z",
       "summary": "An overview of DiffusionGemma, an exceptionally fast text generation model with up to 4x faster speeds.",
       "tags": [
@@ -337,11 +377,52 @@
       "engagementScore": 0
     },
     {
+      "title": "SpaceX’s massive IPO: all the latest news",
+      "url": "https://www.theverge.com/business/948996/spacex-ipo-elon-musk",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5804,
+      "publishedAt": "2026-06-12T14:35:48.000Z",
+      "summary": "SpaceX&#8217;s IPO on Friday allows the public to buy shares of the combined rocket, AI, and social media company for the first time, and is raising enough money to likely make Elon Musk the first trillionaire.&#160; He&#8217;ll have more wealth, on paper at least, than the economies of nations like",
+      "tags": [
+        "Research",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Jeff Bezos’ AI startup aims to build an ‘artificial general engineer’",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/949005/jeff-bezos-prometheus-artificial-general-engineer",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5779,
+      "publishedAt": "2026-06-12T14:07:41.000Z",
+      "summary": "Amazon founder Jeff Bezos says his new AI startup will work toward developing an \"artificial general engineer,\" according to reports from The New York Times and CNBC. The startup, called Prometheus, aims to develop AI-powered engineering tools to aid in the design of physical products. The NYT first",
+      "tags": [
+        "Dev Tools",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Crypto Guys Bought the Answer to the CIA’s Mysterious Kryptos Sculpture",
+      "url": "https://www.wired.com/story/crypto-guys-bought-the-answer-to-the-cias-mysterious-kryptos-sculpture/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5772,
+      "publishedAt": "2026-06-12T14:00:00.000Z",
+      "summary": "They swear they haven’t peeked at the closely guarded secret and that they’ll keep the cryptographic competition going.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "From data to decisions: how LSEG is scaling trusted AI",
       "url": "https://openai.com/index/lseg",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6119,
+      "score": 0.5751,
       "publishedAt": "2026-06-10T00:00:00.000Z",
       "summary": "See how LSEG uses OpenAI to scale trusted AI across its global business, accelerating insights, shrinking release cycles, and empowering 4,000 employees.",
       "tags": [
@@ -350,11 +431,24 @@
       "engagementScore": 0
     },
     {
+      "title": "A White Supremacist Youth Group Helped Orchestrate the Belfast Riots",
+      "url": "https://www.wired.com/story/a-white-supremacist-youth-group-helped-orchestrate-the-belfast-riots/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5738,
+      "publishedAt": "2026-06-12T13:21:00.000Z",
+      "summary": "After Elon Musk and Tommy Robinson stoked anger over a horrific knife attack in Belfast, a youth group linked to a global neo-Nazi movement quietly orchestrated anti-immigrant riots.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Our new community investments in Virginia support local jobs and expand energy affordability.",
       "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.6022,
+      "score": 0.5727,
       "publishedAt": "2026-06-11T20:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/VirginiaSocial.max-600x600.format-webp.webp\"&gt;We’re helping build the state’s next-generation workforce and investing in energy programs.",
       "tags": [
@@ -366,11 +460,128 @@
       "engagementScore": 0
     },
     {
+      "title": "6 Best Digital Notebooks (2026): ReMarkable, Kobo, Kindle",
+      "url": "https://www.wired.com/gallery/best-smart-notebooks-and-smart-pens/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5672,
+      "publishedAt": "2026-06-12T12:07:00.000Z",
+      "summary": "These nifty tools combine the ease of jotting notes by hand with the power of saving them digitally.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "4 Best Floodlight Security Cameras (2026) After Thorough Testing",
+      "url": "https://www.wired.com/gallery/best-floodlight-security-cameras/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5639,
+      "publishedAt": "2026-06-12T11:30:00.000Z",
+      "summary": "Light up and secure your driveway, backyard, or porch with a floodlight security camera.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Pedal Electric H/T Review: A Fast, Powerful, Stylish Ebike",
+      "url": "https://www.wired.com/review/pedal-electric-h-t/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5614,
+      "publishedAt": "2026-06-12T11:02:00.000Z",
+      "summary": "The pedal-assist can be jerky, but the throttle offers smooth, powerful acceleration.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Real-Life Disclosure Day Will Look Nothing Like Steven Spielberg’s New Movie",
+      "url": "https://www.wired.com/story/real-life-disclosure-day-wont-look-like-steven-spielberg-movie/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5612,
+      "publishedAt": "2026-06-12T11:00:00.000Z",
+      "summary": "Previous landmark scientific discoveries like the Higgs boson provide a better template for what it will take to confirm whether aliens have made contact with Earth.",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Sheeran Loopers Looper X Review: Create Your One-Person Tour",
+      "url": "https://www.wired.com/review/ed-sheeran-looper-x/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5586,
+      "publishedAt": "2026-06-12T10:31:00.000Z",
+      "summary": "The musician created his own line of loopers that record and layer riffs in a loop. The pricey Looper X does what it claims, but it isn’t without quirks.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Matchmakers Are Being Paid $25K to Find Trad Wives for Rich Men",
+      "url": "https://www.wired.com/story/matchmakers-are-being-paid-dollar25k-to-find-trad-wives-for-rich-men/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5585,
+      "publishedAt": "2026-06-12T10:30:00.000Z",
+      "summary": "Even in blue states, nonreligious tech entrepreneurs and CEOs are increasingly asking for “traditional” and “conservative” women, matchmakers tell WIRED.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Amazon&#8217;s data centers used 2.5 billion gallons of water last year",
+      "url": "https://www.theverge.com/tech/948534/amazon-data-centers-water-use",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.555,
+      "publishedAt": "2026-06-12T09:50:35.000Z",
+      "summary": "Just after Seattle enacted a one-year data center moratorium that some of Amazon's own employees pushed for, Amazon shared how much water its data centers use, reportedly for the first time. With concerns about water consumption and energy use a focus of new AI data center construction debates, Amaz",
+      "tags": [
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Siri won’t be your AI girlfriend",
+      "url": "https://www.theverge.com/tech/948890/siri-wont-be-your-ai-girlfriend",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.553,
+      "publishedAt": "2026-06-12T09:27:41.000Z",
+      "summary": "Our early testing has already shown that Siri AI knows when to shut up, and that's very much by design. In an interview with Mostly Human spotted by MacRumors, Craig Federighi said Apple's new Siri won't act all sycophantic like chatbots made by OpenAI, Google, and others. \"As you may know, if you u",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "AI agent bankrupted their operator while trying to scan DN42",
+      "url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/",
+      "feedSource": "Hacker News",
+      "source": "lantian.pub",
+      "score": 0.5522,
+      "publishedAt": "2026-06-12T04:42:53.000Z",
+      "summary": "An AI agent tried to join the DN42 hobbyist network to perform a network scan, and bankrupted their operator with a $6531.30 AWS bill.",
+      "tags": [
+        "Agents"
+      ],
+      "engagementScore": 1120
+    },
+    {
       "title": "Investing in multi-agent AI safety research",
       "url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.5856,
+      "score": 0.5512,
       "publishedAt": "2026-06-10T10:21:19.000Z",
       "summary": "Google DeepMind and partners announce a $10M funding call for multi-agent safety research.",
       "tags": [
@@ -382,63 +593,11 @@
       "engagementScore": 0
     },
     {
-      "title": "The US Is Requiring Foreign Influencers to Get Work Visas for the 2026 World Cup",
-      "url": "https://www.wired.com/story/2026-world-cup-us-influencers-visa/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5829,
-      "publishedAt": "2026-06-12T10:00:00.000Z",
-      "summary": "FIFA announced agreements with platforms such as TikTok and YouTube that include the participation of dozens of international influencers to generate content in the three host countries.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Amazon&#8217;s data centers used 2.5 billion gallons of water last year",
-      "url": "https://www.theverge.com/tech/948534/amazon-data-centers-water-use",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.582,
-      "publishedAt": "2026-06-12T09:50:35.000Z",
-      "summary": "Just after Seattle enacted a one-year data center moratorium that some of Amazon's own employees pushed for, Amazon shared how much water its data centers use, reportedly for the first time. With concerns about water consumption and energy use a focus of new AI data center construction debates, Amaz",
-      "tags": [
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "You Probably Won’t Get Rich Off the SpaceX IPO",
-      "url": "https://www.wired.com/story/you-probably-wont-get-rich-off-the-spacex-ipo/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5802,
-      "publishedAt": "2026-06-12T09:30:00.000Z",
-      "summary": "The company has set aside an unusually high number of shares for retail investors. Still, experts say, you’re just getting the crumbs.",
-      "tags": [
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Siri won’t be your AI girlfriend",
-      "url": "https://www.theverge.com/tech/948890/siri-wont-be-your-ai-girlfriend",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.58,
-      "publishedAt": "2026-06-12T09:27:41.000Z",
-      "summary": "Our early testing has already shown that Siri AI knows when to shut up, and that's very much by design. In an interview with Mostly Human spotted by MacRumors, Craig Federighi said Apple's new Siri won't act all sycophantic like chatbots made by OpenAI, Google, and others. \"As you may know, if you u",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP",
       "url": "https://huggingface.co/blog/torch-mlp-fusion",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.578,
+      "score": 0.5461,
       "publishedAt": "2026-06-11T00:00:00.000Z",
       "summary": "",
       "tags": [
@@ -447,24 +606,24 @@
       "engagementScore": 0
     },
     {
-      "title": "SpaceX IPO Puts Elon Musk’s ‘Extreme’ Ownership to the Test",
-      "url": "https://www.wired.com/story/spacex-is-now-a-public-company/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5775,
-      "publishedAt": "2026-06-12T09:00:00.000Z",
-      "summary": "The rocket maker debuts on Nasdaq today under a wave of criticism about Musk’s near-absolute control. It’s how the company has worked from the start.",
+      "title": "Anthropic apologizes for invisible Claude Fable guardrails",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail",
+      "feedSource": "Hacker News",
+      "source": "theverge.com",
+      "score": 0.5282,
+      "publishedAt": "2026-06-11T12:05:02.000Z",
+      "summary": "Anthropic said users ‘should have visibility into the safeguards we have in place, and why.’",
       "tags": [
-        "Industry"
+        "LLM"
       ],
-      "engagementScore": 0
+      "engagementScore": 474
     },
     {
       "title": "The Download: soccer&#8217;s data renaissance and China&#8217;s big nuclear plans",
       "url": "https://www.technologyreview.com/2026/06/11/1138809/the-download-soccer-football-data-analytics-china-nuclear-power/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5565,
+      "score": 0.527,
       "publishedAt": "2026-06-11T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Inside soccer’s data renaissance Imagine tuning in to the opening kickoff of a World Cup match and seeing a player intentionally kick the ball out of",
       "tags": [
@@ -473,102 +632,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Paramount+ Coupon Codes and Deals for June 2026",
-      "url": "https://www.wired.com/story/paramount-plus-coupon-code/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5562,
-      "publishedAt": "2026-06-12T05:00:00.000Z",
-      "summary": "Save on streaming with the latest Paramount+ promo codes and deals, including 50% off subscriptions, free trials, and more.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "B&amp;H Photo Promo Codes and Deals This June",
-      "url": "https://www.wired.com/story/bh-photo-coupon/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5562,
-      "publishedAt": "2026-06-12T05:00:00.000Z",
-      "summary": "Enjoy top deals on cameras, computers, and tech essentials at B&amp;H Photo.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Hoka Coupon Codes: 30% Off in June 2026",
-      "url": "https://www.wired.com/story/hoka-coupon-code/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5562,
-      "publishedAt": "2026-06-12T05:00:00.000Z",
-      "summary": "Unlock free expedited shipping or 10% off with today’s Hoka discount codes, plus save up to 30% with the best discounts for June 2026.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "20% Off Sephora Promo Code | June 2026",
-      "url": "https://www.wired.com/story/sephora-promo-code/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5562,
-      "publishedAt": "2026-06-12T05:00:00.000Z",
-      "summary": "Earn more points on skincare purchases when you use our Sephora coupon.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "LG Promo Codes and Coupons for June 2026",
-      "url": "https://www.wired.com/story/lg-promo-code/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5562,
-      "publishedAt": "2026-06-12T05:00:00.000Z",
-      "summary": "Save 20% with an LG promo code today, plus up to $1,000 off appliances, 40% off bestselling TVs and monitors.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "AI agent bankrupted their operator while trying to scan DN42",
-      "url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/",
-      "feedSource": "Hacker News",
-      "source": "lantian.pub",
-      "score": 0.5536,
-      "publishedAt": "2026-06-12T04:42:53.000Z",
-      "summary": "An AI agent tried to join the DN42 hobbyist network to perform a network scan, and bankrupted their operator with a $6531.30 AWS bill.",
-      "tags": [
-        "Agents"
-      ],
-      "engagementScore": 591
-    },
-    {
-      "title": "Anthropic apologizes for invisible Claude Fable guardrails",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail",
-      "feedSource": "Hacker News",
-      "source": "theverge.com",
-      "score": 0.551,
-      "publishedAt": "2026-06-11T12:05:02.000Z",
-      "summary": "Anthropic said users ‘should have visibility into the safeguards we have in place, and why.’",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 426
-    },
-    {
       "title": "Google DeepMind is worried about what happens when millions of agents start to interact",
       "url": "https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5498,
+      "score": 0.5203,
       "publishedAt": "2026-06-11T11:00:45.000Z",
       "summary": "Google DeepMind is funding research into the potential dangers of situations where millions of different AI agents interact with each other online. According to Rohin Shah, who directs the company’s AGI safety and alignment research, the mass-market arrival of agents that can carry out tasks without",
       "tags": [
@@ -584,7 +652,7 @@
       "url": "https://www.technologyreview.com/2026/06/11/1138502/job-titles-natures-drug-designer-tim-cernak/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5439,
+      "score": 0.5144,
       "publishedAt": "2026-06-11T10:00:00.000Z",
       "summary": "In 2018, after nearly two decades working in Big Pharma, chemist Tim Cernak was ready to put his skills to a new use.&#160; For Merck, he’d developed precision therapies for cancer, HIV, and diabetes that could target disease while minimizing harm to healthy cells. But as a lifelong nature lover, he",
       "tags": [
@@ -598,7 +666,7 @@
       "url": "https://www.technologyreview.com/2026/06/11/1138506/inside-soccer-data-renaissance-jesse-davis/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5439,
+      "score": 0.5144,
       "publishedAt": "2026-06-11T10:00:00.000Z",
       "summary": "Imagine tuning in to the opening kickoff of a World Cup match and seeing a player intentionally send the ball all the way down the pitch and right out of bounds on the opponent’s end. Casual fans might scratch their heads. Where’s the logic in surrendering possession seconds into a game? If you were",
       "tags": [
@@ -607,50 +675,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Why China is betting on big nuclear reactors",
-      "url": "https://www.technologyreview.com/2026/06/11/1138789/china-big-nuclear-reactors/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.5439,
-      "publishedAt": "2026-06-11T10:00:00.000Z",
-      "summary": "It’s a tale of two nuclear industries. In China, large reactors are coming together at a stunning pace. The country has nearly doubled its nuclear fleet since 2016, reaching nearly 60 gigawatts of total power capacity. The new facilities are nearly all gigawatt-scale pressurized-water reactors. Mean",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Claude Fable is relentlessly proactive",
-      "url": "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/",
-      "feedSource": "Hacker News",
-      "source": "simonwillison.net",
-      "score": 0.5267,
-      "publishedAt": "2026-06-12T01:06:51.000Z",
-      "summary": "After two days of experience with Claude Fable 5 I think the best way to describe it is relentlessly proactive. It knows a whole lot of tricks and it will …",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 456
-    },
-    {
-      "title": "Digital Sovereignty Becomes an Imperative as the US Reads Dutch Emails",
-      "url": "https://www.korte.co/2026/06/11/digital-sovereignty-becomes-an-imparative-as-the-us-reads-dutch-emails/",
-      "feedSource": "Hacker News",
-      "source": "korte.co",
-      "score": 0.5045,
-      "publishedAt": "2026-06-12T05:53:19.000Z",
-      "summary": "The US House reading Dutch emails shows digital sovereignty is about who can access data, not just where it is stored.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 130
-    },
-    {
       "title": "Fluid, natural voice translation with Gemini 3.5 Live Translate",
       "url": "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.4557,
+      "score": 0.4222,
       "publishedAt": "2026-06-09T15:16:25.000Z",
       "summary": "Gemini 3.5 Live Translate brings near real-time, natural speech translation to Google AI Studio, Google Translate and Google Meet.",
       "tags": [
@@ -663,38 +692,12 @@
       "url": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.4483,
+      "score": 0.4222,
       "publishedAt": "2026-06-09T14:10:19.000Z",
       "summary": "An overview of Gemma 4 12B, a model designed to bring high-performance multimodal intelligence directly to your laptop.",
       "tags": [
         "Vision",
         "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Powering the future of robotics in Europe",
-      "url": "https://deepmind.google/blog/powering-the-future-of-robotics-in-europe/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4474,
-      "publishedAt": "2026-06-09T14:02:33.000Z",
-      "summary": "Google DeepMind Accelerator selects 15 robotics companies from across Europe to join the program. Providing 3 months of intensive mentorship and technical support, enabl…",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Measuring the impact of learning with AI in Sierra Leone and beyond",
-      "url": "https://deepmind.google/blog/measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-06-08T13:04:59.000Z",
-      "summary": "Results from a randomized controlled trial show the potential of Gemini’s Guided Learning feature to boost engagement and accelerate learning.",
-      "tags": [
-        "LLM"
       ],
       "engagementScore": 0
     }
