@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-13T19:42:38.894Z",
+  "updatedAt": "2026-06-13T22:08:18.849Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,20 +12,20 @@
       "url": "https://www.anthropic.com/news/fable-mythos-access",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 1.1223,
+      "score": 1.1052,
       "publishedAt": "2026-06-13T00:51:30.000Z",
       "summary": "The US government has issued an export control directive to suspend all access to Fable 5 and Mythos 5 by any foreign national, whether inside or outside the United States.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 3007
+      "engagementScore": 3039
     },
     {
       "title": "New OpenAI Academy courses for the next era of work",
       "url": "https://openai.com/index/academy-courses-applying-ai-at-work",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7916,
+      "score": 0.7739,
       "publishedAt": "2026-06-12T10:00:00.000Z",
       "summary": "OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.",
       "tags": [
@@ -39,13 +39,27 @@
       "url": "https://arxiv.org/abs/2606.13473",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7471,
+      "score": 0.7306,
       "publishedAt": "2026-06-12T12:00:02.000Z",
       "summary": "We present MaxProof, a population-level test-time scaling framework for competition-level mathematical proof in the MiniMax-M3 series. M3 first trains three proof-oriented capabilities -- proof generation, proof verification, and critique-conditioned proof repair -- using a defense-in-depth generati",
       "tags": [
         "AI"
       ],
       "engagementScore": 136
+    },
+    {
+      "title": "Codex for open source",
+      "url": "https://openai.com/form/codex-for-oss/",
+      "feedSource": "Hacker News",
+      "source": "openai.com",
+      "score": 0.7291,
+      "publishedAt": "2026-06-11T22:20:03.000Z",
+      "summary": "",
+      "tags": [
+        "Open Source",
+        "Dev Tools"
+      ],
+      "engagementScore": 105
     },
     {
       "title": "Claude Fable 5",
@@ -65,7 +79,7 @@
       "url": "https://openai.com/index/preply",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7187,
+      "score": 0.701,
       "publishedAt": "2026-06-12T00:00:00.000Z",
       "summary": "Preply uses OpenAI to launch AI-generated lesson summaries, providing personalised feedback and language learning exercises.",
       "tags": [
@@ -74,39 +88,25 @@
       "engagementScore": 0
     },
     {
-      "title": "Codex for Open Source",
-      "url": "https://openai.com/form/codex-for-oss/",
-      "feedSource": "Hacker News",
-      "source": "openai.com",
-      "score": 0.7031,
-      "publishedAt": "2026-06-11T22:20:03.000Z",
-      "summary": "",
-      "tags": [
-        "Open Source",
-        "Dev Tools"
-      ],
-      "engagementScore": 47
-    },
-    {
       "title": "Kimi K2.7-Code: open-source coding model with better token efficiency",
       "url": "https://huggingface.co/moonshotai/Kimi-K2.7-Code",
       "feedSource": "Hacker News",
       "source": "huggingface.co",
-      "score": 0.689,
+      "score": 0.6739,
       "publishedAt": "2026-06-12T10:42:50.000Z",
       "summary": "",
       "tags": [
         "Open Source",
         "Dev Tools"
       ],
-      "engagementScore": 441
+      "engagementScore": 444
     },
     {
       "title": "olmo-eval: An evaluation workbench for the model development loop",
       "url": "https://huggingface.co/blog/allenai/olmo-eval",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6195,
+      "score": 0.6042,
       "publishedAt": "2026-06-12T15:56:10.000Z",
       "summary": "",
       "tags": [
@@ -115,11 +115,51 @@
       "engagementScore": 0
     },
     {
+      "title": "Amazon security research reportedly led to the White House’s Anthropic Fable ban",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/949601/amazon-anthropic-fablemythos-government-ban",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5822,
+      "publishedAt": "2026-06-13T21:39:26.000Z",
+      "summary": "According to the Wall Street Journal, the export control directive that led to Anthropic cutting off access to Fable 5 and Mythos 5 was triggered in part by cybersecurity research from Amazon and conversations between CEO Andy Jassy and the White House. According to the report, the paper from Amazon",
+      "tags": [
+        "LLM",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Noise infusion banned from statistical products published by Census Bureau",
+      "url": "https://desfontain.es/blog/banning-noise.html",
+      "feedSource": "Hacker News",
+      "source": "desfontain.es",
+      "score": 0.5433,
+      "publishedAt": "2026-06-13T13:54:56.000Z",
+      "summary": "Sadly, taking away valuable disclosure avoidance tools doesn’t make fundamental trade-offs go away.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 630
+    },
+    {
+      "title": "Amazon CEO's talks with U.S. officials triggered crackdown on Anthropic models",
+      "url": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578?st=Yct6gx&reflink=desktopwebshare_permalink",
+      "feedSource": "Hacker News",
+      "source": "wsj.com",
+      "score": 0.5399,
+      "publishedAt": "2026-06-13T16:57:49.000Z",
+      "summary": "",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 381
+    },
+    {
       "title": "Anthropic cuts off Fable 5 and Mythos 5 access following government order",
       "url": "https://www.theverge.com/ai-artificial-intelligence/949553/anthropic-fable-5-mythos-5-government-national-security",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5486,
+      "score": 0.5356,
       "publishedAt": "2026-06-13T12:57:08.000Z",
       "summary": "On Friday evening, the government ordered Anthropic to block access to Fable 5 and Mythos 5 for all foreign nations, both inside and outside the US, due to national security concerns. That order included employees of Anthropic. To meet those demands, the company has completely cut off access to the",
       "tags": [
@@ -128,24 +168,24 @@
       "engagementScore": 0
     },
     {
-      "title": "US bans differential privacy in Census data",
-      "url": "https://desfontain.es/blog/banning-noise.html",
-      "feedSource": "Hacker News",
-      "source": "desfontain.es",
-      "score": 0.5456,
-      "publishedAt": "2026-06-13T13:54:56.000Z",
-      "summary": "Sadly, taking away valuable disclosure avoidance tools doesn’t make fundamental trade-offs go away.",
+      "title": "Meet the New Dyson Vacuums: V16 Piston Animal, V10 Konical, V8 Cyclone (2026)",
+      "url": "https://www.wired.com/story/meet-dysons-new-cordless-vacuum-lineup/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5281,
+      "publishedAt": "2026-06-13T11:33:00.000Z",
+      "summary": "The rest of Dyson’s promised 2026 vacuum lineup is here, from the new Dyson V16 Piston Animal to an updated version of the favored Dyson V8 Cyclone.",
       "tags": [
-        "Dev Tools"
+        "AI"
       ],
-      "engagementScore": 484
+      "engagementScore": 0
     },
     {
       "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
       "url": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.5437,
+      "score": 0.526,
       "publishedAt": "2026-06-11T00:00:00.000Z",
       "summary": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
       "tags": [
@@ -159,7 +199,7 @@
       "url": "https://openai.com/index/bbva",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.5437,
+      "score": 0.526,
       "publishedAt": "2026-06-11T00:00:00.000Z",
       "summary": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
       "tags": [
@@ -172,7 +212,7 @@
       "url": "https://openai.com/index/openai-to-acquire-ona",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.5437,
+      "score": 0.526,
       "publishedAt": "2026-06-11T00:00:00.000Z",
       "summary": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
       "tags": [
@@ -188,7 +228,7 @@
       "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.5437,
+      "score": 0.526,
       "publishedAt": "2026-06-11T00:00:00.000Z",
       "summary": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
       "tags": [
@@ -198,24 +238,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Meet the New Dyson Vacuums: V16 Piston Animal, V10 Konical, V8 Cyclone (2026)",
-      "url": "https://www.wired.com/story/meet-dysons-new-cordless-vacuum-lineup/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5411,
-      "publishedAt": "2026-06-13T11:33:00.000Z",
-      "summary": "The rest of Dyson’s promised 2026 vacuum lineup is here, from the new Dyson V16 Piston Animal to an updated version of the favored Dyson V8 Cyclone.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "How Can Soccer Players Bend Their Shots in Midair?",
       "url": "https://www.wired.com/story/how-can-soccer-players-bend-their-shots-in-midair/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5382,
+      "score": 0.5252,
       "publishedAt": "2026-06-13T11:00:00.000Z",
       "summary": "As World Cup action kicks off, we look at the physics of the beautiful game.",
       "tags": [
@@ -228,7 +255,7 @@
       "url": "https://www.wired.com/story/security-news-this-week-the-fcc-wants-to-kill-burner-phones/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5355,
+      "score": 0.5225,
       "publishedAt": "2026-06-13T10:30:00.000Z",
       "summary": "Plus: AI bug hunting fuels Microsoft’s biggest-ever Patch Tuesday, ShinyHunters ransomware gang exploits an Oracle zero-day, and more.",
       "tags": [
@@ -241,7 +268,7 @@
       "url": "https://www.wired.com/review/ecoflow-powerocean-home-battery/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5355,
+      "score": 0.5225,
       "publishedAt": "2026-06-13T10:30:00.000Z",
       "summary": "Whether you want to buy cheaper electricity, store solar energy, or guard against outages, EcoFlow’s home battery might be just what you need.",
       "tags": [
@@ -254,7 +281,7 @@
       "url": "https://www.wired.com/story/interview-with-rivian-ceo-rj-scaringe/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5328,
+      "score": 0.5198,
       "publishedAt": "2026-06-13T10:00:00.000Z",
       "summary": "RJ Scaringe, the CEO of Rivian Automotive, joined us for a wide-ranging interview about how his company’s new electric SUV fits into the current EV industry, and what comes next.",
       "tags": [
@@ -267,34 +294,21 @@
       "url": "https://opensourceaimustwin.com/?share=v2",
       "feedSource": "Hacker News",
       "source": "opensourceaimustwin.com",
-      "score": 0.5287,
+      "score": 0.5178,
       "publishedAt": "2026-06-13T02:14:24.000Z",
       "summary": "Civilizational intelligence infrastructure must remain free to study, build, deploy, and run, not rented from closed institutions.",
       "tags": [
         "Research",
         "Open Source"
       ],
-      "engagementScore": 1458
-    },
-    {
-      "title": "Amazon CEO's Talks with U.S. Officials Triggered Crackdown on Anthropic Models",
-      "url": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578",
-      "feedSource": "Hacker News",
-      "source": "wsj.com",
-      "score": 0.5284,
-      "publishedAt": "2026-06-13T16:57:49.000Z",
-      "summary": "",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 200
+      "engagementScore": 1492
     },
     {
       "title": "A Court Has Ruled That Google Is Liable for False Statements Generated by AI Overviews",
       "url": "https://www.wired.com/story/a-court-has-ruled-that-google-is-liable-for-false-statements-generated-by-ai-overviews/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5275,
+      "score": 0.5145,
       "publishedAt": "2026-06-13T09:00:00.000Z",
       "summary": "The ruling holds that a company that designs, trains, operates, and manages an AI system must assume legal liability for any damages caused by the responses it generates.",
       "tags": [
@@ -307,26 +321,12 @@
       "url": "https://openai.com/index/openai-on-oracle-cloud",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.5145,
+      "score": 0.5124,
       "publishedAt": "2026-06-10T20:00:00.000Z",
       "summary": "Access OpenAI models and Codex through Oracle Cloud, using existing commitments to build and deploy AI with enterprise security and governance.",
       "tags": [
         "LLM",
         "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Here’s How AI Agents Can Protect EV Chargers",
-      "url": "https://www.wired.com/story/researchers-in-spain-show-how-ai-agents-can-protect-ev-chargers/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5141,
-      "publishedAt": "2026-06-13T06:30:00.000Z",
-      "summary": "An AI agent system proposed by researchers in Spain promises to prevent energy theft and damage to EV chargers, as well as the critical energy infrastructure that powers them.",
-      "tags": [
-        "Agents",
-        "Research"
       ],
       "engagementScore": 0
     },
@@ -344,11 +344,25 @@
       "engagementScore": 0
     },
     {
+      "title": "Here’s How AI Agents Can Protect EV Chargers",
+      "url": "https://www.wired.com/story/researchers-in-spain-show-how-ai-agents-can-protect-ev-chargers/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5011,
+      "publishedAt": "2026-06-13T06:30:00.000Z",
+      "summary": "An AI agent system proposed by researchers in Spain promises to prevent energy theft and damage to EV chargers, as well as the critical energy infrastructure that powers them.",
+      "tags": [
+        "Agents",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "The Download: “reprogramming” aging, and the hidden sense of interoception",
       "url": "https://www.technologyreview.com/2026/06/12/1138899/the-download-reprogramming-reverse-aging-interoception/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5019,
+      "score": 0.4877,
       "publishedAt": "2026-06-12T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Why “reprogramming” is the buzziest approach to reversing aging right now Earlier this week, Life Biosciences, a biotech company focused on reversing",
       "tags": [
@@ -361,7 +375,7 @@
       "url": "https://www.wired.com/story/anthropic-says-us-government-ordered-it-to-shut-down-mythos-models/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4924,
+      "score": 0.4794,
       "publishedAt": "2026-06-13T02:26:10.000Z",
       "summary": "“The government believes it has become aware of a method of bypassing, or ‘jailbreaking’ Fable 5,” the company said in a blog post.",
       "tags": [
@@ -374,7 +388,7 @@
       "url": "https://www.technologyreview.com/2026/06/12/1138518/you-do-your-own-time-fiction/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4893,
+      "score": 0.4751,
       "publishedAt": "2026-06-12T10:00:00.000Z",
       "summary": "There we were, a regular murderers’ row of librarians. Little Jo. Eustace. And me. Turning around in the nave of our library to greet the sound of footsteps, pistols leveled in case whoever was coming in didn’t respect sanctuary. Little Jo had a stack of books under one arm. Eustace was holding the",
       "tags": [
@@ -387,7 +401,7 @@
       "url": "https://www.technologyreview.com/2026/06/12/1138829/reprogramming-buzziest-approach-reversing-aging-right-now/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4834,
+      "score": 0.4693,
       "publishedAt": "2026-06-12T09:00:00.000Z",
       "summary": "Earlier this week, Life Biosciences, a biotech company focused on reversing age-related diseases, announced that it had dosed its first volunteer. A person with glaucoma has had an experimental treatment injected straight into their eyeball. The idea is to try to treat the disease—which can cause vi",
       "tags": [
@@ -400,7 +414,7 @@
       "url": "https://www.technologyreview.com/2026/06/12/1138833/inside-interoception-brain-body/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4834,
+      "score": 0.4693,
       "publishedAt": "2026-06-12T09:00:00.000Z",
       "summary": "MIT Technology Review&#160;Explains: Let our writers untangle the complex, messy world of science and technology to help you understand what’s coming next.&#160;You can read more from the series here. Your brain lives in the dark space of your skull. Yet it knows when the wind lifts the hairs on you",
       "tags": [
@@ -413,7 +427,7 @@
       "url": "https://www.theverge.com/business/948996/spacex-ipo-elon-musk",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4805,
+      "score": 0.4675,
       "publishedAt": "2026-06-13T00:13:06.000Z",
       "summary": "SpaceX&#8217;s IPO on Friday allows the public to buy shares of the combined rocket, AI, and social media company for the first time, and raised enough money to make Elon Musk the first trillionaire.  He has more wealth, on paper at least, than the economies of nations like Ireland, Sweden, or his h",
       "tags": [
@@ -427,7 +441,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/942119/vibecoding-backyard-app-gardening-organizing",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.47,
+      "score": 0.457,
       "publishedAt": "2026-06-12T22:14:50.000Z",
       "summary": "When I returned to my computer five minutes after giving Gemini a lengthy prompt, I had two things: a functional app in a preview window, and a message about a bug. \"~ Channel is unrecoverably broken and will be disposed!\" Sounded bad! But right below it was a button to fix the bug. Pretty weird [&#",
       "tags": [
@@ -440,7 +454,7 @@
       "url": "https://www.theverge.com/tech/949360/apple-ai-photo-edit-reframe-extend-clean-up-hands-on",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4638,
+      "score": 0.4508,
       "publishedAt": "2026-06-12T21:05:11.000Z",
       "summary": "The most popular camera in the world just got its first set of serious AI photo editing features, and I don't think any of us are ready. As far as AI photo editing goes, the new features in iOS 27 are pretty tame compared to what you can do on, say, Google's Pixel phones. But [&#8230;]",
       "tags": [
@@ -453,7 +467,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/948425/tribeca-2026-dear-upstairs-neighbors-google-deepmind-openai",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4618,
+      "score": 0.4489,
       "publishedAt": "2026-06-12T20:43:35.000Z",
       "summary": "For all the noise that's been made about how generative AI is poised to revolutionize the filmmaking industry, there haven't really been any projects created with the technology that felt like the sort of entertainment people would pay to see. Most AI firms' video models are still only capable of ch",
       "tags": [
@@ -466,7 +480,7 @@
       "url": "https://www.theverge.com/podcast/949079/siri-ai-good-vergecast",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4434,
+      "score": 0.4305,
       "publishedAt": "2026-06-12T17:17:04.000Z",
       "summary": "You'd be forgiven for thinking this day would never come. Siri has spent a decade and half somewhere between \"sort of useful at a few things\" and \"utterly disastrous, why did I even try, can it honestly not even set a timer.\" But the wildest thing just happened: Apple put out a new version of [&#823",
       "tags": [
@@ -479,24 +493,10 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/948409/elon-musk-trillionaire-spacex-ipo",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4391,
+      "score": 0.4261,
       "publishedAt": "2026-06-12T16:27:55.000Z",
       "summary": "Elon Musk's net worth has passed the trillion-dollar mark after SpaceX's IPO. His net worth, which was hovering around $800 billion before the IPO, includes the value of his 4.8 billion shares in SpaceX, along with his wealth from his other companies, like Tesla. Shares of SPCX opened at $150 and ha",
       "tags": [
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Jeff Bezos’ AI startup aims to build an ‘artificial general engineer’",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/949005/jeff-bezos-prometheus-artificial-general-engineer",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4266,
-      "publishedAt": "2026-06-12T14:07:41.000Z",
-      "summary": "Amazon founder Jeff Bezos says his new AI startup will work toward developing an \"artificial general engineer,\" according to reports from The New York Times and CNBC. The startup, called Prometheus, aims to develop AI-powered engineering tools to aid in the design of physical products. The NYT first",
-      "tags": [
-        "Dev Tools",
         "Industry"
       ],
       "engagementScore": 0
@@ -614,7 +614,7 @@
       "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.4076,
+      "score": 0.3934,
       "publishedAt": "2026-06-11T20:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/VirginiaSocial.max-600x600.format-webp.webp\"&gt;We’re helping build the state’s next-generation workforce and investing in energy programs.",
       "tags": [
@@ -630,7 +630,7 @@
       "url": "https://huggingface.co/blog/torch-mlp-fusion",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.3672,
+      "score": 0.3518,
       "publishedAt": "2026-06-11T00:00:00.000Z",
       "summary": "",
       "tags": [
@@ -643,7 +643,7 @@
       "url": "https://www.technologyreview.com/2026/06/11/1138809/the-download-soccer-football-data-analytics-china-nuclear-power/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.3619,
+      "score": 0.3477,
       "publishedAt": "2026-06-11T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Inside soccer’s data renaissance Imagine tuning in to the opening kickoff of a World Cup match and seeing a player intentionally kick the ball out of",
       "tags": [
@@ -656,7 +656,7 @@
       "url": "https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.3552,
+      "score": 0.341,
       "publishedAt": "2026-06-11T11:00:45.000Z",
       "summary": "Google DeepMind is funding research into the potential dangers of situations where millions of different AI agents interact with each other online. According to Rohin Shah, who directs the company’s AGI safety and alignment research, the mass-market arrival of agents that can carry out tasks without",
       "tags": [
@@ -668,15 +668,14 @@
       "engagementScore": 0
     },
     {
-      "title": "Job titles of the future: Nature&#8217;s drug designer",
-      "url": "https://www.technologyreview.com/2026/06/11/1138502/job-titles-natures-drug-designer-tim-cernak/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.3493,
-      "publishedAt": "2026-06-11T10:00:00.000Z",
-      "summary": "In 2018, after nearly two decades working in Big Pharma, chemist Tim Cernak was ready to put his skills to a new use.&#160; For Merck, he’d developed precision therapies for cancer, HIV, and diabetes that could target disease while minimizing harm to healthy cells. But as a lifelong nature lover, he",
+      "title": "Introducing North Mini Code: Cohere’s First Model For Developers",
+      "url": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.3401,
+      "publishedAt": "2026-06-09T15:56:23.000Z",
+      "summary": "",
       "tags": [
-        "Safety",
         "Dev Tools"
       ],
       "engagementScore": 0
