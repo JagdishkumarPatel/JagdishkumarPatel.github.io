@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T20:19:36.550Z",
+  "updatedAt": "2026-06-17T22:47:06.741Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,11 +8,11 @@
   ],
   "items": [
     {
-      "title": "AI chemist improves a challenging reaction in medicinal chemistry",
+      "title": "Using AI to improve a challenging reaction in medicinal chemistry",
       "url": "https://openai.com/index/ai-chemist-improves-reaction/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.9877,
+      "score": 0.9886,
       "publishedAt": "2026-06-17T17:34:20.000Z",
       "summary": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
       "tags": [
@@ -20,14 +20,14 @@
         "Agents",
         "Research"
       ],
-      "engagementScore": 29
+      "engagementScore": 41
     },
     {
       "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
       "url": "https://openai.com/index/ai-chemist-improves-reaction",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9621,
+      "score": 0.9442,
       "publishedAt": "2026-06-17T10:00:00.000Z",
       "summary": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
       "tags": [
@@ -38,24 +38,37 @@
       "engagementScore": 0
     },
     {
+      "title": "Introducing LifeSciBench",
+      "url": "https://openai.com/index/introducing-life-sci-bench",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.8712,
+      "publishedAt": "2026-06-17T00:00:00.000Z",
+      "summary": "Introducing LifeSciBench, an expert-authored, expert-reviewed benchmark for evaluating how AI systems handle real-world life science research tasks and decisions.",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Semiclassical Gravity Efficiently Solves NP-Complete Problems",
       "url": "https://arxiv.org/abs/2606.14806",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8143,
+      "score": 0.7983,
       "publishedAt": "2026-06-17T03:25:51.000Z",
       "summary": "Assuming the gravitational field is classical and that it couples to quantum fields via the semiclassical Einstein field equations, we show that the weak-field dynamics of a massive and non-relativistic qubit can in principle be used to solve an $\\mathsf{NP}$-complete problem in polynomial time. We",
       "tags": [
         "AI"
       ],
-      "engagementScore": 70
+      "engagementScore": 71
     },
     {
       "title": "Beyond Parallel Sampling: Diverse Query Initialization for Agentic Search",
       "url": "https://arxiv.org/abs/2606.17209",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8011,
+      "score": 0.7844,
       "publishedAt": "2026-06-17T04:00:00.000Z",
       "summary": "arXiv:2606.17209v1 Announce Type: new \nAbstract: Test-time scaling for agentic search typically increases depth (i.e., more turns and tokens per trajectory) or breadth (i.e., more parallel rollouts). Here we focus on breadth scaling, showing that standard parallel sampling yields diminishing returns",
       "tags": [
@@ -69,7 +82,7 @@
       "url": "https://arxiv.org/abs/2606.17220",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8011,
+      "score": 0.7844,
       "publishedAt": "2026-06-17T04:00:00.000Z",
       "summary": "arXiv:2606.17220v1 Announce Type: new \nAbstract: Legal case retrieval remains challenging due to the complexity of legal language and the need for precise lexical alignment between queries and relevant cases. Although dense retrieval models have achieved notable progress, empirical studies show that",
       "tags": [
@@ -85,7 +98,7 @@
       "url": "https://arxiv.org/abs/2606.17266",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8011,
+      "score": 0.7844,
       "publishedAt": "2026-06-17T04:00:00.000Z",
       "summary": "arXiv:2606.17266v1 Announce Type: new \nAbstract: Production planning increasingly has to treat workforce capability as a decision variable: certifications lapse when skills are not maintained, new products require skills the current workforce does not hold, and reskilling competes for the same worke",
       "tags": [
@@ -98,7 +111,7 @@
       "url": "https://arxiv.org/abs/2606.17269",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8011,
+      "score": 0.7844,
       "publishedAt": "2026-06-17T04:00:00.000Z",
       "summary": "arXiv:2606.17269v1 Announce Type: new \nAbstract: In skill-constrained production-inventory systems, the qualified human capacity available tomorrow depends on training decisions made today: production requires certified workers, certifications decay unless maintained, and training consumes the same",
       "tags": [
@@ -112,7 +125,7 @@
       "url": "https://arxiv.org/abs/2606.17289",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8011,
+      "score": 0.7844,
       "publishedAt": "2026-06-17T04:00:00.000Z",
       "summary": "arXiv:2606.17289v1 Announce Type: new \nAbstract: AI systems based on artificial neural networks are being developed with aspirations of pushing the boundary of human mathematical knowledge. A key question for these systems is how much they can reach beyond their training data. Mathematical discovery",
       "tags": [
@@ -127,7 +140,7 @@
       "url": "https://arxiv.org/abs/2606.17312",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8011,
+      "score": 0.7844,
       "publishedAt": "2026-06-17T04:00:00.000Z",
       "summary": "arXiv:2606.17312v1 Announce Type: new \nAbstract: Large language models can arrive at the same answer through reasoning paths that are unstable, contradictory, or difficult to rank consistently -- a failure mode especially prevalent in multi-step deductive reasoning. Existing methods assess reliabili",
       "tags": [
@@ -142,7 +155,7 @@
       "url": "https://arxiv.org/abs/2606.17328",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8011,
+      "score": 0.7844,
       "publishedAt": "2026-06-17T04:00:00.000Z",
       "summary": "arXiv:2606.17328v1 Announce Type: new \nAbstract: LLM agents increasingly maintain long-term memory of user facts across sessions. Yet such memory is usually evaluated by aggregating accuracy over question rows or episodes. Because this approach scores question rows independently, even when several q",
       "tags": [
@@ -157,7 +170,7 @@
       "url": "https://arxiv.org/abs/2606.17339",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8011,
+      "score": 0.7844,
       "publishedAt": "2026-06-17T04:00:00.000Z",
       "summary": "arXiv:2606.17339v1 Announce Type: new \nAbstract: Speech offers a uniquely informative window into health by simultaneously engaging neurological, motor, respiratory, and vocal systems. Current clinical speech AI methods have largely progressed through isolated condition-specific studies, making resu",
       "tags": [
@@ -170,7 +183,7 @@
       "url": "https://huggingface.co/blog/allenai/molmomotion",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.7642,
+      "score": 0.7487,
       "publishedAt": "2026-06-17T15:26:44.000Z",
       "summary": "",
       "tags": [
@@ -183,7 +196,7 @@
       "url": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.7569,
+      "score": 0.7401,
       "publishedAt": "2026-06-16T21:29:50.000Z",
       "summary": "UK government partners with Google DeepMind to build a new AI-powered prototype aimed at faster housing decisions.",
       "tags": [
@@ -196,7 +209,7 @@
       "url": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.7317,
+      "score": 0.7162,
       "publishedAt": "2026-06-17T10:18:05.000Z",
       "summary": "",
       "tags": [
@@ -210,20 +223,33 @@
       "url": "https://www.anthropic.com/news/claude-corps",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.7316,
+      "score": 0.7137,
       "publishedAt": "2026-06-15T17:41:24.000Z",
-      "summary": "We’re launching Claude Corps, a national fellowship program for people early in their careers who are passionate about extending the benefits of AI to communities across America.",
+      "summary": "",
       "tags": [
         "LLM"
       ],
       "engagementScore": 161
     },
     {
+      "title": "GLM-5.2: Built for Long-Horizon Tasks",
+      "url": "https://huggingface.co/blog/zai-org/glm-52-blog",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.7081,
+      "publishedAt": "2026-06-17T09:01:25.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Predicting model behavior before release by simulating deployment",
       "url": "https://openai.com/index/deployment-simulation",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7142,
+      "score": 0.6962,
       "publishedAt": "2026-06-16T00:00:00.000Z",
       "summary": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
       "tags": [
@@ -234,11 +260,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Gemma 4 E2B running in-browser at 255 tok/s",
+      "url": "https://huggingface.co/spaces/webml-community/gemma-4-webgpu-kernels",
+      "feedSource": "Hacker News",
+      "source": "huggingface.co",
+      "score": 0.6872,
+      "publishedAt": "2026-06-17T21:30:25.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 6
+    },
+    {
       "title": "Agentic Resource Discovery: Let agents search",
       "url": "https://huggingface.co/blog/agentic-resource-discovery-launch",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6666,
+      "score": 0.6511,
       "publishedAt": "2026-06-17T00:00:00.000Z",
       "summary": "",
       "tags": [
@@ -251,7 +290,7 @@
       "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.6548,
+      "score": 0.6405,
       "publishedAt": "2026-06-17T15:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AMIE_Mx_Nature_Social_Visual_Va.max-600x600.format-webp.webp\"&gt;Research in “Nature” shows our conversational AI system matches primary care physicians in complex disease management.",
       "tags": [
@@ -267,33 +306,20 @@
       "url": "https://techcrunch.com/2026/06/17/only-16-percent-of-americans-think-ai-will-have-a-positive-impact-on-society-a-new-study-shows/",
       "feedSource": "Hacker News",
       "source": "techcrunch.com",
-      "score": 0.645,
+      "score": 0.6333,
       "publishedAt": "2026-06-17T17:07:32.000Z",
       "summary": "",
       "tags": [
         "AI"
       ],
-      "engagementScore": 349
-    },
-    {
-      "title": "GLM-5.2: Built for Long-Horizon Tasks",
-      "url": "https://huggingface.co/blog/zai-org/glm-52-blog",
-      "feedSource": "Hacker News",
-      "source": "huggingface.co",
-      "score": 0.6432,
-      "publishedAt": "2026-06-17T09:04:02.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 9
+      "engagementScore": 362
     },
     {
       "title": "The Download: a reality check for geoengineering and the science of interoception",
       "url": "https://www.technologyreview.com/2026/06/17/1139200/the-download-solar-geoengineering-interoception/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6383,
+      "score": 0.624,
       "publishedAt": "2026-06-17T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Hacking the atmosphere: geoengineering gets a reality check Solar geoengineering, the controversial idea that we could deliberately intervene in the c",
       "tags": [
@@ -306,7 +332,7 @@
       "url": "https://www.technologyreview.com/2026/06/17/1138600/entrepreneurs-nairobi-case-for-going-solar/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6198,
+      "score": 0.6055,
       "publishedAt": "2026-06-17T09:00:00.000Z",
       "summary": "Most of Kenya’s power grid runs on renewables. But with 25% of communities lacking centralized electricity, the nation is looking to off-grid solar to hit its goal of delivering universal electricity access by 2030 without driving up emissions. The ever-­improving economics of solar technology have",
       "tags": [
@@ -319,7 +345,7 @@
       "url": "https://www.technologyreview.com/2026/06/17/1138743/hacking-atmosphere-geoengineering-reality-check/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6198,
+      "score": 0.6055,
       "publishedAt": "2026-06-17T09:00:00.000Z",
       "summary": "Jim Franke pulls away the cover page of a presentation on the wraparound desk in his office, revealing an illustration of an odd-­looking aircraft with massive wings stretching out from a stubby fuselage. The uncrewed plane is soaring thousands of meters higher than commercial jets fly—so high you c",
       "tags": [
@@ -332,7 +358,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/951703/anthropic-shutdown-export-controls",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5751,
+      "score": 0.5619,
       "publishedAt": "2026-06-17T18:31:01.000Z",
       "summary": "Anthropic has spent much of this week fighting to get its newest AI models back online after the Trump administration abruptly ordered the company to cut access for all foreign nationals, including users inside the US and its own employees, forcing Anthropic to block access to Fable 5 and Mythos 5 f",
       "tags": [
@@ -345,7 +371,7 @@
       "url": "https://www.wired.com/story/humanoid-robot-training-in-chinas-hardware-capital/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5746,
+      "score": 0.5614,
       "publishedAt": "2026-06-17T18:25:35.000Z",
       "summary": "In Shenzhen, workers at IO-AI Tech control humanoid robots using a VR rig reminiscent of Ready Player One.",
       "tags": [
@@ -358,7 +384,7 @@
       "url": "https://www.wired.com/story/story/no-i-dont-want-to-watch-your-straight-hockey-show-heated-rivalry/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5744,
+      "score": 0.5613,
       "publishedAt": "2026-06-17T18:23:30.000Z",
       "summary": "From Amazon’s Off Campus to Netflix’s upcoming Icebreakers, the recent spate of hetero hockey romances shows Hollywood learned the wrong lessons from Heated Rivalry.",
       "tags": [
@@ -371,7 +397,7 @@
       "url": "https://www.theverge.com/report/951481/snap-specs-wearables-smart-glasses-fashion",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5689,
+      "score": 0.5557,
       "publishedAt": "2026-06-17T17:21:25.000Z",
       "summary": "Yesterday, Snap debuted its new $2,195 Specs glasses. In an interview with CNBC, Snap CEO Evan Spiegel described the Specs as something the company had been working on for more than 12 years, an attempt to \"bring computing into the world\" and \"make it more human.\" He positioned them as a device to h",
       "tags": [
@@ -384,7 +410,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/951653/pew-research-ai-chatbot-usage-advancing-too-quickly",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5688,
+      "score": 0.5556,
       "publishedAt": "2026-06-17T17:20:24.000Z",
       "summary": "According to the latest Pew Research poll, 49 percent of Americans report using chatbots at least occasionally, but 63 percent think the tech is advancing too quickly. Overall, use of AI chatbots has increased dramatically since 2024, when only 33 percent reported using them. Specifically, ChatGPT's",
       "tags": [
@@ -398,7 +424,7 @@
       "url": "https://www.theverge.com/column/951516/trump-anthropic-feud-mythos-fable-white-house",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5678,
+      "score": 0.5547,
       "publishedAt": "2026-06-17T17:09:29.000Z",
       "summary": "Hello and welcome to Regulator, an email for Verge subscribers about technology, politics, and what happens when science crashes headlong into self-interest. Not a subscriber? Sign up here today! Got the scoop on a petty feud that's going to somehow fundamentally reshape the entire field of frontier",
       "tags": [
@@ -412,7 +438,7 @@
       "url": "https://www.wired.com/story/the-white-house-wants-anthropic-to-block-all-jailbreaks-that-may-not-be-possible/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.567,
+      "score": 0.5538,
       "publishedAt": "2026-06-17T17:00:00.000Z",
       "summary": "Trump administration officials tell WIRED that if Anthropic wants to rerelease Fable 5, it will need to ensure the model's guardrails can't be circumvented. Security experts say that can't be done.",
       "tags": [
@@ -425,7 +451,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/951099/meta-ai-mode-search-hands-on",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5639,
+      "score": 0.5507,
       "publishedAt": "2026-06-17T16:25:09.000Z",
       "summary": "AI is pretty reliable at putting things on your calendar these days, but it hasn't quite cracked answering the related and all-important question of \"What should I do this weekend?\" Meta's new AI Mode in search could be a useful tool - if it ever learns to stop getting stuff wrong. AI Mode is a [&#8",
       "tags": [
@@ -438,20 +464,20 @@
       "url": "https://wpvip.com/future-of-the-web-2026/",
       "feedSource": "Hacker News",
       "source": "wpvip.com",
-      "score": 0.5587,
+      "score": 0.5477,
       "publishedAt": "2026-06-17T12:11:27.000Z",
       "summary": "Original research from 2,000 decision-makers and consumers on AI brand visibility, content trust, and what brands need to do as the web feels less human. 74% say the internet feels less human than it did 10 years ago.",
       "tags": [
         "Research"
       ],
-      "engagementScore": 952
+      "engagementScore": 977
     },
     {
       "title": "Google’s first smart speaker in six years arrives next week",
       "url": "https://www.theverge.com/tech/951147/google-home-speaker-gemini-launch-date-price-specs-features",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5568,
+      "score": 0.5437,
       "publishedAt": "2026-06-17T15:06:26.000Z",
       "summary": "Google's first new smart speaker in six years starts shipping on June 25th, narrowly missing its promised spring launch window. Preorders for the Google Home Speaker open today, June 17th. Nothing has changed hardware-wise in the nine months since the $99 speaker was announced. It has the same sligh",
       "tags": [
@@ -464,7 +490,7 @@
       "url": "https://www.technologyreview.com/2026/06/16/1138905/exclusive-ebook-how-ai-is-becoming-the-next-military-advisor/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5474,
+      "score": 0.5331,
       "publishedAt": "2026-06-16T20:35:02.000Z",
       "summary": "A collection of stories about how militaries are using AI models to make decisions. This subscriber-only eBook is a package of six stories that were originally published in MIT Technology Review between April 11, 2025, and April 21, 2026, and have been updated to reflect recent developments. Stories",
       "tags": [
@@ -477,7 +503,7 @@
       "url": "https://www.wired.com/story/the-gemini-powered-google-home-speaker-is-finally-here/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5456,
+      "score": 0.5324,
       "publishedAt": "2026-06-17T13:00:00.000Z",
       "summary": "Arriving six years after Google’s last smart speaker, the new HomePod-style device was redesigned to play host to Gemini’s chatbot.",
       "tags": [
@@ -490,7 +516,7 @@
       "url": "https://www.wired.com/story/early-prime-day-deals-june-2026/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5422,
+      "score": 0.5291,
       "publishedAt": "2026-06-17T12:22:45.000Z",
       "summary": "We’ve trawled the depths of Amazon to find the best deals on gear we’ve tested.",
       "tags": [
@@ -503,7 +529,7 @@
       "url": "https://www.wired.com/gallery/best-robot-lawn-mowers/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5405,
+      "score": 0.5273,
       "publishedAt": "2026-06-17T12:03:00.000Z",
       "summary": "Smart mowers are an expensive alternative to old-fashioned yard work, but they’re finally good enough to consider if you’d rather sip an iced tea and watch a robot tame your lawn.",
       "tags": [
@@ -516,7 +542,7 @@
       "url": "https://www.wired.com/story/cvs-is-switching-to-aluminum-pill-bottles/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5402,
+      "score": 0.5271,
       "publishedAt": "2026-06-17T12:00:00.000Z",
       "summary": "They’re much more recyclable than the current plastic ones, and they will still probably be locked away behind that anti-theft plexiglass.",
       "tags": [
@@ -529,7 +555,7 @@
       "url": "https://www.wired.com/story/best-laptops/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5375,
+      "score": 0.5244,
       "publishedAt": "2026-06-17T11:30:00.000Z",
       "summary": "I’ve been reviewing laptops for over a decade, and this is my  advice on how to find the right laptop for you.",
       "tags": [
@@ -542,50 +568,37 @@
       "url": "https://artificialanalysis.ai/articles/glm-5-2-is-the-new-leading-open-weights-model-on-the-artificial-analysis-intelligence-index",
       "feedSource": "Hacker News",
       "source": "artificialanalysis.ai",
-      "score": 0.5316,
+      "score": 0.5227,
       "publishedAt": "2026-06-17T09:12:00.000Z",
       "summary": "Benchmarks and Analysis of GLM-5.2",
       "tags": [
         "ML Infra"
       ],
-      "engagementScore": 674
-    },
-    {
-      "title": "The next humanoid robot might not look human at all",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/951283/genesis-ai-humanoid-robot-eno",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5284,
-      "publishedAt": "2026-06-17T09:46:56.000Z",
-      "summary": "The next humanoid robot might not have a head. It might not have legs. It might even sit on a wheeled base and fold down like a deck chair. But, as Genesis AI puts it, \"humanoid robots don't need to look human.\" That explains the look of Eno, the new robot from the French startup [&#8230;]",
-      "tags": [
-        "Industry"
-      ],
-      "engagementScore": 0
+      "engagementScore": 732
     },
     {
       "title": "AI demands more engineering discipline. Not less",
       "url": "https://charitydotwtf.substack.com/p/ai-demands-more-engineering-discipline",
       "feedSource": "Hacker News",
       "source": "charitydotwtf.substack.com",
-      "score": 0.5218,
+      "score": 0.5166,
       "publishedAt": "2026-06-17T14:20:44.000Z",
       "summary": "If you lived through the shift from handcrafted server pets to immutable infrastructure, you should sense something oddly familiar about what’s happening now.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 257
+      "engagementScore": 310
     },
     {
-      "title": "Qualcomm’s latest chip hints that more powerful smart glasses could be on the way",
-      "url": "https://www.theverge.com/gadgets/950229/qualcomm-snapdragon-reality-elite-xr-smart-glasses-wearables",
+      "title": "The next humanoid robot might not look human at all",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/951283/genesis-ai-humanoid-robot-eno",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5166,
-      "publishedAt": "2026-06-17T07:35:20.000Z",
-      "summary": "Smart glasses are still a nascent category, but chipmaker Qualcomm is hard at work upgrading the silicon to power the next wave of XR devices: the Snapdragon Reality Elite. Although Qualcomm is announcing the chip today at Augmented World Expo, we've technically already gotten a hands-on with a devi",
+      "score": 0.5152,
+      "publishedAt": "2026-06-17T09:46:56.000Z",
+      "summary": "The next humanoid robot might not have a head. It might not have legs. It might even sit on a wheeled base and fold down like a deck chair. But, as Genesis AI puts it, \"humanoid robots don't need to look human.\" That explains the look of Eno, the new robot from the French startup [&#8230;]",
       "tags": [
-        "RAG"
+        "Industry"
       ],
       "engagementScore": 0
     },
@@ -647,19 +660,6 @@
       "engagementScore": 0
     },
     {
-      "title": "BBVA puts AI at the core of banking with OpenAI",
-      "url": "https://openai.com/index/bbva",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5124,
-      "publishedAt": "2026-06-11T00:00:00.000Z",
-      "summary": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "How an astrophysicist uses Codex to help simulate black holes",
       "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
       "feedSource": "OpenAI",
@@ -674,15 +674,15 @@
       "engagementScore": 0
     },
     {
-      "title": "The Download: the first brain implant power user and South Korea’s AI obsession",
-      "url": "https://www.technologyreview.com/2026/06/16/1139010/the-download-brain-implant-power-user-bci-south-korea-ai-obsession/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.4983,
-      "publishedAt": "2026-06-16T12:10:00.000Z",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. This man with ALS is the first “power user” of a brain implant that lets him speak Casey Harrell has had a set of electrodes embedded in his brain for",
+      "title": "Qualcomm’s latest chip hints that more powerful smart glasses could be on the way",
+      "url": "https://www.theverge.com/gadgets/950229/qualcomm-snapdragon-reality-elite-xr-smart-glasses-wearables",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5035,
+      "publishedAt": "2026-06-17T07:35:20.000Z",
+      "summary": "Smart glasses are still a nascent category, but chipmaker Qualcomm is hard at work upgrading the silicon to power the next wave of XR devices: the Snapdragon Reality Elite. Although Qualcomm is announcing the chip today at Augmented World Expo, we've technically already gotten a hands-on with a devi",
       "tags": [
-        "AI"
+        "RAG"
       ],
       "engagementScore": 0
     }
