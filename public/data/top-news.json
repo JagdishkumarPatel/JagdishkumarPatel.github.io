@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T04:22:10.070Z",
+  "updatedAt": "2026-06-18T10:26:39.346Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,7 +12,7 @@
       "url": "https://openai.com/index/ai-chemist-improves-reaction/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.9597,
+      "score": 0.9195,
       "publishedAt": "2026-06-17T17:34:20.000Z",
       "summary": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
       "tags": [
@@ -20,14 +20,14 @@
         "Agents",
         "Research"
       ],
-      "engagementScore": 51
+      "engagementScore": 55
     },
     {
       "title": "Beyond Parallel Sampling: Diverse Query Initialization for Agentic Search",
       "url": "https://arxiv.org/abs/2606.17209",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.9097,
+      "score": 0.8684,
       "publishedAt": "2026-06-18T04:00:00.000Z",
       "summary": "arXiv:2606.17209v1 Announce Type: new \nAbstract: Test-time scaling for agentic search typically increases depth (i.e., more turns and tokens per trajectory) or breadth (i.e., more parallel rollouts). Here we focus on breadth scaling, showing that standard parallel sampling yields diminishing returns",
       "tags": [
@@ -41,7 +41,7 @@
       "url": "https://arxiv.org/abs/2606.17220",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.9097,
+      "score": 0.8684,
       "publishedAt": "2026-06-18T04:00:00.000Z",
       "summary": "arXiv:2606.17220v1 Announce Type: new \nAbstract: Legal case retrieval remains challenging due to the complexity of legal language and the need for precise lexical alignment between queries and relevant cases. Although dense retrieval models have achieved notable progress, empirical studies show that",
       "tags": [
@@ -57,7 +57,7 @@
       "url": "https://arxiv.org/abs/2606.17266",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.9097,
+      "score": 0.8684,
       "publishedAt": "2026-06-18T04:00:00.000Z",
       "summary": "arXiv:2606.17266v1 Announce Type: new \nAbstract: Production planning increasingly has to treat workforce capability as a decision variable: certifications lapse when skills are not maintained, new products require skills the current workforce does not hold, and reskilling competes for the same worke",
       "tags": [
@@ -70,7 +70,7 @@
       "url": "https://arxiv.org/abs/2606.17269",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.9097,
+      "score": 0.8684,
       "publishedAt": "2026-06-18T04:00:00.000Z",
       "summary": "arXiv:2606.17269v1 Announce Type: new \nAbstract: In skill-constrained production-inventory systems, the qualified human capacity available tomorrow depends on training decisions made today: production requires certified workers, certifications decay unless maintained, and training consumes the same",
       "tags": [
@@ -84,7 +84,7 @@
       "url": "https://arxiv.org/abs/2606.17289",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.9097,
+      "score": 0.8684,
       "publishedAt": "2026-06-18T04:00:00.000Z",
       "summary": "arXiv:2606.17289v1 Announce Type: new \nAbstract: AI systems based on artificial neural networks are being developed with aspirations of pushing the boundary of human mathematical knowledge. A key question for these systems is how much they can reach beyond their training data. Mathematical discovery",
       "tags": [
@@ -99,7 +99,7 @@
       "url": "https://arxiv.org/abs/2606.17312",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.9097,
+      "score": 0.8684,
       "publishedAt": "2026-06-18T04:00:00.000Z",
       "summary": "arXiv:2606.17312v1 Announce Type: new \nAbstract: Large language models can arrive at the same answer through reasoning paths that are unstable, contradictory, or difficult to rank consistently -- a failure mode especially prevalent in multi-step deductive reasoning. Existing methods assess reliabili",
       "tags": [
@@ -114,7 +114,7 @@
       "url": "https://arxiv.org/abs/2606.17328",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.9097,
+      "score": 0.8684,
       "publishedAt": "2026-06-18T04:00:00.000Z",
       "summary": "arXiv:2606.17328v1 Announce Type: new \nAbstract: LLM agents increasingly maintain long-term memory of user facts across sessions. Yet such memory is usually evaluated by aggregating accuracy over question rows or episodes. Because this approach scores question rows independently, even when several q",
       "tags": [
@@ -129,7 +129,7 @@
       "url": "https://arxiv.org/abs/2606.17339",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.9097,
+      "score": 0.8684,
       "publishedAt": "2026-06-18T04:00:00.000Z",
       "summary": "arXiv:2606.17339v1 Announce Type: new \nAbstract: Speech offers a uniquely informative window into health by simultaneously engaging neurological, motor, respiratory, and vocal systems. Current clinical speech AI methods have largely progressed through isolated condition-specific studies, making resu",
       "tags": [
@@ -142,7 +142,7 @@
       "url": "https://openai.com/index/ai-chemist-improves-reaction",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9034,
+      "score": 0.8591,
       "publishedAt": "2026-06-17T10:00:00.000Z",
       "summary": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
       "tags": [
@@ -157,21 +157,24 @@
       "url": "https://www.anthropic.com/research/claude-code-expertise",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.8748,
+      "score": 0.8525,
       "publishedAt": "2026-06-17T19:42:39.000Z",
-      "summary": "",
+      "summary": "Anthropic is an AI safety and research company that’s working to build reliable, interpretable, and steerable AI systems.",
       "tags": [
+        "LLM",
         "Agents",
+        "Research",
+        "Safety",
         "Dev Tools"
       ],
-      "engagementScore": 8
+      "engagementScore": 12
     },
     {
       "title": "Introducing LifeSciBench",
       "url": "https://openai.com/index/introducing-life-sci-bench",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8305,
+      "score": 0.7862,
       "publishedAt": "2026-06-17T00:00:00.000Z",
       "summary": "Introducing LifeSciBench, an expert-authored, expert-reviewed benchmark for evaluating how AI systems handle real-world life science research tasks and decisions.",
       "tags": [
@@ -184,7 +187,7 @@
       "url": "https://arxiv.org/abs/2606.14806",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7617,
+      "score": 0.7203,
       "publishedAt": "2026-06-17T03:25:51.000Z",
       "summary": "Assuming the gravitational field is classical and that it couples to quantum fields via the semiclassical Einstein field equations, we show that the weak-field dynamics of a massive and non-relativistic qubit can in principle be used to solve an $\\mathsf{NP}$-complete problem in polynomial time. We",
       "tags": [
@@ -193,11 +196,24 @@
       "engagementScore": 73
     },
     {
+      "title": "The search for dark matter has been blown wide open",
+      "url": "https://www.technologyreview.com/2026/06/18/1138755/search-for-dark-matter-blown-wide-open/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6775,
+      "publishedAt": "2026-06-18T09:00:00.000Z",
+      "summary": "Underneath an Apennine massif, below the Jinping Mountains of Sichuan, and at the bottom of a South Dakota mine, there is a cosmic hunt afoot. Isolated deep beneath these rocky shields, massive detectors filled with liquid xenon aim to make the first direct detections of dark matter, the long-sought",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "MolmoMotion: Language-guided 3D motion forecasting",
       "url": "https://huggingface.co/blog/allenai/molmomotion",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.7134,
+      "score": 0.675,
       "publishedAt": "2026-06-17T15:26:44.000Z",
       "summary": "",
       "tags": [
@@ -210,7 +226,7 @@
       "url": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.7021,
+      "score": 0.6608,
       "publishedAt": "2026-06-16T21:29:50.000Z",
       "summary": "UK government partners with Google DeepMind to build a new AI-powered prototype aimed at faster housing decisions.",
       "tags": [
@@ -223,20 +239,20 @@
       "url": "https://huggingface.co/spaces/webml-community/gemma-4-webgpu-kernels",
       "feedSource": "Hacker News",
       "source": "huggingface.co",
-      "score": 0.6918,
+      "score": 0.6597,
       "publishedAt": "2026-06-17T21:30:25.000Z",
       "summary": "",
       "tags": [
         "AI"
       ],
-      "engagementScore": 14
+      "engagementScore": 16
     },
     {
       "title": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
       "url": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6809,
+      "score": 0.6425,
       "publishedAt": "2026-06-17T10:18:05.000Z",
       "summary": "",
       "tags": [
@@ -246,24 +262,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Claude Corps",
-      "url": "https://www.anthropic.com/news/claude-corps",
-      "feedSource": "Hacker News",
-      "source": "anthropic.com",
-      "score": 0.673,
-      "publishedAt": "2026-06-15T17:41:24.000Z",
-      "summary": "We’re launching Claude Corps, a national fellowship program for people early in their careers who are passionate about extending the benefits of AI to communities across America.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 161
-    },
-    {
       "title": "GLM-5.2: Built for Long-Horizon Tasks",
       "url": "https://huggingface.co/blog/zai-org/glm-52-blog",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6728,
+      "score": 0.6344,
       "publishedAt": "2026-06-17T09:01:25.000Z",
       "summary": "",
       "tags": [
@@ -272,11 +275,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Claude Corps",
+      "url": "https://www.anthropic.com/news/claude-corps",
+      "feedSource": "Hacker News",
+      "source": "anthropic.com",
+      "score": 0.629,
+      "publishedAt": "2026-06-15T17:41:24.000Z",
+      "summary": "We’re launching Claude Corps, a national fellowship program for people early in their careers who are passionate about extending the benefits of AI to communities across America.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 162
+    },
+    {
       "title": "Predicting model behavior before release by simulating deployment",
       "url": "https://openai.com/index/deployment-simulation",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6555,
+      "score": 0.6112,
       "publishedAt": "2026-06-16T00:00:00.000Z",
       "summary": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
       "tags": [
@@ -287,11 +303,37 @@
       "engagementScore": 0
     },
     {
+      "title": "Midjourney goes from generating cat images to full-body ultrasound scans",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/952011/midjourney-medical-ai-ultrasound-scan",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5828,
+      "publishedAt": "2026-06-18T10:05:21.000Z",
+      "summary": "Midjourney CEO David Holz just showed off the company's first hardware product and plans to build a San Francisco spa, which he admitted is a bit different from the \"cat pictures\" produced by its AI image generator. Dubbed The Midjourney Scanner, it's an ultrasound-based full-body scanner that uses",
+      "tags": [
+        "Vision"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Locked Out of the World Cup: A Year Marked by Barriers, Borders, and Broken Access",
+      "url": "https://www.wired.com/story/locked-out-world-cup-america-visas-fans/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5824,
+      "publishedAt": "2026-06-18T10:00:00.000Z",
+      "summary": "The 2026 World Cup promises a global celebration. Many Arab fans may find themselves locked out.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Agentic Resource Discovery: Let agents search",
       "url": "https://huggingface.co/blog/agentic-resource-discovery-launch",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6158,
+      "score": 0.5774,
       "publishedAt": "2026-06-17T00:00:00.000Z",
       "summary": "",
       "tags": [
@@ -300,11 +342,24 @@
       "engagementScore": 0
     },
     {
+      "title": "The Sperm-Maxxing Bros Are Actually Onto Something",
+      "url": "https://www.wired.com/story/sperm-maxxing-wellness-bros-mens-health/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.577,
+      "publishedAt": "2026-06-18T09:00:00.000Z",
+      "summary": "Wellness influencers have stumbled onto a huge issue when it comes male fertility, though not every solution they're pitching is good advice.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
       "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.6079,
+      "score": 0.5725,
       "publishedAt": "2026-06-17T15:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AMIE_Mx_Nature_Social_Visual_Va.max-600x600.format-webp.webp\"&gt;Research in “Nature” shows our conversational AI system matches primary care physicians in complex disease management.",
       "tags": [
@@ -316,24 +371,24 @@
       "engagementScore": 0
     },
     {
-      "title": "Only 16 Percent of Americans Think AI Will Have a Positive Impact on Society",
-      "url": "https://techcrunch.com/2026/06/17/only-16-percent-of-americans-think-ai-will-have-a-positive-impact-on-society-a-new-study-shows/",
-      "feedSource": "Hacker News",
-      "source": "techcrunch.com",
-      "score": 0.6046,
-      "publishedAt": "2026-06-17T17:07:32.000Z",
-      "summary": "",
+      "title": "The UK Will Scan Asylum-Seekers’ Faces for Age Checks—Despite Knowing the Tech Is Flawed",
+      "url": "https://www.wired.com/story/facial-age-estimate-uk-asylum-seekers/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.561,
+      "publishedAt": "2026-06-18T06:00:00.000Z",
+      "summary": "Internal Home Office tests of age-verification technology show the risks of life-altering errors. It’s moving forward anyway.",
       "tags": [
-        "AI"
+        "Safety"
       ],
-      "engagementScore": 373
+      "engagementScore": 0
     },
     {
       "title": "The Download: a reality check for geoengineering and the science of interoception",
       "url": "https://www.technologyreview.com/2026/06/17/1139200/the-download-solar-geoengineering-interoception/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5914,
+      "score": 0.556,
       "publishedAt": "2026-06-17T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Hacking the atmosphere: geoengineering gets a reality check Solar geoengineering, the controversial idea that we could deliberately intervene in the c",
       "tags": [
@@ -342,15 +397,67 @@
       "engagementScore": 0
     },
     {
-      "title": "Midjourney Medical goes from generating ‘cat images’ to full-body ultrasound scans",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/952011/midjourney-medical-ai-ultrasound-scan",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5785,
-      "publishedAt": "2026-06-18T03:12:31.000Z",
-      "summary": "Midjourney CEO David Holz just showed off the company's first hardware product and plans to build a San Francisco spa, which he admitted is a bit different from the \"cat pictures\" produced by its AI image generator. Dubbed The Midjourney Scanner, it's an ultrasound-based full-body scanner that uses",
+      "title": "50% Off DoorDash Promo Code | June 2026",
+      "url": "https://www.wired.com/story/doordash-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5556,
+      "publishedAt": "2026-06-18T05:00:00.000Z",
+      "summary": "Explore today’s top DoorDash promo codes for $25 off your first order, free delivery, and 50% off DashPass for students and select users.",
       "tags": [
-        "Vision"
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Home Depot Promo Codes: 50% Off in June 2026",
+      "url": "https://www.wired.com/story/home-depot-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5556,
+      "publishedAt": "2026-06-18T05:00:00.000Z",
+      "summary": "Save up to 50% today with the latest Home Depot promo codes for appliances, power tools, and more this June.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Ulta Promo Codes: Up to 50% Off in June 2026",
+      "url": "https://www.wired.com/story/ulta-coupon/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5556,
+      "publishedAt": "2026-06-18T05:00:00.000Z",
+      "summary": "Shop the latest beauty trends and save big using an Ulta promo code for beauty tech, makeup, and more.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Chewy Promo Codes: $20 Off June 2026",
+      "url": "https://www.wired.com/story/chewy-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5556,
+      "publishedAt": "2026-06-18T05:00:00.000Z",
+      "summary": "Explore Chewy coupon codes for $30 off, $20 off your first order $49, 50% off pet food, and more June 2026 discounts.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "NordVPN Coupons: 75% Off, Plus 3 Months Free in June 2026",
+      "url": "https://www.wired.com/story/nordvpn-coupon/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5556,
+      "publishedAt": "2026-06-18T05:00:00.000Z",
+      "summary": "Save up to 77% on 2-year plans and get 3 free months with our NordVPN discount codes.",
+      "tags": [
+        "Dev Tools"
       ],
       "engagementScore": 0
     },
@@ -359,7 +466,7 @@
       "url": "https://www.technologyreview.com/2026/06/17/1138600/entrepreneurs-nairobi-case-for-going-solar/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5729,
+      "score": 0.5375,
       "publishedAt": "2026-06-17T09:00:00.000Z",
       "summary": "Most of Kenya’s power grid runs on renewables. But with 25% of communities lacking centralized electricity, the nation is looking to off-grid solar to hit its goal of delivering universal electricity access by 2030 without driving up emissions. The ever-­improving economics of solar technology have",
       "tags": [
@@ -372,154 +479,9 @@
       "url": "https://www.technologyreview.com/2026/06/17/1138743/hacking-atmosphere-geoengineering-reality-check/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5729,
+      "score": 0.5375,
       "publishedAt": "2026-06-17T09:00:00.000Z",
       "summary": "Jim Franke pulls away the cover page of a presentation on the wraparound desk in his office, revealing an illustration of an odd-­looking aircraft with massive wings stretching out from a stubby fuselage. The uncrewed plane is soaring thousands of meters higher than commercial jets fly—so high you c",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Korean Telecom Giant at the Center of Anthropic’s Mythos Controversy",
-      "url": "https://www.wired.com/story/sk-telecom-anthropic-mythos-export-controls/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5553,
-      "publishedAt": "2026-06-17T22:52:00.000Z",
-      "summary": "Days before Anthropic took its most advanced AI models offline, the White House ordered the company to revoke SK Telecom’s access to Claude Mythos over claims of alleged ties to China.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Anthropic got hit by export rules nobody understands",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/951703/anthropic-shutdown-export-controls",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5321,
-      "publishedAt": "2026-06-17T18:31:01.000Z",
-      "summary": "Anthropic has spent much of this week fighting to get its newest AI models back online after the Trump administration abruptly ordered the company to cut access for all foreign nationals, including users inside the US and its own employees, forcing Anthropic to block access to Fable 5 and Mythos 5 f",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Operating a Humanoid With Your Body Is a Hot Job in China’s Hardware Capital",
-      "url": "https://www.wired.com/story/humanoid-robot-training-in-chinas-hardware-capital/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5316,
-      "publishedAt": "2026-06-17T18:25:35.000Z",
-      "summary": "In Shenzhen, workers at IO-AI Tech control humanoid robots using a VR rig reminiscent of Ready Player One.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "No, I Don’t Want to Watch Your Straight Hockey Show",
-      "url": "https://www.wired.com/story/story/no-i-dont-want-to-watch-your-straight-hockey-show-heated-rivalry/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5314,
-      "publishedAt": "2026-06-17T18:23:30.000Z",
-      "summary": "From Amazon’s Off Campus to Netflix’s upcoming Icebreakers, the recent spate of hetero hockey romances shows Hollywood learned the wrong lessons from Heated Rivalry.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Can anyone look cool wearing Snap’s $2,000 glasses?",
-      "url": "https://www.theverge.com/report/951481/snap-specs-wearables-smart-glasses-fashion",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5259,
-      "publishedAt": "2026-06-17T17:21:25.000Z",
-      "summary": "Yesterday, Snap debuted its new $2,195 Specs glasses. In an interview with CNBC, Snap CEO Evan Spiegel described the Specs as something the company had been working on for more than 12 years, an attempt to \"bring computing into the world\" and \"make it more human.\" He positioned them as a device to h",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Two-thirds of Americans think AI is advancing too quickly",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/951653/pew-research-ai-chatbot-usage-advancing-too-quickly",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5258,
-      "publishedAt": "2026-06-17T17:20:24.000Z",
-      "summary": "According to the latest Pew Research poll, 49 percent of Americans report using chatbots at least occasionally, but 63 percent think the tech is advancing too quickly. Overall, use of AI chatbots has increased dramatically since 2024, when only 33 percent reported using them. Specifically, ChatGPT's",
-      "tags": [
-        "LLM",
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Vibe-decoding the White House-Anthropic fight over Fable",
-      "url": "https://www.theverge.com/column/951516/trump-anthropic-feud-mythos-fable-white-house",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5248,
-      "publishedAt": "2026-06-17T17:09:29.000Z",
-      "summary": "Hello and welcome to Regulator, an email for Verge subscribers about technology, politics, and what happens when science crashes headlong into self-interest. Not a subscriber? Sign up here today! Got the scoop on a petty feud that's going to somehow fundamentally reshape the entire field of frontier",
-      "tags": [
-        "LLM",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The White House Wants Anthropic to Block All Jailbreaks. That May Not Be Possible",
-      "url": "https://www.wired.com/story/the-white-house-wants-anthropic-to-block-all-jailbreaks-that-may-not-be-possible/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.524,
-      "publishedAt": "2026-06-17T17:00:00.000Z",
-      "summary": "Trump administration officials tell WIRED that if Anthropic wants to rerelease Fable 5, it will need to ensure the model's guardrails can't be circumvented. Security experts say that can't be done.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Sixty percent of US consumers say 'AI' in brand messaging is a turnoff",
-      "url": "https://wpvip.com/future-of-the-web-2026/",
-      "feedSource": "Hacker News",
-      "source": "wpvip.com",
-      "score": 0.5221,
-      "publishedAt": "2026-06-17T12:11:27.000Z",
-      "summary": "Original research from 2,000 decision-makers and consumers on AI brand visibility, content trust, and what brands need to do as the web feels less human. 74% say the internet feels less human than it did 10 years ago.",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 1020
-    },
-    {
-      "title": "AI search grounded in Facebook posts? What could go wrong?",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/951099/meta-ai-mode-search-hands-on",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5208,
-      "publishedAt": "2026-06-17T16:25:09.000Z",
-      "summary": "AI is pretty reliable at putting things on your calendar these days, but it hasn't quite cracked answering the related and all-important question of \"What should I do this weekend?\" Meta's new AI Mode in search could be a useful tool - if it ever learns to stop getting stuff wrong. AI Mode is a [&#8",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Google’s first smart speaker in six years arrives next week",
-      "url": "https://www.theverge.com/tech/951147/google-home-speaker-gemini-launch-date-price-specs-features",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5138,
-      "publishedAt": "2026-06-17T15:06:26.000Z",
-      "summary": "Google's first new smart speaker in six years starts shipping on June 25th, narrowly missing its promised spring launch window. Preorders for the Google Home Speaker open today, June 17th. Nothing has changed hardware-wise in the nine months since the $99 speaker was announced. It has the same sligh",
       "tags": [
         "AI"
       ],
@@ -583,43 +545,134 @@
       "engagementScore": 0
     },
     {
-      "title": "How an astrophysicist uses Codex to help simulate black holes",
-      "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
+      "title": "BBVA puts AI at the core of banking with OpenAI",
+      "url": "https://openai.com/index/bbva",
       "feedSource": "OpenAI",
       "source": "openai.com",
       "score": 0.5124,
       "publishedAt": "2026-06-11T00:00:00.000Z",
-      "summary": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
+      "summary": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
       "tags": [
-        "Research",
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Local Qwen isn't a worse Opus, it's a different tool",
+      "url": "https://blog.alexellis.io/local-ai-is-not-opus/",
+      "feedSource": "Hacker News",
+      "source": "blog.alexellis.io",
+      "score": 0.5103,
+      "publishedAt": "2026-06-18T03:04:20.000Z",
+      "summary": "We’ve all heard people say that Qwen is near-Opus level, but I have receipts and am here to be transparent with you.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 226
+    },
+    {
+      "title": "Anthropic got hit by export rules nobody understands",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/951703/anthropic-shutdown-export-controls",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.4996,
+      "publishedAt": "2026-06-17T18:31:01.000Z",
+      "summary": "Anthropic has spent much of this week fighting to get its newest AI models back online after the Trump administration abruptly ordered the company to cut access for all foreign nationals, including users inside the US and its own employees, forcing Anthropic to block access to Fable 5 and Mythos 5 f",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Australian Government to Require SMS/MMS Sender ID Registraion",
+      "url": "https://www.acma.gov.au/sms-sender-id-register",
+      "feedSource": "Hacker News",
+      "source": "acma.gov.au",
+      "score": 0.4959,
+      "publishedAt": "2026-06-18T06:23:24.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 97
+    },
+    {
+      "title": "Can anyone look cool wearing Snap’s $2,000 glasses?",
+      "url": "https://www.theverge.com/report/951481/snap-specs-wearables-smart-glasses-fashion",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.4934,
+      "publishedAt": "2026-06-17T17:21:25.000Z",
+      "summary": "Yesterday, Snap debuted its new $2,195 Specs glasses. In an interview with CNBC, Snap CEO Evan Spiegel described the Specs as something the company had been working on for more than 12 years, an attempt to \"bring computing into the world\" and \"make it more human.\" He positioned them as a device to h",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Sixty percent of US consumers say 'AI' in brand messaging is a turnoff",
+      "url": "https://wpvip.com/future-of-the-web-2026/",
+      "feedSource": "Hacker News",
+      "source": "wpvip.com",
+      "score": 0.4933,
+      "publishedAt": "2026-06-17T12:11:27.000Z",
+      "summary": "Original research from 2,000 decision-makers and consumers on AI brand visibility, content trust, and what brands need to do as the web feels less human. 74% say the internet feels less human than it did 10 years ago.",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 1042
+    },
+    {
+      "title": "Two-thirds of Americans think AI is advancing too quickly",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/951653/pew-research-ai-chatbot-usage-advancing-too-quickly",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.4933,
+      "publishedAt": "2026-06-17T17:20:24.000Z",
+      "summary": "According to the latest Pew Research poll, 49 percent of Americans report using chatbots at least occasionally, but 63 percent think the tech is advancing too quickly. Overall, use of AI chatbots has increased dramatically since 2024, when only 33 percent reported using them. Specifically, ChatGPT's",
+      "tags": [
+        "LLM",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Vibe-decoding the White House-Anthropic fight over Fable",
+      "url": "https://www.theverge.com/column/951516/trump-anthropic-feud-mythos-fable-white-house",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.4923,
+      "publishedAt": "2026-06-17T17:09:29.000Z",
+      "summary": "Hello and welcome to Regulator, an email for Verge subscribers about technology, politics, and what happens when science crashes headlong into self-interest. Not a subscriber? Sign up here today! Got the scoop on a petty feud that's going to somehow fundamentally reshape the entire field of frontier",
+      "tags": [
+        "LLM",
         "Dev Tools"
       ],
       "engagementScore": 0
     },
     {
-      "title": "A robot is sprinting towards you. Do you want it running on Claude or Grok?",
-      "url": "https://openrouter.ai/blog/insights/royale-last-agent-standing/",
-      "feedSource": "Hacker News",
-      "source": "openrouter.ai",
-      "score": 0.505,
-      "publishedAt": "2026-06-17T21:00:07.000Z",
-      "summary": "A 30-game battle royale across eleven LLMs, $482 of inference, and one finding that should change how you read model benchmarks.",
+      "title": "AI search grounded in Facebook posts? What could go wrong?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/951099/meta-ai-mode-search-hands-on",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.4884,
+      "publishedAt": "2026-06-17T16:25:09.000Z",
+      "summary": "AI is pretty reliable at putting things on your calendar these days, but it hasn't quite cracked answering the related and all-important question of \"What should I do this weekend?\" Meta's new AI Mode in search could be a useful tool - if it ever learns to stop getting stuff wrong. AI Mode is a [&#8",
       "tags": [
-        "LLM",
-        "ML Infra"
+        "Dev Tools"
       ],
-      "engagementScore": 195
+      "engagementScore": 0
     },
     {
-      "title": "The Gemini-Powered Google Home Speaker Is Finally Here",
-      "url": "https://www.wired.com/story/the-gemini-powered-google-home-speaker-is-finally-here/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5026,
-      "publishedAt": "2026-06-17T13:00:00.000Z",
-      "summary": "Arriving six years after Google’s last smart speaker, the new HomePod-style device was redesigned to play host to Gemini’s chatbot.",
+      "title": "Google’s first smart speaker in six years arrives next week",
+      "url": "https://www.theverge.com/tech/951147/google-home-speaker-gemini-launch-date-price-specs-features",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.4813,
+      "publishedAt": "2026-06-17T15:06:26.000Z",
+      "summary": "Google's first new smart speaker in six years starts shipping on June 25th, narrowly missing its promised spring launch window. Preorders for the Google Home Speaker open today, June 17th. Nothing has changed hardware-wise in the nine months since the $99 speaker was announced. It has the same sligh",
       "tags": [
-        "LLM"
+        "AI"
       ],
       "engagementScore": 0
     },
@@ -628,63 +681,11 @@
       "url": "https://www.technologyreview.com/2026/06/16/1138905/exclusive-ebook-how-ai-is-becoming-the-next-military-advisor/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5005,
+      "score": 0.4651,
       "publishedAt": "2026-06-16T20:35:02.000Z",
       "summary": "A collection of stories about how militaries are using AI models to make decisions. This subscriber-only eBook is a package of six stories that were originally published in MIT Technology Review between April 11, 2025, and April 21, 2026, and have been updated to reflect recent developments. Stories",
       "tags": [
         "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "I Found 22 Early Prime Day Deals That Are Worth Shopping Now",
-      "url": "https://www.wired.com/story/early-prime-day-deals-june-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4992,
-      "publishedAt": "2026-06-17T12:22:45.000Z",
-      "summary": "We’ve trawled the depths of Amazon to find the best deals on gear we’ve tested.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Best Robot Lawn Mowers (2026): TerraMow, Mammotion",
-      "url": "https://www.wired.com/gallery/best-robot-lawn-mowers/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4975,
-      "publishedAt": "2026-06-17T12:03:00.000Z",
-      "summary": "Smart mowers are an expensive alternative to old-fashioned yard work, but they’re finally good enough to consider if you’d rather sip an iced tea and watch a robot tame your lawn.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "CVS Is Switching to Aluminum Pill Bottles",
-      "url": "https://www.wired.com/story/cvs-is-switching-to-aluminum-pill-bottles/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4972,
-      "publishedAt": "2026-06-17T12:00:00.000Z",
-      "summary": "They’re much more recyclable than the current plastic ones, and they will still probably be locked away behind that anti-theft plexiglass.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The next humanoid robot might not look human at all",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/951283/genesis-ai-humanoid-robot-eno",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4854,
-      "publishedAt": "2026-06-17T09:46:56.000Z",
-      "summary": "The next humanoid robot might not have a head. It might not have legs. It might even sit on a wheeled base and fold down like a deck chair. But, as Genesis AI puts it, \"humanoid robots don't need to look human.\" That explains the look of Eno, the new robot from the French startup [&#8230;]",
-      "tags": [
-        "Industry"
       ],
       "engagementScore": 0
     }
