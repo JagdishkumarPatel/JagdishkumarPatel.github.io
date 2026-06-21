@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T16:47:49.522Z",
+  "updatedAt": "2026-06-21T19:49:18.293Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,7 +12,7 @@
       "url": "https://www.anthropic.com/research/project-fetch-phase-two",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.934,
+      "score": 0.9119,
       "publishedAt": "2026-06-21T00:00:25.000Z",
       "summary": "We report results from our latest test of whether Claude can help Anthropic employees perform sophisticated robotics tasks. We found that Claude Opus 4.7, operating without human assistance, was about 20 times faster than the fastest human team at all tasks completed by participants less than a year",
       "tags": [
@@ -25,7 +25,7 @@
       "url": "https://www.wired.com/review/review-wooting-60he-v2/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5538,
+      "score": 0.5377,
       "publishedAt": "2026-06-21T11:01:00.000Z",
       "summary": "Wooting’s 60HE v2 isn’t just a terrific Hall Effect keyboard. It’s a fantastic keyboard period.",
       "tags": [
@@ -38,7 +38,7 @@
       "url": "https://www.wired.com/story/best-nas-devices/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5511,
+      "score": 0.5349,
       "publishedAt": "2026-06-21T10:30:00.000Z",
       "summary": "Network-attached storage (NAS) provides accessible shared space on your home network. After testing, these are my favorite NAS devices.",
       "tags": [
@@ -51,7 +51,7 @@
       "url": "https://www.wired.com/story/28-tips-to-take-your-chatgpt-prompts-to-the-next-level/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5511,
+      "score": 0.5349,
       "publishedAt": "2026-06-21T10:30:00.000Z",
       "summary": "Sure, anyone can use OpenAI’s chatbot. But with smart engineering, you can get way more interesting results.",
       "tags": [
@@ -64,7 +64,7 @@
       "url": "https://www.wired.com/story/stainless-steel-skillets-are-great/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5511,
+      "score": 0.5349,
       "publishedAt": "2026-06-21T10:30:00.000Z",
       "summary": "Stainless-steel pans may lack nonstick coatings, but they’re unfussy, they sear well, and they’re built for a lifetime of hard work.",
       "tags": [
@@ -77,7 +77,7 @@
       "url": "https://www.wired.com/story/buying-a-used-iphone-makes-more-sense-than-ever/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5484,
+      "score": 0.5322,
       "publishedAt": "2026-06-21T10:00:00.000Z",
       "summary": "With Apple raising prices soon, you can save a lot of money by buying a used handset or upgrading an older device—safe in the knowledge that it'll last longer than ever.",
       "tags": [
@@ -90,7 +90,7 @@
       "url": "https://www.wired.com/story/a-critical-deadline-is-approaching-for-windows-and-linux-security/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5431,
+      "score": 0.5269,
       "publishedAt": "2026-06-21T09:00:00.000Z",
       "summary": "The cryptographic keys that secure your computer's boot sequence will start to expire on June 24. Here's what that means for you.",
       "tags": [
@@ -99,11 +99,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Identity verification on Claude",
+      "url": "https://support.claude.com/en/articles/14328960-identity-verification-on-claude",
+      "feedSource": "Hacker News",
+      "source": "support.claude.com",
+      "score": 0.5186,
+      "publishedAt": "2026-06-21T12:44:13.000Z",
+      "summary": "Updated this week",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 273
+    },
+    {
       "title": "New usage analytics and updated spend controls for enterprises",
       "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.5139,
+      "score": 0.5124,
       "publishedAt": "2026-06-18T17:00:00.000Z",
       "summary": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.",
       "tags": [
@@ -211,135 +224,93 @@
       "engagementScore": 0
     },
     {
-      "title": "Anthropic to Require ID Verification for Certain Capabilities Starting July 8",
-      "url": "https://old.reddit.com/r/ClaudeAI/comments/1ubm53n/official_anthropic_to_require_identity/",
+      "title": "(How to Write a (Lisp) Interpreter (In Python)) (2010)",
+      "url": "https://norvig.com/lispy.html",
       "feedSource": "Hacker News",
-      "source": "old.reddit.com",
-      "score": 0.5062,
-      "publishedAt": "2026-06-21T12:44:13.000Z",
-      "summary": "Anthropic updated its Privacy Policy this week. Starting July 8, 2026, certain capabilities will require identity verification and it will be…",
+      "source": "norvig.com",
+      "score": 0.5,
+      "publishedAt": "2026-06-21T15:36:33.000Z",
+      "summary": "Why does this matter? As Steve Yegge said, “If you don’t know how compilers work, then you don’t know how computers work.” Yegge describes 8 problems that can be solved with compilers (or equally well with interpreters, or with Yegge’s typical heavy dosage of cynicism).",
       "tags": [
-        "LLM",
-        "Safety"
+        "AI"
       ],
-      "engagementScore": 129
+      "engagementScore": 111
     },
     {
-      "title": "Your brain was never designed for this much bad news",
+      "title": "Burnout is real for open source maintainers",
+      "url": "https://openjsf.org/blog/burnout-is-real-for-open-source-maintainers",
+      "feedSource": "Hacker News",
+      "source": "openjsf.org",
+      "score": 0.4955,
+      "publishedAt": "2026-06-21T16:56:18.000Z",
+      "summary": "Lodash creator John-David Dalton reflects on the project’s growth, the pressures of maintaining software used across the world, and the personal journey that led to stepping back and eventually rebuilding a sustainable path forward.",
+      "tags": [
+        "Open Source"
+      ],
+      "engagementScore": 82
+    },
+    {
+      "title": "Polymarket reportedly paid people to post fake videos of themselves placing bets",
+      "url": "https://www.theverge.com/tech/953285/polymarket-fake-viral-video-bets",
+      "feedSource": "Hacker News",
+      "source": "theverge.com",
+      "score": 0.4916,
+      "publishedAt": "2026-06-21T18:11:26.000Z",
+      "summary": "Polymaket paid people to post videos of them winning $900k, but in reality they would have lost $166k.",
+      "tags": [
+        "Vision"
+      ],
+      "engagementScore": 6
+    },
+    {
+      "title": "The early hiring funnel is now breaking on both ends",
+      "url": "https://hbr.org/2026/06/ai-has-broken-hiring-heres-how-to-fix-it",
+      "feedSource": "Hacker News",
+      "source": "hbr.org",
+      "score": 0.4874,
+      "publishedAt": "2026-06-21T16:14:54.000Z",
+      "summary": "Harvard Business Review Logo",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 72
+    },
+    {
+      "title": "The brain was not designed for this much bad news",
       "url": "https://www.sciencedaily.com/releases/2026/06/260614012006.htm",
       "feedSource": "Hacker News",
       "source": "sciencedaily.com",
-      "score": 0.4909,
+      "score": 0.481,
       "publishedAt": "2026-06-21T04:02:08.000Z",
       "summary": "Humans evolved to pay close attention to danger, but today that instinct is being overwhelmed by an endless supply of bad news from around the world. Researchers say the answer isn’t to stop following current events—it’s to build healthier habits around how, when, and where we get our news.",
       "tags": [
         "Research"
       ],
-      "engagementScore": 272
+      "engagementScore": 311
     },
     {
       "title": "The case against geometric algebra (2024)",
       "url": "https://alexkritchevsky.com/2024/02/28/geometric-algebra.html",
       "feedSource": "Hacker News",
       "source": "alexkritchevsky.com",
-      "score": 0.488,
+      "score": 0.4788,
       "publishedAt": "2026-06-21T11:06:55.000Z",
       "summary": "Every once in a while the internet gets talking about Geometric Algebra (henceforth GA) and how it’s a new theory of math that fixes everything that’s wrong with linear algebra and multivariable calculus. When I come across this stance I am compelled to respond with something like: “wait wait, it’s",
       "tags": [
         "Research"
       ],
-      "engagementScore": 97
-    },
-    {
-      "title": "(How to Write a (Lisp) Interpreter (In Python))",
-      "url": "https://norvig.com/lispy.html",
-      "feedSource": "Hacker News",
-      "source": "norvig.com",
-      "score": 0.4759,
-      "publishedAt": "2026-06-21T15:36:33.000Z",
-      "summary": "Why does this matter? As Steve Yegge said, “If you don’t know how compilers work, then you don’t know how computers work.” Yegge describes 8 problems that can be solved with compilers (or equally well with interpreters, or with Yegge’s typical heavy dosage of cynicism).",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 38
-    },
-    {
-      "title": "The 100k Whys of AI",
-      "url": "https://lcamtuf.substack.com/p/the-100000-whys-of-ai",
-      "feedSource": "Hacker News",
-      "source": "lcamtuf.substack.com",
-      "score": 0.4731,
-      "publishedAt": "2026-06-21T05:45:21.000Z",
-      "summary": "One of the most painful arguments I keep having with fellow techies is the question of whether you can distinguish between human-written and AI-generated text.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 132
-    },
-    {
-      "title": "Building reliable agentic AI systems",
-      "url": "https://martinfowler.com/articles/reliable-llm-bayer.html",
-      "feedSource": "Hacker News",
-      "source": "martinfowler.com",
-      "score": 0.4724,
-      "publishedAt": "2026-06-21T04:28:39.000Z",
-      "summary": "AI helping pharmaceutical researchers query decades of information buried in PDF reports",
-      "tags": [
-        "Agents",
-        "Research",
-        "Safety"
-      ],
-      "engagementScore": 154
-    },
-    {
-      "title": "Slow breathing modulates brain function and risk behavior",
-      "url": "https://www.cell.com/neuron/fulltext/S0896-6273(26)00339-9",
-      "feedSource": "Hacker News",
-      "source": "cell.com",
-      "score": 0.469,
-      "publishedAt": "2026-06-20T22:22:52.000Z",
-      "summary": "",
-      "tags": [
-        "Safety"
-      ],
-      "engagementScore": 318
+      "engagementScore": 113
     },
     {
       "title": "The Atlantic created a searchable database of the music used to train AI",
       "url": "https://www.theverge.com/ai-artificial-intelligence/953183/the-atlantic-searchable-database-music-ai-training-data",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.467,
+      "score": 0.4508,
       "publishedAt": "2026-06-20T18:46:48.000Z",
       "summary": "Atlantic reporter Alex Reisner recently uncovered four datasets of music being used to train AI models and made them fully searchable for the public. Two of the sets are absolutely enormous at 12 million and 9 million tracks. The other two are much smaller, but still represent a significant amount o",
       "tags": [
         "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Home Batteries: How They're Installed and How Much They Cost",
-      "url": "https://www.wired.com/story/how-to-buy-a-home-battery/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4254,
-      "publishedAt": "2026-06-20T11:00:00.000Z",
-      "summary": "After adding one to my home, here's why you might want a home battery, how they work, and what to look for, plus some installation tips.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "I Found 29 Early Prime Day Deals That Are Worth Shopping Now (2026)",
-      "url": "https://www.wired.com/story/early-prime-day-deals-june-2026-2/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4235,
-      "publishedAt": "2026-06-20T10:38:00.000Z",
-      "summary": "We’ve trawled the depths of Amazon to find the best deals on gear we’ve tested.",
-      "tags": [
-        "AI"
       ],
       "engagementScore": 0
     },
@@ -452,11 +423,37 @@
       "engagementScore": 0
     },
     {
+      "title": "Home Batteries: How They're Installed and How Much They Cost",
+      "url": "https://www.wired.com/story/how-to-buy-a-home-battery/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4092,
+      "publishedAt": "2026-06-20T11:00:00.000Z",
+      "summary": "After adding one to my home, here's why you might want a home battery, how they work, and what to look for, plus some installation tips.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "I Found 29 Early Prime Day Deals That Are Worth Shopping Now (2026)",
+      "url": "https://www.wired.com/story/early-prime-day-deals-june-2026-2/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4073,
+      "publishedAt": "2026-06-20T10:38:00.000Z",
+      "summary": "We’ve trawled the depths of Amazon to find the best deals on gear we’ve tested.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "The Download: AI bottleneck debates, and BCI trials take off",
       "url": "https://www.technologyreview.com/2026/06/19/1139327/the-download-llms-bottleneck-breakthrough-bci-trials-take-off/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.3789,
+      "score": 0.3613,
       "publishedAt": "2026-06-19T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. A startup claims it broke through a bottleneck that’s holding back LLMs AI startup Subquadratic came out of stealth last month with a huge claim: it h",
       "tags": [
@@ -470,7 +467,7 @@
       "url": "https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.3702,
+      "score": 0.3525,
       "publishedAt": "2026-06-19T10:40:24.000Z",
       "summary": "Miami-based AI startup Subquadratic came out of stealth mode last month with a huge claim. It announced that it had solved a mathematical bottleneck that had been holding back large language models for almost a decade. The details were thin, and many people were unconvinced. But Subquadratic has sta",
       "tags": [
@@ -484,7 +481,7 @@
       "url": "https://www.technologyreview.com/2026/06/19/1138778/inevitable-weakness-metrics-quantified-life-book-review/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.3604,
+      "score": 0.3428,
       "publishedAt": "2026-06-19T09:00:00.000Z",
       "summary": "There are plenty of useful things a metric can reveal. There are even more it can obscure or corrupt. It took me well over a decade of tracking my own life in ever greater detail to fully appreciate this duality, which probably reveals something about both me and the nature of measurement. Like a lo",
       "tags": [
@@ -497,7 +494,7 @@
       "url": "https://www.technologyreview.com/2026/06/19/1139270/brain-computer-interface-trials-are-taking-off/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.3604,
+      "score": 0.3428,
       "publishedAt": "2026-06-19T09:00:00.000Z",
       "summary": "This week, I covered the story of Casey Harrell—a man with ALS who is “the first power user” of a brain implant, according to the researchers who worked with him. Harrell is paralyzed and unable to speak coherently without the device. He has now spent almost three years using a brain-computer interf",
       "tags": [
@@ -510,7 +507,7 @@
       "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.3491,
+      "score": 0.3401,
       "publishedAt": "2026-06-18T18:13:13.000Z",
       "summary": "",
       "tags": [
@@ -618,7 +615,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/952906/sam-altman-film-artificial-openai-amazon-mgm-dropped",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.3184,
+      "score": 0.3022,
       "publishedAt": "2026-06-19T14:58:45.000Z",
       "summary": "Luca Guadagnino's film about OpenAI CEO Sam Altman, Artificial, has reportedly been dropped by Amazon MGM. The film, which stars Andrew Garfield and covers the rollercoaster five days in 2023 spanning Altman's termination and reinstatement as CEO, had been in the works for about a year. The cast als",
       "tags": [
