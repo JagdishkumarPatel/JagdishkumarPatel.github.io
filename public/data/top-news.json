@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-22T12:12:10.653Z",
+  "updatedAt": "2026-06-22T18:49:32.723Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,11 +8,52 @@
   ],
   "items": [
     {
+      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+      "url": "https://openai.com/index/patch-the-planet",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.973,
+      "publishedAt": "2026-06-22T10:00:00.000Z",
+      "summary": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
+      "tags": [
+        "LLM",
+        "Open Source"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Daybreak: Tools for securing every organization in the world",
+      "url": "https://openai.com/index/daybreak-securing-the-world",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.973,
+      "publishedAt": "2026-06-22T10:00:00.000Z",
+      "summary": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
+      "tags": [
+        "LLM",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Codex-maxxing for long-running work",
+      "url": "https://openai.com/index/codex-maxxing-long-running-work",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.9001,
+      "publishedAt": "2026-06-22T00:00:00.000Z",
+      "summary": "Learn how Jason Liu uses Codex to preserve context, manage complex projects, and help work continue beyond a single prompt.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Samsung Electronics brings ChatGPT and Codex to employees",
       "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9411,
+      "score": 0.8928,
       "publishedAt": "2026-06-21T23:00:00.000Z",
       "summary": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
       "tags": [
@@ -22,15 +63,28 @@
       "engagementScore": 0
     },
     {
+      "title": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
+      "url": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.7602,
+      "publishedAt": "2026-06-22T13:18:56.000Z",
+      "summary": "",
+      "tags": [
+        "Open Source"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Project Fetch: Phase Two",
       "url": "https://www.anthropic.com/research/project-fetch-phase-two",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.7933,
+      "score": 0.745,
       "publishedAt": "2026-06-21T00:00:25.000Z",
-      "summary": "",
+      "summary": "We report results from our latest test of whether Claude can help Anthropic employees perform sophisticated robotics tasks. We found that Claude Opus 4.7, operating without human assistance, was about 20 times faster than the fastest human team at all tasks completed by participants less than a year",
       "tags": [
-        "AI"
+        "LLM"
       ],
       "engagementScore": 72
     },
@@ -39,7 +93,7 @@
       "url": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
       "feedSource": "Hacker News",
       "source": "deepmind.google",
-      "score": 0.7284,
+      "score": 0.6833,
       "publishedAt": "2026-06-21T21:10:24.000Z",
       "summary": "Discover our AI Control Roadmap: a defense-in-depth system to securely manage advanced, potentially misaligned AI agents.",
       "tags": [
@@ -49,13 +103,105 @@
       "engagementScore": 10
     },
     {
+      "title": "Three things to watch amid Anthropic’s latest feud with the government",
+      "url": "https://www.technologyreview.com/2026/06/22/1139424/three-things-to-watch-amid-anthropics-latest-feud-with-the-government/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6811,
+      "publishedAt": "2026-06-22T18:00:00.000Z",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. For those of you enjoying your summer unaware of Anthropic’s latest feud with the US government, here’s a recap: In April the company said it had built an AI mode",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Download: record-breaking subsea tunnels and flexible data centers",
+      "url": "https://www.technologyreview.com/2026/06/22/1139385/the-download-rogfast-subsea-tunnel-flexible-data-centers/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6471,
+      "publishedAt": "2026-06-22T12:10:00.000Z",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Inside the world’s deepest and longest subsea road tunnel —Niall Firth I’m currently around 1,000 feet beneath the North Sea, in a dark, dank cave. It",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Inside the world’s deepest and longest subsea road tunnel",
       "url": "https://www.technologyreview.com/2026/06/22/1138821/inside-worlds-deepest-longest-subsea-road-tunnel/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6614,
+      "score": 0.6228,
       "publishedAt": "2026-06-22T08:00:00.000Z",
       "summary": "It’s cold, it’s very, very noisy, and—if I can be quite honest with you—I’m not feeling super relaxed. I’m currently around 300 meters, or 1,000 feet, beneath the North Sea, in a dark, dank cave. It smells weird. And I am increasingly aware of the pressure from millions of tons of seawater just abov",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "We Tried the Most Popular Mushroom Coffees. These Are the Best (2026)",
+      "url": "https://www.wired.com/gallery/best-mushroom-coffee/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5812,
+      "publishedAt": "2026-06-22T18:10:09.000Z",
+      "summary": "“Coffee” made with functional mushrooms like lion’s mane and chaga is all the rage. We tried the most popular brands to find which were the most palatable.",
+      "tags": [
+        "RAG"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Ninja Slushi Is Only $200: Early Amazon Prime Day Deal 2026",
+      "url": "https://www.wired.com/story/ninja-slushi-amazon-prime-day-deal-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5752,
+      "publishedAt": "2026-06-22T17:02:30.000Z",
+      "summary": "Two years after it turned Marg Monday into a daily, the Ninja Slushi is only $200. That’s the cheapest deal ever.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "I Found 37 Early Prime Day Deals That Are Worth Shopping Now (2026)",
+      "url": "https://www.wired.com/story/early-prime-day-deals-june-2026-3/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5751,
+      "publishedAt": "2026-06-22T17:01:33.000Z",
+      "summary": "We’ve trawled the depths of Amazon to find the best early Prime Day deals on gear we’ve tested.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "OpenAI Launches Full-Scale Effort to Patch Open-Source Bugs as It Takes on Anthropic’s Mythos",
+      "url": "https://www.wired.com/story/openai-launches-full-scale-effort-to-patch-open-source-bugs-as-it-takes-on-anthropics-mythos/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.575,
+      "publishedAt": "2026-06-22T17:00:00.000Z",
+      "summary": "Amid concerns about AI models’ cybersecurity capabilities, OpenAI revealed an improved version of GPT-5.5-Cyber and its “Patch the Planet” initiative to fix open-source software bugs.",
+      "tags": [
+        "LLM",
+        "Open Source"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "They’re Making Clip-On Frames for Smart Glasses Now",
+      "url": "https://www.wired.com/story/lorika-ontop-cases-for-smart-glasses-now/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5733,
+      "publishedAt": "2026-06-22T16:41:32.000Z",
+      "summary": "Smart glasses are hitting the mainstream, so companies are now getting into the accessories game.",
       "tags": [
         "AI"
       ],
@@ -66,7 +212,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/952837/barret-zoph-openai-thinking-machines-lab",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5746,
+      "score": 0.5391,
       "publishedAt": "2026-06-22T10:17:43.000Z",
       "summary": "Five months after returning to OpenAI, Barret Zoph - the company's head of enterprise AI sales - has departed, The Verge has learned. Zoph returned to OpenAI in mid-January after a stint as cofounder and CTO of Thinking Machines Lab, the competing AI company founded by former OpenAI CTO Mira Murati.",
       "tags": [
@@ -75,13 +221,13 @@
       "engagementScore": 0
     },
     {
-      "title": "These Are the 12 Ikea Products the Company's Design Chief Personally Owns",
+      "title": "These Are the 12 Ikea Products the Company’s Design Chief Personally Owns",
       "url": "https://www.wired.com/story/these-are-the-12-ikea-products-ikeas-design-chief-personally-owns/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.573,
+      "score": 0.5376,
       "publishedAt": "2026-06-22T10:00:00.000Z",
-      "summary": "We asked Johan Ejdemo to list which Ikea items populate his home. He also tells us about his all-time favorite. (No, it's not a Billy bookcase.)",
+      "summary": "We asked Johan Ejdemo to list which Ikea items populate his home. He also tells us about his all-time favorite. (No, it’s not a Billy bookcase.)",
       "tags": [
         "AI"
       ],
@@ -92,7 +238,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/953183/the-atlantic-searchable-database-music-ai-training-data",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.572,
+      "score": 0.5366,
       "publishedAt": "2026-06-22T09:49:05.000Z",
       "summary": "Atlantic reporter Alex Reisner recently uncovered four datasets of music being used to train AI models and made them fully searchable for the public. Two of the sets are absolutely enormous at 12 million and 9 million tracks. The other two are much smaller, but still represent a significant amount o",
       "tags": [
@@ -105,9 +251,9 @@
       "url": "https://www.wired.com/story/uk-loses-its-sixth-prime-minister-keir-starmer/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5718,
+      "score": 0.5364,
       "publishedAt": "2026-06-22T09:46:54.000Z",
-      "summary": "Keir Starmer's resignation on Monday morning paves the way for yet another leadership battle.",
+      "summary": "Keir Starmer’s resignation on Monday morning paves the way for yet another leadership battle.",
       "tags": [
         "AI"
       ],
@@ -118,7 +264,7 @@
       "url": "https://www.wired.com/story/data-center-buildout-electricians-selling-out/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5703,
+      "score": 0.5349,
       "publishedAt": "2026-06-22T09:30:00.000Z",
       "summary": "Big Tech is throwing big money into data center buildouts. As national opposition to the facilities grows, some workers are beginning to question whether it’s worth it.",
       "tags": [
@@ -127,82 +273,18 @@
       "engagementScore": 0
     },
     {
-      "title": "World Cup Scams Are Getting Harder to Spot",
-      "url": "https://www.wired.com/story/world-cup-scams-are-getting-harder-to-spot/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5703,
-      "publishedAt": "2026-06-22T09:30:00.000Z",
-      "summary": "From fake tickets to cloned websites, AI is magnifying World Cup scams. Can fans distinguish between what’s real and what’s not?",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Priceline Promo Codes &amp; Coupons: 10% Off June",
-      "url": "https://www.wired.com/story/priceline-promo-code/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5462,
-      "publishedAt": "2026-06-22T05:00:00.000Z",
-      "summary": "Unlock massive discounts on Priceline hotels, flights, and rental cars. Find verified Priceline coupon codes and deals for Express Deals, student discounts, and more.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "LG Promo Codes and Coupons for June 2026",
-      "url": "https://www.wired.com/story/lg-promo-code/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5462,
-      "publishedAt": "2026-06-22T05:00:00.000Z",
-      "summary": "Save 20% with an LG promo code today, plus up to $1,000 off appliances, 40% off bestselling TVs and monitors.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Whoop Promo Codes: 20% Off This June 2026",
-      "url": "https://www.wired.com/story/whoop-promo-code/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5462,
-      "publishedAt": "2026-06-22T05:00:00.000Z",
-      "summary": "Whether you're looking for a Whoop free trial, student discount, or military savings, our guide to Whoop promo codes will help you maximize your membership benefits. Stay on top of your fitness goals for less.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Dyson Promo Codes: 25% Off in June 2026",
-      "url": "https://www.wired.com/story/dyson-cordless-vacuum-promo-code/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5462,
-      "publishedAt": "2026-06-22T05:00:00.000Z",
-      "summary": "Get 25% off with a Dyson coupon code, plus save up to $600 with discounts on vacuums, $150 off Airwraps, and more.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Danish privacy activist Lars Andersen raided by police",
-      "url": "https://twitter.com/LarsAnders1620/status/2068208864747540516#m",
+      "title": "The text in Claude Code’s “Extended Thinking” output",
+      "url": "https://patrickmccanna.net/the-text-in-claude-codes-extended-thinking-output-is-not-authentic/",
       "feedSource": "Hacker News",
-      "source": "twitter.com",
-      "score": 0.5198,
-      "publishedAt": "2026-06-22T04:50:26.000Z",
-      "summary": "Police go directly for the circuit breaker panel to avoid being filmed This post will be in English, because there apparently is a lot of interest in what happened to me yesterday. I’m a libertarian danish privacy activist and former police officer and I have been doing",
+      "source": "patrickmccanna.net",
+      "score": 0.5219,
+      "publishedAt": "2026-06-22T14:22:46.000Z",
+      "summary": "Claude Code records each session to disk. Those logs include “thinking blocks” — the model’s own reasoning as it works.",
       "tags": [
-        "AI"
+        "LLM",
+        "Dev Tools"
       ],
-      "engagementScore": 293
+      "engagementScore": 210
     },
     {
       "title": "New usage analytics and updated spend controls for enterprises",
@@ -261,111 +343,71 @@
       "engagementScore": 0
     },
     {
-      "title": "Introducing LifeSciBench",
-      "url": "https://openai.com/index/introducing-life-sci-bench",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5124,
-      "publishedAt": "2026-06-17T00:00:00.000Z",
-      "summary": "Introducing LifeSciBench, an expert-authored, expert-reviewed benchmark for evaluating how AI systems handle real-world life science research tasks and decisions.",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Predicting model behavior before release by simulating deployment",
-      "url": "https://openai.com/index/deployment-simulation",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5124,
-      "publishedAt": "2026-06-16T00:00:00.000Z",
-      "summary": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
-      "tags": [
-        "LLM",
-        "Safety",
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Introducing the OpenAI Partner Network",
-      "url": "https://openai.com/index/introducing-openai-partner-network",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5124,
-      "publishedAt": "2026-06-14T17:00:00.000Z",
-      "summary": "OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.",
-      "tags": [
-        "LLM",
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Codex logging bug may write TBs to local SSDs",
       "url": "https://github.com/openai/codex/issues/28224",
       "feedSource": "Hacker News",
       "source": "github.com",
-      "score": 0.5095,
+      "score": 0.5094,
       "publishedAt": "2026-06-22T07:30:17.000Z",
       "summary": "Codex SQLite feedback logs can write ~640 TB/year and rapidly consume SSD endurance Issue Codex is continuously writing a large amount of data to the local SQLite feedback log database: ~/.codex/lo…",
       "tags": [
         "Dev Tools"
       ],
-      "engagementScore": 154
+      "engagementScore": 374
     },
     {
-      "title": "Apertus – Open Foundation Model for Sovereign AI",
-      "url": "https://apertvs.ai/",
+      "title": "Moebius: 0.2B image inpainting model with 10B-level performance",
+      "url": "https://hustvl.github.io/Moebius/",
       "feedSource": "Hacker News",
-      "source": "apertvs.ai",
-      "score": 0.4986,
-      "publishedAt": "2026-06-21T21:29:43.000Z",
-      "summary": "Fully Open Foundation Model for Sovereign AI",
+      "source": "hustvl.github.io",
+      "score": 0.5043,
+      "publishedAt": "2026-06-22T13:53:02.000Z",
+      "summary": "Moebius: 0.2B Lightweight Image Inpainting Framework with 10B-Level Performance",
+      "tags": [
+        "Vision",
+        "ML Infra"
+      ],
+      "engagementScore": 138
+    },
+    {
+      "title": "Danish privacy activist Lars Andersen raided by police",
+      "url": "https://twitter.com/LarsAnders1620/status/2068208864747540516#m",
+      "feedSource": "Hacker News",
+      "source": "twitter.com",
+      "score": 0.4982,
+      "publishedAt": "2026-06-22T04:50:26.000Z",
+      "summary": "Police go directly for the circuit breaker panel to avoid being filmed This post will be in English, because there apparently is a lot of interest in what happened to me yesterday. I’m a libertarian danish privacy activist and former police officer and I have been doing",
       "tags": [
         "AI"
       ],
-      "engagementScore": 437
+      "engagementScore": 393
     },
     {
-      "title": "Sakana Fugu",
-      "url": "https://sakana.ai/fugu/",
+      "title": "DHL Set to Transport Goods on New Wind-Powered Cargo Ships",
+      "url": "https://www.wsj.com/pro/sustainable-business/dhl-set-to-transport-goods-on-new-wind-powered-cargo-ships-eca5d5a0",
       "feedSource": "Hacker News",
-      "source": "sakana.ai",
-      "score": 0.4797,
-      "publishedAt": "2026-06-22T02:08:18.000Z",
-      "summary": "One model to command them all",
+      "source": "wsj.com",
+      "score": 0.4959,
+      "publishedAt": "2026-06-22T14:55:51.000Z",
+      "summary": "",
       "tags": [
         "AI"
       ],
-      "engagementScore": 139
+      "engagementScore": 95
     },
     {
-      "title": "There is minimal downside to switching to open models",
-      "url": "https://www.marble.onl/posts/cancel_claude.html",
+      "title": "Nvidia Halos",
+      "url": "https://www.nvidia.com/en-us/ai-trust-center/halos/autonomous-vehicles/",
       "feedSource": "Hacker News",
-      "source": "marble.onl",
-      "score": 0.4777,
-      "publishedAt": "2026-06-21T20:56:01.000Z",
-      "summary": "Andrew Marblemarble.onlandrew@willows.aiJune 21, 2026",
+      "source": "nvidia.com",
+      "score": 0.4821,
+      "publishedAt": "2026-06-22T13:57:49.000Z",
+      "summary": "Solutions for Autonomous Vehicle (AV) Safety.",
       "tags": [
-        "AI"
+        "Agents",
+        "Safety"
       ],
-      "engagementScore": 265
-    },
-    {
-      "title": "Identity verification on Claude",
-      "url": "https://support.claude.com/en/articles/14328960-identity-verification-on-claude",
-      "feedSource": "Hacker News",
-      "source": "support.claude.com",
-      "score": 0.4774,
-      "publishedAt": "2026-06-21T12:44:13.000Z",
-      "summary": "Updated this week",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 789
+      "engagementScore": 74
     },
     {
       "title": "Unlocking UK house-building with AI-accelerated planning",
@@ -476,20 +518,6 @@
       "engagementScore": 0
     },
     {
-      "title": "Read this before you vibe-code another app",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/950844/vibe-coding-security-risks-apps",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.3512,
-      "publishedAt": "2026-06-20T16:31:42.000Z",
-      "summary": "Bob Starr was delighted with his vibe-coded website. \"Boomberg\" showed how much US tax money is going to tech companies, and Starr launched it online immediately after making it. It wasn't until months after the site went live that he realized there was a problem: a hidden SQL injection risk. It cou",
-      "tags": [
-        "Safety",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "MosaicLeaks: Can your research agent keep a secret?",
       "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
       "feedSource": "Hugging Face",
@@ -585,15 +613,16 @@
       "engagementScore": 0
     },
     {
-      "title": "Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP",
-      "url": "https://huggingface.co/blog/torch-mlp-fusion",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.3401,
-      "publishedAt": "2026-06-11T00:00:00.000Z",
-      "summary": "",
+      "title": "Read this before you vibe-code another app",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/950844/vibe-coding-security-risks-apps",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.3158,
+      "publishedAt": "2026-06-20T16:31:42.000Z",
+      "summary": "Bob Starr was delighted with his vibe-coded website. \"Boomberg\" showed how much US tax money is going to tech companies, and Starr launched it online immediately after making it. It wasn't until months after the site went live that he realized there was a problem: a hidden SQL injection risk. It cou",
       "tags": [
-        "AI"
+        "Safety",
+        "Dev Tools"
       ],
       "engagementScore": 0
     },
@@ -651,37 +680,6 @@
       "publishedAt": "2026-06-05T14:45:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/May_AI_Recap_still.max-600x600.format-webp.webp\"&gt;Here are Google’s latest AI updates from May 2026",
       "tags": [
-        "RAG",
-        "Vision",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "5 ways Google Search can level up your thrift and vintage shopping",
-      "url": "https://blog.google/products-and-platforms/products/search/thrifting-tips/",
-      "feedSource": "Google AI",
-      "source": "blog.google",
-      "score": 0.2659,
-      "publishedAt": "2026-06-03T13:00:00.000Z",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Thrifting_Header.max-600x600.format-webp.webp\"&gt;Uncover second-hand scores with AI tools in Google Search and Shopping.",
-      "tags": [
-        "RAG",
-        "Vision",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "How we used Gemini to build Google I/O 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
-      "feedSource": "Google AI",
-      "source": "blog.google",
-      "score": 0.2659,
-      "publishedAt": "2026-06-01T16:00:00.000Z",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_IO.max-600x600.format-webp.webp\"&gt;Learn how Googlers used AI to produce Google I/O 2026.",
-      "tags": [
-        "LLM",
         "RAG",
         "Vision",
         "Dev Tools"
