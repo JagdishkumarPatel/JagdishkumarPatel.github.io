@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T03:56:07.575Z",
+  "updatedAt": "2026-06-23T09:50:08.520Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,11 +8,179 @@
   ],
   "items": [
     {
+      "title": "OpenAI DayBreak – GPT-5.5-Cyber",
+      "url": "https://openai.com/index/daybreak-securing-the-world/",
+      "feedSource": "Hacker News",
+      "source": "openai.com",
+      "score": 1.0133,
+      "publishedAt": "2026-06-23T01:36:08.000Z",
+      "summary": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
+      "tags": [
+        "LLM",
+        "Dev Tools"
+      ],
+      "engagementScore": 97
+    },
+    {
+      "title": "How Omio is building the future of conversational travel",
+      "url": "https://openai.com/index/omio",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.9657,
+      "publishedAt": "2026-06-23T00:00:00.000Z",
+      "summary": "Discover how Omio uses OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "VibeThinker: 3B param model that beats Opus 4.5 on reasoning with novel SFT+GRPO",
+      "url": "https://arxiv.org/abs/2606.16140",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.9262,
+      "publishedAt": "2026-06-23T02:01:25.000Z",
+      "summary": "This technical report introduces VibeThinker-3B, a compact dense model with 3B parameters developed to investigate how far verifiable reasoning can be pushed within a strictly small-model regime. Building upon the Spectrum-to-Signal post-training paradigm, we systematically enhance the model through",
+      "tags": [
+        "ML Infra",
+        "Industry"
+      ],
+      "engagementScore": 188
+    },
+    {
+      "title": "On the Identifiability of User Adaptation in Co-Adaptive Neural Interfaces",
+      "url": "https://arxiv.org/abs/2606.20569",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8725,
+      "publishedAt": "2026-06-23T04:00:00.000Z",
+      "summary": "arXiv:2606.20569v1 Announce Type: new \nAbstract: We analyze identifiability in co-adaptive human-machine systems. We show that closed-loop encoder estimates do not uniquely identify user adaptation, but instead reflect properties of the joint system. We discuss implications for interpreting behavior",
+      "tags": [
+        "Research",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Beyond Fixed Budgets: Characterizing the Inelasticity and Limitations of Tree-of-Thought Reasoning Strategies",
+      "url": "https://arxiv.org/abs/2606.20599",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8725,
+      "publishedAt": "2026-06-23T04:00:00.000Z",
+      "summary": "arXiv:2606.20599v1 Announce Type: new \nAbstract: Tree of Thought (ToT) search has become a promising direction for improving the reasoning capabilities of large language models, but deploying these methods in practice raises a question that has received little systematic attention: how do different",
+      "tags": [
+        "LLM",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The New Associationism: Lessons from Deep Learning",
+      "url": "https://arxiv.org/abs/2606.20600",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8725,
+      "publishedAt": "2026-06-23T04:00:00.000Z",
+      "summary": "arXiv:2606.20600v1 Announce Type: new \nAbstract: What can the success of modern AI tell us about how humans learn? This paper argues that taking AI seriously as a model of human learning supports a modest but genuine associationism. The central finding is that supervised learning -- learning driven",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Specifying AI-SDLC Processes: A Protocol Language for Human-Agent Boundaries",
+      "url": "https://arxiv.org/abs/2606.20615",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8725,
+      "publishedAt": "2026-06-23T04:00:00.000Z",
+      "summary": "arXiv:2606.20615v1 Announce Type: new \nAbstract: AI agents now participate as first-class team members across the software development lifecycle, yet no specification language exists for expressing the human-agent responsibility boundaries, approval gates, and governance constraints this collaborati",
+      "tags": [
+        "Agents",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "PEAR: Permutation-Equivariant Adaptive Routing Multi-Agent Debate",
+      "url": "https://arxiv.org/abs/2606.20621",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8725,
+      "publishedAt": "2026-06-23T04:00:00.000Z",
+      "summary": "arXiv:2606.20621v1 Announce Type: new \nAbstract: Multi-agent debate improves the reliability of large language models (LLMs) through iterative peer critiques. However, fixed topologies often introduce persistent positional biases, amplify unreliable agents, and cause high sensitivity to role assignm",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Research",
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Darwin Mobile Agent: A Roadmap for Self-Evolution",
+      "url": "https://arxiv.org/abs/2606.20622",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8725,
+      "publishedAt": "2026-06-23T04:00:00.000Z",
+      "summary": "arXiv:2606.20622v1 Announce Type: new \nAbstract: The goal of artificial intelligence is to create agents capable of general, adaptive behaviour in open-ended environments. Guided by the \"Bitter Lesson\", we argue that the most effective path toward this goal is to systematically remove human priors a",
+      "tags": [
+        "Agents",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Path-dependent program induction under resource constraints explains human sequence learning",
+      "url": "https://arxiv.org/abs/2606.20623",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8725,
+      "publishedAt": "2026-06-23T04:00:00.000Z",
+      "summary": "arXiv:2606.20623v1 Announce Type: new \nAbstract: How do people build abstract, reusable knowledge from sequential experience under bounded cognitive resources? To answer this question, we integrate rate-distortion theory with recent advances in program induction to describe how prior knowledge shape",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "In LLM Reasoning, there is Irrationality on top of Value Misalignment",
+      "url": "https://arxiv.org/abs/2606.20624",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8725,
+      "publishedAt": "2026-06-23T04:00:00.000Z",
+      "summary": "arXiv:2606.20624v1 Announce Type: new \nAbstract: Significant progress has been made in aligning LLMs with target value functions. We argue that, even when an LLM has been well aligned in (post-)training, it may still fail to maximise the aligned value in reasoning. We mathematically formalise this g",
+      "tags": [
+        "LLM",
+        "Research",
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Daybreak: Tools for securing every organization in the world",
+      "url": "https://openai.com/index/daybreak-securing-the-world",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.8636,
+      "publishedAt": "2026-06-22T10:00:00.000Z",
+      "summary": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
+      "tags": [
+        "LLM",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
       "url": "https://openai.com/index/patch-the-planet",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9066,
+      "score": 0.8636,
       "publishedAt": "2026-06-22T10:00:00.000Z",
       "summary": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
       "tags": [
@@ -22,39 +190,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Daybreak: Tools for securing every organization in the world",
-      "url": "https://openai.com/index/daybreak-securing-the-world",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.9066,
-      "publishedAt": "2026-06-22T10:00:00.000Z",
-      "summary": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
-      "tags": [
-        "LLM",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Daybreak: Tools for securing every organization in the world",
-      "url": "https://openai.com/index/daybreak-securing-the-world/",
-      "feedSource": "Hacker News",
-      "source": "openai.com",
-      "score": 0.904,
-      "publishedAt": "2026-06-22T17:14:38.000Z",
-      "summary": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
-      "tags": [
-        "LLM",
-        "Dev Tools"
-      ],
-      "engagementScore": 18
-    },
-    {
       "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
       "url": "https://openai.com/index/patch-the-planet/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.902,
+      "score": 0.859,
       "publishedAt": "2026-06-22T18:50:36.000Z",
       "summary": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
       "tags": [
@@ -64,25 +204,24 @@
       "engagementScore": 14
     },
     {
-      "title": "VibeThinker: 3B param model that beats Opus 4.5 on reasoning with novel SFT+GRPO",
-      "url": "https://arxiv.org/abs/2606.16140",
+      "title": "Ultralytics YOLO26: Unified Real-Time End-to-End Vision Models",
+      "url": "https://arxiv.org/abs/2606.03748",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8811,
-      "publishedAt": "2026-06-23T02:01:25.000Z",
-      "summary": "This technical report introduces VibeThinker-3B, a compact dense model with 3B parameters developed to investigate how far verifiable reasoning can be pushed within a strictly small-model regime. Building upon the Spectrum-to-Signal post-training paradigm, we systematically enhance the model through",
+      "score": 0.852,
+      "publishedAt": "2026-06-23T02:28:00.000Z",
+      "summary": "Real-time vision demands models that are accurate, efficient, and simple to deploy across diverse hardware. The YOLO family has become widely deployed for this reason, yet most YOLO detectors still rely on non-maximum suppression at inference, carry heavy detection heads due to Distribution Focal Lo",
       "tags": [
-        "ML Infra",
-        "Industry"
+        "Vision"
       ],
-      "engagementScore": 35
+      "engagementScore": 41
     },
     {
       "title": "Codex-maxxing for long-running work",
       "url": "https://openai.com/index/codex-maxxing-long-running-work",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8337,
+      "score": 0.7907,
       "publishedAt": "2026-06-22T00:00:00.000Z",
       "summary": "Learn how Jason Liu uses Codex to preserve context, manage complex projects, and help work continue beyond a single prompt.",
       "tags": [
@@ -95,7 +234,7 @@
       "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8264,
+      "score": 0.7834,
       "publishedAt": "2026-06-21T23:00:00.000Z",
       "summary": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
       "tags": [
@@ -105,38 +244,65 @@
       "engagementScore": 0
     },
     {
-      "title": "Ultralytics YOLO26: Unified Real-Time End-to-End Vision Models",
-      "url": "https://arxiv.org/abs/2606.03748",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.8094,
-      "publishedAt": "2026-06-23T02:28:00.000Z",
-      "summary": "Real-time vision demands models that are accurate, efficient, and simple to deploy across diverse hardware. The YOLO family has become widely deployed for this reason, yet most YOLO detectors still rely on non-maximum suppression at inference, carry heavy detection heads due to Distribution Focal Lo",
-      "tags": [
-        "Vision"
-      ],
-      "engagementScore": 8
-    },
-    {
       "title": "Self-Harness: Harnesses That Improve Themselves",
       "url": "https://arxiv.org/abs/2606.09498",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7988,
+      "score": 0.7813,
       "publishedAt": "2026-06-22T19:45:05.000Z",
       "summary": "The performance of LLM-based agents is jointly shaped by their base models and the harnesses that mediate their interaction with the environment. Because different models exhibit distinct behaviors, effective harness design is inherently model-specific. Yet agent harnesses are still largely engineer",
       "tags": [
         "LLM",
         "Agents"
       ],
-      "engagementScore": 16
+      "engagementScore": 25
+    },
+    {
+      "title": "Shipping huggingface_hub every week with AI, open tools, and a human in the loop",
+      "url": "https://huggingface.co/blog/huggingface-hub-release-ci",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.7329,
+      "publishedAt": "2026-06-23T00:00:00.000Z",
+      "summary": "",
+      "tags": [
+        "Open Source",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Elephant alert! AI warning systems aim to avoid deadly clashes",
+      "url": "https://www.technologyreview.com/2026/06/23/1138562/elephant-alert-ai-warning-systems-avoid-deadly-clashes-india/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.681,
+      "publishedAt": "2026-06-23T09:00:00.000Z",
+      "summary": "India is home to about 60% of the world’s wild Asian elephants, and around 80% of the animals’ habitat lies outside protected areas, according to the Ministry of Environment, Forest, and Climate Change. That brings people and wildlife into close contact, and clashes can turn lethal: There have been",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The $400 million machine powering the future of chipmaking",
+      "url": "https://www.technologyreview.com/2026/06/23/1138837/asml-400-million-dollar-machine-powering-future-of-chipmaking/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.681,
+      "publishedAt": "2026-06-23T09:00:00.000Z",
+      "summary": "Jos Benschop is climbing a ladder to get to the top of his newest machine.&#160; It’s a bit of a schlep. The contraption is the size of a double-decker bus—more than 150 tons of gleaming precision-milled aluminum covered in thousands of snaking tubes, colored cables, and pressurized tanks. From the",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
       "url": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.7027,
+      "score": 0.6654,
       "publishedAt": "2026-06-22T13:18:56.000Z",
       "summary": "",
       "tags": [
@@ -149,7 +315,7 @@
       "url": "https://www.technologyreview.com/2026/06/22/1139424/three-things-to-watch-amid-anthropics-latest-feud-with-the-government/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.628,
+      "score": 0.5935,
       "publishedAt": "2026-06-22T18:00:00.000Z",
       "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. For those of you enjoying your summer unaware of Anthropic’s latest feud with the US government, here’s a recap: In April the company said it had built an AI mode",
       "tags": [
@@ -158,11 +324,128 @@
       "engagementScore": 0
     },
     {
+      "title": "Best Prime Day Fitness Tech Deals (2026)",
+      "url": "https://www.wired.com/story/amazon-prime-day-fitness-deals-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5832,
+      "publishedAt": "2026-06-23T09:32:14.000Z",
+      "summary": "I've compiled a list of the best fitness tech deals this Amazon Prime Day, including smartwatches, walking pads, and recovery gear. You can thank me later.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Prime Day Knocked Hundreds Off Our Top Pool-Cleaning Robots (2026)",
+      "url": "https://www.wired.com/story/best-prime-day-beatbot-deals-june-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.583,
+      "publishedAt": "2026-06-23T09:30:04.000Z",
+      "summary": "Summer is for relaxing, not cleaning. Upgrade your backyard setup with a robot that cleans your pool for you.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Best Amazon Prime Day Headphone Deals (2026)",
+      "url": "https://www.wired.com/story/best-prime-day-headphone-deals-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5825,
+      "publishedAt": "2026-06-23T09:24:53.000Z",
+      "summary": "From AirPods to on-ears, we’ve tested hundreds of pairs of headphones. Here are the best deals from Amazon’s biggest sale event.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Best Prime Day Smart Bird Feeder Deals (2026)",
+      "url": "https://www.wired.com/story/best-prime-day-smart-bird-feeder-deals-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5822,
+      "publishedAt": "2026-06-23T09:21:08.000Z",
+      "summary": "These camera-equipped feeders will introduce you to birds you never knew were visiting, and many WIRED favorites are on sale for Prime Day.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "We got local models to triage the OpenClaw repo for FREE!*",
+      "url": "https://huggingface.co/blog/local-models-pr-triage",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.5812,
+      "publishedAt": "2026-06-22T00:00:00.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Best Prime Day Vacuum Deals (2026): Shark, Dyson, Bissell",
+      "url": "https://www.wired.com/story/prime-day-vacuum-deals-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5807,
+      "publishedAt": "2026-06-23T09:04:38.000Z",
+      "summary": "Move over, spring cleaning. These vacuum deals will give your home the cleanest summer yet thanks to Amazon Prime Day.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "3 People Have Gotten Cancer-Detecting Implants in Their Brains",
+      "url": "https://www.wired.com/story/three-people-have-gotten-cancer-detecting-brain-implants/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5803,
+      "publishedAt": "2026-06-23T09:00:00.000Z",
+      "summary": "Coherence Neuro has started testing a brain-computer interface that could one day use electrical stimulation to prevent tumors from growing.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Prime Day Means Apple Deals on iPad, iPhone Cases, MagSafe Accessories, and More",
+      "url": "https://www.wired.com/story/best-prime-day-apple-deals-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5801,
+      "publishedAt": "2026-06-23T08:57:27.000Z",
+      "summary": "Apple deals abound for Amazon Prime Day. We've rounded up the best deals on Apple Watches, iPhones, MacBooks, iPads, and accessories.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Prime Day Mushroom Coffee Deals: Start Here (2026)",
+      "url": "https://www.wired.com/story/best-prime-day-mushroom-coffee-deals-june-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5791,
+      "publishedAt": "2026-06-23T08:47:05.000Z",
+      "summary": "Not all mushroom coffees taste like dirt. These are the on-sale blends WIRED tried and actually recommends.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "The Download: record-breaking subsea tunnels and flexible data centers",
       "url": "https://www.technologyreview.com/2026/06/22/1139385/the-download-rogfast-subsea-tunnel-flexible-data-centers/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5939,
+      "score": 0.5595,
       "publishedAt": "2026-06-22T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Inside the world’s deepest and longest subsea road tunnel —Niall Firth I’m currently around 1,000 feet beneath the North Sea, in a dark, dank cave. It",
       "tags": [
@@ -175,7 +458,7 @@
       "url": "https://www.technologyreview.com/2026/06/22/1138821/inside-worlds-deepest-longest-subsea-road-tunnel/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5696,
+      "score": 0.5352,
       "publishedAt": "2026-06-22T08:00:00.000Z",
       "summary": "It’s cold, it’s very, very noisy, and—if I can be quite honest with you—I’m not feeling super relaxed. I’m currently around 300 meters, or 1,000 feet, beneath the North Sea, in a dark, dank cave. It smells weird. And I am increasingly aware of the pressure from millions of tons of seawater just abov",
       "tags": [
@@ -188,157 +471,13 @@
       "url": "https://www.theverge.com/tech/954139/nvidia-data-centers-rubin-liquid-cooling",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5605,
+      "score": 0.529,
       "publishedAt": "2026-06-22T23:24:32.000Z",
       "summary": "Public pushback against data centers has emphasized their water and energy consumption, and now Nvidia is highlighting its claim that the Rubin generation reference design for a fully liquid-cooled data center has \"eliminated massive amounts of power usage and pretty much all water usage.\" Still, it",
       "tags": [
         "AI"
       ],
       "engagementScore": 0
-    },
-    {
-      "title": "A Source of Mysterious Repeating Radio Signals From Space Has Been Identified",
-      "url": "https://www.wired.com/story/a-source-of-mysterious-repeating-radio-signals-from-space-has-been-identified/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5544,
-      "publishedAt": "2026-06-22T22:15:10.000Z",
-      "summary": "Researchers say the discovery could be a “Rosetta stone” for cosmic signals.",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Meta Pauses Employee-Tracking Program Following Internal Data Leak",
-      "url": "https://www.wired.com/story/meta-pauses-employee-tracking-program-following-internal-security-breach/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5484,
-      "publishedAt": "2026-06-22T21:08:09.000Z",
-      "summary": "The move comes after the company left potentially sensitive data from the initiative exposed internally.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Meta Exposed Data Internally From Its Controversial Employee-Tracking Program",
-      "url": "https://www.wired.com/story/meta-accidentally-let-employees-access-each-others-keystroke-data/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5449,
-      "publishedAt": "2026-06-22T20:28:53.000Z",
-      "summary": "Employees had previously raised concerns about the initiative, which involves collecting workers’ keystroke data to train AI models.",
-      "tags": [
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "AI is cursing renters with the promise of impossible homes",
-      "url": "https://www.theverge.com/report/953888/ai-virtual-staging-real-estate-apartment-listings",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5416,
-      "publishedAt": "2026-06-22T19:52:26.000Z",
-      "summary": "Joyce, a native New Yorker, didn't think finding her first solo apartment in the city would be easy. But she also didn't think it'd be \"hell.\" After looking at a lot of tiny, overpriced places she described as \"shitholes,\" Joyce found her dream apartment: a reasonably priced studio in Manhattan. \"It",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "We Tried the Most Popular Mushroom Coffees. These Are the Best (2026)",
-      "url": "https://www.wired.com/gallery/best-mushroom-coffee/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5325,
-      "publishedAt": "2026-06-22T18:10:09.000Z",
-      "summary": "“Coffee” made with functional mushrooms like lion’s mane and chaga is all the rage. We tried the most popular brands to find which were the most palatable.",
-      "tags": [
-        "RAG"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Ninja Slushi Is Only $200: Early Amazon Prime Day Deal 2026",
-      "url": "https://www.wired.com/story/ninja-slushi-amazon-prime-day-deal-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5265,
-      "publishedAt": "2026-06-22T17:02:30.000Z",
-      "summary": "Two years after it turned Marg Monday into a daily, the Ninja Slushi is only $200. That’s the cheapest deal ever.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "I Found 37 Early Prime Day Deals That Are Worth Shopping Now (2026)",
-      "url": "https://www.wired.com/story/early-prime-day-deals-june-2026-3/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5264,
-      "publishedAt": "2026-06-22T17:01:33.000Z",
-      "summary": "We’ve trawled the depths of Amazon to find the best early Prime Day deals on gear we’ve tested.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "OpenAI Launches Full-Scale Effort to Patch Open-Source Bugs as It Takes on Anthropic’s Mythos",
-      "url": "https://www.wired.com/story/openai-launches-full-scale-effort-to-patch-open-source-bugs-as-it-takes-on-anthropics-mythos/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5263,
-      "publishedAt": "2026-06-22T17:00:00.000Z",
-      "summary": "Amid concerns about AI models’ cybersecurity capabilities, OpenAI revealed an improved version of GPT-5.5-Cyber and its “Patch the Planet” initiative to fix open-source software bugs.",
-      "tags": [
-        "LLM",
-        "Open Source"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "They’re Making Clip-On Frames for Smart Glasses Now",
-      "url": "https://www.wired.com/story/lorika-ontop-cases-for-smart-glasses-now/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5246,
-      "publishedAt": "2026-06-22T16:41:32.000Z",
-      "summary": "Smart glasses are hitting the mainstream, so companies are now getting into the accessories game.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Canada plans 'nuclear renaissance' with up to 10 reactors built by 2040",
-      "url": "https://www.cbc.ca/news/politics/federal-nuclear-strategy-9.7244509",
-      "feedSource": "Hacker News",
-      "source": "cbc.ca",
-      "score": 0.5207,
-      "publishedAt": "2026-06-22T19:06:48.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 365
-    },
-    {
-      "title": "Runing GLM-5.2 on local hardware",
-      "url": "https://unsloth.ai/docs/models/glm-5.2",
-      "feedSource": "Hacker News",
-      "source": "unsloth.ai",
-      "score": 0.5156,
-      "publishedAt": "2026-06-22T21:21:01.000Z",
-      "summary": "Run the new GLM-5.2 model by Z.ai on local hardware!",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 235
     },
     {
       "title": "New usage analytics and updated spend controls for enterprises",
@@ -382,40 +521,63 @@
       "engagementScore": 0
     },
     {
-      "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
-      "url": "https://openai.com/index/ai-chemist-improves-reaction",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5124,
-      "publishedAt": "2026-06-17T10:00:00.000Z",
-      "summary": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
+      "title": "AI is cursing renters with the promise of impossible homes",
+      "url": "https://www.theverge.com/report/953888/ai-virtual-staging-real-estate-apartment-listings",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5101,
+      "publishedAt": "2026-06-22T19:52:26.000Z",
+      "summary": "Joyce, a native New Yorker, didn't think finding her first solo apartment in the city would be easy. But she also didn't think it'd be \"hell.\" After looking at a lot of tiny, overpriced places she described as \"shitholes,\" Joyce found her dream apartment: a reasonably priced studio in Manhattan. \"It",
       "tags": [
-        "LLM",
-        "Agents",
-        "Research"
+        "AI"
       ],
       "engagementScore": 0
     },
     {
-      "title": "Nearly half of LG smart TV apps contain residential proxy SDKs",
-      "url": "https://spur.us/blog/smart-tv-apps-residential-proxy-sdks",
+      "title": "GLM-5.2 – How to Run Locally",
+      "url": "https://unsloth.ai/docs/models/glm-5.2",
       "feedSource": "Hacker News",
-      "source": "spur.us",
-      "score": 0.5089,
-      "publishedAt": "2026-06-22T20:48:30.000Z",
-      "summary": "Spur scanned 6,038 LG and Samsung smart TV apps and found 2,058 with residential proxy SDKs, exposing privacy and home network risks.",
+      "source": "unsloth.ai",
+      "score": 0.5054,
+      "publishedAt": "2026-06-22T21:21:01.000Z",
+      "summary": "Run the new GLM-5.2 model by Z.ai on local hardware!",
       "tags": [
-        "Safety",
-        "Dev Tools"
+        "AI"
       ],
-      "engagementScore": 210
+      "engagementScore": 392
+    },
+    {
+      "title": "Canada plans 'nuclear renaissance' with up to 10 reactors built by 2040",
+      "url": "https://www.cbc.ca/news/politics/federal-nuclear-strategy-9.7244509",
+      "feedSource": "Hacker News",
+      "source": "cbc.ca",
+      "score": 0.502,
+      "publishedAt": "2026-06-22T19:06:48.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 482
+    },
+    {
+      "title": "The new HTTP QUERY method explained",
+      "url": "https://kreya.app/blog/new-http-query-method-explained/",
+      "feedSource": "Hacker News",
+      "source": "kreya.app",
+      "score": 0.4978,
+      "publishedAt": "2026-06-23T06:05:37.000Z",
+      "summary": "In this blog post, we take a deep dive into the new HTTP QUERY method, explaining the history behind it as well as the advantages and disadvantages of using it.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 98
     },
     {
       "title": "Barret Zoph is out at OpenAI again after just five months",
       "url": "https://www.theverge.com/ai-artificial-intelligence/952837/barret-zoph-openai-thinking-machines-lab",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4904,
+      "score": 0.4589,
       "publishedAt": "2026-06-22T10:17:43.000Z",
       "summary": "Five months after returning to OpenAI, Barret Zoph - the company's head of enterprise AI sales - has departed, The Verge has learned. Zoph returned to OpenAI in mid-January after a stint as cofounder and CTO of Thinking Machines Lab, the competing AI company founded by former OpenAI CTO Mira Murati.",
       "tags": [
@@ -428,7 +590,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/953183/the-atlantic-searchable-database-music-ai-training-data",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4879,
+      "score": 0.4563,
       "publishedAt": "2026-06-22T09:49:05.000Z",
       "summary": "Atlantic reporter Alex Reisner recently uncovered four datasets of music being used to train AI models and made them fully searchable for the public. Two of the sets are absolutely enormous at 12 million and 9 million tracks. The other two are much smaller, but still represent a significant amount o",
       "tags": [
@@ -515,170 +677,6 @@
       "tags": [
         "Vision",
         "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Powering the future of robotics in Europe",
-      "url": "https://deepmind.google/blog/powering-the-future-of-robotics-in-europe/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-06-09T14:02:33.000Z",
-      "summary": "Google DeepMind Accelerator selects 15 robotics companies from across Europe to join the program. Providing 3 months of intensive mentorship and technical support, enabl…",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Measuring the impact of learning with AI in Sierra Leone and beyond",
-      "url": "https://deepmind.google/blog/measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-06-08T13:04:59.000Z",
-      "summary": "Results from a randomized controlled trial show the potential of Gemini’s Guided Learning feature to boost engagement and accelerate learning.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "MosaicLeaks: Can your research agent keep a secret?",
-      "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.3401,
-      "publishedAt": "2026-06-18T18:13:13.000Z",
-      "summary": "",
-      "tags": [
-        "Agents",
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Beyond LoRA: Can you beat the most popular fine-tuning technique?",
-      "url": "https://huggingface.co/blog/peft-beyond-lora",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.3401,
-      "publishedAt": "2026-06-18T00:00:00.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Is it agentic enough? Benchmarking open models on your own tooling",
-      "url": "https://huggingface.co/blog/is-it-agentic-enough",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.3401,
-      "publishedAt": "2026-06-18T00:00:00.000Z",
-      "summary": "",
-      "tags": [
-        "Agents",
-        "Dev Tools",
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "MolmoMotion: Language-guided 3D motion forecasting",
-      "url": "https://huggingface.co/blog/allenai/molmomotion",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.3401,
-      "publishedAt": "2026-06-17T15:26:44.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
-      "url": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.3401,
-      "publishedAt": "2026-06-17T10:18:05.000Z",
-      "summary": "",
-      "tags": [
-        "Agents",
-        "Open Source"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "GLM-5.2: Built for Long-Horizon Tasks",
-      "url": "https://huggingface.co/blog/zai-org/glm-52-blog",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.3401,
-      "publishedAt": "2026-06-17T09:01:25.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Agentic Resource Discovery: Let agents search",
-      "url": "https://huggingface.co/blog/agentic-resource-discovery-launch",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.3401,
-      "publishedAt": "2026-06-17T00:00:00.000Z",
-      "summary": "",
-      "tags": [
-        "Agents"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Read this before you vibe-code another app",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/950844/vibe-coding-security-risks-apps",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.2671,
-      "publishedAt": "2026-06-20T16:31:42.000Z",
-      "summary": "Bob Starr was delighted with his vibe-coded website. \"Boomberg\" showed how much US tax money is going to tech companies, and Starr launched it online immediately after making it. It wasn't until months after the site went live that he realized there was a problem: a hidden SQL injection risk. It cou",
-      "tags": [
-        "Safety",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
-      "feedSource": "Google AI",
-      "source": "blog.google",
-      "score": 0.2659,
-      "publishedAt": "2026-06-17T15:00:00.000Z",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AMIE_Mx_Nature_Social_Visual_Va.max-600x600.format-webp.webp\"&gt;Research in “Nature” shows our conversational AI system matches primary care physicians in complex disease management.",
-      "tags": [
-        "Research",
-        "RAG",
-        "Vision",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "We’re strengthening our presence in Alabama through new investments and community support.",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/",
-      "feedSource": "Google AI",
-      "source": "blog.google",
-      "score": 0.2659,
-      "publishedAt": "2026-06-15T15:00:00.000Z",
-      "summary": "Google has announced a $1.5 billion investment for 2026 and 2027 to expand its data center campus in Jackson County, Alabama. Operating since 2019 on a repurposed former…",
-      "tags": [
-        "Industry"
       ],
       "engagementScore": 0
     }
