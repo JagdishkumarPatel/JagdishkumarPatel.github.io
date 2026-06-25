@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T03:58:19.046Z",
+  "updatedAt": "2026-06-25T09:29:49.181Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,11 +8,154 @@
   ],
   "items": [
     {
+      "title": "How agents are transforming work",
+      "url": "https://openai.com/index/how-agents-are-transforming-work",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.9827,
+      "publishedAt": "2026-06-25T02:00:00.000Z",
+      "summary": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Hitchhiker's Guide to Agentic AI: From Foundations to Systems",
+      "url": "https://arxiv.org/abs/2606.24937",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8748,
+      "publishedAt": "2026-06-25T04:00:00.000Z",
+      "summary": "arXiv:2606.24937v1 Announce Type: new \nAbstract: The Hitchhiker's Guide to Agentic AI is a comprehensive practitioner's reference for building autonomous AI systems. The book covers the full stack from first principles to production deployment, organized around a central thesis: building great agent",
+      "tags": [
+        "Agents",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Project Auto-World: Towards Automated Benchmarking of Neural Relational Reasoners",
+      "url": "https://arxiv.org/abs/2606.24965",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8748,
+      "publishedAt": "2026-06-25T04:00:00.000Z",
+      "summary": "arXiv:2606.24965v1 Announce Type: new \nAbstract: Reasoning about relational structures remains a significant challenge for neural models, particularly when they must systematically apply learned knowledge to problem instances that are harder than those seen in training. Progress is hampered by the d",
+      "tags": [
+        "Research",
+        "ML Infra"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Diagnosing and Mitigating Compounding Failures in Agentic Persuasion via Taxonomic Strategy Retrieval",
+      "url": "https://arxiv.org/abs/2606.24976",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8748,
+      "publishedAt": "2026-06-25T04:00:00.000Z",
+      "summary": "arXiv:2606.24976v1 Announce Type: new \nAbstract: Foundation-model agents in multi-step, open-ended environments frequently suffer from compounding errors, where early mistakes contaminate long-horizon trajectories. While Multi-Agent Debate (MAD) succeeds in deterministic domains, agents in subjectiv",
+      "tags": [
+        "Agents",
+        "Research",
+        "RAG"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Do vision-language models search like humans? Reasoning tokens as a reaction-time analog in classic visual-search paradigms",
+      "url": "https://arxiv.org/abs/2606.25066",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8748,
+      "publishedAt": "2026-06-25T04:00:00.000Z",
+      "summary": "arXiv:2606.25066v1 Announce Type: new \nAbstract: Visual search has been one of the most productive paradigms in the study of visual attention: the way reaction time scales with the number of items distinguishes parallel, \"pop-out\" search from serial, attention-demanding search. I ask whether vision-",
+      "tags": [
+        "LLM",
+        "Research",
+        "Vision"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Beyond Shapley: Efficient Computation of Asymmetric Shapley Values",
+      "url": "https://arxiv.org/abs/2606.25103",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8748,
+      "publishedAt": "2026-06-25T04:00:00.000Z",
+      "summary": "arXiv:2606.25103v1 Announce Type: new \nAbstract: We address the problem of explainability in machine learning models through feature attribution methods. In particular, we consider a variant of Shapley values known as Asymmetric Shapley Values (ASV), which enables the incorporation of causal knowled",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Clinician's Veto: Navigating Trust, Liability, and Uncertainty in Autonomous AI Prescribing",
+      "url": "https://arxiv.org/abs/2606.25108",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8748,
+      "publishedAt": "2026-06-25T04:00:00.000Z",
+      "summary": "arXiv:2606.25108v1 Announce Type: new \nAbstract: Autonomous AI systems are transitioning from advisory to autonomous roles for medication prescriptions. Recent United States bill H.R. 238 and Utah's prescription-renewal pilot both authorize AI to prescribe medications in an agentic capacity. While s",
+      "tags": [
+        "Agents",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "TRUSTMEM: Learning Trustworthy Memory Consolidation for LLM Agents with Long-Term Memory",
+      "url": "https://arxiv.org/abs/2606.25161",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8748,
+      "publishedAt": "2026-06-25T04:00:00.000Z",
+      "summary": "arXiv:2606.25161v1 Announce Type: new \nAbstract: Large language model (LLM) agents rely on long-term memory to support extended interactions and personalized assistance beyond finite context windows. Existing memory agents actively update external memory through generated write, revise, and delete o",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Elo-Disentangled Player-Style Embeddings for Human Chess via Rating-Conditioned Residual Move Model",
+      "url": "https://arxiv.org/abs/2606.25176",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8748,
+      "publishedAt": "2026-06-25T04:00:00.000Z",
+      "summary": "arXiv:2606.25176v1 Announce Type: new \nAbstract: We study representation learning for individual human chess style: a per-player embedding learned from a player's move history such that inner products measure stylistic similarity, while being approximately disentangled from playing strength (Elo). O",
+      "tags": [
+        "Research",
+        "RAG"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Mixing Visual and Textual Code",
+      "url": "https://arxiv.org/abs/2603.15855",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.8546,
+      "publishedAt": "2026-06-25T01:11:10.000Z",
+      "summary": "The dominant programming languages support nothing but linear text to express domain-specific geometric ideas. What is needed are hybrid languages that allow developers to create visual syntactic constructs so that they can express their ideas with a mix of textual and visual syntax tailored to an a",
+      "tags": [
+        "Vision",
+        "Dev Tools"
+      ],
+      "engagementScore": 49
+    },
+    {
       "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
       "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8772,
+      "score": 0.8369,
       "publishedAt": "2026-06-24T06:00:00.000Z",
       "summary": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
       "tags": [
@@ -25,7 +168,7 @@
       "url": "https://www.anthropic.com/news/introducing-claude-tag",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.8734,
+      "score": 0.834,
       "publishedAt": "2026-06-23T17:09:18.000Z",
       "summary": "Anthropic is an AI safety and research company that’s working to build reliable, interpretable, and steerable AI systems.",
       "tags": [
@@ -33,28 +176,14 @@
         "Research",
         "Safety"
       ],
-      "engagementScore": 262
-    },
-    {
-      "title": "Mixing Visual and Textual Code",
-      "url": "https://arxiv.org/abs/2603.15855",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.8493,
-      "publishedAt": "2026-06-25T01:11:10.000Z",
-      "summary": "The dominant programming languages support nothing but linear text to express domain-specific geometric ideas. What is needed are hybrid languages that allow developers to create visual syntactic constructs so that they can express their ideas with a mix of textual and visual syntax tailored to an a",
-      "tags": [
-        "Vision",
-        "Dev Tools"
-      ],
-      "engagementScore": 21
+      "engagementScore": 266
     },
     {
       "title": "Introducing computer use in Gemini 3.5 Flash",
       "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.8342,
+      "score": 0.7965,
       "publishedAt": "2026-06-24T16:30:01.000Z",
       "summary": "A look at the built-in computer use tool in Gemini 3.5 Flash.",
       "tags": [
@@ -68,7 +197,7 @@
       "url": "https://arxiv.org/abs/2606.24597",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8072,
+      "score": 0.7696,
       "publishedAt": "2026-06-24T02:21:47.000Z",
       "summary": "A world model predicts environment dynamics based on current observations and actions, serving as a core cognitive mechanism for reasoning and planning. In this work, we investigate how world modeling based on language models can further push the boundaries of general agents. (i) We first focus on b",
       "tags": [
@@ -83,7 +212,7 @@
       "url": "https://openai.com/index/gpt-5-immunology-mystery",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7824,
+      "score": 0.7421,
       "publishedAt": "2026-06-23T17:00:00.000Z",
       "summary": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.",
       "tags": [
@@ -97,7 +226,7 @@
       "url": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7532,
+      "score": 0.7129,
       "publishedAt": "2026-06-23T13:00:00.000Z",
       "summary": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.",
       "tags": [
@@ -112,7 +241,7 @@
       "url": "https://openai.com/index/daybreak-securing-the-world/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.7505,
+      "score": 0.7102,
       "publishedAt": "2026-06-23T01:36:08.000Z",
       "summary": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
       "tags": [
@@ -122,132 +251,11 @@
       "engagementScore": 220
     },
     {
-      "title": "RIFT-Bench: Dynamic Red-teaming For Agentic AI Systems",
-      "url": "https://arxiv.org/abs/2606.23927",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7491,
-      "publishedAt": "2026-06-24T04:00:00.000Z",
-      "summary": "arXiv:2606.23927v1 Announce Type: new \nAbstract: Agentic AI systems powered by large language models (LLMs) are rapidly evolving into autonomous decision-making systems, exposing attack vectors beyond those of traditional LLM vulnerabilities. Existing security evaluations are often tied to specific",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Research",
-        "RAG",
-        "Dev Tools",
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Neuro-Symbolic Drive: Rule-Grounded Faithful Reasoning for Driving VLAs",
-      "url": "https://arxiv.org/abs/2606.23938",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7491,
-      "publishedAt": "2026-06-24T04:00:00.000Z",
-      "summary": "arXiv:2606.23938v1 Announce Type: new \nAbstract: Driving VLA models incorporating Chain-of-Thought (CoT) reasoning are attractive because they leverage pretrained VLM representations and expose intermediate decisions in natural language, yet current rationales often lack the step-by-step decision se",
-      "tags": [
-        "Research",
-        "RAG",
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Critique of Agent Model",
-      "url": "https://arxiv.org/abs/2606.23991",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7491,
-      "publishedAt": "2026-06-24T04:00:00.000Z",
-      "summary": "arXiv:2606.23991v1 Announce Type: new \nAbstract: What is an agent? What constitutes agency? With the rise of Large Language Model (LLM) systems marketed as ``coding agents'', ``AI co-scientists'', and other ``agentic\" tools that promise to drive up productivity, and at the same time, ``existential\"",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Research",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Safe and Generalizable Hierarchical Multi-Agent RL via Constraint Manifold Control",
-      "url": "https://arxiv.org/abs/2606.24010",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7491,
-      "publishedAt": "2026-06-24T04:00:00.000Z",
-      "summary": "arXiv:2606.24010v1 Announce Type: new \nAbstract: Multi-agent systems are widely used in safety-critical applications that require coordinated behavior under strict safety constraints. Existing approaches face a fundamental trade-off: learning-based methods achieve strong empirical performance but la",
-      "tags": [
-        "Agents",
-        "Research",
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Reinforcement Learning Towards Broadly and Persistently Beneficial Models",
-      "url": "https://arxiv.org/abs/2606.24014",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7491,
-      "publishedAt": "2026-06-24T04:00:00.000Z",
-      "summary": "arXiv:2606.24014v1 Announce Type: new \nAbstract: As AI systems are deployed across increasingly diverse and high-stakes settings, model alignment must generalize beyond the tasks and domains seen during training. This is especially important for reinforcement learning (RL), which can introduce unexp",
-      "tags": [
-        "Research",
-        "Safety",
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Can Language Model Agents be Helpful Circuit Explainers in Mechanistic Interpretability?",
-      "url": "https://arxiv.org/abs/2606.24026",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7491,
-      "publishedAt": "2026-06-24T04:00:00.000Z",
-      "summary": "arXiv:2606.24026v1 Announce Type: new \nAbstract: Mechanistic interpretability has made substantial progress in automatically localizing circuits, but explaining what localized components do remains labor-intensive and difficult to standardize. In this work, we study whether language model (LM) agent",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Breaking the Filter Bubble: A Semantic Pareto-DQN Framework for Multi-Objective Recommendation",
-      "url": "https://arxiv.org/abs/2606.24042",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7491,
-      "publishedAt": "2026-06-24T04:00:00.000Z",
-      "summary": "arXiv:2606.24042v1 Announce Type: new \nAbstract: Recommender systems often induce filter bubbles and semantic homogenization by monolithically optimizing for immediate user engagement. Standard single-objective models, including traditional Deep Q-Networks, are ill-equipped to navigate the trade-off",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Ensemble Feature Selection and Harris Hawks Optimization for Explainable Mental Health Risk Prediction in Female Sex Workers",
-      "url": "https://arxiv.org/abs/2606.24047",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7491,
-      "publishedAt": "2026-06-24T04:00:00.000Z",
-      "summary": "arXiv:2606.24047v1 Announce Type: new \nAbstract: One of the significant mental health issues affecting female sex workers (FSWs) is mental disorders, especially depression. Exposure to violence, stigma, and economic hardship further increases their psychological risk. Current machine learning (ML) m",
-      "tags": [
-        "Research",
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
       "url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.7194,
+      "score": 0.6845,
       "publishedAt": "2026-06-24T16:00:13.000Z",
       "summary": "",
       "tags": [
@@ -260,21 +268,21 @@
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/",
       "feedSource": "Hacker News",
       "source": "blog.google",
-      "score": 0.6815,
+      "score": 0.6555,
       "publishedAt": "2026-06-24T17:21:34.000Z",
       "summary": "A look at the built-in computer use tool in Gemini 3.5 Flash.",
       "tags": [
         "LLM",
         "Dev Tools"
       ],
-      "engagementScore": 188
+      "engagementScore": 217
     },
     {
       "title": "VibeThinker: 3B param model that beats Opus 4.5 on reasoning with novel SFT+GRPO",
       "url": "https://arxiv.org/abs/2606.16140",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.6769,
+      "score": 0.6393,
       "publishedAt": "2026-06-23T02:01:25.000Z",
       "summary": "This technical report introduces VibeThinker-3B, a compact dense model with 3B parameters developed to investigate how far verifiable reasoning can be pushed within a strictly small-model regime. Building upon the Spectrum-to-Signal post-training paradigm, we systematically enhance the model through",
       "tags": [
@@ -288,7 +296,7 @@
       "url": "https://openai.com/index/omio",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6584,
+      "score": 0.6181,
       "publishedAt": "2026-06-23T00:00:00.000Z",
       "summary": "Discover how Omio uses OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company.",
       "tags": [
@@ -301,22 +309,35 @@
       "url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
       "feedSource": "Hacker News",
       "source": "techcrunch.com",
-      "score": 0.6284,
+      "score": 0.6057,
       "publishedAt": "2026-06-24T17:47:00.000Z",
       "summary": "Named Jalapeño, the new processor was designed specifically for the unique needs of OpenAI’s inference systems.",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 588
+      "engagementScore": 698
     },
     {
       "title": "Introducing the FFASR Leaderboard: Benchmarking ASR in the Real World",
       "url": "https://huggingface.co/blog/ffasr-leaderboard",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6183,
+      "score": 0.5834,
       "publishedAt": "2026-06-24T00:00:00.000Z",
       "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Facebook’s Creator Studio has been revived as an AI companion app",
+      "url": "https://www.theverge.com/tech/956668/meta-facebook-creator-studio-ai-app-relaunch",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5826,
+      "publishedAt": "2026-06-25T09:06:19.000Z",
+      "summary": "Meta is bringing back the Facebook Creator Studio page manager, now \"reimagined\" as a standalone AI companion app. The new app aims to make it easier for creators to connect with their audiences, and show them \"exactly how to grow on Facebook,\" according to Meta's announcement. Meta's AI Creator Ass",
       "tags": [
         "AI"
       ],
@@ -327,9 +348,35 @@
       "url": "https://www.technologyreview.com/2026/06/24/1139676/europe-heat-power-plants/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6127,
+      "score": 0.5805,
       "publishedAt": "2026-06-24T15:25:28.000Z",
       "summary": "Europe is in the middle of a record-breaking heat wave, and the grid is being pushed to its limits as people turn to fans and air-conditioning to try to stay cool. Some power plants won’t be online to help handle the load. On June 23, France saw its hottest day since record-keeping began in 1947.&#8",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "17 Best Prime Day Apple Deals Offering Up to 30% Off: iPad, Apple Watch, MacBooks, and More (2026)",
+      "url": "https://www.wired.com/story/best-prime-day-apple-deals-06-25-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5802,
+      "publishedAt": "2026-06-25T08:39:16.000Z",
+      "summary": "Apple deals abound for Amazon Prime Day. We've rounded up the best deals on Apple Watches, iPhones, MacBooks, iPads, and accessories.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "99 Prime Day Deals on Gear We Stand By, Up To 50% Off (2026)",
+      "url": "https://www.wired.com/story/amazon-prime-day-absolute-best-deals-06-25-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5789,
+      "publishedAt": "2026-06-25T08:24:32.000Z",
+      "summary": "We've gone from A to Z to find Amazon's best Prime Day deals on the gear worth owning.",
       "tags": [
         "AI"
       ],
@@ -340,7 +387,7 @@
       "url": "https://www.technologyreview.com/2026/06/24/1139658/the-download-introducing-engineering-issue/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5937,
+      "score": 0.5615,
       "publishedAt": "2026-06-24T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Introducing: the Engineering issue We can’t fix everything, but we can be ambitious. We can take on the challenge of making the world better through h",
       "tags": [
@@ -349,11 +396,89 @@
       "engagementScore": 0
     },
     {
+      "title": "Dell Coupon Codes: 20% Off for June 2026",
+      "url": "https://www.wired.com/story/dell-coupon-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5607,
+      "publishedAt": "2026-06-25T05:00:00.000Z",
+      "summary": "Get 20% off with verified Dell promo code, plus today’s coupons for up to $600 off laptops, Alienware monitors, and all things tech.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "50% Off DoorDash Promo Code | June 2026",
+      "url": "https://www.wired.com/story/doordash-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5607,
+      "publishedAt": "2026-06-25T05:00:00.000Z",
+      "summary": "Explore today’s top DoorDash promo codes for $25 off your first order, free delivery, and 50% off DashPass for students and select users.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "NordVPN Coupons: 75% Off, Plus 3 Months Free in June 2026",
+      "url": "https://www.wired.com/story/nordvpn-coupon/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5607,
+      "publishedAt": "2026-06-25T05:00:00.000Z",
+      "summary": "Save up to 77% on 2-year plans and get 3 free months with our NordVPN discount codes.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Google Workspace Promo Codes: 14% Off for June",
+      "url": "https://www.wired.com/story/google-workspace-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5607,
+      "publishedAt": "2026-06-25T05:00:00.000Z",
+      "summary": "Boost your productivity and save with exclusive Google Workspace coupons from WIRED. Get up to 14% off plans for three months, including Starter, Standard, and Plus tiers.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "AT&amp;T Promo Codes: $50 Off This June 2026",
+      "url": "https://www.wired.com/story/att-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5607,
+      "publishedAt": "2026-06-25T05:00:00.000Z",
+      "summary": "Whether you’re looking to upgrade your internet or get the latest phone, we’ve got you covered with our selection of AT&amp;T coupons and deals.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "30% Off Samsung Promo Code | June 2026",
+      "url": "https://www.wired.com/story/samsung-promo-codes/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5607,
+      "publishedAt": "2026-06-25T05:00:00.000Z",
+      "summary": "Save 30% or 10% with Samsung coupon codes, up to $1,000 on appliances, plus limited-time deals on the Galaxy Z Fold7, Flip7, and S25.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Stripe, Anthropic, and OpenAI are backing an effort to stop respiratory infections",
       "url": "https://www.technologyreview.com/2026/06/24/1139621/stripe-anthropic-and-openai-are-backing-an-effort-to-stop-respiratory-infections/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5927,
+      "score": 0.5605,
       "publishedAt": "2026-06-24T12:00:00.000Z",
       "summary": "The common cold comes for us all—often more than once a year. And there is no way to prevent it. The best you can do is take vitamin C and stay away from people with the sniffles. Now the payment company Stripe, founded by brothers Patrick and John Collison, says it will fund a new&#8230;",
       "tags": [
@@ -366,7 +491,7 @@
       "url": "https://www.technologyreview.com/2026/06/24/1139202/the-emergence-of-the-web-data-infrastructure-layer-for-ai/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5927,
+      "score": 0.5605,
       "publishedAt": "2026-06-24T11:59:54.000Z",
       "summary": "AI is booming. New use cases are emerging each day. To capitalize on the technology’s potential, enterprises require data at scale. In many cases, though, the relevant information is blocked or unstructured, which limits its use by AI models.&#160; To understand this challenge, consider the foundati",
       "tags": [
@@ -379,7 +504,7 @@
       "url": "https://www.technologyreview.com/2026/06/24/1138771/solar-powered-platform-delivers-better-internet/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5752,
+      "score": 0.543,
       "publishedAt": "2026-06-24T09:00:00.000Z",
       "summary": "As soon as August, a giant silver bullet will cut its way through the dry air of the southwestern US and cross the Pacific to reach the coast of Japan.&#160; Once there, the roughly 200-foot-long craft, built by the New Mexico–based company Sceye, will park some 18 kilometers above the ocean’s surfa",
       "tags": [
@@ -392,104 +517,9 @@
       "url": "https://www.technologyreview.com/2026/06/24/1138853/editors-letter-july-2026/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5752,
+      "score": 0.543,
       "publishedAt": "2026-06-24T09:00:00.000Z",
       "summary": "When I was 18, I skipped my high school graduation and headed to Kuwait. It was 1991, the first Gulf War had just ended, and the country was in complete chaos. There was little to no electricity, aside from generator power. Rubble and unexploded ordnance were everywhere. Massive oil fires lit up the",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Skylight Calendar Is One of My Favorite Products On Sale for Prime Day",
-      "url": "https://www.wired.com/story/skylight-calendar-prime-day-deal-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5688,
-      "publishedAt": "2026-06-25T00:59:18.000Z",
-      "summary": "The Skylight Calendar 2 and Calendar Max are both on sale for Prime Day if you've been dreaming of a digital calendar to manage your household.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Daybreak: Tools for securing every organization in the world",
-      "url": "https://openai.com/index/daybreak-securing-the-world",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5563,
-      "publishedAt": "2026-06-22T10:00:00.000Z",
-      "summary": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
-      "tags": [
-        "LLM",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
-      "url": "https://openai.com/index/patch-the-planet",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5563,
-      "publishedAt": "2026-06-22T10:00:00.000Z",
-      "summary": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
-      "tags": [
-        "LLM",
-        "Open Source"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Best Prime Day Deals on LED Masks and Hair Growth Tools That Actually Work",
-      "url": "https://www.wired.com/story/best-led-devices-prime-day-deals-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5562,
-      "publishedAt": "2026-06-24T22:38:22.000Z",
-      "summary": "Whether you're looking to upgrade your skin care routine or invest in hair restoration, these are the best Prime Day deals on some of our favorite red light therapy devices.",
-      "tags": [
-        "Dev Tools",
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "97 Prime Day Deals on Gear We Stand By, Up To 50% Off (2026)",
-      "url": "https://www.wired.com/story/amazon-prime-day-absolute-best-deals-06-24-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5561,
-      "publishedAt": "2026-06-24T22:36:32.000Z",
-      "summary": "We've gone from A to Z to find Amazon's best Prime Day deals on the gear worth owning.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "How to Opt Out of Google Search’s New AI Data Training Feature",
-      "url": "https://www.wired.com/story/how-to-opt-out-of-google-search-new-ai-data-training/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.556,
-      "publishedAt": "2026-06-24T22:36:16.000Z",
-      "summary": "Google’s Search history update stores media uploads from your interactions, like images used in reverse image searches, for training its AI models.",
-      "tags": [
-        "Vision",
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Up to $400 Off: The Smart Fridge That Haunts My Algorithm",
-      "url": "https://www.wired.com/story/rocco-sale-june-amazon-prime-day-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5504,
-      "publishedAt": "2026-06-24T21:32:45.000Z",
-      "summary": "The Rocco isn’t on Amazon, but its rare sale knocks up to $400 off a fridge that can track your drinks and make any room look cooler. Save through July 5.",
       "tags": [
         "AI"
       ],
@@ -500,7 +530,7 @@
       "url": "https://www.theverge.com/gadgets/955537/google-home-smart-speaker-hands-on",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5489,
+      "score": 0.5193,
       "publishedAt": "2026-06-24T21:15:49.000Z",
       "summary": "Right out of the box, the new Google Home Speaker passed a couple of important tests. Even with the volume at 100 percent and music blaring out of the speaker, it quickly ducked the audio and listened every time I said \"Hey, Google.\" In fact, in two days of testing, the speaker's three microphones h",
       "tags": [
@@ -509,28 +539,30 @@
       "engagementScore": 0
     },
     {
-      "title": "The Best Roborock Deal This Prime Day (2026)",
-      "url": "https://www.wired.com/story/amazon-prime-day-roborock-deals-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5487,
-      "publishedAt": "2026-06-24T21:13:31.000Z",
-      "summary": "Shopping Roborock’s models can feel overwhelming. But there’s just one I recommend snagging during Prime Day.",
+      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+      "url": "https://openai.com/index/patch-the-planet",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.516,
+      "publishedAt": "2026-06-22T10:00:00.000Z",
+      "summary": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
       "tags": [
-        "AI"
+        "LLM",
+        "Open Source"
       ],
       "engagementScore": 0
     },
     {
-      "title": "Prime Day Live: Amazon’s Annual Sale Keeps on Truckin’ and So Are We",
-      "url": "https://www.wired.com/live/amazon-prime-day-live-tracker-july-24-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5481,
-      "publishedAt": "2026-06-24T21:06:40.000Z",
-      "summary": "Prime Day is still rolling, and so is our live blog. We'll bring you deals, trends, and commentary during the second day of Amazon's annual summer sale.",
+      "title": "Daybreak: Tools for securing every organization in the world",
+      "url": "https://openai.com/index/daybreak-securing-the-world",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.516,
+      "publishedAt": "2026-06-22T10:00:00.000Z",
+      "summary": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
       "tags": [
-        "AI"
+        "LLM",
+        "Dev Tools"
       ],
       "engagementScore": 0
     },
@@ -539,7 +571,7 @@
       "url": "https://huggingface.co/blog/ibm-research/cuga-apps",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.5479,
+      "score": 0.513,
       "publishedAt": "2026-06-23T12:51:55.000Z",
       "summary": "",
       "tags": [
@@ -552,79 +584,14 @@
       "url": "https://arxiv.org/abs/2606.09498",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.5474,
+      "score": 0.5125,
       "publishedAt": "2026-06-22T19:45:05.000Z",
       "summary": "The performance of LLM-based agents is jointly shaped by their base models and the harnesses that mediate their interaction with the environment. Because different models exhibit distinct behaviors, effective harness design is inherently model-specific. Yet agent harnesses are still largely engineer",
       "tags": [
         "LLM",
         "Agents"
       ],
-      "engagementScore": 71
-    },
-    {
-      "title": "Best Dyson Deals for Prime Day: Vacuums, Hair Tools, and More (2026)",
-      "url": "https://www.wired.com/story/prime-day-dyson-deals-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5463,
-      "publishedAt": "2026-06-24T20:46:41.000Z",
-      "summary": "It's one of the best times to snag yourself a Dyson device, whether it's a vacuum or a beauty tool.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Congresswoman denies staff used AI to write defense funding amendment",
-      "url": "https://www.theverge.com/policy/956394/florida-anna-paulina-luna-anthropic-claude",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.54,
-      "publishedAt": "2026-06-24T19:36:46.000Z",
-      "summary": "Rep. Anna Paulina Luna (R-FL) says her staff used AI for \"spellcheck\" in an amendment summary for a major defense bill, but denies it was used for the bill text itself and says \"NO Legislation is ever drafted with AI.\" Luna issued the response after accounts on X began sharing screenshots of an amen",
-      "tags": [
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Figma now has AI motion graphics and shader tools",
-      "url": "https://www.theverge.com/tech/955831/figma-code-design-tools-config-2026-announcements",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5299,
-      "publishedAt": "2026-06-24T17:42:58.000Z",
-      "summary": "Figma has revealed some new design and coding product updates at its annual Config conference that aim to help creatives \"push their ideas further\" and automate tedious tasks with AI. Part of this is a reimagined canvas that's now optimized for full-stack development, according to Figma, bringing te",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The $27 million Al proxy war over Alex Bores ends in a draw",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/956263/alex-bores-new-york-12th-district-congressional-primary-results",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5279,
-      "publishedAt": "2026-06-24T17:20:32.000Z",
-      "summary": "The expensive, $27 million political proxy war between Anthropic and OpenAI came to a draw last night when Alex Bores, a New York state Assemblyman whose popularity surged after being targeted by a pro-AI super PAC, narrowly lost the Democratic primary to represent New York's 12th Congressional dist",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "OpenAI reveals its first AI processor: Jalapeño",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/955939/openai-reveals-its-first-ai-processor-jalapeno",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5133,
-      "publishedAt": "2026-06-24T14:36:47.000Z",
-      "summary": "OpenAI has just revealed a new \"intelligence processor\" chip for AI servers made in partnership with Broadcom. The chip, called Jalape&#241;o, is designed to power current and future large language models, according to an announcement on Wednesday. Jalape&#241;o is an ASIC (Application-Specific Inte",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
+      "engagementScore": 75
     },
     {
       "title": "Codex-maxxing for long-running work",
@@ -640,16 +607,54 @@
       "engagementScore": 0
     },
     {
-      "title": "Samsung Electronics brings ChatGPT and Codex to employees",
-      "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5124,
-      "publishedAt": "2026-06-21T23:00:00.000Z",
-      "summary": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
+      "title": "Congresswoman denies staff used AI to write defense funding amendment",
+      "url": "https://www.theverge.com/policy/956394/florida-anna-paulina-luna-anthropic-claude",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5105,
+      "publishedAt": "2026-06-24T19:36:46.000Z",
+      "summary": "Rep. Anna Paulina Luna (R-FL) says her staff used AI for \"spellcheck\" in an amendment summary for a major defense bill, but denies it was used for the bill text itself and says \"NO Legislation is ever drafted with AI.\" Luna issued the response after accounts on X began sharing screenshots of an amen",
       "tags": [
-        "LLM",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Figma now has AI motion graphics and shader tools",
+      "url": "https://www.theverge.com/tech/955831/figma-code-design-tools-config-2026-announcements",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5004,
+      "publishedAt": "2026-06-24T17:42:58.000Z",
+      "summary": "Figma has revealed some new design and coding product updates at its annual Config conference that aim to help creatives \"push their ideas further\" and automate tedious tasks with AI. Part of this is a reimagined canvas that's now optimized for full-stack development, according to Figma, bringing te",
+      "tags": [
         "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The $27 million Al proxy war over Alex Bores ends in a draw",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/956263/alex-bores-new-york-12th-district-congressional-primary-results",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.4984,
+      "publishedAt": "2026-06-24T17:20:32.000Z",
+      "summary": "The expensive, $27 million political proxy war between Anthropic and OpenAI came to a draw last night when Alex Bores, a New York state Assemblyman whose popularity surged after being targeted by a pro-AI super PAC, narrowly lost the Democratic primary to represent New York's 12th Congressional dist",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "OpenAI reveals its first AI processor: Jalapeño",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/955939/openai-reveals-its-first-ai-processor-jalapeno",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.4838,
+      "publishedAt": "2026-06-24T14:36:47.000Z",
+      "summary": "OpenAI has just revealed a new \"intelligence processor\" chip for AI servers made in partnership with Broadcom. The chip, called Jalape&#241;o, is designed to power current and future large language models, according to an announcement on Wednesday. Jalape&#241;o is an ASIC (Application-Specific Inte",
+      "tags": [
+        "LLM"
       ],
       "engagementScore": 0
     },
@@ -658,7 +663,7 @@
       "url": "https://www.technologyreview.com/2026/06/23/1138214/heads-in-the-game/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5052,
+      "score": 0.473,
       "publishedAt": "2026-06-23T21:00:00.000Z",
       "summary": "The Argentina v. France final of the 2022 Men’s World Cup in Qatar was shaping up to be one of the most epic games in soccer history. With just 12 minutes remaining in the extra time added to the game to break a tie, the referee had a critical decision to make—and fast. Lionel Messi,&#8230;",
       "tags": [
@@ -671,22 +676,9 @@
       "url": "https://www.technologyreview.com/2026/06/23/1138262/super-mario-is-mathier-than-you-think/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5052,
+      "score": 0.473,
       "publishedAt": "2026-06-23T21:00:00.000Z",
       "summary": "Here’s a problem you probably didn’t solve in school: You’re an ambitious young plumber from Brooklyn in a world inhabited by violent human-size mushrooms called Goombas. The love of your life has been kidnapped, so you embark on a quest to rescue her, venturing through stretches of pipe-filled and",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Google Home will soon get better at recognizing you",
-      "url": "https://www.theverge.com/tech/955385/google-home-familiar-faces-clothing",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5009,
-      "publishedAt": "2026-06-24T12:17:45.000Z",
-      "summary": "A new update for Google Home could make it less likely your smart home cameras mistake you for someone else, just because you're facing away from the camera. Starting June 23rd, Google's expanding its facial recognition feature so that people you've tagged in your Familiar Faces library can continue",
       "tags": [
         "AI"
       ],
