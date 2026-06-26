@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T19:55:36.603Z",
+  "updatedAt": "2026-06-26T22:17:02.454Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,7 +12,7 @@
       "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 1.1401,
+      "score": 1.1426,
       "publishedAt": "2026-06-26T17:06:55.000Z",
       "summary": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
       "tags": [
@@ -20,14 +20,14 @@
         "Safety",
         "Dev Tools"
       ],
-      "engagementScore": 484
+      "engagementScore": 695
     },
     {
       "title": "Previewing GPT-5.6 Sol: a next-generation model",
       "url": "https://openai.com/index/previewing-gpt-5-6-sol",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.965,
+      "score": 0.9478,
       "publishedAt": "2026-06-26T10:00:00.000Z",
       "summary": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
       "tags": [
@@ -42,7 +42,7 @@
       "url": "https://arxiv.org/abs/2606.26155",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8038,
+      "score": 0.7878,
       "publishedAt": "2026-06-26T04:00:00.000Z",
       "summary": "arXiv:2606.26155v1 Announce Type: new \nAbstract: Interpreting and controlling model behaviors through activation steering methods requires many pairs of contrastive samples that clearly exhibit desired or undesired behavior. These data pairs determine the degree to which interpretability frameworks",
       "tags": [
@@ -55,7 +55,7 @@
       "url": "https://arxiv.org/abs/2606.26158",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8038,
+      "score": 0.7878,
       "publishedAt": "2026-06-26T04:00:00.000Z",
       "summary": "arXiv:2606.26158v1 Announce Type: new \nAbstract: When a benchmark's accuracy saturates, it is often retired and replaced with a more challenging version. We show that this approach privileges accuracy and misses the opportunity to study six other key dimensions of agent performance: construct validi",
       "tags": [
@@ -69,7 +69,7 @@
       "url": "https://arxiv.org/abs/2606.26161",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8038,
+      "score": 0.7878,
       "publishedAt": "2026-06-26T04:00:00.000Z",
       "summary": "arXiv:2606.26161v1 Announce Type: new \nAbstract: Linear directions in activation space have been identified for both refusal and persona traits in instruction-tuned chat models, but the two have been studied as separate mechanisms. We show they interact: a compliant persona gates refusal. In Qwen2.5",
       "tags": [
@@ -82,7 +82,7 @@
       "url": "https://arxiv.org/abs/2606.26173",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8038,
+      "score": 0.7878,
       "publishedAt": "2026-06-26T04:00:00.000Z",
       "summary": "arXiv:2606.26173v1 Announce Type: new \nAbstract: Recent work shows that Large Language Models (LLMs) can act as semantic mutation operators for the evolutionary discovery of programs and proofs. Most current applications focus on static coding benchmarks. We extend this paradigm to algorithmic tradi",
       "tags": [
@@ -98,7 +98,7 @@
       "url": "https://arxiv.org/abs/2606.26203",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8038,
+      "score": 0.7878,
       "publishedAt": "2026-06-26T04:00:00.000Z",
       "summary": "arXiv:2606.26203v1 Announce Type: new \nAbstract: As AI agent protocols proliferate, the governance structures shaping their interoperability standards remain empirically underexamined. We introduce an LLM-powered comparative pipeline for large-scale governance discourse analysis, integrating automat",
       "tags": [
@@ -114,7 +114,7 @@
       "url": "https://arxiv.org/abs/2606.26205",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8038,
+      "score": 0.7878,
       "publishedAt": "2026-06-26T04:00:00.000Z",
       "summary": "arXiv:2606.26205v1 Announce Type: new \nAbstract: Patients increasingly seek medication information online, yet safety knowledge for psychiatric drugs is split between regulatory adverse-event records, which are authoritative but abstract, and patient narratives, which are experience-near but unvalid",
       "tags": [
@@ -129,7 +129,7 @@
       "url": "https://arxiv.org/abs/2606.26267",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8038,
+      "score": 0.7878,
       "publishedAt": "2026-06-26T04:00:00.000Z",
       "summary": "arXiv:2606.26267v1 Announce Type: new \nAbstract: Rating systems such as Elo serve as the gold standard for matchmaking in competitive chess. However, they inherently suffer from response lag due to their exclusive reliance on match outcomes, neglecting the granular quality of gameplay. Nevertheless,",
       "tags": [
@@ -143,7 +143,7 @@
       "url": "https://arxiv.org/abs/2606.26298",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8038,
+      "score": 0.7878,
       "publishedAt": "2026-06-26T04:00:00.000Z",
       "summary": "arXiv:2606.26298v1 Announce Type: new \nAbstract: Autonomous AI agents may begin to perform consequential, irreversible actions such as clinical prescribing and production software deployment. This paper observes that human institutions have governed powerful autonomous actors not by monitoring their",
       "tags": [
@@ -153,11 +153,26 @@
       "engagementScore": 0
     },
     {
+      "title": "ActPlane: Programmable OS-Level Policy Enforcement for Agent Harnesses",
+      "url": "https://arxiv.org/abs/2606.25189",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.7536,
+      "publishedAt": "2026-06-26T17:46:39.000Z",
+      "summary": "AI agents increasingly run in production through harnesses, the software around the LLM, including an engine that enforces safety and effectiveness policies, e.g., ‘run tests before committing.’ Enforcing these policies requires bridging a semantic gap: policy intent is expressed in underspecified n",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Safety"
+      ],
+      "engagementScore": 4
+    },
+    {
       "title": "How agents are transforming work",
       "url": "https://openai.com/index/how-agents-are-transforming-work",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7317,
+      "score": 0.7145,
       "publishedAt": "2026-06-25T02:00:00.000Z",
       "summary": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
       "tags": [
@@ -172,7 +187,7 @@
       "url": "https://huggingface.co/blog/vllm-jobs",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6691,
+      "score": 0.6542,
       "publishedAt": "2026-06-26T00:00:00.000Z",
       "summary": "",
       "tags": [
@@ -185,21 +200,21 @@
       "url": "https://arxiv.org/abs/2603.15855",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.6458,
+      "score": 0.6304,
       "publishedAt": "2026-06-25T01:11:10.000Z",
       "summary": "The dominant programming languages support nothing but linear text to express domain-specific geometric ideas. What is needed are hybrid languages that allow developers to create visual syntactic constructs so that they can express their ideas with a mix of textual and visual syntax tailored to an a",
       "tags": [
         "Vision",
         "Dev Tools"
       ],
-      "engagementScore": 81
+      "engagementScore": 82
     },
     {
       "title": "The Download: brain-melting heatwaves and unprecedented OpenAI restrictions",
       "url": "https://www.technologyreview.com/2026/06/26/1139780/the-download-heatwaves-brain-health-openai-restrictions/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6406,
+      "score": 0.6269,
       "publishedAt": "2026-06-26T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Heat waves mess with your brain. Scientists are trying to figure out why. —Jessica Hamzelou It’s been hot in London this week. Really hot. A dangerous",
       "tags": [
@@ -212,7 +227,7 @@
       "url": "https://www.technologyreview.com/2026/06/26/1139760/heat-waves-mess-with-your-brain-scientists-are-trying-to-figure-out-why/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6222,
+      "score": 0.6084,
       "publishedAt": "2026-06-26T09:00:00.000Z",
       "summary": "It’s been hot in London this week. Really hot. A dangerous heat wave has hit Western Europe. Yesterday, the UK recorded its highest ever June temperature at 36.1 °C (about 97 °F). But as the weather app on my phone confirmed, it felt like 39 °C. It’s frightening that we are seeing such temperatures",
       "tags": [
@@ -225,9 +240,87 @@
       "url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6198,
+      "score": 0.6049,
       "publishedAt": "2026-06-25T16:11:42.000Z",
       "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Prime Day Deal 2026: Fellow Espresso Series 1 Is $200 Off",
+      "url": "https://www.wired.com/story/amazon-prime-day-deal-2026-fellow-series-1/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5837,
+      "publishedAt": "2026-06-26T22:04:47.000Z",
+      "summary": "This is the last day for deals on Fellow Series 1 espresso machine, Fellow Aiden, and Fellow Stagg kettle. Each is the best in their category.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Best Prime Day Vacuum Deals Offer Up to 42% Off (2026): Shark, Dyson, Bissell",
+      "url": "https://www.wired.com/story/prime-day-vacuum-deals-06-26-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5832,
+      "publishedAt": "2026-06-26T22:00:00.000Z",
+      "summary": "Move over, spring cleaning. These vacuum deals will give your home the cleanest summer yet thanks to Amazon Prime Day.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Best Prime Day Laptop Deals on My Personal Favorites",
+      "url": "https://www.wired.com/story/best-prime-day-laptop-deals-06-26-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5806,
+      "publishedAt": "2026-06-26T21:30:00.000Z",
+      "summary": "From MacBooks to gaming laptops, these are the very best deals on some of my very favorite laptops for Amazon Prime Day.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "How People in China Keep Outsmarting Anthropic’s Geolocation Restrictions",
+      "url": "https://www.wired.com/story/how-people-in-china-keep-outsmarting-anthropics-geolocation-restrictions/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5781,
+      "publishedAt": "2026-06-26T21:02:54.000Z",
+      "summary": "As Anthropic tightens restrictions on access to Claude in China, users keep finding new workarounds, from proxy services to fake identities sourced on Telegram.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Samsung’s Excellent OLED Monitors Are Up to 36 Percent Off for Prime Day",
+      "url": "https://www.wired.com/story/samsungs-odyssey-oled-monitors-prime-day-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5781,
+      "publishedAt": "2026-06-26T21:02:31.000Z",
+      "summary": "Samsung makes some of the very best OLED gaming monitors, and they’ve never been this affordable.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Best Ninja Prime Day Deals (2026) Slushi, Creami, Crispi, Cafe Luxe",
+      "url": "https://www.wired.com/story/ninja-creami-slushi-prime-day-deals-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5775,
+      "publishedAt": "2026-06-26T20:55:48.000Z",
+      "summary": "Ninja Creami Swirl, Crispi, Slushi, and Cafe Luxe Pro are all on Prime Day deals that will soon go away.",
       "tags": [
         "AI"
       ],
@@ -238,7 +331,7 @@
       "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.5858,
+      "score": 0.5686,
       "publishedAt": "2026-06-24T06:00:00.000Z",
       "summary": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
       "tags": [
@@ -251,7 +344,7 @@
       "url": "https://www.wired.com/story/best-prime-day-streaming-deals-06-26-2026/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5794,
+      "score": 0.5668,
       "publishedAt": "2026-06-26T18:55:18.000Z",
       "summary": "Prime Day isn’t just about cheap TVs. It’s also about cheap stuff to watch on your cheap TV.",
       "tags": [
@@ -264,7 +357,7 @@
       "url": "https://www.wired.com/story/how-to-see-1997-nc1-asteroid-pass-by-earth-this-weekend/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5785,
+      "score": 0.5659,
       "publishedAt": "2026-06-26T18:45:16.000Z",
       "summary": "The asteroid will be visible for several nights from different parts of the world. We’ll tell you when and where to look, and what equipment you’ll need to spot it.",
       "tags": [
@@ -273,37 +366,24 @@
       "engagementScore": 0
     },
     {
-      "title": "I'm Adding These Bose Headphones to My Prime Day Cart (2026)",
-      "url": "https://www.wired.com/story/bose-headphones-amazon-prime-day-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.576,
-      "publishedAt": "2026-06-26T18:16:58.000Z",
-      "summary": "Bose headphones are already one of our favorites for comfort, sound, and noise canceling. Now they’re cheaper.",
+      "title": "U.S. government will decide who gets to use GPT-5.6",
+      "url": "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/",
+      "feedSource": "Hacker News",
+      "source": "washingtonpost.com",
+      "score": 0.5628,
+      "publishedAt": "2026-06-26T18:23:14.000Z",
+      "summary": "The Trump administration came to power preaching a laissez-faire approach to AI but has lately increased oversight of the industry.",
       "tags": [
-        "AI"
+        "LLM"
       ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Prime Day MacBook Deals I Recommend (2026)",
-      "url": "https://www.wired.com/story/best-prime-day-macbook-deals-06-26-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5751,
-      "publishedAt": "2026-06-26T18:07:38.000Z",
-      "summary": "Apple has warned about MacBook prices rising, making these Prime Day deals even more worthwhile to consider.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
+      "engagementScore": 603
     },
     {
       "title": "Anthropic&#8217;s Mythos mess is only getting worse",
       "url": "https://www.theverge.com/ai-artificial-intelligence/957327/anthropic-mythos-fable-ai-trump-administration-negotiations",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.572,
+      "score": 0.5594,
       "publishedAt": "2026-06-26T17:32:09.000Z",
       "summary": "It's been two weeks since Anthropic took its Mythos-class models offline after a Friday evening ultimatum from the Trump administration. The company sprang into action immediately, sending a barrage of executives to Washington, DC. But updates have been suspiciously lacking, with no resolution in si",
       "tags": [
@@ -313,37 +393,11 @@
       "engagementScore": 0
     },
     {
-      "title": "I Just Saw That Eufy’s Floodlight Security Camera Is Cheaper Than Ever (2026)",
-      "url": "https://www.wired.com/story/amazon-prime-day-eufy-floodlight-security-camera-june-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5712,
-      "publishedAt": "2026-06-26T17:23:59.000Z",
-      "summary": "If you want to beef up your home security this Prime Day, Eufy’s Floodlight Camera is a great way to do it.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "OpenAI Has New AI Models. Here’s Why You Can’t Use Them",
-      "url": "https://www.wired.com/story/openai-gpt-56-model-release-trump-admin-approval/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5696,
-      "publishedAt": "2026-06-26T17:05:40.000Z",
-      "summary": "The White House asked OpenAI to delay the rollout of its GPT-5.6 AI models, two weeks after Anthropic had to take its most advanced AI models offline.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "OpenAI unveils GPT-5.6 amid US AI regulatory drama",
       "url": "https://www.theverge.com/ai-artificial-intelligence/957845/openai-gpt-5-6-trump-administration-ai-preview",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5692,
+      "score": 0.5566,
       "publishedAt": "2026-06-26T17:01:03.000Z",
       "summary": "Less than 24 hours after news broke that OpenAI would stagger its next model release at the request of the Trump administration, that model, GPT-5.6, is here. On Friday, the company unveiled the limited preview of its new GPT 5.6 model suite: Sol, the flagship; Terra, a medium-tier model for \"high-v",
       "tags": [
@@ -352,37 +406,11 @@
       "engagementScore": 0
     },
     {
-      "title": "The Pentagon Is Looking Into the Dialog Data Exposure for Unmasking National Security Officials",
-      "url": "https://www.wired.com/story/the-pentagon-is-looking-into-the-dialog-data-exposure-for-unmasking-national-security-officials/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5665,
-      "publishedAt": "2026-06-26T16:30:33.000Z",
-      "summary": "Exposed records from the private group included the personal information of a senior White House intelligence official and an active-duty special operations officer.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "27 Best Prime Day Beauty Deals of 2026 (We Sifted Through Hundreds to Pick Them)",
-      "url": "https://www.wired.com/story/best-prime-day-beauty-deals-06-26-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5653,
-      "publishedAt": "2026-06-26T16:17:20.000Z",
-      "summary": "It wouldn't be Amazon Prime Day without some beauty deals. Here's a roundup of all our favorites.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Introducing computer use in Gemini 3.5 Flash",
       "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.5622,
+      "score": 0.5462,
       "publishedAt": "2026-06-24T16:30:01.000Z",
       "summary": "A look at the built-in computer use tool in Gemini 3.5 Flash.",
       "tags": [
@@ -392,37 +420,50 @@
       "engagementScore": 0
     },
     {
-      "title": "U.S. government will decide who gets to use GPT-5.6",
-      "url": "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/",
-      "feedSource": "Hacker News",
-      "source": "washingtonpost.com",
-      "score": 0.541,
-      "publishedAt": "2026-06-26T18:23:14.000Z",
-      "summary": "The Trump administration came to power preaching a laissez-faire approach to AI but has lately increased oversight of the industry.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 241
-    },
-    {
       "title": "Incident CVE-2026-LGTM",
       "url": "https://nesbitt.io/2026/06/26/incident-report-cve-2026-lgtm.html",
       "feedSource": "Hacker News",
       "source": "nesbitt.io",
-      "score": 0.5373,
+      "score": 0.5291,
       "publishedAt": "2026-06-26T12:58:07.000Z",
       "summary": "A series of unfortunate agents.",
       "tags": [
         "Agents"
       ],
-      "engagementScore": 450
+      "engagementScore": 492
+    },
+    {
+      "title": "The White House is asking OpenAI to slow roll the release of its new model",
+      "url": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/",
+      "feedSource": "Hacker News",
+      "source": "techcrunch.com",
+      "score": 0.5257,
+      "publishedAt": "2026-06-26T12:02:00.000Z",
+      "summary": "OpenAI reportedly plans to share its newest model, GPT 5.6, with a select group of partners instead of with the broader public. The reason: the Trump administration told it to.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 45
+    },
+    {
+      "title": "Springer Nature has removed two studies by Max Planck",
+      "url": "https://www.science.org/content/article/why-have-papers-one-history-s-most-famous-physicists-been-retracted",
+      "feedSource": "Hacker News",
+      "source": "science.org",
+      "score": 0.5197,
+      "publishedAt": "2026-06-26T14:10:26.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 323
     },
     {
       "title": "Qwen-AgentWorld: Language World Models for General Agents",
       "url": "https://arxiv.org/abs/2606.24597",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.5358,
+      "score": 0.5197,
       "publishedAt": "2026-06-24T02:21:47.000Z",
       "summary": "A world model predicts environment dynamics based on current observations and actions, serving as a core cognitive mechanism for reasoning and planning. In this work, we investigate how world modeling based on language models can further push the boundaries of general agents. (i) We first focus on b",
       "tags": [
@@ -431,60 +472,6 @@
         "Industry"
       ],
       "engagementScore": 198
-    },
-    {
-      "title": "The White House is asking OpenAI to slow roll the release of its new model",
-      "url": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/",
-      "feedSource": "Hacker News",
-      "source": "techcrunch.com",
-      "score": 0.5346,
-      "publishedAt": "2026-06-26T12:02:00.000Z",
-      "summary": "OpenAI reportedly plans to share its newest model, GPT 5.6, with a select group of partners instead of with the broader public. The reason: the Trump administration told it to.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 41
-    },
-    {
-      "title": "Springer Nature has removed two studies by Max Planck",
-      "url": "https://www.science.org/content/article/why-have-papers-one-history-s-most-famous-physicists-been-retracted",
-      "feedSource": "Hacker News",
-      "source": "science.org",
-      "score": 0.5282,
-      "publishedAt": "2026-06-26T14:10:26.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 298
-    },
-    {
-      "title": "Our latest Google Finance upgrades, including a new app",
-      "url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/",
-      "feedSource": "Google AI",
-      "source": "blog.google",
-      "score": 0.523,
-      "publishedAt": "2026-06-25T16:00:00.000Z",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Finance_blog_image_June_.max-600x600.format-webp.webp\"&gt;The new Google Finance is coming out of beta and launching a new Android app.",
-      "tags": [
-        "RAG",
-        "Vision",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Repositioning retail for the AI era",
-      "url": "https://www.technologyreview.com/2026/06/25/1137848/repositioning-retail-for-the-ai-era/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.5136,
-      "publishedAt": "2026-06-25T14:22:59.000Z",
-      "summary": "Artificial intelligence is rapidly reshaping retail, but not in the ways consumers might immediately notice. The biggest transformation may not be flashy virtual try-ons or chatbot shopping assistants, but in how decisions are made behind the scenes: how products surface in search results, how inven",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
     },
     {
       "title": "Helping build shared standards for advanced AI",
@@ -557,11 +544,39 @@
       "engagementScore": 0
     },
     {
+      "title": "Our latest Google Finance upgrades, including a new app",
+      "url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/",
+      "feedSource": "Google AI",
+      "source": "blog.google",
+      "score": 0.5092,
+      "publishedAt": "2026-06-25T16:00:00.000Z",
+      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Finance_blog_image_June_.max-600x600.format-webp.webp\"&gt;The new Google Finance is coming out of beta and launching a new Android app.",
+      "tags": [
+        "RAG",
+        "Vision",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Repositioning retail for the AI era",
+      "url": "https://www.technologyreview.com/2026/06/25/1137848/repositioning-retail-for-the-ai-era/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.4998,
+      "publishedAt": "2026-06-25T14:22:59.000Z",
+      "summary": "Artificial intelligence is rapidly reshaping retail, but not in the ways consumers might immediately notice. The biggest transformation may not be flashy virtual try-ons or chatbot shopping assistants, but in how decisions are made behind the scenes: how products surface in search results, how inven",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "The Download: Europe&#8217;s heat wave hits the grid, and IBM&#8217;s chip targets Moore&#8217;s Law",
       "url": "https://www.technologyreview.com/2026/06/25/1139738/the-download-europe-heat-wave-ibm-chip-moores-law/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5006,
+      "score": 0.4869,
       "publishedAt": "2026-06-25T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Europe’s extreme heat is shutting down power plants Europe is in the middle of a record-breaking heat wave, and the grid is being pushed to its limits",
       "tags": [
@@ -570,24 +585,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Ultrasound imaging of the brain",
-      "url": "https://alephneuro.com/blog/ultrasound-brain",
-      "feedSource": "Hacker News",
-      "source": "alephneuro.com",
-      "score": 0.4971,
-      "publishedAt": "2026-06-26T11:51:11.000Z",
-      "summary": "The most detailed vascular image of a living human brain we’ve seen, captured with ultrasound through the skull — and the pipeline behind it.",
-      "tags": [
-        "Vision"
-      ],
-      "engagementScore": 172
-    },
-    {
       "title": "What Europe’s heat wave means for the power grid",
       "url": "https://www.technologyreview.com/2026/06/25/1139690/europe-heat-wave-grid/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.488,
+      "score": 0.4742,
       "publishedAt": "2026-06-25T10:00:00.000Z",
       "summary": "It’s been hard to look away from headlines about the European heat wave this week. Temperatures are breaking records across the continent, and the weather is threatening lives, shutting down schools, and in one particularly ironic case, forcing the cancellation of a London Climate Action Week event",
       "tags": [
@@ -600,7 +602,7 @@
       "url": "https://www.technologyreview.com/2026/06/25/1139696/ibm-unveils-sub1nm-chip/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.488,
+      "score": 0.4742,
       "publishedAt": "2026-06-25T10:00:00.000Z",
       "summary": "IBM has built a new prototype chip with around 100 billion transistors on an area the size of a fingernail, which is twice the density of the company’s previous state-of-the-art technology announced in 2021. The design could pave the way for faster and more energy efficient computers for years to co",
       "tags": [
@@ -613,7 +615,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/957372/openai-will-delay-gpt-5-6-after-trump-administration-request",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4673,
+      "score": 0.4547,
       "publishedAt": "2026-06-25T21:57:57.000Z",
       "summary": "The Trump administration, apprehensive of potential security issues, has reportedly asked OpenAI to stagger the release of its next big-ticket model, GPT-5.6. The Information reported that OpenAI CEO Sam Altman told employees Wednesday in a company Q&#38;A that it would release GPT-5.6 in limited pr",
       "tags": [
@@ -626,7 +628,7 @@
       "url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.4669,
+      "score": 0.452,
       "publishedAt": "2026-06-24T16:00:13.000Z",
       "summary": "",
       "tags": [
