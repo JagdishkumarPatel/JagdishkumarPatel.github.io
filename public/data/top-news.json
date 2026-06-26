@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T14:33:20.101Z",
+  "updatedAt": "2026-06-26T17:02:55.758Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,11 +8,26 @@
   ],
   "items": [
     {
+      "title": "Previewing GPT-5.6 Sol: a next-generation model",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.986,
+      "publishedAt": "2026-06-26T10:00:00.000Z",
+      "summary": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
+      "tags": [
+        "LLM",
+        "Safety",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Detecting and Controlling Sycophancy with Cascading Linear Features",
       "url": "https://arxiv.org/abs/2606.26155",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8404,
+      "score": 0.8234,
       "publishedAt": "2026-06-26T04:00:00.000Z",
       "summary": "arXiv:2606.26155v1 Announce Type: new \nAbstract: Interpreting and controlling model behaviors through activation steering methods requires many pairs of contrastive samples that clearly exhibit desired or undesired behavior. These data pairs determine the degree to which interpretability frameworks",
       "tags": [
@@ -25,7 +40,7 @@
       "url": "https://arxiv.org/abs/2606.26158",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8404,
+      "score": 0.8234,
       "publishedAt": "2026-06-26T04:00:00.000Z",
       "summary": "arXiv:2606.26158v1 Announce Type: new \nAbstract: When a benchmark's accuracy saturates, it is often retired and replaced with a more challenging version. We show that this approach privileges accuracy and misses the opportunity to study six other key dimensions of agent performance: construct validi",
       "tags": [
@@ -39,7 +54,7 @@
       "url": "https://arxiv.org/abs/2606.26161",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8404,
+      "score": 0.8234,
       "publishedAt": "2026-06-26T04:00:00.000Z",
       "summary": "arXiv:2606.26161v1 Announce Type: new \nAbstract: Linear directions in activation space have been identified for both refusal and persona traits in instruction-tuned chat models, but the two have been studied as separate mechanisms. We show they interact: a compliant persona gates refusal. In Qwen2.5",
       "tags": [
@@ -52,7 +67,7 @@
       "url": "https://arxiv.org/abs/2606.26173",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8404,
+      "score": 0.8234,
       "publishedAt": "2026-06-26T04:00:00.000Z",
       "summary": "arXiv:2606.26173v1 Announce Type: new \nAbstract: Recent work shows that Large Language Models (LLMs) can act as semantic mutation operators for the evolutionary discovery of programs and proofs. Most current applications focus on static coding benchmarks. We extend this paradigm to algorithmic tradi",
       "tags": [
@@ -68,7 +83,7 @@
       "url": "https://arxiv.org/abs/2606.26203",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8404,
+      "score": 0.8234,
       "publishedAt": "2026-06-26T04:00:00.000Z",
       "summary": "arXiv:2606.26203v1 Announce Type: new \nAbstract: As AI agent protocols proliferate, the governance structures shaping their interoperability standards remain empirically underexamined. We introduce an LLM-powered comparative pipeline for large-scale governance discourse analysis, integrating automat",
       "tags": [
@@ -84,7 +99,7 @@
       "url": "https://arxiv.org/abs/2606.26205",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8404,
+      "score": 0.8234,
       "publishedAt": "2026-06-26T04:00:00.000Z",
       "summary": "arXiv:2606.26205v1 Announce Type: new \nAbstract: Patients increasingly seek medication information online, yet safety knowledge for psychiatric drugs is split between regulatory adverse-event records, which are authoritative but abstract, and patient narratives, which are experience-near but unvalid",
       "tags": [
@@ -99,7 +114,7 @@
       "url": "https://arxiv.org/abs/2606.26267",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8404,
+      "score": 0.8234,
       "publishedAt": "2026-06-26T04:00:00.000Z",
       "summary": "arXiv:2606.26267v1 Announce Type: new \nAbstract: Rating systems such as Elo serve as the gold standard for matchmaking in competitive chess. However, they inherently suffer from response lag due to their exclusive reliance on match outcomes, neglecting the granular quality of gameplay. Nevertheless,",
       "tags": [
@@ -113,7 +128,7 @@
       "url": "https://arxiv.org/abs/2606.26298",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8404,
+      "score": 0.8234,
       "publishedAt": "2026-06-26T04:00:00.000Z",
       "summary": "arXiv:2606.26298v1 Announce Type: new \nAbstract: Autonomous AI agents may begin to perform consequential, irreversible actions such as clinical prescribing and production software deployment. This paper observes that human institutions have governed powerful autonomous actors not by monitoring their",
       "tags": [
@@ -127,7 +142,7 @@
       "url": "https://openai.com/index/how-agents-are-transforming-work",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7708,
+      "score": 0.7526,
       "publishedAt": "2026-06-25T02:00:00.000Z",
       "summary": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
       "tags": [
@@ -142,7 +157,7 @@
       "url": "https://huggingface.co/blog/vllm-jobs",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.7031,
+      "score": 0.6873,
       "publishedAt": "2026-06-26T00:00:00.000Z",
       "summary": "",
       "tags": [
@@ -155,21 +170,21 @@
       "url": "https://arxiv.org/abs/2603.15855",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.6798,
+      "score": 0.6647,
       "publishedAt": "2026-06-25T01:11:10.000Z",
       "summary": "The dominant programming languages support nothing but linear text to express domain-specific geometric ideas. What is needed are hybrid languages that allow developers to create visual syntactic constructs so that they can express their ideas with a mix of textual and visual syntax tailored to an a",
       "tags": [
         "Vision",
         "Dev Tools"
       ],
-      "engagementScore": 77
+      "engagementScore": 80
     },
     {
       "title": "The Download: brain-melting heatwaves and unprecedented OpenAI restrictions",
       "url": "https://www.technologyreview.com/2026/06/26/1139780/the-download-heatwaves-brain-health-openai-restrictions/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.672,
+      "score": 0.6574,
       "publishedAt": "2026-06-26T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Heat waves mess with your brain. Scientists are trying to figure out why. —Jessica Hamzelou It’s been hot in London this week. Really hot. A dangerous",
       "tags": [
@@ -178,26 +193,26 @@
       "engagementScore": 0
     },
     {
-      "title": "Which tokens does a hybrid model predict better?",
-      "url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.6538,
-      "publishedAt": "2026-06-25T16:11:42.000Z",
-      "summary": "",
+      "title": "Heat waves mess with your brain. Scientists are trying to figure out why.",
+      "url": "https://www.technologyreview.com/2026/06/26/1139760/heat-waves-mess-with-your-brain-scientists-are-trying-to-figure-out-why/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6389,
+      "publishedAt": "2026-06-26T09:00:00.000Z",
+      "summary": "It’s been hot in London this week. Really hot. A dangerous heat wave has hit Western Europe. Yesterday, the UK recorded its highest ever June temperature at 36.1 °C (about 97 °F). But as the weather app on my phone confirmed, it felt like 39 °C. It’s frightening that we are seeing such temperatures",
       "tags": [
         "AI"
       ],
       "engagementScore": 0
     },
     {
-      "title": "Heat waves mess with your brain. Scientists are trying to figure out why.",
-      "url": "https://www.technologyreview.com/2026/06/26/1139760/heat-waves-mess-with-your-brain-scientists-are-trying-to-figure-out-why/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.6535,
-      "publishedAt": "2026-06-26T09:00:00.000Z",
-      "summary": "It’s been hot in London this week. Really hot. A dangerous heat wave has hit Western Europe. Yesterday, the UK recorded its highest ever June temperature at 36.1 °C (about 97 °F). But as the weather app on my phone confirmed, it felt like 39 °C. It’s frightening that we are seeing such temperatures",
+      "title": "Which tokens does a hybrid model predict better?",
+      "url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.638,
+      "publishedAt": "2026-06-25T16:11:42.000Z",
+      "summary": "",
       "tags": [
         "AI"
       ],
@@ -208,7 +223,7 @@
       "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.625,
+      "score": 0.6068,
       "publishedAt": "2026-06-24T06:00:00.000Z",
       "summary": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
       "tags": [
@@ -217,11 +232,37 @@
       "engagementScore": 0
     },
     {
+      "title": "OpenAI unveils GPT-5.6 amid US AI regulatory drama",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/957845/openai-gpt-5-6-trump-administration-ai-preview",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5846,
+      "publishedAt": "2026-06-26T17:01:03.000Z",
+      "summary": "Less than 24 hours after news broke that OpenAI would stagger its next model release at the request of the Trump administration, that model, GPT-5.6, is here. On Friday, the company unveiled the limited preview of its new GPT 5.6 model suite: Sol, the flagship; Terra, a medium-tier model for \"high-v",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Pentagon Is Looking Into the Dialog Data Exposure for Unmasking National Security Officials",
+      "url": "https://www.wired.com/story/the-pentagon-is-looking-into-the-dialog-data-exposure-for-unmasking-national-security-officials/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5819,
+      "publishedAt": "2026-06-26T16:30:33.000Z",
+      "summary": "Exposed records from the private group included the personal information of a senior White House intelligence official and an active-duty special operations officer.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Introducing computer use in Gemini 3.5 Flash",
       "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.5988,
+      "score": 0.5818,
       "publishedAt": "2026-06-24T16:30:01.000Z",
       "summary": "A look at the built-in computer use tool in Gemini 3.5 Flash.",
       "tags": [
@@ -231,28 +272,107 @@
       "engagementScore": 0
     },
     {
-      "title": "2026 Prime Day Deals: 20% off NOCO and Wolfbox Jump Starters",
-      "url": "https://www.wired.com/story/best-amazon-prime-day-jump-starter-deals-2026/",
+      "title": "27 Best Prime Day Beauty Deals of 2026 (We Sifted Through Hundreds to Pick Them)",
+      "url": "https://www.wired.com/story/best-prime-day-beauty-deals-06-26-2026/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5814,
-      "publishedAt": "2026-06-26T13:56:22.000Z",
-      "summary": "If you don't know you need a jump starter, it’s a sign you really, really need a jump starter. NOCO and Wolfbox are the best ones.",
+      "score": 0.5807,
+      "publishedAt": "2026-06-26T16:17:20.000Z",
+      "summary": "It wouldn't be Amazon Prime Day without some beauty deals. Here's a roundup of all our favorites.",
       "tags": [
         "AI"
       ],
       "engagementScore": 0
     },
     {
-      "title": "My Family Loves Board Games—Here Are the 12 I’d Buy On Sale During Prime Day (2026)",
-      "url": "https://www.wired.com/story/amazon-prime-day-board-game-deals-june-2026/",
+      "title": "I Found the Best Prime Day Pixel Buds Deals: 2a, Pro (2026)",
+      "url": "https://www.wired.com/story/google-pixel-buds-prime-day-2026/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5801,
-      "publishedAt": "2026-06-26T13:41:13.000Z",
-      "summary": "Looking for family fun this summer? You need these WIRED-recommended Prime Day board game deals.",
+      "score": 0.579,
+      "publishedAt": "2026-06-26T15:58:48.000Z",
+      "summary": "Google Pixel Buds are steeply on sale, presumably only through the end of the day.",
       "tags": [
         "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Prime Day’s Best Handheld Fan Deals, Up to 20% Off, Are About to Disappear (2026)",
+      "url": "https://www.wired.com/story/amazon-prime-day-deals-on-handheld-fans-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5788,
+      "publishedAt": "2026-06-26T15:56:39.000Z",
+      "summary": "These are the best last-minute Prime Day discounts on handheld fans, from $10 budget buys to Shark’s high-tech ChillPill.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The US Is About to Deport an Immigrant to the Center of the Ebola Crisis",
+      "url": "https://www.wired.com/story/the-us-is-about-to-deport-an-immigrant-to-the-center-of-the-ebola-crisis/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5777,
+      "publishedAt": "2026-06-26T15:43:49.000Z",
+      "summary": "Edward Nalwamba is a 78-year-old retired pastor whose health has rapidly declined while in detention, his attorney says.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Get $145 Off the Best Mesh Router This Prime Day 2026",
+      "url": "https://www.wired.com/story/amazon-prime-day-router-deals-06-26-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5754,
+      "publishedAt": "2026-06-26T15:18:06.000Z",
+      "summary": "Do you crave speedy, reliable Wi-Fi throughout your home? Snag one of these Prime Day router or mesh deals.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "22 Best Prime Day Fitness Tech Deals (2026) Up to $250 Off",
+      "url": "https://www.wired.com/story/amazon-prime-day-fitness-deals-06-26-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5744,
+      "publishedAt": "2026-06-26T15:07:11.000Z",
+      "summary": "I've compiled a list of the best fitness tech deals this Amazon Prime Day, including smartwatches, walking pads, and recovery gear. You can thank me later.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Europe Is Fed Up and Wants Its Own AI",
+      "url": "https://www.wired.com/story/europe-is-fed-up-and-wants-its-own-ai/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5738,
+      "publishedAt": "2026-06-26T15:00:00.000Z",
+      "summary": "It's a stretch to think that the continent can build a top-tier model, but it has an advantage: Donald Trump.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Anthropic&#8217;s Mythos mess is only getting worse",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/957327/anthropic-mythos-fable-ai-trump-administration-negotiations",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5691,
+      "publishedAt": "2026-06-26T14:07:03.000Z",
+      "summary": "It's been two weeks since Anthropic took its Mythos-class models offline after a Friday evening ultimatum from the Trump administration. The company sprang into action immediately, sending a barrage of executives to Washington, DC. But updates have been suspiciously lacking, with no resolution in si",
+      "tags": [
+        "LLM",
+        "RAG"
       ],
       "engagementScore": 0
     },
@@ -261,7 +381,7 @@
       "url": "https://arxiv.org/abs/2606.24597",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.5723,
+      "score": 0.5553,
       "publishedAt": "2026-06-24T02:21:47.000Z",
       "summary": "A world model predicts environment dynamics based on current observations and actions, serving as a core cognitive mechanism for reasoning and planning. In this work, we investigate how world modeling based on language models can further push the boundaries of general agents. (i) We first focus on b",
       "tags": [
@@ -272,89 +392,37 @@
       "engagementScore": 198
     },
     {
-      "title": "23 Walmart Deals We Like Better Than That Other Sale Happening Right Now",
-      "url": "https://www.wired.com/story/walmart-deals-apd-06-26-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5702,
-      "publishedAt": "2026-06-26T11:50:08.000Z",
-      "summary": "Welcome to Walmart deals for folks who’d rather not shop at Amazon. These are the best gadget deals at Walmart this Prime Day.",
+      "title": "The White House is asking OpenAI to slow roll the release of its new model",
+      "url": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/",
+      "feedSource": "Hacker News",
+      "source": "techcrunch.com",
+      "score": 0.5426,
+      "publishedAt": "2026-06-26T12:02:00.000Z",
+      "summary": "OpenAI reportedly plans to share its newest model, GPT 5.6, with a select group of partners instead of with the broader public. The reason: the Trump administration told it to.",
       "tags": [
-        "AI"
+        "LLM"
       ],
-      "engagementScore": 0
+      "engagementScore": 34
     },
     {
-      "title": "Which MacBook to Buy (2026): Neo, Air, or Pro?",
-      "url": "https://www.wired.com/story/which-macbook-should-you-buy/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5657,
-      "publishedAt": "2026-06-26T11:00:00.000Z",
-      "summary": "After testing each of the MacBooks myself, here's my honest advice on which is right for you.",
+      "title": "Incident CVE-2026-LGTM",
+      "url": "https://nesbitt.io/2026/06/26/incident-report-cve-2026-lgtm.html",
+      "feedSource": "Hacker News",
+      "source": "nesbitt.io",
+      "score": 0.542,
+      "publishedAt": "2026-06-26T12:58:07.000Z",
+      "summary": "A series of unfortunate agents.",
       "tags": [
-        "AI"
+        "Agents"
       ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Ivanka Trump and Jared Kushner's Island Resort Could Bring Down Albania’s Prime Minister",
-      "url": "https://www.wired.com/story/ivanka-and-jareds-island-resort-could-bring-down-albanias-prime-minister/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5657,
-      "publishedAt": "2026-06-26T11:00:00.000Z",
-      "summary": "What began as a “flamingo revolution” to protest the $1.4 billion development on Sazan Island has spiraled into mass protests against a ruling party that thousands now want out.",
-      "tags": [
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "We're Tracking the Final Hours of Amazon Prime Day Deals Live",
-      "url": "https://www.wired.com/live/amazon-prime-day-live-tracker-july-26-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5652,
-      "publishedAt": "2026-06-26T10:54:18.000Z",
-      "summary": "It's Day Four. Somehow it's still Prime Day. The deals are live. The deals are wild. The deals are almost feral. We are still here in the trenches digging up the deals and trends.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Should You Buy Your Kid a 3D Printer? What to Know and Consider (2026)",
-      "url": "https://www.wired.com/story/3d-printer-for-kids/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5631,
-      "publishedAt": "2026-06-26T10:31:00.000Z",
-      "summary": "Kids love 3D printers almost as much as K-Pop Demon Hunters. Just give in and get one.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Gooner Music Video Boom Is Here",
-      "url": "https://www.wired.com/story/the-gooner-music-video-boom-is-here/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5631,
-      "publishedAt": "2026-06-26T10:30:00.000Z",
-      "summary": "Porn music videos have circulated on the fringes of the internet for years. Featuring everything from narrative-driven stories to hypnosis, they are proliferating across X as “bate fuel” for gooners.",
-      "tags": [
-        "Vision"
-      ],
-      "engagementScore": 0
+      "engagementScore": 348
     },
     {
       "title": "Our latest Google Finance upgrades, including a new app",
       "url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.5543,
+      "score": 0.5398,
       "publishedAt": "2026-06-25T16:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Finance_blog_image_June_.max-600x600.format-webp.webp\"&gt;The new Google Finance is coming out of beta and launching a new Android app.",
       "tags": [
@@ -365,11 +433,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Springer Nature has removed two studies by Max Planck",
+      "url": "https://www.science.org/content/article/why-have-papers-one-history-s-most-famous-physicists-been-retracted",
+      "feedSource": "Hacker News",
+      "source": "science.org",
+      "score": 0.5307,
+      "publishedAt": "2026-06-26T14:10:26.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 217
+    },
+    {
       "title": "Repositioning retail for the AI era",
       "url": "https://www.technologyreview.com/2026/06/25/1137848/repositioning-retail-for-the-ai-era/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5449,
+      "score": 0.5304,
       "publishedAt": "2026-06-25T14:22:59.000Z",
       "summary": "Artificial intelligence is rapidly reshaping retail, but not in the ways consumers might immediately notice. The biggest transformation may not be flashy virtual try-ons or chatbot shopping assistants, but in how decisions are made behind the scenes: how products surface in search results, how inven",
       "tags": [
@@ -382,79 +463,13 @@
       "url": "https://www.technologyreview.com/2026/06/25/1139738/the-download-europe-heat-wave-ibm-chip-moores-law/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.532,
+      "score": 0.5174,
       "publishedAt": "2026-06-25T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Europe’s extreme heat is shutting down power plants Europe is in the middle of a record-breaking heat wave, and the grid is being pushed to its limits",
       "tags": [
         "AI"
       ],
       "engagementScore": 0
-    },
-    {
-      "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
-      "url": "https://openai.com/index/gpt-5-immunology-mystery",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5302,
-      "publishedAt": "2026-06-23T17:00:00.000Z",
-      "summary": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.",
-      "tags": [
-        "LLM",
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "What Europe’s heat wave means for the power grid",
-      "url": "https://www.technologyreview.com/2026/06/25/1139690/europe-heat-wave-grid/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.5193,
-      "publishedAt": "2026-06-25T10:00:00.000Z",
-      "summary": "It’s been hard to look away from headlines about the European heat wave this week. Temperatures are breaking records across the continent, and the weather is threatening lives, shutting down schools, and in one particularly ironic case, forcing the cancellation of a London Climate Action Week event",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "IBM has unveiled chip technology that could help extend Moore’s Law another decade",
-      "url": "https://www.technologyreview.com/2026/06/25/1139696/ibm-unveils-sub1nm-chip/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.5193,
-      "publishedAt": "2026-06-25T10:00:00.000Z",
-      "summary": "IBM has built a new prototype chip with around 100 billion transistors on an area the size of a fingernail, which is twice the density of the company’s previous state-of-the-art technology announced in 2021. The design could pave the way for faster and more energy efficient computers for years to co",
-      "tags": [
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The White House is asking OpenAI to slow roll the release of its new model",
-      "url": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/",
-      "feedSource": "Hacker News",
-      "source": "techcrunch.com",
-      "score": 0.5176,
-      "publishedAt": "2026-06-26T12:02:00.000Z",
-      "summary": "",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 13
-    },
-    {
-      "title": "The 'papers, please' era of the internet will decimate your privacy",
-      "url": "https://expression.fire.org/p/the-papers-please-era-of-the-internet",
-      "feedSource": "Hacker News",
-      "source": "expression.fire.org",
-      "score": 0.5141,
-      "publishedAt": "2026-06-25T21:44:55.000Z",
-      "summary": "Americans, be warned: Age verification is identity verification.",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 890
     },
     {
       "title": "Helping build shared standards for advanced AI",
@@ -468,6 +483,20 @@
         "LLM",
         "Safety",
         "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
+      "url": "https://openai.com/index/gpt-5-immunology-mystery",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.5124,
+      "publishedAt": "2026-06-23T17:00:00.000Z",
+      "summary": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.",
+      "tags": [
+        "LLM",
+        "Research"
       ],
       "engagementScore": 0
     },
@@ -513,24 +542,76 @@
       "engagementScore": 0
     },
     {
-      "title": "Codex-maxxing for long-running work",
-      "url": "https://openai.com/index/codex-maxxing-long-running-work",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5124,
-      "publishedAt": "2026-06-22T00:00:00.000Z",
-      "summary": "Learn how Jason Liu uses Codex to preserve context, manage complex projects, and help work continue beyond a single prompt.",
+      "title": "The 'papers, please' era of the internet will decimate your privacy",
+      "url": "https://expression.fire.org/p/the-papers-please-era-of-the-internet",
+      "feedSource": "Hacker News",
+      "source": "expression.fire.org",
+      "score": 0.505,
+      "publishedAt": "2026-06-25T21:44:55.000Z",
+      "summary": "Americans, be warned: Age verification is identity verification.",
       "tags": [
-        "Dev Tools"
+        "Research"
+      ],
+      "engagementScore": 969
+    },
+    {
+      "title": "What Europe’s heat wave means for the power grid",
+      "url": "https://www.technologyreview.com/2026/06/25/1139690/europe-heat-wave-grid/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.5048,
+      "publishedAt": "2026-06-25T10:00:00.000Z",
+      "summary": "It’s been hard to look away from headlines about the European heat wave this week. Temperatures are breaking records across the continent, and the weather is threatening lives, shutting down schools, and in one particularly ironic case, forcing the cancellation of a London Climate Action Week event",
+      "tags": [
+        "AI"
       ],
       "engagementScore": 0
+    },
+    {
+      "title": "IBM has unveiled chip technology that could help extend Moore’s Law another decade",
+      "url": "https://www.technologyreview.com/2026/06/25/1139696/ibm-unveils-sub1nm-chip/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.5048,
+      "publishedAt": "2026-06-25T10:00:00.000Z",
+      "summary": "IBM has built a new prototype chip with around 100 billion transistors on an area the size of a fingernail, which is twice the density of the company’s previous state-of-the-art technology announced in 2021. The design could pave the way for faster and more energy efficient computers for years to co",
+      "tags": [
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The AI industry is pouring millions into US elections",
+      "url": "https://www.bloodinthemachine.com/p/the-ai-industry-is-pouring-hundreds",
+      "feedSource": "Hacker News",
+      "source": "bloodinthemachine.com",
+      "score": 0.5027,
+      "publishedAt": "2026-06-26T15:02:43.000Z",
+      "summary": "Plus: Fiery resistance to a nuclear AI data center and A24’s Google debacle. Welcome to the first episode of BLOOD IN THE MACHINE: THE SHOW, with the great AI and crypto watchdog, Molly White.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 89
+    },
+    {
+      "title": "Ultrasound imaging of the brain",
+      "url": "https://alephneuro.com/blog/ultrasound-brain",
+      "feedSource": "Hacker News",
+      "source": "alephneuro.com",
+      "score": 0.4921,
+      "publishedAt": "2026-06-26T11:51:11.000Z",
+      "summary": "The most detailed vascular image of a living human brain we’ve seen, captured with ultrasound through the skull — and the pipeline behind it.",
+      "tags": [
+        "Vision"
+      ],
+      "engagementScore": 102
     },
     {
       "title": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
       "url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.5009,
+      "score": 0.4851,
       "publishedAt": "2026-06-24T16:00:13.000Z",
       "summary": "",
       "tags": [
@@ -539,68 +620,15 @@
       "engagementScore": 0
     },
     {
-      "title": "Incident CVE-2026-LGTM",
-      "url": "https://nesbitt.io/2026/06/26/incident-report-cve-2026-lgtm.html",
-      "feedSource": "Hacker News",
-      "source": "nesbitt.io",
-      "score": 0.4981,
-      "publishedAt": "2026-06-26T12:58:07.000Z",
-      "summary": "A series of unfortunate agents.",
-      "tags": [
-        "Agents"
-      ],
-      "engagementScore": 74
-    },
-    {
-      "title": "What happened after 2k people tried to hack my AI assistant",
-      "url": "https://www.fernandoi.cl/posts/hackmyclaw/",
-      "feedSource": "Hacker News",
-      "source": "fernandoi.cl",
-      "score": 0.4925,
-      "publishedAt": "2026-06-26T02:29:23.000Z",
-      "summary": "home ·\nabout",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 259
-    },
-    {
-      "title": "Computer use in Gemini 3.5 Flash",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/",
-      "feedSource": "Hacker News",
-      "source": "blog.google",
-      "score": 0.4906,
-      "publishedAt": "2026-06-24T17:21:34.000Z",
-      "summary": "A look at the built-in computer use tool in Gemini 3.5 Flash.",
-      "tags": [
-        "LLM",
-        "Dev Tools"
-      ],
-      "engagementScore": 241
-    },
-    {
-      "title": "Why current LLM costs are not sustainable",
-      "url": "https://aditya.patadia.org/p/ai-and-cloud-costs",
-      "feedSource": "Hacker News",
-      "source": "aditya.patadia.org",
-      "score": 0.4839,
-      "publishedAt": "2026-06-26T07:44:11.000Z",
-      "summary": "AI has a cost problem. The solution that will emerge will be simpler than we expect.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 101
-    },
-    {
-      "title": "Facebook’s Creator Studio has been revived as an AI companion app",
-      "url": "https://www.theverge.com/tech/956668/meta-facebook-creator-studio-ai-app-relaunch",
+      "title": "OpenAI will delay GPT-5.6 after Trump administration request",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/957372/openai-will-delay-gpt-5-6-after-trump-administration-request",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4301,
-      "publishedAt": "2026-06-25T09:37:40.000Z",
-      "summary": "Meta is bringing back the Facebook Creator Studio page manager, now \"reimagined\" as a standalone AI companion app. The new app aims to make it easier for creators to connect with their audiences and show them \"exactly how to grow on Facebook,\" according to Meta's announcement. Meta's AI Creator Assi",
+      "score": 0.4827,
+      "publishedAt": "2026-06-25T21:57:57.000Z",
+      "summary": "The Trump administration, apprehensive of potential security issues, has reportedly asked OpenAI to stagger the release of its next big-ticket model, GPT-5.6. The Information reported that OpenAI CEO Sam Altman told employees Wednesday in a company Q&#38;A that it would release GPT-5.6 in limited pr",
       "tags": [
-        "AI"
+        "LLM"
       ],
       "engagementScore": 0
     },
@@ -656,33 +684,6 @@
         "Research",
         "Safety",
         "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Fluid, natural voice translation with Gemini 3.5 Live Translate",
-      "url": "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-06-09T15:16:25.000Z",
-      "summary": "Gemini 3.5 Live Translate brings near real-time, natural speech translation to Google AI Studio, Google Translate and Google Meet.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
-      "url": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-06-09T14:10:19.000Z",
-      "summary": "An overview of Gemma 4 12B, a model designed to bring high-performance multimodal intelligence directly to your laptop.",
-      "tags": [
-        "Vision",
-        "Dev Tools"
       ],
       "engagementScore": 0
     }
