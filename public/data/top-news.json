@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T22:04:45.117Z",
+  "updatedAt": "2026-06-29T04:19:59.799Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,24 +8,169 @@
   ],
   "items": [
     {
+      "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
+      "url": "https://openai.com/index/hp-frontier-partnership",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.9547,
+      "publishedAt": "2026-06-28T17:00:00.000Z",
+      "summary": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "AI-Model Network: Concept, Current State and Future",
+      "url": "https://arxiv.org/abs/2606.27382",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.91,
+      "publishedAt": "2026-06-29T04:00:00.000Z",
+      "summary": "arXiv:2606.27382v1 Announce Type: new \nAbstract: While the primary function of computers lies in computation and processing, the core value of the Internet is rooted in sharing and collaboration. Computers create the Internet, and the Internet empowers the value of computers. The rapid development o",
+      "tags": [
+        "Research",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "When Does Personality Composition Matter for Multi-Agent LLM Teams?",
+      "url": "https://arxiv.org/abs/2606.27443",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.91,
+      "publishedAt": "2026-06-29T04:00:00.000Z",
+      "summary": "arXiv:2606.27443v1 Announce Type: new \nAbstract: Personality prompting shapes how large language models communicate, yet whether these behavioral shifts affect objective task outcomes remains under-explored. Prior work shows that agents prompted with low agreeableness produce adversarial language, w",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Internalizing the Future: A Unified Agentic Training Paradigm for World Model Planning",
+      "url": "https://arxiv.org/abs/2606.27483",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.91,
+      "publishedAt": "2026-06-29T04:00:00.000Z",
+      "summary": "arXiv:2606.27483v1 Announce Type: new \nAbstract: Large language model (LLM) agents have demonstrated strong capability in sequential decision-making, yet they remains fundamentally reactive in long-horizon tasks. Unlike humans who employ \"what-if\" reasoning to evaluate potential plans before commitm",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Research",
+        "ML Infra"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Odyssey: Constructing Verifiable Local Truth-Preserving Foundation Models",
+      "url": "https://arxiv.org/abs/2606.27593",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.91,
+      "publishedAt": "2026-06-29T04:00:00.000Z",
+      "summary": "arXiv:2606.27593v1 Announce Type: new \nAbstract: We introduce a categorical framework called ODYSSEY for constructing verifiable, local truth-preserving foundation models as compositions of foundries: building-block architectural components that specify a cover of local contexts, local representatio",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "DysLexLens: A Low-Resource LLM Framework for Analysing Dyslexic Learners Insights from Online Forums",
+      "url": "https://arxiv.org/abs/2606.27619",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.91,
+      "publishedAt": "2026-06-29T04:00:00.000Z",
+      "summary": "arXiv:2606.27619v1 Announce Type: new \nAbstract: Dyslexic learners increasingly use artificial intelligence (AI) tools to support reading, writing, organisation, and study-related tasks. However, their lived experiences with these tools remain largely underexamined. This paper proposes DysLexLens, a",
+      "tags": [
+        "LLM",
+        "Research",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "MER-R1: Multimodal Emotion Reasoning via Slow-Fast Thinking Synergy",
+      "url": "https://arxiv.org/abs/2606.27652",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.91,
+      "publishedAt": "2026-06-29T04:00:00.000Z",
+      "summary": "arXiv:2606.27652v1 Announce Type: new \nAbstract: We find that explicit reasoning does not necessarily translate into better multimodal emotion recognition (MER) accuracy, even though it makes predictions more interpretable. Specifically, for reasoning-based MLLMs, fast thinking by triggering direct",
+      "tags": [
+        "LLM",
+        "Research",
+        "Vision"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "ToE: A Hierarchical and Explainable Claim Verification Framework with Dynamic Multi-source Evidence Retrieval and Aggregation",
+      "url": "https://arxiv.org/abs/2606.27736",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.91,
+      "publishedAt": "2026-06-29T04:00:00.000Z",
+      "summary": "arXiv:2606.27736v1 Announce Type: new \nAbstract: The rapid spread of fake news poses increasing threats to information ecosystems, especially as AI-generated misinformation under Generative Engine Optimization (GEO) poisoning allows adversarially crafted content to be systematically surfaced by retr",
+      "tags": [
+        "Research",
+        "RAG",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Towards Reliable and Robust LLM Planning: Symbolic Feedback-Driven Iterative Self-Refinement Framework",
+      "url": "https://arxiv.org/abs/2606.27757",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.91,
+      "publishedAt": "2026-06-29T04:00:00.000Z",
+      "summary": "arXiv:2606.27757v1 Announce Type: new \nAbstract: Large language models (LLMs) have attracted widespread attention from academia and industry, yet their deployment raises critical security concerns regarding robustness and reliability. Planning, a core component of intelligent behavior, remains chall",
+      "tags": [
+        "LLM",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Knowledge Distillation of Black-Box Large Language Models (2024)",
+      "url": "https://arxiv.org/abs/2401.07013",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.8861,
+      "publishedAt": "2026-06-28T22:32:04.000Z",
+      "summary": "Given the exceptional performance of proprietary large language models (LLMs) like GPT-4, recent research has increasingly focused on boosting the capabilities of smaller models through knowledge distillation (KD) from these powerful yet black-box teachers. While leveraging the high-quality outputs",
+      "tags": [
+        "LLM",
+        "Research",
+        "RAG"
+      ],
+      "engagementScore": 65
+    },
+    {
       "title": "Programmable Probabilistic Computer with 1M p-bits",
       "url": "https://arxiv.org/abs/2606.25313",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8564,
+      "score": 0.8224,
       "publishedAt": "2026-06-28T15:55:31.000Z",
       "summary": "Probabilistic computers built from p-bits have been proposed as hardware accelerators for sampling and optimizing Ising models, but existing systems have been confined to a single chip, capped by its capacity and memory bandwidth. Here we break this limit by networking FPGAs into a single Ising mach",
       "tags": [
         "AI"
       ],
-      "engagementScore": 38
+      "engagementScore": 45
     },
     {
       "title": "Previewing GPT‑5.6 Sol: a next-generation model",
       "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.8199,
+      "score": 0.7745,
       "publishedAt": "2026-06-26T17:06:55.000Z",
       "summary": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
       "tags": [
@@ -33,27 +178,27 @@
         "Safety",
         "Dev Tools"
       ],
-      "engagementScore": 1119
+      "engagementScore": 1122
     },
     {
       "title": "Apple Neural Engine: Architecture, Programming, and Performance",
       "url": "https://arxiv.org/abs/2606.22283",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7509,
+      "score": 0.7107,
       "publishedAt": "2026-06-27T23:30:14.000Z",
       "summary": "The Apple Neural Engine (ANE) is the fixed-function matrix accelerator that has shipped in Apple systems-on-chip since the A11-class iPhone and iPad chips and the M1-class Mac chips, exposed to applications only through the Core ML model framework. This guide reports a reverse-engineered account of",
       "tags": [
         "Dev Tools"
       ],
-      "engagementScore": 43
+      "engagementScore": 45
     },
     {
       "title": "Previewing GPT-5.6 Sol: a next-generation model",
       "url": "https://openai.com/index/previewing-gpt-5-6-sol",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.5993,
+      "score": 0.5537,
       "publishedAt": "2026-06-26T10:00:00.000Z",
       "summary": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
       "tags": [
@@ -68,7 +213,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/958804/chinas-z-ai-glm-52-mythos-cybersecurity",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5828,
+      "score": 0.5494,
       "publishedAt": "2026-06-28T21:42:51.000Z",
       "summary": "China's Zhipu AI (Z.ai) released its open-weight GLM-5.2, and some researchers have claimed that it matches Mythos in certain bug-finding and cybersecurity scenarios. While GLM lags behind models from Anthropic and OpenAI in other, more general tasks, it seems that China has dramatically reduced the",
       "tags": [
@@ -84,7 +229,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/958801/suno-launches-spark-incubator-program-to-feed-independent-artists-to-its-ai-machine",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5761,
+      "score": 0.5426,
       "publishedAt": "2026-06-28T20:27:36.000Z",
       "summary": "Suno has ambitions to be more than just a toy to churn out AI slop, it also wants to be a streaming destination and to break new artists. Spark is their new incubator program for independent artists that provides grants, mentorship, and marketing support. To apply, artists need to be an unsigned sin",
       "tags": [
@@ -93,136 +238,18 @@
       "engagementScore": 0
     },
     {
-      "title": "Prosecutors used ChatGPT logs as evidence in the Palisades fire trial",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/958751/prosecutors-chatgpt-palisades-wildfire-arson-mistrial",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5426,
-      "publishedAt": "2026-06-28T14:12:06.000Z",
-      "summary": "Jonathan Rinderknecht was facing arson charges for setting a fire on New Year's Day in 2025, which became one of the deadliest wildfires in LA history. To make their case, prosecutors turned to location data from his iPhone, security camera footage, and witness testimony. But they also turned to his",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "What to Do in Houston If You're Here for Business (2026)",
-      "url": "https://www.wired.com/story/the-wired-guide-to-houston-for-business-travelers/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5327,
-      "publishedAt": "2026-06-28T12:21:00.000Z",
-      "summary": "Where to eat, stay, work, and eat some more while visiting Space City on business.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The ‘Almost Homeless’ Subreddit Is a Stark Glimpse at Soaring Wealth Inequality",
-      "url": "https://www.wired.com/story/the-almost-homeless-subreddit-is-a-stark-glimpse-at-soaring-wealth-inequality/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5255,
-      "publishedAt": "2026-06-28T11:00:00.000Z",
-      "summary": "As the billionaire class gets richer, the growing online community is offering tips on how to survive with very little.",
-      "tags": [
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "I used Claude Code to get a second opinion on my MRI",
-      "url": "https://antoine.fi/mri-analysis-using-claude-code-opus",
-      "feedSource": "Hacker News",
-      "source": "antoine.fi",
-      "score": 0.5246,
-      "publishedAt": "2026-06-28T16:35:19.000Z",
-      "summary": "",
-      "tags": [
-        "LLM",
-        "Dev Tools"
-      ],
-      "engagementScore": 260
-    },
-    {
-      "title": "Librepods: AirPods liberated",
-      "url": "https://github.com/librepods-org/librepods",
-      "feedSource": "Hacker News",
-      "source": "github.com",
-      "score": 0.5223,
-      "publishedAt": "2026-06-28T18:48:53.000Z",
-      "summary": "AirPods liberated from Apple’s ecosystem. Contribute to librepods-org/librepods development by creating an account on GitHub.",
-      "tags": [
-        "Open Source"
-      ],
-      "engagementScore": 181
-    },
-    {
-      "title": "Why Wear Anything Other Than a Sun Hoodie This Summer? Our Picks for the Best",
-      "url": "https://www.wired.com/story/im-addicted-to-sun-hoodies/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5203,
-      "publishedAt": "2026-06-28T10:02:00.000Z",
-      "summary": "Sun hoodies are the greatest new garment since the original hoodie.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "This Is the Most Detailed Image Yet of the Milky Way's Center",
-      "url": "https://www.wired.com/story/this-is-the-most-detailed-image-yet-of-the-milky-ways-center/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5175,
-      "publishedAt": "2026-06-28T09:30:00.000Z",
-      "summary": "The Euclid space telescope's stunning photo of our galaxy's “crowded heart” captures more than 60 million stars.",
-      "tags": [
-        "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "GLM 5.2 beats Claude in our benchmarks",
       "url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/",
       "feedSource": "Hacker News",
       "source": "semgrep.dev",
-      "score": 0.5174,
+      "score": 0.5296,
       "publishedAt": "2026-06-28T17:50:47.000Z",
       "summary": "Among models given nothing but a prompt, the best open-weight option beat Claude Opus 4.8.",
       "tags": [
         "LLM",
         "ML Infra"
       ],
-      "engagementScore": 180
-    },
-    {
-      "title": "The Ebike Accessories You Need to Help You Haul the Most Stuff",
-      "url": "https://www.wired.com/story/how-to-trick-out-your-ebike/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5149,
-      "publishedAt": "2026-06-28T09:01:00.000Z",
-      "summary": "An unadorned ebike is a blank canvas. Here, get tips for maximizing its cargo-hauling and person-carrying capabilities.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "China Defies US Restrictions and Builds the World’s Fastest Supercomputer",
-      "url": "https://www.wired.com/story/china-defies-us-restrictions-and-builds-the-worlds-fastest-supercomputer/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5148,
-      "publishedAt": "2026-06-28T09:00:00.000Z",
-      "summary": "The Chinese supercomputer LineShine was ranked as the fastest in the world, despite not using any GPUs.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
+      "engagementScore": 585
     },
     {
       "title": "How agents are transforming work",
@@ -309,81 +336,131 @@
       "engagementScore": 0
     },
     {
-      "title": "Daybreak: Tools for securing every organization in the world",
-      "url": "https://openai.com/index/daybreak-securing-the-world",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5124,
-      "publishedAt": "2026-06-22T10:00:00.000Z",
-      "summary": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
-      "tags": [
-        "LLM",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Historical memory prices 1960-2026",
-      "url": "https://dam.stanford.edu/memory-prices.html",
-      "feedSource": "Hacker News",
-      "source": "dam.stanford.edu",
-      "score": 0.4896,
-      "publishedAt": "2026-06-28T18:32:53.000Z",
-      "summary": "Historical and current prices for DRAM, HBM, and NAND flash.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 76
-    },
-    {
-      "title": "A way to exclude sensitive files issue still open for OpenAI Codex",
-      "url": "https://github.com/openai/codex/issues/2847",
+      "title": "Librepods: AirPods liberated",
+      "url": "https://github.com/librepods-org/librepods",
       "feedSource": "Hacker News",
       "source": "github.com",
-      "score": 0.4883,
-      "publishedAt": "2026-06-28T12:27:33.000Z",
-      "summary": "What feature would you like to see? A mechanism to explicitly mark files/paths that the agent must not read or send to the model, at both repository and global levels (e.g., a repo-local .codexigno…",
+      "score": 0.5118,
+      "publishedAt": "2026-06-28T18:48:53.000Z",
+      "summary": "AirPods liberated from Apple’s ecosystem. Contribute to librepods-org/librepods development by creating an account on GitHub.",
       "tags": [
-        "LLM",
-        "Agents",
-        "Dev Tools"
+        "Open Source"
       ],
-      "engagementScore": 166
+      "engagementScore": 314
     },
     {
-      "title": "Margaret Atwood says the problem with AI is &#8216;garbage in, garbage out&#8217;",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/958715/margaret-atwood-ai-problem-garbage-in-garbage-out",
+      "title": "Prosecutors used ChatGPT logs as evidence in the Palisades fire trial",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/958751/prosecutors-chatgpt-palisades-wildfire-arson-mistrial",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4381,
-      "publishedAt": "2026-06-27T18:39:32.000Z",
-      "summary": "Maraget Atwood, the storied author of The Handmaid's Tale and The Blind Assassin, was interviewed as part of the Babell Literary and Cultural Festival in Porto, Portugal. As it usually does at these things, the issue of AI came up, and Atwood didn't mince words. According to Deadline's recap, Atwood",
+      "score": 0.5092,
+      "publishedAt": "2026-06-28T14:12:06.000Z",
+      "summary": "Jonathan Rinderknecht was facing arson charges for setting a fire on New Year's Day in 2025, which became one of the deadliest wildfires in LA history. To make their case, prosecutors turned to location data from his iPhone, security camera footage, and witness testimony. But they also turned to his",
       "tags": [
-        "RAG"
+        "LLM"
       ],
       "engagementScore": 0
     },
     {
-      "title": "62 Last Minute Prime Day Weekend Deals: Up to 45% Off (2026)",
-      "url": "https://www.wired.com/story/amazon-prime-day-absolute-best-deals-06-27-2026/",
+      "title": "I used Claude Code to get a second opinion on my MRI",
+      "url": "https://antoine.fi/mri-analysis-using-claude-code-opus",
+      "feedSource": "Hacker News",
+      "source": "antoine.fi",
+      "score": 0.5074,
+      "publishedAt": "2026-06-28T16:35:19.000Z",
+      "summary": "",
+      "tags": [
+        "LLM",
+        "Dev Tools"
+      ],
+      "engagementScore": 375
+    },
+    {
+      "title": "Professor denounces mass AI fraud on an exam at Brown",
+      "url": "https://english.elpais.com/education/2026-06-28/ai-fraud-at-brown-university-academic-integrity-is-at-risk.html",
+      "feedSource": "Hacker News",
+      "source": "english.elpais.com",
+      "score": 0.5022,
+      "publishedAt": "2026-06-28T16:41:12.000Z",
+      "summary": "The renowned economist Roberto Serrano has ‘overwhelming evidence’ that his students cheated. He thinks the time has come for an in-depth debate so the technology does not signal the end of higher education",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 320
+    },
+    {
+      "title": "What to Do in Houston If You're Here for Business (2026)",
+      "url": "https://www.wired.com/story/the-wired-guide-to-houston-for-business-travelers/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4347,
-      "publishedAt": "2026-06-27T18:01:21.000Z",
-      "summary": "Prime Day is officially over, but many of our favorite, hand-picked deals are still available through the weekend.",
+      "score": 0.4993,
+      "publishedAt": "2026-06-28T12:21:00.000Z",
+      "summary": "Where to eat, stay, work, and eat some more while visiting Space City on business.",
       "tags": [
         "AI"
       ],
       "engagementScore": 0
     },
     {
-      "title": "Why is Apple asking me to pay more for Big Tech’s AI obsession?",
-      "url": "https://www.theverge.com/report/958678/apple-consumer-price-increase-ai-big-tech",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4309,
-      "publishedAt": "2026-06-27T17:18:22.000Z",
-      "summary": "Tim Cook recently said price increases were \"unavoidable\" and described the company's pricing as \"unsustainable.\" The 16-inch MacBook Pro saw its price go up by $300. The 11-inch iPad Air went from $599 to $749. Even the HomePod Mini got a $30 bump to $129. Cook squarely placed the blame at the feet",
+      "title": "The ‘Almost Homeless’ Subreddit Is a Stark Glimpse at Soaring Wealth Inequality",
+      "url": "https://www.wired.com/story/the-almost-homeless-subreddit-is-a-stark-glimpse-at-soaring-wealth-inequality/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4921,
+      "publishedAt": "2026-06-28T11:00:00.000Z",
+      "summary": "As the billionaire class gets richer, the growing online community is offering tips on how to survive with very little.",
+      "tags": [
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Why Wear Anything Other Than a Sun Hoodie This Summer? Our Picks for the Best",
+      "url": "https://www.wired.com/story/im-addicted-to-sun-hoodies/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4869,
+      "publishedAt": "2026-06-28T10:02:00.000Z",
+      "summary": "Sun hoodies are the greatest new garment since the original hoodie.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "This Is the Most Detailed Image Yet of the Milky Way's Center",
+      "url": "https://www.wired.com/story/this-is-the-most-detailed-image-yet-of-the-milky-ways-center/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.484,
+      "publishedAt": "2026-06-28T09:30:00.000Z",
+      "summary": "The Euclid space telescope's stunning photo of our galaxy's “crowded heart” captures more than 60 million stars.",
+      "tags": [
+        "Vision"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Ebike Accessories You Need to Help You Haul the Most Stuff",
+      "url": "https://www.wired.com/story/how-to-trick-out-your-ebike/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4815,
+      "publishedAt": "2026-06-28T09:01:00.000Z",
+      "summary": "An unadorned ebike is a blank canvas. Here, get tips for maximizing its cargo-hauling and person-carrying capabilities.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "China Defies US Restrictions and Builds the World’s Fastest Supercomputer",
+      "url": "https://www.wired.com/story/china-defies-us-restrictions-and-builds-the-worlds-fastest-supercomputer/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4814,
+      "publishedAt": "2026-06-28T09:00:00.000Z",
+      "summary": "The Chinese supercomputer LineShine was ranked as the fastest in the world, despite not using any GPUs.",
       "tags": [
         "AI"
       ],
@@ -499,11 +576,50 @@
       "engagementScore": 0
     },
     {
+      "title": "Margaret Atwood says the problem with AI is &#8216;garbage in, garbage out&#8217;",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/958715/margaret-atwood-ai-problem-garbage-in-garbage-out",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.4047,
+      "publishedAt": "2026-06-27T18:39:32.000Z",
+      "summary": "Maraget Atwood, the storied author of The Handmaid's Tale and The Blind Assassin, was interviewed as part of the Babell Literary and Cultural Festival in Porto, Portugal. As it usually does at these things, the issue of AI came up, and Atwood didn't mince words. According to Deadline's recap, Atwood",
+      "tags": [
+        "RAG"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "62 Last Minute Prime Day Weekend Deals: Up to 45% Off (2026)",
+      "url": "https://www.wired.com/story/amazon-prime-day-absolute-best-deals-06-27-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4013,
+      "publishedAt": "2026-06-27T18:01:21.000Z",
+      "summary": "Prime Day is officially over, but many of our favorite, hand-picked deals are still available through the weekend.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Why is Apple asking me to pay more for Big Tech’s AI obsession?",
+      "url": "https://www.theverge.com/report/958678/apple-consumer-price-increase-ai-big-tech",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.3974,
+      "publishedAt": "2026-06-27T17:18:22.000Z",
+      "summary": "Tim Cook recently said price increases were \"unavoidable\" and described the company's pricing as \"unsustainable.\" The 16-inch MacBook Pro saw its price go up by $300. The 11-inch iPad Air went from $599 to $749. Even the HomePod Mini got a $30 bump to $129. Cook squarely placed the blame at the feet",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Duer’s Wear-Everywhere Pants Are on Sale This Weekend",
       "url": "https://www.wired.com/story/save-on-some-stellar-pants-during-a-rare-duer-sale/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.3973,
+      "score": 0.3638,
       "publishedAt": "2026-06-27T11:01:00.000Z",
       "summary": "It’s not often you can score discounts from the outdoor-coded Canadian company that makes understated and stylish performance clothing.",
       "tags": [
@@ -516,38 +632,11 @@
       "url": "https://huggingface.co/blog/vllm-jobs",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.3522,
+      "score": 0.3401,
       "publishedAt": "2026-06-26T00:00:00.000Z",
       "summary": "",
       "tags": [
         "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Download: brain-melting heatwaves and unprecedented OpenAI restrictions",
-      "url": "https://www.technologyreview.com/2026/06/26/1139780/the-download-heatwaves-brain-health-openai-restrictions/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.3481,
-      "publishedAt": "2026-06-26T12:10:00.000Z",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Heat waves mess with your brain. Scientists are trying to figure out why. —Jessica Hamzelou It’s been hot in London this week. Really hot. A dangerous",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Anthropic&#8217;s Mythos 5 is back",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/958458/anthropic-mythos-5-is-back-trump-negotiations",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.3414,
-      "publishedAt": "2026-06-27T00:33:44.000Z",
-      "summary": "After a rollercoaster negotiation process with the Trump administration that dragged on for two weeks, Anthropic's Mythos 5 is finally back in action - at least, somewhat, for a select group of organizations, according to a letter from the government to Anthropic that was viewed by The Verge. Fable",
-      "tags": [
-        "LLM",
-        "RAG"
       ],
       "engagementScore": 0
     },
@@ -600,87 +689,6 @@
       "summary": "",
       "tags": [
         "Agents"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Shipping huggingface_hub every week with AI, open tools, and a human in the loop",
-      "url": "https://huggingface.co/blog/huggingface-hub-release-ci",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.3401,
-      "publishedAt": "2026-06-23T00:00:00.000Z",
-      "summary": "",
-      "tags": [
-        "Open Source",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Experimenting with the proposed Cross-Origin Storage API in Transformers.js",
-      "url": "https://huggingface.co/blog/cross-origin-storage",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.3401,
-      "publishedAt": "2026-06-23T00:00:00.000Z",
-      "summary": "",
-      "tags": [
-        "RAG",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
-      "url": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.3401,
-      "publishedAt": "2026-06-22T13:18:56.000Z",
-      "summary": "",
-      "tags": [
-        "Open Source"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Heat waves mess with your brain. Scientists are trying to figure out why.",
-      "url": "https://www.technologyreview.com/2026/06/26/1139760/heat-waves-mess-with-your-brain-scientists-are-trying-to-figure-out-why/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.3296,
-      "publishedAt": "2026-06-26T09:00:00.000Z",
-      "summary": "It’s been hot in London this week. Really hot. A dangerous heat wave has hit Western Europe. Yesterday, the UK recorded its highest ever June temperature at 36.1 °C (about 97 °F). But as the weather app on my phone confirmed, it felt like 39 °C. It’s frightening that we are seeing such temperatures",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Anthropic&#8217;s Mythos mess is only getting worse",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/957327/anthropic-mythos-fable-ai-trump-administration-negotiations",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.3038,
-      "publishedAt": "2026-06-26T17:32:09.000Z",
-      "summary": "It's been two weeks since Anthropic took its Mythos-class models offline after a Friday evening ultimatum from the Trump administration. The company sprang into action immediately, sending a barrage of executives to Washington, DC. But updates have been suspiciously lacking, with no resolution in si",
-      "tags": [
-        "LLM",
-        "RAG"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "OpenAI unveils GPT-5.6 amid US AI regulatory drama",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/957845/openai-gpt-5-6-trump-administration-ai-preview",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.301,
-      "publishedAt": "2026-06-26T17:01:03.000Z",
-      "summary": "Less than 24 hours after news broke that OpenAI would stagger its next model release at the request of the Trump administration, that model, GPT-5.6, is here. On Friday, the company unveiled the limited preview of its new GPT 5.6 model suite: Sol, the flagship; Terra, a medium-tier model for \"high-v",
-      "tags": [
-        "LLM"
       ],
       "engagementScore": 0
     }
