@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T20:03:39.957Z",
+  "updatedAt": "2026-06-30T22:17:37.422Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,7 +12,7 @@
       "url": "https://www.anthropic.com/news/claude-sonnet-5",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 1.148,
+      "score": 1.1519,
       "publishedAt": "2026-06-30T17:59:52.000Z",
       "summary": "Our most agentic Sonnet yet, with top-tier intelligence for coding and everyday professional work.",
       "tags": [
@@ -20,14 +20,27 @@
         "Agents",
         "Dev Tools"
       ],
-      "engagementScore": 506
+      "engagementScore": 734
+    },
+    {
+      "title": "Nano Banana 2 Lite",
+      "url": "https://deepmind.google/models/gemini-image/flash-lite/",
+      "feedSource": "Hacker News",
+      "source": "deepmind.google",
+      "score": 0.9571,
+      "publishedAt": "2026-06-30T16:48:37.000Z",
+      "summary": "Google DeepMind",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 253
     },
     {
       "title": "How ChatGPT adoption has expanded",
       "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9567,
+      "score": 0.9404,
       "publishedAt": "2026-06-30T09:00:00.000Z",
       "summary": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages.",
       "tags": [
@@ -36,24 +49,26 @@
       "engagementScore": 0
     },
     {
-      "title": "Nano Banana 2 Lite",
-      "url": "https://deepmind.google/models/gemini-image/flash-lite/",
+      "title": "Meta's brain-scanning system reads sentences non-invasively, code open source",
+      "url": "https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/?_fb_noscript=1",
       "feedSource": "Hacker News",
-      "source": "deepmind.google",
-      "score": 0.9553,
-      "publishedAt": "2026-06-30T16:48:37.000Z",
-      "summary": "Google DeepMind",
+      "source": "ai.meta.com",
+      "score": 0.8941,
+      "publishedAt": "2026-06-30T21:29:13.000Z",
+      "summary": "Last year, we introduced Brain2Qwerty v1, research that uses AI to decode brain activity into text without any surgical implant. Now we’re sharing the next step: Brain2Qwerty v2, the highest-performing end-to-end pipeline capable of real-time sentence decoding from non-invasive brain recordings, app",
       "tags": [
-        "AI"
+        "Research",
+        "Open Source",
+        "Dev Tools"
       ],
-      "engagementScore": 181
+      "engagementScore": 39
     },
     {
       "title": "Introducing GeneBench-Pro",
       "url": "https://openai.com/index/introducing-genebench-pro",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8911,
+      "score": 0.8748,
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "summary": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
       "tags": [
@@ -66,7 +81,7 @@
       "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8911,
+      "score": 0.8748,
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "summary": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
       "tags": [
@@ -79,7 +94,7 @@
       "url": "https://openai.com/index/genebench-pro/case-studies",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8911,
+      "score": 0.8748,
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "summary": "Case studies",
       "tags": [
@@ -92,7 +107,7 @@
       "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.8849,
+      "score": 0.8697,
       "publishedAt": "2026-06-30T16:02:40.000Z",
       "summary": "Scale your ideas with Nano Banana 2 Lite, our fastest, most cost-efficient Gemini Image model, and Gemini Omni Flash for high-quality video and conversational editing.",
       "tags": [
@@ -106,7 +121,7 @@
       "url": "https://arxiv.org/abs/2606.27382",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8029,
+      "score": 0.7877,
       "publishedAt": "2026-06-30T04:00:00.000Z",
       "summary": "arXiv:2606.27382v1 Announce Type: new \nAbstract: While the primary function of computers lies in computation and processing, the core value of the Internet is rooted in sharing and collaboration. Computers create the Internet, and the Internet empowers the value of computers. The rapid development o",
       "tags": [
@@ -120,7 +135,7 @@
       "url": "https://arxiv.org/abs/2606.27443",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8029,
+      "score": 0.7877,
       "publishedAt": "2026-06-30T04:00:00.000Z",
       "summary": "arXiv:2606.27443v1 Announce Type: new \nAbstract: Personality prompting shapes how large language models communicate, yet whether these behavioral shifts affect objective task outcomes remains under-explored. Prior work shows that agents prompted with low agreeableness produce adversarial language, w",
       "tags": [
@@ -135,7 +150,7 @@
       "url": "https://arxiv.org/abs/2606.27483",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8029,
+      "score": 0.7877,
       "publishedAt": "2026-06-30T04:00:00.000Z",
       "summary": "arXiv:2606.27483v1 Announce Type: new \nAbstract: Large language model (LLM) agents have demonstrated strong capability in sequential decision-making, yet they remains fundamentally reactive in long-horizon tasks. Unlike humans who employ \"what-if\" reasoning to evaluate potential plans before commitm",
       "tags": [
@@ -151,7 +166,7 @@
       "url": "https://arxiv.org/abs/2606.27593",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8029,
+      "score": 0.7877,
       "publishedAt": "2026-06-30T04:00:00.000Z",
       "summary": "arXiv:2606.27593v1 Announce Type: new \nAbstract: We introduce a categorical framework called ODYSSEY for constructing verifiable, local truth-preserving foundation models as compositions of foundries: building-block architectural components that specify a cover of local contexts, local representatio",
       "tags": [
@@ -164,7 +179,7 @@
       "url": "https://arxiv.org/abs/2606.27619",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8029,
+      "score": 0.7877,
       "publishedAt": "2026-06-30T04:00:00.000Z",
       "summary": "arXiv:2606.27619v1 Announce Type: new \nAbstract: Dyslexic learners increasingly use artificial intelligence (AI) tools to support reading, writing, organisation, and study-related tasks. However, their lived experiences with these tools remain largely underexamined. This paper proposes DysLexLens, a",
       "tags": [
@@ -179,7 +194,7 @@
       "url": "https://arxiv.org/abs/2606.27652",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8029,
+      "score": 0.7877,
       "publishedAt": "2026-06-30T04:00:00.000Z",
       "summary": "arXiv:2606.27652v1 Announce Type: new \nAbstract: We find that explicit reasoning does not necessarily translate into better multimodal emotion recognition (MER) accuracy, even though it makes predictions more interpretable. Specifically, for reasoning-based MLLMs, fast thinking by triggering direct",
       "tags": [
@@ -194,7 +209,7 @@
       "url": "https://arxiv.org/abs/2606.27736",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8029,
+      "score": 0.7877,
       "publishedAt": "2026-06-30T04:00:00.000Z",
       "summary": "arXiv:2606.27736v1 Announce Type: new \nAbstract: The rapid spread of fake news poses increasing threats to information ecosystems, especially as AI-generated misinformation under Generative Engine Optimization (GEO) poisoning allows adversarially crafted content to be systematically surfaced by retr",
       "tags": [
@@ -209,7 +224,7 @@
       "url": "https://arxiv.org/abs/2606.27757",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8029,
+      "score": 0.7877,
       "publishedAt": "2026-06-30T04:00:00.000Z",
       "summary": "arXiv:2606.27757v1 Announce Type: new \nAbstract: Large language models (LLMs) have attracted widespread attention from academia and industry, yet their deployment raises critical security concerns regarding robustness and reliability. Planning, a core component of intelligent behavior, remains chall",
       "tags": [
@@ -223,7 +238,7 @@
       "url": "https://huggingface.co/blog/ibm-research/scarfbench",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.7855,
+      "score": 0.7714,
       "publishedAt": "2026-06-30T18:32:50.000Z",
       "summary": "",
       "tags": [
@@ -236,7 +251,7 @@
       "url": "https://openai.com/index/mapping-ai-jobs-transition-eu",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7671,
+      "score": 0.7509,
       "publishedAt": "2026-06-29T07:00:00.000Z",
       "summary": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.",
       "tags": [
@@ -249,11 +264,28 @@
       "url": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.7609,
+      "score": 0.7468,
       "publishedAt": "2026-06-30T14:39:11.000Z",
       "summary": "",
       "tags": [
         "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Claude Science is Anthropic’s newest flagship product",
+      "url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6832,
+      "publishedAt": "2026-06-30T21:50:04.000Z",
+      "summary": "At an event for pharmaceutical executives, biotech founders, and researchers on Tuesday, Anthropic announced Claude Science, a major new product intended to support scientific research in the same way that Claude Code supports software engineering. Like Claude Code, Claude Science can autonomously c",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Research",
+        "Safety",
+        "Dev Tools"
       ],
       "engagementScore": 0
     },
@@ -277,7 +309,7 @@
       "url": "https://www.technologyreview.com/2026/06/30/1139958/roundtables-longevitys-next-frontier-reprogramming-your-body/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6716,
+      "score": 0.6586,
       "publishedAt": "2026-06-30T17:36:48.000Z",
       "summary": "Listen to the session or watch below Billions of dollars are flooding into efforts to reverse aging as scientists explore ways to return cells to a younger state. But how far off are these experimental treatments? Will they really work? Watch a conversation exploring longevity&#8217;s new focus. Spe",
       "tags": [
@@ -291,7 +323,7 @@
       "url": "https://huggingface.co/blog/eee-community-evals",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6683,
+      "score": 0.6542,
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "summary": "",
       "tags": [
@@ -304,7 +336,7 @@
       "url": "https://openai.com/index/hp-frontier-partnership",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6651,
+      "score": 0.6488,
       "publishedAt": "2026-06-28T17:00:00.000Z",
       "summary": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
       "tags": [
@@ -317,7 +349,7 @@
       "url": "https://www.technologyreview.com/2026/06/30/1139954/the-download-ai-agents-coworkers-solar-powered-internet/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6399,
+      "score": 0.6268,
       "publishedAt": "2026-06-30T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. AI agents are not your “coworkers” Imagine coming in to work to learn that a new underling will report to you. The worker is not a person but an AI to",
       "tags": [
@@ -330,7 +362,7 @@
       "url": "https://www.technologyreview.com/2026/06/30/1139513/agriculture-is-ready-for-ai-but-its-data-isnt/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6389,
+      "score": 0.6259,
       "publishedAt": "2026-06-30T12:00:00.000Z",
       "summary": "Artificial intelligence is transforming what is possible in agriculture, but industry leaders should be wary of investing in AI without first laying the groundwork.&#160; The use cases are promising, especially for an industry navigating volatile fertilizer costs, unpredictable weather, and margins",
       "tags": [
@@ -343,7 +375,7 @@
       "url": "https://huggingface.co/blog/allenai/discoformer",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6307,
+      "score": 0.6166,
       "publishedAt": "2026-06-29T18:02:48.000Z",
       "summary": "",
       "tags": [
@@ -356,7 +388,7 @@
       "url": "https://www.technologyreview.com/2026/06/30/1139661/building-tech-in-the-worlds-secret-rd-hub/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6295,
+      "score": 0.6165,
       "publishedAt": "2026-06-30T10:23:30.000Z",
       "summary": "Apple. Anthropic. Disney Research. Google. Meta. Microsoft. NVIDIA. OpenAI. Few places outside Silicon Valley can claim R&#38;D hubs from all of these companies. Fewer still are concentrated in a city of just over 400,000 people—roughly half the size of San Francisco. Over the past two decades, howe",
       "tags": [
@@ -370,7 +402,7 @@
       "url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.6039,
+      "score": 0.5909,
       "publishedAt": "2026-06-30T06:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Generated_Image_k2dxu1k2.max-600x600.format-webp.webp\"&gt;Google UK shares its latest Economic Impact Report and how to enable more people to unlock the benefits of AI-powered technologies.",
       "tags": [
@@ -382,11 +414,38 @@
       "engagementScore": 0
     },
     {
+      "title": "Daisy Sound’s First Headphones Are Premium, High-Quality—and Just a Little Bit Cheaper",
+      "url": "https://www.wired.com/story/daisy-sound-yet-another-company-is-making-premium-high-end-headphones/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5785,
+      "publishedAt": "2026-06-30T21:07:32.000Z",
+      "summary": "The California-based startup enters a crowded headphone market with a $399 chiseled-aluminum gamble.",
+      "tags": [
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Claude Code is steganographically marking requests",
+      "url": "https://thereallo.dev/blog/claude-code-prompt-steganography",
+      "feedSource": "Hacker News",
+      "source": "thereallo.dev",
+      "score": 0.5744,
+      "publishedAt": "2026-06-30T15:44:24.000Z",
+      "summary": "I inspected Claude Code for privacy reasons and found hidden system prompt markers based on API base URL and timezone.",
+      "tags": [
+        "LLM",
+        "Dev Tools"
+      ],
+      "engagementScore": 1187
+    },
+    {
       "title": "Google’s NotebookLM can sum up your research in a TikTok-style clip",
       "url": "https://www.theverge.com/tech/959778/google-notebooklm-ai-clips",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5813,
+      "score": 0.5693,
       "publishedAt": "2026-06-30T19:24:51.000Z",
       "summary": "Google's NotebookLM is adding a new way to catch up on your notes: TikTok-style AI videos. The new feature is rolling out to Google AI Ultra and Pro subscribers, allowing NotebookLM to generate 60-second vertical AI clips based on the sources you upload to the app. The example shared by Google detai",
       "tags": [
@@ -396,25 +455,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Claude Code is steganographically marking requests",
-      "url": "https://thereallo.dev/blog/claude-code-prompt-steganography",
-      "feedSource": "Hacker News",
-      "source": "thereallo.dev",
-      "score": 0.5752,
-      "publishedAt": "2026-06-30T15:44:24.000Z",
-      "summary": "I inspected Claude Code for privacy reasons and found hidden system prompt markers based on API base URL and timezone.",
-      "tags": [
-        "LLM",
-        "Dev Tools"
-      ],
-      "engagementScore": 901
-    },
-    {
       "title": "Netflix is using an AI-generated Gene Wilder voice in its Willy Wonka reality show",
       "url": "https://www.theverge.com/streaming/959684/netflix-wonka-golden-ticket-gene-wilder",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5706,
+      "score": 0.5586,
       "publishedAt": "2026-06-30T17:24:34.000Z",
       "summary": "A new teaser trailer confirmed that Wonka's The Golden Ticket will premiere on Netflix on September 23rd, following its Squid Game reality show in the trend of creating real competitions based on fictional torture scenarios. While the sets seen in the trailer are real and not some Glasgow-style AI f",
       "tags": [
@@ -423,24 +468,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Programmable Probabilistic Computer with 1M p-bits",
-      "url": "https://arxiv.org/abs/2606.25313",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.5631,
-      "publishedAt": "2026-06-28T15:55:31.000Z",
-      "summary": "Probabilistic computers built from p-bits have been proposed as hardware accelerators for sampling and optimizing Ising models, but existing systems have been confined to a single chip, capped by its capacity and memory bandwidth. Here we break this limit by networking FPGAs into a single Ising mach",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 56
-    },
-    {
       "title": "New York Is About to Feel Hotter Than Phoenix",
       "url": "https://www.wired.com/story/new-york-about-feel-hotter-than-phoenix/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5593,
+      "score": 0.5474,
       "publishedAt": "2026-06-30T15:18:08.000Z",
       "summary": "Extreme heat coupled with humidity will make it feel like 109 degrees Fahrenheit as the holiday weekend approaches.",
       "tags": [
@@ -453,7 +485,7 @@
       "url": "https://www.theverge.com/column/959270/elon-musk-open-ai-bill-savitt-twitter",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5469,
+      "score": 0.535,
       "publishedAt": "2026-06-30T12:59:20.000Z",
       "summary": "Watching Elon Musk fulminate at Bill Savitt during Musk v. Altman - the case in which Musk sued Sam Altman and OpenAI instead of seeing a therapist about his AI failures - was a bit like watching a toddler have a temper tantrum at his nursery school teacher. Savitt's questions were \"designed to tric",
       "tags": [
@@ -463,11 +495,24 @@
       "engagementScore": 0
     },
     {
+      "title": "County with 37 Data Centers Asks Schools to 'Conserve Electricity'",
+      "url": "https://www.404media.co/henrico-virginia-datacenter-energy-cost-email/",
+      "feedSource": "Hacker News",
+      "source": "404media.co",
+      "score": 0.5348,
+      "publishedAt": "2026-06-30T16:05:46.000Z",
+      "summary": "Henrico County is a major hub for data centers in Virginia. Its officials said it expects a 25% rise in electricity costs next year, and advised workers to close the blinds and turn off their computers to make up for it.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 379
+    },
+    {
       "title": "Libby will filter out AI content, kind of",
       "url": "https://www.theverge.com/column/959433/libby-ai-filter",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5454,
+      "score": 0.5334,
       "publishedAt": "2026-06-30T12:41:41.000Z",
       "summary": "This is Lowpass by Janko Roettgers, a newsletter on the ever-evolving intersection of tech and entertainment, syndicated just for The Verge subscribers once a week. \"AI is the new frontier for us,\" says Marc DeBevoise, who took over as the new CEO of OverDrive last week. OverDrive is best known for",
       "tags": [
@@ -476,11 +521,25 @@
       "engagementScore": 0
     },
     {
+      "title": "Claude Science",
+      "url": "https://claude.com/product/claude-science",
+      "feedSource": "Hacker News",
+      "source": "claude.com",
+      "score": 0.5306,
+      "publishedAt": "2026-06-30T17:07:41.000Z",
+      "summary": "Claude Science is your AI workbench for scientific research. Works through your research like a skilled scientist, running the analysis and tracing every step. Spend less time stitching pipelines together, and more time on the science.",
+      "tags": [
+        "LLM",
+        "Research"
+      ],
+      "engagementScore": 294
+    },
+    {
       "title": "The 2 Best Slushie Machines of 2026: Now With Soft Serve",
       "url": "https://www.wired.com/gallery/best-slushie-machines/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5392,
+      "score": 0.5273,
       "publishedAt": "2026-06-30T11:33:00.000Z",
       "summary": "The original Ninja Slushi has been replaced! The new best slushie machines chill faster and make soft serve.",
       "tags": [
@@ -493,7 +552,7 @@
       "url": "https://www.wired.com/review/bitdefender-vpn/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5363,
+      "score": 0.5244,
       "publishedAt": "2026-06-30T11:00:00.000Z",
       "summary": "Bitdefender VPN has an excellent starting price, even if it lacks the advanced features that privacy nerds may want.",
       "tags": [
@@ -502,24 +561,24 @@
       "engagementScore": 0
     },
     {
-      "title": "County with 37 Data Centers Asks Schools to 'Conserve Electricity'",
-      "url": "https://www.404media.co/henrico-virginia-datacenter-energy-cost-email/",
-      "feedSource": "Hacker News",
-      "source": "404media.co",
-      "score": 0.5357,
-      "publishedAt": "2026-06-30T16:05:46.000Z",
-      "summary": "Henrico County is a major hub for data centers in Virginia. Its officials said it expects a 25% rise in electricity costs next year, and advised workers to close the blinds and turn off their computers to make up for it.",
+      "title": "Bernie Sanders Saw This Coming",
+      "url": "https://www.wired.com/story/the-big-interview-podcast-senator-bernie-sanders/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5217,
+      "publishedAt": "2026-06-30T10:30:00.000Z",
+      "summary": "For decades, the senator has argued that concentrated wealth threatened American democracy. Now he’s betting that frustration with Big Tech, billionaires, and unchecked AI is reaching a tipping point.",
       "tags": [
-        "AI"
+        "Industry"
       ],
-      "engagementScore": 288
+      "engagementScore": 0
     },
     {
       "title": "AI agents are not your &#8220;coworkers&#8221;",
       "url": "https://www.technologyreview.com/2026/06/29/1139849/ai-agents-are-not-your-coworkers/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5339,
+      "score": 0.5209,
       "publishedAt": "2026-06-29T18:00:00.000Z",
       "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Imagine coming in to work to learn that a new underling will report to you. The worker is not a person but an AI tool—one that your company nonetheless calls Alex",
       "tags": [
@@ -529,24 +588,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Bernie Sanders Saw This Coming",
-      "url": "https://www.wired.com/story/the-big-interview-podcast-senator-bernie-sanders/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5336,
-      "publishedAt": "2026-06-30T10:30:00.000Z",
-      "summary": "For decades, the senator has argued that concentrated wealth threatened American democracy. Now he’s betting that frustration with Big Tech, billionaires, and unchecked AI is reaching a tipping point.",
-      "tags": [
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "How Hunter Biden Won the Internet",
       "url": "https://www.wired.com/story/how-hunter-biden-won-the-internet/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5309,
+      "score": 0.519,
       "publishedAt": "2026-06-30T10:00:00.000Z",
       "summary": "WIRED spent months talking to America’s favorite failson as he plotted his return to public life. Now he’s feeding the trolls—and everyone else.",
       "tags": [
@@ -559,7 +605,7 @@
       "url": "https://www.wired.com/story/satellite-images-damage-caused-by-venezuela-earthquakes/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5283,
+      "score": 0.5163,
       "publishedAt": "2026-06-30T09:30:00.000Z",
       "summary": "The maps and images show the extent of destruction and give rescue operations a tool to find any remaining survivors.",
       "tags": [
@@ -573,68 +619,11 @@
       "url": "https://www.theverge.com/tech/959211/tidal-ai-music-policy-demonetizingdetect-label",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5281,
+      "score": 0.5161,
       "publishedAt": "2026-06-30T09:27:43.000Z",
       "summary": "Tidal shared its new policies regarding AI-generated music today and how the platform plans to \"protect artists\" and \"inform listeners.\" Instead of banning it outright, starting on July 15th Tidal will label tracks it has identified as being 100 percent AI-generated with an icon. But starting today",
       "tags": [
         "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Claude Science",
-      "url": "https://claude.com/product/claude-science",
-      "feedSource": "Hacker News",
-      "source": "claude.com",
-      "score": 0.5277,
-      "publishedAt": "2026-06-30T17:07:41.000Z",
-      "summary": "Claude Science is your AI workbench for scientific research. Works through your research like a skilled scientist, running the analysis and tracing every step. Spend less time stitching pipelines together, and more time on the science.",
-      "tags": [
-        "LLM",
-        "Research"
-      ],
-      "engagementScore": 201
-    },
-    {
-      "title": "Ask an AI expert: What exactly is the full stack?",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
-      "feedSource": "Google AI",
-      "source": "blog.google",
-      "score": 0.5222,
-      "publishedAt": "2026-06-29T16:00:00.000Z",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Full_Stack.max-600x600.format-webp.webp\"&gt;A Google expert explains what it means to take a full-stack approach to AI and why it’s been the foundation of our AI work for so long.",
-      "tags": [
-        "RAG",
-        "Vision",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Apple Neural Engine: Architecture, Programming, and Performance",
-      "url": "https://arxiv.org/abs/2606.22283",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.5219,
-      "publishedAt": "2026-06-27T23:30:14.000Z",
-      "summary": "The Apple Neural Engine (ANE) is the fixed-function matrix accelerator that has shipped in Apple systems-on-chip since the A11-class iPhone and iPad chips and the M1-class Mac chips, exposed to applications only through the Core ML model framework. This guide reports a reverse-engineered account of",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 225
-    },
-    {
-      "title": "Agent confidence on the technical frontier",
-      "url": "https://www.technologyreview.com/2026/06/29/1139635/agent-confidence-on-the-technical-frontier/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.5148,
-      "publishedAt": "2026-06-29T14:44:01.000Z",
-      "summary": "Enterprise investment in AI is booming. Gartner is calling 2026 an “inflection year” for organizations to align their AI projects with strategic business objectives. As the pressure to prove ROI mounts, executives and technology leaders are looking to agentic AI to drive the measurable financial out",
-      "tags": [
-        "Agents",
-        "Safety",
-        "Industry"
       ],
       "engagementScore": 0
     },
@@ -669,28 +658,45 @@
       "engagementScore": 0
     },
     {
-      "title": "Want to Boost Your Home’s Resale Value? Install a Heat Pump",
-      "url": "https://www.wired.com/story/boost-your-homes-resale-value-install-heat-pump/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5096,
-      "publishedAt": "2026-06-30T06:00:00.000Z",
-      "summary": "Heat pumps are more than just a way to keep your home comfortable without using fossil fuels.",
+      "title": "Ask an AI expert: What exactly is the full stack?",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
+      "feedSource": "Google AI",
+      "source": "blog.google",
+      "score": 0.5092,
+      "publishedAt": "2026-06-29T16:00:00.000Z",
+      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Full_Stack.max-600x600.format-webp.webp\"&gt;A Google expert explains what it means to take a full-stack approach to AI and why it’s been the foundation of our AI work for so long.",
       "tags": [
-        "AI"
+        "RAG",
+        "Vision",
+        "Dev Tools"
       ],
       "engagementScore": 0
     },
     {
-      "title": "The Download: metric weaknesses and AI elephant warnings",
-      "url": "https://www.technologyreview.com/2026/06/29/1139834/the-download-metric-weaknesses-ai-elephant-warnings/",
+      "title": "Apple Neural Engine: Architecture, Programming, and Performance",
+      "url": "https://arxiv.org/abs/2606.22283",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.5069,
+      "publishedAt": "2026-06-27T23:30:14.000Z",
+      "summary": "The Apple Neural Engine (ANE) is the fixed-function matrix accelerator that has shipped in Apple systems-on-chip since the A11-class iPhone and iPad chips and the M1-class Mac chips, exposed to applications only through the Core ML model framework. This guide reports a reverse-engineered account of",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 226
+    },
+    {
+      "title": "Agent confidence on the technical frontier",
+      "url": "https://www.technologyreview.com/2026/06/29/1139635/agent-confidence-on-the-technical-frontier/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4999,
-      "publishedAt": "2026-06-29T12:10:00.000Z",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The inevitable weakness of metrics There are plenty of useful things a metric can reveal. There are even more that it can obscure or corrupt. Like a l",
+      "score": 0.5018,
+      "publishedAt": "2026-06-29T14:44:01.000Z",
+      "summary": "Enterprise investment in AI is booming. Gartner is calling 2026 an “inflection year” for organizations to align their AI projects with strategic business objectives. As the pressure to prove ROI mounts, executives and technology leaders are looking to agentic AI to drive the measurable financial out",
       "tags": [
-        "AI"
+        "Agents",
+        "Safety",
+        "Industry"
       ],
       "engagementScore": 0
     }
