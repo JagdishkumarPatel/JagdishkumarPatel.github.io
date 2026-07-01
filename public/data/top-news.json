@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T04:16:07.752Z",
+  "updatedAt": "2026-07-01T09:56:31.588Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,7 +12,7 @@
       "url": "https://www.anthropic.com/news/claude-sonnet-5",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 1.123,
+      "score": 1.0905,
       "publishedAt": "2026-06-30T17:59:52.000Z",
       "summary": "Our most agentic Sonnet yet, with top-tier intelligence for coding and everyday professional work.",
       "tags": [
@@ -20,54 +20,54 @@
         "Agents",
         "Dev Tools"
       ],
-      "engagementScore": 962
+      "engagementScore": 1132
     },
     {
-      "title": "Redeploying Fable 5",
-      "url": "https://www.anthropic.com/news/redeploying-fable-5",
+      "title": "ArXiv's Next Chapter",
+      "url": "https://blog.arxiv.org/2026/06/30/arxivs-next-chapter/",
       "feedSource": "Hacker News",
-      "source": "anthropic.com",
-      "score": 1.0053,
-      "publishedAt": "2026-07-01T03:11:40.000Z",
-      "summary": "Anthropic is redeploying Claude Fable 5 starting July 1 following the lifting of export controls, with updated cybersecurity safeguards and a new industry jailbreak framework.",
+      "source": "blog.arxiv.org",
+      "score": 0.9071,
+      "publishedAt": "2026-07-01T02:51:36.000Z",
+      "summary": "On July 1, 2026, arXiv will spin out from Cornell University, its home for the past 25 years, to become an independent nonprofit organization. With this next phase in arXiv’s journey quickly approaching, you can read more about arXiv’s history and the decision to spin out from Cornell in this recent",
       "tags": [
-        "LLM"
+        "Research"
       ],
-      "engagementScore": 32
+      "engagementScore": 117
     },
     {
       "title": "Nano Banana 2 Lite",
       "url": "https://deepmind.google/models/gemini-image/flash-lite/",
       "feedSource": "Hacker News",
       "source": "deepmind.google",
-      "score": 0.9294,
+      "score": 0.8985,
       "publishedAt": "2026-06-30T16:48:37.000Z",
       "summary": "Google DeepMind",
       "tags": [
         "AI"
       ],
-      "engagementScore": 327
+      "engagementScore": 381
     },
     {
       "title": "From brain waves to words: a new path to communication without surgery",
       "url": "https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/?_fb_noscript=1",
       "feedSource": "Hacker News",
       "source": "ai.meta.com",
-      "score": 0.9121,
+      "score": 0.8858,
       "publishedAt": "2026-06-30T21:29:13.000Z",
       "summary": "Last year, we introduced Brain2Qwerty v1, research that uses AI to decode brain activity into text without any surgical implant. Now we’re sharing the next step: Brain2Qwerty v2, the highest-performing end-to-end pipeline capable of real-time sentence decoding from non-invasive brain recordings, app",
       "tags": [
         "Research",
         "Dev Tools"
       ],
-      "engagementScore": 124
+      "engagementScore": 158
     },
     {
       "title": "What Drives Interactive Improvement from Feedback?",
       "url": "https://arxiv.org/abs/2606.30774",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.9104,
+      "score": 0.8718,
       "publishedAt": "2026-07-01T04:00:00.000Z",
       "summary": "arXiv:2606.30774v1 Announce Type: new \nAbstract: We study when natural-language feedback produces improvement beyond the gains obtainable from repeated attempts alone. In multi-turn language agent setting, higher final accuracy can reflect useful feedback, but it can also arise from resampling, form",
       "tags": [
@@ -81,7 +81,7 @@
       "url": "https://arxiv.org/abs/2606.30840",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.9104,
+      "score": 0.8718,
       "publishedAt": "2026-07-01T04:00:00.000Z",
       "summary": "arXiv:2606.30840v1 Announce Type: new \nAbstract: LLM agents are becoming central to information retrieval: they issue retrieval queries, synthesize answers, and increasingly serve as judges for IR evaluation. Improving the prompts that control these agents is an optimization problem, but in applied",
       "tags": [
@@ -98,7 +98,7 @@
       "url": "https://arxiv.org/abs/2606.30846",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.9104,
+      "score": 0.8718,
       "publishedAt": "2026-07-01T04:00:00.000Z",
       "summary": "arXiv:2606.30846v1 Announce Type: new \nAbstract: Discovering simulation models for reuse remains a fundamental challenge in Modeling and Simulation (M&amp;S). When many models coexist, identifying those that align with a given modeling intent remains difficult. Recent advances in Artificial Intellig",
       "tags": [
@@ -113,7 +113,7 @@
       "url": "https://arxiv.org/abs/2606.30850",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.9104,
+      "score": 0.8718,
       "publishedAt": "2026-07-01T04:00:00.000Z",
       "summary": "arXiv:2606.30850v1 Announce Type: new \nAbstract: Large language models (LLMs) are typically deployed in multi-turn conversations, where each turn provides new evidence that should reduce epistemic uncertainty about their environment. Acting rationally then requires inferring the unobserved quantitie",
       "tags": [
@@ -127,7 +127,7 @@
       "url": "https://arxiv.org/abs/2606.30852",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.9104,
+      "score": 0.8718,
       "publishedAt": "2026-07-01T04:00:00.000Z",
       "summary": "arXiv:2606.30852v1 Announce Type: new \nAbstract: Reasoning models spend different amounts of useful computation across instances, but it remains unclear when a learned stopping rule improves over simple confidence or convergence thresholds. We study this question with LearnStop, a hidden-state-free",
       "tags": [
@@ -140,7 +140,7 @@
       "url": "https://arxiv.org/abs/2606.30863",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.9104,
+      "score": 0.8718,
       "publishedAt": "2026-07-01T04:00:00.000Z",
       "summary": "arXiv:2606.30863v1 Announce Type: new \nAbstract: Agents typically assume an expert user -- one with well-formed preferences about what they want -- and default to clarifying questions whenever the task is underspecified. We argue this assumption is unrealistic. Users often lack the domain knowledge",
       "tags": [
@@ -154,7 +154,7 @@
       "url": "https://arxiv.org/abs/2606.30906",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.9104,
+      "score": 0.8718,
       "publishedAt": "2026-07-01T04:00:00.000Z",
       "summary": "arXiv:2606.30906v1 Announce Type: new \nAbstract: Artificial Intelligence is increasingly applied to the field of law, and has the potential to increase access to justice. One particular movement that is gaining traction is that of agentic AI, wherein AI agents, based on Large Language Models (LLMs)",
       "tags": [
@@ -170,7 +170,7 @@
       "url": "https://arxiv.org/abs/2606.30911",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.9104,
+      "score": 0.8718,
       "publishedAt": "2026-07-01T04:00:00.000Z",
       "summary": "arXiv:2606.30911v1 Announce Type: new \nAbstract: ML engineering agents waste compute rediscovering known techniques because every competition is a cold start. We present HASTE, a hierarchical multi-agent system that organizes cross-competition knowledge into three scope tiers (global, domain, and co",
       "tags": [
@@ -184,7 +184,7 @@
       "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8969,
+      "score": 0.8555,
       "publishedAt": "2026-06-30T09:00:00.000Z",
       "summary": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages.",
       "tags": [
@@ -197,20 +197,34 @@
       "url": "https://research.google/blog/introducing-tabfm-a-zero-shot-foundation-model-for-tabular-data/",
       "feedSource": "Hacker News",
       "source": "research.google",
-      "score": 0.8735,
+      "score": 0.8551,
       "publishedAt": "2026-06-30T22:08:38.000Z",
       "summary": "We’ve seen a massive shift in how people handle time-series forecasting since we launched TimesFM. Now, we’re bringing that same “zero-shot” logic to tabular data.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 53
+      "engagementScore": 79
+    },
+    {
+      "title": "Start building with Nano Banana 2 Lite and Gemini Omni Flash",
+      "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
+      "feedSource": "DeepMind",
+      "source": "deepmind.google",
+      "score": 0.7904,
+      "publishedAt": "2026-06-30T16:02:40.000Z",
+      "summary": "Scale your ideas with Nano Banana 2 Lite, our fastest, most cost-efficient Gemini Image model, and Gemini Omni Flash for high-quality video and conversational editing.",
+      "tags": [
+        "LLM",
+        "Vision"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "Introducing GeneBench-Pro",
       "url": "https://openai.com/index/introducing-genebench-pro",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8313,
+      "score": 0.7899,
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "summary": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
       "tags": [
@@ -223,7 +237,7 @@
       "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8313,
+      "score": 0.7899,
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "summary": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
       "tags": [
@@ -236,7 +250,7 @@
       "url": "https://openai.com/index/genebench-pro/case-studies",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8313,
+      "score": 0.7899,
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "summary": "Case studies",
       "tags": [
@@ -245,55 +259,15 @@
       "engagementScore": 0
     },
     {
-      "title": "Start building with Nano Banana 2 Lite and Gemini Omni Flash",
-      "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.829,
-      "publishedAt": "2026-06-30T16:02:40.000Z",
-      "summary": "Scale your ideas with Nano Banana 2 Lite, our fastest, most cost-efficient Gemini Image model, and Gemini Omni Flash for high-quality video and conversational editing.",
-      "tags": [
-        "LLM",
-        "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
       "url": "https://huggingface.co/blog/ibm-research/scarfbench",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.7336,
+      "score": 0.6978,
       "publishedAt": "2026-06-30T18:32:50.000Z",
       "summary": "",
       "tags": [
         "Agents"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Why Specialization Is Inevitable",
-      "url": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.709,
-      "publishedAt": "2026-06-30T14:39:11.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Mapping Europe’s AI Workforce Opportunity",
-      "url": "https://openai.com/index/mapping-ai-jobs-transition-eu",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.7073,
-      "publishedAt": "2026-06-29T07:00:00.000Z",
-      "summary": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.",
-      "tags": [
-        "LLM"
       ],
       "engagementScore": 0
     },
@@ -313,11 +287,37 @@
       "engagementScore": 1133
     },
     {
+      "title": "Why Specialization Is Inevitable",
+      "url": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.6732,
+      "publishedAt": "2026-06-30T14:39:11.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Mapping Europe’s AI Workforce Opportunity",
+      "url": "https://openai.com/index/mapping-ai-jobs-transition-eu",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.6659,
+      "publishedAt": "2026-06-29T07:00:00.000Z",
+      "summary": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Claude Science is Anthropic’s newest flagship product",
       "url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6484,
+      "score": 0.6153,
       "publishedAt": "2026-06-30T21:50:04.000Z",
       "summary": "At an event for pharmaceutical executives, biotech founders, and researchers on Tuesday, Anthropic announced Claude Science, a major new product intended to support scientific research in the same way that Claude Code supports software engineering. Like Claude Code, Claude Science can autonomously c",
       "tags": [
@@ -334,7 +334,7 @@
       "url": "https://www.technologyreview.com/2026/06/30/1139958/roundtables-longevitys-next-frontier-reprogramming-your-body/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6237,
+      "score": 0.5907,
       "publishedAt": "2026-06-30T17:36:48.000Z",
       "summary": "Listen to the session or watch below Billions of dollars are flooding into efforts to reverse aging as scientists explore ways to return cells to a younger state. But how far off are these experimental treatments? Will they really work? Watch a conversation exploring longevity&#8217;s new focus. Spe",
       "tags": [
@@ -344,11 +344,38 @@
       "engagementScore": 0
     },
     {
+      "title": "Anthropic&#8217;s long-sidelined Fable 5 is greenlit to return",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/958964/anthropic-claude-fable-5-is-back",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5832,
+      "publishedAt": "2026-07-01T09:39:23.000Z",
+      "summary": "After weeks of negotiating with the Trump administration, Anthropic is finally going to be able to bring Claude Fable 5 back online. In a post on X, Anthropic said it plans to begin restoring access Wednesday to users globally on Claude platforms, and that the company would re-enable access on AWS,",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "A Guided Tour of Donald Trump’s Renovated Washington, DC",
+      "url": "https://www.wired.com/story/a-guided-tour-of-donald-trumps-renovated-washington-dc/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5824,
+      "publishedAt": "2026-07-01T09:30:00.000Z",
+      "summary": "Trump has remade the nation’s capitol in his own image. Ahead of the Fourth of July, WIRED guides you through the dizzying effects of DC’s makeover.",
+      "tags": [
+        "Vision",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Featuring Every Eval Ever Results on Hugging Face Model Pages",
       "url": "https://huggingface.co/blog/eee-community-evals",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6164,
+      "score": 0.5806,
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "summary": "",
       "tags": [
@@ -357,11 +384,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Space Lasers Show How Venezuela’s Earthquakes Reshaped the Earth’s Crust",
+      "url": "https://www.wired.com/story/space-lasers-show-venezuela-earthquakes-reshaped-earth-crust/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.577,
+      "publishedAt": "2026-07-01T08:30:00.000Z",
+      "summary": "New satellite imagery reveals how much terrain has shifted in the wake of the twin quakes.",
+      "tags": [
+        "Vision"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
       "url": "https://openai.com/index/hp-frontier-partnership",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6052,
+      "score": 0.5638,
       "publishedAt": "2026-06-28T17:00:00.000Z",
       "summary": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
       "tags": [
@@ -374,7 +414,7 @@
       "url": "https://www.technologyreview.com/2026/06/30/1139954/the-download-ai-agents-coworkers-solar-powered-internet/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.592,
+      "score": 0.5589,
       "publishedAt": "2026-06-30T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. AI agents are not your “coworkers” Imagine coming in to work to learn that a new underling will report to you. The worker is not a person but an AI to",
       "tags": [
@@ -383,11 +423,89 @@
       "engagementScore": 0
     },
     {
+      "title": "Ulta Promo Codes: Up to 50% Off in July 2026",
+      "url": "https://www.wired.com/story/ulta-coupon/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5583,
+      "publishedAt": "2026-07-01T05:00:00.000Z",
+      "summary": "Shop the latest beauty trends and save big using an Ulta promo code for beauty tech, makeup, and more.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Nike Promo Codes and Discounts: 30% for July 2026",
+      "url": "https://www.wired.com/story/nike-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5583,
+      "publishedAt": "2026-07-01T05:00:00.000Z",
+      "summary": "Check out our deals for Nike this July 2026, including 15% off select purchases.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Priceline Promo Codes &amp; Coupons: 10% Off July",
+      "url": "https://www.wired.com/story/priceline-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5583,
+      "publishedAt": "2026-07-01T05:00:00.000Z",
+      "summary": "Unlock massive discounts on Priceline hotels, flights, and rental cars. Find verified Priceline coupon codes and deals for Express Deals, student discounts, and more.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Peacock Promo Codes: 40% Off July 2026",
+      "url": "https://www.wired.com/story/peacock-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5583,
+      "publishedAt": "2026-07-01T05:00:00.000Z",
+      "summary": "Stream your favorite shows for up to $80 off this month, and save on subscription plans with the latest Peacock TV coupons from WIRED.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Surfshark Promo Codes: 87% Off | July 2026",
+      "url": "https://www.wired.com/story/surfshark-coupon/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5583,
+      "publishedAt": "2026-07-01T05:00:00.000Z",
+      "summary": "Save up to 87% with a Surfshark coupon code, 3 months of VPN free today, and more from WIRED.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Home Depot Promo Codes: 50% Off in July 2026",
+      "url": "https://www.wired.com/story/home-depot-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5583,
+      "publishedAt": "2026-07-01T05:00:00.000Z",
+      "summary": "Save up to 50% today with the latest Home Depot promo codes for appliances, power tools, and more this July.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Agriculture is ready for AI, but its data isn&#8217;t",
       "url": "https://www.technologyreview.com/2026/06/30/1139513/agriculture-is-ready-for-ai-but-its-data-isnt/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.591,
+      "score": 0.5579,
       "publishedAt": "2026-06-30T12:00:00.000Z",
       "summary": "Artificial intelligence is transforming what is possible in agriculture, but industry leaders should be wary of investing in AI without first laying the groundwork.&#160; The use cases are promising, especially for an industry navigating volatile fertilizer costs, unpredictable weather, and margins",
       "tags": [
@@ -396,24 +514,24 @@
       "engagementScore": 0
     },
     {
-      "title": "Anthropic&#8217;s long-sidelined Fable 5 is greenlit to return",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/958964/anthropic-claude-fable-5-is-back",
-      "feedSource": "The Verge",
+      "title": "Meta is adding rate limits and soft paywall to smart glasses",
+      "url": "https://www.theverge.com/gadgets/959899/meta-ai-glasses-paywall-rate-limit",
+      "feedSource": "Hacker News",
       "source": "theverge.com",
-      "score": 0.5823,
-      "publishedAt": "2026-07-01T03:49:06.000Z",
-      "summary": "After weeks of negotiating with the Trump administration, Anthropic is finally going to be able to bring Claude Fable 5 back online. In a post on X, Anthropic said it plans to begin restoring access tomorrow to users globally on Claude platforms, and that the company would re-enable access on AWS, G",
+      "score": 0.5523,
+      "publishedAt": "2026-07-01T05:43:44.000Z",
+      "summary": "Meta is rate-limiting on-device features.",
       "tags": [
-        "LLM"
+        "AI"
       ],
-      "engagementScore": 0
+      "engagementScore": 39
     },
     {
       "title": "Building tech in the world’s secret R&#038;D hub",
       "url": "https://www.technologyreview.com/2026/06/30/1139661/building-tech-in-the-worlds-secret-rd-hub/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5816,
+      "score": 0.5485,
       "publishedAt": "2026-06-30T10:23:30.000Z",
       "summary": "Apple. Anthropic. Disney Research. Google. Meta. Microsoft. NVIDIA. OpenAI. Few places outside Silicon Valley can claim R&#38;D hubs from all of these companies. Fewer still are concentrated in a city of just over 400,000 people—roughly half the size of San Francisco. Over the past two decades, howe",
       "tags": [
@@ -427,7 +545,7 @@
       "url": "https://huggingface.co/blog/allenai/discoformer",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.5788,
+      "score": 0.5429,
       "publishedAt": "2026-06-29T18:02:48.000Z",
       "summary": "",
       "tags": [
@@ -436,24 +554,24 @@
       "engagementScore": 0
     },
     {
-      "title": "The Trump Administration Is Lifting Its Export Controls on Anthropic’s Mythos and Fable AI Models",
-      "url": "https://www.wired.com/story/trump-administration-lifts-export-controls-on-anthropics-mythos-and-fable-ai-models/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5586,
-      "publishedAt": "2026-06-30T23:23:04.000Z",
-      "summary": "The White House is easing restrictions on Anthropic’s most advanced AI models weeks after ordering the company to suspend access for foreign nationals.",
+      "title": "Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5",
+      "url": "https://twitter.com/AnthropicAI/status/2072106151890809341",
+      "feedSource": "Hacker News",
+      "source": "twitter.com",
+      "score": 0.5376,
+      "publishedAt": "2026-06-30T23:55:12.000Z",
+      "summary": "We’ve received notice that the Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5. We’ll begin restoring access tomorrow, and will share an update soon. We’re grateful to our users for their patience, and to everyone who worked with us on",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 0
+      "engagementScore": 685
     },
     {
       "title": "Unlocking Britain’s next era of productivity: Building a nation of AI trailblazers",
       "url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.556,
+      "score": 0.5229,
       "publishedAt": "2026-06-30T06:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Generated_Image_k2dxu1k2.max-600x600.format-webp.webp\"&gt;Google UK shares its latest Economic Impact Report and how to enable more people to unlock the benefits of AI-powered technologies.",
       "tags": [
@@ -461,86 +579,6 @@
         "RAG",
         "Vision",
         "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Claude Code is steganographically marking requests",
-      "url": "https://thereallo.dev/blog/claude-code-prompt-steganography",
-      "feedSource": "Hacker News",
-      "source": "thereallo.dev",
-      "score": 0.5548,
-      "publishedAt": "2026-06-30T15:44:24.000Z",
-      "summary": "I inspected Claude Code for privacy reasons and found hidden system prompt markers based on API base URL and timezone.",
-      "tags": [
-        "LLM",
-        "Dev Tools"
-      ],
-      "engagementScore": 1543
-    },
-    {
-      "title": "Daisy’s First Headphones Are Premium, High-Quality—and Just a Little Bit Cheaper",
-      "url": "https://www.wired.com/story/daisy-sound-yet-another-company-is-making-premium-high-end-headphones/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5466,
-      "publishedAt": "2026-06-30T21:07:32.000Z",
-      "summary": "The California-based startup enters a crowded headphone market with a $399 chiseled-aluminum gamble.",
-      "tags": [
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5",
-      "url": "https://twitter.com/AnthropicAI/status/2072106151890809341",
-      "feedSource": "Hacker News",
-      "source": "twitter.com",
-      "score": 0.5456,
-      "publishedAt": "2026-06-30T23:55:12.000Z",
-      "summary": "We’ve received notice that the Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5. We’ll begin restoring access tomorrow, and will share an update soon. We’re grateful to our users for their patience, and to everyone who worked with us on",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 399
-    },
-    {
-      "title": "Google’s NotebookLM can sum up your research in a TikTok-style clip",
-      "url": "https://www.theverge.com/tech/959778/google-notebooklm-ai-clips",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5374,
-      "publishedAt": "2026-06-30T19:24:51.000Z",
-      "summary": "Google's NotebookLM is adding a new way to catch up on your notes: TikTok-style AI videos. The new feature is rolling out to Google AI Ultra and Pro subscribers, allowing NotebookLM to generate 60-second vertical AI clips based on the sources you upload to the app. The example shared by Google detai",
-      "tags": [
-        "Research",
-        "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Netflix is using an AI-generated Gene Wilder voice in its Willy Wonka reality show",
-      "url": "https://www.theverge.com/streaming/959684/netflix-wonka-golden-ticket-gene-wilder",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5267,
-      "publishedAt": "2026-06-30T17:24:34.000Z",
-      "summary": "A new teaser trailer confirmed that Wonka's The Golden Ticket will premiere on Netflix on September 23rd, following its Squid Game reality show in the trend of creating real competitions based on fictional torture scenarios. While the sets seen in the trailer are real and not some Glasgow-style AI f",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "New York Is About to Feel Hotter Than Phoenix",
-      "url": "https://www.wired.com/story/new-york-about-feel-hotter-than-phoenix/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5154,
-      "publishedAt": "2026-06-30T15:18:08.000Z",
-      "summary": "Extreme heat coupled with humidity will make it feel like 109 degrees Fahrenheit as the holiday weekend approaches.",
-      "tags": [
-        "AI"
       ],
       "engagementScore": 0
     },
@@ -575,11 +613,38 @@
       "engagementScore": 0
     },
     {
+      "title": "Google’s NotebookLM can sum up your research in a TikTok-style clip",
+      "url": "https://www.theverge.com/tech/959778/google-notebooklm-ai-clips",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5071,
+      "publishedAt": "2026-06-30T19:24:51.000Z",
+      "summary": "Google's NotebookLM is adding a new way to catch up on your notes: TikTok-style AI videos. The new feature is rolling out to Google AI Ultra and Pro subscribers, allowing NotebookLM to generate 60-second vertical AI clips based on the sources you upload to the app. The example shared by Google detai",
+      "tags": [
+        "Research",
+        "Vision"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Netflix is using an AI-generated Gene Wilder voice in its Willy Wonka reality show",
+      "url": "https://www.theverge.com/streaming/959684/netflix-wonka-golden-ticket-gene-wilder",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.4963,
+      "publishedAt": "2026-06-30T17:24:34.000Z",
+      "summary": "A new teaser trailer confirmed that Wonka's The Golden Ticket will premiere on Netflix on September 23rd, following its Squid Game reality show in the trend of creating real competitions based on fictional torture scenarios. While the sets seen in the trailer are real and not some Glasgow-style AI f",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Meet the lawyer who beat Elon Musk — twice",
       "url": "https://www.theverge.com/column/959270/elon-musk-open-ai-bill-savitt-twitter",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.503,
+      "score": 0.4727,
       "publishedAt": "2026-06-30T12:59:20.000Z",
       "summary": "Watching Elon Musk fulminate at Bill Savitt during Musk v. Altman - the case in which Musk sued Sam Altman and OpenAI instead of seeing a therapist about his AI failures - was a bit like watching a toddler have a temper tantrum at his nursery school teacher. Savitt's questions were \"designed to tric",
       "tags": [
@@ -593,7 +658,7 @@
       "url": "https://www.theverge.com/column/959433/libby-ai-filter",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5015,
+      "score": 0.4711,
       "publishedAt": "2026-06-30T12:41:41.000Z",
       "summary": "This is Lowpass by Janko Roettgers, a newsletter on the ever-evolving intersection of tech and entertainment, syndicated just for The Verge subscribers once a week. \"AI is the new frontier for us,\" says Marc DeBevoise, who took over as the new CEO of OverDrive last week. OverDrive is best known for",
       "tags": [
@@ -602,52 +667,13 @@
       "engagementScore": 0
     },
     {
-      "title": "The 2 Best Slushie Machines of 2026: Now With Soft Serve",
-      "url": "https://www.wired.com/gallery/best-slushie-machines/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4953,
-      "publishedAt": "2026-06-30T11:33:00.000Z",
-      "summary": "The original Ninja Slushi has been replaced! The new best slushie machines chill faster and make soft serve.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Bitdefender VPN Review: Fast and Affordable Privacy",
-      "url": "https://www.wired.com/review/bitdefender-vpn/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4924,
-      "publishedAt": "2026-06-30T11:00:00.000Z",
-      "summary": "Bitdefender VPN has an excellent starting price, even if it lacks the advanced features that privacy nerds may want.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Bernie Sanders Saw This Coming",
-      "url": "https://www.wired.com/story/the-big-interview-podcast-senator-bernie-sanders/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4897,
-      "publishedAt": "2026-06-30T10:30:00.000Z",
-      "summary": "For decades, the senator has argued that concentrated wealth threatened American democracy. Now he’s betting that frustration with Big Tech, billionaires, and unchecked AI is reaching a tipping point.",
-      "tags": [
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "How Hunter Biden Won the Internet",
-      "url": "https://www.wired.com/story/how-hunter-biden-won-the-internet/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4871,
-      "publishedAt": "2026-06-30T10:00:00.000Z",
-      "summary": "WIRED spent months talking to America’s favorite failson as he plotted his return to public life. Now he’s feeding the trolls—and everyone else.",
+      "title": "Tidal won’t pay royalties on AI-generated music, but isn’t banning it outright",
+      "url": "https://www.theverge.com/tech/959211/tidal-ai-music-policy-demonetizingdetect-label",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.4538,
+      "publishedAt": "2026-06-30T09:27:43.000Z",
+      "summary": "Tidal shared its new policies regarding AI-generated music today and how the platform plans to \"protect artists\" and \"inform listeners.\" Instead of banning it outright, starting on July 15th Tidal will label tracks it has identified as being 100 percent AI-generated with an icon. But starting today",
       "tags": [
         "AI"
       ],
@@ -658,39 +684,12 @@
       "url": "https://www.technologyreview.com/2026/06/29/1139849/ai-agents-are-not-your-coworkers/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.486,
+      "score": 0.4529,
       "publishedAt": "2026-06-29T18:00:00.000Z",
       "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Imagine coming in to work to learn that a new underling will report to you. The worker is not a person but an AI tool—one that your company nonetheless calls Alex",
       "tags": [
         "Agents",
         "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Venezuela Earthquake Destruction Revealed in New Satellite Images",
-      "url": "https://www.wired.com/story/satellite-images-damage-caused-by-venezuela-earthquakes/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4844,
-      "publishedAt": "2026-06-30T09:30:00.000Z",
-      "summary": "The maps and images show the extent of destruction and give rescue operations a tool to find any remaining survivors.",
-      "tags": [
-        "Vision",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Tidal won’t pay royalties on AI-generated music, but isn’t banning it outright",
-      "url": "https://www.theverge.com/tech/959211/tidal-ai-music-policy-demonetizingdetect-label",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4842,
-      "publishedAt": "2026-06-30T09:27:43.000Z",
-      "summary": "Tidal shared its new policies regarding AI-generated music today and how the platform plans to \"protect artists\" and \"inform listeners.\" Instead of banning it outright, starting on July 15th Tidal will label tracks it has identified as being 100 percent AI-generated with an icon. But starting today",
-      "tags": [
-        "AI"
       ],
       "engagementScore": 0
     }
