@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T09:25:07.857Z",
+  "updatedAt": "2026-07-03T14:17:28.220Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,7 +12,7 @@
       "url": "https://arxiv.org/abs/2607.01306",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8754,
+      "score": 0.8422,
       "publishedAt": "2026-07-03T04:00:00.000Z",
       "summary": "arXiv:2607.01306v1 Announce Type: new \nAbstract: Counterfactual explanations explain machine learning predictions by identifying minimal input changes that would alter a model's decision. Although many existing methods successfully generate prediction-changing alternatives, they often produce unreal",
       "tags": [
@@ -25,7 +25,7 @@
       "url": "https://arxiv.org/abs/2607.01366",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8754,
+      "score": 0.8422,
       "publishedAt": "2026-07-03T04:00:00.000Z",
       "summary": "arXiv:2607.01366v1 Announce Type: new \nAbstract: Federated learning (FL) research often depends on many small but consequential algorithmic choices: optimizer variants, server aggregation rules, local training schedules, normalization, regularization, and model architecture. These choices are expens",
       "tags": [
@@ -40,7 +40,7 @@
       "url": "https://arxiv.org/abs/2607.01394",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8754,
+      "score": 0.8422,
       "publishedAt": "2026-07-03T04:00:00.000Z",
       "summary": "arXiv:2607.01394v1 Announce Type: new \nAbstract: We present Wiola, a fully original Small Language Model (SLM) architecture built from first principles, sharing no structural lineage with any existing model family including GPT, LLaMA, Mistral, or Falcon. Wiola introduces five independently novel co",
       "tags": [
@@ -54,7 +54,7 @@
       "url": "https://arxiv.org/abs/2607.01425",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8754,
+      "score": 0.8422,
       "publishedAt": "2026-07-03T04:00:00.000Z",
       "summary": "arXiv:2607.01425v1 Announce Type: new \nAbstract: Understanding large, complex codebases, especially those with obfuscated structures and incomplete documentation, remains a significant challenge. Existing code summarization solutions often rely on a single language model or coding assistant like Cla",
       "tags": [
@@ -70,7 +70,7 @@
       "url": "https://arxiv.org/abs/2607.01426",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8754,
+      "score": 0.8422,
       "publishedAt": "2026-07-03T04:00:00.000Z",
       "summary": "arXiv:2607.01426v1 Announce Type: new \nAbstract: Autonomous customer-service agents are shifting from conversational interfaces toward operational execution roles: they retrieve firm records, apply service policies, and execute backend writes such as refunds, cancellations, exchanges, order modifica",
       "tags": [
@@ -84,7 +84,7 @@
       "url": "https://arxiv.org/abs/2607.01433",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8754,
+      "score": 0.8422,
       "publishedAt": "2026-07-03T04:00:00.000Z",
       "summary": "arXiv:2607.01433v1 Announce Type: new \nAbstract: Divergent thinking is a crucial aspect of creativity, yet large language models (LLMs) tend to consistently generate similar responses to open-ended questions, in what has been termed the artificial hivemind effect. Here, we introduce CreativityNeuro,",
       "tags": [
@@ -99,7 +99,7 @@
       "url": "https://arxiv.org/abs/2607.01436",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8754,
+      "score": 0.8422,
       "publishedAt": "2026-07-03T04:00:00.000Z",
       "summary": "arXiv:2607.01436v1 Announce Type: new \nAbstract: Diffusion language models, which generate text by denoising a token canvas bidirectionally instead of emitting tokens left to right, have become competitive with autoregressive (AR) generation. Medical foundation models, however, remain almost entirel",
       "tags": [
@@ -114,7 +114,7 @@
       "url": "https://arxiv.org/abs/2607.01465",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8754,
+      "score": 0.8422,
       "publishedAt": "2026-07-03T04:00:00.000Z",
       "summary": "arXiv:2607.01465v1 Announce Type: new \nAbstract: Large language models are trained to predict the next token, not to act inside a specific API. In niche enterprise SaaS workflows -- where success means hitting the right endpoint with the right nested arguments in the right order -- this objective mi",
       "tags": [
@@ -131,36 +131,34 @@
       "url": "https://arxiv.org/abs/2607.01232",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8212,
+      "score": 0.7895,
       "publishedAt": "2026-07-02T12:10:24.000Z",
       "summary": "Reinforcement learning (RL) has become a central component of post-training large language models (LLMs), yet little is understood about how RL adaptation is distributed across transformer layers. Existing approaches typically update all model parameters uniformly, implicitly assuming that every lay",
       "tags": [
         "LLM",
         "ML Infra"
       ],
-      "engagementScore": 144
+      "engagementScore": 148
     },
     {
       "title": "Claude Sonnet 5",
       "url": "https://www.anthropic.com/news/claude-sonnet-5",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.7499,
+      "score": 0.7144,
       "publishedAt": "2026-06-30T17:59:52.000Z",
-      "summary": "Our most agentic Sonnet yet, with top-tier intelligence for coding and everyday professional work.",
+      "summary": "",
       "tags": [
-        "LLM",
-        "Agents",
-        "Dev Tools"
+        "LLM"
       ],
-      "engagementScore": 1254
+      "engagementScore": 1256
     },
     {
       "title": "LawZero: Safety from Honesty in a Disinterested AI Predictor",
       "url": "https://arxiv.org/abs/2606.29657",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.725,
+      "score": 0.6918,
       "publishedAt": "2026-07-03T00:42:32.000Z",
       "summary": "As AI systems become more capable, training procedures that optimize for downstream outcomes risk introducing implicit agency: goal-directed behavior that designers never specified. We present a formal safety argument for the Scientist AI (SAI) Predictor, trained to approximate the Bayesian posterio",
       "tags": [
@@ -169,24 +167,159 @@
       "engagementScore": 4
     },
     {
+      "title": "The Download: a smoking &#8220;endgame&#8221; and a new Elizabeth Bear story",
+      "url": "https://www.technologyreview.com/2026/07/03/1140134/the-download-uk-smoking-ban-elizabeth-bear-story/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6735,
+      "publishedAt": "2026-07-03T12:10:00.000Z",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The UK’s generational tobacco ban might not work. I’m supporting it anyway. —Jessica Hamzelou As the parent of two little girls, I often think about h",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The UK’s generational tobacco ban might not work. I’m supporting it anyway.",
+      "url": "https://www.technologyreview.com/2026/07/03/1140036/uk-tobacco-ban-might-not-work-children-smoking/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.655,
+      "publishedAt": "2026-07-03T09:00:00.000Z",
+      "summary": "As the parent of two little girls, I often think about how their childhood is different from mine. The seven-year-old is learning about AI at school. The five-year-old is given internet-based homework every week. And they are both absolutely repulsed by the idea of smoking. That was not the prevaili",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "ArXiv's Next Chapter",
       "url": "https://blog.arxiv.org/2026/06/30/arxivs-next-chapter/",
       "feedSource": "Hacker News",
       "source": "blog.arxiv.org",
-      "score": 0.6307,
+      "score": 0.5977,
       "publishedAt": "2026-07-01T02:51:36.000Z",
       "summary": "On July 1, 2026, arXiv will spin out from Cornell University, its home for the past 25 years, to become an independent nonprofit organization. With this next phase in arXiv’s journey quickly approaching, you can read more about arXiv’s history and the decision to spin out from Cornell in this recent",
       "tags": [
         "Research"
       ],
-      "engagementScore": 294
+      "engagementScore": 295
+    },
+    {
+      "title": "Anthropic wants to develop its own drugs",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5829,
+      "publishedAt": "2026-07-03T13:56:52.000Z",
+      "summary": "At the event \"The Briefing: AI for Science\" earlier this week, Anthropic announced Claude Science, a new \"AI workbench for scientists\" that pulls fragmented tools and datasets into one environment, and generates figures and visuals. Anthropic, already dominating the industry with its popular coding",
+      "tags": [
+        "LLM",
+        "RAG",
+        "Vision",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "A behind-the-scenes look at Midjourney’s medical scanner leaves many questions unanswered",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/961265/midjourney-medical-ultrasound-scanner-behind-the-scenes-video",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5715,
+      "publishedAt": "2026-07-03T11:49:10.000Z",
+      "summary": "Midjourney has shown more of its futuristic medical scanner. It still hasn't shown much proof it works. The AI startup, best known for generating images, released a behind-the-scenes video of its dunk-tank ultrasound scanner, which it plans to deploy in spas and hopes will transform medicine with ch",
+      "tags": [
+        "Open Source",
+        "Vision",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Best Bone Conduction Headphones (2026): Shokz, Suunto, Mojawa",
+      "url": "https://www.wired.com/gallery/best-bone-conduction-headphones/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5698,
+      "publishedAt": "2026-07-03T11:30:00.000Z",
+      "summary": "Everyone needs a safe way to listen to music on outdoor runs. We’ve found the bone conduction headphones to grab on your way out the door.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "All Your Favorite Gadgets Are Getting Way More Expensive … Again",
+      "url": "https://www.wired.com/story/we-are-in-the-knockout-round-of-price-increases-for-consumer-electronics/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5672,
+      "publishedAt": "2026-07-03T11:00:00.000Z",
+      "summary": "Thanks to the AI-driven chip shortage, prices for phones, computers, and consoles are sky-high—and still climbing.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "7 Best Phones You Can’t Buy in the US (2026)",
+      "url": "https://www.wired.com/gallery/best-phones-you-cant-buy-in-the-united-states/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5646,
+      "publishedAt": "2026-07-03T10:31:00.000Z",
+      "summary": "Avoid phone FOMO with our favorite smartphones that aren’t officially sold stateside but are available in markets like the UK and Europe.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The FDA Ruled That ZYN Pouches Are Safer Than Cigarettes. That Doesn’t Mean They’re Safe",
+      "url": "https://www.wired.com/story/the-fda-ruled-that-zyn-pouches-are-safer-than-cigarettes-that-doesnt-mean-theyre-safe/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5645,
+      "publishedAt": "2026-07-03T10:30:00.000Z",
+      "summary": "ZYN nicotine pouches, the FDA found, can be advertised as a less-harmful option for adult smokers. But quitting all tobacco and nicotine products remains the best idea.",
+      "tags": [
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Best Ultralight Backpacking Quilts (2026): Zenbivy, REI",
+      "url": "https://www.wired.com/story/the-best-ultralight-backpacking-quilts/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5623,
+      "publishedAt": "2026-07-03T10:06:00.000Z",
+      "summary": "Lighten your pack this summer—skip the sleeping bag and carry one of our favorite ultralight backpacking quilts instead.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "When the Law Kills Your Electric Car Dealership",
+      "url": "https://www.wired.com/story/when-the-law-kills-your-polestar-electric-car-dealership/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5591,
+      "publishedAt": "2026-07-03T09:30:00.000Z",
+      "summary": "Dealers who invested in Polestar won’t be able to sell in the US next year after the federal government denied an authorization that would have allowed the company to avoid a Chinese tech ban.",
+      "tags": [
+        "Industry"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "The 11 Best TV Shows to Stream This Month (July 2026)",
       "url": "https://www.wired.com/story/the-11-best-shows-to-stream-right-now/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5825,
+      "score": 0.5565,
       "publishedAt": "2026-07-03T09:00:00.000Z",
       "summary": "House of the Dragon, Adventure Time: Side Quests, and The Man Will Burn are just a few of the TV shows you should be watching right now.",
       "tags": [
@@ -195,26 +328,26 @@
       "engagementScore": 0
     },
     {
-      "title": "Achieving operational excellence with AI",
-      "url": "https://www.technologyreview.com/2026/07/02/1140045/achieving-operational-excellence-with-ai/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.5821,
-      "publishedAt": "2026-07-02T15:37:08.000Z",
-      "summary": "Frameworks like Lean Six Sigma and business process management (BPM) first gained traction because they promised clarity in the chaos—a structured way to bring order to messy, sprawling operations. Lean Six Sigma emphasized statistical rigor and quality control; BPM created end-to-end maps of how wo",
+      "title": "Sony Erases Digital Content From Libraries, a Reminder That You Don’t Own What You Buy",
+      "url": "https://www.wired.com/story/sony-erases-digital-content-from-libraries/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5538,
+      "publishedAt": "2026-07-03T08:30:00.000Z",
+      "summary": "In September, some PlayStation customers will no longer be able to access some purchased movies and shows. It underscores the fact that digital purchases are really more like long-term rentals.",
       "tags": [
         "AI"
       ],
       "engagementScore": 0
     },
     {
-      "title": "Sony Erases Digital Content From Libraries, a Reminder That You Don’t Own What You Buy",
-      "url": "https://www.wired.com/story/sony-erases-digital-content-from-libraries/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5798,
-      "publishedAt": "2026-07-03T08:30:00.000Z",
-      "summary": "In September, some PlayStation customers will no longer be able to access some purchased movies and shows. It underscores the fact that digital purchases are really more like long-term rentals.",
+      "title": "Achieving operational excellence with AI",
+      "url": "https://www.technologyreview.com/2026/07/02/1140045/achieving-operational-excellence-with-ai/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.5537,
+      "publishedAt": "2026-07-02T15:37:08.000Z",
+      "summary": "Frameworks like Lean Six Sigma and business process management (BPM) first gained traction because they promised clarity in the chaos—a structured way to bring order to messy, sprawling operations. Lean Six Sigma emphasized statistical rigor and quality control; BPM created end-to-end maps of how wo",
       "tags": [
         "AI"
       ],
@@ -225,7 +358,7 @@
       "url": "https://www.technologyreview.com/2026/07/02/1138433/teaching-ai-to-run-with-the-turbines/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.566,
+      "score": 0.5376,
       "publishedAt": "2026-07-02T12:51:44.000Z",
       "summary": "Artificial intelligence may have captured the public imagination through chatbots and image generators, but some of its most consequential use cases are unfolding far from consumer-facing tools. In industries where physical infrastructure, operational continuity, and safety are paramount, AI is beco",
       "tags": [
@@ -240,7 +373,7 @@
       "url": "https://www.technologyreview.com/2026/07/02/1140027/the-download-ai-groupthink-llms/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5619,
+      "score": 0.5335,
       "publishedAt": "2026-07-02T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. LLMs are stuck in a groupthink groove. This startup is trying to get them out. Open up your chatbot of choice—Claude, ChatGPT, Gemini—and type “Give m",
       "tags": [
@@ -250,68 +383,43 @@
       "engagementScore": 0
     },
     {
-      "title": "EU Politicians Investigated Pegasus Spyware. Then It Ended Up on One of Their Phones",
-      "url": "https://www.wired.com/story/eu-politicians-investigated-pegasus-spyware-then-it-ended-up-on-one-of-their-phones/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5611,
-      "publishedAt": "2026-07-03T05:00:00.000Z",
-      "summary": "“It is a direct attack on the rule of law,” says one European Parliament member of the new findings from Citizen Lab.",
-      "tags": [
-        "Research",
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Opening up 'Zero-Knowledge Proof' technology to promote privacy in age assurance",
       "url": "https://blog.google/innovation-and-ai/technology/safety-security/opening-up-zero-knowledge-proof-technology-to-promote-privacy-in-age-assurance/",
       "feedSource": "Hacker News",
       "source": "blog.google",
-      "score": 0.5479,
+      "score": 0.5197,
       "publishedAt": "2026-07-01T22:27:47.000Z",
       "summary": "Today, we open sourced our Zero-Knowledge Proof (ZKP) libraries, fulfilling a promise and building on our partnership with Sparkasse to support EU age assurance.",
       "tags": [
         "Open Source"
       ],
-      "engagementScore": 228
+      "engagementScore": 229
+    },
+    {
+      "title": "Alibaba to ban Claude Code in workplace over alleged backdoor risks, source says",
+      "url": "https://www.reuters.com/world/china/alibaba-ban-claude-code-workplace-over-alleged-backdoor-risks-source-says-2026-07-03/",
+      "feedSource": "Hacker News",
+      "source": "reuters.com",
+      "score": 0.516,
+      "publishedAt": "2026-07-03T08:31:37.000Z",
+      "summary": "Chinese tech giant Alibaba has banned employees from using Anthropic’s Claude ‌Code at work after the tool drew scrutiny for features that can help identify China-linked users, according to a person familiar with the order.",
+      "tags": [
+        "LLM",
+        "Safety",
+        "Dev Tools"
+      ],
+      "engagementScore": 213
     },
     {
       "title": "Why California&#8217;s carbon manure math doesn&#8217;t add up",
       "url": "https://www.technologyreview.com/2026/07/02/1139981/why-californias-carbon-manure-math-doesnt-add-up/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5435,
+      "score": 0.515,
       "publishedAt": "2026-07-02T09:00:00.000Z",
       "summary": "Something stinks in California’s climate policies. Years ago, the state set up a system that pays cattle farmers across the country to turn the methane emitted from cattle manure into natural gas, encouraging the dairy sector to produce a gas we burn instead of one that just pollutes the air. It’s b",
       "tags": [
         "RAG"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Onion’s ‘Infowars’ Parody Is Here. Alex Jones Is Going to Hate It",
-      "url": "https://www.wired.com/story/the-onions-infowars-parody-is-here-alex-jones-is-going-to-hate-it/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5344,
-      "publishedAt": "2026-07-03T00:00:00.000Z",
-      "summary": "The satirical site is fighting to officially take over Infowars. In the meantime, CEO Ben Collins says the new show will mock “how fucking stupid” conspiratorial brain rot has become.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "How Big Is ‘Love Island USA’? More Than 10 Million People Are Already on Its App",
-      "url": "https://www.wired.com/story/love-island-usa-app/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5172,
-      "publishedAt": "2026-07-02T20:47:27.000Z",
-      "summary": "“We have more people voting on the ‘Love Island USA’ app than we do in many political elections taking place across the country,” says the show's executive producer.",
-      "tags": [
-        "AI"
       ],
       "engagementScore": 0
     },
@@ -424,91 +532,50 @@
       "engagementScore": 0
     },
     {
-      "title": "Spotify Confirms Streaming Fraud After Kalshi Trader Cries Foul",
-      "url": "https://www.wired.com/story/spotify-streaming-manipulation-prediction-markets-polymarket-kalshi/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5051,
-      "publishedAt": "2026-07-02T18:30:59.000Z",
-      "summary": "One of Kalshi’s most prominent traders tells WIRED he’s swearing off Spotify-related markets until the issue is resolved.",
+      "title": "Please stop the AI confidence theater",
+      "url": "https://www.elenaverna.com/p/please-stop-the-ai-confidence-theater",
+      "feedSource": "Hacker News",
+      "source": "elenaverna.com",
+      "score": 0.5047,
+      "publishedAt": "2026-07-03T12:51:17.000Z",
+      "summary": "We don’t need an extra reason to be anxious",
       "tags": [
         "AI"
       ],
-      "engagementScore": 0
+      "engagementScore": 87
     },
     {
-      "title": "Can Cursor Remain a Platform for OpenAI and Anthropic’s Models Inside SpaceX?",
-      "url": "https://www.wired.com/story/can-cursor-remain-an-open-platform-inside-of-spacex/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5024,
-      "publishedAt": "2026-07-02T18:01:20.000Z",
-      "summary": "Cursor hopes to continue offering third-party AI models after it's acquired by SpaceX, testing the relationships between frontier AI labs.",
-      "tags": [
-        "LLM",
-        "Dev Tools",
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Spain Orders Blacklist of Palantir from Public and Private Companies",
-      "url": "https://clashreport.com/world/articles/spain-orders-blacklist-of-us-tech-giant-palantir-from-public-and-private-companies-fsnc2z17gjv",
+      "title": "Zuckerberg 'Admits' Meta's Layoffs Were Ineffective",
+      "url": "https://eshumarneedi.com/2026/07/03/zuckerberg-admits-metas-layoffs-were.html",
       "feedSource": "Hacker News",
-      "source": "clashreport.com",
-      "score": 0.4956,
-      "publishedAt": "2026-07-02T15:02:26.000Z",
-      "summary": "The Spanish government has blacklisted U.S. data analytics giant Palantir Technologies from public and private state-controlled companies due to growing concerns over the potential misuse of classified national security information.",
+      "source": "eshumarneedi.com",
+      "score": 0.5045,
+      "publishedAt": "2026-07-03T12:54:53.000Z",
+      "summary": "Mark Zuckerberg, Meta’s chief executive: In retrospect, he said, the “trajectory of the agentic development over at least the last four months hasn’t really accelerated in the way that we expected,” and that the company’s bets on the new structure “haven’t come to fruition yet.”",
       "tags": [
-        "AI"
+        "Agents"
       ],
-      "engagementScore": 659
+      "engagementScore": 86
     },
     {
-      "title": "The DEA Plans to Ban Opioid-Like Kratom Compound 7-OH",
-      "url": "https://www.wired.com/story/the-dea-plans-to-ban-kratom-compound-7-oh-sold-as-a-gas-station-opioid/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4935,
-      "publishedAt": "2026-07-02T16:21:40.000Z",
-      "summary": "The federal agency says it will temporarily schedule the drug, which has been called “gas station heroin,” as a controlled substance—a boon for MAHA and the mainstream kratom industry.",
+      "title": "OpenAI floats giving Trump administration 5 percent cut of AI boom",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/960588/openai-government-5-percent-stake-trump",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.4356,
+      "publishedAt": "2026-07-02T10:23:27.000Z",
+      "summary": "OpenAI has floated giving the US government a 5 percent ownership stake as a way of easing tensions with the Trump administration and blunting mounting public backlash against AI, according to the Financial Times. CEO Sam Altman argued that giving the public a financial interest in the company would",
       "tags": [
-        "AI"
+        "LLM"
       ],
       "engagementScore": 0
-    },
-    {
-      "title": "The Egg Bandits Made a Thousand Times the Fine They Just Paid for Price Fixing",
-      "url": "https://www.thebignewsletter.com/p/crime-pays-the-egg-bandits-made-a",
-      "feedSource": "Hacker News",
-      "source": "thebignewsletter.com",
-      "score": 0.4749,
-      "publishedAt": "2026-07-02T13:25:25.000Z",
-      "summary": "The Stringer Bell rule is obsolete, as Trump and state attorneys general let the egg producers off the hook for a brazen conspiracy. Still, egg prices did drop as a result of the investigation.",
-      "tags": [
-        "Industry"
-      ],
-      "engagementScore": 463
-    },
-    {
-      "title": "Android Developer Verification: Threat masquerading as protection",
-      "url": "https://f-droid.org/2026/07/01/adv-malware.html",
-      "feedSource": "Hacker News",
-      "source": "f-droid.org",
-      "score": 0.4695,
-      "publishedAt": "2026-07-02T03:00:15.000Z",
-      "summary": "If you are running Android 8 or higher, a virus has been installed on your device and is silently awaiting remote activation. Over the past few months, devic…",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 1615
     },
     {
       "title": "Start building with Nano Banana 2 Lite and Gemini Omni Flash",
       "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.4673,
+      "score": 0.4342,
       "publishedAt": "2026-06-30T16:02:40.000Z",
       "summary": "Scale your ideas with Nano Banana 2 Lite, our fastest, most cost-efficient Gemini Image model, and Gemini Omni Flash for high-quality video and conversational editing.",
       "tags": [
@@ -518,24 +585,11 @@
       "engagementScore": 0
     },
     {
-      "title": "OpenAI floats giving Trump administration 5 percent cut of AI boom",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/960588/openai-government-5-percent-stake-trump",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4616,
-      "publishedAt": "2026-07-02T10:23:27.000Z",
-      "summary": "OpenAI has floated giving the US government a 5 percent ownership stake as a way of easing tensions with the Trump administration and blunting mounting public backlash against AI, according to the Financial Times. CEO Sam Altman argued that giving the public a financial interest in the company would",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "The latest AI news we announced in June 2026",
       "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.4574,
+      "score": 0.429,
       "publishedAt": "2026-07-01T18:15:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/260701_ICYMI-June-AI_Thumb.max-600x600.format-webp.webp\"&gt;Here are Google’s latest AI updates from June 2026.",
       "tags": [
@@ -546,57 +600,16 @@
       "engagementScore": 0
     },
     {
-      "title": "New York City educators and industry leaders gathered at Google’s offices to shape the future of AI in classrooms.",
-      "url": "https://blog.google/products-and-platforms/products/education/nyc-ai-summit/",
-      "feedSource": "Google AI",
-      "source": "blog.google",
-      "score": 0.4443,
-      "publishedAt": "2026-07-01T16:00:00.000Z",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Summit_Photo_1.max-600x600.format-webp.webp\"&gt;Google, the New York Jobs CEO Council and Urban Assembly hosted an AI summit for 150 education and industry leaders.",
-      "tags": [
-        "RAG",
-        "Vision",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "LLMs are stuck in a groupthink groove. This startup is trying to get them out.",
-      "url": "https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.4361,
-      "publishedAt": "2026-07-01T14:35:16.000Z",
-      "summary": "Let’s start with a game. Open up your chatbot of choice—Claude, ChatGPT, Gemini—and type “Give me a random number between 1 and 10.” You’re going to get 7. Almost always. Now type “Another” and you’ll get 3 or 4. Type “Another” again and you’ll get 8 or 9. That won’t work every time—but if it&#8230;",
-      "tags": [
-        "LLM",
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
-      "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.4322,
-      "publishedAt": "2026-07-01T00:00:00.000Z",
-      "summary": "",
-      "tags": [
-        "Open Source"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Introducing computer use in Gemini 3.5 Flash",
       "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
       "score": 0.4222,
       "publishedAt": "2026-06-24T16:30:01.000Z",
-      "summary": "",
+      "summary": "A look at the built-in computer use tool in Gemini 3.5 Flash.",
       "tags": [
-        "LLM"
+        "LLM",
+        "Dev Tools"
       ],
       "engagementScore": 0
     },
@@ -679,21 +692,6 @@
       "tags": [
         "Vision",
         "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Download: Anthropic launches Claude Science, and California&#8217;s carbon manure math",
-      "url": "https://www.technologyreview.com/2026/07/01/1139996/the-download-anthropic-claude-science-california-carbon-manure/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.4219,
-      "publishedAt": "2026-07-01T12:10:00.000Z",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Claude Science is Anthropic’s newest flagship product At an event for pharmaceutical executives, biotech founders, and researchers yesterday, Anthropi",
-      "tags": [
-        "LLM",
-        "Research",
-        "Safety"
       ],
       "engagementScore": 0
     }
