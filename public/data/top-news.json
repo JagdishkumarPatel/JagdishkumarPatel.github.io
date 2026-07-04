@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T16:06:46.083Z",
+  "updatedAt": "2026-07-04T19:20:16.749Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,24 +8,11 @@
   ],
   "items": [
     {
-      "title": "Markets are competitive if and only if P != NP",
-      "url": "https://arxiv.org/abs/2602.20415",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.8223,
-      "publishedAt": "2026-07-03T15:41:44.000Z",
-      "summary": "I prove that competitive market outcomes require computational intractability. If P = NP, firms can efficiently solve the collusion detection problem, identifying deviations from cooperative agreements in complex, noisy markets and thereby making collusion sustainable as an equilibrium. If P != NP,",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 225
-    },
-    {
       "title": "Google DeepMind and A24 announce first-of-its-kind research partnership",
       "url": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.7374,
+      "score": 0.7155,
       "publishedAt": "2026-07-03T14:25:43.000Z",
       "summary": "Today, Google DeepMind and A24 are announcing a first-of-its-kind partnership focused on research. The collaboration pairs a world-leading research lab with the industry…",
       "tags": [
@@ -38,7 +25,7 @@
       "url": "https://arxiv.org/abs/2607.02512",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7272,
+      "score": 0.7052,
       "publishedAt": "2026-07-03T12:46:30.000Z",
       "summary": "Many everyday programming tasks resist clean rule-based implementation, such as alerting on important log lines, repairing malformed JSON, or ranking search results by intent, and are increasingly outsourced to large language model APIs at the cost of locality, reproducibility, and price. We propose",
       "tags": [
@@ -49,39 +36,11 @@
       "engagementScore": 51
     },
     {
-      "title": "Claude Sonnet 5",
-      "url": "https://www.anthropic.com/news/claude-sonnet-5",
-      "feedSource": "Hacker News",
-      "source": "anthropic.com",
-      "score": 0.6876,
-      "publishedAt": "2026-06-30T17:59:52.000Z",
-      "summary": "Our most agentic Sonnet yet, with top-tier intelligence for coding and everyday professional work.",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Dev Tools"
-      ],
-      "engagementScore": 1261
-    },
-    {
-      "title": "How Can Reinforcement Learning Achieve Expert-Level [Chip] Placement?",
-      "url": "https://arxiv.org/abs/2604.25191",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.6792,
-      "publishedAt": "2026-07-04T02:49:21.000Z",
-      "summary": "Chip placement is a critical step in physical design. While reinforcement learning (RL)-based methods have recently emerged, their training primarily focuses on wirelength optimization, and therefore often fail to achieve expert-quality layouts. We identify the reward design as the primary cause for",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 3
-    },
-    {
       "title": "Is One Layer Enough? A Single Transformer Layer Matches Full-Parameter RL Train",
       "url": "https://arxiv.org/abs/2607.01232",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.6144,
+      "score": 0.5925,
       "publishedAt": "2026-07-02T12:10:24.000Z",
       "summary": "Reinforcement learning (RL) has become a central component of post-training large language models (LLMs), yet little is understood about how RL adaptation is distributed across transformer layers. Existing approaches typically update all model parameters uniformly, implicitly assuming that every lay",
       "tags": [
@@ -95,7 +54,7 @@
       "url": "https://www.wired.com/story/livestream-book-club-inside-the-world-of-online-romance-scams/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5841,
+      "score": 0.5669,
       "publishedAt": "2026-07-04T16:00:00.000Z",
       "summary": "The Yahoo Boys author Carlos Barragán will join Kate Knibbs to answer your questions about Nigeria's romance scammers.",
       "tags": [
@@ -108,7 +67,7 @@
       "url": "https://www.wired.com/gallery/best-magsafe-wireless-chargers/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5601,
+      "score": 0.5428,
       "publishedAt": "2026-07-04T11:30:00.000Z",
       "summary": "Top up your Qi2 Android phone or MagSafe iPhone with a magnetic wireless charging stand, pad, car charger, or power bank.",
       "tags": [
@@ -121,7 +80,7 @@
       "url": "https://www.wired.com/story/where-nasa-posts-its-best-space-photos/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5574,
+      "score": 0.5402,
       "publishedAt": "2026-07-04T11:00:00.000Z",
       "summary": "Explore decades of incredible images and videos of stars, planets, moons, and galaxies—most of which are free to use and share.",
       "tags": [
@@ -134,7 +93,7 @@
       "url": "https://www.wired.com/story/this-buried-apple-feature-turns-an-iphone-into-the-perfect-kids-dumb-phone/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5547,
+      "score": 0.5375,
       "publishedAt": "2026-07-04T10:30:00.000Z",
       "summary": "Apple built a tool for people with cognitive disabilities, but I accidentally discovered it’s also the best kids’ phone setup no one is talking about—not even Apple.",
       "tags": [
@@ -143,26 +102,13 @@
       "engagementScore": 0
     },
     {
-      "title": "Security Roundup: Apple’s Hide My Email Service Fails to Hide Your Email",
-      "url": "https://www.wired.com/story/security-roundup-apples-hide-my-email-service-fails-to-hide-your-email/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5547,
-      "publishedAt": "2026-07-04T10:30:00.000Z",
-      "summary": "Plus: Alleged Scattered Spider hacking member extradited, dozens of license plate reader errors, and Indian officials are concerned about WhatsApp’s username rollout.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "A device that revives eyeballs from dead donors could make eye transplants possible",
       "url": "https://www.technologyreview.com/2026/07/03/1140148/a-device-that-revives-eyeballs-from-dead-donors-could-make-eye-transplants-possible/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5545,
+      "score": 0.5356,
       "publishedAt": "2026-07-03T17:34:37.000Z",
-      "summary": "It’s not easy to transplant a whole human eye. The surgery is difficult. And the eyes themselves start to degenerate as soon as they’ve left the body. When surgeons attempted it a few years ago, the newly-transplanted eye wasn’t able to see. But researchers believe they might have a solution: a devi",
+      "summary": "It’s not easy to transplant a whole human eye. The surgery is difficult. And the eyes themselves start to degenerate as soon as they’ve left the body. When surgeons attempted it a few years ago, the newly transplanted eye wasn’t able to see. But researchers believe they might have a solution: a devi",
       "tags": [
         "Research"
       ],
@@ -173,7 +119,7 @@
       "url": "https://www.wired.com/story/food-preservatives-may-increase-the-risk-of-high-blood-pressure-and-cardiovascular-disease/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5494,
+      "score": 0.5321,
       "publishedAt": "2026-07-04T09:30:00.000Z",
       "summary": "Aa large-scale study demonstrates that preservatives widely used in everyday processed foods may exacerbate common health risks.",
       "tags": [
@@ -187,7 +133,7 @@
       "url": "https://www.wired.com/story/best-july-fourth-mattress-deals-2026/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5474,
+      "score": 0.5302,
       "publishedAt": "2026-07-04T09:08:00.000Z",
       "summary": "From cooling hybrids to organic latex beds, these are the mattresses WIRED reviewers actually sleep on and recommend.",
       "tags": [
@@ -200,7 +146,7 @@
       "url": "https://www.wired.com/story/scientists-have-identified-a-new-fossil-species-of-axolotl-in-mexico/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5467,
+      "score": 0.5295,
       "publishedAt": "2026-07-04T09:00:00.000Z",
       "summary": "Ambystoma quetzalcoatli is the first fossil salamander to be formally identified in Mexico, revealing that axolotls have inhabited the country for millions of years.",
       "tags": [
@@ -213,52 +159,39 @@
       "url": "https://blog.mikebowler.ca/2026/07/03/co2-and-decision-making/",
       "feedSource": "Hacker News",
       "source": "blog.mikebowler.ca",
-      "score": 0.5344,
+      "score": 0.5238,
       "publishedAt": "2026-07-04T06:32:28.000Z",
       "summary": "You gather your most expensive people into a room to make your most important decisions. Then, somewhere in the second hour, the room quietly gets worse at making them. Not the people. The room.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 591
-    },
-    {
-      "title": "The Download: a smoking &#8220;endgame&#8221; and a new Elizabeth Bear story",
-      "url": "https://www.technologyreview.com/2026/07/03/1140134/the-download-uk-smoking-ban-elizabeth-bear-story/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.5229,
-      "publishedAt": "2026-07-03T12:10:00.000Z",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The UK’s generational tobacco ban might not work. I’m supporting it anyway. —Jessica Hamzelou As the parent of two little girls, I often think about h",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
+      "engagementScore": 680
     },
     {
       "title": "Potential session/cache leakage between workspace instances or consumer accounts",
       "url": "https://github.com/anthropics/claude-code/issues/74066",
       "feedSource": "Hacker News",
       "source": "github.com",
-      "score": 0.5142,
+      "score": 0.521,
       "publishedAt": "2026-07-04T14:03:40.000Z",
-      "summary": "",
+      "summary": "Bug Description Apparent session leakage, despite authenticated to Enterprise ZDR workspace. Agent suddenly started asking me what kind of bricks I wanted for my Minecraft temple and confidently as…",
       "tags": [
-        "AI"
+        "Agents"
       ],
-      "engagementScore": 123
+      "engagementScore": 229
     },
     {
       "title": "ArXiv's Next Chapter",
       "url": "https://blog.arxiv.org/2026/06/30/arxivs-next-chapter/",
       "feedSource": "Hacker News",
       "source": "blog.arxiv.org",
-      "score": 0.5125,
+      "score": 0.5127,
       "publishedAt": "2026-07-01T02:51:36.000Z",
       "summary": "",
       "tags": [
         "Research"
       ],
-      "engagementScore": 297
+      "engagementScore": 298
     },
     {
       "title": "How ChatGPT adoption has expanded",
@@ -369,11 +302,37 @@
       "engagementScore": 0
     },
     {
+      "title": "The Download: a smoking &#8220;endgame&#8221; and a new Elizabeth Bear story",
+      "url": "https://www.technologyreview.com/2026/07/03/1140134/the-download-uk-smoking-ban-elizabeth-bear-story/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.5041,
+      "publishedAt": "2026-07-03T12:10:00.000Z",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The UK’s generational tobacco ban might not work. I’m supporting it anyway. —Jessica Hamzelou As the parent of two little girls, I often think about h",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "No more than 100 000 faint satellites should orbit Earth",
+      "url": "https://www.eso.org/public/news/eso2607/",
+      "feedSource": "Hacker News",
+      "source": "eso.org",
+      "score": 0.4943,
+      "publishedAt": "2026-07-04T17:17:28.000Z",
+      "summary": "A new European Southern Observatory (ESO) study has found that current proposals to launch over 1.7 million satellites into orbit, including extremely bright ones, would have “devastating consequences for astronomy.” According to the study, no more than 100 000 faint satellites, below naked eye visi",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 71
+    },
+    {
       "title": "The UK’s generational tobacco ban might not work. I’m supporting it anyway.",
       "url": "https://www.technologyreview.com/2026/07/03/1140036/uk-tobacco-ban-might-not-work-children-smoking/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5044,
+      "score": 0.4856,
       "publishedAt": "2026-07-03T09:00:00.000Z",
       "summary": "As the parent of two little girls, I often think about how their childhood is different from mine. The seven-year-old is learning about AI at school. The five-year-old is given internet-based homework every week. And they are both absolutely repulsed by the idea of smoking. That was not the prevaili",
       "tags": [
@@ -382,11 +341,51 @@
       "engagementScore": 0
     },
     {
+      "title": "Agentic coding notes from Galapagos Island",
+      "url": "https://danluu.com/ai-coding/#appendix-agentic-loops-and-writing-this-post",
+      "feedSource": "Hacker News",
+      "source": "danluu.com",
+      "score": 0.461,
+      "publishedAt": "2026-07-04T04:37:15.000Z",
+      "summary": "I’ve been using AI fairly heavily since last November and the whole thing is a funny experience. An agent will do something that, if a human did it, you’d immediately fire them. My reaction, of course, is to act as if this is great and spin up a thousand agents so they can do even more of that.",
+      "tags": [
+        "Agents",
+        "Dev Tools"
+      ],
+      "engagementScore": 155
+    },
+    {
+      "title": "Security Roundup: Apple's Hide My Email Service Fails to Hide Your Email",
+      "url": "https://www.wired.com/story/security-roundup-apples-hide-my-email-service-fails-to-hide-your-email/",
+      "feedSource": "Hacker News",
+      "source": "wired.com",
+      "score": 0.4604,
+      "publishedAt": "2026-07-04T17:01:39.000Z",
+      "summary": "Plus: Alleged Scattered Spider hacking member extradited, dozens of license plate reader errors, and Indian officials are concerned about WhatsApp’s username rollout.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 3
+    },
+    {
+      "title": "3 Nuclear Startups Hit a Big Milestone. Why It Matters—and Why It Doesn’t",
+      "url": "https://www.wired.com/story/nuclear-startups-hit-milestone-why-it-matters/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4504,
+      "publishedAt": "2026-07-03T18:13:15.000Z",
+      "summary": "The companies’ Fourth of July plans include celebrating new reactor designs coming online. But there’s still a long way to go before they deliver energy at a meaningful scale.",
+      "tags": [
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Anthropic wants to develop its own drugs",
       "url": "https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4448,
+      "score": 0.4276,
       "publishedAt": "2026-07-03T13:56:52.000Z",
       "summary": "At the event \"The Briefing: AI for Science\" earlier this week, Anthropic announced Claude Science, a new \"AI workbench for scientists\" that pulls fragmented tools and datasets into one environment, and generates figures and visuals. Anthropic, already dominating the industry with its popular coding",
       "tags": [
@@ -394,21 +393,6 @@
         "RAG",
         "Vision",
         "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "A behind-the-scenes look at Midjourney’s medical scanner leaves many questions unanswered",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/961265/midjourney-medical-ultrasound-scanner-behind-the-scenes-video",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4335,
-      "publishedAt": "2026-07-03T11:49:10.000Z",
-      "summary": "Midjourney has shown more of its futuristic medical scanner. It still hasn't shown much proof it works. The AI startup, best known for generating images, released a behind-the-scenes video of its dunk-tank ultrasound scanner, which it plans to deploy in spas and hopes will transform medicine with ch",
-      "tags": [
-        "Open Source",
-        "Vision",
-        "Industry"
       ],
       "engagementScore": 0
     },
@@ -509,11 +493,26 @@
       "engagementScore": 0
     },
     {
+      "title": "A behind-the-scenes look at Midjourney’s medical scanner leaves many questions unanswered",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/961265/midjourney-medical-ultrasound-scanner-behind-the-scenes-video",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.4162,
+      "publishedAt": "2026-07-03T11:49:10.000Z",
+      "summary": "Midjourney has shown more of its futuristic medical scanner. It still hasn't shown much proof it works. The AI startup, best known for generating images, released a behind-the-scenes video of its dunk-tank ultrasound scanner, which it plans to deploy in spas and hopes will transform medicine with ch",
+      "tags": [
+        "Open Source",
+        "Vision",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "The fanfiction community is at war with AI — and itself",
       "url": "https://www.theverge.com/tech/960854/ai-fanfiction-ao3-claude-detector",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4169,
+      "score": 0.3996,
       "publishedAt": "2026-07-03T08:42:57.000Z",
       "summary": "Over the past week, a new fanworks movement has kicked off, with the aim to root out authors using generative AI. But the detection methods being implemented are questionable, and any fanfic writer could be caught in the crossfire. Broad distaste around the use of Claude, ChatGPT, and other AI tools",
       "tags": [
@@ -527,7 +526,7 @@
       "url": "https://www.technologyreview.com/2026/07/02/1140045/achieving-operational-excellence-with-ai/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.403,
+      "score": 0.3842,
       "publishedAt": "2026-07-02T15:37:08.000Z",
       "summary": "Frameworks like Lean Six Sigma and business process management (BPM) first gained traction because they promised clarity in the chaos—a structured way to bring order to messy, sprawling operations. Lean Six Sigma emphasized statistical rigor and quality control; BPM created end-to-end maps of how wo",
       "tags": [
@@ -540,7 +539,7 @@
       "url": "https://www.technologyreview.com/2026/07/02/1138433/teaching-ai-to-run-with-the-turbines/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.3869,
+      "score": 0.3681,
       "publishedAt": "2026-07-02T12:51:44.000Z",
       "summary": "Artificial intelligence may have captured the public imagination through chatbots and image generators, but some of its most consequential use cases are unfolding far from consumer-facing tools. In industries where physical infrastructure, operational continuity, and safety are paramount, AI is beco",
       "tags": [
@@ -555,7 +554,7 @@
       "url": "https://www.technologyreview.com/2026/07/02/1140027/the-download-ai-groupthink-llms/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.3829,
+      "score": 0.3641,
       "publishedAt": "2026-07-02T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. LLMs are stuck in a groupthink groove. This startup is trying to get them out. Open up your chatbot of choice—Claude, ChatGPT, Gemini—and type “Give m",
       "tags": [
@@ -569,7 +568,7 @@
       "url": "https://www.technologyreview.com/2026/07/02/1139981/why-californias-carbon-manure-math-doesnt-add-up/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.3644,
+      "score": 0.3456,
       "publishedAt": "2026-07-02T09:00:00.000Z",
       "summary": "Something stinks in California’s climate policies. Years ago, the state set up a system that pays cattle farmers across the country to turn the methane emitted from cattle manure into natural gas, encouraging the dairy sector to produce a gas we burn instead of one that just pollutes the air. It’s b",
       "tags": [
