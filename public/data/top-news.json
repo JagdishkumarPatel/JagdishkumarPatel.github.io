@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T03:32:04.622Z",
+  "updatedAt": "2026-07-04T08:43:00.038Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,20 +12,20 @@
       "url": "https://arxiv.org/abs/2602.20415",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.9067,
+      "score": 0.8719,
       "publishedAt": "2026-07-03T15:41:44.000Z",
       "summary": "I prove that competitive market outcomes require computational intractability. If P = NP, firms can efficiently solve the collusion detection problem, identifying deviations from cooperative agreements in complex, noisy markets and thereby making collusion sustainable as an equilibrium. If P != NP,",
       "tags": [
         "AI"
       ],
-      "engagementScore": 220
+      "engagementScore": 222
     },
     {
       "title": "Google DeepMind and A24 announce first-of-its-kind research partnership",
       "url": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.823,
+      "score": 0.7878,
       "publishedAt": "2026-07-03T14:25:43.000Z",
       "summary": "Today, Google DeepMind and A24 are announcing a first-of-its-kind partnership focused on research. The collaboration pairs a world-leading research lab with the industry…",
       "tags": [
@@ -38,7 +38,7 @@
       "url": "https://arxiv.org/abs/2607.02512",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8086,
+      "score": 0.7765,
       "publishedAt": "2026-07-03T12:46:30.000Z",
       "summary": "Many everyday programming tasks resist clean rule-based implementation, such as alerting on important log lines, repairing malformed JSON, or ranking search results by intent, and are increasingly outsourced to large language model APIs at the cost of locality, reproducibility, and price. We propose",
       "tags": [
@@ -46,147 +46,42 @@
         "Dev Tools",
         "ML Infra"
       ],
-      "engagementScore": 47
+      "engagementScore": 50
     },
     {
-      "title": "PACE: A Neuro-Symbolic Framework for Plausible and Actionable Counterfactual Explanations",
-      "url": "https://arxiv.org/abs/2607.01306",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.752,
-      "publishedAt": "2026-07-03T04:00:00.000Z",
-      "summary": "arXiv:2607.01306v1 Announce Type: new \nAbstract: Counterfactual explanations explain machine learning predictions by identifying minimal input changes that would alter a model's decision. Although many existing methods successfully generate prediction-changing alternatives, they often produce unreal",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Auto-FL-Research: Agentic Search for Federated Learning Algorithms",
-      "url": "https://arxiv.org/abs/2607.01366",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.752,
-      "publishedAt": "2026-07-03T04:00:00.000Z",
-      "summary": "arXiv:2607.01366v1 Announce Type: new \nAbstract: Federated learning (FL) research often depends on many small but consequential algorithmic choices: optimizer variants, server aggregation rules, local training schedules, normalization, regularization, and model architecture. These choices are expens",
-      "tags": [
-        "Agents",
-        "Research",
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Wiola Architecture for Efficient Small Language Models",
-      "url": "https://arxiv.org/abs/2607.01394",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.752,
-      "publishedAt": "2026-07-03T04:00:00.000Z",
-      "summary": "arXiv:2607.01394v1 Announce Type: new \nAbstract: We present Wiola, a fully original Small Language Model (SLM) architecture built from first principles, sharing no structural lineage with any existing model family including GPT, LLaMA, Mistral, or Falcon. Wiola introduces five independently novel co",
-      "tags": [
-        "LLM",
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Agent4cs: A Multi-agent System for Code Summarization in Large Hierarchical Codebases",
-      "url": "https://arxiv.org/abs/2607.01425",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.752,
-      "publishedAt": "2026-07-03T04:00:00.000Z",
-      "summary": "arXiv:2607.01425v1 Announce Type: new \nAbstract: Understanding large, complex codebases, especially those with obfuscated structures and incomplete documentation, remains a significant challenge. Existing code summarization solutions often rely on a single language model or coding assistant like Cla",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Research",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "When Should Service Agents Reconsider? Difficulty-Routed Control in Customer-Service Operations",
-      "url": "https://arxiv.org/abs/2607.01426",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.752,
-      "publishedAt": "2026-07-03T04:00:00.000Z",
-      "summary": "arXiv:2607.01426v1 Announce Type: new \nAbstract: Autonomous customer-service agents are shifting from conversational interfaces toward operational execution roles: they retrieve firm records, apply service policies, and execute backend writes such as refunds, cancellations, exchanges, order modifica",
-      "tags": [
-        "Agents",
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "CreativityNeuro: Steering Language Model Weights to Improve Divergent Thinking and Reduce Mode Collapse",
-      "url": "https://arxiv.org/abs/2607.01433",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.752,
-      "publishedAt": "2026-07-03T04:00:00.000Z",
-      "summary": "arXiv:2607.01433v1 Announce Type: new \nAbstract: Divergent thinking is a crucial aspect of creativity, yet large language models (LLMs) tend to consistently generate similar responses to open-ended questions, in what has been termed the artificial hivemind effect. Here, we introduce CreativityNeuro,",
-      "tags": [
-        "LLM",
-        "Research",
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Discrete Diffusion Language Models for Interactive Radiology Report Drafting",
-      "url": "https://arxiv.org/abs/2607.01436",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.752,
-      "publishedAt": "2026-07-03T04:00:00.000Z",
-      "summary": "arXiv:2607.01436v1 Announce Type: new \nAbstract: Diffusion language models, which generate text by denoising a token canvas bidirectionally instead of emitting tokens left to right, have become competitive with autoregressive (AR) generation. Medical foundation models, however, remain almost entirel",
-      "tags": [
-        "LLM",
-        "Research",
-        "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Beyond Next-Token Prediction: An RLVR Proof of Concept for Tool-Use Agents on Atlassian Workflows",
-      "url": "https://arxiv.org/abs/2607.01465",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.752,
-      "publishedAt": "2026-07-03T04:00:00.000Z",
-      "summary": "arXiv:2607.01465v1 Announce Type: new \nAbstract: Large language models are trained to predict the next token, not to act inside a specific API. In niche enterprise SaaS workflows -- where success means hitting the right endpoint with the right nested arguments in the right order -- this objective mi",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Research",
-        "Dev Tools",
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Cache Merging as a Convergent Replicated State for Multi-Agent Latent Reasoning",
-      "url": "https://arxiv.org/abs/2607.01308",
+      "title": "How Can Reinforcement Learning Achieve Expert-Level [Chip] Placement?",
+      "url": "https://arxiv.org/abs/2604.25191",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7049,
-      "publishedAt": "2026-07-03T14:12:38.000Z",
-      "summary": "Multi-agent latent reasoning composes agents’ KV-caches into one context for a final agent. Prior work (Agent Primitives) does this by concatenating caches along the sequence axis with RoPE re-encoding, which we call BagMerge. BagMerge is non-commutative, and the best input ordering is unpredictable",
+      "score": 0.7296,
+      "publishedAt": "2026-07-04T02:49:21.000Z",
+      "summary": "Chip placement is a critical step in physical design. While reinforcement learning (RL)-based methods have recently emerged, their training primarily focuses on wirelength optimization, and therefore often fail to achieve expert-quality layouts. We identify the reward design as the primary cause for",
       "tags": [
+        "AI"
+      ],
+      "engagementScore": 3
+    },
+    {
+      "title": "Claude Sonnet 5",
+      "url": "https://www.anthropic.com/news/claude-sonnet-5",
+      "feedSource": "Hacker News",
+      "source": "anthropic.com",
+      "score": 0.6875,
+      "publishedAt": "2026-06-30T17:59:52.000Z",
+      "summary": "Our most agentic Sonnet yet, with top-tier intelligence for coding and everyday professional work.",
+      "tags": [
+        "LLM",
         "Agents",
         "Dev Tools"
       ],
-      "engagementScore": 5
+      "engagementScore": 1259
     },
     {
       "title": "Is One Layer Enough? A Single Transformer Layer Matches Full-Parameter RL Train",
       "url": "https://arxiv.org/abs/2607.01232",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7,
+      "score": 0.6648,
       "publishedAt": "2026-07-02T12:10:24.000Z",
       "summary": "Reinforcement learning (RL) has become a central component of post-training large language models (LLMs), yet little is understood about how RL adaptation is distributed across transformer layers. Existing approaches typically update all model parameters uniformly, implicitly assuming that every lay",
       "tags": [
@@ -200,7 +95,7 @@
       "url": "https://www.technologyreview.com/2026/07/03/1140148/a-device-that-revives-eyeballs-from-dead-donors-could-make-eye-transplants-possible/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6278,
+      "score": 0.5976,
       "publishedAt": "2026-07-03T17:34:37.000Z",
       "summary": "It’s not easy to transplant a whole human eye. The surgery is difficult. And the eyes themselves start to degenerate as soon as they’ve left the body. When surgeons attempted it a few years ago, the newly-transplanted eye wasn’t able to see. But researchers believe they might have a solution: a devi",
       "tags": [
@@ -213,7 +108,7 @@
       "url": "https://www.technologyreview.com/2026/07/03/1140134/the-download-uk-smoking-ban-elizabeth-bear-story/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5963,
+      "score": 0.566,
       "publishedAt": "2026-07-03T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The UK’s generational tobacco ban might not work. I’m supporting it anyway. —Jessica Hamzelou As the parent of two little girls, I often think about h",
       "tags": [
@@ -226,7 +121,7 @@
       "url": "https://www.technologyreview.com/2026/07/03/1140036/uk-tobacco-ban-might-not-work-children-smoking/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5778,
+      "score": 0.5476,
       "publishedAt": "2026-07-03T09:00:00.000Z",
       "summary": "As the parent of two little girls, I often think about how their childhood is different from mine. The seven-year-old is learning about AI at school. The five-year-old is given internet-based homework every week. And they are both absolutely repulsed by the idea of smoking. That was not the prevaili",
       "tags": [
@@ -235,43 +130,17 @@
       "engagementScore": 0
     },
     {
-      "title": "3 Nuclear Startups Hit a Big Milestone. Why It Matters—and Why It Doesn’t",
-      "url": "https://www.wired.com/story/nuclear-startups-hit-milestone-why-it-matters/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5349,
-      "publishedAt": "2026-07-03T18:13:15.000Z",
-      "summary": "The companies’ Fourth of July plans include celebrating new reactor designs coming online. But there’s still a long way to go before they deliver energy at a meaningful scale.",
-      "tags": [
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Google DeepMind Unionization Talks Are Off to a Rocky Start",
-      "url": "https://www.wired.com/story/google-deepmind-unionization-talks-are-off-to-a-rocky-start/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5257,
-      "publishedAt": "2026-07-03T16:30:00.000Z",
-      "summary": "During negotiations on Wednesday, employees voiced frustrations with what they consider an unwillingness among executives to engage meaningfully with the prospect of unionization.",
+      "title": "The bottleneck might be the air in the room",
+      "url": "https://blog.mikebowler.ca/2026/07/03/co2-and-decision-making/",
+      "feedSource": "Hacker News",
+      "source": "blog.mikebowler.ca",
+      "score": 0.5185,
+      "publishedAt": "2026-07-04T06:32:28.000Z",
+      "summary": "You gather your most expensive people into a room to make your most important decisions. Then, somewhere in the second hour, the room quietly gets worse at making them. Not the people. The room.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Espionage Against the European Parliament",
-      "url": "https://citizenlab.ca/research/member-of-committee-investigating-spyware-hacked-with-pegasus/",
-      "feedSource": "Hacker News",
-      "source": "citizenlab.ca",
-      "score": 0.5219,
-      "publishedAt": "2026-07-03T20:38:26.000Z",
-      "summary": "We found that former Member of the European Parliament Stelios Kouloglou was hacked with Pegasus spyware while serving on the PEGA committee, which investigated Pegasus and other spyware abuses in Europe. Through forensic analysis of his device, we found that the attackers could have had access to c",
-      "tags": [
-        "Industry"
-      ],
-      "engagementScore": 292
+      "engagementScore": 141
     },
     {
       "title": "ArXiv's Next Chapter",
@@ -280,7 +149,7 @@
       "source": "blog.arxiv.org",
       "score": 0.5125,
       "publishedAt": "2026-07-01T02:51:36.000Z",
-      "summary": "On July 1, 2026, arXiv will spin out from Cornell University, its home for the past 25 years, to become an independent nonprofit organization. With this next phase in arXiv’s journey quickly approaching, you can read more about arXiv’s history and the decision to spin out from Cornell in this recent",
+      "summary": "",
       "tags": [
         "Research"
       ],
@@ -395,11 +264,50 @@
       "engagementScore": 0
     },
     {
+      "title": "3 Nuclear Startups Hit a Big Milestone. Why It Matters—and Why It Doesn’t",
+      "url": "https://www.wired.com/story/nuclear-startups-hit-milestone-why-it-matters/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5072,
+      "publishedAt": "2026-07-03T18:13:15.000Z",
+      "summary": "The companies’ Fourth of July plans include celebrating new reactor designs coming online. But there’s still a long way to go before they deliver energy at a meaningful scale.",
+      "tags": [
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Espionage Against the European Parliament",
+      "url": "https://citizenlab.ca/research/member-of-committee-investigating-spyware-hacked-with-pegasus/",
+      "feedSource": "Hacker News",
+      "source": "citizenlab.ca",
+      "score": 0.5042,
+      "publishedAt": "2026-07-03T20:38:26.000Z",
+      "summary": "We found that former Member of the European Parliament Stelios Kouloglou was hacked with Pegasus spyware while serving on the PEGA committee, which investigated Pegasus and other spyware abuses in Europe. Through forensic analysis of his device, we found that the attackers could have had access to c",
+      "tags": [
+        "Industry"
+      ],
+      "engagementScore": 359
+    },
+    {
+      "title": "Google DeepMind Unionization Talks Are Off to a Rocky Start",
+      "url": "https://www.wired.com/story/google-deepmind-unionization-talks-are-off-to-a-rocky-start/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.498,
+      "publishedAt": "2026-07-03T16:30:00.000Z",
+      "summary": "During negotiations on Wednesday, employees voiced frustrations with what they consider an unwillingness among executives to engage meaningfully with the prospect of unionization.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Anthropic wants to develop its own drugs",
       "url": "https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5121,
+      "score": 0.4844,
       "publishedAt": "2026-07-03T13:56:52.000Z",
       "summary": "At the event \"The Briefing: AI for Science\" earlier this week, Anthropic announced Claude Science, a new \"AI workbench for scientists\" that pulls fragmented tools and datasets into one environment, and generates figures and visuals. Anthropic, already dominating the industry with its popular coding",
       "tags": [
@@ -415,7 +323,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/961265/midjourney-medical-ultrasound-scanner-behind-the-scenes-video",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5007,
+      "score": 0.473,
       "publishedAt": "2026-07-03T11:49:10.000Z",
       "summary": "Midjourney has shown more of its futuristic medical scanner. It still hasn't shown much proof it works. The AI startup, best known for generating images, released a behind-the-scenes video of its dunk-tank ultrasound scanner, which it plans to deploy in spas and hopes will transform medicine with ch",
       "tags": [
@@ -426,24 +334,11 @@
       "engagementScore": 0
     },
     {
-      "title": "US Government says it got hacked – again",
-      "url": "https://techcrunch.com/2026/07/02/us-government-says-it-got-hacked-again/",
-      "feedSource": "Hacker News",
-      "source": "techcrunch.com",
-      "score": 0.4995,
-      "publishedAt": "2026-07-03T22:51:28.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 11
-    },
-    {
       "title": "Best Bone Conduction Headphones (2026): Shokz, Suunto, Mojawa",
       "url": "https://www.wired.com/gallery/best-bone-conduction-headphones/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.499,
+      "score": 0.4713,
       "publishedAt": "2026-07-03T11:30:00.000Z",
       "summary": "Everyone needs a safe way to listen to music on outdoor runs. We’ve found the bone conduction headphones to grab on your way out the door.",
       "tags": [
@@ -452,25 +347,11 @@
       "engagementScore": 0
     },
     {
-      "title": "GLM5.2 on AMD MI355X at 2626 tok/s/node at over 2x lower cost than Blackwell",
-      "url": "https://www.wafer.ai/blog/glm52-amd",
-      "feedSource": "Hacker News",
-      "source": "wafer.ai",
-      "score": 0.4967,
-      "publishedAt": "2026-07-03T21:49:06.000Z",
-      "summary": "The fastest open source LLMs for enterprise.",
-      "tags": [
-        "LLM",
-        "Open Source"
-      ],
-      "engagementScore": 124
-    },
-    {
       "title": "All Your Favorite Gadgets Are Getting Way More Expensive … Again",
       "url": "https://www.wired.com/story/we-are-in-the-knockout-round-of-price-increases-for-consumer-electronics/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4963,
+      "score": 0.4686,
       "publishedAt": "2026-07-03T11:00:00.000Z",
       "summary": "Thanks to the AI-driven chip shortage, prices for phones, computers, and consoles are sky-high—and still climbing.",
       "tags": [
@@ -483,7 +364,7 @@
       "url": "https://www.wired.com/gallery/best-phones-you-cant-buy-in-the-united-states/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4937,
+      "score": 0.466,
       "publishedAt": "2026-07-03T10:31:00.000Z",
       "summary": "Avoid phone FOMO with our favorite smartphones that aren’t officially sold stateside but are available in markets like the UK and Europe.",
       "tags": [
@@ -496,7 +377,7 @@
       "url": "https://www.wired.com/story/the-fda-ruled-that-zyn-pouches-are-safer-than-cigarettes-that-doesnt-mean-theyre-safe/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4937,
+      "score": 0.466,
       "publishedAt": "2026-07-03T10:30:00.000Z",
       "summary": "ZYN nicotine pouches, the FDA found, can be advertised as a less-harmful option for adult smokers. But quitting all tobacco and nicotine products remains the best idea.",
       "tags": [
@@ -509,7 +390,7 @@
       "url": "https://www.wired.com/story/the-best-ultralight-backpacking-quilts/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4915,
+      "score": 0.4638,
       "publishedAt": "2026-07-03T10:06:00.000Z",
       "summary": "Lighten your pack this summer—skip the sleeping bag and carry one of our favorite ultralight backpacking quilts instead.",
       "tags": [
@@ -522,7 +403,7 @@
       "url": "https://www.wired.com/story/when-the-law-kills-your-polestar-electric-car-dealership/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4883,
+      "score": 0.4606,
       "publishedAt": "2026-07-03T09:30:00.000Z",
       "summary": "Dealers who invested in Polestar won’t be able to sell in the US next year after the federal government denied an authorization that would have allowed the company to avoid a Chinese tech ban.",
       "tags": [
@@ -535,7 +416,7 @@
       "url": "https://www.technologyreview.com/2026/07/02/1140045/achieving-operational-excellence-with-ai/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4764,
+      "score": 0.4462,
       "publishedAt": "2026-07-02T15:37:08.000Z",
       "summary": "Frameworks like Lean Six Sigma and business process management (BPM) first gained traction because they promised clarity in the chaos—a structured way to bring order to messy, sprawling operations. Lean Six Sigma emphasized statistical rigor and quality control; BPM created end-to-end maps of how wo",
       "tags": [
@@ -548,7 +429,7 @@
       "url": "https://www.technologyreview.com/2026/07/02/1138433/teaching-ai-to-run-with-the-turbines/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4603,
+      "score": 0.4301,
       "publishedAt": "2026-07-02T12:51:44.000Z",
       "summary": "Artificial intelligence may have captured the public imagination through chatbots and image generators, but some of its most consequential use cases are unfolding far from consumer-facing tools. In industries where physical infrastructure, operational continuity, and safety are paramount, AI is beco",
       "tags": [
@@ -563,25 +444,12 @@
       "url": "https://www.technologyreview.com/2026/07/02/1140027/the-download-ai-groupthink-llms/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4563,
+      "score": 0.426,
       "publishedAt": "2026-07-02T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. LLMs are stuck in a groupthink groove. This startup is trying to get them out. Open up your chatbot of choice—Claude, ChatGPT, Gemini—and type “Give m",
       "tags": [
         "LLM",
         "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Why California&#8217;s carbon manure math doesn&#8217;t add up",
-      "url": "https://www.technologyreview.com/2026/07/02/1139981/why-californias-carbon-manure-math-doesnt-add-up/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.4378,
-      "publishedAt": "2026-07-02T09:00:00.000Z",
-      "summary": "Something stinks in California’s climate policies. Years ago, the state set up a system that pays cattle farmers across the country to turn the methane emitted from cattle manure into natural gas, encouraging the dairy sector to produce a gas we burn instead of one that just pollutes the air. It’s b",
-      "tags": [
-        "RAG"
       ],
       "engagementScore": 0
     },
@@ -682,11 +550,128 @@
       "engagementScore": 0
     },
     {
+      "title": "Why California&#8217;s carbon manure math doesn&#8217;t add up",
+      "url": "https://www.technologyreview.com/2026/07/02/1139981/why-californias-carbon-manure-math-doesnt-add-up/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.4076,
+      "publishedAt": "2026-07-02T09:00:00.000Z",
+      "summary": "Something stinks in California’s climate policies. Years ago, the state set up a system that pays cattle farmers across the country to turn the methane emitted from cattle manure into natural gas, encouraging the dairy sector to produce a gas we burn instead of one that just pollutes the air. It’s b",
+      "tags": [
+        "RAG"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
+      "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.3401,
+      "publishedAt": "2026-07-01T00:00:00.000Z",
+      "summary": "",
+      "tags": [
+        "Open Source"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
+      "url": "https://huggingface.co/blog/ibm-research/scarfbench",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.3401,
+      "publishedAt": "2026-06-30T18:32:50.000Z",
+      "summary": "",
+      "tags": [
+        "Agents"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Why Specialization Is Inevitable",
+      "url": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.3401,
+      "publishedAt": "2026-06-30T14:39:11.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Featuring Every Eval Ever Results on Hugging Face Model Pages",
+      "url": "https://huggingface.co/blog/eee-community-evals",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.3401,
+      "publishedAt": "2026-06-30T00:00:00.000Z",
+      "summary": "",
+      "tags": [
+        "Open Source"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "DiScoFormer: One transformer for density and score, across distributions",
+      "url": "https://huggingface.co/blog/allenai/discoformer",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.3401,
+      "publishedAt": "2026-06-29T18:02:48.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Run a vLLM Server on HF Jobs in One Command",
+      "url": "https://huggingface.co/blog/vllm-jobs",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.3401,
+      "publishedAt": "2026-06-26T00:00:00.000Z",
+      "summary": "",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
+      "url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.3401,
+      "publishedAt": "2026-06-24T16:00:13.000Z",
+      "summary": "",
+      "tags": [
+        "ML Infra"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Introducing the FFASR Leaderboard: Benchmarking ASR in the Real World",
+      "url": "https://huggingface.co/blog/ffasr-leaderboard",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.3401,
+      "publishedAt": "2026-06-24T00:00:00.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "OpenAI floats giving Trump administration 5 percent cut of AI boom",
       "url": "https://www.theverge.com/ai-artificial-intelligence/960588/openai-government-5-percent-stake-trump",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.3647,
+      "score": 0.337,
       "publishedAt": "2026-07-02T10:23:27.000Z",
       "summary": "OpenAI has floated giving the US government a 5 percent ownership stake as a way of easing tensions with the Trump administration and blunting mounting public backlash against AI, according to the Financial Times. CEO Sam Altman argued that giving the public a financial interest in the company would",
       "tags": [
