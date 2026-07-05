@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T19:23:54.559Z",
+  "updatedAt": "2026-07-05T22:04:46.367Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,24 +8,24 @@
   ],
   "items": [
     {
-      "title": "\"These cameras are just like the Eye of Sauron\"",
+      "title": "A sociotechnical threat model for AI-driven smart home devices",
       "url": "https://arxiv.org/abs/2602.09239",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.9143,
+      "score": 0.9009,
       "publishedAt": "2026-07-05T17:05:57.000Z",
       "summary": "The growing adoption of AI-driven smart home devices has introduced new privacy risks for domestic workers (DWs), who are frequently monitored in employers’ homes while also using smart devices in their own households. We conducted semi-structured interviews with 18 UK-based DWs and performed a huma",
       "tags": [
         "Safety"
       ],
-      "engagementScore": 71
+      "engagementScore": 78
     },
     {
       "title": "The Log is the Agent",
       "url": "https://arxiv.org/abs/2605.21997",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8334,
+      "score": 0.8177,
       "publishedAt": "2026-07-05T02:57:38.000Z",
       "summary": "Most agent frameworks are built around the language model: a conversation loop comes first, then tools, then rules, and finally a logging layer bolted on for observability, with state persisted as retrievable “memory.” We describe ActiveGraph, a runtime that inverts this arrangement. The append-only",
       "tags": [
@@ -33,41 +33,68 @@
         "Agents",
         "Dev Tools"
       ],
-      "engagementScore": 96
+      "engagementScore": 101
+    },
+    {
+      "title": "Taxing Artificial Intelligence",
+      "url": "https://arxiv.org/abs/2607.02144",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.7439,
+      "publishedAt": "2026-07-05T18:17:41.000Z",
+      "summary": "While AI promises major benefits, its development and deployment can shift costs onto others, including environmental pressures on local communities, labor and creative displacement, and systemic risks from rapid frontier development. Taxation is an integral part of policy design, and recent academi",
+      "tags": [
+        "Safety",
+        "Dev Tools"
+      ],
+      "engagementScore": 3
     },
     {
       "title": "Protocol Prying: Vulnerability Research in AirDrop and Quick Share",
       "url": "https://arxiv.org/abs/2606.26967",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7298,
+      "score": 0.7132,
       "publishedAt": "2026-07-04T20:38:39.000Z",
       "summary": "Apple AirDrop and Google/Samsung Quick Share are proximity file-transfer protocols used by over five billion devices, yet their application-layer security properties remain largely unstudied because both stacks are proprietary and undocumented. Both protocols are reachable from wireless proximity wi",
       "tags": [
         "Research",
         "Industry"
       ],
-      "engagementScore": 29
+      "engagementScore": 30
     },
     {
       "title": "Mark Zuckerberg tells staff that AI agents haven't progressed enough",
       "url": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/",
       "feedSource": "Hacker News",
       "source": "techcrunch.com",
-      "score": 0.6038,
+      "score": 0.5949,
       "publishedAt": "2026-07-05T17:05:35.000Z",
       "summary": "",
       "tags": [
         "Agents"
       ],
-      "engagementScore": 110
+      "engagementScore": 126
+    },
+    {
+      "title": "Hackers made death threats against this security researcher. Big mistake",
+      "url": "https://www.technologyreview.com/2026/02/16/1132526/allison-nixon-hackers-security-researcher/",
+      "feedSource": "Hacker News",
+      "source": "technologyreview.com",
+      "score": 0.5823,
+      "publishedAt": "2026-07-05T18:56:58.000Z",
+      "summary": "",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 7
     },
     {
       "title": "Infuriating Google commercial imagines the founding fathers embracing AI",
       "url": "https://www.theverge.com/ai-artificial-intelligence/961468/google-ai-commercial-founding-fathers-declaration-of-independence",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5608,
+      "score": 0.5465,
       "publishedAt": "2026-07-05T14:55:03.000Z",
       "summary": "\"Group project, but make it 1776.\" That's how a new commercial for Google Workspace opens. And things only get cringier from there. The clip imagines what it would be like if the founding fathers turned to Google's collaboration tools and Gemini to help them draft the Declaration of Independence. Be",
       "tags": [
@@ -81,7 +108,7 @@
       "url": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.5517,
+      "score": 0.5335,
       "publishedAt": "2026-07-03T14:25:43.000Z",
       "summary": "Today, Google DeepMind and A24 are announcing a first-of-its-kind partnership focused on research. The collaboration pairs a world-leading research lab with the industry…",
       "tags": [
@@ -94,7 +121,7 @@
       "url": "https://www.wired.com/story/prediction-markets-let-you-bet-wildfire/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5398,
+      "score": 0.5255,
       "publishedAt": "2026-07-05T11:00:00.000Z",
       "summary": "Wildfire survivors call fire-prediction markets “morally reprehensible” and worry they could increase the risk of arson.",
       "tags": [
@@ -107,7 +134,7 @@
       "url": "https://www.wired.com/gallery/best-wifi-routers/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5398,
+      "score": 0.5255,
       "publishedAt": "2026-07-05T11:00:00.000Z",
       "summary": "Don’t suffer the buffer. These WIRED-tested home routers will deliver reliable internet across your home, whatever your needs or budget.",
       "tags": [
@@ -120,7 +147,7 @@
       "url": "https://www.wired.com/review/tcl-rm9l/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5375,
+      "score": 0.5232,
       "publishedAt": "2026-07-05T10:34:00.000Z",
       "summary": "This massive 85-inch model is highly customizable but jaw-droppingly expensive.",
       "tags": [
@@ -133,7 +160,7 @@
       "url": "https://www.wired.com/review/eight-sleep-pod-5/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5352,
+      "score": 0.5209,
       "publishedAt": "2026-07-05T10:08:00.000Z",
       "summary": "Eight Sleep’s Pod 5 is great at its job, but its job is also watching you sleep.",
       "tags": [
@@ -146,7 +173,7 @@
       "url": "https://www.wired.com/story/what-are-fish-oil-supplements-good-for-heres-your-crash-course/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5345,
+      "score": 0.5202,
       "publishedAt": "2026-07-05T10:00:00.000Z",
       "summary": "A large-scale clinical trial has shown that even long-term consumption of DHA—an omega-3 fatty acid found in abundance in oily fish—may not lead to improvements in cognitive function.",
       "tags": [
@@ -159,7 +186,7 @@
       "url": "https://www.wired.com/story/theres-a-global-network-of-fungi-under-your-feet-this-is-the-first-complete-map/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5318,
+      "score": 0.5175,
       "publishedAt": "2026-07-05T09:30:00.000Z",
       "summary": "A new study has succeeded in mapping, on a global scale, the fungal network that supports plant life and helps regulate our planet’s climate.",
       "tags": [
@@ -172,7 +199,7 @@
       "url": "https://www.wired.com/story/how-to-avoid-spoilers-online/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5291,
+      "score": 0.5148,
       "publishedAt": "2026-07-05T09:00:00.000Z",
       "summary": "You can minimize the risk of films and shows being spoiled for you by muting comments, conversations, and keywords on various platforms.",
       "tags": [
@@ -185,13 +212,13 @@
       "url": "https://www.heise.de/en/news/Chat-Control-1-0-EU-Council-forces-messenger-scans-via-fast-track-11353659.html",
       "feedSource": "Hacker News",
       "source": "heise.de",
-      "score": 0.5156,
+      "score": 0.5136,
       "publishedAt": "2026-07-05T11:44:04.000Z",
       "summary": "Member states reactivate expired chat control regulation. EU Parliament caught off guard before summer break.",
       "tags": [
         "Safety"
       ],
-      "engagementScore": 272
+      "engagementScore": 369
     },
     {
       "title": "How ChatGPT adoption has expanded",
@@ -302,50 +329,24 @@
       "engagementScore": 0
     },
     {
-      "title": "Introduction to Compilers and Language Design (2021)",
-      "url": "https://dthain.github.io/books/compiler/",
-      "feedSource": "Hacker News",
-      "source": "dthain.github.io",
-      "score": 0.5105,
-      "publishedAt": "2026-07-05T11:54:16.000Z",
-      "summary": "This is a free online textbook: you are welcome to access the chapter PDFs\ndirectly below. If you prefer to hold a real book, you can also purchase a hardcover or paperback below.\nThe textbook and materials have been developed by Prof. Douglas Thain as part of the CSE 40243 compilers class at the Un",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 231
-    },
-    {
-      "title": "Zuckerberg's Increasingly Bizarre War on Whistleblowers",
-      "url": "https://pluralistic.net/2026/06/27/zuckerstreisand-2/#autodisparagement",
-      "feedSource": "Hacker News",
-      "source": "pluralistic.net",
-      "score": 0.5048,
-      "publishedAt": "2026-07-05T16:11:08.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 111
-    },
-    {
-      "title": "The Computers Used in Movies",
+      "title": "Starring the Computer",
       "url": "https://www.starringthecomputer.com/computers.html",
       "feedSource": "Hacker News",
       "source": "starringthecomputer.com",
-      "score": 0.4987,
+      "score": 0.5055,
       "publishedAt": "2026-07-05T17:33:04.000Z",
       "summary": "Computers in movies and television shows",
       "tags": [
         "Vision"
       ],
-      "engagementScore": 78
+      "engagementScore": 135
     },
     {
       "title": "Submit Your Questions: Inside The World of Online Romance Scams",
       "url": "https://www.wired.com/story/livestream-book-club-inside-the-world-of-online-romance-scams/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4382,
+      "score": 0.4239,
       "publishedAt": "2026-07-04T16:00:00.000Z",
       "summary": "The Yahoo Boys author Carlos Barragán will join Kate Knibbs to answer your questions about Nigeria's romance scammers.",
       "tags": [
@@ -454,7 +455,7 @@
       "url": "https://www.technologyreview.com/2026/07/03/1140148/a-device-that-revives-eyeballs-from-dead-donors-could-make-eye-transplants-possible/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.3953,
+      "score": 0.3796,
       "publishedAt": "2026-07-03T17:34:37.000Z",
       "summary": "It’s not easy to transplant a whole human eye. The surgery is difficult. And the eyes themselves start to degenerate as soon as they’ve left the body. When surgeons attempted it a few years ago, the newly transplanted eye wasn’t able to see. But researchers believe they might have a solution: a devi",
       "tags": [
@@ -467,22 +468,9 @@
       "url": "https://www.technologyreview.com/2026/07/03/1140134/the-download-uk-smoking-ban-elizabeth-bear-story/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.3637,
+      "score": 0.3481,
       "publishedAt": "2026-07-03T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The UK’s generational tobacco ban might not work. I’m supporting it anyway. —Jessica Hamzelou As the parent of two little girls, I often think about h",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The UK’s generational tobacco ban might not work. I’m supporting it anyway.",
-      "url": "https://www.technologyreview.com/2026/07/03/1140036/uk-tobacco-ban-might-not-work-children-smoking/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.3453,
-      "publishedAt": "2026-07-03T09:00:00.000Z",
-      "summary": "As the parent of two little girls, I often think about how their childhood is different from mine. The seven-year-old is learning about AI at school. The five-year-old is given internet-based homework every week. And they are both absolutely repulsed by the idea of smoking. That was not the prevaili",
       "tags": [
         "AI"
       ],
@@ -593,11 +581,24 @@
       "engagementScore": 0
     },
     {
+      "title": "The UK’s generational tobacco ban might not work. I’m supporting it anyway.",
+      "url": "https://www.technologyreview.com/2026/07/03/1140036/uk-tobacco-ban-might-not-work-children-smoking/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.3296,
+      "publishedAt": "2026-07-03T09:00:00.000Z",
+      "summary": "As the parent of two little girls, I often think about how their childhood is different from mine. The seven-year-old is learning about AI at school. The five-year-old is given internet-based homework every week. And they are both absolutely repulsed by the idea of smoking. That was not the prevaili",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Anthropic wants to develop its own drugs",
       "url": "https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.2989,
+      "score": 0.2846,
       "publishedAt": "2026-07-03T13:56:52.000Z",
       "summary": "At the event \"The Briefing: AI for Science\" earlier this week, Anthropic announced Claude Science, a new \"AI workbench for scientists\" that pulls fragmented tools and datasets into one environment, and generates figures and visuals. Anthropic, already dominating the industry with its popular coding",
       "tags": [
@@ -613,27 +614,13 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/961265/midjourney-medical-ultrasound-scanner-behind-the-scenes-video",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.2876,
+      "score": 0.2732,
       "publishedAt": "2026-07-03T11:49:10.000Z",
       "summary": "Midjourney has shown more of its futuristic medical scanner. It still hasn't shown much proof it works. The AI startup, best known for generating images, released a behind-the-scenes video of its dunk-tank ultrasound scanner, which it plans to deploy in spas and hopes will transform medicine with ch",
       "tags": [
         "Open Source",
         "Vision",
         "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The fanfiction community is at war with AI — and itself",
-      "url": "https://www.theverge.com/tech/960854/ai-fanfiction-ao3-claude-detector",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.271,
-      "publishedAt": "2026-07-03T08:42:57.000Z",
-      "summary": "Over the past week, a new fanworks movement has kicked off, with the aim to root out authors using generative AI. But the detection methods being implemented are questionable, and any fanfic writer could be caught in the crossfire. Broad distaste around the use of Claude, ChatGPT, and other AI tools",
-      "tags": [
-        "LLM",
-        "Dev Tools"
       ],
       "engagementScore": 0
     },
@@ -677,6 +664,21 @@
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Generated_Image_k2dxu1k2.max-600x600.format-webp.webp\"&gt;Google UK shares its latest Economic Impact Report and how to enable more people to unlock the benefits of AI-powered technologies.",
       "tags": [
         "LLM",
+        "RAG",
+        "Vision",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Ask an AI expert: What exactly is the full stack?",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
+      "feedSource": "Google AI",
+      "source": "blog.google",
+      "score": 0.2659,
+      "publishedAt": "2026-06-29T16:00:00.000Z",
+      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Full_Stack.max-600x600.format-webp.webp\"&gt;A Google expert explains what it means to take a full-stack approach to AI and why it’s been the foundation of our AI work for so long.",
+      "tags": [
         "RAG",
         "Vision",
         "Dev Tools"
