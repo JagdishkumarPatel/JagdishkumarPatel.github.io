@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T11:09:16.196Z",
+  "updatedAt": "2026-07-05T13:48:53.886Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,11 +8,11 @@
   ],
   "items": [
     {
-      "title": "The Log Is the Agent",
+      "title": "The Log is the Agent",
       "url": "https://arxiv.org/abs/2605.21997",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8522,
+      "score": 0.8516,
       "publishedAt": "2026-07-05T02:57:38.000Z",
       "summary": "Most agent frameworks are built around the language model: a conversation loop comes first, then tools, then rules, and finally a logging layer bolted on for observability, with state persisted as retrievable “memory.” We describe ActiveGraph, a runtime that inverts this arrangement. The append-only",
       "tags": [
@@ -20,28 +20,28 @@
         "Agents",
         "Dev Tools"
       ],
-      "engagementScore": 46
+      "engagementScore": 65
     },
     {
       "title": "Protocol Prying: Vulnerability Research in AirDrop and Quick Share",
       "url": "https://arxiv.org/abs/2606.26967",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7763,
+      "score": 0.7602,
       "publishedAt": "2026-07-04T20:38:39.000Z",
       "summary": "Apple AirDrop and Google/Samsung Quick Share are proximity file-transfer protocols used by over five billion devices, yet their application-layer security properties remain largely unstudied because both stacks are proprietary and undocumented. Both protocols are reachable from wireless proximity wi",
       "tags": [
         "Research",
         "Industry"
       ],
-      "engagementScore": 24
+      "engagementScore": 25
     },
     {
       "title": "Exploiting LLM Agent Supply Chains via Payload-Less Skills",
       "url": "https://arxiv.org/abs/2605.14460",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7062,
+      "score": 0.688,
       "publishedAt": "2026-07-04T22:01:01.000Z",
       "summary": "Autonomous agents powered by Large Language Models (LLMs) acquire external functionalities through third-party skills available in open marketplaces. Adopting these integrations broadens the potential attack surface, prompting a need for systematic security evaluation. Current auditing mechanisms ar",
       "tags": [
@@ -56,7 +56,7 @@
       "url": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.6078,
+      "score": 0.5897,
       "publishedAt": "2026-07-03T14:25:43.000Z",
       "summary": "Today, Google DeepMind and A24 are announcing a first-of-its-kind partnership focused on research. The collaboration pairs a world-leading research lab with the industry…",
       "tags": [
@@ -69,7 +69,7 @@
       "url": "https://www.wired.com/story/prediction-markets-let-you-bet-wildfire/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5839,
+      "score": 0.5697,
       "publishedAt": "2026-07-05T11:00:00.000Z",
       "summary": "Wildfire survivors call fire-prediction markets “morally reprehensible” and worry they could increase the risk of arson.",
       "tags": [
@@ -82,7 +82,7 @@
       "url": "https://www.wired.com/gallery/best-wifi-routers/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5839,
+      "score": 0.5697,
       "publishedAt": "2026-07-05T11:00:00.000Z",
       "summary": "Don’t suffer the buffer. These WIRED-tested home routers will deliver reliable internet across your home, whatever your needs or budget.",
       "tags": [
@@ -95,7 +95,7 @@
       "url": "https://www.wired.com/review/tcl-rm9l/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5816,
+      "score": 0.5674,
       "publishedAt": "2026-07-05T10:34:00.000Z",
       "summary": "This massive 85-inch model is highly customizable but jaw-droppingly expensive.",
       "tags": [
@@ -108,7 +108,7 @@
       "url": "https://www.wired.com/review/eight-sleep-pod-5/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5793,
+      "score": 0.5651,
       "publishedAt": "2026-07-05T10:08:00.000Z",
       "summary": "Eight Sleep’s Pod 5 is great at its job, but its job is also watching you sleep.",
       "tags": [
@@ -121,7 +121,7 @@
       "url": "https://www.wired.com/story/what-are-fish-oil-supplements-good-for-heres-your-crash-course/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5786,
+      "score": 0.5643,
       "publishedAt": "2026-07-05T10:00:00.000Z",
       "summary": "A large-scale clinical trial has shown that even long-term consumption of DHA—an omega-3 fatty acid found in abundance in oily fish—may not lead to improvements in cognitive function.",
       "tags": [
@@ -134,7 +134,7 @@
       "url": "https://www.wired.com/story/theres-a-global-network-of-fungi-under-your-feet-this-is-the-first-complete-map/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5759,
+      "score": 0.5617,
       "publishedAt": "2026-07-05T09:30:00.000Z",
       "summary": "A new study has succeeded in mapping, on a global scale, the fungal network that supports plant life and helps regulate our planet’s climate.",
       "tags": [
@@ -147,7 +147,7 @@
       "url": "https://www.wired.com/story/how-to-avoid-spoilers-online/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5732,
+      "score": 0.559,
       "publishedAt": "2026-07-05T09:00:00.000Z",
       "summary": "You can minimize the risk of films and shows being spoiled for you by muting comments, conversations, and keywords on various platforms.",
       "tags": [
@@ -268,47 +268,60 @@
       "url": "https://github.com/ammaarreshi/Generals-Mac-iOS-iPad/tree/main",
       "feedSource": "Hacker News",
       "source": "github.com",
-      "score": 0.5053,
+      "score": 0.4937,
       "publishedAt": "2026-07-04T19:41:10.000Z",
       "summary": "Command &amp; Conquer Generals: Zero Hour running natively on macOS, iPhone &amp; iPad — real engine (EA GPL v3 source, via GeneralsX), DXVK/MoltenVK renderer, RTS touch controls. No game assets in…",
       "tags": [
         "AI"
       ],
-      "engagementScore": 583
+      "engagementScore": 605
     },
     {
       "title": "GPT-5.5 Codex reasoning-token clustering may be leading to degraded performance",
       "url": "https://github.com/openai/codex/issues/30364",
       "feedSource": "Hacker News",
       "source": "github.com",
-      "score": 0.4903,
+      "score": 0.4816,
       "publishedAt": "2026-07-04T21:51:09.000Z",
       "summary": "Summary I found an aggregate pattern in Codex token_count metadata: gpt-5.5 responses disproportionately land at exactly reasoning_output_tokens = 516, with additional fixed-boundary spikes around…",
       "tags": [
         "LLM",
         "Dev Tools"
       ],
-      "engagementScore": 288
+      "engagementScore": 324
     },
     {
-      "title": "Scientists reverse brain aging, with a nasal spray",
-      "url": "https://stories.tamu.edu/news/2026/04/14/scientists-reverse-brain-aging-with-a-nasal-spray/",
+      "title": "Claude Design System Prompt",
+      "url": "https://github.com/Trystan-SA/claude-design-system-prompt",
       "feedSource": "Hacker News",
-      "source": "stories.tamu.edu",
-      "score": 0.4842,
-      "publishedAt": "2026-07-04T23:41:10.000Z",
-      "summary": "New therapy is turning back the clock in aging brains, healing inflammation, restoring memory and reshaping the future of brain age-related therapies.",
+      "source": "github.com",
+      "score": 0.4785,
+      "publishedAt": "2026-07-05T08:43:37.000Z",
+      "summary": "Reverse-engineered system prompt and skill library that turns an LLM into an opinionated, accessibility-aware, AI-slop-resistant design collaborator. - Trystan-SA/claude-design-system-prompt",
       "tags": [
-        "Dev Tools"
+        "LLM"
       ],
-      "engagementScore": 190
+      "engagementScore": 69
+    },
+    {
+      "title": "Fast Software, the Best Software (2019)",
+      "url": "https://craigmod.com/essays/fast_software/",
+      "feedSource": "Hacker News",
+      "source": "craigmod.com",
+      "score": 0.47,
+      "publishedAt": "2026-07-05T07:25:25.000Z",
+      "summary": "Essay on the benefits of speedy software, and how it affects user perception of engineering quality and overall usability",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 65
     },
     {
       "title": "Submit Your Questions: Inside The World of Online Romance Scams",
       "url": "https://www.wired.com/story/livestream-book-club-inside-the-world-of-online-romance-scams/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4823,
+      "score": 0.4681,
       "publishedAt": "2026-07-04T16:00:00.000Z",
       "summary": "The Yahoo Boys author Carlos Barragán will join Kate Knibbs to answer your questions about Nigeria's romance scammers.",
       "tags": [
@@ -317,38 +330,24 @@
       "engagementScore": 0
     },
     {
-      "title": "sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)",
-      "url": "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/",
+      "title": "I wanted to be Anthony Bourdain–until I met him",
+      "url": "https://cailey.substack.com/p/i-wanted-to-be-anthony-bourdainuntil",
       "feedSource": "Hacker News",
-      "source": "simonwillison.net",
-      "score": 0.4695,
-      "publishedAt": "2026-07-05T06:19:34.000Z",
-      "summary": "I wrote about the sqlite-utils 4.0rc1 release a couple of weeks ago. Since we only have Claude Fable on our Max subscriptions for a few more days, I decided to …",
+      "source": "cailey.substack.com",
+      "score": 0.4656,
+      "publishedAt": "2026-07-05T09:46:07.000Z",
+      "summary": "CW: suicide, suicidal ideation, addiction",
       "tags": [
-        "LLM"
+        "AI"
       ],
-      "engagementScore": 52
-    },
-    {
-      "title": "Better Models: Worse Tools",
-      "url": "https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/",
-      "feedSource": "Hacker News",
-      "source": "lucumr.pocoo.org",
-      "score": 0.4658,
-      "publishedAt": "2026-07-04T20:16:22.000Z",
-      "summary": "About an aggravating tool-calling regression in newer Claude models.",
-      "tags": [
-        "LLM",
-        "Dev Tools"
-      ],
-      "engagementScore": 181
+      "engagementScore": 42
     },
     {
       "title": "A device that revives eyeballs from dead donors could make eye transplants possible",
       "url": "https://www.technologyreview.com/2026/07/03/1140148/a-device-that-revives-eyeballs-from-dead-donors-could-make-eye-transplants-possible/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4434,
+      "score": 0.4279,
       "publishedAt": "2026-07-03T17:34:37.000Z",
       "summary": "It’s not easy to transplant a whole human eye. The surgery is difficult. And the eyes themselves start to degenerate as soon as they’ve left the body. When surgeons attempted it a few years ago, the newly transplanted eye wasn’t able to see. But researchers believe they might have a solution: a devi",
       "tags": [
@@ -457,7 +456,7 @@
       "url": "https://www.technologyreview.com/2026/07/03/1140134/the-download-uk-smoking-ban-elizabeth-bear-story/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4118,
+      "score": 0.3963,
       "publishedAt": "2026-07-03T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The UK’s generational tobacco ban might not work. I’m supporting it anyway. —Jessica Hamzelou As the parent of two little girls, I often think about h",
       "tags": [
@@ -470,27 +469,11 @@
       "url": "https://www.technologyreview.com/2026/07/03/1140036/uk-tobacco-ban-might-not-work-children-smoking/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.3933,
+      "score": 0.3778,
       "publishedAt": "2026-07-03T09:00:00.000Z",
       "summary": "As the parent of two little girls, I often think about how their childhood is different from mine. The seven-year-old is learning about AI at school. The five-year-old is given internet-based homework every week. And they are both absolutely repulsed by the idea of smoking. That was not the prevaili",
       "tags": [
         "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Anthropic wants to develop its own drugs",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.343,
-      "publishedAt": "2026-07-03T13:56:52.000Z",
-      "summary": "At the event \"The Briefing: AI for Science\" earlier this week, Anthropic announced Claude Science, a new \"AI workbench for scientists\" that pulls fragmented tools and datasets into one environment, and generates figures and visuals. Anthropic, already dominating the industry with its popular coding",
-      "tags": [
-        "LLM",
-        "RAG",
-        "Vision",
-        "Dev Tools"
       ],
       "engagementScore": 0
     },
@@ -599,11 +582,27 @@
       "engagementScore": 0
     },
     {
+      "title": "Anthropic wants to develop its own drugs",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.3288,
+      "publishedAt": "2026-07-03T13:56:52.000Z",
+      "summary": "At the event \"The Briefing: AI for Science\" earlier this week, Anthropic announced Claude Science, a new \"AI workbench for scientists\" that pulls fragmented tools and datasets into one environment, and generates figures and visuals. Anthropic, already dominating the industry with its popular coding",
+      "tags": [
+        "LLM",
+        "RAG",
+        "Vision",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "A behind-the-scenes look at Midjourney’s medical scanner leaves many questions unanswered",
       "url": "https://www.theverge.com/ai-artificial-intelligence/961265/midjourney-medical-ultrasound-scanner-behind-the-scenes-video",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.3316,
+      "score": 0.3174,
       "publishedAt": "2026-07-03T11:49:10.000Z",
       "summary": "Midjourney has shown more of its futuristic medical scanner. It still hasn't shown much proof it works. The AI startup, best known for generating images, released a behind-the-scenes video of its dunk-tank ultrasound scanner, which it plans to deploy in spas and hopes will transform medicine with ch",
       "tags": [
@@ -618,7 +617,7 @@
       "url": "https://www.theverge.com/tech/960854/ai-fanfiction-ao3-claude-detector",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.315,
+      "score": 0.3008,
       "publishedAt": "2026-07-03T08:42:57.000Z",
       "summary": "Over the past week, a new fanworks movement has kicked off, with the aim to root out authors using generative AI. But the detection methods being implemented are questionable, and any fanfic writer could be caught in the crossfire. Broad distaste around the use of Claude, ChatGPT, and other AI tools",
       "tags": [
@@ -632,40 +631,11 @@
       "url": "https://www.technologyreview.com/2026/07/02/1140045/achieving-operational-excellence-with-ai/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.292,
+      "score": 0.2764,
       "publishedAt": "2026-07-02T15:37:08.000Z",
       "summary": "Frameworks like Lean Six Sigma and business process management (BPM) first gained traction because they promised clarity in the chaos—a structured way to bring order to messy, sprawling operations. Lean Six Sigma emphasized statistical rigor and quality control; BPM created end-to-end maps of how wo",
       "tags": [
         "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Teaching AI to run with the turbines",
-      "url": "https://www.technologyreview.com/2026/07/02/1138433/teaching-ai-to-run-with-the-turbines/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.2759,
-      "publishedAt": "2026-07-02T12:51:44.000Z",
-      "summary": "Artificial intelligence may have captured the public imagination through chatbots and image generators, but some of its most consequential use cases are unfolding far from consumer-facing tools. In industries where physical infrastructure, operational continuity, and safety are paramount, AI is beco",
-      "tags": [
-        "Vision",
-        "Safety",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Download: a startup has a solution for AI’s groupthink problem",
-      "url": "https://www.technologyreview.com/2026/07/02/1140027/the-download-ai-groupthink-llms/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.2718,
-      "publishedAt": "2026-07-02T12:10:00.000Z",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. LLMs are stuck in a groupthink groove. This startup is trying to get them out. Open up your chatbot of choice—Claude, ChatGPT, Gemini—and type “Give m",
-      "tags": [
-        "LLM",
-        "Industry"
       ],
       "engagementScore": 0
     },
@@ -678,6 +648,37 @@
       "publishedAt": "2026-07-01T18:15:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/260701_ICYMI-June-AI_Thumb.max-600x600.format-webp.webp\"&gt;Here are Google’s latest AI updates from June 2026.",
       "tags": [
+        "RAG",
+        "Vision",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "New York City educators and industry leaders gathered at Google’s offices to shape the future of AI in classrooms.",
+      "url": "https://blog.google/products-and-platforms/products/education/nyc-ai-summit/",
+      "feedSource": "Google AI",
+      "source": "blog.google",
+      "score": 0.2659,
+      "publishedAt": "2026-07-01T16:00:00.000Z",
+      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Summit_Photo_1.max-600x600.format-webp.webp\"&gt;Google, the New York Jobs CEO Council and Urban Assembly hosted an AI summit for 150 education and industry leaders.",
+      "tags": [
+        "RAG",
+        "Vision",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Unlocking Britain’s next era of productivity: Building a nation of AI trailblazers",
+      "url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers/",
+      "feedSource": "Google AI",
+      "source": "blog.google",
+      "score": 0.2659,
+      "publishedAt": "2026-06-30T06:00:00.000Z",
+      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Generated_Image_k2dxu1k2.max-600x600.format-webp.webp\"&gt;Google UK shares its latest Economic Impact Report and how to enable more people to unlock the benefits of AI-powered technologies.",
+      "tags": [
+        "LLM",
         "RAG",
         "Vision",
         "Dev Tools"
