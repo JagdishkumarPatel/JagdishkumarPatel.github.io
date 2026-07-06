@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T15:41:26.316Z",
+  "updatedAt": "2026-07-06T20:03:07.910Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,11 +8,38 @@
   ],
   "items": [
     {
+      "title": "A global workspace in language models",
+      "url": "https://www.anthropic.com/research/global-workspace",
+      "feedSource": "Hacker News",
+      "source": "anthropic.com",
+      "score": 1.0453,
+      "publishedAt": "2026-07-06T17:44:08.000Z",
+      "summary": "",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 79
+    },
+    {
+      "title": "Kani: A Model Checker for Rust",
+      "url": "https://arxiv.org/abs/2607.01504",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.912,
+      "publishedAt": "2026-07-06T15:53:24.000Z",
+      "summary": "Rust’s ownership type system prevents memory errors in safe code, but certain desirable properties remain orthogonal to compilation: the soundness of unsafe operations (e.g., raw pointer dereferences), functional correctness, and absence of runtime panics. We present Kani, an open-source model check",
+      "tags": [
+        "Open Source",
+        "Dev Tools"
+      ],
+      "engagementScore": 87
+    },
+    {
       "title": "Does code cleanliness affect coding agents? A controlled minimal-pair study",
       "url": "https://arxiv.org/abs/2605.20049",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8628,
+      "score": 0.8365,
       "publishedAt": "2026-07-05T23:03:55.000Z",
       "summary": "As autonomous coding agents see rapid adoption, their evaluation has primarily focused on task completion rates holding the target codebase fixed. This leaves a critical question unanswered: does the structural and stylistic quality, or ``cleanliness″ of the underlying code affect an agent’s ability",
       "tags": [
@@ -21,14 +48,27 @@
         "Dev Tools",
         "Industry"
       ],
-      "engagementScore": 176
+      "engagementScore": 188
+    },
+    {
+      "title": "The Hitchhiker's Guide to Agentic AI",
+      "url": "https://arxiv.org/abs/2606.24937",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.8247,
+      "publishedAt": "2026-07-06T08:40:29.000Z",
+      "summary": "The Hitchhiker’s Guide to Agentic AI is a comprehensive practitioner’s reference for building autonomous AI systems. The book covers the full stack from first principles to production deployment, organized around a central thesis: building great agentic systems requires understanding every layer of",
+      "tags": [
+        "Agents"
+      ],
+      "engagementScore": 41
     },
     {
       "title": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
       "url": "https://huggingface.co/blog/lerobot-release-v060",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.8476,
+      "score": 0.82,
       "publishedAt": "2026-07-07T00:00:00.000Z",
       "summary": "",
       "tags": [
@@ -37,24 +77,11 @@
       "engagementScore": 0
     },
     {
-      "title": "The Hitchhiker's Guide to Agentic AI",
-      "url": "https://arxiv.org/abs/2606.24937",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.8449,
-      "publishedAt": "2026-07-06T08:40:29.000Z",
-      "summary": "The Hitchhiker’s Guide to Agentic AI is a comprehensive practitioner’s reference for building autonomous AI systems. The book covers the full stack from first principles to production deployment, organized around a central thesis: building great agentic systems requires understanding every layer of",
-      "tags": [
-        "Agents"
-      ],
-      "engagementScore": 34
-    },
-    {
       "title": "PRX Part 4: Our Data Strategy",
       "url": "https://huggingface.co/blog/Photoroom/prx-part4-data",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.794,
+      "score": 0.7664,
       "publishedAt": "2026-07-06T15:30:55.000Z",
       "summary": "",
       "tags": [
@@ -63,24 +90,11 @@
       "engagementScore": 0
     },
     {
-      "title": "A sociotechnical threat model for AI-driven smart home devices",
-      "url": "https://arxiv.org/abs/2602.09239",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.7842,
-      "publishedAt": "2026-07-05T17:05:57.000Z",
-      "summary": "The growing adoption of AI-driven smart home devices has introduced new privacy risks for domestic workers (DWs), who are frequently monitored in employers’ homes while also using smart devices in their own households. We conducted semi-structured interviews with 18 UK-based DWs and performed a huma",
-      "tags": [
-        "Safety"
-      ],
-      "engagementScore": 83
-    },
-    {
       "title": "The Log is the Agent",
       "url": "https://arxiv.org/abs/2605.21997",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7027,
+      "score": 0.6739,
       "publishedAt": "2026-07-05T02:57:38.000Z",
       "summary": "Most agent frameworks are built around the language model: a conversation loop comes first, then tools, then rules, and finally a logging layer bolted on for observability, with state persisted as retrievable “memory.” We describe ActiveGraph, a runtime that inverts this arrangement. The append-only",
       "tags": [
@@ -88,14 +102,27 @@
         "Agents",
         "Dev Tools"
       ],
-      "engagementScore": 111
+      "engagementScore": 113
+    },
+    {
+      "title": "Your family&#8217;s $300 stake in OpenAI",
+      "url": "https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6739,
+      "publishedAt": "2026-07-06T18:00:00.000Z",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. OpenAI CEO Sam Altman’s oft-discussed promise that Americans will share in the wealth AI creates was in the news again last week. On Thursday, the Financial Times",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "🤗 Kernels: Major Updates",
       "url": "https://huggingface.co/blog/revamped-kernels",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6959,
+      "score": 0.6684,
       "publishedAt": "2026-07-06T00:00:00.000Z",
       "summary": "",
       "tags": [
@@ -108,7 +135,7 @@
       "url": "https://www.technologyreview.com/2026/07/06/1140172/the-download-south-korea-ai-chipworkers-eye-transplants/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6702,
+      "score": 0.6448,
       "publishedAt": "2026-07-06T13:00:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. South Korea’s hottest new bachelors are chip workers Baek, a 35-year-old manager at the South Korean semiconductor titan SK Hynix, was enrolled in a m",
       "tags": [
@@ -121,9 +148,22 @@
       "url": "https://www.technologyreview.com/2026/07/06/1140000/south-korea-bachelors-samsung-skhynix-chip-workers/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6469,
+      "score": 0.6214,
       "publishedAt": "2026-07-06T09:00:00.000Z",
       "summary": "Baek, a 35-year-old manager at the South Korean semiconductor titan SK Hynix, was enrolled in Sunoo, a matchmaking company based in Seoul, a year ago. In a move typical of anxious South Korean parents, his mother signed him up, hoping to find a good wife for her son. Lately, says Baek (who asked to",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "I spy",
+      "url": "https://www.theverge.com/column/961707/smart-glasses-ai-wearables-meta-surveillance-privacy",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5847,
+      "publishedAt": "2026-07-06T20:02:22.000Z",
+      "summary": "I've long argued that Hollywood has simultaneously set and ruined our expectations for smart glasses. But after binge-watching two seasons of Netflix's A Man on the Inside, this is perhaps the first time I've seen Hollywood, perhaps inadvertently, illustrate the biggest cultural problem with smart g",
       "tags": [
         "AI"
       ],
@@ -134,7 +174,7 @@
       "url": "https://www.wired.com/story/the-science-behind-why-soccer-players-at-the-2026-world-cup-are-cutting-their-socks/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5802,
+      "score": 0.5569,
       "publishedAt": "2026-07-06T14:50:52.000Z",
       "summary": "Holes in socks have become a curious sight at this year’s World Cup. The reasons why are a weird mix of biomechanics, perception, and player habits.",
       "tags": [
@@ -147,7 +187,7 @@
       "url": "https://www.theverge.com/news/961528/microsoft-layoffs-july-2026-sales-xbox",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5741,
+      "score": 0.5507,
       "publishedAt": "2026-07-06T13:41:31.000Z",
       "summary": "A year after cutting around 9,100 employees, Microsoft is making further layoffs today as it begins its new financial year. The software maker is laying off around 4,800 employees today, approximately 2.1 percent of its workforce. Most of the employees affected by today's cuts are in Microsoft's com",
       "tags": [
@@ -160,7 +200,7 @@
       "url": "https://www.wired.com/story/bentley-reveals-its-first-electric-car-amid-the-wreckage-of-the-luxury-ev-market/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5623,
+      "score": 0.539,
       "publishedAt": "2026-07-06T11:30:00.000Z",
       "summary": "The 300-mile Torcal arrives in September, but considering what’s come before with Ferrari, Porsche, and Mercedes, has the company timed its EV entry right?",
       "tags": [
@@ -173,7 +213,7 @@
       "url": "https://www.wired.com/gallery/best-keyboards/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5597,
+      "score": 0.5363,
       "publishedAt": "2026-07-06T11:00:00.000Z",
       "summary": "Whether you’re looking to boost your productivity or your Fortnite stats, these are the top keyboards for the job.",
       "tags": [
@@ -186,7 +226,7 @@
       "url": "https://www.wired.com/review/sony-bravia-7-mark-ii/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5571,
+      "score": 0.5338,
       "publishedAt": "2026-07-06T10:31:00.000Z",
       "summary": "This midrange mini RGB LED television has a high-end price but doesn’t match the brightness and contrast of more advanced models.",
       "tags": [
@@ -199,7 +239,7 @@
       "url": "https://www.wired.com/story/good-news-it-turns-out-the-earth-will-never-be-swallowed-by-the-sun/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.557,
+      "score": 0.5337,
       "publishedAt": "2026-07-06T10:30:00.000Z",
       "summary": "A new study suggests that when our star becomes unstable in 5 billion years or so, Earth may avoid being engulfed by its fiery demise.",
       "tags": [
@@ -214,7 +254,7 @@
       "url": "https://www.wired.com/story/ices-internal-watchdog-is-now-investigating-online-critics/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5543,
+      "score": 0.531,
       "publishedAt": "2026-07-06T10:00:00.000Z",
       "summary": "The Office of Professional Responsibility has opened more than 100 cases over what ICE officials call “incidents of doxing and threats” against ICE employees.",
       "tags": [
@@ -227,7 +267,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/961468/google-ai-commercial-founding-fathers-declaration-of-independence",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5528,
+      "score": 0.5295,
       "publishedAt": "2026-07-06T09:43:17.000Z",
       "summary": "\"Group project, but make it 1776.\" That's how a new commercial for Google Workspace opens. And things only get cringier from there. The clip imagines what it would be like if the founding fathers turned to Google's collaboration tools and Gemini to help them draft the Declaration of Independence. Be",
       "tags": [
@@ -241,7 +281,7 @@
       "url": "https://www.wired.com/story/what-if-the-universe-wasnt-as-uniform-as-scientists-think/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5516,
+      "score": 0.5283,
       "publishedAt": "2026-07-06T09:30:00.000Z",
       "summary": "A study based on 47 million galaxies found that the cosmic web retains patterns on enormous scales, which could force a reevaluation of a pillar of cosmology.",
       "tags": [
@@ -255,7 +295,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/961505/wealthy-ai-schools-alpha-forge-prep",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5513,
+      "score": 0.528,
       "publishedAt": "2026-07-06T09:26:00.000Z",
       "summary": "Most Americans don't trust AI. It's proven that it doesn't know what safe toppings for pizza are. People don't even want to listen to AI music. But none of that matters for some of America's wealthy, who are turning to AI to teach their kids instead of traditional schools. Companies like Forge Prep",
       "tags": [
@@ -268,7 +308,7 @@
       "url": "https://www.wired.com/story/how-palestinians-are-building-a-digital-archive-that-cant-be-erased/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.549,
+      "score": 0.5257,
       "publishedAt": "2026-07-06T09:00:00.000Z",
       "summary": "Distributed backups, cyber resilience, and a half-million records are preserving Palestinian history beyond any single building or border.",
       "tags": [
@@ -277,45 +317,31 @@
       "engagementScore": 0
     },
     {
-      "title": "Anthropic's Method to Losing Goodwill in a Few Easy Steps",
-      "url": "https://raheeljunaid.com/blog/anthropics-method-to-losing-goodwill-in-a-few-easy-steps/",
+      "title": "AMD Ryzen AI Halo – $4k AI Dev Kit",
+      "url": "https://www.lttlabs.com/articles/2026/07/06/amd-ryzen-ai-halo",
       "feedSource": "Hacker News",
-      "source": "raheeljunaid.com",
-      "score": 0.5294,
-      "publishedAt": "2026-07-06T12:37:06.000Z",
-      "summary": "Recently, I had the rare opportunity to test several agent harnesses, LLMs, and AI gateways in my daily tasks and greenfield projects. Each discovery befuddled me on the popular sentiment for agentic development.",
-      "tags": [
-        "LLM",
-        "Agents"
-      ],
-      "engagementScore": 215
-    },
-    {
-      "title": "Real-time map of Great Britain's rail network",
-      "url": "https://www.map.signalbox.io",
-      "feedSource": "Hacker News",
-      "source": "map.signalbox.io",
-      "score": 0.5257,
-      "publishedAt": "2026-07-06T09:38:36.000Z",
-      "summary": "Signalbox’s live real-time map of Great Britain’s rail network.",
+      "source": "lttlabs.com",
+      "score": 0.5194,
+      "publishedAt": "2026-07-06T15:01:18.000Z",
+      "summary": "Welcome to LTT Labs - your go-to destination for all things tech. Explore comprehensive test results, insightful commentary, and the latest analysis in hardware.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 289
+      "engagementScore": 212
     },
     {
       "title": "Nintendo announces new product revisions in Europe with replaceable batteries",
       "url": "https://www.nintendo.com/en-gb/Support/Nintendo-Switch-2/Information-about-upcoming-battery-related-revisions-to-some-Nintendo-products-3132901.html",
       "feedSource": "Hacker News",
       "source": "nintendo.com",
-      "score": 0.514,
+      "score": 0.5187,
       "publishedAt": "2026-07-06T13:18:16.000Z",
       "summary": "Starting summer 2026, in preparation for upcoming changes in European battery regulations coming into effect in mid-February 2027, selected Nintendo products in Europe will begin to be replaced on a rolling basis by revisions that contain a user-r",
       "tags": [
         "Vision",
         "Safety"
       ],
-      "engagementScore": 128
+      "engagementScore": 262
     },
     {
       "title": "How ChatGPT adoption has expanded",
@@ -426,17 +452,17 @@
       "engagementScore": 0
     },
     {
-      "title": "Aluminum foil (2021)",
-      "url": "https://dernocua.github.io/notes/aluminum-foil.html",
+      "title": "Real-time map of Great Britain's rail network",
+      "url": "https://www.map.signalbox.io",
       "feedSource": "Hacker News",
-      "source": "dernocua.github.io",
-      "score": 0.497,
-      "publishedAt": "2026-07-06T13:28:57.000Z",
-      "summary": "Kragen Javier Sitaker, 02021-05-24 (updated 02021-09-11)\n(14 minutes)",
+      "source": "map.signalbox.io",
+      "score": 0.5107,
+      "publishedAt": "2026-07-06T09:38:36.000Z",
+      "summary": "Signalbox’s live real-time map of Great Britain’s rail network.",
       "tags": [
-        "RAG"
+        "AI"
       ],
-      "engagementScore": 78
+      "engagementScore": 343
     },
     {
       "title": "Google DeepMind and A24 announce first-of-its-kind research partnership",
@@ -613,19 +639,6 @@
       "engagementScore": 0
     },
     {
-      "title": "A device that revives eyeballs from dead donors could make eye transplants possible",
-      "url": "https://www.technologyreview.com/2026/07/03/1140148/a-device-that-revives-eyeballs-from-dead-donors-could-make-eye-transplants-possible/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.2769,
-      "publishedAt": "2026-07-03T17:34:37.000Z",
-      "summary": "It’s not easy to transplant a whole human eye. The surgery is difficult. And the eyes themselves start to degenerate as soon as they’ve left the body. When surgeons attempted it a few years ago, the newly transplanted eye wasn’t able to see. But researchers believe they might have a solution: a devi",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "The latest AI news we announced in June 2026",
       "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
       "feedSource": "Google AI",
@@ -665,21 +678,6 @@
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Generated_Image_k2dxu1k2.max-600x600.format-webp.webp\"&gt;Google UK shares its latest Economic Impact Report and how to enable more people to unlock the benefits of AI-powered technologies.",
       "tags": [
         "LLM",
-        "RAG",
-        "Vision",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Ask an AI expert: What exactly is the full stack?",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
-      "feedSource": "Google AI",
-      "source": "blog.google",
-      "score": 0.2659,
-      "publishedAt": "2026-06-29T16:00:00.000Z",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Full_Stack.max-600x600.format-webp.webp\"&gt;A Google expert explains what it means to take a full-stack approach to AI and why it’s been the foundation of our AI work for so long.",
-      "tags": [
         "RAG",
         "Vision",
         "Dev Tools"
