@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T22:16:27.359Z",
+  "updatedAt": "2026-07-07T03:48:21.858Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,34 +12,47 @@
       "url": "https://www.anthropic.com/research/global-workspace",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 1.0765,
+      "score": 1.061,
       "publishedAt": "2026-07-06T17:44:08.000Z",
       "summary": "",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 189
+      "engagementScore": 299
     },
     {
       "title": "Kani: A Model Checker for Rust",
       "url": "https://arxiv.org/abs/2607.01504",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.9101,
+      "score": 0.8795,
       "publishedAt": "2026-07-06T15:53:24.000Z",
       "summary": "Rust’s ownership type system prevents memory errors in safe code, but certain desirable properties remain orthogonal to compilation: the soundness of unsafe operations (e.g., raw pointer dereferences), functional correctness, and absence of runtime panics. We present Kani, an open-source model check",
       "tags": [
         "Open Source",
         "Dev Tools"
       ],
-      "engagementScore": 113
+      "engagementScore": 130
+    },
+    {
+      "title": "Titan's Resources and Their Utilization",
+      "url": "https://arxiv.org/abs/2606.06608",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.8157,
+      "publishedAt": "2026-07-06T21:39:04.000Z",
+      "summary": "Saturn’s moon Titan is a unique environment in the solar system. It is the only moon with an atmosphere, composed primarily of the gases N2 and CH4. It is also the only world to have abundant surface hydrocarbons CxHy, which are found as both liquids (seas, lakes) and solids (dunes). Meanwhile, oxyg",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 17
     },
     {
       "title": "Does code cleanliness affect coding agents? A controlled minimal-pair study",
       "url": "https://arxiv.org/abs/2605.20049",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8217,
+      "score": 0.7845,
       "publishedAt": "2026-07-05T23:03:55.000Z",
       "summary": "As autonomous coding agents see rapid adoption, their evaluation has primarily focused on task completion rates holding the target codebase fixed. This leaves a critical question unanswered: does the structural and stylistic quality, or ``cleanliness″ of the underlying code affect an agent’s ability",
       "tags": [
@@ -48,27 +61,27 @@
         "Dev Tools",
         "Industry"
       ],
-      "engagementScore": 189
+      "engagementScore": 191
     },
     {
       "title": "The Hitchhiker's Guide to Agentic AI",
       "url": "https://arxiv.org/abs/2606.24937",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8132,
+      "score": 0.7778,
       "publishedAt": "2026-07-06T08:40:29.000Z",
       "summary": "The Hitchhiker’s Guide to Agentic AI is a comprehensive practitioner’s reference for building autonomous AI systems. The book covers the full stack from first principles to production deployment, organized around a central thesis: building great agentic systems requires understanding every layer of",
       "tags": [
         "Agents"
       ],
-      "engagementScore": 44
+      "engagementScore": 46
     },
     {
       "title": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
       "url": "https://huggingface.co/blog/lerobot-release-v060",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.806,
+      "score": 0.771,
       "publishedAt": "2026-07-07T00:00:00.000Z",
       "summary": "",
       "tags": [
@@ -77,24 +90,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Titan's Resources and Their Utilization",
-      "url": "https://arxiv.org/abs/2606.06608",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.7913,
-      "publishedAt": "2026-07-06T21:39:04.000Z",
-      "summary": "Saturn’s moon Titan is a unique environment in the solar system. It is the only moon with an atmosphere, composed primarily of the gases N2 and CH4. It is also the only world to have abundant surface hydrocarbons CxHy, which are found as both liquids (seas, lakes) and solids (dunes). Meanwhile, oxyg",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 5
-    },
-    {
       "title": "PRX Part 4: Our Data Strategy",
       "url": "https://huggingface.co/blog/Photoroom/prx-part4-data",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.7524,
+      "score": 0.7174,
       "publishedAt": "2026-07-06T15:30:55.000Z",
       "summary": "",
       "tags": [
@@ -103,24 +103,11 @@
       "engagementScore": 0
     },
     {
-      "title": "ThinkingCap-Qwen3.6-27B: Qwen3.6 capabilities with 50% fewer thinking tokens",
-      "url": "https://huggingface.co/bottlecapai/ThinkingCap-Qwen3.6-27B",
-      "feedSource": "Hacker News",
-      "source": "huggingface.co",
-      "score": 0.661,
-      "publishedAt": "2026-07-06T18:12:10.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 5
-    },
-    {
       "title": "Your family&#8217;s $300 stake in OpenAI",
       "url": "https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.661,
+      "score": 0.6287,
       "publishedAt": "2026-07-06T18:00:00.000Z",
       "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. OpenAI CEO Sam Altman’s oft-discussed promise that Americans will share in the wealth AI creates was in the news again last week. On Thursday, the Financial Times",
       "tags": [
@@ -133,7 +120,7 @@
       "url": "https://arxiv.org/abs/2605.21997",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.6588,
+      "score": 0.6211,
       "publishedAt": "2026-07-05T02:57:38.000Z",
       "summary": "Most agent frameworks are built around the language model: a conversation loop comes first, then tools, then rules, and finally a logging layer bolted on for observability, with state persisted as retrievable “memory.” We describe ActiveGraph, a runtime that inverts this arrangement. The append-only",
       "tags": [
@@ -148,7 +135,7 @@
       "url": "https://huggingface.co/blog/revamped-kernels",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6543,
+      "score": 0.6193,
       "publishedAt": "2026-07-06T00:00:00.000Z",
       "summary": "",
       "tags": [
@@ -161,7 +148,7 @@
       "url": "https://www.technologyreview.com/2026/07/06/1140172/the-download-south-korea-ai-chipworkers-eye-transplants/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6318,
+      "score": 0.5995,
       "publishedAt": "2026-07-06T13:00:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. South Korea’s hottest new bachelors are chip workers Baek, a 35-year-old manager at the South Korean semiconductor titan SK Hynix, was enrolled in a m",
       "tags": [
@@ -174,7 +161,7 @@
       "url": "https://www.technologyreview.com/2026/07/06/1140000/south-korea-bachelors-samsung-skhynix-chip-workers/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6085,
+      "score": 0.5762,
       "publishedAt": "2026-07-06T09:00:00.000Z",
       "summary": "Baek, a 35-year-old manager at the South Korean semiconductor titan SK Hynix, was enrolled in Sunoo, a matchmaking company based in Seoul, a year ago. In a move typical of anxious South Korean parents, his mother signed him up, hoping to find a good wife for her son. Lately, says Baek (who asked to",
       "tags": [
@@ -187,7 +174,7 @@
       "url": "https://www.theverge.com/news/961528/microsoft-layoffs-july-2026-sales-xbox",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5782,
+      "score": 0.5486,
       "publishedAt": "2026-07-06T21:03:15.000Z",
       "summary": "A year after cutting around 9,100 employees, Microsoft is making further layoffs today as it begins its new financial year. The software maker is laying off around 4,800 employees today, approximately 2.1 percent of its workforce. Most of the employees affected by today's cuts are in Microsoft's com",
       "tags": [
@@ -200,7 +187,7 @@
       "url": "https://www.theverge.com/column/961707/smart-glasses-ai-wearables-meta-surveillance-privacy",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5728,
+      "score": 0.5432,
       "publishedAt": "2026-07-06T20:02:22.000Z",
       "summary": "I've long argued that Hollywood has simultaneously set and ruined our expectations for smart glasses. But after binge-watching two seasons of Netflix's A Man on the Inside, this is perhaps the first time I've seen Hollywood, perhaps inadvertently, illustrate the biggest cultural problem with smart g",
       "tags": [
@@ -213,143 +200,9 @@
       "url": "https://www.wired.com/story/the-science-behind-why-soccer-players-at-the-2026-world-cup-are-cutting-their-socks/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.545,
+      "score": 0.5155,
       "publishedAt": "2026-07-06T14:50:52.000Z",
       "summary": "Holes in socks have become a curious sight at this year’s World Cup. The reasons why are a weird mix of biomechanics, perception, and player habits.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Bentley Torcal EV: Price, Specs, Availability",
-      "url": "https://www.wired.com/story/bentley-reveals-its-first-electric-car-amid-the-wreckage-of-the-luxury-ev-market/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5271,
-      "publishedAt": "2026-07-06T11:30:00.000Z",
-      "summary": "The 300-mile Torcal arrives in September, but considering what’s come before with Ferrari, Porsche, and Mercedes, has the company timed its EV entry right?",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "9 Best Keyboards (2025), Tested and Reviewed",
-      "url": "https://www.wired.com/gallery/best-keyboards/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5245,
-      "publishedAt": "2026-07-06T11:00:00.000Z",
-      "summary": "Whether you’re looking to boost your productivity or your Fortnite stats, these are the top keyboards for the job.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Sony Bravia 7 Mark II: Midrange but Priced High (2026)",
-      "url": "https://www.wired.com/review/sony-bravia-7-mark-ii/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5219,
-      "publishedAt": "2026-07-06T10:31:00.000Z",
-      "summary": "This midrange mini RGB LED television has a high-end price but doesn’t match the brightness and contrast of more advanced models.",
-      "tags": [
-        "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Good News! Turns Out the Earth Will Never Be Swallowed by the Sun",
-      "url": "https://www.wired.com/story/good-news-it-turns-out-the-earth-will-never-be-swallowed-by-the-sun/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5218,
-      "publishedAt": "2026-07-06T10:30:00.000Z",
-      "summary": "A new study suggests that when our star becomes unstable in 5 billion years or so, Earth may avoid being engulfed by its fiery demise.",
-      "tags": [
-        "Research",
-        "Vision",
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "ICE’s Internal Watchdog Is Now Investigating Online Critics",
-      "url": "https://www.wired.com/story/ices-internal-watchdog-is-now-investigating-online-critics/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5191,
-      "publishedAt": "2026-07-06T10:00:00.000Z",
-      "summary": "The Office of Professional Responsibility has opened more than 100 cases over what ICE officials call “incidents of doxing and threats” against ICE employees.",
-      "tags": [
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Infuriating Google commercial imagines the founding fathers embracing AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/961468/google-ai-commercial-founding-fathers-declaration-of-independence",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5176,
-      "publishedAt": "2026-07-06T09:43:17.000Z",
-      "summary": "\"Group project, but make it 1776.\" That's how a new commercial for Google Workspace opens. And things only get cringier from there. The clip imagines what it would be like if the founding fathers turned to Google's collaboration tools and Gemini to help them draft the Declaration of Independence. Be",
-      "tags": [
-        "LLM",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "What if the Universe Isn’t as Uniform as Scientists Think?",
-      "url": "https://www.wired.com/story/what-if-the-universe-wasnt-as-uniform-as-scientists-think/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5164,
-      "publishedAt": "2026-07-06T09:30:00.000Z",
-      "summary": "A study based on 47 million galaxies found that the cosmic web retains patterns on enormous scales, which could force a reevaluation of a pillar of cosmology.",
-      "tags": [
-        "Research",
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Some of the nation’s rich are letting AI teach their kids",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/961505/wealthy-ai-schools-alpha-forge-prep",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5161,
-      "publishedAt": "2026-07-06T09:26:00.000Z",
-      "summary": "Most Americans don't trust AI. It's proven that it doesn't know what safe toppings for pizza are. People don't even want to listen to AI music. But none of that matters for some of America's wealthy, who are turning to AI to teach their kids instead of traditional schools. Companies like Forge Prep",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "AMD Ryzen AI Halo – $4k AI Dev Kit",
-      "url": "https://www.lttlabs.com/articles/2026/07/06/amd-ryzen-ai-halo",
-      "feedSource": "Hacker News",
-      "source": "lttlabs.com",
-      "score": 0.5143,
-      "publishedAt": "2026-07-06T15:01:18.000Z",
-      "summary": "Welcome to LTT Labs - your go-to destination for all things tech. Explore comprehensive test results, insightful commentary, and the latest analysis in hardware.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 248
-    },
-    {
-      "title": "How Palestinians Are Building a Digital Archive That Can’t Be Erased",
-      "url": "https://www.wired.com/story/how-palestinians-are-building-a-digital-archive-that-cant-be-erased/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5138,
-      "publishedAt": "2026-07-06T09:00:00.000Z",
-      "summary": "Distributed backups, cyber resilience, and a half-million records are preserving Palestinian history beyond any single building or border.",
       "tags": [
         "AI"
       ],
@@ -369,15 +222,15 @@
       "engagementScore": 0
     },
     {
-      "title": "Inside Genebench-Pro",
-      "url": "https://openai.com/index/genebench-pro/case-studies",
+      "title": "Core dump epidemiology: fixing an 18-year-old bug",
+      "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
       "feedSource": "OpenAI",
       "source": "openai.com",
       "score": 0.5124,
       "publishedAt": "2026-06-30T00:00:00.000Z",
-      "summary": "Case studies",
+      "summary": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
       "tags": [
-        "AI"
+        "LLM"
       ],
       "engagementScore": 0
     },
@@ -395,15 +248,15 @@
       "engagementScore": 0
     },
     {
-      "title": "Core dump epidemiology: fixing an 18-year-old bug",
-      "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+      "title": "Inside Genebench-Pro",
+      "url": "https://openai.com/index/genebench-pro/case-studies",
       "feedSource": "OpenAI",
       "source": "openai.com",
       "score": 0.5124,
       "publishedAt": "2026-06-30T00:00:00.000Z",
-      "summary": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
+      "summary": "Case studies",
       "tags": [
-        "LLM"
+        "AI"
       ],
       "engagementScore": 0
     },
@@ -460,6 +313,156 @@
         "LLM",
         "Agents",
         "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "GLM 5.2 and the coming AI margin collapse",
+      "url": "https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/",
+      "feedSource": "Hacker News",
+      "source": "martinalderson.com",
+      "score": 0.5088,
+      "publishedAt": "2026-07-06T20:14:55.000Z",
+      "summary": "GLM 5.2 is the first open weights model I’d call a genuine competitor to Opus and GPT for agentic work - at ~15-20% of the price. Part one of why AI inference margins are about to collapse.",
+      "tags": [
+        "LLM",
+        "Agents",
+        "ML Infra"
+      ],
+      "engagementScore": 222
+    },
+    {
+      "title": "Ternlight – 7 MB embedding model that runs in browser (WASM)",
+      "url": "https://ternlight-demo.vercel.app/",
+      "feedSource": "Hacker News",
+      "source": "ternlight-demo.vercel.app",
+      "score": 0.4998,
+      "publishedAt": "2026-07-06T23:06:31.000Z",
+      "summary": "On-device sentence embeddings — engine, weights, and tokenizer in 7 MB of WASM. Search the React docs entirely on your CPU.",
+      "tags": [
+        "RAG",
+        "ML Infra"
+      ],
+      "engagementScore": 118
+    },
+    {
+      "title": "Bentley Torcal EV: Price, Specs, Availability",
+      "url": "https://www.wired.com/story/bentley-reveals-its-first-electric-car-amid-the-wreckage-of-the-luxury-ev-market/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4976,
+      "publishedAt": "2026-07-06T11:30:00.000Z",
+      "summary": "The 300-mile Torcal arrives in September, but considering what’s come before with Ferrari, Porsche, and Mercedes, has the company timed its EV entry right?",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "9 Best Keyboards (2025), Tested and Reviewed",
+      "url": "https://www.wired.com/gallery/best-keyboards/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4949,
+      "publishedAt": "2026-07-06T11:00:00.000Z",
+      "summary": "Whether you’re looking to boost your productivity or your Fortnite stats, these are the top keyboards for the job.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Sony Bravia 7 Mark II: Midrange but Priced High (2026)",
+      "url": "https://www.wired.com/review/sony-bravia-7-mark-ii/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4923,
+      "publishedAt": "2026-07-06T10:31:00.000Z",
+      "summary": "This midrange mini RGB LED television has a high-end price but doesn’t match the brightness and contrast of more advanced models.",
+      "tags": [
+        "Vision"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Good News! Turns Out the Earth Will Never Be Swallowed by the Sun",
+      "url": "https://www.wired.com/story/good-news-it-turns-out-the-earth-will-never-be-swallowed-by-the-sun/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4922,
+      "publishedAt": "2026-07-06T10:30:00.000Z",
+      "summary": "A new study suggests that when our star becomes unstable in 5 billion years or so, Earth may avoid being engulfed by its fiery demise.",
+      "tags": [
+        "Research",
+        "Vision",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "ICE’s Internal Watchdog Is Now Investigating Online Critics",
+      "url": "https://www.wired.com/story/ices-internal-watchdog-is-now-investigating-online-critics/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4895,
+      "publishedAt": "2026-07-06T10:00:00.000Z",
+      "summary": "The Office of Professional Responsibility has opened more than 100 cases over what ICE officials call “incidents of doxing and threats” against ICE employees.",
+      "tags": [
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Infuriating Google commercial imagines the founding fathers embracing AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/961468/google-ai-commercial-founding-fathers-declaration-of-independence",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.488,
+      "publishedAt": "2026-07-06T09:43:17.000Z",
+      "summary": "\"Group project, but make it 1776.\" That's how a new commercial for Google Workspace opens. And things only get cringier from there. The clip imagines what it would be like if the founding fathers turned to Google's collaboration tools and Gemini to help them draft the Declaration of Independence. Be",
+      "tags": [
+        "LLM",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "What if the Universe Isn’t as Uniform as Scientists Think?",
+      "url": "https://www.wired.com/story/what-if-the-universe-wasnt-as-uniform-as-scientists-think/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4869,
+      "publishedAt": "2026-07-06T09:30:00.000Z",
+      "summary": "A study based on 47 million galaxies found that the cosmic web retains patterns on enormous scales, which could force a reevaluation of a pillar of cosmology.",
+      "tags": [
+        "Research",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Some of the nation’s rich are letting AI teach their kids",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/961505/wealthy-ai-schools-alpha-forge-prep",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.4865,
+      "publishedAt": "2026-07-06T09:26:00.000Z",
+      "summary": "Most Americans don't trust AI. It's proven that it doesn't know what safe toppings for pizza are. People don't even want to listen to AI music. But none of that matters for some of America's wealthy, who are turning to AI to teach their kids instead of traditional schools. Companies like Forge Prep",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "How Palestinians Are Building a Digital Archive That Can’t Be Erased",
+      "url": "https://www.wired.com/story/how-palestinians-are-building-a-digital-archive-that-cant-be-erased/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4842,
+      "publishedAt": "2026-07-06T09:00:00.000Z",
+      "summary": "Distributed backups, cyber resilience, and a half-million records are preserving Palestinian history beyond any single building or border.",
+      "tags": [
+        "AI"
       ],
       "engagementScore": 0
     },
