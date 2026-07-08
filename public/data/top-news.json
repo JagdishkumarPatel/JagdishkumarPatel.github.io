@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-08T03:15:45.071Z",
+  "updatedAt": "2026-07-08T08:35:20.254Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,40 +8,156 @@
   ],
   "items": [
     {
-      "title": "A global workspace in language models",
-      "url": "https://www.anthropic.com/research/global-workspace",
-      "feedSource": "Hacker News",
-      "source": "anthropic.com",
-      "score": 0.912,
-      "publishedAt": "2026-07-06T17:44:08.000Z",
-      "summary": "",
+      "title": "Prompt-to-Paper: Agentic AI System for Bioinformatics",
+      "url": "https://arxiv.org/abs/2607.05456",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.881,
+      "publishedAt": "2026-07-08T04:00:00.000Z",
+      "summary": "arXiv:2607.05456v1 Announce Type: new \nAbstract: While recent advances in large language models have enabled end-to-end automated manuscript generation, existing systems suffer from three critical deficiencies: (i) generated claims are not deterministically grounded in verifiable literature, (ii) ex",
       "tags": [
-        "LLM"
+        "LLM",
+        "Agents",
+        "Research"
       ],
-      "engagementScore": 448
+      "engagementScore": 0
     },
     {
-      "title": "The Making of Claude Code",
-      "url": "https://www.anthropic.com/features/making-of-claude-code",
-      "feedSource": "Hacker News",
-      "source": "anthropic.com",
-      "score": 0.8868,
-      "publishedAt": "2026-07-07T06:19:20.000Z",
-      "summary": "The inside story of how Claude Code went from an internal CLI to Anthropic’s coding agent, told by researchers, engineers and early users who built it.",
+      "title": "From Graphs to Gradients: Physics-Inspired Structural Attribution for Cyber-Physical IoT Systems and Beyond",
+      "url": "https://arxiv.org/abs/2607.05563",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.881,
+      "publishedAt": "2026-07-08T04:00:00.000Z",
+      "summary": "arXiv:2607.05563v1 Announce Type: new \nAbstract: Interpretable explanation methods in Artificial Intelligence aim to uncover the underlying causes and their effects, enabling a deeper understanding of why a system behaves in a certain way under different inputs. Unlike traditional explainability met",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "CSTutorBench: Benchmarking Small Language Models as Tutors for Block-Based Programming",
+      "url": "https://arxiv.org/abs/2607.05571",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.881,
+      "publishedAt": "2026-07-08T04:00:00.000Z",
+      "summary": "arXiv:2607.05571v1 Announce Type: new \nAbstract: Large language models are increasingly explored as AI tutors, yet deploying them in K-12 settings raises concerns around privacy, cost, and reliance on proprietary models. Small language models (SLMs) offer a promising alternative, but selecting the r",
+      "tags": [
+        "LLM",
+        "Research",
+        "Dev Tools",
+        "ML Infra"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Foundation Models for Automatic CAD Generation",
+      "url": "https://arxiv.org/abs/2607.05573",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.881,
+      "publishedAt": "2026-07-08T04:00:00.000Z",
+      "summary": "arXiv:2607.05573v1 Announce Type: new \nAbstract: Recent advances in Large Language Models (LLMs) and Vision-Language Models (VLMs) enable the automatic generation of parametric 3D designs from natural-language specifications. This chapter presents an empirical study of foundation models for automati",
+      "tags": [
+        "LLM",
+        "Research",
+        "Vision"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Narrative World Model: Narratology-Grounded Writer Memory for Long-Form Fiction",
+      "url": "https://arxiv.org/abs/2607.05577",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.881,
+      "publishedAt": "2026-07-08T04:00:00.000Z",
+      "summary": "arXiv:2607.05577v1 Announce Type: new \nAbstract: Long-form fiction writers need memory that answers multi-hop questions about evolving story state: who knows a secret and when they learned it, whether an event preceded the narration that revealed it, whether a setup paid off, and how a relationship",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "FirstResearch: Auditable Question Formation for LLM Scientific Discovery Agents",
+      "url": "https://arxiv.org/abs/2607.05682",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.881,
+      "publishedAt": "2026-07-08T04:00:00.000Z",
+      "summary": "arXiv:2607.05682v1 Announce Type: new \nAbstract: LLM systems for scientific discovery increasingly assist with ideation, literature synthesis, experiment planning, and report generation, but the first research question they propose can remain difficult to audit: it may sound plausible without exposi",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Memory in the Loop: In-Process Retrieval as ExtendedWorking Memory for Language Agents",
+      "url": "https://arxiv.org/abs/2607.05690",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.881,
+      "publishedAt": "2026-07-08T04:00:00.000Z",
+      "summary": "arXiv:2607.05690v1 Announce Type: new \nAbstract: Language agents run a loop - observe, reason, act - but the memory they reason over sits outside it: a store queried at most once per turn. We study the regime where memory moves inside the loop, read and written on every step. The obstacle has always",
+      "tags": [
+        "Agents",
+        "Research",
+        "RAG"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Akashic: A Low-Overhead LLM Inference Service with MemAttention",
+      "url": "https://arxiv.org/abs/2607.05708",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.881,
+      "publishedAt": "2026-07-08T04:00:00.000Z",
+      "summary": "arXiv:2607.05708v1 Announce Type: new \nAbstract: Recent LLM-based agent systems continuously accumulate context across multi-turn interactions, tool invocations, and cross-session workflows. Replaying the full history for every request quickly becomes impractical: long contexts increase prefill cost",
       "tags": [
         "LLM",
         "Agents",
         "Research",
         "Dev Tools"
       ],
-      "engagementScore": 52
+      "engagementScore": 0
+    },
+    {
+      "title": "A global workspace in language models",
+      "url": "https://www.anthropic.com/research/global-workspace",
+      "feedSource": "Hacker News",
+      "source": "anthropic.com",
+      "score": 0.8734,
+      "publishedAt": "2026-07-06T17:44:08.000Z",
+      "summary": "",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 450
+    },
+    {
+      "title": "The Making of Claude Code",
+      "url": "https://www.anthropic.com/features/making-of-claude-code",
+      "feedSource": "Hacker News",
+      "source": "anthropic.com",
+      "score": 0.851,
+      "publishedAt": "2026-07-07T06:19:20.000Z",
+      "summary": "",
+      "tags": [
+        "LLM",
+        "Dev Tools"
+      ],
+      "engagementScore": 55
     },
     {
       "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
       "url": "https://openai.com/index/australian-payments-plus",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8386,
+      "score": 0.7998,
       "publishedAt": "2026-07-07T00:00:00.000Z",
       "summary": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
       "tags": [
@@ -55,7 +171,7 @@
       "url": "https://openai.com/index/mufg",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8386,
+      "score": 0.7998,
       "publishedAt": "2026-07-07T00:00:00.000Z",
       "summary": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
       "tags": [
@@ -68,20 +184,20 @@
       "url": "https://arxiv.org/abs/2607.02820",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7987,
+      "score": 0.7811,
       "publishedAt": "2026-07-07T23:21:03.000Z",
       "summary": "Git commit signing is widely entrusted to serve as evidence that a commit hash uniquely and immutably identifies a specific piece of signed content. We show this invariant does not hold. Given any signed commit, an attacker without access to the signing key, and without breaking SHA2 can produce a s",
       "tags": [
         "AI"
       ],
-      "engagementScore": 9
+      "engagementScore": 13
     },
     {
       "title": "From Hugging Face to Amazon SageMaker Studio in one click",
       "url": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.7571,
+      "score": 0.7235,
       "publishedAt": "2026-07-07T21:15:33.000Z",
       "summary": "",
       "tags": [
@@ -90,131 +206,11 @@
       "engagementScore": 0
     },
     {
-      "title": "iFLYTEK-Embodied-Omni Technical Report",
-      "url": "https://arxiv.org/abs/2607.02542",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7539,
-      "publishedAt": "2026-07-07T04:00:00.000Z",
-      "summary": "arXiv:2607.02542v1 Announce Type: new \nAbstract: General-purpose embodied agents must understand multimodal instructions, anticipate how their environment will evolve, and produce precise control actions over extended horizons. Existing approaches typically specialize in visual-language reasoning, v",
-      "tags": [
-        "Agents",
-        "Research",
-        "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Internal Pluralism and the Limits of Pairwise Comparisons",
-      "url": "https://arxiv.org/abs/2607.02672",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7539,
-      "publishedAt": "2026-07-07T04:00:00.000Z",
-      "summary": "arXiv:2607.02672v1 Announce Type: new \nAbstract: Local pairwise comparisons are a standard tool for learning how people want decision rules to work, e.g., in participatory design or alignment. However, their use builds in two strong assumptions: that local comparisons are sufficient evidence about h",
-      "tags": [
-        "Research",
-        "Safety",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "ASK in the Dark: Uncertainty-Gated LLM Assistance under Partial Observability",
-      "url": "https://arxiv.org/abs/2607.02686",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7539,
-      "publishedAt": "2026-07-07T04:00:00.000Z",
-      "summary": "arXiv:2607.02686v1 Announce Type: new \nAbstract: Reinforcement learning agents operating under partial observability must act on incomplete information, making them natural candidates for guidance from small language models (SLMs) that carry broad reasoning priors. Yet integrating SLM guidance into",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Automated Data Readiness for Scientific AI",
-      "url": "https://arxiv.org/abs/2607.02771",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7539,
-      "publishedAt": "2026-07-07T04:00:00.000Z",
-      "summary": "arXiv:2607.02771v1 Announce Type: new \nAbstract: Leadership computing facilities steward large-scale scientific datasets that routinely require substantial transformation before serving as AI training data. However, no existing framework fully unifies automated transformation, readiness assessment,",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "SwarmResearch: Orchestrating Coding Agents for Open-Ended Discovery",
-      "url": "https://arxiv.org/abs/2607.02807",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7539,
-      "publishedAt": "2026-07-07T04:00:00.000Z",
-      "summary": "arXiv:2607.02807v1 Announce Type: new \nAbstract: Long-running coding agents such as autoresearch can persistently discover optimizations for open-ended problems. However, they tend to converge onto a single high-level approach, then proceed with low-level edits while missing other superior approache",
-      "tags": [
-        "Agents",
-        "Research",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Object-Centric Environment Modeling for Agentic Tasks",
-      "url": "https://arxiv.org/abs/2607.02846",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7539,
-      "publishedAt": "2026-07-07T04:00:00.000Z",
-      "summary": "arXiv:2607.02846v1 Announce Type: new \nAbstract: Large language model (LLM) agents can improve through accumulated experience, but free-form textual memories become difficult to maintain, validate, and reuse as interactions grow. Recent symbolic approaches learn executable skills or programmatic wor",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "MedCalc-Pro: Solving Complex Medical Calculations with LLM Agents",
-      "url": "https://arxiv.org/abs/2607.02879",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7539,
-      "publishedAt": "2026-07-07T04:00:00.000Z",
-      "summary": "arXiv:2607.02879v1 Announce Type: new \nAbstract: Current benchmarks for evaluating large language models (LLMs) in medical calculation are largely based on simplified settings, where each patient case corresponds to a single calculator and the required tool is explicitly specified in the query. Howe",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Research",
-        "Dev Tools",
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Oyster-II: Reinforcement Learning for Constructive Safety Alignment in Large Language Models",
-      "url": "https://arxiv.org/abs/2607.02914",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7539,
-      "publishedAt": "2026-07-07T04:00:00.000Z",
-      "summary": "arXiv:2607.02914v1 Announce Type: new \nAbstract: Large language models (LLMs) have demonstrated remarkable capabilities across diverse applications, yet ensuring their simultaneous safety, helpfulness, and trustworthiness remains a persistent challenge. Conventional refusal-oriented alignment strate",
-      "tags": [
-        "LLM",
-        "Research",
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Kani: A Model Checker for Rust",
       "url": "https://arxiv.org/abs/2607.01504",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7304,
+      "score": 0.6942,
       "publishedAt": "2026-07-06T15:53:24.000Z",
       "summary": "Rust’s ownership type system prevents memory errors in safe code, but certain desirable properties remain orthogonal to compilation: the soundness of unsafe operations (e.g., raw pointer dereferences), functional correctness, and absence of runtime panics. We present Kani, an open-source model check",
       "tags": [
@@ -228,7 +224,7 @@
       "url": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.7197,
+      "score": 0.686,
       "publishedAt": "2026-07-07T15:20:06.000Z",
       "summary": "",
       "tags": [
@@ -241,7 +237,7 @@
       "url": "https://arxiv.org/abs/2606.32032",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7159,
+      "score": 0.6797,
       "publishedAt": "2026-07-07T09:02:38.000Z",
       "summary": "Metacognition is a critical component of intelligence that describes the ability to monitor and regulate one’s own cognitive processes. Yet LLMs exhibit systemic deficiencies in key metacognitive faculties: they hallucinate with high confidence, fail to recognize knowledge boundaries, and misreprese",
       "tags": [
@@ -254,7 +250,7 @@
       "url": "https://arxiv.org/abs/2605.20049",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.629,
+      "score": 0.593,
       "publishedAt": "2026-07-05T23:03:55.000Z",
       "summary": "As autonomous coding agents see rapid adoption, their evaluation has primarily focused on task completion rates holding the target codebase fixed. This leaves a critical question unanswered: does the structural and stylistic quality, or ``cleanliness″ of the underlying code affect an agent’s ability",
       "tags": [
@@ -263,14 +259,14 @@
         "Dev Tools",
         "Industry"
       ],
-      "engagementScore": 207
+      "engagementScore": 208
     },
     {
       "title": "Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot",
       "url": "https://huggingface.co/blog/skypilot-hf-storage",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6228,
+      "score": 0.5891,
       "publishedAt": "2026-07-07T00:00:00.000Z",
       "summary": "",
       "tags": [
@@ -284,7 +280,7 @@
       "url": "https://huggingface.co/blog/lerobot-release-v060",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6228,
+      "score": 0.5891,
       "publishedAt": "2026-07-07T00:00:00.000Z",
       "summary": "",
       "tags": [
@@ -297,7 +293,7 @@
       "url": "https://www.technologyreview.com/2026/07/07/1140197/the-download-your-openai-stake-treasury-ai-warning/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5978,
+      "score": 0.5668,
       "publishedAt": "2026-07-07T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Your family’s $300 stake in OpenAI Sam Altman’s proposal that Americans should share in the wealth created by AI is back in the spotlight, with report",
       "tags": [
@@ -306,11 +302,115 @@
       "engagementScore": 0
     },
     {
+      "title": "We-Vibe Discount Codes and Deals: Up to 60% Off",
+      "url": "https://www.wired.com/story/we-vibe-discount-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5656,
+      "publishedAt": "2026-07-08T05:00:00.000Z",
+      "summary": "Save on We-Vibe, including app-controlled bestsellers and popular gift sets designed for couples, connection, and shared pleasure.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Vimeo Promo Codes and Discounts: Up to 40% Off This July 2026",
+      "url": "https://www.wired.com/story/vimeo-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5656,
+      "publishedAt": "2026-07-08T05:00:00.000Z",
+      "summary": "Enjoy 25% off a membership, 40% off, plus an additional 10% off annual plans, and more deals to save at Vimeo.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "TurboTax Full Service Coupons This July",
+      "url": "https://www.wired.com/story/turbotax-coupon/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5656,
+      "publishedAt": "2026-07-08T05:00:00.000Z",
+      "summary": "Tax season doesn’t have to be stressful. Score 10% off full service expert on federal tax filings and more exclusive TurboTax discount codes on WIRED.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Lowe’s Promo Codes and Deals: Up to $300 Off Appliances",
+      "url": "https://www.wired.com/story/lowes-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5656,
+      "publishedAt": "2026-07-08T05:00:00.000Z",
+      "summary": "Find the latest Lowe’s promo codes and offers, including up to $300 off select major appliances and $5 off $50 with sign-up, here at WIRED.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Columbia Promo Codes: 15% Off | July 2026",
+      "url": "https://www.wired.com/story/columbia-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5656,
+      "publishedAt": "2026-07-08T05:00:00.000Z",
+      "summary": "Explore current Columbia deals on jackets, outdoor gear, and apparel. Find active Columbia promo codes, student discounts, and free shipping offers to save on your next adventure.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "20% Off Brooks Promo Code | July 2026",
+      "url": "https://www.wired.com/story/brooks-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5656,
+      "publishedAt": "2026-07-08T05:00:00.000Z",
+      "summary": "Enjoy 20% off your first order with a Brooks coupon code, plus top discounts and deals on our favorite Brooks running shoes.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Valvoline Coupons and Promo Codes for July 2026",
+      "url": "https://www.wired.com/story/valvoline-coupons/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5656,
+      "publishedAt": "2026-07-08T05:00:00.000Z",
+      "summary": "We've gathered all the top Valvoline coupons and promo codes for July 2026, including deals on full synthetic oil changes and other essential maintenance.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Best Buy Discount Codes: Up to 60% Off",
+      "url": "https://www.wired.com/story/best-buy-discount-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5656,
+      "publishedAt": "2026-07-08T05:00:00.000Z",
+      "summary": "Find the latest Best Buy promo codes and offers, including 10% back in rewards for new cardmembers and free 2-day shipping with My Best Buy Plus, here at WIRED.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "The foundational elements of AI architecture that IT leaders need to scale",
       "url": "https://www.technologyreview.com/2026/07/07/1139413/the-foundational-elements-of-ai-architecture-that-it-leaders-need-to-scale/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5921,
+      "score": 0.561,
       "publishedAt": "2026-07-07T11:10:52.000Z",
       "summary": "With the rapid progress of AI capabilities and the move to agentic systems, organizations are expanding their use cases as the technology continues to grow. That constant evolution also introduces risk, leaving IT leaders to wonder which investments will prove valuable even six months into the futur",
       "tags": [
@@ -326,7 +426,7 @@
       "url": "https://www.technologyreview.com/2026/07/07/1140142/why-worms-and-microbes-are-catching-on-as-a-manure-pollution-solution/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5852,
+      "score": 0.5541,
       "publishedAt": "2026-07-07T10:00:00.000Z",
       "summary": "Anthony Agueda, a third-generation California dairy farmer, pulls a rake through a bed of dark, wet wood chips on his family’s land in Hickman, a tiny town in the state’s agricultural heartland. He reaches down with both hands and pulls up a clump of muck, turning it over to reveal a half-dozen squi",
       "tags": [
@@ -339,7 +439,7 @@
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.5788,
+      "score": 0.5477,
       "publishedAt": "2026-07-07T08:54:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Managed_agents_feature_bundle_l.max-600x600.format-webp.webp\"&gt;We’re announcing new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents.",
       "tags": [
@@ -356,7 +456,7 @@
       "url": "https://huggingface.co/blog/Photoroom/prx-part4-data",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.5692,
+      "score": 0.5355,
       "publishedAt": "2026-07-06T15:30:55.000Z",
       "summary": "",
       "tags": [
@@ -365,39 +465,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Meta Now Lets Anyone Use Your Instagram Photos in AI Images—Unless You Opt Out",
-      "url": "https://www.wired.com/story/meta-now-lets-anyone-use-your-instagram-photos-in-ai-images-unless-you-opt-out/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5566,
-      "publishedAt": "2026-07-07T21:59:29.000Z",
-      "summary": "As part of Meta’s Muse Image model rollout, Instagram users with public accounts need to opt out to block AI generations of their content.",
-      "tags": [
-        "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "OpenAI’s Chief Futurist Is Leaving the Company",
-      "url": "https://www.wired.com/story/openai-chief-futurist-joshua-achiam-is-leaving-the-company/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5539,
-      "publishedAt": "2026-07-07T21:30:00.000Z",
-      "summary": "Joshua Achiam spent nearly nine years at OpenAI researching AI safety and made a memorable appearance in the Musk v. Altman trial.",
-      "tags": [
-        "LLM",
-        "Research",
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Meta’s new Muse Image model can pull other Instagram users into AI photos",
       "url": "https://www.theverge.com/tech/962485/meta-muse-image-ai-model-instagram",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5496,
+      "score": 0.5211,
       "publishedAt": "2026-07-07T20:41:03.000Z",
       "summary": "Meta is launching the first AI image generation model made by its Superintelligence Labs division. The Muse Image model now powers the image-making tools across the Meta AI app, Instagram, and WhatsApp, and it's coming soon to Facebook and Messenger, according to an announcement on Tuesday. It's par",
       "tags": [
@@ -407,70 +479,17 @@
       "engagementScore": 0
     },
     {
-      "title": "Mysterious Compound Detected on Pluto and Titan",
-      "url": "https://www.wired.com/story/mysterious-compound-detected-on-pluto-and-titan/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5355,
-      "publishedAt": "2026-07-07T18:03:40.000Z",
-      "summary": "Something on Pluto and one of Saturn’s moons, Titan, absorbs light in a way unexplained by anything in spectroscopic databases.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Anthropic is launching Claude Cowork on mobile and web",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/961978/anthropic-claude-cowork-mobile-web",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5341,
-      "publishedAt": "2026-07-07T17:47:03.000Z",
-      "summary": "Starting Tuesday, Anthropic's Claude Cowork AI platform will be available on mobile and web for the first time. The expanded access is rolling out first to Max subscribers and coming to Claude users on other plans \"in the coming weeks.\" Claude Cowork was previously only accessible through the Claude",
+      "title": "GPT-5.6 Sol, along with Terra and Luna, will launch publicly this Thursday",
+      "url": "https://twitter.com/OpenAI/status/2074704958419792299",
+      "feedSource": "Hacker News",
+      "source": "twitter.com",
+      "score": 0.5148,
+      "publishedAt": "2026-07-08T04:12:13.000Z",
+      "summary": "GPT-5.6 Sol, along with Terra and Luna, will launch publicly this Thursday. We’re expanding preview access globally now.",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Shut Those Laptops! Anthropic Puts Its Claude Cowork Agent on Your Phone",
-      "url": "https://www.wired.com/story/shut-those-laptops-anthropic-puts-its-claude-cowork-agent-on-your-phone/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5245,
-      "publishedAt": "2026-07-07T16:00:00.000Z",
-      "summary": "Claude Cowork now keeps working on tasks even after you close your laptop. It’s part of a larger push toward smartphone-controlled agents.",
-      "tags": [
-        "LLM",
-        "Agents"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Chat Control passed first round in EU Parliament",
-      "url": "https://www.heise.de/en/news/Showdown-in-Strasbourg-The-unexpected-return-of-Chat-Control-1-0-11356680.html",
-      "feedSource": "Hacker News",
-      "source": "heise.de",
-      "score": 0.5192,
-      "publishedAt": "2026-07-07T15:16:15.000Z",
-      "summary": "With a procedural trick, proponents in the EU Parliament are pushing for reactivation of indiscriminate scans of chat messages shortly before the summer break.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 537
-    },
-    {
-      "title": "We charge $10k a week to delete AI-generated code",
-      "url": "https://odra.dev/slopfix/",
-      "feedSource": "Hacker News",
-      "source": "odra.dev",
-      "score": 0.5161,
-      "publishedAt": "2026-07-07T20:35:42.000Z",
-      "summary": "Your AI-built product works, but past 100,000 lines every change breaks two things. Three senior engineers make your codebase maintainable again. One week, fixed price, guaranteed.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 241
+      "engagementScore": 171
     },
     {
       "title": "How ChatGPT adoption has expanded",
@@ -551,54 +570,29 @@
       "engagementScore": 0
     },
     {
-      "title": "These New Smart Glasses From Solos Come With a Privacy Shield for the Cameras",
-      "url": "https://www.wired.com/story/these-new-smart-glasses-from-solos-come-with-a-privacy-shield-for-the-cameras/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5085,
-      "publishedAt": "2026-07-07T13:00:00.000Z",
-      "summary": "You can clip a cover over the cameras, which could be a double-edged sword.",
+      "title": "GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos",
+      "url": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/",
+      "feedSource": "Hacker News",
+      "source": "noma.security",
+      "score": 0.507,
+      "publishedAt": "2026-07-08T05:25:35.000Z",
+      "summary": "TL;DR: Noma Labs discovered a critical prompt injection vulnerability within GitHub’s new Agentic Workflows, allowing an unauthenticated attacker to silently pull data from private repositories by posting a crafted GitHub Issue in a public repository belonging to the same organization as the private",
       "tags": [
-        "AI"
+        "Agents",
+        "Open Source"
       ],
-      "engagementScore": 0
+      "engagementScore": 117
     },
     {
-      "title": "The Best iPhone 17 Cases (2026): Our Picks After Testing 100+",
-      "url": "https://www.wired.com/gallery/best-iphone-17-cases-and-accessories/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5005,
-      "publishedAt": "2026-07-07T11:30:00.000Z",
-      "summary": "Protect your expensive iPhone 17, iPhone Air, iPhone Pro, or iPhone 17e with our favorite cases and screen protectors.",
+      "title": "Anthropic is launching Claude Cowork on mobile and web",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/961978/anthropic-claude-cowork-mobile-web",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5056,
+      "publishedAt": "2026-07-07T17:47:03.000Z",
+      "summary": "Starting Tuesday, Anthropic's Claude Cowork AI platform will be available on mobile and web for the first time. The expanded access is rolling out first to Max subscribers and coming to Claude users on other plans \"in the coming weeks.\" Claude Cowork was previously only accessible through the Claude",
       "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Hisense UR9 RGB MiniLED: An Affordable TV in Its Class",
-      "url": "https://www.wired.com/review/hisense-ur9-rgb-miniled/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4979,
-      "publishedAt": "2026-07-07T11:01:00.000Z",
-      "summary": "The brand’s UR9 competes with similar offerings from higher-end brands like Samsung and LG.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Best Indoor Garden Systems: I've Been Testing All Year (2026)",
-      "url": "https://www.wired.com/gallery/best-indoor-gardening-systems/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4952,
-      "publishedAt": "2026-07-07T10:31:00.000Z",
-      "summary": "Grow a backyard’s worth of greens and vegetables in your house with a vertical hydroponic garden. Here are a few that might be worth the investment.",
-      "tags": [
-        "Industry"
+        "LLM"
       ],
       "engagementScore": 0
     },
@@ -607,7 +601,7 @@
       "url": "https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4919,
+      "score": 0.4608,
       "publishedAt": "2026-07-06T18:00:00.000Z",
       "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. OpenAI CEO Sam Altman’s oft-discussed promise that Americans will share in the wealth AI creates was in the news again last week. On Thursday, the Financial Times",
       "tags": [
@@ -620,7 +614,7 @@
       "url": "https://huggingface.co/blog/revamped-kernels",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.4711,
+      "score": 0.4375,
       "publishedAt": "2026-07-06T00:00:00.000Z",
       "summary": "",
       "tags": [
@@ -633,35 +627,9 @@
       "url": "https://www.technologyreview.com/2026/07/06/1140172/the-download-south-korea-ai-chipworkers-eye-transplants/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4627,
+      "score": 0.4316,
       "publishedAt": "2026-07-06T13:00:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. South Korea’s hottest new bachelors are chip workers Baek, a 35-year-old manager at the South Korean semiconductor titan SK Hynix, was enrolled in a m",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "South Korea’s hottest new bachelors are chip workers",
-      "url": "https://www.technologyreview.com/2026/07/06/1140000/south-korea-bachelors-samsung-skhynix-chip-workers/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.4394,
-      "publishedAt": "2026-07-06T09:00:00.000Z",
-      "summary": "Baek, a 35-year-old manager at the South Korean semiconductor titan SK Hynix, was enrolled in Sunoo, a matchmaking company based in Seoul, a year ago. In a move typical of anxious South Korean parents, his mother signed him up, hoping to find a good wife for her son. Lately, says Baek (who asked to",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Microsoft is laying off 4,800 employees",
-      "url": "https://www.theverge.com/news/961528/microsoft-layoffs-july-2026-sales-xbox",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4232,
-      "publishedAt": "2026-07-06T21:03:15.000Z",
-      "summary": "A year after cutting around 9,100 employees, Microsoft is making further layoffs today as it begins its new financial year. The software maker is laying off around 4,800 employees today, approximately 2.1 percent of its workforce. Most of the employees affected by today's cuts are in Microsoft's com",
       "tags": [
         "AI"
       ],
@@ -691,6 +659,33 @@
       "tags": [
         "LLM",
         "Vision"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Introducing computer use in Gemini 3.5 Flash",
+      "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
+      "feedSource": "DeepMind",
+      "source": "deepmind.google",
+      "score": 0.4222,
+      "publishedAt": "2026-06-24T16:30:01.000Z",
+      "summary": "A look at the built-in computer use tool in Gemini 3.5 Flash.",
+      "tags": [
+        "LLM",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Unlocking UK house-building with AI-accelerated planning",
+      "url": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
+      "feedSource": "DeepMind",
+      "source": "deepmind.google",
+      "score": 0.4222,
+      "publishedAt": "2026-06-16T21:29:50.000Z",
+      "summary": "UK government partners with Google DeepMind to build a new AI-powered prototype aimed at faster housing decisions.",
+      "tags": [
+        "AI"
       ],
       "engagementScore": 0
     }
