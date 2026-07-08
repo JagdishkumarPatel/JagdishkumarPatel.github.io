@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T22:13:15.310Z",
+  "updatedAt": "2026-07-08T03:15:45.071Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,20 +12,20 @@
       "url": "https://www.anthropic.com/research/global-workspace",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.9475,
+      "score": 0.912,
       "publishedAt": "2026-07-06T17:44:08.000Z",
       "summary": "",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 438
+      "engagementScore": 448
     },
     {
       "title": "The Making of Claude Code",
       "url": "https://www.anthropic.com/features/making-of-claude-code",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.9204,
+      "score": 0.8868,
       "publishedAt": "2026-07-07T06:19:20.000Z",
       "summary": "The inside story of how Claude Code went from an internal CLI to Anthropic’s coding agent, told by researchers, engineers and early users who built it.",
       "tags": [
@@ -34,14 +34,14 @@
         "Research",
         "Dev Tools"
       ],
-      "engagementScore": 49
+      "engagementScore": 52
     },
     {
       "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
       "url": "https://openai.com/index/australian-payments-plus",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8754,
+      "score": 0.8386,
       "publishedAt": "2026-07-07T00:00:00.000Z",
       "summary": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
       "tags": [
@@ -51,11 +51,37 @@
       "engagementScore": 0
     },
     {
+      "title": "MUFG aims to become AI-native with OpenAI",
+      "url": "https://openai.com/index/mufg",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.8386,
+      "publishedAt": "2026-07-07T00:00:00.000Z",
+      "summary": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Git Hash Chain Malleability",
+      "url": "https://arxiv.org/abs/2607.02820",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.7987,
+      "publishedAt": "2026-07-07T23:21:03.000Z",
+      "summary": "Git commit signing is widely entrusted to serve as evidence that a commit hash uniquely and immutably identifies a specific piece of signed content. We show this invariant does not hold. Given any signed commit, an attacker without access to the signing key, and without breaking SHA2 can produce a s",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 9
+    },
+    {
       "title": "From Hugging Face to Amazon SageMaker Studio in one click",
       "url": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.789,
+      "score": 0.7571,
       "publishedAt": "2026-07-07T21:15:33.000Z",
       "summary": "",
       "tags": [
@@ -68,7 +94,7 @@
       "url": "https://arxiv.org/abs/2607.02542",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7882,
+      "score": 0.7539,
       "publishedAt": "2026-07-07T04:00:00.000Z",
       "summary": "arXiv:2607.02542v1 Announce Type: new \nAbstract: General-purpose embodied agents must understand multimodal instructions, anticipate how their environment will evolve, and produce precise control actions over extended horizons. Existing approaches typically specialize in visual-language reasoning, v",
       "tags": [
@@ -83,7 +109,7 @@
       "url": "https://arxiv.org/abs/2607.02672",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7882,
+      "score": 0.7539,
       "publishedAt": "2026-07-07T04:00:00.000Z",
       "summary": "arXiv:2607.02672v1 Announce Type: new \nAbstract: Local pairwise comparisons are a standard tool for learning how people want decision rules to work, e.g., in participatory design or alignment. However, their use builds in two strong assumptions: that local comparisons are sufficient evidence about h",
       "tags": [
@@ -98,7 +124,7 @@
       "url": "https://arxiv.org/abs/2607.02686",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7882,
+      "score": 0.7539,
       "publishedAt": "2026-07-07T04:00:00.000Z",
       "summary": "arXiv:2607.02686v1 Announce Type: new \nAbstract: Reinforcement learning agents operating under partial observability must act on incomplete information, making them natural candidates for guidance from small language models (SLMs) that carry broad reasoning priors. Yet integrating SLM guidance into",
       "tags": [
@@ -113,7 +139,7 @@
       "url": "https://arxiv.org/abs/2607.02771",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7882,
+      "score": 0.7539,
       "publishedAt": "2026-07-07T04:00:00.000Z",
       "summary": "arXiv:2607.02771v1 Announce Type: new \nAbstract: Leadership computing facilities steward large-scale scientific datasets that routinely require substantial transformation before serving as AI training data. However, no existing framework fully unifies automated transformation, readiness assessment,",
       "tags": [
@@ -126,7 +152,7 @@
       "url": "https://arxiv.org/abs/2607.02807",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7882,
+      "score": 0.7539,
       "publishedAt": "2026-07-07T04:00:00.000Z",
       "summary": "arXiv:2607.02807v1 Announce Type: new \nAbstract: Long-running coding agents such as autoresearch can persistently discover optimizations for open-ended problems. However, they tend to converge onto a single high-level approach, then proceed with low-level edits while missing other superior approache",
       "tags": [
@@ -141,7 +167,7 @@
       "url": "https://arxiv.org/abs/2607.02846",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7882,
+      "score": 0.7539,
       "publishedAt": "2026-07-07T04:00:00.000Z",
       "summary": "arXiv:2607.02846v1 Announce Type: new \nAbstract: Large language model (LLM) agents can improve through accumulated experience, but free-form textual memories become difficult to maintain, validate, and reuse as interactions grow. Recent symbolic approaches learn executable skills or programmatic wor",
       "tags": [
@@ -156,7 +182,7 @@
       "url": "https://arxiv.org/abs/2607.02879",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7882,
+      "score": 0.7539,
       "publishedAt": "2026-07-07T04:00:00.000Z",
       "summary": "arXiv:2607.02879v1 Announce Type: new \nAbstract: Current benchmarks for evaluating large language models (LLMs) in medical calculation are largely based on simplified settings, where each patient case corresponds to a single calculator and the required tool is explicitly specified in the query. Howe",
       "tags": [
@@ -173,7 +199,7 @@
       "url": "https://arxiv.org/abs/2607.02914",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7882,
+      "score": 0.7539,
       "publishedAt": "2026-07-07T04:00:00.000Z",
       "summary": "arXiv:2607.02914v1 Announce Type: new \nAbstract: Large language models (LLMs) have demonstrated remarkable capabilities across diverse applications, yet ensuring their simultaneous safety, helpfulness, and trustworthiness remains a persistent challenge. Conventional refusal-oriented alignment strate",
       "tags": [
@@ -188,7 +214,7 @@
       "url": "https://arxiv.org/abs/2607.01504",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7647,
+      "score": 0.7304,
       "publishedAt": "2026-07-06T15:53:24.000Z",
       "summary": "Rust’s ownership type system prevents memory errors in safe code, but certain desirable properties remain orthogonal to compilation: the soundness of unsafe operations (e.g., raw pointer dereferences), functional correctness, and absence of runtime panics. We present Kani, an open-source model check",
       "tags": [
@@ -202,7 +228,7 @@
       "url": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.7516,
+      "score": 0.7197,
       "publishedAt": "2026-07-07T15:20:06.000Z",
       "summary": "",
       "tags": [
@@ -215,7 +241,7 @@
       "url": "https://arxiv.org/abs/2606.32032",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7502,
+      "score": 0.7159,
       "publishedAt": "2026-07-07T09:02:38.000Z",
       "summary": "Metacognition is a critical component of intelligence that describes the ability to monitor and regulate one’s own cognitive processes. Yet LLMs exhibit systemic deficiencies in key metacognitive faculties: they hallucinate with high confidence, fail to recognize knowledge boundaries, and misreprese",
       "tags": [
@@ -224,24 +250,11 @@
       "engagementScore": 12
     },
     {
-      "title": "Titan's Resources and Their Utilization",
-      "url": "https://arxiv.org/abs/2606.06608",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.7057,
-      "publishedAt": "2026-07-06T21:39:04.000Z",
-      "summary": "Saturn’s moon Titan is a unique environment in the solar system. It is the only moon with an atmosphere, composed primarily of the gases N2 and CH4. It is also the only world to have abundant surface hydrocarbons CxHy, which are found as both liquids (seas, lakes) and solids (dunes). Meanwhile, oxyg",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 23
-    },
-    {
       "title": "Does code cleanliness affect coding agents? A controlled minimal-pair study",
       "url": "https://arxiv.org/abs/2605.20049",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.663,
+      "score": 0.629,
       "publishedAt": "2026-07-05T23:03:55.000Z",
       "summary": "As autonomous coding agents see rapid adoption, their evaluation has primarily focused on task completion rates holding the target codebase fixed. This leaves a critical question unanswered: does the structural and stylistic quality, or ``cleanliness″ of the underlying code affect an agent’s ability",
       "tags": [
@@ -250,14 +263,14 @@
         "Dev Tools",
         "Industry"
       ],
-      "engagementScore": 206
+      "engagementScore": 207
     },
     {
       "title": "Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot",
       "url": "https://huggingface.co/blog/skypilot-hf-storage",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6546,
+      "score": 0.6228,
       "publishedAt": "2026-07-07T00:00:00.000Z",
       "summary": "",
       "tags": [
@@ -271,7 +284,7 @@
       "url": "https://huggingface.co/blog/lerobot-release-v060",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6546,
+      "score": 0.6228,
       "publishedAt": "2026-07-07T00:00:00.000Z",
       "summary": "",
       "tags": [
@@ -284,7 +297,7 @@
       "url": "https://www.technologyreview.com/2026/07/07/1140197/the-download-your-openai-stake-treasury-ai-warning/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6273,
+      "score": 0.5978,
       "publishedAt": "2026-07-07T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Your family’s $300 stake in OpenAI Sam Altman’s proposal that Americans should share in the wealth created by AI is back in the spotlight, with report",
       "tags": [
@@ -297,7 +310,7 @@
       "url": "https://www.technologyreview.com/2026/07/07/1139413/the-foundational-elements-of-ai-architecture-that-it-leaders-need-to-scale/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6215,
+      "score": 0.5921,
       "publishedAt": "2026-07-07T11:10:52.000Z",
       "summary": "With the rapid progress of AI capabilities and the move to agentic systems, organizations are expanding their use cases as the technology continues to grow. That constant evolution also introduces risk, leaving IT leaders to wonder which investments will prove valuable even six months into the futur",
       "tags": [
@@ -313,7 +326,7 @@
       "url": "https://www.technologyreview.com/2026/07/07/1140142/why-worms-and-microbes-are-catching-on-as-a-manure-pollution-solution/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6146,
+      "score": 0.5852,
       "publishedAt": "2026-07-07T10:00:00.000Z",
       "summary": "Anthony Agueda, a third-generation California dairy farmer, pulls a rake through a bed of dark, wet wood chips on his family’s land in Hickman, a tiny town in the state’s agricultural heartland. He reaches down with both hands and pulls up a clump of muck, turning it over to reveal a half-dozen squi",
       "tags": [
@@ -326,7 +339,7 @@
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.6082,
+      "score": 0.5788,
       "publishedAt": "2026-07-07T08:54:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Managed_agents_feature_bundle_l.max-600x600.format-webp.webp\"&gt;We’re announcing new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents.",
       "tags": [
@@ -343,7 +356,7 @@
       "url": "https://huggingface.co/blog/Photoroom/prx-part4-data",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.601,
+      "score": 0.5692,
       "publishedAt": "2026-07-06T15:30:55.000Z",
       "summary": "",
       "tags": [
@@ -356,7 +369,7 @@
       "url": "https://www.wired.com/story/meta-now-lets-anyone-use-your-instagram-photos-in-ai-images-unless-you-opt-out/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5835,
+      "score": 0.5566,
       "publishedAt": "2026-07-07T21:59:29.000Z",
       "summary": "As part of Meta’s Muse Image model rollout, Instagram users with public accounts need to opt out to block AI generations of their content.",
       "tags": [
@@ -369,7 +382,7 @@
       "url": "https://www.wired.com/story/openai-chief-futurist-joshua-achiam-is-leaving-the-company/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5809,
+      "score": 0.5539,
       "publishedAt": "2026-07-07T21:30:00.000Z",
       "summary": "Joshua Achiam spent nearly nine years at OpenAI researching AI safety and made a memorable appearance in the Musk v. Altman trial.",
       "tags": [
@@ -384,7 +397,7 @@
       "url": "https://www.theverge.com/tech/962485/meta-muse-image-ai-model-instagram",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5765,
+      "score": 0.5496,
       "publishedAt": "2026-07-07T20:41:03.000Z",
       "summary": "Meta is launching the first AI image generation model made by its Superintelligence Labs division. The Muse Image model now powers the image-making tools across the Meta AI app, Instagram, and WhatsApp, and it's coming soon to Facebook and Messenger, according to an announcement on Tuesday. It's par",
       "tags": [
@@ -398,7 +411,7 @@
       "url": "https://www.wired.com/story/mysterious-compound-detected-on-pluto-and-titan/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5625,
+      "score": 0.5355,
       "publishedAt": "2026-07-07T18:03:40.000Z",
       "summary": "Something on Pluto and one of Saturn’s moons, Titan, absorbs light in a way unexplained by anything in spectroscopic databases.",
       "tags": [
@@ -407,11 +420,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Anthropic is launching Claude Cowork on mobile and web",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/961978/anthropic-claude-cowork-mobile-web",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5341,
+      "publishedAt": "2026-07-07T17:47:03.000Z",
+      "summary": "Starting Tuesday, Anthropic's Claude Cowork AI platform will be available on mobile and web for the first time. The expanded access is rolling out first to Max subscribers and coming to Claude users on other plans \"in the coming weeks.\" Claude Cowork was previously only accessible through the Claude",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Shut Those Laptops! Anthropic Puts Its Claude Cowork Agent on Your Phone",
       "url": "https://www.wired.com/story/shut-those-laptops-anthropic-puts-its-claude-cowork-agent-on-your-phone/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5515,
+      "score": 0.5245,
       "publishedAt": "2026-07-07T16:00:00.000Z",
       "summary": "Claude Cowork now keeps working on tasks even after you close your laptop. It’s part of a larger push toward smartphone-controlled agents.",
       "tags": [
@@ -425,91 +451,26 @@
       "url": "https://www.heise.de/en/news/Showdown-in-Strasbourg-The-unexpected-return-of-Chat-Control-1-0-11356680.html",
       "feedSource": "Hacker News",
       "source": "heise.de",
-      "score": 0.5408,
+      "score": 0.5192,
       "publishedAt": "2026-07-07T15:16:15.000Z",
       "summary": "With a procedural trick, proponents in the EU Parliament are pushing for reactivation of indiscriminate scans of chat messages shortly before the summer break.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 496
+      "engagementScore": 537
     },
     {
-      "title": "These New Smart Glasses From Solos Come With a Privacy Shield for the Cameras",
-      "url": "https://www.wired.com/story/these-new-smart-glasses-from-solos-come-with-a-privacy-shield-for-the-cameras/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5354,
-      "publishedAt": "2026-07-07T13:00:00.000Z",
-      "summary": "You can clip a cover over the cameras, which could be a double-edged sword.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Best iPhone 17 Cases (2026): Our Picks After Testing 100+",
-      "url": "https://www.wired.com/gallery/best-iphone-17-cases-and-accessories/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5274,
-      "publishedAt": "2026-07-07T11:30:00.000Z",
-      "summary": "Protect your expensive iPhone 17, iPhone Air, iPhone Pro, or iPhone 17e with our favorite cases and screen protectors.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Hisense UR9 RGB MiniLED: An Affordable TV in Its Class",
-      "url": "https://www.wired.com/review/hisense-ur9-rgb-miniled/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5248,
-      "publishedAt": "2026-07-07T11:01:00.000Z",
-      "summary": "The brand’s UR9 competes with similar offerings from higher-end brands like Samsung and LG.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Chat Control 1.0 and 2.0 Explained",
-      "url": "https://fightchatcontrol.eu/chat-control-overview",
+      "title": "We charge $10k a week to delete AI-generated code",
+      "url": "https://odra.dev/slopfix/",
       "feedSource": "Hacker News",
-      "source": "fightchatcontrol.eu",
-      "score": 0.5229,
-      "publishedAt": "2026-07-07T14:23:15.000Z",
-      "summary": "What is the difference between Chat Control 1.0 and Chat Control 2.0? A clear overview of both EU laws, their timelines, and where things stand today.",
+      "source": "odra.dev",
+      "score": 0.5161,
+      "publishedAt": "2026-07-07T20:35:42.000Z",
+      "summary": "Your AI-built product works, but past 100,000 lines every change breaks two things. Three senior engineers make your codebase maintainable again. One week, fixed price, guaranteed.",
       "tags": [
-        "AI"
+        "Dev Tools"
       ],
-      "engagementScore": 340
-    },
-    {
-      "title": "Best Indoor Garden Systems: I've Been Testing All Year (2026)",
-      "url": "https://www.wired.com/gallery/best-indoor-gardening-systems/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5222,
-      "publishedAt": "2026-07-07T10:31:00.000Z",
-      "summary": "Grow a backyard’s worth of greens and vegetables in your house with a vertical hydroponic garden. Here are a few that might be worth the investment.",
-      "tags": [
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Your family&#8217;s $300 stake in OpenAI",
-      "url": "https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.5213,
-      "publishedAt": "2026-07-06T18:00:00.000Z",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. OpenAI CEO Sam Altman’s oft-discussed promise that Americans will share in the wealth AI creates was in the news again last week. On Thursday, the Financial Times",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
+      "engagementScore": 241
     },
     {
       "title": "How ChatGPT adoption has expanded",
@@ -590,17 +551,67 @@
       "engagementScore": 0
     },
     {
-      "title": "Previewing GPT-5.6 Sol: a next-generation model",
-      "url": "https://openai.com/index/previewing-gpt-5-6-sol",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5124,
-      "publishedAt": "2026-06-26T10:00:00.000Z",
-      "summary": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
+      "title": "These New Smart Glasses From Solos Come With a Privacy Shield for the Cameras",
+      "url": "https://www.wired.com/story/these-new-smart-glasses-from-solos-come-with-a-privacy-shield-for-the-cameras/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5085,
+      "publishedAt": "2026-07-07T13:00:00.000Z",
+      "summary": "You can clip a cover over the cameras, which could be a double-edged sword.",
       "tags": [
-        "LLM",
-        "Safety",
-        "Dev Tools"
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Best iPhone 17 Cases (2026): Our Picks After Testing 100+",
+      "url": "https://www.wired.com/gallery/best-iphone-17-cases-and-accessories/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5005,
+      "publishedAt": "2026-07-07T11:30:00.000Z",
+      "summary": "Protect your expensive iPhone 17, iPhone Air, iPhone Pro, or iPhone 17e with our favorite cases and screen protectors.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Hisense UR9 RGB MiniLED: An Affordable TV in Its Class",
+      "url": "https://www.wired.com/review/hisense-ur9-rgb-miniled/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4979,
+      "publishedAt": "2026-07-07T11:01:00.000Z",
+      "summary": "The brand’s UR9 competes with similar offerings from higher-end brands like Samsung and LG.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Best Indoor Garden Systems: I've Been Testing All Year (2026)",
+      "url": "https://www.wired.com/gallery/best-indoor-gardening-systems/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4952,
+      "publishedAt": "2026-07-07T10:31:00.000Z",
+      "summary": "Grow a backyard’s worth of greens and vegetables in your house with a vertical hydroponic garden. Here are a few that might be worth the investment.",
+      "tags": [
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Your family&#8217;s $300 stake in OpenAI",
+      "url": "https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.4919,
+      "publishedAt": "2026-07-06T18:00:00.000Z",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. OpenAI CEO Sam Altman’s oft-discussed promise that Americans will share in the wealth AI creates was in the news again last week. On Thursday, the Financial Times",
+      "tags": [
+        "LLM"
       ],
       "engagementScore": 0
     },
@@ -609,7 +620,7 @@
       "url": "https://huggingface.co/blog/revamped-kernels",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.503,
+      "score": 0.4711,
       "publishedAt": "2026-07-06T00:00:00.000Z",
       "summary": "",
       "tags": [
@@ -622,7 +633,7 @@
       "url": "https://www.technologyreview.com/2026/07/06/1140172/the-download-south-korea-ai-chipworkers-eye-transplants/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4921,
+      "score": 0.4627,
       "publishedAt": "2026-07-06T13:00:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. South Korea’s hottest new bachelors are chip workers Baek, a 35-year-old manager at the South Korean semiconductor titan SK Hynix, was enrolled in a m",
       "tags": [
@@ -635,7 +646,7 @@
       "url": "https://www.technologyreview.com/2026/07/06/1140000/south-korea-bachelors-samsung-skhynix-chip-workers/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4688,
+      "score": 0.4394,
       "publishedAt": "2026-07-06T09:00:00.000Z",
       "summary": "Baek, a 35-year-old manager at the South Korean semiconductor titan SK Hynix, was enrolled in Sunoo, a matchmaking company based in Seoul, a year ago. In a move typical of anxious South Korean parents, his mother signed him up, hoping to find a good wife for her son. Lately, says Baek (who asked to",
       "tags": [
@@ -648,35 +659,9 @@
       "url": "https://www.theverge.com/news/961528/microsoft-layoffs-july-2026-sales-xbox",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4502,
+      "score": 0.4232,
       "publishedAt": "2026-07-06T21:03:15.000Z",
       "summary": "A year after cutting around 9,100 employees, Microsoft is making further layoffs today as it begins its new financial year. The software maker is laying off around 4,800 employees today, approximately 2.1 percent of its workforce. Most of the employees affected by today's cuts are in Microsoft's com",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "I spy",
-      "url": "https://www.theverge.com/column/961707/smart-glasses-ai-wearables-meta-surveillance-privacy",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4448,
-      "publishedAt": "2026-07-06T20:02:22.000Z",
-      "summary": "I've long argued that Hollywood has simultaneously set and ruined our expectations for smart glasses. But after binge-watching two seasons of Netflix's A Man on the Inside, this is perhaps the first time I've seen Hollywood, perhaps inadvertently, illustrate the biggest cultural problem with smart g",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Solos debuts an even lighter version of its camera-less smart glasses",
-      "url": "https://www.theverge.com/tech/961711/solos-airgo-a6-smart-glasses-ai-assistant-privacy",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4302,
-      "publishedAt": "2026-07-06T17:18:51.000Z",
-      "summary": "Solos announced a new version of its AirGo smart glasses, one that forgoes cameras for a sleeker design and an AI assistant that relies on voice interactions. Last year's AirGo A5 weighed 36 to 40 grams depending on the frame style, but the new AirGo A6 weigh around 19 grams. Part of the weight savi",
       "tags": [
         "AI"
       ],
@@ -689,9 +674,23 @@
       "source": "deepmind.google",
       "score": 0.4222,
       "publishedAt": "2026-07-03T14:25:43.000Z",
-      "summary": "",
+      "summary": "Today, Google DeepMind and A24 are announcing a first-of-its-kind partnership focused on research. The collaboration pairs a world-leading research lab with the industry…",
       "tags": [
         "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Start building with Nano Banana 2 Lite and Gemini Omni Flash",
+      "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
+      "feedSource": "DeepMind",
+      "source": "deepmind.google",
+      "score": 0.4222,
+      "publishedAt": "2026-06-30T16:02:40.000Z",
+      "summary": "Scale your ideas with Nano Banana 2 Lite, our fastest, most cost-efficient Gemini Image model, and Gemini Omni Flash for high-quality video and conversational editing.",
+      "tags": [
+        "LLM",
+        "Vision"
       ],
       "engagementScore": 0
     }
