@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-08T16:42:44.424Z",
+  "updatedAt": "2026-07-08T19:38:24.591Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,11 +8,50 @@
   ],
   "items": [
     {
+      "title": "GPT‑Live",
+      "url": "https://openai.com/index/introducing-gpt-live/",
+      "feedSource": "Hacker News",
+      "source": "openai.com",
+      "score": 1.1292,
+      "publishedAt": "2026-07-08T17:03:19.000Z",
+      "summary": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 384
+    },
+    {
+      "title": "Helping K–12 educators build practical AI skills",
+      "url": "https://openai.com/index/k-12-educators-practical-skills",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.9671,
+      "publishedAt": "2026-07-08T10:00:00.000Z",
+      "summary": "OpenAI Academy and the Walton Family Foundation are bringing hands-on AI Skills Jams to help K–12 educators build practical AI skills for the classroom.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Introducing GPT-Live",
+      "url": "https://openai.com/index/introducing-gpt-live",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.8942,
+      "publishedAt": "2026-07-08T00:00:00.000Z",
+      "summary": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Prompt-to-Paper: Agentic AI System for Bioinformatics",
       "url": "https://arxiv.org/abs/2607.05456",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8257,
+      "score": 0.8058,
       "publishedAt": "2026-07-08T04:00:00.000Z",
       "summary": "arXiv:2607.05456v1 Announce Type: new \nAbstract: While recent advances in large language models have enabled end-to-end automated manuscript generation, existing systems suffer from three critical deficiencies: (i) generated claims are not deterministically grounded in verifiable literature, (ii) ex",
       "tags": [
@@ -27,7 +66,7 @@
       "url": "https://arxiv.org/abs/2607.05563",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8257,
+      "score": 0.8058,
       "publishedAt": "2026-07-08T04:00:00.000Z",
       "summary": "arXiv:2607.05563v1 Announce Type: new \nAbstract: Interpretable explanation methods in Artificial Intelligence aim to uncover the underlying causes and their effects, enabling a deeper understanding of why a system behaves in a certain way under different inputs. Unlike traditional explainability met",
       "tags": [
@@ -40,7 +79,7 @@
       "url": "https://arxiv.org/abs/2607.05571",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8257,
+      "score": 0.8058,
       "publishedAt": "2026-07-08T04:00:00.000Z",
       "summary": "arXiv:2607.05571v1 Announce Type: new \nAbstract: Large language models are increasingly explored as AI tutors, yet deploying them in K-12 settings raises concerns around privacy, cost, and reliance on proprietary models. Small language models (SLMs) offer a promising alternative, but selecting the r",
       "tags": [
@@ -56,7 +95,7 @@
       "url": "https://arxiv.org/abs/2607.05573",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8257,
+      "score": 0.8058,
       "publishedAt": "2026-07-08T04:00:00.000Z",
       "summary": "arXiv:2607.05573v1 Announce Type: new \nAbstract: Recent advances in Large Language Models (LLMs) and Vision-Language Models (VLMs) enable the automatic generation of parametric 3D designs from natural-language specifications. This chapter presents an empirical study of foundation models for automati",
       "tags": [
@@ -71,7 +110,7 @@
       "url": "https://arxiv.org/abs/2607.05577",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8257,
+      "score": 0.8058,
       "publishedAt": "2026-07-08T04:00:00.000Z",
       "summary": "arXiv:2607.05577v1 Announce Type: new \nAbstract: Long-form fiction writers need memory that answers multi-hop questions about evolving story state: who knows a secret and when they learned it, whether an event preceded the narration that revealed it, whether a setup paid off, and how a relationship",
       "tags": [
@@ -84,7 +123,7 @@
       "url": "https://arxiv.org/abs/2607.05682",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8257,
+      "score": 0.8058,
       "publishedAt": "2026-07-08T04:00:00.000Z",
       "summary": "arXiv:2607.05682v1 Announce Type: new \nAbstract: LLM systems for scientific discovery increasingly assist with ideation, literature synthesis, experiment planning, and report generation, but the first research question they propose can remain difficult to audit: it may sound plausible without exposi",
       "tags": [
@@ -99,7 +138,7 @@
       "url": "https://arxiv.org/abs/2607.05690",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8257,
+      "score": 0.8058,
       "publishedAt": "2026-07-08T04:00:00.000Z",
       "summary": "arXiv:2607.05690v1 Announce Type: new \nAbstract: Language agents run a loop - observe, reason, act - but the memory they reason over sits outside it: a store queried at most once per turn. We study the regime where memory moves inside the loop, read and written on every step. The obstacle has always",
       "tags": [
@@ -114,7 +153,7 @@
       "url": "https://arxiv.org/abs/2607.05708",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8257,
+      "score": 0.8058,
       "publishedAt": "2026-07-08T04:00:00.000Z",
       "summary": "arXiv:2607.05708v1 Announce Type: new \nAbstract: Recent LLM-based agent systems continuously accumulate context across multi-turn interactions, tool invocations, and cross-session workflows. Replaying the full history for every request quickly becomes impractical: long contexts increase prefill cost",
       "tags": [
@@ -130,7 +169,7 @@
       "url": "https://www.anthropic.com/research/global-workspace",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.8146,
+      "score": 0.7933,
       "publishedAt": "2026-07-06T17:44:08.000Z",
       "summary": "Interpretability research on Claude’s internal thoughts.",
       "tags": [
@@ -140,11 +179,24 @@
       "engagementScore": 454
     },
     {
+      "title": "Data for Agents",
+      "url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.7801,
+      "publishedAt": "2026-07-08T17:16:05.000Z",
+      "summary": "",
+      "tags": [
+        "Agents"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "The Making of Claude Code",
       "url": "https://www.anthropic.com/features/making-of-claude-code",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.7956,
+      "score": 0.7743,
       "publishedAt": "2026-07-07T06:19:20.000Z",
       "summary": "The inside story of how Claude Code went from an internal CLI to Anthropic’s coding agent, told by researchers, engineers and early users who built it.",
       "tags": [
@@ -160,7 +212,7 @@
       "url": "https://openai.com/index/australian-payments-plus",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7405,
+      "score": 0.7192,
       "publishedAt": "2026-07-07T00:00:00.000Z",
       "summary": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
       "tags": [
@@ -174,7 +226,7 @@
       "url": "https://openai.com/index/mufg",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7405,
+      "score": 0.7192,
       "publishedAt": "2026-07-07T00:00:00.000Z",
       "summary": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
       "tags": [
@@ -187,20 +239,20 @@
       "url": "https://arxiv.org/abs/2607.02820",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7331,
+      "score": 0.7164,
       "publishedAt": "2026-07-07T23:21:03.000Z",
       "summary": "Git commit signing is widely entrusted to serve as evidence that a commit hash uniquely and immutably identifies a specific piece of signed content. We show this invariant does not hold. Given any signed commit, an attacker without access to the signing key, and without breaking SHA2 can produce a s",
       "tags": [
         "AI"
       ],
-      "engagementScore": 15
+      "engagementScore": 16
     },
     {
       "title": "Native-speed vLLM transformers modeling backend",
       "url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6895,
+      "score": 0.671,
       "publishedAt": "2026-07-08T00:00:00.000Z",
       "summary": "",
       "tags": [
@@ -213,7 +265,7 @@
       "url": "https://www.technologyreview.com/2026/07/08/1140223/emtech-ai-2026-the-rise-of-the-ai-platform/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6843,
+      "score": 0.6672,
       "publishedAt": "2026-07-08T16:26:10.000Z",
       "summary": "Head of Engineering for ChatGPT at Open AI, Sulman Choudhry shares how his work is changing the way we live.",
       "tags": [
@@ -226,7 +278,7 @@
       "url": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6721,
+      "score": 0.6536,
       "publishedAt": "2026-07-07T21:15:33.000Z",
       "summary": "",
       "tags": [
@@ -239,7 +291,7 @@
       "url": "https://www.technologyreview.com/2026/07/08/1140216/the-download-worms-manure-pollution-geoengineering-reality-check/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6594,
+      "score": 0.6423,
       "publishedAt": "2026-07-08T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Why worms (and microbes) are catching on as a manure pollution solution Anthony Agueda, a third-generation California dairy farmer, pulls a rake throu",
       "tags": [
@@ -252,7 +304,7 @@
       "url": "https://arxiv.org/abs/2607.01504",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.6389,
+      "score": 0.619,
       "publishedAt": "2026-07-06T15:53:24.000Z",
       "summary": "Rust’s ownership type system prevents memory errors in safe code, but certain desirable properties remain orthogonal to compilation: the soundness of unsafe operations (e.g., raw pointer dereferences), functional correctness, and absence of runtime panics. We present Kani, an open-source model check",
       "tags": [
@@ -266,7 +318,7 @@
       "url": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6347,
+      "score": 0.6162,
       "publishedAt": "2026-07-07T15:20:06.000Z",
       "summary": "",
       "tags": [
@@ -275,26 +327,27 @@
       "engagementScore": 0
     },
     {
-      "title": "Republicans Gleefully Celebrate Midterms Chaos in Maine",
-      "url": "https://www.wired.com/story/republicans-gleefully-celebrate-midterms-chaos-in-maine/",
+      "title": "Dimming the Sun Would Help Lower the Risks of El Niño",
+      "url": "https://www.wired.com/story/dimming-the-sun-would-lower-risks-of-el-nino/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5756,
-      "publishedAt": "2026-07-08T15:00:00.000Z",
-      "summary": "Political operatives in Trumpworld hope that US Senate candidate Graham Platner stays in the race as long as possible.",
+      "score": 0.576,
+      "publishedAt": "2026-07-08T18:00:00.000Z",
+      "summary": "As worries about a growing super El Niño mount, new findings suggest a radical solution to mitigating its impacts.",
       "tags": [
-        "AI"
+        "Research",
+        "Safety"
       ],
       "engagementScore": 0
     },
     {
-      "title": "The Foam Era Has Changed Pickleball—Here Are the Top 2 Pickleball Paddles Right Now",
-      "url": "https://www.wired.com/story/the-best-pickleball-paddles-in-2026/",
+      "title": "Republicans Gleefully Celebrate Midterms Chaos in Maine",
+      "url": "https://www.wired.com/story/republicans-gleefully-celebrate-midterms-chaos-in-maine/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5624,
-      "publishedAt": "2026-07-08T12:32:00.000Z",
-      "summary": "New tech has changed the game with the latest generation of pickleball paddles. Here's what to know and what to buy.",
+      "score": 0.5599,
+      "publishedAt": "2026-07-08T15:00:00.000Z",
+      "summary": "Political operatives in Trumpworld hope that US Senate candidate Graham Platner stays in the race as long as possible.",
       "tags": [
         "AI"
       ],
@@ -305,20 +358,33 @@
       "url": "https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/",
       "feedSource": "Hacker News",
       "source": "tris.sherliker.net",
-      "score": 0.5604,
+      "score": 0.5517,
       "publishedAt": "2026-07-08T08:46:06.000Z",
       "summary": "IP, technology &#x26; commercial law",
       "tags": [
         "Dev Tools"
       ],
-      "engagementScore": 972
+      "engagementScore": 1134
+    },
+    {
+      "title": "The Foam Era Has Changed Pickleball—Here Are the Top 2 Pickleball Paddles Right Now",
+      "url": "https://www.wired.com/story/the-best-pickleball-paddles-in-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5467,
+      "publishedAt": "2026-07-08T12:32:00.000Z",
+      "summary": "New tech has changed the game with the latest generation of pickleball paddles. Here's what to know and what to buy.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "The Best MagSafe Power Banks for iPhone and Android, Plus Ones to Avoid",
       "url": "https://www.wired.com/gallery/best-magsafe-power-banks/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5596,
+      "score": 0.544,
       "publishedAt": "2026-07-08T12:01:00.000Z",
       "summary": "Keep your iPhone or Qi2 Android phone topped up with one of the best portable chargers.",
       "tags": [
@@ -331,7 +397,7 @@
       "url": "https://www.wired.com/gallery/best-portable-power-stations/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5569,
+      "score": 0.5412,
       "publishedAt": "2026-07-08T11:30:00.000Z",
       "summary": "Whether you’re going off-grid or safeguarding against blackouts, these beefy, WIRED-tested batteries can keep the lights on.",
       "tags": [
@@ -340,11 +406,25 @@
       "engagementScore": 0
     },
     {
+      "title": "Grok 4.5",
+      "url": "https://x.ai/news/grok-4-5",
+      "feedSource": "Hacker News",
+      "source": "x.ai",
+      "score": 0.5395,
+      "publishedAt": "2026-07-08T18:00:32.000Z",
+      "summary": "Grok 4.5 is SpaceXAI’s smartest model built for coding, agentic tasks, and knowledge work.",
+      "tags": [
+        "Agents",
+        "Dev Tools"
+      ],
+      "engagementScore": 234
+    },
+    {
       "title": "LG Micro RGB Evo Review: Brilliant, Bright, Not Budget-Friendly",
       "url": "https://www.wired.com/review/lg-micro-rgb-evo/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5543,
+      "score": 0.5386,
       "publishedAt": "2026-07-08T11:01:00.000Z",
       "summary": "It’s hard to say if the pricey LG Micro RGB Evo television is worth shelling out for compared to its cheaper competitors, but you’ll probably enjoy its color-popping display.",
       "tags": [
@@ -357,7 +437,7 @@
       "url": "https://www.wired.com/story/pickup-artist-mystery-has-an-ai-girlfriend/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5542,
+      "score": 0.5386,
       "publishedAt": "2026-07-08T11:00:00.000Z",
       "summary": "A new book claims that Mystery, who teaches awkward men how to hit on women, had sex and smoked weed with an AI chatbot named Miss Shira Always.",
       "tags": [
@@ -370,22 +450,9 @@
       "url": "https://www.wired.com/story/onlyfans-creators-dmca-hacked-government-websites/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5515,
+      "score": 0.5359,
       "publishedAt": "2026-07-08T10:30:00.000Z",
       "summary": "Scammers are hijacking government websites to upload ads for “leaked” OnlyFans content. Thousands of copyright complaints from adult creators are helping people avoid malicious links.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "What Happens if China Hacks the US Water Supply? I Went to a Secret War Game to Find Out",
-      "url": "https://www.wired.com/story/what-happens-if-china-hacks-the-us-water-supply-war-game-volt-typhoon/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5489,
-      "publishedAt": "2026-07-08T10:00:00.000Z",
-      "summary": "Burst water mains. Evacuated hospitals. In a closed-door simulation, insurers played out their response to a mass disruption by China’s Volt Typhoon hackers—and found a nightmare scenario.",
       "tags": [
         "AI"
       ],
@@ -396,7 +463,7 @@
       "url": "https://www.theverge.com/tech/962485/meta-muse-image-ai-model-instagram",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5481,
+      "score": 0.5324,
       "publishedAt": "2026-07-08T09:51:02.000Z",
       "summary": "Meta is launching the first AI image generation model made by its Superintelligence Labs division. The Muse Image model now powers the image-making tools across the Meta AI app, Instagram, and WhatsApp, and it's coming soon to Facebook and Messenger, according to an announcement on Tuesday. It's par",
       "tags": [
@@ -406,27 +473,24 @@
       "engagementScore": 0
     },
     {
-      "title": "Does code cleanliness affect coding agents? A controlled minimal-pair study",
-      "url": "https://arxiv.org/abs/2605.20049",
+      "title": "Mistral's Robostral Navigate: a state of the art robotics navigation model",
+      "url": "https://mistral.ai/news/robostral-navigate/",
       "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.5379,
-      "publishedAt": "2026-07-05T23:03:55.000Z",
-      "summary": "As autonomous coding agents see rapid adoption, their evaluation has primarily focused on task completion rates holding the target codebase fixed. This leaves a critical question unanswered: does the structural and stylistic quality, or ``cleanliness″ of the underlying code affect an agent’s ability",
+      "source": "mistral.ai",
+      "score": 0.532,
+      "publishedAt": "2026-07-08T14:09:17.000Z",
+      "summary": "Introducing Robostral Navigate: 8B model achieving 76.6% on R2R-CE with just a single RGB camera. No depth sensors, LiDAR, or multiple cameras needed.",
       "tags": [
-        "Agents",
-        "Research",
-        "Dev Tools",
-        "Industry"
+        "LLM"
       ],
-      "engagementScore": 209
+      "engagementScore": 319
     },
     {
       "title": "Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot",
       "url": "https://huggingface.co/blog/skypilot-hf-storage",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.5378,
+      "score": 0.5193,
       "publishedAt": "2026-07-07T00:00:00.000Z",
       "summary": "",
       "tags": [
@@ -440,69 +504,13 @@
       "url": "https://huggingface.co/blog/lerobot-release-v060",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.5378,
+      "score": 0.5193,
       "publishedAt": "2026-07-07T00:00:00.000Z",
       "summary": "",
       "tags": [
         "AI"
       ],
       "engagementScore": 0
-    },
-    {
-      "title": "Mistral's Robostral Navigate: a state of the art robotics navigation model",
-      "url": "https://mistral.ai/news/robostral-navigate/",
-      "feedSource": "Hacker News",
-      "source": "mistral.ai",
-      "score": 0.5275,
-      "publishedAt": "2026-07-08T14:09:17.000Z",
-      "summary": "Introducing Robostral Navigate: 8B model achieving 76.6% on R2R-CE with just a single RGB camera. No depth sensors, LiDAR, or multiple cameras needed.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 190
-    },
-    {
-      "title": "The Download: your stake in OpenAI, and the Treasury&#8217;s AI warning",
-      "url": "https://www.technologyreview.com/2026/07/07/1140197/the-download-your-openai-stake-treasury-ai-warning/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.5194,
-      "publishedAt": "2026-07-07T12:10:00.000Z",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Your family’s $300 stake in OpenAI Sam Altman’s proposal that Americans should share in the wealth created by AI is back in the spotlight, with report",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The foundational elements of AI architecture that IT leaders need to scale",
-      "url": "https://www.technologyreview.com/2026/07/07/1139413/the-foundational-elements-of-ai-architecture-that-it-leaders-need-to-scale/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.5136,
-      "publishedAt": "2026-07-07T11:10:52.000Z",
-      "summary": "With the rapid progress of AI capabilities and the move to agentic systems, organizations are expanding their use cases as the technology continues to grow. That constant evolution also introduces risk, leaving IT leaders to wonder which investments will prove valuable even six months into the futur",
-      "tags": [
-        "Agents",
-        "Safety",
-        "Dev Tools",
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos",
-      "url": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/",
-      "feedSource": "Hacker News",
-      "source": "noma.security",
-      "score": 0.5131,
-      "publishedAt": "2026-07-08T05:25:35.000Z",
-      "summary": "TL;DR: Noma Labs discovered a critical prompt injection vulnerability within GitHub’s new Agentic Workflows, allowing an unauthenticated attacker to silently pull data from private repositories by posting a crafted GitHub Issue in a public repository belonging to the same organization as the private",
-      "tags": [
-        "Agents",
-        "Open Source"
-      ],
-      "engagementScore": 412
     },
     {
       "title": "How ChatGPT adoption has expanded",
@@ -531,19 +539,6 @@
       "engagementScore": 0
     },
     {
-      "title": "Core dump epidemiology: fixing an 18-year-old bug",
-      "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5124,
-      "publishedAt": "2026-06-30T00:00:00.000Z",
-      "summary": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Introducing GeneBench-Pro",
       "url": "https://openai.com/index/introducing-genebench-pro",
       "feedSource": "OpenAI",
@@ -557,28 +552,44 @@
       "engagementScore": 0
     },
     {
-      "title": "Mapping Europe’s AI Workforce Opportunity",
-      "url": "https://openai.com/index/mapping-ai-jobs-transition-eu",
+      "title": "Core dump epidemiology: fixing an 18-year-old bug",
+      "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
       "feedSource": "OpenAI",
       "source": "openai.com",
       "score": 0.5124,
-      "publishedAt": "2026-06-29T07:00:00.000Z",
-      "summary": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.",
+      "publishedAt": "2026-06-30T00:00:00.000Z",
+      "summary": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
       "tags": [
         "LLM"
       ],
       "engagementScore": 0
     },
     {
-      "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
-      "url": "https://openai.com/index/hp-frontier-partnership",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5124,
-      "publishedAt": "2026-06-28T17:00:00.000Z",
-      "summary": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
+      "title": "The Download: your stake in OpenAI, and the Treasury&#8217;s AI warning",
+      "url": "https://www.technologyreview.com/2026/07/07/1140197/the-download-your-openai-stake-treasury-ai-warning/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.5023,
+      "publishedAt": "2026-07-07T12:10:00.000Z",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Your family’s $300 stake in OpenAI Sam Altman’s proposal that Americans should share in the wealth created by AI is back in the spotlight, with report",
       "tags": [
         "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The foundational elements of AI architecture that IT leaders need to scale",
+      "url": "https://www.technologyreview.com/2026/07/07/1139413/the-foundational-elements-of-ai-architecture-that-it-leaders-need-to-scale/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.4966,
+      "publishedAt": "2026-07-07T11:10:52.000Z",
+      "summary": "With the rapid progress of AI capabilities and the move to agentic systems, organizations are expanding their use cases as the technology continues to grow. That constant evolution also introduces risk, leaving IT leaders to wonder which investments will prove valuable even six months into the futur",
+      "tags": [
+        "Agents",
+        "Safety",
+        "Dev Tools",
+        "Industry"
       ],
       "engagementScore": 0
     },
@@ -587,7 +598,7 @@
       "url": "https://www.technologyreview.com/2026/07/07/1140142/why-worms-and-microbes-are-catching-on-as-a-manure-pollution-solution/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5068,
+      "score": 0.4897,
       "publishedAt": "2026-07-07T10:00:00.000Z",
       "summary": "Anthony Agueda, a third-generation California dairy farmer, pulls a rake through a bed of dark, wet wood chips on his family’s land in Hickman, a tiny town in the state’s agricultural heartland. He reaches down with both hands and pulls up a clump of muck, turning it over to reveal a half-dozen squi",
       "tags": [
@@ -600,7 +611,7 @@
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.5003,
+      "score": 0.4833,
       "publishedAt": "2026-07-07T08:54:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Managed_agents_feature_bundle_l.max-600x600.format-webp.webp\"&gt;We’re announcing new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents.",
       "tags": [
@@ -617,7 +628,7 @@
       "url": "https://huggingface.co/blog/Photoroom/prx-part4-data",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.4842,
+      "score": 0.4657,
       "publishedAt": "2026-07-06T15:30:55.000Z",
       "summary": "",
       "tags": [
@@ -630,7 +641,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/961978/anthropic-claude-cowork-mobile-web",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4621,
+      "score": 0.4465,
       "publishedAt": "2026-07-07T17:47:03.000Z",
       "summary": "Starting Tuesday, Anthropic's Claude Cowork AI platform will be available on mobile and web for the first time. The expanded access is rolling out first to Max subscribers and coming to Claude users on other plans \"in the coming weeks.\" Claude Cowork was previously only accessible through the Claude",
       "tags": [
@@ -676,19 +687,6 @@
       "tags": [
         "LLM",
         "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Unlocking UK house-building with AI-accelerated planning",
-      "url": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-06-16T21:29:50.000Z",
-      "summary": "UK government partners with Google DeepMind to build a new AI-powered prototype aimed at faster housing decisions.",
-      "tags": [
-        "AI"
       ],
       "engagementScore": 0
     }
