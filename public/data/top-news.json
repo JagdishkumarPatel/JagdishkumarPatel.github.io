@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T09:57:13.585Z",
+  "updatedAt": "2026-07-09T15:18:28.406Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,20 +12,33 @@
       "url": "https://openai.com/index/introducing-gpt-live/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 1.0577,
+      "score": 1.0207,
       "publishedAt": "2026-07-08T17:03:19.000Z",
       "summary": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice.",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 704
+      "engagementScore": 731
+    },
+    {
+      "title": "A new way to reflect on how you use Claude",
+      "url": "https://www.anthropic.com/news/reflect-with-claude",
+      "feedSource": "Hacker News",
+      "source": "anthropic.com",
+      "score": 0.9947,
+      "publishedAt": "2026-07-09T13:30:33.000Z",
+      "summary": "",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 29
     },
     {
       "title": "Separating signal from noise in coding evaluations",
       "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 1.0228,
+      "score": 0.9879,
       "publishedAt": "2026-07-08T21:03:51.000Z",
       "summary": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
       "tags": [
@@ -34,14 +47,29 @@
         "ML Infra",
         "Industry"
       ],
-      "engagementScore": 216
+      "engagementScore": 233
+    },
+    {
+      "title": "Introducing Muse Spark 1.1",
+      "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/?_fb_noscript=1",
+      "feedSource": "Hacker News",
+      "source": "ai.meta.com",
+      "score": 0.9376,
+      "publishedAt": "2026-07-09T14:10:22.000Z",
+      "summary": "Today, we’re excited to introduce Muse Spark 1.1, the latest model from Meta Superintelligence Labs and a significant upgrade from Muse Spark. Muse Spark 1.1 is a multimodal reasoning model built for agentic tasks, with major gains in tool and computer use, coding, and multimodal understanding.",
+      "tags": [
+        "Agents",
+        "Vision",
+        "Dev Tools"
+      ],
+      "engagementScore": 96
     },
     {
       "title": "Our approach to government and national security partnerships",
       "url": "https://openai.com/index/government-national-security-partnerships",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8882,
+      "score": 0.8492,
       "publishedAt": "2026-07-08T13:30:00.000Z",
       "summary": "Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public safety.",
       "tags": [
@@ -55,7 +83,7 @@
       "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8846,
+      "score": 0.8456,
       "publishedAt": "2026-07-08T13:00:00.000Z",
       "summary": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
       "tags": [
@@ -71,7 +99,7 @@
       "url": "https://arxiv.org/abs/2607.06624",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8717,
+      "score": 0.8353,
       "publishedAt": "2026-07-09T04:00:00.000Z",
       "summary": "arXiv:2607.06624v1 Announce Type: new \nAbstract: We present AgentLens, a production-assessed benchmark for interactive code agents. Most code-agent benchmarks reduce a run to a single bit -- did the task pass? -- but the people who actually use these agents experience the entire trajectory: how the",
       "tags": [
@@ -87,7 +115,7 @@
       "url": "https://arxiv.org/abs/2607.06720",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8717,
+      "score": 0.8353,
       "publishedAt": "2026-07-09T04:00:00.000Z",
       "summary": "arXiv:2607.06720v1 Announce Type: new \nAbstract: Training large language models (LLMs) with extended reasoning has enabled in-context search, in which models iteratively generate, critique, and revise solution attempts. We provide a theoretical analysis of in-context search by modeling it as approxi",
       "tags": [
@@ -102,7 +130,7 @@
       "url": "https://arxiv.org/abs/2607.06757",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8717,
+      "score": 0.8353,
       "publishedAt": "2026-07-09T04:00:00.000Z",
       "summary": "arXiv:2607.06757v1 Announce Type: new \nAbstract: Agent-based modeling (ABM) has the capability to model millions of individuals and their interactions, which is useful for policy making. However, ABMs have traditionally relied on static prior, which prevents the models from adapting to real-time cha",
       "tags": [
@@ -118,7 +146,7 @@
       "url": "https://arxiv.org/abs/2607.06760",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8717,
+      "score": 0.8353,
       "publishedAt": "2026-07-09T04:00:00.000Z",
       "summary": "arXiv:2607.06760v1 Announce Type: new \nAbstract: Autonomous systems under partial observability act on beliefs, not raw sensor events. QANTIS treats the quantum processor as a calibrated belief-update service in that loop: it receives a prior and an observation model, estimates the rare-event eviden",
       "tags": [
@@ -132,7 +160,7 @@
       "url": "https://arxiv.org/abs/2607.06764",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8717,
+      "score": 0.8353,
       "publishedAt": "2026-07-09T04:00:00.000Z",
       "summary": "arXiv:2607.06764v1 Announce Type: new \nAbstract: Recent progress on ARC-AGI-1 from disclosed architectures has come broadly from two regimes: heavy test-time compute over frontier models (evolutionary search, exhaustive sampling, extended chain-of-thought), or benchmark-specific training in which sm",
       "tags": [
@@ -147,7 +175,7 @@
       "url": "https://arxiv.org/abs/2607.06820",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8717,
+      "score": 0.8353,
       "publishedAt": "2026-07-09T04:00:00.000Z",
       "summary": "arXiv:2607.06820v1 Announce Type: new \nAbstract: Recent advances in AI for Mathematics have focused largely on autoformalization and theorem proving, leaving the role of Computer Algebra Systems (CAS) in agentic LLM workflows underexplored. We propose a ReAct-style agentic setup that combines LLM re",
       "tags": [
@@ -162,7 +190,7 @@
       "url": "https://arxiv.org/abs/2607.06906",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8717,
+      "score": 0.8353,
       "publishedAt": "2026-07-09T04:00:00.000Z",
       "summary": "arXiv:2607.06906v1 Announce Type: new \nAbstract: Agentic AI development today runs on token maxing: buying capability with tokens -- longer reasoning traces, more turns, wider tool payloads, bigger replayed contexts -- so tokens per task grow faster than task value. Falling per-token prices mask the",
       "tags": [
@@ -177,7 +205,7 @@
       "url": "https://arxiv.org/abs/2607.06925",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8717,
+      "score": 0.8353,
       "publishedAt": "2026-07-09T04:00:00.000Z",
       "summary": "arXiv:2607.06925v1 Announce Type: new \nAbstract: Compact world models that condition on a language goal promise to ground relations such as ``put the red block left of the blue block'' using a sparse set of explicit \\emph{reference anchors}. We ask when such references actually ground a relation, an",
       "tags": [
@@ -190,7 +218,7 @@
       "url": "https://openai.com/index/k-12-educators-practical-skills",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8627,
+      "score": 0.8237,
       "publishedAt": "2026-07-08T10:00:00.000Z",
       "summary": "OpenAI Academy and the Walton Family Foundation are bringing hands-on AI Skills Jams to help K–12 educators build practical AI skills for the classroom.",
       "tags": [
@@ -203,7 +231,7 @@
       "url": "https://openai.com/index/introducing-gpt-live",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7898,
+      "score": 0.7508,
       "publishedAt": "2026-07-08T00:00:00.000Z",
       "summary": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice.",
       "tags": [
@@ -212,11 +240,38 @@
       "engagementScore": 0
     },
     {
+      "title": "A Theory of Contrastive Learning with Natural Images",
+      "url": "https://arxiv.org/abs/2607.07470",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.6983,
+      "publishedAt": "2026-07-09T02:40:38.000Z",
+      "summary": "Why does contrastive learning with simple images and augmentations yield useful representations for downstream tasks? We address this question by analytically computing the optimal representation in terms of a contrastive loss for a range of basic augmentations and any image dataset with stationary",
+      "tags": [
+        "Research",
+        "Vision"
+      ],
+      "engagementScore": 4
+    },
+    {
+      "title": "The Download: a nuclear landmark, and China eyes Nvidia chips",
+      "url": "https://www.technologyreview.com/2026/07/09/1140283/the-download-nuclear-power-milestone-nvidia-china-ai-chips/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6676,
+      "publishedAt": "2026-07-09T12:10:00.000Z",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Four nuclear reactors hit a big milestone in the US —Casey Crownhart I was really looking forward to July 4, and not just because I love a poolside ba",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Data for Agents",
       "url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6896,
+      "score": 0.6558,
       "publishedAt": "2026-07-08T17:16:05.000Z",
       "summary": "",
       "tags": [
@@ -225,25 +280,11 @@
       "engagementScore": 0
     },
     {
-      "title": "A global workspace in language models",
-      "url": "https://www.anthropic.com/research/global-workspace",
-      "feedSource": "Hacker News",
-      "source": "anthropic.com",
-      "score": 0.6894,
-      "publishedAt": "2026-07-06T17:44:08.000Z",
-      "summary": "Interpretability research on Claude’s internal thoughts.",
-      "tags": [
-        "LLM",
-        "Research"
-      ],
-      "engagementScore": 458
-    },
-    {
       "title": "Four nuclear reactors hit a big milestone in the US",
       "url": "https://www.technologyreview.com/2026/07/09/1140235/nuclear-reactor-milestone-criticality/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6745,
+      "score": 0.6433,
       "publishedAt": "2026-07-09T08:00:00.000Z",
       "summary": "I was really looking forward to July 4, and not just because I love a poolside barbecue. This year the American holiday also marked a big symbolic deadline for US nuclear power. Last year the Trump administration set a goal to see three new microreactors achieve criticality, a technical milestone es",
       "tags": [
@@ -252,11 +293,63 @@
       "engagementScore": 0
     },
     {
+      "title": "FL Studio 2026 turns its AI chatbot into your assistant engineer",
+      "url": "https://www.theverge.com/tech/963052/fl-studio-2026-music-daw-ai-chatbot",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5846,
+      "publishedAt": "2026-07-09T15:16:57.000Z",
+      "summary": "Last year, Image Line introduced Gopher for FL Studio, an AI chatbot that was basically a glorified instruction manual. You asked it how to do something, and it would serve up the relevant instructions. It's the kind of thing I actually use AI for on a semi-regular basis. But in the new release, Gop",
+      "tags": [
+        "Vision"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Meta says its new AI model is ready to compete on coding",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/963193/meta-muse-spark-model-api",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5783,
+      "publishedAt": "2026-07-09T14:05:59.000Z",
+      "summary": "After reentering the AI race with its first in-house Muse Spark model in April, Meta is now opening up the doors to developers with a new model that can plug into AI coding software with the new Meta Model API. Meta says that Muse Spark 1.1 is a \"step-change\" from the first generation, with improvem",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "A Majority of European Lawmakers Voted Against Letting Big Tech Read Our Messages. They’re Going to Anyway.",
+      "url": "https://www.wired.com/story/a-majority-of-european-lawmakers-voted-against-letting-big-tech-read-our-messages-theyre-going-to-anyway/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5773,
+      "publishedAt": "2026-07-09T13:55:08.000Z",
+      "summary": "Companies will once again be allowed to scan citizens’ personal texts, emails, and social media messages via the “chat control” bill to find child abuse material online.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Say hello to Claude Wrapped",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/963105/anthropic-claude-wrapped-reflection-ai-usage",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.576,
+      "publishedAt": "2026-07-09T13:40:10.000Z",
+      "summary": "The popularity of Spotify Wrapped has kicked off a wide range of year-in-review features, on apps from YouTube to Uber - and now, the lookback trend has come to AI. Anthropic on Thursday announced a \"reflect\" feature for its Claude chatbot, allowing users to see an analysis of their usage data over",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
       "url": "https://openai.com/index/australian-payments-plus",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6148,
+      "score": 0.5758,
       "publishedAt": "2026-07-07T00:00:00.000Z",
       "summary": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
       "tags": [
@@ -270,7 +363,7 @@
       "url": "https://openai.com/index/mufg",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6148,
+      "score": 0.5758,
       "publishedAt": "2026-07-07T00:00:00.000Z",
       "summary": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
       "tags": [
@@ -279,11 +372,38 @@
       "engagementScore": 0
     },
     {
+      "title": "Slate’s Gray $25,000 Truck Just Got a Crayola Makeover",
+      "url": "https://www.wired.com/story/slates-gray-dollar25000-truck-just-got-a-crayola-makeover/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5752,
+      "publishedAt": "2026-07-09T13:31:13.000Z",
+      "summary": "The Bezos-backed automaker building America’s cheapest electric truck is teaming up with the crayon company in a bid to brighten its rides. Make ours Razzmatazz.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Character.AI wants a piece of the microdrama pie",
+      "url": "https://www.theverge.com/entertainment/962897/character-ai-series-microdrama-vertical-video",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5735,
+      "publishedAt": "2026-07-09T13:11:53.000Z",
+      "summary": "Character.AI's plan to become more than just an LLM-powered chatbot platform is going beyond interactive books, comics, and audio dramas. Today, the company announced the debut of c.ai Series - short-form, episodic videos designed to be watched and interacted with - on your phone. Unlike traditional",
+      "tags": [
+        "LLM",
+        "Vision"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "A Roomba recorded a woman on the toilet. How did screenshots end up on Facebook? (2022)",
       "url": "https://www.technologyreview.com/2022/12/19/1065306/roomba-irobot-robot-vacuums-artificial-intelligence-training-data-privacy/",
       "feedSource": "Hacker News",
       "source": "technologyreview.com",
-      "score": 0.6034,
+      "score": 0.5722,
       "publishedAt": "2026-07-08T22:28:02.000Z",
       "summary": "Robot vacuum companies say your images are safe, but a sprawling global supply chain for data from our devices creates risk.",
       "tags": [
@@ -293,11 +413,89 @@
       "engagementScore": 35
     },
     {
+      "title": "WIRED World Fair",
+      "url": "https://www.wired.com/wiredworldfair/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5716,
+      "publishedAt": "2026-07-09T12:51:16.000Z",
+      "summary": "November 4th",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Epilogue SN Operator Review: Super Nintendo Fun",
+      "url": "https://www.wired.com/review/epilogue-sn-operator/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5671,
+      "publishedAt": "2026-07-09T12:00:00.000Z",
+      "summary": "Provided you have a library of SNES cartridges, the SN Operator is a seamless plug-and-play system for easy ’90s nostalgia.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Dell 14S Review: Higher Price, Better Quality",
+      "url": "https://www.wired.com/review/dell-14s/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5645,
+      "publishedAt": "2026-07-09T11:31:00.000Z",
+      "summary": "The Dell 14S represents the new normal of laptop pricing, but it has the quality to back up its cost.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Amseatec Criss Cross Office Chair Review: Just Right",
+      "url": "https://www.wired.com/review/amseatec-criss-cross-office-chair/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5623,
+      "publishedAt": "2026-07-09T11:06:00.000Z",
+      "summary": "The Amseatec Criss Cross Office Chair gives you room to sit cross-legged, sideways, or however your body actually wants to sit.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Data Centers Are Quietly Taking Over Texas. The Pollution Could Be Catastrophic",
+      "url": "https://www.wired.com/story/data-centers-taking-over-texas-pollution-could-be-catastrophic/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5617,
+      "publishedAt": "2026-07-09T11:00:00.000Z",
+      "summary": "Thousands of new fossil-fuel power sources are quietly firing up across the state to power the AI boom, thanks to a regulatory loophole, leaving residents feeling blindsided.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Best Microsoft Surface Laptop (2026): Which Model to Buy or Avoid",
+      "url": "https://www.wired.com/story/microsoft-surface-buying-guide/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5591,
+      "publishedAt": "2026-07-09T10:31:00.000Z",
+      "summary": "With pricing in flux and new models available, here’s which Surface Laptop and Surface Pro to buy.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "EmTech AI 2026: The Rise of the AI Platform",
       "url": "https://www.technologyreview.com/2026/07/08/1140223/emtech-ai-2026-the-rise-of-the-ai-platform/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5837,
+      "score": 0.5525,
       "publishedAt": "2026-07-08T16:26:10.000Z",
       "summary": "Head of Engineering for ChatGPT at Open AI, Sulman Choudhry shares how his work is changing the way we live.",
       "tags": [
@@ -306,37 +504,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Federal Investigators Say Certain DOGE Records Were Deleted",
-      "url": "https://www.wired.com/story/federal-investigators-say-certain-doge-records-were-deleted/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5823,
-      "publishedAt": "2026-07-09T09:30:00.000Z",
-      "summary": "A government report claims DOGE didn’t access sensitive systems. It also says the agency deleted records that would show if they had.",
-      "tags": [
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Best Food Dehydrators for Self-Sufficient Kitchens (2026)",
-      "url": "https://www.wired.com/story/best-food-dehydrators-for-stocking-a-smarter-pantry/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5823,
-      "publishedAt": "2026-07-09T09:30:00.000Z",
-      "summary": "Stretch seasonal produce, preserve leftovers, and build a pantry that lasts with our favorite food dehydrators for every budget.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Native-speed vLLM transformers modeling backend",
       "url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.5805,
+      "score": 0.5467,
       "publishedAt": "2026-07-08T00:00:00.000Z",
       "summary": "",
       "tags": [
@@ -345,63 +517,37 @@
       "engagementScore": 0
     },
     {
-      "title": "Why Do Some Soccer Players Cut the Heels Off Their Cleats?",
-      "url": "https://www.wired.com/story/why-do-some-soccer-players-cut-the-heels-off-their-cleats/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5797,
-      "publishedAt": "2026-07-09T09:00:00.000Z",
-      "summary": "An image of Portugal forward Pedro Neto’s cleats at the World Cup has reignited a practice among some soccer players: modifying their cleats to relieve heel discomfort.",
-      "tags": [
-        "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The 4 Best Home Air Conditioners to Buy Right Now",
-      "url": "https://www.wired.com/story/the-best-at-home-air-con-units-to-buy-right-now/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5787,
-      "publishedAt": "2026-07-09T08:49:47.000Z",
-      "summary": "It's too hot. There, we said it. Protect your health and keep your home cool with one of these top-rated air conditioners.",
+      "title": "My Thoughts on the Bun Rust Rewrite",
+      "url": "https://andrewkelley.me/post/my-thoughts-bun-rust-rewrite.html",
+      "feedSource": "Hacker News",
+      "source": "andrewkelley.me",
+      "score": 0.5443,
+      "publishedAt": "2026-07-09T09:47:28.000Z",
+      "summary": "Context: Rewriting Bun in Rust",
       "tags": [
         "AI"
       ],
-      "engagementScore": 0
+      "engagementScore": 450
     },
     {
-      "title": "Is an Air-Conditioning Revolution Coming to Europe?",
-      "url": "https://www.wired.com/story/is-an-air-conditioning-revolution-coming-to-europe/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5783,
-      "publishedAt": "2026-07-09T08:44:57.000Z",
-      "summary": "As extreme heat becomes the norm on the continent, the AC culture wars may be solved by advances in environmentally friendly technology.",
+      "title": "John Deere owners will get the right to repair equipment under FTC settlement",
+      "url": "https://apnews.com/article/john-deere-right-to-repair-agriculture-equipment-cb7514ffedb95c130a976af661f2bc02",
+      "feedSource": "Hacker News",
+      "source": "apnews.com",
+      "score": 0.5302,
+      "publishedAt": "2026-07-08T23:37:43.000Z",
+      "summary": "John Deere owners should soon feel free to fix their own machines. The Federal Trade Commission and several state attorneys general have secured a “right to repair” settlement with farming equipment company Deere &amp; Co., known as John Deere.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The $28 Million Mistake That Inspired Estonia's AI “Fuckup Finder”",
-      "url": "https://www.wired.com/story/the-28-million-dollar-mistake-that-inspired-estonias-ai-fuckup-finder/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.569,
-      "publishedAt": "2026-07-09T07:00:00.000Z",
-      "summary": "A single wording mistake cost the government millions. Now Estonia is using AI to spot legal errors before they become law—and to automate more of the state.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
+      "engagementScore": 1193
     },
     {
       "title": "From Hugging Face to Amazon SageMaker Studio in one click",
       "url": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.5632,
+      "score": 0.5293,
       "publishedAt": "2026-07-07T21:15:33.000Z",
       "summary": "",
       "tags": [
@@ -414,93 +560,13 @@
       "url": "https://www.technologyreview.com/2026/07/08/1140216/the-download-worms-manure-pollution-geoengineering-reality-check/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5588,
+      "score": 0.5276,
       "publishedAt": "2026-07-08T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Why worms (and microbes) are catching on as a manure pollution solution Anthony Agueda, a third-generation California dairy farmer, pulls a rake throu",
       "tags": [
         "AI"
       ],
       "engagementScore": 0
-    },
-    {
-      "title": "Layla Sleep Coupon: Save Up to $600 in July 2026",
-      "url": "https://www.wired.com/story/layla-sleep-coupon/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5583,
-      "publishedAt": "2026-07-09T05:00:00.000Z",
-      "summary": "Upgrade your sleep setup with the latest Layla promo codes. Save on flippable mattresses, copper-infused pillows, and adjustable bases during the Spring Sale.",
-      "tags": [
-        "Vision",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Motley Fool Promo Code: $200 Off on Stock Advisor July 2026",
-      "url": "https://www.wired.com/story/the-motley-fool-promo-code/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5583,
-      "publishedAt": "2026-07-09T05:00:00.000Z",
-      "summary": "Scale your portfolio for less with these verified The Motley Fool membership discounts, stock advisor promo codes, and Epic Bundle deals.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "John Deere owners will get the right to repair equipment under FTC settlement",
-      "url": "https://apnews.com/article/john-deere-right-to-repair-agriculture-equipment-cb7514ffedb95c130a976af661f2bc02",
-      "feedSource": "Hacker News",
-      "source": "apnews.com",
-      "score": 0.5431,
-      "publishedAt": "2026-07-08T23:37:43.000Z",
-      "summary": "John Deere owners should soon feel free to fix their own machines. The Federal Trade Commission and several state attorneys general have secured a “right to repair” settlement with farming equipment company Deere &amp; Co., known as John Deere.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 830
-    },
-    {
-      "title": "Hugging Face Models on Foundry Managed Compute",
-      "url": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.5257,
-      "publishedAt": "2026-07-07T15:20:06.000Z",
-      "summary": "",
-      "tags": [
-        "Open Source"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Kani: A Model Checker for Rust",
-      "url": "https://arxiv.org/abs/2607.01504",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.5216,
-      "publishedAt": "2026-07-06T15:53:24.000Z",
-      "summary": "Rust’s ownership type system prevents memory errors in safe code, but certain desirable properties remain orthogonal to compilation: the soundness of unsafe operations (e.g., raw pointer dereferences), functional correctness, and absence of runtime panics. We present Kani, an open-source model check",
-      "tags": [
-        "Open Source",
-        "Dev Tools"
-      ],
-      "engagementScore": 160
-    },
-    {
-      "title": "I think I have LLM burnout",
-      "url": "https://www.alecscollon.com/blog/llm-burnout/",
-      "feedSource": "Hacker News",
-      "source": "alecscollon.com",
-      "score": 0.5214,
-      "publishedAt": "2026-07-09T01:56:28.000Z",
-      "summary": "I didn’t expect to get so tired of reading LLM output.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 334
     },
     {
       "title": "How ChatGPT adoption has expanded",
@@ -529,25 +595,24 @@
       "engagementScore": 0
     },
     {
-      "title": "Grok 4.5",
-      "url": "https://x.ai/news/grok-4-5",
-      "feedSource": "Hacker News",
-      "source": "x.ai",
-      "score": 0.5061,
-      "publishedAt": "2026-07-08T18:00:32.000Z",
-      "summary": "Grok 4.5 is SpaceXAI’s smartest model built for coding, agentic tasks, and knowledge work.",
+      "title": "Hugging Face Models on Foundry Managed Compute",
+      "url": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.4919,
+      "publishedAt": "2026-07-07T15:20:06.000Z",
+      "summary": "",
       "tags": [
-        "Agents",
-        "Dev Tools"
+        "Open Source"
       ],
-      "engagementScore": 635
+      "engagementScore": 0
     },
     {
       "title": "ChatGPT’s upgraded voice mode is better at shutting up",
       "url": "https://www.theverge.com/ai-artificial-intelligence/962856/chatgpt-upgraded-voice-mode-gpt-live",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.496,
+      "score": 0.4674,
       "publishedAt": "2026-07-08T17:21:35.000Z",
       "summary": "OpenAI is overhauling ChatGPT's voice mode with a new model that it says is more like \"talking to another person.\" The new GPT-Live-1 is designed to interrupt you less and will also wait for you to continue speaking if you pause mid-conversation. During a press briefing, OpenAI research lead Kundan",
       "tags": [
@@ -561,39 +626,12 @@
       "url": "https://www.theverge.com/tech/962485/meta-muse-image-ai-model-instagram",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4559,
+      "score": 0.4272,
       "publishedAt": "2026-07-08T09:51:02.000Z",
       "summary": "Meta is launching the first AI image generation model made by its Superintelligence Labs division. The Muse Image model now powers the image-making tools across the Meta AI app, Instagram, and WhatsApp, and it's coming soon to Facebook and Messenger, according to an announcement on Tuesday. It's par",
       "tags": [
         "Vision",
         "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot",
-      "url": "https://huggingface.co/blog/skypilot-hf-storage",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.4288,
-      "publishedAt": "2026-07-07T00:00:00.000Z",
-      "summary": "",
-      "tags": [
-        "Open Source",
-        "RAG"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
-      "url": "https://huggingface.co/blog/lerobot-release-v060",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.4288,
-      "publishedAt": "2026-07-07T00:00:00.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
       ],
       "engagementScore": 0
     },
@@ -648,48 +686,6 @@
       "summary": "UK government partners with Google DeepMind to build a new AI-powered prototype aimed at faster housing decisions.",
       "tags": [
         "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Securing the future of AI agents",
-      "url": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-06-16T15:46:31.000Z",
-      "summary": "Securing internal systems with an AI Control Roadmap, combining traditional safeguards and real-time monitoring.",
-      "tags": [
-        "Agents"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "DiffusionGemma: 4x faster text generation",
-      "url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-06-10T16:24:11.000Z",
-      "summary": "An overview of DiffusionGemma, an exceptionally fast text generation model with up to 4x faster speeds.",
-      "tags": [
-        "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Investing in multi-agent AI safety research",
-      "url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-06-10T10:21:19.000Z",
-      "summary": "Google DeepMind and partners announce a $10M funding call for multi-agent safety research.",
-      "tags": [
-        "Agents",
-        "Research",
-        "Safety",
-        "Industry"
       ],
       "engagementScore": 0
     }
