@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-13T03:24:19.237Z",
+  "updatedAt": "2026-07-13T09:34:43.061Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,37 +8,164 @@
   ],
   "items": [
     {
+      "title": "Interval Certifications for Multilayered Perceptrons via Lattice Traversal",
+      "url": "https://arxiv.org/abs/2607.08773",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8743,
+      "publishedAt": "2026-07-13T04:00:00.000Z",
+      "summary": "arXiv:2607.08773v1 Announce Type: new \nAbstract: In this work we present a rigorous theoretical framework to a foundational problem of AI safety, namely adversarial robustness. In particular, we show that the adversarial robustness problem can be reduced to a lattice traversal problem. Each element",
+      "tags": [
+        "Research",
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "CogniConsole: Externalizing Inference-Time Control as a Formal Abstraction for Reliable LLM Interactions",
+      "url": "https://arxiv.org/abs/2607.08774",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8743,
+      "publishedAt": "2026-07-13T04:00:00.000Z",
+      "summary": "arXiv:2607.08774v1 Announce Type: new \nAbstract: Reliability in large language model (LLM) systems is typically framed as a function of model capability. We challenge this by demonstrating that reliability is significantly influenced by \\emph{inference-time control} -- the computational layer govern",
+      "tags": [
+        "LLM",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "GATS: Graph-Augmented Tree Search with Layered World Models for Efficient Agent Planning",
+      "url": "https://arxiv.org/abs/2607.08894",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8743,
+      "publishedAt": "2026-07-13T04:00:00.000Z",
+      "summary": "arXiv:2607.08894v1 Announce Type: new \nAbstract: Large Language Model (LLM) agents have shown promise in multi-step planning tasks, but existing approaches like LATS (Language Agent Tree Search) and ReAct rely heavily on LLM inference during planning, leading to high computational costs and stochast",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Long-Horizon-Terminal-Bench: Testing the Limits of Agents on Long-Horizon Terminal Tasks with Dense Reward-Based Grading",
+      "url": "https://arxiv.org/abs/2607.08964",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8743,
+      "publishedAt": "2026-07-13T04:00:00.000Z",
+      "summary": "arXiv:2607.08964v1 Announce Type: new \nAbstract: AI agents have become capable of autonomously completing short, well-specified tasks. However, existing terminal benchmarks largely focus on simple problems that finish within minutes and are evaluated only by their final outcome. This setup overlooks",
+      "tags": [
+        "Agents",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "A Formalization of the Mean-Field Derivation of the Vlasov Equation: AI-Assisted Lean Formalization as a Strategy Game",
+      "url": "https://arxiv.org/abs/2607.08986",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8743,
+      "publishedAt": "2026-07-13T04:00:00.000Z",
+      "summary": "arXiv:2607.08986v1 Announce Type: new \nAbstract: We formalize a research result in the Lean 4 proof assistant by having a mathematician direct an AI system, and frame the activity as a formalization game. The objective is to turn a LaTeX document into Lean. The game is won when the development compi",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "ARCANA: A Reflective Multi-Agent Program Synthesis Framework for ARC-AGI-2 Reasoning",
+      "url": "https://arxiv.org/abs/2607.09059",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8743,
+      "publishedAt": "2026-07-13T04:00:00.000Z",
+      "summary": "arXiv:2607.09059v1 Announce Type: new \nAbstract: We present ARCANA, a collaborative multi agent framework for solving ARC AGI 2 tasks under strict test time and hardware constraints. ARCANA decomposes each task into iterative perception, hypothesis generation, symbolic execution, and reflective refi",
+      "tags": [
+        "Agents",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Neuro-Agentic Control: A Deep Learning-based LLM-Powered Agentic AI Framework for Controlling Security Controls",
+      "url": "https://arxiv.org/abs/2607.09076",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8743,
+      "publishedAt": "2026-07-13T04:00:00.000Z",
+      "summary": "arXiv:2607.09076v1 Announce Type: new \nAbstract: Cyberattacks on operational technology are increasingly causing costly downtime and physical damage, exposing the limitations of traditional rule-based monitoring in industrial IoT environments. While Large Language Models (LLMs) have strong semantic",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "L-MAD: A Systematic Evaluation of Multi-Agent Debate Structures in Legal Reasoning",
+      "url": "https://arxiv.org/abs/2607.09099",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8743,
+      "publishedAt": "2026-07-13T04:00:00.000Z",
+      "summary": "arXiv:2607.09099v1 Announce Type: new \nAbstract: While multi-agent debate (MAD) frameworks have shown significant potential in general reasoning, their effectiveness in highly structured, knowledge-heavy legal domains remains under-explored. In this work, we introduce the Legal Multi-Agent Debate (L",
+      "tags": [
+        "Agents",
+        "Research",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Automation Without Understanding",
       "url": "https://arxiv.org/abs/2607.06377",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8769,
+      "score": 0.8427,
       "publishedAt": "2026-07-12T16:54:47.000Z",
       "summary": "Two developments are unfolding at once: artificial intelligence systems have begun to produce genuine research-level mathematics, and the United States is weakening the pipeline that produces humans capable of understanding what such systems are doing. This essay argues that, taken together, these d",
       "tags": [
         "Research"
       ],
-      "engagementScore": 102
+      "engagementScore": 119
     },
     {
       "title": "GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf]",
       "url": "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf",
       "feedSource": "Hacker News",
       "source": "cdn.openai.com",
-      "score": 0.7505,
+      "score": 0.7057,
       "publishedAt": "2026-07-10T18:29:19.000Z",
       "summary": "A PROOF OF THE CYCLE DOUBLE COVER CONJECTURE",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 530
+      "engagementScore": 532
+    },
+    {
+      "title": "GPT-5.6",
+      "url": "https://openai.com/index/gpt-5-6/",
+      "feedSource": "Hacker News",
+      "source": "openai.com",
+      "score": 0.6989,
+      "publishedAt": "2026-07-09T17:04:14.000Z",
+      "summary": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 1552
     },
     {
       "title": "The Energetic Costs of Cellular Computation (2012)",
       "url": "https://arxiv.org/abs/1203.5426",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7117,
+      "score": 0.6697,
       "publishedAt": "2026-07-12T01:59:35.000Z",
       "summary": "Cells often perform computations in response to environmental cues. A simple example is the classic problem, first considered by Berg and Purcell, of determining the concentration of a chemical ligand in the surrounding media. On general theoretical grounds (Landuer’s Principle), it is expected that",
       "tags": [
@@ -47,25 +174,38 @@
       "engagementScore": 29
     },
     {
-      "title": "GPT-5.6",
-      "url": "https://openai.com/index/gpt-5-6/",
-      "feedSource": "Hacker News",
-      "source": "openai.com",
-      "score": 0.6988,
-      "publishedAt": "2026-07-09T17:04:14.000Z",
-      "summary": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
+      "title": "Best Kitchen Composters and Food Recyclers (2026)",
+      "url": "https://www.wired.com/story/home-composters-buying-guide/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5844,
+      "publishedAt": "2026-07-13T09:31:00.000Z",
+      "summary": "Responsibly dispose of your food scraps with one of these indoor, (mostly) odor-free, WIRED-tested devices.",
       "tags": [
-        "LLM"
+        "AI"
       ],
-      "engagementScore": 1549
+      "engagementScore": 0
+    },
+    {
+      "title": "Apple’s failed self-driving car program left a legacy of powerful AI chips",
+      "url": "https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5838,
+      "publishedAt": "2026-07-13T09:24:23.000Z",
+      "summary": "Apple's self-driving car program never really got off the ground, but it may have been what made the company's chips the powerful AI performers they are. Early in the development of the self-driving platform, Apple realized that it would need powerful on-device AI processing. While the car processor",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "Lorde says Ray-Ban Meta AI glasses are ‘not sexy’",
       "url": "https://www.theverge.com/ai-artificial-intelligence/964539/lorde-says-ray-ban-meta-ai-glasses-are-not-sexy",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5461,
-      "publishedAt": "2026-07-12T20:10:32.000Z",
+      "score": 0.5826,
+      "publishedAt": "2026-07-13T09:10:12.000Z",
       "summary": "Lorde was performing at the Real Cool Festival in Madrid on Thursday and took some time during her set to speak out against AI glasses. While she didn't specify any brands in particular, it's likely she was taking a shot at festival sponsor Ray-Ban, which has collaborated with Meta on a pair of AI s",
       "tags": [
         "AI"
@@ -73,17 +213,15 @@
       "engagementScore": 0
     },
     {
-      "title": "Uber’s Autonomous Vehicle Strategy: Slow Their Adoption",
-      "url": "https://www.wired.com/story/ubers-autonomous-vehicle-strategy-slow-their-adoption/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5448,
-      "publishedAt": "2026-07-12T19:55:37.000Z",
-      "summary": "In at least two places, Uber has pushed a policy that could give it an advantage over developers of self-driving cars. The company says it’s fighting monopolies.",
+      "title": "Waze is getting a bunch of new AI-powered features",
+      "url": "https://www.theverge.com/transportation/964132/waze-gemini-ai-voice-commands-less-chatty",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5823,
+      "publishedAt": "2026-07-13T09:07:04.000Z",
+      "summary": "Waze is getting an AI makeover. Google is integrating its flagship AI assistant, Gemini, into the driving app with the goal of letting users personalize their trips a little more. Of the four new updates, only two are being described as involving Gemini. Waze says its updating its conversation repor",
       "tags": [
-        "Agents",
-        "Safety",
-        "Dev Tools"
+        "LLM"
       ],
       "engagementScore": 0
     },
@@ -92,56 +230,13 @@
       "url": "https://openai.com/index/deutsche-telekom",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.5386,
+      "score": 0.5124,
       "publishedAt": "2026-07-10T07:00:00.000Z",
       "summary": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice.",
       "tags": [
         "LLM"
       ],
       "engagementScore": 0
-    },
-    {
-      "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
-      "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
-      "feedSource": "Hacker News",
-      "source": "systima.ai",
-      "score": 0.5304,
-      "publishedAt": "2026-07-12T18:25:51.000Z",
-      "summary": "",
-      "tags": [
-        "LLM",
-        "Dev Tools"
-      ],
-      "engagementScore": 488
-    },
-    {
-      "title": "Apple’s failed self-driving car program left a legacy of powerful AI chips",
-      "url": "https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5262,
-      "publishedAt": "2026-07-12T16:27:06.000Z",
-      "summary": "Apple's self-driving car program never really got off the ground, but it may have been what made the company's chips the powerful AI performers they are. Early in the development of the self-driving platform, Apple realized that it would need powerful on-device AI processing. While the car processor",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "I love LLMs, I hate hype",
-      "url": "https://geohot.github.io//blog/jekyll/update/2026/07/12/i-love-llms.html",
-      "feedSource": "Hacker News",
-      "source": "geohot.github.io",
-      "score": 0.5188,
-      "publishedAt": "2026-07-12T18:31:56.000Z",
-      "summary": "I think from this blog you may misunderestimate how absolutely giddy I am about AI. I did hacking from 2007-2014, after that my whole career has been devoted to AI. I love the progress. I’m so excited for the new LLMs, self driving cars, video generation models, and coding agents. I set up a Linux b",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Vision",
-        "Dev Tools"
-      ],
-      "engagementScore": 349
     },
     {
       "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
@@ -241,24 +336,83 @@
       "engagementScore": 0
     },
     {
+      "title": "Uber’s Autonomous Vehicle Strategy: Slow Their Adoption",
+      "url": "https://www.wired.com/story/ubers-autonomous-vehicle-strategy-slow-their-adoption/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5117,
+      "publishedAt": "2026-07-12T19:55:37.000Z",
+      "summary": "In at least two places, Uber has pushed a policy that could give it an advantage over developers of self-driving cars. The company says it’s fighting monopolies.",
+      "tags": [
+        "Agents",
+        "Safety",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Zig Creator Calls Spade a Spade, Anthropic Blows Smoke",
+      "url": "https://raymyers.org/post/zed-creator-calls-spade-a-spade/",
+      "feedSource": "Hacker News",
+      "source": "raymyers.org",
+      "score": 0.5088,
+      "publishedAt": "2026-07-13T08:39:39.000Z",
+      "summary": "Programming language drama ensues as tech bros oversell the end of software engineering.",
+      "tags": [
+        "LLM",
+        "Dev Tools"
+      ],
+      "engagementScore": 91
+    },
+    {
+      "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
+      "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+      "feedSource": "Hacker News",
+      "source": "systima.ai",
+      "score": 0.507,
+      "publishedAt": "2026-07-12T18:25:51.000Z",
+      "summary": "",
+      "tags": [
+        "LLM",
+        "Dev Tools"
+      ],
+      "engagementScore": 586
+    },
+    {
+      "title": "I love LLMs, I hate hype",
+      "url": "https://geohot.github.io//blog/jekyll/update/2026/07/12/i-love-llms.html",
+      "feedSource": "Hacker News",
+      "source": "geohot.github.io",
+      "score": 0.4956,
+      "publishedAt": "2026-07-12T18:31:56.000Z",
+      "summary": "I think from this blog you may misunderestimate how absolutely giddy I am about AI. I did hacking from 2007-2014, after that my whole career has been devoted to AI. I love the progress. I’m so excited for the new LLMs, self driving cars, video generation models, and coding agents. I set up a Linux b",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Vision",
+        "Dev Tools"
+      ],
+      "engagementScore": 422
+    },
+    {
       "title": "Tiny Emulators",
       "url": "https://floooh.github.io/tiny8bit-preview/index.html",
       "feedSource": "Hacker News",
       "source": "floooh.github.io",
-      "score": 0.5007,
+      "score": 0.4858,
       "publishedAt": "2026-07-12T20:23:05.000Z",
       "summary": "Visual 6502 Remix",
       "tags": [
         "Vision"
       ],
-      "engagementScore": 165
+      "engagementScore": 251
     },
     {
       "title": "The Best Robotic Pool Cleaners of 2026: Beatbot, iGarden, Dreame",
       "url": "https://www.wired.com/story/best-pool-cleaning-robots/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4978,
+      "score": 0.4648,
       "publishedAt": "2026-07-12T11:09:00.000Z",
       "summary": "Send the pool guy packing. Let one of these robotic buddies maintain your water quality instead.",
       "tags": [
@@ -271,7 +425,7 @@
       "url": "https://www.wired.com/story/apple-child-safety-ios-27/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4943,
+      "score": 0.4613,
       "publishedAt": "2026-07-12T10:30:00.000Z",
       "summary": "Apple has announced several new Child Safety features coming soon to iPhones and other devices. Here’s what’s changing.",
       "tags": [
@@ -284,7 +438,7 @@
       "url": "https://www.wired.com/gallery/best-stem-toys-for-kids/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4943,
+      "score": 0.4613,
       "publishedAt": "2026-07-12T10:30:00.000Z",
       "summary": "We found lots of math-filled and science-rich toys for tiny nerds to assemble, bake, squish—or even tear apart and rebuild.",
       "tags": [
@@ -297,7 +451,7 @@
       "url": "https://www.wired.com/story/scientists-using-ai-and-quantum-computing-to-generate-new-peptides/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4917,
+      "score": 0.4587,
       "publishedAt": "2026-07-12T10:00:00.000Z",
       "summary": "Researchers cobbled together funding and time to show how quantum computing could aid in the development of drugs to help underserved populations and combat rare diseases.",
       "tags": [
@@ -307,25 +461,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Old and new apps, via modern coding agents",
-      "url": "https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents/",
-      "feedSource": "Hacker News",
-      "source": "terrytao.wordpress.com",
-      "score": 0.4897,
-      "publishedAt": "2026-07-12T11:09:42.000Z",
-      "summary": "I have been interested in machine-assisted ways to do and teach mathematics from as far back as 1999, when I started coding several applets in Java 1.0, both for my complex analysis and linear alge…",
-      "tags": [
-        "Agents",
-        "Dev Tools"
-      ],
-      "engagementScore": 421
-    },
-    {
       "title": "Best External Hard Drives (2026): SSD to Store Data, Video, and More",
       "url": "https://www.wired.com/story/best-portable-external-storage-drives/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4893,
+      "score": 0.4563,
       "publishedAt": "2026-07-12T09:33:00.000Z",
       "summary": "Need an ultrafast drive for video editing or a rugged option to back up your photos in the field? We’ve got a solution for every situation.",
       "tags": [
@@ -338,7 +478,7 @@
       "url": "https://www.wired.com/gallery/best-pet-cameras/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4868,
+      "score": 0.4538,
       "publishedAt": "2026-07-12T09:05:00.000Z",
       "summary": "Whether you’re near or far, keep an eye on your fur baby with our favorite pet cameras.",
       "tags": [
@@ -456,19 +596,6 @@
       "engagementScore": 0
     },
     {
-      "title": "Beatbot AquaSense X Review: A Pool Robot That Cleans Itself",
-      "url": "https://www.wired.com/review/beatbot-aquasense-x/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.3689,
-      "publishedAt": "2026-07-11T11:02:00.000Z",
-      "summary": "The AquaSense X brings self-cleaning technology to pool robots for the first time, but is it worth nearly twice the price of Beatbot’s flagship cleaner?",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Profiling in PyTorch (Part 3): Attention is all you profile",
       "url": "https://huggingface.co/blog/torch-attention-profile",
       "feedSource": "Hugging Face",
@@ -557,132 +684,6 @@
       "summary": "",
       "tags": [
         "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "PRX Part 4: Our Data Strategy",
-      "url": "https://huggingface.co/blog/Photoroom/prx-part4-data",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.3401,
-      "publishedAt": "2026-07-06T15:30:55.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Download: Claude&#8217;s inner workings and OpenAI&#8217;s &#8220;super app&#8221;",
-      "url": "https://www.technologyreview.com/2026/07/10/1140316/the-download-anthropic-claude-hidden-space-openai-super-app/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.317,
-      "publishedAt": "2026-07-10T12:10:00.000Z",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Anthropic found a hidden space where Claude puzzles over concepts The AI firm Anthropic has got the clearest glimpse yet at what’s really going on ins",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Meta turns off the Instagram feature that let users make AI deepfakes of public accounts",
-      "url": "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.3096,
-      "publishedAt": "2026-07-10T23:56:48.000Z",
-      "summary": "Following significant backlash, Meta is turning off the feature it announced this week that let users generate AI images based on content from public Instagram accounts just by tagging them. The feature, as originally set up, meant that content from any public Instagram account could be used in AI c",
-      "tags": [
-        "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Apple sues OpenAI for allegedly stealing hardware secrets",
-      "url": "https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.3022,
-      "publishedAt": "2026-07-10T22:33:47.000Z",
-      "summary": "Apple has sued OpenAI, alleging that engineers stole Apple secrets to advance the AI startup's hardware plans. In its complaint, Apple says it uncovered \"a pattern of theft of Apple's trade secrets by OpenAI employees who were formerly at Apple.\" In addition to OpenAI, the lawsuit also names IO Prod",
-      "tags": [
-        "LLM",
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Sperm donors need limits, says a European fertility group",
-      "url": "https://www.technologyreview.com/2026/07/10/1140289/sperm-donors-need-limits-says-a-european-fertility-group/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.2985,
-      "publishedAt": "2026-07-10T09:00:00.000Z",
-      "summary": "Ties van der Meer doesn’t know how many siblings he has. The 47-year-old was conceived at a private fertility clinic in the Netherlands using sperm provided by an anonymous donor. After the Netherlands banned anonymous donation in 2004, the doctor who ran the clinic destroyed records that might have",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The fight against AI data centers is just beginning",
-      "url": "https://www.theverge.com/column/963346/ai-data-centers-fight",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.2687,
-      "publishedAt": "2026-07-10T16:18:14.000Z",
-      "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the data center buildout, follow Emma Roth. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started Years before the AI boom threate",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Expanding Managed Agents in Gemini API:  background tasks, remote MCP and more",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
-      "feedSource": "Google AI",
-      "source": "blog.google",
-      "score": 0.2659,
-      "publishedAt": "2026-07-07T08:54:00.000Z",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Managed_agents_feature_bundle_l.max-600x600.format-webp.webp\"&gt;We’re announcing new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents.",
-      "tags": [
-        "LLM",
-        "Agents",
-        "RAG",
-        "Vision",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The latest AI news we announced in June 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
-      "feedSource": "Google AI",
-      "source": "blog.google",
-      "score": 0.2659,
-      "publishedAt": "2026-07-01T18:15:00.000Z",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/260701_ICYMI-June-AI_Thumb.max-600x600.format-webp.webp\"&gt;Here are Google’s latest AI updates from June 2026.",
-      "tags": [
-        "RAG",
-        "Vision",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "New York City educators and industry leaders gathered at Google’s offices to shape the future of AI in classrooms.",
-      "url": "https://blog.google/products-and-platforms/products/education/nyc-ai-summit/",
-      "feedSource": "Google AI",
-      "source": "blog.google",
-      "score": 0.2659,
-      "publishedAt": "2026-07-01T16:00:00.000Z",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Summit_Photo_1.max-600x600.format-webp.webp\"&gt;Google, the New York Jobs CEO Council and Urban Assembly hosted an AI summit for 150 education and industry leaders.",
-      "tags": [
-        "RAG",
-        "Vision",
-        "Dev Tools"
       ],
       "engagementScore": 0
     }
