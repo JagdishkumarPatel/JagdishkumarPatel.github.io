@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-14T10:50:53.283Z",
+  "updatedAt": "2026-07-14T13:52:56.594Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,7 +12,7 @@
       "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9583,
+      "score": 0.9362,
       "publishedAt": "2026-07-14T00:00:00.000Z",
       "summary": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
       "tags": [
@@ -21,11 +21,39 @@
       "engagementScore": 0
     },
     {
+      "title": "How sales teams use ChatGPT Work",
+      "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.9362,
+      "publishedAt": "2026-07-14T00:00:00.000Z",
+      "summary": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Coding agents think ahead of time",
+      "url": "https://arxiv.org/abs/2607.05188",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.8767,
+      "publishedAt": "2026-07-14T12:28:09.000Z",
+      "summary": "A coding agent solving a software-engineering task spends dozens of steps reasoning, editing code, and running tests, yet little is known about what the underlying language model internally represents about the program it is working on. We show that the residual streams of language models under codi",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Dev Tools"
+      ],
+      "engagementScore": 30
+    },
+    {
       "title": "From ML Predictions to Informed Diagnostic Assistance Using the Toulmin Model of Argumentation",
       "url": "https://arxiv.org/abs/2607.09664",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8656,
+      "score": 0.845,
       "publishedAt": "2026-07-14T04:00:00.000Z",
       "summary": "arXiv:2607.09664v1 Announce Type: new \nAbstract: To provide a structured and interpretable assessment, we decompose the image-based diagnosis into components following the Toulmin model of argumentation. This model consists of a claim, grounds, warrant, qualifier, rebuttal, and backing. Consider a c",
       "tags": [
@@ -39,7 +67,7 @@
       "url": "https://arxiv.org/abs/2607.09665",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8656,
+      "score": 0.845,
       "publishedAt": "2026-07-14T04:00:00.000Z",
       "summary": "arXiv:2607.09665v1 Announce Type: new \nAbstract: Prompt wrappers often differ only in formatting, yet they can change model scores enough to flip leaderboard conclusions. We study this variance under a token-controlled protocol and introduce two complementary metrics: the Format Sensitivity Index (F",
       "tags": [
@@ -54,7 +82,7 @@
       "url": "https://arxiv.org/abs/2607.09678",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8656,
+      "score": 0.845,
       "publishedAt": "2026-07-14T04:00:00.000Z",
       "summary": "arXiv:2607.09678v1 Announce Type: new \nAbstract: When LLM agents hand off information to one another, does the message format matter? Two literatures disagree: format-optimization work reports that structured messages cut cost without hurting accuracy, while format-restriction work finds that imposi",
       "tags": [
@@ -69,7 +97,7 @@
       "url": "https://arxiv.org/abs/2607.09689",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8656,
+      "score": 0.845,
       "publishedAt": "2026-07-14T04:00:00.000Z",
       "summary": "arXiv:2607.09689v1 Announce Type: new \nAbstract: To leading order under local asymptotic normality (LAN), the confidence density a worker emits over a chunk of size $n$ is a Gibbs--Boltzmann measure $\\exp\\{-\\beta E(\\theta)\\}$ whose inverse temperature is the sample size, $\\beta=n$. Three consequence",
       "tags": [
@@ -82,7 +110,7 @@
       "url": "https://arxiv.org/abs/2607.09698",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8656,
+      "score": 0.845,
       "publishedAt": "2026-07-14T04:00:00.000Z",
       "summary": "arXiv:2607.09698v1 Announce Type: new \nAbstract: Recent latent reasoning methods, such as CODI and COCONUT, face a fundamental interpretability problem: they maintain multiple superimposed candidate traces in the hidden space at each step, unlike explicit- CoT, which follows a single transparent rea",
       "tags": [
@@ -95,7 +123,7 @@
       "url": "https://arxiv.org/abs/2607.09706",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8656,
+      "score": 0.845,
       "publishedAt": "2026-07-14T04:00:00.000Z",
       "summary": "arXiv:2607.09706v1 Announce Type: new \nAbstract: Language models turn a worded situation into a numeric plan, and the dominant pipelines (NL4Opt, OptiMUS, ORLM, OR-LLM-Agent) commit to a single objective and point-valued coefficients, then solve once. For decisions that allocate real budget, effort,",
       "tags": [
@@ -110,7 +138,7 @@
       "url": "https://arxiv.org/abs/2607.09708",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8656,
+      "score": 0.845,
       "publishedAt": "2026-07-14T04:00:00.000Z",
       "summary": "arXiv:2607.09708v1 Announce Type: new \nAbstract: Solving large-scale instances of the Traveling Salesman Problem (TSP) exactly is computationally expensive. Researchers often employ graph sparsification methods to improve computational efficiency. Traditional sparsification methods typically rely on",
       "tags": [
@@ -123,7 +151,7 @@
       "url": "https://arxiv.org/abs/2607.09709",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8656,
+      "score": 0.845,
       "publishedAt": "2026-07-14T04:00:00.000Z",
       "summary": "arXiv:2607.09709v1 Announce Type: new \nAbstract: Post-training a code generator against a learned judge can optimize proxy features that raise the score without improving the artifact. We study the opposite signal: a deterministic, judge-free, ungameable filter -- whether a generated project launche",
       "tags": [
@@ -137,7 +165,7 @@
       "url": "https://arxiv.org/abs/2607.01418",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8322,
+      "score": 0.8148,
       "publishedAt": "2026-07-13T21:43:51.000Z",
       "summary": "Organizations rolling out agentic command line tools like Anthropic’s Claude Code and GitHub’s Copilot CLI need to know who will try them, who will keep using them, and whether the tools produce enough output to justify their cost. At organizational scale, token spend can run into millions of dollar",
       "tags": [
@@ -147,14 +175,14 @@
         "Open Source",
         "Dev Tools"
       ],
-      "engagementScore": 60
+      "engagementScore": 64
     },
     {
       "title": "Empowering India’s next generation of innovators with ATL Saathi",
       "url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.761,
+      "score": 0.7403,
       "publishedAt": "2026-07-13T12:37:28.000Z",
       "summary": "Google and AIM launched ATL Saathi, a Gemini-powered AI tool empowering Indian educators in robotics labs.",
       "tags": [
@@ -168,7 +196,7 @@
       "url": "https://arxiv.org/abs/2607.08550",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7376,
+      "score": 0.7248,
       "publishedAt": "2026-07-14T00:58:55.000Z",
       "summary": "OpenPLC, Arduino OPTA, CONTROLLINO, and Industrial Shields M-Duino bring IEC 61131-3 to low-cost microcontrollers used in real automation and industrial control system (ICS) security research. Existing open-source verifiers for IEC 61131-3, including ESBMC-PLC, prove safety over an abstract scan-cyc",
       "tags": [
@@ -176,55 +204,40 @@
         "Open Source",
         "Safety"
       ],
-      "engagementScore": 6
-    },
-    {
-      "title": "Who Needs DRAM? We Have Fiber",
-      "url": "https://arxiv.org/abs/2607.08407",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.7293,
-      "publishedAt": "2026-07-13T19:15:01.000Z",
-      "summary": "The rising pressure on DRAM availability and contract pricing reflects generative AI’s massive high-performance memory requirements. This pressure is heavily compounded by hyperscale data center expansion, which now consumes a significant portion of global DRAM output. In this work, we propose a new",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 11
+      "engagementScore": 7
     },
     {
       "title": "GPT-5.6",
       "url": "https://openai.com/index/gpt-5-6/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.699,
+      "score": 0.6991,
       "publishedAt": "2026-07-09T17:04:14.000Z",
       "summary": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 1557
+      "engagementScore": 1558
     },
     {
-      "title": "A Large-Scale Empirical Study of AI-Generated Code in Real-World Repositories",
-      "url": "https://arxiv.org/abs/2603.27130",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.6965,
-      "publishedAt": "2026-07-13T21:56:58.000Z",
-      "summary": "Large language models (LLMs) are rapidly transforming software engineering by enabling developers to generate code ranging from small snippets to entire projects. As AI-assisted code becomes increasingly integrated into real-world systems, understanding its characteristics and impact is critical. Ex",
+      "title": "The Download: Claude&#8217;s inner workings, and the future of world models",
+      "url": "https://www.technologyreview.com/2026/07/14/1140391/the-download-anthropic-claude-internal-thoughts-world-models/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6759,
+      "publishedAt": "2026-07-14T12:10:00.000Z",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. What Anthropic’s latest AI discovery does—and doesn’t—show —James O&#8217;Donnell When Anthropic announced last week that it had found a new window in",
       "tags": [
-        "LLM",
-        "Research",
-        "Dev Tools"
+        "LLM"
       ],
-      "engagementScore": 4
+      "engagementScore": 0
     },
     {
       "title": "Automation Without Understanding",
       "url": "https://arxiv.org/abs/2607.06377",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.6786,
+      "score": 0.658,
       "publishedAt": "2026-07-12T16:54:47.000Z",
       "summary": "Two developments are unfolding at once: artificial intelligence systems have begun to produce genuine research-level mathematics, and the United States is weakening the pipeline that produces humans capable of understanding what such systems are doing. This essay argues that, taken together, these d",
       "tags": [
@@ -237,9 +250,87 @@
       "url": "https://www.technologyreview.com/2026/07/14/1140356/psiquantum-plan-massive-quantum-computer-out-of-light/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6693,
+      "score": 0.6516,
       "publishedAt": "2026-07-14T08:00:00.000Z",
       "summary": "The machine that could change the world will be housed in a room that looks like a data center crossed with an ice cream factory. Inside will be some 100 stainless-steel cabinets, each about six feet tall and connected to a supply of liquid helium that keeps them only a few degrees above absolute ze",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "New York becomes the first state to enact a data center moratorium",
+      "url": "https://www.theverge.com/policy/965110/new-york-ai-data-center-moratorium",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5843,
+      "publishedAt": "2026-07-14T13:48:21.000Z",
+      "summary": "New hyperscale data centers can't set up shop in New York for up to a year now that Governor Kathy Hochul (D) has signed the nation's first statewide moratorium. But a bill passed by the state legislature that could restrict even more developments still awaits her signature. The order blocks new env",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Plex Keeps Getting Worse. Is Jellyfin a Decent Replacement?",
+      "url": "https://www.wired.com/story/plex-keeps-getting-worse-is-jellyfin-a-decent-replacement/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5747,
+      "publishedAt": "2026-07-14T12:00:00.000Z",
+      "summary": "If you want to stream local media, this free and open source media server is just as good as Plex. But if you rely on remote access or live TV, prepare to tinker.",
+      "tags": [
+        "Open Source"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Google’s Demis Hassabis says it’s time for a global AI watchdog — led by the US",
+      "url": "https://www.theverge.com/tech/965270/google-deepmind-demis-hassabis-global-ai-watchdog",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5744,
+      "publishedAt": "2026-07-14T11:56:44.000Z",
+      "summary": "Demis Hassabis thinks the world needs an AI watchdog with the power to hit the brakes if frontier models become too dangerous. Writing in a blog post, the Google DeepMind CEO and cofounder said the US should lead the initiative, arguing that the country is the best place to set global standards \"giv",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "9 Tips to Get More Out of Google Chat",
+      "url": "https://www.wired.com/story/9-tips-to-get-more-out-of-google-chat/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.572,
+      "publishedAt": "2026-07-14T11:30:00.000Z",
+      "summary": "There’s more to Google’s messaging app than you might realize.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Best RGB TVs (2026): My Picks After Testing the Hottest TVs",
+      "url": "https://www.wired.com/story/best-rgb-tvs/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.572,
+      "publishedAt": "2026-07-14T11:30:00.000Z",
+      "summary": "RGB TVs are the latest hotness in the world of televisions, and I’ve tested many of the latest models to see which you should buy.",
+      "tags": [
+        "Vision"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Oura Ring 5 Review: Still the Smart Ring to Beat",
+      "url": "https://www.wired.com/review/oura-ring-5/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.57,
+      "publishedAt": "2026-07-14T11:07:00.000Z",
+      "summary": "It’s not the upgrade Ring 4 owners have been waiting for, but it’s easily the best smart ring Oura has ever made.",
       "tags": [
         "AI"
       ],
@@ -250,7 +341,7 @@
       "url": "https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5876,
+      "score": 0.5699,
       "publishedAt": "2026-07-13T18:00:00.000Z",
       "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Anthropic—currently the world’s most valuable AI company, with a nearly $1 trillion valuation—has a reputation for publishing strange and heady research. It’s loo",
       "tags": [
@@ -261,11 +352,24 @@
       "engagementScore": 0
     },
     {
+      "title": "This German Man Is on a Quest to Cut the Perfect Slice of Bread",
+      "url": "https://www.wired.com/story/this-german-man-is-on-a-mad-quest-to-cut-the-perfect-slice-of-bread/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5693,
+      "publishedAt": "2026-07-14T11:00:00.000Z",
+      "summary": "Armed with high-end knives and digital calipers, Germanbreadcutter has entranced thousands of fans, one loaf at a time.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "This Luddite Puppet Hopes You’re Not Reading This on Your Smartphone",
       "url": "https://www.wired.com/story/the-big-interview-podcast-summer-of-ludd-gowanus/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5829,
+      "score": 0.5667,
       "publishedAt": "2026-07-14T10:30:00.000Z",
       "summary": "On this week’s episode of The Big Interview podcast, WIRED’s senior culture editor Manisha Krishnan talks to Gowanus about eschewing Big Tech, going outside, and rejection in the age of dating apps.",
       "tags": [
@@ -278,7 +382,7 @@
       "url": "https://www.wired.com/story/inventing-eliza-book-excerpt-chatbot/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5802,
+      "score": 0.564,
       "publishedAt": "2026-07-14T10:00:00.000Z",
       "summary": "In the 1960s an MIT professor named Joseph Weizenbaum created a chatbot called ELIZA. The conversations people had with it set precedents for the chatbots to come.",
       "tags": [
@@ -291,7 +395,7 @@
       "url": "https://www.wired.com/story/sothebys-t-rex-auction-shows-wealth-upending-science/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5775,
+      "score": 0.5613,
       "publishedAt": "2026-07-14T09:30:00.000Z",
       "summary": "Private buyers are increasingly outbidding museums for fossils. That’s making it difficult—or even impossible—for researchers to improve our understanding of the past.",
       "tags": [
@@ -300,37 +404,11 @@
       "engagementScore": 0
     },
     {
-      "title": "DOGE Used AI for Housing Policy. The Government Won’t Say How",
-      "url": "https://www.wired.com/story/doge-deployed-ai-housing-policy/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5749,
-      "publishedAt": "2026-07-14T09:00:00.000Z",
-      "summary": "In response to a public records request, HUD has withheld documents about DOGE’s use of AI—in part by citing a privilege that doesn’t exist.",
-      "tags": [
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The US Approves the Launch of a Mirror Satellite That Can Reflect Sunlight and Illuminate the Earth at Night",
-      "url": "https://www.wired.com/story/reflect-orbital-earendil-mirror-satellite-fcc/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5722,
-      "publishedAt": "2026-07-14T08:30:00.000Z",
-      "summary": "The FCC authorized Reflect Orbital to launch the mirror satellite Eärendil-1. “For optical astronomy, this poses an existential threat,” the European Southern Observatory said.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "The Download: a donor conception cap and world models for AI",
       "url": "https://www.technologyreview.com/2026/07/13/1140339/the-download-sperm-donor-limits-ai-world-models/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5536,
+      "score": 0.5359,
       "publishedAt": "2026-07-13T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Sperm donors need limits, says a European fertility group Ties van der Meer doesn’t know how many siblings he has. The 47-year-old was conceived at a",
       "tags": [
@@ -339,56 +417,18 @@
       "engagementScore": 0
     },
     {
-      "title": "Hotels.com Coupon Codes for July 2026",
-      "url": "https://www.wired.com/story/hotels-com-coupon/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5535,
-      "publishedAt": "2026-07-14T05:00:00.000Z",
-      "summary": "Unlock significant savings on hotels, resorts, and getaways with our verified Hotels.com promo codes and gift card discounts. Plan your perfect trip today!",
+      "title": "Codex starts encrypting sub-agent prompts",
+      "url": "https://github.com/openai/codex/issues/28058",
+      "feedSource": "Hacker News",
+      "source": "github.com",
+      "score": 0.5321,
+      "publishedAt": "2026-07-14T11:21:32.000Z",
+      "summary": "What version of Codex CLI is running? Upstream main after #26210 (Encrypt multi-agent v2 message payloads, merged 2026-06-05). This appears to affect versions that include that change and enable Mu…",
       "tags": [
+        "Agents",
         "Dev Tools"
       ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Bose Promo Code: 40% Off for July 2026",
-      "url": "https://www.wired.com/story/bose-coupon-code/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5535,
-      "publishedAt": "2026-07-14T05:00:00.000Z",
-      "summary": "Get at least 40% off headphones, speakers, soundbars, and other audio products from Bose.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "B&amp;H Photo Promo Codes and Deals This July 2026",
-      "url": "https://www.wired.com/story/bh-photo-coupon/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5535,
-      "publishedAt": "2026-07-14T05:00:00.000Z",
-      "summary": "Enjoy top deals on cameras, computers, and tech essentials at B&amp;H Photo.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "New York becomes the first state to enact a data center moratorium",
-      "url": "https://www.theverge.com/policy/965110/new-york-ai-data-center-moratorium",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5181,
-      "publishedAt": "2026-07-13T22:23:04.000Z",
-      "summary": "New hyperscale data centers can't set up shop in New York for up to a year now that Governor Kathy Hochul (D) has signed the nation's first statewide moratorium. But a bill passed by the state legislature that could restrict even more developments still awaits her signature. The order blocks new env",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
+      "engagementScore": 215
     },
     {
       "title": "How Deutsche Telekom is rewiring telecommunications with AI",
@@ -444,19 +484,6 @@
       "engagementScore": 0
     },
     {
-      "title": "GPT-5.5 Bio Bug Bounty",
-      "url": "https://openai.com/index/bio-bug-bounty",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5124,
-      "publishedAt": "2026-07-09T10:00:00.000Z",
-      "summary": "Details about the OpenAI Bio Bounty program",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "ChatGPT is now a partner for your most ambitious work",
       "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
       "feedSource": "OpenAI",
@@ -471,25 +498,37 @@
       "engagementScore": 0
     },
     {
-      "title": "Our approach to government and national security partnerships",
-      "url": "https://openai.com/index/government-national-security-partnerships",
+      "title": "GPT-5.5 Bio Bug Bounty",
+      "url": "https://openai.com/index/bio-bug-bounty",
       "feedSource": "OpenAI",
       "source": "openai.com",
       "score": 0.5124,
-      "publishedAt": "2026-07-08T13:30:00.000Z",
-      "summary": "Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public safety.",
+      "publishedAt": "2026-07-09T10:00:00.000Z",
+      "summary": "Details about the OpenAI Bio Bounty program",
       "tags": [
-        "LLM",
-        "Safety"
+        "LLM"
       ],
       "engagementScore": 0
+    },
+    {
+      "title": "DOGE Used AI for Housing Policy. The Government Won't Say How",
+      "url": "https://www.wired.com/story/doge-deployed-ai-housing-policy/",
+      "feedSource": "Hacker News",
+      "source": "wired.com",
+      "score": 0.5059,
+      "publishedAt": "2026-07-14T12:46:34.000Z",
+      "summary": "In response to a public records request, HUD has withheld documents about DOGE’s use of AI—in part by citing a privilege that doesn’t exist.",
+      "tags": [
+        "Safety"
+      ],
+      "engagementScore": 8
     },
     {
       "title": "Siri AI is already changing how I use my iPhone",
       "url": "https://www.theverge.com/tech/964714/siri-ai-public-beta-preview-ios-27-hands-on",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5092,
+      "score": 0.493,
       "publishedAt": "2026-07-13T20:43:20.000Z",
       "summary": "iOS 27 escaped the developer world today with the launch of the first public beta. I've been testing the new operating system since early June, looking for quirks and seeing if it can live up to the hype Apple promised in the keynote. This year's iOS upgrades are what one might call a Snow Leopard [",
       "tags": [
@@ -498,11 +537,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Australian energy retailers must provide three hours of free daytime electricity",
+      "url": "https://lenergy.com.au/free-daytime-electricity-is-coming-heres-how-it-actually-works/",
+      "feedSource": "Hacker News",
+      "source": "lenergy.com.au",
+      "score": 0.4895,
+      "publishedAt": "2026-07-14T04:31:48.000Z",
+      "summary": "The Solar Sharer Offer launches 1 July 2026. Here’s what changed, how the cap works, and how to maximise free daytime electricity for your home.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 166
+    },
+    {
       "title": "The 6 wildest claims in Apple&#8217;s lawsuit against OpenAI",
       "url": "https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4931,
+      "score": 0.4768,
       "publishedAt": "2026-07-13T17:42:16.000Z",
       "summary": "When Apple employees interviewed for jobs at OpenAI, the AI startup's hardware head allegedly asked them to show up with something unusual: components they were working on and unreleased product samples. That's according to a blockbuster lawsuit filed by Apple, which accuses OpenAI of stealing confi",
       "tags": [
@@ -513,24 +565,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Australian energy retailers must provide three hours of free daytime electricity",
-      "url": "https://lenergy.com.au/free-daytime-electricity-is-coming-heres-how-it-actually-works/",
-      "feedSource": "Hacker News",
-      "source": "lenergy.com.au",
-      "score": 0.4916,
-      "publishedAt": "2026-07-14T04:31:48.000Z",
-      "summary": "The Solar Sharer Offer launches 1 July 2026. Here’s what changed, how the cap works, and how to maximise free daytime electricity for your home.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 117
-    },
-    {
       "title": "Lorde says Ray-Ban Meta AI glasses are ‘not sexy’",
       "url": "https://www.theverge.com/ai-artificial-intelligence/964539/lorde-says-ray-ban-meta-ai-glasses-are-not-sexy",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4913,
+      "score": 0.4751,
       "publishedAt": "2026-07-13T17:22:33.000Z",
       "summary": "Lorde was performing at the Mad Cool Festival in Madrid on Thursday and took some time during her set to speak out against AI glasses. While she didn't specify any brands in particular, it's likely she was taking a shot at festival sponsor Ray-Ban, which has collaborated with Meta on a pair of AI sm",
       "tags": [
@@ -539,24 +578,11 @@
       "engagementScore": 0
     },
     {
-      "title": "YouTrackDB is a general-use object-oriented graph database",
-      "url": "https://github.com/JetBrains/youtrackdb",
-      "feedSource": "Hacker News",
-      "source": "github.com",
-      "score": 0.4904,
-      "publishedAt": "2026-07-14T03:39:55.000Z",
-      "summary": "YouTrackDB is a general-use object-oriented graph database with storage format native to handle graph relations. YouTrackDB supports Gremlin queries and ACID transactions. - JetBrains/youtrackdb",
-      "tags": [
-        "RAG"
-      ],
-      "engagementScore": 127
-    },
-    {
       "title": "The fight against AI data centers is just beginning",
       "url": "https://www.theverge.com/column/963346/ai-data-centers-fight",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4657,
+      "score": 0.4495,
       "publishedAt": "2026-07-13T12:35:37.000Z",
       "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the data center buildout, follow Emma Roth. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started Years before the AI boom threate",
       "tags": [
@@ -569,7 +595,7 @@
       "url": "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4516,
+      "score": 0.4353,
       "publishedAt": "2026-07-13T09:56:25.000Z",
       "summary": "Following significant backlash, Meta is turning off the feature it announced this week that let users generate AI images based on content from public Instagram accounts just by tagging them. The feature, as originally set up, meant that content from any public Instagram account could be used in AI c",
       "tags": [
@@ -582,24 +608,11 @@
       "url": "https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4487,
+      "score": 0.4325,
       "publishedAt": "2026-07-13T09:24:23.000Z",
       "summary": "Apple's self-driving car program never really got off the ground, but it may have been what made the company's chips the powerful AI performers they are. Early in the development of the self-driving platform, Apple realized that it would need powerful on-device AI processing. While the car processor",
       "tags": [
         "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Waze is getting a bunch of new AI-powered features",
-      "url": "https://www.theverge.com/transportation/964132/waze-gemini-ai-voice-commands-less-chatty",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4472,
-      "publishedAt": "2026-07-13T09:07:04.000Z",
-      "summary": "Waze is getting an AI makeover. Google is integrating its flagship AI assistant, Gemini, into the driving app with the goal of letting users personalize their trips a little more. Of the four new updates, only two are being described as involving Gemini. Waze says its updating its conversation repor",
-      "tags": [
-        "LLM"
       ],
       "engagementScore": 0
     },
@@ -667,19 +680,6 @@
       "summary": "Securing internal systems with an AI Control Roadmap, combining traditional safeguards and real-time monitoring.",
       "tags": [
         "Agents"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "DiffusionGemma: 4x faster text generation",
-      "url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-06-10T16:24:11.000Z",
-      "summary": "An overview of DiffusionGemma, an exceptionally fast text generation model with up to 4x faster speeds.",
-      "tags": [
-        "Vision"
       ],
       "engagementScore": 0
     }
