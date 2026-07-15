@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T13:50:42.493Z",
+  "updatedAt": "2026-07-15T16:26:18.618Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,24 +8,25 @@
   ],
   "items": [
     {
-      "title": "Societal Impacts: Claude's values across models and languages",
-      "url": "https://www.anthropic.com/research/claude-values-models-languages",
-      "feedSource": "Hacker News",
-      "source": "anthropic.com",
-      "score": 0.9807,
-      "publishedAt": "2026-07-15T10:56:33.000Z",
-      "summary": "",
+      "title": "The US is advancing AI safety through state and federal action",
+      "url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 1.005,
+      "publishedAt": "2026-07-15T12:00:00.000Z",
+      "summary": "OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI.",
       "tags": [
-        "LLM"
+        "LLM",
+        "Safety"
       ],
-      "engagementScore": 26
+      "engagementScore": 0
     },
     {
       "title": "OmniPMNet: Bridging discrete and gridded PM10 forecasts via omni-query neural processes",
       "url": "https://arxiv.org/abs/2607.11896",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8452,
+      "score": 0.8276,
       "publishedAt": "2026-07-15T04:00:00.000Z",
       "summary": "arXiv:2607.11896v1 Announce Type: new \nAbstract: Forecasting particulate matter (PM10) requires both station-scale accuracy and continuous spatial fields, especially during severe dust storms. Chemical transport models (CTMs) provide gridded forecasts but retain local biases, whereas graph neural ne",
       "tags": [
@@ -39,7 +40,7 @@
       "url": "https://arxiv.org/abs/2607.11897",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8452,
+      "score": 0.8276,
       "publishedAt": "2026-07-15T04:00:00.000Z",
       "summary": "arXiv:2607.11897v1 Announce Type: new \nAbstract: Linear attention replaces softmax attention's growing KV cache with a fixed recurrent state, but this compression limits exact state tracking and long-context memory. We introduce \\emph{Semidirect Fourier Delta Attention} (SFDA), a phase-controlled ge",
       "tags": [
@@ -52,7 +53,7 @@
       "url": "https://arxiv.org/abs/2607.11928",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8452,
+      "score": 0.8276,
       "publishedAt": "2026-07-15T04:00:00.000Z",
       "summary": "arXiv:2607.11928v1 Announce Type: new \nAbstract: Single-shot fringe projection profilometry (FPP) networks that regress depth directly can exploit a shape-prior shortcut, recovering depth from object boundaries rather than from fringe phase. On a photorealistic synthetic benchmark (15,600 fringe ima",
       "tags": [
@@ -65,7 +66,7 @@
       "url": "https://arxiv.org/abs/2607.11936",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8452,
+      "score": 0.8276,
       "publishedAt": "2026-07-15T04:00:00.000Z",
       "summary": "arXiv:2607.11936v1 Announce Type: new \nAbstract: Hyperdimensional Computing (HDC) represents symbols using high-dimensional hypervectors of dimension $D$. In hypervector decomposition, the objective is to recover $F$ constituent hypervectors, each drawn from a codebook of size $N$, from a bound targ",
       "tags": [
@@ -80,7 +81,7 @@
       "url": "https://arxiv.org/abs/2607.11937",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8452,
+      "score": 0.8276,
       "publishedAt": "2026-07-15T04:00:00.000Z",
       "summary": "arXiv:2607.11937v1 Announce Type: new \nAbstract: Mirror Theory proposes that an intelligent system should be studied not only by what it represents, but by what coherent continuations it can sustain under repeated reflection. We make this claim operational through \\emph{viable path entropy} (VPE), a",
       "tags": [
@@ -93,7 +94,7 @@
       "url": "https://arxiv.org/abs/2607.11938",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8452,
+      "score": 0.8276,
       "publishedAt": "2026-07-15T04:00:00.000Z",
       "summary": "arXiv:2607.11938v1 Announce Type: new \nAbstract: This book is about the mathematical foundations of data science.\n  1. Introduction\n  2. Curses, Blessings, and Surprises in High Dimensions\n  3. Singular Value Decomposition and Principal Component Analysis\n  4. Linear Regression and Regularization",
       "tags": [
@@ -106,7 +107,7 @@
       "url": "https://arxiv.org/abs/2607.11940",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8452,
+      "score": 0.8276,
       "publishedAt": "2026-07-15T04:00:00.000Z",
       "summary": "arXiv:2607.11940v1 Announce Type: new \nAbstract: As the scale of large pre-trained models continues to grow, fine-tuning them under limited memory budgets has become increasingly challenging. Low-Rank Adaptation (LoRA), currently one of the most widely adopted parameter-efficient fine-tuning (PEFT)",
       "tags": [
@@ -120,7 +121,7 @@
       "url": "https://arxiv.org/abs/2607.11942",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8452,
+      "score": 0.8276,
       "publishedAt": "2026-07-15T04:00:00.000Z",
       "summary": "arXiv:2607.11942v1 Announce Type: new \nAbstract: KV-cache compression methods are predominantly evaluated with the query appended to the context before compression -- a query-aware protocol. Yet the economic case for a compressed KV cache is reuse: compress a document once, answer many future questi",
       "tags": [
@@ -133,7 +134,7 @@
       "url": "https://openai.com/index/managing-ai-investments-in-agentic-era",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8344,
+      "score": 0.8154,
       "publishedAt": "2026-07-14T10:00:00.000Z",
       "summary": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
       "tags": [
@@ -143,11 +144,24 @@
       "engagementScore": 0
     },
     {
+      "title": "The age of the Universe from a large sample of the oldest Galactic stars",
+      "url": "https://arxiv.org/abs/2607.00764",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.764,
+      "publishedAt": "2026-07-15T15:36:32.000Z",
+      "summary": "We estimate the age of the Universe using the Xiang & Rix sample of 247,103 Milky Way stars with high-resolution spectroscopy from LAMOST DR7 and $Gaia$ eDR3 parallaxes. Stellar ages were estimated using YY isochrones up to 20 Gyr. To remove stars with unusually high and precise ages, we require old",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 3
+    },
+    {
       "title": "Coding agents think ahead of time",
       "url": "https://arxiv.org/abs/2607.05188",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.771,
+      "score": 0.7539,
       "publishedAt": "2026-07-14T12:28:09.000Z",
       "summary": "A coding agent solving a software-engineering task spends dozens of steps reasoning, editing code, and running tests, yet little is known about what the underlying language model internally represents about the program it is working on. We show that the residual streams of language models under codi",
       "tags": [
@@ -155,29 +169,29 @@
         "Agents",
         "Dev Tools"
       ],
-      "engagementScore": 93
-    },
-    {
-      "title": "How data science teams use ChatGPT Work",
-      "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.7614,
-      "publishedAt": "2026-07-14T00:00:00.000Z",
-      "summary": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
+      "engagementScore": 94
     },
     {
       "title": "How sales teams use ChatGPT Work",
       "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7614,
+      "score": 0.7425,
       "publishedAt": "2026-07-14T00:00:00.000Z",
       "summary": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "How data science teams use ChatGPT Work",
+      "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.7425,
+      "publishedAt": "2026-07-14T00:00:00.000Z",
+      "summary": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
       "tags": [
         "LLM"
       ],
@@ -188,7 +202,7 @@
       "url": "https://huggingface.co/blog/real-world-voiceeq",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.7076,
+      "score": 0.6912,
       "publishedAt": "2026-07-15T00:00:00.000Z",
       "summary": "",
       "tags": [
@@ -201,7 +215,7 @@
       "url": "https://www.technologyreview.com/2026/07/15/1140498/the-download-useful-quantum-computer-subsea-tunnel/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6761,
+      "score": 0.661,
       "publishedAt": "2026-07-15T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. PsiQuantum has a plan to make a massive quantum computer out of light The machine that could change the world will be housed in a room that looks like",
       "tags": [
@@ -210,28 +224,38 @@
       "engagementScore": 0
     },
     {
-      "title": "A Study of Microsoft's Early 2026 Rollout of Claude Code and GitHub Copilot CLI",
-      "url": "https://arxiv.org/abs/2607.01418",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.6548,
-      "publishedAt": "2026-07-13T21:43:51.000Z",
-      "summary": "Organizations rolling out agentic command line tools like Anthropic’s Claude Code and GitHub’s Copilot CLI need to know who will try them, who will keep using them, and whether the tools produce enough output to justify their cost. At organizational scale, token spend can run into millions of dollar",
+      "title": "OpenAI finally launches hardware… for Codex",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/965901/openai-hardware-codex-micro-launch",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5691,
+      "publishedAt": "2026-07-15T13:30:33.000Z",
+      "summary": "OpenAI is finally releasing some hardware. No, it isn't the mysterious AI-powered device the company is developing with former Apple designer Jony Ive, a project already tangled up in a messy lawsuit. Instead, it's a product designed to be used with its coding platform, Codex. The device, a square-s",
       "tags": [
         "LLM",
-        "Agents",
-        "Research",
-        "Open Source",
         "Dev Tools"
       ],
-      "engagementScore": 68
+      "engagementScore": 0
+    },
+    {
+      "title": "An Inventor of Apple’s FaceID Wants to Analyze Your Brain’s Health With AI",
+      "url": "https://www.wired.com/story/the-apple-faceid-veteran-building-a-frontier-ai-model-for-the-human-brain/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.561,
+      "publishedAt": "2026-07-15T12:00:00.000Z",
+      "summary": "Gidi Littwin’s new AI startup, Hemispheric, makes diagnostic brain scans for conditions like depression, PTSD, and Parkinson’s. He wants the technology to be as cheap and easy as for a blood test.",
+      "tags": [
+        "Industry"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "Empowering India’s next generation of innovators with ATL Saathi",
       "url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.5773,
+      "score": 0.5596,
       "publishedAt": "2026-07-13T12:37:28.000Z",
       "summary": "Google and AIM launched ATL Saathi, a Gemini-powered AI tool empowering Indian educators in robotics labs.",
       "tags": [
@@ -241,24 +265,11 @@
       "engagementScore": 0
     },
     {
-      "title": "An Inventor of Apple's FaceID Wants to Analyze Your Brain's Health With AI",
-      "url": "https://www.wired.com/story/the-apple-faceid-veteran-building-a-frontier-ai-model-for-the-human-brain/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5749,
-      "publishedAt": "2026-07-15T12:00:00.000Z",
-      "summary": "Gidi Littwin's new AI startup, Hemispheric, makes diagnostic brain scans for conditions like depression, PTSD, and Parkinson’s. He wants the technology to be as cheap and easy as a blood test.",
-      "tags": [
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "The Best iPad to Buy (and Some to Avoid) in 2026: Air, Pro, Mini",
       "url": "https://www.wired.com/gallery/the-best-ipad/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5696,
+      "score": 0.5558,
       "publishedAt": "2026-07-15T11:01:00.000Z",
       "summary": "Apple just raised its prices. Here’s an updated breakdown of the brand’s tablets to find the best one for your needs.",
       "tags": [
@@ -271,7 +282,7 @@
       "url": "https://www.wired.com/review/msi-claw-8-ex-ai/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5695,
+      "score": 0.5557,
       "publishedAt": "2026-07-15T11:00:00.000Z",
       "summary": "But with great power comes a great price.",
       "tags": [
@@ -284,7 +295,7 @@
       "url": "https://www.wired.com/gallery/the-best-personal-safety-alarms-and-gadgets-for-every-situation/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5671,
+      "score": 0.5533,
       "publishedAt": "2026-07-15T10:33:00.000Z",
       "summary": "Make some noise for safety with our favorite alarms, from keychain sirens to wearable bracelets.",
       "tags": [
@@ -297,7 +308,7 @@
       "url": "https://www.wired.com/story/best-google-home-speaker/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.567,
+      "score": 0.5532,
       "publishedAt": "2026-07-15T10:32:00.000Z",
       "summary": "There’s now only one worth buying—but you can still access new features on older models you might already own.",
       "tags": [
@@ -310,7 +321,7 @@
       "url": "https://www.wired.com/story/ebike-delivery-missing-when-i-tried-to-recover-it-i-ended-up-in-chatbot-hell/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5642,
+      "score": 0.5503,
       "publishedAt": "2026-07-15T10:00:00.000Z",
       "summary": "Companies’ increasing reliance on AI chatbots isn’t making the customer service experience smarter. It’s just making it more infuriating.",
       "tags": [
@@ -323,7 +334,7 @@
       "url": "https://www.wired.com/story/explosive-diarrhea-outbreak-about-to-get-bigger/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5615,
+      "score": 0.5476,
       "publishedAt": "2026-07-15T09:30:00.000Z",
       "summary": "Official case counts likely capture only a fraction of US cyclosporiasis infections, and the outbreak is likely to get worse before it gets better.",
       "tags": [
@@ -336,7 +347,7 @@
       "url": "https://www.wired.com/story/openai-employees-donations-guardrails-alliance-leading-the-future/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5588,
+      "score": 0.545,
       "publishedAt": "2026-07-15T09:00:00.000Z",
       "summary": "OpenAI employees have donated more than $215,000 to a political effort opposing Leading the Future, a group backed by the company’s president, Greg Brockman.",
       "tags": [
@@ -350,7 +361,7 @@
       "url": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.5585,
+      "score": 0.5433,
       "publishedAt": "2026-07-14T16:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Images_25th_hero.max-600x600.format-webp.webp\"&gt;Google Images is turning 25. Here’s a look back at some major milestones — and new ways to explore and create visual content.",
       "tags": [
@@ -365,39 +376,39 @@
       "url": "https://www.ayush.digital/blog/the-memory-heist",
       "feedSource": "Hacker News",
       "source": "ayush.digital",
-      "score": 0.5368,
+      "score": 0.529,
       "publishedAt": "2026-07-15T06:28:00.000Z",
       "summary": "",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 470
-    },
-    {
-      "title": "The Download: Claude&#8217;s inner workings, and the future of world models",
-      "url": "https://www.technologyreview.com/2026/07/14/1140391/the-download-anthropic-claude-internal-thoughts-world-models/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.5361,
-      "publishedAt": "2026-07-14T12:10:00.000Z",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. What Anthropic’s latest AI discovery does—and doesn’t—show —James O&#8217;Donnell When Anthropic announced last week that it had found a new window in",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
+      "engagementScore": 536
     },
     {
       "title": "Jurassic Park computers in excruciating detail",
       "url": "https://fabiensanglard.net/jurrasic_park_computers/index.html",
       "feedSource": "Hacker News",
       "source": "fabiensanglard.net",
-      "score": 0.5315,
+      "score": 0.524,
       "publishedAt": "2026-07-15T02:57:47.000Z",
       "summary": "Jul 13, 2026",
       "tags": [
         "AI"
       ],
-      "engagementScore": 650
+      "engagementScore": 749
+    },
+    {
+      "title": "The Download: Claude&#8217;s inner workings, and the future of world models",
+      "url": "https://www.technologyreview.com/2026/07/14/1140391/the-download-anthropic-claude-internal-thoughts-world-models/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.521,
+      "publishedAt": "2026-07-14T12:10:00.000Z",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. What Anthropic’s latest AI discovery does—and doesn’t—show —James O&#8217;Donnell When Anthropic announced last week that it had found a new window in",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "How Deutsche Telekom is rewiring telecommunications with AI",
@@ -453,24 +464,24 @@
       "engagementScore": 0
     },
     {
-      "title": "GPT-5.5 Bio Bug Bounty",
-      "url": "https://openai.com/index/bio-bug-bounty",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5124,
-      "publishedAt": "2026-07-09T10:00:00.000Z",
-      "summary": "Details about the OpenAI Bio Bounty program",
+      "title": "The Three-Second Theft: Why AI Voice Fraud Outruns Every Defence",
+      "url": "https://smarterarticles.co.uk/the-three-second-theft-why-ai-voice-fraud-outruns-every-defence",
+      "feedSource": "Hacker News",
+      "source": "smarterarticles.co.uk",
+      "score": 0.5014,
+      "publishedAt": "2026-07-15T13:18:15.000Z",
+      "summary": "Sharon Brightwell heard her daughter crying down the line, and that was the end of any defence she might have mounted. The voice belong…",
       "tags": [
-        "LLM"
+        "AI"
       ],
-      "engagementScore": 0
+      "engagementScore": 100
     },
     {
       "title": "PsiQuantum has a plan to make a massive quantum computer out of light",
       "url": "https://www.technologyreview.com/2026/07/14/1140356/psiquantum-plan-massive-quantum-computer-out-of-light/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5118,
+      "score": 0.4967,
       "publishedAt": "2026-07-14T08:00:00.000Z",
       "summary": "The machine that could change the world will be housed in a room that looks like a data center crossed with an ice cream factory. Inside will be some 100 stainless-steel cabinets, each about six feet tall and connected to a supply of liquid helium that keeps them only a few degrees above absolute ze",
       "tags": [
@@ -479,11 +490,50 @@
       "engagementScore": 0
     },
     {
+      "title": "OpenAI loses trademark dispute at EU court",
+      "url": "https://dpa-international.com/economics/urn:newsml:dpa.com:20090101:260715-930-389143/",
+      "feedSource": "Hacker News",
+      "source": "dpa-international.com",
+      "score": 0.4961,
+      "publishedAt": "2026-07-15T14:32:36.000Z",
+      "summary": "15.07.2026, 14:24 Uhr",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 73
+    },
+    {
+      "title": "Briar Is in Maintenance Mode",
+      "url": "https://briarproject.org/news/2026-maintenance-mode/",
+      "feedSource": "Hacker News",
+      "source": "briarproject.org",
+      "score": 0.4932,
+      "publishedAt": "2026-07-15T12:33:27.000Z",
+      "summary": "This is a quick update about the status of Briar. Short version: the project is still active but we’re only making essential security updates and bugfixes for now.\nLong version:\nFor several years we’ve been trying to find solutions to some of the longstanding issues with Briar, such as high battery",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 88
+    },
+    {
+      "title": "Towards a Harness That Can Do Anything",
+      "url": "https://eardatasci.github.io/c/ambiance/index.html",
+      "feedSource": "Hacker News",
+      "source": "eardatasci.github.io",
+      "score": 0.4894,
+      "publishedAt": "2026-07-15T14:08:28.000Z",
+      "summary": "I’ve been thinking about how to free LLMs from the chat pane for a few years now. Watching what people have tried and seeing what worked (and didn’t), I’ve formed my own opinions on the right way to approach it. Here are my thoughts, and what I’ve been working on recently.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 64
+    },
+    {
       "title": "New York becomes the first state to enact a data center moratorium",
       "url": "https://www.theverge.com/policy/965110/new-york-ai-data-center-moratorium",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4987,
+      "score": 0.4848,
       "publishedAt": "2026-07-14T21:45:11.000Z",
       "summary": "New hyperscale data centers can't set up shop in New York for up to a year now that Governor Kathy Hochul (D) has signed the nation's first statewide moratorium. But a bill passed by the state legislature that could restrict even more developments still awaits her signature. The order blocks new env",
       "tags": [
@@ -496,7 +546,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.497,
+      "score": 0.4832,
       "publishedAt": "2026-07-14T21:26:32.000Z",
       "summary": "OpenAI's first device is set to be a smart speaker that lets you talk with ChatGPT, according to a report from Bloomberg. The device apparently won't have a screen, but will use a camera and additional sensors to \"understand\" your environment. The report comes just days after Apple filed a lawsuit a",
       "tags": [
@@ -505,24 +555,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Bonsai 27B: A 27B-Class model that runs on a phone",
-      "url": "https://prismml.com/news/bonsai-27b",
-      "feedSource": "Hacker News",
-      "source": "prismml.com",
-      "score": 0.4871,
-      "publishedAt": "2026-07-14T17:50:48.000Z",
-      "summary": "Today, we’re announcing Bonsai 27B, based on Qwen3.6 27B, the new multimodal flagship of the Bonsai family and the first model of its capability class to run on a phone.",
-      "tags": [
-        "Vision"
-      ],
-      "engagementScore": 649
-    },
-    {
       "title": "SpaceXAI&#8217;s Grok programming tool was uploading its users&#8217; entire codebase to cloud storage",
       "url": "https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4862,
+      "score": 0.4723,
       "publishedAt": "2026-07-14T19:25:00.000Z",
       "summary": "SpaceXAI's Grok Build AI coding tool was spotted uploading users' entire codebases to Google Cloud before it was reported, and the company turned it off. The Register reports that Cereblab published findings on Monday showing how the Grok Build CLI was packaging and uploading entire code repositorie",
       "tags": [
@@ -533,38 +570,11 @@
       "engagementScore": 0
     },
     {
-      "title": "DSLs Enable Reliable Use of LLMs",
-      "url": "https://martinfowler.com/articles/llm-and-dsls.html",
-      "feedSource": "Hacker News",
-      "source": "martinfowler.com",
-      "score": 0.4827,
-      "publishedAt": "2026-07-15T10:11:11.000Z",
-      "summary": "Why Domain-Specific Languages and good abstractions make LLM code generation reliable and reviewable.",
-      "tags": [
-        "LLM",
-        "Dev Tools"
-      ],
-      "engagementScore": 64
-    },
-    {
-      "title": "TS-2026-009: Insecure argument handling in Tailscale SSH permitted root access",
-      "url": "https://tailscale.com/security-bulletins",
-      "feedSource": "Hacker News",
-      "source": "tailscale.com",
-      "score": 0.4776,
-      "publishedAt": "2026-07-15T01:08:26.000Z",
-      "summary": "Security notifications affecting the Tailscale client and service Read our incident disclosure and notification policy. If you’re directly affected by a security issue in Tailscale, and we have your contact information, we will contact you.",
-      "tags": [
-        "Safety"
-      ],
-      "engagementScore": 187
-    },
-    {
       "title": "Meta accused of using biased AI targeting for mass layoffs",
       "url": "https://www.theverge.com/tech/965486/meta-lawsuit-former-employees-ai-layoffs",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4749,
+      "score": 0.461,
       "publishedAt": "2026-07-14T17:18:11.000Z",
       "summary": "A group of 26 former Meta employees is suing the company over claims that it used AI tools to unfairly target workers on leave with layoffs, as reported earlier by Reuters. In the lawsuit, the employees allege Meta determined which workers to dismiss based on performance data collected by a \"constel",
       "tags": [
@@ -578,7 +588,7 @@
       "url": "https://www.theverge.com/entertainment/965358/spotify-ai-chatbot-interface-music-audiobooks-podcasts",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4668,
+      "score": 0.453,
       "publishedAt": "2026-07-14T15:47:36.000Z",
       "summary": "Spotify is experimenting with a new AI feature that allows Premium subscribers to play and explore music, audiobooks, and podcasts by having conversations with a chatbot. The \"Talk to Spotify\" feature appears across the Home and Now Playing view on Spotify's mobile app. You can interact with the cha",
       "tags": [
@@ -591,7 +601,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/965294/openai-apple-trade-secrets-lawsuit-sam-altman-ipo",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4575,
+      "score": 0.4436,
       "publishedAt": "2026-07-14T14:03:06.000Z",
       "summary": "OpenAI has spent the better part of the year involved in lawsuit after lawsuit, including one from the world's richest man. But last Friday, the company was hit with one of the highest-profile legal actions yet - from Apple. OpenAI's expensive hardware bet is what's on the line. Apple's lawsuit agai",
       "tags": [
@@ -604,26 +614,11 @@
       "url": "https://www.theverge.com/tech/965270/google-deepmind-demis-hassabis-global-ai-watchdog",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4463,
+      "score": 0.4324,
       "publishedAt": "2026-07-14T11:56:44.000Z",
       "summary": "Demis Hassabis thinks the world needs an AI watchdog with the power to hit the brakes if frontier models become too dangerous. Writing in a blog post, the Google DeepMind CEO and cofounder said the US should lead the initiative, arguing that the country is the best place to set global standards \"giv",
       "tags": [
         "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "What Anthropic’s latest AI discovery does—and doesn’t—show",
-      "url": "https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.4301,
-      "publishedAt": "2026-07-13T18:00:00.000Z",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Anthropic—currently the world’s most valuable AI company, with a nearly $1 trillion valuation—has a reputation for publishing strange and heady research. It’s loo",
-      "tags": [
-        "LLM",
-        "Research",
-        "Industry"
       ],
       "engagementScore": 0
     },
