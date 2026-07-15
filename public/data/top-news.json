@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-14T22:01:38.569Z",
+  "updatedAt": "2026-07-15T02:46:21.209Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,7 +12,7 @@
       "url": "https://openai.com/index/managing-ai-investments-in-agentic-era",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9497,
+      "score": 0.9151,
       "publishedAt": "2026-07-14T10:00:00.000Z",
       "summary": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
       "tags": [
@@ -22,11 +22,26 @@
       "engagementScore": 0
     },
     {
+      "title": "Coding agents think ahead of time",
+      "url": "https://arxiv.org/abs/2607.05188",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.8441,
+      "publishedAt": "2026-07-14T12:28:09.000Z",
+      "summary": "A coding agent solving a software-engineering task spends dozens of steps reasoning, editing code, and running tests, yet little is known about what the underlying language model internally represents about the program it is working on. We show that the residual streams of language models under codi",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Dev Tools"
+      ],
+      "engagementScore": 89
+    },
+    {
       "title": "How data science teams use ChatGPT Work",
       "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8768,
+      "score": 0.8422,
       "publishedAt": "2026-07-14T00:00:00.000Z",
       "summary": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
       "tags": [
@@ -39,7 +54,7 @@
       "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8768,
+      "score": 0.8422,
       "publishedAt": "2026-07-14T00:00:00.000Z",
       "summary": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
       "tags": [
@@ -48,41 +63,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Coding agents think ahead of time",
-      "url": "https://arxiv.org/abs/2607.05188",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.8735,
-      "publishedAt": "2026-07-14T12:28:09.000Z",
-      "summary": "A coding agent solving a software-engineering task spends dozens of steps reasoning, editing code, and running tests, yet little is known about what the underlying language model internally represents about the program it is working on. We show that the residual streams of language models under codi",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Dev Tools"
-      ],
-      "engagementScore": 84
-    },
-    {
-      "title": "Claude for Teachers",
-      "url": "https://www.anthropic.com/news/claude-for-teachers",
-      "feedSource": "Hacker News",
-      "source": "anthropic.com",
-      "score": 0.8612,
-      "publishedAt": "2026-07-14T15:00:39.000Z",
-      "summary": "Anthropic is an AI safety and research company that’s working to build reliable, interpretable, and steerable AI systems.",
-      "tags": [
-        "LLM",
-        "Research",
-        "Safety"
-      ],
-      "engagementScore": 5
-    },
-    {
       "title": "From ML Predictions to Informed Diagnostic Assistance Using the Toulmin Model of Argumentation",
       "url": "https://arxiv.org/abs/2607.09664",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7895,
+      "score": 0.7572,
       "publishedAt": "2026-07-14T04:00:00.000Z",
       "summary": "arXiv:2607.09664v1 Announce Type: new \nAbstract: To provide a structured and interpretable assessment, we decompose the image-based diagnosis into components following the Toulmin model of argumentation. This model consists of a claim, grounds, warrant, qualifier, rebuttal, and backing. Consider a c",
       "tags": [
@@ -96,7 +81,7 @@
       "url": "https://arxiv.org/abs/2607.09665",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7895,
+      "score": 0.7572,
       "publishedAt": "2026-07-14T04:00:00.000Z",
       "summary": "arXiv:2607.09665v1 Announce Type: new \nAbstract: Prompt wrappers often differ only in formatting, yet they can change model scores enough to flip leaderboard conclusions. We study this variance under a token-controlled protocol and introduce two complementary metrics: the Format Sensitivity Index (F",
       "tags": [
@@ -111,7 +96,7 @@
       "url": "https://arxiv.org/abs/2607.09678",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7895,
+      "score": 0.7572,
       "publishedAt": "2026-07-14T04:00:00.000Z",
       "summary": "arXiv:2607.09678v1 Announce Type: new \nAbstract: When LLM agents hand off information to one another, does the message format matter? Two literatures disagree: format-optimization work reports that structured messages cut cost without hurting accuracy, while format-restriction work finds that imposi",
       "tags": [
@@ -126,7 +111,7 @@
       "url": "https://arxiv.org/abs/2607.09689",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7895,
+      "score": 0.7572,
       "publishedAt": "2026-07-14T04:00:00.000Z",
       "summary": "arXiv:2607.09689v1 Announce Type: new \nAbstract: To leading order under local asymptotic normality (LAN), the confidence density a worker emits over a chunk of size $n$ is a Gibbs--Boltzmann measure $\\exp\\{-\\beta E(\\theta)\\}$ whose inverse temperature is the sample size, $\\beta=n$. Three consequence",
       "tags": [
@@ -139,7 +124,7 @@
       "url": "https://arxiv.org/abs/2607.09698",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7895,
+      "score": 0.7572,
       "publishedAt": "2026-07-14T04:00:00.000Z",
       "summary": "arXiv:2607.09698v1 Announce Type: new \nAbstract: Recent latent reasoning methods, such as CODI and COCONUT, face a fundamental interpretability problem: they maintain multiple superimposed candidate traces in the hidden space at each step, unlike explicit- CoT, which follows a single transparent rea",
       "tags": [
@@ -152,7 +137,7 @@
       "url": "https://arxiv.org/abs/2607.09706",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7895,
+      "score": 0.7572,
       "publishedAt": "2026-07-14T04:00:00.000Z",
       "summary": "arXiv:2607.09706v1 Announce Type: new \nAbstract: Language models turn a worded situation into a numeric plan, and the dominant pipelines (NL4Opt, OptiMUS, ORLM, OR-LLM-Agent) commit to a single objective and point-valued coefficients, then solve once. For decisions that allocate real budget, effort,",
       "tags": [
@@ -167,7 +152,7 @@
       "url": "https://arxiv.org/abs/2607.09708",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7895,
+      "score": 0.7572,
       "publishedAt": "2026-07-14T04:00:00.000Z",
       "summary": "arXiv:2607.09708v1 Announce Type: new \nAbstract: Solving large-scale instances of the Traveling Salesman Problem (TSP) exactly is computationally expensive. Researchers often employ graph sparsification methods to improve computational efficiency. Traditional sparsification methods typically rely on",
       "tags": [
@@ -180,7 +165,7 @@
       "url": "https://arxiv.org/abs/2607.09709",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7895,
+      "score": 0.7572,
       "publishedAt": "2026-07-14T04:00:00.000Z",
       "summary": "arXiv:2607.09709v1 Announce Type: new \nAbstract: Post-training a code generator against a learned judge can optimize proxy features that raise the score without improving the artifact. We study the opposite signal: a deterministic, judge-free, ungameable filter -- whether a generated project launche",
       "tags": [
@@ -190,11 +175,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Remotely Scan TouchScreen Inputs with EM",
+      "url": "https://arxiv.org/abs/2512.11484",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.744,
+      "publishedAt": "2026-07-14T20:51:17.000Z",
+      "summary": "This paper reveals and exploits a critical security vulnerability: the electromagnetic (EM) side channel of capacitive touchscreens leaks sufficient information to recover fine-grained, continuous handwriting trajectories. We present Touchscreen Electromagnetic Side-channel Leakage Attack (TESLA), a",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 4
+    },
+    {
       "title": "A Study of Microsoft's Early 2026 Rollout of Claude Code and GitHub Copilot CLI",
       "url": "https://arxiv.org/abs/2607.01418",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7617,
+      "score": 0.7302,
       "publishedAt": "2026-07-13T21:43:51.000Z",
       "summary": "Organizations rolling out agentic command line tools like Anthropic’s Claude Code and GitHub’s Copilot CLI need to know who will try them, who will keep using them, and whether the tools produce enough output to justify their cost. At organizational scale, token spend can run into millions of dollar",
       "tags": [
@@ -204,14 +202,14 @@
         "Open Source",
         "Dev Tools"
       ],
-      "engagementScore": 67
+      "engagementScore": 68
     },
     {
       "title": "Empowering India’s next generation of innovators with ATL Saathi",
       "url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.6849,
+      "score": 0.6526,
       "publishedAt": "2026-07-13T12:37:28.000Z",
       "summary": "Google and AIM launched ATL Saathi, a Gemini-powered AI tool empowering Indian educators in robotics labs.",
       "tags": [
@@ -221,26 +219,11 @@
       "engagementScore": 0
     },
     {
-      "title": "ESBMC-Arduino: Closing the Deployment Gap for Formal Verification",
-      "url": "https://arxiv.org/abs/2607.08550",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.6694,
-      "publishedAt": "2026-07-14T00:58:55.000Z",
-      "summary": "OpenPLC, Arduino OPTA, CONTROLLINO, and Industrial Shields M-Duino bring IEC 61131-3 to low-cost microcontrollers used in real automation and industrial control system (ICS) security research. Existing open-source verifiers for IEC 61131-3, including ESBMC-PLC, prove safety over an abstract scan-cyc",
-      "tags": [
-        "Research",
-        "Open Source",
-        "Safety"
-      ],
-      "engagementScore": 7
-    },
-    {
       "title": "Celebrating 25 years of visual search innovation",
       "url": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.6507,
+      "score": 0.6231,
       "publishedAt": "2026-07-14T16:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Images_25th_hero.max-600x600.format-webp.webp\"&gt;Google Images is turning 25. Here’s a look back at some major milestones — and new ways to explore and create visual content.",
       "tags": [
@@ -255,7 +238,7 @@
       "url": "https://www.technologyreview.com/2026/07/14/1140391/the-download-anthropic-claude-internal-thoughts-world-models/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6284,
+      "score": 0.6007,
       "publishedAt": "2026-07-14T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. What Anthropic’s latest AI discovery does—and doesn’t—show —James O&#8217;Donnell When Anthropic announced last week that it had found a new window in",
       "tags": [
@@ -268,7 +251,7 @@
       "url": "https://www.technologyreview.com/2026/07/14/1140356/psiquantum-plan-massive-quantum-computer-out-of-light/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6041,
+      "score": 0.5764,
       "publishedAt": "2026-07-14T08:00:00.000Z",
       "summary": "The machine that could change the world will be housed in a room that looks like a data center crossed with an ice cream factory. Inside will be some 100 stainless-steel cabinets, each about six feet tall and connected to a supply of liquid helium that keeps them only a few degrees above absolute ze",
       "tags": [
@@ -277,24 +260,24 @@
       "engagementScore": 0
     },
     {
-      "title": "Automation Without Understanding",
-      "url": "https://arxiv.org/abs/2607.06377",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.6029,
-      "publishedAt": "2026-07-12T16:54:47.000Z",
-      "summary": "Two developments are unfolding at once: artificial intelligence systems have begun to produce genuine research-level mathematics, and the United States is weakening the pipeline that produces humans capable of understanding what such systems are doing. This essay argues that, taken together, these d",
+      "title": "The UK Is Planning a Social Media Curfew for 16- and 17-Year-Olds",
+      "url": "https://www.wired.com/story/the-uk-is-planning-a-social-media-curfew-for-16-and-17-year-olds/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.56,
+      "publishedAt": "2026-07-14T22:08:30.000Z",
+      "summary": "The restrictions, which can be turned off, will include a crackdown on “addictive” app features and will be in addition to a total ban on children under 16 accessing platforms like TikTok and YouTube.",
       "tags": [
-        "Research"
+        "AI"
       ],
-      "engagementScore": 140
+      "engagementScore": 0
     },
     {
       "title": "New York becomes the first state to enact a data center moratorium",
       "url": "https://www.theverge.com/policy/965110/new-york-ai-data-center-moratorium",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5833,
+      "score": 0.5579,
       "publishedAt": "2026-07-14T21:45:11.000Z",
       "summary": "New hyperscale data centers can't set up shop in New York for up to a year now that Governor Kathy Hochul (D) has signed the nation's first statewide moratorium. But a bill passed by the state legislature that could restrict even more developments still awaits her signature. The order blocks new env",
       "tags": [
@@ -307,7 +290,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5816,
+      "score": 0.5562,
       "publishedAt": "2026-07-14T21:26:32.000Z",
       "summary": "OpenAI's first device is set to be a smart speaker that lets you talk with ChatGPT, according to a report from Bloomberg. The device apparently won't have a screen, but will use a camera and additional sensors to \"understand\" your environment. The report comes just days after Apple filed a lawsuit a",
       "tags": [
@@ -320,7 +303,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5708,
+      "score": 0.5454,
       "publishedAt": "2026-07-14T19:25:00.000Z",
       "summary": "SpaceXAI's Grok Build AI coding tool was spotted uploading users' entire codebases to Google Cloud before it was reported, and the company turned it off. The Register reports that Cereblab published findings on Monday showing how the Grok Build CLI was packaging and uploading entire code repositorie",
       "tags": [
@@ -335,7 +318,7 @@
       "url": "https://www.theverge.com/tech/965486/meta-lawsuit-former-employees-ai-layoffs",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5595,
+      "score": 0.5341,
       "publishedAt": "2026-07-14T17:18:11.000Z",
       "summary": "A group of 26 former Meta employees is suing the company over claims that it used AI tools to unfairly target workers on leave with layoffs, as reported earlier by Reuters. In the lawsuit, the employees allege Meta determined which workers to dismiss based on performance data collected by a \"constel",
       "tags": [
@@ -345,11 +328,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Bonsai 27B: A 27B-Class model that runs on a phone",
+      "url": "https://prismml.com/news/bonsai-27b",
+      "feedSource": "Hacker News",
+      "source": "prismml.com",
+      "score": 0.528,
+      "publishedAt": "2026-07-14T17:50:48.000Z",
+      "summary": "Today, we’re announcing Bonsai 27B, based on Qwen3.6 27B, the new multimodal flagship of the Bonsai family and the first model of its capability class to run on a phone.",
+      "tags": [
+        "Vision"
+      ],
+      "engagementScore": 454
+    },
+    {
       "title": "YouTube and X Have Become ‘Gateways’ to Nudify Apps",
       "url": "https://www.wired.com/story/youtube-and-x-have-become-gateways-to-nudify-apps/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.553,
+      "score": 0.5276,
       "publishedAt": "2026-07-14T16:05:18.000Z",
       "summary": "A new study found that social media platforms are referring people to sites where they can create nonconsensual, sexually explicit deepfakes for as little as $1 an image.",
       "tags": [
@@ -363,7 +359,7 @@
       "url": "https://www.theverge.com/entertainment/965358/spotify-ai-chatbot-interface-music-audiobooks-podcasts",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5514,
+      "score": 0.526,
       "publishedAt": "2026-07-14T15:47:36.000Z",
       "summary": "Spotify is experimenting with a new AI feature that allows Premium subscribers to play and explore music, audiobooks, and podcasts by having conversations with a chatbot. The \"Talk to Spotify\" feature appears across the Home and Now Playing view on Spotify's mobile app. You can interact with the cha",
       "tags": [
@@ -376,7 +372,7 @@
       "url": "https://www.wired.com/story/new-york-governor-signs-first-statewide-data-center-moratorium/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5467,
+      "score": 0.5213,
       "publishedAt": "2026-07-14T14:54:41.000Z",
       "summary": "“We have no choice but to address the challenges created by these massive facilities,” New York governor Kathy Hochul said. The executive order will pause construction for one year.",
       "tags": [
@@ -389,156 +385,11 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/965294/openai-apple-trade-secrets-lawsuit-sam-altman-ipo",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5421,
+      "score": 0.5167,
       "publishedAt": "2026-07-14T14:03:06.000Z",
       "summary": "OpenAI has spent the better part of the year involved in lawsuit after lawsuit, including one from the world's richest man. But last Friday, the company was hit with one of the highest-profile legal actions yet - from Apple. OpenAI's expensive hardware bet is what's on the line. Apple's lawsuit agai",
       "tags": [
         "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Bonsai 27B: A 27B-Class model that runs on a phone",
-      "url": "https://prismml.com/news/bonsai-27b",
-      "feedSource": "Hacker News",
-      "source": "prismml.com",
-      "score": 0.5318,
-      "publishedAt": "2026-07-14T17:50:48.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 266
-    },
-    {
-      "title": "S&P Global has lowered Oracle’s creditworthiness from BBB to BBB-",
-      "url": "https://www.heise.de/en/news/S-P-downgrades-Oracle-to-BBB-only-one-notch-above-junk-level-11363472.html",
-      "feedSource": "Hacker News",
-      "source": "heise.de",
-      "score": 0.5315,
-      "publishedAt": "2026-07-14T16:56:48.000Z",
-      "summary": "S&P Global has downgraded Oracle’s rating due to massive AI investments. The company is now only one notch away from the speculative territory.",
-      "tags": [
-        "Industry"
-      ],
-      "engagementScore": 298
-    },
-    {
-      "title": "Plex Keeps Getting Worse. Is Jellyfin a Decent Replacement?",
-      "url": "https://www.wired.com/story/plex-keeps-getting-worse-is-jellyfin-a-decent-replacement/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5311,
-      "publishedAt": "2026-07-14T12:00:00.000Z",
-      "summary": "If you want to stream local media, this free and open source media server is just as good as Plex. But if you rely on remote access or live TV, prepare to tinker.",
-      "tags": [
-        "Open Source"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Google’s Demis Hassabis says it’s time for a global AI watchdog — led by the US",
-      "url": "https://www.theverge.com/tech/965270/google-deepmind-demis-hassabis-global-ai-watchdog",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5308,
-      "publishedAt": "2026-07-14T11:56:44.000Z",
-      "summary": "Demis Hassabis thinks the world needs an AI watchdog with the power to hit the brakes if frontier models become too dangerous. Writing in a blog post, the Google DeepMind CEO and cofounder said the US should lead the initiative, arguing that the country is the best place to set global standards \"giv",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Best RGB TVs (2026): My Picks After Testing the Hottest TVs",
-      "url": "https://www.wired.com/story/best-rgb-tvs/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5285,
-      "publishedAt": "2026-07-14T11:30:00.000Z",
-      "summary": "RGB TVs are the latest hotness in the world of televisions, and I’ve tested many of the latest models to see which you should buy.",
-      "tags": [
-        "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "9 Tips to Get More Out of Google Chat",
-      "url": "https://www.wired.com/story/9-tips-to-get-more-out-of-google-chat/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5285,
-      "publishedAt": "2026-07-14T11:30:00.000Z",
-      "summary": "There’s more to Google’s messaging app than you might realize.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Are we offloading too much of our thinking to AI?",
-      "url": "https://www.artfish.ai/p/offloading-thinking-to-ai",
-      "feedSource": "Hacker News",
-      "source": "artfish.ai",
-      "score": 0.527,
-      "publishedAt": "2026-07-14T15:18:13.000Z",
-      "summary": "Reflections on autonomy and the value of thinking for ourselves",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 328
-    },
-    {
-      "title": "Oura Ring 5 Review: Still the Smart Ring to Beat",
-      "url": "https://www.wired.com/review/oura-ring-5/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5264,
-      "publishedAt": "2026-07-14T11:07:00.000Z",
-      "summary": "It’s not the upgrade Ring 4 owners have been waiting for, but it’s easily the best smart ring Oura has ever made.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "This German Man Is on a Quest to Cut the Perfect Slice of Bread",
-      "url": "https://www.wired.com/story/this-german-man-is-on-a-mad-quest-to-cut-the-perfect-slice-of-bread/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5258,
-      "publishedAt": "2026-07-14T11:00:00.000Z",
-      "summary": "Armed with high-end knives and digital calipers, Germanbreadcutter has entranced thousands of fans, one loaf at a time.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "This Luddite Puppet Hopes You’re Not Reading This on Your Smartphone",
-      "url": "https://www.wired.com/story/the-big-interview-podcast-summer-of-ludd-gowanus/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5231,
-      "publishedAt": "2026-07-14T10:30:00.000Z",
-      "summary": "On this week’s episode of The Big Interview podcast, WIRED’s senior culture editor Manisha Krishnan talks to Gowanus about eschewing Big Tech, going outside, and rejection in the age of dating apps.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "What Anthropic’s latest AI discovery does—and doesn’t—show",
-      "url": "https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.5224,
-      "publishedAt": "2026-07-13T18:00:00.000Z",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Anthropic—currently the world’s most valuable AI company, with a nearly $1 trillion valuation—has a reputation for publishing strange and heady research. It’s loo",
-      "tags": [
-        "LLM",
-        "Research",
-        "Industry"
       ],
       "engagementScore": 0
     },
@@ -610,11 +461,157 @@
       "engagementScore": 0
     },
     {
+      "title": "S&P Global has lowered Oracle’s creditworthiness from BBB to BBB-",
+      "url": "https://www.heise.de/en/news/S-P-downgrades-Oracle-to-BBB-only-one-notch-above-junk-level-11363472.html",
+      "feedSource": "Hacker News",
+      "source": "heise.de",
+      "score": 0.51,
+      "publishedAt": "2026-07-14T16:56:48.000Z",
+      "summary": "S&P Global has downgraded Oracle’s rating due to massive AI investments. The company is now only one notch away from the speculative territory.",
+      "tags": [
+        "Industry"
+      ],
+      "engagementScore": 311
+    },
+    {
+      "title": "Are we offloading too much of our thinking to AI?",
+      "url": "https://www.artfish.ai/p/offloading-thinking-to-ai",
+      "feedSource": "Hacker News",
+      "source": "artfish.ai",
+      "score": 0.5098,
+      "publishedAt": "2026-07-14T15:18:13.000Z",
+      "summary": "Reflections on autonomy and the value of thinking for ourselves",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 386
+    },
+    {
+      "title": "Cursor 0day: When Full Disclosure Becomes the Only Protection Left",
+      "url": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
+      "feedSource": "Hacker News",
+      "source": "mindgard.ai",
+      "score": 0.5092,
+      "publishedAt": "2026-07-14T17:58:35.000Z",
+      "summary": "The vulnerability nobody seems interested in fixing",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 265
+    },
+    {
+      "title": "Plex Keeps Getting Worse. Is Jellyfin a Decent Replacement?",
+      "url": "https://www.wired.com/story/plex-keeps-getting-worse-is-jellyfin-a-decent-replacement/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5057,
+      "publishedAt": "2026-07-14T12:00:00.000Z",
+      "summary": "If you want to stream local media, this free and open source media server is just as good as Plex. But if you rely on remote access or live TV, prepare to tinker.",
+      "tags": [
+        "Open Source"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Google’s Demis Hassabis says it’s time for a global AI watchdog — led by the US",
+      "url": "https://www.theverge.com/tech/965270/google-deepmind-demis-hassabis-global-ai-watchdog",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5055,
+      "publishedAt": "2026-07-14T11:56:44.000Z",
+      "summary": "Demis Hassabis thinks the world needs an AI watchdog with the power to hit the brakes if frontier models become too dangerous. Writing in a blog post, the Google DeepMind CEO and cofounder said the US should lead the initiative, arguing that the country is the best place to set global standards \"giv",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Best RGB TVs (2026): My Picks After Testing the Hottest TVs",
+      "url": "https://www.wired.com/story/best-rgb-tvs/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5031,
+      "publishedAt": "2026-07-14T11:30:00.000Z",
+      "summary": "RGB TVs are the latest hotness in the world of televisions, and I’ve tested many of the latest models to see which you should buy.",
+      "tags": [
+        "Vision"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "9 Tips to Get More Out of Google Chat",
+      "url": "https://www.wired.com/story/9-tips-to-get-more-out-of-google-chat/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5031,
+      "publishedAt": "2026-07-14T11:30:00.000Z",
+      "summary": "There’s more to Google’s messaging app than you might realize.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Oura Ring 5 Review: Still the Smart Ring to Beat",
+      "url": "https://www.wired.com/review/oura-ring-5/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.501,
+      "publishedAt": "2026-07-14T11:07:00.000Z",
+      "summary": "It’s not the upgrade Ring 4 owners have been waiting for, but it’s easily the best smart ring Oura has ever made.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "This German Man Is on a Quest to Cut the Perfect Slice of Bread",
+      "url": "https://www.wired.com/story/this-german-man-is-on-a-mad-quest-to-cut-the-perfect-slice-of-bread/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5004,
+      "publishedAt": "2026-07-14T11:00:00.000Z",
+      "summary": "Armed with high-end knives and digital calipers, Germanbreadcutter has entranced thousands of fans, one loaf at a time.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "How to stop Claude from saying load-bearing",
+      "url": "https://jola.dev/posts/how-to-stop-claude-from-saying-load-bearing",
+      "feedSource": "Hacker News",
+      "source": "jola.dev",
+      "score": 0.4978,
+      "publishedAt": "2026-07-14T11:46:02.000Z",
+      "summary": "Hack the text output of Claude Code to make life a little bit sillier.",
+      "tags": [
+        "LLM",
+        "Dev Tools"
+      ],
+      "engagementScore": 445
+    },
+    {
+      "title": "What Anthropic’s latest AI discovery does—and doesn’t—show",
+      "url": "https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.4947,
+      "publishedAt": "2026-07-13T18:00:00.000Z",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Anthropic—currently the world’s most valuable AI company, with a nearly $1 trillion valuation—has a reputation for publishing strange and heady research. It’s loo",
+      "tags": [
+        "LLM",
+        "Research",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "The Download: a donor conception cap and world models for AI",
       "url": "https://www.technologyreview.com/2026/07/13/1140339/the-download-sperm-donor-limits-ai-world-models/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4884,
+      "score": 0.4607,
       "publishedAt": "2026-07-13T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Sperm donors need limits, says a European fertility group Ties van der Meer doesn’t know how many siblings he has. The 47-year-old was conceived at a",
       "tags": [
@@ -627,7 +624,7 @@
       "url": "https://www.theverge.com/tech/965138/google-images-homepage-ai-overviews-search-nano-banana",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4674,
+      "score": 0.442,
       "publishedAt": "2026-07-14T00:04:45.000Z",
       "summary": "Google is announcing a big change to the Google Images homepage in honor of the platform's 25th anniversary this week. Instead of a mostly blank page with a search bar, the homepage will soon show you a bunch of images that it thinks you might like before you even start searching. The company says t",
       "tags": [
