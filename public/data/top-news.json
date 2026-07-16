@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T08:20:26.733Z",
+  "updatedAt": "2026-07-16T11:03:01.885Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,38 +8,64 @@
   ],
   "items": [
     {
+      "title": "Where are YC founders now? OpenAI and Anthropic, mostly",
+      "url": "https://joinedanthropic.com",
+      "feedSource": "Hacker News",
+      "source": "joinedanthropic.com",
+      "score": 1.0236,
+      "publishedAt": "2026-07-16T08:03:35.000Z",
+      "summary": "A chronological ledger of 105 YC founders connected to OpenAI or Anthropic, from their earliest YC batches to where they went next.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 58
+    },
+    {
       "title": "Codex Micro",
       "url": "https://openai.com/supply/co-lab/work-louder/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 1.0129,
+      "score": 0.994,
       "publishedAt": "2026-07-15T16:12:58.000Z",
       "summary": "Discover the Supply Co. × Work Louder kbd-1.0 Codex micro, an exclusive collaboration combining thoughtful design, premium craftsmanship, and AI inspiration.",
       "tags": [
         "Dev Tools"
       ],
-      "engagementScore": 278
+      "engagementScore": 282
+    },
+    {
+      "title": "Our approach to bioresilience",
+      "url": "https://deepmind.google/blog/our-approach-to-bioresilience/",
+      "feedSource": "DeepMind",
+      "source": "deepmind.google",
+      "score": 0.9017,
+      "publishedAt": "2026-07-16T09:30:42.000Z",
+      "summary": "Google DeepMind and Isomorphic Labs are sharing our joint approach to bioresilience and AI models.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "GPT‑Red: Unlocking Self-Improvement for Robustness",
       "url": "https://openai.com/index/unlocking-self-improvement-gpt-red/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.8951,
+      "score": 0.8794,
       "publishedAt": "2026-07-15T17:41:46.000Z",
       "summary": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
       "tags": [
         "LLM",
         "Safety"
       ],
-      "engagementScore": 26
+      "engagementScore": 28
     },
     {
       "title": "The US is advancing AI safety through state and federal action",
       "url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8891,
+      "score": 0.8693,
       "publishedAt": "2026-07-15T12:00:00.000Z",
       "summary": "OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI.",
       "tags": [
@@ -53,7 +79,7 @@
       "url": "https://arxiv.org/abs/2607.13037",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8827,
+      "score": 0.8642,
       "publishedAt": "2026-07-16T04:00:00.000Z",
       "summary": "arXiv:2607.13037v1 Announce Type: new \nAbstract: When a data contributor requests removal, model trainers face a practical gap: unlearning algorithms require a forget set, yet no tool can locate which training records belong to a given author. Existing provenance systems operate at file or dataset l",
       "tags": [
@@ -68,7 +94,7 @@
       "url": "https://arxiv.org/abs/2607.13049",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8827,
+      "score": 0.8642,
       "publishedAt": "2026-07-16T04:00:00.000Z",
       "summary": "arXiv:2607.13049v1 Announce Type: new \nAbstract: Foundation models have given robots a sophisticated brain for complex decision-making, yet deploying that intelligence into a physical platform still demands tedious, expert-driven calibration. This deployment gap, the robot's spinal cord, remains a p",
       "tags": [
@@ -82,7 +108,7 @@
       "url": "https://arxiv.org/abs/2607.13069",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8827,
+      "score": 0.8642,
       "publishedAt": "2026-07-16T04:00:00.000Z",
       "summary": "arXiv:2607.13069v1 Announce Type: new \nAbstract: Large language models produce chain-of-thought (CoT) reasoning that appears logically sound yet may not genuinely depend on its stated premises. We introduce interventional grounding audits, a black-box, step-level test of premise dependency: we inter",
       "tags": [
@@ -96,7 +122,7 @@
       "url": "https://arxiv.org/abs/2607.13073",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8827,
+      "score": 0.8642,
       "publishedAt": "2026-07-16T04:00:00.000Z",
       "summary": "arXiv:2607.13073v1 Announce Type: new \nAbstract: Neuro-symbolic AI based on $IFOL_B$ is a way to combine neural learning and symbolic reasoning to overcome limitations of purely neural systems (like lack of interpretability and logical structure) with formal logical machinery for self-reference. In",
       "tags": [
@@ -109,7 +135,7 @@
       "url": "https://arxiv.org/abs/2607.13104",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8827,
+      "score": 0.8642,
       "publishedAt": "2026-07-16T04:00:00.000Z",
       "summary": "arXiv:2607.13104v1 Announce Type: new \nAbstract: Self-improving autonomous agents are moving from research prototypes to deployed systems. The primary goal is controllable evolution, or adaptation, from experience with minimal or even no human input. This survey frames modern self-improving agents a",
       "tags": [
@@ -123,7 +149,7 @@
       "url": "https://arxiv.org/abs/2607.13115",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8827,
+      "score": 0.8642,
       "publishedAt": "2026-07-16T04:00:00.000Z",
       "summary": "arXiv:2607.13115v1 Announce Type: new \nAbstract: Small language models (SLMs) have shown promise for zero-shot molecular property prediction from SMILES strings, yet they often suffer from structural blindness because sequence representations under-specify key graph-topological cues. We propose a mo",
       "tags": [
@@ -138,7 +164,7 @@
       "url": "https://arxiv.org/abs/2607.13157",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8827,
+      "score": 0.8642,
       "publishedAt": "2026-07-16T04:00:00.000Z",
       "summary": "arXiv:2607.13157v1 Announce Type: new \nAbstract: Agent memory is a systems problem for long-horizon agents. Practical deployments require retention of task state across extended conversations, recovery of user-specific facts and preferences across sessions, and accumulation of procedural knowledge f",
       "tags": [
@@ -152,7 +178,7 @@
       "url": "https://arxiv.org/abs/2607.13172",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8827,
+      "score": 0.8642,
       "publishedAt": "2026-07-16T04:00:00.000Z",
       "summary": "arXiv:2607.13172v1 Announce Type: new \nAbstract: We address the problem of safely training an agent policy and deploying a good and safe policy, in settings where the environment dynamics are unknown and no suitable reward function is available. In the context of safety-critical environments, we con",
       "tags": [
@@ -164,11 +190,26 @@
       "engagementScore": 0
     },
     {
+      "title": "Can LLMs Perform Deep Technical Comprehension of Computer Architecture Papers",
+      "url": "https://arxiv.org/abs/2607.11859",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.8619,
+      "publishedAt": "2026-07-16T02:17:31.000Z",
+      "summary": "Can large language models perform deep technical comprehension of computer architecture papers -- not summarization, but structured critique that names the core mechanism, surfaces buried assumptions, and connects a contribution beyond its own scope? We study Gauntlet, an open-source pipeline that a",
+      "tags": [
+        "LLM",
+        "Research",
+        "Open Source"
+      ],
+      "engagementScore": 60
+    },
+    {
       "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
       "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8745,
+      "score": 0.8547,
       "publishedAt": "2026-07-15T10:00:00.000Z",
       "summary": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
       "tags": [
@@ -178,26 +219,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Can LLMs Perform Deep Technical Comprehension of Computer Architecture Papers",
-      "url": "https://arxiv.org/abs/2607.11859",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.8646,
-      "publishedAt": "2026-07-16T02:17:31.000Z",
-      "summary": "Can large language models perform deep technical comprehension of computer architecture papers -- not summarization, but structured critique that names the core mechanism, surfaces buried assumptions, and connects a contribution beyond its own scope? We study Gauntlet, an open-source pipeline that a",
-      "tags": [
-        "LLM",
-        "Research",
-        "Open Source"
-      ],
-      "engagementScore": 44
-    },
-    {
       "title": "Fleet: Hierarchical Task-Based Abstraction for Megakernels on Multi-Die GPUs",
       "url": "https://arxiv.org/abs/2604.15379",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7885,
+      "score": 0.77,
       "publishedAt": "2026-07-16T02:55:19.000Z",
       "summary": "Modern GPUs adopt chiplet-based designs with multiple private cache hierarchies, but current programming models (CUDA/HIP) expose a flat execution hierarchy that cannot express chiplet-level locality or synchronization. This mismatch leads to redundant memory traffic and poor cache utilization in me",
       "tags": [
@@ -210,7 +236,7 @@
       "url": "https://arxiv.org/abs/2607.12207",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7478,
+      "score": 0.7293,
       "publishedAt": "2026-07-15T21:49:07.000Z",
       "summary": "Homotopy type theory (HoTT) is a type theory that allows for synthetic reasoning about $\\infty$-groupoids. Several proof assistants (such as Rocq and Agda) implement variants of HoTT. Directed type theory is a type theory for synthetic reasoning about $\\infty$-categories, where morphisms (or paths)",
       "tags": [
@@ -219,11 +245,50 @@
       "engagementScore": 8
     },
     {
+      "title": "What building Shippy taught us about building agents",
+      "url": "https://huggingface.co/blog/allenai/shippy-tech-blog",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.6841,
+      "publishedAt": "2026-07-15T17:29:41.000Z",
+      "summary": "",
+      "tags": [
+        "Agents"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Model Routing Is Simple. Until It Isn’t.",
+      "url": "https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.6838,
+      "publishedAt": "2026-07-15T17:27:01.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Why heat pumps are still so hot in the US",
+      "url": "https://www.technologyreview.com/2026/07/16/1140505/heat-pump-sales-us/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6798,
+      "publishedAt": "2026-07-16T10:00:00.000Z",
+      "summary": "It feels as if it should be illegal to even think about heating appliances during the height of summer—seriously, these heat waves in New York have been brutal—but we need to talk about heat pumps. The appliances use electricity for heating, they’re incredibly efficient, and they’re on the rise. (Fo",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "How to manage AI investments in the agentic era",
       "url": "https://openai.com/index/managing-ai-investments-in-agentic-era",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6995,
+      "score": 0.6797,
       "publishedAt": "2026-07-14T10:00:00.000Z",
       "summary": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
       "tags": [
@@ -237,7 +302,7 @@
       "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6266,
+      "score": 0.6068,
       "publishedAt": "2026-07-14T00:00:00.000Z",
       "summary": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
       "tags": [
@@ -250,7 +315,7 @@
       "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6266,
+      "score": 0.6068,
       "publishedAt": "2026-07-14T00:00:00.000Z",
       "summary": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
       "tags": [
@@ -263,7 +328,7 @@
       "url": "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5974,
+      "score": 0.5815,
       "publishedAt": "2026-07-15T17:09:37.000Z",
       "summary": "OpenAI has built an LLM super-hacker called GPT-Red that it uses as a sparring partner to help its other models boost their defenses against cyberattacks. Last week the company released the latest version of its flagship LLM, GPT-5.6. OpenAI says that training it against GPT-Red made the model its m",
       "tags": [
@@ -274,11 +339,89 @@
       "engagementScore": 0
     },
     {
+      "title": "Best Air Purifiers (2026): Coway, AirDoctor, IQAir, and More",
+      "url": "https://www.wired.com/gallery/best-air-purifiers/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5798,
+      "publishedAt": "2026-07-16T10:08:00.000Z",
+      "summary": "Protect your home against dust, pets, allergens, and more with the best air purifiers, tested firsthand.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Please Stop Making Me Opt Out of AI",
+      "url": "https://www.wired.com/story/please-stop-making-me-opt-out-of-ai/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5791,
+      "publishedAt": "2026-07-16T10:00:00.000Z",
+      "summary": "I’m sick of “opt-out” toggles for automatically enabled generative AI features. It’s past time to make “opt in” the default setting for sensitive features.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Astronomers Have Found a Sugar Molecule in Deep Space for the First Time Ever",
+      "url": "https://www.wired.com/story/astronomers-found-sugar-molecule-in-deep-space/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5765,
+      "publishedAt": "2026-07-16T09:30:00.000Z",
+      "summary": "Researchers identified traces of erythrulose, a monosaccharide, thousands of light-years away.",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "OnePlus, the ‘Flagship-Killer’ Smartphone Brand, Is All but Dead",
+      "url": "https://www.wired.com/story/oneplus-is-all-but-dead/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5738,
+      "publishedAt": "2026-07-16T09:00:00.000Z",
+      "summary": "The original OnePlus phone disrupted the mobile market 13 years ago with its affordable price and top-end specs. Now, the company is exiting North America and Europe to focus on China.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Welcome Inkling by Thinking Machines",
+      "url": "https://huggingface.co/blog/thinkingmachines-inkling",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.5736,
+      "publishedAt": "2026-07-15T00:00:00.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Introducing Real World VoiceEQ: Measuring the human quality of voice AI",
+      "url": "https://huggingface.co/blog/real-world-voiceeq",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.5736,
+      "publishedAt": "2026-07-15T00:00:00.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "The Download: a useful quantum machine and a record-breaking subsea tunnel",
       "url": "https://www.technologyreview.com/2026/07/15/1140498/the-download-useful-quantum-computer-subsea-tunnel/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5682,
+      "score": 0.5524,
       "publishedAt": "2026-07-15T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. PsiQuantum has a plan to make a massive quantum computer out of light The machine that could change the world will be housed in a room that looks like",
       "tags": [
@@ -287,24 +430,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Priceline Promo Codes &amp; Coupons: 10% Off July",
-      "url": "https://www.wired.com/story/priceline-promo-code/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5669,
-      "publishedAt": "2026-07-16T05:00:00.000Z",
-      "summary": "Unlock massive discounts on Priceline hotels, flights, and rental cars. Find verified Priceline coupon codes and deals for Express Deals, student discounts, and more.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Lenovo Coupon Codes and Deals in July 2026",
       "url": "https://www.wired.com/story/lenovo-coupon-code/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5669,
+      "score": 0.5524,
       "publishedAt": "2026-07-16T05:00:00.000Z",
       "summary": "Whether you’re shopping for a ThinkPad, Yoga laptop, or Legion gaming PC, these Lenovo discount codes and promotions can help you save big on your next tech upgrade.",
       "tags": [
@@ -317,9 +447,22 @@
       "url": "https://www.wired.com/story/surfshark-coupon/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5669,
+      "score": 0.5524,
       "publishedAt": "2026-07-16T05:00:00.000Z",
       "summary": "Save up to 87% with a Surfshark coupon code, 3 months of VPN free today, and more from WIRED.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Priceline Promo Codes &amp; Coupons: 10% Off July",
+      "url": "https://www.wired.com/story/priceline-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5524,
+      "publishedAt": "2026-07-16T05:00:00.000Z",
+      "summary": "Unlock massive discounts on Priceline hotels, flights, and rental cars. Find verified Priceline coupon codes and deals for Express Deals, student discounts, and more.",
       "tags": [
         "Dev Tools"
       ],
@@ -330,7 +473,7 @@
       "url": "https://www.wired.com/story/hostgator-coupon/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5669,
+      "score": 0.5524,
       "publishedAt": "2026-07-16T05:00:00.000Z",
       "summary": "Unlock massive savings on HostGator web hosting, WordPress, VPS, and business email plans with our exclusive HostGator promo codes and deals.",
       "tags": [
@@ -339,107 +482,42 @@
       "engagementScore": 0
     },
     {
-      "title": "Verizon Promo Codes: $200 Verizon Gift Cards | July 2026",
-      "url": "https://www.wired.com/story/verizon-promo-code/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5669,
-      "publishedAt": "2026-07-16T05:00:00.000Z",
-      "summary": "Ready for an upgrade? Apply our latest promotional codes today and choose a select service plan to score a discount with Verizon.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "25% Off Adidas Promo Code | July 2026",
-      "url": "https://www.wired.com/story/adidas-promo-code/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5669,
-      "publishedAt": "2026-07-16T05:00:00.000Z",
-      "summary": "Save 15% or 30% with Adidas promo codes, plus explore Adidas deals for 40% off trendy sneakers.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Sony Coupons: 45% Off Sony Headphones, WF-1000XM6 Earbuds, and Sony Cameras for July",
-      "url": "https://www.wired.com/story/sony-promo-code/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5669,
-      "publishedAt": "2026-07-16T05:00:00.000Z",
-      "summary": "Upgrade your setup with Sony’s newest releases. Save on industry-leading noise-canceling audio, and pro-level Alpha cameras.",
+      "title": "The lost joy of music piracy",
+      "url": "https://www.pigeonsandplanes.com/read/music-piracy-what-cd-oink-nine-inch-nails-streaming",
+      "feedSource": "Hacker News",
+      "source": "pigeonsandplanes.com",
+      "score": 0.5342,
+      "publishedAt": "2026-07-16T04:46:21.000Z",
+      "summary": "",
       "tags": [
         "AI"
       ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Can Bose Help Skullcandy Shake Its Bargain-Bin Reputation?",
-      "url": "https://www.wired.com/story/can-bose-help-skullcandy-shake-its-bargain-bin-reputation/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5402,
-      "publishedAt": "2026-07-16T00:00:00.000Z",
-      "summary": "Skullcandy’s audio products aren’t exactly known for their stellar audio quality or noise cancellation, but its latest headphones are getting an assist from Bose to turn things around.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
+      "engagementScore": 377
     },
     {
       "title": "Inkling: Our Open-Weights Model",
       "url": "https://thinkingmachines.ai/news/introducing-inkling/",
       "feedSource": "Hacker News",
       "source": "thinkingmachines.ai",
-      "score": 0.5288,
+      "score": 0.5184,
       "publishedAt": "2026-07-15T18:12:45.000Z",
       "summary": "Our first open-weights model: multimodal, Mixture-of-Experts, with controllable reasoning effort. Available to fine-tune on Tinker.",
       "tags": [
         "Vision",
         "ML Infra"
       ],
-      "engagementScore": 932
-    },
-    {
-      "title": "The lost joy of music piracy",
-      "url": "https://www.pigeonsandplanes.com/read/music-piracy-what-cd-oink-nine-inch-nails-streaming",
-      "feedSource": "Hacker News",
-      "source": "pigeonsandplanes.com",
-      "score": 0.5284,
-      "publishedAt": "2026-07-16T04:46:21.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 223
+      "engagementScore": 1006
     },
     {
       "title": "xAI sues a man for using Grok to generate CSAM &#8216;deepfakes&#8217;",
       "url": "https://www.theverge.com/ai-artificial-intelligence/966293/xai-grok-user-lawsuit-csam",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5271,
+      "score": 0.5126,
       "publishedAt": "2026-07-15T21:33:20.000Z",
       "summary": "The Elon Musk-owned xAI is suing a South Carolina man who allegedly used the company's Grok AI chatbot to generate child sexual abuse material (CSAM). In a lawsuit reported earlier by Reuters, xAI claims Terry Wayne Harwood \"knowingly and intentionally used Grok to circumvent safeguards, alter nonco",
       "tags": [
         "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "AI slop movies are the new direct-to-video cash grabs",
-      "url": "https://www.theverge.com/entertainment/965616/ash-koosha-odysseus-the-fall-foundtain-zero-tilly-norwood",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5183,
-      "publishedAt": "2026-07-15T19:55:15.000Z",
-      "summary": "This weekend, cinephiles across the world will march to their local theaters to feast their eyes on Christopher Nolan's new adaptation of The Odyssey. It's on track to rake in anywhere between $80-$100 million in just a few days. People are clearly excited to see how Nolan uses cutting-edge filmmaki",
-      "tags": [
-        "Vision"
       ],
       "engagementScore": 0
     },
@@ -484,24 +562,37 @@
       "engagementScore": 0
     },
     {
-      "title": "Guerrilla London bus ads mock Kylie Jenner’s Meta glasses campaign",
-      "url": "https://hyperallergic.com/guerrilla-london-bus-ads-mock-kylie-jenners-meta-glasses-campaign/",
-      "feedSource": "Hacker News",
-      "source": "hyperallergic.com",
-      "score": 0.5117,
-      "publishedAt": "2026-07-16T03:24:25.000Z",
-      "summary": "“Billionaires could fund cures for cancer — so why are they funding glasses for perverts instead?” asked the protest group Everyone Hates Elon.",
+      "title": "AI slop movies are the new direct-to-video cash grabs",
+      "url": "https://www.theverge.com/entertainment/965616/ash-koosha-odysseus-the-fall-foundtain-zero-tilly-norwood",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5038,
+      "publishedAt": "2026-07-15T19:55:15.000Z",
+      "summary": "This weekend, cinephiles across the world will march to their local theaters to feast their eyes on Christopher Nolan's new adaptation of The Odyssey. It's on track to rake in anywhere between $80-$100 million in just a few days. People are clearly excited to see how Nolan uses cutting-edge filmmaki",
       "tags": [
-        "Industry"
+        "Vision"
       ],
-      "engagementScore": 169
+      "engagementScore": 0
+    },
+    {
+      "title": "COMPUTER COPS: Inside the big business of selling AI to the police",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/965066/ai-police-cops",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5003,
+      "publishedAt": "2026-07-15T19:15:56.000Z",
+      "summary": "I stood before a hulking glass and brick structure in the heart of Fort Worth, Texas. Thousands gathered inside to see what had been billed as \"the future of policing in the digital age.\" As press, I was prohibited from entering, but from a number of nearby locations, I met with attendees who told m",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "Suno snatched millions of songs from YouTube, Genius, and Deezer",
       "url": "https://www.theverge.com/ai-artificial-intelligence/966072/suno-ai-music-training-scraping-youtube-hack",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5076,
+      "score": 0.4931,
       "publishedAt": "2026-07-15T17:54:54.000Z",
       "summary": "Suno data obtained in a hacking incident has exposed that the AI music generator was trained by scraping millions of songs and lyrics from online audio platforms, including YouTube Music, Deezer, and Genius, 404 Media reports. Given that Suno has avoided revealing what's in its training datasets and",
       "tags": [
@@ -514,23 +605,9 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/965901/openai-hardware-codex-micro-launch",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4841,
+      "score": 0.4696,
       "publishedAt": "2026-07-15T13:30:33.000Z",
       "summary": "OpenAI is finally releasing some hardware. No, it isn't the mysterious AI-powered device the company is developing with former Apple designer Jony Ive, a project already tangled up in a messy lawsuit. Instead, it's a product designed to be used with its coding platform, Codex. The device, a square-s",
-      "tags": [
-        "LLM",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Empowering India’s next generation of innovators with ATL Saathi",
-      "url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4514,
-      "publishedAt": "2026-07-13T12:37:28.000Z",
-      "summary": "Google and AIM launched ATL Saathi, a Gemini-powered AI tool empowering Indian educators in robotics labs.",
       "tags": [
         "LLM",
         "Dev Tools"
@@ -542,7 +619,7 @@
       "url": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.4506,
+      "score": 0.4348,
       "publishedAt": "2026-07-14T16:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Images_25th_hero.max-600x600.format-webp.webp\"&gt;Google Images is turning 25. Here’s a look back at some major milestones — and new ways to explore and create visual content.",
       "tags": [
@@ -553,15 +630,16 @@
       "engagementScore": 0
     },
     {
-      "title": "The Download: Claude&#8217;s inner workings, and the future of world models",
-      "url": "https://www.technologyreview.com/2026/07/14/1140391/the-download-anthropic-claude-internal-thoughts-world-models/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.4282,
-      "publishedAt": "2026-07-14T12:10:00.000Z",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. What Anthropic’s latest AI discovery does—and doesn’t—show —James O&#8217;Donnell When Anthropic announced last week that it had found a new window in",
+      "title": "Empowering India’s next generation of innovators with ATL Saathi",
+      "url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
+      "feedSource": "DeepMind",
+      "source": "deepmind.google",
+      "score": 0.4329,
+      "publishedAt": "2026-07-13T12:37:28.000Z",
+      "summary": "Google and AIM launched ATL Saathi, a Gemini-powered AI tool empowering Indian educators in robotics labs.",
       "tags": [
-        "LLM"
+        "LLM",
+        "Dev Tools"
       ],
       "engagementScore": 0
     },
@@ -603,87 +681,6 @@
       "tags": [
         "LLM",
         "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Unlocking UK house-building with AI-accelerated planning",
-      "url": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-06-16T21:29:50.000Z",
-      "summary": "UK government partners with Google DeepMind to build a new AI-powered prototype aimed at faster housing decisions.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Securing the future of AI agents",
-      "url": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-06-16T15:46:31.000Z",
-      "summary": "Securing internal systems with an AI Control Roadmap, combining traditional safeguards and real-time monitoring.",
-      "tags": [
-        "Agents"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "DiffusionGemma: 4x faster text generation",
-      "url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-06-10T16:24:11.000Z",
-      "summary": "An overview of DiffusionGemma, an exceptionally fast text generation model with up to 4x faster speeds.",
-      "tags": [
-        "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Investing in multi-agent AI safety research",
-      "url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-06-10T10:21:19.000Z",
-      "summary": "Google DeepMind and partners announce a $10M funding call for multi-agent safety research.",
-      "tags": [
-        "Agents",
-        "Research",
-        "Safety",
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "PsiQuantum has a plan to make a massive quantum computer out of light",
-      "url": "https://www.technologyreview.com/2026/07/14/1140356/psiquantum-plan-massive-quantum-computer-out-of-light/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.4039,
-      "publishedAt": "2026-07-14T08:00:00.000Z",
-      "summary": "The machine that could change the world will be housed in a room that looks like a data center crossed with an ice cream factory. Inside will be some 100 stainless-steel cabinets, each about six feet tall and connected to a supply of liquid helium that keeps them only a few degrees above absolute ze",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "OpenAI may announce a ChatGPT smart speaker this year",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.3981,
-      "publishedAt": "2026-07-14T21:26:32.000Z",
-      "summary": "OpenAI's first device is set to be a smart speaker that lets you talk with ChatGPT, according to a report from Bloomberg. The device apparently won't have a screen, but will use a camera and additional sensors to \"understand\" your environment. The report comes just days after Apple filed a lawsuit a",
-      "tags": [
-        "LLM"
       ],
       "engagementScore": 0
     }
