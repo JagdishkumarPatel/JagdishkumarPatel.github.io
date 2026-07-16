@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T02:52:44.270Z",
+  "updatedAt": "2026-07-16T05:43:54.160Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,34 +12,34 @@
       "url": "https://openai.com/supply/co-lab/work-louder/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 1.0508,
+      "score": 1.0312,
       "publishedAt": "2026-07-15T16:12:58.000Z",
       "summary": "Discover the Supply Co. × Work Louder kbd-1.0 Codex micro, an exclusive collaboration combining thoughtful design, premium craftsmanship, and AI inspiration.",
       "tags": [
         "Dev Tools"
       ],
-      "engagementScore": 268
+      "engagementScore": 274
     },
     {
       "title": "GPT‑Red: Unlocking Self-Improvement for Robustness",
       "url": "https://openai.com/index/unlocking-self-improvement-gpt-red/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.9306,
+      "score": 0.912,
       "publishedAt": "2026-07-15T17:41:46.000Z",
       "summary": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
       "tags": [
         "LLM",
         "Safety"
       ],
-      "engagementScore": 24
+      "engagementScore": 25
     },
     {
       "title": "The US is advancing AI safety through state and federal action",
       "url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9289,
+      "score": 0.9081,
       "publishedAt": "2026-07-15T12:00:00.000Z",
       "summary": "OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI.",
       "tags": [
@@ -49,11 +49,126 @@
       "engagementScore": 0
     },
     {
+      "title": "OriginBlame: Record- and Token-Level Data Provenance for AI Training Datasets",
+      "url": "https://arxiv.org/abs/2607.13037",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9004,
+      "publishedAt": "2026-07-16T04:00:00.000Z",
+      "summary": "arXiv:2607.13037v1 Announce Type: new \nAbstract: When a data contributor requests removal, model trainers face a practical gap: unlearning algorithms require a forget set, yet no tool can locate which training records belong to a given author. Existing provenance systems operate at file or dataset l",
+      "tags": [
+        "Research",
+        "Dev Tools",
+        "ML Infra"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "SPINE: Bridging the Cyber-Physical Gap with Agentic AI",
+      "url": "https://arxiv.org/abs/2607.13049",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9004,
+      "publishedAt": "2026-07-16T04:00:00.000Z",
+      "summary": "arXiv:2607.13049v1 Announce Type: new \nAbstract: Foundation models have given robots a sophisticated brain for complex decision-making, yet deploying that intelligence into a physical platform still demands tedious, expert-driven calibration. This deployment gap, the robot's spinal cord, remains a p",
+      "tags": [
+        "Agents",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Interventional Grounding Audits: Black-Box Premise-Dependency Tests for LLM Chain-of-Thought via Predicate Substitution",
+      "url": "https://arxiv.org/abs/2607.13069",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9004,
+      "publishedAt": "2026-07-16T04:00:00.000Z",
+      "summary": "arXiv:2607.13069v1 Announce Type: new \nAbstract: Large language models produce chain-of-thought (CoT) reasoning that appears logically sound yet may not genuinely depend on its stated premises. We introduce interventional grounding audits, a black-box, step-level test of premise dependency: we inter",
+      "tags": [
+        "LLM",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Probabilistic Extension of Neuro-Symbolic AGI Robots based on Belnap's Typed Intensional FOL",
+      "url": "https://arxiv.org/abs/2607.13073",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9004,
+      "publishedAt": "2026-07-16T04:00:00.000Z",
+      "summary": "arXiv:2607.13073v1 Announce Type: new \nAbstract: Neuro-symbolic AI based on $IFOL_B$ is a way to combine neural learning and symbolic reasoning to overcome limitations of purely neural systems (like lack of interpretability and logical structure) with formal logical machinery for self-reference. In",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Self-Improvements in Modern Agentic Systems: A Survey",
+      "url": "https://arxiv.org/abs/2607.13104",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9004,
+      "publishedAt": "2026-07-16T04:00:00.000Z",
+      "summary": "arXiv:2607.13104v1 Announce Type: new \nAbstract: Self-improving autonomous agents are moving from research prototypes to deployed systems. The primary goal is controllable evolution, or adaptation, from experience with minimal or even no human input. This survey frames modern self-improving agents a",
+      "tags": [
+        "Agents",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Improving Molecular Property Prediction in Small Language Models Using Graph-based Tools",
+      "url": "https://arxiv.org/abs/2607.13115",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9004,
+      "publishedAt": "2026-07-16T04:00:00.000Z",
+      "summary": "arXiv:2607.13115v1 Announce Type: new \nAbstract: Small language models (SLMs) have shown promise for zero-shot molecular property prediction from SMILES strings, yet they often suffer from structural blindness because sequence representations under-specify key graph-topological cues. We propose a mo",
+      "tags": [
+        "LLM",
+        "Research",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Oracle Agent Memory as an Enterprise Memory Substrate for Long-Horizon AI Agents",
+      "url": "https://arxiv.org/abs/2607.13157",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9004,
+      "publishedAt": "2026-07-16T04:00:00.000Z",
+      "summary": "arXiv:2607.13157v1 Announce Type: new \nAbstract: Agent memory is a systems problem for long-horizon agents. Practical deployments require retention of task state across extended conversations, recovery of user-specific facts and preferences across sessions, and accumulation of procedural knowledge f",
+      "tags": [
+        "Agents",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Learning Safe Agent Behaviour from Human Preferences and Justifications via World Models",
+      "url": "https://arxiv.org/abs/2607.13172",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9004,
+      "publishedAt": "2026-07-16T04:00:00.000Z",
+      "summary": "arXiv:2607.13172v1 Announce Type: new \nAbstract: We address the problem of safely training an agent policy and deploying a good and safe policy, in settings where the environment dynamics are unknown and no suitable reward function is available. In the context of safety-critical environments, we con",
+      "tags": [
+        "Agents",
+        "Research",
+        "Safety",
+        "ML Infra"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
       "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9143,
+      "score": 0.8935,
       "publishedAt": "2026-07-15T10:00:00.000Z",
       "summary": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
       "tags": [
@@ -63,11 +178,39 @@
       "engagementScore": 0
     },
     {
+      "title": "Can LLMs Perform Deep Technical Comprehension of Computer Architecture Papers",
+      "url": "https://arxiv.org/abs/2607.11859",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.8371,
+      "publishedAt": "2026-07-16T02:17:31.000Z",
+      "summary": "Can large language models perform deep technical comprehension of computer architecture papers -- not summarization, but structured critique that names the core mechanism, surfaces buried assumptions, and connects a contribution beyond its own scope? We study Gauntlet, an open-source pipeline that a",
+      "tags": [
+        "LLM",
+        "Research",
+        "Open Source"
+      ],
+      "engagementScore": 18
+    },
+    {
+      "title": "Fleet: Hierarchical Task-Based Abstraction for Megakernels on Multi-Die GPUs",
+      "url": "https://arxiv.org/abs/2604.15379",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.8062,
+      "publishedAt": "2026-07-16T02:55:19.000Z",
+      "summary": "Modern GPUs adopt chiplet-based designs with multiple private cache hierarchies, but current programming models (CUDA/HIP) expose a flat execution hierarchy that cannot express chiplet-level locality or synchronization. This mismatch leads to redundant memory traffic and poor cache utilization in me",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 9
+    },
+    {
       "title": "Rzk: A Proof Assistant for Synthetic ∞-Categories",
       "url": "https://arxiv.org/abs/2607.12207",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7782,
+      "score": 0.7588,
       "publishedAt": "2026-07-15T21:49:07.000Z",
       "summary": "Homotopy type theory (HoTT) is a type theory that allows for synthetic reasoning about $\\infty$-groupoids. Several proof assistants (such as Rocq and Agda) implement variants of HoTT. Directed type theory is a type theory for synthetic reasoning about $\\infty$-categories, where morphisms (or paths)",
       "tags": [
@@ -76,141 +219,11 @@
       "engagementScore": 7
     },
     {
-      "title": "Optimal Adaptive Market Making: A Theoretical Framework for High-Yield Liquidity Provision in Perpetual Futures Markets",
-      "url": "https://arxiv.org/abs/2607.11888",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7565,
-      "publishedAt": "2026-07-15T04:00:00.000Z",
-      "summary": "arXiv:2607.11888v1 Announce Type: new \nAbstract: We develop a rigorous theoretical framework for optimal market making in perpetual futures markets with zero maker fees. We model the market maker's problem as a stochastic optimal control problem on a filtered probability space, where the controls ar",
-      "tags": [
-        "Research",
-        "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "In-Context Reinforcement Learning under Non-Stationarity: A Survey",
-      "url": "https://arxiv.org/abs/2607.11906",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7565,
-      "publishedAt": "2026-07-15T04:00:00.000Z",
-      "summary": "arXiv:2607.11906v1 Announce Type: new \nAbstract: The development of decision-pretrained transformers, algorithm distillation, long-context meta-RL, and retrieval-augmented agents has renewed interest in in-context reinforcement learning (ICRL): the ability of a pretrained or fine-tuned decision mode",
-      "tags": [
-        "Agents",
-        "Research",
-        "RAG"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Ontology-Amplified Distillation and Contextuality Auditing for Sovereign Enterprise Language Models: A Combined Proof-of-Mechanism and Negative-Results Method Study",
-      "url": "https://arxiv.org/abs/2607.11948",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7565,
-      "publishedAt": "2026-07-15T04:00:00.000Z",
-      "summary": "arXiv:2607.11948v1 Announce Type: new \nAbstract: Regulated financial institutions operating under data-residency rules need tenant-owned language models that can run inside the institution's perimeter. This paper combines two related FAOS studies into one mechanism-and-control article. First, it rep",
-      "tags": [
-        "LLM",
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "GRID: Grammar-Railed Decoding for Enterprise SQL Generation",
-      "url": "https://arxiv.org/abs/2607.11951",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7565,
-      "publishedAt": "2026-07-15T04:00:00.000Z",
-      "summary": "arXiv:2607.11951v1 Announce Type: new \nAbstract: Large language models can write SQL, but enterprise deployment demands more than plausible text: outputs must be syntactically valid, must respect per-role and per-schema policy, must carry provable (not best-effort) guarantees, must not slow down as",
-      "tags": [
-        "LLM",
-        "Research",
-        "Safety",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Calibration-First Reward-Component Auditing for Reinforcement Learning Control in Smart Greenhouses",
-      "url": "https://arxiv.org/abs/2607.11959",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7565,
-      "publishedAt": "2026-07-15T04:00:00.000Z",
-      "summary": "arXiv:2607.11959v1 Announce Type: new \nAbstract: Greenhouse reinforcement learning can test climate-control ideas at a speed and scale that is difficult to achieve with crop experiments alone. For smart-greenhouse control, however, a single simulator return is not enough: a grower or control enginee",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Optimization Is Not All You Need",
-      "url": "https://arxiv.org/abs/2607.11977",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7565,
-      "publishedAt": "2026-07-15T04:00:00.000Z",
-      "summary": "arXiv:2607.11977v2 Announce Type: new \nAbstract: In 2019, OpenAI released two million GPT-2 outputs-ungrammatical, half broken-to aid the detection of machine-generated text. The alignment that produced their more fluent successors is usually regarded as an engineering achievement; we read it instea",
-      "tags": [
-        "LLM",
-        "Research",
-        "Open Source",
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "LP Mining with LP2Graph: A Use Case for Railway Rescheduling",
-      "url": "https://arxiv.org/abs/2607.11980",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7565,
-      "publishedAt": "2026-07-15T04:00:00.000Z",
-      "summary": "arXiv:2607.11980v1 Announce Type: new \nAbstract: Like many optimization-driven domains, railway rescheduling relies on Mixed-Integer Linear Programming (MILP), yet the field's modeling knowledge is scattered across hundreds of papers in incompatible notations, and narrative surveys organize it subje",
-      "tags": [
-        "Research",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Designing Agent-Ready Websites for AI Web Agents: A Framework for Machine Readability, Actionability, and Decision Reliability",
-      "url": "https://arxiv.org/abs/2607.12056",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7565,
-      "publishedAt": "2026-07-15T04:00:00.000Z",
-      "summary": "arXiv:2607.12056v1 Announce Type: new \nAbstract: Online shopping is increasingly shifting toward a model in which AI agents independently search for products, compare options, evaluate constraints, and carry out parts of the purchasing process for users. Website design must now support both human an",
-      "tags": [
-        "Agents",
-        "Research",
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The age of the Universe from a large sample of the oldest Galactic stars",
-      "url": "https://arxiv.org/abs/2607.00764",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.7427,
-      "publishedAt": "2026-07-15T15:36:32.000Z",
-      "summary": "We estimate the age of the Universe using the Xiang & Rix sample of 247,103 Milky Way stars with high-resolution spectroscopy from LAMOST DR7 and $Gaia$ eDR3 parallaxes. Stellar ages were estimated using YY isochrones up to 20 Gyr. To remove stars with unusually high and precise ages, we require old",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 8
-    },
-    {
       "title": "How to manage AI investments in the agentic era",
       "url": "https://openai.com/index/managing-ai-investments-in-agentic-era",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7393,
+      "score": 0.7185,
       "publishedAt": "2026-07-14T10:00:00.000Z",
       "summary": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
       "tags": [
@@ -224,7 +237,7 @@
       "url": "https://huggingface.co/blog/allenai/shippy-tech-blog",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.7358,
+      "score": 0.7177,
       "publishedAt": "2026-07-15T17:29:41.000Z",
       "summary": "",
       "tags": [
@@ -237,7 +250,7 @@
       "url": "https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.7355,
+      "score": 0.7175,
       "publishedAt": "2026-07-15T17:27:01.000Z",
       "summary": "",
       "tags": [
@@ -250,7 +263,7 @@
       "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6664,
+      "score": 0.6456,
       "publishedAt": "2026-07-14T00:00:00.000Z",
       "summary": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
       "tags": [
@@ -263,7 +276,7 @@
       "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6664,
+      "score": 0.6456,
       "publishedAt": "2026-07-14T00:00:00.000Z",
       "summary": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
       "tags": [
@@ -276,7 +289,7 @@
       "url": "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6292,
+      "score": 0.6126,
       "publishedAt": "2026-07-15T17:09:37.000Z",
       "summary": "OpenAI has built an LLM super-hacker called GPT-Red that it uses as a sparring partner to help its other models boost their defenses against cyberattacks. Last week the company released the latest version of its flagship LLM, GPT-5.6. OpenAI says that training it against GPT-Red made the model its m",
       "tags": [
@@ -291,7 +304,7 @@
       "url": "https://huggingface.co/blog/thinkingmachines-inkling",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6252,
+      "score": 0.6072,
       "publishedAt": "2026-07-15T00:00:00.000Z",
       "summary": "",
       "tags": [
@@ -304,7 +317,7 @@
       "url": "https://huggingface.co/blog/real-world-voiceeq",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6252,
+      "score": 0.6072,
       "publishedAt": "2026-07-15T00:00:00.000Z",
       "summary": "",
       "tags": [
@@ -317,9 +330,100 @@
       "url": "https://www.technologyreview.com/2026/07/15/1140498/the-download-useful-quantum-computer-subsea-tunnel/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6001,
+      "score": 0.5834,
       "publishedAt": "2026-07-15T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. PsiQuantum has a plan to make a massive quantum computer out of light The machine that could change the world will be housed in a room that looks like",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Lenovo Coupon Codes and Deals in July 2026",
+      "url": "https://www.wired.com/story/lenovo-coupon-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5808,
+      "publishedAt": "2026-07-16T05:00:00.000Z",
+      "summary": "Whether you’re shopping for a ThinkPad, Yoga laptop, or Legion gaming PC, these Lenovo discount codes and promotions can help you save big on your next tech upgrade.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Surfshark Promo Codes: 87% Off | July 2026",
+      "url": "https://www.wired.com/story/surfshark-coupon/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5808,
+      "publishedAt": "2026-07-16T05:00:00.000Z",
+      "summary": "Save up to 87% with a Surfshark coupon code, 3 months of VPN free today, and more from WIRED.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Priceline Promo Codes &amp; Coupons: 10% Off July",
+      "url": "https://www.wired.com/story/priceline-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5808,
+      "publishedAt": "2026-07-16T05:00:00.000Z",
+      "summary": "Unlock massive discounts on Priceline hotels, flights, and rental cars. Find verified Priceline coupon codes and deals for Express Deals, student discounts, and more.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "HostGator Coupon Codes: 76% Off Hosting in July 2026",
+      "url": "https://www.wired.com/story/hostgator-coupon/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5808,
+      "publishedAt": "2026-07-16T05:00:00.000Z",
+      "summary": "Unlock massive savings on HostGator web hosting, WordPress, VPS, and business email plans with our exclusive HostGator promo codes and deals.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Verizon Promo Codes: $200 Verizon Gift Cards | July 2026",
+      "url": "https://www.wired.com/story/verizon-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5808,
+      "publishedAt": "2026-07-16T05:00:00.000Z",
+      "summary": "Ready for an upgrade? Apply our latest promotional codes today and choose a select service plan to score a discount with Verizon.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "25% Off Adidas Promo Code | July 2026",
+      "url": "https://www.wired.com/story/adidas-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5808,
+      "publishedAt": "2026-07-16T05:00:00.000Z",
+      "summary": "Save 15% or 30% with Adidas promo codes, plus explore Adidas deals for 40% off trendy sneakers.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Sony Coupons: 45% Off Sony Headphones, WF-1000XM6 Earbuds, and Sony Cameras for July",
+      "url": "https://www.wired.com/story/sony-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5808,
+      "publishedAt": "2026-07-16T05:00:00.000Z",
+      "summary": "Upgrade your setup with Sony’s newest releases. Save on industry-leading noise-canceling audio, and pro-level Alpha cameras.",
       "tags": [
         "AI"
       ],
@@ -330,35 +434,9 @@
       "url": "https://www.wired.com/story/can-bose-help-skullcandy-shake-its-bargain-bin-reputation/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5694,
+      "score": 0.5541,
       "publishedAt": "2026-07-16T00:00:00.000Z",
       "summary": "Skullcandy’s audio products aren’t exactly known for their stellar audio quality or noise cancellation, but its latest headphones are getting an assist from Bose to turn things around.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Smoke From Canada's Wildfires Turns Skies Sickly Orange Across the Eastern US",
-      "url": "https://www.wired.com/story/northeast-us-blanketed-in-canadian-wildfire-smoke/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5645,
-      "publishedAt": "2026-07-15T23:05:03.000Z",
-      "summary": "Roughly 100 fires are raging out of control in Ontario, sending smoke streaming 1,000 miles to the south and east.",
-      "tags": [
-        "RAG"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "How To Watch the 2026 FIFA World Cup Finals: Spain vs. Argentina",
-      "url": "https://www.wired.com/story/how-to-watch-the-fifa-2026-world-cup-07-15-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5577,
-      "publishedAt": "2026-07-15T21:49:01.000Z",
-      "summary": "The end of the FIFA Men’s World Cup is nigh. Here’s how to watch the final games and the first ever World Cup halftime show.",
       "tags": [
         "AI"
       ],
@@ -369,7 +447,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/966293/xai-grok-user-lawsuit-csam",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5563,
+      "score": 0.541,
       "publishedAt": "2026-07-15T21:33:20.000Z",
       "summary": "The Elon Musk-owned xAI is suing a South Carolina man who allegedly used the company's Grok AI chatbot to generate child sexual abuse material (CSAM). In a lawsuit reported earlier by Reuters, xAI claims Terry Wayne Harwood \"knowingly and intentionally used Grok to circumvent safeguards, alter nonco",
       "tags": [
@@ -378,37 +456,25 @@
       "engagementScore": 0
     },
     {
-      "title": "Intel Officials Predict the Pentagon’s Bill for the Iran War Will Exceed $100 Billion",
-      "url": "https://www.wired.com/story/pentagons-bill-for-iran-war-exceed-100-billion/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5533,
-      "publishedAt": "2026-07-15T21:00:00.000Z",
-      "summary": "The Trump administration has not disclosed its cost estimates for the Iran war.",
+      "title": "Inkling: Our Open-Weights Model",
+      "url": "https://thinkingmachines.ai/news/introducing-inkling/",
+      "feedSource": "Hacker News",
+      "source": "thinkingmachines.ai",
+      "score": 0.5379,
+      "publishedAt": "2026-07-15T18:12:45.000Z",
+      "summary": "Our first open-weights model: multimodal, Mixture-of-Experts, with controllable reasoning effort. Available to fine-tune on Tinker.",
       "tags": [
-        "Industry"
+        "Vision",
+        "ML Infra"
       ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Here’s the Truth About Whether Meta’s NameTag Face Recognition Tech ‘Exists’",
-      "url": "https://www.wired.com/story/heres-the-truth-about-whether-metas-nametag-face-recognition-exists/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5532,
-      "publishedAt": "2026-07-15T20:58:16.000Z",
-      "summary": "Since WIRED reported on Meta’s NameTag face recognition system, company executives have made confusing and conflicting remarks about its very existence.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
+      "engagementScore": 845
     },
     {
       "title": "AI slop movies are the new direct-to-video cash grabs",
       "url": "https://www.theverge.com/entertainment/965616/ash-koosha-odysseus-the-fall-foundtain-zero-tilly-norwood",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5475,
+      "score": 0.5323,
       "publishedAt": "2026-07-15T19:55:15.000Z",
       "summary": "This weekend, cinephiles across the world will march to their local theaters to feast their eyes on Christopher Nolan's new adaptation of The Odyssey. It's on track to rake in anywhere between $80-$100 million in just a few days. People are clearly excited to see how Nolan uses cutting-edge filmmaki",
       "tags": [
@@ -417,55 +483,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Inkling: Our Open-Weights Model",
-      "url": "https://thinkingmachines.ai/news/introducing-inkling/",
-      "feedSource": "Hacker News",
-      "source": "thinkingmachines.ai",
-      "score": 0.5469,
-      "publishedAt": "2026-07-15T18:12:45.000Z",
-      "summary": "Our first open-weights model: multimodal, Mixture-of-Experts, with controllable reasoning effort. Available to fine-tune on Tinker.",
-      "tags": [
-        "Vision",
-        "ML Infra"
-      ],
-      "engagementScore": 739
-    },
-    {
-      "title": "AI Isn’t Smarter Than a Baby—Yet",
-      "url": "https://www.wired.com/story/ai-isnt-smarter-than-a-baby-yet/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5399,
-      "publishedAt": "2026-07-15T18:30:00.000Z",
-      "summary": "Babies are tremendous learning machines, and key advances for AI may soon be found in the architecture of their little brains.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Thinking Machines Lab Drops Its First Model",
-      "url": "https://www.wired.com/story/thinking-machines-lab-releases-its-first-model-inkling/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5377,
-      "publishedAt": "2026-07-15T18:05:00.000Z",
-      "summary": "Inkling, a 975-billion-parameter open source model, was trained to understand video and audio. It could help Thinking Machines establish itself among competitors like Anthropic and OpenAI.",
-      "tags": [
-        "LLM",
-        "Open Source",
-        "Vision",
-        "ML Infra",
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Suno snatched millions of songs from YouTube, Genius, and Deezer",
       "url": "https://www.theverge.com/ai-artificial-intelligence/966072/suno-ai-music-training-scraping-youtube-hack",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5368,
+      "score": 0.5216,
       "publishedAt": "2026-07-15T17:54:54.000Z",
       "summary": "Suno data obtained in a hacking incident has exposed that the AI music generator was trained by scraping millions of songs and lyrics from online audio platforms, including YouTube Music, Deezer, and Genius, 404 Media reports. Given that Suno has avoided revealing what's in its training datasets and",
       "tags": [
@@ -474,24 +496,24 @@
       "engagementScore": 0
     },
     {
-      "title": "Lionel Messi’s Final World Cup—and the Death of Early Retirement",
-      "url": "https://www.wired.com/story/lionel-messis-final-world-cup-and-the-death-of-early-retirement/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5291,
-      "publishedAt": "2026-07-15T16:28:43.000Z",
-      "summary": "Argentina’s Lionel Messi was supposed to be done years ago. Now, sports science is helping soccer’s biggest stars rewrite the rules of aging.",
+      "title": "Guerrilla London bus ads mock Kylie Jenner’s Meta glasses campaign",
+      "url": "https://hyperallergic.com/guerrilla-london-bus-ads-mock-kylie-jenners-meta-glasses-campaign/",
+      "feedSource": "Hacker News",
+      "source": "hyperallergic.com",
+      "score": 0.5203,
+      "publishedAt": "2026-07-16T03:24:25.000Z",
+      "summary": "“Billionaires could fund cures for cancer — so why are they funding glasses for perverts instead?” asked the protest group Everyone Hates Elon.",
       "tags": [
-        "AI"
+        "Industry"
       ],
-      "engagementScore": 0
+      "engagementScore": 151
     },
     {
       "title": "Grok Build is open source",
       "url": "https://github.com/xai-org/grok-build",
       "feedSource": "Hacker News",
       "source": "github.com",
-      "score": 0.5239,
+      "score": 0.518,
       "publishedAt": "2026-07-15T20:24:58.000Z",
       "summary": "SpaceXAI’s coding agent harness and TUI. Fullscreen, mouse interactive, extensible. - xai-org/grok-build",
       "tags": [
@@ -499,21 +521,7 @@
         "Open Source",
         "Dev Tools"
       ],
-      "engagementScore": 291
-    },
-    {
-      "title": "OpenAI finally launches hardware… for Codex",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/965901/openai-hardware-codex-micro-launch",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5133,
-      "publishedAt": "2026-07-15T13:30:33.000Z",
-      "summary": "OpenAI is finally releasing some hardware. No, it isn't the mysterious AI-powered device the company is developing with former Apple designer Jony Ive, a project already tangled up in a messy lawsuit. Instead, it's a product designed to be used with its coding platform, Codex. The device, a square-s",
-      "tags": [
-        "LLM",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
+      "engagementScore": 362
     },
     {
       "title": "How Deutsche Telekom is rewiring telecommunications with AI",
@@ -556,38 +564,25 @@
       "engagementScore": 0
     },
     {
-      "title": "We don't use AI in any of our design or production processes",
-      "url": "https://mass-driver.com/article/from-human-hands",
-      "feedSource": "Hacker News",
-      "source": "mass-driver.com",
-      "score": 0.4888,
-      "publishedAt": "2026-07-15T21:36:49.000Z",
-      "summary": "The letters we write with are not abstract shapes. They are the result of a millennia-long process of evolution. A baton, passed down through a hundred generations, and carrying with it the influence of every one of them.",
+      "title": "OpenAI finally launches hardware… for Codex",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/965901/openai-hardware-codex-micro-launch",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.498,
+      "publishedAt": "2026-07-15T13:30:33.000Z",
+      "summary": "OpenAI is finally releasing some hardware. No, it isn't the mysterious AI-powered device the company is developing with former Apple designer Jony Ive, a project already tangled up in a messy lawsuit. Instead, it's a product designed to be used with its coding platform, Codex. The device, a square-s",
       "tags": [
-        "AI"
+        "LLM",
+        "Dev Tools"
       ],
-      "engagementScore": 94
-    },
-    {
-      "title": "Governments, companies, nonprofits should invest in free, open source AI [pdf]",
-      "url": "https://www.siegelendowment.org/wp-content/uploads/2026/07/fortune-david-siegel-open-source-ai.pdf",
-      "feedSource": "Hacker News",
-      "source": "siegelendowment.org",
-      "score": 0.4887,
-      "publishedAt": "2026-07-15T21:16:36.000Z",
-      "summary": "By David Siegel",
-      "tags": [
-        "Open Source",
-        "Industry"
-      ],
-      "engagementScore": 98
+      "engagementScore": 0
     },
     {
       "title": "Empowering India’s next generation of innovators with ATL Saathi",
       "url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.4885,
+      "score": 0.4691,
       "publishedAt": "2026-07-13T12:37:28.000Z",
       "summary": "Google and AIM launched ATL Saathi, a Gemini-powered AI tool empowering Indian educators in robotics labs.",
       "tags": [
@@ -601,7 +596,7 @@
       "url": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.4824,
+      "score": 0.4658,
       "publishedAt": "2026-07-14T16:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Images_25th_hero.max-600x600.format-webp.webp\"&gt;Google Images is turning 25. Here’s a look back at some major milestones — and new ways to explore and create visual content.",
       "tags": [
@@ -616,35 +611,9 @@
       "url": "https://www.technologyreview.com/2026/07/14/1140391/the-download-anthropic-claude-internal-thoughts-world-models/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4601,
+      "score": 0.4434,
       "publishedAt": "2026-07-14T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. What Anthropic’s latest AI discovery does—and doesn’t—show —James O&#8217;Donnell When Anthropic announced last week that it had found a new window in",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "PsiQuantum has a plan to make a massive quantum computer out of light",
-      "url": "https://www.technologyreview.com/2026/07/14/1140356/psiquantum-plan-massive-quantum-computer-out-of-light/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.4358,
-      "publishedAt": "2026-07-14T08:00:00.000Z",
-      "summary": "The machine that could change the world will be housed in a room that looks like a data center crossed with an ice cream factory. Inside will be some 100 stainless-steel cabinets, each about six feet tall and connected to a supply of liquid helium that keeps them only a few degrees above absolute ze",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "OpenAI may announce a ChatGPT smart speaker this year",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4273,
-      "publishedAt": "2026-07-14T21:26:32.000Z",
-      "summary": "OpenAI's first device is set to be a smart speaker that lets you talk with ChatGPT, according to a report from Bloomberg. The device apparently won't have a screen, but will use a camera and additional sensors to \"understand\" your environment. The report comes just days after Apple filed a lawsuit a",
       "tags": [
         "LLM"
       ],
@@ -688,6 +657,32 @@
       "tags": [
         "LLM",
         "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Unlocking UK house-building with AI-accelerated planning",
+      "url": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
+      "feedSource": "DeepMind",
+      "source": "deepmind.google",
+      "score": 0.4222,
+      "publishedAt": "2026-06-16T21:29:50.000Z",
+      "summary": "UK government partners with Google DeepMind to build a new AI-powered prototype aimed at faster housing decisions.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Securing the future of AI agents",
+      "url": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
+      "feedSource": "DeepMind",
+      "source": "deepmind.google",
+      "score": 0.4222,
+      "publishedAt": "2026-06-16T15:46:31.000Z",
+      "summary": "Securing internal systems with an AI Control Roadmap, combining traditional safeguards and real-time monitoring.",
+      "tags": [
+        "Agents"
       ],
       "engagementScore": 0
     }
