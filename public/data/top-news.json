@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17T08:16:04.659Z",
+  "updatedAt": "2026-07-17T10:50:13.956Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,7 +12,7 @@
       "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9188,
+      "score": 0.9,
       "publishedAt": "2026-07-16T16:00:00.000Z",
       "summary": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.",
       "tags": [
@@ -26,20 +26,20 @@
       "url": "https://arxiv.org/abs/2607.11938",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8874,
+      "score": 0.8771,
       "publishedAt": "2026-07-16T20:38:48.000Z",
       "summary": "This book is about the mathematical foundations of data science. 1. Introduction 2. Curses, Blessings, and Surprises in High Dimensions 3. Singular Value Decomposition and Principal Component Analysis 4. Linear Regression and Regularization 5. Graphs, Networks, and Clustering 6. Nonlinear Dimension",
       "tags": [
         "AI"
       ],
-      "engagementScore": 146
+      "engagementScore": 168
     },
     {
       "title": "OriginBlame: Record- and Token-Level Data Provenance for AI Training Datasets",
       "url": "https://arxiv.org/abs/2607.13037",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8832,
+      "score": 0.8657,
       "publishedAt": "2026-07-17T04:00:00.000Z",
       "summary": "arXiv:2607.13037v1 Announce Type: new \nAbstract: When a data contributor requests removal, model trainers face a practical gap: unlearning algorithms require a forget set, yet no tool can locate which training records belong to a given author. Existing provenance systems operate at file or dataset l",
       "tags": [
@@ -54,7 +54,7 @@
       "url": "https://arxiv.org/abs/2607.13049",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8832,
+      "score": 0.8657,
       "publishedAt": "2026-07-17T04:00:00.000Z",
       "summary": "arXiv:2607.13049v1 Announce Type: new \nAbstract: Foundation models have given robots a sophisticated brain for complex decision-making, yet deploying that intelligence into a physical platform still demands tedious, expert-driven calibration. This deployment gap, the robot's spinal cord, remains a p",
       "tags": [
@@ -68,7 +68,7 @@
       "url": "https://arxiv.org/abs/2607.13069",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8832,
+      "score": 0.8657,
       "publishedAt": "2026-07-17T04:00:00.000Z",
       "summary": "arXiv:2607.13069v1 Announce Type: new \nAbstract: Large language models produce chain-of-thought (CoT) reasoning that appears logically sound yet may not genuinely depend on its stated premises. We introduce interventional grounding audits, a black-box, step-level test of premise dependency: we inter",
       "tags": [
@@ -82,7 +82,7 @@
       "url": "https://arxiv.org/abs/2607.13073",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8832,
+      "score": 0.8657,
       "publishedAt": "2026-07-17T04:00:00.000Z",
       "summary": "arXiv:2607.13073v1 Announce Type: new \nAbstract: Neuro-symbolic AI based on $IFOL_B$ is a way to combine neural learning and symbolic reasoning to overcome limitations of purely neural systems (like lack of interpretability and logical structure) with formal logical machinery for self-reference. In",
       "tags": [
@@ -95,7 +95,7 @@
       "url": "https://arxiv.org/abs/2607.13104",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8832,
+      "score": 0.8657,
       "publishedAt": "2026-07-17T04:00:00.000Z",
       "summary": "arXiv:2607.13104v1 Announce Type: new \nAbstract: Self-improving autonomous agents are moving from research prototypes to deployed systems. The primary goal is controllable evolution, or adaptation, from experience with minimal or even no human input. This survey frames modern self-improving agents a",
       "tags": [
@@ -109,7 +109,7 @@
       "url": "https://arxiv.org/abs/2607.13115",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8832,
+      "score": 0.8657,
       "publishedAt": "2026-07-17T04:00:00.000Z",
       "summary": "arXiv:2607.13115v1 Announce Type: new \nAbstract: Small language models (SLMs) have shown promise for zero-shot molecular property prediction from SMILES strings, yet they often suffer from structural blindness because sequence representations under-specify key graph-topological cues. We propose a mo",
       "tags": [
@@ -124,7 +124,7 @@
       "url": "https://arxiv.org/abs/2607.13157",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8832,
+      "score": 0.8657,
       "publishedAt": "2026-07-17T04:00:00.000Z",
       "summary": "arXiv:2607.13157v1 Announce Type: new \nAbstract: Agent memory is a systems problem for long-horizon agents. Practical deployments require retention of task state across extended conversations, recovery of user-specific facts and preferences across sessions, and accumulation of procedural knowledge f",
       "tags": [
@@ -138,7 +138,7 @@
       "url": "https://arxiv.org/abs/2607.13172",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8832,
+      "score": 0.8657,
       "publishedAt": "2026-07-17T04:00:00.000Z",
       "summary": "arXiv:2607.13172v1 Announce Type: new \nAbstract: We address the problem of safely training an agent policy and deploying a good and safe policy, in settings where the environment dynamics are unknown and no suitable reward function is available. In the context of safety-critical environments, we con",
       "tags": [
@@ -150,11 +150,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Ring-Zero: Scaling Zero RL to a Trillion Parameters for Emergent Reasoning",
+      "url": "https://arxiv.org/abs/2607.12395",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.8244,
+      "publishedAt": "2026-07-16T21:38:02.000Z",
+      "summary": "Reinforcement learning with verifiable rewards without human-annotated data, often referred to as zero RL, has emerged as a powerful paradigm for eliciting chain-of-thought reasoning. However, due to computational constraints, existing studies are largely restricted to small models, leaving the trai",
+      "tags": [
+        "ML Infra"
+      ],
+      "engagementScore": 52
+    },
+    {
       "title": "Codex Micro",
       "url": "https://openai.com/supply/co-lab/work-louder/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.8428,
+      "score": 0.8241,
       "publishedAt": "2026-07-15T16:12:58.000Z",
       "summary": "Discover the Supply Co. × Work Louder kbd-1.0 Codex micro, an exclusive collaboration combining thoughtful design, premium craftsmanship, and AI inspiration.",
       "tags": [
@@ -163,24 +176,11 @@
       "engagementScore": 301
     },
     {
-      "title": "Ring-Zero: Scaling Zero RL to a Trillion Parameters for Emergent Reasoning",
-      "url": "https://arxiv.org/abs/2607.12395",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.8399,
-      "publishedAt": "2026-07-16T21:38:02.000Z",
-      "summary": "Reinforcement learning with verifiable rewards without human-annotated data, often referred to as zero RL, has emerged as a powerful paradigm for eliciting chain-of-thought reasoning. However, due to computational constraints, existing studies are largely restricted to small models, leaving the trai",
-      "tags": [
-        "ML Infra"
-      ],
-      "engagementScore": 50
-    },
-    {
       "title": "How Cars24 scales conversations and builds faster with OpenAI",
       "url": "https://openai.com/index/cars24",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8021,
+      "score": 0.7834,
       "publishedAt": "2026-07-16T00:00:00.000Z",
       "summary": "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.",
       "tags": [
@@ -194,7 +194,7 @@
       "url": "https://deepmind.google/blog/our-approach-to-bioresilience/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.7574,
+      "score": 0.7399,
       "publishedAt": "2026-07-16T09:30:42.000Z",
       "summary": "Google DeepMind and Isomorphic Labs are sharing our joint approach to bioresilience and AI models.",
       "tags": [
@@ -207,7 +207,7 @@
       "url": "https://arxiv.org/abs/2607.11859",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7327,
+      "score": 0.7152,
       "publishedAt": "2026-07-16T02:17:31.000Z",
       "summary": "Can large language models perform deep technical comprehension of computer architecture papers -- not summarization, but structured critique that names the core mechanism, surfaces buried assumptions, and connects a contribution beyond its own scope? We study Gauntlet, an open-source pipeline that a",
       "tags": [
@@ -222,7 +222,7 @@
       "url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7146,
+      "score": 0.6959,
       "publishedAt": "2026-07-15T12:00:00.000Z",
       "summary": "OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI.",
       "tags": [
@@ -236,7 +236,7 @@
       "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7,
+      "score": 0.6813,
       "publishedAt": "2026-07-15T10:00:00.000Z",
       "summary": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
       "tags": [
@@ -250,7 +250,7 @@
       "url": "https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6924,
+      "score": 0.6762,
       "publishedAt": "2026-07-16T16:01:21.000Z",
       "summary": "",
       "tags": [
@@ -260,24 +260,50 @@
       "engagementScore": 0
     },
     {
+      "title": "There’s a lot of hype around perimenopause. Don’t buy it.",
+      "url": "https://www.technologyreview.com/2026/07/17/1140608/theres-a-lot-of-hype-around-perimenopause-dont-buy-it/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6752,
+      "publishedAt": "2026-07-17T09:00:00.000Z",
+      "summary": "Perimenopause has entered the chat. Perimenopause—and its better-known relative, menopause—used to be considered taboo. Not anymore, thanks at least in part to TV doctors and social media influencers. Perhaps it’s my age, but these days, both my algorithm and my conversations with friends increasing",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The risk of weather data sabotage is rising",
+      "url": "https://www.technologyreview.com/2026/07/17/1140622/weather-data-sabotage/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.675,
+      "publishedAt": "2026-07-17T08:57:32.000Z",
+      "summary": "Every morning, airline dispatchers, grid operators, and farmers around the world make decisions based on the same thing: a weather forecast. While these forecasts are something that most people glance at for two seconds, weather predictions influence major strategic decisions in many industries, wit",
+      "tags": [
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "NotebookLM is now Gemini Notebook",
       "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/",
       "feedSource": "Hacker News",
       "source": "blog.google",
-      "score": 0.6695,
+      "score": 0.6565,
       "publishedAt": "2026-07-16T16:08:13.000Z",
       "summary": "NotebookLM is now Gemini Notebook: the same standalone product with deeper Google integration and a secure cloud computer.",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 299
+      "engagementScore": 313
     },
     {
       "title": "Newer Models, Same Advantage",
       "url": "https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6659,
+      "score": 0.6497,
       "publishedAt": "2026-07-16T11:49:48.000Z",
       "summary": "",
       "tags": [
@@ -286,15 +312,80 @@
       "engagementScore": 0
     },
     {
-      "title": "Security incident disclosure — July 2026",
-      "url": "https://huggingface.co/blog/security-incident-july-2026",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.5912,
-      "publishedAt": "2026-07-16T00:00:00.000Z",
-      "summary": "",
+      "title": "Panasonic Japanese Microwave Review (2026): True 1-Button Cooking",
+      "url": "https://www.wired.com/review/panasonic-japanese-microwave/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5833,
+      "publishedAt": "2026-07-17T10:34:00.000Z",
+      "summary": "The Japanese Microwave measures food temperature directly, and stops cooking when food’s hot. It’s kinda terrific.",
       "tags": [
         "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "23 Best Gifts for Cooks (2026): Vitamix, Frying Pans, Air Fryers",
+      "url": "https://www.wired.com/gallery/gift-for-the-home-chef-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5833,
+      "publishedAt": "2026-07-17T10:34:00.000Z",
+      "summary": "From the best air fryer to frying pans to knife sharpeners anyone can use, these ideas will keep the curious home chef in your life tinkering away.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "A $10K Bounty Aims to Make Sony’s PlayStation 5 a Computer Again",
+      "url": "https://www.wired.com/story/a-10k-bounty-aims-to-make-the-ps5-a-computer-again/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5829,
+      "publishedAt": "2026-07-17T10:30:00.000Z",
+      "summary": "Nice PlayStation you got. Bet it could probably run Linux too.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "San Francisco Demands Apple and Google Delete AI ‘Nudify’ Apps From App Stores",
+      "url": "https://www.wired.com/story/san-francisco-demands-apple-and-google-delete-ai-nudify-apps-from-app-stores/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5803,
+      "publishedAt": "2026-07-17T10:00:00.000Z",
+      "summary": "The City Attorney’s Office sent the tech giants cease-and-desist letters this week telling them to stop profiting from 13 “face-swap” apps that are overwhelmingly used to target women and girls.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Group Behind ‘2000 Mules’ Is Back With Another Election Conspiracy Film",
+      "url": "https://www.wired.com/story/the-group-behind-2000-mules-is-back-with-another-election-conspiracy-film/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5776,
+      "publishedAt": "2026-07-17T09:30:00.000Z",
+      "summary": "True the Vote is working with a Detroit pastor to produce a new documentary called Trap, based on claims that have already been thrown out in court.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The CDC Has a Cyclospora Lab. DOGE Downsized It Last Year",
+      "url": "https://www.wired.com/story/cdc-cyclospora-lab-doge-downsized-it-last-year/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5763,
+      "publishedAt": "2026-07-17T09:15:00.000Z",
+      "summary": "“Based on simple math, these outbreak responses—which require rapid, timely responses—are going to be greatly diminished,” the former CDC lab director tells WIRED.",
+      "tags": [
+        "Dev Tools"
       ],
       "engagementScore": 0
     },
@@ -303,7 +394,7 @@
       "url": "https://blog.google/products-and-platforms/products/search/connected-apps/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.591,
+      "score": 0.576,
       "publishedAt": "2026-07-16T16:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ConnectedAppshero.max-600x600.format-webp.webp\"&gt;You’ll be able to securely link and interact with your go-to services directly in AI Mode.",
       "tags": [
@@ -318,7 +409,7 @@
       "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.591,
+      "score": 0.576,
       "publishedAt": "2026-07-16T16:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/omni-blog-header_OarEe2t.max-600x600.format-webp.webp\"&gt;Gemini Omni and personal avatars in Google Vids make video creation easier than ever.",
       "tags": [
@@ -330,11 +421,37 @@
       "engagementScore": 0
     },
     {
+      "title": "Security incident disclosure — July 2026",
+      "url": "https://huggingface.co/blog/security-incident-july-2026",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.5749,
+      "publishedAt": "2026-07-16T00:00:00.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "A Humanoid Company Backed by Eric Trump Is Preparing Its Robots for War",
+      "url": "https://www.wired.com/story/humanoid-robot-soldier-eric-trump-foundation-future-industries/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5749,
+      "publishedAt": "2026-07-17T09:00:00.000Z",
+      "summary": "The CEO of Foundation Future Industries, which counts the president’s son as its chief strategy adviser, tells WIRED it’s exploring some “kinetic things.”",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "The Download: OpenAI unveils GPT-Red and heat pumps rise in the US",
       "url": "https://www.technologyreview.com/2026/07/16/1140600/the-download-openai-unveils-gpt-red-heat-pumps-rise-us/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5686,
+      "score": 0.5537,
       "publishedAt": "2026-07-16T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer OpenAI has built an LLM super-hacker called GPT-Red that it uses as a sparring",
       "tags": [
@@ -347,100 +464,9 @@
       "url": "https://www.wired.com/story/home-depot-promo-code/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5673,
+      "score": 0.5535,
       "publishedAt": "2026-07-17T05:00:00.000Z",
       "summary": "Save up to 50% today with the latest Home Depot promo codes for appliances, power tools, and more this July.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Paramount+ Coupon Codes and Deals for July 2026",
-      "url": "https://www.wired.com/story/paramount-plus-coupon-code/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5673,
-      "publishedAt": "2026-07-17T05:00:00.000Z",
-      "summary": "Save on streaming with the latest Paramount+ promo codes and deals, including 50% off subscriptions, free trials, and more.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "LG Promo Codes and Coupons for July 2026",
-      "url": "https://www.wired.com/story/lg-promo-code/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5673,
-      "publishedAt": "2026-07-17T05:00:00.000Z",
-      "summary": "Save 20% with an LG promo code today, plus up to $1,000 off appliances, 40% off bestselling TVs and monitors.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Walmart Promo Codes: Up to 65% Off for July 2026",
-      "url": "https://www.wired.com/story/top-walmart-promo-codes/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5673,
-      "publishedAt": "2026-07-17T05:00:00.000Z",
-      "summary": "Score $10 off with our Walmart promo codes and coupon, and shop flash deals up to 65% off today.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Booking.com Promo Codes: 20% Off | July 2026",
-      "url": "https://www.wired.com/story/booking-com-promo-code/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5673,
-      "publishedAt": "2026-07-17T05:00:00.000Z",
-      "summary": "Enjoy big savings on your next adventure with our Booking.com promo codes, coupons, and handpicked travel deals.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Chewy Promo Codes: $20 Off July 2026",
-      "url": "https://www.wired.com/story/chewy-promo-code/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5673,
-      "publishedAt": "2026-07-17T05:00:00.000Z",
-      "summary": "Explore Chewy coupon codes for $30 off, $20 off your first order $49, 50% off pet food, and more July 2026 discounts.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "50% Off DoorDash Promo Code | July 2026",
-      "url": "https://www.wired.com/story/doordash-promo-code/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5673,
-      "publishedAt": "2026-07-17T05:00:00.000Z",
-      "summary": "Explore today’s top DoorDash promo codes for $25 off your first order, free delivery, and 50% off DashPass for students and select users.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Ulta Promo Codes: Up to 50% Off in July 2026",
-      "url": "https://www.wired.com/story/ulta-coupon/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5673,
-      "publishedAt": "2026-07-17T05:00:00.000Z",
-      "summary": "Shop the latest beauty trends and save big using an Ulta promo code for beauty tech, makeup, and more.",
       "tags": [
         "Dev Tools"
       ],
@@ -451,7 +477,7 @@
       "url": "https://www.technologyreview.com/2026/07/16/1140505/heat-pump-sales-us/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.556,
+      "score": 0.541,
       "publishedAt": "2026-07-16T10:00:00.000Z",
       "summary": "It feels as if it should be illegal to even think about heating appliances during the height of summer—seriously, these heat waves in New York have been brutal—but we need to talk about heat pumps. The appliances use electricity for heating, they’re incredibly efficient, and they’re on the rise. (Fo",
       "tags": [
@@ -464,7 +490,7 @@
       "url": "https://huggingface.co/blog/allenai/shippy-tech-blog",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.55,
+      "score": 0.5338,
       "publishedAt": "2026-07-15T17:29:41.000Z",
       "summary": "",
       "tags": [
@@ -477,7 +503,7 @@
       "url": "https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.5498,
+      "score": 0.5335,
       "publishedAt": "2026-07-15T17:27:01.000Z",
       "summary": "",
       "tags": [
@@ -490,7 +516,7 @@
       "url": "https://openai.com/index/managing-ai-investments-in-agentic-era",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.525,
+      "score": 0.5124,
       "publishedAt": "2026-07-14T10:00:00.000Z",
       "summary": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
       "tags": [
@@ -539,11 +565,24 @@
       "engagementScore": 0
     },
     {
+      "title": "EEG shows brain can simultaneous encode two speech streams",
+      "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003876",
+      "feedSource": "Hacker News",
+      "source": "journals.plos.org",
+      "score": 0.4962,
+      "publishedAt": "2026-07-17T05:51:10.000Z",
+      "summary": "Successful speech communication in multi-talker scenarios requires a skillful combination of sustained attention and rapid attention switching. While the neurophysiology literature offers detailed insights into the neural underpinnings of sustained attention, there remains considerable uncertainty o",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 111
+    },
+    {
       "title": "New York governor says she&#8217;s using AI to analyze &#8216;every single rule&#8217; in the state",
       "url": "https://www.theverge.com/ai-artificial-intelligence/966647/new-york-governor-kathy-hochul-ai-policies",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5083,
+      "score": 0.4946,
       "publishedAt": "2026-07-16T17:58:37.000Z",
       "summary": "New York Governor Kathy Hochul might have just signed a moratorium on new AI data centers in the state, but she's not against using the technology herself. During an interview with Bloomberg's Odd Lots podcast, Hochul said that her team is using \"AI to analyze every single rule, regulation, [and] po",
       "tags": [
@@ -556,7 +595,7 @@
       "url": "https://www.theverge.com/tech/966112/google-gemini-notebook-notebooklm",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4988,
+      "score": 0.485,
       "publishedAt": "2026-07-16T16:11:20.000Z",
       "summary": "Google is giving its AI note-taking app a new name. The company announced on Thursday that NotebookLM is becoming Gemini Notebook, but will remain a standalone app even as it integrates more deeply across Gemini and Google Search. Google first revealed Gemini Notebook - then called Project Tailwind",
       "tags": [
@@ -569,7 +608,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/965066/ai-police-cops",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4984,
+      "score": 0.4846,
       "publishedAt": "2026-07-16T16:06:48.000Z",
       "summary": "I stood before a hulking glass and brick structure in the heart of Fort Worth, Texas. Thousands gathered inside to see what had been billed as \"the future of policing in the digital age.\" As press, I was prohibited from entering, but from a number of nearby locations, I met with attendees who told m",
       "tags": [
@@ -578,24 +617,11 @@
       "engagementScore": 0
     },
     {
-      "title": "LM Studio Bionic: the AI agent for open models",
-      "url": "https://lmstudio.ai/blog/introducing-lm-studio-bionic",
-      "feedSource": "Hacker News",
-      "source": "lmstudio.ai",
-      "score": 0.4896,
-      "publishedAt": "2026-07-16T20:18:15.000Z",
-      "summary": "The AI agent made for open models, built to get things done.",
-      "tags": [
-        "Agents"
-      ],
-      "engagementScore": 236
-    },
-    {
       "title": "$100 AI Music Video: Claude Fable 5 vs. GPT-5.6 Sol",
       "url": "https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6",
       "feedSource": "Hacker News",
       "source": "tryai.dev",
-      "score": 0.4894,
+      "score": 0.483,
       "publishedAt": "2026-07-16T20:03:23.000Z",
       "summary": "We gave Claude Fable 5 and GPT-5.6 Sol the same song, a budget, web search, and local ffmpeg, then let each autonomously direct a music video.",
       "tags": [
@@ -603,14 +629,27 @@
         "Agents",
         "Vision"
       ],
-      "engagementScore": 243
+      "engagementScore": 287
+    },
+    {
+      "title": "LM Studio Bionic: the AI agent for open models",
+      "url": "https://lmstudio.ai/blog/introducing-lm-studio-bionic",
+      "feedSource": "Hacker News",
+      "source": "lmstudio.ai",
+      "score": 0.4806,
+      "publishedAt": "2026-07-16T20:18:15.000Z",
+      "summary": "The AI agent made for open models, built to get things done.",
+      "tags": [
+        "Agents"
+      ],
+      "engagementScore": 260
     },
     {
       "title": "Claude can now use your 1Password credentials for you",
       "url": "https://www.theverge.com/tech/966442/1password-anthropic-claude-browser-integration",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4878,
+      "score": 0.4741,
       "publishedAt": "2026-07-16T14:08:12.000Z",
       "summary": "1Password has launched a new browser integration for Claude that allows the Anthropic chatbot to access stored security credentials like usernames and passwords. The 1Password for Claude feature means that users can authorize Claude to complete multi-step tasks like booking travel and managing onlin",
       "tags": [
@@ -619,24 +658,11 @@
       "engagementScore": 0
     },
     {
-      "title": "EEG shows brain can simultaneous encode two speech streams",
-      "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003876",
-      "feedSource": "Hacker News",
-      "source": "journals.plos.org",
-      "score": 0.484,
-      "publishedAt": "2026-07-17T05:51:10.000Z",
-      "summary": "Successful speech communication in multi-talker scenarios requires a skillful combination of sustained attention and rapid attention switching. While the neurophysiology literature offers detailed insights into the neural underpinnings of sustained attention, there remains considerable uncertainty o",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 56
-    },
-    {
       "title": "Google ordered to open Android and Search to rivals in Europe",
       "url": "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4802,
+      "score": 0.4664,
       "publishedAt": "2026-07-16T12:42:27.000Z",
       "summary": "Google must give rival AI assistants and search engines greater access to key parts of Android and Google Search after the European Union ordered the company to comply with the bloc's digital antitrust rules. The two decisions, handed down Thursday, could weaken Google's control over two of the tech",
       "tags": [
@@ -649,39 +675,13 @@
       "url": "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4578,
+      "score": 0.4428,
       "publishedAt": "2026-07-15T17:09:37.000Z",
       "summary": "OpenAI has built an LLM super-hacker called GPT-Red that it uses as a sparring partner to help its other models boost their defenses against cyberattacks. Last week the company released the latest version of its flagship LLM, GPT-5.6. OpenAI says that training it against GPT-Red made the model its m",
       "tags": [
         "LLM",
         "Open Source",
         "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Welcome Inkling by Thinking Machines",
-      "url": "https://huggingface.co/blog/thinkingmachines-inkling",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.4395,
-      "publishedAt": "2026-07-15T00:00:00.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Introducing Real World VoiceEQ: Measuring the human quality of voice AI",
-      "url": "https://huggingface.co/blog/real-world-voiceeq",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.4395,
-      "publishedAt": "2026-07-15T00:00:00.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
       ],
       "engagementScore": 0
     }
