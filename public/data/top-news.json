@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T03:18:02.788Z",
+  "updatedAt": "2026-07-19T08:24:50.592Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,7 +12,7 @@
       "url": "https://arxiv.org/abs/2607.09211",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8461,
+      "score": 0.8496,
       "publishedAt": "2026-07-18T21:09:01.000Z",
       "summary": "While traditional evolutionary algorithms hard-code reproduction, self-replication can emerge spontaneously within digital ``primordial soups″. This paper investigates the co-evolution of this emergent self-replication alongside problem-solving capabilities. We initialize a population of random 32-b",
       "tags": [
@@ -20,27 +20,27 @@
         "Dev Tools",
         "Industry"
       ],
-      "engagementScore": 31
+      "engagementScore": 66
     },
     {
       "title": "Qubes OS Security in the Public Record",
       "url": "https://arxiv.org/abs/2607.14587",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8116,
+      "score": 0.7792,
       "publishedAt": "2026-07-18T08:50:07.000Z",
       "summary": "Qubes OS is a revealing case for security measurement because its architecture makes component boundaries security-relevant. We present a protocol-driven longitudinal analysis of 109 public Qubes Security Bulletins (QSBs, 2011--2025), the official Qubes-maintained Xen Security Advisory (XSA) tracker",
       "tags": [
         "AI"
       ],
-      "engagementScore": 82
+      "engagementScore": 86
     },
     {
       "title": "A scorecard for the AI age",
       "url": "https://openai.com/index/a-scorecard-for-the-ai-age",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7362,
+      "score": 0.699,
       "publishedAt": "2026-07-17T10:00:00.000Z",
       "summary": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
       "tags": [
@@ -53,7 +53,7 @@
       "url": "https://arxiv.org/abs/2607.13276",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.6588,
+      "score": 0.624,
       "publishedAt": "2026-07-17T20:31:12.000Z",
       "summary": "Aurora DSQL is a serverless SQL database designed for cloud-scale transaction processing with multi-region active-active capabilities. Built on a disaggregated architecture, DSQL separates compute, storage, and transaction coordination into independent, horizontally scalable services. Query processo",
       "tags": [
@@ -66,7 +66,7 @@
       "url": "https://arxiv.org/abs/2607.11938",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.6139,
+      "score": 0.5791,
       "publishedAt": "2026-07-16T20:38:48.000Z",
       "summary": "This book is about the mathematical foundations of data science. 1. Introduction 2. Curses, Blessings, and Surprises in High Dimensions 3. Singular Value Decomposition and Principal Component Analysis 4. Linear Regression and Regularization 5. Graphs, Networks, and Clustering 6. Nonlinear Dimension",
       "tags": [
@@ -79,7 +79,7 @@
       "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.605,
+      "score": 0.5677,
       "publishedAt": "2026-07-16T16:00:00.000Z",
       "summary": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.",
       "tags": [
@@ -93,7 +93,7 @@
       "url": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.5718,
+      "score": 0.5395,
       "publishedAt": "2026-07-17T15:57:54.000Z",
       "summary": "",
       "tags": [
@@ -103,24 +103,37 @@
       "engagementScore": 0
     },
     {
-      "title": "Ring-Zero: Scaling Zero RL to a Trillion Parameters for Emergent Reasoning",
-      "url": "https://arxiv.org/abs/2607.12395",
+      "title": "Transcribe.cpp",
+      "url": "https://workshop.cjpais.com/projects/transcribe-cpp",
       "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.5571,
-      "publishedAt": "2026-07-16T21:38:02.000Z",
-      "summary": "Reinforcement learning with verifiable rewards without human-annotated data, often referred to as zero RL, has emerged as a powerful paradigm for eliciting chain-of-thought reasoning. However, due to computational constraints, existing studies are largely restricted to small models, leaving the trai",
+      "source": "workshop.cjpais.com",
+      "score": 0.5336,
+      "publishedAt": "2026-07-19T00:38:26.000Z",
+      "summary": "A place to play around with technology and make it easy and fun",
       "tags": [
-        "ML Infra"
+        "AI"
       ],
-      "engagementScore": 61
+      "engagementScore": 454
+    },
+    {
+      "title": "Anthropic's newest ad is creeping people out",
+      "url": "https://techcrunch.com/2026/07/14/anthropics-newest-ad-is-creeping-people-out/",
+      "feedSource": "Hacker News",
+      "source": "techcrunch.com",
+      "score": 0.5269,
+      "publishedAt": "2026-07-18T23:50:18.000Z",
+      "summary": "",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 37
     },
     {
       "title": "Dave Eggers told OpenAI staff  that ChatGPT was ‘silencing an entire generation’",
       "url": "https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5506,
+      "score": 0.5232,
       "publishedAt": "2026-07-18T20:54:42.000Z",
       "summary": "Last year, Sam Altman invited author Dave Eggers to give a talk to around 200 OpenAI staffers. The man has written countless novels, screenplays, pieces of journalism, started McSweeney's, and founded multiple schools and nonprofits that support writers and the arts more broadly. So one might expect",
       "tags": [
@@ -129,43 +142,30 @@
       "engagementScore": 0
     },
     {
-      "title": "Mayor Mamdani Says Landlords Can't Use AI Images to Advertise",
+      "title": "Ring-Zero: Scaling Zero RL to a Trillion Parameters for Emergent Reasoning",
+      "url": "https://arxiv.org/abs/2607.12395",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.5223,
+      "publishedAt": "2026-07-16T21:38:02.000Z",
+      "summary": "Reinforcement learning with verifiable rewards without human-annotated data, often referred to as zero RL, has emerged as a powerful paradigm for eliciting chain-of-thought reasoning. However, due to computational constraints, existing studies are largely restricted to small models, leaving the trai",
+      "tags": [
+        "ML Infra"
+      ],
+      "engagementScore": 61
+    },
+    {
+      "title": "NYC may require landlords and realtors to disclose the use of AI in listings",
       "url": "https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties/",
       "feedSource": "Hacker News",
       "source": "petapixel.com",
-      "score": 0.5297,
+      "score": 0.5216,
       "publishedAt": "2026-07-18T22:13:39.000Z",
       "summary": "No more AI-edited listings without disclosures.",
       "tags": [
-        "Vision"
-      ],
-      "engagementScore": 283
-    },
-    {
-      "title": "Anthropic's newest ad is creeping people out",
-      "url": "https://techcrunch.com/2026/07/14/anthropics-newest-ad-is-creeping-people-out/",
-      "feedSource": "Hacker News",
-      "source": "techcrunch.com",
-      "score": 0.5277,
-      "publishedAt": "2026-07-18T23:50:18.000Z",
-      "summary": "",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 19
-    },
-    {
-      "title": "Transcribe.cpp",
-      "url": "https://workshop.cjpais.com/projects/transcribe-cpp",
-      "feedSource": "Hacker News",
-      "source": "workshop.cjpais.com",
-      "score": 0.5149,
-      "publishedAt": "2026-07-19T00:38:26.000Z",
-      "summary": "A place to play around with technology and make it easy and fun",
-      "tags": [
         "AI"
       ],
-      "engagementScore": 136
+      "engagementScore": 450
     },
     {
       "title": "How Cars24 scales conversations and builds faster with OpenAI",
@@ -254,7 +254,7 @@
       "url": "https://www.wired.com/story/best-walking-pads/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4979,
+      "score": 0.4705,
       "publishedAt": "2026-07-18T11:03:00.000Z",
       "summary": "Our remote team clocked serious hours walking, working, and sometimes jogging to find the best under-desk treadmills for home offices and small spaces.",
       "tags": [
@@ -267,7 +267,7 @@
       "url": "https://www.wired.com/story/best-motion-sensors-private-alternatives-security/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4949,
+      "score": 0.4676,
       "publishedAt": "2026-07-18T10:30:00.000Z",
       "summary": "If you prefer not to have cameras in and around your home, try one of these more private, WIRED-tested security devices.",
       "tags": [
@@ -280,7 +280,7 @@
       "url": "https://www.wired.com/story/security-news-this-week-your-period-tracker-is-probably-spying-on-you/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4949,
+      "score": 0.4676,
       "publishedAt": "2026-07-18T10:30:00.000Z",
       "summary": "Plus: Russian cyberspies turn to infrastructure hacking, DHS repeatedly fails to realize it’d been hacked, a breach exposes an AI music generator’s scraping ways, and more.",
       "tags": [
@@ -289,24 +289,11 @@
       "engagementScore": 0
     },
     {
-      "title": "FIFA Doesn’t Have a Plan to Deal With Climate Change",
-      "url": "https://www.wired.com/story/fifa-doesnt-have-plan-to-deal-with-climate-change/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4922,
-      "publishedAt": "2026-07-18T10:00:00.000Z",
-      "summary": "This year’s World Cup has faced sweltering heat and humidity. Now it may need to deal with wildfire smoke.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "How Google’s New Gemini Rates Work and How to Track Your Usage",
       "url": "https://www.wired.com/story/how-googles-new-gemini-rates-work-and-how-to-track-your-usage/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4922,
+      "score": 0.4649,
       "publishedAt": "2026-07-18T10:00:00.000Z",
       "summary": "Now that Google has changed how its usage quotas are tallied, you might not get as many AI responses as you did before.",
       "tags": [
@@ -315,11 +302,24 @@
       "engagementScore": 0
     },
     {
+      "title": "FIFA Doesn’t Have a Plan to Deal With Climate Change",
+      "url": "https://www.wired.com/story/fifa-doesnt-have-plan-to-deal-with-climate-change/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4649,
+      "publishedAt": "2026-07-18T10:00:00.000Z",
+      "summary": "This year’s World Cup has faced sweltering heat and humidity. Now it may need to deal with wildfire smoke.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Balmuda NatureWind Studio Review: A Better Breeze",
       "url": "https://www.wired.com/review/balmuda-naturewind-studio-fan/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4897,
+      "score": 0.4624,
       "publishedAt": "2026-07-18T09:32:00.000Z",
       "summary": "Balmuda has engineered a remarkably pleasant breeze with its new NatureWind Studio, but is it worth hundreds more than its competition?",
       "tags": [
@@ -332,7 +332,7 @@
       "url": "https://www.wired.com/story/best-tech-gear-back-to-school/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.487,
+      "score": 0.4596,
       "publishedAt": "2026-07-18T09:01:00.000Z",
       "summary": "Get ready to crush your coursework or scoot to class in style with these back-to-school gear picks.",
       "tags": [
@@ -345,7 +345,7 @@
       "url": "https://www.wired.com/story/prompt-injection-attacks-are-thwarting-ai-hacking-agents/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4869,
+      "score": 0.4596,
       "publishedAt": "2026-07-18T09:00:00.000Z",
       "summary": "“Context bombing” tricks malicious AI agents into shutting down before they can do harm.",
       "tags": [
@@ -359,7 +359,7 @@
       "url": "https://deepmind.google/blog/our-approach-to-bioresilience/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.4645,
+      "score": 0.4297,
       "publishedAt": "2026-07-16T09:30:42.000Z",
       "summary": "Google DeepMind and Isomorphic Labs are sharing our joint approach to bioresilience and AI models.",
       "tags": [
@@ -372,37 +372,11 @@
       "url": "https://www.technologyreview.com/2026/07/17/1140640/the-download-perimenopause-misinformation-china-moonshot-ai/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4576,
+      "score": 0.4278,
       "publishedAt": "2026-07-17T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. There’s a lot of hype around perimenopause. Don’t buy it. Perimenopause used to be considered taboo, but not anymore. Thanks at least in part to TV do",
       "tags": [
         "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "There’s a lot of hype around perimenopause. Don’t buy it.",
-      "url": "https://www.technologyreview.com/2026/07/17/1140608/theres-a-lot-of-hype-around-perimenopause-dont-buy-it/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.4392,
-      "publishedAt": "2026-07-17T09:00:00.000Z",
-      "summary": "Perimenopause has entered the chat. Perimenopause—and its better-known relative, menopause—used to be considered taboo. Not anymore, thanks at least in part to TV doctors and social media influencers. Perhaps it’s my age, but these days, both my algorithm and my conversations with friends increasing",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The risk of weather data sabotage is rising",
-      "url": "https://www.technologyreview.com/2026/07/17/1140622/weather-data-sabotage/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.4389,
-      "publishedAt": "2026-07-17T08:57:32.000Z",
-      "summary": "Every morning, airline dispatchers, grid operators, and farmers around the world make decisions based on the same thing: a weather forecast. While these forecasts are something that most people glance at for two seconds, weather predictions influence major strategic decisions in many industries, wit",
-      "tags": [
-        "Safety"
       ],
       "engagementScore": 0
     },
@@ -501,11 +475,37 @@
       "engagementScore": 0
     },
     {
+      "title": "There’s a lot of hype around perimenopause. Don’t buy it.",
+      "url": "https://www.technologyreview.com/2026/07/17/1140608/theres-a-lot-of-hype-around-perimenopause-dont-buy-it/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.4093,
+      "publishedAt": "2026-07-17T09:00:00.000Z",
+      "summary": "Perimenopause has entered the chat. Perimenopause—and its better-known relative, menopause—used to be considered taboo. Not anymore, thanks at least in part to TV doctors and social media influencers. Perhaps it’s my age, but these days, both my algorithm and my conversations with friends increasing",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The risk of weather data sabotage is rising",
+      "url": "https://www.technologyreview.com/2026/07/17/1140622/weather-data-sabotage/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.4091,
+      "publishedAt": "2026-07-17T08:57:32.000Z",
+      "summary": "Every morning, airline dispatchers, grid operators, and farmers around the world make decisions based on the same thing: a weather forecast. While these forecasts are something that most people glance at for two seconds, weather predictions influence major strategic decisions in many industries, wit",
+      "tags": [
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "The apps, gadgets, and tools every reader needs",
       "url": "https://www.theverge.com/tech/967544/best-apps-gadgets-reading-installer",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4199,
+      "score": 0.3925,
       "publishedAt": "2026-07-17T20:27:52.000Z",
       "summary": "Hi, friends! Welcome to Installer No. 136, your guide to the best and Verge-iest stuff in the world. (If you're new here, welcome, hope your neighborhood isn't as smoky as mine, and also you can read all the old editions at the Installer homepage.) This week, I've been recording the next season of V",
       "tags": [
@@ -518,7 +518,7 @@
       "url": "https://www.theverge.com/tech/967486/tiktok-ai-likeness-detection-tool",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4151,
+      "score": 0.3878,
       "publishedAt": "2026-07-17T19:34:30.000Z",
       "summary": "TikTok is starting to test an opt-in tool that scans for AI likenesses and lets creators report them to the company, as spotted by social media consultant Matt Navarra. The tool is initially being tested with \"some\" US creators, TikTok US spokesperson Zachary Kizer tells The Verge. YouTube has been",
       "tags": [
@@ -531,7 +531,7 @@
       "url": "https://www.theverge.com/podcast/967244/apple-openai-lawsuit-vergecast",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.405,
+      "score": 0.3777,
       "publishedAt": "2026-07-17T17:41:32.000Z",
       "summary": "Apple is suing OpenAI. The complaint is readable and intense, as these things often are, though many experts seem to think many of the allegations are just the ways things are done. So what does Apple really want here, and why is it picking such a public fight with OpenAI? On this episode of The [&#",
       "tags": [
@@ -544,7 +544,7 @@
       "url": "https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.394,
+      "score": 0.3617,
       "publishedAt": "2026-07-16T11:49:48.000Z",
       "summary": "",
       "tags": [
@@ -635,7 +635,7 @@
       "url": "https://blog.google/products-and-platforms/products/search/connected-apps/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.34,
+      "score": 0.3102,
       "publishedAt": "2026-07-16T16:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ConnectedAppshero.max-600x600.format-webp.webp\"&gt;You’ll be able to securely link and interact with your go-to services directly in AI Mode.",
       "tags": [
@@ -650,7 +650,7 @@
       "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.34,
+      "score": 0.3102,
       "publishedAt": "2026-07-16T16:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/omni-blog-header_OarEe2t.max-600x600.format-webp.webp\"&gt;Gemini Omni and personal avatars in Google Vids make video creation easier than ever.",
       "tags": [
@@ -666,7 +666,7 @@
       "url": "https://www.technologyreview.com/2026/07/16/1140600/the-download-openai-unveils-gpt-red-heat-pumps-rise-us/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.3176,
+      "score": 0.2878,
       "publishedAt": "2026-07-16T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer OpenAI has built an LLM super-hacker called GPT-Red that it uses as a sparring",
       "tags": [
