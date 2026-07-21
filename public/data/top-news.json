@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T14:01:32.582Z",
+  "updatedAt": "2026-07-21T16:24:43.873Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,11 +8,24 @@
   ],
   "items": [
     {
+      "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+      "url": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/",
+      "feedSource": "DeepMind",
+      "source": "deepmind.google",
+      "score": 0.9045,
+      "publishedAt": "2026-07-21T15:16:30.000Z",
+      "summary": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Safety and alignment in an era of long-horizon models",
       "url": "https://openai.com/index/safety-alignment-long-horizon-models/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.869,
+      "score": 0.8516,
       "publishedAt": "2026-07-20T18:43:55.000Z",
       "summary": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
       "tags": [
@@ -26,7 +39,7 @@
       "url": "https://arxiv.org/abs/2607.16195",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.844,
+      "score": 0.8277,
       "publishedAt": "2026-07-21T04:00:00.000Z",
       "summary": "arXiv:2607.16195v1 Announce Type: new \nAbstract: We identify a structured confound in Reinforcement Learning from Human Feedback (RLHF). Pairwise preference labels are intended to reflect the compared outputs, but they may also reflect the rater's state during annotation. Under sustained stressful o",
       "tags": [
@@ -40,7 +53,7 @@
       "url": "https://arxiv.org/abs/2607.16196",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.844,
+      "score": 0.8277,
       "publishedAt": "2026-07-21T04:00:00.000Z",
       "summary": "arXiv:2607.16196v1 Announce Type: new \nAbstract: Soft, sensorized companions offer a physically safe and emotionally intuitive interface for socially assistive technologies, yet their deformability and multichannel tactile sensing complicate the robust interpretation of human affect. This study pres",
       "tags": [
@@ -53,7 +66,7 @@
       "url": "https://arxiv.org/abs/2607.16197",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.844,
+      "score": 0.8277,
       "publishedAt": "2026-07-21T04:00:00.000Z",
       "summary": "arXiv:2607.16197v1 Announce Type: new \nAbstract: As artificial intelligence systems are deployed in open-ended, high-stakes settings, a critical dimension remains unmeasured: how perceived risk is translated into action. We test whether large language models (LLMs) exhibit systematic and consistent",
       "tags": [
@@ -68,7 +81,7 @@
       "url": "https://arxiv.org/abs/2607.16198",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.844,
+      "score": 0.8277,
       "publishedAt": "2026-07-21T04:00:00.000Z",
       "summary": "arXiv:2607.16198v1 Announce Type: new \nAbstract: Graph Neural Networks (GNNs) have emerged as the leading paradigm for link prediction, enabling the inference of missing connections and the anticipation of potential future links. However, existing reviews lack systematic exploration specifically tar",
       "tags": [
@@ -81,7 +94,7 @@
       "url": "https://arxiv.org/abs/2607.16199",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.844,
+      "score": 0.8277,
       "publishedAt": "2026-07-21T04:00:00.000Z",
       "summary": "arXiv:2607.16199v1 Announce Type: new \nAbstract: Multi-agent LLM systems increasingly rely on a Planner to decompose goals into sub-task sequences that downstream Executor and Critic agents execute and audit. We identify the planning phase as a critical attack surface: a single injection into the Pl",
       "tags": [
@@ -96,7 +109,7 @@
       "url": "https://arxiv.org/abs/2607.16200",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.844,
+      "score": 0.8277,
       "publishedAt": "2026-07-21T04:00:00.000Z",
       "summary": "arXiv:2607.16200v1 Announce Type: new \nAbstract: AI agent systems that couple large language models (LLMs) with external tools and APIs are inherently non-deterministic: LLM sampling variance, external API state, CDN infrastructure headers, and execution-environment noise collectively prevent any pr",
       "tags": [
@@ -112,7 +125,7 @@
       "url": "https://arxiv.org/abs/2607.16201",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.844,
+      "score": 0.8277,
       "publishedAt": "2026-07-21T04:00:00.000Z",
       "summary": "arXiv:2607.16201v1 Announce Type: new \nAbstract: Ontology engineering remains a critical bottleneck in knowledge-intensive AI systems. Existing automated approaches either depend on predefined schemas, operate within narrow domains, or produce unstructured outputs unsuitable for downstream pipelines",
       "tags": [
@@ -126,7 +139,7 @@
       "url": "https://arxiv.org/abs/2607.16202",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.844,
+      "score": 0.8277,
       "publishedAt": "2026-07-21T04:00:00.000Z",
       "summary": "arXiv:2607.16202v1 Announce Type: new \nAbstract: AI democratization is not primarily a question of matching frontier-scale generality; it is a question of whether capable models can be selected, audited, and specialized under hardware and governance constraints that ordinary institutions can actuall",
       "tags": [
@@ -141,7 +154,7 @@
       "url": "https://openai.com/index/safety-alignment-long-horizon-models",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.833,
+      "score": 0.8156,
       "publishedAt": "2026-07-20T10:00:00.000Z",
       "summary": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
       "tags": [
@@ -155,20 +168,33 @@
       "url": "https://deepmind.google/models/gemma/gemmaverse/cue-ai/",
       "feedSource": "Hacker News",
       "source": "deepmind.google",
-      "score": 0.7581,
+      "score": 0.7453,
       "publishedAt": "2026-07-20T19:41:44.000Z",
       "summary": "By running Gemma 4 E4B locally for dictation, Cue cut latency by 44%, increased feature usage by 30%, and dropped marginal inference costs to zero",
       "tags": [
         "AI"
       ],
-      "engagementScore": 28
+      "engagementScore": 30
+    },
+    {
+      "title": "Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+      "feedSource": "Hacker News",
+      "source": "blog.google",
+      "score": 0.7362,
+      "publishedAt": "2026-07-21T15:17:16.000Z",
+      "summary": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 185
     },
     {
       "title": "Grabette: an open system to record robot-manipulation data",
       "url": "https://huggingface.co/blog/grabette",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.7064,
+      "score": 0.6913,
       "publishedAt": "2026-07-21T00:00:00.000Z",
       "summary": "",
       "tags": [
@@ -181,7 +207,7 @@
       "url": "https://www.technologyreview.com/2026/07/21/1140685/the-download-chinese-ai-divides-white-house-anthropic-copyright-settlement/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6751,
+      "score": 0.6611,
       "publishedAt": "2026-07-21T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. China’s AI models have Trump’s AI world at war with itself Last weekend, several current and former advisers to President Donald Trump on AI publicly",
       "tags": [
@@ -194,7 +220,7 @@
       "url": "https://www.technologyreview.com/2026/07/21/1140602/advancing-next-gen-ai-with-materials-science-innovation/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6661,
+      "score": 0.6521,
       "publishedAt": "2026-07-21T10:37:34.000Z",
       "summary": "The conversation about AI often centers on algorithms, computing power, or huge investments in new semiconductor fabrication plants and hyperscale data centers. But beneath each of these advances is another layer of innovation that makes them possible: advanced materials. Every new generation of AI",
       "tags": [
@@ -207,9 +233,61 @@
       "url": "https://huggingface.co/blog/nvidia/cosmos3edge",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6558,
+      "score": 0.6407,
       "publishedAt": "2026-07-20T15:58:51.000Z",
       "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "A Sneaky Hacking Tool Targeting AI Infrastructure Is Lurking in Victims’ Blind Spots",
+      "url": "https://www.wired.com/story/a-sneaky-hacking-tool-targeting-ai-infrastructure-is-lurking-in-victims-blind-spots/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5833,
+      "publishedAt": "2026-07-21T16:08:44.000Z",
+      "summary": "A new type of malware can worm deep into AI coding systems to steal data and logins—and can flip a “death switch” to destroy files and keep out real users.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Google launches a cheaper alternative to large AI security models like Mythos",
+      "url": "https://www.theverge.com/tech/968572/google-gemini-flash-cyber-ai-security-model",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5811,
+      "publishedAt": "2026-07-21T15:43:26.000Z",
+      "summary": "Google is launching Gemini 3.6 Flash alongside a new security model dedicated to quickly finding and patching security vulnerabilities. In a blog post on Tuesday, Google describes Gemini 3.5 Flash Cyber as a \"cost-efficient and highly capable alternative\" to larger, more expensive AI systems, such a",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Light Flip Is the Stylish Dumb Flip Phone of Your Dreams",
+      "url": "https://www.wired.com/story/light-flip-is-the-modern-stylish-dumb-flip-phone-of-your-luddite-dreams/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5772,
+      "publishedAt": "2026-07-21T15:00:00.000Z",
+      "summary": "A flip phone with 5G, USB-C, a headphone jack, and a removable battery? Say it ain’t so.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Nvidia Wants to Own Every Chip Inside AI Data Centers",
+      "url": "https://www.wired.com/story/nvidia-wants-to-own-every-chip-inside-an-ai-data-center/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5772,
+      "publishedAt": "2026-07-21T15:00:00.000Z",
+      "summary": "Nvidia’s Vera Rubin platform combines CPUs and GPUs into a single system, reflecting the company’s growing ambition to power every layer of AI infrastructure.",
       "tags": [
         "AI"
       ],
@@ -220,7 +298,7 @@
       "url": "https://www.wired.com/story/fda-peptide-decision-telehealth-companies-cashing-in/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5833,
+      "score": 0.5706,
       "publishedAt": "2026-07-21T13:45:49.000Z",
       "summary": "The FDA could decide whether to loosen rules around peptide production this week. Some telehealth players are already seeing dollar signs.",
       "tags": [
@@ -233,7 +311,7 @@
       "url": "https://www.wired.com/story/halliday-new-smart-glasses-skip-the-camera/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5793,
+      "score": 0.5665,
       "publishedAt": "2026-07-21T13:00:00.000Z",
       "summary": "Halliday’s G2 glasses can listen to and summarize your workplace meetings—with no video involved.",
       "tags": [
@@ -246,7 +324,7 @@
       "url": "https://www.wired.com/gallery/best-smartwatches/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5741,
+      "score": 0.5613,
       "publishedAt": "2026-07-21T12:02:00.000Z",
       "summary": "These WIRED-tested wearables reduce your reliance on a phone while keeping you connected.",
       "tags": [
@@ -259,7 +337,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/968136/chinese-ai-models-another-sputnik-moment",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5724,
+      "score": 0.5597,
       "publishedAt": "2026-07-21T11:43:25.000Z",
       "summary": "Last week, two Chinese AI companies unveiled models they say can credibly compete with the best systems from OpenAI and Anthropic. The response was swift and predictable. Markets wobbled, commentators declared Silicon Valley shooketh, and policymakers reached for the familiar language of arms races",
       "tags": [
@@ -269,24 +347,11 @@
       "engagementScore": 0
     },
     {
-      "title": "China’s AI models have Trump’s AI world at war with itself",
-      "url": "https://www.technologyreview.com/2026/07/20/1140675/chinas-ai-models-have-trumps-ai-world-at-war-with-itself/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.5691,
-      "publishedAt": "2026-07-20T18:00:00.000Z",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. Over the weekend, several current and former advisors to President Donald Trump on AI publicly lobbed insults at the country’s leading AI companies. David Sa",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "The Best Smart Home Accessories to Boost Your Curb Appeal (2026)",
       "url": "https://www.wired.com/story/smart-home-curb-appeal-looks/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5687,
+      "score": 0.556,
       "publishedAt": "2026-07-21T11:02:00.000Z",
       "summary": "These locks, lights, and other smart home upgrades let you add automation without messing up your home’s vibe.",
       "tags": [
@@ -299,7 +364,7 @@
       "url": "https://www.wired.com/story/abdul-el-sayed-michigan-is-public-health-disaster/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5686,
+      "score": 0.5558,
       "publishedAt": "2026-07-21T11:00:00.000Z",
       "summary": "Michigan has been at the epicenter of the wildfire smoke and explosive diarrhea outbreaks. The progressive Democrat talks to WIRED about how he would tackle the forces behind them if he’s elected.",
       "tags": [
@@ -308,54 +373,15 @@
       "engagementScore": 0
     },
     {
-      "title": "‘It’s a Modern-Day Draft’: Why Stanford Students Walked Out on Sundar Pichai’s Commencement Speech",
-      "url": "https://www.wired.com/story/big-interview-stanford-students-booing-sundar-pichai/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5659,
-      "publishedAt": "2026-07-21T10:30:00.000Z",
-      "summary": "Last month, more than a hundred Stanford students left their own graduation to protest Google’s military contracts and deals with ICE. Two organizers, Amanda Campos and Eva Jones, tell us why.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Stop Saying Kids Can’t Read",
-      "url": "https://www.wired.com/story/mississippi-state-testing-reading-comprehension-literacy/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5632,
-      "publishedAt": "2026-07-21T10:00:00.000Z",
-      "summary": "Everyone is talking about the reading crisis. But inside the “Mississippi Miracle,” it’s all about comprehension.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "A Device Hidden in Cars Across the US Leaves Them Vulnerable to Hacking and Paralysis. Patch It Now",
-      "url": "https://www.wired.com/story/a-device-hidden-in-cars-across-the-us-leaves-them-vulnerable-to-hacking-and-paralysis-patch-it-now/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5632,
-      "publishedAt": "2026-07-21T10:00:00.000Z",
-      "summary": "Dealerships installed alarms in millions of vehicles—and left them in even if the buyer didn’t want them. Now researchers warn they can be hacked to unlock, track, and disable cars.",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Download: AI hiring biases, and weather data sabotage",
-      "url": "https://www.technologyreview.com/2026/07/20/1140664/the-download-ai-hiring-biases-weather-data-sabotage/",
+      "title": "China’s AI models have Trump’s AI world at war with itself",
+      "url": "https://www.technologyreview.com/2026/07/20/1140675/chinas-ai-models-have-trumps-ai-world-at-war-with-itself/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5351,
-      "publishedAt": "2026-07-20T12:10:00.000Z",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. AI is more likely than humans to form biases when hiring The next time you apply for a job, AI may screen your résumé before any human sees it. But th",
+      "score": 0.5552,
+      "publishedAt": "2026-07-20T18:00:00.000Z",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. Over the weekend, several current and former advisors to President Donald Trump on AI publicly lobbed insults at the country’s leading AI companies. David Sa",
       "tags": [
-        "Safety"
+        "AI"
       ],
       "engagementScore": 0
     },
@@ -364,26 +390,24 @@
       "url": "https://qwen.ai/blog?id=qwen-image-3.0",
       "feedSource": "Hacker News",
       "source": "qwen.ai",
-      "score": 0.5309,
+      "score": 0.5319,
       "publishedAt": "2026-07-21T08:44:23.000Z",
       "summary": "Qwen Studio offers comprehensive functionality spanning chatbot, image and video understanding, image generation, document processing, web search integration, tool utilization, and artifacts.",
       "tags": [
         "Vision",
         "Dev Tools"
       ],
-      "engagementScore": 301
+      "engagementScore": 427
     },
     {
-      "title": "AI is more likely than humans to form biases when hiring",
-      "url": "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/",
+      "title": "The Download: AI hiring biases, and weather data sabotage",
+      "url": "https://www.technologyreview.com/2026/07/20/1140664/the-download-ai-hiring-biases-weather-data-sabotage/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5145,
-      "publishedAt": "2026-07-20T08:39:01.000Z",
-      "summary": "The next time you apply for a job, AI may screen your résumé before any human sees it. But there’s good reason to question whether AI will judge you fairly. Researchers already know that LLMs pick up human biases from their training data. New research suggests that LLMs can also develop their own bi",
+      "score": 0.5211,
+      "publishedAt": "2026-07-20T12:10:00.000Z",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. AI is more likely than humans to form biases when hiring The next time you apply for a job, AI may screen your résumé before any human sees it. But th",
       "tags": [
-        "LLM",
-        "Research",
         "Safety"
       ],
       "engagementScore": 0
@@ -485,25 +509,53 @@
       "engagementScore": 0
     },
     {
+      "title": "Claude Is Not a Compiler",
+      "url": "https://blog.exe.dev/claude-is-not-a-compiler",
+      "feedSource": "Hacker News",
+      "source": "blog.exe.dev",
+      "score": 0.5031,
+      "publishedAt": "2026-07-21T14:49:18.000Z",
+      "summary": "In early 2025, I wrote Is Claude a Compiler? At the time, my answer was: I don’t know.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 85
+    },
+    {
+      "title": "AI is more likely than humans to form biases when hiring",
+      "url": "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.5006,
+      "publishedAt": "2026-07-20T08:39:01.000Z",
+      "summary": "The next time you apply for a job, AI may screen your résumé before any human sees it. But there’s good reason to question whether AI will judge you fairly. Researchers already know that LLMs pick up human biases from their training data. New research suggests that LLMs can also develop their own bi",
+      "tags": [
+        "LLM",
+        "Research",
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Five US tech giants' hidden debts soar to $1.65T on opaque AI funding",
       "url": "https://asia.nikkei.com/business/technology/five-us-tech-giants-hidden-debts-soar-to-1.65tn-on-opaque-ai-funding",
       "feedSource": "Hacker News",
       "source": "asia.nikkei.com",
-      "score": 0.5087,
+      "score": 0.4981,
       "publishedAt": "2026-07-21T03:56:03.000Z",
       "summary": "Data center leases, GPU supply contracts raise liabilities at Meta, Oracle, Nikkei study shows",
       "tags": [
         "Research",
         "Industry"
       ],
-      "engagementScore": 311
+      "engagementScore": 320
     },
     {
       "title": "Halliday’s latest smart glasses feature a much-improved display",
       "url": "https://www.theverge.com/tech/968255/halliday-gen-2-smart-glasses-hands-on-ai-wearables",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5041,
+      "score": 0.4913,
       "publishedAt": "2026-07-20T22:56:22.000Z",
       "summary": "I first slipped on Halliday's original smart glasses at CES 2025. I was not a fan. The glasses had a tiny, movable display window embedded into the frame that was incredibly finicky to see, and my 30-minute demo left me with achy eyeballs. It was an interesting concept with terrible execution, espec",
       "tags": [
@@ -512,11 +564,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Gemini 3.6 Flash",
+      "url": "https://console.cloud.google.com/agent-platform/publishers/google/model-garden/gemini-3.6-flash",
+      "feedSource": "Hacker News",
+      "source": "console.cloud.google.com",
+      "score": 0.491,
+      "publishedAt": "2026-07-21T14:56:15.000Z",
+      "summary": "",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 60
+    },
+    {
       "title": "Here are the 30,000 songs Sony is suing Udio&#8217;s AI music generator over",
       "url": "https://www.theverge.com/tech/968375/sony-udio-lawsuit-songs-ai-copyright",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5009,
+      "score": 0.4881,
       "publishedAt": "2026-07-20T22:20:34.000Z",
       "summary": "Sony Music Entertainment has filed another lawsuit against Udio, accusing the AI music generator of infringing the copyright of more than 30,000 of its songs, ranging from Elvis Presley's Hound Dog to Beyonc&#233;'s Say My Name, and Harry Styles' As It Was. The lawsuit, filed in a New York court on",
       "tags": [
@@ -529,7 +594,7 @@
       "url": "https://www.theverge.com/business/968257/spacex-in-your-index-fund-explained",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4948,
+      "score": 0.4821,
       "publishedAt": "2026-07-20T21:12:45.000Z",
       "summary": "Index funds are touted as one of the safest ways to invest. Rather than picking and choosing individual stocks, index funds let you bet on the market as a whole. So what happens when a company like SpaceX - a giant gamble, and, in my opinion, terribly overpriced - is fast-tracked into the Nasdaq-100",
       "tags": [
@@ -542,59 +607,20 @@
       "url": "https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/",
       "feedSource": "Hacker News",
       "source": "werd.io",
-      "score": 0.4904,
+      "score": 0.4795,
       "publishedAt": "2026-07-20T14:21:47.000Z",
       "summary": "China’s open-weights AI strategy is winning: its companies are taking the lead. America’s closed-first, locked-down strategy is doomed to failure - and it could take the US economy down with it.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 1163
-    },
-    {
-      "title": "Jelly UI: Soft-body physics for native HTML form controls",
-      "url": "https://jelly-ui.com/",
-      "feedSource": "Hacker News",
-      "source": "jelly-ui.com",
-      "score": 0.4788,
-      "publishedAt": "2026-07-20T17:07:39.000Z",
-      "summary": "Jelly UI is a dependency-free Web Components library for tactile product interfaces: soft-body physics, real form controls, dark mode, RTL and WCAG AA accessibility.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 581
-    },
-    {
-      "title": "Nativ: Run frontier open models locally on your Mac",
-      "url": "https://blaizzy.github.io/nativ/",
-      "feedSource": "Hacker News",
-      "source": "blaizzy.github.io",
-      "score": 0.4627,
-      "publishedAt": "2026-07-20T18:16:08.000Z",
-      "summary": "Frontier intelligence on your desk. No accounts, subscriptions, or cloud.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 320
-    },
-    {
-      "title": "Who's afraid of Chinese models?",
-      "url": "https://stratechery.com/2026/whos-afraid-of-chinese-models/",
-      "feedSource": "Hacker News",
-      "source": "stratechery.com",
-      "score": 0.4604,
-      "publishedAt": "2026-07-20T11:05:58.000Z",
-      "summary": "Everyone is worried about Chinese models, but the frontier labs will be fine; we need to enable open U.S. alternatives.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 785
+      "engagementScore": 1185
     },
     {
       "title": "China delivers a one-two punch to America’s AI dominance",
       "url": "https://www.theverge.com/ai-artificial-intelligence/967781/chinese-ai-models-open-source-moonshot-kimi-k3-alibaba-qwen",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4498,
+      "score": 0.4371,
       "publishedAt": "2026-07-20T12:47:44.000Z",
       "summary": "China's leading AI companies are ramping up the pressure on Silicon Valley, as Moonshot and Alibaba unveiled models they claim can go toe-to-toe with the best from OpenAI and Anthropic at a fraction of the cost. The rapid-fire releases suggest America's lead at the AI frontier is increasingly tight,",
       "tags": [
@@ -608,7 +634,7 @@
       "url": "https://www.theverge.com/tech/967791/adobe-indigo-camera-app-ai-playground-update",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4419,
+      "score": 0.4291,
       "publishedAt": "2026-07-20T11:18:31.000Z",
       "summary": "Adobe's experimental camera app has taken an unexpected turn. After Project Indigo was launched last year to provide a \"more natural (SLR-like) look\" for iPhone photography, the Indigo camera app is now being updated with a suite of generative AI tools. And the change doesn't rely upon Adobe's own F",
       "tags": [
@@ -621,7 +647,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4352,
+      "score": 0.4224,
       "publishedAt": "2026-07-20T10:03:29.000Z",
       "summary": "Last year, Sam Altman invited author Dave Eggers to give a talk to around 200 OpenAI staffers. The man has written countless novels, screenplays, pieces of journalism, started McSweeney's, and founded multiple schools and nonprofits that support writers and the arts more broadly. So one might expect",
       "tags": [
@@ -630,15 +656,16 @@
       "engagementScore": 0
     },
     {
-      "title": "I hate that I don’t hate this song made with Suno",
-      "url": "https://www.theverge.com/entertainment/967678/1010benja-semiramis-dream-suno-ai-music",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4329,
-      "publishedAt": "2026-07-20T09:37:27.000Z",
-      "summary": "I would never go so far as to say there's no place for AI in music (I'm a fan of Holly Herndon, after all). But I generally find music made with generative AI to be offensively boring, especially the outputs of Suno. So I'm having a bit of a tough time processing the fact that [&#8230;]",
+      "title": "Introducing Gemini 3.5 Flash Cyber",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/",
+      "feedSource": "DeepMind",
+      "source": "deepmind.google",
+      "score": 0.4222,
+      "publishedAt": "2026-07-17T15:00:11.000Z",
+      "summary": "Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.",
       "tags": [
-        "AI"
+        "LLM",
+        "ML Infra"
       ],
       "engagementScore": 0
     },
@@ -652,33 +679,6 @@
       "summary": "Google DeepMind and Isomorphic Labs are sharing our joint approach to bioresilience and AI models.",
       "tags": [
         "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Empowering India’s next generation of innovators with ATL Saathi",
-      "url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-07-13T12:37:28.000Z",
-      "summary": "Google and AIM launched ATL Saathi, a Gemini-powered AI tool empowering Indian educators in robotics labs.",
-      "tags": [
-        "LLM",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Google DeepMind and A24 announce first-of-its-kind research partnership",
-      "url": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-07-03T14:25:43.000Z",
-      "summary": "Today, Google DeepMind and A24 are announcing a first-of-its-kind partnership focused on research. The collaboration pairs a world-leading research lab with the industry…",
-      "tags": [
-        "Research"
       ],
       "engagementScore": 0
     }
