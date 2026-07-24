@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T16:44:55.710Z",
+  "updatedAt": "2026-07-24T19:34:44.056Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,11 +8,26 @@
   ],
   "items": [
     {
+      "title": "Claude Opus 5",
+      "url": "https://www.anthropic.com/news/claude-opus-5",
+      "feedSource": "Hacker News",
+      "source": "anthropic.com",
+      "score": 1.1663,
+      "publishedAt": "2026-07-24T16:57:41.000Z",
+      "summary": "Opus 5 is a step change improvement for the Opus tier powering long-running agents while delivering improvements in coding and professional work.",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Dev Tools"
+      ],
+      "engagementScore": 764
+    },
+    {
       "title": "AINTMA: Agentic AI Architecture for Autonomous Test Management with Generative Intelligence, Secure Cloud Communication and Adaptive Quality Analytics",
       "url": "https://arxiv.org/abs/2607.20452",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8255,
+      "score": 0.8062,
       "publishedAt": "2026-07-24T04:00:00.000Z",
       "summary": "arXiv:2607.20452v1 Announce Type: new \nAbstract: Modern software quality assurance demands intelligent, autonomous systems capable of adaptive decision-making across distributed cloud environments. This paper presents AINTMA (Agentic Intelligent Test Management Architecture), a multi-agent agentic A",
       "tags": [
@@ -26,7 +41,7 @@
       "url": "https://arxiv.org/abs/2607.20462",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8255,
+      "score": 0.8062,
       "publishedAt": "2026-07-24T04:00:00.000Z",
       "summary": "arXiv:2607.20462v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly integrated into clinical workflows, stressing the need for reliable traceability of model-generated output with watermarking. Yet, most watermarks are evaluated on general-purpose benchmarks, leaving domai",
       "tags": [
@@ -41,7 +56,7 @@
       "url": "https://arxiv.org/abs/2607.20463",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8255,
+      "score": 0.8062,
       "publishedAt": "2026-07-24T04:00:00.000Z",
       "summary": "arXiv:2607.20463v1 Announce Type: new \nAbstract: This paper presents an AI-driven browser extension that identifies clickbait to help users avoid misleading Internet articles. Moving beyond traditional detection, the application employs a hybrid machine learning architecture that combines transforme",
       "tags": [
@@ -55,7 +70,7 @@
       "url": "https://arxiv.org/abs/2607.20464",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8255,
+      "score": 0.8062,
       "publishedAt": "2026-07-24T04:00:00.000Z",
       "summary": "arXiv:2607.20464v1 Announce Type: new \nAbstract: When a language model gives different answers on repeated runs, does that variation reveal what it does not know? Self-consistency turns the variation into a per-question uncertainty estimate via majority voting. But does the same variation reveal cro",
       "tags": [
@@ -69,7 +84,7 @@
       "url": "https://arxiv.org/abs/2607.20466",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8255,
+      "score": 0.8062,
       "publishedAt": "2026-07-24T04:00:00.000Z",
       "summary": "arXiv:2607.20466v1 Announce Type: new \nAbstract: Rigorous benchmarks have driven progress in autonomous GPU kernel performance optimization by establishing a shared target to hillclimb on, but no equivalent exists for TPUs. We present JAXBench, a TPU-native benchmark suite for AI-generated kernel op",
       "tags": [
@@ -83,7 +98,7 @@
       "url": "https://arxiv.org/abs/2607.20467",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8255,
+      "score": 0.8062,
       "publishedAt": "2026-07-24T04:00:00.000Z",
       "summary": "arXiv:2607.20467v1 Announce Type: new \nAbstract: While parallel decoding is central to the efficiency of Diffusion Large Language Models (dLLMs), current strategies are often hindered by overly conservative confidence thresholds. These thresholds, necessitated by the Joint Probability Dependence Err",
       "tags": [
@@ -100,7 +115,7 @@
       "url": "https://arxiv.org/abs/2607.20468",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8255,
+      "score": 0.8062,
       "publishedAt": "2026-07-24T04:00:00.000Z",
       "summary": "arXiv:2607.20468v1 Announce Type: new \nAbstract: AI agents are increasingly used to automate research and development tasks, yet existing benchmarks typically evaluate them on prescribed workflows or narrow action spaces. Even nominally open-ended tasks can often be solved by retrieving a well-known",
       "tags": [
@@ -115,7 +130,7 @@
       "url": "https://arxiv.org/abs/2607.20469",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8255,
+      "score": 0.8062,
       "publishedAt": "2026-07-24T04:00:00.000Z",
       "summary": "arXiv:2607.20469v1 Announce Type: new \nAbstract: Large language models (LLMs) handle many tasks with one set of parameters, but under KV-cached inference it is unclear what task-general structure, if any, is used at decode time rather than during prefill. We propose DecodeShare, a protocol that iden",
       "tags": [
@@ -127,24 +142,11 @@
       "engagementScore": 0
     },
     {
-      "title": "A taxonomy of omnicidal futures involving artificial intelligence (2025)",
-      "url": "https://arxiv.org/abs/2507.09369",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.8082,
-      "publishedAt": "2026-07-23T22:51:13.000Z",
-      "summary": "This report presents a taxonomy and examples of potential omnicidal events resulting from AI: scenarios where all or almost all humans are killed. These events are not presented as inevitable, but as possibilities that we can work to avoid. Insofar as large institutions require a degree of public su",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 71
-    },
-    {
       "title": "Launching Health in ChatGPT",
       "url": "https://openai.com/index/health-in-chatgpt",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7403,
+      "score": 0.7196,
       "publishedAt": "2026-07-23T00:00:00.000Z",
       "summary": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.",
       "tags": [
@@ -157,7 +159,7 @@
       "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.7259,
+      "score": 0.7053,
       "publishedAt": "2026-07-21T20:09:52.000Z",
       "summary": "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders.",
       "tags": [
@@ -166,53 +168,53 @@
         "Open Source",
         "Industry"
       ],
-      "engagementScore": 1615
+      "engagementScore": 1616
     },
     {
-      "title": "Automated sign detection across the Electronic Babylonian Library",
-      "url": "https://arxiv.org/abs/2606.22608",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.7052,
-      "publishedAt": "2026-07-24T02:06:35.000Z",
-      "summary": "Learning to read cuneiform tablets is an extremely demanding task; consequently, of the roughly half million excavated tablets, only a small fraction has been analysed by Assyriologists. Computer vision offers a promising avenue for decipherment but requires large, densely annotated datasets. To add",
+      "title": "The quest to keep organs alive outside the body",
+      "url": "https://www.technologyreview.com/2026/07/24/1140790/the-quest-to-keep-organs-alive-outside-the-body/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6712,
+      "publishedAt": "2026-07-24T17:03:55.000Z",
+      "summary": "This week, I covered a fascinating effort to preserve organs outside the body. There’s a huge shortage of donor organs, and one of the main reasons is time—they survive only a matter of hours outside the body, even when they’re kept on ice. Doctors dream of organ banks—stores of human organs that ca",
       "tags": [
-        "Vision"
+        "AI"
       ],
-      "engagementScore": 6
-    },
-    {
-      "title": "Advertise in ChatGPT",
-      "url": "https://ads.openai.com/",
-      "feedSource": "Hacker News",
-      "source": "ads.openai.com",
-      "score": 0.6957,
-      "publishedAt": "2026-07-21T18:58:44.000Z",
-      "summary": "Reach people as they explore options, compare choices, and make decisions in ChatGPT, with relevant ads that fit naturally into the experience.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 1085
+      "engagementScore": 0
     },
     {
       "title": "Glm5.2.jsonl · HuggingFace/forensic-refusal at main",
       "url": "https://huggingface.co/datasets/huggingface/forensic-refusal/blob/main/glm5.2.jsonl",
       "feedSource": "Hacker News",
       "source": "huggingface.co",
-      "score": 0.6693,
+      "score": 0.66,
       "publishedAt": "2026-07-24T13:59:19.000Z",
       "summary": "",
       "tags": [
         "Open Source"
       ],
-      "engagementScore": 5
+      "engagementScore": 6
+    },
+    {
+      "title": "The Download: an organ transplant breakthrough, and homegrown Chinese chips",
+      "url": "https://www.technologyreview.com/2026/07/24/1140776/the-download-organ-transplant-breakthrough-chinese-chips/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6427,
+      "publishedAt": "2026-07-24T12:10:00.000Z",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Supercooled kidneys have been transplanted into pigs in a “landmark achievement”&#160; When it comes to organ donation, time is everything. As soon as",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "Building AI infrastructure with the Effingham County community",
       "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.66,
+      "score": 0.6394,
       "publishedAt": "2026-07-22T13:00:00.000Z",
       "summary": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.",
       "tags": [
@@ -227,7 +229,7 @@
       "url": "https://openai.com/index/how-news-organizations-are-using-ai",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.66,
+      "score": 0.6394,
       "publishedAt": "2026-07-22T13:00:00.000Z",
       "summary": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide.",
       "tags": [
@@ -237,24 +239,11 @@
       "engagementScore": 0
     },
     {
-      "title": "The Download: an organ transplant breakthrough, and homegrown Chinese chips",
-      "url": "https://www.technologyreview.com/2026/07/24/1140776/the-download-organ-transplant-breakthrough-chinese-chips/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.6592,
-      "publishedAt": "2026-07-24T12:10:00.000Z",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Supercooled kidneys have been transplanted into pigs in a “landmark achievement”&#160; When it comes to organ donation, time is everything. As soon as",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Advancing the next era of national science",
       "url": "https://openai.com/index/advancing-the-next-era-of-national-science",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6528,
+      "score": 0.6321,
       "publishedAt": "2026-07-22T12:00:00.000Z",
       "summary": "OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and national labs to use frontier AI to accelerate discovery.",
       "tags": [
@@ -267,7 +256,7 @@
       "url": "https://openai.com/index/introducing-openai-presence",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6054,
+      "score": 0.5847,
       "publishedAt": "2026-07-22T05:30:00.000Z",
       "summary": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.",
       "tags": [
@@ -277,11 +266,38 @@
       "engagementScore": 0
     },
     {
+      "title": "Midjourney bought the astrology app Co-Star",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/970894/midjourney-co-star-acquisition",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5823,
+      "publishedAt": "2026-07-24T19:06:58.000Z",
+      "summary": "Midjourney, which has gone from generating AI cat images to full-body ultrasound scans, is getting into a new field: astrology. The AI startup announced on Thursday that it has acquired the personalized astrology app Co-Star, as reported earlier by Bloomberg. Co-Star is a free app that offers daily",
+      "tags": [
+        "Vision",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The 2026 El Niño Is on Track to Be the Strongest on Record",
+      "url": "https://www.wired.com/story/2026-el-nino-the-strongest-in-150-years/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5808,
+      "publishedAt": "2026-07-24T18:50:02.000Z",
+      "summary": "This climate phenomenon could cause a massive global temperature spike and cause economic losses of $10 trillion by 2032.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Introducing selfie for sign-in: a new way to access your Google Account",
       "url": "https://blog.google/innovation-and-ai/technology/safety-security/selfie-video-sign-in/",
       "feedSource": "Hacker News",
       "source": "blog.google",
-      "score": 0.5937,
+      "score": 0.5772,
       "publishedAt": "2026-07-23T19:00:34.000Z",
       "summary": "Selfie video gives you more options if you’re ever locked out or don’t have access to your usual phone or computer.",
       "tags": [
@@ -290,11 +306,51 @@
       "engagementScore": 111
     },
     {
+      "title": "Did Chinese AI Steal From Anthropic, and OpenAI Loses Control of Two Models",
+      "url": "https://www.wired.com/story/uncanny-valley-podcast/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5757,
+      "publishedAt": "2026-07-24T17:53:01.000Z",
+      "summary": "On this episode of Uncanny Valley, we dive into accusations that China’s Moonshot AI stole from  Anthropic, and how the US Army needs to cut back on AI use.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "You can’t ignore Google Zero anymore",
+      "url": "https://www.theverge.com/podcast/970735/google-zero-reddit-ai-publishers-vergecast",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5736,
+      "publishedAt": "2026-07-24T17:29:48.000Z",
+      "summary": "The web and Google once had a deal: Google collects data and indexes webpages and in exchange sends oceans of traffic to websites. The deal wasn't perfect and certainly made Google more money than it made the websites, but it worked for a long time. Now, however, the deal seems to be dead. And the [",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Meta is making its AI chatbot more like an assistant",
+      "url": "https://www.theverge.com/tech/970570/meta-ai-chatbot-productivity-update",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5711,
+      "publishedAt": "2026-07-24T17:01:54.000Z",
+      "summary": "Meta is upgrading its AI chatbot with new productivity features in a bid to compete with rivals like Gemini, ChatGPT, and Claude. The update will allow Meta AI to tap into your calendar to help you plan events and generate daily briefings, as well as perform in-depth research that you can steer as i",
+      "tags": [
+        "LLM",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Silicon Valley Is Completely Divided Over Chinese AI",
       "url": "https://www.wired.com/story/silicon-valley-is-completely-divided-over-chinese-ai/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5754,
+      "score": 0.5603,
       "publishedAt": "2026-07-24T15:00:00.000Z",
       "summary": "The AI “startups” worth billions of dollars are raising alarm bells about Chinese AI. The smaller players have a totally different take.",
       "tags": [
@@ -307,7 +363,7 @@
       "url": "https://www.theverge.com/science/970534/genesis-mission-ai-science-funding-trump-grants",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.574,
+      "score": 0.5589,
       "publishedAt": "2026-07-24T14:44:15.000Z",
       "summary": "The Trump administration unveiled the first \"Genesis Mission\" grants on Thursday, directing $5 billion toward hundreds of AI-driven science projects in an effort the White House has described as \"comparable in urgency and ambition to the Manhattan Project.\" At roughly the same time, Trump's science",
       "tags": [
@@ -316,11 +372,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
+      "url": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
+      "feedSource": "DeepMind",
+      "source": "deepmind.google",
+      "score": 0.5452,
+      "publishedAt": "2026-07-22T13:38:54.000Z",
+      "summary": "Google commits $40M in AI tokens and credits for the Genesis Mission",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "NTT DATA Group cuts incident analysis to 30 minutes with Codex",
       "url": "https://openai.com/index/ntt-data",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.5653,
+      "score": 0.5446,
       "publishedAt": "2026-07-22T00:00:00.000Z",
       "summary": "NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption.",
       "tags": [
@@ -330,24 +399,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
-      "url": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.5645,
-      "publishedAt": "2026-07-22T13:38:54.000Z",
-      "summary": "Google commits $40M in AI tokens and credits for the Genesis Mission",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Best Window Air Conditioners of 2026: Midea, Zafro, GE",
       "url": "https://www.wired.com/gallery/best-window-air-conditioners/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5573,
+      "score": 0.5422,
       "publishedAt": "2026-07-24T11:37:00.000Z",
       "summary": "These are the AC units we’ve trusted to cool our homes for months, if not years.",
       "tags": [
@@ -360,7 +416,7 @@
       "url": "https://www.wired.com/review/benq-tk705sti-4k-projector/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5541,
+      "score": 0.539,
       "publishedAt": "2026-07-24T11:01:00.000Z",
       "summary": "The TK705STi’s highly responsive, low-latency performance makes gameplay ultra-realistic. For movies and TV? It’s a purely average home projector.",
       "tags": [
@@ -373,7 +429,7 @@
       "url": "https://www.wired.com/story/what-is-entropy-really/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.554,
+      "score": 0.5389,
       "publishedAt": "2026-07-24T11:00:00.000Z",
       "summary": "Never mind the “heat death of the universe.” Entropy is just a bridge between two levels of reality.",
       "tags": [
@@ -386,7 +442,7 @@
       "url": "https://www.wired.com/story/these-are-some-of-our-favorite-brain-boosting-toys-for-kids-of-all-ages/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5513,
+      "score": 0.5362,
       "publishedAt": "2026-07-24T10:30:00.000Z",
       "summary": "From musical instruments and games to play pieces that encourage balance and dexterity, these toys will engage your child’s mind and body.",
       "tags": [
@@ -395,11 +451,26 @@
       "engagementScore": 0
     },
     {
+      "title": "Be skeptical of OpenAI's rogue hacker agent story",
+      "url": "https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker",
+      "feedSource": "Hacker News",
+      "source": "theguardian.com",
+      "score": 0.534,
+      "publishedAt": "2026-07-24T16:33:31.000Z",
+      "summary": "If OpenAI loudly proclaims how dangerous AI is, investors will hear how powerful it is. And who benefits from that?",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Industry"
+      ],
+      "engagementScore": 242
+    },
+    {
       "title": "Some Kids Will Never Think AI Is Cool",
       "url": "https://www.wired.com/story/some-kids-will-never-think-ai-is-cool/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5487,
+      "score": 0.5335,
       "publishedAt": "2026-07-24T10:00:00.000Z",
       "summary": "“I think it should stand for artificial idiot,” one 9-year-old says. Here’s why kids of all ages are calling AI “disgusting” and “creepy.”",
       "tags": [
@@ -408,39 +479,13 @@
       "engagementScore": 0
     },
     {
-      "title": "Satellite Images Reveal How Suspected Scam Compounds Appear Out of Nowhere",
-      "url": "https://www.wired.com/story/satellite-images-reveal-how-giant-scam-compounds-keep-on-expanding/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5487,
-      "publishedAt": "2026-07-24T10:00:00.000Z",
-      "summary": "Analysis of satellite images of Myanmar shows dozens of alleged scam compounds have appeared in recent months, despite a purported crackdown on the criminal organizations.",
-      "tags": [
-        "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Supercooled kidneys have been transplanted into pigs in a “landmark achievement”",
       "url": "https://www.technologyreview.com/2026/07/23/1140765/supercooled-kidneys-have-been-transplanted-into-pigs-in-a-landmark-achievement/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5472,
+      "score": 0.5307,
       "publishedAt": "2026-07-23T16:58:28.000Z",
       "summary": "When it comes to organ donation, time is everything. As soon as an organ has been carefully removed from a donor’s body, it starts to deteriorate. Surgeons have a matter of hours to get it into a recipient. Leave it too long and the organ will become unusable. In most cases, organs will be kept&#823",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Kagi Brings Back Old-School Search, One Human-Made Website at a Time",
-      "url": "https://www.wired.com/story/kagi-brings-back-old-school-search-one-human-made-website-at-a-time/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.546,
-      "publishedAt": "2026-07-24T09:30:00.000Z",
-      "summary": "If you’re tired of sponsored and AI-summarized search results, Kagi gives you a curated—and human-centric—way to find what you’re looking for.",
       "tags": [
         "AI"
       ],
@@ -451,7 +496,7 @@
       "url": "https://huggingface.co/blog/nunchaku-diffusers",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.5376,
+      "score": 0.5197,
       "publishedAt": "2026-07-23T00:00:00.000Z",
       "summary": "",
       "tags": [
@@ -464,61 +509,20 @@
       "url": "https://bfl.ai/blog/flux-3",
       "feedSource": "Hacker News",
       "source": "bfl.ai",
-      "score": 0.5238,
+      "score": 0.5125,
       "publishedAt": "2026-07-24T06:17:08.000Z",
       "summary": "FLUX 3, our new multimodal frontier model, jointly learns from images, video, and audio to build one representation of the world. Now available in Early Access.",
       "tags": [
         "Vision"
       ],
-      "engagementScore": 497
-    },
-    {
-      "title": "The Download: energy transmission and US threats against Chinese AI",
-      "url": "https://www.technologyreview.com/2026/07/23/1140753/the-download-energy-transmission-and-us-threats-chinese-ai/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.5192,
-      "publishedAt": "2026-07-23T12:10:00.000Z",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The power line that could reshape New York’s grid is hitting snags  During a heat wave on July 3, New York State’s grid imported enough electricity fr",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "How AI helps scientists design the next generation of medicines",
-      "url": "https://www.technologyreview.com/2026/07/23/1140346/how-ai-helps-scientists-design-the-next-generation-of-medicines/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.5182,
-      "publishedAt": "2026-07-23T12:00:00.000Z",
-      "summary": "Designing and developing a new medicine is an expensive, failure-prone scientific challenge. A new drug can take many years to develop, at the cost of a significant investment. And even then, most possible candidates never reach the patient. For biologic medicines, therapies made from engineered pro",
-      "tags": [
-        "Research",
-        "Dev Tools",
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Flux 3 X Mimic: The Next Generation of Video-Action Models",
-      "url": "https://bfl.ai/blog/flux-3-mimic",
-      "feedSource": "Hacker News",
-      "source": "bfl.ai",
-      "score": 0.5162,
-      "publishedAt": "2026-07-24T09:31:48.000Z",
-      "summary": "FLUX 3 is running robots. Built with mimic and deployed at Audi, FLUX-mimic shows content creation and physical AI share one foundation: a model that understands the world.",
-      "tags": [
-        "Vision"
-      ],
-      "engagementScore": 260
+      "engagementScore": 531
     },
     {
       "title": "Introducing the ChatGPT for small business program",
       "url": "https://openai.com/index/introducing-chatgpt-small-business-program",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.5142,
+      "score": 0.5124,
       "publishedAt": "2026-07-21T17:00:00.000Z",
       "summary": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
       "tags": [
@@ -543,11 +547,65 @@
       "engagementScore": 0
     },
     {
+      "title": "Nvidia, Microsoft, Meta warn against overregulating open-weight models",
+      "url": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
+      "feedSource": "Hacker News",
+      "source": "cnbc.com",
+      "score": 0.5107,
+      "publishedAt": "2026-07-24T13:32:30.000Z",
+      "summary": "Reference #18.6924c317.1784904017.311b83bb",
+      "tags": [
+        "ML Infra"
+      ],
+      "engagementScore": 191
+    },
+    {
+      "title": "Half-Life 2 running natively on HaikuOS",
+      "url": "https://discuss.haiku-os.org/t/haiku-nvidia-porting-nvidia-driver-for-turing-gpus/16520?page=18",
+      "feedSource": "Hacker News",
+      "source": "discuss.haiku-os.org",
+      "score": 0.5089,
+      "publishedAt": "2026-07-24T12:53:59.000Z",
+      "summary": "Hope eventually will came out!!",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 198
+    },
+    {
+      "title": "The Download: energy transmission and US threats against Chinese AI",
+      "url": "https://www.technologyreview.com/2026/07/23/1140753/the-download-energy-transmission-and-us-threats-chinese-ai/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.5027,
+      "publishedAt": "2026-07-23T12:10:00.000Z",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The power line that could reshape New York’s grid is hitting snags  During a heat wave on July 3, New York State’s grid imported enough electricity fr",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "How AI helps scientists design the next generation of medicines",
+      "url": "https://www.technologyreview.com/2026/07/23/1140346/how-ai-helps-scientists-design-the-next-generation-of-medicines/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.5017,
+      "publishedAt": "2026-07-23T12:00:00.000Z",
+      "summary": "Designing and developing a new medicine is an expensive, failure-prone scientific challenge. A new drug can take many years to develop, at the cost of a significant investment. And even then, most possible candidates never reach the patient. For biologic medicines, therapies made from engineered pro",
+      "tags": [
+        "Research",
+        "Dev Tools",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "The power line that could reshape New York’s grid is hitting snags",
       "url": "https://www.technologyreview.com/2026/07/23/1140739/power-line-grid-chpe/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5007,
+      "score": 0.4842,
       "publishedAt": "2026-07-23T09:00:00.000Z",
       "summary": "On July 3, as a heat wave swept the region, New York State’s grid imported 52 gigawatt-hours of electricity from Canada—enough to meet about 9% of its total electricity demand that day. Some of that power shuttled in on a 339-mile power line stretching from Quebec to Queens called the Champlain Huds",
       "tags": [
@@ -560,7 +618,7 @@
       "url": "https://www.theverge.com/tech/970399/amazon-alexa-plus-ai-update-smart-home-devices",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4847,
+      "score": 0.4696,
       "publishedAt": "2026-07-23T22:02:15.000Z",
       "summary": "Amazon is launching an update to its Alexa Plus assistant that will allow it to connect to smart home devices in new ways. With the update, which is currently in preview, Alexa Plus can link up with tech from Bosch, Delta, Ecovacs, iRobot, Yale Home, Whirlpool, Tapo, Eufy, and others, while automati",
       "tags": [
@@ -573,7 +631,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/970065/anthropic-voice-mode-claude-opus-sonnet-haiku-ai",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.471,
+      "score": 0.4558,
       "publishedAt": "2026-07-23T19:28:13.000Z",
       "summary": "Until now, voice mode has only been available on Claude Haiku, Anthropic's faster but less powerful model. Now the company is making its Opus and Sonnet models available in voice mode, and extending its reach into apps like Gmail, Slack, and Canva. When Anthropic launched voice mode last year, it wa",
       "tags": [
@@ -586,7 +644,7 @@
       "url": "https://www.theverge.com/tech/970211/patreon-layoffs-ai",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4698,
+      "score": 0.4547,
       "publishedAt": "2026-07-23T19:15:07.000Z",
       "summary": "Patreon is laying off 20 percent of its workers, or around 93 employees, as reported earlier by 404 Media. In a memo to employees, Patreon CEO Jack Conte writes that the company isn't making these changes \"because we believe AI replaces humans,\" but says AI has \"fundamentally transformed the tech in",
       "tags": [
@@ -595,42 +653,16 @@
       "engagementScore": 0
     },
     {
-      "title": "OpenAI is making big claims as it rolls out ChatGPT Health to everyone",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/970115/openai-chatgpt-health-launch-claims",
+      "title": "Anthropic releases Opus 5 with ‘close’ to Fable 5’s capabilities",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/970105/claude-opus-5-announced-anthropic-ai-model-release",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4587,
-      "publishedAt": "2026-07-23T17:10:27.000Z",
-      "summary": "OpenAI is rolling out ChatGPT Health to everyone in the US on Thursday, allowing more people to connect their medical records and health-tracking information to the chatbot. During a briefing, Ashley Alexander, OpenAI's vice president of health product, says the company's models \"are now capable of",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Lawmakers prepare bill requiring AI ‘kill switch’",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/969939/lawmakers-ai-kill-switch-proposal",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4429,
-      "publishedAt": "2026-07-23T14:13:35.000Z",
-      "summary": "Lawmakers are preparing to introduce an \"AI Kill Switch Act\" that would require AI companies to shut down or throttle their systems on orders from the Department of Homeland Security, according to a report from Politico. Reps. Ted Lieu (D-CA) and Nathaniel Moran (R-TX) are expected to introduce the",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Apple’s OpenAI lawsuit is about who gets to define the post-smartphone era",
-      "url": "https://www.theverge.com/podcast/968787/apple-openai-trade-secrets-lawsuit-ai-hardware-smartphone-jony-ive",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4413,
-      "publishedAt": "2026-07-23T13:55:07.000Z",
-      "summary": "Today on Decoder, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the major trade secrets lawsuit between Apple and OpenAI and what this tells us about OpenAI’s future. By now I’m sure most Decoder listeners are familiar with Apple’s allegations in this case. The company says a",
+      "score": 0.451,
+      "publishedAt": "2026-07-23T18:33:59.000Z",
+      "summary": "Weeks after Anthropic's latest toe-to-toe with the US government, and days after an OpenAI security incident that dominated tech industry discussions, Anthropic on Thursday released its newest model, Claude Opus 5. The company said in a release that Opus 5 \"comes close to the capabilities of Claude",
       "tags": [
         "LLM",
-        "Dev Tools"
+        "Open Source"
       ],
       "engagementScore": 0
     },
@@ -658,33 +690,6 @@
       "tags": [
         "LLM",
         "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Our approach to bioresilience",
-      "url": "https://deepmind.google/blog/our-approach-to-bioresilience/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-07-16T09:30:42.000Z",
-      "summary": "Google DeepMind and Isomorphic Labs are sharing our joint approach to bioresilience and AI models.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Empowering India’s next generation of innovators with ATL Saathi",
-      "url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-07-13T12:37:28.000Z",
-      "summary": "Google and AIM launched ATL Saathi, a Gemini-powered AI tool empowering Indian educators in robotics labs.",
-      "tags": [
-        "LLM",
-        "Dev Tools"
       ],
       "engagementScore": 0
     }
