@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T03:22:25.252Z",
+  "updatedAt": "2026-07-26T08:31:42.685Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,7 +12,7 @@
       "url": "https://www.anthropic.com/news/claude-opus-5",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.9792,
+      "score": 0.9419,
       "publishedAt": "2026-07-24T16:57:41.000Z",
       "summary": "Opus 5 is a step change improvement for the Opus tier powering long-running agents while delivering improvements in coding and professional work.",
       "tags": [
@@ -20,7 +20,23 @@
         "Agents",
         "Dev Tools"
       ],
-      "engagementScore": 1741
+      "engagementScore": 1749
+    },
+    {
+      "title": "OpenAI and Hugging Face address security incident during model evaluation",
+      "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+      "feedSource": "Hacker News",
+      "source": "openai.com",
+      "score": 0.7013,
+      "publishedAt": "2026-07-21T20:09:52.000Z",
+      "summary": "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders.",
+      "tags": [
+        "LLM",
+        "Research",
+        "Open Source",
+        "Industry"
+      ],
+      "engagementScore": 1624
     },
     {
       "title": "Launching Health in ChatGPT",
@@ -139,7 +155,7 @@
       "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
       "feedSource": "Hacker News",
       "source": "claude.com",
-      "score": 0.5071,
+      "score": 0.4998,
       "publishedAt": "2026-07-25T20:42:35.000Z",
       "summary": "We removed over 80% of Claude Code’s system prompt for more advanced models. How to apply the lessons we learned to your own context engineering in Claude Code and with your own agents.",
       "tags": [
@@ -147,53 +163,80 @@
         "Agents",
         "Dev Tools"
       ],
-      "engagementScore": 188
+      "engagementScore": 307
     },
     {
       "title": "GM Backs Sodium Ion Batteries for U.S. Grid Storage",
       "url": "https://spectrum.ieee.org/sodium-ion-battery-peak-energy",
       "feedSource": "Hacker News",
       "source": "spectrum.ieee.org",
-      "score": 0.5023,
+      "score": 0.4842,
       "publishedAt": "2026-07-25T21:48:22.000Z",
       "summary": "Forbidden",
       "tags": [
         "RAG"
       ],
-      "engagementScore": 142
+      "engagementScore": 172
     },
     {
-      "title": "A 77-year-old Republican man is staging a solo protest against Flock cameras",
-      "url": "https://www.cltampa.com/news/a-77-year-old-republican-man-is-staging-a-solo-protest-against-st-petes-flock-cameras/",
+      "title": "DeepSeek pause fundraise after comments on compute gap to US leaked (transcript) [pdf]",
+      "url": "https://github.com/demo-zexuan/liang-wenfeng-investor-meeting-2026-7-22/blob/master/%E6%A2%81%E6%96%87%E9%94%8B%E6%8A%95%E8%B5%84%E8%80%85%E4%BA%A4%E6%B5%81%E4%BC%9A-%E6%96%87%E5%AD%97%E7%A8%BF_1_18_translate_20260723201651.pdf",
       "feedSource": "Hacker News",
-      "source": "cltampa.com",
-      "score": 0.4986,
-      "publishedAt": "2026-07-25T21:32:08.000Z",
-      "summary": "Carl Gunn in St. Petersburg, Florida on July 25, 2026. Photo by Valerie Smith. Carl Gunn, 77, was concerned for his privacy when he spotted a camera",
+      "source": "github.com",
+      "score": 0.4841,
+      "publishedAt": "2026-07-25T23:32:50.000Z",
+      "summary": "梁文锋四小时投资人会议实录. Contribute to demo-zexuan/liang-wenfeng-investor-meeting-2026-7-22 development by creating an account on GitHub.",
       "tags": [
-        "AI"
+        "Open Source",
+        "Industry"
       ],
-      "engagementScore": 133
+      "engagementScore": 136
     },
     {
       "title": "Open-weight AI is having its Kubernetes moment",
       "url": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/",
       "feedSource": "Hacker News",
       "source": "tobi.knaup.me",
-      "score": 0.4984,
+      "score": 0.4783,
       "publishedAt": "2026-07-25T14:49:49.000Z",
       "summary": "Open-weight models are becoming the foundation for the next AI ecosystem. The US should compete in it, not wall itself off.",
       "tags": [
         "ML Infra"
       ],
-      "engagementScore": 325
+      "engagementScore": 373
+    },
+    {
+      "title": "A 77-year-old Republican man is staging a solo protest against Flock cameras",
+      "url": "https://www.cltampa.com/news/a-77-year-old-republican-man-is-staging-a-solo-protest-against-st-petes-flock-cameras/",
+      "feedSource": "Hacker News",
+      "source": "cltampa.com",
+      "score": 0.4764,
+      "publishedAt": "2026-07-25T21:32:08.000Z",
+      "summary": "Carl Gunn in St. Petersburg, Florida on July 25, 2026. Photo by Valerie Smith. Carl Gunn, 77, was concerned for his privacy when he spotted a camera",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 144
+    },
+    {
+      "title": "Cloudflare's new AI traffic options for customers",
+      "url": "https://blog.cloudflare.com/content-independence-day-ai-options/",
+      "feedSource": "Hacker News",
+      "source": "blog.cloudflare.com",
+      "score": 0.4731,
+      "publishedAt": "2026-07-25T22:50:49.000Z",
+      "summary": "For our second Content Independence Day, we’re giving website owners finer options to manage AI traffic. Instead of a one-size-fits-all block, all customers can now easily distinguish and manage Search, Agent, and Training bots, alongside the new ability to protect ad-monetized pages.",
+      "tags": [
+        "Agents"
+      ],
+      "engagementScore": 110
     },
     {
       "title": "Cricut Explore 5 vs. Siser Romeo: Choosing the Right Smart Cutting Machine (2026)",
       "url": "https://www.wired.com/story/cricut-explore-5-vs-siser-romeo/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4977,
+      "score": 0.4702,
       "publishedAt": "2026-07-25T11:06:00.000Z",
       "summary": "Friendly hobby machine or serious production tool? Here’s how to know which one is for you.",
       "tags": [
@@ -206,7 +249,7 @@
       "url": "https://www.wired.com/story/3-clever-things-you-can-do-with-an-old-amazon-kindle/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4972,
+      "score": 0.4696,
       "publishedAt": "2026-07-25T11:00:00.000Z",
       "summary": "These e-readers are more useful in their old age than you might think.",
       "tags": [
@@ -215,25 +258,11 @@
       "engagementScore": 0
     },
     {
-      "title": "DeepSeek pause fundraise after comments on compute gap to US leaked (transcript) [pdf]",
-      "url": "https://github.com/demo-zexuan/liang-wenfeng-investor-meeting-2026-7-22/blob/master/%E6%A2%81%E6%96%87%E9%94%8B%E6%8A%95%E8%B5%84%E8%80%85%E4%BA%A4%E6%B5%81%E4%BC%9A-%E6%96%87%E5%AD%97%E7%A8%BF_1_18_translate_20260723201651.pdf",
-      "feedSource": "Hacker News",
-      "source": "github.com",
-      "score": 0.4962,
-      "publishedAt": "2026-07-25T23:32:50.000Z",
-      "summary": "梁文锋四小时投资人会议实录. Contribute to demo-zexuan/liang-wenfeng-investor-meeting-2026-7-22 development by creating an account on GitHub.",
-      "tags": [
-        "Open Source",
-        "Industry"
-      ],
-      "engagementScore": 95
-    },
-    {
       "title": "Why Leatherology Makes Some of the Best Totes for Work (2026)",
       "url": "https://www.wired.com/story/leatherology-totes-for-carrying-tech/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4952,
+      "score": 0.4677,
       "publishedAt": "2026-07-25T10:38:00.000Z",
       "summary": "I packed these Leatherology totes with laptops, chargers, and everything else my workday demands. Months later, they’re still the bags I keep reaching for.",
       "tags": [
@@ -246,7 +275,7 @@
       "url": "https://www.wired.com/story/security-news-this-week-the-openai-models-that-hacked-hugging-face-were-active-on-the-internet-for-days/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4945,
+      "score": 0.467,
       "publishedAt": "2026-07-25T10:30:00.000Z",
       "summary": "Plus: Russian hackers are trying to steal US nuclear scientists’ emails, the State Department bans known scammers from entering the United States, and more.",
       "tags": [
@@ -260,7 +289,7 @@
       "url": "https://www.wired.com/story/best-laptops/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4918,
+      "score": 0.4643,
       "publishedAt": "2026-07-25T10:00:00.000Z",
       "summary": "I’ve been reviewing laptops for over a decade, and here's my advice on how to find the right laptop for you.",
       "tags": [
@@ -273,7 +302,7 @@
       "url": "https://www.wired.com/story/the-odyssey-was-made-for-imax-70mm-good-luck-watching-it-that-way/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4918,
+      "score": 0.4643,
       "publishedAt": "2026-07-25T10:00:00.000Z",
       "summary": "Over the last several years, the Imax format has taken on a few different forms—but only a few dozen theaters are capable of screening it in its full glory.",
       "tags": [
@@ -286,7 +315,7 @@
       "url": "https://www.wired.com/review/gopro-mission-1-pro/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4892,
+      "score": 0.4616,
       "publishedAt": "2026-07-25T09:30:00.000Z",
       "summary": "GoPro’s New Mission 1 cameras bring action cameras to a higher level with a larger sensor and more cinematic footage.",
       "tags": [
@@ -299,7 +328,7 @@
       "url": "https://www.wired.com/story/contagious-cancer-found-in-north-american-catfish/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4865,
+      "score": 0.4589,
       "publishedAt": "2026-07-25T09:00:00.000Z",
       "summary": "Scientists identified the first known cancer transmissible among freshwater fish in a lake that spans the US and Canada.",
       "tags": [
@@ -312,7 +341,7 @@
       "url": "https://www.technologyreview.com/2026/07/24/1140790/the-quest-to-keep-organs-alive-outside-the-body/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4858,
+      "score": 0.4557,
       "publishedAt": "2026-07-24T17:03:55.000Z",
       "summary": "This week, I covered a fascinating effort to preserve organs outside the body. There’s a huge shortage of donor organs, and one of the main reasons is time—they survive only a matter of hours outside the body, even when they’re kept on ice. Doctors dream of organ banks—stores of human organs that ca",
       "tags": [
@@ -321,37 +350,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Show HN: Brolly, a plain-text weather forecast site",
-      "url": "https://brolly.sh/forecast/RWFP2qW8",
-      "feedSource": "Hacker News",
-      "source": "brolly.sh",
-      "score": 0.4812,
-      "publishedAt": "2026-07-25T17:34:34.000Z",
-      "summary": "Plain-text weather forecast for York, York, England, United Kingdom. 7-day forecast, previous day comparison, hourly conditions, UV index, air quality, and pollen data.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 140
-    },
-    {
-      "title": "Clinical failure rates over the decades: yikes",
-      "url": "https://www.science.org/content/blog-post/clinical-failure-rates-over-decades-yikes",
-      "feedSource": "Hacker News",
-      "source": "science.org",
-      "score": 0.4779,
-      "publishedAt": "2026-07-25T22:57:17.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 62
-    },
-    {
       "title": "The Download: an organ transplant breakthrough, and homegrown Chinese chips",
       "url": "https://www.technologyreview.com/2026/07/24/1140776/the-download-organ-transplant-breakthrough-chinese-chips/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4572,
+      "score": 0.4271,
       "publishedAt": "2026-07-24T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Supercooled kidneys have been transplanted into pigs in a “landmark achievement”&#160; When it comes to organ donation, time is everything. As soon as",
       "tags": [
@@ -472,7 +475,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/970894/midjourney-co-star-acquisition",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4123,
+      "score": 0.3847,
       "publishedAt": "2026-07-24T19:06:58.000Z",
       "summary": "Midjourney, which has gone from generating AI cat images to full-body ultrasound scans, is getting into a new field: astrology. The AI startup announced on Thursday that it has acquired the personalized astrology app Co-Star, as reported earlier by Bloomberg. Co-Star is a free app that offers daily",
       "tags": [
@@ -486,7 +489,7 @@
       "url": "https://www.theverge.com/podcast/970735/google-zero-reddit-ai-publishers-vergecast",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4036,
+      "score": 0.376,
       "publishedAt": "2026-07-24T17:29:48.000Z",
       "summary": "The web and Google once had a deal: Google collects data and indexes webpages and in exchange sends oceans of traffic to websites. The deal wasn't perfect and certainly made Google more money than it made the websites, but it worked for a long time. Now, however, the deal seems to be dead. And the [",
       "tags": [
@@ -499,7 +502,7 @@
       "url": "https://www.theverge.com/tech/970570/meta-ai-chatbot-productivity-update",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4011,
+      "score": 0.3735,
       "publishedAt": "2026-07-24T17:01:54.000Z",
       "summary": "Meta is upgrading its AI chatbot with new productivity features in a bid to compete with rivals like Gemini, ChatGPT, and Claude. The update will allow Meta AI to tap into your calendar to help you plan events and generate daily briefings, as well as perform in-depth research that you can steer as i",
       "tags": [
@@ -513,24 +516,11 @@
       "url": "https://www.theverge.com/science/970534/genesis-mission-ai-science-funding-trump-grants",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.3888,
+      "score": 0.3613,
       "publishedAt": "2026-07-24T14:44:15.000Z",
       "summary": "The Trump administration unveiled the first \"Genesis Mission\" grants on Thursday, directing $5 billion toward hundreds of AI-driven science projects in an effort the White House has described as \"comparable in urgency and ambition to the Manhattan Project.\" At roughly the same time, Trump's science",
       "tags": [
         "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Supercooled kidneys have been transplanted into pigs in a “landmark achievement”",
-      "url": "https://www.technologyreview.com/2026/07/23/1140765/supercooled-kidneys-have-been-transplanted-into-pigs-in-a-landmark-achievement/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.3452,
-      "publishedAt": "2026-07-23T16:58:28.000Z",
-      "summary": "When it comes to organ donation, time is everything. As soon as an organ has been carefully removed from a donor’s body, it starts to deteriorate. Surgeons have a matter of hours to get it into a recipient. Leave it too long and the organ will become unusable. In most cases, organs will be kept&#823",
-      "tags": [
-        "AI"
       ],
       "engagementScore": 0
     },
@@ -639,11 +629,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Supercooled kidneys have been transplanted into pigs in a “landmark achievement”",
+      "url": "https://www.technologyreview.com/2026/07/23/1140765/supercooled-kidneys-have-been-transplanted-into-pigs-in-a-landmark-achievement/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.3152,
+      "publishedAt": "2026-07-23T16:58:28.000Z",
+      "summary": "When it comes to organ donation, time is everything. As soon as an organ has been carefully removed from a donor’s body, it starts to deteriorate. Surgeons have a matter of hours to get it into a recipient. Leave it too long and the organ will become unusable. In most cases, organs will be kept&#823",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "The Download: energy transmission and US threats against Chinese AI",
       "url": "https://www.technologyreview.com/2026/07/23/1140753/the-download-energy-transmission-and-us-threats-chinese-ai/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.3172,
+      "score": 0.2871,
       "publishedAt": "2026-07-23T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The power line that could reshape New York’s grid is hitting snags  During a heat wave on July 3, New York State’s grid imported enough electricity fr",
       "tags": [
@@ -656,7 +659,7 @@
       "url": "https://www.technologyreview.com/2026/07/23/1140346/how-ai-helps-scientists-design-the-next-generation-of-medicines/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.3162,
+      "score": 0.2862,
       "publishedAt": "2026-07-23T12:00:00.000Z",
       "summary": "Designing and developing a new medicine is an expensive, failure-prone scientific challenge. A new drug can take many years to develop, at the cost of a significant investment. And even then, most possible candidates never reach the patient. For biologic medicines, therapies made from engineered pro",
       "tags": [
@@ -671,7 +674,7 @@
       "url": "https://www.theverge.com/tech/970399/amazon-alexa-plus-ai-update-smart-home-devices",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.2995,
+      "score": 0.272,
       "publishedAt": "2026-07-23T22:02:15.000Z",
       "summary": "Amazon is launching an update to its Alexa Plus assistant that will allow it to connect to smart home devices in new ways. With the update, which is currently in preview, Alexa Plus can link up with tech from Bosch, Delta, Ecovacs, iRobot, Yale Home, Whirlpool, Tapo, Eufy, and others, while automati",
       "tags": [
