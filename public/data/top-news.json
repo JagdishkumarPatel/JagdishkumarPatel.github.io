@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T03:32:20.823Z",
+  "updatedAt": "2026-07-27T09:58:29.045Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,19 +8,158 @@
   ],
   "items": [
     {
+      "title": "FlowEvo: Self-Evolving Agents through the Co-Evolution of Workflows and Executable Skills",
+      "url": "https://arxiv.org/abs/2607.21596",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8716,
+      "publishedAt": "2026-07-27T04:00:00.000Z",
+      "summary": "arXiv:2607.21596v1 Announce Type: new \nAbstract: Large language model agents increasingly solve complex tasks by constructing inference-time workflows that combine reasoning, tool use, and code execution. While such workflows enable flexible problem solving, the useful procedures discovered during e",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Research",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Risk Is Not the Target: A Monotonic Framework for Evaluating Wildfire Operational Risk Signals",
+      "url": "https://arxiv.org/abs/2607.21597",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8716,
+      "publishedAt": "2026-07-27T04:00:00.000Z",
+      "summary": "arXiv:2607.21597v1 Announce Type: new \nAbstract: Evaluating wildfire risk systems using standard machine-learning metrics such as F1-score or IoU is fundamentally flawed: these metrics assess event prediction accuracy, not the operational coherence of a continuous risk signal. This work proposes a n",
+      "tags": [
+        "Research",
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Securing Multimodal AI through Internal Information Decomposition",
+      "url": "https://arxiv.org/abs/2607.21600",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8716,
+      "publishedAt": "2026-07-27T04:00:00.000Z",
+      "summary": "arXiv:2607.21600v1 Announce Type: new \nAbstract: Multimodal large language models introduce attack surfaces absent in unimodal systems: adversaries can distribute malicious intent across modalities to evade unimodal safeguards. This motivates using cross-modal consistency as a detection signal rathe",
+      "tags": [
+        "LLM",
+        "Research",
+        "Vision"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "From Frame-Level Recognition to Event-Level Confirmation: Repair Traces and Runtime Failure Analysis of Public-Space Gesture Interaction",
+      "url": "https://arxiv.org/abs/2607.21601",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8716,
+      "publishedAt": "2026-07-27T04:00:00.000Z",
+      "summary": "arXiv:2607.21601v1 Announce Type: new \nAbstract: Public-space gesture interaction is often evaluated as a frame-level recognition problem, but deployed systems expose a different failure boundary. In scenic kiosks, exhibition halls, and service terminals, users experience whether an intended action",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Transferable Latency Prediction for Fast LLM Screening on Heterogeneous Edge Devices",
+      "url": "https://arxiv.org/abs/2607.21602",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8716,
+      "publishedAt": "2026-07-27T04:00:00.000Z",
+      "summary": "arXiv:2607.21602v1 Announce Type: new \nAbstract: Accurate latency prediction is critical for deploying large language models (LLMs) on heterogeneous edge devices, where inference latency is affected by model architecture, prompt behavior, runtime backend, hardware utilization, dynamic voltage and fr",
+      "tags": [
+        "LLM",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "AgentKVShift: Efficient KV Cache Reuse for Agentic Memory Systems",
+      "url": "https://arxiv.org/abs/2607.21604",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8716,
+      "publishedAt": "2026-07-27T04:00:00.000Z",
+      "summary": "arXiv:2607.21604v1 Announce Type: new \nAbstract: Memory-augmented LLM agents maintain context across hundreds of interactions through agentic memory systems that actively curate retrieved content with LLM-generated metadata such as summaries, keywords, and tags. From an inference cost standpoint, ev",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "TILT: Improving Compositional Generation in Diffusion Models with a Model-Intrinsic Reward",
+      "url": "https://arxiv.org/abs/2607.21606",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8716,
+      "publishedAt": "2026-07-27T04:00:00.000Z",
+      "summary": "arXiv:2607.21606v1 Announce Type: new \nAbstract: Recent advances in powerful text-to-image generation models have made it increasingly important to develop test-time methods that modify the sampling trajectory to produce images more faithful to complex compositional prompts. We present TILT, a train",
+      "tags": [
+        "Research",
+        "Vision",
+        "ML Infra"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Spectral Flow Certificates for Depth-Aware Long-Range Propagation in Graph Neural Networks",
+      "url": "https://arxiv.org/abs/2607.21607",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8716,
+      "publishedAt": "2026-07-27T04:00:00.000Z",
+      "summary": "arXiv:2607.21607v1 Announce Type: new \nAbstract: Graph Neural Networks propagate information through local message passing, but the graph topologies themselves can silently prevent any amount of training from solving long-range tasks. When we deploy GNNs on new graphs, there is currently no inexpens",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Kimi-K3 Releases on HuggingFace 7/27",
+      "url": "https://huggingface.co/moonshotai/Kimi-K3",
+      "feedSource": "Hacker News",
+      "source": "huggingface.co",
+      "score": 0.8558,
+      "publishedAt": "2026-07-27T06:18:10.000Z",
+      "summary": "",
+      "tags": [
+        "Open Source"
+      ],
+      "engagementScore": 298
+    },
+    {
+      "title": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.7923,
+      "publishedAt": "2026-07-27T09:32:20.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Claude Opus 5",
       "url": "https://www.anthropic.com/news/claude-opus-5",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.8037,
+      "score": 0.757,
       "publishedAt": "2026-07-24T16:57:41.000Z",
-      "summary": "Opus 5 is a step change improvement for the Opus tier powering long-running agents while delivering improvements in coding and professional work.",
+      "summary": "",
       "tags": [
-        "LLM",
-        "Agents",
-        "Dev Tools"
+        "LLM"
       ],
-      "engagementScore": 1765
+      "engagementScore": 1771
     },
     {
       "title": "OpenAI and Hugging Face address security incident during model evaluation",
@@ -36,21 +175,86 @@
         "Open Source",
         "Industry"
       ],
-      "engagementScore": 1626
+      "engagementScore": 1627
+    },
+    {
+      "title": "Best Laptops for College Students (2026): MacBooks and Beyond",
+      "url": "https://www.wired.com/story/best-college-laptops/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5823,
+      "publishedAt": "2026-07-27T09:31:00.000Z",
+      "summary": "Laptops for college should be portable, offer long battery life, and be well priced. Based on testing hundreds of laptops, these are my top picks.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Measles Is Becoming So Common That Treatments May Soon Be Needed",
+      "url": "https://www.wired.com/story/measles-treatments-soon-needed/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5822,
+      "publishedAt": "2026-07-27T09:30:00.000Z",
+      "summary": "As the US sees its highest number of measles cases in decades and vaccination rates fall, researchers are developing drugs to help those who contract the virus or who are particularly vulnerable.",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Soundcore Nebula P1i Projector Review: New Design, Classic Pitfalls",
+      "url": "https://www.wired.com/review/soundcore-nebula-p1i-projector/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5795,
+      "publishedAt": "2026-07-27T09:00:00.000Z",
+      "summary": "I tested the Soundcore Nebula P1i, an affordable projector, to see if it could overcome the typical drawbacks that most budget projectors suffer from.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "It’s Becoming Clear Why Black Holes Never Run Out of Fuel",
+      "url": "https://www.wired.com/story/its-becoming-clear-why-black-holes-never-run-out-of-fuel/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5795,
+      "publishedAt": "2026-07-27T09:00:00.000Z",
+      "summary": "Black holes eject powerful energy jets that blow away the surrounding gas to great distances. So how can they continue to grow?",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "US citizen charged after GrapheneOS phone wipes during airport search",
       "url": "https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html",
       "feedSource": "Hacker News",
       "source": "techspot.com",
-      "score": 0.5323,
+      "score": 0.534,
       "publishedAt": "2026-07-26T22:21:41.000Z",
       "summary": "The case centers on Tunick’s use of GrapheneOS, an open-source operating system that works on Google Pixel phones and lets users enter a passcode to wipe a…",
       "tags": [
         "Open Source",
         "Dev Tools"
       ],
-      "engagementScore": 309
+      "engagementScore": 767
+    },
+    {
+      "title": "Meta launched a new AI optimism ad set to a song about human extinction",
+      "url": "https://techcrunch.com/2026/07/23/meta-launched-a-new-ai-optimism-ad-set-to-a-song-about-human-extinction/",
+      "feedSource": "Hacker News",
+      "source": "techcrunch.com",
+      "score": 0.5271,
+      "publishedAt": "2026-07-27T08:09:32.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 15
     },
     {
       "title": "Launching Health in ChatGPT",
@@ -165,11 +369,37 @@
       "engagementScore": 0
     },
     {
+      "title": "We have proof automation now",
+      "url": "https://www.imperialviolet.org/2026/07/26/zstd-lean.html",
+      "feedSource": "Hacker News",
+      "source": "imperialviolet.org",
+      "score": 0.4718,
+      "publishedAt": "2026-07-26T20:53:26.000Z",
+      "summary": "I’ve long had a soft spot for dependently-typed languages like Coq Rocq and Lean.\nThey offer the possibility of a type system capable of encoding and enforcing\narbitrarily subtle invariants. The sort of thing that, in regular languages, ends\nup (at best) as a comment, and which quickly gets lost as",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 168
+    },
+    {
+      "title": "It's not empowering to hand off the details",
+      "url": "https://davidnicholaswilliams.com/its-not-empowering-to-hand-off-the-details/",
+      "feedSource": "Hacker News",
+      "source": "davidnicholaswilliams.com",
+      "score": 0.4641,
+      "publishedAt": "2026-07-26T17:58:02.000Z",
+      "summary": "In a lot of meetings and need a system to keep track of key points and actions week to week?",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 201
+    },
+    {
       "title": "The Best Backpacking Sleeping Pads, Tested on the Trail (2026)",
       "url": "https://www.wired.com/gallery/best-backpacking-sleeping-pad/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4971,
+      "score": 0.4627,
       "publishedAt": "2026-07-26T11:09:00.000Z",
       "summary": "Our top-pick sleeping pads from Nemo, Therm-a-Rest, and Gossamer Gear use high-tech materials to engineer the best sleep you can get outdoors.",
       "tags": [
@@ -182,7 +412,7 @@
       "url": "https://www.wired.com/story/all-the-ways-you-can-make-reading-easier-on-your-phone/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4963,
+      "score": 0.4619,
       "publishedAt": "2026-07-26T11:00:00.000Z",
       "summary": "Tired of eye strain? These tips will help optimize your smartphone for marathon reading sessions.",
       "tags": [
@@ -195,61 +425,9 @@
       "url": "https://www.wired.com/story/ev-bidirectional-charging-solution-to-power-grid-woes/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.495,
+      "score": 0.4606,
       "publishedAt": "2026-07-26T10:45:00.000Z",
       "summary": "More electric vehicles are becoming capable of providing backup power at a time when the US is increasingly in need of more electrons.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Best Motorola Phones, From Razr to Moto G (2026)",
-      "url": "https://www.wired.com/story/best-motorola-phones/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.494,
-      "publishedAt": "2026-07-26T10:34:00.000Z",
-      "summary": "Motorola phones may seem old-school, but their reasonable prices, colorful designs, and simple software make them good, wallet-friendly Android smartphones.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "It's not empowering to hand off the details",
-      "url": "https://davidnicholaswilliams.com/its-not-empowering-to-hand-off-the-details/",
-      "feedSource": "Hacker News",
-      "source": "davidnicholaswilliams.com",
-      "score": 0.493,
-      "publishedAt": "2026-07-26T17:58:02.000Z",
-      "summary": "In a lot of meetings and need a system to keep track of key points and actions week to week?",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 188
-    },
-    {
-      "title": "The Best Subscription-Free Home Security Cameras I’ve Tried",
-      "url": "https://www.wired.com/story/best-subscription-free-security-cameras/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.491,
-      "publishedAt": "2026-07-26T10:00:00.000Z",
-      "summary": "You don’t have to upload your video to the cloud or pay a monthly fee to secure your home. These security cameras record locally.",
-      "tags": [
-        "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Best GoPro Camera (2026): Compact, Budget, Accessories",
-      "url": "https://www.wired.com/gallery/best-gopro-hero-camera/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.491,
-      "publishedAt": "2026-07-26T10:00:00.000Z",
-      "summary": "You’re an action hero, and you need a camera to match. We guide you through all the models, plus accessory recommendations and hidden software tricks to try.",
       "tags": [
         "AI"
       ],
@@ -260,52 +438,26 @@
       "url": "https://aerospaceglobalnews.com/news/gatwick-airport-robotic-parking-stanley-robotics/",
       "feedSource": "Hacker News",
       "source": "aerospaceglobalnews.com",
-      "score": 0.4903,
+      "score": 0.4599,
       "publishedAt": "2026-07-26T14:40:27.000Z",
       "summary": "London Gatwick is the first UK airport to launch robotic parking. Passengers can keep their keys while autonomous robots park their cars.",
       "tags": [
         "Agents"
       ],
-      "engagementScore": 272
+      "engagementScore": 278
     },
     {
-      "title": "We have proof automation now",
-      "url": "https://www.imperialviolet.org/2026/07/26/zstd-lean.html",
-      "feedSource": "Hacker News",
-      "source": "imperialviolet.org",
-      "score": 0.4836,
-      "publishedAt": "2026-07-26T20:53:26.000Z",
-      "summary": "I’ve long had a soft spot for dependently-typed languages like Coq Rocq and Lean.\nThey offer the possibility of a type system capable of encoding and enforcing\narbitrarily subtle invariants. The sort of thing that, in regular languages, ends\nup (at best) as a comment, and which quickly gets lost as",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 98
-    },
-    {
-      "title": "The relay market powering token resellers and fraud",
-      "url": "https://vectoral.com/blog/token-relay-market",
-      "feedSource": "Hacker News",
-      "source": "vectoral.com",
-      "score": 0.475,
-      "publishedAt": "2026-07-26T15:17:06.000Z",
-      "summary": "A look inside the gray-market reseller economy that gives mainland China cheap, structured, B2B-grade access to OpenAI, Anthropic, Google, and beyond",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 164
-    },
-    {
-      "title": "The New AI Superpowers: Focus and Followthrough",
-      "url": "https://www.rickmanelius.com/p/the-new-ai-superpowers-focus-and",
-      "feedSource": "Hacker News",
-      "source": "rickmanelius.com",
-      "score": 0.4645,
-      "publishedAt": "2026-07-26T13:13:03.000Z",
-      "summary": "Burnout is on the rise again, with an ironic twist.",
+      "title": "The Best Motorola Phones, From Razr to Moto G (2026)",
+      "url": "https://www.wired.com/story/best-motorola-phones/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4596,
+      "publishedAt": "2026-07-26T10:34:00.000Z",
+      "summary": "Motorola phones may seem old-school, but their reasonable prices, colorful designs, and simple software make them good, wallet-friendly Android smartphones.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 162
+      "engagementScore": 0
     },
     {
       "title": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
@@ -416,45 +568,6 @@
       "engagementScore": 0
     },
     {
-      "title": "Cricut Explore 5 vs. Siser Romeo: Choosing the Right Smart Cutting Machine (2026)",
-      "url": "https://www.wired.com/story/cricut-explore-5-vs-siser-romeo/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.3685,
-      "publishedAt": "2026-07-25T11:06:00.000Z",
-      "summary": "Friendly hobby machine or serious production tool? Here’s how to know which one is for you.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "3 Clever Things You Can Do With an Old Amazon Kindle",
-      "url": "https://www.wired.com/story/3-clever-things-you-can-do-with-an-old-amazon-kindle/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.368,
-      "publishedAt": "2026-07-25T11:00:00.000Z",
-      "summary": "These e-readers are more useful in their old age than you might think.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The quest to keep organs alive outside the body",
-      "url": "https://www.technologyreview.com/2026/07/24/1140790/the-quest-to-keep-organs-alive-outside-the-body/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.3448,
-      "publishedAt": "2026-07-24T17:03:55.000Z",
-      "summary": "This week, I covered a fascinating effort to preserve organs outside the body. There’s a huge shortage of donor organs, and one of the main reasons is time—they survive only a matter of hours outside the body, even when they’re kept on ice. Doctors dream of organ banks—stores of human organs that ca",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
       "url": "https://huggingface.co/blog/nunchaku-diffusers",
       "feedSource": "Hugging Face",
@@ -464,19 +577,6 @@
       "summary": "",
       "tags": [
         "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The State of Simulation for Physical AI: An Overview",
-      "url": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.3401,
-      "publishedAt": "2026-07-21T20:00:27.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
       ],
       "engagementScore": 0
     },
@@ -559,134 +659,28 @@
       "engagementScore": 0
     },
     {
+      "title": "The quest to keep organs alive outside the body",
+      "url": "https://www.technologyreview.com/2026/07/24/1140790/the-quest-to-keep-organs-alive-outside-the-body/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.3073,
+      "publishedAt": "2026-07-24T17:03:55.000Z",
+      "summary": "This week, I covered a fascinating effort to preserve organs outside the body. There’s a huge shortage of donor organs, and one of the main reasons is time—they survive only a matter of hours outside the body, even when they’re kept on ice. Doctors dream of organ banks—stores of human organs that ca",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "The Download: an organ transplant breakthrough, and homegrown Chinese chips",
       "url": "https://www.technologyreview.com/2026/07/24/1140776/the-download-organ-transplant-breakthrough-chinese-chips/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.3162,
+      "score": 0.2787,
       "publishedAt": "2026-07-24T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Supercooled kidneys have been transplanted into pigs in a “landmark achievement”&#160; When it comes to organ donation, time is everything. As soon as",
       "tags": [
         "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Midjourney bought the astrology app Co-Star",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/970894/midjourney-co-star-acquisition",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.283,
-      "publishedAt": "2026-07-24T19:06:58.000Z",
-      "summary": "Midjourney, which has gone from generating AI cat images to full-body ultrasound scans, is getting into a new field: astrology. The AI startup announced on Thursday that it has acquired the personalized astrology app Co-Star, as reported earlier by Bloomberg. Co-Star is a free app that offers daily",
-      "tags": [
-        "Vision",
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "You can’t ignore Google Zero anymore",
-      "url": "https://www.theverge.com/podcast/970735/google-zero-reddit-ai-publishers-vergecast",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.2744,
-      "publishedAt": "2026-07-24T17:29:48.000Z",
-      "summary": "The web and Google once had a deal: Google collects data and indexes webpages and in exchange sends oceans of traffic to websites. The deal wasn't perfect and certainly made Google more money than it made the websites, but it worked for a long time. Now, however, the deal seems to be dead. And the [",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Meta is making its AI chatbot more like an assistant",
-      "url": "https://www.theverge.com/tech/970570/meta-ai-chatbot-productivity-update",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.2719,
-      "publishedAt": "2026-07-24T17:01:54.000Z",
-      "summary": "Meta is upgrading its AI chatbot with new productivity features in a bid to compete with rivals like Gemini, ChatGPT, and Claude. The update will allow Meta AI to tap into your calendar to help you plan events and generate daily briefings, as well as perform in-depth research that you can steer as i",
-      "tags": [
-        "LLM",
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "3 Google updates from Galaxy Unpacked 2026",
-      "url": "https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/",
-      "feedSource": "Google AI",
-      "source": "blog.google",
-      "score": 0.2659,
-      "publishedAt": "2026-07-22T13:00:00.000Z",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Unpacked_hero.max-600x600.format-webp.webp\"&gt;We shared how Samsung users can boost productivity and get time back on new foldables, watches, and glasses coming soon.",
-      "tags": [
-        "RAG",
-        "Vision",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Connect more of your apps to Search",
-      "url": "https://blog.google/products-and-platforms/products/search/connected-apps/",
-      "feedSource": "Google AI",
-      "source": "blog.google",
-      "score": 0.2659,
-      "publishedAt": "2026-07-16T16:00:00.000Z",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ConnectedAppshero.max-600x600.format-webp.webp\"&gt;You’ll be able to securely link and interact with your go-to services directly in AI Mode.",
-      "tags": [
-        "RAG",
-        "Vision",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Create, edit and star in videos with two Google Vids updates",
-      "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
-      "feedSource": "Google AI",
-      "source": "blog.google",
-      "score": 0.2659,
-      "publishedAt": "2026-07-16T16:00:00.000Z",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/omni-blog-header_OarEe2t.max-600x600.format-webp.webp\"&gt;Gemini Omni and personal avatars in Google Vids make video creation easier than ever.",
-      "tags": [
-        "LLM",
-        "RAG",
-        "Vision",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Celebrating 25 years of visual search innovation",
-      "url": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary/",
-      "feedSource": "Google AI",
-      "source": "blog.google",
-      "score": 0.2659,
-      "publishedAt": "2026-07-14T16:00:00.000Z",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Images_25th_hero.max-600x600.format-webp.webp\"&gt;Google Images is turning 25. Here’s a look back at some major milestones — and new ways to explore and create visual content.",
-      "tags": [
-        "RAG",
-        "Vision",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Expanding Managed Agents in Gemini API:  background tasks, remote MCP and more",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
-      "feedSource": "Google AI",
-      "source": "blog.google",
-      "score": 0.2659,
-      "publishedAt": "2026-07-07T08:54:00.000Z",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Managed_agents_feature_bundle_l.max-600x600.format-webp.webp\"&gt;We’re announcing new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents.",
-      "tags": [
-        "LLM",
-        "Agents",
-        "RAG",
-        "Vision",
-        "Dev Tools"
       ],
       "engagementScore": 0
     }
