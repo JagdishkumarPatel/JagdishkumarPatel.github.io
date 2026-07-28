@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T11:20:58.581Z",
+  "updatedAt": "2026-07-28T14:18:09.875Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,21 +12,34 @@
       "url": "https://www.anthropic.com/news/position-open-weights-models",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 1.1005,
+      "score": 1.0841,
       "publishedAt": "2026-07-27T22:03:49.000Z",
       "summary": "Anthropic CEO Dario Amodei on open-weights models",
       "tags": [
         "LLM",
         "ML Infra"
       ],
-      "engagementScore": 953
+      "engagementScore": 1048
+    },
+    {
+      "title": "Kimi Linear: An Expressive, Efficient Attention Architecture",
+      "url": "https://arxiv.org/abs/2510.26692",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.8918,
+      "publishedAt": "2026-07-28T10:52:30.000Z",
+      "summary": "We introduce Kimi Linear, a hybrid linear attention architecture that, for the first time, outperforms full attention under fair comparisons across various scenarios -- including short-context, long-context, and reinforcement learning (RL) scaling regimes. At its core lies Kimi Delta Attention (KDA)",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 53
     },
     {
       "title": "FlowEvo: Self-Evolving Agents through the Co-Evolution of Workflows and Executable Skills",
       "url": "https://arxiv.org/abs/2607.21596",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8622,
+      "score": 0.8421,
       "publishedAt": "2026-07-28T04:00:00.000Z",
       "summary": "arXiv:2607.21596v1 Announce Type: new \nAbstract: Large language model agents increasingly solve complex tasks by constructing inference-time workflows that combine reasoning, tool use, and code execution. While such workflows enable flexible problem solving, the useful procedures discovered during e",
       "tags": [
@@ -42,7 +55,7 @@
       "url": "https://arxiv.org/abs/2607.21597",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8622,
+      "score": 0.8421,
       "publishedAt": "2026-07-28T04:00:00.000Z",
       "summary": "arXiv:2607.21597v1 Announce Type: new \nAbstract: Evaluating wildfire risk systems using standard machine-learning metrics such as F1-score or IoU is fundamentally flawed: these metrics assess event prediction accuracy, not the operational coherence of a continuous risk signal. This work proposes a n",
       "tags": [
@@ -56,7 +69,7 @@
       "url": "https://arxiv.org/abs/2607.21600",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8622,
+      "score": 0.8421,
       "publishedAt": "2026-07-28T04:00:00.000Z",
       "summary": "arXiv:2607.21600v1 Announce Type: new \nAbstract: Multimodal large language models introduce attack surfaces absent in unimodal systems: adversaries can distribute malicious intent across modalities to evade unimodal safeguards. This motivates using cross-modal consistency as a detection signal rathe",
       "tags": [
@@ -71,7 +84,7 @@
       "url": "https://arxiv.org/abs/2607.21601",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8622,
+      "score": 0.8421,
       "publishedAt": "2026-07-28T04:00:00.000Z",
       "summary": "arXiv:2607.21601v1 Announce Type: new \nAbstract: Public-space gesture interaction is often evaluated as a frame-level recognition problem, but deployed systems expose a different failure boundary. In scenic kiosks, exhibition halls, and service terminals, users experience whether an intended action",
       "tags": [
@@ -84,7 +97,7 @@
       "url": "https://arxiv.org/abs/2607.21602",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8622,
+      "score": 0.8421,
       "publishedAt": "2026-07-28T04:00:00.000Z",
       "summary": "arXiv:2607.21602v1 Announce Type: new \nAbstract: Accurate latency prediction is critical for deploying large language models (LLMs) on heterogeneous edge devices, where inference latency is affected by model architecture, prompt behavior, runtime backend, hardware utilization, dynamic voltage and fr",
       "tags": [
@@ -98,7 +111,7 @@
       "url": "https://arxiv.org/abs/2607.21604",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8622,
+      "score": 0.8421,
       "publishedAt": "2026-07-28T04:00:00.000Z",
       "summary": "arXiv:2607.21604v1 Announce Type: new \nAbstract: Memory-augmented LLM agents maintain context across hundreds of interactions through agentic memory systems that actively curate retrieved content with LLM-generated metadata such as summaries, keywords, and tags. From an inference cost standpoint, ev",
       "tags": [
@@ -113,7 +126,7 @@
       "url": "https://arxiv.org/abs/2607.21606",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8622,
+      "score": 0.8421,
       "publishedAt": "2026-07-28T04:00:00.000Z",
       "summary": "arXiv:2607.21606v1 Announce Type: new \nAbstract: Recent advances in powerful text-to-image generation models have made it increasingly important to develop test-time methods that modify the sampling trajectory to produce images more faithful to complex compositional prompts. We present TILT, a train",
       "tags": [
@@ -128,7 +141,7 @@
       "url": "https://arxiv.org/abs/2607.21607",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8622,
+      "score": 0.8421,
       "publishedAt": "2026-07-28T04:00:00.000Z",
       "summary": "arXiv:2607.21607v1 Announce Type: new \nAbstract: Graph Neural Networks propagate information through local message passing, but the graph topologies themselves can silently prevent any amount of training from solving long-range tasks. When we deploy GNNs on new graphs, there is currently no inexpens",
       "tags": [
@@ -141,7 +154,7 @@
       "url": "https://arxiv.org/abs/2607.05283",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8092,
+      "score": 0.7891,
       "publishedAt": "2026-07-27T23:46:15.000Z",
       "summary": "In this paper we use ideas introduced earlier by Moody, Long, Long-Paton, and Bigelow to prove the theorem of the title, that the Burau representation of the classical braid group is faithful for n = 4. An immediate corollary is that the Jones representation of the braid group is also faithful for n",
       "tags": [
@@ -150,11 +163,24 @@
       "engagementScore": 31
     },
     {
+      "title": "How real are real numbers? (2004)",
+      "url": "https://arxiv.org/abs/math/0411418",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.788,
+      "publishedAt": "2026-07-27T15:40:17.000Z",
+      "summary": "We discuss mathematical and physical arguments against continuity and in favor of discreteness, with particular emphasis on the ideas of Emile Borel (1871-1956).",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 90
+    },
+    {
       "title": "How AI is expanding what people do at work",
       "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8051,
+      "score": 0.7836,
       "publishedAt": "2026-07-27T03:30:00.000Z",
       "summary": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
       "tags": [
@@ -165,37 +191,68 @@
       "engagementScore": 0
     },
     {
-      "title": "How real are real numbers? (2004)",
-      "url": "https://arxiv.org/abs/math/0411418",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.8034,
-      "publishedAt": "2026-07-27T15:40:17.000Z",
-      "summary": "We discuss mathematical and physical arguments against continuity and in favor of discreteness, with particular emphasis on the ideas of Emile Borel (1871-1956).",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 82
-    },
-    {
       "title": "Kimi-K3 on HuggingFace",
       "url": "https://huggingface.co/moonshotai/Kimi-K3",
       "feedSource": "Hacker News",
       "source": "huggingface.co",
-      "score": 0.7664,
+      "score": 0.7481,
       "publishedAt": "2026-07-27T06:18:10.000Z",
       "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
       "tags": [
         "Open Source"
       ],
-      "engagementScore": 1344
+      "engagementScore": 1355
+    },
+    {
+      "title": "5 ways AI Mode in Search helps you enjoy the real world",
+      "url": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/",
+      "feedSource": "Google AI",
+      "source": "blog.google",
+      "score": 0.6783,
+      "publishedAt": "2026-07-28T13:00:00.000Z",
+      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_Mode_real_world.max-600x600.format-webp.webp\"&gt;It might sound counterintuitive, but Search's AI tools can actually help you make the most of your time offline whether you want to book concert tickets or find the perf…",
+      "tags": [
+        "RAG",
+        "Vision",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "5 ways to host the ultimate dinner party with Google Search",
+      "url": "https://blog.google/products-and-platforms/products/search/dinner-party-hosting-tips/",
+      "feedSource": "Google AI",
+      "source": "blog.google",
+      "score": 0.6783,
+      "publishedAt": "2026-07-28T13:00:00.000Z",
+      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Dinner_parties.max-600x600.format-webp.webp\"&gt;These AI features can help you craft a menu, design a tablescape, and handle other party-planning tasks.",
+      "tags": [
+        "RAG",
+        "Vision",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Download: OpenAI&#8217;s predictable hack, and an AI stock sell-off",
+      "url": "https://www.technologyreview.com/2026/07/28/1140868/the-download-openai-hack-ai-stock-sell-off/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6734,
+      "publishedAt": "2026-07-28T12:10:00.000Z",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. OpenAI called the Hugging Face attack unprecedented. But we’ve been here before.&#160; —Will Douglas Heaven, senior AI editor Reading OpenAI’s account",
+      "tags": [
+        "LLM",
+        "Open Source"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "The Polynomial-Time Low-Degree Conjecture Is False",
       "url": "https://arxiv.org/abs/2607.20318",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.6923,
+      "score": 0.6722,
       "publishedAt": "2026-07-27T21:50:04.000Z",
       "summary": "The low-degree method and its associated lower bounds are widely used to guide algorithm design and to provide evidence of computational hardness in average-case inference, high-dimensional statistics, random optimization, and related problems. This led to the low-degree conjecture, which predicts t",
       "tags": [
@@ -208,7 +265,7 @@
       "url": "https://www.technologyreview.com/2026/07/28/1140853/samsung-chip-workers-exodus-sk-hynix/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.674,
+      "score": 0.6568,
       "publishedAt": "2026-07-28T09:18:57.000Z",
       "summary": "Lee, an engineer at Samsung’s semiconductor division, clocks out when his shift ends. He used to work longer hours, going the extra mile to excel at his projects. But lately, he’s been coming straight home to work on his job application for the chipmaker’s South Korean rival SK Hynix, sharing tips w",
       "tags": [
@@ -221,7 +278,7 @@
       "url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6319,
+      "score": 0.6133,
       "publishedAt": "2026-07-27T09:32:20.000Z",
       "summary": "",
       "tags": [
@@ -230,11 +287,104 @@
       "engagementScore": 0
     },
     {
+      "title": "Is the Electric Trike the Next Big Thing in Shared Micromobility?",
+      "url": "https://www.wired.com/story/is-the-electric-trike-the-next-big-thing-in-shared-micromobility-veo-rover/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5831,
+      "publishedAt": "2026-07-28T14:00:00.000Z",
+      "summary": "Veo is launching accessibility-focused electric tricycles in Denver, with plans to put its e-trikes on the streets nationwide.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Perplexity’s Personal Computer turns Windows PCs into AI agents",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/971750/perplexity-personal-computer-windows-ai-agents",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5735,
+      "publishedAt": "2026-07-28T12:11:42.000Z",
+      "summary": "Perplexity has expanded its agentic Personal Computer tool to Windows, allowing computers running the world's most popular OS to be used as a locally run AI system. Like the Mac version that Perplexity launched in April, Personal Computer for Windows operates like a \"general-purpose digital worker\"",
+      "tags": [
+        "Agents",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Best Gifts for Mom (2026): E-Readers, Digital Wall Calendar, Smart Bird Feeders",
+      "url": "https://www.wired.com/story/best-gifts-for-mom-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5728,
+      "publishedAt": "2026-07-28T12:04:00.000Z",
+      "summary": "Your mom never gets you a thoughtless gift, so you shouldn’t get her one, either. Here’s every cool gift WIRED writers would give their mothers.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Smart rings are looking like my kind of AI gadget",
+      "url": "https://www.theverge.com/gadgets/971744/smart-ring-ai-gadget-stream-index",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5706,
+      "publishedAt": "2026-07-28T11:39:01.000Z",
+      "summary": "Over the last few months, I've spent a lot of time talking to my computer. One underrated feature of the LLM revolution has been a remarkable leap in all kinds of dictation technology - even the fastest, cheapest models are getting very good at understanding and processing speech. I've tested lots o",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Best Apple Watch (2026): Series 11, SE 3, and Ultra 3",
+      "url": "https://www.wired.com/gallery/best-apple-watch/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5701,
+      "publishedAt": "2026-07-28T11:34:00.000Z",
+      "summary": "Should you splurge on the new Series 11, or will the SE 3 do? Let us help you figure out which version to get (and which to avoid).",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Best Gifts for Hikers, Backpackers, Outdoorsy People (2026)",
+      "url": "https://www.wired.com/gallery/awesome-gifts-for-hikers-backpackers-outdoorsy-people/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.57,
+      "publishedAt": "2026-07-28T11:33:00.000Z",
+      "summary": "Let them pick out their own hiking boots. Instead, try gifting a useful blade or a nature journal to delight your outdoorsy friend.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "OpenAI called the Hugging Face attack unprecedented. But we’ve been here before.",
+      "url": "https://www.technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.5675,
+      "publishedAt": "2026-07-27T18:00:00.000Z",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. Reading OpenAI’s account last week of how some of its models broke their containment and hacked into the computer systems of Hugging Face, another AI company",
+      "tags": [
+        "LLM",
+        "Open Source"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "A Two-Person Startup Has Fixed One of the Most Hated Sounds in Modern Life",
       "url": "https://www.wired.com/story/a-two-person-startup-has-fixed-one-of-the-most-hated-sounds-in-modern-life/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5829,
+      "score": 0.5671,
       "publishedAt": "2026-07-28T11:00:00.000Z",
       "summary": "Beeeep. Beeeep. Beeeeeeeeeeeeeeeep.",
       "tags": [
@@ -247,7 +397,7 @@
       "url": "https://www.wired.com/story/the-big-interview-podcast-a-g-sulzberger-new-york-times/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5802,
+      "score": 0.5644,
       "publishedAt": "2026-07-28T10:30:00.000Z",
       "summary": "In 2023, the Times sued OpenAI and Microsoft for copyright infringement. They’ve since spent more than $20 million on the case, and publisher A.G. Sulzberger has no plans to stop fighting it.",
       "tags": [
@@ -260,7 +410,7 @@
       "url": "https://www.wired.com/story/nonprofits-are-getting-ready-for-the-funding-anthropalypse/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5775,
+      "score": 0.5617,
       "publishedAt": "2026-07-28T10:00:00.000Z",
       "summary": "Anthropic and OpenAI employees are expected to give generously after their companies go public. “It’s going to be a wild ride,” says one nonprofit leader.",
       "tags": [
@@ -274,7 +424,7 @@
       "url": "https://www.wired.com/review/dyson-v16-piston-animal-submarine/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5749,
+      "score": 0.5592,
       "publishedAt": "2026-07-28T09:31:00.000Z",
       "summary": "Dyson’s new stick vacuum can vacuum and mop in a single cordless device—if you’re willing to really splurge.",
       "tags": [
@@ -283,24 +433,24 @@
       "engagementScore": 0
     },
     {
-      "title": "7-OH Users Are Stockpiling and Doing Reddit Detoxes to Prep for Ban",
-      "url": "https://www.wired.com/story/7-oh-users-brace-for-dea-ban/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5749,
-      "publishedAt": "2026-07-28T09:30:00.000Z",
-      "summary": "The opioid-like compound, which is found in kratom, can cause brutal withdrawal symptoms and will soon be a controlled substance. Some users tell WIRED it has relieved their pain and anxiety.",
+      "title": "Building the enterprise environment for agentic AI",
+      "url": "https://www.technologyreview.com/2026/07/27/1140668/building-the-enterprise-environment-for-agentic-ai/",
+      "feedSource": "Hacker News",
+      "source": "technologyreview.com",
+      "score": 0.5571,
+      "publishedAt": "2026-07-28T11:01:20.000Z",
+      "summary": "Enterprises will find success with a complete agentic AI environment where agents plan, retrieve, remember, and act reliably at scale.",
       "tags": [
-        "AI"
+        "Agents"
       ],
-      "engagementScore": 0
+      "engagementScore": 4
     },
     {
       "title": "Hugging Face is being used to easily undress women and children",
       "url": "https://www.theverge.com/ai-artificial-intelligence/971723/hugging-face-nudify-deepfake-undress-women-children",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5728,
+      "score": 0.557,
       "publishedAt": "2026-07-28T09:07:14.000Z",
       "summary": "Hugging Face is being used to make nonconsensual deepfakes, and the popular open-source AI model repository is doing very little to prevent it. That's according to a new report published by the European nonprofit AI Forensics, which found that seven out of the top nine image editing models hosted by",
       "tags": [
@@ -310,38 +460,11 @@
       "engagementScore": 0
     },
     {
-      "title": "An Extreme Solar Storm May Be Even More Devastating Than Previously Imagined",
-      "url": "https://www.wired.com/story/an-extreme-solar-storm-may-be-even-more-devastating-than-previously-imagined/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5722,
-      "publishedAt": "2026-07-28T09:00:00.000Z",
-      "summary": "Scientists have long assumed that there’s an upper limit to the intensity of the solar winds that reach Earth. New research suggests there’s not—and the implications are alarming.",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "OpenAI called the Hugging Face attack unprecedented. But we've been here before",
-      "url": "https://www.technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent/",
-      "feedSource": "Hacker News",
-      "source": "technologyreview.com",
-      "score": 0.5665,
-      "publishedAt": "2026-07-28T05:30:50.000Z",
-      "summary": "A decade-old experiment showed OpenAI how far an AI will go to achieve the goals it’s given.",
-      "tags": [
-        "LLM",
-        "Open Source"
-      ],
-      "engagementScore": 7
-    },
-    {
       "title": "How lasers could help provide fuel for nuclear reactors",
       "url": "https://www.technologyreview.com/2026/07/27/1140798/laser-nuclear-enrichment/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5638,
+      "score": 0.5465,
       "publishedAt": "2026-07-27T14:24:42.000Z",
       "summary": "Outside the small town of Paducah, Kentucky, a wealth of uranium is locked away in thousands of storage cylinders filled with waste material from a now-closed nuclear enrichment facility. Lasers could help get it out. A company called Global Laser Enrichment (GLE) is looking to reprocess this old ma",
       "tags": [
@@ -350,39 +473,24 @@
       "engagementScore": 0
     },
     {
-      "title": "Hugging Face Has a Deepfake Nudes Problem",
-      "url": "https://www.wired.com/story/hugging-face-has-a-nonconsensual-deepfakes-problem/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5535,
-      "publishedAt": "2026-07-28T05:30:00.000Z",
-      "summary": "Researchers tested top image editing models on Hugging Face and found they could easily create explicit deepfakes—and 1,000 image editing prompts show how people use the software.",
+      "title": "7.1 Earthquake in Japan",
+      "url": "https://www.data.jma.go.jp/multi/quake/quake_detail.html?eventID=20260728163528&lang=en",
+      "feedSource": "Hacker News",
+      "source": "data.jma.go.jp",
+      "score": 0.5429,
+      "publishedAt": "2026-07-28T07:44:24.000Z",
+      "summary": "気象庁",
       "tags": [
-        "Research",
-        "Open Source",
-        "Vision"
+        "AI"
       ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Ulta Promo Codes: Up to 50% Off in July 2026",
-      "url": "https://www.wired.com/story/ulta-coupon/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.551,
-      "publishedAt": "2026-07-28T05:02:00.000Z",
-      "summary": "Shop the latest beauty trends and save big using an Ulta promo code for beauty tech, makeup, and more.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
+      "engagementScore": 499
     },
     {
       "title": "The Download: lasers for nuclear fuel, and organ preservation advances",
       "url": "https://www.technologyreview.com/2026/07/27/1140833/the-download-lasers-nuclear-organ-preservation/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5507,
+      "score": 0.5334,
       "publishedAt": "2026-07-27T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. How lasers could help provide fuel for nuclear reactors&#160; Nuclear power provides about 9% of global electricity today, and that fraction could tic",
       "tags": [
@@ -395,7 +503,7 @@
       "url": "https://www.technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5497,
+      "score": 0.5325,
       "publishedAt": "2026-07-27T12:00:00.000Z",
       "summary": "Imagine a healthcare system made up of multiple AI agents: one that manages symptom assessment, another scheduling, a third insurance, and a fourth pharmacy. Each is an expert in its domain. But they all have their own distinct knowledge and objectives. Today they can exchange data, but they are not",
       "tags": [
@@ -409,52 +517,13 @@
       "url": "https://www.technologyreview.com/2026/07/27/1139667/closing-the-data-loop-in-ai-driven-drug-discovery/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5478,
+      "score": 0.5306,
       "publishedAt": "2026-07-27T11:40:16.000Z",
       "summary": "Drug discovery is a high-cost, high-risk endeavor that is under growing pressure from a market increasingly defined by first-mover advantage. Since the 1950s, the cost of developing new pharmaceuticals has roughly doubled every nine years—a phenomenon known as Eroom’s Law. Today, bringing a new drug",
       "tags": [
         "Safety"
       ],
       "engagementScore": 0
-    },
-    {
-      "title": "Building the enterprise environment for agentic AI",
-      "url": "https://www.technologyreview.com/2026/07/27/1140668/building-the-enterprise-environment-for-agentic-ai/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.5471,
-      "publishedAt": "2026-07-27T11:32:58.000Z",
-      "summary": "For the enterprise, the promise of agentic AI is much more than just a better chatbot. It is software agents that execute business tasks end-to-end across people, business workflows, data, and systems. The platform best-suited to run agents is built with proper CPU capacity, resilient data access, p",
-      "tags": [
-        "Agents"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "7.1 Earthquake in Japan",
-      "url": "https://www.data.jma.go.jp/multi/quake/quake_detail.html?eventID=20260728163528&lang=en",
-      "feedSource": "Hacker News",
-      "source": "data.jma.go.jp",
-      "score": 0.5359,
-      "publishedAt": "2026-07-28T07:44:24.000Z",
-      "summary": "気象庁",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 276
-    },
-    {
-      "title": "Using an open model feels surprisingly good",
-      "url": "https://matthewsaltz.com/blog/using-an-open-model-feels-surprisingly-good/",
-      "feedSource": "Hacker News",
-      "source": "matthewsaltz.com",
-      "score": 0.5131,
-      "publishedAt": "2026-07-28T02:37:14.000Z",
-      "summary": "Using an open model feels surprisingly good",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 293
     },
     {
       "title": "Launching Health in ChatGPT",
@@ -557,7 +626,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4859,
+      "score": 0.4701,
       "publishedAt": "2026-07-27T16:51:50.000Z",
       "summary": "Silicon Valley has spent much of the past week on red alert, digesting the arrival of Moonshot AI's Kimi K3, a Chinese AI model that can allegedly beat some of the best systems built by US companies at a fraction of the cost. Its performance alone would have been enough to intensify the rivalry betw",
       "tags": [
@@ -570,7 +639,7 @@
       "url": "https://www.theverge.com/science/970534/genesis-mission-ai-science-funding-trump-grants",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4694,
+      "score": 0.4536,
       "publishedAt": "2026-07-27T13:46:35.000Z",
       "summary": "The Trump administration unveiled the first \"Genesis Mission\" grants on Thursday, directing $5 billion toward hundreds of AI-driven science projects in an effort the White House has described as \"comparable in urgency and ambition to the Manhattan Project.\" At roughly the same time, Trump's science",
       "tags": [
@@ -583,7 +652,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4659,
+      "score": 0.4501,
       "publishedAt": "2026-07-27T13:07:41.000Z",
       "summary": "Nvidia on Monday said it is joining forces with Microsoft, SpaceX, IBM, and other tech companies to build and share open-source AI security tools. The new Open Secure AI Alliance said open tools are required to effectively defend against attacks from frontier models. The initiative is a direct respo",
       "tags": [
@@ -616,74 +685,6 @@
       "summary": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.",
       "tags": [
         "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Introducing Gemini 3.5 Flash Cyber",
-      "url": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-07-17T15:00:11.000Z",
-      "summary": "Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.",
-      "tags": [
-        "LLM",
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Our approach to bioresilience",
-      "url": "https://deepmind.google/blog/our-approach-to-bioresilience/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-07-16T09:30:42.000Z",
-      "summary": "Google DeepMind and Isomorphic Labs are sharing our joint approach to bioresilience and AI models.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Empowering India’s next generation of innovators with ATL Saathi",
-      "url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-07-13T12:37:28.000Z",
-      "summary": "Google and AIM launched ATL Saathi, a Gemini-powered AI tool empowering Indian educators in robotics labs.",
-      "tags": [
-        "LLM",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Google DeepMind and A24 announce first-of-its-kind research partnership",
-      "url": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-07-03T14:25:43.000Z",
-      "summary": "Today, Google DeepMind and A24 are announcing a first-of-its-kind partnership focused on research. The collaboration pairs a world-leading research lab with the industry…",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Start building with Nano Banana 2 Lite and Gemini Omni Flash",
-      "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-06-30T16:02:40.000Z",
-      "summary": "Scale your ideas with Nano Banana 2 Lite, our fastest, most cost-efficient Gemini Image model, and Gemini Omni Flash for high-quality video and conversational editing.",
-      "tags": [
-        "LLM",
-        "Vision"
       ],
       "engagementScore": 0
     }
