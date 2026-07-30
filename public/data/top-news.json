@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T22:03:55.072Z",
+  "updatedAt": "2026-07-30T02:40:33.610Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,11 +8,25 @@
   ],
   "items": [
     {
+      "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
+      "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.9522,
+      "publishedAt": "2026-07-29T15:00:00.000Z",
+      "summary": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.",
+      "tags": [
+        "LLM",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
       "url": "https://openai.com/index/chatgpt-for-academic-researchers",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9494,
+      "score": 0.9158,
       "publishedAt": "2026-07-29T10:00:00.000Z",
       "summary": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
       "tags": [
@@ -26,7 +40,7 @@
       "url": "https://arxiv.org/abs/2607.25398",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.9366,
+      "score": 0.9102,
       "publishedAt": "2026-07-29T13:01:57.000Z",
       "summary": "Language-model agents are increasingly deployed under standing instructions: a system prompt, a policy file, or a skills document is placed in context, and the agent is trusted to let it govern every action that follows. Existing benchmarks rarely test this deployment pattern directly; they measure",
       "tags": [
@@ -34,14 +48,28 @@
         "Safety",
         "ML Infra"
       ],
-      "engagementScore": 272
+      "engagementScore": 300
+    },
+    {
+      "title": "The way GPT-5.6 fuses frontier intelligence with frontier efficiency – OpenAI",
+      "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency/",
+      "feedSource": "Hacker News",
+      "source": "openai.com",
+      "score": 0.9077,
+      "publishedAt": "2026-07-29T20:52:48.000Z",
+      "summary": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
+      "tags": [
+        "LLM",
+        "Agents"
+      ],
+      "engagementScore": 10
     },
     {
       "title": "Discovering Cryptographic Weaknesses with Claude",
       "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.91,
+      "score": 0.8764,
       "publishedAt": "2026-07-28T17:22:16.000Z",
       "summary": "Anthropic researchers find weaknesses in cryptographic algorithms with Claude Mythos Preview",
       "tags": [
@@ -55,7 +83,7 @@
       "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8765,
+      "score": 0.8429,
       "publishedAt": "2026-07-29T00:00:00.000Z",
       "summary": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
       "tags": [
@@ -69,7 +97,7 @@
       "url": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.8712,
+      "score": 0.8398,
       "publishedAt": "2026-07-29T16:02:10.000Z",
       "summary": "Our newest music generation model, Lyria 3.5, delivers significant advancements across musicality, lyrics, and vocal quality, empowering you to craft richer tracks. We’r…",
       "tags": [
@@ -82,21 +110,21 @@
       "url": "https://www.anthropic.com/news/position-open-weights-models",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.8584,
+      "score": 0.8249,
       "publishedAt": "2026-07-27T22:03:49.000Z",
       "summary": "Anthropic CEO Dario Amodei on open-weights models",
       "tags": [
         "LLM",
         "ML Infra"
       ],
-      "engagementScore": 1168
+      "engagementScore": 1169
     },
     {
       "title": "Scientific computing in the age of agentic AI",
       "url": "https://openai.com/index/scientific-computing-agentic-ai",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8254,
+      "score": 0.7918,
       "publishedAt": "2026-07-28T17:00:00.000Z",
       "summary": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
       "tags": [
@@ -111,9 +139,9 @@
       "url": "https://arxiv.org/abs/2607.24758",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7893,
+      "score": 0.7579,
       "publishedAt": "2026-07-29T04:00:00.000Z",
-      "summary": "arXiv:2607.24758v1 Announce Type: new \nAbstract: Large language models are capable of recognizing evaluation contexts and altering their behavior to reflect evaluator expectations rather than typical deployment behaviors, a phenomenon known as alignment faking. The reasons why models fake alignment",
+      "summary": "arXiv:2607.24758v2 Announce Type: new \nAbstract: Large language models are capable of recognizing evaluation contexts and altering their behavior to reflect evaluator expectations rather than typical deployment behaviors, a phenomenon known as alignment faking. The reasons why models fake alignment",
       "tags": [
         "LLM",
         "Research",
@@ -127,7 +155,7 @@
       "url": "https://arxiv.org/abs/2607.24759",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7893,
+      "score": 0.7579,
       "publishedAt": "2026-07-29T04:00:00.000Z",
       "summary": "arXiv:2607.24759v1 Announce Type: new \nAbstract: Research projects, educational efforts, and adjacent knowledge work accumulate findings, decisions, and reasoning that future collaborators rarely recover. The parts most useful to that work, including dead ends and walked-back claims, are routinely e",
       "tags": [
@@ -142,7 +170,7 @@
       "url": "https://arxiv.org/abs/2607.24762",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7893,
+      "score": 0.7579,
       "publishedAt": "2026-07-29T04:00:00.000Z",
       "summary": "arXiv:2607.24762v1 Announce Type: new \nAbstract: Machine learning models are increasingly embedded in everyday software, and most of their runtime is spent in a small set of compute kernels such as matrix multiplication, convolution, and normalization. Optimizing these kernels is one of the most dir",
       "tags": [
@@ -157,7 +185,7 @@
       "url": "https://arxiv.org/abs/2607.24763",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7893,
+      "score": 0.7579,
       "publishedAt": "2026-07-29T04:00:00.000Z",
       "summary": "arXiv:2607.24763v1 Announce Type: new \nAbstract: Masked diffusion language models (MDLMs) are advancing rapidly, yet the evaluation standards needed to reliably interpret their progress have not kept pace. Despite MDLMs becoming competitive with autoregressive language models, seven recent remasking",
       "tags": [
@@ -174,7 +202,7 @@
       "url": "https://arxiv.org/abs/2607.24764",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7893,
+      "score": 0.7579,
       "publishedAt": "2026-07-29T04:00:00.000Z",
       "summary": "arXiv:2607.24764v1 Announce Type: new \nAbstract: The rapid growth of online grocery shopping requires recommendation systems that capture cyclical purchasing behavior and diverse user intents. Traditional item-level methods face scalability and accuracy challenges, motivating category-level recommen",
       "tags": [
@@ -189,7 +217,7 @@
       "url": "https://arxiv.org/abs/2607.24766",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7893,
+      "score": 0.7579,
       "publishedAt": "2026-07-29T04:00:00.000Z",
       "summary": "arXiv:2607.24766v1 Announce Type: new \nAbstract: Large language models (LLMs) can generate individual charts, but coordinated multi-view visualizations (CMVs), where views share data flows and cross-view interactions, remain out of reach. Tight field-level coupling among data transformations, visual",
       "tags": [
@@ -204,7 +232,7 @@
       "url": "https://arxiv.org/abs/2607.24768",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7893,
+      "score": 0.7579,
       "publishedAt": "2026-07-29T04:00:00.000Z",
       "summary": "arXiv:2607.24768v1 Announce Type: new \nAbstract: Prenatal care is an important preventive service designed to improve outcomes for pregnant individuals. The American College of Obstetricians and Gynecologists (ACOG) recently introduced guidelines advocating tailored prenatal care, called PATH (Plan",
       "tags": [
@@ -218,7 +246,7 @@
       "url": "https://arxiv.org/abs/2607.24769",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7893,
+      "score": 0.7579,
       "publishedAt": "2026-07-29T04:00:00.000Z",
       "summary": "arXiv:2607.24769v1 Announce Type: new \nAbstract: With the growing capabilities of frontier models, AI alignment becomes increasingly critical in high-risk deployment settings. While recent work has empirically demonstrated in-context scheming -- the covert pursuit of misaligned objectives while feig",
       "tags": [
@@ -235,20 +263,20 @@
       "url": "https://arxiv.org/abs/2510.26692",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7635,
+      "score": 0.7323,
       "publishedAt": "2026-07-28T10:52:30.000Z",
       "summary": "We introduce Kimi Linear, a hybrid linear attention architecture that, for the first time, outperforms full attention under fair comparisons across various scenarios -- including short-context, long-context, and reinforcement learning (RL) scaling regimes. At its core lies Kimi Delta Attention (KDA)",
       "tags": [
         "AI"
       ],
-      "engagementScore": 300
+      "engagementScore": 301
     },
     {
       "title": "Harmony Explained: Progress Towards a Scientific Theory of Music (2012)",
       "url": "https://arxiv.org/abs/1202.4212",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7398,
+      "score": 0.7084,
       "publishedAt": "2026-07-28T15:20:35.000Z",
       "summary": "Most music theory books are like medieval medical textbooks: they contain unjustified superstition, non-reasoning, and funny symbols glorified by Latin phrases. How does music, in particular harmony, actually work, presented as a real, scientific theory of music? The core to our approach is to consi",
       "tags": [
@@ -262,7 +290,7 @@
       "url": "https://arxiv.org/abs/2607.25816",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7286,
+      "score": 0.6972,
       "publishedAt": "2026-07-29T13:53:13.000Z",
       "summary": "Large language model agents often spend substantial wall-clock time waiting for tool call results. Tool-call speculation can hide this latency by predicting and pre-executing an agent’s next tool call if the prediction matches the agent’s eventual tool call, but existing speculators are typically se",
       "tags": [
@@ -273,38 +301,24 @@
       "engagementScore": 4
     },
     {
-      "title": "Detecting CSAM Text-to-Image LoRAs from Weights",
-      "url": "https://arxiv.org/abs/2607.25750",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.7166,
-      "publishedAt": "2026-07-29T12:07:06.000Z",
-      "summary": "Low-rank adaptation (LoRA) fine-tuning has made it cheap and easy to customize open-weight image generation models for specific tasks, including the production of child sexual abuse material (CSAM). Existing moderation relies on metadata or generated outputs, but metadata can be deceptive and genera",
-      "tags": [
-        "Vision",
-        "ML Infra"
-      ],
-      "engagementScore": 4
-    },
-    {
       "title": "Anatomy of a Frontier Lab Agent Intrusion: A Timeline of the July 2026 Incident",
       "url": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
       "feedSource": "Hacker News",
       "source": "huggingface.co",
-      "score": 0.7039,
+      "score": 0.689,
       "publishedAt": "2026-07-28T20:28:33.000Z",
       "summary": "",
       "tags": [
         "Agents"
       ],
-      "engagementScore": 224
+      "engagementScore": 303
     },
     {
       "title": "How an overlooked geothermal plant got a second chance",
       "url": "https://www.technologyreview.com/2026/07/29/1140896/geothermal-second-chance/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6621,
+      "score": 0.6352,
       "publishedAt": "2026-07-29T17:58:44.000Z",
       "summary": "In June 2024, a small company called Zanskar purchased a geothermal power plant in New Mexico that was failing fast. The water coming from the underground reservoir was getting colder by the day, making the plant uneconomical to run. Now, two years later, that plant is running at full capacity again",
       "tags": [
@@ -317,7 +331,7 @@
       "url": "https://www.technologyreview.com/2026/07/29/1140884/the-download-chip-talent-battle-deflating-ai-hype/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6282,
+      "score": 0.6013,
       "publishedAt": "2026-07-29T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Samsung’s chip workers are jumping ship to rival SK Hynix   Lee, an engineer at Samsung’s semiconductor division, used to work late. But lately, he’s",
       "tags": [
@@ -326,26 +340,26 @@
       "engagementScore": 0
     },
     {
-      "title": "The OlmoEarth Platform: Geospatial inference at planetary scale",
-      "url": "https://huggingface.co/blog/allenai/olmoearth-infrastructure",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.608,
-      "publishedAt": "2026-07-28T16:27:42.000Z",
-      "summary": "",
+      "title": "The AI Hype Index: Unsexy AI",
+      "url": "https://www.technologyreview.com/2026/07/29/1140795/the-ai-hype-index-unsexy-ai/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.5811,
+      "publishedAt": "2026-07-29T08:42:57.000Z",
+      "summary": "It feels bad enough when an open letter signed by leading economists warns that AI might steal your job. The fact it may soon be better than you at making dinner? Insult to injury. But that’s exactly what the company 1X promised when it showed off a pair of new, impressively dexterous (and, to some,",
       "tags": [
         "AI"
       ],
       "engagementScore": 0
     },
     {
-      "title": "The AI Hype Index: Unsexy AI",
-      "url": "https://www.technologyreview.com/2026/07/29/1140795/the-ai-hype-index-unsexy-ai/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.608,
-      "publishedAt": "2026-07-29T08:42:57.000Z",
-      "summary": "It feels bad enough when an open letter signed by leading economists warns that AI might steal your job. The fact it may soon be better than you at making dinner? Insult to injury. But that’s exactly what the company 1X promised when it showed off a pair of new, impressively dexterous (and, to some,",
+      "title": "The OlmoEarth Platform: Geospatial inference at planetary scale",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-infrastructure",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.5788,
+      "publishedAt": "2026-07-28T16:27:42.000Z",
+      "summary": "",
       "tags": [
         "AI"
       ],
@@ -356,10 +370,24 @@
       "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.5989,
+      "score": 0.5698,
       "publishedAt": "2026-07-28T15:01:45.000Z",
       "summary": "",
       "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Microsoft confirms Copilot ‘super app’ coming this year",
+      "url": "https://www.theverge.com/tech/972927/microsoft-copilot-super-app-confirmed",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.562,
+      "publishedAt": "2026-07-29T22:25:04.000Z",
+      "summary": "Microsoft is working on an AI \"super app\" that combines Copilot's chat, coding, and agentic capabilities. During an earnings call on Wednesday, Microsoft CEO Satya Nadella said the app will span \"both consumer and commercial experiences\" when it launches this year. \"Copilot is evolving rapidly from",
+      "tags": [
+        "Agents",
         "Dev Tools"
       ],
       "engagementScore": 0
@@ -369,7 +397,7 @@
       "url": "https://www.theverge.com/tech/972294/meta-q2-2026-earnings-mark-zuckerberg-personal-ai-agents",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5833,
+      "score": 0.5587,
       "publishedAt": "2026-07-29T21:48:07.000Z",
       "summary": "Meta is all-in on AI, and sometime soon, the company is going to make a big push into personal AI agents that can do things on your behalf. On Wednesday's Q2 2026 earnings call, CEO Mark Zuckerberg previewed a high-level vision of how the company is thinking about personal agents and what it will do",
       "tags": [
@@ -383,7 +411,7 @@
       "url": "https://www.theverge.com/policy/972850/xai-grok-minnesota-nudification-lawsuit",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5813,
+      "score": 0.5566,
       "publishedAt": "2026-07-29T21:24:53.000Z",
       "summary": "xAI is suing Minnesota Attorney General Keith Ellison over a law passed back in May that broadly targets \"nudification\" apps, claiming that the statute's punitive provisions leave the company with \"no practical choice but to restrict Grok Imagine's image-editing features in various ways.\" The law, t",
       "tags": [
@@ -396,7 +424,7 @@
       "url": "https://www.wired.com/story/it-looks-like-nothing-can-dent-magas-support-for-ice/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.579,
+      "score": 0.5544,
       "publishedAt": "2026-07-29T21:00:00.000Z",
       "summary": "Despite weeks of renewed press coverage and controversy around ICE, Donald Trump’s supporters appear to be standing by the agency no matter what.",
       "tags": [
@@ -409,7 +437,7 @@
       "url": "https://www.wired.com/story/apple-airpods-deal-july-2026/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5776,
+      "score": 0.553,
       "publishedAt": "2026-07-29T20:44:10.000Z",
       "summary": "Save up to $100 on Apple’s latest AirPods models before prices go back up.",
       "tags": [
@@ -422,7 +450,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/972380/open-ai-hugging-face-hack-ai-safety-warning",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5764,
+      "score": 0.5517,
       "publishedAt": "2026-07-29T20:30:07.000Z",
       "summary": "Earlier this month, OpenAI gave several of its AI models a task: complete a test designed to measure their cybersecurity capabilities. It put the systems in a sandboxed environment without an internet connection and set them off to work. What happened next is almost laughably silly - but also, as Ad",
       "tags": [
@@ -436,7 +464,7 @@
       "url": "https://www.wired.com/story/dyson-vacuum-comparison-2026/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5691,
+      "score": 0.5444,
       "publishedAt": "2026-07-29T19:08:24.000Z",
       "summary": "Curious if you should get Dyson’s new 2026 stick vacuums or stick to the older ones? I tested five models, old and new, to find out for you.",
       "tags": [
@@ -449,7 +477,7 @@
       "url": "https://www.wired.com/story/jailbreaking-ai-models-google-anthropic-openai-spacexai/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5657,
+      "score": 0.541,
       "publishedAt": "2026-07-29T18:30:00.000Z",
       "summary": "I watched a new tool try to get around the model safeguards of four major frontier companies. You might be surprised by how they performed.",
       "tags": [
@@ -462,7 +490,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/972709/openai-hardware-greg-brockman-interview",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5647,
+      "score": 0.5401,
       "publishedAt": "2026-07-29T18:19:30.000Z",
       "summary": "In an interview with our friend Joanna Stern on her YouTube channel, OpenAI president Greg Brockman said the company is working on a \"family of devices\" for interacting with its AI models. However, Brockman didn't confirm reports that one of those devices is a smart speaker OpenAI's rumored to be la",
       "tags": [
@@ -475,7 +503,7 @@
       "url": "https://www.wired.com/story/tropical-diseases-dengue-fever-and-chikungunya-on-the-rise-in-europe/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5551,
+      "score": 0.5305,
       "publishedAt": "2026-07-29T16:31:45.000Z",
       "summary": "Climate change is helping invasive species to not only establish themselves across the continent but to stay alive for longer. Scientists suggest we get used to it.",
       "tags": [
@@ -488,7 +516,7 @@
       "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.552,
+      "score": 0.5184,
       "publishedAt": "2026-07-27T03:30:00.000Z",
       "summary": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
       "tags": [
@@ -503,53 +531,11 @@
       "url": "https://www.wired.com/story/x-says-australias-under-16s-social-media-bans-risk-interfering-with-foreign-law/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5405,
+      "score": 0.5159,
       "publishedAt": "2026-07-29T13:47:46.000Z",
       "summary": "Elon Musk’s platform attacked the country’s “invasive” information-gathering powers as it demands the government drop efforts to strengthen its no-children policy.",
       "tags": [
         "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Festival Must-Haves, Field-Tested at Lost Lands and Electric Forest",
-      "url": "https://www.wired.com/story/best-festival-gear/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5339,
-      "publishedAt": "2026-07-29T12:33:00.000Z",
-      "summary": "Our field-tested gear includes power banks, electrolytes, outdoor blankets, earplugs, and more.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The 15 Best Pool Accessories to Upgrade Your Summer (2026)",
-      "url": "https://www.wired.com/story/the-best-pool-accessories/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.531,
-      "publishedAt": "2026-07-29T12:01:00.000Z",
-      "summary": "These are the cleaning robots, water monitors, and toys actually worth buying for pool season.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "OpenAI’s rogue AI agent didn’t stop at hacking Hugging Face",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/972441/openai-rogue-ai-agent-hacked-more-than-hugging-face",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5304,
-      "publishedAt": "2026-07-29T11:54:29.000Z",
-      "summary": "The AI agent that escaped from OpenAI and hacked developer platform Hugging Face attacked other companies as well, OpenAI revealed on Tuesday. The update substantially widens the scope of an already concerning incident, which has alarmed industry insiders and fueled growing calls for stronger oversi",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Open Source",
-        "Dev Tools"
       ],
       "engagementScore": 0
     },
@@ -596,15 +582,44 @@
       "engagementScore": 0
     },
     {
-      "title": "Advancing the next era of national science",
-      "url": "https://openai.com/index/advancing-the-next-era-of-national-science",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5124,
-      "publishedAt": "2026-07-22T12:00:00.000Z",
-      "summary": "OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and national labs to use frontier AI to accelerate discovery.",
+      "title": "Festival Must-Haves, Field-Tested at Lost Lands and Electric Forest",
+      "url": "https://www.wired.com/story/best-festival-gear/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5092,
+      "publishedAt": "2026-07-29T12:33:00.000Z",
+      "summary": "Our field-tested gear includes power banks, electrolytes, outdoor blankets, earplugs, and more.",
       "tags": [
-        "LLM"
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The 15 Best Pool Accessories to Upgrade Your Summer (2026)",
+      "url": "https://www.wired.com/story/the-best-pool-accessories/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5064,
+      "publishedAt": "2026-07-29T12:01:00.000Z",
+      "summary": "These are the cleaning robots, water monitors, and toys actually worth buying for pool season.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "OpenAI’s rogue AI agent didn’t stop at hacking Hugging Face",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/972441/openai-rogue-ai-agent-hacked-more-than-hugging-face",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5058,
+      "publishedAt": "2026-07-29T11:54:29.000Z",
+      "summary": "The AI agent that escaped from OpenAI and hacked developer platform Hugging Face attacked other companies as well, OpenAI revealed on Tuesday. The update substantially widens the scope of an already concerning incident, which has alarmed industry insiders and fueled growing calls for stronger oversi",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Open Source",
+        "Dev Tools"
       ],
       "engagementScore": 0
     },
@@ -613,7 +628,7 @@
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.5105,
+      "score": 0.4836,
       "publishedAt": "2026-07-28T16:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/unnamed_2_vNnOv20.max-600x600.format-webp.webp\"&gt;We’re announcing even more new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents.",
       "tags": [
@@ -630,7 +645,7 @@
       "url": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.493,
+      "score": 0.4661,
       "publishedAt": "2026-07-28T13:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_Mode_real_world.max-600x600.format-webp.webp\"&gt;It might sound counterintuitive, but Search's AI tools can actually help you make the most of your time offline whether you want to book concert tickets or find the perf…",
       "tags": [
@@ -645,7 +660,7 @@
       "url": "https://blog.google/products-and-platforms/products/search/dinner-party-hosting-tips/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.493,
+      "score": 0.4661,
       "publishedAt": "2026-07-28T13:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Dinner_parties.max-600x600.format-webp.webp\"&gt;These AI features can help you craft a menu, design a tablescape, and handle other party-planning tasks.",
       "tags": [
@@ -660,7 +675,7 @@
       "url": "https://www.technologyreview.com/2026/07/28/1140868/the-download-openai-hack-ai-stock-sell-off/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4882,
+      "score": 0.4613,
       "publishedAt": "2026-07-28T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. OpenAI called the Hugging Face attack unprecedented. But we’ve been here before.&#160; —Will Douglas Heaven, senior AI editor Reading OpenAI’s account",
       "tags": [
@@ -674,7 +689,7 @@
       "url": "https://www.technologyreview.com/2026/07/28/1140853/samsung-chip-workers-exodus-sk-hynix/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4715,
+      "score": 0.4446,
       "publishedAt": "2026-07-28T09:18:57.000Z",
       "summary": "Lee, an engineer at Samsung’s semiconductor division, clocks out when his shift ends. He used to work longer hours, going the extra mile to excel at his projects. But lately, he’s been coming straight home to work on his job application for the chipmaker’s South Korean rival SK Hynix, sharing tips w",
       "tags": [
@@ -687,24 +702,11 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/972119/ai-stock-fall-google-capex",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4647,
+      "score": 0.4401,
       "publishedAt": "2026-07-28T23:37:03.000Z",
       "summary": "It's earnings season, and investors got an unpleasant surprise from Google: an increase on its spending estimate, to as much as $205 billion - from the last quarter's projection of up to $190 billion. Even the lower end of Google's new projected range - $195 billion - is much more than the company h",
       "tags": [
         "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "AI leaders sign a statement asking the government to do something about automated AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4627,
-      "publishedAt": "2026-07-28T23:14:53.000Z",
-      "summary": "Employees of OpenAI and Anthropic, as well as Google, Meta, Thinking Machines, Microsoft, Mistral, and other leading AI labs, have written a statement to the US government supporting a potential slowdown of sorts for frontier AI development - or at least a speed-up of global coordinated governance e",
-      "tags": [
-        "LLM"
       ],
       "engagementScore": 0
     }
