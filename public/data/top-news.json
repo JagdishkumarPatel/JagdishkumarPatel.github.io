@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T14:10:49.798Z",
+  "updatedAt": "2026-07-30T16:38:17.227Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,25 +8,53 @@
   ],
   "items": [
     {
+      "title": "Gemini Robotics 2 brings whole body intelligence to robots",
+      "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+      "feedSource": "Hacker News",
+      "source": "deepmind.google",
+      "score": 0.9624,
+      "publishedAt": "2026-07-30T15:15:48.000Z",
+      "summary": "From feet to fingertips — we are teaching robots intelligent whole-body control, fine dexterity, and teamwork to complete a broad range of complex tasks.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 162
+    },
+    {
+      "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
+      "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
+      "feedSource": "DeepMind",
+      "source": "deepmind.google",
+      "score": 0.9012,
+      "publishedAt": "2026-07-30T15:00:59.000Z",
+      "summary": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
+      "tags": [
+        "LLM",
+        "Vision",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
       "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.9023,
+      "score": 0.886,
       "publishedAt": "2026-07-29T22:58:23.000Z",
       "summary": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.",
       "tags": [
         "LLM",
         "Dev Tools"
       ],
-      "engagementScore": 32
+      "engagementScore": 33
     },
     {
       "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
       "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8684,
+      "score": 0.8504,
       "publishedAt": "2026-07-29T15:00:00.000Z",
       "summary": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.",
       "tags": [
@@ -40,7 +68,7 @@
       "url": "https://arxiv.org/abs/2607.26119",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8429,
+      "score": 0.8262,
       "publishedAt": "2026-07-30T04:00:00.000Z",
       "summary": "arXiv:2607.26119v1 Announce Type: new \nAbstract: Large reasoning models trained via reinforcement learning (RL) have been increasingly shown to outperform their supervised fine-tuned (SFT) counterparts on mathematical reasoning tasks; Yet the mechanistic basis for this advantage remains unclear. We",
       "tags": [
@@ -54,7 +82,7 @@
       "url": "https://arxiv.org/abs/2607.26120",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8429,
+      "score": 0.8262,
       "publishedAt": "2026-07-30T04:00:00.000Z",
       "summary": "arXiv:2607.26120v1 Announce Type: new \nAbstract: Large Language Models (LLMs)-powered multi-agent systems are increasingly deployed in mixed-motive environments, where agents operate under asymmetric information and strategic deception due to conflicting or hidden objectives. In these settings, misa",
       "tags": [
@@ -70,7 +98,7 @@
       "url": "https://arxiv.org/abs/2607.26155",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8429,
+      "score": 0.8262,
       "publishedAt": "2026-07-30T04:00:00.000Z",
       "summary": "arXiv:2607.26155v1 Announce Type: new \nAbstract: Clinical data-science agents must transform heterogeneous longitudinal records into auditable analyses, yet existing benchmarks largely isolate medical question answering, structured-table reasoning, or generic scientific repositories. We introduce CL",
       "tags": [
@@ -86,7 +114,7 @@
       "url": "https://arxiv.org/abs/2607.26159",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8429,
+      "score": 0.8262,
       "publishedAt": "2026-07-30T04:00:00.000Z",
       "summary": "arXiv:2607.26159v1 Announce Type: new \nAbstract: An AI benchmark result rarely reaches a consequential claim in one step. Evaluators generalize it to further cases, interpret it as evidence of capability, extrapolate it to new tasks, transport it to another system or site, and combine it with assump",
       "tags": [
@@ -100,7 +128,7 @@
       "url": "https://arxiv.org/abs/2607.26160",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8429,
+      "score": 0.8262,
       "publishedAt": "2026-07-30T04:00:00.000Z",
       "summary": "arXiv:2607.26160v1 Announce Type: new \nAbstract: Clinical practice guidelines (CPGs) encode diagnostic criteria, but LLM systems typically retrieve guideline text or absorb it through training rather than execute its rules. We introduce GuideSkill, an external reasoning layer that compiles disease-s",
       "tags": [
@@ -116,7 +144,7 @@
       "url": "https://arxiv.org/abs/2607.26181",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8429,
+      "score": 0.8262,
       "publishedAt": "2026-07-30T04:00:00.000Z",
       "summary": "arXiv:2607.26181v1 Announce Type: new \nAbstract: Functional verification dominates integrated circuit (IC) front-end engineering effort, and a single missed bug that escapes to silicon can trigger a costly respin. Recent large language models (LLMs) offer new opportunities to automate this process,",
       "tags": [
@@ -132,7 +160,7 @@
       "url": "https://arxiv.org/abs/2607.26191",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8429,
+      "score": 0.8262,
       "publishedAt": "2026-07-30T04:00:00.000Z",
       "summary": "arXiv:2607.26191v1 Announce Type: new \nAbstract: Evaluation methodologies for language models increasingly combine multiple signals, from automated metrics and LLM-as-judge ratings to human assessments and benchmark suite results. When these signals are aggregated via averaging, evaluation confidenc",
       "tags": [
@@ -149,7 +177,7 @@
       "url": "https://arxiv.org/abs/2607.26307",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8429,
+      "score": 0.8262,
       "publishedAt": "2026-07-30T04:00:00.000Z",
       "summary": "arXiv:2607.26307v1 Announce Type: new \nAbstract: Contemporary LLM-based coding agents produce code as black-box outputs: the rationale behind each line is hidden, the evolution of the code through benchmark-driven repair is ephemeral, and post-hoc auditing is impossible. We present a code generation",
       "tags": [
@@ -165,7 +193,7 @@
       "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.8421,
+      "score": 0.8242,
       "publishedAt": "2026-07-29T20:52:48.000Z",
       "summary": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
       "tags": [
@@ -179,7 +207,7 @@
       "url": "https://arxiv.org/abs/2607.25398",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8348,
+      "score": 0.8182,
       "publishedAt": "2026-07-29T13:01:57.000Z",
       "summary": "Language-model agents are increasingly deployed under standing instructions: a system prompt, a policy file, or a skills document is placed in context, and the agent is trusted to let it govern every action that follows. Existing benchmarks rarely test this deployment pattern directly; they measure",
       "tags": [
@@ -187,14 +215,14 @@
         "Safety",
         "ML Infra"
       ],
-      "engagementScore": 318
+      "engagementScore": 319
     },
     {
       "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
       "url": "https://openai.com/index/chatgpt-for-academic-researchers",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8319,
+      "score": 0.814,
       "publishedAt": "2026-07-29T10:00:00.000Z",
       "summary": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
       "tags": [
@@ -204,25 +232,38 @@
       "engagementScore": 0
     },
     {
+      "title": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
+      "url": "https://huggingface.co/blog/Dharma-AI/gpu-management",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.7857,
+      "publishedAt": "2026-07-30T15:09:09.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Discovering Cryptographic Weaknesses with Claude",
       "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.7928,
+      "score": 0.7753,
       "publishedAt": "2026-07-28T17:22:16.000Z",
       "summary": "Anthropic researchers find weaknesses in cryptographic algorithms with Claude Mythos Preview",
       "tags": [
         "LLM",
         "Research"
       ],
-      "engagementScore": 227
+      "engagementScore": 229
     },
     {
       "title": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
       "url": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.7615,
+      "score": 0.7448,
       "publishedAt": "2026-07-29T16:02:10.000Z",
       "summary": "Our newest music generation model, Lyria 3.5, delivers significant advancements across musicality, lyrics, and vocal quality, empowering you to craft richer tracks. We’r…",
       "tags": [
@@ -235,7 +276,7 @@
       "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.759,
+      "score": 0.7411,
       "publishedAt": "2026-07-29T00:00:00.000Z",
       "summary": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
       "tags": [
@@ -249,7 +290,7 @@
       "url": "https://www.anthropic.com/news/position-open-weights-models",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.741,
+      "score": 0.7231,
       "publishedAt": "2026-07-27T22:03:49.000Z",
       "summary": "Anthropic CEO Dario Amodei on open-weights models",
       "tags": [
@@ -263,7 +304,7 @@
       "url": "https://openai.com/index/scientific-computing-agentic-ai",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7079,
+      "score": 0.69,
       "publishedAt": "2026-07-28T17:00:00.000Z",
       "summary": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
       "tags": [
@@ -278,7 +319,7 @@
       "url": "https://www.technologyreview.com/2026/07/30/1140936/the-download-tricking-llms-reviving-geothermal/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6742,
+      "score": 0.6598,
       "publishedAt": "2026-07-30T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. A fundamental flaw leaves LLMs strikingly vulnerable to attack  It is impossible to make large language models fully secure against hacks because of a",
       "tags": [
@@ -291,7 +332,7 @@
       "url": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.663,
+      "score": 0.6487,
       "publishedAt": "2026-07-30T10:15:19.000Z",
       "summary": "It is impossible to make large language models fully secure against hacks because of a fundamental flaw in how they work, a team of researchers argue in a paper presented at the International Conference on Machine Learning, a top AI conference, this month. The claim has huge implications for the saf",
       "tags": [
@@ -301,37 +342,24 @@
       "engagementScore": 0
     },
     {
-      "title": "Kimi Linear: An Expressive, Efficient Attention Architecture (2025)",
-      "url": "https://arxiv.org/abs/2510.26692",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.6545,
-      "publishedAt": "2026-07-28T10:52:30.000Z",
-      "summary": "We introduce Kimi Linear, a hybrid linear attention architecture that, for the first time, outperforms full attention under fair comparisons across various scenarios -- including short-context, long-context, and reinforcement learning (RL) scaling regimes. At its core lies Kimi Delta Attention (KDA)",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 304
-    },
-    {
       "title": "Anatomy of a Frontier Lab Agent Intrusion: A Timeline of the July 2026 Incident",
       "url": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
       "feedSource": "Hacker News",
       "source": "huggingface.co",
-      "score": 0.6329,
+      "score": 0.6189,
       "publishedAt": "2026-07-28T20:28:33.000Z",
       "summary": "",
       "tags": [
         "Agents"
       ],
-      "engagementScore": 431
+      "engagementScore": 446
     },
     {
       "title": "Harmony Explained: Progress Towards a Scientific Theory of Music (2012)",
       "url": "https://arxiv.org/abs/1202.4212",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.6306,
+      "score": 0.6139,
       "publishedAt": "2026-07-28T15:20:35.000Z",
       "summary": "Most music theory books are like medieval medical textbooks: they contain unjustified superstition, non-reasoning, and funny symbols glorified by Latin phrases. How does music, in particular harmony, actually work, presented as a real, scientific theory of music? The core to our approach is to consi",
       "tags": [
@@ -341,11 +369,64 @@
       "engagementScore": 104
     },
     {
+      "title": "Friend re-launches its AI pendant with a speaker that talks to you, for twice the price",
+      "url": "https://www.theverge.com/gadgets/973163/friend-re-launches-its-ai-pendant-with-a-speaker-that-talks-to-you-for-twice-the-price",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5843,
+      "publishedAt": "2026-07-30T16:33:32.000Z",
+      "summary": "Do you remember Friend? The Friend that launched an AI pendant, spent $1.8 million of its $2.5 million to acquire friend.com, and plastered the NYC subway with ads promoting artificial companionship? Yeah well, if you didn't remember, Friend is back. And now, it's twice the price. This morning, Frie",
+      "tags": [
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The New Friend AI Pendant Can Now Talk Back to You",
+      "url": "https://www.wired.com/story/the-friend-2-necklace-can-talk-back-to-you-now/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5813,
+      "publishedAt": "2026-07-30T16:00:00.000Z",
+      "summary": "Avi Schiffmann has a new version of his controversial AI companion. It’s more expensive, and you can’t change its personality.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Gemini Robotics 2 Brings Google's AI Into the Physical World",
+      "url": "https://www.wired.com/story/google-gemini-can-control-humanoid-robots/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5764,
+      "publishedAt": "2026-07-30T15:04:22.000Z",
+      "summary": "The latest version of Google DeepMind's AI model includes a significant jump into “physical AGI.” But plopping AI into the real world comes with risks.",
+      "tags": [
+        "LLM",
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Razer Huntsman V3 HE Review: Jumping on the Bandwagon",
+      "url": "https://www.wired.com/review/razer-huntsman-v3-hall-effect-keyboard/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.576,
+      "publishedAt": "2026-07-30T15:00:00.000Z",
+      "summary": "Razer has finally caved and made its first Hall Effect gaming keyboard. I dug into its switches, features, and gaming performance to see if it was worth the wait.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "DOGE Veterans Are Landing Big Jobs at Prediction Markets",
       "url": "https://www.wired.com/story/doge-veterans-are-landing-big-jobs-at-prediction-markets/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5802,
+      "score": 0.5671,
       "publishedAt": "2026-07-30T13:20:16.000Z",
       "summary": "Polymarket and Novig have both recently brought ex-DOGE affiliates onboard as scrutiny of the industry intensifies.",
       "tags": [
@@ -358,7 +439,7 @@
       "url": "https://www.wired.com/gallery/the-best-vacuum-cleaner/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5732,
+      "score": 0.56,
       "publishedAt": "2026-07-30T12:01:00.000Z",
       "summary": "Looking for all our top recommended vacuums? Here are our favorites in every category, from cordless models to robot vacs.",
       "tags": [
@@ -371,22 +452,9 @@
       "url": "https://www.wired.com/gallery/best-shower-water-filters/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5707,
+      "score": 0.5575,
       "publishedAt": "2026-07-30T11:33:00.000Z",
       "summary": "I tested leading filtered showerheads to see how well they remove total chlorine from your water.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "How an overlooked geothermal plant got a second chance",
-      "url": "https://www.technologyreview.com/2026/07/29/1140896/geothermal-second-chance/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.5681,
-      "publishedAt": "2026-07-29T17:58:44.000Z",
-      "summary": "In June 2024, a small company called Zanskar purchased a geothermal power plant in New Mexico that was failing fast. The water coming from the underground reservoir was getting colder by the day, making the plant uneconomical to run. Now, two years later, that plant is running at full capacity again",
       "tags": [
         "AI"
       ],
@@ -397,7 +465,7 @@
       "url": "https://www.wired.com/story/best-budget-smartwatch/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5678,
+      "score": 0.5547,
       "publishedAt": "2026-07-30T11:01:00.000Z",
       "summary": "From fitness tracking to notifications, the best budget smartwatch can do a lot without costing a fortune.",
       "tags": [
@@ -410,7 +478,7 @@
       "url": "https://www.wired.com/story/spider-man-brand-new-day-is-a-superhero-movie-for-yearners/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5677,
+      "score": 0.5546,
       "publishedAt": "2026-07-30T11:00:00.000Z",
       "summary": "Peter Parker’s isolation lands especially hard in the age of AI, a loneliness crisis, and endless scrolling.",
       "tags": [
@@ -419,40 +487,13 @@
       "engagementScore": 0
     },
     {
-      "title": "Don’t Get Too Attached to Jimothy",
-      "url": "https://www.wired.com/story/dont-get-too-attached-to-jimothy/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5664,
-      "publishedAt": "2026-07-30T10:45:00.000Z",
-      "summary": "Urban wildlife biologists say the stumpy raccoon seems to have adapted well to his environment and spinal condition—but his internet fame presents a new threat.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "OpenAI’s Hacking Debacle Was a Human Mistake",
-      "url": "https://www.wired.com/story/openais-hacking-debacle-was-a-human-mistake/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5651,
-      "publishedAt": "2026-07-30T10:30:00.000Z",
-      "summary": "If the generative AI giant had followed well-known security best practices, it’s likely that its AI agent would never have escaped to the open internet and hacked multiple companies.",
-      "tags": [
-        "LLM",
-        "Agents"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "LinkedIn Won’t Be Expanding Its Data Centers in the Next Year",
-      "url": "https://www.wired.com/story/how-linkedin-is-keeping-its-compute-capacity-flat/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5637,
-      "publishedAt": "2026-07-30T10:15:00.000Z",
-      "summary": "Despite the ongoing AI boom, LinkedIn is holding the line on compute spending. Instead, it’s challenging engineers to make every GPU count.",
+      "title": "How an overlooked geothermal plant got a second chance",
+      "url": "https://www.technologyreview.com/2026/07/29/1140896/geothermal-second-chance/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.5537,
+      "publishedAt": "2026-07-29T17:58:44.000Z",
+      "summary": "In June 2024, a small company called Zanskar purchased a geothermal power plant in New Mexico that was failing fast. The water coming from the underground reservoir was getting colder by the day, making the plant uneconomical to run. Now, two years later, that plant is running at full capacity again",
       "tags": [
         "AI"
       ],
@@ -463,24 +504,11 @@
       "url": "https://www.technologyreview.com/2026/07/29/1140884/the-download-chip-talent-battle-deflating-ai-hype/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5342,
+      "score": 0.5198,
       "publishedAt": "2026-07-29T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Samsung’s chip workers are jumping ship to rival SK Hynix   Lee, an engineer at Samsung’s semiconductor division, used to work late. But lately, he’s",
       "tags": [
         "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The AI Hype Index: Unsexy AI",
-      "url": "https://www.technologyreview.com/2026/07/29/1140795/the-ai-hype-index-unsexy-ai/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.514,
-      "publishedAt": "2026-07-29T08:42:57.000Z",
-      "summary": "It feels bad enough when an open letter signed by leading economists warns that AI might steal your job. The fact it may soon be better than you at making dinner? Insult to injury. But that’s exactly what the company 1X promised when it showed off a pair of new, impressively dexterous (and, to some,",
-      "tags": [
-        "AI"
       ],
       "engagementScore": 0
     },
@@ -542,11 +570,24 @@
       "engagementScore": 0
     },
     {
+      "title": "The AI Hype Index: Unsexy AI",
+      "url": "https://www.technologyreview.com/2026/07/29/1140795/the-ai-hype-index-unsexy-ai/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.4997,
+      "publishedAt": "2026-07-29T08:42:57.000Z",
+      "summary": "It feels bad enough when an open letter signed by leading economists warns that AI might steal your job. The fact it may soon be better than you at making dinner? Insult to injury. But that’s exactly what the company 1X promised when it showed off a pair of new, impressively dexterous (and, to some,",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "The OlmoEarth Platform: Geospatial inference at planetary scale",
       "url": "https://huggingface.co/blog/allenai/olmoearth-infrastructure",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.5061,
+      "score": 0.4906,
       "publishedAt": "2026-07-28T16:27:42.000Z",
       "summary": "",
       "tags": [
@@ -559,7 +600,7 @@
       "url": "https://www.theverge.com/tech/972927/microsoft-copilot-super-app-confirmed",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5005,
+      "score": 0.4873,
       "publishedAt": "2026-07-29T22:25:04.000Z",
       "summary": "Microsoft is working on an AI \"super app\" that combines Copilot's chat, coding, and agentic capabilities. During an earnings call on Wednesday, Microsoft CEO Satya Nadella said the app will span \"both consumer and commercial experiences\" when it launches this year. \"Copilot is evolving rapidly from",
       "tags": [
@@ -573,7 +614,7 @@
       "url": "https://www.theverge.com/tech/972294/meta-q2-2026-earnings-mark-zuckerberg-personal-ai-agents",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4972,
+      "score": 0.484,
       "publishedAt": "2026-07-29T21:48:07.000Z",
       "summary": "Meta is all-in on AI, and sometime soon, the company is going to make a big push into personal AI agents that can do things on your behalf. On Wednesday's Q2 2026 earnings call, CEO Mark Zuckerberg previewed a high-level vision of how the company is thinking about personal agents and what it will do",
       "tags": [
@@ -583,24 +624,11 @@
       "engagementScore": 0
     },
     {
-      "title": "LFM2.5-Encoders for Fast Long-Context Inference on CPU",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.4971,
-      "publishedAt": "2026-07-28T15:01:45.000Z",
-      "summary": "",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "xAI’s last-minute scramble to stop Minnesota’s anti-nudification app law",
       "url": "https://www.theverge.com/policy/972850/xai-grok-minnesota-nudification-lawsuit",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4951,
+      "score": 0.482,
       "publishedAt": "2026-07-29T21:24:53.000Z",
       "summary": "xAI is suing Minnesota Attorney General Keith Ellison over a law passed back in May that broadly targets \"nudification\" apps, claiming that the statute's punitive provisions leave the company with \"no practical choice but to restrict Grok Imagine's image-editing features in various ways.\" The law, t",
       "tags": [
@@ -609,11 +637,24 @@
       "engagementScore": 0
     },
     {
+      "title": "LFM2.5-Encoders for Fast Long-Context Inference on CPU",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.4816,
+      "publishedAt": "2026-07-28T15:01:45.000Z",
+      "summary": "",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "We’re running out of reasons to ignore AI safety",
       "url": "https://www.theverge.com/ai-artificial-intelligence/972380/open-ai-hugging-face-hack-ai-safety-warning",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4902,
+      "score": 0.4771,
       "publishedAt": "2026-07-29T20:30:07.000Z",
       "summary": "Earlier this month, OpenAI gave several of its AI models a task: complete a test designed to measure their cybersecurity capabilities. It put the systems in a sandboxed environment without an internet connection and set them off to work. What happened next is almost laughably silly - but also, as Ad",
       "tags": [
@@ -627,7 +668,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/972709/openai-hardware-greg-brockman-interview",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4786,
+      "score": 0.4654,
       "publishedAt": "2026-07-29T18:19:30.000Z",
       "summary": "In an interview with our friend Joanna Stern on her YouTube channel, OpenAI president Greg Brockman said the company is working on a \"family of devices\" for interacting with its AI models. However, Brockman didn't confirm reports that one of those devices is a smart speaker OpenAI's rumored to be la",
       "tags": [
@@ -640,7 +681,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/972441/openai-rogue-ai-agent-hacked-more-than-hugging-face",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4443,
+      "score": 0.4311,
       "publishedAt": "2026-07-29T11:54:29.000Z",
       "summary": "The AI agent that escaped from OpenAI and hacked developer platform Hugging Face attacked other companies as well, OpenAI revealed on Tuesday. The update substantially widens the scope of an already concerning incident, which has alarmed industry insiders and fueled growing calls for stronger oversi",
       "tags": [
@@ -661,46 +702,6 @@
       "summary": "Google commits $40M in AI tokens and credits for the Genesis Mission",
       "tags": [
         "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
-      "url": "https://deepmind.google/blog/introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-07-21T15:16:30.000Z",
-      "summary": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Introducing Gemini 3.5 Flash Cyber",
-      "url": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-07-17T15:00:11.000Z",
-      "summary": "Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.",
-      "tags": [
-        "LLM",
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Our approach to bioresilience",
-      "url": "https://deepmind.google/blog/our-approach-to-bioresilience/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-07-16T09:30:42.000Z",
-      "summary": "Google DeepMind and Isomorphic Labs are sharing our joint approach to bioresilience and AI models.",
-      "tags": [
-        "AI"
       ],
       "engagementScore": 0
     }
