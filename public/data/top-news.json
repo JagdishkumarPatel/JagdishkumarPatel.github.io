@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T22:09:19.105Z",
+  "updatedAt": "2026-07-31T03:22:13.148Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,33 +12,47 @@
       "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 1.1175,
+      "score": 1.0903,
       "publishedAt": "2026-07-30T17:15:51.000Z",
       "summary": "Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale.",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 422
+      "engagementScore": 515
+    },
+    {
+      "title": "Investigating three real-world incidents in our cybersecurity evaluations",
+      "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+      "feedSource": "Hacker News",
+      "source": "anthropic.com",
+      "score": 1.0499,
+      "publishedAt": "2026-07-30T23:00:51.000Z",
+      "summary": "In a review of our cybersecurity evaluation transcripts, we found three incidents in which a Claude model reached the internet from within or while interacting with a third-party evaluation environment, and then gained unauthorized access to the real systems of three different organizations. Below w",
+      "tags": [
+        "LLM",
+        "Industry"
+      ],
+      "engagementScore": 113
     },
     {
       "title": "Gemini Robotics 2 brings whole body intelligence to robots",
       "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
       "feedSource": "Hacker News",
       "source": "deepmind.google",
-      "score": 0.973,
+      "score": 0.9457,
       "publishedAt": "2026-07-30T15:15:48.000Z",
       "summary": "From feet to fingertips — we are teaching robots intelligent whole-body control, fine dexterity, and teamwork to complete a broad range of complex tasks.",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 419
+      "engagementScore": 492
     },
     {
       "title": "Advancing the price-performance frontier with GPT-5.6",
       "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9488,
+      "score": 0.9107,
       "publishedAt": "2026-07-30T10:00:00.000Z",
       "summary": "Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale.",
       "tags": [
@@ -47,11 +61,25 @@
       "engagementScore": 0
     },
     {
+      "title": "How avatarin built a 24/7 retail agent with GPT-Realtime",
+      "url": "https://openai.com/index/avatarin",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.8378,
+      "publishedAt": "2026-07-30T00:00:00.000Z",
+      "summary": "avatarin uses OpenAI’s GPT-Realtime to give Yamada Denki shoppers 24/7 multilingual support. In two weeks, 30,000 people used the agent and 92% of survey responses were positive.",
+      "tags": [
+        "LLM",
+        "Agents"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
       "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.8636,
+      "score": 0.8281,
       "publishedAt": "2026-07-30T15:00:59.000Z",
       "summary": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
       "tags": [
@@ -66,7 +94,7 @@
       "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.8474,
+      "score": 0.8094,
       "publishedAt": "2026-07-29T22:58:23.000Z",
       "summary": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.",
       "tags": [
@@ -80,7 +108,7 @@
       "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8102,
+      "score": 0.7722,
       "publishedAt": "2026-07-29T15:00:00.000Z",
       "summary": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.",
       "tags": [
@@ -94,7 +122,7 @@
       "url": "https://arxiv.org/abs/2607.26119",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7887,
+      "score": 0.7532,
       "publishedAt": "2026-07-30T04:00:00.000Z",
       "summary": "arXiv:2607.26119v1 Announce Type: new \nAbstract: Large reasoning models trained via reinforcement learning (RL) have been increasingly shown to outperform their supervised fine-tuned (SFT) counterparts on mathematical reasoning tasks; Yet the mechanistic basis for this advantage remains unclear. We",
       "tags": [
@@ -108,7 +136,7 @@
       "url": "https://arxiv.org/abs/2607.26120",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7887,
+      "score": 0.7532,
       "publishedAt": "2026-07-30T04:00:00.000Z",
       "summary": "arXiv:2607.26120v1 Announce Type: new \nAbstract: Large Language Models (LLMs)-powered multi-agent systems are increasingly deployed in mixed-motive environments, where agents operate under asymmetric information and strategic deception due to conflicting or hidden objectives. In these settings, misa",
       "tags": [
@@ -124,7 +152,7 @@
       "url": "https://arxiv.org/abs/2607.26155",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7887,
+      "score": 0.7532,
       "publishedAt": "2026-07-30T04:00:00.000Z",
       "summary": "arXiv:2607.26155v1 Announce Type: new \nAbstract: Clinical data-science agents must transform heterogeneous longitudinal records into auditable analyses, yet existing benchmarks largely isolate medical question answering, structured-table reasoning, or generic scientific repositories. We introduce CL",
       "tags": [
@@ -140,7 +168,7 @@
       "url": "https://arxiv.org/abs/2607.26159",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7887,
+      "score": 0.7532,
       "publishedAt": "2026-07-30T04:00:00.000Z",
       "summary": "arXiv:2607.26159v1 Announce Type: new \nAbstract: An AI benchmark result rarely reaches a consequential claim in one step. Evaluators generalize it to further cases, interpret it as evidence of capability, extrapolate it to new tasks, transport it to another system or site, and combine it with assump",
       "tags": [
@@ -154,7 +182,7 @@
       "url": "https://arxiv.org/abs/2607.26160",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7887,
+      "score": 0.7532,
       "publishedAt": "2026-07-30T04:00:00.000Z",
       "summary": "arXiv:2607.26160v1 Announce Type: new \nAbstract: Clinical practice guidelines (CPGs) encode diagnostic criteria, but LLM systems typically retrieve guideline text or absorb it through training rather than execute its rules. We introduce GuideSkill, an external reasoning layer that compiles disease-s",
       "tags": [
@@ -170,7 +198,7 @@
       "url": "https://arxiv.org/abs/2607.26181",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7887,
+      "score": 0.7532,
       "publishedAt": "2026-07-30T04:00:00.000Z",
       "summary": "arXiv:2607.26181v1 Announce Type: new \nAbstract: Functional verification dominates integrated circuit (IC) front-end engineering effort, and a single missed bug that escapes to silicon can trigger a costly respin. Recent large language models (LLMs) offer new opportunities to automate this process,",
       "tags": [
@@ -186,7 +214,7 @@
       "url": "https://arxiv.org/abs/2607.26191",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7887,
+      "score": 0.7532,
       "publishedAt": "2026-07-30T04:00:00.000Z",
       "summary": "arXiv:2607.26191v1 Announce Type: new \nAbstract: Evaluation methodologies for language models increasingly combine multiple signals, from automated metrics and LLM-as-judge ratings to human assessments and benchmark suite results. When these signals are aggregated via averaging, evaluation confidenc",
       "tags": [
@@ -203,7 +231,7 @@
       "url": "https://arxiv.org/abs/2607.26307",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7887,
+      "score": 0.7532,
       "publishedAt": "2026-07-30T04:00:00.000Z",
       "summary": "arXiv:2607.26307v1 Announce Type: new \nAbstract: Contemporary LLM-based coding agents produce code as black-box outputs: the rationale behind each line is hidden, the evolution of the code through benchmark-driven repair is ephemeral, and post-hoc auditing is impossible. We present a code generation",
       "tags": [
@@ -219,7 +247,7 @@
       "url": "https://arxiv.org/abs/2607.25398",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.781,
+      "score": 0.7455,
       "publishedAt": "2026-07-29T13:01:57.000Z",
       "summary": "Language-model agents are increasingly deployed under standing instructions: a system prompt, a policy file, or a skills document is placed in context, and the agent is trusted to let it govern every action that follows. Existing benchmarks rarely test this deployment pattern directly; they measure",
       "tags": [
@@ -234,7 +262,7 @@
       "url": "https://openai.com/index/chatgpt-for-academic-researchers",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7738,
+      "score": 0.7357,
       "publishedAt": "2026-07-29T10:00:00.000Z",
       "summary": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
       "tags": [
@@ -244,11 +272,26 @@
       "engagementScore": 0
     },
     {
+      "title": "Can AI agents conduct open-ended AI research?",
+      "url": "https://arxiv.org/abs/2607.27191",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.729,
+      "publishedAt": "2026-07-30T17:35:04.000Z",
+      "summary": "Forecasts of explosive AI progress hinge on AI agents automating AI research. But evidence on whether agents can carry out open-ended AI research is thin. Current evaluations either test agents on narrow, verifiable tasks, which excludes open-ended research, or submit AI-generated papers to blind pe",
+      "tags": [
+        "Agents",
+        "Research",
+        "Industry"
+      ],
+      "engagementScore": 5
+    },
+    {
       "title": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
       "url": "https://huggingface.co/blog/Dharma-AI/gpu-management",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.7508,
+      "score": 0.7179,
       "publishedAt": "2026-07-30T15:09:09.000Z",
       "summary": "",
       "tags": [
@@ -261,7 +304,7 @@
       "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.7351,
+      "score": 0.6971,
       "publishedAt": "2026-07-28T17:22:16.000Z",
       "summary": "Anthropic researchers find weaknesses in cryptographic algorithms with Claude Mythos Preview",
       "tags": [
@@ -269,48 +312,6 @@
         "Research"
       ],
       "engagementScore": 229
-    },
-    {
-      "title": "Adversarial Code Obfuscation for Defending Against LLM-Based Analysis",
-      "url": "https://arxiv.org/abs/2606.11755",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.712,
-      "publishedAt": "2026-07-30T13:40:54.000Z",
-      "summary": "With the widespread adoption of Large Language Models (LLMs) in software engineering (SE) tasks such as code understanding, debugging, and vulnerability detection, their powerful semantic reasoning ability has also introduced new security and privacy risks. LLMs can analyze, reconstruct, or even rev",
-      "tags": [
-        "LLM",
-        "Safety",
-        "Dev Tools"
-      ],
-      "engagementScore": 3
-    },
-    {
-      "title": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
-      "url": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.7072,
-      "publishedAt": "2026-07-29T16:02:10.000Z",
-      "summary": "Our newest music generation model, Lyria 3.5, delivers significant advancements across musicality, lyrics, and vocal quality, empowering you to craft richer tracks. We’r…",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
-      "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.7008,
-      "publishedAt": "2026-07-29T00:00:00.000Z",
-      "summary": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
-      "tags": [
-        "LLM",
-        "Agents"
-      ],
-      "engagementScore": 0
     },
     {
       "title": "Our position on open-weights models",
@@ -327,11 +328,38 @@
       "engagementScore": 1170
     },
     {
+      "title": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
+      "url": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
+      "feedSource": "DeepMind",
+      "source": "deepmind.google",
+      "score": 0.6718,
+      "publishedAt": "2026-07-29T16:02:10.000Z",
+      "summary": "Our newest music generation model, Lyria 3.5, delivers significant advancements across musicality, lyrics, and vocal quality, empowering you to craft richer tracks. We’r…",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
+      "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.6628,
+      "publishedAt": "2026-07-29T00:00:00.000Z",
+      "summary": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
+      "tags": [
+        "LLM",
+        "Agents"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Montana’s plan to become an experimental medical hub just pushed forward",
       "url": "https://www.technologyreview.com/2026/07/30/1140942/montana-experimental-medical-hub-pushed-forward-right-to-try/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6568,
+      "score": 0.6264,
       "publishedAt": "2026-07-30T17:10:00.000Z",
       "summary": "As of this week in Montana, any biotech company with an experimental drug has a clear path to selling it to consumers. Companies whose drugs have been through preliminary testing—sometimes in as few as 10 healthy people—can pay $12,500 to apply to a newly established review board for approval. Once",
       "tags": [
@@ -344,7 +372,7 @@
       "url": "https://openai.com/index/scientific-computing-agentic-ai",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6498,
+      "score": 0.6118,
       "publishedAt": "2026-07-28T17:00:00.000Z",
       "summary": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
       "tags": [
@@ -359,7 +387,7 @@
       "url": "https://www.technologyreview.com/2026/07/30/1140936/the-download-tricking-llms-reviving-geothermal/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6276,
+      "score": 0.5972,
       "publishedAt": "2026-07-30T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. A fundamental flaw leaves LLMs strikingly vulnerable to attack  It is impossible to make large language models fully secure against hacks because of a",
       "tags": [
@@ -372,7 +400,7 @@
       "url": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6165,
+      "score": 0.5861,
       "publishedAt": "2026-07-30T10:15:19.000Z",
       "summary": "It is impossible to make large language models fully secure against hacks because of a fundamental flaw in how they work, a team of researchers argue in a paper presented at the International Conference on Machine Learning, a top AI conference, this month. The claim has huge implications for the saf",
       "tags": [
@@ -382,26 +410,28 @@
       "engagementScore": 0
     },
     {
-      "title": "Anatomy of a Frontier Lab Agent Intrusion: A Timeline of the July 2026 Incident",
-      "url": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
-      "feedSource": "Hacker News",
-      "source": "huggingface.co",
-      "score": 0.5848,
-      "publishedAt": "2026-07-28T20:28:33.000Z",
-      "summary": "",
-      "tags": [
-        "Agents"
-      ],
-      "engagementScore": 453
-    },
-    {
-      "title": "A Leaked Memo Ties Cyberattacks on Minnesota Water Utilities to Iran",
-      "url": "https://www.wired.com/story/a-leaked-memo-ties-cyberattacks-on-minnesota-water-utilities-to-iran/",
+      "title": "Anthropic Says Claude Hacked 3 Organizations During Cybersecurity Tests",
+      "url": "https://www.wired.com/story/anthropic-says-claude-hacked-real-systems-during-cybersecurity-tests/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5804,
-      "publishedAt": "2026-07-30T21:20:00.000Z",
-      "summary": "A memo obtained by WIRED, issued by the water utilities information sharing group WaterISAC, links dozens of cyberattacks against Minnesota water utilities to Tehran.",
+      "score": 0.5742,
+      "publishedAt": "2026-07-31T01:24:26.000Z",
+      "summary": "In a review triggered by OpenAI’s Hugging Face incident, Anthropic discovered three of its AI models had breached real organizations during third-party evaluations.",
+      "tags": [
+        "LLM",
+        "Open Source",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "How the FCC’s New Rule Will Affect Robot Vacuums",
+      "url": "https://www.wired.com/story/the-fcc-is-coming-for-robot-vacuums/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.563,
+      "publishedAt": "2026-07-30T23:17:46.000Z",
+      "summary": "A new restriction on foreign-made mobile robots affects robotic vacuums, pool cleaners, and lawn mowers. Here’s what it means for the bots already in your home—and the ones you may never get to buy.",
       "tags": [
         "AI"
       ],
@@ -412,11 +442,50 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/973467/ai-bet-situational-awareness-oops-stonks",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5774,
-      "publishedAt": "2026-07-30T20:46:25.000Z",
-      "summary": "I am not by any means an expert at finance but I think I do now have some advice for people who are: Do not name your hedge fund anything that will be hilarious if it blows up. Don't use a name like \"Long-Term Capital Management,\" or \"Amaranth Advisors\" (named for the floral symbol for [&#8230;]",
+      "score": 0.5616,
+      "publishedAt": "2026-07-30T23:02:41.000Z",
+      "summary": "I am not by any means an expert at finance but I think I do now have some advice for people who are: Do not name your hedge fund anything that will be hilarious if it blows up. Don't use a name like \"Long-Term Capital Management\" or \"Amaranth Advisors\" (named for the floral symbol for [&#8230;]",
       "tags": [
         "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "LinkedIn actually adds a ‘seems like AI slop’ button",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/973384/linkedin-seems-like-ai-slop-button",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.559,
+      "publishedAt": "2026-07-30T22:33:19.000Z",
+      "summary": "A lot of content on LinkedIn might seem like AI slop, and now, you'll be able to report those posts. As part of a series of updates to reduce the volume of AI slop on the platform, LinkedIn is introducing an actual button that lets you flag a post as something that \"Seems like AI [&#8230;]",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Tim Cook hints at iCloud Plus tier for AI power users",
+      "url": "https://www.theverge.com/tech/973552/apple-ceo-tim-cook-icloud-plus-ai",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5589,
+      "publishedAt": "2026-07-30T22:31:59.000Z",
+      "summary": "Apple may allow users to pay to increase their AI usage limits. During an earnings call on Thursday, Apple CEO Tim Cook said that he believes people will want to use Apple Intelligence and the upcoming Siri AI \"a lot,\" adding that \"we will have some kind of upgrade possibilities on iCloud Plus where",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "A Leaked Memo Ties Cyberattacks on Minnesota Water Utilities to Iran",
+      "url": "https://www.wired.com/story/a-leaked-memo-ties-cyberattacks-on-minnesota-water-utilities-to-iran/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5525,
+      "publishedAt": "2026-07-30T21:20:00.000Z",
+      "summary": "A memo obtained by WIRED, issued by the water utilities information sharing group WaterISAC, links dozens of cyberattacks against Minnesota water utilities to Tehran.",
+      "tags": [
+        "AI"
       ],
       "engagementScore": 0
     },
@@ -425,7 +494,7 @@
       "url": "https://www.wired.com/story/everyone-is-freaking-out-about-openai-and-anthropics-race-for-dominance/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5744,
+      "score": 0.5465,
       "publishedAt": "2026-07-30T20:12:57.000Z",
       "summary": "Researchers fear AI is moving too fast, while Mark Zuckerberg is worried about who owns it. Plus: Inside Black Forest Labs’ push into robotics.",
       "tags": [
@@ -435,24 +504,11 @@
       "engagementScore": 0
     },
     {
-      "title": "LinkedIn actually adds a ‘seems like AI slop’ button",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/973384/linkedin-seems-like-ai-slop-button",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5664,
-      "publishedAt": "2026-07-30T18:43:26.000Z",
-      "summary": "A lot of content on LinkedIn might seem like AI slop, and now, you'll be able to report those posts. As part of a series of updates to reduce the volume of AI slop on the platform, LinkedIn is introducing an actual button that lets you flag a post as something that \"Seems like AI [&#8230;]",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Friend re-launches its AI pendant with a speaker that talks to you, for twice the price",
       "url": "https://www.theverge.com/gadgets/973163/friend-re-launches-its-ai-pendant-with-a-speaker-that-talks-to-you-for-twice-the-price",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5657,
+      "score": 0.5378,
       "publishedAt": "2026-07-30T18:35:41.000Z",
       "summary": "Do you remember Friend? The Friend that launched an AI pendant, spent $1.8 million of its $2.5 million in funding to acquire friend.com, and plastered the NYC subway with ads promoting artificial companionship? Yeah well, if you didn't remember, Friend is back. And now, it's twice the price. This mo",
       "tags": [
@@ -465,7 +521,7 @@
       "url": "https://www.wired.com/story/nvidias-open-source-alliance-snubs-openai-and-anthropic/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5617,
+      "score": 0.5339,
       "publishedAt": "2026-07-30T17:51:10.000Z",
       "summary": "This week on Uncanny Valley, we discuss the open- vs. closed-source debate in AI, key players in White House AI policy, and how to stop your chatbot logs from showing up in search-engine results.",
       "tags": [
@@ -480,7 +536,7 @@
       "url": "https://www.wired.com/story/back-to-school-office-chair-deals-2026/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5616,
+      "score": 0.5337,
       "publishedAt": "2026-07-30T17:49:10.000Z",
       "summary": "Here are the best back-to-school deals under $200 on comfy, ergonomic chairs for all-nighters and cram sessions",
       "tags": [
@@ -493,7 +549,7 @@
       "url": "https://www.theverge.com/tech/973276/google-deepmind-gemini-robotics-2-whole-body",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5589,
+      "score": 0.531,
       "publishedAt": "2026-07-30T17:18:45.000Z",
       "summary": "Google DeepMind says the latest version of its Gemini Robotics AI model can \"control entire humanoid robots.\" While the previous model focused on controlling a humanoid robot's upper body, Gemini Robotics 2 now supports \"whole-body motions\" ranging from its feet to fingertips, according to an announ",
       "tags": [
@@ -506,7 +562,7 @@
       "url": "https://www.wired.com/story/zoox-becomes-the-first-steering-wheel-free-robotaxi-to-charge-for-rides-in-the-us/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5577,
+      "score": 0.5298,
       "publishedAt": "2026-07-30T17:06:13.000Z",
       "summary": "The temporary exemption from federal safety standards will let Amazon’s Zoox launch a real, paid robotaxi service in Las Vegas.",
       "tags": [
@@ -519,49 +575,9 @@
       "url": "https://www.wired.com/story/chrome-needs-twice-a-week-patching-thanks-to-ai-bug-hunting-for-now/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5572,
+      "score": 0.5293,
       "publishedAt": "2026-07-30T17:00:00.000Z",
       "summary": "The two Chrome updates in June patched more bugs than the 23 updates before them. Now, Google is ramping up its patching schedule thanks to AI-assisted vulnerability discovery.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The New Friend AI Pendant Can Now Talk Back to You",
-      "url": "https://www.wired.com/story/the-friend-2-necklace-can-talk-back-to-you-now/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5518,
-      "publishedAt": "2026-07-30T16:00:00.000Z",
-      "summary": "Avi Schiffmann has a new version of his controversial AI companion. It’s more expensive, and you can’t change its personality.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Gemini Robotics 2 Brings Google's AI Into the Physical World",
-      "url": "https://www.wired.com/story/google-gemini-can-control-humanoid-robots/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5469,
-      "publishedAt": "2026-07-30T15:04:22.000Z",
-      "summary": "The latest version of Google DeepMind's AI model includes a significant jump into “physical AGI.” But plopping AI into the real world comes with risks.",
-      "tags": [
-        "LLM",
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "How an overlooked geothermal plant got a second chance",
-      "url": "https://www.technologyreview.com/2026/07/29/1140896/geothermal-second-chance/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.5215,
-      "publishedAt": "2026-07-29T17:58:44.000Z",
-      "summary": "In June 2024, a small company called Zanskar purchased a geothermal power plant in New Mexico that was failing fast. The water coming from the underground reservoir was getting colder by the day, making the plant uneconomical to run. Now, two years later, that plant is running at full capacity again",
       "tags": [
         "AI"
       ],
@@ -596,17 +612,15 @@
       "engagementScore": 0
     },
     {
-      "title": "Building AI infrastructure with the Effingham County community",
-      "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5124,
-      "publishedAt": "2026-07-22T13:00:00.000Z",
-      "summary": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.",
+      "title": "How an overlooked geothermal plant got a second chance",
+      "url": "https://www.technologyreview.com/2026/07/29/1140896/geothermal-second-chance/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.4911,
+      "publishedAt": "2026-07-29T17:58:44.000Z",
+      "summary": "In June 2024, a small company called Zanskar purchased a geothermal power plant in New Mexico that was failing fast. The water coming from the underground reservoir was getting colder by the day, making the plant uneconomical to run. Now, two years later, that plant is running at full capacity again",
       "tags": [
-        "LLM",
-        "Dev Tools",
-        "Industry"
+        "AI"
       ],
       "engagementScore": 0
     },
@@ -615,7 +629,7 @@
       "url": "https://www.technologyreview.com/2026/07/29/1140884/the-download-chip-talent-battle-deflating-ai-hype/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4876,
+      "score": 0.4572,
       "publishedAt": "2026-07-29T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Samsung’s chip workers are jumping ship to rival SK Hynix   Lee, an engineer at Samsung’s semiconductor division, used to work late. But lately, he’s",
       "tags": [
@@ -628,7 +642,7 @@
       "url": "https://www.technologyreview.com/2026/07/29/1140795/the-ai-hype-index-unsexy-ai/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4675,
+      "score": 0.4371,
       "publishedAt": "2026-07-29T08:42:57.000Z",
       "summary": "It feels bad enough when an open letter signed by leading economists warns that AI might steal your job. The fact it may soon be better than you at making dinner? Insult to injury. But that’s exactly what the company 1X promised when it showed off a pair of new, impressively dexterous (and, to some,",
       "tags": [
@@ -641,7 +655,7 @@
       "url": "https://www.theverge.com/tech/972927/microsoft-copilot-super-app-confirmed",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4578,
+      "score": 0.4299,
       "publishedAt": "2026-07-29T22:25:04.000Z",
       "summary": "Microsoft is working on an AI \"super app\" that combines Copilot's chat, coding, and agentic capabilities. During an earnings call on Wednesday, Microsoft CEO Satya Nadella said the app will span \"both consumer and commercial experiences\" when it launches this year. \"Copilot is evolving rapidly from",
       "tags": [
@@ -651,24 +665,11 @@
       "engagementScore": 0
     },
     {
-      "title": "The OlmoEarth Platform: Geospatial inference at planetary scale",
-      "url": "https://huggingface.co/blog/allenai/olmoearth-infrastructure",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.4558,
-      "publishedAt": "2026-07-28T16:27:42.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Mark Zuckerberg is planning a big push into personal AI agents",
       "url": "https://www.theverge.com/tech/972294/meta-q2-2026-earnings-mark-zuckerberg-personal-ai-agents",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4545,
+      "score": 0.4266,
       "publishedAt": "2026-07-29T21:48:07.000Z",
       "summary": "Meta is all-in on AI, and sometime soon, the company is going to make a big push into personal AI agents that can do things on your behalf. On Wednesday's Q2 2026 earnings call, CEO Mark Zuckerberg previewed a high-level vision of how the company is thinking about personal agents and what it will do",
       "tags": [
@@ -682,7 +683,7 @@
       "url": "https://www.theverge.com/policy/972850/xai-grok-minnesota-nudification-lawsuit",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4525,
+      "score": 0.4246,
       "publishedAt": "2026-07-29T21:24:53.000Z",
       "summary": "xAI is suing Minnesota Attorney General Keith Ellison over a law passed back in May that broadly targets \"nudification\" apps, claiming that the statute's punitive provisions leave the company with \"no practical choice but to restrict Grok Imagine's image-editing features in various ways.\" The law, t",
       "tags": [
@@ -691,15 +692,15 @@
       "engagementScore": 0
     },
     {
-      "title": "LFM2.5-Encoders for Fast Long-Context Inference on CPU",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders",
+      "title": "The OlmoEarth Platform: Geospatial inference at planetary scale",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-infrastructure",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.4467,
-      "publishedAt": "2026-07-28T15:01:45.000Z",
+      "score": 0.4228,
+      "publishedAt": "2026-07-28T16:27:42.000Z",
       "summary": "",
       "tags": [
-        "Dev Tools"
+        "AI"
       ],
       "engagementScore": 0
     }
