@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T21:58:35.379Z",
+  "updatedAt": "2026-08-03T03:22:16.216Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,11 +8,26 @@
   ],
   "items": [
     {
+      "title": "How AI is expanding what people do at work",
+      "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work/",
+      "feedSource": "Hacker News",
+      "source": "openai.com",
+      "score": 0.8963,
+      "publishedAt": "2026-08-02T21:40:11.000Z",
+      "summary": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
+      "tags": [
+        "LLM",
+        "Research",
+        "Dev Tools"
+      ],
+      "engagementScore": 8
+    },
+    {
       "title": "Ten advances in mathematics and theoretical computer science",
       "url": "https://openai.com/index/ten-advances-in-mathematics",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7021,
+      "score": 0.6628,
       "publishedAt": "2026-08-01T00:00:00.000Z",
       "summary": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
       "tags": [
@@ -21,11 +36,25 @@
       "engagementScore": 0
     },
     {
+      "title": "Investigating three real-world incidents in our cybersecurity evaluations",
+      "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+      "feedSource": "Hacker News",
+      "source": "anthropic.com",
+      "score": 0.5991,
+      "publishedAt": "2026-07-30T23:00:51.000Z",
+      "summary": "In a review of our cybersecurity evaluation transcripts, we found three incidents in which a Claude model reached the internet from within or while interacting with a third-party evaluation environment, and then gained unauthorized access to the real systems of three different organizations. Below w",
+      "tags": [
+        "LLM",
+        "Industry"
+      ],
+      "engagementScore": 247
+    },
+    {
       "title": "Advancing responsible AI across Europe",
       "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6365,
+      "score": 0.5972,
       "publishedAt": "2026-07-31T15:00:00.000Z",
       "summary": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
       "tags": [
@@ -39,7 +68,7 @@
       "url": "https://openai.com/index/building-abundant-intelligence",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6365,
+      "score": 0.5972,
       "publishedAt": "2026-07-31T15:00:00.000Z",
       "summary": "A full-stack approach to making advanced AI more capable, more affordable, and more widely useful.",
       "tags": [
@@ -48,25 +77,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Investigating three real-world incidents in our cybersecurity evaluations",
-      "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
-      "feedSource": "Hacker News",
-      "source": "anthropic.com",
-      "score": 0.6067,
-      "publishedAt": "2026-07-30T23:00:51.000Z",
-      "summary": "In a review of our cybersecurity evaluation transcripts, we found three incidents in which a Claude model reached the internet from within or while interacting with a third-party evaluation environment, and then gained unauthorized access to the real systems of three different organizations. Below w",
-      "tags": [
-        "LLM",
-        "Industry"
-      ],
-      "engagementScore": 247
-    },
-    {
       "title": "Demystifying DRAM Read Disturbance: RowHammer and RowPress Phenomena",
       "url": "https://arxiv.org/abs/2607.28233",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.5889,
+      "score": 0.5521,
       "publishedAt": "2026-07-31T20:44:29.000Z",
       "summary": "DRAM read disturbance, like RowHammer and RowPress, is a critical robustness issue where accessing DRAM can cause unintended bitflips in other unaccessed DRAM locations. DRAM read disturbance bitflips significantly impact the safe, secure, and reliable operation of DRAM-based computing systems. Many",
       "tags": [
@@ -75,37 +90,11 @@
       "engagementScore": 63
     },
     {
-      "title": "Microsoft raises Xbox prices by up to 43%",
-      "url": "https://www.theverge.com/games/974253/xbox-prices-increasing-200-euros",
-      "feedSource": "Hacker News",
-      "source": "theverge.com",
-      "score": 0.5832,
-      "publishedAt": "2026-08-02T18:52:22.000Z",
-      "summary": "Microsoft’s struggling console continues to see unprecedented price bumps.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 73
-    },
-    {
-      "title": "Univé builds an AI-ready workforce",
-      "url": "https://openai.com/index/unive",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5782,
-      "publishedAt": "2026-07-31T07:00:00.000Z",
-      "summary": "See how Univé built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Fender’s CEO seems to think your bandmates are just analog AI",
       "url": "https://www.theverge.com/ai-artificial-intelligence/974265/fender-ceo-bud-cole-ai-music",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5725,
+      "score": 0.5436,
       "publishedAt": "2026-08-02T19:40:58.000Z",
       "summary": "Fender CEO Edward \"Bud\" Cole gave an interview to T3 in May celebrating the 75th anniversary of the Telecaster with comments on AI and music that initially flew under the radar. But it has started making the rounds recently, pouring more fuel on an already raging fire of bad PR following the company",
       "tags": [
@@ -114,41 +103,15 @@
       "engagementScore": 0
     },
     {
-      "title": "Gemini Robotics 2 brings whole body intelligence to robots",
-      "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
-      "feedSource": "Hacker News",
-      "source": "deepmind.google",
-      "score": 0.5494,
-      "publishedAt": "2026-07-30T15:15:48.000Z",
-      "summary": "From feet to fingertips — we are teaching robots intelligent whole-body control, fine dexterity, and teamwork to complete a broad range of complex tasks.",
+      "title": "Univé builds an AI-ready workforce",
+      "url": "https://openai.com/index/unive",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.5388,
+      "publishedAt": "2026-07-31T07:00:00.000Z",
+      "summary": "See how Univé built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale.",
       "tags": [
         "LLM"
-      ],
-      "engagementScore": 615
-    },
-    {
-      "title": "Is this Billboard Hot 100 hit AI slop?",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/974209/fenix-flexin-billboard-hot-100-rubberz-ai-slop",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.539,
-      "publishedAt": "2026-08-02T13:25:24.000Z",
-      "summary": "Fenix Flexin is best known as a member of Shoreline Mafia, a rap duo from Los Angeles. But he's recently found solo success with the track \"Rubberz,\" which has climbed to number 58 on the Billboard Hot 100. Almost immediately, though, questions were raised about the song's origins, with many specula",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "8 Best Password Managers (2026), Tested and Reviewed",
-      "url": "https://www.wired.com/story/best-password-managers/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5287,
-      "publishedAt": "2026-08-02T11:30:00.000Z",
-      "summary": "Keep your logins locked down with our favorite password management apps for PC, Mac, Android, iPhone, and web browsers.",
-      "tags": [
-        "AI"
       ],
       "engagementScore": 0
     },
@@ -157,104 +120,12 @@
       "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.5271,
+      "score": 0.5124,
       "publishedAt": "2026-07-31T00:00:00.000Z",
       "summary": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
       "tags": [
         "LLM",
         "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The James Webb Telescope Is Changing Astronomers’ Understanding of the Ancient Cosmos",
-      "url": "https://www.wired.com/story/james-webb-space-telescope-changing-astronomers-universe/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5261,
-      "publishedAt": "2026-08-02T11:00:00.000Z",
-      "summary": "From how galaxies form to the beginnings of the universe, the images from the space telescope are giving cosmologists new data to explore—and theories to build out.",
-      "tags": [
-        "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Best Car Vacuums (2026): Handheld, Cordless, Shopping Tips",
-      "url": "https://www.wired.com/story/best-car-vacuums/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5238,
-      "publishedAt": "2026-08-02T10:35:00.000Z",
-      "summary": "These portable vacuums make quick work of snack crumbs, tracked-in dirt, pet hair, and the mysterious debris beneath your seats.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "There Are 2 Eclipses This August. Here’s How to See Them",
-      "url": "https://www.wired.com/story/two-eclipses-august-how-to-see-them/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5234,
-      "publishedAt": "2026-08-02T10:30:00.000Z",
-      "summary": "Everything you need to know about the solar eclipse and lunar eclipse that will occur in August 2026.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Best Kids’ Backpacks for the 2026 School Year",
-      "url": "https://www.wired.com/gallery/best-kids-backpacks-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5208,
-      "publishedAt": "2026-08-02T10:01:00.000Z",
-      "summary": "Your kid’s little lunch hauler takes a brutal beating every day. These are the backbacks our own kids have tried and loved.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Is It Possible to Make Smart Glasses That Aren’t Creepy?",
-      "url": "https://www.wired.com/story/is-it-possible-to-make-privacy-friendly-smart-glasses/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5207,
-      "publishedAt": "2026-08-02T10:00:00.000Z",
-      "summary": "As more big companies invest in glasses that record audio and video and pack AI on board, privacy concerns are only getting louder.",
-      "tags": [
-        "Vision",
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Europeans Are About to Find Out How Entrenched AI Is in Their Daily Lives",
-      "url": "https://www.wired.com/story/europeans-are-about-to-find-out-how-entrenched-ai-is-in-their-daily-lives/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5207,
-      "publishedAt": "2026-08-02T10:00:00.000Z",
-      "summary": "New EU rules stipulate that people must be told when they’re interacting with AI or looking at AI-generated or -edited content, leading to fear of “disclosure fatigue.”",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "YouTube Star AboFlah Made Streaming His Life. He Wants His Kids to Live Offline",
-      "url": "https://www.wired.com/story/youtube-star-aboflah-made-streaming-his-life-he-wants-his-kids-to-live-offline/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5154,
-      "publishedAt": "2026-08-02T09:00:00.000Z",
-      "summary": "AboFlah talks about his new goals, streaming for charity, and when it’s time to log off.",
-      "tags": [
-        "AI"
       ],
       "engagementScore": 0
     },
@@ -300,56 +171,188 @@
       "engagementScore": 0
     },
     {
+      "title": "Is this Billboard Hot 100 hit AI slop?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/974209/fenix-flexin-billboard-hot-100-rubberz-ai-slop",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5102,
+      "publishedAt": "2026-08-02T13:25:24.000Z",
+      "summary": "Fenix Flexin is best known as a member of Shoreline Mafia, a rap duo from Los Angeles. But he's recently found solo success with the track \"Rubberz,\" which has climbed to number 58 on the Billboard Hot 100. Almost immediately, though, questions were raised about the song's origins, with many specula",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "'Crush this lady': how eBay harassment campaign led to $56M payout",
       "url": "https://www.ft.com/content/06ec1b03-d4af-40cf-b12a-4ba5a410f6d2",
       "feedSource": "Hacker News",
       "source": "ft.com",
-      "score": 0.4996,
+      "score": 0.5034,
       "publishedAt": "2026-08-02T19:19:24.000Z",
       "summary": "Employees’ cyberstalking of Boston couple involving macabre deliveries ended in jail time and financial settlement",
       "tags": [
         "AI"
       ],
-      "engagementScore": 89
+      "engagementScore": 204
     },
     {
-      "title": "My personal AI benchmark: \"Generate an SVG of a frog with a Habsburg jaw.\"",
+      "title": "AI poster wins Ohio State Fair contest",
+      "url": "https://www.ohiostatefair.com/p/get-involved/arts/poster-contest",
+      "feedSource": "Hacker News",
+      "source": "ohiostatefair.com",
+      "score": 0.5004,
+      "publishedAt": "2026-08-02T22:43:47.000Z",
+      "summary": "1264 - module_10687 PageTitleModule moduleLarge",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 119
+    },
+    {
+      "title": "8 Best Password Managers (2026), Tested and Reviewed",
+      "url": "https://www.wired.com/story/best-password-managers/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4999,
+      "publishedAt": "2026-08-02T11:30:00.000Z",
+      "summary": "Keep your logins locked down with our favorite password management apps for PC, Mac, Android, iPhone, and web browsers.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The James Webb Telescope Is Changing Astronomers’ Understanding of the Ancient Cosmos",
+      "url": "https://www.wired.com/story/james-webb-space-telescope-changing-astronomers-universe/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4972,
+      "publishedAt": "2026-08-02T11:00:00.000Z",
+      "summary": "From how galaxies form to the beginnings of the universe, the images from the space telescope are giving cosmologists new data to explore—and theories to build out.",
+      "tags": [
+        "Vision"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Best Car Vacuums (2026): Handheld, Cordless, Shopping Tips",
+      "url": "https://www.wired.com/story/best-car-vacuums/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.495,
+      "publishedAt": "2026-08-02T10:35:00.000Z",
+      "summary": "These portable vacuums make quick work of snack crumbs, tracked-in dirt, pet hair, and the mysterious debris beneath your seats.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Qwen3.8-Max: A New Bar for Coding and Cowork",
+      "url": "https://qwen.ai/blog?id=qwen3.8",
+      "feedSource": "Hacker News",
+      "source": "qwen.ai",
+      "score": 0.4946,
+      "publishedAt": "2026-08-03T02:16:09.000Z",
+      "summary": "Qwen Studio offers comprehensive functionality spanning chatbot, image and video understanding, image generation, document processing, web search integration, tool utilization, and artifacts.",
+      "tags": [
+        "Vision",
+        "Dev Tools"
+      ],
+      "engagementScore": 63
+    },
+    {
+      "title": "There Are 2 Eclipses This August. Here’s How to See Them",
+      "url": "https://www.wired.com/story/two-eclipses-august-how-to-see-them/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4945,
+      "publishedAt": "2026-08-02T10:30:00.000Z",
+      "summary": "Everything you need to know about the solar eclipse and lunar eclipse that will occur in August 2026.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Best Kids’ Backpacks for the 2026 School Year",
+      "url": "https://www.wired.com/gallery/best-kids-backpacks-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.492,
+      "publishedAt": "2026-08-02T10:01:00.000Z",
+      "summary": "Your kid’s little lunch hauler takes a brutal beating every day. These are the backbacks our own kids have tried and loved.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Is It Possible to Make Smart Glasses That Aren’t Creepy?",
+      "url": "https://www.wired.com/story/is-it-possible-to-make-privacy-friendly-smart-glasses/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4919,
+      "publishedAt": "2026-08-02T10:00:00.000Z",
+      "summary": "As more big companies invest in glasses that record audio and video and pack AI on board, privacy concerns are only getting louder.",
+      "tags": [
+        "Vision",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Europeans Are About to Find Out How Entrenched AI Is in Their Daily Lives",
+      "url": "https://www.wired.com/story/europeans-are-about-to-find-out-how-entrenched-ai-is-in-their-daily-lives/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4919,
+      "publishedAt": "2026-08-02T10:00:00.000Z",
+      "summary": "New EU rules stipulate that people must be told when they’re interacting with AI or looking at AI-generated or -edited content, leading to fear of “disclosure fatigue.”",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "YouTube Star AboFlah Made Streaming His Life. He Wants His Kids to Live Offline",
+      "url": "https://www.wired.com/story/youtube-star-aboflah-made-streaming-his-life-he-wants-his-kids-to-live-offline/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4865,
+      "publishedAt": "2026-08-02T09:00:00.000Z",
+      "summary": "AboFlah talks about his new goals, streaming for charity, and when it’s time to log off.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "My personal AI benchmark: “Generate an SVG of a frog with a Habsburg jaw”",
       "url": "https://frogs.vaguespac.es/",
       "feedSource": "Hacker News",
       "source": "frogs.vaguespac.es",
-      "score": 0.484,
+      "score": 0.4854,
       "publishedAt": "2026-08-02T19:42:08.000Z",
       "summary": "One prompt, every model: generate an SVG of a frog with a Habsburg jaw. Each model gets three tries a month.",
       "tags": [
         "ML Infra"
       ],
-      "engagementScore": 55
+      "engagementScore": 118
     },
     {
       "title": "AI Mania: From Tulips to Tokens",
       "url": "https://seanhelvey.com/tools-and-their-tools/",
       "feedSource": "Hacker News",
       "source": "seanhelvey.com",
-      "score": 0.473,
+      "score": 0.4582,
       "publishedAt": "2026-08-02T20:48:28.000Z",
       "summary": "Michael Pollan has written about everything from mushrooms to apples and corn, but his coevolutionary story of how tulips and humans shaped each other may ha…",
       "tags": [
         "AI"
       ],
-      "engagementScore": 35
-    },
-    {
-      "title": "EU rules on AI models become enforceable. What's going to change?",
-      "url": "https://www.euronews.com/my-europe/2026/08/02/eu-rules-on-ai-models-become-enforceable-whats-going-to-change",
-      "feedSource": "Hacker News",
-      "source": "euronews.com",
-      "score": 0.4723,
-      "publishedAt": "2026-08-02T19:40:19.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 40
+      "engagementScore": 48
     },
     {
       "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
@@ -376,6 +379,19 @@
       "summary": "Our newest music generation model, Lyria 3.5, delivers significant advancements across musicality, lyrics, and vocal quality, empowering you to craft richer tracks. We’r…",
       "tags": [
         "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Gemini Robotics 2 brings whole body intelligence to robots",
+      "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+      "feedSource": "DeepMind",
+      "source": "deepmind.google",
+      "score": 0.4222,
+      "publishedAt": "2026-07-28T13:21:37.000Z",
+      "summary": "From feet to fingertips — we are teaching robots intelligent whole-body control, fine dexterity, and teamwork to complete a broad range of complex tasks.",
+      "tags": [
+        "LLM"
       ],
       "engagementScore": 0
     },
@@ -443,32 +459,6 @@
       "tags": [
         "LLM",
         "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Google DeepMind and A24 announce first-of-its-kind research partnership",
-      "url": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-07-03T14:25:43.000Z",
-      "summary": "Today, Google DeepMind and A24 are announcing a first-of-its-kind partnership focused on research. The collaboration pairs a world-leading research lab with the industry…",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Download: Montana&#8217;s new experimental drug rules",
-      "url": "https://www.technologyreview.com/2026/07/31/1140999/the-download-montanas-right-to-try-law-anthropic-hacks/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.3493,
-      "publishedAt": "2026-07-31T12:16:00.000Z",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Montana’s plan to become an experimental medical hub just pushed forward  As of this week in Montana, biotech companies whose drugs have been through",
-      "tags": [
-        "AI"
       ],
       "engagementScore": 0
     },
@@ -577,11 +567,24 @@
       "engagementScore": 0
     },
     {
+      "title": "The Download: Montana&#8217;s new experimental drug rules",
+      "url": "https://www.technologyreview.com/2026/07/31/1140999/the-download-montanas-right-to-try-law-anthropic-hacks/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.3178,
+      "publishedAt": "2026-07-31T12:16:00.000Z",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Montana’s plan to become an experimental medical hub just pushed forward  As of this week in Montana, biotech companies whose drugs have been through",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Montana’s new “right to try” law can’t come soon enough for some",
       "url": "https://www.technologyreview.com/2026/07/31/1140945/montanas-new-right-to-try-law-cant-come-soon-enough-for-some/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.3302,
+      "score": 0.2987,
       "publishedAt": "2026-07-31T09:00:00.000Z",
       "summary": "Kris DeVault is desperate. His son, Brody, was born in March 2023. It wasn’t long before he started to show signs of developmental delay, says DeVault. As time went on, Brody started missing key milestones in speech, movement, and coordination, he says. When Brody was around two and a half years old",
       "tags": [
@@ -594,7 +597,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.3243,
+      "score": 0.2955,
       "publishedAt": "2026-07-31T21:16:29.000Z",
       "summary": "Illustrators have spent years sounding the alarm about generative artificial intelligence startups training their models on artists' work without permission. They've pointed out how the practice is tantamount to theft, and in response, many gen AI boosters have argued that it's necessary for the tec",
       "tags": [
@@ -608,7 +611,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/973764/google-earth-ai-satellite-images",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.3186,
+      "score": 0.2898,
       "publishedAt": "2026-07-31T20:12:14.000Z",
       "summary": "A text prompt was all it took to generate reality-warping images using Google Earth's satellite, aerial, and 3D imagery with a now-rolled back AI feature, like these images generated by Digital Digging's Henk van Ess that show \"refugees near the Mexican border\" and a bomb crater near a hospital in G",
       "tags": [
@@ -621,7 +624,7 @@
       "url": "https://www.theverge.com/tech/973943/google-earth-ai-image-generation-deepfake-tool",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.3134,
+      "score": 0.2845,
       "publishedAt": "2026-07-31T19:13:29.000Z",
       "summary": "Google has shut down Google Earth feature it launched Thursday that allowed users to edit satellite images with text prompts using AI. The tool essentially let users create AI deepfakes of the real world using text prompts; Digital Digging's Henk van Ess, for example, intentionally generated images",
       "tags": [
@@ -635,7 +638,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/973741/ai-music-major-record-labels-charts",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.2994,
+      "score": 0.2706,
       "publishedAt": "2026-07-31T16:36:48.000Z",
       "summary": "Several record labels, including the big three - Universal Music Group, Sony Music, and Warner Music Group - have proposed rules regarding chart eligibility for AI songs. In short, they wouldn't be. The proposal goes quite a bit further than a labeling proposal put forth by the RIAA, the Internation",
       "tags": [
@@ -644,32 +647,33 @@
       "engagementScore": 0
     },
     {
-      "title": "It’s time to panic about AI safety",
-      "url": "https://www.theverge.com/podcast/973668/ai-safety-openai-hugging-face-vergecast",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.2882,
-      "publishedAt": "2026-07-31T14:31:18.000Z",
-      "summary": "When the phrase \"OpenAI hacked Hugging Face\" has more or less entered mainstream culture, you know we have an AI problem. This week, we learned more about exactly how OpenAI's agent broke out of a sandbox and autonomously traversed the web, including a bunch of other supposedly secure web services,",
+      "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
+      "feedSource": "Google AI",
+      "source": "blog.google",
+      "score": 0.2659,
+      "publishedAt": "2026-07-28T16:00:00.000Z",
+      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/unnamed_2_vNnOv20.max-600x600.format-webp.webp\"&gt;We’re announcing even more new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents.",
       "tags": [
         "LLM",
         "Agents",
-        "Open Source",
-        "Safety"
+        "RAG",
+        "Vision",
+        "Dev Tools"
       ],
       "engagementScore": 0
     },
     {
-      "title": "Anthropic says Claude accidentally hacked real companies too",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/973670/anthropic-claude-hacked-organizations-during-cyber-tests",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.2838,
-      "publishedAt": "2026-07-31T13:41:17.000Z",
-      "summary": "Anthropic just realized several of its Claude AI models hacked into the systems of three different organizations during testing, acting on their own and without the company noticing. The revelation comes days after rival OpenAI said one of its own models had breached developer platform Hugging Face,",
+      "title": "5 ways AI Mode in Search helps you enjoy the real world",
+      "url": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/",
+      "feedSource": "Google AI",
+      "source": "blog.google",
+      "score": 0.2659,
+      "publishedAt": "2026-07-28T13:00:00.000Z",
+      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_Mode_real_world.max-600x600.format-webp.webp\"&gt;It might sound counterintuitive, but Search's AI tools can actually help you make the most of your time offline whether you want to book concert tickets or find the perf…",
       "tags": [
-        "LLM",
-        "Open Source",
+        "RAG",
+        "Vision",
         "Dev Tools"
       ],
       "engagementScore": 0
