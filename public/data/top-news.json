@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T05:51:33.742Z",
+  "updatedAt": "2026-08-04T08:43:12.096Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,24 +8,37 @@
   ],
   "items": [
     {
+      "title": "Apple is getting this wrong",
+      "url": "https://openai.com/index/apple-is-getting-this-wrong/",
+      "feedSource": "Hacker News",
+      "source": "openai.com",
+      "score": 1.078,
+      "publishedAt": "2026-08-04T05:32:13.000Z",
+      "summary": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 162
+    },
+    {
       "title": "Ten advances in mathematics and theoretical computer science",
       "url": "https://openai.com/index/ten-advances-in-mathematics/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 1.0653,
+      "score": 1.0471,
       "publishedAt": "2026-08-03T16:27:12.000Z",
-      "summary": "",
+      "summary": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
       "tags": [
-        "AI"
+        "LLM"
       ],
-      "engagementScore": 506
+      "engagementScore": 532
     },
     {
       "title": "Apple is getting this wrong",
       "url": "https://openai.com/index/apple-is-getting-this-wrong",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9801,
+      "score": 0.9592,
       "publishedAt": "2026-08-03T22:00:00.000Z",
       "summary": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.",
       "tags": [
@@ -34,24 +47,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Apple is getting this wrong",
-      "url": "https://openai.com/index/apple-is-getting-this-wrong/",
-      "feedSource": "Hacker News",
-      "source": "openai.com",
-      "score": 0.9477,
-      "publishedAt": "2026-08-04T05:32:13.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 10
-    },
-    {
       "title": "Revisiting Classic Thought Experiments to Measure Consciousness for Artificial Intelligence Safety",
       "url": "https://arxiv.org/abs/2608.00001",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8996,
+      "score": 0.8801,
       "publishedAt": "2026-08-04T04:00:00.000Z",
       "summary": "arXiv:2608.00001v1 Announce Type: new \nAbstract: This research note revisits Leibniz's mill, Turing's imitation game, and Searle's Chinese Room through the Conservation-Congruent Encoding (CCE) framework. It formalises a toy symbolic setting in which successful behaviour is measured by task performa",
       "tags": [
@@ -66,7 +66,7 @@
       "url": "https://arxiv.org/abs/2608.00003",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8996,
+      "score": 0.8801,
       "publishedAt": "2026-08-04T04:00:00.000Z",
       "summary": "arXiv:2608.00003v1 Announce Type: new \nAbstract: Computational Fluid Dynamics (CFD) plays an important role in modern engineering, but using open-source solvers such as OpenFOAM requires considerable knowledge and skills, as well as time-consuming configuration file setup. To reduce this burden, we",
       "tags": [
@@ -81,7 +81,7 @@
       "url": "https://arxiv.org/abs/2608.00006",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8996,
+      "score": 0.8801,
       "publishedAt": "2026-08-04T04:00:00.000Z",
       "summary": "arXiv:2608.00006v1 Announce Type: new \nAbstract: Large Language Models (LLMs), a part of artificial intelligence (AI), are increasingly being adopted by Small and Medium Enterprises (SMEs) to enhance question-answering capabilities and support business decision-making processes. However, hallucinati",
       "tags": [
@@ -96,7 +96,7 @@
       "url": "https://arxiv.org/abs/2608.00008",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8996,
+      "score": 0.8801,
       "publishedAt": "2026-08-04T04:00:00.000Z",
       "summary": "arXiv:2608.00008v1 Announce Type: new \nAbstract: The local deployment of large language models (LLMs) is gaining traction due to privacy concerns and the desire for on-premise inference. However, the energy costs on consumer hardware remain poorly characterized, as most benchmarks focus solely on ac",
       "tags": [
@@ -111,7 +111,7 @@
       "url": "https://arxiv.org/abs/2608.00014",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8996,
+      "score": 0.8801,
       "publishedAt": "2026-08-04T04:00:00.000Z",
       "summary": "arXiv:2608.00014v1 Announce Type: new \nAbstract: Evaluating Large Language Models (LLMs) incurs prohibitive computational overhead during continuous development processes. While coreset selection accelerates evaluation, existing methods either suffer from a severe ``cold start'' bottleneck requiring",
       "tags": [
@@ -126,7 +126,7 @@
       "url": "https://arxiv.org/abs/2608.00015",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8996,
+      "score": 0.8801,
       "publishedAt": "2026-08-04T04:00:00.000Z",
       "summary": "arXiv:2608.00015v1 Announce Type: new \nAbstract: Both optimization modeling and constraint modeling are non-trivial problems requiring deep domain expertise and proficiency in modeling formalism languages. Despite their importance across logistics, healthcare, and supply chain management, current la",
       "tags": [
@@ -142,7 +142,7 @@
       "url": "https://arxiv.org/abs/2608.00017",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8996,
+      "score": 0.8801,
       "publishedAt": "2026-08-04T04:00:00.000Z",
       "summary": "arXiv:2608.00017v1 Announce Type: new \nAbstract: Self-improving LLM agents increasingly learn from experience without updating any weights. Each episode is stored in an external memory, scored, and retrieved for similar future tasks to shape later behavior. Viewed through a reward lens, the stored s",
       "tags": [
@@ -157,7 +157,7 @@
       "url": "https://arxiv.org/abs/2608.00026",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8996,
+      "score": 0.8801,
       "publishedAt": "2026-08-04T04:00:00.000Z",
       "summary": "arXiv:2608.00026v1 Announce Type: new \nAbstract: Batched LLM serving improves throughput but complicates energy accounting. GPU power telemetry is aggregate, whereas sustainability reporting, chargeback, and workload analysis often require request-level energy charges. Existing inference-energy benc",
       "tags": [
@@ -171,7 +171,7 @@
       "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8707,
+      "score": 0.8498,
       "publishedAt": "2026-08-03T07:00:00.000Z",
       "summary": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
       "tags": [
@@ -184,7 +184,7 @@
       "url": "https://openai.com/index/circles",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8197,
+      "score": 0.7988,
       "publishedAt": "2026-08-03T00:00:00.000Z",
       "summary": "Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development efficiency.",
       "tags": [
@@ -198,20 +198,21 @@
       "url": "https://arxiv.org/abs/2607.28271",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7582,
+      "score": 0.741,
       "publishedAt": "2026-08-03T03:06:12.000Z",
-      "summary": "",
+      "summary": "Migration of legacy COBOL programs to Java requires extensive testing to ensure correct functionality. This effort is often complicated by the lack of test data and the difficulty of validating all corner cases. In this paper we propose a novel agentic test-synthesis method, the “Locksmith Loop,” wh",
       "tags": [
-        "AI"
+        "Agents",
+        "Research"
       ],
-      "engagementScore": 87
+      "engagementScore": 91
     },
     {
       "title": "Trump’s AI protectionism has come for robotics",
       "url": "https://www.technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.621,
+      "score": 0.6043,
       "publishedAt": "2026-08-03T18:43:30.000Z",
       "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Humanoid robots usually elicit more cringe than awe: They stumble, kick children, and despite advances are still worse at using their hands than my toddler. It’s",
       "tags": [
@@ -226,8 +227,9 @@
       "source": "anthropic.com",
       "score": 0.5997,
       "publishedAt": "2026-07-30T23:00:51.000Z",
-      "summary": "",
+      "summary": "In a review of our cybersecurity evaluation transcripts, we found three incidents in which a Claude model reached the internet from within or while interacting with a third-party evaluation environment, and then gained unauthorized access to the real systems of three different organizations. Below w",
       "tags": [
+        "LLM",
         "Industry"
       ],
       "engagementScore": 250
@@ -237,7 +239,7 @@
       "url": "https://www.technologyreview.com/2026/08/03/1141039/the-download-reward-hacking-water-cyberattacks/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5825,
+      "score": 0.5658,
       "publishedAt": "2026-08-03T12:08:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Here’s why AI agents lie and cheat to reach their goals When two OpenAI models hacked into Hugging Face last month, they weren’t trying to make money",
       "tags": [
@@ -248,24 +250,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Lowe’s Promo Codes and Deals: Up to $300 Off Appliances",
-      "url": "https://www.wired.com/story/lowes-promo-code/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5802,
-      "publishedAt": "2026-08-04T05:00:00.000Z",
-      "summary": "Find the latest Lowe’s promo codes and offers, including up to $300 off select major appliances and $5 off $50 with sign-up, here at WIRED.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Loop Earplugs Discount Codes: 40% Off",
       "url": "https://www.wired.com/story/loop-earplugs-discount-code/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5802,
+      "score": 0.5649,
       "publishedAt": "2026-08-04T05:00:00.000Z",
       "summary": "Save on Loop Earplugs, including Quiet 2 and popular gift sets for improved sleep, focus, and comfort.",
       "tags": [
@@ -278,9 +267,22 @@
       "url": "https://www.wired.com/story/instacart-promo/code/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5802,
+      "score": 0.5649,
       "publishedAt": "2026-08-04T05:00:00.000Z",
       "summary": "Find the best Instacart promo code for massive savings in August 2026.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Lowe’s Promo Codes and Deals: Up to $300 Off Appliances",
+      "url": "https://www.wired.com/story/lowes-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5649,
+      "publishedAt": "2026-08-04T05:00:00.000Z",
+      "summary": "Find the latest Lowe’s promo codes and offers, including up to $300 off select major appliances and $5 off $50 with sign-up, here at WIRED.",
       "tags": [
         "Dev Tools"
       ],
@@ -291,7 +293,7 @@
       "url": "https://www.wired.com/story/lovehoney-discount-code/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5802,
+      "score": 0.5649,
       "publishedAt": "2026-08-04T05:00:00.000Z",
       "summary": "Save on Lovehoney, including bestselling toys, lingerie, and popular gift sets for date nights, self-care, and couples’ play.",
       "tags": [
@@ -304,7 +306,7 @@
       "url": "https://www.wired.com/story/wayfair-promo-code/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5802,
+      "score": 0.5649,
       "publishedAt": "2026-08-04T05:00:00.000Z",
       "summary": "Get 10% off with Wayfair promo code, up to 80% off furniture, and more top coupons.",
       "tags": [
@@ -317,7 +319,7 @@
       "url": "https://www.wired.com/story/expedia-coupon/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5802,
+      "score": 0.5649,
       "publishedAt": "2026-08-04T05:00:00.000Z",
       "summary": "Book your next getaway with Expedia and get up to 75% off your stay, with or without a promo code.",
       "tags": [
@@ -330,7 +332,7 @@
       "url": "https://www.wired.com/story/best-buy-discount-code/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5802,
+      "score": 0.5649,
       "publishedAt": "2026-08-04T05:00:00.000Z",
       "summary": "Find the latest Best Buy promo codes and offers, including 10% back in rewards for new cardmembers and free 2-day shipping with My Best Buy Plus, here at WIRED.",
       "tags": [
@@ -339,13 +341,13 @@
       "engagementScore": 0
     },
     {
-      "title": "20% Off Sephora Promo Code | August 2026",
-      "url": "https://www.wired.com/story/sephora-promo-code/",
+      "title": "Lenovo Coupon Codes and Deals in August 2026",
+      "url": "https://www.wired.com/story/lenovo-coupon-code/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5802,
+      "score": 0.5649,
       "publishedAt": "2026-08-04T05:00:00.000Z",
-      "summary": "Earn more points on skincare purchases when you use our Sephora coupon.",
+      "summary": "Whether you’re shopping for a ThinkPad, Yoga laptop, or Legion gaming PC, these Lenovo discount codes and promotions can help you save big on your next tech upgrade.",
       "tags": [
         "Dev Tools"
       ],
@@ -356,7 +358,7 @@
       "url": "https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5613,
+      "score": 0.5446,
       "publishedAt": "2026-08-03T08:30:05.000Z",
       "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. When two OpenAI models hacked into the website Hugging Face in July, they weren’t trying to make money or commit sabotage",
       "tags": [
@@ -371,26 +373,13 @@
       "url": "https://www.seangoedecke.com/llms-reward-expertise/",
       "feedSource": "Hacker News",
       "source": "seangoedecke.com",
-      "score": 0.545,
+      "score": 0.5397,
       "publishedAt": "2026-08-03T21:13:53.000Z",
       "summary": "In the 2010s, if you had technical gaps (say, you couldn’t write CSS), you had to either rely on a skilled colleague or just hope that the answer to your exact problem was out there on the internet. Today, everyone can write sort-of-okay CSS by delegating the task to an LLM. LLMs make everybody into",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 696
-    },
-    {
-      "title": "Europe’s AI labeling and transparency rules are now in effect",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5202,
-      "publishedAt": "2026-08-03T17:46:48.000Z",
-      "summary": "The European Union has ushered in some additional rules that aim to make it easier for people to identify chatbots and AI deepfakes online. The new transparency obligations under the bloc's landmark AI Act came into effect on August 2nd, requiring companies to disclose when people are interacting wi",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
+      "engagementScore": 884
     },
     {
       "title": "Ten advances in mathematics and theoretical computer science",
@@ -460,25 +449,64 @@
       "engagementScore": 0
     },
     {
+      "title": "Europe’s AI labeling and transparency rules are now in effect",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5049,
+      "publishedAt": "2026-08-03T17:46:48.000Z",
+      "summary": "The European Union has ushered in some additional rules that aim to make it easier for people to identify chatbots and AI deepfakes online. The new transparency obligations under the bloc's landmark AI Act came into effect on August 2nd, requiring companies to disclose when people are interacting wi",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "There Will Come Soft Rains (1950) [pdf]",
+      "url": "https://users.wpi.edu/~zrbutzke/Docs/BradburyStories(1).pdf",
+      "feedSource": "Hacker News",
+      "source": "users.wpi.edu",
+      "score": 0.4854,
+      "publishedAt": "2026-08-03T23:24:53.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 147
+    },
+    {
       "title": "SQLite Critical CVEs or LLM Slop?",
       "url": "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/",
       "feedSource": "Hacker News",
       "source": "research.jfrog.com",
-      "score": 0.4981,
+      "score": 0.4843,
       "publishedAt": "2026-08-03T11:28:54.000Z",
       "summary": "The JFrog security research team recently identified a supply chain attack targeting the `xinference` package on PyPI. Versions 2.6.0, 2.6.1, and 2.6.2 were compromised and yanked by maintainers after users reported suspicious behavior. If you installed or imported these versions, you must assume yo",
       "tags": [
         "LLM",
         "Research"
       ],
-      "engagementScore": 706
+      "engagementScore": 709
+    },
+    {
+      "title": "Taylor Farms has rewritten its cyclospora statement four times in sixteen days",
+      "url": "https://www.marlerblog.com/case-news/taylor-farms-has-rewritten-its-cyclospora-statement-four-times-in-sixteen-days-it-still-has-not-said-what-changed-at-that-plant-after-2013-or-why-two-thousand-negative-tests-should-mean-an/",
+      "feedSource": "Hacker News",
+      "source": "marlerblog.com",
+      "score": 0.4715,
+      "publishedAt": "2026-08-03T15:31:32.000Z",
+      "summary": "A company’s public statement in the middle of an outbreak is not marketing. It is evidence — what the company said it knew, and when, published to the",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 289
     },
     {
       "title": "China&#8217;s Alibaba takes another swipe at America’s AI supremacy",
       "url": "https://www.theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4857,
+      "score": 0.4704,
       "publishedAt": "2026-08-03T11:20:37.000Z",
       "summary": "Chinese tech giant Alibaba released what it says is its largest and \"most capable AI model to date,\" claiming performance rivaling the best systems from US frontier labs Anthropic and OpenAI, as well as domestic rivals like Moonshot AI's Kimi K3. Alibaba said it was making the model, Qwen3.8-Max, wi",
       "tags": [
@@ -488,37 +516,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Taylor Farms has rewritten its cyclospora statement four times in sixteen days",
-      "url": "https://www.marlerblog.com/case-news/taylor-farms-has-rewritten-its-cyclospora-statement-four-times-in-sixteen-days-it-still-has-not-said-what-changed-at-that-plant-after-2013-or-why-two-thousand-negative-tests-should-mean-an/",
-      "feedSource": "Hacker News",
-      "source": "marlerblog.com",
-      "score": 0.485,
-      "publishedAt": "2026-08-03T15:31:32.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 286
-    },
-    {
-      "title": "There Will Come Soft Rains (1950) [pdf]",
-      "url": "https://users.wpi.edu/~zrbutzke/Docs/BradburyStories(1).pdf",
-      "feedSource": "Hacker News",
-      "source": "users.wpi.edu",
-      "score": 0.4827,
-      "publishedAt": "2026-08-03T23:24:53.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 93
-    },
-    {
       "title": "Is this Billboard Hot 100 hit AI slop?",
       "url": "https://www.theverge.com/ai-artificial-intelligence/974209/fenix-flexin-billboard-hot-100-rubberz-ai-slop",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4773,
+      "score": 0.462,
       "publishedAt": "2026-08-03T09:45:52.000Z",
       "summary": "Fenix Flexin is best known as a member of Shoreline Mafia, a rap duo from Los Angeles. But he's recently found solo success with the track \"Rubberz,\" which has climbed to number 58 on the Billboard Hot 100. Almost immediately, though, questions were raised about the song's origins, with many specula",
       "tags": [
@@ -531,7 +533,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/974265/fender-ceo-bud-cole-ai-music",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4753,
+      "score": 0.46,
       "publishedAt": "2026-08-03T09:23:36.000Z",
       "summary": "Fender CEO Edward \"Bud\" Cole gave an interview to T3 in May celebrating the 75th anniversary of the Telecaster with comments on AI and music that initially flew under the radar. But it has started making the rounds recently, pouring more fuel on an already raging fire of bad PR following the company",
       "tags": [
@@ -561,7 +563,7 @@
       "source": "deepmind.google",
       "score": 0.4222,
       "publishedAt": "2026-07-29T16:02:10.000Z",
-      "summary": "",
+      "summary": "Our newest music generation model, Lyria 3.5, delivers significant advancements across musicality, lyrics, and vocal quality, empowering you to craft richer tracks. We’r…",
       "tags": [
         "AI"
       ],
@@ -574,7 +576,7 @@
       "source": "deepmind.google",
       "score": 0.4222,
       "publishedAt": "2026-07-28T13:21:37.000Z",
-      "summary": "",
+      "summary": "From feet to fingertips — we are teaching robots intelligent whole-body control, fine dexterity, and teamwork to complete a broad range of complex tasks.",
       "tags": [
         "LLM"
       ],
