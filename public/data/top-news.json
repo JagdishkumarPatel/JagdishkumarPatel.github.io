@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-03T22:11:13.851Z",
+  "updatedAt": "2026-08-04T02:51:29.251Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,20 +12,20 @@
       "url": "https://openai.com/index/ten-advances-in-mathematics/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 1.1012,
+      "score": 1.0812,
       "publishedAt": "2026-08-03T16:27:12.000Z",
-      "summary": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
+      "summary": "",
       "tags": [
-        "LLM"
+        "AI"
       ],
-      "engagementScore": 350
+      "engagementScore": 453
     },
     {
       "title": "How we built a realtime system for responsive voice AI in six months",
       "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9266,
+      "score": 0.8926,
       "publishedAt": "2026-08-03T07:00:00.000Z",
       "summary": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
       "tags": [
@@ -34,25 +34,38 @@
       "engagementScore": 0
     },
     {
+      "title": "Circles powers telco personalization with OpenAI technology",
+      "url": "https://openai.com/index/circles",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.8415,
+      "publishedAt": "2026-08-03T00:00:00.000Z",
+      "summary": "Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development efficiency.",
+      "tags": [
+        "LLM",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "AI migrated legacy COBOL programs to Java, bugs included",
       "url": "https://arxiv.org/abs/2607.28271",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8098,
+      "score": 0.7786,
       "publishedAt": "2026-08-03T03:06:12.000Z",
-      "summary": "Migration of legacy COBOL programs to Java requires extensive testing to ensure correct functionality. This effort is often complicated by the lack of test data and the difficulty of validating all corner cases. In this paper we propose a novel agentic test-synthesis method, the “Locksmith Loop,” wh",
+      "summary": "",
       "tags": [
-        "Agents",
-        "Research"
+        "AI"
       ],
-      "engagementScore": 86
+      "engagementScore": 87
     },
     {
       "title": "OpenClaw and Ollama in Agentic AI: Toward Fully Autonomous and Scalable AI Agent Systems",
       "url": "https://arxiv.org/abs/2607.28629",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7885,
+      "score": 0.7567,
       "publishedAt": "2026-08-03T04:00:00.000Z",
       "summary": "arXiv:2607.28629v1 Announce Type: new \nAbstract: The rapid transition from reactive large language models (LLMs) to persistent, action-capable systems has exposed critical gaps in the architectural understanding of Agentic AI, particularly in separating inference, orchestration, and execution layers",
       "tags": [
@@ -68,7 +81,7 @@
       "url": "https://arxiv.org/abs/2607.28631",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7885,
+      "score": 0.7567,
       "publishedAt": "2026-08-03T04:00:00.000Z",
       "summary": "arXiv:2607.28631v1 Announce Type: new \nAbstract: AI Scientist systems capable of autonomous research have the potential to significantly accelerate scientific discovery. However, evaluating and comparing the quality of AI-generated papers remains an open challenge. We propose and implement a rigorou",
       "tags": [
@@ -83,7 +96,7 @@
       "url": "https://arxiv.org/abs/2607.28632",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7885,
+      "score": 0.7567,
       "publishedAt": "2026-08-03T04:00:00.000Z",
       "summary": "arXiv:2607.28632v1 Announce Type: new \nAbstract: Major mathematical conjectures still depend heavily on expert intuition, so a unified method for the systematic generation and validation of conjectures with substantial mathematical potential remains unavailable. We present a three stage pipeline for",
       "tags": [
@@ -97,7 +110,7 @@
       "url": "https://arxiv.org/abs/2607.28642",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7885,
+      "score": 0.7567,
       "publishedAt": "2026-08-03T04:00:00.000Z",
       "summary": "arXiv:2607.28642v1 Announce Type: new \nAbstract: Long chain-of-thought reasoning improves performance on complex problems, but it also introduces redundancy accumulation, context overflow, and error anchoring. We argue that under bounded context windows, the core bottleneck is not trajectory compres",
       "tags": [
@@ -110,7 +123,7 @@
       "url": "https://arxiv.org/abs/2607.28657",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7885,
+      "score": 0.7567,
       "publishedAt": "2026-08-03T04:00:00.000Z",
       "summary": "arXiv:2607.28657v1 Announce Type: new \nAbstract: Large Language Models (LLMs) often require carefully crafted prompts to unlock their full potential, which can be a barrier for non-expert users. This work addresses the challenge by introducing a Task-Aware Prompt Rewriter (TAPR), a model that reform",
       "tags": [
@@ -124,7 +137,7 @@
       "url": "https://arxiv.org/abs/2607.28659",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7885,
+      "score": 0.7567,
       "publishedAt": "2026-08-03T04:00:00.000Z",
       "summary": "arXiv:2607.28659v1 Announce Type: new \nAbstract: Cross-domain sequential recommendation (CDSR) aims to model users' dynamic interest transitions and sequential patterns across multiple domains. Recently, generative recommendation (GR) has emerged. It first learns semantic identifiers (SIDs) from ite",
       "tags": [
@@ -138,7 +151,7 @@
       "url": "https://arxiv.org/abs/2607.28662",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7885,
+      "score": 0.7567,
       "publishedAt": "2026-08-03T04:00:00.000Z",
       "summary": "arXiv:2607.28662v1 Announce Type: new \nAbstract: Large language models extract entities and relationships from unstructured documents fluently but inconsistently: type vocabularies fracture across documents, the same person surfaces under several name variants, relationships duplicate, and distinct",
       "tags": [
@@ -152,7 +165,7 @@
       "url": "https://arxiv.org/abs/2607.28674",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7885,
+      "score": 0.7567,
       "publishedAt": "2026-08-03T04:00:00.000Z",
       "summary": "arXiv:2607.28674v1 Announce Type: new \nAbstract: Understanding how computational effort is allocated across individual chain-of-thought (CoT) reasoning steps remains an open challenge: existing interpretability methods rely on output-level signals or collapse processing depth into a single trajector",
       "tags": [
@@ -166,7 +179,7 @@
       "url": "https://www.technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6657,
+      "score": 0.6385,
       "publishedAt": "2026-08-03T18:43:30.000Z",
       "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Humanoid robots usually elicit more cringe than awe: They stumble, kick children, and despite advances are still worse at using their hands than my toddler. It’s",
       "tags": [
@@ -179,24 +192,9 @@
       "url": "https://www.technologyreview.com/2026/08/03/1141039/the-download-reward-hacking-water-cyberattacks/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6273,
+      "score": 0.6,
       "publishedAt": "2026-08-03T12:08:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Here’s why AI agents lie and cheat to reach their goals When two OpenAI models hacked into Hugging Face last month, they weren’t trying to make money",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Open Source"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Here’s why AI agents lie and cheat to reach their goals",
-      "url": "https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.6061,
-      "publishedAt": "2026-08-03T08:30:05.000Z",
-      "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. When two OpenAI models hacked into the website Hugging Face in July, they weren’t trying to make money or commit sabotage",
       "tags": [
         "LLM",
         "Agents",
@@ -211,19 +209,59 @@
       "source": "anthropic.com",
       "score": 0.5997,
       "publishedAt": "2026-07-30T23:00:51.000Z",
-      "summary": "In a review of our cybersecurity evaluation transcripts, we found three incidents in which a Claude model reached the internet from within or while interacting with a third-party evaluation environment, and then gained unauthorized access to the real systems of three different organizations. Below w",
+      "summary": "",
       "tags": [
-        "LLM",
         "Industry"
       ],
       "engagementScore": 250
+    },
+    {
+      "title": "Here’s why AI agents lie and cheat to reach their goals",
+      "url": "https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.5788,
+      "publishedAt": "2026-08-03T08:30:05.000Z",
+      "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. When two OpenAI models hacked into the website Hugging Face in July, they weren’t trying to make money or commit sabotage",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Open Source"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Did an AI Music App Just Snitch on the Song of the Summer?",
+      "url": "https://www.wired.com/story/ai-music-app-treblo-just-snitched-on-rubberz-song-of-the-summer/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5612,
+      "publishedAt": "2026-08-03T22:27:46.000Z",
+      "summary": "Fenix Flexin’s hit song “Rubberz” has hip-hop fans arguing over whether it was generated by AI. Some say they have proof it’s machine-made, but will anyone care?",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "LLMs reward expertise",
+      "url": "https://www.seangoedecke.com/llms-reward-expertise/",
+      "feedSource": "Hacker News",
+      "source": "seangoedecke.com",
+      "score": 0.5479,
+      "publishedAt": "2026-08-03T21:13:53.000Z",
+      "summary": "",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 505
     },
     {
       "title": "The SpaceX Falcon Lunar Crash Is a Warning for Moon Bases",
       "url": "https://www.wired.com/story/spacex-falcon-moon-crash-warning-for-lunar-bases/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5729,
+      "score": 0.5479,
       "publishedAt": "2026-08-03T19:58:23.000Z",
       "summary": "The risk of more debris hitting the moon is on the rise as the space race heats up.",
       "tags": [
@@ -236,7 +274,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5612,
+      "score": 0.5362,
       "publishedAt": "2026-08-03T17:46:48.000Z",
       "summary": "The European Union has ushered in some additional rules that aim to make it easier for people to identify chatbots and AI deepfakes online. The new transparency obligations under the bloc's landmark AI Act came into effect on August 2nd, requiring companies to disclose when people are interacting wi",
       "tags": [
@@ -249,182 +287,25 @@
       "url": "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/",
       "feedSource": "Hacker News",
       "source": "research.jfrog.com",
-      "score": 0.5343,
+      "score": 0.5124,
       "publishedAt": "2026-08-03T11:28:54.000Z",
       "summary": "The JFrog security research team recently identified a supply chain attack targeting the `xinference` package on PyPI. Versions 2.6.0, 2.6.1, and 2.6.2 were compromised and yanked by maintainers after users reported suspicious behavior. If you installed or imported these versions, you must assume yo",
       "tags": [
         "LLM",
         "Research"
       ],
-      "engagementScore": 685
-    },
-    {
-      "title": "Best Robot Lawn Mowers (2026): My Picks After 3 Years of Testing",
-      "url": "https://www.wired.com/gallery/best-robot-lawn-mowers/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5276,
-      "publishedAt": "2026-08-03T11:30:00.000Z",
-      "summary": "Smart mowers are an expensive alternative to old-fashioned yard work, but they’re finally good enough to consider if you’d rather sip an iced tea and watch a robot tame your lawn.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "China&#8217;s Alibaba takes another swipe at America’s AI supremacy",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5268,
-      "publishedAt": "2026-08-03T11:20:37.000Z",
-      "summary": "Chinese tech giant Alibaba released what it says is its largest and \"most capable AI model to date,\" claiming performance rivaling the best systems from US frontier labs Anthropic and OpenAI, as well as domestic rivals like Moonshot AI's Kimi K3. Alibaba said it was making the model, Qwen3.8-Max, wi",
-      "tags": [
-        "LLM",
-        "Open Source"
-      ],
-      "engagementScore": 0
+      "engagementScore": 700
     },
     {
       "title": "Ten advances in mathematics and theoretical computer science",
       "url": "https://openai.com/index/ten-advances-in-mathematics",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.5256,
+      "score": 0.5124,
       "publishedAt": "2026-08-01T00:00:00.000Z",
       "summary": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
       "tags": [
         "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Alienware 27 QD-OLED (AW2726DM) Review: A $350 Winner",
-      "url": "https://www.wired.com/review/alienware-27-qd-oled-aw2726dm/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5249,
-      "publishedAt": "2026-08-03T11:00:00.000Z",
-      "summary": "We’ve come a long way since exclusively $1,000+ OLED gaming monitors. Alienware’s latest display brings the price down to a shocking $350, though it comes with some important compromises.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "People Are Ghosting Long-Term Partners. Some Don’t Regret It",
-      "url": "https://www.wired.com/story/people-are-ghosting-long-term-partners-some-dont-regret-it/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5249,
-      "publishedAt": "2026-08-03T11:00:00.000Z",
-      "summary": "The communication-free form of breaking up has become ubiquitous. “I no longer had to bear her energy,” a man who ghosted his partner of four years tells WIRED.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "LLMs reward expertise",
-      "url": "https://www.seangoedecke.com/llms-reward-expertise/",
-      "feedSource": "Hacker News",
-      "source": "seangoedecke.com",
-      "score": 0.5226,
-      "publishedAt": "2026-08-03T21:13:53.000Z",
-      "summary": "In the 2010s, if you had technical gaps (say, you couldn’t write CSS), you had to either rely on a skilled colleague or just hope that the answer to your exact problem was out there on the internet. Today, everyone can write sort-of-okay CSS by delegating the task to an LLM. LLMs make everybody into",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 134
-    },
-    {
-      "title": "The Best Audio Players for Kids: Yoto, Toniebox, and More",
-      "url": "https://www.wired.com/story/the-best-kids-audio-players-for-screen-free-story-time/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5223,
-      "publishedAt": "2026-08-03T10:31:00.000Z",
-      "summary": "Whether you want an audio player that’ll grow with your kid or one that your toddler can operate independently, I have a recommendation for you.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Taylor Farms has rewritten its cyclospora statement four times in sixteen days",
-      "url": "https://www.marlerblog.com/case-news/taylor-farms-has-rewritten-its-cyclospora-statement-four-times-in-sixteen-days-it-still-has-not-said-what-changed-at-that-plant-after-2013-or-why-two-thousand-negative-tests-should-mean-an/",
-      "feedSource": "Hacker News",
-      "source": "marlerblog.com",
-      "score": 0.5205,
-      "publishedAt": "2026-08-03T15:31:32.000Z",
-      "summary": "A company’s public statement in the middle of an outbreak is not marketing. It is evidence — what the company said it knew, and when, published to the",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 272
-    },
-    {
-      "title": "The Delicate Art of Making a 1907 House Smarter",
-      "url": "https://www.wired.com/story/smart-tech-for-a-vintage-home/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5204,
-      "publishedAt": "2026-08-03T10:09:00.000Z",
-      "summary": "I tested modern locks, lights, climate controls, and more in a historic home that I very much wanted to keep historic.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "ICE Collected Nearly 1 Million People’s DNA Last Year—Including Young Children",
-      "url": "https://www.wired.com/story/ice-dna-collection-fbi-codis/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5196,
-      "publishedAt": "2026-08-03T10:00:00.000Z",
-      "summary": "Internal documents show ICE's DNA collection has skyrocketed in the second Trump administration. Now hundreds of thousands of people never convicted of a crime are in an FBI criminal database forever.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "AI Conquered Coding. Fast Food Is Next",
-      "url": "https://www.wired.com/story/ai-conquered-coding-fast-food-is-next/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5196,
-      "publishedAt": "2026-08-03T10:00:00.000Z",
-      "summary": "Your next drive-thru order might be taken by a bot. And you might not even notice.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Is this Billboard Hot 100 hit AI slop?",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/974209/fenix-flexin-billboard-hot-100-rubberz-ai-slop",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5183,
-      "publishedAt": "2026-08-03T09:45:52.000Z",
-      "summary": "Fenix Flexin is best known as a member of Shoreline Mafia, a rap duo from Los Angeles. But he's recently found solo success with the track \"Rubberz,\" which has climbed to number 58 on the Billboard Hot 100. Almost immediately, though, questions were raised about the song's origins, with many specula",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Fender’s CEO seems to think your bandmates are just analog AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/974265/fender-ceo-bud-cole-ai-music",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5163,
-      "publishedAt": "2026-08-03T09:23:36.000Z",
-      "summary": "Fender CEO Edward \"Bud\" Cole gave an interview to T3 in May celebrating the 75th anniversary of the Telecaster with comments on AI and music that initially flew under the radar. But it has started making the rounds recently, pouring more fuel on an already raging fire of bad PR following the company",
-      "tags": [
-        "RAG"
       ],
       "engagementScore": 0
     },
@@ -496,45 +377,161 @@
       "engagementScore": 0
     },
     {
-      "title": "How avatarin built a 24/7 retail agent with GPT-Realtime",
-      "url": "https://openai.com/index/avatarin",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5124,
-      "publishedAt": "2026-07-30T00:00:00.000Z",
-      "summary": "avatarin uses OpenAI’s GPT-Realtime to give Yamada Denki shoppers 24/7 multilingual support. In two weeks, 30,000 people used the agent and 92% of survey responses were positive.",
+      "title": "Best Robot Lawn Mowers (2026): My Picks After 3 Years of Testing",
+      "url": "https://www.wired.com/gallery/best-robot-lawn-mowers/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5026,
+      "publishedAt": "2026-08-03T11:30:00.000Z",
+      "summary": "Smart mowers are an expensive alternative to old-fashioned yard work, but they’re finally good enough to consider if you’d rather sip an iced tea and watch a robot tame your lawn.",
       "tags": [
-        "LLM",
-        "Agents"
+        "AI"
       ],
       "engagementScore": 0
     },
     {
-      "title": "Qwen3.8-Max: A New Bar for Coding and Cowork",
-      "url": "https://qwen.ai/blog?id=qwen3.8",
-      "feedSource": "Hacker News",
-      "source": "qwen.ai",
-      "score": 0.5045,
-      "publishedAt": "2026-08-03T02:16:09.000Z",
-      "summary": "Qwen Studio offers comprehensive functionality spanning chatbot, image and video understanding, image generation, document processing, web search integration, tool utilization, and artifacts.",
+      "title": "China&#8217;s Alibaba takes another swipe at America’s AI supremacy",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5018,
+      "publishedAt": "2026-08-03T11:20:37.000Z",
+      "summary": "Chinese tech giant Alibaba released what it says is its largest and \"most capable AI model to date,\" claiming performance rivaling the best systems from US frontier labs Anthropic and OpenAI, as well as domestic rivals like Moonshot AI's Kimi K3. Alibaba said it was making the model, Qwen3.8-Max, wi",
       "tags": [
-        "Vision",
-        "Dev Tools"
+        "LLM",
+        "Open Source"
       ],
-      "engagementScore": 1036
+      "engagementScore": 0
+    },
+    {
+      "title": "Alienware 27 QD-OLED (AW2726DM) Review: A $350 Winner",
+      "url": "https://www.wired.com/review/alienware-27-qd-oled-aw2726dm/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5,
+      "publishedAt": "2026-08-03T11:00:00.000Z",
+      "summary": "We’ve come a long way since exclusively $1,000+ OLED gaming monitors. Alienware’s latest display brings the price down to a shocking $350, though it comes with some important compromises.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "People Are Ghosting Long-Term Partners. Some Don’t Regret It",
+      "url": "https://www.wired.com/story/people-are-ghosting-long-term-partners-some-dont-regret-it/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5,
+      "publishedAt": "2026-08-03T11:00:00.000Z",
+      "summary": "The communication-free form of breaking up has become ubiquitous. “I no longer had to bear her energy,” a man who ghosted his partner of four years tells WIRED.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Taylor Farms has rewritten its cyclospora statement four times in sixteen days",
+      "url": "https://www.marlerblog.com/case-news/taylor-farms-has-rewritten-its-cyclospora-statement-four-times-in-sixteen-days-it-still-has-not-said-what-changed-at-that-plant-after-2013-or-why-two-thousand-negative-tests-should-mean-an/",
+      "feedSource": "Hacker News",
+      "source": "marlerblog.com",
+      "score": 0.4995,
+      "publishedAt": "2026-08-03T15:31:32.000Z",
+      "summary": "A company’s public statement in the middle of an outbreak is not marketing. It is evidence — what the company said it knew, and when, published to the",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 285
+    },
+    {
+      "title": "The Best Audio Players for Kids: Yoto, Toniebox, and More",
+      "url": "https://www.wired.com/story/the-best-kids-audio-players-for-screen-free-story-time/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4974,
+      "publishedAt": "2026-08-03T10:31:00.000Z",
+      "summary": "Whether you want an audio player that’ll grow with your kid or one that your toddler can operate independently, I have a recommendation for you.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Delicate Art of Making a 1907 House Smarter",
+      "url": "https://www.wired.com/story/smart-tech-for-a-vintage-home/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4954,
+      "publishedAt": "2026-08-03T10:09:00.000Z",
+      "summary": "I tested modern locks, lights, climate controls, and more in a historic home that I very much wanted to keep historic.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "ICE Collected Nearly 1 Million People’s DNA Last Year—Including Young Children",
+      "url": "https://www.wired.com/story/ice-dna-collection-fbi-codis/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4946,
+      "publishedAt": "2026-08-03T10:00:00.000Z",
+      "summary": "Internal documents show ICE's DNA collection has skyrocketed in the second Trump administration. Now hundreds of thousands of people never convicted of a crime are in an FBI criminal database forever.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Is this Billboard Hot 100 hit AI slop?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/974209/fenix-flexin-billboard-hot-100-rubberz-ai-slop",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.4933,
+      "publishedAt": "2026-08-03T09:45:52.000Z",
+      "summary": "Fenix Flexin is best known as a member of Shoreline Mafia, a rap duo from Los Angeles. But he's recently found solo success with the track \"Rubberz,\" which has climbed to number 58 on the Billboard Hot 100. Almost immediately, though, questions were raised about the song's origins, with many specula",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Fender’s CEO seems to think your bandmates are just analog AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/974265/fender-ceo-bud-cole-ai-music",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.4914,
+      "publishedAt": "2026-08-03T09:23:36.000Z",
+      "summary": "Fender CEO Edward \"Bud\" Cole gave an interview to T3 in May celebrating the 75th anniversary of the Telecaster with comments on AI and music that initially flew under the radar. But it has started making the rounds recently, pouring more fuel on an already raging fire of bad PR following the company",
+      "tags": [
+        "RAG"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "AI's debt binge can't last, hidden borrowing reaches $1.65T",
       "url": "https://fortune.com/2026/07/31/ai-debt-hypescalers-capex-capital-spending-hidden-borrowing-bond-issuance/",
       "feedSource": "Hacker News",
       "source": "fortune.com",
-      "score": 0.5016,
+      "score": 0.4892,
       "publishedAt": "2026-08-03T20:02:21.000Z",
-      "summary": "“At some point, the rivers of capital financing private and government debt issuance will flow less freely.”",
+      "summary": "",
       "tags": [
-        "Dev Tools"
+        "AI"
       ],
-      "engagementScore": 88
+      "engagementScore": 117
+    },
+    {
+      "title": "Smaller, faster, safer: running Kimi and GLM at scale",
+      "url": "https://blog.cloudflare.com/smaller-faster-safer-models/",
+      "feedSource": "Hacker News",
+      "source": "blog.cloudflare.com",
+      "score": 0.4856,
+      "publishedAt": "2026-08-03T17:08:46.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 156
     },
     {
       "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
