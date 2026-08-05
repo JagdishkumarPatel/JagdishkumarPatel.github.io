@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T19:40:12.734Z",
+  "updatedAt": "2026-08-05T22:14:32.149Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,11 +8,38 @@
   ],
   "items": [
     {
+      "title": "OpenAI says my prepaid credits were consumed, refuses to show any record",
+      "url": "https://community.openai.com/t/how-openai-lost-a-paying-customer-over-160-it-refuses-to-explain/1389233",
+      "feedSource": "Hacker News",
+      "source": "community.openai.com",
+      "score": 1.0194,
+      "publishedAt": "2026-08-05T21:04:07.000Z",
+      "summary": "I was a happy OpenAI customer. ChatGPT Pro subscription, Codex for my daily work as a lighting designer, $379 spent on credits in July alone. This is the story of how OpenAI turned me into someone who will not give them another dollar - and documented every step of it themselves. July 9. My Codex ba",
+      "tags": [
+        "LLM",
+        "Dev Tools"
+      ],
+      "engagementScore": 42
+    },
+    {
+      "title": "Sycophantic AI Decreases Prosocial Intentions and Promotes Dependence (2025)",
+      "url": "https://arxiv.org/abs/2510.01395",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.8962,
+      "publishedAt": "2026-08-05T18:17:03.000Z",
+      "summary": "Both the general public and academic communities have raised concerns about sycophancy, the phenomenon of artificial intelligence (AI) excessively agreeing with or flattering users. Yet, beyond isolated media reports of severe consequences, like reinforcing delusions, little is known about the exten",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 62
+    },
+    {
       "title": "Third-party cyber evaluations involving OpenAI models",
       "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8575,
+      "score": 0.8387,
       "publishedAt": "2026-08-04T19:00:00.000Z",
       "summary": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
       "tags": [
@@ -22,24 +49,24 @@
       "engagementScore": 0
     },
     {
-      "title": "Sycophantic AI Decreases Prosocial Intentions and Promotes Dependence (2025)",
-      "url": "https://arxiv.org/abs/2510.01395",
+      "title": "What went wrong with data lakes? A 15-year reality check",
+      "url": "https://arxiv.org/abs/2606.08266",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8564,
-      "publishedAt": "2026-08-05T18:17:03.000Z",
-      "summary": "Both the general public and academic communities have raised concerns about sycophancy, the phenomenon of artificial intelligence (AI) excessively agreeing with or flattering users. Yet, beyond isolated media reports of severe consequences, like reinforcing delusions, little is known about the exten",
+      "score": 0.8229,
+      "publishedAt": "2026-08-05T15:34:29.000Z",
+      "summary": "James Dixon introduced the Data Lake in 2010. The pitch was simple: store data raw, postpone schema, cut up-front transformation. It promised flexibility and easier analytics. Fifteen years on, that promise has mostly gone unmet: survey after survey reports high failure rates, whether a big data pro",
       "tags": [
         "AI"
       ],
-      "engagementScore": 20
+      "engagementScore": 21
     },
     {
       "title": "Zero-Mem: Zero-Token Memory Operations for LLM Agents",
       "url": "https://arxiv.org/abs/2607.29377",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8348,
+      "score": 0.8209,
       "publishedAt": "2026-08-05T04:36:44.000Z",
       "summary": "LLM agents need memory to act consistently over long interactions, yet many systems use additional LLM calls to operate that memory. Generating intermediate records and mediating their retrieval adds recurring token and time costs, while omitted or merged details can obscure the original evidence. W",
       "tags": [
@@ -47,40 +74,27 @@
         "Agents",
         "RAG"
       ],
-      "engagementScore": 82
+      "engagementScore": 88
     },
     {
       "title": "Zigbee vs. Matter over Thread:Understanding IoT Protocol Performance in Practice",
       "url": "https://arxiv.org/abs/2603.04221",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8162,
+      "score": 0.7992,
       "publishedAt": "2026-08-05T00:10:37.000Z",
       "summary": "The widespread adoption of the Internet of Things (IoT) has positioned smart homes as paradigmatic examples of distributed automation systems, where reliability, efficiency, and interoperability depend critically on the underlying communication protocol. Among the low-power wireless technologies ava",
       "tags": [
         "AI"
       ],
-      "engagementScore": 103
-    },
-    {
-      "title": "What went wrong with data lakes? A 15-year reality check",
-      "url": "https://arxiv.org/abs/2606.08266",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.812,
-      "publishedAt": "2026-08-05T15:34:29.000Z",
-      "summary": "James Dixon introduced the Data Lake in 2010. The pitch was simple: store data raw, postpone schema, cut up-front transformation. It promised flexibility and easier analytics. Fifteen years on, that promise has mostly gone unmet: survey after survey reports high failure rates, whether a big data pro",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 12
+      "engagementScore": 104
     },
     {
       "title": "Revisiting Classic Thought Experiments to Measure Consciousness for Artificial Intelligence Safety",
       "url": "https://arxiv.org/abs/2608.00001",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8056,
+      "score": 0.7881,
       "publishedAt": "2026-08-05T04:00:00.000Z",
       "summary": "arXiv:2608.00001v1 Announce Type: new \nAbstract: This research note revisits Leibniz's mill, Turing's imitation game, and Searle's Chinese Room through the Conservation-Congruent Encoding (CCE) framework. It formalises a toy symbolic setting in which successful behaviour is measured by task performa",
       "tags": [
@@ -95,7 +109,7 @@
       "url": "https://arxiv.org/abs/2608.00003",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8056,
+      "score": 0.7881,
       "publishedAt": "2026-08-05T04:00:00.000Z",
       "summary": "arXiv:2608.00003v1 Announce Type: new \nAbstract: Computational Fluid Dynamics (CFD) plays an important role in modern engineering, but using open-source solvers such as OpenFOAM requires considerable knowledge and skills, as well as time-consuming configuration file setup. To reduce this burden, we",
       "tags": [
@@ -110,7 +124,7 @@
       "url": "https://arxiv.org/abs/2608.00006",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8056,
+      "score": 0.7881,
       "publishedAt": "2026-08-05T04:00:00.000Z",
       "summary": "arXiv:2608.00006v1 Announce Type: new \nAbstract: Large Language Models (LLMs), a part of artificial intelligence (AI), are increasingly being adopted by Small and Medium Enterprises (SMEs) to enhance question-answering capabilities and support business decision-making processes. However, hallucinati",
       "tags": [
@@ -125,7 +139,7 @@
       "url": "https://arxiv.org/abs/2608.00008",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8056,
+      "score": 0.7881,
       "publishedAt": "2026-08-05T04:00:00.000Z",
       "summary": "arXiv:2608.00008v1 Announce Type: new \nAbstract: The local deployment of large language models (LLMs) is gaining traction due to privacy concerns and the desire for on-premise inference. However, the energy costs on consumer hardware remain poorly characterized, as most benchmarks focus solely on ac",
       "tags": [
@@ -140,7 +154,7 @@
       "url": "https://arxiv.org/abs/2608.00014",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8056,
+      "score": 0.7881,
       "publishedAt": "2026-08-05T04:00:00.000Z",
       "summary": "arXiv:2608.00014v1 Announce Type: new \nAbstract: Evaluating Large Language Models (LLMs) incurs prohibitive computational overhead during continuous development processes. While coreset selection accelerates evaluation, existing methods either suffer from a severe ``cold start'' bottleneck requiring",
       "tags": [
@@ -155,7 +169,7 @@
       "url": "https://arxiv.org/abs/2608.00015",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8056,
+      "score": 0.7881,
       "publishedAt": "2026-08-05T04:00:00.000Z",
       "summary": "arXiv:2608.00015v1 Announce Type: new \nAbstract: Both optimization modeling and constraint modeling are non-trivial problems requiring deep domain expertise and proficiency in modeling formalism languages. Despite their importance across logistics, healthcare, and supply chain management, current la",
       "tags": [
@@ -171,7 +185,7 @@
       "url": "https://arxiv.org/abs/2608.00017",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8056,
+      "score": 0.7881,
       "publishedAt": "2026-08-05T04:00:00.000Z",
       "summary": "arXiv:2608.00017v1 Announce Type: new \nAbstract: Self-improving LLM agents increasingly learn from experience without updating any weights. Each episode is stored in an external memory, scored, and retrieved for similar future tasks to shape later behavior. Viewed through a reward lens, the stored s",
       "tags": [
@@ -186,7 +200,7 @@
       "url": "https://arxiv.org/abs/2608.00026",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8056,
+      "score": 0.7881,
       "publishedAt": "2026-08-05T04:00:00.000Z",
       "summary": "arXiv:2608.00026v1 Announce Type: new \nAbstract: Batched LLM serving improves throughput but complicates energy accounting. GPU power telemetry is aggregate, whereas sustainability reporting, chargeback, and workload analysis often require request-level energy charges. Existing inference-energy benc",
       "tags": [
@@ -200,7 +214,7 @@
       "url": "https://openai.com/index/ten-advances-in-mathematics/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.8006,
+      "score": 0.7819,
       "publishedAt": "2026-08-03T16:27:12.000Z",
       "summary": "Reload to try again, or go back.",
       "tags": [
@@ -213,48 +227,34 @@
       "url": "https://arxiv.org/abs/2602.16763",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7612,
+      "score": 0.7442,
       "publishedAt": "2026-08-04T16:10:39.000Z",
       "summary": "Artificial intelligence benchmarks are an important mechanism for measuring model progress and guiding deployment decisions. However, benchmarks quickly “saturate”, making it difficult to differentiate models and diminishing their long-term value. In this study, we define benchmark saturation and an",
       "tags": [
         "Research",
         "ML Infra"
       ],
-      "engagementScore": 102
-    },
-    {
-      "title": "Why Large Language Models Fail at Tabular Prediction",
-      "url": "https://arxiv.org/abs/2608.02412",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.7252,
-      "publishedAt": "2026-08-04T10:07:06.000Z",
-      "summary": "Large language models (LLMs) have become the default tool for a remarkable range of tasks, yet they have had conspicuously little success at one of the most common machine learning workloads: predictive analytics over tabular data. This gap is the founding premise of the fast-growing field of tabula",
-      "tags": [
-        "LLM",
-        "Dev Tools"
-      ],
-      "engagementScore": 113
+      "engagementScore": 103
     },
     {
       "title": "Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs",
       "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
       "feedSource": "Hacker News",
       "source": "blog.google",
-      "score": 0.7235,
+      "score": 0.7338,
       "publishedAt": "2026-08-05T16:05:31.000Z",
       "summary": "Today, Google and Alphabet CEO Sundar Pichai shared some changes with Google DeepMind teams.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 192
+      "engagementScore": 344
     },
     {
       "title": "New ways to learn and teach with ChatGPT Work and Codex",
       "url": "https://openai.com/index/learn-teach-chatgpt-work-codex",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7189,
+      "score": 0.7002,
       "publishedAt": "2026-08-04T00:00:00.000Z",
       "summary": "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.",
       "tags": [
@@ -269,7 +269,7 @@
       "url": "https://openai.com/index/apple-is-getting-this-wrong",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7044,
+      "score": 0.6856,
       "publishedAt": "2026-08-03T22:00:00.000Z",
       "summary": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.",
       "tags": [
@@ -282,7 +282,7 @@
       "url": "https://www.technologyreview.com/2026/08/05/1141230/puzzle-corner-84/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6583,
+      "score": 0.6433,
       "publishedAt": "2026-08-05T14:56:29.000Z",
       "summary": "Ready for a fresh set of puzzles? Click here for the September/October 2026 Puzzle Corner, brought to you by Michael S. Branicky, ScD ’95, of the Puzzle Corner Puzzle Crew (aka PC2), which also includes Edward Faulkner ’03, MEng ’04, and Abe Kunin ’03. This column includes solutions to the May/June",
       "tags": [
@@ -295,7 +295,7 @@
       "url": "https://www.technologyreview.com/2026/08/05/1141212/the-download-nasa-telescope-chinese-tech-import-curbs/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6421,
+      "score": 0.6271,
       "publishedAt": "2026-08-05T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. NASA’s new dark energy space telescope can also detect killer asteroids   At the end of August, NASA is set to launch the Nancy Grace Roman Space Tele",
       "tags": [
@@ -308,7 +308,7 @@
       "url": "https://www.technologyreview.com/2026/08/05/1141200/nasas-roman-telescope-detect-asteroids/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6185,
+      "score": 0.6035,
       "publishedAt": "2026-08-05T08:06:40.000Z",
       "summary": "At the end of August, NASA is set to launch the Nancy Grace Roman Space Telescope from Kennedy Space Center in Florida. Its goal is to help us better understand how the universe works, from the glue-like dark matter that keeps galaxies together to the elusive dark energy that drives the expansion of",
       "tags": [
@@ -321,7 +321,7 @@
       "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6074,
+      "score": 0.5912,
       "publishedAt": "2026-08-04T13:58:29.000Z",
       "summary": "",
       "tags": [
@@ -330,11 +330,24 @@
       "engagementScore": 0
     },
     {
+      "title": "The National Design Studio Became a DOGE Landing Pad. Now ‘Big Balls’ Is Recruiting",
+      "url": "https://www.wired.com/story/national-design-studio-doge-recruiting/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5781,
+      "publishedAt": "2026-08-05T21:00:00.000Z",
+      "summary": "WIRED spoke with an engineer who was interviewed by Edward “Big Balls” Coristine for a government engineering role at the NDS, the White House agency staffed by other DOGE veterans.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "How we built a realtime system for responsive voice AI in six months",
       "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.595,
+      "score": 0.5762,
       "publishedAt": "2026-08-03T07:00:00.000Z",
       "summary": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
       "tags": [
@@ -343,11 +356,37 @@
       "engagementScore": 0
     },
     {
+      "title": "DHS Wants Protesters’ Signal Group Chats",
+      "url": "https://www.wired.com/story/dhs-wants-protesters-signal-group-chats/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5762,
+      "publishedAt": "2026-08-05T20:38:54.000Z",
+      "summary": "A lawsuit accuses Homeland Security of violating protesters’ free-speech rights—but the agency is using it to try to get access to the plaintiffs’ encrypted communications.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Most Dangerous AI Hacking Techniques Still Have Humans in the Loop",
+      "url": "https://www.wired.com/story/the-most-dangerous-ai-hacking-techniques-still-have-human-input/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5712,
+      "publishedAt": "2026-08-05T19:42:12.000Z",
+      "summary": "Security researcher James Kettle tried to push the limit of AI’s hacking abilities—and discovered how effective it can be when combined with human expertise.",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "TikTok Says ‘Moderator Error’ Kept Perez Hilton Livestream Up",
       "url": "https://www.wired.com/story/tiktok-says-moderator-error-kept-perez-hilton-livestream-on-platform/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5843,
+      "score": 0.5706,
       "publishedAt": "2026-08-05T19:35:22.000Z",
       "summary": "The gossip blogger was on TikTok covered in what appeared to be blood and wielding a knifelike object before the platform cut his stream. He’s since been hospitalized.",
       "tags": [
@@ -356,11 +395,11 @@
       "engagementScore": 0
     },
     {
-      "title": "AI Worms and Viruses Are Coming",
+      "title": "AI Hacks Are Bad. AI Worms and Viruses Will Be Worse",
       "url": "https://www.wired.com/story/ai-agents-could-act-like-computer-viruses-and-worms/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5785,
+      "score": 0.5647,
       "publishedAt": "2026-08-05T18:30:00.000Z",
       "summary": "Chinese researchers have shown that AI models have the capacity to act like aggressive and adaptive computer viruses.",
       "tags": [
@@ -373,7 +412,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/975528/fenix-flexin-ai-music-generator-treblo",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5763,
+      "score": 0.5625,
       "publishedAt": "2026-08-05T18:04:57.000Z",
       "summary": "We were pretty sure that Fenix Flexin's \"Rubberz\" was made using AI, but musician Medasin was confident that it was made using Treblo specifically. Now the company and a new detection tool seem to confirm it. On Monday, the company announced the open-source Treblo AI Music Classifier, which detects",
       "tags": [
@@ -387,7 +426,7 @@
       "url": "https://www.theverge.com/tech/975677/google-deepmind-ai-demis-hassabis-shakeup",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5759,
+      "score": 0.5622,
       "publishedAt": "2026-08-05T18:01:29.000Z",
       "summary": "Google is making some significant AI leadership changes, including a major shift for Google DeepMind leader Demis Hassabis. Hassabis will become the chair of Google DeepMind and the chief scientist at Alphabet, CEO Sundar Pichai announced on Wednesday. Hassabis will continue to lead Alphabet's Isomo",
       "tags": [
@@ -400,7 +439,7 @@
       "url": "https://www.wired.com/story/dhs-is-hiring-bounty-hunters-to-find-and-photograph-deported-peoples-homes-abroad/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5726,
+      "score": 0.5589,
       "publishedAt": "2026-08-05T17:24:01.000Z",
       "summary": "Homeland Security told immigrants that leaving the US would wipe out fines it claims they owe. Now it wants private investigators to find them in their home countries and collect.",
       "tags": [
@@ -413,7 +452,7 @@
       "url": "https://www.theverge.com/tech/975398/reddit-ai-rules-hub-moderator-old-reddit-developer-platform",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5694,
+      "score": 0.5557,
       "publishedAt": "2026-08-05T16:48:11.000Z",
       "summary": "Reddit is enlisting AI to help moderate new subreddits - and eventually the rest of site. The company is introducing automated moderation tools that rely on LLMs to help mods manage their communities, and it's expanding who can use those tools today ahead of a full launch later this year. The compan",
       "tags": [
@@ -427,7 +466,7 @@
       "url": "https://www.theverge.com/science/975545/spacex-x-earnings-ai-data-centers-compute-space",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.569,
+      "score": 0.5553,
       "publishedAt": "2026-08-05T16:44:01.000Z",
       "summary": "Once, I had some questions about why SpaceX, Elon Musk's healthiest company, acquired xAI, his sickliest one. Now I have some questions about why we're calling the whole thing SpaceX. Look, what we have here, by revenue, is primarily a telecom company and a company that rents compute, according to S",
       "tags": [
@@ -436,24 +475,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Meta Ran Ads That Contained AI-Generated Child Sexual Abuse Imagery",
-      "url": "https://www.wired.com/story/meta-ran-ads-that-contained-ai-generated-child-sexual-abuse-imagery/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5675,
-      "publishedAt": "2026-08-05T16:26:36.000Z",
-      "summary": "More than 50 offending image and video ads were published across Facebook, Instagram, Messenger, or Threads, according to Meta’s ad library data. Some ran as recently as this week.",
-      "tags": [
-        "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Google’s Top AI Brains Are Leaving to Launch Discovery Loop",
       "url": "https://www.wired.com/story/jeff-dean-google-discovery-loop-startup/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5651,
+      "score": 0.5514,
       "publishedAt": "2026-08-05T16:00:00.000Z",
       "summary": "Jeff Dean and other high-profile Google executives have founded Discovery Loop, a startup that will seek AI-powered breakthroughs in everything from drug discovery to chip design.",
       "tags": [
@@ -466,7 +492,7 @@
       "url": "https://www.wired.com/story/maga-is-in-turmoil-over-tucker-carlsons-possible-2028-presidential-bid/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5625,
+      "score": 0.5487,
       "publishedAt": "2026-08-05T15:30:21.000Z",
       "summary": "Joe Kent says that he and other anti–Donald Trump MAGA figures have formed a new movement. They want Tucker Carlson to run for the presidency in 2028.",
       "tags": [
@@ -479,7 +505,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/975577/aisi-openai-anthropic-agent-hacking",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5611,
+      "score": 0.5474,
       "publishedAt": "2026-08-05T15:14:57.000Z",
       "summary": "Yet more rogue AI agents from OpenAI and Anthropic have been caught attempting to hack real targets online without permission. The discoveries add to a growing list of previously unknown incidents that have alarmed AI safety experts and intensified pressure for greater oversight of frontier systems.",
       "tags": [
@@ -490,11 +516,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Google Assistant will disappear from your phone next month",
+      "url": "https://www.theverge.com/tech/975516/google-assistant-android-phones-tablets-shutdown",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5258,
+      "publishedAt": "2026-08-05T11:12:50.000Z",
+      "summary": "Google Assistant's days have been numbered ever since Gemini arrived on the scene, and its time is now up. Google has announced that it will be removing access to Assistant on Android phones and tablets, along with paired devices like smartwatches or headphones, from September 4th. The announcement",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Circles powers telco personalization with OpenAI technology",
       "url": "https://openai.com/index/circles",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.5439,
+      "score": 0.5252,
       "publishedAt": "2026-08-03T00:00:00.000Z",
       "summary": "Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development efficiency.",
       "tags": [
@@ -504,50 +543,11 @@
       "engagementScore": 0
     },
     {
-      "title": "13 Best Coolers for Sunshine and Nighttime (2026)",
-      "url": "https://www.wired.com/story/the-best-cooler/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5439,
-      "publishedAt": "2026-08-05T12:02:00.000Z",
-      "summary": "We tested coolers on camping trips, road trips, beach days, and at parties to bring you our favorite models for every situation. The Yeti Tundra Haul is our top pick.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "AI Influencers Are Heading Into Uncharted Territory",
-      "url": "https://www.wired.com/story/algorithm-turning-on-ai-influencers-are-humans-worried/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5422,
-      "publishedAt": "2026-08-05T11:43:00.000Z",
-      "summary": "Some creators fear the EU AI Act’s regulatory chaos will upend their lucrative businesses. Others are owning it by incorporating AI transparency into their creative process.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Google Assistant will disappear from your phone next month",
-      "url": "https://www.theverge.com/tech/975516/google-assistant-android-phones-tablets-shutdown",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5395,
-      "publishedAt": "2026-08-05T11:12:50.000Z",
-      "summary": "Google Assistant's days have been numbered ever since Gemini arrived on the scene, and its time is now up. Google has announced that it will be removing access to Assistant on Android phones and tablets, along with paired devices like smartwatches or headphones, from September 4th. The announcement",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Trump’s AI testing plan is limited and vague",
       "url": "https://www.theverge.com/ai-artificial-intelligence/975509/white-house-ai-framework-open-models-excluded",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5357,
+      "score": 0.5219,
       "publishedAt": "2026-08-05T10:29:47.000Z",
       "summary": "The Trump administration's framework for assessing potential cybersecurity risks posed by advanced AI reportedly has no interest in testing open models. Axios reports that not only do the voluntary guidelines outright exclude open models - meaning anyone can download them and inspect their core comp",
       "tags": [
@@ -600,7 +600,7 @@
       "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.507,
+      "score": 0.492,
       "publishedAt": "2026-08-04T13:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/July_AI_Recap_still.max-600x600.format-webp.webp\"&gt;Here are Google’s latest AI updates from July 2026",
       "tags": [
@@ -615,7 +615,7 @@
       "url": "https://www.technologyreview.com/2026/08/04/1141098/the-download-robot-restrictions-ice-dna/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5025,
+      "score": 0.4875,
       "publishedAt": "2026-08-04T12:14:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Trump’s AI protectionism has come for robotics   —James O’Donnell&#160; Humanoid robots usually elicit more cringe than awe: They&#160;stumble,&#160;k",
       "tags": [
@@ -628,7 +628,7 @@
       "url": "https://www.theverge.com/tech/975381/amd-q2-2026-earnings-ai-gaming-ryzen",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4745,
+      "score": 0.4608,
       "publishedAt": "2026-08-04T23:03:39.000Z",
       "summary": "Driven by demand for AI capacity, AMD's data center revenue more than doubled year-over-year in its latest earnings report, reaching $6.7 billion. That's up from $5.8 billion in Q1, and jumping 107 percent from the $3.2 billion it reported for the same period a year ago. During Tuesday's earnings ca",
       "tags": [
