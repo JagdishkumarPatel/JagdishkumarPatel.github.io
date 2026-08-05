@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T11:23:27.748Z",
+  "updatedAt": "2026-08-05T14:18:02.453Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,21 +12,21 @@
       "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.9353,
+      "score": 0.9151,
       "publishedAt": "2026-08-04T21:14:19.000Z",
       "summary": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
       "tags": [
         "LLM",
         "Industry"
       ],
-      "engagementScore": 51
+      "engagementScore": 52
     },
     {
       "title": "Third-party cyber evaluations involving OpenAI models",
       "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9179,
+      "score": 0.8966,
       "publishedAt": "2026-08-04T19:00:00.000Z",
       "summary": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
       "tags": [
@@ -36,24 +36,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Zigbee vs. Matter over Thread:Understanding IoT Protocol Performance in Practice",
-      "url": "https://arxiv.org/abs/2603.04221",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.8684,
-      "publishedAt": "2026-08-05T00:10:37.000Z",
-      "summary": "The widespread adoption of the Internet of Things (IoT) has positioned smart homes as paradigmatic examples of distributed automation systems, where reliability, efficiency, and interoperability depend critically on the underlying communication protocol. Among the low-power wireless technologies ava",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 95
-    },
-    {
       "title": "Zero-Mem: Zero-Token Memory Operations for LLM Agents",
       "url": "https://arxiv.org/abs/2607.29377",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8681,
+      "score": 0.8682,
       "publishedAt": "2026-08-05T04:36:44.000Z",
       "summary": "LLM agents need memory to act consistently over long interactions, yet many systems use additional LLM calls to operate that memory. Generating intermediate records and mediating their retrieval adds recurring token and time costs, while omitted or merged details can obscure the original evidence. W",
       "tags": [
@@ -61,14 +48,27 @@
         "Agents",
         "RAG"
       ],
-      "engagementScore": 52
+      "engagementScore": 77
+    },
+    {
+      "title": "Zigbee vs. Matter over Thread:Understanding IoT Protocol Performance in Practice",
+      "url": "https://arxiv.org/abs/2603.04221",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.8507,
+      "publishedAt": "2026-08-05T00:10:37.000Z",
+      "summary": "The widespread adoption of the Internet of Things (IoT) has positioned smart homes as paradigmatic examples of distributed automation systems, where reliability, efficiency, and interoperability depend critically on the underlying communication protocol. Among the low-power wireless technologies ava",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 99
     },
     {
       "title": "Revisiting Classic Thought Experiments to Measure Consciousness for Artificial Intelligence Safety",
       "url": "https://arxiv.org/abs/2608.00001",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8619,
+      "score": 0.8421,
       "publishedAt": "2026-08-05T04:00:00.000Z",
       "summary": "arXiv:2608.00001v1 Announce Type: new \nAbstract: This research note revisits Leibniz's mill, Turing's imitation game, and Searle's Chinese Room through the Conservation-Congruent Encoding (CCE) framework. It formalises a toy symbolic setting in which successful behaviour is measured by task performa",
       "tags": [
@@ -83,7 +83,7 @@
       "url": "https://arxiv.org/abs/2608.00003",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8619,
+      "score": 0.8421,
       "publishedAt": "2026-08-05T04:00:00.000Z",
       "summary": "arXiv:2608.00003v1 Announce Type: new \nAbstract: Computational Fluid Dynamics (CFD) plays an important role in modern engineering, but using open-source solvers such as OpenFOAM requires considerable knowledge and skills, as well as time-consuming configuration file setup. To reduce this burden, we",
       "tags": [
@@ -98,7 +98,7 @@
       "url": "https://arxiv.org/abs/2608.00006",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8619,
+      "score": 0.8421,
       "publishedAt": "2026-08-05T04:00:00.000Z",
       "summary": "arXiv:2608.00006v1 Announce Type: new \nAbstract: Large Language Models (LLMs), a part of artificial intelligence (AI), are increasingly being adopted by Small and Medium Enterprises (SMEs) to enhance question-answering capabilities and support business decision-making processes. However, hallucinati",
       "tags": [
@@ -113,7 +113,7 @@
       "url": "https://arxiv.org/abs/2608.00008",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8619,
+      "score": 0.8421,
       "publishedAt": "2026-08-05T04:00:00.000Z",
       "summary": "arXiv:2608.00008v1 Announce Type: new \nAbstract: The local deployment of large language models (LLMs) is gaining traction due to privacy concerns and the desire for on-premise inference. However, the energy costs on consumer hardware remain poorly characterized, as most benchmarks focus solely on ac",
       "tags": [
@@ -128,7 +128,7 @@
       "url": "https://arxiv.org/abs/2608.00014",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8619,
+      "score": 0.8421,
       "publishedAt": "2026-08-05T04:00:00.000Z",
       "summary": "arXiv:2608.00014v1 Announce Type: new \nAbstract: Evaluating Large Language Models (LLMs) incurs prohibitive computational overhead during continuous development processes. While coreset selection accelerates evaluation, existing methods either suffer from a severe ``cold start'' bottleneck requiring",
       "tags": [
@@ -143,7 +143,7 @@
       "url": "https://arxiv.org/abs/2608.00015",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8619,
+      "score": 0.8421,
       "publishedAt": "2026-08-05T04:00:00.000Z",
       "summary": "arXiv:2608.00015v1 Announce Type: new \nAbstract: Both optimization modeling and constraint modeling are non-trivial problems requiring deep domain expertise and proficiency in modeling formalism languages. Despite their importance across logistics, healthcare, and supply chain management, current la",
       "tags": [
@@ -159,7 +159,7 @@
       "url": "https://arxiv.org/abs/2608.00017",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8619,
+      "score": 0.8421,
       "publishedAt": "2026-08-05T04:00:00.000Z",
       "summary": "arXiv:2608.00017v1 Announce Type: new \nAbstract: Self-improving LLM agents increasingly learn from experience without updating any weights. Each episode is stored in an external memory, scored, and retrieved for similar future tasks to shape later behavior. Viewed through a reward lens, the stored s",
       "tags": [
@@ -174,7 +174,7 @@
       "url": "https://arxiv.org/abs/2608.00026",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8619,
+      "score": 0.8421,
       "publishedAt": "2026-08-05T04:00:00.000Z",
       "summary": "arXiv:2608.00026v1 Announce Type: new \nAbstract: Batched LLM serving improves throughput but complicates energy accounting. GPU power telemetry is aggregate, whereas sustainability reporting, chargeback, and workload analysis often require request-level energy charges. Existing inference-energy benc",
       "tags": [
@@ -188,48 +188,48 @@
       "url": "https://openai.com/index/ten-advances-in-mathematics/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.8607,
+      "score": 0.8397,
       "publishedAt": "2026-08-03T16:27:12.000Z",
       "summary": "Reload to try again, or go back.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 617
+      "engagementScore": 619
     },
     {
       "title": "When AI Benchmarks Plateau: A Systematic Study of Benchmark Saturation",
       "url": "https://arxiv.org/abs/2602.16763",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8171,
+      "score": 0.7978,
       "publishedAt": "2026-08-04T16:10:39.000Z",
       "summary": "Artificial intelligence benchmarks are an important mechanism for measuring model progress and guiding deployment decisions. However, benchmarks quickly “saturate”, making it difficult to differentiate models and diminishing their long-term value. In this study, we define benchmark saturation and an",
       "tags": [
         "Research",
         "ML Infra"
       ],
-      "engagementScore": 101
+      "engagementScore": 102
     },
     {
       "title": "Why Large Language Models Fail at Tabular Prediction",
       "url": "https://arxiv.org/abs/2608.02412",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7797,
+      "score": 0.7608,
       "publishedAt": "2026-08-04T10:07:06.000Z",
       "summary": "Large language models (LLMs) have become the default tool for a remarkable range of tasks, yet they have had conspicuously little success at one of the most common machine learning workloads: predictive analytics over tabular data. This gap is the founding premise of the fast-growing field of tabula",
       "tags": [
         "LLM",
         "Dev Tools"
       ],
-      "engagementScore": 109
+      "engagementScore": 111
     },
     {
       "title": "New ways to learn and teach with ChatGPT Work and Codex",
       "url": "https://openai.com/index/learn-teach-chatgpt-work-codex",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7793,
+      "score": 0.7581,
       "publishedAt": "2026-08-04T00:00:00.000Z",
       "summary": "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.",
       "tags": [
@@ -244,7 +244,7 @@
       "url": "https://openai.com/index/apple-is-getting-this-wrong",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7647,
+      "score": 0.7435,
       "publishedAt": "2026-08-03T22:00:00.000Z",
       "summary": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.",
       "tags": [
@@ -253,13 +253,26 @@
       "engagementScore": 0
     },
     {
-      "title": "NASA’s new dark energy space telescope can also detect killer asteroids",
+      "title": "The Download: NASA&#8217;s new telescope and Chinese tech import curbs",
+      "url": "https://www.technologyreview.com/2026/08/05/1141212/the-download-nasa-telescope-chinese-tech-import-curbs/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6735,
+      "publishedAt": "2026-08-05T12:10:00.000Z",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. NASA’s new dark energy space telescope can also detect killer asteroids   At the end of August, NASA is set to launch the Nancy Grace Roman Space Tele",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "NASA’s new dark-energy space telescope can also detect killer asteroids",
       "url": "https://www.technologyreview.com/2026/08/05/1141200/nasas-roman-telescope-detect-asteroids/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6668,
+      "score": 0.6498,
       "publishedAt": "2026-08-05T08:06:40.000Z",
-      "summary": "At the end of August, NASA is set to launch the Nancy Grace Roman Space Telescope from Kennedy Space Center in Florida. Its quest is to help us better understand how the universe works, from the glue-like dark matter that keeps galaxies together to the elusive dark energy that drives the expansion o",
+      "summary": "At the end of August, NASA is set to launch the Nancy Grace Roman Space Telescope from Kennedy Space Center in Florida. Its goal is to help us better understand how the universe works, from the glue-like dark matter that keeps galaxies together to the elusive dark energy that drives the expansion of",
       "tags": [
         "AI"
       ],
@@ -270,7 +283,7 @@
       "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6597,
+      "score": 0.6413,
       "publishedAt": "2026-08-04T13:58:29.000Z",
       "summary": "",
       "tags": [
@@ -283,7 +296,7 @@
       "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6554,
+      "score": 0.6341,
       "publishedAt": "2026-08-03T07:00:00.000Z",
       "summary": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
       "tags": [
@@ -296,7 +309,7 @@
       "url": "https://openai.com/index/circles",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6043,
+      "score": 0.5831,
       "publishedAt": "2026-08-03T00:00:00.000Z",
       "summary": "Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development efficiency.",
       "tags": [
@@ -306,11 +319,37 @@
       "engagementScore": 0
     },
     {
+      "title": "13 Best Coolers for Sunshine and Nighttime (2026)",
+      "url": "https://www.wired.com/story/the-best-cooler/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5726,
+      "publishedAt": "2026-08-05T12:02:00.000Z",
+      "summary": "We tested coolers on camping trips, road trips, beach days, and at parties to bring you our favorite models for every situation. The Yeti Tundra Haul is our top pick.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Best MagSafe Accessories (for Android Too!): Chargers, Wallets, and More",
+      "url": "https://www.wired.com/gallery/best-magsafe-accessories/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5699,
+      "publishedAt": "2026-08-05T11:32:00.000Z",
+      "summary": "MagSafe accessories make your phone feel uniquely yours. These are our favorites, including Android-friendly Qi2 picks.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Google Assistant will disappear from your phone next month",
       "url": "https://www.theverge.com/tech/975516/google-assistant-android-phones-tablets-shutdown",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5838,
+      "score": 0.5682,
       "publishedAt": "2026-08-05T11:12:50.000Z",
       "summary": "Google Assistant's days have been numbered ever since Gemini arrived on the scene, and its time is now up. Google has announced that it will be removing access to Assistant on Android phones and tablets, along with paired devices like smartwatches or headphones, from September 4th. The announcement",
       "tags": [
@@ -323,7 +362,7 @@
       "url": "https://www.wired.com/review/review-benq-gv50/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5827,
+      "score": 0.5672,
       "publishedAt": "2026-08-05T11:01:00.000Z",
       "summary": "This affordable, portable projector doesn’t try to be a cinematic marvel, but it’s fun to use.",
       "tags": [
@@ -336,7 +375,7 @@
       "url": "https://www.wired.com/story/cougars-lower-risks-car-crashes-by-hunting-deer/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5827,
+      "score": 0.5671,
       "publishedAt": "2026-08-05T11:00:00.000Z",
       "summary": "A new study shows how the big cats cause deer to move away from roads and deeper into the forest, where they pose less of a hazard to motorists.",
       "tags": [
@@ -350,7 +389,7 @@
       "url": "https://www.wired.com/story/gene-edited-puppies-wont-trigger-allergies/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5827,
+      "score": 0.5671,
       "publishedAt": "2026-08-05T11:00:00.000Z",
       "summary": "A startup has created beagles without the gene that causes runny noses and watery eyes for allergy sufferers.",
       "tags": [
@@ -363,7 +402,7 @@
       "url": "https://www.wired.com/story/no-one-can-afford-to-make-myst-games-anymore/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5813,
+      "score": 0.5658,
       "publishedAt": "2026-08-05T10:45:00.000Z",
       "summary": "“Myst” sold over 6 million copies in the ’90s. Its latest sequel couldn’t shore up any funding, pointing to an existential crisis among double-A games.",
       "tags": [
@@ -376,7 +415,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/975509/white-house-ai-framework-open-models-excluded",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.58,
+      "score": 0.5644,
       "publishedAt": "2026-08-05T10:29:47.000Z",
       "summary": "The Trump administration's framework for assessing potential cybersecurity risks posed by advanced AI reportedly has no interest in testing open models. Axios reports that not only do the voluntary guidelines outright exclude open models - meaning anyone can download them and inspect their core comp",
       "tags": [
@@ -385,13 +424,13 @@
       "engagementScore": 0
     },
     {
-      "title": "Viral Mugshot Accounts Are Ruining Women’s Lives",
+      "title": "Viral Mugshot Accounts Are Humiliating Women Years After Their Arrests",
       "url": "https://www.wired.com/story/viral-mugshot-accounts-are-ruining-womens-lives/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.58,
+      "score": 0.5644,
       "publishedAt": "2026-08-05T10:30:00.000Z",
-      "summary": "Mugshawtys and similar pages often frame mugshots as thirst traps. The women featured are humiliated and are sometimes harassed for months and years after their arrests.",
+      "summary": "Mugshawtys and similar pages often frame mugshots as thirst traps. The women featured are mocked and are sometimes sexually harassed in a form of public shaming.",
       "tags": [
         "AI"
       ],
@@ -402,7 +441,7 @@
       "url": "https://www.wired.com/story/the-best-bluetooth-trackers/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5773,
+      "score": 0.5617,
       "publishedAt": "2026-08-05T10:00:00.000Z",
       "summary": "Lose something? Here are the best Bluetooth trackers to avoid pocket-patting panic.",
       "tags": [
@@ -411,37 +450,24 @@
       "engagementScore": 0
     },
     {
-      "title": "A New Device Eases One of the Most Annoying Parts of Routine Physicals",
-      "url": "https://www.wired.com/story/iris-nodoca-ai-throat-exam-routine-physical/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.572,
-      "publishedAt": "2026-08-05T09:00:00.000Z",
-      "summary": "Nobody likes getting a swab shoved up their nose. A startup in Japan has developed a much less intrusive system.",
+      "title": "Apple says more ex-employees may have taken confidential data to OpenAI",
+      "url": "https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/",
+      "feedSource": "Hacker News",
+      "source": "techcrunch.com",
+      "score": 0.5438,
+      "publishedAt": "2026-08-04T15:37:42.000Z",
+      "summary": "",
       "tags": [
-        "Industry"
+        "LLM"
       ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Which New Samsung Foldable Phone Should You Buy? Fold8 Ultra, Fold8, or Flip8?",
-      "url": "https://www.wired.com/story/which-samsung-galaxy-z-fold8-to-buy/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5645,
-      "publishedAt": "2026-08-05T07:36:06.000Z",
-      "summary": "Samsung’s folding phone family has a new middle child with a fresh form factor, but which of its eighth-gen foldables is right for you?",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
+      "engagementScore": 376
     },
     {
       "title": "AI migrated legacy COBOL programs to Java, bugs included",
       "url": "https://arxiv.org/abs/2607.28271",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.5622,
+      "score": 0.5424,
       "publishedAt": "2026-08-03T03:06:12.000Z",
       "summary": "Migration of legacy COBOL programs to Java requires extensive testing to ensure correct functionality. This effort is often complicated by the lack of test data and the difficulty of validating all corner cases. In this paper we propose a novel agentic test-synthesis method, the “Locksmith Loop,” wh",
       "tags": [
@@ -451,24 +477,11 @@
       "engagementScore": 96
     },
     {
-      "title": "Apple says more ex-employees may have taken confidential data to OpenAI",
-      "url": "https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/",
-      "feedSource": "Hacker News",
-      "source": "techcrunch.com",
-      "score": 0.5585,
-      "publishedAt": "2026-08-04T15:37:42.000Z",
-      "summary": "",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 368
-    },
-    {
       "title": "The latest AI news we announced in July 2026",
       "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.5553,
+      "score": 0.5383,
       "publishedAt": "2026-08-04T13:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/July_AI_Recap_still.max-600x600.format-webp.webp\"&gt;Here are Google’s latest AI updates from July 2026",
       "tags": [
@@ -483,24 +496,11 @@
       "url": "https://www.technologyreview.com/2026/08/04/1141098/the-download-robot-restrictions-ice-dna/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5508,
+      "score": 0.5338,
       "publishedAt": "2026-08-04T12:14:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Trump’s AI protectionism has come for robotics   —James O’Donnell&#160; Humanoid robots usually elicit more cringe than awe: They&#160;stumble,&#160;k",
       "tags": [
         "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "AMD&#8217;s data center business is booming while gaming takes a backseat",
-      "url": "https://www.theverge.com/tech/975381/amd-q2-2026-earnings-ai-gaming-ryzen",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5188,
-      "publishedAt": "2026-08-04T23:03:39.000Z",
-      "summary": "Driven by demand for AI capacity, AMD's data center revenue more than doubled year-over-year in its latest earnings report, reaching $6.7 billion. That's up from $5.8 billion in Q1, and jumping 107 percent from the $3.2 billion it reported for the same period a year ago. During Tuesday's earnings ca",
-      "tags": [
-        "Industry"
       ],
       "engagementScore": 0
     },
@@ -545,11 +545,24 @@
       "engagementScore": 0
     },
     {
+      "title": "AMD&#8217;s data center business is booming while gaming takes a backseat",
+      "url": "https://www.theverge.com/tech/975381/amd-q2-2026-earnings-ai-gaming-ryzen",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5033,
+      "publishedAt": "2026-08-04T23:03:39.000Z",
+      "summary": "Driven by demand for AI capacity, AMD's data center revenue more than doubled year-over-year in its latest earnings report, reaching $6.7 billion. That's up from $5.8 billion in Q1, and jumping 107 percent from the $3.2 billion it reported for the same period a year ago. During Tuesday's earnings ca",
+      "tags": [
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "SpaceX made more revenue as an AI company than a space company",
       "url": "https://www.theverge.com/science/975335/spacex-made-more-money-as-a-neocloud",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5116,
+      "score": 0.496,
       "publishedAt": "2026-08-04T21:42:17.000Z",
       "summary": "SpaceX's AI revenue grew more than three times to $2.6 billion from the year before, mostly because of deals that the company made to provide compute to other AI companies, according to SpaceX's quarterly earnings. The AI division, which the company said in its documents to go public was the source",
       "tags": [
@@ -563,7 +576,7 @@
       "url": "https://www.theverge.com/tech/975173/openai-influencers-brand-trip-ai-backlash-marketing",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4932,
+      "score": 0.4776,
       "publishedAt": "2026-08-04T18:16:11.000Z",
       "summary": "The brand trip is a right of passage for influencers. It's a mark of legitimacy that a sponsor wants to invite them on an all-expenses-paid vacation, often with luxurious freebies and activities. Trips can also spur hard feelings from uninvited influencers, trigger criticism from the public, and pro",
       "tags": [
@@ -576,7 +589,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/975180/llm-ai-chatbot-use-not-healthy",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4894,
+      "score": 0.4739,
       "publishedAt": "2026-08-04T17:33:46.000Z",
       "summary": "Hank Green, a popular YouTuber and science communicator, said he is stepping back from production amid intense criticism over his use of AI. Green described his AI usage as \"not healthy,\" but stressed that he used it for finding research sources and not to write scripts. Much of the ensuing firestor",
       "tags": [
@@ -590,7 +603,7 @@
       "url": "https://www.theverge.com/policy/975071/texas-data-center-audit",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4787,
+      "score": 0.4631,
       "publishedAt": "2026-08-04T15:33:21.000Z",
       "summary": "Texas announced new a audit on data centers that could slow approval for new facilities seeking to connect to the state energy grid. Governor Greg Abbott (R) on Monday directed the Public Utility Commission of Texas (PUCT) and the Electric Reliability Council of Texas (ERCOT) to verify and audit new",
       "tags": [
@@ -603,7 +616,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/973098/reddit-ai-search-seo-marketing-brands-spam",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4708,
+      "score": 0.4553,
       "publishedAt": "2026-08-04T14:05:17.000Z",
       "summary": "Earlier this year, a Reddit user had asked members of a skincare-focused subreddit if anyone had tried a specific hypochlorous acid spray, a product often used for acne. There were dozens of responses; one from a user named Primary-Taro4254 seemed innocuous enough, at least at first. \"I haven't pers",
       "tags": [
@@ -616,27 +629,11 @@
       "url": "https://www.technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4487,
+      "score": 0.4317,
       "publishedAt": "2026-08-03T18:43:30.000Z",
       "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. Humanoid robots usually elicit more cringe than awe: They stumble, kick children, and despite advances are still worse at using their hands than my toddler.",
       "tags": [
         "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Inside our 353,000-person vibe coding course",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
-      "feedSource": "Google AI",
-      "source": "blog.google",
-      "score": 0.427,
-      "publishedAt": "2026-08-03T15:00:00.000Z",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Vibe_coding_course_hero.max-600x600.format-webp.webp\"&gt;Kaggle’s AI Agents Intensive with Google brought learners together in a no-cost course to build and deploy the next frontier of AI.",
-      "tags": [
-        "Agents",
-        "RAG",
-        "Vision",
-        "Dev Tools"
       ],
       "engagementScore": 0
     },
