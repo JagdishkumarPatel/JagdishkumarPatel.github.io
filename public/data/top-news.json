@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T01:52:43.460Z",
+  "updatedAt": "2026-08-08T04:12:27.279Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,21 +12,21 @@
       "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 1.0316,
+      "score": 1.019,
       "publishedAt": "2026-08-07T16:39:36.000Z",
       "summary": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.",
       "tags": [
         "LLM",
         "Industry"
       ],
-      "engagementScore": 155
+      "engagementScore": 168
     },
     {
       "title": "Responding to the next frontier of critical cyber capabilities",
       "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9605,
+      "score": 0.9435,
       "publishedAt": "2026-08-07T15:20:00.000Z",
       "summary": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.",
       "tags": [
@@ -40,7 +40,7 @@
       "url": "https://openai.com/index/hsp-gruppe",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9143,
+      "score": 0.8973,
       "publishedAt": "2026-08-07T09:00:00.000Z",
       "summary": "Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service.",
       "tags": [
@@ -53,7 +53,7 @@
       "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.8968,
+      "score": 0.8798,
       "publishedAt": "2026-08-06T17:02:04.000Z",
       "summary": "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.",
       "tags": [
@@ -62,143 +62,11 @@
       "engagementScore": 309
     },
     {
-      "title": "Agentic Nesting: A New Methodology for Existing Enterprise Application Integration and Services",
-      "url": "https://arxiv.org/abs/2608.05159",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7633,
-      "publishedAt": "2026-08-07T04:00:00.000Z",
-      "summary": "arXiv:2608.05159v1 Announce Type: new \nAbstract: Enterprise operations extensively rely on multiple heterogeneous business systems and information applications, which also result in severe data silos and process fragmentation. Enterprises have invested considerable financial and material resources i",
-      "tags": [
-        "Agents",
-        "Research",
-        "RAG",
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Ignition Index: Measuring Global Workspace Dynamics in Language Models",
-      "url": "https://arxiv.org/abs/2608.05160",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7633,
-      "publishedAt": "2026-08-07T04:00:00.000Z",
-      "summary": "arXiv:2608.05160v1 Announce Type: new \nAbstract: We introduce the Ignition Index (I), a validated scalar metric that operationalizes Global Workspace Theory's (GWT) all-or-none ignition prediction in transformer language models. The metric fits a four-parameter sigmoid to per-layer linear probe accu",
-      "tags": [
-        "LLM",
-        "Research",
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Woodpecker Distillation: Weak Models Diagnose Reasoning Bugs in Strong Models",
-      "url": "https://arxiv.org/abs/2608.05168",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7633,
-      "publishedAt": "2026-08-07T04:00:00.000Z",
-      "summary": "arXiv:2608.05168v1 Announce Type: new \nAbstract: Large language models often fail on reasoning tasks despite possessing the capability to solve them. We argue that many such failures arise from localized reasoning bugs in intermediate steps rather than from global incompetence. We show that these bu",
-      "tags": [
-        "LLM",
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "From Continuous Predictors to Clinical Thresholds: Early Evidence on Performance Trade-offs of Guideline-Based Categorisation for Ischaemic Stroke Outcome Prediction",
-      "url": "https://arxiv.org/abs/2608.05203",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7633,
-      "publishedAt": "2026-08-07T04:00:00.000Z",
-      "summary": "arXiv:2608.05203v1 Announce Type: new \nAbstract: Machine learning models achieve strong predictive accuracy for 90-day outcome prediction in acute ischaemic stroke, yet clinical adoption is limited by the misalignment of model explanations with clinicians' reasoning. Motivated by a clinician user st",
-      "tags": [
-        "Research",
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "SkillTrace: Multi-Trace Provenance Auditing for LLM-Agent Skill Reuse",
-      "url": "https://arxiv.org/abs/2608.05204",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7633,
-      "publishedAt": "2026-08-07T04:00:00.000Z",
-      "summary": "arXiv:2608.05204v1 Announce Type: new \nAbstract: LLM-agent ecosystems are rapidly growing around reusable skills: mixed-modality packages of metadata, natural-language instructions, code, tools, references, and operational workflows. As skills become marketplace artifacts, auditing their reuse is no",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Research",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Abstract Event Causal Rules: Induction and Application",
-      "url": "https://arxiv.org/abs/2608.05205",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7633,
-      "publishedAt": "2026-08-07T04:00:00.000Z",
-      "summary": "arXiv:2608.05205v1 Announce Type: new \nAbstract: Event-centric intelligent analytical systems heavily depend on explicit causal event knowledge for risk early warning, decision-making support and narrative comprehension. Nevertheless, existing instance-level causal pairs suffer severe generalization",
-      "tags": [
-        "Research",
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Otter: A Time-Aware, History-Conditioned Human Chess AI",
-      "url": "https://arxiv.org/abs/2608.05206",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7633,
-      "publishedAt": "2026-08-07T04:00:00.000Z",
-      "summary": "arXiv:2608.05206v1 Announce Type: new \nAbstract: Otter is a 15.3M-parameter human chess AI that predicts human move selection by modeling play as a time-aware, sequential process rather than treating each position in isolation. It combines two conditioning signals: (1) a move history encoder that co",
-      "tags": [
-        "Research",
-        "Dev Tools",
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "SearchAuditor: Auditing and Attributing Failures in Long-Horizon Search Agents",
-      "url": "https://arxiv.org/abs/2608.05212",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7633,
-      "publishedAt": "2026-08-07T04:00:00.000Z",
-      "summary": "arXiv:2608.05212v1 Announce Type: new \nAbstract: Deep search agents tackle challenging questions through long-horizon web interactions, a process that is both complex and fragile: small reasoning errors may propagate through long, noisy trajectories into fluent but incorrect answers. Diagnosing such",
-      "tags": [
-        "Agents",
-        "Research",
-        "RAG"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
-      "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.7466,
-      "publishedAt": "2026-08-06T10:00:00.000Z",
-      "summary": "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "TutorMoments: Do AI tutors know when to help and when to hold back?",
       "url": "https://huggingface.co/blog/allenai/tutormoments",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.7446,
+      "score": 0.7299,
       "publishedAt": "2026-08-07T17:53:32.000Z",
       "summary": "",
       "tags": [
@@ -207,11 +75,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
+      "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.7296,
+      "publishedAt": "2026-08-06T10:00:00.000Z",
+      "summary": "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Working with the American Psychological Association on youth mental health and AI",
       "url": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7174,
+      "score": 0.7005,
       "publishedAt": "2026-08-06T06:00:00.000Z",
       "summary": "OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health.",
       "tags": [
@@ -224,7 +105,7 @@
       "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.6756,
+      "score": 0.6597,
       "publishedAt": "2026-08-06T15:06:15.000Z",
       "summary": "WeatherNext enables accurate cyclone forecasts that can give an extra day of warning. Now we are open sourcing the model.",
       "tags": [
@@ -237,7 +118,7 @@
       "url": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6737,
+      "score": 0.6567,
       "publishedAt": "2026-08-06T00:00:00.000Z",
       "summary": "New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior.",
       "tags": [
@@ -250,7 +131,7 @@
       "url": "https://www.technologyreview.com/2026/08/07/1141389/the-download-censorship-conspiracy-theory-first-ai-virus/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6186,
+      "score": 0.605,
       "publishedAt": "2026-08-07T14:20:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. How ideas of a vast censorship network moved from the online fringe to Trump policy For years, narratives about a “censorship-industrial complex” spre",
       "tags": [
@@ -264,7 +145,7 @@
       "url": "https://www.technologyreview.com/2026/08/07/1141105/how-ideas-of-a-vast-censorship-network-moved-from-the-online-fringe-to-trump-policy/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6166,
+      "score": 0.603,
       "publishedAt": "2026-08-07T14:00:00.000Z",
       "summary": "This article was produced in partnership with Type Investigations, with support from the Wayne Barrett Project. One morning in April 2025, employees of a small office in the US State Department got the email many of them had been dreading.&#160; For months, Elon Musk’s Department of Government Effic",
       "tags": [
@@ -278,7 +159,7 @@
       "url": "https://arxiv.org/abs/2510.01395",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.5965,
+      "score": 0.5806,
       "publishedAt": "2026-08-05T18:17:03.000Z",
       "summary": "Both the general public and academic communities have raised concerns about sycophancy, the phenomenon of artificial intelligence (AI) excessively agreeing with or flattering users. Yet, beyond isolated media reports of severe consequences, like reinforcing delusions, little is known about the exten",
       "tags": [
@@ -291,7 +172,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/976801/fenix-flexin-rubberz-ai-song-treblo",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5535,
+      "score": 0.541,
       "publishedAt": "2026-08-07T20:01:51.000Z",
       "summary": "It took long enough, but now LA rapper Fenix Flexin appears to have admitted using AI for the 80s synth pop-themed song \"Rubberz.\" His comments follow the producer Medasin's videos claiming that an AI tool called Treblo (formerly Sonauto) was used to make the song, and the company releasing an AI de",
       "tags": [
@@ -305,7 +186,7 @@
       "url": "https://www.theverge.com/entertainment/976939/roku-fairground-ai-fast-channel",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5479,
+      "score": 0.5355,
       "publishedAt": "2026-08-07T18:59:46.000Z",
       "summary": "The appeal of free ad-supported streaming television (FAST) channels has always been the way they make it easier to (re)discover classic films and series. But Roku's latest experiment in the FAST space has less to do with traditionally produced entertainment and is entirely focused on giving viewers",
       "tags": [
@@ -318,7 +199,7 @@
       "url": "https://www.wired.com/story/the-chinese-philosopher-americans-cant-stop-fighting-about/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5474,
+      "score": 0.535,
       "publishedAt": "2026-08-07T18:54:04.000Z",
       "summary": "Yiyang Zhuge was already an intellectual celebrity in China. Her viral interview with Christopher Nolan made her famous in the US—and quickly turned her into a political Rorschach test.",
       "tags": [
@@ -331,7 +212,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5462,
+      "score": 0.5338,
       "publishedAt": "2026-08-07T18:40:34.000Z",
       "summary": "OpenAI says it is pausing \"internal activities\" around an in-development AI model, Astra, because it doesn't yet meet new security standards the company is putting in place. The announcement follows its recent disclosure that OpenAI models accidentally hacked Hugging Face. Anthropic and Meta have al",
       "tags": [
@@ -345,7 +226,7 @@
       "url": "https://www.theverge.com/podcast/976784/google-deepmind-ai-race-vergecast",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5378,
+      "score": 0.5254,
       "publishedAt": "2026-08-07T17:06:00.000Z",
       "summary": "Some of the biggest names on Google's AI team got new jobs this week. In some cases, including for legendary Googler Jeff Dean, those jobs are no longer at Google. Given that Google's models seem to be behind the best of what's coming out of anthropic and OpenAI, is this a sign of Google in [&#8230;",
       "tags": [
@@ -358,22 +239,9 @@
       "url": "https://www.wired.com/story/the-7-best-shows-to-stream-right-now/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5362,
+      "score": 0.5238,
       "publishedAt": "2026-08-07T16:48:21.000Z",
       "summary": "Lanterns, Dark Matter, and the original Star Trek are just a few of the TV shows you should be watching right now.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Zohran Mamdani’s NYC Tech Team Is What DOGE Should Have Been",
-      "url": "https://www.wired.com/story/mamdani-assembles-his-nyc-tech-team/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5266,
-      "publishedAt": "2026-08-07T15:00:00.000Z",
-      "summary": "The mayor of New York City has assembled a crew of Silicon Valley and United States Digital Service veterans to overhaul city services with better software.",
       "tags": [
         "AI"
       ],
@@ -384,7 +252,7 @@
       "url": "https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code",
       "feedSource": "Hacker News",
       "source": "app.dealroom.co",
-      "score": 0.5258,
+      "score": 0.5168,
       "publishedAt": "2026-08-07T17:36:30.000Z",
       "summary": "Oracle has banned AI-generated code from OpenJDK contributions, citing safety, security, and intellectual property risks. The open-source Java project steward said developers can use LLMs privately for debugging and reviewing code but cannot submit AI-generated material to repositories, pull request",
       "tags": [
@@ -393,29 +261,16 @@
         "Safety",
         "Dev Tools"
       ],
-      "engagementScore": 391
+      "engagementScore": 417
     },
     {
-      "title": "Scientists Used AI to Create 16 New Viruses",
-      "url": "https://www.wired.com/story/scientists-used-ai-to-create-16-new-viruses/",
+      "title": "Zohran Mamdani’s NYC Tech Team Is What DOGE Should Have Been",
+      "url": "https://www.wired.com/story/mamdani-assembles-his-nyc-tech-team/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5225,
-      "publishedAt": "2026-08-07T14:13:57.000Z",
-      "summary": "The use of AI systems to create viruses opens up new possibilities for combating bacterial resistance. It also raises concerns about the pace at which technology is outstripping regulation.",
-      "tags": [
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Our Favorite Fans Are on Sale to Help With Summer Heat Waves (2026)",
-      "url": "https://www.wired.com/story/fan-deals-august-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5209,
-      "publishedAt": "2026-08-07T13:56:51.000Z",
-      "summary": "We’re still in the dog days of summer—keep your cool with deals on the best fans we’ve tested for on the go and at home.",
+      "score": 0.5141,
+      "publishedAt": "2026-08-07T15:00:00.000Z",
+      "summary": "The mayor of New York City has assembled a crew of Silicon Valley and United States Digital Service veterans to overhaul city services with better software.",
       "tags": [
         "AI"
       ],
@@ -464,11 +319,63 @@
       "engagementScore": 0
     },
     {
+      "title": "Scientists Used AI to Create 16 New Viruses",
+      "url": "https://www.wired.com/story/scientists-used-ai-to-create-16-new-viruses/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.51,
+      "publishedAt": "2026-08-07T14:13:57.000Z",
+      "summary": "The use of AI systems to create viruses opens up new possibilities for combating bacterial resistance. It also raises concerns about the pace at which technology is outstripping regulation.",
+      "tags": [
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Our Favorite Fans Are on Sale to Help With Summer Heat Waves (2026)",
+      "url": "https://www.wired.com/story/fan-deals-august-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5085,
+      "publishedAt": "2026-08-07T13:56:51.000Z",
+      "summary": "We’re still in the dog days of summer—keep your cool with deals on the best fans we’ve tested for on the go and at home.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "U.S. Department of Energy Launches the Genesis Open Models Initiative",
+      "url": "https://genesisopenmodels.anl.gov/",
+      "feedSource": "Hacker News",
+      "source": "genesisopenmodels.anl.gov",
+      "score": 0.5034,
+      "publishedAt": "2026-08-07T22:24:27.000Z",
+      "summary": "Arcee Al is the first industry partner supporting the new Genesis Mission open-weights program. A DOE-hosted contribution portal opens today, with first-round applications due August 14, 2026.",
+      "tags": [
+        "ML Infra"
+      ],
+      "engagementScore": 151
+    },
+    {
+      "title": "What happens if an entire class of workers loses faith in their careers",
+      "url": "https://www.noemamag.com/why-is-everyone-in-tech-so-sad/",
+      "feedSource": "Hacker News",
+      "source": "noemamag.com",
+      "score": 0.4991,
+      "publishedAt": "2026-08-07T12:42:27.000Z",
+      "summary": "A lot of people seem to be realizing that knowledge work is mostly pointless. AI might give us the pleasure of finding out what happens if an entire class of workers loses faith in their careers.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 493
+    },
+    {
       "title": "Best Webcams (2026): My Honest Take After Testing the Best",
       "url": "https://www.wired.com/story/best-webcams/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.508,
+      "score": 0.4956,
       "publishedAt": "2026-08-07T11:32:00.000Z",
       "summary": "I tested the best webcams across various prices to find the top option. Here’s what I learned.",
       "tags": [
@@ -481,7 +388,7 @@
       "url": "https://www.wired.com/story/best-laptop-power-banks/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5079,
+      "score": 0.4954,
       "publishedAt": "2026-08-07T11:30:00.000Z",
       "summary": "These powerful, high-capacity portable batteries are the best ones when laptop charging is a priority. All have at least 20,000 mAh, enough to charge most laptops twice.",
       "tags": [
@@ -490,24 +397,11 @@
       "engagementScore": 0
     },
     {
-      "title": "What happens if an entire class of workers loses faith in their careers",
-      "url": "https://www.noemamag.com/why-is-everyone-in-tech-so-sad/",
-      "feedSource": "Hacker News",
-      "source": "noemamag.com",
-      "score": 0.5052,
-      "publishedAt": "2026-08-07T12:42:27.000Z",
-      "summary": "A lot of people seem to be realizing that knowledge work is mostly pointless. AI might give us the pleasure of finding out what happens if an entire class of workers loses faith in their careers.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 427
-    },
-    {
       "title": "3 Best Cheap Gaming Laptops (2026): Lenovo, MSI, Alienware",
       "url": "https://www.wired.com/gallery/best-cheap-gaming-laptops/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5052,
+      "score": 0.4927,
       "publishedAt": "2026-08-07T11:00:00.000Z",
       "summary": "As gaming laptop prices continue to rise, it’s increasingly difficult to find affordable options that aren’t terrible. Here are your best options based on performance and cost.",
       "tags": [
@@ -520,46 +414,33 @@
       "url": "https://www.databricks.com/blog/managing-ai-coding-costs-scale",
       "feedSource": "Hacker News",
       "source": "databricks.com",
-      "score": 0.4992,
+      "score": 0.492,
       "publishedAt": "2026-08-07T18:25:17.000Z",
       "summary": "AI coding tools deli",
       "tags": [
         "Dev Tools"
       ],
-      "engagementScore": 168
-    },
-    {
-      "title": "U.S. Department of Energy Launches the Genesis Open Models Initiative",
-      "url": "https://genesisopenmodels.anl.gov/",
-      "feedSource": "Hacker News",
-      "source": "genesisopenmodels.anl.gov",
-      "score": 0.4964,
-      "publishedAt": "2026-08-07T22:24:27.000Z",
-      "summary": "Arcee Al is the first industry partner supporting the new Genesis Mission open-weights program. A DOE-hosted contribution portal opens today, with first-round applications due August 14, 2026.",
-      "tags": [
-        "ML Infra"
-      ],
-      "engagementScore": 91
+      "engagementScore": 188
     },
     {
       "title": "USA Today Co., partners with Palantir to analyze audience data",
       "url": "https://www.niemanlab.org/2026/08/americas-largest-newspaper-chain-usa-today-co-partners-with-palantir-to-analyze-audience-data/",
       "feedSource": "Hacker News",
       "source": "niemanlab.org",
-      "score": 0.481,
+      "score": 0.4703,
       "publishedAt": "2026-08-07T14:02:15.000Z",
       "summary": "USA Today Co. has made a deal with software company Palantir to analyze and monetize user behavior, the company announced on Thursday. In its Q2 earnings call Thursday morning, USA Today Co. chairman and CEO Mike Reed told investors he expects the partnership to “strengthen how we collect, …",
       "tags": [
         "Industry"
       ],
-      "engagementScore": 183
+      "engagementScore": 186
     },
     {
       "title": "Baseten on Hugging Face Inference Providers 🔥",
       "url": "https://huggingface.co/blog/baseten",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.4799,
+      "score": 0.4651,
       "publishedAt": "2026-08-06T00:00:00.000Z",
       "summary": "",
       "tags": [
@@ -572,24 +453,11 @@
       "url": "https://www.technologyreview.com/2026/08/06/1141278/the-download-google-ai-shake-up-meta-rogue-model/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4659,
+      "score": 0.4523,
       "publishedAt": "2026-08-06T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Google’s AI empire is being reshaped. Here’s what’s changed. After a wave of painful losses in the tech talent wars, delays to its next flagship model",
       "tags": [
         "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Jony Ive&#8217;s first OpenAI gadget is reportedly a hockey puck-sized smart speaker",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/976431/openai-chatgpt-battery-smart-speaker-rumor",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.43,
-      "publishedAt": "2026-08-06T20:56:31.000Z",
-      "summary": "The AI device OpenAI is developing with former Apple designer Jony Ive is \"essentially a smart speaker without a display\" that's battery-powered, doughnut-shaped and roughly the size of a hockey puck, according to Bloomberg reporter Mark Gurman. The device, expected to launch in 2027 for a price ove",
-      "tags": [
-        "LLM"
       ],
       "engagementScore": 0
     },
@@ -684,6 +552,123 @@
       "summary": "Google DeepMind and Isomorphic Labs are sharing our joint approach to bioresilience and AI models.",
       "tags": [
         "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Jony Ive&#8217;s first OpenAI gadget is reportedly a hockey puck-sized smart speaker",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/976431/openai-chatgpt-battery-smart-speaker-rumor",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.4176,
+      "publishedAt": "2026-08-06T20:56:31.000Z",
+      "summary": "The AI device OpenAI is developing with former Apple designer Jony Ive is \"essentially a smart speaker without a display\" that's battery-powered, doughnut-shaped and roughly the size of a hockey puck, according to Bloomberg reporter Mark Gurman. The device, expected to launch in 2027 for a price ove",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "OpenAI is giving ChatGPT free users unlimited text chats",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/976239/openai-chatgpt-free-go-text-chats",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.4032,
+      "publishedAt": "2026-08-06T18:15:41.000Z",
+      "summary": "OpenAI is making a big change for ChatGPT users on its free and Go tiers: Starting next week, users on those tiers will be able to have unlimited text chats with the chatbot, according to OpenAI. Right now, you may run into rate limits if you do too many text chats on those tiers, but [&#8230;]",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Suno shares plans to combat spammy AI music",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/976289/suno-ai-music-spam-watermark",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.4,
+      "publishedAt": "2026-08-06T17:39:43.000Z",
+      "summary": "Suno announced plans to implement a new watermarking technology and download policy to limit the spread of spammy AI tracks and increase transparency. In a lengthy blog post, CEO and co-founder Mikey Shulman laid out the company's principles and the next steps for the company as it seeks legitimacy.",
+      "tags": [
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "SoftBank donated $50 million to Trump’s library months before federal data center deal",
+      "url": "https://www.theverge.com/policy/976138/softbank-trump-library-data-center-ohio",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.3847,
+      "publishedAt": "2026-08-06T14:47:52.000Z",
+      "summary": "SoftBank contributed $50 million to the Trump Presidential Library in January, just months before announcing that it's leasing land from the federal government to build a sprawling data center in Ohio. The Japanese company revealed the timing in response to a June letter from Sen. Elizabeth Warren (",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Deploy local agents everywhere with LFM2.5-2.6B",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.3401,
+      "publishedAt": "2026-08-04T13:58:29.000Z",
+      "summary": "",
+      "tags": [
+        "Agents"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
+      "url": "https://huggingface.co/blog/Dharma-AI/gpu-management",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.3401,
+      "publishedAt": "2026-07-30T15:09:09.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.3401,
+      "publishedAt": "2026-07-27T09:32:20.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
+      "url": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.3401,
+      "publishedAt": "2026-07-27T00:00:00.000Z",
+      "summary": "",
+      "tags": [
+        "Agents"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
+      "url": "https://huggingface.co/blog/nunchaku-diffusers",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.3401,
+      "publishedAt": "2026-07-23T00:00:00.000Z",
+      "summary": "",
+      "tags": [
+        "Vision"
       ],
       "engagementScore": 0
     }
