@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T04:41:16.973Z",
+  "updatedAt": "2026-08-10T07:48:02.491Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,7 +12,7 @@
       "url": "https://arxiv.org/abs/2608.06394",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.9075,
+      "score": 0.8864,
       "publishedAt": "2026-08-10T04:00:00.000Z",
       "summary": "arXiv:2608.06394v1 Announce Type: new \nAbstract: Multi-label node classification is an important yet challenging task in graph learning, where nodes exhibit multiple semantics simultaneously. Existing methods for multi-label node classification can effectively model multiple labels, while only consi",
       "tags": [
@@ -26,7 +26,7 @@
       "url": "https://arxiv.org/abs/2608.06398",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.9075,
+      "score": 0.8864,
       "publishedAt": "2026-08-10T04:00:00.000Z",
       "summary": "arXiv:2608.06398v1 Announce Type: new \nAbstract: Recent byte-level large language models (LLMs) have made tokenizer-free modeling increasingly competitive by grouping bytes into dynamically sized patches. However, existing byte-patch architectures still apply the same dense feed-forward computation",
       "tags": [
@@ -40,7 +40,7 @@
       "url": "https://arxiv.org/abs/2608.06400",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.9075,
+      "score": 0.8864,
       "publishedAt": "2026-08-10T04:00:00.000Z",
       "summary": "arXiv:2608.06400v1 Announce Type: new \nAbstract: Reward models are central to learning from human preferences, yet identifying what drives their predictions remains challenging. Recent sparse Mixture-of-Experts (MoE) reward models seek to improve interpretability by routing prompts to specialized ex",
       "tags": [
@@ -54,7 +54,7 @@
       "url": "https://arxiv.org/abs/2608.06402",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.9075,
+      "score": 0.8864,
       "publishedAt": "2026-08-10T04:00:00.000Z",
       "summary": "arXiv:2608.06402v1 Announce Type: new \nAbstract: Community detection is a fundamental task in graph analytics that aims to identify cohesive groups of entities with similar behaviors or interests. Classic objective-driven methods struggle with complex graph structures, while deep-learning approaches",
       "tags": [
@@ -68,7 +68,7 @@
       "url": "https://arxiv.org/abs/2608.06410",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.9075,
+      "score": 0.8864,
       "publishedAt": "2026-08-10T04:00:00.000Z",
       "summary": "arXiv:2608.06410v1 Announce Type: new \nAbstract: Automated agent design improves agent harnesses through iterative revision, evaluation, and feedback summarization. Existing methods are largely candidate-centric: cross-round experience is organized around candidate agents, which leaves the repair pr",
       "tags": [
@@ -84,7 +84,7 @@
       "url": "https://arxiv.org/abs/2608.06411",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.9075,
+      "score": 0.8864,
       "publishedAt": "2026-08-10T04:00:00.000Z",
       "summary": "arXiv:2608.06411v1 Announce Type: new \nAbstract: Multimodal large language models (MLLMs) achieve strong performance across diverse vision-language tasks, but their efficiency is limited by the cost of processing numerous visual tokens. Visual token pruning can reduce this cost, but requires accurat",
       "tags": [
@@ -99,7 +99,7 @@
       "url": "https://arxiv.org/abs/2608.06474",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.9075,
+      "score": 0.8864,
       "publishedAt": "2026-08-10T04:00:00.000Z",
       "summary": "arXiv:2608.06474v1 Announce Type: new \nAbstract: Large language models increasingly generate complete websites from natural-language descriptions, and reinforcement learning has become a central approach to closing their remaining functional gap. This training regime is bottlenecked by reward design",
       "tags": [
@@ -114,7 +114,7 @@
       "url": "https://arxiv.org/abs/2608.06501",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.9075,
+      "score": 0.8864,
       "publishedAt": "2026-08-10T04:00:00.000Z",
       "summary": "arXiv:2608.06501v1 Announce Type: new \nAbstract: Creative capabilities of MLLMs matter in design, communication, education, and human--AI collaboration, yet remain difficult to evaluate because explicit targets and reward signals are scarce compared with accuracy-oriented tasks. Cross-concept unders",
       "tags": [
@@ -129,7 +129,7 @@
       "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
       "feedSource": "Hacker News",
       "source": "deepmind.google",
-      "score": 0.7273,
+      "score": 0.7062,
       "publishedAt": "2026-08-08T09:18:50.000Z",
       "summary": "WeatherNext enables accurate cyclone forecasts that can give an extra day of warning. Now we are open sourcing the model.",
       "tags": [
@@ -142,21 +142,47 @@
       "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.6757,
+      "score": 0.6533,
       "publishedAt": "2026-08-07T16:39:36.000Z",
       "summary": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.",
       "tags": [
         "LLM",
         "Industry"
       ],
-      "engagementScore": 203
+      "engagementScore": 204
+    },
+    {
+      "title": "Improving GPT‑5.6 Sol in ChatGPT, expanding GPT‑5.6 Luna access for free users",
+      "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
+      "feedSource": "Hacker News",
+      "source": "openai.com",
+      "score": 0.6121,
+      "publishedAt": "2026-08-06T17:02:04.000Z",
+      "summary": "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 314
+    },
+    {
+      "title": "Space Agencies Are Trying to Keep Astronauts From Losing Their Sight",
+      "url": "https://www.wired.com/story/space-agencies-trying-stop-astronauts-losing-sight/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5751,
+      "publishedAt": "2026-08-10T06:00:00.000Z",
+      "summary": "A device currently being used to help octogenarians do self-administered eye exams could be part of future space missions to monitor astronauts’ ocular health.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "Responding to the next frontier of critical cyber capabilities",
       "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.59,
+      "score": 0.5673,
       "publishedAt": "2026-08-07T15:20:00.000Z",
       "summary": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.",
       "tags": [
@@ -170,7 +196,7 @@
       "url": "https://openai.com/index/hsp-gruppe",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.5438,
+      "score": 0.5211,
       "publishedAt": "2026-08-07T09:00:00.000Z",
       "summary": "Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service.",
       "tags": [
@@ -183,13 +209,28 @@
       "url": "https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/",
       "feedSource": "Hacker News",
       "source": "laurentiugabriel.github.io",
-      "score": 0.5296,
+      "score": 0.5208,
       "publishedAt": "2026-08-09T19:16:49.000Z",
       "summary": "LLMs are used for any things. Learning new things is one of the top use cases.",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 506
+      "engagementScore": 602
+    },
+    {
+      "title": "Auto mode is now the default in Claude Code",
+      "url": "https://claude.com/blog/auto-mode-default-in-claude-code",
+      "feedSource": "Hacker News",
+      "source": "claude.com",
+      "score": 0.5162,
+      "publishedAt": "2026-08-10T03:50:00.000Z",
+      "summary": "Claude Code will soon run auto mode by default for Pro, Max, and Team plans, enabling longer-running autonomous work, and catching more dangerous commands.",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Dev Tools"
+      ],
+      "engagementScore": 168
     },
     {
       "title": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
@@ -273,37 +314,52 @@
       "engagementScore": 0
     },
     {
-      "title": "Mea Culpa – Dark Hours",
-      "url": "https://blog.terrygodier.com/2026/08/09/mea-culpa-dark-hours.html",
+      "title": "Docker Sandboxes – Disposable, isolated sandboxes for AI agents",
+      "url": "https://www.docker.com/products/docker-sandboxes/",
       "feedSource": "Hacker News",
-      "source": "blog.terrygodier.com",
-      "score": 0.5055,
-      "publishedAt": "2026-08-09T13:20:43.000Z",
-      "summary": "Last week I launched a project called Dark Hours, which was a website utility to give you an idea of what could be seen in the sky that night.\nA developer who …",
+      "source": "docker.com",
+      "score": 0.5081,
+      "publishedAt": "2026-08-10T06:02:38.000Z",
+      "summary": "Secure sandboxes for Claude Code, Gemini, Codex, and Kiro. Run coding agents with microVM-based isolation.",
       "tags": [
+        "LLM",
+        "Agents",
         "Dev Tools"
       ],
-      "engagementScore": 577
+      "engagementScore": 100
     },
     {
       "title": "Windows 11's built-in Weather app wastes more than 1 GB of RAM",
       "url": "https://www.notebookcheck.net/Windows-11-s-built-in-Weather-app-wastes-more-than-1-GB-of-RAM.1364205.0.html",
       "feedSource": "Hacker News",
       "source": "notebookcheck.net",
-      "score": 0.504,
+      "score": 0.4938,
       "publishedAt": "2026-08-09T15:11:20.000Z",
       "summary": "A new report shows Windows 11’s built-in Weather app can consume more than 1 GB of RAM. By comparison, Apple’s native Weather app on macOS uses roughly five times less memory under similar conditions.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 432
+      "engagementScore": 495
+    },
+    {
+      "title": "Mea Culpa – Dark Hours",
+      "url": "https://blog.terrygodier.com/2026/08/09/mea-culpa-dark-hours.html",
+      "feedSource": "Hacker News",
+      "source": "blog.terrygodier.com",
+      "score": 0.4905,
+      "publishedAt": "2026-08-09T13:20:43.000Z",
+      "summary": "Last week I launched a project called Dark Hours, which was a website utility to give you an idea of what could be seen in the sky that night.\nA developer who …",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 579
     },
     {
       "title": "An Amazon data center could have the worst polluting power plant in the country",
       "url": "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4988,
+      "score": 0.4821,
       "publishedAt": "2026-08-09T12:36:43.000Z",
       "summary": "To power its new West Texas data center, Amazon is investing in the construction of a new power plant that could be one of the largest single producers of greenhouse gases in the US, according to the New York Times. The new gas-burning plant in Pecos County, Texas has received significant investment",
       "tags": [
@@ -316,7 +372,7 @@
       "url": "https://www.wired.com/story/digital-estate-planning-tips/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4928,
+      "score": 0.4762,
       "publishedAt": "2026-08-09T11:30:00.000Z",
       "summary": "There’s no perfect way to transfer possession of your digital assets to your loved ones after you’re gone. But there are things you can do now to make the process easier for them.",
       "tags": [
@@ -329,7 +385,7 @@
       "url": "https://www.wired.com/story/best-compression-boots/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4905,
+      "score": 0.4739,
       "publishedAt": "2026-08-09T11:04:00.000Z",
       "summary": "Whether you’re training hard, traveling often, or dealing with poor circulation, these are the best compression boots for anyone looking for better muscle recovery.",
       "tags": [
@@ -342,7 +398,7 @@
       "url": "https://www.wired.com/story/meetily-lets-you-transcribe-and-summarize-meetings-without-a-subscription-heres-how/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4875,
+      "score": 0.4709,
       "publishedAt": "2026-08-09T10:30:00.000Z",
       "summary": "There are endless ways to record and transcribe your virtual meetings with AI. Here’s an option that’s free and open source.",
       "tags": [
@@ -355,7 +411,7 @@
       "url": "https://www.wired.com/review/tcl-note-a1-nxtpaper-tablet/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4848,
+      "score": 0.4682,
       "publishedAt": "2026-08-09T10:00:00.000Z",
       "summary": "TCL’s hybrid tablet-digital notebook tries to be the best of both worlds, and it mostly succeeds.",
       "tags": [
@@ -369,7 +425,7 @@
       "url": "https://www.wired.com/story/the-12-best-anime-to-watch-if-you-think-you-hate-anime/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4848,
+      "score": 0.4682,
       "publishedAt": "2026-08-09T10:00:00.000Z",
       "summary": "Japan’s strongest media export makes a solid case for your attention span. Here’s what to watch.",
       "tags": [
@@ -382,7 +438,7 @@
       "url": "https://www.wired.com/story/the-best-workout-headphones-and-earbuds/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4828,
+      "score": 0.4661,
       "publishedAt": "2026-08-09T09:37:00.000Z",
       "summary": "Not every great pair of headphones belongs in the gym. These do, thanks to their secure fit, durable design, and impeccable sound.",
       "tags": [
@@ -395,63 +451,11 @@
       "url": "https://www.wired.com/story/ai-billionaires-are-pledging-their-wealth-good-or-bad/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4821,
+      "score": 0.4655,
       "publishedAt": "2026-08-09T09:30:00.000Z",
       "summary": "A new generation of philanthropists made rich by artificial intelligence are preparing to give away their vast wealth. What should we make of a multi-billion-dollar pinky promise?",
       "tags": [
         "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Taxi drivers rarely die of Alzheimer's",
-      "url": "https://theconversation.com/taxi-drivers-rarely-die-of-alzheimers-how-complex-mental-maps-and-spatial-reasoning-protect-your-brain-286650",
-      "feedSource": "Hacker News",
-      "source": "theconversation.com",
-      "score": 0.4809,
-      "publishedAt": "2026-08-09T15:21:46.000Z",
-      "summary": "Working with and living in spatially complex environments may help delay cognitive decline, though more research is needed.",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 223
-    },
-    {
-      "title": "Why Normal People Aren't Using AI Agents",
-      "url": "https://www.wired.com/story/why-normal-people-arent-using-ai-agents/",
-      "feedSource": "Hacker News",
-      "source": "wired.com",
-      "score": 0.4805,
-      "publishedAt": "2026-08-09T14:58:12.000Z",
-      "summary": "The tech industry is realizing it needs to build agents based on what regular consumers want, not just what its AI models can do.",
-      "tags": [
-        "Agents"
-      ],
-      "engagementScore": 23
-    },
-    {
-      "title": "The Hacker's Renaissance (2025)",
-      "url": "https://phrack.org/issues/72/19#article",
-      "feedSource": "Hacker News",
-      "source": "phrack.org",
-      "score": 0.4784,
-      "publishedAt": "2026-08-09T20:18:44.000Z",
-      "summary": "Click to read the article on phrack",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 107
-    },
-    {
-      "title": "TutorMoments: Do AI tutors know when to help and when to hold back?",
-      "url": "https://huggingface.co/blog/allenai/tutormoments",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.4235,
-      "publishedAt": "2026-08-07T17:53:32.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
       ],
       "engagementScore": 0
     },
@@ -564,13 +568,13 @@
       "engagementScore": 0
     },
     {
-      "title": "Census Proposal Would Stop Counting Undocumented Immigrants—and Ignore Race and Sexual Orientation",
-      "url": "https://www.wired.com/story/census-proposal-would-stop-counting-undocumented-immigrants-and-ignore-race-and-sexual-orientation/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.3782,
-      "publishedAt": "2026-08-08T14:03:58.000Z",
-      "summary": "A draft rule reviewed by WIRED would prevent the census from counting undocumented immigrants. To protect against “distortions,” it would also bar questions about race and sexual orientation.",
+      "title": "TutorMoments: Do AI tutors know when to help and when to hold back?",
+      "url": "https://huggingface.co/blog/allenai/tutormoments",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.4038,
+      "publishedAt": "2026-08-07T17:53:32.000Z",
+      "summary": "",
       "tags": [
         "AI"
       ],
@@ -673,7 +677,7 @@
       "url": "https://www.technologyreview.com/2026/08/07/1141389/the-download-censorship-conspiracy-theory-first-ai-virus/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.3222,
+      "score": 0.304,
       "publishedAt": "2026-08-07T14:20:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. How ideas of a vast censorship network moved from the online fringe to Trump policy For years, narratives about a “censorship-industrial complex” spre",
       "tags": [
