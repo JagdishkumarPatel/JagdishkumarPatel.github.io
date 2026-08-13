@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T10:10:47.108Z",
+  "updatedAt": "2026-08-13T13:19:34.116Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,7 +12,7 @@
       "url": "https://openai.com/codex/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 1.0555,
+      "score": 1.0679,
       "publishedAt": "2026-08-13T04:53:41.000Z",
       "summary": "Codex in ChatGPT helps engineering teams build faster with AI coding agents. Complete pull requests, refactors, code reviews, automations, and more across parallel workflows.",
       "tags": [
@@ -20,14 +20,14 @@
         "Agents",
         "Dev Tools"
       ],
-      "engagementScore": 142
+      "engagementScore": 272
     },
     {
       "title": "Dynamic Governance of Multi-LLM Agent Systems for Collaborative Conversational Outcomes",
       "url": "https://arxiv.org/abs/2608.11207",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8702,
+      "score": 0.8488,
       "publishedAt": "2026-08-13T04:00:00.000Z",
       "summary": "arXiv:2608.11207v1 Announce Type: new \nAbstract: When two LLM agents with structurally opposed objectives interact across multiple turns, the absence of a shared goal function produces not competition but collapse: the visitor capitulates, the site agent stops varying its approach, and the conversat",
       "tags": [
@@ -43,7 +43,7 @@
       "url": "https://arxiv.org/abs/2608.11210",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8702,
+      "score": 0.8488,
       "publishedAt": "2026-08-13T04:00:00.000Z",
       "summary": "arXiv:2608.11210v1 Announce Type: new \nAbstract: Bayesian calibration of process-based models requires a prior distribution for each model parameter. Despite decades of methodological work, researchers almost always fall back on uniform priors. The main reason is that building informative priors fro",
       "tags": [
@@ -57,7 +57,7 @@
       "url": "https://arxiv.org/abs/2608.11211",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8702,
+      "score": 0.8488,
       "publishedAt": "2026-08-13T04:00:00.000Z",
       "summary": "arXiv:2608.11211v1 Announce Type: new \nAbstract: Conway's 99-graph problem asks whether a strongly regular graph with parameters $\\mathrm{srg}(99,14,1,2)$ exists. We report a systematic, fully reproducible attack by an autonomous AI research agent, scored under the track's partial-credit metric. Our",
       "tags": [
@@ -71,7 +71,7 @@
       "url": "https://arxiv.org/abs/2608.11212",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8702,
+      "score": 0.8488,
       "publishedAt": "2026-08-13T04:00:00.000Z",
       "summary": "arXiv:2608.11212v1 Announce Type: new \nAbstract: Top-k Mixture-of-Experts (MoE) routing is discontinuous, so a deployment-motivated numerical disturbance -- simulated 4-bit KV-cache quantization read by a protected BF16 gate -- pushes tokens across decision boundaries and flips which experts fire. T",
       "tags": [
@@ -84,7 +84,7 @@
       "url": "https://arxiv.org/abs/2608.11215",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8702,
+      "score": 0.8488,
       "publishedAt": "2026-08-13T04:00:00.000Z",
       "summary": "arXiv:2608.11215v1 Announce Type: new \nAbstract: Simulating societies of many large language model (LLM) agents is expensive, yet the questions asked of such simulations are usually macroscopic: phase behaviour, stylised facts, and scaling with the number of agents $N$, not the cognition of any sing",
       "tags": [
@@ -99,7 +99,7 @@
       "url": "https://arxiv.org/abs/2608.11216",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8702,
+      "score": 0.8488,
       "publishedAt": "2026-08-13T04:00:00.000Z",
       "summary": "arXiv:2608.11216v1 Announce Type: new \nAbstract: World modeling is an unsettled field: architectures, training objectives, and state representations interact in complex ways, and no single recipe dominates across environments. This makes it an ideal testbed for AI coding agents acting as autonomous",
       "tags": [
@@ -115,7 +115,7 @@
       "url": "https://arxiv.org/abs/2608.11218",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8702,
+      "score": 0.8488,
       "publishedAt": "2026-08-13T04:00:00.000Z",
       "summary": "arXiv:2608.11218v1 Announce Type: new \nAbstract: Independent agents that reason in latent space can share computed state as key-value cache fragments rather than text. Merged by a conflict-free replicated data type, these fragments form a store that converges under any delivery order or duplication.",
       "tags": [
@@ -130,7 +130,7 @@
       "url": "https://arxiv.org/abs/2608.11219",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8702,
+      "score": 0.8488,
       "publishedAt": "2026-08-13T04:00:00.000Z",
       "summary": "arXiv:2608.11219v1 Announce Type: new \nAbstract: Automatic Prompt Optimization (APO) often rewrites prompts monolithically, which can improve one behavior while degrading others. We present SAPO, a segment-level APO method that decomposes prompts into role, context, tasks, and output format, then ap",
       "tags": [
@@ -143,7 +143,7 @@
       "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8319,
+      "score": 0.809,
       "publishedAt": "2026-08-12T06:00:00.000Z",
       "summary": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
       "tags": [
@@ -159,7 +159,7 @@
       "url": "https://openai.com/index/ringcentral",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7882,
+      "score": 0.7652,
       "publishedAt": "2026-08-12T00:00:00.000Z",
       "summary": "See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations.",
       "tags": [
@@ -173,9 +173,35 @@
       "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.7751,
+      "score": 0.7537,
       "publishedAt": "2026-08-12T14:01:59.000Z",
       "summary": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Download: kids&#8217; thoughts on AI, and female clones of male mice",
+      "url": "https://www.technologyreview.com/2026/08/13/1141896/the-download-kids-thoughts-on-ai-female-clones-male-mice/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6791,
+      "publishedAt": "2026-08-13T12:10:00.000Z",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. How kids feel about AI, in their own words —Jen Swetzoff and Keeley McNamara, the founding editors of Anyway, an independent print magazine for tweens",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "What’s behind this summer’s heat, and why 2027 could be worse",
+      "url": "https://www.technologyreview.com/2026/08/13/1141788/summer-heat-el-nino/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6665,
+      "publishedAt": "2026-08-13T10:00:00.000Z",
+      "summary": "This summer has been a scorcher for much of the Northern Hemisphere. June and July marked the hottest two-month stretch in Europe since record-keeping began. The contiguous US endured its hottest month on record in July. South Korea saw its highest-ever recorded temperature.   The heat isn’t over ye",
       "tags": [
         "AI"
       ],
@@ -186,7 +212,7 @@
       "url": "https://openai.com/index/testing-ads-in-chatgpt",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6861,
+      "score": 0.6631,
       "publishedAt": "2026-08-11T10:00:00.000Z",
       "summary": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
       "tags": [
@@ -199,7 +225,7 @@
       "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6861,
+      "score": 0.6631,
       "publishedAt": "2026-08-11T10:00:00.000Z",
       "summary": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.",
       "tags": [
@@ -212,7 +238,7 @@
       "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6817,
+      "score": 0.6618,
       "publishedAt": "2026-08-12T16:14:36.000Z",
       "summary": "",
       "tags": [
@@ -221,11 +247,24 @@
       "engagementScore": 0
     },
     {
+      "title": "How kids feel about AI, in their own words",
+      "url": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6607,
+      "publishedAt": "2026-08-13T09:00:00.000Z",
+      "summary": "When we set out to talk to kids about artificial intelligence, we thought we knew what we’d hear. We expected some to tell us they were using it to cheat a little, the way Millennials and Gen Xers opened up CliffsNotes or programmed formulas into their TI-82s, and others to share inspiring ways they",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Emergent Introspective Awareness in Large Language Models",
       "url": "https://arxiv.org/abs/2601.01828",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.6793,
+      "score": 0.6579,
       "publishedAt": "2026-08-11T21:14:10.000Z",
       "summary": "We investigate whether large language models can introspect on their internal states. It is difficult to answer this question through conversation alone, as genuine introspection cannot be distinguished from confabulations. Here, we address this challenge by injecting representations of known concep",
       "tags": [
@@ -235,24 +274,11 @@
       "engagementScore": 72
     },
     {
-      "title": "How kids feel about AI, in their own words",
-      "url": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.679,
-      "publishedAt": "2026-08-13T09:00:00.000Z",
-      "summary": "When we set out to talk to kids about artificial intelligence, we thought we knew what we’d hear. We expected some to tell us they were using it to cheat a little, the way Millennials and Gen Xers opened up CliffsNotes or programmed formulas into their TI-82s, and others to share inspiring ways they",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge",
       "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6676,
+      "score": 0.6477,
       "publishedAt": "2026-08-12T14:00:51.000Z",
       "summary": "",
       "tags": [
@@ -265,23 +291,62 @@
       "url": "https://www.anthropic.com/research/riemann-zeta",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.6599,
+      "score": 0.6373,
       "publishedAt": "2026-08-10T17:41:13.000Z",
       "summary": "An unreleased version of Claude has made strides on a problem related to the Riemann hypothesis. It improved the lower bound for the fraction of zeros of the Riemann zeta function that satisfy the hypothesis, increasing it from 41.6% to 67.2%.",
       "tags": [
         "LLM",
         "Open Source"
       ],
-      "engagementScore": 276
+      "engagementScore": 278
     },
     {
       "title": "Scientists just created female clones of male mice",
       "url": "https://www.technologyreview.com/2026/08/12/1141768/scientists-just-created-female-clones-of-male-mice/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5973,
+      "score": 0.579,
       "publishedAt": "2026-08-12T18:59:48.000Z",
       "summary": "Scientists have deliberately turned male mouse embryos into females for the first time. A team based in Japan used a CRISPR-based approach to remove the Y chromosome from male cells and create female clones of male mice.&#160; “No one has done this before,” says Monika Ward, a reproductive biologist",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Best Samsung Galaxy S26 Cases (2026): S26, S26+, and S26 Ultra",
+      "url": "https://www.wired.com/gallery/best-samsung-s26-cases-and-accessories/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5781,
+      "publishedAt": "2026-08-13T12:05:00.000Z",
+      "summary": "Protect your Samsung phone with these cases and screen protectors.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Twitch streamers can now opt out from training Amazon’s AI",
+      "url": "https://www.theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5762,
+      "publishedAt": "2026-08-13T11:43:40.000Z",
+      "summary": "Twitch users can now opt out of allowing their content to be used to train Amazon's generative AI models. Opting out means that \"your streams, VODs, clips, stream chats, and pictures and text on your channel\" won't be used in \"future training\" of an Amazon AI model \"whose purpose is to generate or s",
+      "tags": [
+        "ML Infra"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Google Pixelsnap Charger With Stand Is 50 Percent Off Right Now",
+      "url": "https://www.wired.com/story/google-pixelsnap-charger-and-stand-50-percent-off/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5723,
+      "publishedAt": "2026-08-13T11:00:00.000Z",
+      "summary": "Speedy Qi2 wireless charging in a magnetic puck and stand combo makes Google’s Pixelsnap well worth grabbing at half price.",
       "tags": [
         "AI"
       ],
@@ -292,7 +357,7 @@
       "url": "https://openai.com/index/responsible-ai-infrastructure-texas/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.5942,
+      "score": 0.5713,
       "publishedAt": "2026-08-10T14:38:20.000Z",
       "summary": "OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans.",
       "tags": [
@@ -301,11 +366,37 @@
       "engagementScore": 124
     },
     {
+      "title": "In a Heat Wave, Schizophrenia Is So Much Deadlier Than Any Other Medical Condition",
+      "url": "https://www.wired.com/story/heat-wave-schizophrenia/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5684,
+      "publishedAt": "2026-08-13T10:16:33.000Z",
+      "summary": "People with schizophrenia face a perfect storm of dangers on a hotter planet.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "5 Best Android Tablets in 2026: Samsung, TCL, Amazon, and More",
+      "url": "https://www.wired.com/story/the-best-android-tablets/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.567,
+      "publishedAt": "2026-08-13T10:00:00.000Z",
+      "summary": "Whether you need a portable, around-the-house entertainment center or a full-on laptop replacement, these are the best Android tablets.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Scaling AI agents with trustworthy data",
       "url": "https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5849,
+      "score": 0.5666,
       "publishedAt": "2026-08-12T16:51:57.000Z",
       "summary": "Business and technology leaders need no convincing that the time of agentic AI is here. Organizations are rapidly adopting agents, and few executives doubt the technology’s potential to transform work. But many organizations find that realizing the desired return on investment (ROI) from AI hinges o",
       "tags": [
@@ -316,24 +407,11 @@
       "engagementScore": 0
     },
     {
-      "title": "5 Best Android Tablets in 2026: Samsung, TCL, Amazon, and More",
-      "url": "https://www.wired.com/story/the-best-android-tablets/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5838,
-      "publishedAt": "2026-08-13T10:00:00.000Z",
-      "summary": "Whether you need a portable, around-the-house entertainment center or a full-on laptop replacement, these are the best Android tablets.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "The 10 Best Cooling Mattresses for Hot Sleepers (2026)",
       "url": "https://www.wired.com/gallery/best-cooling-mattress/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5816,
+      "score": 0.5647,
       "publishedAt": "2026-08-13T09:35:00.000Z",
       "summary": "Nothing ruins a great night of sleep faster than getting too hot. We slept on a myriad of cooling mattresses to find which ones drew the heat away best.",
       "tags": [
@@ -346,7 +424,7 @@
       "url": "https://www.wired.com/story/cbp-workers-allegedly-used-government-databases-to-spy-on-exes-crushes-and-colleagues/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5811,
+      "score": 0.5643,
       "publishedAt": "2026-08-13T09:30:00.000Z",
       "summary": "Records obtained by WIRED detail hundreds of allegations of Customs and Border Protection workers misusing internal tools to look up romantic interests and track colleagues’ cell phones.",
       "tags": [
@@ -359,7 +437,7 @@
       "url": "https://www.wired.com/story/fatty-liver-disease-ai-detection-cancer/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5784,
+      "score": 0.5616,
       "publishedAt": "2026-08-13T09:00:00.000Z",
       "summary": "Over a billion people worldwide have livers with excess fat, which can lead to a host of medical problems. Researchers think AI tools can spot the condition—and help stop it—early enough to save lives.",
       "tags": [
@@ -370,11 +448,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Priceline Promo Codes &amp; Coupons: 10% Off August 2026",
+      "url": "https://www.wired.com/story/priceline-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5402,
+      "publishedAt": "2026-08-13T05:00:00.000Z",
+      "summary": "Unlock massive discounts on Priceline hotels, flights, and rental cars. Find verified Priceline coupon codes and deals for Express Deals, student discounts, and more.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "What building an AI-native finance function taught me",
       "url": "https://openai.com/index/building-an-ai-native-finance-function",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.5621,
+      "score": 0.5392,
       "publishedAt": "2026-08-10T17:00:00.000Z",
       "summary": "OpenAI CFO Sarah Friar shares five lessons for building an AI-native finance function, from automated forecasting to stronger controls and AI ROI.",
       "tags": [
@@ -387,7 +478,7 @@
       "url": "https://www.technologyreview.com/2026/08/12/1141714/the-download-innovators-under-35-censorship-industrial-complex/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5575,
+      "score": 0.5391,
       "publishedAt": "2026-08-12T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. How we picked 35 of the world’s top young scientists and engineers On September 8, MIT Technology Review will reveal its 2026 list of Innovators Under",
       "tags": [
@@ -396,76 +487,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Priceline Promo Codes &amp; Coupons: 10% Off August 2026",
-      "url": "https://www.wired.com/story/priceline-promo-code/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.557,
-      "publishedAt": "2026-08-13T05:00:00.000Z",
-      "summary": "Unlock massive discounts on Priceline hotels, flights, and rental cars. Find verified Priceline coupon codes and deals for Express Deals, student discounts, and more.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Naturepedic Promo Codes: Get 20% Off Plus Free Pillows",
-      "url": "https://www.wired.com/story/naturepedic-promo-code/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.557,
-      "publishedAt": "2026-08-13T05:00:00.000Z",
-      "summary": "Shop the Naturepedic sale this 2026.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Bose Promo Code: 40% Off for August 2026",
-      "url": "https://www.wired.com/story/bose-coupon-code/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.557,
-      "publishedAt": "2026-08-13T05:00:00.000Z",
-      "summary": "Get at least 40% off headphones, speakers, soundbars, and other audio products from Bose.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Jabra Promo Codes: 30% Off  Headphones, Headsets &amp; More",
-      "url": "https://www.wired.com/story/jabra-promo-codes-coupons/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.557,
-      "publishedAt": "2026-08-13T05:00:00.000Z",
-      "summary": "Unlock significant savings on Jabra headphones, headsets, and speakers with our verified promo codes, exclusive coupons, and limited-time deals.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
-      "url": "https://openai.com/index/responsible-ai-infrastructure-texas",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5402,
-      "publishedAt": "2026-08-10T14:00:00.000Z",
-      "summary": "OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "How we picked 35 of the world’s top young scientists and engineers",
       "url": "https://www.technologyreview.com/2026/08/12/1141605/2026-innovators-under-35-top-young-scientists-engineers/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5399,
+      "score": 0.5215,
       "publishedAt": "2026-08-12T09:08:40.000Z",
       "summary": "Next month, on September 8, MIT Technology Review will reveal its 2026 list of Innovators Under 35, recognizing 35 young people from around the world who are doing groundbreaking scientific work and building clever technical fixes for sticky problems.&#160; By finding the top young innovators global",
       "tags": [
@@ -474,11 +500,24 @@
       "engagementScore": 0
     },
     {
+      "title": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
+      "url": "https://openai.com/index/responsible-ai-infrastructure-texas",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.5173,
+      "publishedAt": "2026-08-10T14:00:00.000Z",
+      "summary": "OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Made by Google 2026: all the Pixel news and announcements",
       "url": "https://www.theverge.com/tech/977561/made-by-google-2026-pixel-11-news",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5309,
+      "score": 0.5141,
       "publishedAt": "2026-08-13T00:06:37.000Z",
       "summary": "On August 12, 2026, Google revealed a bunch of new Pixel devices. The colorful Pixel 11 lineup comes with upgraded cameras and performance, with the Pro models offering a built-in LED ring that lights up for Google&#8217;s Gemini AI and other features. Google also showed off its next-gen Pixel Fold",
       "tags": [
@@ -491,38 +530,12 @@
       "url": "https://openai.com/index/model-ml",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.5257,
+      "score": 0.5124,
       "publishedAt": "2026-08-10T12:00:00.000Z",
       "summary": "Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks and Excel workbooks.",
       "tags": [
         "LLM",
         "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Google’s Pixel Watch 5 dives deeper into AI and health",
-      "url": "https://www.theverge.com/tech/978094/pixel-watch-5-hands-on-made-by-google-gemini-wearables-smartwatch",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5257,
-      "publishedAt": "2026-08-12T23:08:30.000Z",
-      "summary": "The $399 Google Pixel Watch 5 isn't about the hardware. Sure, there's a new satin pyrite case finish, a few new strap colors, and a Steph Curry Special Edition. Under the hood, there's a slightly faster Qualcomm processor and an itty-bitty battery bump. There's a $50 price hike from last year, too,",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Thinking of ACE? We Can Do It with Fewer Tokens",
-      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.5135,
-      "publishedAt": "2026-08-11T13:37:10.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
       ],
       "engagementScore": 0
     },
@@ -540,50 +553,76 @@
       "engagementScore": 0
     },
     {
+      "title": "Google’s Pixel Watch 5 dives deeper into AI and health",
+      "url": "https://www.theverge.com/tech/978094/pixel-watch-5-hands-on-made-by-google-gemini-wearables-smartwatch",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5089,
+      "publishedAt": "2026-08-12T23:08:30.000Z",
+      "summary": "The $399 Google Pixel Watch 5 isn't about the hardware. Sure, there's a new satin pyrite case finish, a few new strap colors, and a Steph Curry Special Edition. Under the hood, there's a slightly faster Qualcomm processor and an itty-bitty battery bump. There's a $50 price hike from last year, too,",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "DeepSeek V4 Pro 0813",
       "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
       "feedSource": "Hacker News",
       "source": "openrouter.ai",
-      "score": 0.5094,
+      "score": 0.496,
       "publishedAt": "2026-08-12T16:04:50.000Z",
-      "summary": "DeepSeek V4 Pro 0813 is a large-scale mixture-of-experts model from DeepSeek. $0.435 per million input tokens, $0.87 per million output tokens. 1,048,576 token context window, maximum output of 384,000 tokens. Includes independent benchmarks from Artificial Analysis.",
+      "summary": "DeepSeek V4 Pro 0813 is a large-scale mixture-of-experts model from DeepSeek. $0.435 per million input tokens, $0.87 per million output tokens. 1,048,576 token context window, maximum output of 384,000 tokens.",
       "tags": [
-        "ML Infra"
+        "AI"
       ],
-      "engagementScore": 931
+      "engagementScore": 979
+    },
+    {
+      "title": "Thinking of ACE? We Can Do It with Fewer Tokens",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.4936,
+      "publishedAt": "2026-08-11T13:37:10.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "Tracking down the 16-year-old WAL-reset SQLite bug",
       "url": "https://tailscale.com/blog/sqlite-wal-reset-bug",
       "feedSource": "Hacker News",
       "source": "tailscale.com",
-      "score": 0.5054,
+      "score": 0.4924,
       "publishedAt": "2026-08-12T14:22:30.000Z",
       "summary": "Tailscale and SQLite developers traced maddening corruption incidents to find the WAL-Reset data race, then uncovered a second stale expression index bug.",
       "tags": [
         "Dev Tools"
       ],
-      "engagementScore": 1048
+      "engagementScore": 1115
     },
     {
-      "title": "Twitch streamers can now opt out from training Amazon’s AI",
-      "url": "https://www.theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4955,
-      "publishedAt": "2026-08-12T17:29:10.000Z",
-      "summary": "Twitch users can now opt out of allowing their content to be used to train Amazon's generative AI models. Opting out means that \"your streams, VODs, clips, stream chats, and pictures and text on your channel\" won't be used in \"future training\" of an Amazon AI model \"whose purpose is to generate or s",
+      "title": "AI is removing the middle class of software engineering?",
+      "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
+      "feedSource": "Hacker News",
+      "source": "blog.florianherrengt.com",
+      "score": 0.4803,
+      "publishedAt": "2026-08-12T13:20:05.000Z",
+      "summary": "AI makes projects with weak engineering culture fail much faster.",
       "tags": [
-        "ML Infra"
+        "AI"
       ],
-      "engagementScore": 0
+      "engagementScore": 918
     },
     {
       "title": "Guitar company D’Addario admits that AI music was used in a promotional video",
       "url": "https://www.theverge.com/ai-artificial-intelligence/978982/daddario-guitar-ai-music-suno",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.495,
+      "score": 0.4782,
       "publishedAt": "2026-08-12T17:24:07.000Z",
       "summary": "After weeks of controversy and speculation, music company D'Addario has admitted that AI, specifically Suno, was used as part of a recent promotional video. For nearly two weeks, the company has denied the allegations, even as evidence piled up against it. It offered various explanations, from low-q",
       "tags": [
@@ -592,24 +631,24 @@
       "engagementScore": 0
     },
     {
-      "title": "AI is removing the middle class of software engineering?",
-      "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
+      "title": "Principia Mathematica is modern and insightful",
+      "url": "https://okmij.org/ftp/Computation/Impressions/PrincipiaMathematica.html",
       "feedSource": "Hacker News",
-      "source": "blog.florianherrengt.com",
-      "score": 0.4942,
-      "publishedAt": "2026-08-12T13:20:05.000Z",
-      "summary": "AI makes projects with weak engineering culture fail much faster.",
+      "source": "okmij.org",
+      "score": 0.4769,
+      "publishedAt": "2026-08-12T23:26:21.000Z",
+      "summary": "Notes on Chapter 1 of Principia Mathematica",
       "tags": [
         "AI"
       ],
-      "engagementScore": 883
+      "engagementScore": 215
     },
     {
       "title": "Of course the ChatGPT dog cancer vaccine spawned a startup",
       "url": "https://www.theverge.com/ai-artificial-intelligence/978671/ai-cured-dog-cancer-mrna-vaccine-startup-gamgee",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4899,
+      "score": 0.473,
       "publishedAt": "2026-08-12T16:26:04.000Z",
       "summary": "Remember that much-hyped story about an Australian tech entrepreneur using ChatGPT, Grok, and other AI tools to craft a personalized cancer vaccine for his dog? Well, surprise: He's launched a startup. That entrepreneur is Paul Conyngham, who says he is launching Gamgee to offer \"personalised mRNA c",
       "tags": [
@@ -620,25 +659,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Grok 4.6",
-      "url": "https://x.ai/news/grok-4-6",
-      "feedSource": "Hacker News",
-      "source": "x.ai",
-      "score": 0.488,
-      "publishedAt": "2026-08-12T15:32:50.000Z",
-      "summary": "Grok 4.6 builds on Grok 4.5 with a particular focus on long-running agents and more ambitious interactive and visual work.",
-      "tags": [
-        "Agents",
-        "Vision"
-      ],
-      "engagementScore": 553
-    },
-    {
       "title": "Grok is now an AI ‘teammate’ you can assign work",
       "url": "https://www.theverge.com/ai-artificial-intelligence/978666/spacexai-grok-bot-ai-agent-beta-launch",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.466,
+      "score": 0.4492,
       "publishedAt": "2026-08-12T11:58:54.000Z",
       "summary": "SpaceXAI has introduced Grok Bot, an always-on AI agent service designed to behave like independent \"AI teammates\" that can do your work for you. The bots share their own cloud-based computer environment, and can sign into apps, tools, and websites you already use to complete multi-step workplace ta",
       "tags": [
@@ -652,40 +677,11 @@
       "url": "https://www.technologyreview.com/2026/08/11/1141635/how-the-censorship-industrial-complex-is-changing-the-internet-and-us-policy/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4514,
+      "score": 0.4331,
       "publishedAt": "2026-08-11T17:58:57.000Z",
       "summary": "I first heard the term “censorship-industrial complex” on April 15, 2025.&#160; That’s when I got the tip that a small office in the U.S. State Department, which focused on monitoring and countering foreign disinformation from the likes of Russia, Iran, and China, was facing imminent shutdown—the ne",
       "tags": [
         "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/",
-      "feedSource": "Google AI",
-      "source": "blog.google",
-      "score": 0.4457,
-      "publishedAt": "2026-08-11T17:00:00.000Z",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AIME_SIZZLE_THUMBNAIL.Aug10.max-600x600.format-webp.webp\"&gt;Google introduces AMIE for real-time clinical video consultations in simulated settings.",
-      "tags": [
-        "Research",
-        "RAG",
-        "Vision",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
-      "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-08-06T15:06:15.000Z",
-      "summary": "WeatherNext enables accurate cyclone forecasts that can give an extra day of warning. Now we are open sourcing the model.",
-      "tags": [
-        "AI"
       ],
       "engagementScore": 0
     }
