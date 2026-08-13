@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T21:50:40.553Z",
+  "updatedAt": "2026-08-13T02:17:59.460Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,7 +12,7 @@
       "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9219,
+      "score": 0.8894,
       "publishedAt": "2026-08-12T06:00:00.000Z",
       "summary": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
       "tags": [
@@ -28,7 +28,7 @@
       "url": "https://openai.com/index/ringcentral",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8781,
+      "score": 0.8456,
       "publishedAt": "2026-08-12T00:00:00.000Z",
       "summary": "See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations.",
       "tags": [
@@ -42,7 +42,7 @@
       "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.8591,
+      "score": 0.8287,
       "publishedAt": "2026-08-12T14:01:59.000Z",
       "summary": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users.",
       "tags": [
@@ -51,109 +51,115 @@
       "engagementScore": 0
     },
     {
-      "title": "Towards an Argumentative Foundation for Evaluative AI",
-      "url": "https://arxiv.org/abs/2608.07473",
+      "title": "Closed-Loop LLM Co-Pilots for Digital Agriculture",
+      "url": "https://arxiv.org/abs/2608.09949",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7908,
+      "score": 0.7605,
       "publishedAt": "2026-08-12T04:00:00.000Z",
-      "summary": "arXiv:2608.07473v1 Announce Type: new \nAbstract: Evaluative AI (EAI) has been recently proposed as a way to support human decision-making, not by producing a single recommendation, but by presenting competing hypotheses together with evidence for and against each. In this position paper, we advocate",
+      "summary": "arXiv:2608.09949v1 Announce Type: new \nAbstract: This study evaluates the application of Large Language Models (LLMs) in complex biological systems, evolving from data analysis to autonomous, AI-guided experimentation. The framework is driven by data from a 49-channel phytosensor network, encompassi",
       "tags": [
+        "LLM",
+        "Agents",
         "Research"
       ],
       "engagementScore": 0
     },
     {
-      "title": "Flow-by-Flow:Content-Judgment Bypass for Governing AI Output in High-Loss Domains",
-      "url": "https://arxiv.org/abs/2608.07474",
+      "title": "SPOTting the Future: Lookahead Explanations for Deep Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2608.09967",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7908,
+      "score": 0.7605,
       "publishedAt": "2026-08-12T04:00:00.000Z",
-      "summary": "arXiv:2608.07474v1 Announce Type: new \nAbstract: Prior work showed that human-in-the-loop oversight becomes structurally untenable in high-loss domains when AI output velocity V exceeds human cognitive capacity C_max. The operative constraint, however, is not V alone but V x L, where L denotes per-i",
+      "summary": "arXiv:2608.09967v1 Announce Type: new \nAbstract: Deep reinforcement learning (DRL) agents achieve strong performance in complex environments, yet their decision-making processes remain difficult to interpret. We introduce SPOT (Sampling Policy Observation Tree), a novel model-agnostic, sampling-base",
       "tags": [
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Determinization in Structure Theories: A Unified Framework via Closure, Comparability, and Joint Admissibility",
-      "url": "https://arxiv.org/abs/2608.07476",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7908,
-      "publishedAt": "2026-08-12T04:00:00.000Z",
-      "summary": "arXiv:2608.07476v1 Announce Type: new \nAbstract: We develop a formal framework for constructing canonical interpretations from plural structure theories. A structure theory is a triple T = ({\\Sigma}, A, I) consisting of a signature, axioms, and an inference policy, whose admissible interpretation fa",
-      "tags": [
+        "Agents",
         "Research",
         "Safety"
       ],
       "engagementScore": 0
     },
     {
-      "title": "Emotion in an active inference model of human driving",
-      "url": "https://arxiv.org/abs/2608.07480",
+      "title": "MIDAS: Mutual Information Disentanglement with Uncertainty-Aware Fusion for Incomplete Multimodal Sentiment Analysis",
+      "url": "https://arxiv.org/abs/2608.09986",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7908,
+      "score": 0.7605,
       "publishedAt": "2026-08-12T04:00:00.000Z",
-      "summary": "arXiv:2608.07480v1 Announce Type: new \nAbstract: Active inference has emerged as a principled framework for modeling adaptive behavior by balancing goal-directed action with uncertainty reduction. It has been successfully applied across biological and artificial systems, including recent work on hum",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Training Variable Long Sequences with Data-Centric Parallel",
-      "url": "https://arxiv.org/abs/2608.07524",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7908,
-      "publishedAt": "2026-08-12T04:00:00.000Z",
-      "summary": "arXiv:2608.07524v1 Announce Type: new \nAbstract: Training deep learning models on variable long sequences poses significant computational challenges. Existing methods force a difficult trade-off between efficiency and ease-of-use. Simple approaches use static configurations that cause workload imbal",
+      "summary": "arXiv:2608.09986v1 Announce Type: new \nAbstract: Most existing multimodal sentiment analysis approaches assume access to complete multimodal inputs. However, real-world applications frequently encounter incomplete or corrupted modalities, posing a critical challenge. Although several methods have be",
       "tags": [
         "Research",
-        "ML Infra"
+        "Vision"
       ],
       "engagementScore": 0
     },
     {
-      "title": "The Knowing-Saying Gap: When Probes See Errors that Confidence Misses",
-      "url": "https://arxiv.org/abs/2608.07528",
+      "title": "Towards Sustainable Artificial Intelligence: A Comprehensive Review and Comparative Analysis of Deep Learning Models' Carbon Footprint",
+      "url": "https://arxiv.org/abs/2608.09998",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7908,
+      "score": 0.7605,
       "publishedAt": "2026-08-12T04:00:00.000Z",
-      "summary": "arXiv:2608.07528v1 Announce Type: new \nAbstract: Linear probes detect corrupted context in language models with near-perfect accuracy, yet this does not translate into reliable failure prediction. The result is a dissociation with direct implications for deployment monitoring. Across multi-hop arith",
+      "summary": "arXiv:2608.09998v1 Announce Type: new \nAbstract: Artificial Intelligence (AI) and Machine Learning (ML) have become powerful tools for supporting and automating complex human tasks. Despite their benefits, growing attention has been directed toward their environmental implications, primarily due to",
       "tags": [
-        "LLM",
+        "Research",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "ReCBM: Uncertainty-Gated Relational Reasoning for Concept Bottleneck Models",
+      "url": "https://arxiv.org/abs/2608.10004",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.7605,
+      "publishedAt": "2026-08-12T04:00:00.000Z",
+      "summary": "arXiv:2608.10004v1 Announce Type: new \nAbstract: Concept Bottleneck Models (CBMs) provide an interpretable framework by grounding predictions in human-understandable concepts, enabling semantic inspection and test-time intervention. Recent variants have improved CBMs through richer concept represent",
+      "tags": [
         "Research"
       ],
       "engagementScore": 0
     },
     {
-      "title": "NL2SHACL-Bench: A Benchmark Suite for Natural Language to SHACL Translation",
-      "url": "https://arxiv.org/abs/2608.07530",
+      "title": "Automating and Scaling Behavioral Scientific Research on AI Agents",
+      "url": "https://arxiv.org/abs/2608.10030",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7908,
+      "score": 0.7605,
       "publishedAt": "2026-08-12T04:00:00.000Z",
-      "summary": "arXiv:2608.07530v1 Announce Type: new \nAbstract: SHACL is a core technology for validating the conformance of RDF knowledge graphs (KGs). Yet, authoring SHACL shapes requires technical expertise that most domain experts lack. Translating natural language requirements into SHACL (NL2SHACL) would lowe",
+      "summary": "arXiv:2608.10030v1 Announce Type: new \nAbstract: As AI agents are increasingly deployed in complex environments, understanding their behaviors becomes critical. Yet behavioral scientific research on AI agents remains manual and labor-intensive. We introduce AEROBAT, the first multi-agent system to a",
       "tags": [
+        "Agents",
         "Research"
       ],
       "engagementScore": 0
     },
     {
-      "title": "Dynamic Coalition Formation and Communication Pricing in Skill-Based Agentic AI Systems",
-      "url": "https://arxiv.org/abs/2608.07532",
+      "title": "CHORUS: Complementary Experts for High-Coverage Testbench Stimulus Generation",
+      "url": "https://arxiv.org/abs/2608.10090",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7908,
+      "score": 0.7605,
       "publishedAt": "2026-08-12T04:00:00.000Z",
-      "summary": "arXiv:2608.07532v1 Announce Type: new \nAbstract: Modern agentic AI systems combine multiple large language model agents with heterogeneous skills, yet most architectures either fix communication in advance or allow full broadcast. Both can be inefficient because token cost, latency, redundancy, and",
+      "summary": "arXiv:2608.10090v1 Announce Type: new \nAbstract: Large language models (LLMs) have advanced code generation, where executable feedback provides a more reliable learning signal than textual imitation alone. Hardware verification is an important application of code generation and accounts for a substa",
       "tags": [
         "LLM",
+        "Research",
+        "RAG",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "MESA:Task-Adaptive Multi-Structure Evidence Selection for Long-Horizon Agent Memory",
+      "url": "https://arxiv.org/abs/2608.10108",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.7605,
+      "publishedAt": "2026-08-12T04:00:00.000Z",
+      "summary": "arXiv:2608.10108v1 Announce Type: new \nAbstract: Long-horizon agents accumulate trajectories spanning hundreds of interleaved reasoning, action, and observation steps, where answering a query may depend on evidence buried far back in the history. External memory stores such trajectories as structure",
+      "tags": [
         "Agents",
         "Research"
       ],
@@ -164,7 +170,7 @@
       "url": "https://openai.com/index/testing-ads-in-chatgpt",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.776,
+      "score": 0.7435,
       "publishedAt": "2026-08-11T10:00:00.000Z",
       "summary": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
       "tags": [
@@ -177,7 +183,7 @@
       "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.776,
+      "score": 0.7435,
       "publishedAt": "2026-08-11T10:00:00.000Z",
       "summary": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.",
       "tags": [
@@ -190,21 +196,21 @@
       "url": "https://arxiv.org/abs/2601.01828",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7611,
+      "score": 0.7322,
       "publishedAt": "2026-08-11T21:14:10.000Z",
       "summary": "We investigate whether large language models can introspect on their internal states. It is difficult to answer this question through conversation alone, as genuine introspection cannot be distinguished from confabulations. Here, we address this challenge by injecting representations of known concep",
       "tags": [
         "LLM",
         "Industry"
       ],
-      "engagementScore": 69
+      "engagementScore": 71
     },
     {
       "title": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
       "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.7597,
+      "score": 0.7315,
       "publishedAt": "2026-08-12T16:14:36.000Z",
       "summary": "",
       "tags": [
@@ -213,25 +219,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Learning more about Claude's mathematical capabilities",
-      "url": "https://www.anthropic.com/research/riemann-zeta",
-      "feedSource": "Hacker News",
-      "source": "anthropic.com",
-      "score": 0.7496,
-      "publishedAt": "2026-08-10T17:41:13.000Z",
-      "summary": "An unreleased version of Claude has made strides on a problem related to the Riemann hypothesis. It improved the lower bound for the fraction of zeros of the Riemann zeta function that satisfy the hypothesis, increasing it from 41.6% to 67.2%.",
-      "tags": [
-        "LLM",
-        "Open Source"
-      ],
-      "engagementScore": 275
-    },
-    {
       "title": "LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge",
       "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.7456,
+      "score": 0.7174,
       "publishedAt": "2026-08-12T14:00:51.000Z",
       "summary": "",
       "tags": [
@@ -240,25 +232,39 @@
       "engagementScore": 0
     },
     {
+      "title": "Learning more about Claude's mathematical capabilities",
+      "url": "https://www.anthropic.com/research/riemann-zeta",
+      "feedSource": "Hacker News",
+      "source": "anthropic.com",
+      "score": 0.7173,
+      "publishedAt": "2026-08-10T17:41:13.000Z",
+      "summary": "An unreleased version of Claude has made strides on a problem related to the Riemann hypothesis. It improved the lower bound for the fraction of zeros of the Riemann zeta function that satisfy the hypothesis, increasing it from 41.6% to 67.2%.",
+      "tags": [
+        "LLM",
+        "Open Source"
+      ],
+      "engagementScore": 276
+    },
+    {
       "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
       "url": "https://arxiv.org/abs/2608.09867",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7328,
+      "score": 0.7138,
       "publishedAt": "2026-08-12T14:17:03.000Z",
       "summary": "Leading large language model providers now conceal their models’ step-by-step reasoning, or chain-of-thought, to protect intellectual property and limit information leakage. Rather than storing these traces server-side, providers return them to the client as blocks of encrypted text, which the clien",
       "tags": [
         "LLM",
         "Dev Tools"
       ],
-      "engagementScore": 4
+      "engagementScore": 5
     },
     {
       "title": "Letter to Governor Abbott on responsible AI infrastructure in Texas",
       "url": "https://openai.com/index/responsible-ai-infrastructure-texas/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.6842,
+      "score": 0.6517,
       "publishedAt": "2026-08-10T14:38:20.000Z",
       "summary": "OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans.",
       "tags": [
@@ -271,7 +277,7 @@
       "url": "https://www.technologyreview.com/2026/08/12/1141768/scientists-just-created-female-clones-of-male-mice/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6693,
+      "score": 0.6433,
       "publishedAt": "2026-08-12T18:59:48.000Z",
       "summary": "Scientists have deliberately turned male mouse embryos into females for the first time. A team based in Japan used a CRISPR-based approach to remove the Y chromosome from male cells and create female clones of male mice.&#160; “No one has done this before,” says Monika Ward, a reproductive biologist",
       "tags": [
@@ -284,7 +290,7 @@
       "url": "https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6569,
+      "score": 0.6309,
       "publishedAt": "2026-08-12T16:51:57.000Z",
       "summary": "Business and technology leaders need no convincing that the time of agentic AI is here. Organizations are rapidly adopting agents, and few executives doubt the technology’s potential to transform work. But many organizations find that realizing the desired return on investment (ROI) from AI hinges o",
       "tags": [
@@ -299,22 +305,9 @@
       "url": "https://openai.com/index/building-an-ai-native-finance-function",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6521,
+      "score": 0.6196,
       "publishedAt": "2026-08-10T17:00:00.000Z",
       "summary": "OpenAI CFO Sarah Friar shares five lessons for building an AI-native finance function, from automated forecasting to stronger controls and AI ROI.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
-      "url": "https://openai.com/index/responsible-ai-infrastructure-texas",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.6302,
-      "publishedAt": "2026-08-10T14:00:00.000Z",
-      "summary": "OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans.",
       "tags": [
         "LLM"
       ],
@@ -325,7 +318,7 @@
       "url": "https://www.technologyreview.com/2026/08/12/1141714/the-download-innovators-under-35-censorship-industrial-complex/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6295,
+      "score": 0.6035,
       "publishedAt": "2026-08-12T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. How we picked 35 of the world’s top young scientists and engineers On September 8, MIT Technology Review will reveal its 2026 list of Innovators Under",
       "tags": [
@@ -334,11 +327,37 @@
       "engagementScore": 0
     },
     {
+      "title": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
+      "url": "https://openai.com/index/responsible-ai-infrastructure-texas",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.5977,
+      "publishedAt": "2026-08-10T14:00:00.000Z",
+      "summary": "OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "How we picked 35 of the world’s top young scientists and engineers",
+      "url": "https://www.technologyreview.com/2026/08/12/1141605/2026-innovators-under-35-top-young-scientists-engineers/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.5858,
+      "publishedAt": "2026-08-12T09:08:40.000Z",
+      "summary": "Next month, on September 8, MIT Technology Review will reveal its 2026 list of Innovators Under 35, recognizing 35 young people from around the world who are doing groundbreaking scientific work and building clever technical fixes for sticky problems.&#160; By finding the top young innovators global",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Model ML completes finance work more efficiently with GPT-5.6 Sol",
       "url": "https://openai.com/index/model-ml",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6156,
+      "score": 0.5831,
       "publishedAt": "2026-08-10T12:00:00.000Z",
       "summary": "Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks and Excel workbooks.",
       "tags": [
@@ -348,15 +367,15 @@
       "engagementScore": 0
     },
     {
-      "title": "How we picked 35 of the world’s top young scientists and engineers",
-      "url": "https://www.technologyreview.com/2026/08/12/1141605/2026-innovators-under-35-top-young-scientists-engineers/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.6118,
-      "publishedAt": "2026-08-12T09:08:40.000Z",
-      "summary": "Next month, on September 8, MIT Technology Review will reveal its 2026 list of Innovators Under 35, recognizing 35 young people from around the world who are doing groundbreaking scientific work and building clever technical fixes for sticky problems.&#160; By finding the top young innovators global",
+      "title": "Made by Google 2026: all the Pixel news and announcements",
+      "url": "https://www.theverge.com/tech/977561/made-by-google-2026-pixel-11-news",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.573,
+      "publishedAt": "2026-08-13T00:06:37.000Z",
+      "summary": "On August 12, 2026, Google revealed a bunch of new Pixel devices. The colorful Pixel 11 lineup comes with upgraded cameras and performance, with the Pro models offering a built-in LED ring that lights up for Google&#8217;s Gemini AI and other features. Google also showed off its next-gen Pixel Fold",
       "tags": [
-        "Research"
+        "LLM"
       ],
       "engagementScore": 0
     },
@@ -365,7 +384,7 @@
       "url": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.601,
+      "score": 0.5685,
       "publishedAt": "2026-08-10T10:00:00.000Z",
       "summary": "Approved Daybreak partners can use OpenAI’s frontier cyber models to deliver authorized, governed cybersecurity services to customers.",
       "tags": [
@@ -374,11 +393,37 @@
       "engagementScore": 0
     },
     {
+      "title": "Google’s Pixel Watch 5 dives deeper into AI and health",
+      "url": "https://www.theverge.com/tech/978094/pixel-watch-5-hands-on-made-by-google-gemini-wearables-smartwatch",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5679,
+      "publishedAt": "2026-08-12T23:08:30.000Z",
+      "summary": "The $399 Google Pixel Watch 5 isn't about the hardware. Sure, there's a new satin pyrite case finish, a few new strap colors, and a Steph Curry Special Edition. Under the hood, there's a slightly faster Qualcomm processor and an itty-bitty battery bump. There's a $50 price hike from last year, too,",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Best Photos of the Big August Solar Eclipse",
+      "url": "https://www.wired.com/story/best-photos-august-solar-eclipse-spain/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.566,
+      "publishedAt": "2026-08-12T22:47:30.000Z",
+      "summary": "It’s been a century since the Iberian Peninsula has been in the full shadow of the moon. Here’s what it looked like in the path of totality.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Thinking of ACE? We Can Do It with Fewer Tokens",
       "url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.5914,
+      "score": 0.5633,
       "publishedAt": "2026-08-11T13:37:10.000Z",
       "summary": "",
       "tags": [
@@ -387,24 +432,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Made by Google 2026: all the Pixel news and announcements",
-      "url": "https://www.theverge.com/tech/977561/made-by-google-2026-pixel-11-news",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5803,
-      "publishedAt": "2026-08-12T21:00:28.000Z",
-      "summary": "Google has revealed a bunch of new Pixel devices ahead of its Made by Google event. The colorful Pixel 11 lineup comes with upgraded cameras and performance, with the Pro models offering a built-in LED ring that lights up for Google&#8217;s Gemini AI and other features. Google also showed off its ne",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "The White House Is Going to Expand Its AI Policy",
       "url": "https://www.wired.com/story/the-white-house-is-going-to-expand-its-ai-policy/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5802,
+      "score": 0.5564,
       "publishedAt": "2026-08-12T21:00:00.000Z",
       "summary": "Open models may soon be added to an updated AI framework, sources tell WIRED, as the White House continues to grapple with how to regulate a technology it has tried not to regulate.",
       "tags": [
@@ -417,7 +449,7 @@
       "url": "https://www.wired.com/story/lettuce-grow-20-percent-off-2026/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5762,
+      "score": 0.5523,
       "publishedAt": "2026-08-12T20:14:30.000Z",
       "summary": "Lettuce Grow, one of my favorite indoor gardens, lets you cultivate your own salad greens safely, right in your living room. And it’s 20 percent off right now.",
       "tags": [
@@ -430,7 +462,7 @@
       "url": "https://www.wired.com/story/the-gender-war-over-obsession-has-come-for-theme-parks/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.57,
+      "score": 0.5462,
       "publishedAt": "2026-08-12T19:05:29.000Z",
       "summary": "Debate over the true villain in Obsession is raging again after Universal Studios announced the movie’s female lead will be featured at an upcoming Halloween event.",
       "tags": [
@@ -443,7 +475,7 @@
       "url": "https://www.wired.com/story/rogue-ai-is-just-misunderstood/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5682,
+      "score": 0.5444,
       "publishedAt": "2026-08-12T18:45:00.000Z",
       "summary": "AI agents that break free and hack into other systems are only trying to make us happy.",
       "tags": [
@@ -452,11 +484,24 @@
       "engagementScore": 0
     },
     {
+      "title": "DeepSeek V4 Pro 0813",
+      "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
+      "feedSource": "Hacker News",
+      "source": "openrouter.ai",
+      "score": 0.5406,
+      "publishedAt": "2026-08-12T16:04:50.000Z",
+      "summary": "DeepSeek V4 Pro 0813 is a large-scale mixture-of-experts model from DeepSeek. $0.435 per million input tokens, $0.87 per million output tokens. 1,048,576 token context window, maximum output of 384,000 tokens.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 764
+    },
+    {
       "title": "Twitch streamers can now opt out from training Amazon’s AI",
       "url": "https://www.theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5614,
+      "score": 0.5376,
       "publishedAt": "2026-08-12T17:29:10.000Z",
       "summary": "Twitch users can now opt out of allowing their content to be used to train Amazon's generative AI models. Opting out means that \"your streams, VODs, clips, stream chats, and pictures and text on your channel\" won't be used in \"future training\" of an Amazon AI model \"whose purpose is to generate or s",
       "tags": [
@@ -469,7 +514,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/978982/daddario-guitar-ai-music-suno",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.561,
+      "score": 0.5372,
       "publishedAt": "2026-08-12T17:24:07.000Z",
       "summary": "After weeks of controversy and speculation, music company D'Addario has admitted that AI, specifically Suno, was used as part of a recent promotional video. For nearly two weeks, the company has denied the allegations, even as evidence piled up against it. It offered various explanations, from low-q",
       "tags": [
@@ -478,11 +523,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Tailscale Traces Database Corruption to 16y/o SQLite WAL-Reset Bug",
+      "url": "https://tailscale.com/blog/sqlite-wal-reset-bug",
+      "feedSource": "Hacker News",
+      "source": "tailscale.com",
+      "score": 0.5345,
+      "publishedAt": "2026-08-12T14:22:30.000Z",
+      "summary": "Tailscale and SQLite developers traced maddening corruption incidents to find the WAL-Reset data race, then uncovered a second stale expression index bug.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 813
+    },
+    {
       "title": "Of course the ChatGPT dog cancer vaccine spawned a startup",
       "url": "https://www.theverge.com/ai-artificial-intelligence/978671/ai-cured-dog-cancer-mrna-vaccine-startup-gamgee",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5558,
+      "score": 0.532,
       "publishedAt": "2026-08-12T16:26:04.000Z",
       "summary": "Remember that much-hyped story about an Australian tech entrepreneur using ChatGPT, Grok, and other AI tools to craft a personalized cancer vaccine for his dog? Well, surprise: He's launched a startup. That entrepreneur is Paul Conyngham, who says he is launching Gamgee to offer \"personalised mRNA c",
       "tags": [
@@ -493,37 +551,24 @@
       "engagementScore": 0
     },
     {
-      "title": "DeepSeek V4 Pro 0813",
-      "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
+      "title": "AI is removing the middle class of software engineering?",
+      "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
       "feedSource": "Hacker News",
-      "source": "openrouter.ai",
-      "score": 0.5539,
-      "publishedAt": "2026-08-12T16:04:50.000Z",
-      "summary": "DeepSeek V4 Pro 0813 is a large-scale mixture-of-experts model from DeepSeek. $0.435 per million input tokens, $0.87 per million output tokens. 1,048,576 token context window, maximum output of 384,000 tokens.",
+      "source": "blog.florianherrengt.com",
+      "score": 0.5258,
+      "publishedAt": "2026-08-12T13:20:05.000Z",
+      "summary": "AI makes projects with weak engineering culture fail much faster.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 607
-    },
-    {
-      "title": "Tailscale Traces Database Corruption to 16y/o SQLite WAL-Reset Bug",
-      "url": "https://tailscale.com/blog/sqlite-wal-reset-bug",
-      "feedSource": "Hacker News",
-      "source": "tailscale.com",
-      "score": 0.549,
-      "publishedAt": "2026-08-12T14:22:30.000Z",
-      "summary": "Tailscale and SQLite developers traced maddening corruption incidents to find the WAL-Reset data race, then uncovered a second stale expression index bug.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 667
+      "engagementScore": 735
     },
     {
       "title": "Google’s Pixel Watch 5 Can Now Detect Breathing Emergencies",
       "url": "https://www.wired.com/story/googles-pixel-watch-5-can-now-detect-breathing-emergencies/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5435,
+      "score": 0.5197,
       "publishedAt": "2026-08-12T14:07:59.000Z",
       "summary": "The company is also adding blood pressure and insulin resistance trends as proactive monitoring tools in the Google Health app.",
       "tags": [
@@ -536,7 +581,7 @@
       "url": "https://www.wired.com/story/new-camera-tricks-on-google-latest-pixel-11-smartphones/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5428,
+      "score": 0.519,
       "publishedAt": "2026-08-12T14:00:00.000Z",
       "summary": "From Magic Capture and Instant Night Sight to a built-in teleprompter, here’s a look at a few camera features on Google’s new Pixel 11 series.",
       "tags": [
@@ -549,7 +594,7 @@
       "url": "https://www.wired.com/story/pixel-11-pixel-watch-5-pixel-tag-everything-google-announced-at-its-made-by-google-2026-event/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5428,
+      "score": 0.519,
       "publishedAt": "2026-08-12T14:00:00.000Z",
       "summary": "The Pixel 11 smartphone lineup is here, alongside the Pixel Watch 5 and the all-new Pixel Tag.",
       "tags": [
@@ -558,50 +603,25 @@
       "engagementScore": 0
     },
     {
-      "title": "AI is removing the middle class of software engineering?",
-      "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
+      "title": "Grok 4.6",
+      "url": "https://x.ai/news/grok-4-6",
       "feedSource": "Hacker News",
-      "source": "blog.florianherrengt.com",
-      "score": 0.5423,
-      "publishedAt": "2026-08-12T13:20:05.000Z",
-      "summary": "AI makes projects with weak engineering culture fail much faster.",
+      "source": "x.ai",
+      "score": 0.5158,
+      "publishedAt": "2026-08-12T15:32:50.000Z",
+      "summary": "Grok 4.6 builds on Grok 4.5 with a particular focus on long-running agents and more ambitious interactive and visual work.",
       "tags": [
-        "AI"
+        "Agents",
+        "Vision"
       ],
-      "engagementScore": 637
-    },
-    {
-      "title": "Google’s Pixel Watch 5 dives deeper into AI and health",
-      "url": "https://www.theverge.com/tech/978094/pixel-watch-5-hands-on-made-by-google-gemini-wearables-smartwatch",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5395,
-      "publishedAt": "2026-08-12T13:23:13.000Z",
-      "summary": "The $399 Google Pixel Watch 5 isn't about the hardware. Sure, there's a new satin pyrite case finish, a few new strap colors, and a Steph Curry Special Edition. Under the hood, there's a slightly faster Qualcomm processor and an itty-bitty battery bump. There's a $50 price hike from last year, too,",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Honor’s Robot Phone Has a Gimbal-Powered Camera for Vloggers",
-      "url": "https://www.wired.com/story/honor-robot-phone/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5348,
-      "publishedAt": "2026-08-12T12:30:00.000Z",
-      "summary": "Honor’s new China-exclusive Android phone features a pop-out motorized gimbal camera designed to replace your action cam.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
+      "engagementScore": 414
     },
     {
       "title": "Grok is now an AI ‘teammate’ you can assign work",
       "url": "https://www.theverge.com/ai-artificial-intelligence/978666/spacexai-grok-bot-ai-agent-beta-launch",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.532,
+      "score": 0.5082,
       "publishedAt": "2026-08-12T11:58:54.000Z",
       "summary": "SpaceXAI has introduced Grok Bot, an always-on AI agent service designed to behave like independent \"AI teammates\" that can do your work for you. The bots share their own cloud-based computer environment, and can sign into apps, tools, and websites you already use to complete multi-step workplace ta",
       "tags": [
@@ -611,24 +631,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Grok 4.6 scores 61 on the Artificial Analysis Intelligence Index",
-      "url": "https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis",
-      "feedSource": "Hacker News",
-      "source": "artificialanalysis.ai",
-      "score": 0.5293,
-      "publishedAt": "2026-08-12T16:54:25.000Z",
-      "summary": "SpaceXAI returns to the intelligence frontier with strengths in agentic performance and cost efficiency",
-      "tags": [
-        "Agents"
-      ],
-      "engagementScore": 275
-    },
-    {
       "title": "How the &#8220;censorship-industrial complex&#8221; is changing the internet and US policy",
       "url": "https://www.technologyreview.com/2026/08/11/1141635/how-the-censorship-industrial-complex-is-changing-the-internet-and-us-policy/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5234,
+      "score": 0.4974,
       "publishedAt": "2026-08-11T17:58:57.000Z",
       "summary": "I first heard the term “censorship-industrial complex” on April 15, 2025.&#160; That’s when I got the tip that a small office in the U.S. State Department, which focused on monitoring and countering foreign disinformation from the likes of Russia, Iran, and China, was facing imminent shutdown—the ne",
       "tags": [
@@ -641,7 +648,7 @@
       "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.5176,
+      "score": 0.4917,
       "publishedAt": "2026-08-11T17:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AIME_SIZZLE_THUMBNAIL.Aug10.max-600x600.format-webp.webp\"&gt;Google introduces AMIE for real-time clinical video consultations in simulated settings.",
       "tags": [
@@ -657,7 +664,7 @@
       "url": "https://www.technologyreview.com/2026/08/11/1141610/the-download-next-big-thing-llms-ai-academic-research-shifting/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4895,
+      "score": 0.4635,
       "publishedAt": "2026-08-11T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. These startups are chasing the next big thing in LLMs Nine years after Google researchers introduced the transformer, this family of neural networks h",
       "tags": [
@@ -672,7 +679,7 @@
       "url": "https://www.theverge.com/games/978558/rideshare-stimulator-writer-ai-saber-interactive",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4715,
+      "score": 0.4477,
       "publishedAt": "2026-08-12T00:40:27.000Z",
       "summary": "After a former lead writer claimed Saber \"replaced me with ChatGPT,\" CEO Matthew Karch now claims, \"Neither Saber nor Unigine have replaced any writers with AI,\" for the Rideshare \"Stimulator\" game announced last month, developed by Unigine. The writer, Stella Sacco, says differently, however, posti",
       "tags": [
