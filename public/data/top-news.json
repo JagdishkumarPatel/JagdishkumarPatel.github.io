@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T21:28:10.350Z",
+  "updatedAt": "2026-08-15T01:25:10.250Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,87 +12,74 @@
       "url": "https://www-cdn.anthropic.com/f61d49fa5596956a5dec75fea0e973bf6a6a8378/Redacted%20Risk%20Report%20August%202026%20.pdf",
       "feedSource": "Hacker News",
       "source": "www-cdn.anthropic.com",
-      "score": 1.0151,
+      "score": 0.9966,
       "publishedAt": "2026-08-14T19:32:15.000Z",
       "summary": "Risk Report:",
       "tags": [
         "LLM",
         "Safety"
       ],
-      "engagementScore": 43
-    },
-    {
-      "title": "How Claude's text watermarking works",
-      "url": "https://www.anthropic.com/news/claude-text-watermark",
-      "feedSource": "Hacker News",
-      "source": "anthropic.com",
-      "score": 1.0092,
-      "publishedAt": "2026-08-14T19:15:51.000Z",
-      "summary": "Future Claude models will generate text that contains a watermark. This is a way of determining the likelihood that Claude was involved in writing the text, and we, along with several other major AI providers, are implementing this change to comply with the EU AI Act. In this article, we share answe",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 40
+      "engagementScore": 52
     },
     {
       "title": "How Organizations Use AI: Evidence from ChatGPT [pdf]",
       "url": "https://cdn.openai.com/pdf/how-organizations-use-chatgpt.pdf",
       "feedSource": "Hacker News",
       "source": "cdn.openai.com",
-      "score": 0.8964,
+      "score": 0.8676,
       "publishedAt": "2026-08-13T19:25:38.000Z",
-      "summary": "",
+      "summary": "How Organizations Use AI: Evidence from ChatGPT",
       "tags": [
         "LLM"
       ],
       "engagementScore": 123
     },
     {
-      "title": "Codex in ChatGPT desktop app for Linux is now in preview",
-      "url": "https://community.openai.com/t/codex-in-chatgpt-desktop-app-for-linux-is-now-in-preview/1390027",
+      "title": "New Lower and Upper Bounds for the Grothendieck Constant",
+      "url": "https://arxiv.org/abs/2608.11158",
       "feedSource": "Hacker News",
-      "source": "community.openai.com",
-      "score": 0.8621,
-      "publishedAt": "2026-08-13T04:53:41.000Z",
-      "summary": "",
+      "source": "arxiv.org",
+      "score": 0.8537,
+      "publishedAt": "2026-08-14T19:41:42.000Z",
+      "summary": "We establish new bounds on the Grothendieck constant $K_G$: \\[ \\frac{6π}{11} \\le K_G \\le \\fracπ{2\\log(1+\\sqrt2)} - 10^{-4}. \\] Methodologically, our lower bound approach differs from previous works by establishing limitations on the asymptotically optimal Krivine schemes, rather than giving explicit",
       "tags": [
-        "LLM",
-        "Dev Tools"
+        "AI"
       ],
-      "engagementScore": 461
+      "engagementScore": 34
     },
     {
       "title": "A Contract-Grade Verifier for LLM-Generated GPU Kernels",
       "url": "https://arxiv.org/abs/2608.12700",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8375,
+      "score": 0.8336,
       "publishedAt": "2026-08-14T16:57:14.000Z",
       "summary": "Systems that generate GPU kernels with language models report high correctness rates. Those rates come from a single loose test: run the kernel on a few random inputs at one fixed shape and accept it if the output is close to a reference. A kernel can pass that test and still be silently wrong. It c",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 21
+      "engagementScore": 33
     },
     {
-      "title": "New Lower and Upper Bounds for the Grothendieck Constant",
-      "url": "https://arxiv.org/abs/2608.11158",
+      "title": "Codex in ChatGPT desktop app for Linux is now in preview",
+      "url": "https://community.openai.com/t/codex-in-chatgpt-desktop-app-for-linux-is-now-in-preview/1390027",
       "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.8357,
-      "publishedAt": "2026-08-14T19:41:42.000Z",
-      "summary": "We establish new bounds on the Grothendieck constant $K_G$: \\[ \\frac{6π}{11} \\le K_G \\le \\fracπ{2\\log(1+\\sqrt2)} - 10^{-4}. \\] Methodologically, our lower bound approach differs from previous works by establishing limitations on the asymptotically optimal Krivine schemes, rather than giving explicit",
+      "source": "community.openai.com",
+      "score": 0.8335,
+      "publishedAt": "2026-08-13T04:53:41.000Z",
+      "summary": "Linux users, this one’s for you! 🐧 ChatGPT desktop app for Linux is now available in preview, bringing ChatGPT, Work, and Codex together in one native desktop experience. Currently supported: Ubuntu 24.04 LTS and 26.04 LTS Debian 13 Fedora 43 and 44 x64 and ARM64 architectures .deb and .rpm package",
       "tags": [
-        "AI"
+        "LLM",
+        "Dev Tools"
       ],
-      "engagementScore": 14
+      "engagementScore": 463
     },
     {
       "title": "The Conceptual Reasoning Index",
       "url": "https://alignment.anthropic.com/2026/conceptual-reasoning-index/",
       "feedSource": "Hacker News",
       "source": "alignment.anthropic.com",
-      "score": 0.8306,
+      "score": 0.8018,
       "publishedAt": "2026-08-13T13:48:14.000Z",
       "summary": "Emery Cooper1, Caspar Oesterheld1, Chi Nguyen1, Alex Kastner1,Joe Benton2, Ethan Perez2",
       "tags": [
@@ -101,11 +88,24 @@
       "engagementScore": 78
     },
     {
+      "title": "Simplifying and Refactoring Introductory Calculus",
+      "url": "https://arxiv.org/abs/1811.03459",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.7876,
+      "publishedAt": "2026-08-15T00:15:23.000Z",
+      "summary": "First year calculus is often taught in a way that is very burdensome to the student. Students have to memorize a diversity of processes for essentially performing the same task. However, many calculus processes can be simplified and streamlined so that fewer concepts can provide more flexibility and",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 5
+    },
+    {
       "title": "Dynamic Governance of Multi-LLM Agent Systems for Collaborative Conversational Outcomes",
       "url": "https://arxiv.org/abs/2608.11207",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7933,
+      "score": 0.7665,
       "publishedAt": "2026-08-14T04:00:00.000Z",
       "summary": "arXiv:2608.11207v1 Announce Type: new \nAbstract: When two LLM agents with structurally opposed objectives interact across multiple turns, the absence of a shared goal function produces not competition but collapse: the visitor capitulates, the site agent stops varying its approach, and the conversat",
       "tags": [
@@ -121,7 +121,7 @@
       "url": "https://arxiv.org/abs/2608.11210",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7933,
+      "score": 0.7665,
       "publishedAt": "2026-08-14T04:00:00.000Z",
       "summary": "arXiv:2608.11210v1 Announce Type: new \nAbstract: Bayesian calibration of process-based models requires a prior distribution for each model parameter. Despite decades of methodological work, researchers almost always fall back on uniform priors. The main reason is that building informative priors fro",
       "tags": [
@@ -135,7 +135,7 @@
       "url": "https://arxiv.org/abs/2608.11211",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7933,
+      "score": 0.7665,
       "publishedAt": "2026-08-14T04:00:00.000Z",
       "summary": "arXiv:2608.11211v1 Announce Type: new \nAbstract: Conway's 99-graph problem asks whether a strongly regular graph with parameters $\\mathrm{srg}(99,14,1,2)$ exists. We report a systematic, fully reproducible attack by an autonomous AI research agent, scored under the track's partial-credit metric. Our",
       "tags": [
@@ -149,7 +149,7 @@
       "url": "https://arxiv.org/abs/2608.11212",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7933,
+      "score": 0.7665,
       "publishedAt": "2026-08-14T04:00:00.000Z",
       "summary": "arXiv:2608.11212v1 Announce Type: new \nAbstract: Top-k Mixture-of-Experts (MoE) routing is discontinuous, so a deployment-motivated numerical disturbance -- simulated 4-bit KV-cache quantization read by a protected BF16 gate -- pushes tokens across decision boundaries and flips which experts fire. T",
       "tags": [
@@ -162,7 +162,7 @@
       "url": "https://arxiv.org/abs/2608.11215",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7933,
+      "score": 0.7665,
       "publishedAt": "2026-08-14T04:00:00.000Z",
       "summary": "arXiv:2608.11215v1 Announce Type: new \nAbstract: Simulating societies of many large language model (LLM) agents is expensive, yet the questions asked of such simulations are usually macroscopic: phase behaviour, stylised facts, and scaling with the number of agents $N$, not the cognition of any sing",
       "tags": [
@@ -177,7 +177,7 @@
       "url": "https://arxiv.org/abs/2608.11216",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7933,
+      "score": 0.7665,
       "publishedAt": "2026-08-14T04:00:00.000Z",
       "summary": "arXiv:2608.11216v1 Announce Type: new \nAbstract: World modeling is an unsettled field: architectures, training objectives, and state representations interact in complex ways, and no single recipe dominates across environments. This makes it an ideal testbed for AI coding agents acting as autonomous",
       "tags": [
@@ -193,7 +193,7 @@
       "url": "https://arxiv.org/abs/2608.11218",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7933,
+      "score": 0.7665,
       "publishedAt": "2026-08-14T04:00:00.000Z",
       "summary": "arXiv:2608.11218v1 Announce Type: new \nAbstract: Independent agents that reason in latent space can share computed state as key-value cache fragments rather than text. Merged by a conflict-free replicated data type, these fragments form a store that converges under any delivery order or duplication.",
       "tags": [
@@ -208,7 +208,7 @@
       "url": "https://arxiv.org/abs/2608.11219",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7933,
+      "score": 0.7665,
       "publishedAt": "2026-08-14T04:00:00.000Z",
       "summary": "arXiv:2608.11219v1 Announce Type: new \nAbstract: Automatic Prompt Optimization (APO) often rewrites prompts monolithically, which can improve one behavior while degrading others. We present SAPO, a segment-level APO method that decomposes prompts into role, context, tasks, and output format, then ap",
       "tags": [
@@ -217,11 +217,25 @@
       "engagementScore": 0
     },
     {
+      "title": "CAKE: Compiler-Agent Co-Design for Frontier Kernel Evolution",
+      "url": "https://arxiv.org/abs/2608.12629",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.7634,
+      "publishedAt": "2026-08-14T19:20:09.000Z",
+      "summary": "GPU kernel agents and GPU programming languages have advanced separately, leaving expert kernels difficult to reproduce. Agents usually treat the compiler as a fixed black box and receive only errors, correctness outcomes, and timing, while existing DSLs either hide critical scheduling decisions or",
+      "tags": [
+        "Agents",
+        "Dev Tools"
+      ],
+      "engagementScore": 6
+    },
+    {
       "title": "The builder’s guide to GPT‑5.6",
       "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.786,
+      "score": 0.7572,
       "publishedAt": "2026-08-13T11:00:00.000Z",
       "summary": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
       "tags": [
@@ -237,7 +251,7 @@
       "url": "https://openai.com/index/previewing-ultrafast",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7788,
+      "score": 0.7499,
       "publishedAt": "2026-08-13T10:00:00.000Z",
       "summary": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
       "tags": [
@@ -251,7 +265,7 @@
       "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7715,
+      "score": 0.7427,
       "publishedAt": "2026-08-13T09:00:00.000Z",
       "summary": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
       "tags": [
@@ -264,7 +278,7 @@
       "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.719,
+      "score": 0.6921,
       "publishedAt": "2026-08-13T17:04:18.000Z",
       "summary": "Gemini 3.7 Flash is our most intelligent workhorse model yet for coding and agents.",
       "tags": [
@@ -275,25 +289,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Google is making private AI practical with homomorphic encryption",
-      "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/",
-      "feedSource": "Hacker News",
-      "source": "blog.google",
-      "score": 0.7101,
-      "publishedAt": "2026-08-14T15:43:10.000Z",
-      "summary": "Today we’re excited to showcase HEIR, the latest powerful tool added to our Private Computing Toolkit. HEIR is an open source compiler that unlocks cryptographically-sec…",
-      "tags": [
-        "Open Source",
-        "Dev Tools"
-      ],
-      "engagementScore": 189
-    },
-    {
       "title": "State of Open Models: Summer 2026 Observations",
       "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6594,
+      "score": 0.6344,
       "publishedAt": "2026-08-14T00:00:00.000Z",
       "summary": "",
       "tags": [
@@ -306,7 +306,7 @@
       "url": "https://www.technologyreview.com/2026/08/14/1142033/the-download-flock-new-rules-cloning-future/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6324,
+      "score": 0.6093,
       "publishedAt": "2026-08-14T12:17:21.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Flock is tightening its rules in response to a growing surveillance backlash The police-tech giant Flock is changing officers’ access to its nationwid",
       "tags": [
@@ -319,7 +319,7 @@
       "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6169,
+      "score": 0.5919,
       "publishedAt": "2026-08-13T17:16:04.000Z",
       "summary": "",
       "tags": [
@@ -334,7 +334,7 @@
       "url": "https://www.technologyreview.com/2026/08/14/1141354/deanne-taylor-gene-expression-children/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6132,
+      "score": 0.5901,
       "publishedAt": "2026-08-14T09:00:00.000Z",
       "summary": "In 2017, Deanne Taylor attended a presentation at the University of Pennsylvania, just a short walk from her office. A researcher was there to unveil the Human Cell Atlas, an ambitious project that aimed to map every cell in the human body. Taylor was floored, and then concerned. As details emerged,",
       "tags": [
@@ -347,7 +347,7 @@
       "url": "https://www.technologyreview.com/2026/08/14/1141431/job-titles-space-travel-agent-roman-chiporukha/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6132,
+      "score": 0.5901,
       "publishedAt": "2026-08-14T09:00:00.000Z",
       "summary": "Roman Chiporukha has long turned wild travel dreams into reality. Over two decades as co-owner of the luxury lifestyle firm Roman &#38; Erica, he has orchestrated everything from the construction of a client’s superyacht to vacations in the Bahamas at a location so private that guests must sign an N",
       "tags": [
@@ -361,9 +361,22 @@
       "url": "https://www.technologyreview.com/2026/08/14/1141919/cloning-save-species-or-make-human-organ-sacks/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6132,
+      "score": 0.5901,
       "publishedAt": "2026-08-14T09:00:00.000Z",
       "summary": "This week I spoke to scientists who have found a way to turn male mouse embryos female. They’ve developed a CRISPR-based approach to essentially cut out the Y chromosome. It allowed them to create female clones of male mice. That’s right: female animals that are genetically identical to males, excep",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "New York City Lawmakers Push to ‘Ban the Scan’ at MSG",
+      "url": "https://www.wired.com/story/new-york-city-lawmakers-push-to-ban-the-scan-at-msg/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.565,
+      "publishedAt": "2026-08-14T21:43:17.000Z",
+      "summary": "At a press conference outside Madison Square Garden, politicians, musicians, and privacy advocates argued for tighter restrictions on how public venues deploy biometric surveillance.",
       "tags": [
         "AI"
       ],
@@ -374,7 +387,7 @@
       "url": "https://www.wired.com/story/the-8-best-movies-to-stream-right-now/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5839,
+      "score": 0.5627,
       "publishedAt": "2026-08-14T21:18:21.000Z",
       "summary": "Avatar Aang, Heartstopper Forever, and Exit 8 are among the films deserving of your eyeballs this month.",
       "tags": [
@@ -387,7 +400,7 @@
       "url": "https://www.wired.com/story/unitree-influencer-4-foot-robot-from-china/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5822,
+      "score": 0.561,
       "publishedAt": "2026-08-14T20:59:03.000Z",
       "summary": "The Unitree G1 has found online fame as a relatively affordable robot that can charm a crowd. But can it ever hold down a real job?",
       "tags": [
@@ -400,7 +413,7 @@
       "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.5746,
+      "score": 0.5458,
       "publishedAt": "2026-08-12T06:00:00.000Z",
       "summary": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
       "tags": [
@@ -416,7 +429,7 @@
       "url": "https://www.theverge.com/podcast/980367/instagram-logo-new-zuckerberg-ai-vergecast",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5603,
+      "score": 0.5392,
       "publishedAt": "2026-08-14T16:54:16.000Z",
       "summary": "Instagram's wordmark is iconic. Well, was iconic. Apparently Instagram thought it looked old, so the company rolled out a new one this week. It doesn't look like the old Instagram wordmark. It doesn't even look like it spells Instagram anymore. And we cannot figure out why Instagram decided to do th",
       "tags": [
@@ -429,7 +442,7 @@
       "url": "https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.56,
+      "score": 0.5388,
       "publishedAt": "2026-08-14T16:49:56.000Z",
       "summary": "Google will now allow you to remove visible watermarks from the images, videos, and music made with AI tools. With the update, you can toggle off a new \"Media watermark\" setting in Gemini and Google's AI video generator, Flow. When toggled off, Google will remove the \"sparkle\" watermark that appears",
       "tags": [
@@ -444,7 +457,7 @@
       "url": "https://www.wired.com/story/tech-visionary-says-the-big-ai-labs-dont-get-what-people-want/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5502,
+      "score": 0.529,
       "publishedAt": "2026-08-14T15:00:00.000Z",
       "summary": "Tim O’Reilly built a publishing empire that AI is helping to destroy. Yet he loves AI—as long as it’s open source.",
       "tags": [
@@ -458,7 +471,7 @@
       "url": "https://www.technologyreview.com/2026/08/13/1141399/roundtables-inside-the-censorship-industrial-complex-idea-shaping-us-policy/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5432,
+      "score": 0.5201,
       "publishedAt": "2026-08-13T21:00:00.000Z",
       "summary": "Listen to the session or watch below The “censorship-industrial complex” is an idea that a network of government, tech, and research groups is collaborating to suppress conservative online speech. This was fodder for the right-wing information sphere for years—then it began making its way into US po",
       "tags": [
@@ -473,7 +486,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/979345/suno-studio-2-0-midi-chatbot-custom-effects",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5388,
+      "score": 0.5176,
       "publishedAt": "2026-08-14T12:52:01.000Z",
       "summary": "Suno is releasing Studio 2.0 with significant upgrades that push it closer to an actual digital audio workstation (DAW), rather than a bare-bones audio editor with generative AI features. The biggest addition is undoubtedly MIDI support. Suno says that MIDI was its most requested feature, and it's b",
       "tags": [
@@ -482,24 +495,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Putting sign language AI into users’ hands",
-      "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.535,
-      "publishedAt": "2026-08-12T14:01:59.000Z",
-      "summary": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Best Wireless Chargers (2026): My Picks After Testing 100+",
       "url": "https://www.wired.com/gallery/best-wireless-chargers/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5341,
+      "score": 0.513,
       "publishedAt": "2026-08-14T12:00:00.000Z",
       "summary": "Stop fumbling for cables in the dark. These WIRED-tested stands and pads will take the hassle out of refueling your phone, wireless earbuds, and watch.",
       "tags": [
@@ -508,110 +508,15 @@
       "engagementScore": 0
     },
     {
-      "title": "The 4 Best Planners of 2026: Roterunner, Hobonichi, Cloth &amp; Paper",
-      "url": "https://www.wired.com/story/best-paper-planners/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5317,
-      "publishedAt": "2026-08-14T11:33:00.000Z",
-      "summary": "If digital calendars are leaving you lacking, these WIRED-tested paper agendas and notebooks could change your life.",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "How RingCentral builds AI-native work from engineering to ops",
       "url": "https://openai.com/index/ringcentral",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.5308,
+      "score": 0.5124,
       "publishedAt": "2026-08-12T00:00:00.000Z",
       "summary": "See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations.",
       "tags": [
         "LLM",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "FTC Strikes Deals to Ignore Unlawful Credit Discrimination",
-      "url": "https://www.wired.com/story/ftc-strikes-deals-to-ignore-unlawful-credit-discrimination/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5288,
-      "publishedAt": "2026-08-14T11:00:00.000Z",
-      "summary": "The agency signed agreements to not enforce parts of three federal court orders against auto dealers accused of discrimination—and didn’t notify judges or at least one of its coplaintiffs.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "These ‘Masturbation Consultants’ Were Hired to Pleasure Themselves With AI",
-      "url": "https://www.wired.com/story/these-masturbation-consultants-were-hired-to-pleasure-themselves-using-ai/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5274,
-      "publishedAt": "2026-08-14T10:45:00.000Z",
-      "summary": "Joi AI hired 10 people to masturbate using AI companions as part of a monthlong “wellness” study. The company claims the practice could help “solve male loneliness.”",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Building a practical path to post-quantum cryptography",
-      "url": "https://www.technologyreview.com/2026/08/13/1141041/building-a-practical-path-to-post-quantum-cryptography/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.5268,
-      "publishedAt": "2026-08-13T18:11:42.000Z",
-      "summary": "Quantum computing has alternated between breakthrough darling and overhyped promise in technology circles. Its powerful new capabilities come with a threat to break current cryptography, but for business leaders navigating the noise, the signal should be clear: post-quantum cryptography (PQC) is a m",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Best Pixel 10 Cases and Accessories (2026): Mous, dbrand, Bellroy",
-      "url": "https://www.wired.com/gallery/best-pixel-10-cases-and-accessories/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5262,
-      "publishedAt": "2026-08-14T10:31:00.000Z",
-      "summary": "Protect your Pixel 10a, Pixel 10, or Pixel 10 Pro XL with a tried-and-true phone case, screen protector, and Qi2 charger.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Apple trained its own AI model for China with help from Alibaba",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5208,
-      "publishedAt": "2026-08-14T09:30:10.000Z",
-      "summary": "Apple has reportedly trained a custom AI model for the China market alongside domestic tech giant Alibaba, a rare cross-border partnership that cuts across growing tensions between Beijing and Washington. The China-focused large language model was developed in partnership with Alibaba and trained wi",
-      "tags": [
-        "LLM",
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Bring your spreadsheet data to life with Sheets canvas",
-      "url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/",
-      "feedSource": "Google AI",
-      "source": "blog.google",
-      "score": 0.5184,
-      "publishedAt": "2026-08-13T16:45:00.000Z",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Sheets_canvas-blog-header-2784x.max-600x600.format-webp.webp\"&gt;Sheets canvas turns data into interactive dashboards, custom study trackers, seating charts, and more, all with a simple prompt.",
-      "tags": [
-        "Research",
-        "RAG",
-        "Vision",
         "Dev Tools"
       ],
       "engagementScore": 0
@@ -656,11 +561,106 @@
       "engagementScore": 0
     },
     {
+      "title": "The 4 Best Planners of 2026: Roterunner, Hobonichi, Cloth &amp; Paper",
+      "url": "https://www.wired.com/story/best-paper-planners/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5106,
+      "publishedAt": "2026-08-14T11:33:00.000Z",
+      "summary": "If digital calendars are leaving you lacking, these WIRED-tested paper agendas and notebooks could change your life.",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Putting sign language AI into users’ hands",
+      "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+      "feedSource": "DeepMind",
+      "source": "deepmind.google",
+      "score": 0.5081,
+      "publishedAt": "2026-08-12T14:01:59.000Z",
+      "summary": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "FTC Strikes Deals to Ignore Unlawful Credit Discrimination",
+      "url": "https://www.wired.com/story/ftc-strikes-deals-to-ignore-unlawful-credit-discrimination/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5076,
+      "publishedAt": "2026-08-14T11:00:00.000Z",
+      "summary": "The agency signed agreements to not enforce parts of three federal court orders against auto dealers accused of discrimination—and didn’t notify judges or at least one of its coplaintiffs.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "These ‘Masturbation Consultants’ Were Hired to Pleasure Themselves With AI",
+      "url": "https://www.wired.com/story/these-masturbation-consultants-were-hired-to-pleasure-themselves-using-ai/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5063,
+      "publishedAt": "2026-08-14T10:45:00.000Z",
+      "summary": "Joi AI hired 10 people to masturbate using AI companions as part of a monthlong “wellness” study. The company claims the practice could help “solve male loneliness.”",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Building a practical path to post-quantum cryptography",
+      "url": "https://www.technologyreview.com/2026/08/13/1141041/building-a-practical-path-to-post-quantum-cryptography/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.5038,
+      "publishedAt": "2026-08-13T18:11:42.000Z",
+      "summary": "Quantum computing has alternated between breakthrough darling and overhyped promise in technology circles. Its powerful new capabilities come with a threat to break current cryptography, but for business leaders navigating the noise, the signal should be clear: post-quantum cryptography (PQC) is a m",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Apple trained its own AI model for China with help from Alibaba",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.4996,
+      "publishedAt": "2026-08-14T09:30:10.000Z",
+      "summary": "Apple has reportedly trained a custom AI model for the China market alongside domestic tech giant Alibaba, a rare cross-border partnership that cuts across growing tensions between Beijing and Washington. The China-focused large language model was developed in partnership with Alibaba and trained wi",
+      "tags": [
+        "LLM",
+        "ML Infra"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Bring your spreadsheet data to life with Sheets canvas",
+      "url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/",
+      "feedSource": "Google AI",
+      "source": "blog.google",
+      "score": 0.4953,
+      "publishedAt": "2026-08-13T16:45:00.000Z",
+      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Sheets_canvas-blog-header-2784x.max-600x600.format-webp.webp\"&gt;Sheets canvas turns data into interactive dashboards, custom study trackers, seating charts, and more, all with a simple prompt.",
+      "tags": [
+        "Research",
+        "RAG",
+        "Vision",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "What We Learned by Reproducing 2,200 papers from ICML",
       "url": "https://huggingface.co/blog/icml-2026-open-reproductions",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.5077,
+      "score": 0.4828,
       "publishedAt": "2026-08-13T00:00:00.000Z",
       "summary": "",
       "tags": [
@@ -673,7 +673,7 @@
       "url": "https://www.technologyreview.com/2026/08/13/1141904/flock-is-tightening-its-rules-in-response-to-a-growing-surveillance-backlash/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5005,
+      "score": 0.4775,
       "publishedAt": "2026-08-13T13:41:10.000Z",
       "summary": "The police-tech giant Flock is announcing today that it will change officers’ access to its nationwide network of license plate readers, in an apparent effort to quell a growing backlash and win back contracts lost amid concerns about mass surveillance and police abuse. Several changes aim directly",
       "tags": [
@@ -686,7 +686,7 @@
       "url": "https://www.technologyreview.com/2026/08/13/1141896/the-download-kids-thoughts-on-ai-female-clones-male-mice/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4916,
+      "score": 0.4686,
       "publishedAt": "2026-08-13T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. How kids feel about AI, in their own words —Jen Swetzoff and Keeley McNamara, the founding editors of Anyway, an independent print magazine for tweens",
       "tags": [
