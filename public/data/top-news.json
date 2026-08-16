@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T01:36:03.740Z",
+  "updatedAt": "2026-08-16T03:50:48.318Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,38 +8,55 @@
   ],
   "items": [
     {
-      "title": "OpenAI rolling out ads for Europe later this month",
-      "url": "https://openai.com/policies/eu-privacy-policy-preview/",
+      "title": "Patterns and problems in emerging multi-agent systems",
+      "url": "https://www.anthropic.com/research/multiagent-systems",
       "feedSource": "Hacker News",
-      "source": "openai.com",
-      "score": 0.8902,
-      "publishedAt": "2026-08-15T10:52:36.000Z",
-      "summary": "EU Privacy Policy at OpenAI",
+      "source": "anthropic.com",
+      "score": 0.9104,
+      "publishedAt": "2026-08-16T02:12:53.000Z",
+      "summary": "We ran experiments on swarms of Claude agents and found coordination failures, collusion, and sabotage. Here, we share what they mean for AI safety.",
       "tags": [
         "LLM",
+        "Agents",
         "Safety"
       ],
-      "engagementScore": 24
+      "engagementScore": 6
+    },
+    {
+      "title": "AI-Assisted GPU Porting of a 250k Line Legacy Weather Simulation Code",
+      "url": "https://arxiv.org/abs/2608.13122",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.8005,
+      "publishedAt": "2026-08-15T22:41:51.000Z",
+      "summary": "Recent advances in large language models have made CLI-based AI agents a practical tool for accelerating GPU porting of large legacy scientific applications. Such applications, however, are not merely old code bases; they are scientific assets whose credibility has been accumulated through long-term",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Research",
+        "Dev Tools"
+      ],
+      "engagementScore": 11
     },
     {
       "title": "Simplifying and Refactoring Introductory Calculus (2018)",
       "url": "https://arxiv.org/abs/1811.03459",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7897,
+      "score": 0.7759,
       "publishedAt": "2026-08-15T00:15:23.000Z",
       "summary": "First year calculus is often taught in a way that is very burdensome to the student. Students have to memorize a diversity of processes for essentially performing the same task. However, many calculus processes can be simplified and streamlined so that fewer concepts can provide more flexibility and",
       "tags": [
         "AI"
       ],
-      "engagementScore": 134
+      "engagementScore": 138
     },
     {
       "title": "Position: Reasoning is a Learnable Rule-Based Process",
       "url": "https://arxiv.org/abs/2608.12325",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7652,
+      "score": 0.7499,
       "publishedAt": "2026-08-15T04:00:00.000Z",
       "summary": "arXiv:2608.12325v1 Announce Type: new \nAbstract: Autonomous reasoning is among the most scientifically and economically motivating topics in AI today. Historically the purview of symbolic AI, recent advances have mainly emerged from deep probabilistic generative models. Despite immense interest and",
       "tags": [
@@ -53,7 +70,7 @@
       "url": "https://arxiv.org/abs/2608.12345",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7652,
+      "score": 0.7499,
       "publishedAt": "2026-08-15T04:00:00.000Z",
       "summary": "arXiv:2608.12345v1 Announce Type: new \nAbstract: Language models are increasingly deployed as co-scientists, yet their ability to uphold research integrity under institutional pressure remains unmeasured. We introduce IntegrityBench, a benchmark evaluating misconduct classification, ethical action r",
       "tags": [
@@ -68,7 +85,7 @@
       "url": "https://arxiv.org/abs/2608.12346",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7652,
+      "score": 0.7499,
       "publishedAt": "2026-08-15T04:00:00.000Z",
       "summary": "arXiv:2608.12346v1 Announce Type: new \nAbstract: This position paper argues that modern AI alignment methods - originally designed to prevent harmful output - are dual-use technologies that may easily be misused by malicious actors for censorship and manipulation. By mapping current alignment techni",
       "tags": [
@@ -83,7 +100,7 @@
       "url": "https://arxiv.org/abs/2608.12368",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7652,
+      "score": 0.7499,
       "publishedAt": "2026-08-15T04:00:00.000Z",
       "summary": "arXiv:2608.12368v1 Announce Type: new \nAbstract: Agreement with human judgments is a common proxy for evaluating the alignment of large language models (LLMs). Yet agreement in final labels does not show that human annotators and models rely on the same moral grounds. Two agents may reach the same j",
       "tags": [
@@ -99,7 +116,7 @@
       "url": "https://arxiv.org/abs/2608.12371",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7652,
+      "score": 0.7499,
       "publishedAt": "2026-08-15T04:00:00.000Z",
       "summary": "arXiv:2608.12371v1 Announce Type: new \nAbstract: Stream-processing systems increasingly operate across heterogeneous mobile edge--cloud infrastructures, where workload volatility, resource contention, and stringent quality-of-service (QoS) requirements complicate decentralized scheduling. This paper",
       "tags": [
@@ -114,7 +131,7 @@
       "url": "https://arxiv.org/abs/2608.12372",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7652,
+      "score": 0.7499,
       "publishedAt": "2026-08-15T04:00:00.000Z",
       "summary": "arXiv:2608.12372v1 Announce Type: new \nAbstract: AI systems are increasingly employed as decision aids, decision delegates, or autonomous decision-makers. This position paper argues that in many settings, particularly high-stakes decision-making, we need accurate cognitively-aligned AI systems that",
       "tags": [
@@ -129,7 +146,7 @@
       "url": "https://arxiv.org/abs/2608.12373",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7652,
+      "score": 0.7499,
       "publishedAt": "2026-08-15T04:00:00.000Z",
       "summary": "arXiv:2608.12373v1 Announce Type: new \nAbstract: Large language models are increasingly used in strategic and advisory contexts, yet their safety alignment is typically evaluated in English only. We test nine models from six providers and ask whether the language of a prompt can change a model's dec",
       "tags": [
@@ -144,7 +161,7 @@
       "url": "https://arxiv.org/abs/2608.12385",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7652,
+      "score": 0.7499,
       "publishedAt": "2026-08-15T04:00:00.000Z",
       "summary": "arXiv:2608.12385v1 Announce Type: new \nAbstract: As large language models serve more requests, cumulative inference cost is becoming increasingly important relative to one-time training cost. The two inference phases stress hardware differently: prompt prefill is parallel and typically compute-bound",
       "tags": [
@@ -160,7 +177,7 @@
       "url": "https://arxiv.org/abs/2608.11158",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7087,
+      "score": 0.6934,
       "publishedAt": "2026-08-14T19:41:42.000Z",
       "summary": "We establish new bounds on the Grothendieck constant $K_G$: \\[ \\frac{6π}{11} \\le K_G \\le \\fracπ{2\\log(1+\\sqrt2)} - 10^{-4}. \\] Methodologically, our lower bound approach differs from previous works by establishing limitations on the asymptotically optimal Krivine schemes, rather than giving explicit",
       "tags": [
@@ -173,7 +190,7 @@
       "url": "https://arxiv.org/abs/2608.12700",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.6858,
+      "score": 0.6705,
       "publishedAt": "2026-08-14T16:57:14.000Z",
       "summary": "Systems that generate GPU kernels with language models report high correctness rates. Those rates come from a single loose test: run the kernel on a few random inputs at one fixed shape and accept it if the output is close to a reference. A kernel can pass that test and still be silently wrong. It c",
       "tags": [
@@ -186,7 +203,7 @@
       "url": "https://community.openai.com/t/codex-in-chatgpt-desktop-app-for-linux-is-now-in-preview/1390027",
       "feedSource": "Hacker News",
       "source": "community.openai.com",
-      "score": 0.6576,
+      "score": 0.6412,
       "publishedAt": "2026-08-13T04:53:41.000Z",
       "summary": "Linux users, this one’s for you! 🐧 ChatGPT desktop app for Linux is now available in preview, bringing ChatGPT, Work, and Codex together in one native desktop experience. Currently supported: Ubuntu 24.04 LTS and 26.04 LTS Debian 13 Fedora 43 and 44 x64 and ARM64 architectures .deb and .rpm package",
       "tags": [
@@ -200,7 +217,7 @@
       "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/",
       "feedSource": "Hacker News",
       "source": "blog.google",
-      "score": 0.5865,
+      "score": 0.5734,
       "publishedAt": "2026-08-14T15:43:10.000Z",
       "summary": "Today we’re excited to showcase HEIR, the latest powerful tool added to our Private Computing Toolkit. HEIR is an open source compiler that unlocks cryptographically-sec…",
       "tags": [
@@ -214,7 +231,7 @@
       "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.5809,
+      "score": 0.5645,
       "publishedAt": "2026-08-13T11:00:00.000Z",
       "summary": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
       "tags": [
@@ -230,7 +247,7 @@
       "url": "https://openai.com/index/previewing-ultrafast",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.5736,
+      "score": 0.5572,
       "publishedAt": "2026-08-13T10:00:00.000Z",
       "summary": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
       "tags": [
@@ -244,7 +261,7 @@
       "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.5663,
+      "score": 0.55,
       "publishedAt": "2026-08-13T09:00:00.000Z",
       "summary": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
       "tags": [
@@ -257,7 +274,7 @@
       "url": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5587,
+      "score": 0.5467,
       "publishedAt": "2026-08-15T20:43:38.000Z",
       "summary": "Your AI Slop Bores Me is brilliant in its simplicity. There are two tabs: human and LARP as an AI. On one side you enter a request. On the other, you submit an answer. But the important thing is that there's a human on both sides of the equation. Prompts can request a response as [&#8230;]",
       "tags": [
@@ -270,28 +287,13 @@
       "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
       "feedSource": "Hacker News",
       "source": "davidepiffer.com",
-      "score": 0.5317,
+      "score": 0.5233,
       "publishedAt": "2026-08-15T18:13:02.000Z",
       "summary": "The key advantage may not be superior reasoning, but a virtually unlimited symbolic working memory.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 408
-    },
-    {
-      "title": "Introducing Gemini 3.7 Flash",
-      "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.5275,
-      "publishedAt": "2026-08-13T17:04:18.000Z",
-      "summary": "Gemini 3.7 Flash is our most intelligent workhorse model yet for coding and agents.",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
+      "engagementScore": 438
     },
     {
       "title": "From assistance to execution: How enterprises put AI to work",
@@ -363,11 +365,26 @@
       "engagementScore": 0
     },
     {
+      "title": "Introducing Gemini 3.7 Flash",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
+      "feedSource": "DeepMind",
+      "source": "deepmind.google",
+      "score": 0.5122,
+      "publishedAt": "2026-08-13T17:04:18.000Z",
+      "summary": "Gemini 3.7 Flash is our most intelligent workhorse model yet for coding and agents.",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Retrospec Joe Rev 2 Review (2026): Putting the ‘Joy’ in Joyride",
       "url": "https://www.wired.com/review/retrospec-joe-rev-2/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5067,
+      "score": 0.4947,
       "publishedAt": "2026-08-15T11:00:00.000Z",
       "summary": "This affordable electric BMX delighted my entire family, even if its range, ride comfort, and actual BMX abilities are limited.",
       "tags": [
@@ -380,7 +397,7 @@
       "url": "https://www.wired.com/story/this-beautifully-weird-necklace-is-secretly-a-usb-drive/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5067,
+      "score": 0.4947,
       "publishedAt": "2026-08-15T11:00:00.000Z",
       "summary": "Noware’s Puff necklace whimsically reimagines flash drives, turning something functional into personalized jewelry.",
       "tags": [
@@ -393,7 +410,7 @@
       "url": "https://www.wired.com/story/best-apple-watch-accessories/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.504,
+      "score": 0.492,
       "publishedAt": "2026-08-15T10:30:00.000Z",
       "summary": "These are the Apple Watch accessories I recommend adding to your setup.",
       "tags": [
@@ -406,7 +423,7 @@
       "url": "https://www.wired.com/story/instapaper-the-original-read-it-later-app-just-got-a-huge-upgrade/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.504,
+      "score": 0.492,
       "publishedAt": "2026-08-15T10:30:00.000Z",
       "summary": "New fonts, better customization, and a whole new layout all make it worth dusting off your Instapaper account.",
       "tags": [
@@ -419,7 +436,7 @@
       "url": "https://www.wired.com/review/auk-mini-2-indoor-smart-garden/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5014,
+      "score": 0.4894,
       "publishedAt": "2026-08-15T10:01:00.000Z",
       "summary": "Auk’s Mini 2 improves on the original model with better lights, a sleeker design, and fun new colors.",
       "tags": [
@@ -432,7 +449,7 @@
       "url": "https://www.wired.com/story/a-young-bodybuilders-rise-preceded-the-looksmaxxing-movement-his-legacy-feels-more-relevant-than-ever/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5013,
+      "score": 0.4893,
       "publishedAt": "2026-08-15T10:00:00.000Z",
       "summary": "A new Apple documentary explores the life of Aziz “Zyzz” Shavershian, who rocketed to internet fame in an age before influencers, then died at age 22 in 2011.",
       "tags": [
@@ -445,7 +462,7 @@
       "url": "https://www.wired.com/story/best-apple-watch-bands/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4989,
+      "score": 0.4869,
       "publishedAt": "2026-08-15T09:33:00.000Z",
       "summary": "We’ve been testing bands since the first Apple Watch launched in 2015. From silicone sports straps to leather bands, I’ve rounded up the best for every occasion.",
       "tags": [
@@ -458,7 +475,7 @@
       "url": "https://www.wired.com/story/puerto-rico-is-rationing-water-it-could-avoid-it-by-harvesting-rainwater/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4986,
+      "score": 0.4866,
       "publishedAt": "2026-08-15T09:30:00.000Z",
       "summary": "The island could capture billions of gallons of water a year if it implemented systems to catch it as it falls from the sky.",
       "tags": [
@@ -467,24 +484,11 @@
       "engagementScore": 0
     },
     {
-      "title": "A controversial Alzheimer's surgery is said to reverse symptoms",
-      "url": "https://www.nature.com/articles/d41586-026-02448-x",
-      "feedSource": "Hacker News",
-      "source": "nature.com",
-      "score": 0.4892,
-      "publishedAt": "2026-08-15T16:38:34.000Z",
-      "summary": "Jaw-dropping patient videos and miraculous testimonials ignited a frenzy in China over a technique that aims to improve drainage from the brain. Now it is entering trials worldwide.",
-      "tags": [
-        "Vision"
-      ],
-      "engagementScore": 156
-    },
-    {
       "title": "State of Open Models: Summer 2026 Observations",
       "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.4816,
+      "score": 0.4674,
       "publishedAt": "2026-08-14T00:00:00.000Z",
       "summary": "",
       "tags": [
@@ -497,7 +501,7 @@
       "url": "https://www.technologyreview.com/2026/08/14/1142033/the-download-flock-new-rules-cloning-future/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4683,
+      "score": 0.4551,
       "publishedAt": "2026-08-14T12:17:21.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Flock is tightening its rules in response to a growing surveillance backlash The police-tech giant Flock is changing officers’ access to its nationwid",
       "tags": [
@@ -510,7 +514,7 @@
       "url": "https://www.technologyreview.com/2026/08/14/1141354/deanne-taylor-gene-expression-children/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4491,
+      "score": 0.436,
       "publishedAt": "2026-08-14T09:00:00.000Z",
       "summary": "In 2017, Deanne Taylor attended a presentation at the University of Pennsylvania, just a short walk from her office. A researcher was there to unveil the Human Cell Atlas, an ambitious project that aimed to map every cell in the human body. Taylor was floored, and then concerned. As details emerged,",
       "tags": [
@@ -523,7 +527,7 @@
       "url": "https://www.technologyreview.com/2026/08/14/1141431/job-titles-space-travel-agent-roman-chiporukha/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4491,
+      "score": 0.436,
       "publishedAt": "2026-08-14T09:00:00.000Z",
       "summary": "Roman Chiporukha has long turned wild travel dreams into reality. Over two decades as co-owner of the luxury lifestyle firm Roman &#38; Erica, he has orchestrated everything from the construction of a client’s superyacht to vacations in the Bahamas at a location so private that guests must sign an N",
       "tags": [
@@ -537,7 +541,7 @@
       "url": "https://www.technologyreview.com/2026/08/14/1141919/cloning-save-species-or-make-human-organ-sacks/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4491,
+      "score": 0.436,
       "publishedAt": "2026-08-14T09:00:00.000Z",
       "summary": "This week I spoke to scientists who have found a way to turn male mouse embryos female. They’ve developed a CRISPR-based approach to essentially cut out the Y chromosome. It allowed them to create female clones of male mice. That’s right: female animals that are genetically identical to males, excep",
       "tags": [
@@ -550,7 +554,7 @@
       "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.4391,
+      "score": 0.4249,
       "publishedAt": "2026-08-13T17:16:04.000Z",
       "summary": "",
       "tags": [
@@ -658,7 +662,7 @@
       "url": "https://www.theverge.com/podcast/980367/instagram-logo-new-zuckerberg-ai-vergecast",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4099,
+      "score": 0.3979,
       "publishedAt": "2026-08-14T16:54:16.000Z",
       "summary": "Instagram's wordmark is iconic. Well, was iconic. Apparently Instagram thought it looked old, so the company rolled out a new one this week. It doesn't look like the old Instagram wordmark. It doesn't even look like it spells Instagram anymore. And we cannot figure out why Instagram decided to do th",
       "tags": [
@@ -671,7 +675,7 @@
       "url": "https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4095,
+      "score": 0.3975,
       "publishedAt": "2026-08-14T16:49:56.000Z",
       "summary": "Google will now allow you to remove visible watermarks from the images, videos, and music made with AI tools. With the update, you can toggle off a new \"Media watermark\" setting in Gemini and Google's AI video generator, Flow. When toggled off, Google will remove the \"sparkle\" watermark that appears",
       "tags": [
@@ -686,7 +690,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/979345/suno-studio-2-0-midi-chatbot-custom-effects",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.3883,
+      "score": 0.3763,
       "publishedAt": "2026-08-14T12:52:01.000Z",
       "summary": "Suno is releasing Studio 2.0 with significant upgrades that push it closer to an actual digital audio workstation (DAW), rather than a bare-bones audio editor with generative AI features. The biggest addition is undoubtedly MIDI support. Suno says that MIDI was its most requested feature, and it's b",
       "tags": [
