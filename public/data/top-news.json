@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T21:23:07.730Z",
+  "updatedAt": "2026-08-17T01:27:54.993Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,7 +12,7 @@
       "url": "https://www.anthropic.com/research/multiagent-systems",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.9662,
+      "score": 0.9371,
       "publishedAt": "2026-08-16T02:12:53.000Z",
       "summary": "We ran experiments on swarms of Claude agents and found coordination failures, collusion, and sabotage. Here, we share what they mean for AI safety.",
       "tags": [
@@ -20,14 +20,14 @@
         "Agents",
         "Safety"
       ],
-      "engagementScore": 177
+      "engagementScore": 179
     },
     {
       "title": "AI-Assisted GPU Porting of a 250k Line Legacy Weather Simulation Code",
       "url": "https://arxiv.org/abs/2608.13122",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7547,
+      "score": 0.7311,
       "publishedAt": "2026-08-15T22:41:51.000Z",
       "summary": "Recent advances in large language models have made CLI-based AI agents a practical tool for accelerating GPU porting of large legacy scientific applications. Such applications, however, are not merely old code bases; they are scientific assets whose credibility has been accumulated through long-term",
       "tags": [
@@ -36,20 +36,7 @@
         "Research",
         "Dev Tools"
       ],
-      "engagementScore": 47
-    },
-    {
-      "title": "Simplifying and Refactoring Introductory Calculus (2018)",
-      "url": "https://arxiv.org/abs/1811.03459",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.658,
-      "publishedAt": "2026-08-15T00:15:23.000Z",
-      "summary": "First year calculus is often taught in a way that is very burdensome to the student. Students have to memorize a diversity of processes for essentially performing the same task. However, many calculus processes can be simplified and streamlined so that fewer concepts can provide more flexibility and",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 142
+      "engagementScore": 51
     },
     {
       "title": "Codex in ChatGPT desktop app for Linux is now in preview",
@@ -66,37 +53,38 @@
       "engagementScore": 467
     },
     {
-      "title": "New Lower and Upper Bounds for the Grothendieck Constant",
-      "url": "https://arxiv.org/abs/2608.11158",
+      "title": "Simplifying and Refactoring Introductory Calculus (2018)",
+      "url": "https://arxiv.org/abs/1811.03459",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.574,
-      "publishedAt": "2026-08-14T19:41:42.000Z",
-      "summary": "We establish new bounds on the Grothendieck constant $K_G$: \\[ \\frac{6��}{11} \\le K_G \\le \\fracπ{2\\log(1+\\sqrt2)} - 10^{-4}. \\] Methodologically, our lower bound approach differs from previous works by establishing limitations on the asymptotically optimal Krivine schemes, rather than giving explici",
+      "score": 0.6302,
+      "publishedAt": "2026-08-15T00:15:23.000Z",
+      "summary": "First year calculus is often taught in a way that is very burdensome to the student. Students have to memorize a diversity of processes for essentially performing the same task. However, many calculus processes can be simplified and streamlined so that fewer concepts can provide more flexibility and",
       "tags": [
         "AI"
       ],
-      "engagementScore": 50
+      "engagementScore": 142
     },
     {
-      "title": "A Contract-Grade Verifier for LLM-Generated GPU Kernels",
-      "url": "https://arxiv.org/abs/2608.12700",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.5512,
-      "publishedAt": "2026-08-14T16:57:14.000Z",
-      "summary": "Systems that generate GPU kernels with language models report high correctness rates. Those rates come from a single loose test: run the kernel on a few random inputs at one fixed shape and accept it if the output is close to a reference. A kernel can pass that test and still be silently wrong. It c",
+      "title": "OpenAI reportedly disbanded its preparedness team",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5638,
+      "publishedAt": "2026-08-16T21:32:56.000Z",
+      "summary": "According to the Financial Times, OpenAI disbanded its preparedness team at the end of last month. The job of the preparedness team was to assess if models posed serious risks and develop ways to mitigate those risks. (You know, like the possibility that it could go rogue and hack another company.)",
       "tags": [
-        "LLM"
+        "LLM",
+        "Safety"
       ],
-      "engagementScore": 46
+      "engagementScore": 0
     },
     {
       "title": "ChatGPT’s Computer History tracks your clicks and keystrokes",
       "url": "https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5504,
+      "score": 0.5286,
       "publishedAt": "2026-08-16T14:57:57.000Z",
       "summary": "ChatGPT's desktop app on macOS has a new feature called Computer History that turns your actions into training data, learning how you work, suggesting automations, and even picking up tasks you left half done. It uses your activity to build a timeline that ChatGPT and Codex can reference when you ma",
       "tags": [
@@ -110,100 +98,9 @@
       "url": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5472,
+      "score": 0.5253,
       "publishedAt": "2026-08-16T14:21:27.000Z",
       "summary": "Your AI Slop Bores Me is brilliant in its simplicity. There are two tabs: human and LARP as an AI. On one side you enter a request. On the other, you submit an answer. But the important thing is that there's a human on both sides of the equation. Prompts can request a response as [&#8230;]",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Samsung Galaxy Z Fold8 and Galaxy Z Fold8 Ultra Review: The Right Shape",
-      "url": "https://www.wired.com/review/samsung-galaxy-z-fold8-and-z-fold8-ultra/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5292,
-      "publishedAt": "2026-08-16T11:00:00.000Z",
-      "summary": "Nearly a decade after its debut, Samsung’s Galaxy Fold finally comes into its own.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Astronomers Discover the Existence of a Black Hole Star",
-      "url": "https://www.wired.com/story/black-hole-stars-are-becoming-less-hypothetical/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5292,
-      "publishedAt": "2026-08-16T11:00:00.000Z",
-      "summary": "An object observed by the James Webb Space Telescope lends credence to a strange explanation for the mysterious red spots in the early universe.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Claude: System Prompts",
-      "url": "https://platform.claude.com/docs/en/release-notes/system-prompts",
-      "feedSource": "Hacker News",
-      "source": "platform.claude.com",
-      "score": 0.5287,
-      "publishedAt": "2026-08-16T12:48:21.000Z",
-      "summary": "See updates to the core system prompts on [claude.ai](https://claude.ai) and the [Claude iOS app](https://anthropic.com/ios) and [Claude Android app](https://anthropic.com/android).",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 442
-    },
-    {
-      "title": "It’s Never Too Early to Start Planning for the Next Two Solar Eclipses",
-      "url": "https://www.wired.com/story/its-never-too-early-to-start-planning-for-the-next-two-solar-eclipses/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5265,
-      "publishedAt": "2026-08-16T10:30:00.000Z",
-      "summary": "In 2027 and 2028, there will be two spectacular, long-duration solar eclipses. Here’s what you need to know about them.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Someone Finally Fixed Installing Apps on a Mac",
-      "url": "https://www.wired.com/story/easydmg-finally-fixed-installing-apps-on-a-mac/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5265,
-      "publishedAt": "2026-08-16T10:30:00.000Z",
-      "summary": "The installation utility EasyDMG makes it so you never drag and drop an icon again.",
-      "tags": [
-        "RAG"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "TerraMow V1000 Review: Show Your Lawn Some Love",
-      "url": "https://www.wired.com/review/terramow-v1000/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5265,
-      "publishedAt": "2026-08-16T10:30:00.000Z",
-      "summary": "With automatic mapping, Spot Mode functionality, and smart AI cameras, the TerraMow V1000 is the complete package.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Inside the Experimental Traps Scientists Set for Ghostly Neutrinos",
-      "url": "https://www.wired.com/story/inside-experimental-traps-scientists-set-for-neutrinos/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5239,
-      "publishedAt": "2026-08-16T10:00:00.000Z",
-      "summary": "Observatories have been built in mines, deep under the Antarctic ice sheet, and elsewhere in an effort to detect the fleeting particles.",
       "tags": [
         "AI"
       ],
@@ -214,26 +111,39 @@
       "url": "https://w4g1.dev/blog/models-are-getting-dumber-on-purpose",
       "feedSource": "Hacker News",
       "source": "w4g1.dev",
-      "score": 0.5218,
+      "score": 0.5207,
       "publishedAt": "2026-08-16T19:04:26.000Z",
       "summary": "Reasoning scores climb while per-token compute drops. Labs are stripping world knowledge out of models, and I think that’s the right trade.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 157
+      "engagementScore": 264
     },
     {
-      "title": "The Best Cat Water Fountains of 2026: Petlibro, Petkit, Oneisall",
-      "url": "https://www.wired.com/gallery/best-cat-water-fountains/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5215,
-      "publishedAt": "2026-08-16T09:33:00.000Z",
-      "summary": "Ensuring your cat stays hydrated is one of the best ways to keep your pet healthy. The right pet water fountain can help.",
+      "title": "Claude: System Prompts",
+      "url": "https://platform.claude.com/docs/en/release-notes/system-prompts",
+      "feedSource": "Hacker News",
+      "source": "platform.claude.com",
+      "score": 0.5159,
+      "publishedAt": "2026-08-16T12:48:21.000Z",
+      "summary": "See updates to the core system prompts on [claude.ai](https://claude.ai) and the [Claude iOS app](https://anthropic.com/ios) and [Claude Android app](https://anthropic.com/android).",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 536
+    },
+    {
+      "title": "Stripe Clinches over $7B Deal to Buy AI Firm OpenRouter",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion",
+      "feedSource": "Hacker News",
+      "source": "bloomberg.com",
+      "score": 0.5157,
+      "publishedAt": "2026-08-16T20:31:16.000Z",
+      "summary": "",
       "tags": [
         "AI"
       ],
-      "engagementScore": 0
+      "engagementScore": 189
     },
     {
       "title": "The builder’s guide to GPT‑5.6",
@@ -344,6 +254,112 @@
       "summary": "OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans.",
       "tags": [
         "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Anthropic's 'Watermark' Text Adulteration in Claude Is a Perversion of Writing",
+      "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
+      "feedSource": "Hacker News",
+      "source": "daringfireball.net",
+      "score": 0.5123,
+      "publishedAt": "2026-08-16T21:53:43.000Z",
+      "summary": "It’s unacceptable for a tool to sacrifice an iota of clarity, coherence, meaning, quality, etc. for the purpose of embedding hidden clues within the text to suggest its provenance. The idea that anything other than *my* needs should factor into the generation of text *for me* is patently offensive.",
+      "tags": [
+        "LLM",
+        "RAG",
+        "Dev Tools"
+      ],
+      "engagementScore": 143
+    },
+    {
+      "title": "Samsung Galaxy Z Fold8 and Galaxy Z Fold8 Ultra Review: The Right Shape",
+      "url": "https://www.wired.com/review/samsung-galaxy-z-fold8-and-z-fold8-ultra/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5074,
+      "publishedAt": "2026-08-16T11:00:00.000Z",
+      "summary": "Nearly a decade after its debut, Samsung’s Galaxy Fold finally comes into its own.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Astronomers Discover the Existence of a Black Hole Star",
+      "url": "https://www.wired.com/story/black-hole-stars-are-becoming-less-hypothetical/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5074,
+      "publishedAt": "2026-08-16T11:00:00.000Z",
+      "summary": "An object observed by the James Webb Space Telescope lends credence to a strange explanation for the mysterious red spots in the early universe.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "It’s Never Too Early to Start Planning for the Next Two Solar Eclipses",
+      "url": "https://www.wired.com/story/its-never-too-early-to-start-planning-for-the-next-two-solar-eclipses/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5047,
+      "publishedAt": "2026-08-16T10:30:00.000Z",
+      "summary": "In 2027 and 2028, there will be two spectacular, long-duration solar eclipses. Here’s what you need to know about them.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Someone Finally Fixed Installing Apps on a Mac",
+      "url": "https://www.wired.com/story/easydmg-finally-fixed-installing-apps-on-a-mac/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5047,
+      "publishedAt": "2026-08-16T10:30:00.000Z",
+      "summary": "The installation utility EasyDMG makes it so you never drag and drop an icon again.",
+      "tags": [
+        "RAG"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "TerraMow V1000 Review: Show Your Lawn Some Love",
+      "url": "https://www.wired.com/review/terramow-v1000/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5047,
+      "publishedAt": "2026-08-16T10:30:00.000Z",
+      "summary": "With automatic mapping, Spot Mode functionality, and smart AI cameras, the TerraMow V1000 is the complete package.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Inside the Experimental Traps Scientists Set for Ghostly Neutrinos",
+      "url": "https://www.wired.com/story/inside-experimental-traps-scientists-set-for-neutrinos/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.502,
+      "publishedAt": "2026-08-16T10:00:00.000Z",
+      "summary": "Observatories have been built in mines, deep under the Antarctic ice sheet, and elsewhere in an effort to detect the fleeting particles.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Best Cat Water Fountains of 2026: Petlibro, Petkit, Oneisall",
+      "url": "https://www.wired.com/gallery/best-cat-water-fountains/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4996,
+      "publishedAt": "2026-08-16T09:33:00.000Z",
+      "summary": "Ensuring your cat stays hydrated is one of the best ways to keep your pet healthy. The right pet water fountain can help.",
+      "tags": [
+        "AI"
       ],
       "engagementScore": 0
     },
@@ -460,7 +476,7 @@
       "url": "https://www.wired.com/review/retrospec-joe-rev-2/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4009,
+      "score": 0.3791,
       "publishedAt": "2026-08-15T11:00:00.000Z",
       "summary": "This affordable electric BMX delighted my entire family, even if its range, ride comfort, and actual BMX abilities are limited.",
       "tags": [
@@ -473,22 +489,9 @@
       "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.3566,
+      "score": 0.3401,
       "publishedAt": "2026-08-14T00:00:00.000Z",
       "summary": "",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Download: Flock&#8217;s new rules, cloning&#8217;s future, and children&#8217;s cells",
-      "url": "https://www.technologyreview.com/2026/08/14/1142033/the-download-flock-new-rules-cloning-future/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.3528,
-      "publishedAt": "2026-08-14T12:17:21.000Z",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Flock is tightening its rules in response to a growing surveillance backlash The police-tech giant Flock is changing officers’ access to its nationwid",
       "tags": [
         "AI"
       ],
@@ -588,11 +591,24 @@
       "engagementScore": 0
     },
     {
+      "title": "The Download: Flock&#8217;s new rules, cloning&#8217;s future, and children&#8217;s cells",
+      "url": "https://www.technologyreview.com/2026/08/14/1142033/the-download-flock-new-rules-cloning-future/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.329,
+      "publishedAt": "2026-08-14T12:17:21.000Z",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Flock is tightening its rules in response to a growing surveillance backlash The police-tech giant Flock is changing officers’ access to its nationwid",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "This scientist is helping build a missing map of childhood",
       "url": "https://www.technologyreview.com/2026/08/14/1141354/deanne-taylor-gene-expression-children/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.3337,
+      "score": 0.3099,
       "publishedAt": "2026-08-14T09:00:00.000Z",
       "summary": "In 2017, Deanne Taylor attended a presentation at the University of Pennsylvania, just a short walk from her office. A researcher was there to unveil the Human Cell Atlas, an ambitious project that aimed to map every cell in the human body. Taylor was floored, and then concerned. As details emerged,",
       "tags": [
@@ -605,7 +621,7 @@
       "url": "https://www.technologyreview.com/2026/08/14/1141431/job-titles-space-travel-agent-roman-chiporukha/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.3337,
+      "score": 0.3099,
       "publishedAt": "2026-08-14T09:00:00.000Z",
       "summary": "Roman Chiporukha has long turned wild travel dreams into reality. Over two decades as co-owner of the luxury lifestyle firm Roman &#38; Erica, he has orchestrated everything from the construction of a client’s superyacht to vacations in the Bahamas at a location so private that guests must sign an N",
       "tags": [
@@ -619,7 +635,7 @@
       "url": "https://www.technologyreview.com/2026/08/14/1141919/cloning-save-species-or-make-human-organ-sacks/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.3337,
+      "score": 0.3099,
       "publishedAt": "2026-08-14T09:00:00.000Z",
       "summary": "This week I spoke to scientists who have found a way to turn male mouse embryos female. They’ve developed a CRISPR-based approach to essentially cut out the Y chromosome. It allowed them to create female clones of male mice. That’s right: female animals that are genetically identical to males, excep",
       "tags": [
@@ -632,7 +648,7 @@
       "url": "https://www.theverge.com/podcast/980367/instagram-logo-new-zuckerberg-ai-vergecast",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.3041,
+      "score": 0.2823,
       "publishedAt": "2026-08-14T16:54:16.000Z",
       "summary": "Instagram's wordmark is iconic. Well, was iconic. Apparently Instagram thought it looked old, so the company rolled out a new one this week. It doesn't look like the old Instagram wordmark. It doesn't even look like it spells Instagram anymore. And we cannot figure out why Instagram decided to do th",
       "tags": [
@@ -645,7 +661,7 @@
       "url": "https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.3037,
+      "score": 0.2819,
       "publishedAt": "2026-08-14T16:49:56.000Z",
       "summary": "Google will now allow you to remove visible watermarks from the images, videos, and music made with AI tools. With the update, you can toggle off a new \"Media watermark\" setting in Gemini and Google's AI video generator, Flow. When toggled off, Google will remove the \"sparkle\" watermark that appears",
       "tags": [
@@ -660,26 +676,13 @@
       "url": "https://www.theverge.com/column/980337/rogue-ai-science-fiction-openai",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.2954,
+      "score": 0.2736,
       "publishedAt": "2026-08-14T15:16:22.000Z",
       "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on AI safety, follow Robert Hart. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started It all started in July, when one of OpenAI's autonomous",
       "tags": [
         "LLM",
         "Agents",
         "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Suno is trying to look more like a real music production tool",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/979345/suno-studio-2-0-midi-chatbot-custom-effects",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.2825,
-      "publishedAt": "2026-08-14T12:52:01.000Z",
-      "summary": "Suno is releasing Studio 2.0 with significant upgrades that push it closer to an actual digital audio workstation (DAW), rather than a bare-bones audio editor with generative AI features. The biggest addition is undoubtedly MIDI support. Suno says that MIDI was its most requested feature, and it's b",
-      "tags": [
-        "Dev Tools"
       ],
       "engagementScore": 0
     }
