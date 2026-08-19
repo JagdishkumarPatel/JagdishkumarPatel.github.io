@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T21:27:39.581Z",
+  "updatedAt": "2026-08-19T01:25:58.582Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,11 +8,25 @@
   ],
   "items": [
     {
+      "title": "Pacing model development in an era of cyber-critical capabilities",
+      "url": "https://openai.com/index/pacing-model-development-cyber-capabilities/",
+      "feedSource": "Hacker News",
+      "source": "openai.com",
+      "score": 1.0033,
+      "publishedAt": "2026-08-18T18:14:59.000Z",
+      "summary": "OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the pace of model development.",
+      "tags": [
+        "LLM",
+        "Safety"
+      ],
+      "engagementScore": 70
+    },
+    {
       "title": "Strengthening democratic oversight in national security",
       "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 1.0194,
+      "score": 0.9905,
       "publishedAt": "2026-08-18T19:00:00.000Z",
       "summary": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise.",
       "tags": [
@@ -22,24 +36,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Pacing model development in an era of cyber-critical capabilities",
-      "url": "https://openai.com/index/pacing-model-development-cyber-capabilities/",
-      "feedSource": "Hacker News",
-      "source": "openai.com",
-      "score": 1.0005,
-      "publishedAt": "2026-08-18T18:14:59.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 39
-    },
-    {
       "title": "Partnering with CodeAI to prepare the first AI generation",
       "url": "https://openai.com/index/partnering-with-codeai",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9611,
+      "score": 0.9321,
       "publishedAt": "2026-08-18T11:00:00.000Z",
       "summary": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly.",
       "tags": [
@@ -53,7 +54,7 @@
       "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9611,
+      "score": 0.9321,
       "publishedAt": "2026-08-18T11:00:00.000Z",
       "summary": "OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the pace of model development.",
       "tags": [
@@ -67,7 +68,7 @@
       "url": "https://openai.com/index/chatgpt-for-teens",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9611,
+      "score": 0.9321,
       "publishedAt": "2026-08-18T11:00:00.000Z",
       "summary": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents.",
       "tags": [
@@ -80,7 +81,7 @@
       "url": "https://openai.com/index/asana",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9319,
+      "score": 0.903,
       "publishedAt": "2026-08-18T07:00:00.000Z",
       "summary": "Asana used OpenAI Codex to replace an outdated testing system in two weeks, completing work expected to take five years for about $12K.",
       "tags": [
@@ -90,51 +91,54 @@
       "engagementScore": 0
     },
     {
-      "title": "OpenAI Partnering with CodeAI to prepare the first AI (human) generation",
-      "url": "https://openai.com/index/partnering-with-codeai/",
-      "feedSource": "Hacker News",
+      "title": "How NVIDIA scales expertise with ChatGPT Work",
+      "url": "https://openai.com/index/nvidia/chatgpt-work",
+      "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8779,
-      "publishedAt": "2026-08-18T18:24:03.000Z",
-      "summary": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly.",
+      "score": 0.8519,
+      "publishedAt": "2026-08-18T00:00:00.000Z",
+      "summary": "NVIDIA teams use ChatGPT Work to reduce manual tasks, connect fast-moving signals, and scale successful workflows globally.",
       "tags": [
-        "LLM",
-        "Dev Tools"
+        "LLM"
       ],
-      "engagementScore": 4
+      "engagementScore": 0
     },
     {
       "title": "Code-native generation of highly programmable 3D assets (2026)",
       "url": "https://arxiv.org/abs/2607.22738",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8563,
+      "score": 0.8353,
       "publishedAt": "2026-08-18T14:54:44.000Z",
-      "summary": "",
+      "summary": "Current 3D generative models mostly produce a final surface: a visually strong but largely opaque mesh. Interactive 3D worlds need more than a surface. They need named parts, an assembly hierarchy, measurable constraints, local edit handles, and joints for articulation. We present Nova3D, a system t",
       "tags": [
-        "Dev Tools"
+        "Vision",
+        "Dev Tools",
+        "ML Infra"
       ],
-      "engagementScore": 40
+      "engagementScore": 45
     },
     {
       "title": "GPU Offload in Rust: Portable, Safe, and Fast",
       "url": "https://arxiv.org/abs/2608.13759",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8036,
+      "score": 0.7768,
       "publishedAt": "2026-08-17T17:54:59.000Z",
-      "summary": "",
+      "summary": "High-performance GPU programming has traditionally forced a compromise between execution efficiency and memory safety. While Rust guarantees compile-time memory safety for host CPUs via its strict ownership model, applying these constraints to massively parallel GPU execution environments has previo",
       "tags": [
-        "AI"
+        "Safety",
+        "Dev Tools",
+        "ML Infra"
       ],
-      "engagementScore": 237
+      "engagementScore": 238
     },
     {
       "title": "FLOPs vs Real Work: The Importance of Replication in AI Efficiency Assessment",
       "url": "https://arxiv.org/abs/2608.14550",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7934,
+      "score": 0.7664,
       "publishedAt": "2026-08-18T04:00:00.000Z",
       "summary": "arXiv:2608.14550v1 Announce Type: new \nAbstract: AI efficiency has recently taken the spotlight in both academy and industry due to massive model scales, high energy demands, and environmental costs. While reporting Floating Point Operations (FLOPs) is a traditional approach for assessing computatio",
       "tags": [
@@ -147,7 +151,7 @@
       "url": "https://arxiv.org/abs/2608.14552",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7934,
+      "score": 0.7664,
       "publishedAt": "2026-08-18T04:00:00.000Z",
       "summary": "arXiv:2608.14552v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly evaluated and used in medicine, but clinical usefulness depends on answer accuracy and whether confidence tracks evidence quality and uncertainty. We developed a controlled, psychophysics-inspired clinical",
       "tags": [
@@ -161,7 +165,7 @@
       "url": "https://arxiv.org/abs/2608.14558",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7934,
+      "score": 0.7664,
       "publishedAt": "2026-08-18T04:00:00.000Z",
       "summary": "arXiv:2608.14558v1 Announce Type: new \nAbstract: Current multimodal models have demonstrated remarkable proficiency in recognizing static visual and auditory content. However, their capacity for abstract perceptual reasoning, inferring unseen information from dynamic, generative processes, remains a",
       "tags": [
@@ -176,7 +180,7 @@
       "url": "https://arxiv.org/abs/2608.14559",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7934,
+      "score": 0.7664,
       "publishedAt": "2026-08-18T04:00:00.000Z",
       "summary": "arXiv:2608.14559v1 Announce Type: new \nAbstract: Effective communication in multi-agent reinforcement learning requires agents to decide not only \\textit{what} to communicate, but when? Existing approaches either communicate at every timestep or learn a binary gate through REINFORCE policy gradients",
       "tags": [
@@ -191,7 +195,7 @@
       "url": "https://arxiv.org/abs/2608.14562",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7934,
+      "score": 0.7664,
       "publishedAt": "2026-08-18T04:00:00.000Z",
       "summary": "arXiv:2608.14562v1 Announce Type: new \nAbstract: AI governance is shifting from voluntary ethics to enforceable, risk-based regulation, yet cross-jurisdictional divergence creates compliance uncertainty for operators of high-stakes AI. We present a comparative matrix for the EU, US, and China that m",
       "tags": [
@@ -205,7 +209,7 @@
       "url": "https://arxiv.org/abs/2608.14565",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7934,
+      "score": 0.7664,
       "publishedAt": "2026-08-18T04:00:00.000Z",
       "summary": "arXiv:2608.14565v1 Announce Type: new \nAbstract: AI safety research has mainly focused on two areas: technical alignment (ensuring AI systems produce human-aligned outputs) and the regulation of generative AI's societal impacts (including unemployment risk and labor market disruption). However, an e",
       "tags": [
@@ -219,7 +223,7 @@
       "url": "https://arxiv.org/abs/2608.14566",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7934,
+      "score": 0.7664,
       "publishedAt": "2026-08-18T04:00:00.000Z",
       "summary": "arXiv:2608.14566v1 Announce Type: new \nAbstract: Recent work on evaluating the moral competence of large language models (LLMs) has focused primarily on what we call the moral value problem, i.e., whether model outputs align with human moral values. In contrast, the moral norm problem, i.e., whether",
       "tags": [
@@ -235,7 +239,7 @@
       "url": "https://arxiv.org/abs/2608.14567",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7934,
+      "score": 0.7664,
       "publishedAt": "2026-08-18T04:00:00.000Z",
       "summary": "arXiv:2608.14567v1 Announce Type: new \nAbstract: This paper presents a targeted narrative review establishing the historical and theoretical foundations for computational belief change implementation. Seeded by Doyle and London's foundational 1980 taxonomy, we trace the evolution of belief revision",
       "tags": [
@@ -249,7 +253,7 @@
       "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.7742,
+      "score": 0.7491,
       "publishedAt": "2026-08-18T18:09:38.000Z",
       "summary": "",
       "tags": [
@@ -262,7 +266,7 @@
       "url": "https://arxiv.org/abs/2608.16884",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7641,
+      "score": 0.737,
       "publishedAt": "2026-08-18T15:28:30.000Z",
       "summary": "The current best bounds on the matrix multiplication exponent $ω$ are obtained through a refinement of the laser method called combination loss analysis (Duan et al., 2022; Williams et al., 2024; Alman et al., 2025). In this note, we address the optimization problem at the core of this approach and",
       "tags": [
@@ -275,7 +279,7 @@
       "url": "https://openai.com/index/the-defenders-window",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.746,
+      "score": 0.717,
       "publishedAt": "2026-08-17T05:30:00.000Z",
       "summary": "AI is reshaping cybersecurity for attackers and defenders alike. Learn how OpenAI is strengthening its defenses and what security teams can do now.",
       "tags": [
@@ -289,7 +293,7 @@
       "url": "https://openai.com/index/openai-joins-ports-pike-project",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7423,
+      "score": 0.7134,
       "publishedAt": "2026-08-17T05:00:00.000Z",
       "summary": "OpenAI joins PORTS-Pike project, expanding community investment and supporting thousands of Southern Ohio jobs",
       "tags": [
@@ -299,25 +303,11 @@
       "engagementScore": 0
     },
     {
-      "title": "New policy ideas for the Intelligence Age",
-      "url": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.7296,
-      "publishedAt": "2026-08-17T03:15:00.000Z",
-      "summary": "OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelligence Age.",
-      "tags": [
-        "LLM",
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
       "url": "https://huggingface.co/blog/multi-vector-encoder",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6594,
+      "score": 0.6343,
       "publishedAt": "2026-08-18T00:00:00.000Z",
       "summary": "",
       "tags": [
@@ -326,24 +316,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
-      "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.6327,
-      "publishedAt": "2026-08-17T19:46:21.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "The Download: how people really use AI, and Flock&#8217;s design choices",
       "url": "https://www.technologyreview.com/2026/08/18/1142229/the-download-how-people-use-ai-flock-cameras-design/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6317,
+      "score": 0.6085,
       "publishedAt": "2026-08-18T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. We still don’t know how people are really using AI AI companies like Anthropic and OpenAI regularly publish reports on how people are using their prod",
       "tags": [
@@ -352,11 +329,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
+      "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.6076,
+      "publishedAt": "2026-08-17T19:46:21.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "We still don’t know how people are really using AI",
       "url": "https://www.technologyreview.com/2026/08/18/1142226/how-people-use-ai/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6197,
+      "score": 0.5965,
       "publishedAt": "2026-08-18T10:06:43.000Z",
       "summary": "AI companies like Anthropic and OpenAI regularly publish reports on how people are using products like Claude and ChatGPT, but they only release the data they want us to see, AI researchers say.&#160; “There is no independent source to corroborate it,” says Anka Reuel, a computer science PhD candida",
       "tags": [
@@ -370,7 +360,7 @@
       "url": "https://www.technologyreview.com/2026/08/18/1141614/book-review-astronaut-role-in-flux/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6132,
+      "score": 0.59,
       "publishedAt": "2026-08-18T09:00:00.000Z",
       "summary": "When the four astronauts on board NASA’s Artemis II swung around the moon earlier this year, they set a new record for the farthest humans have ever ventured from Earth, surpassing the distance set by Apollo 13 in 1972 by some 4,000 miles.&#160; While no space mission can live up to the historic tou",
       "tags": [
@@ -383,7 +373,7 @@
       "url": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6132,
+      "score": 0.59,
       "publishedAt": "2026-08-18T09:00:00.000Z",
       "summary": "The AI industry’s boldest promise right now is that AI will soon improve itself, with almost no need for human oversight. LLMs can already write code, generate synthetic data for training, and optimize the computer chips they run on. Forecasts of explosive AI progress predict that what researchers c",
       "tags": [
@@ -398,7 +388,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5839,
+      "score": 0.5626,
       "publishedAt": "2026-08-18T21:18:01.000Z",
       "summary": "According to the Financial Times, OpenAI disbanded its preparedness team at the end of last month. The job of the preparedness team was to assess if models posed serious risks and develop ways to mitigate those risks. (You know, like the possibility that it could go rogue and hack another company.)",
       "tags": [
@@ -408,11 +398,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Squeeze More Juice Out of a Dead Battery!",
+      "title": "Squeeze More Juice Out of Your Dead Batteries—Using Physics",
       "url": "https://www.wired.com/story/squeeze-more-juice-out-of-a-dead-battery/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5779,
+      "score": 0.5567,
       "publishedAt": "2026-08-18T20:11:03.000Z",
       "summary": "How the joule thief circuit “steals” energy from seemingly depleted power cells.",
       "tags": [
@@ -425,7 +415,7 @@
       "url": "https://www.theverge.com/entertainment/981644/robin-williams-instagram-account-ai",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5759,
+      "score": 0.5547,
       "publishedAt": "2026-08-18T19:48:26.000Z",
       "summary": "Robin Williams' children are taking over their father's Instagram account after his daughter spoke out against the use of his AI likeness, as reported earlier by The Wrap. In a post on Tuesday, Zak, Zelda, and Cody Williams write that they want the late actor's Instagram profile to be a \"safe, trust",
       "tags": [
@@ -434,27 +424,11 @@
       "engagementScore": 0
     },
     {
-      "title": "OpenAI lays out new security changes after its AI hacked Hugging Face",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5741,
-      "publishedAt": "2026-08-18T19:28:30.000Z",
-      "summary": "OpenAI is announcing security updates following the July news that its AI broke out of a sandboxed environment and accidentally hacked Hugging Face, including improvements to its research environments, monitoring, and alignment techniques. The company had already put the brakes on a new model, Astra",
-      "tags": [
-        "LLM",
-        "Research",
-        "Open Source",
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Garmin Watches Are Up to $250 Off Right Now On Amazon (2026)",
       "url": "https://www.wired.com/story/garmin-deals-august-2026/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.57,
+      "score": 0.5488,
       "publishedAt": "2026-08-18T18:42:17.000Z",
       "summary": "Save $250 off the Garmin Fenix 8, plus discounts on other popular fitness trackers from the brand.",
       "tags": [
@@ -467,7 +441,7 @@
       "url": "https://www.wired.com/story/openai-overhauls-safety-protocols-after-its-ai-agents-went-rogue/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5692,
+      "score": 0.548,
       "publishedAt": "2026-08-18T18:33:11.000Z",
       "summary": "The ChatGPT maker says its upcoming Astra model may have reached “critical” cyber capabilities, prompting it to halt a significant number of training runs while it tightens internal safeguards.",
       "tags": [
@@ -479,11 +453,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Why your Amazon order confirmation emails have become so unhelpful",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/977733/amazon-order-emails-google-gmail-ai-agents-data",
+      "feedSource": "Hacker News",
+      "source": "theverge.com",
+      "score": 0.5477,
+      "publishedAt": "2026-08-18T16:54:42.000Z",
+      "summary": "Why you’re getting emails about “Your Beauty and Electronics items”",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 62
+    },
+    {
       "title": "Google&#8217;s Pet Memory forgot who my cats are",
       "url": "https://www.theverge.com/tech/981269/google-home-gemini-pet-memory-nest-camera-review",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5663,
+      "score": 0.5451,
       "publishedAt": "2026-08-18T18:00:52.000Z",
       "summary": "One of the best things my smart home does is help me care for my pets, and security cameras are particularly useful for keeping track of my many critters. But the barrage of notifications they send often means I miss important ones. So, when Google announced its new Pet Memory feature for Gemini for",
       "tags": [
@@ -493,24 +480,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Why your Amazon order confirmation emails have become so unhelpful",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/977733/amazon-order-emails-google-gmail-ai-agents-data",
-      "feedSource": "Hacker News",
-      "source": "theverge.com",
-      "score": 0.5656,
-      "publishedAt": "2026-08-18T16:54:42.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 57
-    },
-    {
       "title": "Viral Disneyland Content Creator Defends Her ‘Special Friendship’ With Peter Pan",
       "url": "https://www.wired.com/story/viral-disneyland-content-creator-defends-her-special-friendship-with-peter-pan/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5547,
+      "score": 0.5335,
       "publishedAt": "2026-08-18T15:50:29.000Z",
       "summary": "Disney superfan Toni Kulusich has been accused of stalking her favorite character, sparking discourse about boundaries with park actors. She tells WIRED the backlash is unfair.",
       "tags": [
@@ -523,7 +497,7 @@
       "url": "https://www.theverge.com/transportation/981194/faa-air-traffic-elon-musk-peter-thiel-palantir",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5542,
+      "score": 0.5329,
       "publishedAt": "2026-08-18T15:44:25.000Z",
       "summary": "On August 6th, the Minneapolis Air Route Traffic Control Center lost radar and communications for around two hours. The outage disrupted more than 1,100 flights across the center's 330,000 square mile, nine-state airspace sector. Two days earlier, on August 4th, President Donald Trump departed the W",
       "tags": [
@@ -536,7 +510,7 @@
       "url": "https://www.wired.com/story/meta-ran-ads-for-an-app-promising-to-nudify-female-politicians/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5489,
+      "score": 0.5277,
       "publishedAt": "2026-08-18T14:45:33.000Z",
       "summary": "One advertisement featured a pornographic video with a deepfake closely resembling a prominent US politician. Apple removed the app from the App Store after an inquiry from WIRED.",
       "tags": [
@@ -549,7 +523,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/981283/mozilla-firefox-smart-window-ai-features",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5411,
+      "score": 0.5198,
       "publishedAt": "2026-08-18T13:17:45.000Z",
       "summary": "Starting today, AI chats in Firefox's Smart Window AI browsing mode can pull from current web info and show source links in chat responses through a partnership with Exa. Smart Window can also now automatically suggest tab groups and show visual previews of pages you previously visited when you sear",
       "tags": [
@@ -562,7 +536,7 @@
       "url": "https://www.wired.com/story/the-upcoming-expanse-game-has-to-make-some-hard-choices/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5395,
+      "score": 0.5183,
       "publishedAt": "2026-08-18T13:00:00.000Z",
       "summary": "The universe may never tell you if your choices mattered. Owlcat’s Osiris Reborn might not either.",
       "tags": [
@@ -571,24 +545,50 @@
       "engagementScore": 0
     },
     {
-      "title": "What Flock’s defenders are missing",
-      "url": "https://www.technologyreview.com/2026/08/17/1142200/what-flocks-defenders-are-missing/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.5331,
-      "publishedAt": "2026-08-17T19:16:09.000Z",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. Flock, the police-tech giant known for its network of some 120,000 automatic license plate readers around the US, announced some changes to its platform last",
+      "title": "Field measurements of neighborhood-scale air temperature impacts of data centers",
+      "url": "https://asmedigitalcollection.asme.org/sustainablebuildings/article/7/2/024501/1233035/Data-Center-Waste-Heat-as-an-Emerging-Urban",
+      "feedSource": "Hacker News",
+      "source": "asmedigitalcollection.asme.org",
+      "score": 0.5156,
+      "publishedAt": "2026-08-18T17:24:53.000Z",
+      "summary": "",
       "tags": [
         "AI"
       ],
-      "engagementScore": 0
+      "engagementScore": 285
+    },
+    {
+      "title": "Norway should buy OpenAI",
+      "url": "https://www.onethousandmeans.com/p/norway-should-buy-openai",
+      "feedSource": "Hacker News",
+      "source": "onethousandmeans.com",
+      "score": 0.514,
+      "publishedAt": "2026-08-18T19:30:29.000Z",
+      "summary": "The Long Arc of History Bends Towards Social Democracy",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 206
+    },
+    {
+      "title": "How does IKEA come up with names for its products?",
+      "url": "https://www.ikea.com/se/en/customer-service/knowledge/articles/6f564c4d-2ccc-46de-b643-545a3948dc79.html",
+      "feedSource": "Hacker News",
+      "source": "ikea.com",
+      "score": 0.5104,
+      "publishedAt": "2026-08-18T18:11:53.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 222
     },
     {
       "title": "ChatGPT is getting a dedicated mode for teens",
       "url": "https://www.theverge.com/ai-artificial-intelligence/981333/openai-chatgpt-teen-mode",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5315,
+      "score": 0.5102,
       "publishedAt": "2026-08-18T11:29:53.000Z",
       "summary": "OpenAI is introducing a dedicated ChatGPT mode for teenagers, combining existing youth safeguards and new safety features under one roof. The launch comes amid mounting public scrutiny over how AI tools affect younger users, as other platforms implement their own age checks and teen-specific protect",
       "tags": [
@@ -599,24 +599,24 @@
       "engagementScore": 0
     },
     {
-      "title": "Data centers raise nearby temperatures by up to 4 degrees in Phoenix",
-      "url": "https://asmedigitalcollection.asme.org/sustainablebuildings/article/7/2/024501/1233035/Data-Center-Waste-Heat-as-an-Emerging-Urban",
-      "feedSource": "Hacker News",
-      "source": "asmedigitalcollection.asme.org",
-      "score": 0.5307,
-      "publishedAt": "2026-08-18T17:24:53.000Z",
-      "summary": "",
+      "title": "What Flock’s defenders are missing",
+      "url": "https://www.technologyreview.com/2026/08/17/1142200/what-flocks-defenders-are-missing/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.5099,
+      "publishedAt": "2026-08-17T19:16:09.000Z",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. Flock, the police-tech giant known for its network of some 120,000 automatic license plate readers around the US, announced some changes to its platform last",
       "tags": [
         "AI"
       ],
-      "engagementScore": 254
+      "engagementScore": 0
     },
     {
       "title": "I Put the Best Digital Notebooks to the Test. Here Are My Favorites (2026)",
       "url": "https://www.wired.com/gallery/best-smart-notebooks-and-smart-pens/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5295,
+      "score": 0.5083,
       "publishedAt": "2026-08-18T11:08:00.000Z",
       "summary": "These nifty tools combine the ease of jotting notes by hand with the power of saving them digitally.",
       "tags": [
@@ -625,27 +625,13 @@
       "engagementScore": 0
     },
     {
-      "title": "Claude Code May–August 2026 weekly limits promotion",
-      "url": "https://support.claude.com/en/articles/15910845-claude-code-may-august-2026-weekly-limits-promotion",
-      "feedSource": "Hacker News",
-      "source": "support.claude.com",
-      "score": 0.5267,
-      "publishedAt": "2026-08-18T17:02:15.000Z",
-      "summary": "We’re offering a limited-time promotion that increases weekly usage limits in Claude Code by 50%.",
-      "tags": [
-        "LLM",
-        "Dev Tools"
-      ],
-      "engagementScore": 239
-    },
-    {
-      "title": "Can AI Coexist With Privacy? Proton’s Andy Yen Says It Will Have To",
-      "url": "https://www.wired.com/story/the-big-interview-podcast-andy-yen-proton/",
+      "title": "Exclusive: You Can Finally Buy a Fairphone—a Sustainable, Repairable Smartphone—in the US",
+      "url": "https://www.wired.com/story/you-can-finally-buy-a-fairphone-a-sustainable-repairable-smartphone-in-the-us/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5261,
+      "score": 0.5049,
       "publishedAt": "2026-08-18T10:30:00.000Z",
-      "summary": "Proton’s CEO is a champion of encryption for everyone. So why is he going all in on un-encryptable AI?",
+      "summary": "More than a decade after launching in Europe, the Netherlands company is now selling its repairable phones in the US, starting with the Fairphone (Gen 6+).",
       "tags": [
         "AI"
       ],
@@ -656,7 +642,7 @@
       "url": "https://www.theverge.com/tech/978323/whisker-litter-robot-5-pro-review",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5183,
+      "score": 0.4971,
       "publishedAt": "2026-08-18T09:02:05.000Z",
       "summary": "The greatest invention in pet tech in recent years is the litter robot. A machine that scoops your kitties' poop so you don't have to - what else could a cat owner possibly want? How about insights into your kitty's litter box usage that could flag health issues? Sign me up. But I have two [&#8230;]",
       "tags": [
@@ -665,11 +651,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Apple&#8217;s camera-equipped AirPods appear in leaked video",
+      "url": "https://www.theverge.com/tech/981326/apple-airpods-with-cameras-demo-video-leak",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.4969,
+      "publishedAt": "2026-08-18T09:00:01.000Z",
+      "summary": "We may have our first glimpse of Apple's rumored camera-equipped AirPods, thanks to a video that MacRumors found in the macOS Tahoe 26.7 Release Candidate. The short video clip features a man - who is wearing the new AirPods - holding up a book with the cover displayed, so that Visual Intelligence c",
+      "tags": [
+        "Vision"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "The Download: dead robot friends and the &#8220;censorship-industrial complex&#8221;",
       "url": "https://www.technologyreview.com/2026/08/17/1142175/the-download-dead-robot-friends-censorship-industrial-complex/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4917,
+      "score": 0.4685,
       "publishedAt": "2026-08-17T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. What happens when a kid’s robot best friend dies? When Xander first met Moxie, she taught him how to calm down when he was anxious or mad. Six years l",
       "tags": [
@@ -682,7 +681,7 @@
       "url": "https://www.technologyreview.com/2026/08/17/1141560/how-much-hydrogen-awaits-underground/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4732,
+      "score": 0.45,
       "publishedAt": "2026-08-17T09:00:00.000Z",
       "summary": "In the 1990s, Barbara Sherwood Lollar descended into the Kidd Creek mine in northern Ontario, which cuts more than three kilometers into the ancient root of North America. There her team of geochemists found water that had been confined underground for more than a billion years. This ancient brine t",
       "tags": [
