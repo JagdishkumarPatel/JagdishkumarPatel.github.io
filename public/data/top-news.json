@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T18:34:05.563Z",
+  "updatedAt": "2026-08-23T21:24:40.212Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,30 +8,34 @@
   ],
   "items": [
     {
-      "title": "The crisis of AI-generated mathematics",
-      "url": "https://arxiv.org/abs/2608.02859",
+      "title": "Decoding silent reading from non-invasive EEG",
+      "url": "https://arxiv.org/abs/2608.20186",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.6799,
-      "publishedAt": "2026-08-22T22:04:49.000Z",
-      "summary": "In this essay, I present the case for total opposition to the use of artificial intelligence in mathematics. I offer proposals for how individuals, departments, journals, and institutions can act in concert to make sure that mathematics survives the coming crisis.",
+      "score": 0.7967,
+      "publishedAt": "2026-08-23T20:13:34.000Z",
+      "summary": "Non-invasive decoding of inner speech faces a fundamental data problem: a corpus pairing brain activity with a person’s spontaneous inner monologue cannot be collected, and the available proxy paradigms (cued repetitive and retrospectively reported generative inner speech) are slow to acquire, poorl",
       "tags": [
-        "AI"
+        "Dev Tools",
+        "Industry"
       ],
-      "engagementScore": 8
+      "engagementScore": 6
     },
     {
-      "title": "Radiation damage to Hubble has been 4.3 years out of phase with the Solar cycle",
-      "url": "https://arxiv.org/abs/2608.18214",
+      "title": "Multi-Agent Debate Strategies: Survey, Taxonomy, and Challenges",
+      "url": "https://arxiv.org/abs/2607.26212",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.5916,
-      "publishedAt": "2026-08-21T13:35:17.000Z",
-      "summary": "As well as obtaining beautiful images of the Universe, the Hubble Space Telescope’s CCD detectors are sensitive radiation dosimeters that have been monitored in Low Earth Orbit for more than 24 years. The rate of radiation damage they received has varied over each Solar cycle, but several years out",
+      "score": 0.7363,
+      "publishedAt": "2026-08-23T16:30:44.000Z",
+      "summary": "Multi-Agent Debate (MAD) is a promising paradigm for improving the accuracy and robustness of Large Language Model (LLM)-based agentic systems. It enables multiple agents to exchange arguments, critique each other’s outputs, and iteratively converge towards a solution. However, research remains frag",
       "tags": [
-        "Vision"
+        "LLM",
+        "Agents",
+        "Research",
+        "RAG"
       ],
-      "engagementScore": 110
+      "engagementScore": 3
     },
     {
       "title": "Pacing model development in an era of cyber-critical capabilities",
@@ -48,11 +52,37 @@
       "engagementScore": 168
     },
     {
+      "title": "Radiation damage to Hubble has been 4.3 years out of phase with the Solar cycle",
+      "url": "https://arxiv.org/abs/2608.18214",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.5723,
+      "publishedAt": "2026-08-21T13:35:17.000Z",
+      "summary": "As well as obtaining beautiful images of the Universe, the Hubble Space Telescope’s CCD detectors are sensitive radiation dosimeters that have been monitored in Low Earth Orbit for more than 24 years. The rate of radiation damage they received has varied over each Solar cycle, but several years out",
+      "tags": [
+        "Vision"
+      ],
+      "engagementScore": 110
+    },
+    {
+      "title": "I spent $266 and four AI models to own my tablet. GLM-5.3 finished it in a day",
+      "url": "https://ericpardee.github.io/fire-hd-ownership/",
+      "feedSource": "Hacker News",
+      "source": "ericpardee.github.io",
+      "score": 0.5445,
+      "publishedAt": "2026-08-23T14:23:09.000Z",
+      "summary": "Owning a tablet Amazon kept shutting down: CVE-2022-38181, four AI models, five months",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 554
+    },
+    {
       "title": "Asus ROG Swift RGB Stripe OLED Review: Clarity King",
       "url": "https://www.wired.com/review/asus-rog-swift-rgb-stripe-oled-pg27ucwm/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.555,
+      "score": 0.5398,
       "publishedAt": "2026-08-23T13:00:00.000Z",
       "summary": "The Asus PG27UCWM brings a new sub-pixel layout to the world of OLED gaming monitors, and in my testing, I appreciated the improvements it brings to the table.",
       "tags": [
@@ -65,7 +95,7 @@
       "url": "https://www.wired.com/gallery/best-kindle/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5445,
+      "score": 0.5293,
       "publishedAt": "2026-08-23T11:03:00.000Z",
       "summary": "I’ve tested every single Kindle. Here’s how Amazon’s ebook readers stack up.",
       "tags": [
@@ -78,7 +108,7 @@
       "url": "https://www.wired.com/story/transistors-changed-everything-heres-how-they-work/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5443,
+      "score": 0.5291,
       "publishedAt": "2026-08-23T11:00:00.000Z",
       "summary": "How a tiny little electronic switch sparked the computer revolution.",
       "tags": [
@@ -91,7 +121,7 @@
       "url": "https://www.wired.com/gallery/best-laptop-docking-stations/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5422,
+      "score": 0.527,
       "publishedAt": "2026-08-23T10:37:00.000Z",
       "summary": "Docking stations expand what your laptop can do, and I’ve been testing the best of the best to see which you should buy.",
       "tags": [
@@ -104,7 +134,7 @@
       "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.5408,
+      "score": 0.5215,
       "publishedAt": "2026-08-21T11:59:48.000Z",
       "summary": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay.",
       "tags": [
@@ -113,24 +143,11 @@
       "engagementScore": 0
     },
     {
-      "title": "I spent $266 and four AI models to own my tablet. GLM-5.3 finished it in a day",
-      "url": "https://ericpardee.github.io/fire-hd-ownership/",
-      "feedSource": "Hacker News",
-      "source": "ericpardee.github.io",
-      "score": 0.5397,
-      "publishedAt": "2026-08-23T14:23:09.000Z",
-      "summary": "Owning a tablet Amazon kept shutting down: CVE-2022-38181, four AI models, five months",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 331
-    },
-    {
       "title": "7 Basic iPhone Tricks I Built With iOS 27’s Revamped Shortcuts App",
       "url": "https://www.wired.com/story/7-basic-iphone-tricks-i-built-with-ios-27s-revamped-shortcuts-app/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5363,
+      "score": 0.5211,
       "publishedAt": "2026-08-23T09:30:00.000Z",
       "summary": "From halting my doomscrolls to automating air-quality checks, Apple’s streamlined Shortcuts app is my favorite iOS 27 feature.",
       "tags": [
@@ -143,28 +160,13 @@
       "url": "https://www.wired.com/story/is-expensive-bottled-water-actually-better-for-you/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5336,
+      "score": 0.5184,
       "publishedAt": "2026-08-23T09:00:00.000Z",
       "summary": "Luxury water can contain different minerals and taste noticeably different. But a remote source, alkaline pH, and high price do not necessarily mean better hydration.",
       "tags": [
         "AI"
       ],
       "engagementScore": 0
-    },
-    {
-      "title": "GLM-5.3 (open-weight) beat Anthropic/OpenAI models – for 1/5 the cost",
-      "url": "https://reinvently.co.uk/tools/ed-o-meter/",
-      "feedSource": "Hacker News",
-      "source": "reinvently.co.uk",
-      "score": 0.5278,
-      "publishedAt": "2026-08-23T16:24:21.000Z",
-      "summary": "Seventeen models on the Featherbench leaderboard: glm-5.3 leads at 100%, eight tie at 96%, and checker errors flip the safety ranking. See who tops the board.",
-      "tags": [
-        "LLM",
-        "Safety",
-        "ML Infra"
-      ],
-      "engagementScore": 182
     },
     {
       "title": "Stop Anthropomorphizing Intermediate Tokens as Reasoning/Thinking Traces (2025)",
@@ -290,43 +292,30 @@
       "engagementScore": 0
     },
     {
-      "title": "I gave Qwen 3.8 27B a reverse-engineering job and it finished in 30 minutes",
-      "url": "https://www.xda-developers.com/qwen-3-8-27b-reverse-engineering-job-frontier-model/",
-      "feedSource": "Hacker News",
-      "source": "xda-developers.com",
-      "score": 0.5075,
-      "publishedAt": "2026-08-23T10:02:51.000Z",
-      "summary": "Qwen 3.8 27B genuinely shocked me with what it achieved here.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 244
-    },
-    {
       "title": "How Complex Systems Fail (1998)",
       "url": "https://how.complexsystems.fail/",
       "feedSource": "Hacker News",
       "source": "how.complexsystems.fail",
-      "score": 0.5061,
+      "score": 0.5066,
       "publishedAt": "2026-08-23T15:13:31.000Z",
       "summary": "All of the interesting systems (e.g. transportation, healthcare, power generation) are inherently and unavoidably hazardous by the own nature. The frequency of hazard exposure can sometimes be changed but the processes involved in the system are themselves intrinsically and irreducibly hazardous. It",
       "tags": [
         "AI"
       ],
-      "engagementScore": 117
+      "engagementScore": 174
     },
     {
-      "title": "Saily Ultra eSIM Premum Plan Review: Packed With Perks",
-      "url": "https://www.wired.com/review/saily-ultra-esim/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4266,
-      "publishedAt": "2026-08-22T13:00:00.000Z",
-      "summary": "For uninterrupted service as you country-hop, the Saily Ultra eSIM works well and comes with plentiful perks. It’s pricey though.",
+      "title": "I gave Qwen 3.8 27B a reverse-engineering job and it finished in 30 minutes",
+      "url": "https://www.xda-developers.com/qwen-3-8-27b-reverse-engineering-job-frontier-model/",
+      "feedSource": "Hacker News",
+      "source": "xda-developers.com",
+      "score": 0.4998,
+      "publishedAt": "2026-08-23T10:02:51.000Z",
+      "summary": "Qwen 3.8 27B genuinely shocked me with what it achieved here.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 0
+      "engagementScore": 289
     },
     {
       "title": "Introducing Gemini 3.7 Flash",
@@ -424,11 +413,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Saily Ultra eSIM Premum Plan Review: Packed With Perks",
+      "url": "https://www.wired.com/review/saily-ultra-esim/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4114,
+      "publishedAt": "2026-08-22T13:00:00.000Z",
+      "summary": "For uninterrupted service as you country-hop, the Saily Ultra eSIM works well and comes with plentiful perks. It’s pricey though.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "The 4 Best Monitor Arms to Clear Up Your Desk Space (2026)",
       "url": "https://www.wired.com/gallery/best-monitor-arms/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.416,
+      "score": 0.4008,
       "publishedAt": "2026-08-22T11:01:00.000Z",
       "summary": "Your desk setup needs a monitor arm, and I’ve been testing every one I can get my hands on to find the best.",
       "tags": [
@@ -441,7 +443,7 @@
       "url": "https://huggingface.co/blog/asr-benchmark-optimization",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.3744,
+      "score": 0.3564,
       "publishedAt": "2026-08-21T00:00:00.000Z",
       "summary": "",
       "tags": [
@@ -454,61 +456,9 @@
       "url": "https://www.technologyreview.com/2026/08/21/1142762/the-download-space-mirrors-threats-ai-designed-drugs-credit/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.3686,
+      "score": 0.352,
       "publishedAt": "2026-08-21T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. This company’s plans to deploy space mirrors could jeopardize the night sky for many A company that plans to beam sunlight from space to Earth on dema",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Mother tongue",
-      "url": "https://www.technologyreview.com/2026/08/21/1141726/mother-tongue-fiction/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.3501,
-      "publishedAt": "2026-08-21T09:00:00.000Z",
-      "summary": "“Daddy?” Theo curled against my side in bed. “Where do words go when they die?” I’d orchestrated the bedtime routine flawlessly: bath (taken), teeth (brushed), potty (tinkled), books (two), song (one, poorly sung), and snuggle (his chin on my second rib). Now was the moment when our son’s eyelids we",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "When AI designs a drug, who gets the credit?",
-      "url": "https://www.technologyreview.com/2026/08/21/1142627/when-ai-designs-a-drug-who-gets-the-credit/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.3501,
-      "publishedAt": "2026-08-21T09:00:00.000Z",
-      "summary": "When the biotech company Insilico Medicine used its computer models to propose a promising drug for pulmonary fibrosis, it enthusiastically claimed in a press release that the molecule had been “discovered by” its generative AI platform. Insilico leads a pack of companies using AI to rapidly come up",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "This company’s plans to deploy space mirrors could jeopardize the night sky for many",
-      "url": "https://www.technologyreview.com/2026/08/21/1142755/space-mirrors-night-sky/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.3501,
-      "publishedAt": "2026-08-21T09:00:00.000Z",
-      "summary": "A company that plans to beam sunlight from space to Earth on demand might unintentionally brighten the night sky for many more people than intended, according to a new study. Later this year, the US company Reflect Orbital plans to launch a test satellite called Eärendil-1 that will extend an 18-by-",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Over 1 million people have clicked LinkedIn’s AI slop button",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.3459,
-      "publishedAt": "2026-08-21T21:54:07.000Z",
-      "summary": "LinkedIn actually announced a \"Seems like AI slop\" button on July 30th, and the company says that a lot of people have already used it. According to a Thursday post from chief product officer Hari Srinivasan, \"over a million people\" have clicked on the button, which is accessible from the three dots",
       "tags": [
         "AI"
       ],
@@ -608,11 +558,63 @@
       "engagementScore": 0
     },
     {
+      "title": "Mother tongue",
+      "url": "https://www.technologyreview.com/2026/08/21/1141726/mother-tongue-fiction/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.3335,
+      "publishedAt": "2026-08-21T09:00:00.000Z",
+      "summary": "“Daddy?” Theo curled against my side in bed. “Where do words go when they die?” I’d orchestrated the bedtime routine flawlessly: bath (taken), teeth (brushed), potty (tinkled), books (two), song (one, poorly sung), and snuggle (his chin on my second rib). Now was the moment when our son’s eyelids we",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "When AI designs a drug, who gets the credit?",
+      "url": "https://www.technologyreview.com/2026/08/21/1142627/when-ai-designs-a-drug-who-gets-the-credit/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.3335,
+      "publishedAt": "2026-08-21T09:00:00.000Z",
+      "summary": "When the biotech company Insilico Medicine used its computer models to propose a promising drug for pulmonary fibrosis, it enthusiastically claimed in a press release that the molecule had been “discovered by” its generative AI platform. Insilico leads a pack of companies using AI to rapidly come up",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "This company’s plans to deploy space mirrors could jeopardize the night sky for many",
+      "url": "https://www.technologyreview.com/2026/08/21/1142755/space-mirrors-night-sky/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.3335,
+      "publishedAt": "2026-08-21T09:00:00.000Z",
+      "summary": "A company that plans to beam sunlight from space to Earth on demand might unintentionally brighten the night sky for many more people than intended, according to a new study. Later this year, the US company Reflect Orbital plans to launch a test satellite called Eärendil-1 that will extend an 18-by-",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Over 1 million people have clicked LinkedIn’s AI slop button",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.3307,
+      "publishedAt": "2026-08-21T21:54:07.000Z",
+      "summary": "LinkedIn actually announced a \"Seems like AI slop\" button on July 30th, and the company says that a lot of people have already used it. According to a Thursday post from chief product officer Hari Srinivasan, \"over a million people\" have clicked on the button, which is accessible from the three dots",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Major YouTube creators are facing backlash for accepting AI money",
       "url": "https://www.theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.3319,
+      "score": 0.3167,
       "publishedAt": "2026-08-21T19:16:43.000Z",
       "summary": "Over the past few days, a number of prominent filmmaking content creators including Matti Haapoja and Sam \"Kold\" Kolder have posted videos of themselves demonstrating what's possible with AI platform Higgsfield. The videos highlight Higgsfield's recently added Seedance 2.5 functionality and pitch th",
       "tags": [
