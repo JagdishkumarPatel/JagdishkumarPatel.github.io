@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T07:05:02.104Z",
+  "updatedAt": "2026-08-24T09:51:51.701Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,7 +12,7 @@
       "url": "https://arxiv.org/abs/2608.20341",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8912,
+      "score": 0.8723,
       "publishedAt": "2026-08-24T04:00:00.000Z",
       "summary": "arXiv:2608.20341v1 Announce Type: new \nAbstract: Frontier coding agents backed by large language models with context windows from hundreds of thousands to millions of tokens are restructuring the Software Development Life Cycle (SDLC). Rich context handling and multi-step reasoning now allow substan",
       "tags": [
@@ -28,7 +28,7 @@
       "url": "https://arxiv.org/abs/2608.20342",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8912,
+      "score": 0.8723,
       "publishedAt": "2026-08-24T04:00:00.000Z",
       "summary": "arXiv:2608.20342v1 Announce Type: new \nAbstract: Large language model (LLM) coding agents start each session with an empty context window, discarding accumulated knowledge from prior work. We present PrimeAgentOrchestrator (PAO), a system that spawns new instances of Claude Code -- Anthropic's termi",
       "tags": [
@@ -44,7 +44,7 @@
       "url": "https://arxiv.org/abs/2608.20378",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8912,
+      "score": 0.8723,
       "publishedAt": "2026-08-24T04:00:00.000Z",
       "summary": "arXiv:2608.20378v1 Announce Type: new \nAbstract: Safety alignment in Large Language Models (LLMs) is often superficial, relying on refusal mechanisms that trigger only at the final stages of generation without erasing the foundational knowledge of harmful concepts acquired during pretraining. This s",
       "tags": [
@@ -61,7 +61,7 @@
       "url": "https://arxiv.org/abs/2608.20379",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8912,
+      "score": 0.8723,
       "publishedAt": "2026-08-24T04:00:00.000Z",
       "summary": "arXiv:2608.20379v1 Announce Type: new \nAbstract: Advances in large language models (LLMs) have fueled a wave of research into agency: the ability to reason, plan, and act. This effort has produced agentic frameworks that orchestrate perception, memory, and decision-making around powerful LLM backbon",
       "tags": [
@@ -77,7 +77,7 @@
       "url": "https://arxiv.org/abs/2608.20384",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8912,
+      "score": 0.8723,
       "publishedAt": "2026-08-24T04:00:00.000Z",
       "summary": "arXiv:2608.20384v1 Announce Type: new \nAbstract: Multimodal affect and behaviour classifiers that fuse heterogeneous text, audio, and visual streams must simultaneously achieve competitive accuracy and produce human-understandable explanations of the cues driving their decisions -- a dual objective",
       "tags": [
@@ -91,7 +91,7 @@
       "url": "https://arxiv.org/abs/2608.20389",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8912,
+      "score": 0.8723,
       "publishedAt": "2026-08-24T04:00:00.000Z",
       "summary": "arXiv:2608.20389v1 Announce Type: new \nAbstract: A production agent harness must discover and rank, from a growing library of skills, the one most appropriate for a user's task. At small scale this selection happens in context: the LLM planner chooses among skill representations exposed in its syste",
       "tags": [
@@ -108,7 +108,7 @@
       "url": "https://arxiv.org/abs/2608.20397",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8912,
+      "score": 0.8723,
       "publishedAt": "2026-08-24T04:00:00.000Z",
       "summary": "arXiv:2608.20397v1 Announce Type: new \nAbstract: Agentic large language models (LLMs) on the Model Context Protocol (MCP) re-encode verbose tool schemas every turn, so prefill - quadratic in sequence length - dominates time-to-first-token (TTFT) as the tool registry grows. Nexus's primary lever is t",
       "tags": [
@@ -125,7 +125,7 @@
       "url": "https://arxiv.org/abs/2608.20398",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8912,
+      "score": 0.8723,
       "publishedAt": "2026-08-24T04:00:00.000Z",
       "summary": "arXiv:2608.20398v1 Announce Type: new \nAbstract: Generative AI (genAI) systems produce cultural artefacts at scale, but they also reflect embedded cultural values through their design. Once identified, these values become open to deliberate reshaping. This position paper examines the maximalist valu",
       "tags": [
@@ -139,7 +139,7 @@
       "url": "https://arxiv.org/abs/2608.20186",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8352,
+      "score": 0.8163,
       "publishedAt": "2026-08-23T20:13:34.000Z",
       "summary": "Non-invasive decoding of inner speech faces a fundamental data problem: a corpus pairing brain activity with a person’s spontaneous inner monologue cannot be collected, and the available proxy paradigms (cued repetitive and retrospectively reported generative inner speech) are slow to acquire, poorl",
       "tags": [
@@ -147,6 +147,45 @@
         "Industry"
       ],
       "engagementScore": 47
+    },
+    {
+      "title": "Kids outlearn AI—and we still don&#8217;t know why",
+      "url": "https://www.technologyreview.com/2026/08/24/1141740/kids-machines-language-learning/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6809,
+      "publishedAt": "2026-08-24T09:00:00.000Z",
+      "summary": "People have been talking to each other for at least 100,000 years, as best we can tell. And in all that time, there has been only one thing in the world that could learn a human language to perfect fluency: a human child.&#160; Now there are two.&#160; Four short years after the release of ChatGPT,&",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "They Dedicated Their Lives to Teaching. Then the Deepfakes Started",
+      "url": "https://www.wired.com/story/teachers-deepfake-ai-students-content/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5828,
+      "publishedAt": "2026-08-24T09:30:00.000Z",
+      "summary": "The deepfake epidemic in schools is affecting more than students. Four teachers tell WIRED about becoming targets of sexualized, AI-generated content—and how difficult it was to find accountability.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "NASA’s New Space Telescope Is Poised to Discover Hidden Facets of the Universe",
+      "url": "https://www.wired.com/story/nasa-nancy-grace-roman-space-telescope-hidden-facets-of-universe/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5801,
+      "publishedAt": "2026-08-24T09:00:00.000Z",
+      "summary": "The Nancy Grace Roman Space Telescope is expected to discover as many as 200,000 new planets and reveal details about the elusive nature of dark matter and dark energy.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "Pacing model development in an era of cyber-critical capabilities",
@@ -167,13 +206,26 @@
       "url": "https://arxiv.org/abs/2504.09762",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.5143,
+      "score": 0.5145,
       "publishedAt": "2026-08-19T11:35:26.000Z",
       "summary": "Intermediate token generation (ITG), where a model produces output before the solution, has become a standard method to improve the performance of language models on reasoning tasks. These intermediate tokens have been called \\say{reasoning traces} or even \\say{thinking traces} -- implicitly anthrop",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 308
+      "engagementScore": 309
+    },
+    {
+      "title": "Andreessen Horowitz is investing billions into a bleak future",
+      "url": "https://www.modelrepublic.org/articles/a16z-portfolio",
+      "feedSource": "Hacker News",
+      "source": "modelrepublic.org",
+      "score": 0.5139,
+      "publishedAt": "2026-08-24T06:57:01.000Z",
+      "summary": "The firm’s investment portfolio is full of companies that have exploited legal loopholes, created disturbing products, and broken the law.",
+      "tags": [
+        "Industry"
+      ],
+      "engagementScore": 137
     },
     {
       "title": "Introducing AI Futures",
@@ -286,79 +338,64 @@
       "engagementScore": 0
     },
     {
+      "title": "New EU-wide product repair rules come into force",
+      "url": "https://www.rte.ie/news/business/2026/0824/1588931-repair-rules/",
+      "feedSource": "Hacker News",
+      "source": "rte.ie",
+      "score": 0.5044,
+      "publishedAt": "2026-08-24T05:47:27.000Z",
+      "summary": "New EU rules have come into force aiming to tackle the 35 million tonnes of waste the premature disposal of consumer goods generates across the bloc.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 123
+    },
+    {
       "title": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
       "url": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
       "feedSource": "Hacker News",
       "source": "ft.com",
-      "score": 0.5075,
+      "score": 0.5002,
       "publishedAt": "2026-08-23T18:16:37.000Z",
       "summary": "AI lab’s Fable 5 has met with sluggish demand from corporate clients",
       "tags": [
         "LLM",
         "Dev Tools"
       ],
-      "engagementScore": 434
-    },
-    {
-      "title": "Radiation damage to Hubble has been 4.3 years out of phase with the Solar cycle",
-      "url": "https://arxiv.org/abs/2608.18214",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.5064,
-      "publishedAt": "2026-08-21T13:35:17.000Z",
-      "summary": "As well as obtaining beautiful images of the Universe, the Hubble Space Telescope’s CCD detectors are sensitive radiation dosimeters that have been monitored in Low Earth Orbit for more than 24 years. The rate of radiation damage they received has varied over each Solar cycle, but several years out",
-      "tags": [
-        "Vision"
-      ],
-      "engagementScore": 110
+      "engagementScore": 514
     },
     {
       "title": "I spent $266 and four AI models to own my tablet. GLM-5.3 finished it in a day",
       "url": "https://ericpardee.github.io/fire-hd-ownership/",
       "feedSource": "Hacker News",
       "source": "ericpardee.github.io",
-      "score": 0.5029,
+      "score": 0.4898,
       "publishedAt": "2026-08-23T14:23:09.000Z",
       "summary": "Owning a tablet Amazon kept shutting down: CVE-2022-38181, four AI models, five months",
       "tags": [
         "AI"
       ],
-      "engagementScore": 644
+      "engagementScore": 651
     },
     {
-      "title": "Google Workspace thinks my domain is an email provider (2025)",
-      "url": "https://blog.elis.cc/articles/google-workspace-thinks-my-domain-is-an-email-provider/",
+      "title": "Radiation damage to Hubble has been 4.3 years out of phase with the Solar cycle",
+      "url": "https://arxiv.org/abs/2608.18214",
       "feedSource": "Hacker News",
-      "source": "blog.elis.cc",
-      "score": 0.4964,
-      "publishedAt": "2026-08-23T19:29:32.000Z",
-      "summary": "Published Oct 7, 2025 | Updated Aug 23, 2026",
+      "source": "arxiv.org",
+      "score": 0.4884,
+      "publishedAt": "2026-08-21T13:35:17.000Z",
+      "summary": "As well as obtaining beautiful images of the Universe, the Hubble Space Telescope’s CCD detectors are sensitive radiation dosimeters that have been monitored in Low Earth Orbit for more than 24 years. The rate of radiation damage they received has varied over each Solar cycle, but several years out",
       "tags": [
-        "AI"
+        "Vision"
       ],
-      "engagementScore": 271
-    },
-    {
-      "title": "My agent.md to improve LLM-assisted code quality",
-      "url": "https://fabiensanglard.net/agent.md/index.html",
-      "feedSource": "Hacker News",
-      "source": "fabiensanglard.net",
-      "score": 0.491,
-      "publishedAt": "2026-08-23T17:59:52.000Z",
-      "summary": "Aug 21, 2026",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Dev Tools"
-      ],
-      "engagementScore": 285
+      "engagementScore": 112
     },
     {
       "title": "Asus ROG Swift RGB Stripe OLED Review: Clarity King",
       "url": "https://www.wired.com/review/asus-rog-swift-rgb-stripe-oled-pg27ucwm/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4881,
+      "score": 0.4732,
       "publishedAt": "2026-08-23T13:00:00.000Z",
       "summary": "The Asus PG27UCWM brings a new sub-pixel layout to the world of OLED gaming monitors, and in my testing, I appreciated the improvements it brings to the table.",
       "tags": [
@@ -371,7 +408,7 @@
       "url": "https://www.wired.com/gallery/best-kindle/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4776,
+      "score": 0.4628,
       "publishedAt": "2026-08-23T11:03:00.000Z",
       "summary": "I’ve tested every single Kindle. Here’s how Amazon’s ebook readers stack up.",
       "tags": [
@@ -384,7 +421,7 @@
       "url": "https://www.wired.com/story/transistors-changed-everything-heres-how-they-work/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4774,
+      "score": 0.4625,
       "publishedAt": "2026-08-23T11:00:00.000Z",
       "summary": "How a tiny little electronic switch sparked the computer revolution.",
       "tags": [
@@ -397,7 +434,7 @@
       "url": "https://www.wired.com/gallery/best-laptop-docking-stations/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4753,
+      "score": 0.4604,
       "publishedAt": "2026-08-23T10:37:00.000Z",
       "summary": "Docking stations expand what your laptop can do, and I’ve been testing the best of the best to see which you should buy.",
       "tags": [
@@ -410,7 +447,7 @@
       "url": "https://www.wired.com/story/7-basic-iphone-tricks-i-built-with-ios-27s-revamped-shortcuts-app/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4693,
+      "score": 0.4545,
       "publishedAt": "2026-08-23T09:30:00.000Z",
       "summary": "From halting my doomscrolls to automating air-quality checks, Apple’s streamlined Shortcuts app is my favorite iOS 27 feature.",
       "tags": [
@@ -423,7 +460,7 @@
       "url": "https://www.wired.com/story/is-expensive-bottled-water-actually-better-for-you/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4667,
+      "score": 0.4518,
       "publishedAt": "2026-08-23T09:00:00.000Z",
       "summary": "Luxury water can contain different minerals and taste noticeably different. But a remote source, alkaline pH, and high price do not necessarily mean better hydration.",
       "tags": [
@@ -436,7 +473,7 @@
       "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.4557,
+      "score": 0.4367,
       "publishedAt": "2026-08-21T11:59:48.000Z",
       "summary": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay.",
       "tags": [
@@ -520,7 +557,7 @@
       "source": "deepmind.google",
       "score": 0.4222,
       "publishedAt": "2026-07-28T13:21:37.000Z",
-      "summary": "From feet to fingertips — we are teaching robots intelligent whole-body control, fine dexterity, and teamwork to complete a broad range of complex tasks.",
+      "summary": "",
       "tags": [
         "LLM"
       ],
@@ -536,32 +573,6 @@
       "summary": "Google commits $40M in AI tokens and credits for the Genesis Mission",
       "tags": [
         "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Saily Ultra eSIM Premum Plan Review: Packed With Perks",
-      "url": "https://www.wired.com/review/saily-ultra-esim/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.3597,
-      "publishedAt": "2026-08-22T13:00:00.000Z",
-      "summary": "For uninterrupted service as you country-hop, the Saily Ultra eSIM works well and comes with plentiful perks. It’s pricey though.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The 4 Best Monitor Arms to Clear Up Your Desk Space (2026)",
-      "url": "https://www.wired.com/gallery/best-monitor-arms/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.3491,
-      "publishedAt": "2026-08-22T11:01:00.000Z",
-      "summary": "Your desk setup needs a monitor arm, and I’ve been testing every one I can get my hands on to find the best.",
-      "tags": [
-        "AI"
       ],
       "engagementScore": 0
     },
@@ -676,22 +687,9 @@
       "url": "https://www.technologyreview.com/2026/08/21/1142762/the-download-space-mirrors-threats-ai-designed-drugs-credit/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.2956,
+      "score": 0.2793,
       "publishedAt": "2026-08-21T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. This company’s plans to deploy space mirrors could jeopardize the night sky for many A company that plans to beam sunlight from space to Earth on dema",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Over 1 million people have clicked LinkedIn’s AI slop button",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.279,
-      "publishedAt": "2026-08-21T21:54:07.000Z",
-      "summary": "LinkedIn actually announced a \"Seems like AI slop\" button on July 30th, and the company says that a lot of people have already used it. According to a Thursday post from chief product officer Hari Srinivasan, \"over a million people\" have clicked on the button, which is accessible from the three dots",
       "tags": [
         "AI"
       ],
