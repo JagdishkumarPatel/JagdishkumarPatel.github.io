@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T03:56:53.934Z",
+  "updatedAt": "2026-08-24T07:05:02.104Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,18 +8,145 @@
   ],
   "items": [
     {
+      "title": "SDAD: Spec-Driven Agentic Development for the AI-Native SDLC",
+      "url": "https://arxiv.org/abs/2608.20341",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8912,
+      "publishedAt": "2026-08-24T04:00:00.000Z",
+      "summary": "arXiv:2608.20341v1 Announce Type: new \nAbstract: Frontier coding agents backed by large language models with context windows from hundreds of thousands to millions of tokens are restructuring the Software Development Life Cycle (SDLC). Rich context handling and multi-step reasoning now allow substan",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Research",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "PrimeAgentOrchestrator: Memory-Primed Agent Spawning for Personal AI Infrastructure",
+      "url": "https://arxiv.org/abs/2608.20342",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8912,
+      "publishedAt": "2026-08-24T04:00:00.000Z",
+      "summary": "arXiv:2608.20342v1 Announce Type: new \nAbstract: Large language model (LLM) coding agents start each session with an empty context window, discarding accumulated knowledge from prior work. We present PrimeAgentOrchestrator (PAO), a system that spawns new instances of Claude Code -- Anthropic's termi",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Research",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Truth Lies Deep: Countering Semantic Camouflage via Latent Intent Verification",
+      "url": "https://arxiv.org/abs/2608.20378",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8912,
+      "publishedAt": "2026-08-24T04:00:00.000Z",
+      "summary": "arXiv:2608.20378v1 Announce Type: new \nAbstract: Safety alignment in Large Language Models (LLMs) is often superficial, relying on refusal mechanisms that trigger only at the final stages of generation without erasing the foundational knowledge of harmful concepts acquired during pretraining. This s",
+      "tags": [
+        "LLM",
+        "Research",
+        "Safety",
+        "ML Infra",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "A Survey on Foundations and Frontiers of Multimodal Agentic Frameworks: Techniques and Applications",
+      "url": "https://arxiv.org/abs/2608.20379",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8912,
+      "publishedAt": "2026-08-24T04:00:00.000Z",
+      "summary": "arXiv:2608.20379v1 Announce Type: new \nAbstract: Advances in large language models (LLMs) have fueled a wave of research into agency: the ability to reason, plan, and act. This effort has produced agentic frameworks that orchestrate perception, memory, and decision-making around powerful LLM backbon",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Research",
+        "Vision"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Interpretable Multimodal Classification with Linear Discriminant Tree Ensembles",
+      "url": "https://arxiv.org/abs/2608.20384",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8912,
+      "publishedAt": "2026-08-24T04:00:00.000Z",
+      "summary": "arXiv:2608.20384v1 Announce Type: new \nAbstract: Multimodal affect and behaviour classifiers that fuse heterogeneous text, audio, and visual streams must simultaneously achieve competitive accuracy and produce human-understandable explanations of the cues driving their decisions -- a dual objective",
+      "tags": [
+        "Research",
+        "Vision"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Representation Affects Retrieval: A Case Study of Skill Discovery and Routing in a Multimodal Agent Harness",
+      "url": "https://arxiv.org/abs/2608.20389",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8912,
+      "publishedAt": "2026-08-24T04:00:00.000Z",
+      "summary": "arXiv:2608.20389v1 Announce Type: new \nAbstract: A production agent harness must discover and rank, from a growing library of skills, the one most appropriate for a user's task. At small scale this selection happens in context: the LLM planner chooses among skill representations exposed in its syste",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Research",
+        "RAG",
+        "Vision"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Nexus: Depth-Adaptive KV-Cache Splicing and Retrieval-Decoupled Tool Routing for Agentic LLMs on Unified Memory",
+      "url": "https://arxiv.org/abs/2608.20397",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8912,
+      "publishedAt": "2026-08-24T04:00:00.000Z",
+      "summary": "arXiv:2608.20397v1 Announce Type: new \nAbstract: Agentic large language models (LLMs) on the Model Context Protocol (MCP) re-encode verbose tool schemas every turn, so prefill - quadratic in sequence length - dominates time-to-first-token (TTFT) as the tool registry grows. Nexus's primary lever is t",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Research",
+        "RAG",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Environmental Slow AI: Design Principles for Generative Systems",
+      "url": "https://arxiv.org/abs/2608.20398",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8912,
+      "publishedAt": "2026-08-24T04:00:00.000Z",
+      "summary": "arXiv:2608.20398v1 Announce Type: new \nAbstract: Generative AI (genAI) systems produce cultural artefacts at scale, but they also reflect embedded cultural values through their design. Once identified, these values become open to deliberate reshaping. This position paper examines the maximalist valu",
+      "tags": [
+        "Research",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Decoding silent reading from non-invasive EEG",
       "url": "https://arxiv.org/abs/2608.20186",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8471,
+      "score": 0.8352,
       "publishedAt": "2026-08-23T20:13:34.000Z",
       "summary": "Non-invasive decoding of inner speech faces a fundamental data problem: a corpus pairing brain activity with a person’s spontaneous inner monologue cannot be collected, and the available proxy paradigms (cued repetitive and retrospectively reported generative inner speech) are slow to acquire, poorl",
       "tags": [
         "Dev Tools",
         "Industry"
       ],
-      "engagementScore": 39
+      "engagementScore": 47
     },
     {
       "title": "Pacing model development in an era of cyber-critical capabilities",
@@ -34,32 +161,6 @@
         "Safety"
       ],
       "engagementScore": 168
-    },
-    {
-      "title": "Radiation damage to Hubble has been 4.3 years out of phase with the Solar cycle",
-      "url": "https://arxiv.org/abs/2608.18214",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.5278,
-      "publishedAt": "2026-08-21T13:35:17.000Z",
-      "summary": "As well as obtaining beautiful images of the Universe, the Hubble Space Telescope’s CCD detectors are sensitive radiation dosimeters that have been monitored in Low Earth Orbit for more than 24 years. The rate of radiation damage they received has varied over each Solar cycle, but several years out",
-      "tags": [
-        "Vision"
-      ],
-      "engagementScore": 110
-    },
-    {
-      "title": "I spent $266 and four AI models to own my tablet. GLM-5.3 finished it in a day",
-      "url": "https://ericpardee.github.io/fire-hd-ownership/",
-      "feedSource": "Hacker News",
-      "source": "ericpardee.github.io",
-      "score": 0.5173,
-      "publishedAt": "2026-08-23T14:23:09.000Z",
-      "summary": "Owning a tablet Amazon kept shutting down: CVE-2022-38181, four AI models, five months",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 629
     },
     {
       "title": "Stop Anthropomorphizing Intermediate Tokens as Reasoning/Thinking Traces (2025)",
@@ -189,21 +290,75 @@
       "url": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
       "feedSource": "Hacker News",
       "source": "ft.com",
-      "score": 0.5093,
+      "score": 0.5075,
       "publishedAt": "2026-08-23T18:16:37.000Z",
       "summary": "AI lab’s Fable 5 has met with sluggish demand from corporate clients",
       "tags": [
         "LLM",
         "Dev Tools"
       ],
-      "engagementScore": 299
+      "engagementScore": 434
+    },
+    {
+      "title": "Radiation damage to Hubble has been 4.3 years out of phase with the Solar cycle",
+      "url": "https://arxiv.org/abs/2608.18214",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.5064,
+      "publishedAt": "2026-08-21T13:35:17.000Z",
+      "summary": "As well as obtaining beautiful images of the Universe, the Hubble Space Telescope’s CCD detectors are sensitive radiation dosimeters that have been monitored in Low Earth Orbit for more than 24 years. The rate of radiation damage they received has varied over each Solar cycle, but several years out",
+      "tags": [
+        "Vision"
+      ],
+      "engagementScore": 110
+    },
+    {
+      "title": "I spent $266 and four AI models to own my tablet. GLM-5.3 finished it in a day",
+      "url": "https://ericpardee.github.io/fire-hd-ownership/",
+      "feedSource": "Hacker News",
+      "source": "ericpardee.github.io",
+      "score": 0.5029,
+      "publishedAt": "2026-08-23T14:23:09.000Z",
+      "summary": "Owning a tablet Amazon kept shutting down: CVE-2022-38181, four AI models, five months",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 644
+    },
+    {
+      "title": "Google Workspace thinks my domain is an email provider (2025)",
+      "url": "https://blog.elis.cc/articles/google-workspace-thinks-my-domain-is-an-email-provider/",
+      "feedSource": "Hacker News",
+      "source": "blog.elis.cc",
+      "score": 0.4964,
+      "publishedAt": "2026-08-23T19:29:32.000Z",
+      "summary": "Published Oct 7, 2025 | Updated Aug 23, 2026",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 271
+    },
+    {
+      "title": "My agent.md to improve LLM-assisted code quality",
+      "url": "https://fabiensanglard.net/agent.md/index.html",
+      "feedSource": "Hacker News",
+      "source": "fabiensanglard.net",
+      "score": 0.491,
+      "publishedAt": "2026-08-23T17:59:52.000Z",
+      "summary": "Aug 21, 2026",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Dev Tools"
+      ],
+      "engagementScore": 285
     },
     {
       "title": "Asus ROG Swift RGB Stripe OLED Review: Clarity King",
       "url": "https://www.wired.com/review/asus-rog-swift-rgb-stripe-oled-pg27ucwm/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5048,
+      "score": 0.4881,
       "publishedAt": "2026-08-23T13:00:00.000Z",
       "summary": "The Asus PG27UCWM brings a new sub-pixel layout to the world of OLED gaming monitors, and in my testing, I appreciated the improvements it brings to the table.",
       "tags": [
@@ -212,37 +367,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Google Workspace thinks my domain is an email provider (2025)",
-      "url": "https://blog.elis.cc/articles/google-workspace-thinks-my-domain-is-an-email-provider/",
-      "feedSource": "Hacker News",
-      "source": "blog.elis.cc",
-      "score": 0.5016,
-      "publishedAt": "2026-08-23T19:29:32.000Z",
-      "summary": "Published Oct 7, 2025 | Updated Aug 23, 2026",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 205
-    },
-    {
-      "title": "Over 170k Nonprofits Lost All Their Data. Is Microsoft to Blame?",
-      "url": "https://slate.com/technology/2026/08/microsoft-software-nonprofit-data-delete.html",
-      "feedSource": "Hacker News",
-      "source": "slate.com",
-      "score": 0.4978,
-      "publishedAt": "2026-08-23T18:55:54.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 199
-    },
-    {
       "title": "What’s the Best Kindle of 2026? (So Far)",
       "url": "https://www.wired.com/gallery/best-kindle/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4944,
+      "score": 0.4776,
       "publishedAt": "2026-08-23T11:03:00.000Z",
       "summary": "I’ve tested every single Kindle. Here’s how Amazon’s ebook readers stack up.",
       "tags": [
@@ -255,7 +384,7 @@
       "url": "https://www.wired.com/story/transistors-changed-everything-heres-how-they-work/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4941,
+      "score": 0.4774,
       "publishedAt": "2026-08-23T11:00:00.000Z",
       "summary": "How a tiny little electronic switch sparked the computer revolution.",
       "tags": [
@@ -268,7 +397,7 @@
       "url": "https://www.wired.com/gallery/best-laptop-docking-stations/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4921,
+      "score": 0.4753,
       "publishedAt": "2026-08-23T10:37:00.000Z",
       "summary": "Docking stations expand what your laptop can do, and I’ve been testing the best of the best to see which you should buy.",
       "tags": [
@@ -281,7 +410,7 @@
       "url": "https://www.wired.com/story/7-basic-iphone-tricks-i-built-with-ios-27s-revamped-shortcuts-app/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4861,
+      "score": 0.4693,
       "publishedAt": "2026-08-23T09:30:00.000Z",
       "summary": "From halting my doomscrolls to automating air-quality checks, Apple’s streamlined Shortcuts app is my favorite iOS 27 feature.",
       "tags": [
@@ -294,7 +423,7 @@
       "url": "https://www.wired.com/story/is-expensive-bottled-water-actually-better-for-you/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4834,
+      "score": 0.4667,
       "publishedAt": "2026-08-23T09:00:00.000Z",
       "summary": "Luxury water can contain different minerals and taste noticeably different. But a remote source, alkaline pH, and high price do not necessarily mean better hydration.",
       "tags": [
@@ -307,7 +436,7 @@
       "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.477,
+      "score": 0.4557,
       "publishedAt": "2026-08-21T11:59:48.000Z",
       "summary": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay.",
       "tags": [
@@ -415,7 +544,7 @@
       "url": "https://www.wired.com/review/saily-ultra-esim/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.3765,
+      "score": 0.3597,
       "publishedAt": "2026-08-22T13:00:00.000Z",
       "summary": "For uninterrupted service as you country-hop, the Saily Ultra eSIM works well and comes with plentiful perks. It’s pricey though.",
       "tags": [
@@ -428,7 +557,7 @@
       "url": "https://www.wired.com/gallery/best-monitor-arms/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.3659,
+      "score": 0.3491,
       "publishedAt": "2026-08-22T11:01:00.000Z",
       "summary": "Your desk setup needs a monitor arm, and I’ve been testing every one I can get my hands on to find the best.",
       "tags": [
@@ -547,7 +676,7 @@
       "url": "https://www.technologyreview.com/2026/08/21/1142762/the-download-space-mirrors-threats-ai-designed-drugs-credit/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.3139,
+      "score": 0.2956,
       "publishedAt": "2026-08-21T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. This company’s plans to deploy space mirrors could jeopardize the night sky for many A company that plans to beam sunlight from space to Earth on dema",
       "tags": [
@@ -560,127 +689,11 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.2958,
+      "score": 0.279,
       "publishedAt": "2026-08-21T21:54:07.000Z",
       "summary": "LinkedIn actually announced a \"Seems like AI slop\" button on July 30th, and the company says that a lot of people have already used it. According to a Thursday post from chief product officer Hari Srinivasan, \"over a million people\" have clicked on the button, which is accessible from the three dots",
       "tags": [
         "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Mother tongue",
-      "url": "https://www.technologyreview.com/2026/08/21/1141726/mother-tongue-fiction/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.2954,
-      "publishedAt": "2026-08-21T09:00:00.000Z",
-      "summary": "“Daddy?” Theo curled against my side in bed. “Where do words go when they die?” I’d orchestrated the bedtime routine flawlessly: bath (taken), teeth (brushed), potty (tinkled), books (two), song (one, poorly sung), and snuggle (his chin on my second rib). Now was the moment when our son’s eyelids we",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "When AI designs a drug, who gets the credit?",
-      "url": "https://www.technologyreview.com/2026/08/21/1142627/when-ai-designs-a-drug-who-gets-the-credit/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.2954,
-      "publishedAt": "2026-08-21T09:00:00.000Z",
-      "summary": "When the biotech company Insilico Medicine used its computer models to propose a promising drug for pulmonary fibrosis, it enthusiastically claimed in a press release that the molecule had been “discovered by” its generative AI platform. Insilico leads a pack of companies using AI to rapidly come up",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "This company’s plans to deploy space mirrors could jeopardize the night sky for many",
-      "url": "https://www.technologyreview.com/2026/08/21/1142755/space-mirrors-night-sky/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.2954,
-      "publishedAt": "2026-08-21T09:00:00.000Z",
-      "summary": "A company that plans to beam sunlight from space to Earth on demand might unintentionally brighten the night sky for many more people than intended, according to a new study. Later this year, the US company Reflect Orbital plans to launch a test satellite called Eärendil-1 that will extend an 18-by-",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Major YouTube creators are facing backlash for accepting AI money",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.2817,
-      "publishedAt": "2026-08-21T19:16:43.000Z",
-      "summary": "Over the past few days, a number of prominent filmmaking content creators including Matti Haapoja and Sam \"Kold\" Kolder have posted videos of themselves demonstrating what's possible with AI platform Higgsfield. The videos highlight Higgsfield's recently added Seedance 2.5 functionality and pitch th",
-      "tags": [
-        "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "5 new ways to level up your learning with Search",
-      "url": "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools/",
-      "feedSource": "Google AI",
-      "source": "blog.google",
-      "score": 0.2659,
-      "publishedAt": "2026-08-19T19:00:00.000Z",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Blog_header_2_JwwDb02.max-600x600.format-webp.webp\"&gt;Here’s how you can use Google Search tools to study for classes and standardized tests.",
-      "tags": [
-        "Research",
-        "RAG",
-        "Vision",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Get closer to the game with Gemini and Pixel",
-      "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
-      "feedSource": "Google AI",
-      "source": "blog.google",
-      "score": 0.2659,
-      "publishedAt": "2026-08-17T08:00:00.000Z",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/football_multi-club_hero_nphU3P.max-600x600.format-webp.webp\"&gt;Google Gemini and Pixel partner with five global football clubs to elevate the fan matchday experience through AI and  Smartphone Technology.",
-      "tags": [
-        "LLM",
-        "RAG",
-        "Vision",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Bring your spreadsheet data to life with Sheets canvas",
-      "url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/",
-      "feedSource": "Google AI",
-      "source": "blog.google",
-      "score": 0.2659,
-      "publishedAt": "2026-08-13T16:45:00.000Z",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Sheets_canvas-blog-header-2784x.max-600x600.format-webp.webp\"&gt;Sheets canvas turns data into interactive dashboards, custom study trackers, seating charts, and more, all with a simple prompt.",
-      "tags": [
-        "Research",
-        "RAG",
-        "Vision",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/",
-      "feedSource": "Google AI",
-      "source": "blog.google",
-      "score": 0.2659,
-      "publishedAt": "2026-08-11T17:00:00.000Z",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AIME_SIZZLE_THUMBNAIL.Aug10.max-600x600.format-webp.webp\"&gt;Google introduces AMIE for real-time clinical video consultations in simulated settings.",
-      "tags": [
-        "Research",
-        "RAG",
-        "Vision",
-        "Dev Tools"
       ],
       "engagementScore": 0
     }
