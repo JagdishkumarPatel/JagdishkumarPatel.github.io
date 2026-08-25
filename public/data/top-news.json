@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T06:53:52.810Z",
+  "updatedAt": "2026-08-25T09:38:59.206Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,20 +12,33 @@
       "url": "https://developers.openai.com/api/docs/pricing",
       "feedSource": "Hacker News",
       "source": "developers.openai.com",
-      "score": 1.0248,
+      "score": 1.0054,
       "publishedAt": "2026-08-24T15:22:43.000Z",
       "summary": "Pricing information for the OpenAI platform.",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 319
+      "engagementScore": 323
+    },
+    {
+      "title": "Disrupting a new covert influence campaign from Russia",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.967,
+      "publishedAt": "2026-08-25T00:00:00.000Z",
+      "summary": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
       "url": "https://openai.com/index/gpt-5-6-in-kiro",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8996,
+      "score": 0.8795,
       "publishedAt": "2026-08-24T12:00:00.000Z",
       "summary": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
       "tags": [
@@ -39,7 +52,7 @@
       "url": "https://arxiv.org/abs/2608.21362",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8925,
+      "score": 0.8738,
       "publishedAt": "2026-08-25T04:00:00.000Z",
       "summary": "arXiv:2608.21362v1 Announce Type: new \nAbstract: Transformer-based large language models (LLMs) incur high prefill latency because key-value (KV) tensors must be recomputed for each request. Existing prefix-caching systems reduce this cost but require prompts to share a leading contiguous prefix, li",
       "tags": [
@@ -53,7 +66,7 @@
       "url": "https://arxiv.org/abs/2608.21363",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8925,
+      "score": 0.8738,
       "publishedAt": "2026-08-25T04:00:00.000Z",
       "summary": "arXiv:2608.21363v1 Announce Type: new \nAbstract: A protocol is presented for recording the governance decisions of automated AI runtimes. When a runtime releases, blocks, defers, redacts, or escalates an individual output, AIREP records that decision as a single signed object that any party can chec",
       "tags": [
@@ -66,7 +79,7 @@
       "url": "https://arxiv.org/abs/2608.21366",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8925,
+      "score": 0.8738,
       "publishedAt": "2026-08-25T04:00:00.000Z",
       "summary": "arXiv:2608.21366v1 Announce Type: new \nAbstract: Driven by massive amounts of web-scale data, generative AI (GenAI) has achieved remarkable progress, enabling various applications in diverse sectors. The advances of GenAI have actuated practitioners to use AI-synthesized data for training next-gener",
       "tags": [
@@ -80,7 +93,7 @@
       "url": "https://arxiv.org/abs/2608.21372",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8925,
+      "score": 0.8738,
       "publishedAt": "2026-08-25T04:00:00.000Z",
       "summary": "arXiv:2608.21372v1 Announce Type: new \nAbstract: This report summarizes the work conducted on the Game of Hidden Rules (GOHR), focusing on reinforcement learning agents trained to infer hidden rules from trial-and-error feedback, representation design, rule difficulty analysis, transfer learning, ge",
       "tags": [
@@ -94,7 +107,7 @@
       "url": "https://arxiv.org/abs/2608.21374",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8925,
+      "score": 0.8738,
       "publishedAt": "2026-08-25T04:00:00.000Z",
       "summary": "arXiv:2608.21374v1 Announce Type: new \nAbstract: Literature reviews are essential to scientific progress, but rigorously evaluating automatically generated reviews remains difficult because many aspects of research utility depend on expert judgment rather than reference-overlap metrics. We introduce",
       "tags": [
@@ -108,7 +121,7 @@
       "url": "https://arxiv.org/abs/2608.21375",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8925,
+      "score": 0.8738,
       "publishedAt": "2026-08-25T04:00:00.000Z",
       "summary": "arXiv:2608.21375v1 Announce Type: new \nAbstract: Heterogeneous agentic retrieval-augmented generation (RAG) systems increasingly orchestrate external APIs, internal databases, vector stores, and graph stores. Exposing all tool descriptions to an LLM agent, or selecting tools only by vector similarit",
       "tags": [
@@ -125,7 +138,7 @@
       "url": "https://arxiv.org/abs/2608.21379",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8925,
+      "score": 0.8738,
       "publishedAt": "2026-08-25T04:00:00.000Z",
       "summary": "arXiv:2608.21379v1 Announce Type: new \nAbstract: Student burnout is highly prevalent in higher education, with reported rates ranging from 12% to over 70% and consistently exceeding those of the working population - yet it is typically identified only retrospectively, after academic decline has alre",
       "tags": [
@@ -138,7 +151,7 @@
       "url": "https://arxiv.org/abs/2608.21382",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8925,
+      "score": 0.8738,
       "publishedAt": "2026-08-25T04:00:00.000Z",
       "summary": "arXiv:2608.21382v1 Announce Type: new \nAbstract: Multiple-choice benchmarks fix the questions and the correct answers, but not the harness: the order of the options, the wording of the prompt, and whether a language model's answer is read from generated text or from per-option likelihoods. Work on t",
       "tags": [
@@ -154,20 +167,20 @@
       "url": "https://arxiv.org/abs/2608.16603",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8299,
+      "score": 0.8126,
       "publishedAt": "2026-08-24T16:30:21.000Z",
       "summary": "AI agents are making it easier for the public to interact with government, such as by helping them apply for benefits, understand complex policies, and make their opinions heard. Although improving service accessibility is beneficial, any resulting surges in demand could strain unprepared government",
       "tags": [
         "Agents"
       ],
-      "engagementScore": 68
+      "engagementScore": 70
     },
     {
       "title": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
       "url": "https://huggingface.co/blog/gradio-workflow-guide",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.7515,
+      "score": 0.7341,
       "publishedAt": "2026-08-25T00:00:00.000Z",
       "summary": "",
       "tags": [
@@ -176,11 +189,37 @@
       "engagementScore": 0
     },
     {
+      "title": "Welcome to the spiderverse, a world measured through webs",
+      "url": "https://www.technologyreview.com/2026/08/25/1141750/welcome-to-spiderverse-arachnid-webs/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6821,
+      "publishedAt": "2026-08-25T09:00:00.000Z",
+      "summary": "Counting the creatures in the world around us is critical for a raft of conservation efforts. It helps scientists gauge biodiversity, track migration, and spot invasive species. That census-taking, though, often requires humans to tabulate what they see, trap, or otherwise sense—a potentially labori",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "I spent a day at a robot “carnival” in Shanghai. Here’s what I saw.",
+      "url": "https://www.technologyreview.com/2026/08/25/1141907/dispatch-shanghai-humanoid-robot-carnival/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6821,
+      "publishedAt": "2026-08-25T09:00:00.000Z",
+      "summary": "Humanoid robots are having a moment in China. The popular machines are part of the country’s strategy to bring artificial intelligence into daily life. Embedding the technology into physical systems—an idea called embodied AI—was a key facet of China’s latest five-year plan, and companies here are a",
+      "tags": [
+        "RAG"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Decoding silent reading from non-invasive EEG",
       "url": "https://arxiv.org/abs/2608.20186",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.6773,
+      "score": 0.6585,
       "publishedAt": "2026-08-23T20:13:34.000Z",
       "summary": "Non-invasive decoding of inner speech faces a fundamental data problem: a corpus pairing brain activity with a person’s spontaneous inner monologue cannot be collected, and the available proxy paradigms (cued repetitive and retrospectively reported generative inner speech) are slow to acquire, poorl",
       "tags": [
@@ -190,11 +229,54 @@
       "engagementScore": 51
     },
     {
+      "title": "It Should Be Harder to Apply for a Job. No, Really",
+      "url": "https://www.wired.com/story/applying-for-a-job-is-too-damn-easy/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5839,
+      "publishedAt": "2026-08-25T09:30:00.000Z",
+      "summary": "Thanks to a dwindling supply of open roles, “one-click” applications, and the rise of artificial intelligence, it’s easier than ever to apply for a job. We’re all paying the price.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "OpenAI subpoenaed by Alabama AG over Hugging Face hack",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/984239/alabama-attorney-general-subpoena-openai-hugging-face-hack",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5826,
+      "publishedAt": "2026-08-25T09:15:03.000Z",
+      "summary": "Alabama's attorney general issued a subpoena to OpenAI on Monday as part of an investigation into how one of its AI agents escaped a supposedly secure testing environment and autonomously hacked another company last month. The investigation seeks to determine whether OpenAI's safety practices violat",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Open Source",
+        "Safety",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Spirit Airlines Wants to Sell Its Data to Google. Former Flight Attendants Are Freaked Out",
+      "url": "https://www.wired.com/story/spirit-airlines-wants-to-sell-its-data-to-google-former-flight-attendants-are-freaked-out/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5826,
+      "publishedAt": "2026-08-25T09:15:00.000Z",
+      "summary": "“It never crossed my mind that they would be so bold as to sell our private data for AI,” says one former Spirit Airlines flight attendant.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "How to encourage smarter AI use in the classroom",
       "url": "https://www.technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5893,
+      "score": 0.5733,
       "publishedAt": "2026-08-24T14:20:19.000Z",
       "summary": "This article is from Making AI Work, MIT Technology Review’s limited-run newsletter examining how to apply LLMs across industries. To receive it in your inbox, sign up here. Chatbots took many schools by surprise upon their release a few years ago. Suddenly, students carried an app in their phones t",
       "tags": [
@@ -208,7 +290,7 @@
       "url": "https://www.wired.com/story/omega-just-released-a-mini-moonwatch/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5799,
+      "score": 0.5652,
       "publishedAt": "2026-08-25T06:00:00.000Z",
       "summary": "Say hello to a revamped collection of perfectly proportioned 38-mm Speedmasters.",
       "tags": [
@@ -221,7 +303,7 @@
       "url": "https://www.technologyreview.com/2026/08/24/1142863/the-download-kids-outlearning-ai-space-travel-agents/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5766,
+      "score": 0.5606,
       "publishedAt": "2026-08-24T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Kids outlearn AI—and we still don’t know why Teaching a computer to use human language requires an inhuman amount of data. An LLM can easily churn thr",
       "tags": [
@@ -235,7 +317,7 @@
       "url": "https://www.wired.com/story/us-data-centers-drive-gas-power-expansion/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5693,
+      "score": 0.5546,
       "publishedAt": "2026-08-25T04:01:00.000Z",
       "summary": "There’s no clearer sign of the data center boom than rampant gas projects that have been proposed or that are already under construction.",
       "tags": [
@@ -248,7 +330,7 @@
       "url": "https://www.technologyreview.com/2026/08/24/1141740/kids-machines-language-learning/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5582,
+      "score": 0.5421,
       "publishedAt": "2026-08-24T09:00:00.000Z",
       "summary": "People have been talking to each other for at least 100,000 years, as best we can tell. And in all that time, there has been only one thing in the world that could learn a human language to perfect fluency: a human child.&#160; Now there are two.&#160; Four short years after the release of ChatGPT,&",
       "tags": [
@@ -261,7 +343,7 @@
       "url": "https://www.wired.com/review/bitdefender-vpn/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5325,
+      "score": 0.5178,
       "publishedAt": "2026-08-24T21:08:00.000Z",
       "summary": "Bitdefender VPN has an excellent starting price, even if it lacks the advanced features that privacy nerds may want.",
       "tags": [
@@ -270,11 +352,24 @@
       "engagementScore": 0
     },
     {
+      "title": "iCloud+ Hide My Email addresses will remain on icloud.com",
+      "url": "https://developer.apple.com/news/?id=1ptvdtcm",
+      "feedSource": "Hacker News",
+      "source": "developer.apple.com",
+      "score": 0.5164,
+      "publishedAt": "2026-08-24T22:13:40.000Z",
+      "summary": "Starting later this year, new Sign in with Apple addresses, previously issued on privaterelay.appleid.com, will be issued on private.icloud.com. Existing addresses on privaterelay.appleid.com will continue to work and forward mail to users without interruption.After further consideration and reviewi",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 460
+    },
+    {
       "title": "Can You Kill Salmonella in Eggs Without Cooking Them? I Tried It",
       "url": "https://www.wired.com/story/sous-vide-salmonella-eggs/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5306,
+      "score": 0.5159,
       "publishedAt": "2026-08-24T20:45:52.000Z",
       "summary": "With advice from infectious disease experts, I tested a low-effort way to pasteurize eggs at home.",
       "tags": [
@@ -287,48 +382,9 @@
       "url": "https://www.wired.com/story/food-safety-gear-salmonella/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5285,
+      "score": 0.5138,
       "publishedAt": "2026-08-24T20:22:35.000Z",
       "summary": "Salmonella outbreaks are seemingly everywhere right now. A good temperature probe is the last and best line of defense.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "iCloud+ Hide My Email addresses will remain on icloud.com",
-      "url": "https://developer.apple.com/news/?id=1ptvdtcm",
-      "feedSource": "Hacker News",
-      "source": "developer.apple.com",
-      "score": 0.5234,
-      "publishedAt": "2026-08-24T22:13:40.000Z",
-      "summary": "Starting later this year, new Sign in with Apple addresses, previously issued on privaterelay.appleid.com, will be issued on private.icloud.com. Existing addresses on privaterelay.appleid.com will continue to work and forward mail to users without interruption.After further consideration and reviewi",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 386
-    },
-    {
-      "title": "IBM's next-gen mainframe chip is the first to run Arm and Z workloads",
-      "url": "https://venturebeat.com/infrastructure/ibms-next-gen-mainframe-chip-is-the-first-to-run-arm-and-z-workloads-on-the-same-cores",
-      "feedSource": "Hacker News",
-      "source": "venturebeat.com",
-      "score": 0.5161,
-      "publishedAt": "2026-08-24T16:34:42.000Z",
-      "summary": "IBM unveils a dual-architecture mainframe processor that natively runs Arm and Z workloads, bringing enterprise AI to IBM Z and LinuxONE systems.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 20
-    },
-    {
-      "title": "My Daily Driver Gaming Headset Is Super Cheap Right Now",
-      "url": "https://www.wired.com/story/steelseries-arctis-nova-3p-august-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5146,
-      "publishedAt": "2026-08-24T17:46:18.000Z",
-      "summary": "I love this multi-device headset, and right now it’s cheaper than what I paid for it in March.",
       "tags": [
         "AI"
       ],
@@ -417,16 +473,28 @@
       "engagementScore": 0
     },
     {
-      "title": "Partnering with CodeAI to prepare the first AI generation",
-      "url": "https://openai.com/index/partnering-with-codeai",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5124,
-      "publishedAt": "2026-08-18T11:00:00.000Z",
-      "summary": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly.",
+      "title": "IBM's next-gen mainframe chip is the first to run Arm and Z workloads",
+      "url": "https://venturebeat.com/infrastructure/ibms-next-gen-mainframe-chip-is-the-first-to-run-arm-and-z-workloads-on-the-same-cores",
+      "feedSource": "Hacker News",
+      "source": "venturebeat.com",
+      "score": 0.5008,
+      "publishedAt": "2026-08-24T16:34:42.000Z",
+      "summary": "IBM unveils a dual-architecture mainframe processor that natively runs Arm and Z workloads, bringing enterprise AI to IBM Z and LinuxONE systems.",
       "tags": [
-        "LLM",
-        "Dev Tools"
+        "AI"
+      ],
+      "engagementScore": 20
+    },
+    {
+      "title": "My Daily Driver Gaming Headset Is Super Cheap Right Now",
+      "url": "https://www.wired.com/story/steelseries-arctis-nova-3p-august-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4998,
+      "publishedAt": "2026-08-24T17:46:18.000Z",
+      "summary": "I love this multi-device headset, and right now it’s cheaper than what I paid for it in March.",
+      "tags": [
+        "AI"
       ],
       "engagementScore": 0
     },
@@ -435,65 +503,40 @@
       "url": "https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/",
       "feedSource": "Hacker News",
       "source": "xusheng.dev",
-      "score": 0.51,
+      "score": 0.4991,
       "publishedAt": "2026-08-24T15:28:04.000Z",
       "summary": "Reverse engineering reveals how Paint and Photos embed a server-issued GUID into the pixels of locally generated AI images.",
       "tags": [
         "Vision"
       ],
-      "engagementScore": 660
+      "engagementScore": 708
     },
     {
       "title": "Coding expertise is going to collapse from AI reliance",
       "url": "https://larsfaye.com/articles/ai-coding-will-prevent-expertise",
       "feedSource": "Hacker News",
       "source": "larsfaye.com",
-      "score": 0.5025,
+      "score": 0.4895,
       "publishedAt": "2026-08-24T15:52:33.000Z",
       "summary": "The need for ongoing friction in long-term skill formation.",
       "tags": [
         "Dev Tools"
       ],
-      "engagementScore": 508
+      "engagementScore": 513
     },
     {
-      "title": "IPFS Maintainers Winding Down",
-      "url": "https://ipshipyard.com/blog/2026-the-end-of-ipfs-at-shipyard/",
+      "title": "Thomson Reuters Launches Its Own Frontier Model",
+      "url": "https://www.thomsonreuters.com/en/press-releases/2026/august/thomson-reuters-leverages-its-world-class-data-assets-to-launch-its-own-frontier-model",
       "feedSource": "Hacker News",
-      "source": "ipshipyard.com",
-      "score": 0.4877,
-      "publishedAt": "2026-08-24T15:48:45.000Z",
-      "summary": "We have some difficult news to share with the IPFS and wider peer-to-peer community. Our IPFS funding was cancelled",
+      "source": "thomsonreuters.com",
+      "score": 0.4861,
+      "publishedAt": "2026-08-25T02:11:39.000Z",
+      "summary": "Thomson, the company’s proprietary LLM, was trained and is run at a fraction of the cost of comparable frontier models and remains fully owned and controlled by Thomson Reuters",
       "tags": [
-        "Industry"
+        "LLM",
+        "ML Infra"
       ],
-      "engagementScore": 341
-    },
-    {
-      "title": "Birdfy Nest Duo Review: My Own Private Nature Documentary",
-      "url": "https://www.wired.com/review/birdfy-nest-duo/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.481,
-      "publishedAt": "2026-08-24T11:30:00.000Z",
-      "summary": "With two cameras and built-in climate sensors, the Birdfy Nest Duo let me watch an entire nesting season unfold.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Kindle Accessories I Never Want to Read Without (2026)",
-      "url": "https://www.wired.com/story/best-kindle-accessories/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4792,
-      "publishedAt": "2026-08-24T11:09:00.000Z",
-      "summary": "Looking to better protect your Kindle or add a little personality to your favorite e-reader? From cases and covers to page turners and even charms, this is the guide for you.",
-      "tags": [
-        "Safety"
-      ],
-      "engagementScore": 0
+      "engagementScore": 117
     },
     {
       "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
@@ -639,45 +682,6 @@
       "summary": "",
       "tags": [
         "Agents"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
-      "url": "https://huggingface.co/blog/multi-vector-encoder",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.3401,
-      "publishedAt": "2026-08-18T00:00:00.000Z",
-      "summary": "",
-      "tags": [
-        "RAG"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
-      "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.3401,
-      "publishedAt": "2026-08-17T19:46:21.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "State of Open Models: Summer 2026 Observations",
-      "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.3401,
-      "publishedAt": "2026-08-14T00:00:00.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
       ],
       "engagementScore": 0
     }
