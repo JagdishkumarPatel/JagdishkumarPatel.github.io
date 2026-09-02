@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T16:15:51.716Z",
+  "updatedAt": "2026-09-02T20:47:05.091Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,7 +12,7 @@
       "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 1.0532,
+      "score": 1.0211,
       "publishedAt": "2026-09-01T17:53:53.000Z",
       "summary": "Our most advanced models for coding and knowledge work. Their research capabilities also offer an early glimpse of how AI models will contribute to scientific progress.",
       "tags": [
@@ -20,53 +20,67 @@
         "Research",
         "Dev Tools"
       ],
-      "engagementScore": 1350
-    },
-    {
-      "title": "Gemini 3.8 Flash",
-      "url": "https://deepmind.google/models/model-cards/gemini-3-8-flash/",
-      "feedSource": "Hacker News",
-      "source": "deepmind.google",
-      "score": 0.9765,
-      "publishedAt": "2026-09-02T15:12:40.000Z",
-      "summary": "Google DeepMind",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 205
+      "engagementScore": 1370
     },
     {
       "title": "Path to Astra: critical capabilities and frontier safeguards",
       "url": "https://openai.com/index/path-to-astra/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.9579,
+      "score": 0.9256,
       "publishedAt": "2026-09-01T20:20:41.000Z",
       "summary": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 168
+      "engagementScore": 170
     },
     {
       "title": "The Emergent Symbolic Structure of Artificial Neural Networks",
       "url": "https://arxiv.org/abs/2608.29530",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.9096,
+      "score": 0.8845,
       "publishedAt": "2026-09-02T04:15:56.000Z",
       "summary": "Modern systems in artificial intelligence (AI) somehow excel in domains for which they seem poorly suited. Intelligence has traditionally been modeled as operating over structured combinations of symbols, such as logical formulas. However, the strongest modern AI systems are based on neural networks",
       "tags": [
         "AI"
       ],
-      "engagementScore": 238
+      "engagementScore": 266
+    },
+    {
+      "title": "Proactive cyber defense for governments and enterprises",
+      "url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
+      "feedSource": "DeepMind",
+      "source": "deepmind.google",
+      "score": 0.8824,
+      "publishedAt": "2026-09-02T16:24:24.000Z",
+      "summary": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
+      "feedSource": "DeepMind",
+      "source": "deepmind.google",
+      "score": 0.8818,
+      "publishedAt": "2026-09-02T16:18:31.000Z",
+      "summary": "Gemini 3.8 Flash and 3.8 Flash Cyber deliver next-generation intelligence for agentic workflows and cybersecurity.",
+      "tags": [
+        "LLM",
+        "Agents"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "Improving our alignment and security efforts",
       "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.8796,
+      "score": 0.8466,
       "publishedAt": "2026-09-01T23:12:45.000Z",
       "summary": "On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the meantime, we’re sharing some of the changes we’ve made over t",
       "tags": [
@@ -80,7 +94,7 @@
       "url": "https://openai.com/index/ai-native-company-workflows",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8677,
+      "score": 0.8348,
       "publishedAt": "2026-09-01T17:00:00.000Z",
       "summary": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
       "tags": [
@@ -94,7 +108,7 @@
       "url": "https://openai.com/index/path-to-astra",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8386,
+      "score": 0.8056,
       "publishedAt": "2026-09-01T13:00:00.000Z",
       "summary": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.",
       "tags": [
@@ -107,7 +121,7 @@
       "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8313,
+      "score": 0.7983,
       "publishedAt": "2026-09-01T12:00:00.000Z",
       "summary": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
       "tags": [
@@ -121,7 +135,7 @@
       "url": "https://arxiv.org/abs/2609.00002",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8288,
+      "score": 0.798,
       "publishedAt": "2026-09-02T04:00:00.000Z",
       "summary": "arXiv:2609.00002v1 Announce Type: new \nAbstract: World models enable language-model agents to predict environment dynamics and plan before acting. In text environments, the model must learn symbolic action effects from serialized state descriptions, but the role of serialization structure remains un",
       "tags": [
@@ -135,7 +149,7 @@
       "url": "https://arxiv.org/abs/2609.00003",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8288,
+      "score": 0.798,
       "publishedAt": "2026-09-02T04:00:00.000Z",
       "summary": "arXiv:2609.00003v1 Announce Type: new \nAbstract: Machine unlearning studies the removal of knowledge from an AI model, making the system forget a concept it previously learned. Despite rapid progress in generative machine unlearning, the unintended degradation of semantically related concepts that s",
       "tags": [
@@ -150,7 +164,7 @@
       "url": "https://arxiv.org/abs/2609.00004",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8288,
+      "score": 0.798,
       "publishedAt": "2026-09-02T04:00:00.000Z",
       "summary": "arXiv:2609.00004v1 Announce Type: new \nAbstract: This paper studies a finite-horizon multi-item capacitated lot-sizing problem in which demand quantities are deterministic, while demand-arrival periods are stochastic. Each demand occurs once within a known time window and must be satisfied no later",
       "tags": [
@@ -163,7 +177,7 @@
       "url": "https://arxiv.org/abs/2609.00005",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8288,
+      "score": 0.798,
       "publishedAt": "2026-09-02T04:00:00.000Z",
       "summary": "arXiv:2609.00005v1 Announce Type: new \nAbstract: Financial scams targeting older adults increasingly occur through text and voice channels such as email, SMS, and phone calls, unfolding over multiple conversational turns that begin with impersonation or casual contact, escalate through trust buildin",
       "tags": [
@@ -178,7 +192,7 @@
       "url": "https://arxiv.org/abs/2609.00012",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8288,
+      "score": 0.798,
       "publishedAt": "2026-09-02T04:00:00.000Z",
       "summary": "arXiv:2609.00012v1 Announce Type: new \nAbstract: Long-horizon tasks remain uncommon in large language model (LLM) evaluation, and for a reason: when each step depends on the last, per-step accuracy that looks excellent in isolation decays catastrophically, as errors cascade and the end-to-end failur",
       "tags": [
@@ -194,7 +208,7 @@
       "url": "https://arxiv.org/abs/2609.00015",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8288,
+      "score": 0.798,
       "publishedAt": "2026-09-02T04:00:00.000Z",
       "summary": "arXiv:2609.00015v1 Announce Type: new \nAbstract: AI agents powered by large language models are evolving from isolated assistants into heterogeneous systems in which multiple agents, planners, controllers, and execution backends operate over the same user or enterprise environment. In such settings,",
       "tags": [
@@ -210,7 +224,7 @@
       "url": "https://arxiv.org/abs/2609.00018",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8288,
+      "score": 0.798,
       "publishedAt": "2026-09-02T04:00:00.000Z",
       "summary": "arXiv:2609.00018v1 Announce Type: new \nAbstract: Computer science papers rely heavily on diagrams: architecture drawings, system flowcharts, and pipeline schematics that often carry more information than the text around them. There is currently no public dataset that pairs this specific kind of figu",
       "tags": [
@@ -223,7 +237,7 @@
       "url": "https://arxiv.org/abs/2609.00028",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8288,
+      "score": 0.798,
       "publishedAt": "2026-09-02T04:00:00.000Z",
       "summary": "arXiv:2609.00028v1 Announce Type: new \nAbstract: Multimodal GUI agents have emerged as a promising paradigm for digital task automation, yet transitioning from benchmark-oriented models to dependable real-world applications remains challenging due to limited environment coverage, brittle task constr",
       "tags": [
@@ -236,11 +250,25 @@
       "engagementScore": 0
     },
     {
+      "title": "Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+      "feedSource": "Hacker News",
+      "source": "blog.google",
+      "score": 0.7662,
+      "publishedAt": "2026-09-02T15:12:40.000Z",
+      "summary": "Gemini 3.8 Flash and 3.8 Flash Cyber deliver next-generation intelligence for agentic workflows and cybersecurity.",
+      "tags": [
+        "LLM",
+        "Agents"
+      ],
+      "engagementScore": 671
+    },
+    {
       "title": "Real-Time Intelligence with IBM Time Series Models on Confluent",
       "url": "https://huggingface.co/blog/ibm-research/real-time-intelligence",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.7796,
+      "score": 0.7511,
       "publishedAt": "2026-09-02T13:49:14.000Z",
       "summary": "A Blog post by IBM Research on Hugging Face",
       "tags": [
@@ -254,7 +282,7 @@
       "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.7549,
+      "score": 0.7241,
       "publishedAt": "2026-09-01T17:08:51.000Z",
       "summary": "We’re launching agentic video understanding across our latest Gemini models for improved accuracy and lower costs and token usage.",
       "tags": [
@@ -269,7 +297,7 @@
       "url": "https://openai.com/index/gilbert-tobin",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7511,
+      "score": 0.7181,
       "publishedAt": "2026-09-01T01:00:00.000Z",
       "summary": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.",
       "tags": [
@@ -279,11 +307,24 @@
       "engagementScore": 0
     },
     {
+      "title": "GLM-5.3 Uncensored",
+      "url": "https://huggingface.co/dealignai/GLM-5.3-UNCENSORED-FP8",
+      "feedSource": "Hacker News",
+      "source": "huggingface.co",
+      "score": 0.7056,
+      "publishedAt": "2026-09-02T16:39:52.000Z",
+      "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "tags": [
+        "Open Source"
+      ],
+      "engagementScore": 13
+    },
+    {
       "title": "Proactive cyber defense for governments and enterprises",
       "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.6824,
+      "score": 0.656,
       "publishedAt": "2026-09-02T15:40:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8__fairwind-program__b.max-600x600.format-webp.webp\"&gt;The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
       "tags": [
@@ -299,7 +340,7 @@
       "url": "https://huggingface.co/blog/allenai/benchmirt",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6774,
+      "score": 0.6489,
       "publishedAt": "2026-09-01T21:39:07.000Z",
       "summary": "A Blog post by Ai2 on Hugging Face",
       "tags": [
@@ -313,7 +354,7 @@
       "url": "https://www.technologyreview.com/2026/09/02/1142879/facilitating-ai-integration-with-simplicity-at-scale/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6727,
+      "score": 0.6463,
       "publishedAt": "2026-09-02T14:00:00.000Z",
       "summary": "As companies scale, the technology supporting operations can become a liability just as quickly as it becomes an asset. Disconnected systems, site-specific tools, spreadsheets, and manual workarounds can create data silos that make it harder to spot problems early, coordinate responses, and make dec",
       "tags": [
@@ -326,7 +367,7 @@
       "url": "https://www.technologyreview.com/2026/09/02/1143283/the-download-ai-puzzles-alpha-centauri-mission/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.662,
+      "score": 0.6356,
       "publishedAt": "2026-09-02T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. AI models flub these intelligence tests. Can you fare any better? Puzzles and games have always been central to AI development. The term “machine lear",
       "tags": [
@@ -335,25 +376,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Gemini 3.8 Flash and 3.8 Flash Cyber",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
-      "feedSource": "Hacker News",
-      "source": "blog.google",
-      "score": 0.6408,
-      "publishedAt": "2026-09-02T15:44:06.000Z",
-      "summary": "Gemini 3.8 Flash and 3.8 Flash Cyber deliver next-generation intelligence for agentic workflows and cybersecurity.",
-      "tags": [
-        "LLM",
-        "Agents"
-      ],
-      "engagementScore": 19
-    },
-    {
       "title": "OpenAI supports California’s bill to advance youth AI safety",
       "url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6198,
+      "score": 0.5869,
       "publishedAt": "2026-08-31T07:00:00.000Z",
       "summary": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
       "tags": [
@@ -367,7 +394,7 @@
       "url": "https://openai.com/index/polimill",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6198,
+      "score": 0.5869,
       "publishedAt": "2026-08-31T07:00:00.000Z",
       "summary": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
       "tags": [
@@ -377,11 +404,77 @@
       "engagementScore": 0
     },
     {
+      "title": "Google says its new Gemini 3.8 Flash model ‘works harder’ but might cost more",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/988742/google-gemini-3-8-flash",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5816,
+      "publishedAt": "2026-09-02T20:11:40.000Z",
+      "summary": "Google launched Gemini 3.8 Flash, arriving just a few weeks after its predecessor. The company claims the new model \"works harder\" than Gemini 3.7 Flash by performing more reasoning steps on complex tasks and \"calling tools iteratively.\" It has the same introductory pricing as 3.7 Flash, $0.75 per m",
+      "tags": [
+        "LLM",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Trump Administration Sides With OpenAI in New York Times Copyright Lawsuit",
+      "url": "https://www.wired.com/story/trump-administration-sides-with-ai-giants-new-york-times-lawsuit/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5735,
+      "publishedAt": "2026-09-02T18:41:02.000Z",
+      "summary": "The US government wrote a letter in support of OpenAI’s argument that training AI on others' intellectual property is fair use.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "ICE Plans to Pay $5 Million to Create National Voting Database",
+      "url": "https://www.wired.com/story/ice-plans-to-pay-5-million-to-create-national-voting-database/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5727,
+      "publishedAt": "2026-09-02T18:32:01.000Z",
+      "summary": "As part of a broader DHS surge to investigate alleged voter fraud, ICE has announced it plans to pay up to $5 million to create what amounts to a federal voter database.",
+      "tags": [
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "These Russian Mathematicians Taught AI Models How to Talk to Each Other Without Using Words",
+      "url": "https://www.wired.com/story/russian-startup-mostik-ai-models-communication/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5716,
+      "publishedAt": "2026-09-02T18:20:00.000Z",
+      "summary": "A startup called Mostik has a wild new approach to combining the capabilities of AI models.",
+      "tags": [
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Amazon’s AI assistant can now spot fake emails from the company",
+      "url": "https://www.theverge.com/tech/988518/amazon-alexa-for-shopping-verify-emails",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5692,
+      "publishedAt": "2026-09-02T17:52:56.000Z",
+      "summary": "Amazon is trying to combat impersonation scams with a new feature that allows you to use its AI assistant to determine whether an email, text message, or phone call actually came from the company. With the update, you can ask Alexa for Shopping about a message you received, and it will use AI to com",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "A milestone in expanding access to AI",
       "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.598,
+      "score": 0.565,
       "publishedAt": "2026-08-31T04:00:00.000Z",
       "summary": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
       "tags": [
@@ -391,11 +484,27 @@
       "engagementScore": 0
     },
     {
+      "title": "Researchers fear safety disaster ahead of OpenAI&#8217;s Astra release",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5628,
+      "publishedAt": "2026-09-02T16:40:50.000Z",
+      "summary": "OpenAI is on the cusp of releasing its most powerful AI model yet, Astra, following weeks of delays to shore up safety protocols after its agents attacked real targets during testing. As details about the model trickle out, researchers are warning it \"may be the single worst development for AI secur",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Research",
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "The Trump administration is supporting OpenAI in the NYT copyright lawsuit",
       "url": "https://www.theverge.com/ai-artificial-intelligence/988344/trump-administration-new-york-times-openai-lawsuit",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5844,
+      "score": 0.5603,
       "publishedAt": "2026-09-02T16:12:25.000Z",
       "summary": "The Trump administration has intervened in The New York Times' copyright lawsuit against OpenAI, making an argument in favor of the AI lab. The landmark lawsuit, filed in December 2023, alleging that OpenAI unlawfully trained its AI systems on articles from The New York Times and seeks to recoup \"bi",
       "tags": [
@@ -408,7 +517,7 @@
       "url": "https://www.wired.com/story/bot-vs-bot-job-interview-ai/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5826,
+      "score": 0.5584,
       "publishedAt": "2026-09-02T15:51:46.000Z",
       "summary": "Christopher was sick of being ghosted by AI recruiters. So he unleashed ChatGPT on his robot interviewer.",
       "tags": [
@@ -421,7 +530,7 @@
       "url": "https://www.theverge.com/tech/988355/mrbeast-google-partnership-gemini-fitbit",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5822,
+      "score": 0.558,
       "publishedAt": "2026-09-02T15:47:03.000Z",
       "summary": "MrBeast will feature Gemini, Google Health, and the Fitbit Air in upcoming videos as part of a multi-year partnership with Google. The deal will kick off with a video featuring Jimmy \"MrBeast\" Donaldson turning to Gemini for wilderness survival advice: First up on September 5 is a new MrBeast video",
       "tags": [
@@ -435,7 +544,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/988261/openai-tumbler-ridge-shooting-lawsuit-aiding-abetting",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5759,
+      "score": 0.5517,
       "publishedAt": "2026-09-02T14:36:42.000Z",
       "summary": "OpenAI and its CEO Sam Altman are facing 30 new lawsuits that accuse them of providing \"substantial assistance and encouragement\" to the suspect in Canada's Tumbler Ridge school shooting, as reported earlier by TechCrunch. The new wave of lawsuits was filed in a California federal court on Wednesday",
       "tags": [
@@ -445,11 +554,24 @@
       "engagementScore": 0
     },
     {
+      "title": "NYC bans AI use for students until they reach high school",
+      "url": "https://www.theverge.com/policy/988228/nyc-ai-restrictions-in-schools-chatbot-ban",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5477,
+      "publishedAt": "2026-09-02T13:51:03.000Z",
+      "summary": "New York City mayor Zohran Mamdani has announced a new policy today that will ban younger schoolchildren from using AI in classrooms. The one-year moratorium, effective in the 2026-2027 school year, will impact about 600,000 public school students in 2-K through eighth grade and is being introduced",
+      "tags": [
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "The latest AI news we announced in August 2026",
       "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.5721,
+      "score": 0.5457,
       "publishedAt": "2026-09-01T20:45:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/August_AI_Recap_social.max-600x600.format-webp.webp\"&gt;Here are Google’s latest AI updates from August 2026",
       "tags": [
@@ -460,24 +582,11 @@
       "engagementScore": 0
     },
     {
-      "title": "NYC bans AI use for students until they reach high school",
-      "url": "https://www.theverge.com/policy/988228/nyc-ai-restrictions-in-schools-chatbot-ban",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5718,
-      "publishedAt": "2026-09-02T13:51:03.000Z",
-      "summary": "New York City mayor Zohran Mamdani has announced a new policy today that will ban younger schoolchildren from using AI in classrooms. The one-year moratorium, effective in the 2026-2027 school year, will impact about 600,000 public school students in 2-K through eighth grade and is being introduced",
-      "tags": [
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "How AI plotted an interstellar journey to Alpha Centauri",
       "url": "https://www.technologyreview.com/2026/09/01/1143247/ai-interstellar-journey-alpha-centauri/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5629,
+      "score": 0.5365,
       "publishedAt": "2026-09-01T19:10:36.000Z",
       "summary": "A nonprofit organization called the Fermi Explorer Mission announced today that it intends to launch a spacecraft to our nearest star system by the end of 2029.&#160; It’s a hugely ambitious mission—if all goes well, the spacecraft could take up to 80,000 years to arrive at Alpha Centauri, which is",
       "tags": [
@@ -490,7 +599,7 @@
       "url": "https://www.wired.com/story/here-comes-the-tesla-cybercab/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5593,
+      "score": 0.5351,
       "publishedAt": "2026-09-02T11:30:00.000Z",
       "summary": "The electric-auto maker will officially debut its steering-wheel-free robotaxi on Thursday. But building the vehicle is the easy part.",
       "tags": [
@@ -503,7 +612,7 @@
       "url": "https://www.wired.com/story/sony-headphone-deals-september-2026/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5566,
+      "score": 0.5324,
       "publishedAt": "2026-09-02T11:00:00.000Z",
       "summary": "Our favorite Sony headphones are on sale, with discounts of up to 50 percent on top models.",
       "tags": [
@@ -516,7 +625,7 @@
       "url": "https://www.wired.com/story/pangram-has-emerged-as-the-gold-standard-of-ai-detection/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5512,
+      "score": 0.5271,
       "publishedAt": "2026-09-02T10:00:00.000Z",
       "summary": "Meet the AI police who can make or break careers—in publishing and beyond.",
       "tags": [
@@ -529,7 +638,7 @@
       "url": "https://www.wired.com/story/rei-labor-day-sale-2026/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5491,
+      "score": 0.5249,
       "publishedAt": "2026-09-02T09:36:00.000Z",
       "summary": "Labor Day already? Say it ain’t so. You can still chase summer a while longer with these great deals on outdoor gear at the REI Labor Day Sale.",
       "tags": [
@@ -538,24 +647,38 @@
       "engagementScore": 0
     },
     {
-      "title": "A Prop 65 Crash Course: What You Need to Know (2026)",
-      "url": "https://www.wired.com/story/why-does-everything-have-a-prop-65-warning/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5488,
-      "publishedAt": "2026-09-02T09:32:00.000Z",
-      "summary": "If you see a Prop 65 warning, don’t fret. Here’s what you need to know.",
+      "title": "Muse Spark 1.3",
+      "url": "https://developer.meta.com/ai/models/muse-spark/",
+      "feedSource": "Hacker News",
+      "source": "developer.meta.com",
+      "score": 0.5248,
+      "publishedAt": "2026-09-02T19:35:04.000Z",
+      "summary": "Trained for agentic workflows and optimized for competitive coding performance.",
+      "tags": [
+        "Agents",
+        "Dev Tools"
+      ],
+      "engagementScore": 147
+    },
+    {
+      "title": "I Don't Have a Smartphone",
+      "url": "https://ploum.net/2026-09-02-i_dont_have_a_smartphone.html",
+      "feedSource": "Hacker News",
+      "source": "ploum.net",
+      "score": 0.521,
+      "publishedAt": "2026-09-02T17:51:29.000Z",
+      "summary": "I Don’t Have a Smartphone… par Ploum - Lionel Dricot.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 0
+      "engagementScore": 167
     },
     {
       "title": "Try Google Pics: Easy image creation and editing in Google Workspace",
       "url": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.5444,
+      "score": 0.518,
       "publishedAt": "2026-09-01T16:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/GooglePics_Hero.max-600x600.format-webp.webp\"&gt;Built on our latest Nano Banana model, Google Pics — our image creation and editing tool — is now available.",
       "tags": [
@@ -564,97 +687,6 @@
         "Dev Tools"
       ],
       "engagementScore": 0
-    },
-    {
-      "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
-      "url": "https://huggingface.co/blog/webgpu-kernels",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.5406,
-      "publishedAt": "2026-09-01T00:00:00.000Z",
-      "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-      "tags": [
-        "Open Source"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Making the AI-powered case for legacy modernization",
-      "url": "https://www.technologyreview.com/2026/09/01/1142180/making-the-ai-powered-case-for-legacy-modernization/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.5327,
-      "publishedAt": "2026-09-01T14:00:00.000Z",
-      "summary": "For years, legacy technology has been a problem companies knew they needed to solve, but one they often struggled to tackle. The cost, complexity, and risk of replacing business-critical systems could make modernization feel like a disruption to manage instead of an opportunity to pursue. But with t",
-      "tags": [
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Booking.com Promo Codes: 20% Off | September 2026",
-      "url": "https://www.wired.com/story/booking-com-promo-code/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5245,
-      "publishedAt": "2026-09-02T05:00:00.000Z",
-      "summary": "Enjoy big savings on your next adventure with our Booking.com promo codes, coupons, and handpicked travel deals.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Priceline Promo Codes &amp; Coupons: 10% Off September 2026",
-      "url": "https://www.wired.com/story/priceline-promo-code/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5245,
-      "publishedAt": "2026-09-02T05:00:00.000Z",
-      "summary": "Unlock massive discounts on Priceline hotels, flights, and rental cars. Find verified Priceline coupon codes and deals for Express Deals, student discounts, and more.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Download: engineered microbes for crops, and OpenAI’s culture problem",
-      "url": "https://www.technologyreview.com/2026/09/01/1143199/the-download-engineered-microbes-openai-safety-culture/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.522,
-      "publishedAt": "2026-09-01T12:10:00.000Z",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. How engineered microbes could help feed the world’s crops Fertilizer is crucial for the global food supply, but making it uses a lot of energy and pro",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Three sites made 215,128 “best software” pages for AI. Perplexity cites them",
-      "url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/",
-      "feedSource": "Hacker News",
-      "source": "trellner.com",
-      "score": 0.5176,
-      "publishedAt": "2026-09-02T13:59:59.000Z",
-      "summary": "Across 380 software categories, 59.8% of the sources behind grounded AI recommendations sit outside the 100,000 most-visited websites, and several of the most-cited are sites built to be read by models rather than by people.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 139
-    },
-    {
-      "title": "Mistral now trains on user input by default, except on enterprise tier",
-      "url": "https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training",
-      "feedSource": "Hacker News",
-      "source": "help.mistral.ai",
-      "score": 0.5174,
-      "publishedAt": "2026-09-02T12:30:39.000Z",
-      "summary": "Updated yesterday",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 169
     },
     {
       "title": "Our decision on Cursor following its acquisition by SpaceX",
@@ -668,33 +700,6 @@
         "LLM",
         "Dev Tools",
         "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "How engineered microbes could help feed the world’s crops",
-      "url": "https://www.technologyreview.com/2026/09/01/1143195/microbe-fertilizer-switch-bioworks/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.5035,
-      "publishedAt": "2026-09-01T09:00:00.000Z",
-      "summary": "Fertilizer is crucial for the global food supply, but making it uses a lot of energy and produces a lot of emissions. Some companies hope microbes can help. A growing body of research shows that seeding the soil around a crop’s roots with beneficial microbes can help feed the plant, providing crucia",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Google needs Hollywood more than the studios need AI",
-      "url": "https://www.theverge.com/tech/987429/google-needs-hollywood-more-than-the-studios-need-ai",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4916,
-      "publishedAt": "2026-09-01T22:50:29.000Z",
-      "summary": "Google has reportedly been reaching out to a number of Hollywood's biggest studios, hoping to strike licensing agreements that would allow it to train its AI models on copyrighted material in exchange for massive piles of cash. In theory, these deals would be a win-win: a huge financial boon to the",
-      "tags": [
-        "Research",
-        "ML Infra"
       ],
       "engagementScore": 0
     }
