@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T22:43:02.113Z",
+  "updatedAt": "2026-09-06T03:45:49.914Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,7 +12,7 @@
       "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.9793,
+      "score": 0.9433,
       "publishedAt": "2026-09-04T18:42:56.000Z",
       "summary": "Anthropic is an AI safety and research company that’s working to build reliable, interpretable, and steerable AI systems.",
       "tags": [
@@ -20,14 +20,14 @@
         "Research",
         "Safety"
       ],
-      "engagementScore": 737
+      "engagementScore": 749
     },
     {
       "title": "LLMs as a Cognitive Virus",
       "url": "https://arxiv.org/abs/2609.03344",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.9371,
+      "score": 0.9304,
       "publishedAt": "2026-09-05T20:02:35.000Z",
       "summary": "Large-language models (LLMs) are rapidly becoming part of human culture, reshaping how information is produced, transmitted, and used. Here we propose that their diffusion can be understood through a viral analogy, with LLM use spreading through populations, becoming embedded in cognitive and cultur",
       "tags": [
@@ -35,27 +35,27 @@
         "Vision",
         "Dev Tools"
       ],
-      "engagementScore": 117
+      "engagementScore": 202
     },
     {
       "title": "GPT-6 Astra",
       "url": "https://openai.com/index/gpt-6-astra/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.8638,
+      "score": 0.8271,
       "publishedAt": "2026-09-03T18:41:05.000Z",
       "summary": "Reload to try again, or go back.",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 2216
+      "engagementScore": 2220
     },
     {
       "title": "Structure and Implementation of New Practical English Textbooks Driven by Artificial Intelligence",
       "url": "https://arxiv.org/abs/2609.02981",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7848,
+      "score": 0.7505,
       "publishedAt": "2026-09-05T04:00:00.000Z",
       "summary": "arXiv:2609.02981v1 Announce Type: new \nAbstract: Artificial intelligence is changing the form of applied English materials from fixed paper sequences to adaptive learning systems that can diagnose learners, recommend tasks, and provide formative feedback. This paper studies the structure and applica",
       "tags": [
@@ -68,7 +68,7 @@
       "url": "https://arxiv.org/abs/2609.03209",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7848,
+      "score": 0.7505,
       "publishedAt": "2026-09-05T04:00:00.000Z",
       "summary": "arXiv:2609.03209v1 Announce Type: new \nAbstract: We study a governed approach to enterprise analytics: a language model interprets the question, while deterministic policy selects and runs a pre-approved analytical program that returns both results and evidence. We show that this restriction can rem",
       "tags": [
@@ -83,7 +83,7 @@
       "url": "https://arxiv.org/abs/2609.03236",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7848,
+      "score": 0.7505,
       "publishedAt": "2026-09-05T04:00:00.000Z",
       "summary": "arXiv:2609.03236v1 Announce Type: new \nAbstract: Tool-using LLM agents spend wall-clock time not only on model inference but also in serial action--observation turns, where each tool call, environment transition, and observation can delay subsequent decisions. We introduce \\textbf{Speculative Macro",
       "tags": [
@@ -99,7 +99,7 @@
       "url": "https://arxiv.org/abs/2609.03340",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7848,
+      "score": 0.7505,
       "publishedAt": "2026-09-05T04:00:00.000Z",
       "summary": "arXiv:2609.03340v1 Announce Type: new \nAbstract: Distributed LLM-agent teams can read the latest shared facts and still act on an obsolete plan. A planner may derive an action from requirement $r_3$, another agent may commit $r_4$, and an executor may receive $r_4$ without replacing the plan derived",
       "tags": [
@@ -114,7 +114,7 @@
       "url": "https://arxiv.org/abs/2609.03402",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7848,
+      "score": 0.7505,
       "publishedAt": "2026-09-05T04:00:00.000Z",
       "summary": "arXiv:2609.03402v1 Announce Type: new \nAbstract: Artificial intelligence (AI) teaching assistants powered by large language models (LLMs) offer scalable educational support but often provide limited personalization. This study presents a prompt-engineering-based framework for personalizing general-p",
       "tags": [
@@ -128,7 +128,7 @@
       "url": "https://arxiv.org/abs/2609.03407",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7848,
+      "score": 0.7505,
       "publishedAt": "2026-09-05T04:00:00.000Z",
       "summary": "arXiv:2609.03407v1 Announce Type: new \nAbstract: People increasingly turn to large language models (LLMs) for everyday advice, making ethically charged interpersonal problems a practical moral-advisory context. Most prior work has studied this context through single-turn judgments or pressure-laden",
       "tags": [
@@ -142,7 +142,7 @@
       "url": "https://arxiv.org/abs/2609.03416",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7848,
+      "score": 0.7505,
       "publishedAt": "2026-09-05T04:00:00.000Z",
       "summary": "arXiv:2609.03416v1 Announce Type: new \nAbstract: LLM-empowered paper-code discrepancy detection has received growing concern since the scaling of research submissions exceeds the manual review capability. However, the limited context capacity and one-sided discrepancy detection of existing single-ag",
       "tags": [
@@ -158,7 +158,7 @@
       "url": "https://arxiv.org/abs/2609.03423",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7848,
+      "score": 0.7505,
       "publishedAt": "2026-09-05T04:00:00.000Z",
       "summary": "arXiv:2609.03423v1 Announce Type: new \nAbstract: Full-duplex voice agents must continuously decide when to listen, backchannel, interrupt, handle speech overlaps, take the floor, and yield. Existing benchmarks largely test these behaviors through explicit turn-management instructions, while deployed",
       "tags": [
@@ -174,18 +174,20 @@
       "source": "anthropic.com",
       "score": 0.6938,
       "publishedAt": "2026-09-01T17:53:53.000Z",
-      "summary": "",
+      "summary": "Our most advanced models for coding and knowledge work. Their research capabilities also offer an early glimpse of how AI models will contribute to scientific progress.",
       "tags": [
-        "LLM"
+        "LLM",
+        "Research",
+        "Dev Tools"
       ],
-      "engagementScore": 1413
+      "engagementScore": 1414
     },
     {
       "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
       "url": "https://openai.com/index/daybreak-for-frontline-defenders",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6184,
+      "score": 0.5815,
       "publishedAt": "2026-09-03T13:15:00.000Z",
       "summary": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
       "tags": [
@@ -199,7 +201,7 @@
       "url": "https://openai.com/index/playco-game-prototyping-with-astra",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6092,
+      "score": 0.5724,
       "publishedAt": "2026-09-03T12:00:00.000Z",
       "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
       "tags": [
@@ -212,7 +214,7 @@
       "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6092,
+      "score": 0.5724,
       "publishedAt": "2026-09-03T12:00:00.000Z",
       "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
       "tags": [
@@ -225,7 +227,7 @@
       "url": "https://openai.com/index/gpt-6-astra",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6019,
+      "score": 0.5651,
       "publishedAt": "2026-09-03T11:00:00.000Z",
       "summary": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
       "tags": [
@@ -236,124 +238,16 @@
       "engagementScore": 0
     },
     {
-      "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
-      "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.5333,
-      "publishedAt": "2026-09-03T15:02:08.000Z",
-      "summary": "WeatherNext 3, our most advanced global weather AI model, is now in Search, Gemini, Maps, Google Maps Platform, and Cloud.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "OpenAI admits to German wiki ‘incident’",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5246,
-      "publishedAt": "2026-09-05T11:28:05.000Z",
-      "summary": "OpenAI says it needs to overhaul how and when it reports instances of AI models attacking real-world targets. The acknowledgement comes as the company manages the fallout from reports that a swarm of its out-of-control agents hijacked a German wiki site. Regarding the \"'wiki incident,' where our age",
-      "tags": [
-        "LLM",
-        "Agents"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Architecting memory and storage in the AI era",
-      "url": "https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.5222,
-      "publishedAt": "2026-09-04T18:39:19.000Z",
-      "summary": "The era of AI inference has arrived. Imagine a healthcare system analyzing millions of data points in real time to accelerate life-saving medical research, or an intelligent assistant instantly resolving thousands of complex customer needs at once. These real-world breakthroughs rely on advanced inf",
-      "tags": [
-        "Research",
-        "RAG"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "4 Best Alexa Speakers I’ve Tested (2026)",
-      "url": "https://www.wired.com/gallery/best-alexa-and-amazon-echo-speakers/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5222,
-      "publishedAt": "2026-09-05T11:01:00.000Z",
-      "summary": "I’ve rounded up the best smart speakers that let you talk to Alexa, from the popular Echo Dot to the newest Echo Studio.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Safety overview: GPT-6 Astra",
       "url": "https://openai.com/index/safety-overview-gpt-6-astra",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.5217,
+      "score": 0.5124,
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "summary": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.",
       "tags": [
         "LLM",
         "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "There May Not Be an iPhone 18 This Year",
-      "url": "https://www.wired.com/story/there-may-not-be-an-iphone-18-this-year/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5194,
-      "publishedAt": "2026-09-05T10:30:00.000Z",
-      "summary": "Apple is expected to announce several products at its September event next week—including a folding phone—but the iPhone 18 might not be among them. It would be a first for the company.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "OpenAI Agents Hacked Another Website",
-      "url": "https://www.wired.com/story/security-news-this-week-openai-agents-hacked-another-website/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5194,
-      "publishedAt": "2026-09-05T10:30:00.000Z",
-      "summary": "Plus: Tens of millions of US and Canadian drivers’ licenses go up for sale on the dark web, the US military finally tries to tackle the risk online ad data poses to troops, and more.",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Scientists Put Caterpillars in an Ultraquiet Chamber to Learn How They Hear Without Ears",
-      "url": "https://www.wired.com/story/how-do-caterpillars-hear-without-ears/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5167,
-      "publishedAt": "2026-09-05T10:00:00.000Z",
-      "summary": "The research could do more than help unlock the mystery of caterpillar hearing. It could also help make microphones better.",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Watch World Went Crazy This Week. Here Are the 10 You Need to See",
-      "url": "https://www.wired.com/story/the-watch-world-went-crazy-this-week-here-are-the-10-you-need-to-see/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5154,
-      "publishedAt": "2026-09-05T09:45:00.000Z",
-      "summary": "The main action took place at Geneva Watch Days, but others dialed in remotely to make sure it wasn't just a Swiss party.",
-      "tags": [
-        "AI"
       ],
       "engagementScore": 0
     },
@@ -398,15 +292,138 @@
       "engagementScore": 0
     },
     {
-      "title": "Marvel Has Assigned 42 Hours of Homework Before ‘Avengers: Doomsday’",
-      "url": "https://www.wired.com/story/marvel-has-assigned-42-hours-of-homework-before-avengers-doomsday/",
+      "title": "Chrome again exempts Google from user site data settings",
+      "url": "https://lapcatsoftware.com/articles/2026/9/1.html",
+      "feedSource": "Hacker News",
+      "source": "lapcatsoftware.com",
+      "score": 0.5099,
+      "publishedAt": "2026-09-05T23:39:47.000Z",
+      "summary": "Six years ago I published a blog post Chrome exempts Google sites from user site data settings that received quite a bit of attention: Michael Tsai, Hacker News The Register, The Verge, and Gizmodo, among others. The blog post was about a Google Chrome bug that mysteriously exempted Google-owned sit",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 144
+    },
+    {
+      "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+      "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+      "feedSource": "DeepMind",
+      "source": "deepmind.google",
+      "score": 0.4989,
+      "publishedAt": "2026-09-03T15:02:08.000Z",
+      "summary": "WeatherNext 3, our most advanced global weather AI model, is now in Search, Gemini, Maps, Google Maps Platform, and Cloud.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "OpenAI admits to German wiki ‘incident’",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.4976,
+      "publishedAt": "2026-09-05T11:28:05.000Z",
+      "summary": "OpenAI says it needs to overhaul how and when it reports instances of AI models attacking real-world targets. The acknowledgement comes as the company manages the fallout from reports that a swarm of its out-of-control agents hijacked a German wiki site. Regarding the \"'wiki incident,' where our age",
+      "tags": [
+        "LLM",
+        "Agents"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "4 Best Alexa Speakers I’ve Tested (2026)",
+      "url": "https://www.wired.com/gallery/best-alexa-and-amazon-echo-speakers/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5114,
-      "publishedAt": "2026-09-05T09:00:00.000Z",
-      "summary": "The studio released an official catch-up list ahead of December’s release. We have easy links to watch every one of the movies so you can get up to speed.",
+      "score": 0.4952,
+      "publishedAt": "2026-09-05T11:01:00.000Z",
+      "summary": "I’ve rounded up the best smart speakers that let you talk to Alexa, from the popular Echo Dot to the newest Echo Studio.",
       "tags": [
-        "Open Source"
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Architecting memory and storage in the AI era",
+      "url": "https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.4928,
+      "publishedAt": "2026-09-04T18:39:19.000Z",
+      "summary": "The era of AI inference has arrived. Imagine a healthcare system analyzing millions of data points in real time to accelerate life-saving medical research, or an intelligent assistant instantly resolving thousands of complex customer needs at once. These real-world breakthroughs rely on advanced inf",
+      "tags": [
+        "Research",
+        "RAG"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "There May Not Be an iPhone 18 This Year",
+      "url": "https://www.wired.com/story/there-may-not-be-an-iphone-18-this-year/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4924,
+      "publishedAt": "2026-09-05T10:30:00.000Z",
+      "summary": "Apple is expected to announce several products at its September event next week—including a folding phone—but the iPhone 18 might not be among them. It would be a first for the company.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "OpenAI Agents Hacked Another Website",
+      "url": "https://www.wired.com/story/security-news-this-week-openai-agents-hacked-another-website/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4924,
+      "publishedAt": "2026-09-05T10:30:00.000Z",
+      "summary": "Plus: Tens of millions of US and Canadian drivers’ licenses go up for sale on the dark web, the US military finally tries to tackle the risk online ad data poses to troops, and more.",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Scientists Put Caterpillars in an Ultraquiet Chamber to Learn How They Hear Without Ears",
+      "url": "https://www.wired.com/story/how-do-caterpillars-hear-without-ears/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4898,
+      "publishedAt": "2026-09-05T10:00:00.000Z",
+      "summary": "The research could do more than help unlock the mystery of caterpillar hearing. It could also help make microphones better.",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "GPT-6 Astra on robot arms",
+      "url": "https://openai.robocurve.org/gpt-6-astra/",
+      "feedSource": "Hacker News",
+      "source": "openai.robocurve.org",
+      "score": 0.4896,
+      "publishedAt": "2026-09-06T01:52:45.000Z",
+      "summary": "OpenAI’s GPT-6 Astra vs Claude Fable 5.1 controlling a pair of YAM arms under the same agent policy: 19/20 vs 8/20 on block-into-bowl in interleaved blinded pairs, 2/20 vs 2/20 on the puzzle, with 80% fewer output tokens.",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Safety"
+      ],
+      "engagementScore": 61
+    },
+    {
+      "title": "The Watch World Went Crazy This Week. Here Are the 10 You Need to See",
+      "url": "https://www.wired.com/story/the-watch-world-went-crazy-this-week-here-are-the-10-you-need-to-see/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4884,
+      "publishedAt": "2026-09-05T09:45:00.000Z",
+      "summary": "The main action took place at Geneva Watch Days, but others dialed in remotely to make sure it wasn't just a Swiss party.",
+      "tags": [
+        "AI"
       ],
       "engagementScore": 0
     },
@@ -415,33 +432,46 @@
       "url": "https://usr.lmf.cnrs.fr/lpo/",
       "feedSource": "Hacker News",
       "source": "usr.lmf.cnrs.fr",
-      "score": 0.4977,
+      "score": 0.4867,
       "publishedAt": "2026-09-05T16:45:02.000Z",
       "summary": "This book on OCaml\nis an English translation\n(by Urmila Nair)\nof\nthis book in French.\nThe translation was funded by\nThe OCaml Software Foundation.\nThe book is openly licensed via\nCC BY SA 4.0.",
       "tags": [
         "Dev Tools"
       ],
-      "engagementScore": 132
+      "engagementScore": 192
+    },
+    {
+      "title": "Marvel Has Assigned 42 Hours of Homework Before ‘Avengers: Doomsday’",
+      "url": "https://www.wired.com/story/marvel-has-assigned-42-hours-of-homework-before-avengers-doomsday/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4844,
+      "publishedAt": "2026-09-05T09:00:00.000Z",
+      "summary": "The studio released an official catch-up list ahead of December’s release. We have easy links to watch every one of the movies so you can get up to speed.",
+      "tags": [
+        "Open Source"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "AI handles incidents, engineers lose touch with their systems",
       "url": "https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems",
       "feedSource": "Hacker News",
       "source": "sylvainkalache.com",
-      "score": 0.491,
+      "score": 0.4672,
       "publishedAt": "2026-09-05T07:52:50.000Z",
       "summary": "AI-assisted incident response can lower MTTR while leaving engineers less prepared for the complex incidents automation cannot solve.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 361
+      "engagementScore": 368
     },
     {
       "title": "The Download: selling battlefield drone data and AI reshaping language",
       "url": "https://www.technologyreview.com/2026/09/04/1143457/the-download-ukraine-selling-drone-data-ai-reshaping-language/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4844,
+      "score": 0.4549,
       "publishedAt": "2026-09-04T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Data from drones in Ukraine is fueling a new Wild West marketplace —Cory Alpert, a researcher at the University of Melbourne studying AI&#8217;s impac",
       "tags": [
@@ -451,109 +481,15 @@
       "engagementScore": 0
     },
     {
-      "title": ".gitignore Everything by Default",
-      "url": "https://packagemain.tech/p/gitignore-everything-by-default",
-      "feedSource": "Hacker News",
-      "source": "packagemain.tech",
-      "score": 0.4816,
-      "publishedAt": "2026-09-05T13:19:42.000Z",
-      "summary": "An opposite view on .gitignore files.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 134
-    },
-    {
-      "title": "Finite time blowup for an averaged three-dimensional Navier-Stokes equation (2014)",
-      "url": "https://terrytao.wordpress.com/2014/02/04/finite-time-blowup-for-an-averaged-three-dimensional-navier-stokes-equation/",
-      "feedSource": "Hacker News",
-      "source": "terrytao.wordpress.com",
-      "score": 0.4742,
-      "publishedAt": "2026-09-05T20:25:59.000Z",
-      "summary": "I’ve just uploaded to the arXiv the paper “Finite time blowup for an averaged three-dimensional Navier-Stokes equation”, submitted to J. Amer. Math. Soc.. The main purpose of this…",
-      "tags": [
-        "Research",
-        "RAG"
-      ],
-      "engagementScore": 42
-    },
-    {
       "title": "Data from drones in Ukraine is fueling a new Wild West marketplace",
       "url": "https://www.technologyreview.com/2026/09/04/1143452/drone-data-wild-west/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4684,
+      "score": 0.4389,
       "publishedAt": "2026-09-04T09:25:19.000Z",
       "summary": "Battlefields in Ukraine are littered with the remnants of drones, which are now firmly established as a critical weapon of modern warfare. But behind all that wreckage, there’s a new gold mine for the defense sector. The data drones generate will far outlast the wars in which they are used to fight,",
       "tags": [
         "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Home Depot Labor Day Sale (2026): BOGO on Best Grills and Tools",
-      "url": "https://www.wired.com/story/home-depot-labor-day-sale-deals-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.436,
-      "publishedAt": "2026-09-04T18:54:28.000Z",
-      "summary": "The Home Depot Labor Day sale goes hard on grills and tools. Here are our recommendations on what to buy—and what to ignore.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Casio ‘CasioNaut’ G-Shock GMC-2500 GAC-2500 Series: Price, Specs, Availability",
-      "url": "https://www.wired.com/story/casio-g-shock-casionaut-looks-like-a-patek-philippe-classic/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4349,
-      "publishedAt": "2026-09-04T18:41:47.000Z",
-      "summary": "In what appears to be a follow-up to the mighty “CasiOak,” the rugged Japanese watch brand is expected to release an all-new luxury homage.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
-      "url": "https://huggingface.co/blog/Hcompany/neomme",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.4318,
-      "publishedAt": "2026-09-03T13:13:48.000Z",
-      "summary": "A Blog post by H company on Hugging Face",
-      "tags": [
-        "Open Source",
-        "Vision",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Roland is getting into generative AI music with Melody Flip",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/990197/roland-ai-music-melody-flip",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4304,
-      "publishedAt": "2026-09-04T17:51:35.000Z",
-      "summary": "It's not quite the \"push button; get song\" of Suno, but Roland's new Melody Flip tool marks the company's foray into generative AI music. Available as a plug-in for your digital audio workstation (DAW), Melody Flip offers around 250 \"Palettes,\" which are essentially themed collections of musical ide",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Microsoft says virtually nobody was grabbing NYT articles through its chatbot",
-      "url": "https://www.theverge.com/policy/990267/microsoft-openai-new-york-times-authors-lawsuit",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4268,
-      "publishedAt": "2026-09-04T17:10:35.000Z",
-      "summary": "Microsoft's Copilot rarely reproduces even full sentences from news articles and books, let alone substantive chunks that could substitute for the original, the company says in new legal filings as it fights copyright claims from publishers including The New York Times and book authors. As part of t",
-      "tags": [
-        "Dev Tools"
       ],
       "engagementScore": 0
     },
@@ -654,11 +590,78 @@
       "engagementScore": 0
     },
     {
+      "title": "Home Depot Labor Day Sale (2026): BOGO on Best Grills and Tools",
+      "url": "https://www.wired.com/story/home-depot-labor-day-sale-deals-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4091,
+      "publishedAt": "2026-09-04T18:54:28.000Z",
+      "summary": "The Home Depot Labor Day sale goes hard on grills and tools. Here are our recommendations on what to buy—and what to ignore.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Casio ‘CasioNaut’ G-Shock GMC-2500 GAC-2500 Series: Price, Specs, Availability",
+      "url": "https://www.wired.com/story/casio-g-shock-casionaut-looks-like-a-patek-philippe-classic/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4079,
+      "publishedAt": "2026-09-04T18:41:47.000Z",
+      "summary": "In what appears to be a follow-up to the mighty “CasiOak,” the rugged Japanese watch brand is expected to release an all-new luxury homage.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Roland is getting into generative AI music with Melody Flip",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990197/roland-ai-music-melody-flip",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.4035,
+      "publishedAt": "2026-09-04T17:51:35.000Z",
+      "summary": "It's not quite the \"push button; get song\" of Suno, but Roland's new Melody Flip tool marks the company's foray into generative AI music. Available as a plug-in for your digital audio workstation (DAW), Melody Flip offers around 250 \"Palettes,\" which are essentially themed collections of musical ide",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
+      "url": "https://huggingface.co/blog/Hcompany/neomme",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.3999,
+      "publishedAt": "2026-09-03T13:13:48.000Z",
+      "summary": "A Blog post by H company on Hugging Face",
+      "tags": [
+        "Open Source",
+        "Vision",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Microsoft says virtually nobody was grabbing NYT articles through its chatbot",
+      "url": "https://www.theverge.com/policy/990267/microsoft-openai-new-york-times-authors-lawsuit",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.3998,
+      "publishedAt": "2026-09-04T17:10:35.000Z",
+      "summary": "Microsoft's Copilot rarely reproduces even full sentences from news articles and books, let alone substantive chunks that could substitute for the original, the company says in new legal filings as it fights copyright claims from publishers including The New York Times and book authors. As part of t",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Rogue OpenAI agents appear to have organized another attack using a German wiki",
       "url": "https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.414,
+      "score": 0.387,
       "publishedAt": "2026-09-04T14:46:39.000Z",
       "summary": "A swarm of rogue AI agents from OpenAI reportedly commandeered a German website and transformed it into a messaging board for other agents, with officials staying quiet about the incident for weeks as the company prepared to launch its most advanced model yet, Astra. The finding adds to intensifying",
       "tags": [
@@ -672,7 +675,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.3968,
+      "score": 0.3698,
       "publishedAt": "2026-09-04T11:33:40.000Z",
       "summary": "Just hours after OpenAI launched GPT-6 Astra, CEO Sam Altman was already apologizing for what he describes as a \"messy rollout\" after paying users expecting access to the new frontier model were left waiting. The company hailed the model as a \"generational leap in capability\" on Thursday and describ",
       "tags": [
@@ -685,7 +688,7 @@
       "url": "https://www.theverge.com/news/990051/microsoft-project-zenith-windows-developers",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.3957,
+      "score": 0.3687,
       "publishedAt": "2026-09-04T11:22:12.000Z",
       "summary": "Microsoft is giving its developer-optimized Windows experience a name: Project Zenith. While the software maker originally announced a similar developer-optimized Windows effort at Build earlier this year, Project Zenith is designed for new developer-focused devices with 64GB or more of unified memo",
       "tags": [
