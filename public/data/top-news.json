@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T22:48:07.263Z",
+  "updatedAt": "2026-09-07T03:45:11.828Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,20 +12,20 @@
       "url": "https://openai.com/index/an-alien-mind/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 1.085,
+      "score": 1.0611,
       "publishedAt": "2026-09-06T16:27:05.000Z",
       "summary": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
       "tags": [
         "Safety"
       ],
-      "engagementScore": 282
+      "engagementScore": 353
     },
     {
       "title": "Research acceleration: The view inside OpenAI",
       "url": "https://openai.com/index/research-acceleration-view-inside-openai",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 1.0129,
+      "score": 0.9965,
       "publishedAt": "2026-09-06T15:08:44.000Z",
       "summary": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
       "tags": [
@@ -34,31 +34,14 @@
         "Research",
         "Dev Tools"
       ],
-      "engagementScore": 89
-    },
-    {
-      "title": "How we monitor internal coding agents for misalignment",
-      "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment/",
-      "feedSource": "Hacker News",
-      "source": "openai.com",
-      "score": 0.9867,
-      "publishedAt": "2026-09-06T16:37:55.000Z",
-      "summary": "How OpenAI uses chain-of-thought monitoring to study misalignment in internal coding agents—analyzing real-world deployments to detect risks and strengthen AI safety safeguards.",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Research",
-        "Safety",
-        "Dev Tools"
-      ],
-      "engagementScore": 45
+      "engagementScore": 128
     },
     {
       "title": "An Alien Mind",
       "url": "https://openai.com/index/an-alien-mind",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9367,
+      "score": 0.9006,
       "publishedAt": "2026-09-06T09:00:00.000Z",
       "summary": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
       "tags": [
@@ -71,21 +54,21 @@
       "url": "https://arxiv.org/abs/2505.12540",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8357,
+      "score": 0.8687,
       "publishedAt": "2026-09-06T20:31:20.000Z",
       "summary": "We introduce the first method for translating text embeddings from one vector space to another without any paired data, encoders, or predefined sets of matches. Our unsupervised approach translates any embedding to and from a universal latent representation (i.e., a universal semantic structure conj",
       "tags": [
         "RAG",
         "Dev Tools"
       ],
-      "engagementScore": 15
+      "engagementScore": 56
     },
     {
       "title": "LLMs as a Cognitive Virus",
       "url": "https://arxiv.org/abs/2609.03344",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8317,
+      "score": 0.7993,
       "publishedAt": "2026-09-05T20:02:35.000Z",
       "summary": "Large-language models (LLMs) are rapidly becoming part of human culture, reshaping how information is produced, transmitted, and used. Here we propose that their diffusion can be understood through a viral analogy, with LLM use spreading through populations, becoming embedded in cognitive and cultur",
       "tags": [
@@ -93,14 +76,14 @@
         "Vision",
         "Dev Tools"
       ],
-      "engagementScore": 371
+      "engagementScore": 381
     },
     {
       "title": "Formalizing Fermat's Last Theorem",
       "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.8055,
+      "score": 0.7694,
       "publishedAt": "2026-09-04T18:42:56.000Z",
       "summary": "Anthropic is an AI safety and research company that’s working to build reliable, interpretable, and steerable AI systems.",
       "tags": [
@@ -126,108 +109,31 @@
       "engagementScore": 2246
     },
     {
-      "title": "Claude Fable 5.1 and Claude Mythos 5.1",
-      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "title": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5632,
+      "publishedAt": "2026-09-06T23:43:53.000Z",
+      "summary": "The Seattle Times and Newsday are just the latest plaintiffs to take OpenAI to court, alleging copyright infringement. The two outlets say the company used their journalism as training data for its AI models without permission and often reproduces passages from their reporting in response to user qu",
+      "tags": [
+        "LLM",
+        "ML Infra"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "A/I shuts down",
+      "url": "https://keepitfree.ai/announcements/a/i-shuts-down-stay-human/",
       "feedSource": "Hacker News",
-      "source": "anthropic.com",
-      "score": 0.6938,
-      "publishedAt": "2026-09-01T17:53:53.000Z",
-      "summary": "",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 1415
-    },
-    {
-      "title": "The Best Laptop Backpacks for Work, Travel, and Everything Between (2026)",
-      "url": "https://www.wired.com/story/best-laptop-backpacks/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5243,
-      "publishedAt": "2026-09-06T11:30:00.000Z",
-      "summary": "The wrong bag can aggravate you every single day. These WIRED-tested picks get comfort, capacity, and organization just right.",
+      "source": "keepitfree.ai",
+      "score": 0.5136,
+      "publishedAt": "2026-09-06T14:34:34.000Z",
+      "summary": "The day we discovered we had been designated a global terrorist organization, we promised that we would try to resist as long as this was possible, that we would not back down as long as we could see options to stand our ground. For years, we have proudly maintained and defended a free, privacy-frie",
       "tags": [
         "AI"
       ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Create Custom Windows 11 Notifications to Remind Yourself of Anything",
-      "url": "https://www.wired.com/story/create-custom-windows-11-notifications-to-remind-yourself-of-anything/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5216,
-      "publishedAt": "2026-09-06T11:00:00.000Z",
-      "summary": "Take full control of your desktop alerts by sending yourself recurring reminders and custom notifications triggered by specific events.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "These Cyborg Cockroaches Could Save Your Life",
-      "url": "https://www.wired.com/story/cyborg-cockroaches-disaster-response/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.519,
-      "publishedAt": "2026-09-06T10:30:00.000Z",
-      "summary": "The team embedded electrodes into live cockroaches, then outfitted them with cameras and injection devices to deliver medication via remote control.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "My Brief Summer Fling With Siri AI",
-      "url": "https://www.wired.com/story/my-brief-summer-fling-with-siri-ai/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.519,
-      "publishedAt": "2026-09-06T10:30:00.000Z",
-      "summary": "I was initially enamored with the beta version of Apple’s revamped smartphone assistant. As the full release approaches, I’ve forgotten Siri AI even exists.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Best Water Leak Detectors (2026): Moen, Phyn, TP-Link",
-      "url": "https://www.wired.com/gallery/best-water-leak-detector/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5171,
-      "publishedAt": "2026-09-06T10:09:00.000Z",
-      "summary": "Don’t let busted pipes or an overflowing washing machine dampen your day. These smart water sensors can help you catch problems quicker.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Why China Is the Bogeyman Data Center Enthusiasts Just Can't Quit",
-      "url": "https://www.wired.com/story/why-china-is-still-the-bogeyman-for-data-center-enthusiasts/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5163,
-      "publishedAt": "2026-09-06T10:00:00.000Z",
-      "summary": "Polls show that overwhelming majorities of Americans hate data centers. China makes a perfect scapegoat for tech leaders and their allies—the only problem is a lack of evidence.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Best Gaming Chairs (2026): Are They Worth It?",
-      "url": "https://www.wired.com/gallery/best-gaming-chairs/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.515,
-      "publishedAt": "2026-09-06T09:45:00.000Z",
-      "summary": "The best gaming chair is actually an office chair. Here are our top picks from our real-life testing so far.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
+      "engagementScore": 540
     },
     {
       "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
@@ -322,6 +228,110 @@
       "tags": [
         "Agents",
         "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Making a Python interpreter in 1024 bytes",
+      "url": "https://austinhenley.com/blog/python1024.html",
+      "feedSource": "Hacker News",
+      "source": "austinhenley.com",
+      "score": 0.5061,
+      "publishedAt": "2026-09-06T23:14:08.000Z",
+      "summary": "I challenged myself to make a tiny subset of Python in C.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 137
+    },
+    {
+      "title": "The Best Laptop Backpacks for Work, Travel, and Everything Between (2026)",
+      "url": "https://www.wired.com/story/best-laptop-backpacks/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4978,
+      "publishedAt": "2026-09-06T11:30:00.000Z",
+      "summary": "The wrong bag can aggravate you every single day. These WIRED-tested picks get comfort, capacity, and organization just right.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Create Custom Windows 11 Notifications to Remind Yourself of Anything",
+      "url": "https://www.wired.com/story/create-custom-windows-11-notifications-to-remind-yourself-of-anything/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4952,
+      "publishedAt": "2026-09-06T11:00:00.000Z",
+      "summary": "Take full control of your desktop alerts by sending yourself recurring reminders and custom notifications triggered by specific events.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "These Cyborg Cockroaches Could Save Your Life",
+      "url": "https://www.wired.com/story/cyborg-cockroaches-disaster-response/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4925,
+      "publishedAt": "2026-09-06T10:30:00.000Z",
+      "summary": "The team embedded electrodes into live cockroaches, then outfitted them with cameras and injection devices to deliver medication via remote control.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "My Brief Summer Fling With Siri AI",
+      "url": "https://www.wired.com/story/my-brief-summer-fling-with-siri-ai/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4925,
+      "publishedAt": "2026-09-06T10:30:00.000Z",
+      "summary": "I was initially enamored with the beta version of Apple’s revamped smartphone assistant. As the full release approaches, I’ve forgotten Siri AI even exists.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Best Water Leak Detectors (2026): Moen, Phyn, TP-Link",
+      "url": "https://www.wired.com/gallery/best-water-leak-detector/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4906,
+      "publishedAt": "2026-09-06T10:09:00.000Z",
+      "summary": "Don’t let busted pipes or an overflowing washing machine dampen your day. These smart water sensors can help you catch problems quicker.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Why China Is the Bogeyman Data Center Enthusiasts Just Can't Quit",
+      "url": "https://www.wired.com/story/why-china-is-still-the-bogeyman-for-data-center-enthusiasts/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4898,
+      "publishedAt": "2026-09-06T10:00:00.000Z",
+      "summary": "Polls show that overwhelming majorities of Americans hate data centers. China makes a perfect scapegoat for tech leaders and their allies—the only problem is a lack of evidence.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Best Gaming Chairs (2026): Are They Worth It?",
+      "url": "https://www.wired.com/gallery/best-gaming-chairs/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4885,
+      "publishedAt": "2026-09-06T09:45:00.000Z",
+      "summary": "The best gaming chair is actually an office chair. Here are our top picks from our real-life testing so far.",
+      "tags": [
+        "AI"
       ],
       "engagementScore": 0
     },
@@ -439,7 +449,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.3958,
+      "score": 0.3693,
       "publishedAt": "2026-09-05T11:28:05.000Z",
       "summary": "OpenAI says it needs to overhaul how and when it reports instances of AI models attacking real-world targets. The acknowledgement comes as the company manages the fallout from reports that a swarm of its out-of-control agents hijacked a German wiki site. Regarding the \"'wiki incident,' where our age",
       "tags": [
@@ -453,7 +463,7 @@
       "url": "https://www.wired.com/gallery/best-alexa-and-amazon-echo-speakers/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.3934,
+      "score": 0.3669,
       "publishedAt": "2026-09-05T11:01:00.000Z",
       "summary": "I’ve rounded up the best smart speakers that let you talk to Alexa, from the popular Echo Dot to the newest Echo Studio.",
       "tags": [
@@ -466,26 +476,12 @@
       "url": "https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.3817,
+      "score": 0.3528,
       "publishedAt": "2026-09-04T18:39:19.000Z",
       "summary": "The era of AI inference has arrived. Imagine a healthcare system analyzing millions of data points in real time to accelerate life-saving medical research, or an intelligent assistant instantly resolving thousands of complex customer needs at once. These real-world breakthroughs rely on advanced inf",
       "tags": [
         "Research",
         "RAG"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Download: selling battlefield drone data and AI reshaping language",
-      "url": "https://www.technologyreview.com/2026/09/04/1143457/the-download-ukraine-selling-drone-data-ai-reshaping-language/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.3439,
-      "publishedAt": "2026-09-04T12:10:00.000Z",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Data from drones in Ukraine is fueling a new Wild West marketplace —Cory Alpert, a researcher at the University of Melbourne studying AI&#8217;s impac",
-      "tags": [
-        "Research",
-        "Dev Tools"
       ],
       "engagementScore": 0
     },
@@ -603,11 +599,25 @@
       "engagementScore": 0
     },
     {
+      "title": "The Download: selling battlefield drone data and AI reshaping language",
+      "url": "https://www.technologyreview.com/2026/09/04/1143457/the-download-ukraine-selling-drone-data-ai-reshaping-language/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.315,
+      "publishedAt": "2026-09-04T12:10:00.000Z",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Data from drones in Ukraine is fueling a new Wild West marketplace —Cory Alpert, a researcher at the University of Melbourne studying AI&#8217;s impac",
+      "tags": [
+        "Research",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Data from drones in Ukraine is fueling a new Wild West marketplace",
       "url": "https://www.technologyreview.com/2026/09/04/1143452/drone-data-wild-west/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.3279,
+      "score": 0.299,
       "publishedAt": "2026-09-04T09:25:19.000Z",
       "summary": "Battlefields in Ukraine are littered with the remnants of drones, which are now firmly established as a critical weapon of modern warfare. But behind all that wreckage, there’s a new gold mine for the defense sector. The data drones generate will far outlast the wars in which they are used to fight,",
       "tags": [
@@ -620,7 +630,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/990197/roland-ai-music-melody-flip",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.3017,
+      "score": 0.2752,
       "publishedAt": "2026-09-04T17:51:35.000Z",
       "summary": "It's not quite the \"push button; get song\" of Suno, but Roland's new Melody Flip tool marks the company's foray into generative AI music. Available as a plug-in for your digital audio workstation (DAW), Melody Flip offers around 250 \"Palettes,\" which are essentially themed collections of musical ide",
       "tags": [
@@ -633,7 +643,7 @@
       "url": "https://www.theverge.com/policy/990267/microsoft-openai-new-york-times-authors-lawsuit",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.298,
+      "score": 0.2715,
       "publishedAt": "2026-09-04T17:10:35.000Z",
       "summary": "Microsoft's Copilot rarely reproduces even full sentences from news articles and books, let alone substantive chunks that could substitute for the original, the company says in new legal filings as it fights copyright claims from publishers including The New York Times and book authors. As part of t",
       "tags": [
@@ -642,55 +652,48 @@
       "engagementScore": 0
     },
     {
-      "title": "Rogue OpenAI agents appear to have organized another attack using a German wiki",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.2852,
-      "publishedAt": "2026-09-04T14:46:39.000Z",
-      "summary": "A swarm of rogue AI agents from OpenAI reportedly commandeered a German website and transformed it into a messaging board for other agents, with officials staying quiet about the incident for weeks as the company prepared to launch its most advanced model yet, Astra. The finding adds to intensifying",
+      "title": "Proactive cyber defense for governments and enterprises",
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
+      "feedSource": "Google AI",
+      "source": "blog.google",
+      "score": 0.2659,
+      "publishedAt": "2026-09-02T15:40:00.000Z",
+      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8__fairwind-program__b.max-600x600.format-webp.webp\"&gt;The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
       "tags": [
         "LLM",
-        "Agents"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Sam Altman apologizes for &#8216;messy&#8217; GPT-6 Astra rollout that’s locked out paying users",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.268,
-      "publishedAt": "2026-09-04T11:33:40.000Z",
-      "summary": "Just hours after OpenAI launched GPT-6 Astra, CEO Sam Altman was already apologizing for what he describes as a \"messy rollout\" after paying users expecting access to the new frontier model were left waiting. The company hailed the model as a \"generational leap in capability\" on Thursday and describ",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Microsoft’s Project Zenith is a ‘distraction-free Windows experience’ for developers",
-      "url": "https://www.theverge.com/news/990051/microsoft-project-zenith-windows-developers",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.267,
-      "publishedAt": "2026-09-04T11:22:12.000Z",
-      "summary": "Microsoft is giving its developer-optimized Windows experience a name: Project Zenith. While the software maker originally announced a similar developer-optimized Windows effort at Build earlier this year, Project Zenith is designed for new developer-focused devices with 64GB or more of unified memo",
-      "tags": [
+        "RAG",
+        "Vision",
         "Dev Tools"
       ],
       "engagementScore": 0
     },
     {
-      "title": "OpenAI’s next big AI model has ‘entered the AGI era’",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.2664,
-      "publishedAt": "2026-09-04T11:16:10.000Z",
-      "summary": "OpenAI's next big model is here: GPT-6 Astra. The company calls it a \"generational leap in capability\" for areas like cybersecurity, professional work, software engineering, science, and computer use. As OpenAI announced earlier this week, it's also the first model designated as meeting OpenAI's \"cr",
+      "title": "The latest AI news we announced in August 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
+      "feedSource": "Google AI",
+      "source": "blog.google",
+      "score": 0.2659,
+      "publishedAt": "2026-09-01T20:45:00.000Z",
+      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/August_AI_Recap_social.max-600x600.format-webp.webp\"&gt;Here are Google’s latest AI updates from August 2026",
       "tags": [
-        "LLM"
+        "RAG",
+        "Vision",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Try Google Pics: Easy image creation and editing in Google Workspace",
+      "url": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
+      "feedSource": "Google AI",
+      "source": "blog.google",
+      "score": 0.2659,
+      "publishedAt": "2026-09-01T16:00:00.000Z",
+      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/GooglePics_Hero.max-600x600.format-webp.webp\"&gt;Built on our latest Nano Banana model, Google Pics — our image creation and editing tool — is now available.",
+      "tags": [
+        "RAG",
+        "Vision",
+        "Dev Tools"
       ],
       "engagementScore": 0
     }
