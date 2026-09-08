@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T10:54:48.270Z",
+  "updatedAt": "2026-09-08T16:18:59.573Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,24 +8,93 @@
   ],
   "items": [
     {
+      "title": "The Work Now Within Reach",
+      "url": "https://openai.com/index/the-work-now-within-reach",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 1.0132,
+      "publishedAt": "2026-09-08T13:00:00.000Z",
+      "summary": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
+      "url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.9184,
+      "publishedAt": "2026-09-08T00:00:00.000Z",
+      "summary": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
+      "tags": [
+        "LLM",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+      "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+      "feedSource": "DeepMind",
+      "source": "deepmind.google",
+      "score": 0.8965,
+      "publishedAt": "2026-09-08T14:00:15.000Z",
+      "summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
+      "tags": [
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "An Alien Mind",
       "url": "https://openai.com/index/an-alien-mind/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.8501,
+      "score": 0.8113,
       "publishedAt": "2026-09-06T16:27:05.000Z",
       "summary": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
       "tags": [
         "Safety"
       ],
-      "engagementScore": 476
+      "engagementScore": 481
+    },
+    {
+      "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.7829,
+      "publishedAt": "2026-09-08T14:23:07.000Z",
+      "summary": "A Blog post by Multiverse Computing on Hugging Face",
+      "tags": [
+        "Open Source",
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "C*: Unifying Programming and Verification in C",
+      "url": "https://arxiv.org/abs/2504.02246",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.7817,
+      "publishedAt": "2026-09-08T15:56:56.000Z",
+      "summary": "Ensuring the correct functionality of systems software, given its safety-critical and low-level nature, is a primary focus in formal verification research and applications. Despite advances in verification tooling, conventional programmers are rarely involved in the verification of their own code, r",
+      "tags": [
+        "Research",
+        "Safety",
+        "Dev Tools"
+      ],
+      "engagementScore": 4
     },
     {
       "title": "Research acceleration: The view inside OpenAI",
       "url": "https://openai.com/index/research-acceleration-view-inside-openai",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.7959,
+      "score": 0.7565,
       "publishedAt": "2026-09-06T15:08:44.000Z",
       "summary": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
       "tags": [
@@ -41,7 +110,7 @@
       "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7828,
+      "score": 0.7434,
       "publishedAt": "2026-09-07T00:00:00.000Z",
       "summary": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
       "tags": [
@@ -54,7 +123,7 @@
       "url": "https://openai.com/index/gpt-6-astra/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.7194,
+      "score": 0.7195,
       "publishedAt": "2026-09-03T18:41:05.000Z",
       "summary": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
       "tags": [
@@ -62,32 +131,31 @@
         "Safety",
         "Dev Tools"
       ],
-      "engagementScore": 2266
+      "engagementScore": 2268
     },
     {
-      "title": "Harnessing the Universal Geometry of Embeddings",
-      "url": "https://arxiv.org/abs/2505.12540",
+      "title": "Google DeepMind Releases AlphaGenome Atlas",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/",
       "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.6944,
-      "publishedAt": "2026-09-06T20:31:20.000Z",
-      "summary": "We introduce the first method for translating text embeddings from one vector space to another without any paired data, encoders, or predefined sets of matches. Our unsupervised approach translates any embedding to and from a universal latent representation (i.e., a universal semantic structure conj",
+      "source": "blog.google",
+      "score": 0.714,
+      "publishedAt": "2026-09-08T14:55:45.000Z",
+      "summary": "We’re introducing AlphaGenome Atlas, a database predicting the effects of every possible single nucleotide variant in the human genome.",
       "tags": [
-        "RAG",
-        "Dev Tools"
+        "AI"
       ],
-      "engagementScore": 118
+      "engagementScore": 115
     },
     {
-      "title": "An Alien Mind",
-      "url": "https://openai.com/index/an-alien-mind",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.6734,
-      "publishedAt": "2026-09-06T09:00:00.000Z",
-      "summary": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
+      "title": "The Download: our 35 Innovators Under 35 this year",
+      "url": "https://www.technologyreview.com/2026/09/08/1143615/the-download-35-innovators-under-35-spiderwebs-measuring-nature/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6617,
+      "publishedAt": "2026-09-08T12:10:00.000Z",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Introducing our 35 Innovators Under 35 list for 2026 What will the next generation of science and technology look like? Our latest Innovators Under 35",
       "tags": [
-        "Safety"
+        "AI"
       ],
       "engagementScore": 0
     },
@@ -96,7 +164,7 @@
       "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.6607,
+      "score": 0.6608,
       "publishedAt": "2026-09-04T18:42:56.000Z",
       "summary": "Anthropic is an AI safety and research company that’s working to build reliable, interpretable, and steerable AI systems.",
       "tags": [
@@ -104,29 +172,187 @@
         "Research",
         "Safety"
       ],
-      "engagementScore": 769
+      "engagementScore": 770
     },
     {
-      "title": "LLMs as a Cognitive Virus",
-      "url": "https://arxiv.org/abs/2609.03344",
+      "title": "Harnessing the Universal Geometry of Embeddings",
+      "url": "https://arxiv.org/abs/2505.12540",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.5888,
-      "publishedAt": "2026-09-05T20:02:35.000Z",
-      "summary": "Large-language models (LLMs) are rapidly becoming part of human culture, reshaping how information is produced, transmitted, and used. Here we propose that their diffusion can be understood through a viral analogy, with LLM use spreading through populations, becoming embedded in cognitive and cultur",
+      "score": 0.6581,
+      "publishedAt": "2026-09-06T20:31:20.000Z",
+      "summary": "We introduce the first method for translating text embeddings from one vector space to another without any paired data, encoders, or predefined sets of matches. Our unsupervised approach translates any embedding to and from a universal latent representation (i.e., a universal semantic structure conj",
       "tags": [
-        "LLM",
-        "Vision",
+        "RAG",
         "Dev Tools"
       ],
-      "engagementScore": 393
+      "engagementScore": 119
+    },
+    {
+      "title": "This founder is teaching chips how to recycle (their energy)",
+      "url": "https://www.technologyreview.com/2026/09/08/1142079/hannah-earley-computer-chips-recycle-energy/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6526,
+      "publishedAt": "2026-09-08T10:36:00.000Z",
+      "summary": "Throughout the history of the computer chip, engineers have treated waste heat as an inevitable cost of a calculation. Hannah Earley, however, thinks it’s a design choice. Earley, 31, is cofounder and chief technology officer of Vaire Computing, a startup building chips that recycle energy usually t",
+      "tags": [
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "This AI entrepreneur is developing agents that can plan ahead for the unexpected",
+      "url": "https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6524,
+      "publishedAt": "2026-09-08T10:34:00.000Z",
+      "summary": "Danijar Hafner’s office in San Francisco’s SoMa district sits mostly empty. His brand-new startup is still in stealth mode and doesn’t even have its name on the door. On the day I visit, there’s only one other person there, and little in the way of furniture. But what it lacks in decor, it makes up&",
+      "tags": [
+        "Agents",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "This founder is making cheaper, cleaner steel",
+      "url": "https://www.technologyreview.com/2026/09/08/1142094/laureen-meroueh-makes-cheaper-cleaner-steel/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6523,
+      "publishedAt": "2026-09-08T10:33:00.000Z",
+      "summary": "The steel industry isn’t exactly known for innovation. Very little has changed about purifying iron ore since the process was invented and commercialized in the 1850s. The majority of steelmakers melt solid iron ore at dizzyingly high temperatures inside blast furnaces, where the material reacts wit",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "This geneticist’s age-reversal tech could help restore sight",
+      "url": "https://www.technologyreview.com/2026/09/08/1142074/yuancheng-ryan-lu-age-reversal-tech-restores-sight/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6522,
+      "publishedAt": "2026-09-08T10:32:00.000Z",
+      "summary": "Yuancheng (Ryan) Lu is obsessed with aging. And with eyes. As he steps outside the Whitehead Institute in Cambridge, Massachusetts, his aviator glasses darken automatically in the sun. Age-related blindness runs in his family. A great-aunt in China, the story goes, was killed crossing a road because",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "An Alien Mind",
+      "url": "https://openai.com/index/an-alien-mind",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.634,
+      "publishedAt": "2026-09-06T09:00:00.000Z",
+      "summary": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
+      "tags": [
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Here’s Samsung’s Advice for Apple and Its Upcoming Folding iPhone",
+      "url": "https://www.wired.com/story/samsung-advice-for-apple-and-its-upcoming-folding-iphone/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5831,
+      "publishedAt": "2026-09-08T16:00:00.000Z",
+      "summary": "The competition is “absolutely welcome” by the pioneering Korean giant, but Samsung warns that the device’s “weight” is crucial.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Google’s Atlas of the human genome could pave the way for new treatments",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/991180/google-launches-alpha-genome-atlas",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5741,
+      "publishedAt": "2026-09-08T14:19:23.000Z",
+      "summary": "Google DeepMind has unveiled an AI tool that its scientists claim could help unravel the mysteries of the human genome and transform our understanding of biology, accelerating scientific research and ultimately paving the way for new treatments for diseases. The platform, called AlphaGenome Atlas, c",
+      "tags": [
+        "Research",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Richard Kelly on Donnie Darko at 25: ‘It’s a Miracle That Any Movie Gets Made’",
+      "url": "https://www.wired.com/story/richard-kelly-donnie-darko-25th-anniversary-interview/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5724,
+      "publishedAt": "2026-09-08T14:00:00.000Z",
+      "summary": "The director discusses his debut novel, staying true to an artistic vision, and the absurd line of dialogue from Donnie Darko he believes will find its way into his obituary.",
+      "tags": [
+        "Vision"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Why AI food looks like that",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/989376/ai-generated-food-why-does-it-look-like-that",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5699,
+      "publishedAt": "2026-09-08T13:32:08.000Z",
+      "summary": "There is a torrent of unappetizing slop coming from restaurants, cafes, and brands that are increasingly turning to AI to generate images promoting their food. The resulting horror show includes donut shrimp, Reubens from the deep, wormlike noodles, and noodle-like pastries and stringy chicken. Ther",
+      "tags": [
+        "Vision"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Meta Failed to Catch Hundreds of AI Child Abuse Ads. Some Included Images of Real Kids",
+      "url": "https://www.wired.com/story/meta-failed-to-catch-hundreds-of-ai-child-abuse-ads-some-included-images-of-real-kids/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5617,
+      "publishedAt": "2026-09-08T12:00:00.000Z",
+      "summary": "Images of real children—including a member of a European royal family—were used to create some of the 350 ads containing child sexual abuse. Lawmakers say they plan to investigate.",
+      "tags": [
+        "Vision",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "LibreOffice breaks download records after declaring it has no AI features",
+      "url": "https://manualdousuario.net/en/libreoffice-download-record-no-ai/",
+      "feedSource": "Hacker News",
+      "source": "manualdousuario.net",
+      "score": 0.5599,
+      "publishedAt": "2026-09-08T14:05:57.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 445
+    },
+    {
+      "title": "How NASA Testing Changed US Food Inspection Forever",
+      "url": "https://www.wired.com/story/book-excerpt-alex-davies-kobuk-the-destroyer-nasa-food-testing/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5563,
+      "publishedAt": "2026-09-08T11:00:00.000Z",
+      "summary": "In the early 20th century, public outcry following Upton Sinclair’s The Jungle led to stricter food safety protocols. NASA took them a step further.",
+      "tags": [
+        "Safety"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "5 Best Smart Speakers (2026): Alexa, Google, Apple",
       "url": "https://www.wired.com/story/best-smart-speakers/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.583,
+      "score": 0.5541,
       "publishedAt": "2026-09-08T10:35:00.000Z",
       "summary": "Looking to add a smart speaker to your house? Here’s which to choose, whether you’re an Alexa, Siri, or Gemini fan.",
       "tags": [
@@ -139,7 +365,7 @@
       "url": "https://www.wired.com/review/insta360-x6-camera/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5799,
+      "score": 0.551,
       "publishedAt": "2026-09-08T10:00:00.000Z",
       "summary": "Insta360’s latest 360-degree camera uses larger sensors for better low-light performance and has a smaller body.",
       "tags": [
@@ -152,10 +378,24 @@
       "url": "https://www.wired.com/story/gen-ai-tools-are-now-being-used-to-push-slop-jihad/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5799,
+      "score": 0.551,
       "publishedAt": "2026-09-08T10:00:00.000Z",
       "summary": "A new generation of Islamic terror supporters are using AI to spread ‘Slop Jihad’ to new audiences on TikTok.",
       "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Adobe is trying to make its AI generators idiot-proof in Premiere",
+      "url": "https://www.theverge.com/tech/991133/adobe-is-trying-to-make-its-ai-generators-idiot-proof-in-premiere",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5463,
+      "publishedAt": "2026-09-08T09:07:57.000Z",
+      "summary": "Adobe is overhauling how editors interact with AI in its Premiere professional video editing software. Its new Generative Media tool makes it easier to generate video, sound effects, music, and soundscapes without ever leaving the project timeline. The generators themselves aren't entirely new; the",
+      "tags": [
+        "Vision",
         "Dev Tools"
       ],
       "engagementScore": 0
@@ -165,7 +405,7 @@
       "url": "https://www.technologyreview.com/2026/09/07/1143592/the-download-underground-hydrogen-search-rogue-openai-agents/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5532,
+      "score": 0.5217,
       "publishedAt": "2026-09-07T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. How much hydrogen awaits us underground? A flurry of exploration efforts is searching for underground stores of hydrogen gas, which could provide a va",
       "tags": [
@@ -173,46 +413,6 @@
         "Agents"
       ],
       "engagementScore": 0
-    },
-    {
-      "title": "Mistral raises €3B",
-      "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
-      "feedSource": "Hacker News",
-      "source": "mistral.ai",
-      "score": 0.5467,
-      "publishedAt": "2026-09-08T05:06:23.000Z",
-      "summary": "Mistral today announced that it has raised €3 billion in a Series D funding round at a post-money valuation of more than €21 billion.",
-      "tags": [
-        "LLM",
-        "Industry"
-      ],
-      "engagementScore": 500
-    },
-    {
-      "title": "Le Creuset x Star Trek Collection: Prices, availability, release date",
-      "url": "https://www.wired.com/story/to-boldly-dough-le-creuset-sent-its-new-star-trek-cooking-collection-into-space/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.521,
-      "publishedAt": "2026-09-07T23:00:00.000Z",
-      "summary": "Vulcan oven mitts, spaceship baking dishes, and an out-of-this-world communicator grater—you'll need warp speed to Klingon to this limited edition kitchen kit, ideal for perfecting the broth of Khan.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "I've factored the RSA keys of a Certificate Authority from the 90s",
-      "url": "https://mcpherrin.ca/2026/09/07/rsa.html",
-      "feedSource": "Hacker News",
-      "source": "mcpherrin.ca",
-      "score": 0.5156,
-      "publishedAt": "2026-09-08T01:16:59.000Z",
-      "summary": "… from the 90s.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 354
     },
     {
       "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
@@ -229,19 +429,6 @@
       "engagementScore": 0
     },
     {
-      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5124,
-      "publishedAt": "2026-09-03T12:00:00.000Z",
-      "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
       "url": "https://openai.com/index/playco-game-prototyping-with-astra",
       "feedSource": "OpenAI",
@@ -249,6 +436,19 @@
       "score": 0.5124,
       "publishedAt": "2026-09-03T12:00:00.000Z",
       "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.5124,
+      "publishedAt": "2026-09-03T12:00:00.000Z",
+      "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
       "tags": [
         "LLM"
       ],
@@ -270,79 +470,13 @@
       "engagementScore": 0
     },
     {
-      "title": "Safety overview: GPT-6 Astra",
-      "url": "https://openai.com/index/safety-overview-gpt-6-astra",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5124,
-      "publishedAt": "2026-09-03T00:00:00.000Z",
-      "summary": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.",
-      "tags": [
-        "LLM",
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
-      "url": "https://openai.com/index/atv-big-air-tour",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5124,
-      "publishedAt": "2026-09-02T12:00:00.000Z",
-      "summary": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Home Depot Labor Day Sale (2026): BOGO on Best Grills and Tools",
-      "url": "https://www.wired.com/story/home-depot-labor-day-sale-deals-2026/",
+      "title": "Le Creuset x Star Trek Collection: Prices, Availability, Release Date",
+      "url": "https://www.wired.com/story/to-boldly-dough-le-creuset-sent-its-new-star-trek-cooking-collection-into-space/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4868,
-      "publishedAt": "2026-09-07T16:35:52.000Z",
-      "summary": "The Home Depot Labor Day sale goes hard on grills and tools. Here are our recommendations on what to buy—and what to ignore.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Best Tech Labor Day Sales I’d Shop Myself (2026): Vacuums, Headphones, and More",
-      "url": "https://www.wired.com/story/tech-labor-day-sales-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4866,
-      "publishedAt": "2026-09-07T16:33:37.000Z",
-      "summary": "From cordless vacuums to the best wireless earbuds we’ve tested, some of our favorite tech is on sale for Labor Day this year.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The 57 Best Deals From the REI Labor Day Sale",
-      "url": "https://www.wired.com/story/rei-labor-day-sale-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4705,
-      "publishedAt": "2026-09-07T13:33:30.000Z",
-      "summary": "Labor Day already? Say it ain’t so. Today is the last day to shop the best deals on WIRED-tested outdoor gear from REI, Nemo, MSR, Coleman, and more during REI’s Labor Day sale.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Two of the Universe's Great Mysteries May Have Their Own Dimension",
-      "url": "https://www.wired.com/story/dark-energy-matter-may-have-own-dimension/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4622,
-      "publishedAt": "2026-09-07T12:00:00.000Z",
-      "summary": "Dark energy might be getting weaker. Scientists are wondering if interactions with dark matter in a “dark dimension” may be responsible.",
+      "score": 0.4921,
+      "publishedAt": "2026-09-07T23:00:00.000Z",
+      "summary": "Vulcan oven mitts, spaceship baking dishes, and an out-of-this-world communicator grater—you'll need warp speed to Klingon to this limited-edition kitchen kit, ideal for perfecting the broth of Khan.",
       "tags": [
         "AI"
       ],
@@ -445,24 +579,11 @@
       "engagementScore": 0
     },
     {
-      "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
-      "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-08-21T11:59:48.000Z",
-      "summary": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay.",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
       "url": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.3966,
+      "score": 0.3677,
       "publishedAt": "2026-09-06T23:43:53.000Z",
       "summary": "The Seattle Times and Newsday are just the latest plaintiffs to take OpenAI to court, alleging copyright infringement. The two outlets say the company used their journalism as training data for its AI models without permission and often reproduces passages from their reporting in response to user qu",
       "tags": [
@@ -568,143 +689,6 @@
       "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
       "tags": [
         "Open Source"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Open ASR Leaderboard Adds Its First Global South Language",
-      "url": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.3401,
-      "publishedAt": "2026-08-28T00:00:00.000Z",
-      "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-      "tags": [
-        "Open Source"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Proactive cyber defense for governments and enterprises",
-      "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
-      "feedSource": "Google AI",
-      "source": "blog.google",
-      "score": 0.2659,
-      "publishedAt": "2026-09-02T15:40:00.000Z",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8__fairwind-program__b.max-600x600.format-webp.webp\"&gt;The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
-      "tags": [
-        "LLM",
-        "RAG",
-        "Vision",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The latest AI news we announced in August 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
-      "feedSource": "Google AI",
-      "source": "blog.google",
-      "score": 0.2659,
-      "publishedAt": "2026-09-01T20:45:00.000Z",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/August_AI_Recap_social.max-600x600.format-webp.webp\"&gt;Here are Google’s latest AI updates from August 2026",
-      "tags": [
-        "RAG",
-        "Vision",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Try Google Pics: Easy image creation and editing in Google Workspace",
-      "url": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
-      "feedSource": "Google AI",
-      "source": "blog.google",
-      "score": 0.2659,
-      "publishedAt": "2026-09-01T16:00:00.000Z",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/GooglePics_Hero.max-600x600.format-webp.webp\"&gt;Built on our latest Nano Banana model, Google Pics — our image creation and editing tool — is now available.",
-      "tags": [
-        "RAG",
-        "Vision",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "3 new ways to plan and book travel in Search",
-      "url": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
-      "feedSource": "Google AI",
-      "source": "blog.google",
-      "score": 0.2659,
-      "publishedAt": "2026-08-27T16:00:00.000Z",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Search_Travel_Blog_Hero_8.27.max-600x600.format-webp.webp\"&gt;Book hotels and track airfares, plus view miles and rewards with AI Mode in Google Search.",
-      "tags": [
-        "RAG",
-        "Vision",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "5 ways to upgrade your home decor with Google Search",
-      "url": "https://blog.google/products-and-platforms/products/search/home-decor-tips/",
-      "feedSource": "Google AI",
-      "source": "blog.google",
-      "score": 0.2659,
-      "publishedAt": "2026-08-25T16:00:00.000Z",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Home_Decor.max-600x600.format-webp.webp\"&gt;Learn how to use Google Search tools to find home decor inspiration, shop for furniture, and tackle DIY projects.",
-      "tags": [
-        "RAG",
-        "Vision",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "5 new ways to level up your learning with Search",
-      "url": "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools/",
-      "feedSource": "Google AI",
-      "source": "blog.google",
-      "score": 0.2659,
-      "publishedAt": "2026-08-19T19:00:00.000Z",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Blog_header_2_JwwDb02.max-600x600.format-webp.webp\"&gt;Here’s how you can use Google Search tools to study for classes and standardized tests.",
-      "tags": [
-        "Research",
-        "RAG",
-        "Vision",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Get closer to the game with Gemini and Pixel",
-      "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
-      "feedSource": "Google AI",
-      "source": "blog.google",
-      "score": 0.2659,
-      "publishedAt": "2026-08-17T08:00:00.000Z",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/football_multi-club_hero_nphU3P.max-600x600.format-webp.webp\"&gt;Google Gemini and Pixel partner with five global football clubs to elevate the fan matchday experience through AI and  Smartphone Technology.",
-      "tags": [
-        "LLM",
-        "RAG",
-        "Vision",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Bring your spreadsheet data to life with Sheets canvas",
-      "url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/",
-      "feedSource": "Google AI",
-      "source": "blog.google",
-      "score": 0.2659,
-      "publishedAt": "2026-08-13T16:45:00.000Z",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Sheets_canvas-blog-header-2784x.max-600x600.format-webp.webp\"&gt;Sheets canvas turns data into interactive dashboards, custom study trackers, seating charts, and more, all with a simple prompt.",
-      "tags": [
-        "Research",
-        "RAG",
-        "Vision",
-        "Dev Tools"
       ],
       "engagementScore": 0
     }
