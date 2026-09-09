@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T20:42:50.532Z",
+  "updatedAt": "2026-09-09T23:03:39.654Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,33 +12,33 @@
       "url": "https://www.anthropic.com/institute/econ-scenarios",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 1.031,
+      "score": 1.0287,
       "publishedAt": "2026-09-09T13:38:23.000Z",
       "summary": "The Anthropic Economics Team models the effects of AI on the economy of 2030.",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 115
+      "engagementScore": 151
     },
     {
       "title": "On the Navier–Stokes Millennium Prize Problem",
       "url": "https://openai.com/index/navier-stokes-solution/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 1.0147,
+      "score": 0.9977,
       "publishedAt": "2026-09-08T17:13:21.000Z",
       "summary": "We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 1323
+      "engagementScore": 1324
     },
     {
       "title": "Paul Christiano joins OpenAI Foundation Board",
       "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 1.0103,
+      "score": 0.9932,
       "publishedAt": "2026-09-09T17:00:00.000Z",
       "summary": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
       "tags": [
@@ -52,7 +52,7 @@
       "url": "https://openai.com/index/codex-quantum-computing-experiments/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.9957,
+      "score": 0.9793,
       "publishedAt": "2026-09-09T07:22:46.000Z",
       "summary": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
       "tags": [
@@ -61,55 +61,55 @@
         "Research",
         "Dev Tools"
       ],
-      "engagementScore": 139
+      "engagementScore": 141
     },
     {
-      "title": "ChatGPT Images 2.5",
-      "url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
-      "feedSource": "Hacker News",
+      "title": "GPT-6 Astra: The next generation in intelligence for work",
+      "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
+      "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.956,
-      "publishedAt": "2026-09-08T18:37:51.000Z",
-      "summary": "Reload to try again, or go back.",
+      "score": 0.9494,
+      "publishedAt": "2026-09-09T11:00:00.000Z",
+      "summary": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
       "tags": [
-        "LLM",
-        "Vision"
+        "LLM"
       ],
-      "engagementScore": 371
+      "engagementScore": 0
     },
     {
       "title": "An alignment assessment of recent cybersecurity incidents",
       "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.9102,
+      "score": 0.9391,
       "publishedAt": "2026-09-09T19:03:45.000Z",
       "summary": "We present an alignment assessment of four incidents in which Claude models gained unauthorized access to real third-party systems.",
       "tags": [
         "LLM",
         "Safety"
       ],
-      "engagementScore": 6
+      "engagementScore": 14
     },
     {
-      "title": "Muse – Meta’s personal AI agent",
-      "url": "https://ai.meta.com/muse/",
+      "title": "ChatGPT Images 2.5",
+      "url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
       "feedSource": "Hacker News",
-      "source": "ai.meta.com",
-      "score": 0.8676,
-      "publishedAt": "2026-09-08T19:25:00.000Z",
-      "summary": "Meet Muse, Meta’s personal AI agent. Learn what it can do across everyday tasks, how it works, and how it helps you get more done.",
+      "source": "openai.com",
+      "score": 0.939,
+      "publishedAt": "2026-09-08T18:37:51.000Z",
+      "summary": "Reload to try again, or go back.",
       "tags": [
-        "Agents"
+        "LLM",
+        "Vision"
       ],
-      "engagementScore": 620
+      "engagementScore": 372
     },
     {
       "title": "Procedural Graphs: Self-Evolving Execution Structures for LLM Agents",
       "url": "https://arxiv.org/abs/2609.09153",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8626,
+      "score": 0.8599,
       "publishedAt": "2026-09-09T17:13:52.000Z",
       "summary": "Large language models are increasingly deployed as agents that plan over long horizons and act through external tools. Most agents select actions through unconstrained generation over an accumulating history, leaving implicit the procedural knowledge of what to do, in what order, and under which con",
       "tags": [
@@ -118,14 +118,27 @@
         "Dev Tools",
         "ML Infra"
       ],
-      "engagementScore": 30
+      "engagementScore": 39
+    },
+    {
+      "title": "Muse – Meta’s personal AI agent",
+      "url": "https://ai.meta.com/muse/",
+      "feedSource": "Hacker News",
+      "source": "ai.meta.com",
+      "score": 0.8528,
+      "publishedAt": "2026-09-08T19:25:00.000Z",
+      "summary": "Meet Muse, Meta’s personal AI agent. Learn what it can do across everyday tasks, how it works, and how it helps you get more done.",
+      "tags": [
+        "Agents"
+      ],
+      "engagementScore": 634
     },
     {
       "title": "How GPT-5.6 Sol helps run quantum computing experiments",
       "url": "https://openai.com/index/codex-quantum-computing-experiments",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8353,
+      "score": 0.8182,
       "publishedAt": "2026-09-08T17:00:00.000Z",
       "summary": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
       "tags": [
@@ -141,7 +154,7 @@
       "url": "https://openai.com/index/the-work-now-within-reach",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8061,
+      "score": 0.789,
       "publishedAt": "2026-09-08T13:00:00.000Z",
       "summary": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.",
       "tags": [
@@ -154,7 +167,7 @@
       "url": "https://arxiv.org/abs/2609.05437",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7985,
+      "score": 0.7825,
       "publishedAt": "2026-09-09T04:00:00.000Z",
       "summary": "arXiv:2609.05437v1 Announce Type: new \nAbstract: Previous AI alignment efforts have focused primarily on first-order social norms -- teaching models what is socially acceptable or unacceptable (e.g., `do not steal'). However, social intelligence depends not only on norm recognition, but also on anti",
       "tags": [
@@ -169,7 +182,7 @@
       "url": "https://arxiv.org/abs/2609.05439",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7985,
+      "score": 0.7825,
       "publishedAt": "2026-09-09T04:00:00.000Z",
       "summary": "arXiv:2609.05439v1 Announce Type: new \nAbstract: Current evaluation methods for large language models are coarse-grained and decoupled from generation, producing generic explanations that fail to provide actionable feedback for model improvement. We propose CriticGen, a fine-grained, generation-awar",
       "tags": [
@@ -184,7 +197,7 @@
       "url": "https://arxiv.org/abs/2609.05441",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7985,
+      "score": 0.7825,
       "publishedAt": "2026-09-09T04:00:00.000Z",
       "summary": "arXiv:2609.05441v1 Announce Type: new \nAbstract: Long-term memory for LLM agents is evaluated today by conversational recall benchmarks (LoCoMo, LongMemEval), which measure question answering over dialogue history, not whether remembered facts change what a tool-using agent does. We present MERIT (M",
       "tags": [
@@ -201,7 +214,7 @@
       "url": "https://arxiv.org/abs/2609.05446",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7985,
+      "score": 0.7825,
       "publishedAt": "2026-09-09T04:00:00.000Z",
       "summary": "arXiv:2609.05446v1 Announce Type: new \nAbstract: We introduce AutoFyn, an agent harness inspired by the Expert Iteration algorithm, adapting a frozen model across many rounds by updating persistent state from verified reward signals rather than model weights. Each round begins from a fresh model ses",
       "tags": [
@@ -216,7 +229,7 @@
       "url": "https://arxiv.org/abs/2609.05448",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7985,
+      "score": 0.7825,
       "publishedAt": "2026-09-09T04:00:00.000Z",
       "summary": "arXiv:2609.05448v1 Announce Type: new \nAbstract: Structured post-training pruning of transformers requires selecting complete functional units whose suppression causes limited degradation. We formulate structured-unit selection for language and vision transformers as a damage-aware multi-armed bandi",
       "tags": [
@@ -230,7 +243,7 @@
       "url": "https://arxiv.org/abs/2609.05459",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7985,
+      "score": 0.7825,
       "publishedAt": "2026-09-09T04:00:00.000Z",
       "summary": "arXiv:2609.05459v1 Announce Type: new \nAbstract: Reinforcement learning and large language models often struggle to accurately capture the causal mechanics of game environments. Standard reinforcement learning agents tend to rely on spurious correlations, while large language models are prone to hal",
       "tags": [
@@ -245,7 +258,7 @@
       "url": "https://arxiv.org/abs/2609.05461",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7985,
+      "score": 0.7825,
       "publishedAt": "2026-09-09T04:00:00.000Z",
       "summary": "arXiv:2609.05461v1 Announce Type: new \nAbstract: Reward-free latent world models plan by scoring candidate actions with distances in a frozen latent space: an action is preferred if its predicted future embedding lands closer to the goal embedding. This silently assumes that latent closeness is acti",
       "tags": [
@@ -259,7 +272,7 @@
       "url": "https://arxiv.org/abs/2609.05481",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7985,
+      "score": 0.7825,
       "publishedAt": "2026-09-09T04:00:00.000Z",
       "summary": "arXiv:2609.05481v1 Announce Type: new \nAbstract: Inter example relational distillation transfers a teacher's representation geometry by matching relations among examples within a mini batch. Computing all pairs has quadratic complexity in the batch size, whereas uniform subsampling may use a limited",
       "tags": [
@@ -269,11 +282,25 @@
       "engagementScore": 0
     },
     {
+      "title": "Social influence and behavioral contagion experiment with bots on Reddit",
+      "url": "https://arxiv.org/abs/2607.00854",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.7809,
+      "publishedAt": "2026-09-09T19:33:09.000Z",
+      "summary": "Recent advances in AI have heightened scholars’ and policy makers’ concern with social influence and behavioral contagion in online communities. We conduct a field experiment on Reddit to investigate the extent to which online users are susceptible to positive behavioral stimuli from other users and",
+      "tags": [
+        "Safety",
+        "Industry"
+      ],
+      "engagementScore": 6
+    },
+    {
       "title": "Introducing ChatGPT Images 2.5",
       "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7952,
+      "score": 0.7781,
       "publishedAt": "2026-09-08T11:30:00.000Z",
       "summary": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
       "tags": [
@@ -287,7 +314,7 @@
       "url": "https://openai.com/index/navier-stokes-solution",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7843,
+      "score": 0.7671,
       "publishedAt": "2026-09-08T10:00:00.000Z",
       "summary": "We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.",
       "tags": [
@@ -300,7 +327,7 @@
       "url": "https://openai.com/index/teen-development-research-grants",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.777,
+      "score": 0.7598,
       "publishedAt": "2026-09-08T09:00:00.000Z",
       "summary": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
       "tags": [
@@ -312,25 +339,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Social influence and behavioral contagion experiment with bots on Reddit",
-      "url": "https://arxiv.org/abs/2607.00854",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.7763,
-      "publishedAt": "2026-09-09T19:33:09.000Z",
-      "summary": "Recent advances in AI have heightened scholars’ and policy makers’ concern with social influence and behavioral contagion in online communities. We conduct a field experiment on Reddit to investigate the extent to which online users are susceptible to positive behavioral stimuli from other users and",
-      "tags": [
-        "Safety",
-        "Industry"
-      ],
-      "engagementScore": 4
-    },
-    {
       "title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
       "url": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.7628,
+      "score": 0.7479,
       "publishedAt": "2026-09-09T15:36:24.000Z",
       "summary": "A Blog post by IBM Research on Hugging Face",
       "tags": [
@@ -344,7 +357,7 @@
       "url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7113,
+      "score": 0.6942,
       "publishedAt": "2026-09-08T00:00:00.000Z",
       "summary": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
       "tags": [
@@ -354,24 +367,11 @@
       "engagementScore": 0
     },
     {
-      "title": "1Password increases engineering productivity 21% with Codex",
-      "url": "https://openai.com/index/1password",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.7113,
-      "publishedAt": "2026-09-08T00:00:00.000Z",
-      "summary": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
       "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.7032,
+      "score": 0.6872,
       "publishedAt": "2026-09-08T14:00:15.000Z",
       "summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
       "tags": [
@@ -384,7 +384,7 @@
       "url": "https://blog.google/products-and-platforms/products/search/football-features-google-search/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.6584,
+      "score": 0.6447,
       "publishedAt": "2026-09-09T16:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Football_on_Search_blog_header.max-600x600.format-webp.webp\"&gt;Track live game feeds, explore detailed stats, and get custom fantasy recommendations directly in Search this season.",
       "tags": [
@@ -399,7 +399,7 @@
       "url": "https://blog.google/innovation-and-ai/technology/ai/love-rendered-film/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.6584,
+      "score": 0.6447,
       "publishedAt": "2026-09-09T16:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/LOVE_RENDERED_HERO_BLOG_SANS_LO.max-600x600.format-webp.webp\"&gt;Discover how filmmakers and Google DeepMind used AI to recreate a couple's unrecorded past in the short film \"Love, Rendered.\"",
       "tags": [
@@ -414,7 +414,7 @@
       "url": "https://www.technologyreview.com/2026/09/09/1143767/the-download-openai-math-future-battery-record/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.636,
+      "score": 0.6223,
       "publishedAt": "2026-09-09T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. What OpenAI’s latest controversy tells us about the future of math OpenAI says its agents have solved one of the most important open problems in mathe",
       "tags": [
@@ -428,7 +428,7 @@
       "url": "https://www.technologyreview.com/2026/09/09/1143680/batteries-us-record/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6176,
+      "score": 0.6039,
       "publishedAt": "2026-09-09T09:00:00.000Z",
       "summary": "Battery installations hit a new record in the US in the second quarter of 2026. In total, 20.2 gigawatt-hours of new capacity came online, according to a new report. That’s enough to supply the daily electricity needs of about 700,000 homes. The surge is putting the country on a trajectory to see 71",
       "tags": [
@@ -441,7 +441,7 @@
       "url": "https://www.technologyreview.com/2026/09/09/1143279/understanding-the-thermal-ceiling-in-portable-power/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6135,
+      "score": 0.5998,
       "publishedAt": "2026-09-09T08:18:13.000Z",
       "summary": "Plug a phone into a modern charger and the first 10 minutes are impressive. The next 20 are not. This is not a defect. It’s the connected device protecting itself. As temperature rises during charging, a smartphone&#8217;s battery management system reduces the current it will accept, because heat ac",
       "tags": [
@@ -454,7 +454,7 @@
       "url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6034,
+      "score": 0.5886,
       "publishedAt": "2026-09-08T14:23:07.000Z",
       "summary": "A Blog post by Multiverse Computing on Hugging Face",
       "tags": [
@@ -464,11 +464,105 @@
       "engagementScore": 0
     },
     {
+      "title": "The AI Researcher Who Just Quit Anthropic Says It’s ‘Crunch Time for Humanity’",
+      "url": "https://www.wired.com/story/anthropic-researcher-quits-jacob-coxon-ai-fears-humanity/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5801,
+      "publishedAt": "2026-09-09T22:11:55.000Z",
+      "summary": "Jacob Coxon talks to WIRED about the “mini Manhattan project” inside Anthropic, the problem with alignment, and why AI labs have just a few years left to make their systems safe.",
+      "tags": [
+        "LLM",
+        "Research",
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Suno releases its first AI music model made with record industry help",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/991977/suno-releases-its-first-ai-music-model-made-with-record-industry-help",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5779,
+      "publishedAt": "2026-09-09T21:47:02.000Z",
+      "summary": "Suno's new v6 AI music model is its first made with support from the record industry. Suno's Jack Brody told The Verge that v6 was \"trained from the ground up, with a new set of data that does not include the same data that our previous models were trained on.\" The data includes content licensed [&#",
+      "tags": [
+        "ML Infra"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "OpenAI’s sly mathematical breakthrough sends a chill through academia",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/992953/openai-math-millennium-prize-navier-stokes",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5752,
+      "publishedAt": "2026-09-09T21:16:34.000Z",
+      "summary": "OpenAI's announcement Tuesday that it has solved one of mathematics' legendary Millennium Prize problems should have been a moment of triumph. The result is both an undeniable achievement and a striking demonstration of just how rapidly AI is transforming mathematics. But before it was even formally",
+      "tags": [
+        "LLM",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "San Francisco Orders Meta to Stop ‘Allowing’ AI Child Abuse Ads",
+      "url": "https://www.wired.com/story/san-francisco-orders-meta-to-stop-allowing-ai-child-abuse-ads/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5751,
+      "publishedAt": "2026-09-09T21:15:27.000Z",
+      "summary": "The City Attorney’s Office has asked Meta to explain how the harmful ads repeatedly ran on Facebook and Instagram. The company claims the ads are not under the city’s jurisdiction.",
+      "tags": [
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "A Year After Charlie Kirk’s Death, Turning Point Plans to Spend Big on the Midterms",
+      "url": "https://www.wired.com/story/a-year-after-charlie-kirks-death-turning-point-plans-to-spend-big-on-the-midterms/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5737,
+      "publishedAt": "2026-09-09T21:00:00.000Z",
+      "summary": "Turning Point will spend tens of millions on ads and turnout, sources say, with a focus on New Hampshire, Arizona, and Nevada.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Read the Apple document explaining how new listening features still protect your privacy",
+      "url": "https://www.theverge.com/tech/992919/apple-siri-ai-audio-intelligence-privacy",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5724,
+      "publishedAt": "2026-09-09T20:44:43.000Z",
+      "summary": "At Wednesday's iPhone Duo launch event, Apple announced a handful of new Siri AI Audio Intelligence features, including Siri Recap, Live Rewind, Sound Recognition, and Music Recognition. Alongside its announcement, Apple released a document laying out how it plans to balance AI \"ambient listening\" a",
+      "tags": [
+        "Open Source"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Apple’s new iPhone camera mode promises to prove your photo isn’t AI",
+      "url": "https://www.theverge.com/tech/992766/apple-iphone-18-pro-reference-image",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5703,
+      "publishedAt": "2026-09-09T20:21:17.000Z",
+      "summary": "Apple is launching a new way to prove that the picture you took isn't manipulated by AI. A new feature, called \"Reference Image,\" will arrive with the iPhone 18 Pro lineup later this month and is supposed to use the device's new camera sensor to \"sign every pixel it sees.\" The iPhone 18 Pro and [&#8",
+      "tags": [
+        "Vision"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "What OpenAI’s latest controversy tells us about the future of math",
       "url": "https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5836,
+      "score": 0.5699,
       "publishedAt": "2026-09-09T03:10:08.000Z",
       "summary": "OpenAI’s latest mathematical milestone has quickly become mired in controversy. Today, the company announced that its agents have solved one of the Millennium Prize Problems, some of the most important open problems in mathematics. Under normal circumstances, that solution would be a huge feather in",
       "tags": [
@@ -478,24 +572,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Apple’s new iPhone camera mode promises to prove your photo isn’t AI",
-      "url": "https://www.theverge.com/tech/992766/apple-iphone-18-pro-reference-image",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5828,
-      "publishedAt": "2026-09-09T20:21:17.000Z",
-      "summary": "Apple is launching a new way to prove that the picture you took isn't manipulated by AI. A new feature, called \"Reference Image,\" will arrive with the iPhone 18 Pro lineup later this month and is supposed to use the device's new camera sensor to \"sign every pixel it sees.\" The iPhone 18 Pro and [&#8",
-      "tags": [
-        "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Everything Apple Announced: iPhone Duo, iPhone 18 Pro, Apple Watch, AirPods 5",
       "url": "https://www.wired.com/story/everything-apple-announced-september-2026/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5775,
+      "score": 0.5649,
       "publishedAt": "2026-09-09T19:21:18.000Z",
       "summary": "The company’s September event introduced Apple’s first ever foldable iPhone, along with new iPhone 18 Pro models, updates to the Apple Watch, some AirPods, and more advances to Siri AI.",
       "tags": [
@@ -508,7 +589,7 @@
       "url": "https://www.wired.com/story/apple-doesnt-want-you-to-worry-about-the-new-apple-watchs-listening-features/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5769,
+      "score": 0.5643,
       "publishedAt": "2026-09-09T19:14:26.000Z",
       "summary": "The new Apple Watch includes several “intelligent” listening features that have privacy and security baked in. But the protections can’t change the facts of what the tools do.",
       "tags": [
@@ -521,7 +602,7 @@
       "url": "https://www.wired.com/story/uk-lawmakers-are-scrambling-in-response-to-ai-summer-of-chaos/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5763,
+      "score": 0.5637,
       "publishedAt": "2026-09-09T19:07:42.000Z",
       "summary": "As AI agents go rogue and fears of superintelligence grow, politicians are raising the alarm over its potential harm to human existence.",
       "tags": [
@@ -535,7 +616,7 @@
       "url": "https://www.wired.com/story/i-used-ai-to-hack-my-home-network/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5729,
+      "score": 0.5604,
       "publishedAt": "2026-09-09T18:30:00.000Z",
       "summary": "After I removed the safety guardrails from a powerful open-source model, it found vulnerabilities in my household devices and hacked into a PC. But it also told me how to make everything a lot more secure.",
       "tags": [
@@ -550,22 +631,9 @@
       "url": "https://www.wired.com/story/apple-debuts-the-iphone-duo-its-first-folding-iphone/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.57,
+      "score": 0.5575,
       "publishedAt": "2026-09-09T17:57:45.000Z",
       "summary": "The iPhone with a folding screen is the first radical redesign of Apple’s flagship handset in years. The iPhone Duo will cost $1,999 when it arrives in October.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Apple Watch Series 12 and Apple Watch Ultra 4: Ceramic, Specs, Release Date",
-      "url": "https://www.wired.com/story/apple-watch-series-12-apple-watch-ultra-4/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5688,
-      "publishedAt": "2026-09-09T17:43:38.000Z",
-      "summary": "Apple’s latest smartwatches—the Apple Watch Series 12 and Ultra 4—get a faster chip, expanded health tracking, and new Siri capabilities. Plus, the ceramic finish is back.",
       "tags": [
         "AI"
       ],
@@ -576,7 +644,7 @@
       "url": "https://www.theverge.com/policy/992359/microsoft-aft-schools-ai-privacy",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5656,
+      "score": 0.553,
       "publishedAt": "2026-09-09T17:07:48.000Z",
       "summary": "Microsoft agreed to a set of safety and privacy principles for AI in schools a week after two major school systems announced a ban on student-facing AI. In a new agreement with the American Federation of Teachers (AFT), the second-largest teachers union in the US, and its New York City affiliate the",
       "tags": [
@@ -585,24 +653,11 @@
       "engagementScore": 0
     },
     {
-      "title": "You Can Now Destroy Flock Cameras for Cash in GTA V",
-      "url": "https://www.wired.com/story/you-can-now-destroy-flock-cameras-for-cash-in-gta-v/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5622,
-      "publishedAt": "2026-09-09T16:30:00.000Z",
-      "summary": "A new GTA mod lets you smash and shoot Flock’s automatic license plate readers around the fictional Los Santos.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Students who use AI generally score worse at school",
       "url": "https://www.theverge.com/ai-artificial-intelligence/991956/student-ai-use-scores-oecd-pisa",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5443,
+      "score": 0.5317,
       "publishedAt": "2026-09-09T13:09:04.000Z",
       "summary": "Students who use AI to help them study tend to perform worse at school than those who don't, according to data from a global OECD educational report. The situation is more complex than it sounds though, with certain types of AI use giving learners a slight boost, especially among students taught to",
       "tags": [
@@ -615,7 +670,7 @@
       "url": "https://www.theverge.com/tech/991809/amazon-prime-video-ai-lip-sync-dubbing",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5439,
+      "score": 0.5314,
       "publishedAt": "2026-09-09T13:04:40.000Z",
       "summary": "Amazon's Prime Video is launching a new AI-powered feature that lines up an actor's mouth with \"human-dubbed\" audio. The feature is only available with the English dub of the German series Maxton Hall for now, but Prime Video plans to expand it to \"additional titles\" in the future. In its announceme",
       "tags": [
@@ -624,24 +679,11 @@
       "engagementScore": 0
     },
     {
-      "title": "A Stealth Startup Thinks It Just Hacked the Memory Shortage",
-      "url": "https://www.wired.com/story/a-new-dollar400-million-startup-wants-to-fix-the-ai-memory-bottleneck/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5435,
-      "publishedAt": "2026-09-09T13:00:00.000Z",
-      "summary": "Kepler Computing claims a new approach to chip design—and a proprietary material—can help end the supply bottlenecks that have sent memory prices surging.",
-      "tags": [
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Worried Anthropic researchers warn that AI &#8216;could kill all humans&#8217;",
       "url": "https://www.theverge.com/ai-artificial-intelligence/991927/anthropic-ai-kill-all-humans",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.53,
+      "score": 0.5174,
       "publishedAt": "2026-09-09T10:28:36.000Z",
       "summary": "A senior Anthropic safety researcher has said there is more than a 10 percent chance artificial intelligence \"could kill all humans\" by the end of the decade, just hours after a colleague resigned over fears the AI lab and its rivals are carelessly racing to build \"superhuman systems\" they cannot co",
       "tags": [
@@ -652,55 +694,15 @@
       "engagementScore": 0
     },
     {
-      "title": "Drama swirls around OpenAI’s legendary mathematical milestone",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/991710/openai-navier-stokes-solution",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5266,
-      "publishedAt": "2026-09-09T09:49:53.000Z",
-      "summary": "OpenAI says it found a solution to a major math problem that has remained unsolved for around 90 years, as reported earlier by The New York Times and Wired. In a blog post on Tuesday, OpenAI announced that it discovered a solution to the Navier-Stokes problem - which relates to the flow of liquid an",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "The Download: our 35 Innovators Under 35 this year",
       "url": "https://www.technologyreview.com/2026/09/08/1143615/the-download-35-innovators-under-35-spiderwebs-measuring-nature/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.496,
+      "score": 0.4823,
       "publishedAt": "2026-09-08T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Introducing our 35 Innovators Under 35 list for 2026 What will the next generation of science and technology look like? Our latest Innovators Under 35",
       "tags": [
         "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "This founder is teaching chips how to recycle (their energy)",
-      "url": "https://www.technologyreview.com/2026/09/08/1142079/hannah-earley-computer-chips-recycle-energy/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.4869,
-      "publishedAt": "2026-09-08T10:36:00.000Z",
-      "summary": "Throughout the history of the computer chip, engineers have treated waste heat as an inevitable cost of a calculation. Hannah Earley, however, thinks it’s a design choice. Earley, 31, is cofounder and chief technology officer of Vaire Computing, a startup building chips that recycle energy usually t",
-      "tags": [
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "This AI entrepreneur is developing agents that can plan ahead for the unexpected",
-      "url": "https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.4867,
-      "publishedAt": "2026-09-08T10:34:00.000Z",
-      "summary": "Danijar Hafner’s office in San Francisco’s SoMa district sits mostly empty. His brand-new startup is still in stealth mode and doesn’t even have its name on the door. On the day I visit, there’s only one other person there, and little in the way of furniture. But what it lacks in decor, it makes up&",
-      "tags": [
-        "Agents",
-        "Industry"
       ],
       "engagementScore": 0
     }
