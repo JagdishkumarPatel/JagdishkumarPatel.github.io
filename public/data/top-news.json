@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T15:52:50.382Z",
+  "updatedAt": "2026-09-13T20:31:41.004Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,7 +12,7 @@
       "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 1.0966,
+      "score": 1.0627,
       "publishedAt": "2026-09-14T00:00:00.000Z",
       "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
       "tags": [
@@ -25,21 +25,21 @@
       "url": "https://arxiv.org/abs/2609.01877",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8002,
+      "score": 0.7699,
       "publishedAt": "2026-09-12T17:05:31.000Z",
       "summary": "The transition from 5G to 6G is becoming concrete: the ITU-R IMT-2030 framework has established the high-level vision and capability set for 6G, while 3GPP Release 21 has defined the path toward the first 6G specifications. This raises a deliberately provocative question for the research and standar",
       "tags": [
         "Research",
         "Vision"
       ],
-      "engagementScore": 117
+      "engagementScore": 120
     },
     {
       "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
       "url": "https://openai.com/index/cognition-devin-testing-with-astra",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6882,
+      "score": 0.6544,
       "publishedAt": "2026-09-11T16:00:00.000Z",
       "summary": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.",
       "tags": [
@@ -49,11 +49,38 @@
       "engagementScore": 0
     },
     {
+      "title": "AI recursive self-improvement might not come so quickly after all (August 2026)",
+      "url": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/",
+      "feedSource": "Hacker News",
+      "source": "technologyreview.com",
+      "score": 0.6316,
+      "publishedAt": "2026-09-13T18:49:44.000Z",
+      "summary": "AI agents are not yet creative enough to carry out genuinely innovative open-ended AI research, it seems.",
+      "tags": [
+        "Agents",
+        "Research"
+      ],
+      "engagementScore": 18
+    },
+    {
+      "title": "Garry Tan wants US open-weight AI labs to 'distill' frontier models, too",
+      "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
+      "feedSource": "Hacker News",
+      "source": "techcrunch.com",
+      "score": 0.6209,
+      "publishedAt": "2026-09-13T15:44:38.000Z",
+      "summary": "Tan wants smaller, American open-weight AI labs to use the same kind of training techniques on American frontier AI labs, giving the U.S. a more robust set of open-weight options that aren’t Chinese.",
+      "tags": [
+        "ML Infra"
+      ],
+      "engagementScore": 236
+    },
+    {
       "title": "OpenAI Agents API",
       "url": "https://developers.openai.com/api/docs/guides/agents-api/overview",
       "feedSource": "Hacker News",
       "source": "developers.openai.com",
-      "score": 0.6454,
+      "score": 0.6174,
       "publishedAt": "2026-09-10T19:43:22.000Z",
       "summary": "Build durable cloud agents with a managed Codex harness.",
       "tags": [
@@ -68,7 +95,7 @@
       "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6445,
+      "score": 0.6106,
       "publishedAt": "2026-09-11T10:00:00.000Z",
       "summary": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
       "tags": [
@@ -84,89 +111,24 @@
       "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.5936,
+      "score": 0.5828,
       "publishedAt": "2026-09-10T17:23:42.000Z",
       "summary": "Case studies from threat actors disrupted between December 2025 and August 2026 across seven areas of harm, from cyber operations to biological misuse.",
       "tags": [
         "Safety"
       ],
-      "engagementScore": 182
+      "engagementScore": 183
     },
     {
-      "title": "The Smart Bird Feeders Everyone’s Talking About (and Actually Buying) (2026)",
-      "url": "https://www.wired.com/story/best-smart-bird-feeders/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5586,
-      "publishedAt": "2026-09-13T11:00:00.000Z",
-      "summary": "These bird feeders come with cameras and connected apps to let you see and learn about the birds in your neighborhood.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Anthropic CEO says AI swarm could 'take over the Internet' in 6-12 months",
-      "url": "https://venturebeat.com/security/anthropic-ceo-says-ai-swarm-could-take-over-the-entire-internet-in-6-12-months-commits-to-ai-slowdown-plan",
-      "feedSource": "Hacker News",
-      "source": "venturebeat.com",
-      "score": 0.5574,
-      "publishedAt": "2026-09-13T03:25:32.000Z",
-      "summary": "Dario Amodei is publicly arguing that the frontier itself is advancing too quickly — and committing his company to the first piece of a system intended to slow it down.",
+      "title": "Trump and Mike Johnson think the AI industry is overreacting",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5803,
+      "publishedAt": "2026-09-13T19:41:48.000Z",
+      "summary": "Yesterday, Anthropic CEO Dario Amodei published a lengthy open letter saying it was time to \"pace the frontier\" and slow down AI development. OpenAI's Sam Altman and Elon Musk both agreed, publicly voicing their support on X. Even Alphabet's Demis Hassabis offered tentative support for Amodei's prop",
       "tags": [
         "LLM"
-      ],
-      "engagementScore": 42
-    },
-    {
-      "title": "Try These 3 iOS 27 Safari Settings to Get More Out of Apple’s Browser",
-      "url": "https://www.wired.com/story/iphone-settings-ios-27-safari-browser/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.556,
-      "publishedAt": "2026-09-13T10:30:00.000Z",
-      "summary": "Apple’s Safari browser gets a few helpful automation and personalization features in iOS 27.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Best Indoor Garden Systems I’ve Been Testing All Year (2026)",
-      "url": "https://www.wired.com/gallery/best-indoor-gardening-systems/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.556,
-      "publishedAt": "2026-09-13T10:30:00.000Z",
-      "summary": "Grow a backyard’s worth of greens and vegetables in your house with a vertical hydroponic garden. Here are a few that might be worth the investment.",
-      "tags": [
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Coway Airmega Halo Review: Is Your Air Really Clean?",
-      "url": "https://www.wired.com/review/coway-airmega-halo/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5537,
-      "publishedAt": "2026-09-13T10:05:00.000Z",
-      "summary": "Coway’s new Airmega Halo runs quietly and clears visible smoke quickly, but its air-quality readings weren’t always reassuring.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "AI Agents Are Thirsty for Power",
-      "url": "https://www.wired.com/story/ai-agents-are-thirsty-for-power/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5533,
-      "publishedAt": "2026-09-13T10:00:00.000Z",
-      "summary": "Silicon Valley is shifting away from chatbot queries toward a future filled with resource-intensive agentic AI—and it's driving the data center buildout.",
-      "tags": [
-        "Agents"
       ],
       "engagementScore": 0
     },
@@ -184,11 +146,102 @@
       "engagementScore": 658
     },
     {
+      "title": "I'm being cyberattacked by Tesla, Inc",
+      "url": "https://dreamstation.systems/personal/tesla.html",
+      "feedSource": "Hacker News",
+      "source": "dreamstation.systems",
+      "score": 0.5461,
+      "publishedAt": "2026-09-13T18:03:09.000Z",
+      "summary": "A bungled Assetnote scan",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 314
+    },
+    {
+      "title": "Anthropic CEO says AI swarm could 'take over the Internet' in 6-12 months",
+      "url": "https://venturebeat.com/security/anthropic-ceo-says-ai-swarm-could-take-over-the-entire-internet-in-6-12-months-commits-to-ai-slowdown-plan",
+      "feedSource": "Hacker News",
+      "source": "venturebeat.com",
+      "score": 0.5343,
+      "publishedAt": "2026-09-13T03:25:32.000Z",
+      "summary": "Dario Amodei is publicly arguing that the frontier itself is advancing too quickly — and committing his company to the first piece of a system intended to slow it down.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 45
+    },
+    {
+      "title": "The Smart Bird Feeders Everyone’s Talking About (and Actually Buying) (2026)",
+      "url": "https://www.wired.com/story/best-smart-bird-feeders/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5338,
+      "publishedAt": "2026-09-13T11:00:00.000Z",
+      "summary": "These bird feeders come with cameras and connected apps to let you see and learn about the birds in your neighborhood.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Try These 3 iOS 27 Safari Settings to Get More Out of Apple’s Browser",
+      "url": "https://www.wired.com/story/iphone-settings-ios-27-safari-browser/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5311,
+      "publishedAt": "2026-09-13T10:30:00.000Z",
+      "summary": "Apple’s Safari browser gets a few helpful automation and personalization features in iOS 27.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Best Indoor Garden Systems I’ve Been Testing All Year (2026)",
+      "url": "https://www.wired.com/gallery/best-indoor-gardening-systems/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5311,
+      "publishedAt": "2026-09-13T10:30:00.000Z",
+      "summary": "Grow a backyard’s worth of greens and vegetables in your house with a vertical hydroponic garden. Here are a few that might be worth the investment.",
+      "tags": [
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Coway Airmega Halo Review: Is Your Air Really Clean?",
+      "url": "https://www.wired.com/review/coway-airmega-halo/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5289,
+      "publishedAt": "2026-09-13T10:05:00.000Z",
+      "summary": "Coway’s new Airmega Halo runs quietly and clears visible smoke quickly, but its air-quality readings weren’t always reassuring.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "AI Agents Are Thirsty for Power",
+      "url": "https://www.wired.com/story/ai-agents-are-thirsty-for-power/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5285,
+      "publishedAt": "2026-09-13T10:00:00.000Z",
+      "summary": "Silicon Valley is shifting away from chatbot queries toward a future filled with resource-intensive agentic AI—and it's driving the data center buildout.",
+      "tags": [
+        "Agents"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "With a Better Understanding of Physics, We Could Predict Volcanic Eruptions",
       "url": "https://www.wired.com/story/physics-predict-volcanic-eruptions/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5506,
+      "score": 0.5258,
       "publishedAt": "2026-09-13T09:30:00.000Z",
       "summary": "“There’s no reason we can’t think that, at some point in the future, we can have volcano forecasts that are like weather forecasts.”",
       "tags": [
@@ -201,7 +254,7 @@
       "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.5132,
+      "score": 0.5124,
       "publishedAt": "2026-09-10T16:00:00.000Z",
       "summary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
       "tags": [
@@ -267,53 +320,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Everyone should slow down AI development except for me",
-      "url": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/",
-      "feedSource": "Hacker News",
-      "source": "xeiaso.net",
-      "score": 0.5104,
-      "publishedAt": "2026-09-13T00:30:44.000Z",
-      "summary": "Xe Iaso’s personal website.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 662
-    },
-    {
-      "title": "OpenAI's Sam Altman says it would be 'ill-advised' to go public in 2026",
-      "url": "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/",
-      "feedSource": "Hacker News",
-      "source": "techcrunch.com",
-      "score": 0.5061,
-      "publishedAt": "2026-09-12T20:28:29.000Z",
-      "summary": "While OpenAI has filed confidentially for an IPO, the company will not be going public this year, according to CEO Sam Altman.",
-      "tags": [
-        "LLM",
-        "Industry"
-      ],
-      "engagementScore": 94
-    },
-    {
-      "title": "Why So Many AI Researchers Think the Machines Could Kill Everyone",
-      "url": "https://www.wired.com/story/why-so-many-ai-researchers-think-the-machines-could-kill-everyone/",
-      "feedSource": "Hacker News",
-      "source": "wired.com",
-      "score": 0.5048,
-      "publishedAt": "2026-09-13T07:02:40.000Z",
-      "summary": "A combination of rapid advances, recursive self-improvement, and agentic swarms are genuinely “spooking people” inside big labs.",
-      "tags": [
-        "Agents",
-        "Research",
-        "Dev Tools"
-      ],
-      "engagementScore": 22
-    },
-    {
       "title": "OpenAI’s rogue AI tried to hack another company in May",
       "url": "https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4875,
+      "score": 0.4626,
       "publishedAt": "2026-09-12T21:41:36.000Z",
       "summary": "In May, hundreds of malicious and spam packages were uploaded to RubyGems, causing a serious disruption for the host. Now independent researchers have said that a swarm of OpenAI agents were responsible for the attack. Not only that, but the AI tried to steal users' API keys. At the time, RubyGems d",
       "tags": [
@@ -329,7 +340,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4853,
+      "score": 0.4604,
       "publishedAt": "2026-09-12T21:16:28.000Z",
       "summary": "OpenAI CEO Sam Altman confirmed that there would be no OpenAI IPO in 2026 during an interview with Fortune. Over the course of 45 minutes, Altman discussed a variety of subjects including the Hugging Face hacking incident, recursive self-improvement, and the possibility of building an AI that was be",
       "tags": [
@@ -344,7 +355,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/994337/anthropic-ceo-slow-down-ai-development",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4592,
+      "score": 0.4343,
       "publishedAt": "2026-09-12T16:23:40.000Z",
       "summary": "Anthropic CEO Dario Amodei says the time has come to slow down AI development and will give third-party evaluators like METR access to its models to help ensure its \"adherence to safety practices and commitments.\" In a winding essay, Amodei proposed a three-step plan to \"pace the frontier\" - jargon",
       "tags": [
@@ -358,50 +369,11 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/994112/ai-data-center-pollution-health-epa",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.45,
+      "score": 0.4252,
       "publishedAt": "2026-09-12T14:41:27.000Z",
       "summary": "President Donald Trump is weakening environmental regulations in the name of speeding up the construction of AI data centers, raising health risks for Americans, a cadre of former EPA officials said this week in a briefing and new report. They are urging - perhaps futilely - the president to adopt a",
       "tags": [
         "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "10 Best Standing Desks Worth Buying in 2026",
-      "url": "https://www.wired.com/gallery/best-standing-desks/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.431,
-      "publishedAt": "2026-09-12T11:08:00.000Z",
-      "summary": "Take your home office to new heights with our favorite motorized standing desks.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Roundtables: Could AI really kill us all?",
-      "url": "https://www.technologyreview.com/2026/09/11/1143936/roundtables-will-ai-really-kill-us-all/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.4304,
-      "publishedAt": "2026-09-11T20:05:06.000Z",
-      "summary": "Employees at the world&#8217;s leading AI labs are saying there&#8217;s a real possibility that advanced AI could destroy humanity. Are they right? Or is this more scaremongering and hype? Join MIT Technology Review executive editor Niall Firth for a conversation with senior AI editor Will Douglas H",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Anti-Woke Right Can’t Figure Out How to Stop ‘Grand Theft Auto VI’",
-      "url": "https://www.wired.com/story/the-anti-woke-right-cant-figure-out-how-to-stop-grand-theft-auto-vi/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4303,
-      "publishedAt": "2026-09-12T11:00:00.000Z",
-      "summary": "A subset of male gamers have spent years warning that the transgressive series has been neutered by progressive developers, but the backlash isn’t taking hold.",
-      "tags": [
-        "Dev Tools"
       ],
       "engagementScore": 0
     },
@@ -515,11 +487,50 @@
       "engagementScore": 0
     },
     {
+      "title": "10 Best Standing Desks Worth Buying in 2026",
+      "url": "https://www.wired.com/gallery/best-standing-desks/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4062,
+      "publishedAt": "2026-09-12T11:08:00.000Z",
+      "summary": "Take your home office to new heights with our favorite motorized standing desks.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Anti-Woke Right Can’t Figure Out How to Stop ‘Grand Theft Auto VI’",
+      "url": "https://www.wired.com/story/the-anti-woke-right-cant-figure-out-how-to-stop-grand-theft-auto-vi/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4055,
+      "publishedAt": "2026-09-12T11:00:00.000Z",
+      "summary": "A subset of male gamers have spent years warning that the transgressive series has been neutered by progressive developers, but the backlash isn’t taking hold.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Roundtables: Could AI really kill us all?",
+      "url": "https://www.technologyreview.com/2026/09/11/1143936/roundtables-will-ai-really-kill-us-all/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.4033,
+      "publishedAt": "2026-09-11T20:05:06.000Z",
+      "summary": "Employees at the world&#8217;s leading AI labs are saying there&#8217;s a real possibility that advanced AI could destroy humanity. Are they right? Or is this more scaremongering and hype? Join MIT Technology Review executive editor Niall Firth for a conversation with senior AI editor Will Douglas H",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "The Download: biotech&#8217;s future and cheaper, cleaner steel",
       "url": "https://www.technologyreview.com/2026/09/11/1143879/the-download-biotech-future-cheaper-cleaner-steel/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.3842,
+      "score": 0.3571,
       "publishedAt": "2026-09-11T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Meet the under-35s shaping the future of biotech Every year, MIT Technology Review puts together our 35 Innovators Under 35, a list of some of the bri",
       "tags": [
@@ -532,7 +543,7 @@
       "url": "https://www.theverge.com/tech/993974/meta-ai-prompt-invasive-suggestions",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.3696,
+      "score": 0.3447,
       "publishedAt": "2026-09-11T23:38:19.000Z",
       "summary": "Meta says it's making changes to the prompts suggested by its AI chatbot after a viral video showed it digging for personal information about a woman's young daughters, as reported earlier by Futurism. In a statement to The Verge, Meta spokesperson Dina El-Kassaby says the company \"missed the mark,\"",
       "tags": [
@@ -545,38 +556,11 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/994255/openai-millennium-prize-problem-tristan-buckmaster-competition",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.3693,
+      "score": 0.3445,
       "publishedAt": "2026-09-11T23:35:48.000Z",
       "summary": "OpenAI has spent the last few years planting flags across the increasingly difficult terrain in mathematics. This week, it claimed one of its biggest prizes yet: a solution to a legendary Millennium Prize problem. In normal circumstances, this would have been celebrated as a historic achievement. In",
       "tags": [
         "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Meet the under-35s shaping the future of biotech",
-      "url": "https://www.technologyreview.com/2026/09/11/1143834/meet-the-under-35s-shaping-the-future-of-biotech/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.3658,
-      "publishedAt": "2026-09-11T09:00:00.000Z",
-      "summary": "Every year, MIT Technology Review puts together a list of some of the brightest and best young minds working across science and technology. Our 35 Innovators Under 35 are the ones to watch—people whose research and technical work stands to shape the future of their fields. This year, the list includ",
-      "tags": [
-        "Research",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Lawyer fined $5K over AI-hallucinated witnesses in a murder case",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/994207/chatgpt-new-mexico-lawyer-fined-murder-appeal",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.3541,
-      "publishedAt": "2026-09-11T20:44:25.000Z",
-      "summary": "New Mexico's Supreme Court is punishing a lawyer for including AI-fabricated witnesses and fake police testimony in an appeal for his client's murder conviction, according to a report from Reuters. In a filing on Wednesday, the court fined Stephen Aarons $5,000 and held him in contempt for failing t",
-      "tags": [
-        "AI"
       ],
       "engagementScore": 0
     },
@@ -691,6 +675,20 @@
       "tags": [
         "LLM",
         "Open Source"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Meet the under-35s shaping the future of biotech",
+      "url": "https://www.technologyreview.com/2026/09/11/1143834/meet-the-under-35s-shaping-the-future-of-biotech/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.3387,
+      "publishedAt": "2026-09-11T09:00:00.000Z",
+      "summary": "Every year, MIT Technology Review puts together a list of some of the brightest and best young minds working across science and technology. Our 35 Innovators Under 35 are the ones to watch—people whose research and technical work stands to shape the future of their fields. This year, the list includ",
+      "tags": [
+        "Research",
+        "Dev Tools"
       ],
       "engagementScore": 0
     }
