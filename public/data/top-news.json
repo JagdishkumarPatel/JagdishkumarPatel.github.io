@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T23:00:30.550Z",
+  "updatedAt": "2026-09-14T04:09:12.357Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,11 +8,27 @@
   ],
   "items": [
     {
+      "title": "Due to concerns about malicious applications, GPT2 will not be released (2019)",
+      "url": "https://openai.com/index/better-language-models/",
+      "feedSource": "Hacker News",
+      "source": "openai.com",
+      "score": 1.0146,
+      "publishedAt": "2026-09-13T23:11:17.000Z",
+      "summary": "We’ve trained a large-scale unsupervised language model which generates coherent paragraphs of text, achieves state-of-the-art performance on many language modeling benchmarks, and performs rudimentary reading comprehension, machine translation, question answering, and summarization—all without task",
+      "tags": [
+        "LLM",
+        "Open Source",
+        "RAG",
+        "ML Infra"
+      ],
+      "engagementScore": 64
+    },
+    {
       "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
       "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 1.0446,
+      "score": 1.0071,
       "publishedAt": "2026-09-14T00:00:00.000Z",
       "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
       "tags": [
@@ -21,39 +37,184 @@
       "engagementScore": 0
     },
     {
+      "title": "Occamy-1.0: Open Pareto-frontier 35B Intelligence for Co-work",
+      "url": "https://arxiv.org/abs/2609.11977",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9112,
+      "publishedAt": "2026-09-14T04:00:00.000Z",
+      "summary": "arXiv:2609.11977v1 Announce Type: new \nAbstract: Co-work agents execute complex workflows that combine information gathering, tool use, coding, and file manipulation across many model invocations. Because cost and latency accumulate over the full episode, their practical value depends not only on pe",
+      "tags": [
+        "Agents",
+        "Research",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Harness or Model? Isolating the Harness Effect in Agentic Coding with a Contamination-Controlled Private Suite",
+      "url": "https://arxiv.org/abs/2609.11987",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9112,
+      "publishedAt": "2026-09-14T04:00:00.000Z",
+      "summary": "arXiv:2609.11987v1 Announce Type: new \nAbstract: An agentic coding system couples a language model to a harness: the tools, prompts and control flow that turn a chat model into an autonomous software engineer. Vendors ship harnesses tuned to their own models, and practitioners assume the vendor-nati",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Research",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Reading the Whole Heart: Latent-Attention Masked Autoencoders for Multimodal Cardiac Representation Learning",
+      "url": "https://arxiv.org/abs/2609.12035",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9112,
+      "publishedAt": "2026-09-14T04:00:00.000Z",
+      "summary": "arXiv:2609.12035v1 Announce Type: new \nAbstract: Cardiovascular diagnosis rests on integrating complementary modalities, like ECG, echocardiography, chest radiographs, and clinical variables, each capturing distinct but correlated aspects of cardiac physiology. Yet most medical foundation models rem",
+      "tags": [
+        "Research",
+        "Vision",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Competence-Gated Pooling of Language Models and Priors for Event Forecasting",
+      "url": "https://arxiv.org/abs/2609.12101",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9112,
+      "publishedAt": "2026-09-14T04:00:00.000Z",
+      "summary": "arXiv:2609.12101v1 Announce Type: new \nAbstract: In hybrid forecasting, a language model is often one of several available signals. A system may already have a market, crowd, or statistical forecast and must decide whether the model adds useful information or should be ignored. The relevant target i",
+      "tags": [
+        "LLM",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Language Is an Insufficient Substrate for Quantitative Reasoning, and Consequential Domains Need Large Quantitative Models",
+      "url": "https://arxiv.org/abs/2609.12105",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9112,
+      "publishedAt": "2026-09-14T04:00:00.000Z",
+      "summary": "arXiv:2609.12105v1 Announce Type: new \nAbstract: The prevailing assumption in applied machine learning is that progress on consequential quantitative decisions such as pricing risk, allocating capital, triaging patients, or containing a network intrusion will follow from progress in large language m",
+      "tags": [
+        "Research",
+        "Safety",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "DU-NO: A Parameter-Efficient Double U-Shaped Neural Operator for Phase-Resolving Wave Modeling",
+      "url": "https://arxiv.org/abs/2609.12115",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9112,
+      "publishedAt": "2026-09-14T04:00:00.000Z",
+      "summary": "arXiv:2609.12115v1 Announce Type: new \nAbstract: Phase-resolving wave models such as FUNWAVE-TVD are the accuracy standard for nearshore dynamics, resolving the shoaling, refraction, and breaking of individual waves, but their cost rules them out for the ensembles, uncertainty quantification, and re",
+      "tags": [
+        "Research",
+        "ML Infra"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "When Successful Knowledge Graph Edits Displace Correct Answers: Rank-Level Locality beyond Parameter Support",
+      "url": "https://arxiv.org/abs/2609.12116",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9112,
+      "publishedAt": "2026-09-14T04:00:00.000Z",
+      "summary": "arXiv:2609.12116v1 Announce Type: new \nAbstract: Editing a knowledge graph embedding (KGE) model to promote a desired answer can displace correct answers from the returned list. Locality tests based only on facts that reuse the edited parameter can miss this ranking effect. We introduce a common ran",
+      "tags": [
+        "Research",
+        "RAG",
+        "ML Infra"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Mined from Scientific Literature: Process Schemas for Atomic Layer Deposition and Etching in Materials Science",
+      "url": "https://arxiv.org/abs/2609.12139",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9112,
+      "publishedAt": "2026-09-14T04:00:00.000Z",
+      "summary": "arXiv:2609.12139v1 Announce Type: new \nAbstract: Atomic layer deposition (ALD) and atomic layer etching (ALE) are reported heterogeneously across experimental and simulation literature in materials science, hindering comparison and machine-actionable reuse. We present four domain-expert-reviewed JSO",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Malicious Use of Artificial Intelligence",
+      "url": "https://arxiv.org/abs/1802.07228",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.8517,
+      "publishedAt": "2026-09-14T01:22:35.000Z",
+      "summary": "This report surveys the landscape of potential security threats from malicious uses of AI, and proposes ways to better forecast, prevent, and mitigate these threats. After analyzing the ways in which AI may influence the threat landscape in the digital, physical, and political domains, we make four",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 22
+    },
+    {
+      "title": "Meta$^N$: Recursive Self-Improvement Through Emergent Depth",
+      "url": "https://arxiv.org/abs/2608.24735",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.7451,
+      "publishedAt": "2026-09-13T22:24:01.000Z",
+      "summary": "Self-improving LLM agents refine answers, not the process that produces those answers. Systems that add a meta-level hold that level fixed, and those that edit themselves must leave part of their own editing machinery untouched to stay stable, capping the meta-depth they realize at roughly two. We p",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Vision"
+      ],
+      "engagementScore": 4
+    },
+    {
       "title": "Will there be a 7G?",
       "url": "https://arxiv.org/abs/2609.01877",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7534,
+      "score": 0.7188,
       "publishedAt": "2026-09-12T17:05:31.000Z",
       "summary": "The transition from 5G to 6G is becoming concrete: the ITU-R IMT-2030 framework has established the high-level vision and capability set for 6G, while 3GPP Release 21 has defined the path toward the first 6G specifications. This raises a deliberately provocative question for the research and standar",
       "tags": [
         "Research",
         "Vision"
       ],
-      "engagementScore": 121
+      "engagementScore": 122
     },
     {
       "title": "AI recursive self-improvement might not come so quickly after all",
       "url": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/",
       "feedSource": "Hacker News",
       "source": "technologyreview.com",
-      "score": 0.6597,
+      "score": 0.6442,
       "publishedAt": "2026-09-13T18:49:44.000Z",
       "summary": "AI agents are not yet creative enough to carry out genuinely innovative open-ended AI research, it seems.",
       "tags": [
         "Agents",
         "Research"
       ],
-      "engagementScore": 48
+      "engagementScore": 67
     },
     {
       "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
       "url": "https://openai.com/index/cognition-devin-testing-with-astra",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6363,
+      "score": 0.5988,
       "publishedAt": "2026-09-11T16:00:00.000Z",
       "summary": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.",
       "tags": [
@@ -67,35 +228,20 @@
       "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
       "feedSource": "Hacker News",
       "source": "techcrunch.com",
-      "score": 0.6178,
+      "score": 0.5982,
       "publishedAt": "2026-09-13T15:44:38.000Z",
       "summary": "Tan wants smaller, American open-weight AI labs to use the same kind of training techniques on American frontier AI labs, giving the U.S. a more robust set of open-weight options that aren’t Chinese.",
       "tags": [
         "ML Infra"
       ],
-      "engagementScore": 304
-    },
-    {
-      "title": "OpenAI Agents API",
-      "url": "https://developers.openai.com/api/docs/guides/agents-api/overview",
-      "feedSource": "Hacker News",
-      "source": "developers.openai.com",
-      "score": 0.6174,
-      "publishedAt": "2026-09-10T19:43:22.000Z",
-      "summary": "Build durable cloud agents with a managed Codex harness.",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Dev Tools"
-      ],
-      "engagementScore": 346
+      "engagementScore": 371
     },
     {
       "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
       "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.5925,
+      "score": 0.555,
       "publishedAt": "2026-09-11T10:00:00.000Z",
       "summary": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
       "tags": [
@@ -107,24 +253,24 @@
       "engagementScore": 0
     },
     {
-      "title": "Detecting and countering misuse of AI: September 2026",
-      "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+      "title": "Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher",
+      "url": "https://www.vals.ai/blogs/fable-solves-cyphral-distich",
       "feedSource": "Hacker News",
-      "source": "anthropic.com",
-      "score": 0.5828,
-      "publishedAt": "2026-09-10T17:23:42.000Z",
-      "summary": "Case studies from threat actors disrupted between December 2025 and August 2026 across seven areas of harm, from cyber operations to biological misuse.",
+      "source": "vals.ai",
+      "score": 0.5467,
+      "publishedAt": "2026-09-13T21:06:13.000Z",
+      "summary": "Private, domain-specific benchmarks in legal, tax, and finance.",
       "tags": [
-        "Safety"
+        "AI"
       ],
-      "engagementScore": 183
+      "engagementScore": 591
     },
     {
       "title": "OpenAI’s rogue AI tried to hack another company in May",
       "url": "https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5735,
+      "score": 0.546,
       "publishedAt": "2026-09-13T20:54:00.000Z",
       "summary": "In May, hundreds of malicious and spam packages were uploaded to RubyGems, causing a serious disruption for the host. Now independent researchers have said that a swarm of OpenAI agents were responsible for the attack. Not only that, but the AI tried to steal users' API keys. At the time, RubyGems d",
       "tags": [
@@ -140,7 +286,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.567,
+      "score": 0.5395,
       "publishedAt": "2026-09-13T19:41:48.000Z",
       "summary": "Yesterday, Anthropic CEO Dario Amodei published a lengthy open letter saying it was time to \"pace the frontier\" and slow down AI development. OpenAI's Sam Altman and Elon Musk both agreed, publicly voicing their support on X. Even Alphabet's Demis Hassabis offered tentative support for Amodei's prop",
       "tags": [
@@ -149,121 +295,17 @@
       "engagementScore": 0
     },
     {
-      "title": "Muse – Meta’s personal AI agent",
-      "url": "https://ai.meta.com/muse/",
-      "feedSource": "Hacker News",
-      "source": "ai.meta.com",
-      "score": 0.5528,
-      "publishedAt": "2026-09-08T19:25:00.000Z",
-      "summary": "Meet Muse, Meta’s personal AI agent. Learn what it can do across everyday tasks, how it works, and how it helps you get more done.",
-      "tags": [
-        "Agents"
-      ],
-      "engagementScore": 658
-    },
-    {
       "title": "I'm being cyberattacked by Tesla, Inc",
       "url": "https://dreamstation.systems/personal/tesla.html",
       "feedSource": "Hacker News",
       "source": "dreamstation.systems",
-      "score": 0.5403,
+      "score": 0.5192,
       "publishedAt": "2026-09-13T18:03:09.000Z",
       "summary": "A bungled Assetnote scan",
       "tags": [
         "AI"
       ],
-      "engagementScore": 374
-    },
-    {
-      "title": "Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher",
-      "url": "https://www.vals.ai/blogs/fable-solves-cyphral-distich",
-      "feedSource": "Hacker News",
-      "source": "vals.ai",
-      "score": 0.5369,
-      "publishedAt": "2026-09-13T21:06:13.000Z",
-      "summary": "Private, domain-specific benchmarks in legal, tax, and finance.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 226
-    },
-    {
-      "title": "The Smart Bird Feeders Everyone’s Talking About (and Actually Buying) (2026)",
-      "url": "https://www.wired.com/story/best-smart-bird-feeders/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5205,
-      "publishedAt": "2026-09-13T11:00:00.000Z",
-      "summary": "These bird feeders come with cameras and connected apps to let you see and learn about the birds in your neighborhood.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Try These 3 iOS 27 Safari Settings to Get More Out of Apple’s Browser",
-      "url": "https://www.wired.com/story/iphone-settings-ios-27-safari-browser/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5179,
-      "publishedAt": "2026-09-13T10:30:00.000Z",
-      "summary": "Apple’s Safari browser gets a few helpful automation and personalization features in iOS 27.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Best Indoor Garden Systems I’ve Been Testing All Year (2026)",
-      "url": "https://www.wired.com/gallery/best-indoor-gardening-systems/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5179,
-      "publishedAt": "2026-09-13T10:30:00.000Z",
-      "summary": "Grow a backyard’s worth of greens and vegetables in your house with a vertical hydroponic garden. Here are a few that might be worth the investment.",
-      "tags": [
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Coway Airmega Halo Review: Is Your Air Really Clean?",
-      "url": "https://www.wired.com/review/coway-airmega-halo/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5156,
-      "publishedAt": "2026-09-13T10:05:00.000Z",
-      "summary": "Coway’s new Airmega Halo runs quietly and clears visible smoke quickly, but its air-quality readings weren’t always reassuring.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "AI Agents Are Thirsty for Power",
-      "url": "https://www.wired.com/story/ai-agents-are-thirsty-for-power/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5152,
-      "publishedAt": "2026-09-13T10:00:00.000Z",
-      "summary": "Silicon Valley is shifting away from chatbot queries toward a future filled with resource-intensive agentic AI—and it's driving the data center buildout.",
-      "tags": [
-        "Agents"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "With a Better Understanding of Physics, We Could Predict Volcanic Eruptions",
-      "url": "https://www.wired.com/story/physics-predict-volcanic-eruptions/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5125,
-      "publishedAt": "2026-09-13T09:30:00.000Z",
-      "summary": "“There’s no reason we can’t think that, at some point in the future, we can have volcano forecasts that are like weather forecasts.”",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
+      "engagementScore": 416
     },
     {
       "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
@@ -336,17 +378,80 @@
       "engagementScore": 0
     },
     {
-      "title": "Sam Altman says OpenAI going public in 2026 would be ‘ill-advised’",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4471,
-      "publishedAt": "2026-09-12T21:16:28.000Z",
-      "summary": "OpenAI CEO Sam Altman confirmed that there would be no OpenAI IPO in 2026 during an interview with Fortune. Over the course of 45 minutes, Altman discussed a variety of subjects including the Hugging Face hacking incident, recursive self-improvement, and the possibility of building an AI that was be",
+      "title": "The Smart Bird Feeders Everyone’s Talking About (and Actually Buying) (2026)",
+      "url": "https://www.wired.com/story/best-smart-bird-feeders/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.493,
+      "publishedAt": "2026-09-13T11:00:00.000Z",
+      "summary": "These bird feeders come with cameras and connected apps to let you see and learn about the birds in your neighborhood.",
       "tags": [
-        "LLM",
-        "Open Source",
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Try These 3 iOS 27 Safari Settings to Get More Out of Apple’s Browser",
+      "url": "https://www.wired.com/story/iphone-settings-ios-27-safari-browser/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4904,
+      "publishedAt": "2026-09-13T10:30:00.000Z",
+      "summary": "Apple’s Safari browser gets a few helpful automation and personalization features in iOS 27.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Best Indoor Garden Systems I’ve Been Testing All Year (2026)",
+      "url": "https://www.wired.com/gallery/best-indoor-gardening-systems/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4904,
+      "publishedAt": "2026-09-13T10:30:00.000Z",
+      "summary": "Grow a backyard’s worth of greens and vegetables in your house with a vertical hydroponic garden. Here are a few that might be worth the investment.",
+      "tags": [
         "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Coway Airmega Halo Review: Is Your Air Really Clean?",
+      "url": "https://www.wired.com/review/coway-airmega-halo/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4881,
+      "publishedAt": "2026-09-13T10:05:00.000Z",
+      "summary": "Coway’s new Airmega Halo runs quietly and clears visible smoke quickly, but its air-quality readings weren’t always reassuring.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "AI Agents Are Thirsty for Power",
+      "url": "https://www.wired.com/story/ai-agents-are-thirsty-for-power/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4877,
+      "publishedAt": "2026-09-13T10:00:00.000Z",
+      "summary": "Silicon Valley is shifting away from chatbot queries toward a future filled with resource-intensive agentic AI—and it's driving the data center buildout.",
+      "tags": [
+        "Agents"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "With a Better Understanding of Physics, We Could Predict Volcanic Eruptions",
+      "url": "https://www.wired.com/story/physics-predict-volcanic-eruptions/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.485,
+      "publishedAt": "2026-09-13T09:30:00.000Z",
+      "summary": "“There’s no reason we can’t think that, at some point in the future, we can have volcano forecasts that are like weather forecasts.”",
+      "tags": [
+        "AI"
       ],
       "engagementScore": 0
     },
@@ -460,11 +565,26 @@
       "engagementScore": 0
     },
     {
+      "title": "Sam Altman says OpenAI going public in 2026 would be ‘ill-advised’",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.4196,
+      "publishedAt": "2026-09-12T21:16:28.000Z",
+      "summary": "OpenAI CEO Sam Altman confirmed that there would be no OpenAI IPO in 2026 during an interview with Fortune. Over the course of 45 minutes, Altman discussed a variety of subjects including the Hugging Face hacking incident, recursive self-improvement, and the possibility of building an AI that was be",
+      "tags": [
+        "LLM",
+        "Open Source",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Anthropic CEO says it’s time to pump the brakes on AI",
       "url": "https://www.theverge.com/ai-artificial-intelligence/994337/anthropic-ceo-slow-down-ai-development",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.421,
+      "score": 0.3935,
       "publishedAt": "2026-09-12T16:23:40.000Z",
       "summary": "Anthropic CEO Dario Amodei says the time has come to slow down AI development and will give third-party evaluators like METR access to its models to help ensure its \"adherence to safety practices and commitments.\" In a winding essay, Amodei proposed a three-step plan to \"pace the frontier\" - jargon",
       "tags": [
@@ -478,7 +598,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/994112/ai-data-center-pollution-health-epa",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4119,
+      "score": 0.3844,
       "publishedAt": "2026-09-12T14:41:27.000Z",
       "summary": "President Donald Trump is weakening environmental regulations in the name of speeding up the construction of AI data centers, raising health risks for Americans, a cadre of former EPA officials said this week in a briefing and new report. They are urging - perhaps futilely - the president to adopt a",
       "tags": [
@@ -491,7 +611,7 @@
       "url": "https://www.wired.com/gallery/best-standing-desks/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.3929,
+      "score": 0.3654,
       "publishedAt": "2026-09-12T11:08:00.000Z",
       "summary": "Take your home office to new heights with our favorite motorized standing desks.",
       "tags": [
@@ -504,7 +624,7 @@
       "url": "https://www.wired.com/story/the-anti-woke-right-cant-figure-out-how-to-stop-grand-theft-auto-vi/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.3922,
+      "score": 0.3647,
       "publishedAt": "2026-09-12T11:00:00.000Z",
       "summary": "A subset of male gamers have spent years warning that the transgressive series has been neutered by progressive developers, but the backlash isn’t taking hold.",
       "tags": [
@@ -517,24 +637,11 @@
       "url": "https://www.technologyreview.com/2026/09/11/1143936/roundtables-will-ai-really-kill-us-all/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.3889,
+      "score": 0.3588,
       "publishedAt": "2026-09-11T20:05:06.000Z",
       "summary": "Employees at the world&#8217;s leading AI labs are saying there&#8217;s a real possibility that advanced AI could destroy humanity. Are they right? Or is this more scaremongering and hype? Join MIT Technology Review executive editor Niall Firth for a conversation with senior AI editor Will Douglas H",
       "tags": [
         "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Download: biotech&#8217;s future and cheaper, cleaner steel",
-      "url": "https://www.technologyreview.com/2026/09/11/1143879/the-download-biotech-future-cheaper-cleaner-steel/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.3427,
-      "publishedAt": "2026-09-11T12:10:00.000Z",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Meet the under-35s shaping the future of biotech Every year, MIT Technology Review puts together our 35 Innovators Under 35, a list of some of the bri",
-      "tags": [
-        "Dev Tools"
       ],
       "engagementScore": 0
     },
@@ -545,9 +652,9 @@
       "source": "huggingface.co",
       "score": 0.3401,
       "publishedAt": "2026-09-10T00:00:00.000Z",
-      "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "summary": "",
       "tags": [
-        "Open Source"
+        "AI"
       ],
       "engagementScore": 0
     },
@@ -590,104 +697,6 @@
       "tags": [
         "Open Source",
         "Vision",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
-      "url": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.3401,
-      "publishedAt": "2026-09-03T00:00:00.000Z",
-      "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-      "tags": [
-        "Open Source",
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Give Your Coding Agents a Memory You Own",
-      "url": "https://huggingface.co/blog/funes",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.3401,
-      "publishedAt": "2026-09-03T00:00:00.000Z",
-      "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-      "tags": [
-        "Agents",
-        "Open Source",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Training a coding model to paint watercolours with TRL and OpenEnv",
-      "url": "https://huggingface.co/blog/train-to-paint-with-code",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.3401,
-      "publishedAt": "2026-09-03T00:00:00.000Z",
-      "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-      "tags": [
-        "Open Source",
-        "Dev Tools",
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
-      "url": "https://huggingface.co/blog/allenai/benchmirt",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.3401,
-      "publishedAt": "2026-09-01T21:39:07.000Z",
-      "summary": "A Blog post by Ai2 on Hugging Face",
-      "tags": [
-        "LLM",
-        "Open Source"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Meta says it&#8217;s changing AI suggestions after posing invasive personal questions",
-      "url": "https://www.theverge.com/tech/993974/meta-ai-prompt-invasive-suggestions",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.3314,
-      "publishedAt": "2026-09-11T23:38:19.000Z",
-      "summary": "Meta says it's making changes to the prompts suggested by its AI chatbot after a viral video showed it digging for personal information about a woman's young daughters, as reported earlier by Futurism. In a statement to The Verge, Meta spokesperson Dina El-Kassaby says the company \"missed the mark,\"",
-      "tags": [
-        "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "OpenAI just wants to win",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/994255/openai-millennium-prize-problem-tristan-buckmaster-competition",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.3312,
-      "publishedAt": "2026-09-11T23:35:48.000Z",
-      "summary": "OpenAI has spent the last few years planting flags across the increasingly difficult terrain in mathematics. This week, it claimed one of its biggest prizes yet: a solution to a legendary Millennium Prize problem. In normal circumstances, this would have been celebrated as a historic achievement. In",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Meet the under-35s shaping the future of biotech",
-      "url": "https://www.technologyreview.com/2026/09/11/1143834/meet-the-under-35s-shaping-the-future-of-biotech/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.3242,
-      "publishedAt": "2026-09-11T09:00:00.000Z",
-      "summary": "Every year, MIT Technology Review puts together a list of some of the brightest and best young minds working across science and technology. Our 35 Innovators Under 35 are the ones to watch—people whose research and technical work stands to shape the future of their fields. This year, the list includ",
-      "tags": [
-        "Research",
         "Dev Tools"
       ],
       "engagementScore": 0
