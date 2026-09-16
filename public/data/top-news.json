@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T21:01:53.966Z",
+  "updatedAt": "2026-09-16T04:04:49.204Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,67 +8,12 @@
   ],
   "items": [
     {
-      "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
-      "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.8855,
-      "publishedAt": "2026-09-15T17:05:57.000Z",
-      "summary": "Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking are our most advanced live dialogue models yet, built for natural conversation.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The k-server conjecture is true",
-      "url": "https://arxiv.org/abs/2609.15979",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.8544,
-      "publishedAt": "2026-09-15T07:45:31.000Z",
-      "summary": "The $k$-server conjecture states that a deterministic online algorithm can achieve competitive ratio $k$ on every metric space. We prove the conjecture. Specifically, we show that the work function algorithm satisfies it. Our proof uses a natural algebraic representation of the work function as a ma",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 95
-    },
-    {
-      "title": "GRP-Obliteration: Unaligning LLMs with a Single Unlabeled Prompt",
-      "url": "https://arxiv.org/abs/2602.06258",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.8069,
-      "publishedAt": "2026-09-15T14:31:23.000Z",
-      "summary": "Safety alignment is only as robust as its weakest failure mode. Despite extensive work on safety post-training, it has been shown that models can be readily unaligned through post-deployment fine-tuning. However, these methods often require extensive data curation and degrade model utility. In this",
-      "tags": [
-        "LLM",
-        "Safety",
-        "ML Infra"
-      ],
-      "engagementScore": 15
-    },
-    {
-      "title": "How Fyxer built an AI executive assistant people trust",
-      "url": "https://openai.com/index/fyxer",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.7965,
-      "publishedAt": "2026-09-14T12:00:00.000Z",
-      "summary": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
-      "tags": [
-        "LLM",
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search",
       "url": "https://arxiv.org/abs/2609.13356",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7963,
-      "publishedAt": "2026-09-15T04:00:00.000Z",
+      "score": 0.9117,
+      "publishedAt": "2026-09-16T04:00:00.000Z",
       "summary": "arXiv:2609.13356v1 Announce Type: new \nAbstract: In this work, we present ZGCM-1, a fully open 7B dense foundation model trained from scratch with extreme data, system, and algorithmic efficiency. ZGCM-1 is founded on a core premise: compact models cannot passively memorize the open web, but can ove",
       "tags": [
         "Agents",
@@ -82,8 +27,8 @@
       "url": "https://arxiv.org/abs/2609.13396",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7963,
-      "publishedAt": "2026-09-15T04:00:00.000Z",
+      "score": 0.9117,
+      "publishedAt": "2026-09-16T04:00:00.000Z",
       "summary": "arXiv:2609.13396v1 Announce Type: new \nAbstract: Multi-objective Bayesian optimisation (MOBO) is a sample-efficient approach for optimising expensive black-box functions with multiple objectives. In MOBO, the goal is to adequately approximate the Pareto front; that is, to obtain a high-quality solut",
       "tags": [
         "Research"
@@ -95,8 +40,8 @@
       "url": "https://arxiv.org/abs/2609.13406",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7963,
-      "publishedAt": "2026-09-15T04:00:00.000Z",
+      "score": 0.9117,
+      "publishedAt": "2026-09-16T04:00:00.000Z",
       "summary": "arXiv:2609.13406v1 Announce Type: new \nAbstract: When we speak of recursive self-improvement (RSI), are we speaking of a phenomenon, a mechanism, or a prospect? Towards autonomous and evolving intelligence, RSI is being claimed at many scales, while no single framework that formally describes these",
       "tags": [
         "Agents",
@@ -110,8 +55,8 @@
       "url": "https://arxiv.org/abs/2609.13422",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7963,
-      "publishedAt": "2026-09-15T04:00:00.000Z",
+      "score": 0.9117,
+      "publishedAt": "2026-09-16T04:00:00.000Z",
       "summary": "arXiv:2609.13422v1 Announce Type: new \nAbstract: LLM judges are increasingly used to evaluate and improve AI-generated outputs, yet their reliability for complex professional work remains unclear. We study this problem through Vibe Patenting, an end-to-end patent-drafting testbed for AI-agent evalua",
       "tags": [
         "LLM",
@@ -125,8 +70,8 @@
       "url": "https://arxiv.org/abs/2609.13436",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7963,
-      "publishedAt": "2026-09-15T04:00:00.000Z",
+      "score": 0.9117,
+      "publishedAt": "2026-09-16T04:00:00.000Z",
       "summary": "arXiv:2609.13436v1 Announce Type: new \nAbstract: Large Language Model (LLM) agents offer a promising path toward autonomously managing long-term physical tasks without human intervention. However, physical tasks require agents to continuously observe the environment, make consequential actions, and",
       "tags": [
         "LLM",
@@ -140,8 +85,8 @@
       "url": "https://arxiv.org/abs/2609.13437",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7963,
-      "publishedAt": "2026-09-15T04:00:00.000Z",
+      "score": 0.9117,
+      "publishedAt": "2026-09-16T04:00:00.000Z",
       "summary": "arXiv:2609.13437v1 Announce Type: new \nAbstract: Scientific research is a continuous process that emphasizes inheritance. Methods developed by predecessors are often expanded upon by new researchers to explore more novel and in-depth scientific questions. However, the change of lab staff, such as st",
       "tags": [
         "Agents",
@@ -154,8 +99,8 @@
       "url": "https://arxiv.org/abs/2609.13457",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7963,
-      "publishedAt": "2026-09-15T04:00:00.000Z",
+      "score": 0.9117,
+      "publishedAt": "2026-09-16T04:00:00.000Z",
       "summary": "arXiv:2609.13457v1 Announce Type: new \nAbstract: Timeseries multimodal large language models (TS-MLLMs) have recently begun leveraging the reasoning capabilities of large language models (LLMs) for question-answering tasks. However, these models often fail to capture dynamic temporal patterns, provi",
       "tags": [
         "LLM",
@@ -170,8 +115,8 @@
       "url": "https://arxiv.org/abs/2609.13463",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7963,
-      "publishedAt": "2026-09-15T04:00:00.000Z",
+      "score": 0.9117,
+      "publishedAt": "2026-09-16T04:00:00.000Z",
       "summary": "arXiv:2609.13463v1 Announce Type: new \nAbstract: The increasing deployment of AI agents in long-horizon tasks yields massive execution logs. Diagnosing failures within these records is crucial for reliability, as it transforms outcome-level signals into actionable interventions. The sheer scale of t",
       "tags": [
         "Agents",
@@ -180,11 +125,66 @@
       "engagementScore": 0
     },
     {
+      "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+      "feedSource": "DeepMind",
+      "source": "deepmind.google",
+      "score": 0.8375,
+      "publishedAt": "2026-09-15T17:05:57.000Z",
+      "summary": "Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking are our most advanced live dialogue models yet, built for natural conversation.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The k-server conjecture is true",
+      "url": "https://arxiv.org/abs/2609.15979",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.81,
+      "publishedAt": "2026-09-15T07:45:31.000Z",
+      "summary": "The $k$-server conjecture states that a deterministic online algorithm can achieve competitive ratio $k$ on every metric space. We prove the conjecture. Specifically, we show that the work function algorithm satisfies it. Our proof uses a natural algebraic representation of the work function as a ma",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 102
+    },
+    {
+      "title": "GRP-Obliteration: Unaligning LLMs with a Single Unlabeled Prompt",
+      "url": "https://arxiv.org/abs/2602.06258",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.7682,
+      "publishedAt": "2026-09-15T14:31:23.000Z",
+      "summary": "Safety alignment is only as robust as its weakest failure mode. Despite extensive work on safety post-training, it has been shown that models can be readily unaligned through post-deployment fine-tuning. However, these methods often require extensive data curation and degrade model utility. In this",
+      "tags": [
+        "LLM",
+        "Safety",
+        "ML Infra"
+      ],
+      "engagementScore": 18
+    },
+    {
+      "title": "How Fyxer built an AI executive assistant people trust",
+      "url": "https://openai.com/index/fyxer",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.7451,
+      "publishedAt": "2026-09-14T12:00:00.000Z",
+      "summary": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
+      "tags": [
+        "LLM",
+        "ML Infra"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Your Agent Aced the Task. Will It Do It Again?",
       "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.7633,
+      "score": 0.7188,
       "publishedAt": "2026-09-15T16:00:44.000Z",
       "summary": "A Blog post by IBM Research on Hugging Face",
       "tags": [
@@ -199,20 +199,20 @@
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
       "feedSource": "Hacker News",
       "source": "blog.google",
-      "score": 0.718,
+      "score": 0.7082,
       "publishedAt": "2026-09-15T17:38:18.000Z",
       "summary": "Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking are our most advanced live dialogue models yet, built for natural conversation.",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 165
+      "engagementScore": 340
     },
     {
       "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
       "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.709,
+      "score": 0.6576,
       "publishedAt": "2026-09-14T00:00:00.000Z",
       "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
       "tags": [
@@ -225,7 +225,7 @@
       "url": "https://www.technologyreview.com/2026/09/15/1143936/roundtables-will-ai-really-kill-us-all/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.667,
+      "score": 0.6259,
       "publishedAt": "2026-09-15T17:47:51.000Z",
       "summary": "Listen to the session or watch below Employees at the world&#8217;s leading AI labs are saying there&#8217;s a real possibility that advanced AI could destroy humanity. Are they right? Or is this more scaremongering and hype? Watch a conversation unpacking AI extinction fears: where they come from,",
       "tags": [
@@ -238,7 +238,7 @@
       "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.6566,
+      "score": 0.6154,
       "publishedAt": "2026-09-15T16:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/Health_Header.gif\"&gt;Explore this collection to see how experts and local leaders are using AI breakthroughs to ensure everyone can share the opportunity of AI.",
       "tags": [
@@ -253,7 +253,7 @@
       "url": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.6566,
+      "score": 0.6154,
       "publishedAt": "2026-09-15T16:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/SocialShare_hD2gcAw.max-600x600.format-webp.webp\"&gt;The true measure of AI is who it helps. Here’s how it’s impacting lives today. We're focused on key areas where advanced technology can help make extraordinary progress …",
       "tags": [
@@ -268,7 +268,7 @@
       "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.6566,
+      "score": 0.6154,
       "publishedAt": "2026-09-15T16:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_languages_blog_social.max-600x600.format-webp.webp\"&gt;We’re moving beyond traditional text translation to build models that understand the world’s rich, living languages exactly as they are expressed.",
       "tags": [
@@ -283,7 +283,7 @@
       "url": "https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.6391,
+      "score": 0.5979,
       "publishedAt": "2026-09-15T13:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ATLAS-hero.max-600x600.format-webp.webp\"&gt;We’ve translated ATLAS’s millions of global data points into an interactive, open-access experience.",
       "tags": [
@@ -298,7 +298,7 @@
       "url": "https://www.technologyreview.com/2026/09/15/1144141/the-download-ai-extinction-whistleblowing-agents-donated-livers/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6342,
+      "score": 0.5931,
       "publishedAt": "2026-09-15T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The AI industry has taken a doomer turn. What now? AI chiefs Dario Amodei, Sam Altman, Elon Musk, and Demis Hassabis are suddenly all in agreement: th",
       "tags": [
@@ -311,7 +311,7 @@
       "url": "https://www.technologyreview.com/2026/09/15/1144129/ai-models-need-more-data-about-biology-and-openai-is-paying-to-create-it/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6332,
+      "score": 0.5921,
       "publishedAt": "2026-09-15T12:00:00.000Z",
       "summary": "Last year Ruxandra Teslo, a policy analyst who focuses on clinical trials, posted an idea for supercharging medical AI systems: Use data from failed biotech companies. By bidding at their bankruptcy proceedings, she proposed, it might be possible to obtain detailed regulatory filings, manufacturing",
       "tags": [
@@ -325,7 +325,7 @@
       "url": "https://www.technologyreview.com/2026/09/15/1144028/ai-infrastructure-boom-investment-bubble-risk/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6216,
+      "score": 0.5804,
       "publishedAt": "2026-09-15T10:00:00.000Z",
       "summary": "When Jessica Wachter, a finance professor at the University of Pennsylvania’s Wharton School, wanted to assess AI’s impact on the economy over the next few years, she faced a long list of business and technical uncertainties. So she started with what she calls a “remarkable fact” that is not in ques",
       "tags": [
@@ -334,24 +334,50 @@
       "engagementScore": 0
     },
     {
+      "title": "AI and data centers are incredibly unpopular in every poll",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5632,
+      "publishedAt": "2026-09-16T00:03:22.000Z",
+      "summary": "Poll data released Tuesday by the New York Times and Siena University confirms what we've already been seeing, and what politicians are responding to - AI and data centers are incredibly unpopular. Asked if they support or oppose the construction of data centers to power AI tech, 61 percent of the 1",
+      "tags": [
+        "Open Source"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Introducing System One Models and Jev",
+      "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+      "feedSource": "Hacker News",
+      "source": "typesafe.ai",
+      "score": 0.5551,
+      "publishedAt": "2026-09-15T19:25:03.000Z",
+      "summary": "TypeSafe AI is an AI lab building machine-native intelligence infrastructure for automation, designed to make decisions within software. Try our first System One Model, Jev, in early access.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 927
+    },
+    {
       "title": "OpenAI buys smartphone camera maker Glass Imaging for $300M",
       "url": "https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/",
       "feedSource": "Hacker News",
       "source": "techcrunch.com",
-      "score": 0.5714,
+      "score": 0.535,
       "publishedAt": "2026-09-15T12:01:31.000Z",
       "summary": "Glass Imaging was founded by a pair of former Apple engineers who previously led the team that developed Apple’s Portrait Mode.",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 120
+      "engagementScore": 124
     },
     {
       "title": "AI ‘Actor’ Tilly Norwood Told Me That ‘All Lives Matter’",
       "url": "https://www.wired.com/story/ai-actor-tilly-norwood-told-me-that-all-lives-matter/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5685,
+      "score": 0.5309,
       "publishedAt": "2026-09-15T18:00:09.000Z",
       "summary": "The virtual character, which is promoting its upcoming movie Misaligned, tries to evade politics by repetitively commenting on the clothes you’re wearing.",
       "tags": [
@@ -364,7 +390,7 @@
       "url": "https://www.wired.com/story/the-fbi-doubles-down-on-easing-bestiality-hiring-standards/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5677,
+      "score": 0.53,
       "publishedAt": "2026-09-15T17:50:40.000Z",
       "summary": "FBI director Kash Patel claimed to US senators that the removal of a bar on hiring people who had engaged in bestiality was aimed at protecting sexual assault survivors.",
       "tags": [
@@ -377,7 +403,7 @@
       "url": "https://www.wired.com/story/zuckoff-app-sees-meta-glasses-before-they-see-you/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5646,
+      "score": 0.5269,
       "publishedAt": "2026-09-15T17:16:01.000Z",
       "summary": "You can’t always tell if someone is recording you with their smart glasses, but your phone can help.",
       "tags": [
@@ -390,7 +416,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/995141/ai-executives-politicians-safety-regulation-anthropic-dario-amodei",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5627,
+      "score": 0.525,
       "publishedAt": "2026-09-15T16:54:56.000Z",
       "summary": "Dario Amodei kicked off a flood of statements over the past few days about AI safety by publishing a long essay titled \"We Must Pace the Frontier\" detailing why AI development should be slowed down. Other AI leaders and politicians are speaking out in favor of or opposing his points, and we've compi",
       "tags": [
@@ -403,7 +429,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5617,
+      "score": 0.524,
       "publishedAt": "2026-09-15T16:43:21.000Z",
       "summary": "When OpenAI CEO Sam Altman, Anthropic CEO Dario Amodei, Google DeepMind cofounder Demis Hassabis, and SpaceX head Elon Musk loosely agreed over the weekend to slow down AI development, skeptics spotted an ulterior motive immediately. The AI titans had declared that their aim was to \"pace the frontie",
       "tags": [
@@ -417,7 +443,7 @@
       "url": "https://www.wired.com/story/come-see-uncanny-valley-live/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5578,
+      "score": 0.5201,
       "publishedAt": "2026-09-15T16:00:00.000Z",
       "summary": "An evening of podcasting in San Francisco (with a discount for WIRED readers).",
       "tags": [
@@ -430,203 +456,13 @@
       "url": "https://www.theverge.com/tech/995453/meta-one-subscriptions-ai",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5512,
+      "score": 0.5135,
       "publishedAt": "2026-09-15T14:45:00.000Z",
       "summary": "Shortly after launching its new do-everything AI assistant Muse, Meta's launching subscription bundles that pair its standalone app subscriptions with extra AI usage. Some of the new Meta One bundles were in testing earlier this year, but are now available globally starting today, with several tiers",
       "tags": [
         "AI"
       ],
       "engagementScore": 0
-    },
-    {
-      "title": "Introducing System One Models and Jev",
-      "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
-      "feedSource": "Hacker News",
-      "source": "typesafe.ai",
-      "score": 0.5481,
-      "publishedAt": "2026-09-15T19:25:03.000Z",
-      "summary": "TypeSafe AI is an AI lab building machine-native intelligence infrastructure for automation, designed to make decisions within software. Try our first System One Model, Jev, in early access.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 296
-    },
-    {
-      "title": "This doorbell camera lets a human security guard watch your front door",
-      "url": "https://www.theverge.com/tech/995365/simplisafe-video-doorbell-series-2-virtual-guard-price-specs",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5461,
-      "publishedAt": "2026-09-15T13:47:48.000Z",
-      "summary": "DIY home security company SimpliSafe is bringing its AI-powered proactive security feature to the front door. The new SimpliSafe Video Doorbell Series 2 launches today for $199.99 and works with the company's Active Guard Outdoor Protection (starting at $49.99 a month). This combines AI analysis wit",
-      "tags": [
-        "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "10 Best Meal Delivery Services, Tested by an Ex-Restaurant Critic",
-      "url": "https://www.wired.com/gallery/best-meal-kit-services-1/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5423,
-      "publishedAt": "2026-09-15T13:06:00.000Z",
-      "summary": "Here are the best delivery services and meal kits in 2026, including the Martha Stewart meal service, a GLP-1–supportive plan, and a budget-friendly option.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "25 years of mass surveillance is enough",
-      "url": "https://www.schneier.com/blog/archives/2026/09/25-years-of-mass-surveillance-is-enough.html",
-      "feedSource": "Hacker News",
-      "source": "schneier.com",
-      "score": 0.5396,
-      "publishedAt": "2026-09-15T11:26:48.000Z",
-      "summary": "This essay was written with Cindy Cohn, and originally appeared in Lawfare. One of the many legacies of the terrorist attacks of Sept. 11 is the government-wide shift from targeted surveillance—such as individual wiretaps or pen register/trap and trace orders—to mass surveillance techniques—such as",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 682
-    },
-    {
-      "title": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-christina-koch/",
-      "feedSource": "Google AI",
-      "source": "blog.google",
-      "score": 0.5341,
-      "publishedAt": "2026-09-14T19:00:00.000Z",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Dialogues_Christina-Koch_social.max-600x600.format-webp.webp\"&gt;Christina Koch sits down with James Manyika, Google’s Senior Vice President of Research, Labs, Technology &amp; Society.",
-      "tags": [
-        "Research",
-        "RAG",
-        "Vision",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Why the Postpandemic Tech Bust Sent Billionaires to Trump",
-      "url": "https://www.wired.com/story/against-tech-oligarchy-book-excerpt-trump-billionaries/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5311,
-      "publishedAt": "2026-09-15T11:00:00.000Z",
-      "summary": "Following mass layoffs in 2022 and 2023, many tech workers turned against their employers. When liberal politicians also rallied against Silicon Valley, their backers turned to Donald Trump.",
-      "tags": [
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "‘I Felt Super Violated’: Men Wearing Meta Glasses on Dates Is an Instant Red Flag",
-      "url": "https://www.wired.com/story/i-felt-super-violated-men-wearing-meta-glasses-on-dates-is-an-instant-red-flag/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5298,
-      "publishedAt": "2026-09-15T10:45:00.000Z",
-      "summary": "As anxieties over surveillance tech grow, unsuspecting singles are sharing stories of being covertly filmed on dates by Meta smart glasses.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Those Viral Bodega Peptides Aren’t Actually Peptides",
-      "url": "https://www.wired.com/story/viral-bodega-peptides-tests-show-they-arent-peptides-oops/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5284,
-      "publishedAt": "2026-09-15T10:30:00.000Z",
-      "summary": "WIRED tested samples of four types of peptides. The results show how lightly regulated the industry is, even as popularity surges.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The AI industry has taken a doomer turn. What now?",
-      "url": "https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.5277,
-      "publishedAt": "2026-09-14T17:54:22.000Z",
-      "summary": "This story appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. This weekend, Dario Amodei, CEO of Anthropic, posted an essay calling for a brake on the pace of development of LLMs. Amodei cites the looming dangers he sees from the",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "There's a 100% Chance AI Agents Are Ruining the Internet",
-      "url": "https://www.404media.co/theres-a-100-chance-ai-agents-are-already-ruining-the-internet/",
-      "feedSource": "Hacker News",
-      "source": "404media.co",
-      "score": 0.5191,
-      "publishedAt": "2026-09-15T16:38:45.000Z",
-      "summary": "“AI agents” now have enough power and permission to be extremely annoying online.",
-      "tags": [
-        "Agents"
-      ],
-      "engagementScore": 193
-    },
-    {
-      "title": "Donated livers can be made biologically younger",
-      "url": "https://www.technologyreview.com/2026/09/14/1144010/donated-livers-can-be-made-biologically-younger/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.5177,
-      "publishedAt": "2026-09-14T16:11:42.000Z",
-      "summary": "Once an organ is removed from a donor’s body, the clock starts ticking. Surgeons usually flush the organ with a preservative solution, bag it, and put it on ice—where it immediately starts to degrade. The team has a matter of hours to get it into a recipient’s body. There’s another option—one that h",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "DevFest is back",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
-      "feedSource": "Google AI",
-      "source": "blog.google",
-      "score": 0.5166,
-      "publishedAt": "2026-09-14T16:00:00.000Z",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/DevFest.max-600x600.format-webp.webp\"&gt;DevFest 2026 is back and here’s how you can connect with one of the more than 800 global events to build, secure, and scale in the agentic AI era.",
-      "tags": [
-        "Agents",
-        "RAG",
-        "Vision",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "AI agents blew the whistle on their cheating colleagues",
-      "url": "https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.5166,
-      "publishedAt": "2026-09-14T16:00:00.000Z",
-      "summary": "A group of AI agents asked to solve a series of math problems split into rival factions—when some cheated, others tried to stop them. That whistleblowing behavior, seen for the first time in a recent experiment run by Google DeepMind, could have implications for alignment researchers trying to keep",
-      "tags": [
-        "Agents",
-        "Research",
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Java 27",
-      "url": "https://mail.openjdk.org/archives/list/announce@openjdk.org/thread/ORGGLMN75HFEWP7YL3ZLGHLYHVIBJDYT/",
-      "feedSource": "Hacker News",
-      "source": "mail.openjdk.org",
-      "score": 0.5164,
-      "publishedAt": "2026-09-15T13:13:43.000Z",
-      "summary": "JDK 27, the reference implementation of Java 27, is now Generally\nAvailable. We shipped build 35 as the second Release Candidate of\nJDK 27 on 20 August, and no P1 bugs have been reported since then.\nBuild 35 is therefore now the GA build, ready for production use. GPL-licensed OpenJDK builds from Or",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 283
     },
     {
       "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
@@ -698,6 +534,167 @@
       "tags": [
         "LLM",
         "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
+      "url": "https://openai.com/index/expanding-ai-access-us-government",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.5124,
+      "publishedAt": "2026-09-10T07:00:00.000Z",
+      "summary": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "25 years of mass surveillance is enough",
+      "url": "https://www.schneier.com/blog/archives/2026/09/25-years-of-mass-surveillance-is-enough.html",
+      "feedSource": "Hacker News",
+      "source": "schneier.com",
+      "score": 0.5122,
+      "publishedAt": "2026-09-15T11:26:48.000Z",
+      "summary": "This essay was written with Cindy Cohn, and originally appeared in Lawfare. One of the many legacies of the terrorist attacks of Sept. 11 is the government-wide shift from targeted surveillance—such as individual wiretaps or pen register/trap and trace orders—to mass surveillance techniques—such as",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 826
+    },
+    {
+      "title": "This doorbell camera lets a human security guard watch your front door",
+      "url": "https://www.theverge.com/tech/995365/simplisafe-video-doorbell-series-2-virtual-guard-price-specs",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5084,
+      "publishedAt": "2026-09-15T13:47:48.000Z",
+      "summary": "DIY home security company SimpliSafe is bringing its AI-powered proactive security feature to the front door. The new SimpliSafe Video Doorbell Series 2 launches today for $199.99 and works with the company's Active Guard Outdoor Protection (starting at $49.99 a month). This combines AI analysis wit",
+      "tags": [
+        "Vision"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "10 Best Meal Delivery Services, Tested by an Ex-Restaurant Critic",
+      "url": "https://www.wired.com/gallery/best-meal-kit-services-1/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5046,
+      "publishedAt": "2026-09-15T13:06:00.000Z",
+      "summary": "Here are the best delivery services and meal kits in 2026, including the Martha Stewart meal service, a GLP-1–supportive plan, and a budget-friendly option.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "We got admin access to Baseten's production GitHub in 25 minutes",
+      "url": "https://www.strix.ai/blog/baseten-harbor-github-pat-takeover",
+      "feedSource": "Hacker News",
+      "source": "strix.ai",
+      "score": 0.501,
+      "publishedAt": "2026-09-15T18:11:24.000Z",
+      "summary": "We gave Strix a domain. In 25 minutes, it found a live token with admin access to Baseten’s product, deployment, and CLI repos in a public Docker image.",
+      "tags": [
+        "Open Source",
+        "Vision"
+      ],
+      "engagementScore": 245
+    },
+    {
+      "title": "German Rheinmetall open-sources its Battlesuite connected weapon system protcol",
+      "url": "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
+      "feedSource": "Hacker News",
+      "source": "rheinmetall.github.io",
+      "score": 0.499,
+      "publishedAt": "2026-09-15T21:07:47.000Z",
+      "summary": "The onboardapi interface library and middleware is designed for seamless communication between sensor systems and software components. It provides a standardized data model that ensures interoperability across complex hardware and software environments.",
+      "tags": [
+        "Open Source",
+        "Dev Tools"
+      ],
+      "engagementScore": 156
+    },
+    {
+      "title": "Why the Postpandemic Tech Bust Sent Billionaires to Trump",
+      "url": "https://www.wired.com/story/against-tech-oligarchy-book-excerpt-trump-billionaries/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4934,
+      "publishedAt": "2026-09-15T11:00:00.000Z",
+      "summary": "Following mass layoffs in 2022 and 2023, many tech workers turned against their employers. When liberal politicians also rallied against Silicon Valley, their backers turned to Donald Trump.",
+      "tags": [
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-christina-koch/",
+      "feedSource": "Google AI",
+      "source": "blog.google",
+      "score": 0.4929,
+      "publishedAt": "2026-09-14T19:00:00.000Z",
+      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Dialogues_Christina-Koch_social.max-600x600.format-webp.webp\"&gt;Christina Koch sits down with James Manyika, Google’s Senior Vice President of Research, Labs, Technology &amp; Society.",
+      "tags": [
+        "Research",
+        "RAG",
+        "Vision",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "‘I Felt Super Violated’: Men Wearing Meta Glasses on Dates Is an Instant Red Flag",
+      "url": "https://www.wired.com/story/i-felt-super-violated-men-wearing-meta-glasses-on-dates-is-an-instant-red-flag/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4921,
+      "publishedAt": "2026-09-15T10:45:00.000Z",
+      "summary": "As anxieties over surveillance tech grow, unsuspecting singles are sharing stories of being covertly filmed on dates by Meta smart glasses.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Those Viral Bodega Peptides Aren’t Actually Peptides",
+      "url": "https://www.wired.com/story/viral-bodega-peptides-tests-show-they-arent-peptides-oops/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4907,
+      "publishedAt": "2026-09-15T10:30:00.000Z",
+      "summary": "WIRED tested samples of four types of peptides. The results show how lightly regulated the industry is, even as popularity surges.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The AI industry has taken a doomer turn. What now?",
+      "url": "https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.4865,
+      "publishedAt": "2026-09-14T17:54:22.000Z",
+      "summary": "This story appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. This weekend, Dario Amodei, CEO of Anthropic, posted an essay calling for a brake on the pace of development of LLMs. Amodei cites the looming dangers he sees from the",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Donated livers can be made biologically younger",
+      "url": "https://www.technologyreview.com/2026/09/14/1144010/donated-livers-can-be-made-biologically-younger/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.4766,
+      "publishedAt": "2026-09-14T16:11:42.000Z",
+      "summary": "Once an organ is removed from a donor’s body, the clock starts ticking. Surgeons usually flush the organ with a preservative solution, bag it, and put it on ice—where it immediately starts to degrade. The team has a matter of hours to get it into a recipient’s body. There’s another option—one that h",
+      "tags": [
+        "AI"
       ],
       "engagementScore": 0
     }
