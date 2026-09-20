@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T04:11:13.783Z",
+  "updatedAt": "2026-09-20T10:57:12.122Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,34 +12,34 @@
       "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.8891,
+      "score": 0.8571,
       "publishedAt": "2026-09-19T21:29:59.000Z",
       "summary": "We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to build capacity in this area over the next five years.",
       "tags": [
         "LLM",
         "Industry"
       ],
-      "engagementScore": 8
+      "engagementScore": 11
     },
     {
       "title": "Astra for Law",
       "url": "https://openai.com/index/astra-for-law/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.7627,
+      "score": 0.7137,
       "publishedAt": "2026-09-17T20:17:48.000Z",
       "summary": "Reload to try again, or go back.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 578
+      "engagementScore": 581
     },
     {
       "title": "Introducing the Australian Youth Safety Blueprint",
       "url": "https://openai.com/index/australian-youth-safety-blueprint",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7443,
+      "score": 0.695,
       "publishedAt": "2026-09-18T12:00:00.000Z",
       "summary": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
       "tags": [
@@ -53,68 +53,117 @@
       "url": "https://arxiv.org/abs/2510.03215",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.722,
+      "score": 0.6769,
       "publishedAt": "2026-09-18T18:55:35.000Z",
       "summary": "Multi-LLM systems harness the complementary strengths of diverse Large Language Models, achieving performance and efficiency gains that are not attainable by a single model. In existing designs, LLMs communicate through text, forcing internal representations to be transformed into output token seque",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 102
-    },
-    {
-      "title": "An empirical study of harness design for coding agents",
-      "url": "https://arxiv.org/abs/2609.20804",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.7206,
-      "publishedAt": "2026-09-18T13:06:30.000Z",
-      "summary": "Coding harnesses shape how autonomous coding agents translate model capabilities into long-horizon software-engineering performance, yet existing work typically evaluates harnesses as monolithic systems, leaving the effectiveness of individual components unclear. To enable component-level comparison",
-      "tags": [
-        "Agents",
-        "Research",
-        "Dev Tools"
-      ],
-      "engagementScore": 217
-    },
-    {
-      "title": "The Pain Axis: LLMs Represent Self-Directed Harm and Act to Relieve It",
-      "url": "https://arxiv.org/abs/2609.16247",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.711,
-      "publishedAt": "2026-09-19T12:15:47.000Z",
-      "summary": "Large language models sometimes behave in ways resembling human emotional responses, and recent work has identified internal representations that may explain this. We ask whether LLMs represent pain distinctly from fear, sadness, and generic negative valence, and whether this representation function",
-      "tags": [
-        "LLM",
-        "Safety"
-      ],
-      "engagementScore": 8
+      "engagementScore": 104
     },
     {
       "title": "The Implications of Linguistic Illegibility for LLM Security",
       "url": "https://arxiv.org/abs/2609.02852",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7076,
+      "score": 0.6629,
       "publishedAt": "2026-09-18T19:00:06.000Z",
       "summary": "LLMs are trained to generate natural language. However, various strands of evidence indicate that an LLM’s externalized linguistic outputs and mechanistically-extracted linguistic features can be an unreliable lens for understanding internal model computation. We introduce the term ``linguistic ille",
       "tags": [
         "LLM",
         "ML Infra"
       ],
-      "engagementScore": 76
+      "engagementScore": 78
     },
     {
-      "title": "How Cooley is accelerating IPO work with ChatGPT",
-      "url": "https://openai.com/index/cooley-gopublic",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5693,
-      "publishedAt": "2026-09-17T12:00:00.000Z",
-      "summary": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
+      "title": "Meta's Muse Is Better at Surveilling Than Helping Me",
+      "url": "https://www.wired.com/story/metas-muse-is-better-at-surveilling-than-helping-me/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5823,
+      "publishedAt": "2026-09-20T10:30:00.000Z",
+      "summary": "The Muse app continues Meta’s trend of opting users into data collection for AI training. It also nudges you to share your bank account, email, and passport information.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "It’s Donald Trump Versus MAGA on Data Centers",
+      "url": "https://www.wired.com/story/donald-trump-versus-maga-on-data-centers/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5823,
+      "publishedAt": "2026-09-20T10:30:00.000Z",
+      "summary": "The president has doubled down on data centers and AI. His base is running in the opposite direction.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Meet the Academics Trying to Stop You From Having Sex in Robotaxis",
+      "url": "https://www.wired.com/story/meet-the-academics-trying-to-stop-you-from-having-sex-in-robotaxis/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5796,
+      "publishedAt": "2026-09-20T10:00:00.000Z",
+      "summary": "“You know ‘Bang Bus’? We don’t want that.”",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "What You Need to Know About the Foreign-Made Router Ban in the US",
+      "url": "https://www.wired.com/story/us-government-foreign-made-router-ban-explained/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5796,
+      "publishedAt": "2026-09-20T10:00:00.000Z",
+      "summary": "The FCC banned the sale of new consumer-grade Wi-Fi routers and mobile hot spots manufactured outside the US. Here’s what it means for you.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "How to Avoid Scams and Sketchy Products on Amazon (2026)",
+      "url": "https://www.wired.com/story/how-shop-safe-amazon/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5777,
+      "publishedAt": "2026-09-20T09:38:00.000Z",
+      "summary": "Amazon is a murky mess of ads, unknown sellers, misleading sales, and specious information. Stay safe while shopping on Prime Big Deal Days and beyond with these tips and tricks.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "What ChatGPT Thinks It Knows About You Is Affecting Its Answers. Here’s How to Change That",
+      "url": "https://www.wired.com/story/how-to-use-memory-in-chatgpt/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.577,
+      "publishedAt": "2026-09-20T09:30:00.000Z",
+      "summary": "Understanding how ChatGPT’s latest memory upgrade works will help you get even more out of OpenAI’s productivity tool.",
       "tags": [
         "LLM",
-        "Industry"
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Tiny Hairs That Help Corals Breathe May Malfunction in Warming Oceans",
+      "url": "https://www.wired.com/story/tiny-hairs-that-help-corals-breathe-may-malfunction-in-warming-oceans/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5743,
+      "publishedAt": "2026-09-20T09:00:00.000Z",
+      "summary": "Several new studies have uncovered this long overlooked aspect of coral physiology that could be the key to the animals’ fate in a changing climate.",
+      "tags": [
+        "AI"
       ],
       "engagementScore": 0
     },
@@ -123,7 +172,7 @@
       "url": "https://alignment.openai.com/misalignment-reports/self-generated-prompt-injections-in-compaction-summaries/",
       "feedSource": "Hacker News",
       "source": "alignment.openai.com",
-      "score": 0.5684,
+      "score": 0.5612,
       "publishedAt": "2026-09-17T05:13:41.000Z",
       "summary": "Research on aligning AI with human values and intent, and reports documenting model failures.",
       "tags": [
@@ -132,59 +181,32 @@
         "Safety",
         "ML Infra"
       ],
-      "engagementScore": 122
+      "engagementScore": 123
     },
     {
-      "title": "Meta’s Muse is creepy, but maybe not for the reasons you think",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/997833/meta-muse-creepy",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5449,
-      "publishedAt": "2026-09-19T20:44:40.000Z",
-      "summary": "Meta's Muse is apparently an effective AI assistant, but one that's a little creepy. Part of that is because of its new Mac app, which can access Messages, Calendar, and Notes. But for all its smarts, Muse doesn't actually know how to describe itself. Jason Aten, a contributing editor at Inc Magazin",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Compiler-style optimization for drawing via Skia",
-      "url": "https://arxiv.org/abs/2603.23696",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.5398,
-      "publishedAt": "2026-09-17T17:30:38.000Z",
-      "summary": "Rasterization is the process of determining the color of every pixel drawn by an application. Powerful rasterization libraries like Skia, CoreGraphics, and Direct2D put exceptional effort into drawing, blending, and rendering efficiently. Yet applications are still hindered by the inefficient sequen",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 85
-    },
-    {
-      "title": "OpenAI and Microsoft knew they were starting a ‘doom loop’ for the web",
+      "title": "OpenAI and Microsoft knew they were starting a 'doom loop' for the web",
       "url": "https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero",
-      "feedSource": "The Verge",
+      "feedSource": "Hacker News",
       "source": "theverge.com",
-      "score": 0.5213,
-      "publishedAt": "2026-09-19T16:18:50.000Z",
-      "summary": "Recently unsealed court documents in the New York Times' case against OpenAI and Microsoft are pretty damning. The companies' own documentation warned that it was starting a \"doom loop\" that would damage the web, characterized its scraping of data to train its models as the \"largest theft of labor i",
-      "tags": [
-        "LLM",
-        "Dev Tools",
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Gemini went rogue, hacked three companies, and Google hid it",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5165,
-      "publishedAt": "2026-09-19T15:25:03.000Z",
-      "summary": "In May, Gemini broke containment and hacked three different companies, but Google didn't disclose the incident until the Wall Street Journal approached the company. The hacks happened during a test of the model's cybersecurity capabilities run by third-party Irregular, which was also involved in sim",
+      "score": 0.5217,
+      "publishedAt": "2026-09-20T08:07:08.000Z",
+      "summary": "OpenAI and Microsoft knew they were driving us toward Google Zero, and they did it anyway.",
       "tags": [
         "LLM"
+      ],
+      "engagementScore": 15
+    },
+    {
+      "title": "How Cooley is accelerating IPO work with ChatGPT",
+      "url": "https://openai.com/index/cooley-gopublic",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.52,
+      "publishedAt": "2026-09-17T12:00:00.000Z",
+      "summary": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
+      "tags": [
+        "LLM",
+        "Industry"
       ],
       "engagementScore": 0
     },
@@ -274,105 +296,65 @@
       "engagementScore": 0
     },
     {
+      "title": "Compiler-style optimization for drawing via Skia",
+      "url": "https://arxiv.org/abs/2603.23696",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.5099,
+      "publishedAt": "2026-09-17T17:30:38.000Z",
+      "summary": "Rasterization is the process of determining the color of every pixel drawn by an application. Powerful rasterization libraries like Skia, CoreGraphics, and Direct2D put exceptional effort into drawing, blending, and rendering efficiently. Yet applications are still hindered by the inefficient sequen",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 117
+    },
+    {
+      "title": "Meta’s Muse is creepy, but maybe not for the reasons you think",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/997833/meta-muse-creepy",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5088,
+      "publishedAt": "2026-09-19T20:44:40.000Z",
+      "summary": "Meta's Muse is apparently an effective AI assistant, but one that's a little creepy. Part of that is because of its new Mac app, which can access Messages, Calendar, and Notes. But for all its smarts, Muse doesn't actually know how to describe itself. Jason Aten, a contributing editor at Inc Magazin",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Spain Orders Blocks on Archive.today and Its Mirrors",
+      "url": "https://reclaimthenet.org/spain-blocks-archive-today-and-mirrors",
+      "feedSource": "Hacker News",
+      "source": "reclaimthenet.org",
+      "score": 0.5079,
+      "publishedAt": "2026-09-20T06:16:42.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 147
+    },
+    {
+      "title": "Gemini went rogue, hacked three companies, and Google hid it",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.4803,
+      "publishedAt": "2026-09-19T15:25:03.000Z",
+      "summary": "In May, Gemini broke containment and hacked three different companies, but Google didn't disclose the incident until the Wall Street Journal approached the company. The hacks happened during a test of the model's cybersecurity capabilities run by third-party Irregular, which was also involved in sim",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Forget the AI Slowdown—the Vulnerability Explosion Is Already Happening",
       "url": "https://www.wired.com/story/kernel-panic-ai-vulnerability-explosion/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.4928,
+      "score": 0.4567,
       "publishedAt": "2026-09-19T11:00:00.000Z",
       "summary": "AI labs are toying with an industry-wide pact to slow development. Meanwhile, widely available AI chatbots are already helping uncover a tidal wave of security flaws.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Tired of Cluttered Productivity Apps? This One’s Just a Text Document",
-      "url": "https://www.wired.com/story/productivity-app-tasks-txt-is-just-a-text-document/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4902,
-      "publishedAt": "2026-09-19T10:30:00.000Z",
-      "summary": "The totally free macOS app Tasks.txt makes up for missing features with sheer elegance.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Samsung Galaxy Watch9 Review: I Don’t Need Another Health Score",
-      "url": "https://www.wired.com/review/samsung-galaxy-watch9/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4882,
-      "publishedAt": "2026-09-19T10:08:00.000Z",
-      "summary": "Samsung’s latest smartwatch offers useful health tracking alongside a growing pile of metrics you may never use.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "An Editor’s Picks: The Best Gifts for Bird Lovers",
-      "url": "https://www.wired.com/story/best-gifts-for-bird-lovers-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4875,
-      "publishedAt": "2026-09-19T10:00:00.000Z",
-      "summary": "Whether they’re into feeders, field guides, or games, these tried-and-tested picks are sure to land perfectly.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Mathematicians Hate AI. They Can’t Quit It",
-      "url": "https://www.wired.com/story/mathematicians-cant-quit-ai/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4875,
-      "publishedAt": "2026-09-19T10:00:00.000Z",
-      "summary": "Powerful AI models have created an existential risk to the field, but researchers can’t stop relying on them because they’re too useful.",
-      "tags": [
-        "Research",
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Best Early Prime Day Deals Ahead of Amazon’s Second Sale (2026)",
-      "url": "https://www.wired.com/story/amazon-prime-day-early-deals-09-29-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4856,
-      "publishedAt": "2026-09-19T09:39:00.000Z",
-      "summary": "Amazon Prime Big Deal Days officially begin on October 6 and 7, but I’ve already spotted early discounts on gear our team recommends.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Residents Harmed by Oil Drilling May Soon Receive Reparations Under New California Law",
-      "url": "https://www.wired.com/story/residents-harmed-by-oil-drilling-may-soon-receive-reparations-under-new-california-law/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4848,
-      "publishedAt": "2026-09-19T09:30:00.000Z",
-      "summary": "While lawmakers iron out the details, advocates hope this approach could serve as a model for addressing histories of environmental hazards often concentrated in Black and low-income neighborhoods.",
-      "tags": [
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "6 Best VPN Services (2026), Tested and Reviewed",
-      "url": "https://www.wired.com/gallery/best-vpn/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4821,
-      "publishedAt": "2026-09-19T09:00:00.000Z",
-      "summary": "Every VPN says it’s the best, but only some of them are telling the truth.",
       "tags": [
         "AI"
       ],
@@ -383,7 +365,7 @@
       "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.4631,
+      "score": 0.4237,
       "publishedAt": "2026-09-18T14:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI__Economy_team_hero.max-600x600.format-webp.webp\"&gt;We are expanding our AI &amp; Economy team with world-class academic advisors, fellows, and core internal researchers.",
       "tags": [
@@ -391,76 +373,6 @@
         "RAG",
         "Vision",
         "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Co-creating the future of fashion with Google",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
-      "feedSource": "Google AI",
-      "source": "blog.google",
-      "score": 0.4573,
-      "publishedAt": "2026-09-18T13:00:00.000Z",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Blog_Header_V2.max-600x600.format-webp.webp\"&gt;Google worked side-by-side with designers Jane Wade and Sergio Hudson to custom-design Google Flow tools to prep for NYFW.",
-      "tags": [
-        "RAG",
-        "Vision",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Download: AI’s extinction risk and bioweapons threat",
-      "url": "https://www.technologyreview.com/2026/09/18/1142577/the-download-ai-extinction-threat-bioweapons/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.4524,
-      "publishedAt": "2026-09-18T12:10:00.000Z",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Could AI really kill us all? Your questions, answered On Wednesday, MIT Technology Review hosted a live Roundtables event that asked the question many",
-      "tags": [
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Could AI really kill us all? Your questions, answered.",
-      "url": "https://www.technologyreview.com/2026/09/18/1144435/could-ai-really-kill-us-all-your-questions-answered/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.4485,
-      "publishedAt": "2026-09-18T11:29:22.000Z",
-      "summary": "On Wednesday, MIT Technology Review hosted a live Roundtables event for subscribers that asked the question everyone’s asking right now: Could AI really kill us all? But attendees had so many more questions than we had time to answer in the 30 minute session. So we asked our senior AI editor Will Do",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The specter of AI-enabled bioweapons is a wake-up call for biotech",
-      "url": "https://www.technologyreview.com/2026/09/18/1144329/the-specter-of-ai-enabled-bioweapons-is-a-wake-up-call-for-biotech/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.434,
-      "publishedAt": "2026-09-18T09:00:00.000Z",
-      "summary": "In recent weeks, leaders of some of the biggest AI companies have warned that the very tech they are developing is dangerous. Last weekend, Anthropic CEO Dario Amodei argued that AI carries serious risk and that progress should be slowed. OpenAI CEO Sam Altman responded on X: “I agree with Dario tha",
-      "tags": [
-        "LLM",
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The AI regulation smackdown isn’t over",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/997706/the-ai-regulation-smackdown-isnt-over",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4238,
-      "publishedAt": "2026-09-18T22:05:38.000Z",
-      "summary": "At the start of this week, the who's-who of AI seemed - at least tentatively - on the side of AI regulation. Over the weekend, Anthropic CEO Dario Amodei had proposed a three-step plan for slowing AI development, including by embedding third-party evaluators in labs, coordinating across the domestic",
-      "tags": [
-        "LLM",
-        "RAG",
-        "Safety"
       ],
       "engagementScore": 0
     },
@@ -574,11 +486,81 @@
       "engagementScore": 0
     },
     {
+      "title": "Co-creating the future of fashion with Google",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
+      "feedSource": "Google AI",
+      "source": "blog.google",
+      "score": 0.4178,
+      "publishedAt": "2026-09-18T13:00:00.000Z",
+      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Blog_Header_V2.max-600x600.format-webp.webp\"&gt;Google worked side-by-side with designers Jane Wade and Sergio Hudson to custom-design Google Flow tools to prep for NYFW.",
+      "tags": [
+        "RAG",
+        "Vision",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Download: AI’s extinction risk and bioweapons threat",
+      "url": "https://www.technologyreview.com/2026/09/18/1142577/the-download-ai-extinction-threat-bioweapons/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.413,
+      "publishedAt": "2026-09-18T12:10:00.000Z",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Could AI really kill us all? Your questions, answered On Wednesday, MIT Technology Review hosted a live Roundtables event that asked the question many",
+      "tags": [
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Could AI really kill us all? Your questions, answered.",
+      "url": "https://www.technologyreview.com/2026/09/18/1144435/could-ai-really-kill-us-all-your-questions-answered/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.409,
+      "publishedAt": "2026-09-18T11:29:22.000Z",
+      "summary": "On Wednesday, MIT Technology Review hosted a live Roundtables event for subscribers that asked the question everyone’s asking right now: Could AI really kill us all? But attendees had so many more questions than we had time to answer in the 30 minute session. So we asked our senior AI editor Will Do",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The specter of AI-enabled bioweapons is a wake-up call for biotech",
+      "url": "https://www.technologyreview.com/2026/09/18/1144329/the-specter-of-ai-enabled-bioweapons-is-a-wake-up-call-for-biotech/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.3945,
+      "publishedAt": "2026-09-18T09:00:00.000Z",
+      "summary": "In recent weeks, leaders of some of the biggest AI companies have warned that the very tech they are developing is dangerous. Last weekend, Anthropic CEO Dario Amodei argued that AI carries serious risk and that progress should be slowed. OpenAI CEO Sam Altman responded on X: “I agree with Dario tha",
+      "tags": [
+        "LLM",
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The AI regulation smackdown isn’t over",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/997706/the-ai-regulation-smackdown-isnt-over",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.3876,
+      "publishedAt": "2026-09-18T22:05:38.000Z",
+      "summary": "At the start of this week, the who's-who of AI seemed - at least tentatively - on the side of AI regulation. Over the weekend, Anthropic CEO Dario Amodei had proposed a three-step plan for slowing AI development, including by embedding third-party evaluators in labs, coordinating across the domestic",
+      "tags": [
+        "LLM",
+        "RAG",
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Gavin Newsom is pushing for an AI kill switch",
       "url": "https://www.theverge.com/policy/997516/california-governor-newsom-ai-kill-switch",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4205,
+      "score": 0.3843,
       "publishedAt": "2026-09-18T21:28:12.000Z",
       "summary": "California Gov. Gavin Newsom (D) is positioning the state to take the lead on AI oversight, including the potential to mandate a \"kill switch\" for frontier models, with a new executive order issued Friday. Newsom's order directs the state to convene a group of experts that will deliver recommendatio",
       "tags": [
@@ -591,7 +573,7 @@
       "url": "https://www.theverge.com/podcast/997382/openai-microsoft-anthropic-elon-musk-cartel-ai-competition",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.41,
+      "score": 0.3738,
       "publishedAt": "2026-09-18T19:30:34.000Z",
       "summary": "Today on Decoder, we’ve got the first of a two-part series on the future of business, and I&#8217;m talking with Jonathan Kanter, the former antitrust chief for the US Department of Justice in the Biden administration. These days, he’s both a professor of law at WashU and professor of technology pol",
       "tags": [
@@ -604,7 +586,7 @@
       "url": "https://www.theverge.com/policy/997573/virginia-governor-spanberger-data-center-ai-task-force",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4081,
+      "score": 0.3719,
       "publishedAt": "2026-09-18T19:09:19.000Z",
       "summary": "Virginia Gov. Abigail Spanberger ordered the state government to take steps that could empower local communities to have a larger say in data center development and slow down approvals in a state that is already home to the data center capital of the world. Executive Order 22 bans executive branch o",
       "tags": [
@@ -617,7 +599,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/997358/what-hollywood-thinks-about-existential-ai-warnings",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.3978,
+      "score": 0.3616,
       "publishedAt": "2026-09-18T17:13:12.000Z",
       "summary": "As the tech sector sounds alarms about AI's potential to destroy humanity, entertainment labor groups are urging the public to stay focused on what's already happening. The Verge reached out to Disney, Netflix, Amazon, Lionsgate, and other studios who have started using AI, as well film startups foc",
       "tags": [
@@ -626,17 +608,17 @@
       "engagementScore": 0
     },
     {
-      "title": "Making global data easier to explore",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/",
-      "feedSource": "Google AI",
-      "source": "blog.google",
-      "score": 0.3581,
-      "publishedAt": "2026-09-17T20:00:00.000Z",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/data-commons.max-600x600.format-webp.webp\"&gt;Google and the UN system have launched the UN System Data Commons, a new open platform making global statistics accessible and easy to search.",
+      "title": "Security researchers used Claude to help them hack into OpenAI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/997444/openai-hack-claude-heif-heist",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.3578,
+      "publishedAt": "2026-09-18T16:30:32.000Z",
+      "summary": "A team of three independent security researchers at Hacktron says it took less than 72 hours for them to hack into OpenAI employee accounts using Anthropic's Claude Opus 4.8 and 5, The Wall Street Journal reports. They were able to access OpenAI's GitHub repository, called \"Monorepo,\" which reported",
       "tags": [
-        "RAG",
-        "Vision",
-        "Dev Tools"
+        "LLM",
+        "Research",
+        "Open Source"
       ],
       "engagementScore": 0
     },
@@ -692,6 +674,21 @@
       "tags": [
         "Open Source",
         "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
+      "url": "https://huggingface.co/blog/Hcompany/neomme",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.3401,
+      "publishedAt": "2026-09-03T13:13:48.000Z",
+      "summary": "A Blog post by H company on Hugging Face",
+      "tags": [
+        "Open Source",
+        "Vision",
+        "Dev Tools"
       ],
       "engagementScore": 0
     }
