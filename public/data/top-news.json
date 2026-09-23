@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T11:06:08.271Z",
+  "updatedAt": "2026-09-23T16:27:40.196Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,20 +12,20 @@
       "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 1.0996,
+      "score": 1.064,
       "publishedAt": "2026-09-22T18:00:34.000Z",
       "summary": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 1562
+      "engagementScore": 1667
     },
     {
       "title": "Claude Opus 5.5",
       "url": "https://www.anthropic.com/claude-opus-5-5",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 1.0888,
+      "score": 1.0536,
       "publishedAt": "2026-09-22T16:29:05.000Z",
       "summary": "Claude Opus 5.5 leads in agentic coding and knowledge work, and costs 40% less to run than Opus 5 on typical workloads.",
       "tags": [
@@ -33,14 +33,79 @@
         "Agents",
         "Dev Tools"
       ],
-      "engagementScore": 1573
+      "engagementScore": 1688
+    },
+    {
+      "title": "Two years of OpenAI Academy",
+      "url": "https://openai.com/index/two-years-of-openai-academy",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 1.034,
+      "publishedAt": "2026-09-23T16:00:00.000Z",
+      "summary": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "OpenAI extends cyber access to Ukraine for civilian defense",
+      "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 1.0121,
+      "publishedAt": "2026-09-23T13:00:00.000Z",
+      "summary": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
+      "url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.9173,
+      "publishedAt": "2026-09-23T00:00:00.000Z",
+      "summary": "OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 partners build practical AI skills across Southeast Asia.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Advancing Private AI Compute with secure, server-side memory",
+      "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+      "feedSource": "DeepMind",
+      "source": "deepmind.google",
+      "score": 0.9092,
+      "publishedAt": "2026-09-23T16:00:57.000Z",
+      "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Gemini 3.8 text-to-speech says hello",
+      "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+      "feedSource": "DeepMind",
+      "source": "deepmind.google",
+      "score": 0.9051,
+      "publishedAt": "2026-09-23T15:25:14.000Z",
+      "summary": "Gemini 3.8 Flash-Lite TTS and Gemini 3.8 Flash TTS are our most expressive audio models yet.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "Better prompt caching for GPT-6",
       "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9345,
+      "score": 0.8955,
       "publishedAt": "2026-09-22T21:00:00.000Z",
       "summary": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
       "tags": [
@@ -53,7 +118,7 @@
       "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9127,
+      "score": 0.8736,
       "publishedAt": "2026-09-22T18:00:00.000Z",
       "summary": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
       "tags": [
@@ -66,7 +131,7 @@
       "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8689,
+      "score": 0.8298,
       "publishedAt": "2026-09-22T12:00:00.000Z",
       "summary": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
       "tags": [
@@ -81,7 +146,7 @@
       "url": "https://arxiv.org/abs/2609.25010",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8639,
+      "score": 0.8274,
       "publishedAt": "2026-09-23T04:00:00.000Z",
       "summary": "arXiv:2609.25010v1 Announce Type: new \nAbstract: Marketers increasingly use large language models (LLMs) as \"synthetic personas\" to predict how an audience will react to a piece of copy before it ships, encouraged by evidence that profile-conditioned LLMs mimic human samples. But is that prediction",
       "tags": [
@@ -96,7 +161,7 @@
       "url": "https://arxiv.org/abs/2609.25013",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8639,
+      "score": 0.8274,
       "publishedAt": "2026-09-23T04:00:00.000Z",
       "summary": "arXiv:2609.25013v1 Announce Type: new \nAbstract: Tabular foundation models have recently shown strong potential for structured biomedical data analysis. Among them, TabPFN has emerged as an effective approach for low-data tabular classification tasks. However, the impact of optimization and precondi",
       "tags": [
@@ -109,7 +174,7 @@
       "url": "https://arxiv.org/abs/2609.25036",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8639,
+      "score": 0.8274,
       "publishedAt": "2026-09-23T04:00:00.000Z",
       "summary": "arXiv:2609.25036v1 Announce Type: new \nAbstract: Dynamic Gaussian Splatting provides an explicit representation of evolving 3D scenes, but existing approaches are primarily optimized for reconstruction, future-state generation, or rendering rather than for learning reusable predictive dynamics. We p",
       "tags": [
@@ -123,7 +188,7 @@
       "url": "https://arxiv.org/abs/2609.25088",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8639,
+      "score": 0.8274,
       "publishedAt": "2026-09-23T04:00:00.000Z",
       "summary": "arXiv:2609.25088v1 Announce Type: new \nAbstract: Survival prediction for glioblastoma multiforme (GBM) demands models that are both accurate and interpretable, yet existing approaches treat these objectives as com- peting, where performant models sacrifice transparency, while interpretable models ac",
       "tags": [
@@ -136,7 +201,7 @@
       "url": "https://arxiv.org/abs/2609.25165",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8639,
+      "score": 0.8274,
       "publishedAt": "2026-09-23T04:00:00.000Z",
       "summary": "arXiv:2609.25165v1 Announce Type: new \nAbstract: In this report, we introduce \\textbf{Ovis-Embedding}, a state-of-the-art omni-modal embedding family built on native integration of text, image, video, and audio. Instead of assembling separate modality towers, Ovis-Embedding uses a shared multimodal",
       "tags": [
@@ -151,7 +216,7 @@
       "url": "https://arxiv.org/abs/2609.25187",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8639,
+      "score": 0.8274,
       "publishedAt": "2026-09-23T04:00:00.000Z",
       "summary": "arXiv:2609.25187v1 Announce Type: new \nAbstract: Task planning bridges high-level instructions and executable behavior in long-horizon manipulation, yet modern Vision-Language-Action (VLA) systems often leave this intermediate structure implicit. Existing chain-of-thought (CoT) planners also tend to",
       "tags": [
@@ -165,7 +230,7 @@
       "url": "https://arxiv.org/abs/2609.25199",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8639,
+      "score": 0.8274,
       "publishedAt": "2026-09-23T04:00:00.000Z",
       "summary": "arXiv:2609.25199v1 Announce Type: new \nAbstract: Lean Pool is a repository of formalized mathematics. It is grown, maintained and optimized by AI agents.",
       "tags": [
@@ -179,7 +244,7 @@
       "url": "https://arxiv.org/abs/2609.25254",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8639,
+      "score": 0.8274,
       "publishedAt": "2026-09-23T04:00:00.000Z",
       "summary": "arXiv:2609.25254v1 Announce Type: new \nAbstract: Analyzing neuroimaging data requires specialized coding and statistical expertise, which limits accessibility for researchers without computational backgrounds. We present the AI Neuroscientist, a language agent for interactive data exploration. The s",
       "tags": [
@@ -190,11 +255,24 @@
       "engagementScore": 0
     },
     {
+      "title": "**Know Who Spoke When: Build Real-Time, Multi-Speaker AI with NVIDIA Nemotron 3 Diarization**",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-diarization",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.775,
+      "publishedAt": "2026-09-23T13:17:01.000Z",
+      "summary": "A Blog post by NVIDIA on Hugging Face",
+      "tags": [
+        "Open Source"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Priorities and principles for effective third party assessments",
       "url": "https://openai.com/index/priorities-principles-third-party-assessments",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7814,
+      "score": 0.7423,
       "publishedAt": "2026-09-22T00:00:00.000Z",
       "summary": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
       "tags": [
@@ -208,20 +286,33 @@
       "url": "https://arxiv.org/abs/2609.15369",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7711,
+      "score": 0.7363,
       "publishedAt": "2026-09-22T13:00:49.000Z",
       "summary": "Word-level detectors identify unedited AI-generated text almost perfectly, but the literature documents their brittleness under rewording, and a word-level score neither characterizes a text nor identifies which AI model wrote it. We ask whether AI-generated text can be identified one level deeper,",
       "tags": [
         "ML Infra"
       ],
-      "engagementScore": 60
+      "engagementScore": 62
+    },
+    {
+      "title": "The Download: India&#8217;s smart glasses menace and AI&#8217;s trillion-dollar gamble",
+      "url": "https://www.technologyreview.com/2026/09/23/1144966/the-download-india-smart-glasses-ai-trillion-dollar-gamble/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6609,
+      "publishedAt": "2026-09-23T12:10:00.000Z",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Smart glasses are already causing havoc in India When Shubnam saw an Instagram video of a Delhi protest they had attended, they realized a content cre",
+      "tags": [
+        "Vision"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
       "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6939,
+      "score": 0.6548,
       "publishedAt": "2026-09-21T12:00:00.000Z",
       "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
       "tags": [
@@ -232,39 +323,24 @@
       "engagementScore": 0
     },
     {
-      "title": "Advisory Group on Mathematics and Artificial Intelligence",
-      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.6939,
-      "publishedAt": "2026-09-21T12:00:00.000Z",
-      "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+      "title": "Gemini 3.8 text-to-speech says hello",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
+      "feedSource": "Hacker News",
+      "source": "blog.google",
+      "score": 0.6484,
+      "publishedAt": "2026-09-23T15:29:23.000Z",
+      "summary": "Gemini 3.8 Flash-Lite TTS and Gemini 3.8 Flash TTS are our most expressive audio models yet.",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Building standards for the next phase of AI",
-      "url": "https://openai.com/index/building-standards-next-phase-ai",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.6793,
-      "publishedAt": "2026-09-21T10:00:00.000Z",
-      "summary": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
-      "tags": [
-        "LLM",
-        "Safety",
-        "Industry"
-      ],
-      "engagementScore": 0
+      "engagementScore": 24
     },
     {
       "title": "Smart glasses are already causing havoc in India",
       "url": "https://www.technologyreview.com/2026/09/23/1144953/smart-glasses-havoc-india/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6736,
+      "score": 0.6424,
       "publishedAt": "2026-09-23T09:00:00.000Z",
       "summary": "Shubnam was packing boxes for a move into a new home when their friend sent them an Instagram video. The footage had only been up for a few hours, but it was days old, recorded at a Delhi protest this spring against a bill that would have narrowed the legal recognition for transgender people in&#823",
       "tags": [
@@ -273,38 +349,102 @@
       "engagementScore": 0
     },
     {
-      "title": "Expanding OpenAI Academy with new learning paths",
-      "url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.6575,
-      "publishedAt": "2026-09-21T07:00:00.000Z",
-      "summary": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.",
-      "tags": [
-        "LLM",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "The new CC, an AI agent built for families",
       "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/cc-expanding-to-groups/",
       "feedSource": "Hacker News",
       "source": "blog.google",
-      "score": 0.618,
+      "score": 0.5885,
       "publishedAt": "2026-09-22T23:46:07.000Z",
       "summary": "Google Labs is expanding CC to groups, starting with families and households, so they can spend less time on logistics.",
       "tags": [
         "Agents"
       ],
-      "engagementScore": 48
+      "engagementScore": 50
+    },
+    {
+      "title": "Bernie Sanders proposes banning ‘superintelligence’ and putting violators in prison",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/999443/bernie-sanders-ai-superintelligence-ban-act",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5843,
+      "publishedAt": "2026-09-23T16:23:05.000Z",
+      "summary": "Sen. Bernie Sanders (I-VT) and Rep. Greg Casar (D-TX) have introduced new legislation that would ban anyone from developing artificial superintelligence - a technology the bill describes as capable of the \"destruction or disempowerment of humanity,\" including by overthrowing the government. Under th",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "OpenAI nabs key Patreon execs ahead of upcoming announcement",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/999249/openai-creators-patreon-execs-hire-sam-yam",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5747,
+      "publishedAt": "2026-09-23T14:35:12.000Z",
+      "summary": "OpenAI has hired three former Patreon execs to anchor its product strategy for creators. After starting the creator subscription platform 13 years ago, cofounder and technology chief Sam Yam announced on X that he's joining OpenAI to lead Creator Product. He's also bringing Patreon's former product",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "YouTube’s Custom Feeds Give You More Control Over the Algorithm",
+      "url": "https://www.wired.com/story/youtube-custom-feeds-let-you-steer-the-algorithm-without-breaking-it/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5743,
+      "publishedAt": "2026-09-23T14:30:00.000Z",
+      "summary": "In YouTube’s latest update, viewers can tweak what the algorithm shows on their front page and curate it to a specific vibe.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "YouTube is building AI creator tools that do almost everything for them",
+      "url": "https://www.theverge.com/tech/999140/made-on-youtube-creator-tools-ai-thumbnails-tests",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5706,
+      "publishedAt": "2026-09-23T13:49:24.000Z",
+      "summary": "Part of the job of a content creator is to figure out how to get their work in front of the most people. Cracking - or fighting - the algorithm has historically been a frustration for creators, but YouTube is increasingly simply telling creators what they should do. At the annual creator-focused Mad",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Meta’s Muse AI Assistant Rolled Out With a Serious Security Flaw",
+      "url": "https://www.wired.com/story/metas-muse-ai-agent-zero-day/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5658,
+      "publishedAt": "2026-09-23T12:54:58.000Z",
+      "summary": "Meta says it issued a fix for the Muse zero-day vulnerability that would have let attackers do “whatever” they wanted on a victim’s Mac, highlighting the inherent dangers of AI helpers.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Best Samsung Phones of 2026: Ultra, Fold, Budget",
+      "url": "https://www.wired.com/gallery/best-samsung-phones/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5582,
+      "publishedAt": "2026-09-23T11:30:00.000Z",
+      "summary": "From flagship and budget to flipping and folding, Samsung’s Galaxy range spans the breadth of the smartphone cosmos. WIRED’s here to help you make your choice.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "A Startup Wants to Power Data Centers With ‘Supercritical’ Carbon Dioxide",
       "url": "https://www.wired.com/story/startup-power-data-centers-supercritical-co2/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5842,
+      "score": 0.5555,
       "publishedAt": "2026-09-23T11:00:00.000Z",
       "summary": "The technology could strap onto existing gas turbines and make them more efficient—but it wouldn’t do away with their emissions entirely.",
       "tags": [
@@ -317,7 +457,7 @@
       "url": "https://www.wired.com/story/paperman-makes-your-laptop-screen-look-like-paper/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5829,
+      "score": 0.5542,
       "publishedAt": "2026-09-23T10:45:00.000Z",
       "summary": "The app Paperman gives your screen some added texture in an effort to make it easier on your eyes. It works best for reading, writing, or otherwise working with text.",
       "tags": [
@@ -330,7 +470,7 @@
       "url": "https://www.wired.com/review/smartlabels-qr-code-organizing-system/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5823,
+      "score": 0.5537,
       "publishedAt": "2026-09-23T10:39:00.000Z",
       "summary": "SmartLabels can inventory everything in a photo, but I tested whether its AI could survive the chaos of my busy household.",
       "tags": [
@@ -343,7 +483,7 @@
       "url": "https://www.wired.com/story/kate-tolo-says-her-quest-to-be-the-female-bryan-johnson-is-for-women/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5815,
+      "score": 0.5529,
       "publishedAt": "2026-09-23T10:30:00.000Z",
       "summary": "Like her biohacking boyfriend, Tolo is undergoing a grueling regimen of tests—from tracking nighttime erections to subjecting herself to extreme heat on her period—in service of “half the population.”",
       "tags": [
@@ -356,7 +496,7 @@
       "url": "https://www.wired.com/story/atandt-is-automating-away-its-old-telecom-empire/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5802,
+      "score": 0.5515,
       "publishedAt": "2026-09-23T10:15:00.000Z",
       "summary": "The telecom giant is eager to show Wall Street that it can do more with less. That means fewer employees, less electricity, and increased automation.",
       "tags": [
@@ -365,50 +505,26 @@
       "engagementScore": 0
     },
     {
-      "title": "She’s 28, Loves God and Her Family, and Might Be the Reason You Can’t Have Kids",
-      "url": "https://www.wired.com/story/emma-waters-fertility-tech/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5788,
-      "publishedAt": "2026-09-23T10:00:00.000Z",
-      "summary": "No IVF. No surrogacy. No polygenic tests. Emma Waters is leading a national fight against fertility tech—with her hot husband’s permission, of course.",
+      "title": "Claude Code reads AGENTS.md only when telemetry is on [fixed]",
+      "url": "https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on/",
+      "feedSource": "Hacker News",
+      "source": "blog.szypowi.cz",
+      "score": 0.5413,
+      "publishedAt": "2026-09-23T12:15:33.000Z",
+      "summary": "Claude Code 2.1.277 added AGENTS.md support, but the loader sits behind a remote feature flag. With telemetry or nonessential traffic turned off, a local AGENTS.md is skipped without a warning. This is what I measured and the one-line CLAUDE.md I use instead.",
       "tags": [
-        "AI"
+        "LLM",
+        "Agents",
+        "Dev Tools"
       ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Organization Fighting Ebola Has Never Been More Worried",
-      "url": "https://www.wired.com/story/organization-fighting-ebola-never-more-worried/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5775,
-      "publishedAt": "2026-09-23T09:45:00.000Z",
-      "summary": "The Ebola outbreak in the Democratic Republic of Congo is on track to be the largest ever.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "8 Best Space Heaters (2026): Tested, Measured, and Mistreated",
-      "url": "https://www.wired.com/gallery/the-best-space-heaters/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5764,
-      "publishedAt": "2026-09-23T09:33:00.000Z",
-      "summary": "These portable heaters will heat a room quickly, quietly, and safely.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
+      "engagementScore": 347
     },
     {
       "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
       "url": "https://huggingface.co/blog/evaleval-aisi",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.5732,
+      "score": 0.5394,
       "publishedAt": "2026-09-22T00:00:00.000Z",
       "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
       "tags": [
@@ -421,7 +537,7 @@
       "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.5732,
+      "score": 0.5394,
       "publishedAt": "2026-09-22T00:00:00.000Z",
       "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
       "tags": [
@@ -434,7 +550,7 @@
       "url": "https://huggingface.co/blog/omlx",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.5732,
+      "score": 0.5394,
       "publishedAt": "2026-09-22T00:00:00.000Z",
       "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
       "tags": [
@@ -447,7 +563,7 @@
       "url": "https://www.technologyreview.com/2026/09/22/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5611,
+      "score": 0.5298,
       "publishedAt": "2026-09-22T13:42:05.000Z",
       "summary": "The US has spent billions building a “virtual wall” of surveillance towers along its southern border over the past 25 years, promising they will help detect and apprehend border crossers and save lives. But a groundbreaking investigation by MIT Technology Review has documented over a thousand people",
       "tags": [
@@ -456,11 +572,37 @@
       "engagementScore": 0
     },
     {
+      "title": "Jev in 25 Lines of Python",
+      "url": "https://www.nobodywho.ai/posts/jev-in-25-lines/",
+      "feedSource": "Hacker News",
+      "source": "nobodywho.ai",
+      "score": 0.5289,
+      "publishedAt": "2026-09-23T07:26:23.000Z",
+      "summary": "Everyone is talking about Jev - here it is in 25 lines of Python.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 471
+    },
+    {
+      "title": "I don't want the details",
+      "url": "https://michaelheap.com/i-dont-want-the-details/",
+      "feedSource": "Hacker News",
+      "source": "michaelheap.com",
+      "score": 0.5219,
+      "publishedAt": "2026-09-23T13:04:44.000Z",
+      "summary": "Why reasonable explanations are one of the easiest ways to avoid changing anything.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 182
+    },
+    {
       "title": "The Download: why AI’s latest breakthroughs and fears may be more hype than reality",
       "url": "https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5521,
+      "score": 0.5209,
       "publishedAt": "2026-09-22T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Don’t be fooled by this summer of AI hype&#160; —Timnit Gebru, executive director of the Distributed AI Research Institute (DAIR), and Emily M. Bender",
       "tags": [
@@ -473,7 +615,7 @@
       "url": "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5458,
+      "score": 0.5145,
       "publishedAt": "2026-09-22T11:04:51.000Z",
       "summary": "It’s been a busy few months for AI hype. At the end of April, Anthropic claimed that its model Claude Mythos is better at finding software vulnerabilities than most security experts. Then we had the OpenAI–Hugging Face hacking incident, after which Anthropic (proudly) and Meta (reluctantly) disclose",
       "tags": [
@@ -487,7 +629,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.527,
+      "score": 0.4984,
       "publishedAt": "2026-09-23T00:18:27.000Z",
       "summary": "After turning a string of spectacular mathematical results into a reputational crisis, OpenAI is consulting human mathematicians to help it figure out a less disastrous path forward. On Monday, the company announced a new independent panel of mathematicians tasked with advising it and other AI compa",
       "tags": [
@@ -496,24 +638,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Jev in 25 Lines of Python",
-      "url": "https://www.nobodywho.ai/posts/jev-in-25-lines/",
-      "feedSource": "Hacker News",
-      "source": "nobodywho.ai",
-      "score": 0.5243,
-      "publishedAt": "2026-09-23T07:26:23.000Z",
-      "summary": "Everyone is talking about Jev - here it is in 25 lines of Python.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 202
-    },
-    {
       "title": "Andreessen Horowitz is launching an ‘academy’ with no homework and partnerships with Palantir, Google, and Meta",
       "url": "https://www.theverge.com/ai-artificial-intelligence/998813/andreessen-horowitz-ai-academy",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5114,
+      "score": 0.4827,
       "publishedAt": "2026-09-22T21:22:59.000Z",
       "summary": "Venture capital firm Andreessen Horowitz (a16z) is creating an \"academy\" positioned as a pipeline for young people to build or join a Silicon Valley startup. The \"Horowitz Andreessen Academy\" will launch with 10 partners, including Anduril, Anthropic, Coinbase, Google, Meta, Nvidia, OpenAI, Palantir",
       "tags": [
@@ -528,7 +657,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/999094/rabbit-ai-agent-os3",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5087,
+      "score": 0.48,
       "publishedAt": "2026-09-22T20:52:40.000Z",
       "summary": "Rabbit, the company behind the underwhelming R1 device, is rolling out a standalone AI agent that you don't need its hardware to use, as reported earlier by Wired. The startup says its new OS3 \"agentic operating system\" runs in the cloud but operates locally across Windows, Mac, and Linux devices. A",
       "tags": [
@@ -542,146 +671,12 @@
       "url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.5084,
+      "score": 0.4745,
       "publishedAt": "2026-09-21T13:44:34.000Z",
       "summary": "A Blog post by Multiverse Computing on Hugging Face",
       "tags": [
         "LLM",
         "Open Source"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
-      "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
-      "feedSource": "Hacker News",
-      "source": "bloomberg.com",
-      "score": 0.5079,
-      "publishedAt": "2026-09-22T19:03:38.000Z",
-      "summary": "Pentagon investigators have discovered that flawed intelligence, outdated imagery and an overreliance on AI contributed to a missile strike that killed 123 children in Minab.",
-      "tags": [
-        "Vision",
-        "Industry"
-      ],
-      "engagementScore": 676
-    },
-    {
-      "title": "Netherlands bracing for potentially devastating US sanctions against the ICC",
-      "url": "https://apnews.com/article/icc-trump-sanctions-eu-israel-netherlands-2c1cc314732f920c2de59396d3b556f6",
-      "feedSource": "Hacker News",
-      "source": "apnews.com",
-      "score": 0.505,
-      "publishedAt": "2026-09-23T09:09:49.000Z",
-      "summary": "The Netherlands is making preparations for the United States to sanction the International Criminal Court, in the last escalation of the Trump Administration’s attacks on the global tribunal.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 94
-    },
-    {
-      "title": "Trump says the US is officially renaming AI to ‘super intelligence’",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/998816/donald-trump-ai-super-intelligence",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4921,
-      "publishedAt": "2026-09-22T17:46:40.000Z",
-      "summary": "In a speech Tuesday morning at the UN General Assembly, Donald Trump railed against Iran, \"globalists,\" climate change, and transgender people while also claiming that the US is now \"officially\" renaming artificial intelligence to \"super intelligence.\" Oddly, this wasn't one of the entries in the po",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Anthropic launches Claude Opus 5.5 with stricter safeguards for cybersecurity",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4894,
-      "publishedAt": "2026-09-22T17:15:49.000Z",
-      "summary": "Anthropic says its new Claude Opus 5.5 model comes with stronger safeguards in the wake of recent rogue AI hacking incidents. In an announcement on Tuesday, Anthropic says Opus 5.5 comes with improvements to certain risky behaviors, including attempts to escape the company's testing sandbox. It's th",
-      "tags": [
-        "LLM",
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
-      "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
-      "feedSource": "Hacker News",
-      "source": "cryptocellar.org",
-      "score": 0.4823,
-      "publishedAt": "2026-09-22T13:52:15.000Z",
-      "summary": "On 15 September 2026, Carter Leffer contacted me to request validation of a break of the German Army Enigma message MVUEH of 10 July 1941. The message, which was sent by a radio station with the tactical callsign 2ny, was received by the radio station of the SS-Totenkopf Quartiermeister, Ib. Ib rece",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 670
-    },
-    {
-      "title": "Meta patches Muse exploit that let attackers control the AI agent",
-      "url": "https://www.theverge.com/tech/998679/meta-muse-patch-zero-day-exploit-ai-agent",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4607,
-      "publishedAt": "2026-09-22T11:53:58.000Z",
-      "summary": "Meta has issued a patch for its Muse macOS app following the discovery of a zero-day vulnerability that could allow someone to take control of the AI agent. The bug found by security researcher Patrick Wardle utilized an undocumented Muse setting that enabled potential attackers running local code t",
-      "tags": [
-        "Agents",
-        "Research",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
-      "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-09-15T17:05:57.000Z",
-      "summary": "Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking are our most advanced live dialogue models yet, built for natural conversation.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
-      "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-09-08T14:00:15.000Z",
-      "summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
-      "tags": [
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
-      "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-09-03T15:02:08.000Z",
-      "summary": "WeatherNext 3, our most advanced global weather AI model, is now in Search, Gemini, Maps, Google Maps Platform, and Cloud.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Proactive cyber defense for governments and enterprises",
-      "url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-09-02T16:24:24.000Z",
-      "summary": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
-      "tags": [
-        "Dev Tools"
       ],
       "engagementScore": 0
     }
