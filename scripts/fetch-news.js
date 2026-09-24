@@ -33,6 +33,8 @@ const SOURCES = {
       { name: 'VentureBeat AI',   feedSource: 'VentureBeat',      url: 'https://venturebeat.com/category/ai/feed/',                                domain: 'venturebeat.com' },
       { name: 'MIT Tech Review',  feedSource: 'MIT Tech Review',  url: 'https://www.technologyreview.com/feed/',                                   domain: 'technologyreview.com' },
       { name: 'The Verge AI',     feedSource: 'The Verge',        url: 'https://www.theverge.com/rss/ai-artificial-intelligence/index.xml',        domain: 'theverge.com' },
+      { name: 'The Decoder',      feedSource: 'The Decoder',      url: 'https://www.the-decoder.com/feed/',                                       domain: 'the-decoder.com' },
+      { name: 'The Batch',        feedSource: 'DeepLearning.AI',   url: 'https://www.deeplearning.ai/the-batch/feed/',                             domain: 'deeplearning.ai' },
       { name: 'Wired AI',         feedSource: 'Wired',            url: 'https://www.wired.com/feed/rss',                                           domain: 'wired.com' },
       // Research & community
       { name: 'Papers With Code', feedSource: 'Papers With Code', url: 'https://paperswithcode.com/latest.rss',                                    domain: 'paperswithcode.com' },
