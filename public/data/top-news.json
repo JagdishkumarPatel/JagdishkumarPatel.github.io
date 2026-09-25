@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T04:11:41.352Z",
+  "updatedAt": "2026-09-25T11:28:59.188Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,11 +8,50 @@
   ],
   "items": [
     {
+      "title": "Special Projects (2016)",
+      "url": "https://openai.com/index/special-projects/",
+      "feedSource": "Hacker News",
+      "source": "openai.com",
+      "score": 0.9945,
+      "publishedAt": "2026-09-25T08:55:43.000Z",
+      "summary": "Impactful scientific work requires working on the right problems—problems which are not just interesting, but whose solutions matter.",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 32
+    },
+    {
+      "title": "Anthropic: The Situation Report",
+      "url": "https://www.anthropic.com/features/ebola-response",
+      "feedSource": "Hacker News",
+      "source": "anthropic.com",
+      "score": 0.9186,
+      "publishedAt": "2026-09-25T10:59:08.000Z",
+      "summary": "A rare Ebola strain is spreading in the DRC, with no confirmed vaccine. Global health organizations are using Claude to respond as fast as possible.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 6
+    },
+    {
+      "title": "MentalHealthBench",
+      "url": "https://openai.com/index/introducing-mentalhealthbench/",
+      "feedSource": "Hacker News",
+      "source": "openai.com",
+      "score": 0.9049,
+      "publishedAt": "2026-09-24T23:06:07.000Z",
+      "summary": "Reload to try again, or go back.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 23
+    },
+    {
       "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
       "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.9367,
+      "score": 0.8839,
       "publishedAt": "2026-09-23T18:06:47.000Z",
       "summary": "In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown.",
       "tags": [
@@ -20,27 +59,14 @@
         "Agents",
         "Research"
       ],
-      "engagementScore": 761
-    },
-    {
-      "title": "MentalHealthBench",
-      "url": "https://openai.com/index/introducing-mentalhealthbench/",
-      "feedSource": "Hacker News",
-      "source": "openai.com",
-      "score": 0.918,
-      "publishedAt": "2026-09-24T23:06:07.000Z",
-      "summary": "Reload to try again, or go back.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 11
+      "engagementScore": 766
     },
     {
       "title": "When Should Forecasting Agents Reason? Behavioral Stress Tests for Reliability Routing",
       "url": "https://arxiv.org/abs/2609.28475",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.9109,
+      "score": 0.8613,
       "publishedAt": "2026-09-25T04:00:00.000Z",
       "summary": "arXiv:2609.28475v1 Announce Type: new \nAbstract: Forecasting agents increasingly combine language-model reasoning, retrieval, ensembling, and calibration, but it remains unclear when each behavior should be trusted. We study this question on ForecastBench-style binary forecasting tasks, treating the",
       "tags": [
@@ -55,7 +81,7 @@
       "url": "https://arxiv.org/abs/2609.28506",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.9109,
+      "score": 0.8613,
       "publishedAt": "2026-09-25T04:00:00.000Z",
       "summary": "arXiv:2609.28506v1 Announce Type: new \nAbstract: TW3Cast is a time-series forecasting system that reaches position 3 of 130 entries on the GIFT-Eval benchmark by mean MASE rank, as of 2026-09-14. The two entries above it belong to the leaderboard's agentic category, multi-step systems that use agent",
       "tags": [
@@ -70,7 +96,7 @@
       "url": "https://arxiv.org/abs/2609.28547",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.9109,
+      "score": 0.8613,
       "publishedAt": "2026-09-25T04:00:00.000Z",
       "summary": "arXiv:2609.28547v1 Announce Type: new \nAbstract: Policy interventions propagate through public communication, institutional decisions, and stakeholder responses, yet datasets for financial multi-agent simulation rarely connect these processes to temporally aligned historical evidence. We introduce P",
       "tags": [
@@ -85,7 +111,7 @@
       "url": "https://arxiv.org/abs/2609.28554",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.9109,
+      "score": 0.8613,
       "publishedAt": "2026-09-25T04:00:00.000Z",
       "summary": "arXiv:2609.28554v1 Announce Type: new \nAbstract: We introduce the Pistis model family, comprising 27B- and 9B-parameter multimodal large language models built on Qwen3.6 and Qwen3.5, respectively, and developed through a general and scalable post-training framework. The framework first establishes a",
       "tags": [
@@ -101,7 +127,7 @@
       "url": "https://arxiv.org/abs/2609.28557",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.9109,
+      "score": 0.8613,
       "publishedAt": "2026-09-25T04:00:00.000Z",
       "summary": "arXiv:2609.28557v1 Announce Type: new \nAbstract: DNA sequencing pipelines, spanning quality control, alignment, variant calling, and annotation, are now reliably executed by workflow management systems that orchestrate established bioinformatics tools at scale. What remains manual is the decision la",
       "tags": [
@@ -117,7 +143,7 @@
       "url": "https://arxiv.org/abs/2609.28570",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.9109,
+      "score": 0.8613,
       "publishedAt": "2026-09-25T04:00:00.000Z",
       "summary": "arXiv:2609.28570v1 Announce Type: new \nAbstract: Reinforcement learning (RL) is widely used to sharpen reasoning in multimodal large language models (MLLMs), yet its effect on hallucination is uneven. We trace this to two weak points in the \\emph{correction chain} from reward to parameter update. At",
       "tags": [
@@ -134,7 +160,7 @@
       "url": "https://arxiv.org/abs/2609.28575",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.9109,
+      "score": 0.8613,
       "publishedAt": "2026-09-25T04:00:00.000Z",
       "summary": "arXiv:2609.28575v1 Announce Type: new \nAbstract: Long-conversation memory benchmarks increasingly test recall and prompted knowledge updates, and recent work studies evolving user beliefs and memory state. TWIST is a proposed benchmark suite for a complementary, unmeasured property: intervention qua",
       "tags": [
@@ -148,7 +174,7 @@
       "url": "https://arxiv.org/abs/2609.28609",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.9109,
+      "score": 0.8613,
       "publishedAt": "2026-09-25T04:00:00.000Z",
       "summary": "arXiv:2609.28609v1 Announce Type: new \nAbstract: Role-playing agents based on large language models have been widely applied in areas such as personalized assistance and social simulation. Recent RL methods typically train on a fixed scenario pool collected before learning begins. This creates a dis",
       "tags": [
@@ -164,7 +190,7 @@
       "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.8316,
+      "score": 0.782,
       "publishedAt": "2026-09-24T16:20:39.000Z",
       "summary": "Introducing Gemini 3.8 Live with Live Avatar, which brings near real-time visual presence to Gemini’s conversational AI.",
       "tags": [
@@ -174,38 +200,38 @@
       "engagementScore": 0
     },
     {
-      "title": "GPT-6 Sol and Luna",
-      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
-      "feedSource": "Hacker News",
-      "source": "openai.com",
-      "score": 0.8065,
-      "publishedAt": "2026-09-22T18:00:34.000Z",
-      "summary": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 1763
-    },
-    {
       "title": "ArXiv receives multiyear commitments to support it as an independent nonprofit",
       "url": "https://blog.arxiv.org/2026/09/23/arxiv-receives-multiyear-investment/",
       "feedSource": "Hacker News",
       "source": "blog.arxiv.org",
-      "score": 0.8035,
+      "score": 0.7543,
       "publishedAt": "2026-09-23T22:45:49.000Z",
       "summary": "arXiv is pleased to announce that three leading philanthropic organizations have provided multimillion-dollar support for arXiv. These new multiyear…",
       "tags": [
         "LLM",
         "Research"
       ],
-      "engagementScore": 305
+      "engagementScore": 307
+    },
+    {
+      "title": "GPT-6 Sol and Luna",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+      "feedSource": "Hacker News",
+      "source": "openai.com",
+      "score": 0.7535,
+      "publishedAt": "2026-09-22T18:00:34.000Z",
+      "summary": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 1766
     },
     {
       "title": "Claude Opus 5.5",
       "url": "https://www.anthropic.com/claude-opus-5-5",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.7963,
+      "score": 0.7432,
       "publishedAt": "2026-09-22T16:29:05.000Z",
       "summary": "Claude Opus 5.5 leads in agentic coding and knowledge work, and costs 40% less to run than Opus 5 on typical workloads.",
       "tags": [
@@ -213,14 +239,14 @@
         "Agents",
         "Dev Tools"
       ],
-      "engagementScore": 1792
+      "engagementScore": 1793
     },
     {
       "title": "Two years of OpenAI Academy",
       "url": "https://openai.com/index/two-years-of-openai-academy",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7735,
+      "score": 0.7203,
       "publishedAt": "2026-09-23T16:00:00.000Z",
       "summary": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
       "tags": [
@@ -233,7 +259,7 @@
       "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7516,
+      "score": 0.6984,
       "publishedAt": "2026-09-23T13:00:00.000Z",
       "summary": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
       "tags": [
@@ -246,7 +272,7 @@
       "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7443,
+      "score": 0.6911,
       "publishedAt": "2026-09-23T12:00:00.000Z",
       "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
       "tags": [
@@ -260,7 +286,7 @@
       "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7443,
+      "score": 0.6911,
       "publishedAt": "2026-09-23T12:00:00.000Z",
       "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
       "tags": [
@@ -273,7 +299,7 @@
       "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7443,
+      "score": 0.6911,
       "publishedAt": "2026-09-23T12:00:00.000Z",
       "summary": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
       "tags": [
@@ -287,7 +313,7 @@
       "url": "https://openai.com/index/ringg",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7443,
+      "score": 0.6911,
       "publishedAt": "2026-09-23T12:00:00.000Z",
       "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
       "tags": [
@@ -301,9 +327,35 @@
       "url": "https://openai.com/index/introducing-mentalhealthbench",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7297,
+      "score": 0.6766,
       "publishedAt": "2026-09-23T10:00:00.000Z",
       "summary": "MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Pentagon wants $30 million to build an AI-powered lie detector",
+      "url": "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.673,
+      "publishedAt": "2026-09-25T09:16:25.000Z",
+      "summary": "The US government wants to spend $30.3 million over the next five years on an improved form of lie detector, according to a Department of Defense budget request. The program, called “Polygraph+” or “Polygraph Next”, will focus on scoring algorithms that use artificial intelligence and machine learni",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Young organs may not be a fountain of youth for recipients",
+      "url": "https://www.technologyreview.com/2026/09/25/1145083/young-organs-may-not-be-a-fountain-of-youth-for-recipients/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6714,
+      "publishedAt": "2026-09-25T09:00:00.000Z",
+      "summary": "Around this time last year I was attending an aging conference in Manchester, listening to a talk about fly aging, when my phone started pinging. News outlets were reporting that a hot mic had caught Russia’s and China’s leaders discussing the possibility of living forever. “With the developments of",
       "tags": [
         "AI"
       ],
@@ -314,7 +366,7 @@
       "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.7063,
+      "score": 0.6602,
       "publishedAt": "2026-09-24T14:08:57.000Z",
       "summary": "A Blog post by Liquid AI on Hugging Face",
       "tags": [
@@ -325,11 +377,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Google’s Project Suncatcher to put ML infrastructure in space",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/",
+      "feedSource": "Hacker News",
+      "source": "blog.google",
+      "score": 0.6188,
+      "publishedAt": "2026-09-24T13:53:29.000Z",
+      "summary": "Learn about Project Suncatcher, how we’re testing hardware survival for space, designing cooling systems for AI chips, and more.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 194
+    },
+    {
       "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
       "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6714,
+      "score": 0.6182,
       "publishedAt": "2026-09-23T02:00:00.000Z",
       "summary": "ChatGPT Ads is expanding to Southeast Asia and Taiwan, giving eligible businesses new ways to reach people across more than 60 countries.",
       "tags": [
@@ -342,7 +407,7 @@
       "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.666,
+      "score": 0.6164,
       "publishedAt": "2026-09-23T16:00:57.000Z",
       "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
       "tags": [
@@ -355,7 +420,7 @@
       "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.6619,
+      "score": 0.6123,
       "publishedAt": "2026-09-23T15:25:14.000Z",
       "summary": "Gemini 3.8 Flash-Lite TTS and Gemini 3.8 Flash TTS are our most expressive audio models yet.",
       "tags": [
@@ -364,24 +429,115 @@
       "engagementScore": 0
     },
     {
-      "title": "Google’s Project Suncatcher to put ML infrastructure in space",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/",
-      "feedSource": "Hacker News",
-      "source": "blog.google",
-      "score": 0.6469,
-      "publishedAt": "2026-09-24T13:53:29.000Z",
-      "summary": "Learn about Project Suncatcher, how we’re testing hardware survival for space, designing cooling systems for AI chips, and more.",
+      "title": "Party Invite Phishing Scams Are the New Missed Connections",
+      "url": "https://www.wired.com/story/party-invite-phishing-scams-are-the-new-missed-connections/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5822,
+      "publishedAt": "2026-09-25T11:00:00.000Z",
+      "summary": "Email scams that look like an Evite or Paperless Post invitation are meant to snatch your data. For some, they've become an excuse to reconnect with old friends or flames.",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "‘Primetime’ Exposes the Ego-Driven Core of Vigilante Pedophile Hunting",
+      "url": "https://www.wired.com/story/primetime-exposes-the-ego-driven-core-of-vigilante-pedophile-hunting/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5808,
+      "publishedAt": "2026-09-25T10:45:00.000Z",
+      "summary": "Lance Oppenheim’s new film doesn’t paint Chris Hansen as a hero. The To Catch a Predator host's real-world copycats are even more reckless.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 139
+      "engagementScore": 0
+    },
+    {
+      "title": "How to Record Your Screen on Any Phone",
+      "url": "https://www.wired.com/story/how-to-record-your-screen-on-any-phone/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5795,
+      "publishedAt": "2026-09-25T10:30:00.000Z",
+      "summary": "The built-in tools on your phone—as well as some inexpensive apps—let you share whatever you’re doing with others.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Who Killed Paulina Borsook’s Career?",
+      "url": "https://www.wired.com/story/paulina-borsook-profile/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5768,
+      "publishedAt": "2026-09-25T10:00:00.000Z",
+      "summary": "A quarter-century ago, Borsook published a wildly prophetic, penetrating book about Silicon Valley called Cyberselfish. Then she disappeared.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "16 Products From Women Designers You Need to Know",
+      "url": "https://www.wired.com/story/16-womens-products-you-need-to-know/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5768,
+      "publishedAt": "2026-09-25T10:00:00.000Z",
+      "summary": "From electric trucks to health trackers, women designers are guiding consumer tech to a better place.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The 34 Best Gifts for Dads (2026)",
+      "url": "https://www.wired.com/story/best-gifts-for-dads-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5742,
+      "publishedAt": "2026-09-25T09:31:00.000Z",
+      "summary": "Dads are typically tough to shop for. Let me help with these WIRED-tested gift ideas.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Nearly a Decade Later, the Electric Tesla Semi Is Here",
+      "url": "https://www.wired.com/story/tesla-semi/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5728,
+      "publishedAt": "2026-09-25T09:15:00.000Z",
+      "summary": "A Nevada event aimed at a niche audience of fleet managers could mark a milestone in clean transportation.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "10 Best Coffee Subscriptions (2026), Tested by Caffeine Hounds",
+      "url": "https://www.wired.com/story/best-coffee-subscription/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5716,
+      "publishedAt": "2026-09-25T09:01:00.000Z",
+      "summary": "We tried dozens of the best coffee subscriptions to find freshly roasted, delicious coffee for every taste.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "The Download: a bid to scrap the virtual wall and AI hits Climate Week",
       "url": "https://www.technologyreview.com/2026/09/24/1145064/the-download-bid-scrap-virtual-wall-ai-climate-week/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5924,
+      "score": 0.5499,
       "publishedAt": "2026-09-24T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. A congressional representative just proposed killing America’s border tower program Delia Ramirez, a Democratic US representative from Illinois, has a",
       "tags": [
@@ -394,7 +550,7 @@
       "url": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.5834,
+      "score": 0.5373,
       "publishedAt": "2026-09-23T18:41:40.000Z",
       "summary": "A Blog post by NVIDIA on Hugging Face",
       "tags": [
@@ -407,7 +563,7 @@
       "url": "https://www.technologyreview.com/2026/09/24/1145048/ai-climate-week/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5798,
+      "score": 0.5372,
       "publishedAt": "2026-09-24T10:00:00.000Z",
       "summary": "This week, world leaders descended on Manhattan for the UN General Assembly. It’s also New York Climate Week—investors, policymakers, advocates, and journalists are colliding at panels, talks, and fancy dinners. With so many climate voices in one place, the discourse can feel a little louder than us",
       "tags": [
@@ -417,24 +573,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Gemini 3.8 text-to-speech",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
-      "feedSource": "Hacker News",
-      "source": "blog.google",
-      "score": 0.5535,
-      "publishedAt": "2026-09-23T15:29:23.000Z",
-      "summary": "Gemini 3.8 Flash-Lite TTS and Gemini 3.8 Flash TTS are our most expressive audio models yet.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 328
-    },
-    {
       "title": "Muse will apparently let you download its entire filesystem",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1000222/meta-muse-ai-filesystem",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5522,
+      "score": 0.5132,
       "publishedAt": "2026-09-24T22:06:44.000Z",
       "summary": "A pair of developers say that with very little prompting, Meta's Muse will share its entire filesystem with you. Peter James and Jonny L. Saunders have said they both independently coaxed Muse into zipping up and sharing the entire contents of its root filesystem, Ubuntu system files, app templates,",
       "tags": [
@@ -447,22 +590,9 @@
       "url": "https://www.theverge.com/policy/1000005/flock-senate-hearing",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.551,
+      "score": 0.5121,
       "publishedAt": "2026-09-24T21:53:31.000Z",
       "summary": "Flock is in the hot seat in Washington, even if its CEO declined to actually face senators at a hearing about its \"AI Surveillance Network\" on Wednesday. \"There's many players in this industry, but there's one name that really stands out above the rest, and that is Flock,\" Senate Judiciary crime and",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Anonymous Men Have Turned Cyberharassment Into a Group Sport—Here’s One Woman’s Side of the Story",
-      "url": "https://www.wired.com/story/uncanny-valley-podcast-anonymous-men-turned-cyberharassment-into-group-sport-heres-one-womans-side/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5454,
-      "publishedAt": "2026-09-24T20:50:33.000Z",
-      "summary": "This week on Uncanny Valley, we take you behind our feature on the women struggling after being targeted by the burnerverse.",
       "tags": [
         "AI"
       ],
@@ -473,7 +603,7 @@
       "url": "https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.541,
+      "score": 0.502,
       "publishedAt": "2026-09-24T20:00:34.000Z",
       "summary": "Google's new Gemini 3.8 Live update lets users have conversations with the model while watching an animated AI persona respond in real time. The \"Live Avatar\" will lip-sync and show different facial expressions during conversations, but it's currently only available to Gemini Enterprise customers. A",
       "tags": [
@@ -482,38 +612,11 @@
       "engagementScore": 0
     },
     {
-      "title": "F-Droid 2.0",
-      "url": "https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html",
-      "feedSource": "Hacker News",
-      "source": "f-droid.org",
-      "score": 0.5388,
-      "publishedAt": "2026-09-24T15:26:12.000Z",
-      "summary": "After more than a year of hard work, we are thrilled to announce the launch of F-Droid 2.0, a complete redesign of the official F-Droid app and the largest a…",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 1023
-    },
-    {
-      "title": "I Think I Found an AI Agent Worth the Risk",
-      "url": "https://www.wired.com/story/i-finally-found-an-ai-agent-worth-the-risk/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5388,
-      "publishedAt": "2026-09-24T19:36:35.000Z",
-      "summary": "Instinct saved me $550, booked my restaurant reservations, and warned me about a phishing scam. It also wasted $64 and might be a security nightmare.",
-      "tags": [
-        "Agents",
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Jensen Huang talks about AI and climate change like a supervillain",
       "url": "https://www.theverge.com/tech/1000140/jensen-huang-nvidia-ai-energy-climate-change-supervillain",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5306,
+      "score": 0.4917,
       "publishedAt": "2026-09-24T18:04:44.000Z",
       "summary": "As Jensen Huang puts it, AI can help fight climate change - but only if it inflicts \"an enormous amount of pain and suffering\" first. The Nvidia CEO discussed the future of energy and AI's impact on our planet in the latest episode of The Ezra Klein Show. But his comments boil down to the [&#8230;]",
       "tags": [
@@ -526,7 +629,7 @@
       "url": "https://www.theverge.com/games/999972/meta-horizon-create-studio-ai-games",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5296,
+      "score": 0.4906,
       "publishedAt": "2026-09-24T17:52:29.000Z",
       "summary": "Meta has a new plan to get people to make games for its Horizon social platform. The company today announced two new development tools that will let you create games with AI prompts: Horizon Create, a mobile app, and Horizon Studio, a browser app that offers more granular controls. The apps will be",
       "tags": [
@@ -539,7 +642,7 @@
       "url": "https://www.theverge.com/report/1000180/muse-openclaw-instinct-lookalike",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5277,
+      "score": 0.4887,
       "publishedAt": "2026-09-24T17:31:50.000Z",
       "summary": "We seem to be entering into an AI agent renaissance. Meta's new consumer-facing AI agent, Muse, topped the App Store charts soon after its release and has 600,000 daily active users in the US, by an Apptopia estimate. And AI agent platform Instinct, whose eponymous creator is fundraising at a $2.5 b",
       "tags": [
@@ -548,149 +651,42 @@
       "engagementScore": 0
     },
     {
-      "title": "Gemini can now call businesses for you so you don’t have to wait on hold",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1000116/google-gemini-business-phone-calls",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5209,
-      "publishedAt": "2026-09-24T16:15:24.000Z",
-      "summary": "Google's launching an \"early experiment\" feature on Pixel 11 that lets users delegate local business calls to Gemini, like making a reservation, checking if a product is in stock, or rescheduling an appointment. According to Google, you don't even need to start the call to have Gemini handle it for",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Google’s Gemini Can Now Make Calls for You on Pixel Phones",
-      "url": "https://www.wired.com/story/googles-gemini-can-now-make-calls-for-you-on-pixel-phones/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5195,
-      "publishedAt": "2026-09-24T16:00:00.000Z",
-      "summary": "Call for Me—a feature that’s exclusive to the Pixel 11 series—gives robocalls a new meaning.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "It’s sinister that Meta’s Muse AI mascot is so cute",
-      "url": "https://www.theverge.com/column/999999/optimizer-meta-muse-ai-cute",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5156,
-      "publishedAt": "2026-09-24T15:15:42.000Z",
-      "summary": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. Last night, I asked Blorbo - what I named my Muse AI agent - to help me set some hea",
-      "tags": [
-        "Agents"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Bose Ultra Open Earbuds Are $100 Off Right Now",
-      "url": "https://www.wired.com/story/bose-ultra-open-deal-september-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.496,
-      "publishedAt": "2026-09-24T11:36:00.000Z",
-      "summary": "They’re some of my favorite open earbuds, and matching their lowest price ever.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "An OpenAI Agent Hacked Australia’s Health Service. Their Government Found Out Months Later",
-      "url": "https://www.wired.com/story/openai-agent-hacked-australias-health-service-their-government-found-out-months-later/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4916,
-      "publishedAt": "2026-09-24T10:46:56.000Z",
-      "summary": "The country’s prime minister expressed disappointment at being informed of the hack only via email. Now Australia is investigating whether OpenAI broke the law.",
+      "title": "Anthropic signs $11.6 billion cloud deal with Akamai, pushing its compute spending past $500 billion in under a year",
+      "url": "https://the-decoder.com/anthropic-signs-11-6-billion-cloud-deal-with-akamai-pushing-its-compute-spending-past-500-billion-in-under-a-year/",
+      "feedSource": "The Decoder",
+      "source": "the-decoder.com",
+      "score": 0.4879,
+      "publishedAt": "2026-09-25T10:43:15.000Z",
+      "summary": "Anthropic has reportedly signed a seven-year, $11.6 billion cloud deal with Akamai Technologies and will receive a warrant for up to 5 percent of Akamai's shares. Its compute deals have reportedly totaled $517 billion in 11 months. CEO Dario Amodei has warned that Anthropic could go bankrup",
       "tags": [
         "LLM",
-        "Agents",
         "Industry"
       ],
       "engagementScore": 0
     },
     {
-      "title": "SeaWorld Wants to Make You Horny",
-      "url": "https://www.wired.com/story/seaworld-wants-to-make-you-horny/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4915,
-      "publishedAt": "2026-09-24T10:45:00.000Z",
-      "summary": "The Orlando theme park’s immersive Halloween experience now includes hot, brooding guys in an homage to romantasy antiheroes—and it’s leading to record-breaking ticket sales.",
+      "title": "Ruby on Rails creator DHH says he&#039;s done writing code by hand",
+      "url": "https://the-decoder.com/ruby-on-rails-creator-dhh-says-hes-done-writing-code-by-hand/",
+      "feedSource": "The Decoder",
+      "source": "the-decoder.com",
+      "score": 0.4836,
+      "publishedAt": "2026-09-25T09:50:41.000Z",
+      "summary": "David Heinemeier Hansson, creator of Ruby on Rails, has quit writing code by hand after 25 years. He says he hasn't typed a single line since March 2026. \"English is a better programming language than Ruby,\" DHH told the audience at Rails World 2026. Just a year ago, he was pushing back aga",
       "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Ovary Is Surprisingly Active After Menopause. Scientists Are Trying to Figure Out Why",
-      "url": "https://www.wired.com/story/ovary-activity-after-menopause/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4901,
-      "publishedAt": "2026-09-24T10:30:00.000Z",
-      "summary": "A growing body of research is putting the ovary in a new light, not as an egg factory with an expiration date, but as an organ that shapes women’s health long after the fertile years have passed.",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Why This Weekend’s Nor’easter Is Like a Hurricane",
-      "url": "https://www.wired.com/story/this-weeks-noreaster-forecast/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4888,
-      "publishedAt": "2026-09-24T10:15:00.000Z",
-      "summary": "Nor’easters are usually a winter phenomenon. But this week’s storm is arriving earlier than usual, and it could take on some characteristics more typical of tropical systems.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Google Beam expands with new regions, partners, and customers",
-      "url": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
-      "feedSource": "Google AI",
-      "source": "blog.google",
-      "score": 0.4864,
-      "publishedAt": "2026-09-23T18:00:00.000Z",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Beam_hero.max-600x600.format-webp.webp\"&gt;We’re expanding Google Beam to five new countries, and partnering with Industrious for an extended network.",
-      "tags": [
-        "RAG",
-        "Vision",
         "Dev Tools"
       ],
       "engagementScore": 0
     },
     {
-      "title": "A congressional representative just proposed killing America’s border tower program",
-      "url": "https://www.technologyreview.com/2026/09/23/1145002/a-congressional-representative-just-proposed-killing-americas-border-tower-program/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.4816,
-      "publishedAt": "2026-09-23T17:10:11.000Z",
-      "summary": "Delia Ramirez, a Democratic US representative from Illinois, has announced a plan to introduce new legislation to terminate the surveillance tower program along the US southern border.&#160; The announcement comes just days after publication of an MIT Technology Review investigation, “Dying on Camer",
+      "title": "Gemini can now call businesses for you so you don’t have to wait on hold",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1000116/google-gemini-business-phone-calls",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.4819,
+      "publishedAt": "2026-09-24T16:15:24.000Z",
+      "summary": "Google's launching an \"early experiment\" feature on Pixel 11 that lets users delegate local business calls to Gemini, like making a reservation, checking if a product is in stock, or rescheduling an appointment. According to Google, you don't even need to start the call to have Gemini handle it for",
       "tags": [
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Download: India&#8217;s smart glasses menace and AI&#8217;s trillion-dollar gamble",
-      "url": "https://www.technologyreview.com/2026/09/23/1144966/the-download-india-smart-glasses-ai-trillion-dollar-gamble/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.4524,
-      "publishedAt": "2026-09-23T12:10:00.000Z",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Smart glasses are already causing havoc in India When Shubnam saw an Instagram video of a Delhi protest they had attended, they realized a content cre",
-      "tags": [
-        "Vision"
+        "LLM"
       ],
       "engagementScore": 0
     }
