@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T16:53:16.885Z",
+  "updatedAt": "2026-09-25T21:17:24.298Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,11 +8,24 @@
   ],
   "items": [
     {
+      "title": "Yes, Claude can do nine loops",
+      "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
+      "feedSource": "Hacker News",
+      "source": "anthropic.com",
+      "score": 1.0524,
+      "publishedAt": "2026-09-25T18:11:48.000Z",
+      "summary": "Claude computes a nine-loop amplitude in N=4 super-Yang-Mills",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 100
+    },
+    {
       "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
       "url": "https://openai.com/index/proaction",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 1.0528,
+      "score": 1.0207,
       "publishedAt": "2026-09-25T19:00:00.000Z",
       "summary": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
       "tags": [
@@ -26,33 +39,33 @@
       "url": "https://openai.com/index/special-projects/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.9919,
+      "score": 0.9639,
       "publishedAt": "2026-09-25T08:55:43.000Z",
       "summary": "Impactful scientific work requires working on the right problems—problems which are not just interesting, but whose solutions matter.",
       "tags": [
         "Research"
       ],
-      "engagementScore": 63
+      "engagementScore": 68
     },
     {
       "title": "MentalHealthBench",
       "url": "https://openai.com/index/introducing-mentalhealthbench/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.8781,
+      "score": 0.8496,
       "publishedAt": "2026-09-24T23:06:07.000Z",
       "summary": "Reload to try again, or go back.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 29
+      "engagementScore": 31
     },
     {
       "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
       "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.8449,
+      "score": 0.8129,
       "publishedAt": "2026-09-23T18:06:47.000Z",
       "summary": "In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown.",
       "tags": [
@@ -60,14 +73,14 @@
         "Agents",
         "Research"
       ],
-      "engagementScore": 772
+      "engagementScore": 773
     },
     {
       "title": "When Should Forecasting Agents Reason? Behavioral Stress Tests for Reliability Routing",
       "url": "https://arxiv.org/abs/2609.28475",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8245,
+      "score": 0.7945,
       "publishedAt": "2026-09-25T04:00:00.000Z",
       "summary": "arXiv:2609.28475v1 Announce Type: new \nAbstract: Forecasting agents increasingly combine language-model reasoning, retrieval, ensembling, and calibration, but it remains unclear when each behavior should be trusted. We study this question on ForecastBench-style binary forecasting tasks, treating the",
       "tags": [
@@ -82,7 +95,7 @@
       "url": "https://arxiv.org/abs/2609.28506",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8245,
+      "score": 0.7945,
       "publishedAt": "2026-09-25T04:00:00.000Z",
       "summary": "arXiv:2609.28506v1 Announce Type: new \nAbstract: TW3Cast is a time-series forecasting system that reaches position 3 of 130 entries on the GIFT-Eval benchmark by mean MASE rank, as of 2026-09-14. The two entries above it belong to the leaderboard's agentic category, multi-step systems that use agent",
       "tags": [
@@ -97,7 +110,7 @@
       "url": "https://arxiv.org/abs/2609.28547",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8245,
+      "score": 0.7945,
       "publishedAt": "2026-09-25T04:00:00.000Z",
       "summary": "arXiv:2609.28547v1 Announce Type: new \nAbstract: Policy interventions propagate through public communication, institutional decisions, and stakeholder responses, yet datasets for financial multi-agent simulation rarely connect these processes to temporally aligned historical evidence. We introduce P",
       "tags": [
@@ -112,7 +125,7 @@
       "url": "https://arxiv.org/abs/2609.28554",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8245,
+      "score": 0.7945,
       "publishedAt": "2026-09-25T04:00:00.000Z",
       "summary": "arXiv:2609.28554v1 Announce Type: new \nAbstract: We introduce the Pistis model family, comprising 27B- and 9B-parameter multimodal large language models built on Qwen3.6 and Qwen3.5, respectively, and developed through a general and scalable post-training framework. The framework first establishes a",
       "tags": [
@@ -128,7 +141,7 @@
       "url": "https://arxiv.org/abs/2609.28557",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8245,
+      "score": 0.7945,
       "publishedAt": "2026-09-25T04:00:00.000Z",
       "summary": "arXiv:2609.28557v1 Announce Type: new \nAbstract: DNA sequencing pipelines, spanning quality control, alignment, variant calling, and annotation, are now reliably executed by workflow management systems that orchestrate established bioinformatics tools at scale. What remains manual is the decision la",
       "tags": [
@@ -144,7 +157,7 @@
       "url": "https://arxiv.org/abs/2609.28570",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8245,
+      "score": 0.7945,
       "publishedAt": "2026-09-25T04:00:00.000Z",
       "summary": "arXiv:2609.28570v1 Announce Type: new \nAbstract: Reinforcement learning (RL) is widely used to sharpen reasoning in multimodal large language models (MLLMs), yet its effect on hallucination is uneven. We trace this to two weak points in the \\emph{correction chain} from reward to parameter update. At",
       "tags": [
@@ -161,7 +174,7 @@
       "url": "https://arxiv.org/abs/2609.28575",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8245,
+      "score": 0.7945,
       "publishedAt": "2026-09-25T04:00:00.000Z",
       "summary": "arXiv:2609.28575v1 Announce Type: new \nAbstract: Long-conversation memory benchmarks increasingly test recall and prompted knowledge updates, and recent work studies evolving user beliefs and memory state. TWIST is a proposed benchmark suite for a complementary, unmeasured property: intervention qua",
       "tags": [
@@ -175,7 +188,7 @@
       "url": "https://arxiv.org/abs/2609.28609",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8245,
+      "score": 0.7945,
       "publishedAt": "2026-09-25T04:00:00.000Z",
       "summary": "arXiv:2609.28609v1 Announce Type: new \nAbstract: Role-playing agents based on large language models have been widely applied in areas such as personalized assistance and social simulation. Recent RL methods typically train on a fixed scenario pool collected before learning begins. This creates a dis",
       "tags": [
@@ -185,47 +198,6 @@
         "ML Infra"
       ],
       "engagementScore": 0
-    },
-    {
-      "title": "Introducing Gemini 3.8 Live with Live Avatar",
-      "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.7452,
-      "publishedAt": "2026-09-24T16:20:39.000Z",
-      "summary": "Introducing Gemini 3.8 Live with Live Avatar, which brings near real-time visual presence to Gemini’s conversational AI.",
-      "tags": [
-        "LLM",
-        "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "ArXiv receives multiyear commitments to support it as an independent nonprofit",
-      "url": "https://blog.arxiv.org/2026/09/23/arxiv-receives-multiyear-investment/",
-      "feedSource": "Hacker News",
-      "source": "blog.arxiv.org",
-      "score": 0.7175,
-      "publishedAt": "2026-09-23T22:45:49.000Z",
-      "summary": "arXiv is pleased to announce that three leading philanthropic organizations have provided multimillion-dollar support for arXiv. These new multiyear…",
-      "tags": [
-        "LLM",
-        "Research"
-      ],
-      "engagementScore": 307
-    },
-    {
-      "title": "GPT-6 Sol and Luna",
-      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
-      "feedSource": "Hacker News",
-      "source": "openai.com",
-      "score": 0.7142,
-      "publishedAt": "2026-09-22T18:00:34.000Z",
-      "summary": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 1770
     },
     {
       "title": "Claude Opus 5.5",
@@ -243,26 +215,40 @@
       "engagementScore": 1797
     },
     {
+      "title": "GPT-6 Sol and Luna",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+      "feedSource": "Hacker News",
+      "source": "openai.com",
+      "score": 0.706,
+      "publishedAt": "2026-09-22T18:00:34.000Z",
+      "summary": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 1771
+    },
+    {
+      "title": "ArXiv receives multiyear commitments to support it as an independent nonprofit",
+      "url": "https://blog.arxiv.org/2026/09/23/arxiv-receives-multiyear-investment/",
+      "feedSource": "Hacker News",
+      "source": "blog.arxiv.org",
+      "score": 0.6875,
+      "publishedAt": "2026-09-23T22:45:49.000Z",
+      "summary": "arXiv is pleased to announce that three leading philanthropic organizations have provided multimillion-dollar support for arXiv. These new multiyear…",
+      "tags": [
+        "LLM",
+        "Research"
+      ],
+      "engagementScore": 307
+    },
+    {
       "title": "Two years of OpenAI Academy",
       "url": "https://openai.com/index/two-years-of-openai-academy",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6809,
+      "score": 0.6488,
       "publishedAt": "2026-09-23T16:00:00.000Z",
       "summary": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "OpenAI extends cyber access to Ukraine for civilian defense",
-      "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.659,
-      "publishedAt": "2026-09-23T13:00:00.000Z",
-      "summary": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
       "tags": [
         "LLM"
       ],
@@ -273,7 +259,7 @@
       "url": "https://www.technologyreview.com/2026/09/25/1145157/the-download-pentagon-ai-lie-detector-young-organ-limits/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6584,
+      "score": 0.6327,
       "publishedAt": "2026-09-25T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The Pentagon wants $30 million to build an AI-powered lie detector The US government wants to spend $30.3 million over the next five years on an impro",
       "tags": [
@@ -282,11 +268,24 @@
       "engagementScore": 0
     },
     {
+      "title": "OpenAI extends cyber access to Ukraine for civilian defense",
+      "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.6269,
+      "publishedAt": "2026-09-23T13:00:00.000Z",
+      "summary": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Sam Altman’s remarks at the United Nations Security Council",
       "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6517,
+      "score": 0.6196,
       "publishedAt": "2026-09-23T12:00:00.000Z",
       "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
       "tags": [
@@ -300,7 +299,7 @@
       "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6517,
+      "score": 0.6196,
       "publishedAt": "2026-09-23T12:00:00.000Z",
       "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
       "tags": [
@@ -313,7 +312,7 @@
       "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6517,
+      "score": 0.6196,
       "publishedAt": "2026-09-23T12:00:00.000Z",
       "summary": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
       "tags": [
@@ -327,7 +326,7 @@
       "url": "https://openai.com/index/ringg",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6517,
+      "score": 0.6196,
       "publishedAt": "2026-09-23T12:00:00.000Z",
       "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
       "tags": [
@@ -341,7 +340,7 @@
       "url": "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6415,
+      "score": 0.6158,
       "publishedAt": "2026-09-25T09:16:25.000Z",
       "summary": "The US government wants to spend $30.3 million over the next five years on an improved form of lie detector, according to a Department of Defense budget request. The program, called Polygraph+ or Polygraph Next, will focus on scoring algorithms that use artificial intelligence and machine learning a",
       "tags": [
@@ -354,7 +353,7 @@
       "url": "https://www.technologyreview.com/2026/09/25/1145083/young-organs-may-not-be-a-fountain-of-youth-for-recipients/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6399,
+      "score": 0.6142,
       "publishedAt": "2026-09-25T09:00:00.000Z",
       "summary": "Around this time last year I was attending an aging conference in Manchester, listening to a talk about fly aging, when my phone started pinging. News outlets were reporting that a hot mic had caught Russia’s and China’s leaders discussing the possibility of living forever. “With the developments of",
       "tags": [
@@ -367,7 +366,7 @@
       "url": "https://openai.com/index/introducing-mentalhealthbench",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6372,
+      "score": 0.6051,
       "publishedAt": "2026-09-23T10:00:00.000Z",
       "summary": "MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.",
       "tags": [
@@ -380,7 +379,7 @@
       "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6261,
+      "score": 0.5983,
       "publishedAt": "2026-09-24T14:08:57.000Z",
       "summary": "A Blog post by Liquid AI on Hugging Face",
       "tags": [
@@ -391,24 +390,77 @@
       "engagementScore": 0
     },
     {
+      "title": "Can Apple Home’s AI camera features outsmart Amazon’s and Google’s? I put them to the test",
+      "url": "https://www.theverge.com/tech/1000321/apple-intelligence-home-security-camera-amazon-ring-alexa-google-nest-gemini-home-review",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5816,
+      "publishedAt": "2026-09-25T20:41:57.000Z",
+      "summary": "A few years back, I was at a beachside Easter egg hunt, watching my kids dash through sand dunes searching for sweet treats. My phone buzzed in my pocket; I ignored it. A moment later, it buzzed again. I pulled it out, glanced down, and saw a \"motion detected\" notification from my security camera. \"",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Thieves Stole ‘Nvidia’ Trailers. They Got 20 Tons of Sand",
+      "url": "https://www.wired.com/story/thieves-stole-nvidia-trailers-they-got-20-tons-of-sand/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5806,
+      "publishedAt": "2026-09-25T20:30:40.000Z",
+      "summary": "They wanted the silicon. They got the sand.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Sony and UMG are suing Suno again",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1000758/suno-sony-umg-lawsuit-ai-music",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5734,
+      "publishedAt": "2026-09-25T19:09:57.000Z",
+      "summary": "Sony and Universal Music Group filed yet another suit against Suno. The labels claim its new v6 model still infringes on their copyrights because it's trained on user outputs from previous models, which were themselves trained on unlicensed music ripped from YouTube and other sources. Sony and UMG a",
+      "tags": [
+        "ML Infra"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Google’s Project Suncatcher to put ML infrastructure in space",
       "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/",
       "feedSource": "Hacker News",
       "source": "blog.google",
-      "score": 0.5903,
+      "score": 0.5681,
       "publishedAt": "2026-09-24T13:53:29.000Z",
       "summary": "Learn about Project Suncatcher, how we’re testing hardware survival for space, designing cooling systems for AI chips, and more.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 208
+      "engagementScore": 225
+    },
+    {
+      "title": "Appeals Court Lets the Pentagon Designate Anthropic a Supply-Chain Risk",
+      "url": "https://www.wired.com/story/appeals-court-lets-the-pentagon-designate-anthropic-a-supply-chain-risk/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5617,
+      "publishedAt": "2026-09-25T16:58:20.000Z",
+      "summary": "The AI lab had argued multiple violations of its rights, but a divided panel of judges sided with the Trump administration.",
+      "tags": [
+        "LLM",
+        "Safety"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "One company is at the center of a wave of rogue AI attacks",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1000644/irregular-rogue-ai-cyberattacks-hacking-openai-meta-anthropic-google",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5846,
+      "score": 0.561,
       "publishedAt": "2026-09-25T16:51:08.000Z",
       "summary": "In July, OpenAI revealed that its AI agents had attacked Hugging Face without permission, sparking widespread concerns about AI safety. Since then, a string of similar incidents involving agents from Meta, Anthropic, Google, and other companies has fueled further fears about rogue AI. As disclosures",
       "tags": [
@@ -424,7 +476,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/1000784/meta-muse-filesystem",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5844,
+      "score": 0.5609,
       "publishedAt": "2026-09-25T16:49:53.000Z",
       "summary": "Yesterday, with a little prodding, it was discovered that Meta's Muse would expose its filesystem to curious users. The files offered a fascinating peek under the hood of an AI chatbot, and appeared to expose details we weren't meant to see, not least because Muse itself told people, including us, i",
       "tags": [
@@ -433,50 +485,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Sony and UMG are suing Suno again",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1000758/suno-sony-umg-lawsuit-ai-music",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5799,
-      "publishedAt": "2026-09-25T15:59:12.000Z",
-      "summary": "Sony and Universal Music Group filed yet another suit against Suno. The labels claim its new v6 model still infringes on their copyrights because it's trained on user outputs from previous models, which were themselves trained on unlicensed music ripped from YouTube and other sources. Sony and UMG a",
-      "tags": [
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Advancing Private AI Compute with secure, server-side memory",
-      "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.5796,
-      "publishedAt": "2026-09-23T16:00:57.000Z",
-      "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Gemini 3.8 text-to-speech says hello",
-      "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.5756,
-      "publishedAt": "2026-09-23T15:25:14.000Z",
-      "summary": "Gemini 3.8 Flash-Lite TTS and Gemini 3.8 Flash TTS are our most expressive audio models yet.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "War Bros Didn’t Always Rule Silicon Valley",
       "url": "https://www.wired.com/story/war-bros-didnt-always-rule-silicon-valley/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5746,
+      "score": 0.5511,
       "publishedAt": "2026-09-25T15:00:00.000Z",
       "summary": "Some say that tech was always about the money and the military. Don’t buy that argument.",
       "tags": [
@@ -489,7 +502,7 @@
       "url": "https://www.theverge.com/report/1000180/muse-openclaw-instinct-lookalike",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5731,
+      "score": 0.5495,
       "publishedAt": "2026-09-25T14:42:05.000Z",
       "summary": "We seem to be entering into an AI agent renaissance. Meta's new consumer-facing AI agent, Muse, topped the App Store charts soon after its release and has 600,000 daily active users in the US, by an Apptopia estimate. And AI agent platform Instinct, whose eponymous creator is fundraising at a $2.5 b",
       "tags": [
@@ -498,24 +511,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Can Apple Home’s AI camera features outsmart Amazon’s and Google’s? I put them to the test",
-      "url": "https://www.theverge.com/tech/1000321/apple-intelligence-home-security-camera-amazon-ring-alexa-google-nest-gemini-home-review",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5671,
-      "publishedAt": "2026-09-25T13:35:25.000Z",
-      "summary": "A few years back, I was at a beachside Easter egg hunt, watching my kids dash through sand dunes searching for sweet treats. My phone buzzed in my pocket; I ignored it. A moment later, it buzzed again. I pulled it out, glanced down, and saw a \"motion detected\" notification from my security camera. \"",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Microsoft thinks its new Copilot ‘super app’ will be as influential as Office",
       "url": "https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5652,
+      "score": 0.5417,
       "publishedAt": "2026-09-25T13:14:27.000Z",
       "summary": "After teasing its new Copilot \"super app\" last month, Microsoft is officially unveiling it today. The redesigned Copilot app bundles three AI capabilities into a single interface of chat, coding, and agents. As part of the launch, Microsoft is also rebranding Scout, the AI personal assistant it unve",
       "tags": [
@@ -529,7 +529,7 @@
       "url": "https://www.wired.com/story/trump-administration-is-trying-to-get-musk-and-x-out-of-a-dollar137-million-eu-fine/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5561,
+      "score": 0.5326,
       "publishedAt": "2026-09-25T11:32:17.000Z",
       "summary": "The US government filed an application to support the company’s legal challenge against a fine issued under the bloc’s Digital Services Act, which Trump has described as “overseas extortion.”",
       "tags": [
@@ -542,7 +542,7 @@
       "url": "https://www.wired.com/story/best-laptops/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5559,
+      "score": 0.5324,
       "publishedAt": "2026-09-25T11:30:00.000Z",
       "summary": "I’ve been reviewing laptops for over a decade, and here’s my advice for finding the right laptop for you.",
       "tags": [
@@ -555,7 +555,7 @@
       "url": "https://www.wired.com/story/party-invite-phishing-scams-are-the-new-missed-connections/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5533,
+      "score": 0.5297,
       "publishedAt": "2026-09-25T11:00:00.000Z",
       "summary": "Email scams that look like an Evite or Paperless Post invitation are meant to snatch your data. For some, they've become an excuse to reconnect with old friends or flames.",
       "tags": [
@@ -568,7 +568,7 @@
       "url": "https://www.wired.com/story/primetime-exposes-the-ego-driven-core-of-vigilante-pedophile-hunting/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5519,
+      "score": 0.5284,
       "publishedAt": "2026-09-25T10:45:00.000Z",
       "summary": "Lance Oppenheim’s new film doesn’t paint Chris Hansen as a hero. The To Catch a Predator host's real-world copycats are even more reckless.",
       "tags": [
@@ -581,7 +581,7 @@
       "url": "https://www.wired.com/story/how-to-record-your-screen-on-any-phone/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5506,
+      "score": 0.527,
       "publishedAt": "2026-09-25T10:30:00.000Z",
       "summary": "The built-in tools on your phone—as well as some inexpensive apps—let you share whatever you’re doing with others.",
       "tags": [
@@ -590,37 +590,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Who Killed Paulina Borsook’s Career?",
-      "url": "https://www.wired.com/story/paulina-borsook-profile/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5479,
-      "publishedAt": "2026-09-25T10:00:00.000Z",
-      "summary": "A quarter-century ago, Borsook published a wildly prophetic, penetrating book about Silicon Valley called Cyberselfish. Then she disappeared.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "16 Products From Women Designers You Need to Know",
-      "url": "https://www.wired.com/story/16-womens-products-you-need-to-know/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5479,
-      "publishedAt": "2026-09-25T10:00:00.000Z",
-      "summary": "From electric trucks to health trackers, women designers are guiding consumer tech to a better place.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "The Download: a bid to scrap the virtual wall and AI hits Climate Week",
       "url": "https://www.technologyreview.com/2026/09/24/1145064/the-download-bid-scrap-virtual-wall-ai-climate-week/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5184,
+      "score": 0.4927,
       "publishedAt": "2026-09-24T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. A congressional representative just proposed killing America’s border tower program Delia Ramirez, a Democratic US representative from Illinois, has a",
       "tags": [
@@ -633,10 +607,25 @@
       "url": "https://www.technologyreview.com/2026/09/24/1145048/ai-climate-week/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5057,
+      "score": 0.48,
       "publishedAt": "2026-09-24T10:00:00.000Z",
       "summary": "This week, world leaders descended on Manhattan for the UN General Assembly. It’s also New York Climate Week—investors, policymakers, advocates, and journalists are colliding at panels, talks, and fancy dinners. With so many climate voices in one place, the discourse can feel a little louder than us",
       "tags": [
+        "Safety",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Pentagon was right to slap Anthropic with a security supply chain risk label, federal court says",
+      "url": "https://the-decoder.com/pentagon-was-right-to-slap-anthropic-with-a-security-supply-chain-risk-label-federal-court-says/",
+      "feedSource": "The Decoder",
+      "source": "the-decoder.com",
+      "score": 0.4789,
+      "publishedAt": "2026-09-25T18:40:22.000Z",
+      "summary": "A federal appeals court has upheld the Pentagon's decision to bar Anthropic from military contracts. Defense Secretary Hegseth argues the company's safety restrictions could jeopardize military operations. Anthropic says the designation has already cost it billions.\nThe article Pentagon was",
+      "tags": [
+        "LLM",
         "Safety",
         "Industry"
       ],
@@ -647,7 +636,7 @@
       "url": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.5031,
+      "score": 0.4753,
       "publishedAt": "2026-09-23T18:41:40.000Z",
       "summary": "A Blog post by NVIDIA on Hugging Face",
       "tags": [
@@ -656,24 +645,25 @@
       "engagementScore": 0
     },
     {
-      "title": "Classified Estimates Show the NSA Is Paying Billions to Test AI Models",
-      "url": "https://www.washingtonsun.com/technology/classified-estimates-nsa-paying-billions-to-test-ai-models",
-      "feedSource": "Hacker News",
-      "source": "washingtonsun.com",
-      "score": 0.5025,
-      "publishedAt": "2026-09-25T15:27:35.000Z",
-      "summary": "The price tag is significantly higher than previously known.",
+      "title": "Another Google Deepmind researcher quits, says building superintelligent AI soon is &quot;inherently irresponsible&quot;",
+      "url": "https://the-decoder.com/another-google-deepmind-researcher-quits-says-building-superintelligent-ai-soon-is-inherently-irresponsible/",
+      "feedSource": "The Decoder",
+      "source": "the-decoder.com",
+      "score": 0.4753,
+      "publishedAt": "2026-09-25T17:55:51.000Z",
+      "summary": "Google Deepmind researcher Robert O'Callahan has quit, saying AI's \"current rate of change is far too high.\" He worked on chip design tools that helped make AI cheaper and faster, a contribution he can no longer justify. Many colleagues share his concerns but rarely speak out, he says.\nThe",
       "tags": [
-        "Industry"
+        "Research",
+        "Dev Tools"
       ],
-      "engagementScore": 82
+      "engagementScore": 0
     },
     {
       "title": "Microsoft gives Copilot another makeover, adding an Autopilot agent and usage-based billing",
       "url": "https://the-decoder.com/microsoft-gives-copilot-another-makeover-adding-an-autopilot-agent-and-usage-based-billing/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4898,
+      "score": 0.4684,
       "publishedAt": "2026-09-25T16:30:57.000Z",
       "summary": "Microsoft is splitting its Copilot app into three sections: Home, Code, and a new agent called \"Autopilot.\" Built on OpenClaw, the agent runs continuously in the cloud, where it can monitor Teams channels and complete tasks on its own, according to Microsoft. For Autopilot and Code, the com",
       "tags": [
@@ -687,11 +677,24 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/1000222/meta-muse-ai-filesystem",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4843,
+      "score": 0.4608,
       "publishedAt": "2026-09-24T22:06:44.000Z",
       "summary": "A pair of developers say that with very little prompting, Meta's Muse will share its entire filesystem with you. Peter James and Jonny L. Saunders have said they both independently coaxed Muse into zipping up and sharing the entire contents of its root filesystem, Ubuntu system files, app templates,",
       "tags": [
         "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Gemini 3.8 Live with Live Avatar gives Google&#8217;s AI a face",
+      "url": "https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.4496,
+      "publishedAt": "2026-09-24T20:00:34.000Z",
+      "summary": "Google's new Gemini 3.8 Live update lets users have conversations with the model while watching an animated AI persona respond in real time. The \"Live Avatar\" will lip-sync and show different facial expressions during conversations, but it's currently only available to Gemini Enterprise customers. A",
+      "tags": [
+        "LLM"
       ],
       "engagementScore": 0
     }
