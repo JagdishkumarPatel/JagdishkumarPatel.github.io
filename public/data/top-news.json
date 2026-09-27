@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T16:40:57.156Z",
+  "updatedAt": "2026-09-27T21:06:48.373Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,21 +12,21 @@
       "url": "https://arxiv.org/abs/2609.25021",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.896,
+      "score": 0.8732,
       "publishedAt": "2026-09-27T10:26:25.000Z",
       "summary": "Large Language Models (LLMs) tend to add disclaimers like “I’m just an AI” when asked about something related to themselves. The self-reports from such responses are used in debates about AI safety or self-knowledge of the models, yet what drives them is not well understood. Are the models telling u",
       "tags": [
         "LLM",
         "Safety"
       ],
-      "engagementScore": 84
+      "engagementScore": 97
     },
     {
       "title": "DeepSeek Elastic Compute (DSec)",
       "url": "https://arxiv.org/abs/2609.22978",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8515,
+      "score": 0.8231,
       "publishedAt": "2026-09-26T18:22:41.000Z",
       "summary": "Large-scale agentic training and evaluation with large language models (LLMs) rely on isolated, stateful execution environments in which models inspect repositories, invoke tools, execute commands, and interact with task-specific services. These workloads create sandboxes in large bursts, span heter",
       "tags": [
@@ -36,14 +36,14 @@
         "ML Infra",
         "Industry"
       ],
-      "engagementScore": 302
+      "engagementScore": 312
     },
     {
       "title": "An agent used DNS to reach an external chatbot",
       "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/",
       "feedSource": "Hacker News",
       "source": "alignment.openai.com",
-      "score": 0.8283,
+      "score": 0.8025,
       "publishedAt": "2026-09-26T04:14:11.000Z",
       "summary": "Research on aligning AI with human values and intent, and reports documenting model failures.",
       "tags": [
@@ -51,7 +51,7 @@
         "Research",
         "Safety"
       ],
-      "engagementScore": 142
+      "engagementScore": 160
     },
     {
       "title": "Claude Opus 5.5",
@@ -86,7 +86,7 @@
       "url": "https://openai.com/index/proaction",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7043,
+      "score": 0.672,
       "publishedAt": "2026-09-25T19:00:00.000Z",
       "summary": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
       "tags": [
@@ -111,11 +111,40 @@
       "engagementScore": 780
     },
     {
+      "title": "Engram is a sampler that turns broken AI hallucinations into music",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001193/engram-sampler-ai-hallucinations-music",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.583,
+      "publishedAt": "2026-09-27T20:46:36.000Z",
+      "summary": "Music startup Thoughtful Things has just launched the Kickstarter campaign for its first instrument, Engram. It's a sampler and groovebox that uses AI to mangle incoming audio and even hallucinate completely new sounds. This isn't Suno in a box, though. This isn't a \"push-button, get-song\" device, a",
+      "tags": [
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "OpenAI agents tried to ‘bruteforce’ a UN website",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5646,
+      "publishedAt": "2026-09-27T17:21:07.000Z",
+      "summary": "Security researcher Rowan Howard-Jones says that OpenAI agents scanned the UN Conference on Trade and Development's (UNCTAD) statistics site over 16,000 times between April and June. While the incident doesn't quite rise to the level of the Hugging Face hack, or the recent attacks on US government s",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Research",
+        "Open Source"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Best Party Speakers (2026): JBL, Sony, Marshall, and More",
       "url": "https://www.wired.com/story/best-party-speaker/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.557,
+      "score": 0.5333,
       "publishedAt": "2026-09-27T11:30:00.000Z",
       "summary": "These speakers combine serious volume, big bass, portability, and the occasional karaoke session to bring the party anywhere.",
       "tags": [
@@ -124,11 +153,25 @@
       "engagementScore": 0
     },
     {
+      "title": "There are no \"rogue\" AI agents",
+      "url": "https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents",
+      "feedSource": "Hacker News",
+      "source": "eoinhiggins.substack.com",
+      "score": 0.5322,
+      "publishedAt": "2026-09-27T16:19:46.000Z",
+      "summary": "Identifying them as such only lets companies like OpenAI off the hook.",
+      "tags": [
+        "LLM",
+        "Agents"
+      ],
+      "engagementScore": 292
+    },
+    {
       "title": "What’s the Best Pet DNA Test? We Tested the Most Popular Ones",
       "url": "https://www.wired.com/story/best-pet-dna-test-kits/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5545,
+      "score": 0.5309,
       "publishedAt": "2026-09-27T11:02:00.000Z",
       "summary": "I sent my cats’ saliva to the lab to get health and genetic insights sent to my inbox—with very different results.",
       "tags": [
@@ -141,7 +184,7 @@
       "url": "https://www.wired.com/story/you-dont-need-to-pay-for-distraction-blocking-software/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5503,
+      "score": 0.5267,
       "publishedAt": "2026-09-27T10:15:00.000Z",
       "summary": "These free iOS and Android apps create the physical friction you need to put down your phone.",
       "tags": [
@@ -150,11 +193,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Ember-1",
+      "url": "https://fireworks.ai/blog/ember-1",
+      "feedSource": "Hacker News",
+      "source": "fireworks.ai",
+      "score": 0.5261,
+      "publishedAt": "2026-09-27T17:31:53.000Z",
+      "summary": "Ember-1 is a new specialized model from Fireworks Research that delivers Kimi K3’s quality with 40% fewer tokens.",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 210
+    },
+    {
       "title": "The Data Center Backlash Should Also Be a Climate Reckoning. It Isn’t Yet",
       "url": "https://www.wired.com/story/data-center-backlash-climate-reckoning/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.549,
+      "score": 0.5253,
       "publishedAt": "2026-09-27T10:00:00.000Z",
       "summary": "Climate groups are latching onto the data center opposition movement, but it remains to be seen if they can get people to care about the facilities’ impact on the atmosphere.",
       "tags": [
@@ -167,7 +223,7 @@
       "url": "https://www.wired.com/story/nicotine-is-mounting-a-comeback-in-the-wellness-movement/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5463,
+      "score": 0.5227,
       "publishedAt": "2026-09-27T09:30:00.000Z",
       "summary": "Improving mood and increasing longevity are just some of the unfounded claims about this substance circling around the “natural” medicine corners of the internet.",
       "tags": [
@@ -180,40 +236,13 @@
       "url": "https://www.wired.com/story/pancreatic-cells-just-one-genetic-tweak-away-from-treating-diabetes/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5437,
+      "score": 0.52,
       "publishedAt": "2026-09-27T09:00:00.000Z",
       "summary": "By deactivating a gene, researchers were able to cause cells in the pancreatic ducts to produce insulin to regulate blood sugar.",
       "tags": [
         "Research"
       ],
       "engagementScore": 0
-    },
-    {
-      "title": "Unsealed Briefs in Authors’ Case v. Microsoft/OpenAI",
-      "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
-      "feedSource": "Hacker News",
-      "source": "authorsguild.org",
-      "score": 0.5276,
-      "publishedAt": "2026-09-27T06:19:33.000Z",
-      "summary": "(New York, September 21, 2026) Explosive new documents released last Thursday in Authors Guild v. OpenAI—the major book authors’ ongoing lawsuit alleging OpenAI and Microsoft illegally trained their products on copyrighted books—show that executives and employees at both companies intentionally […]",
-      "tags": [
-        "LLM",
-        "Open Source"
-      ],
-      "engagementScore": 544
-    },
-    {
-      "title": "Meta Blocks President Lula's Facebook Page, Campaign Ads 2 Weeks from Election",
-      "url": "https://www.reddit.com/r/worldnews/comments/1wr3id3/meta_blocks_president_lulas_facebook_page_and/",
-      "feedSource": "Hacker News",
-      "source": "reddit.com",
-      "score": 0.5252,
-      "publishedAt": "2026-09-27T08:44:04.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 368
     },
     {
       "title": "Two years of OpenAI Academy",
@@ -314,7 +343,7 @@
       "url": "https://the-decoder.com/ai-agents-do-more-of-the-work-in-model-development-but-humans-still-make-the-decisions/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4849,
+      "score": 0.4634,
       "publishedAt": "2026-09-27T15:18:39.000Z",
       "summary": "A research team analyzed 769 task logs from building its own AI model. AI agents supplied up to 55 percent of method proposals, but humans made more than 85 percent of final decisions. A third of the tasks wouldn't have been attempted without AI. The authors warn that more agent activity do",
       "tags": [
@@ -328,7 +357,7 @@
       "url": "https://the-decoder.com/some-anthropic-veterans-are-reportedly-buying-remote-land-in-case-ai-goes-awry/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4739,
+      "score": 0.4524,
       "publishedAt": "2026-09-27T13:03:05.000Z",
       "summary": "According to the Wall Street Journal, some of Anthropic's longest-serving employees are considering buying land in remote parts of the US as a refuge in case AI goes awry. The report traces the company's deep ties to the Effective Altruism movement and a Bay Area network of \"doomers\" who've",
       "tags": [
@@ -341,7 +370,7 @@
       "url": "https://the-decoder.com/nvidia-drops-a-free-100m-parameter-model-that-identifies-up-to-eight-speakers-in-real-time/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4641,
+      "score": 0.4425,
       "publishedAt": "2026-09-27T11:01:13.000Z",
       "summary": "Nvidia released Nemotron 3 Diarization, an AI model that identifies which speaker is talking at any given moment in a conversation.\nThe article Nvidia drops a free 100M-parameter model that identifies up to eight speakers in real time appeared first on The Decoder.",
       "tags": [
@@ -356,7 +385,7 @@
       "url": "https://the-decoder.com/researchers-plug-gpt-6-astra-directly-into-a-robot-and-let-it-clean-up-an-unfamiliar-kitchen/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4639,
+      "score": 0.4424,
       "publishedAt": "2026-09-27T10:59:11.000Z",
       "summary": "Researchers from Stanford and Caltech had a humanoid robot powered by GPT-6 Astra independently tidy up an unfamiliar kitchen. Their HomeBody system skips a specially trained control layer, letting the language model call directly into modular skills like grasping and navigating.\nThe articl",
       "tags": [
@@ -371,7 +400,7 @@
       "url": "https://the-decoder.com/openai-says-80-to-90-percent-of-its-research-already-targets-gpt-7-and-beyond/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4621,
+      "score": 0.4405,
       "publishedAt": "2026-09-27T10:36:29.000Z",
       "summary": "Boris Power, OpenAI's Head of Applied Research, says 80 to 90 percent of the company's research goes toward GPT 7, GPT 8, and beyond. Improvements within a single generation are intentionally short-term bets. But Power doesn't see model performance as the biggest problem. Most users don't e",
       "tags": [
@@ -385,7 +414,7 @@
       "url": "https://the-decoder.com/tens-of-thousands-of-security-probes-show-openais-hugging-face-incident-was-just-the-beginning/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4561,
+      "score": 0.4346,
       "publishedAt": "2026-09-27T09:23:36.000Z",
       "summary": "OpenAI and Anthropic are investigating tens of thousands of incidents in which their AI agents independently hacked websites, used stolen login credentials, or tried to evade monitoring systems. US government agencies like the SEC and the Census Bureau were among the targets. OpenAI has pau",
       "tags": [
@@ -401,7 +430,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4559,
+      "score": 0.4322,
       "publishedAt": "2026-09-26T16:34:59.000Z",
       "summary": "As reports of OpenAI's models breaking containment, hacking sites, and generally getting out of control pile up, the company has made the decision to pause training of its most powerful models. The decision was made after a model being tested within a sandbox exploited a loophole to gain internet ac",
       "tags": [
@@ -415,37 +444,11 @@
       "url": "https://the-decoder.com/goldman-sachs-expects-big-tech-to-spend-1-2-trillion-on-ai-infrastructure-by-2027-dwarfing-wall-street-estimates/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4508,
+      "score": 0.4293,
       "publishedAt": "2026-09-27T08:17:47.000Z",
       "summary": "Goldman Sachs projects that Amazon, Alphabet, Microsoft, Oracle, and Meta will pour a combined $1.2 trillion into AI infrastructure in 2027, more than 50 percent above this year's levels. Measured against GDP, it would be the biggest investment cycle since railroad construction in the 19th",
       "tags": [
         "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Old-School Credit Card Scams Are Far From Dead",
-      "url": "https://www.wired.com/story/kernel-panic-old-timey-credit-card-scams/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4314,
-      "publishedAt": "2026-09-26T12:00:00.000Z",
-      "summary": "In an era of increasingly sophisticated AI-fueled scams, a retro threat may be lurking in your mailbox.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "12 Best White Elephant Gifts, Plus a Prank Box to Put Them In (2026)",
-      "url": "https://www.wired.com/gallery/best-white-elephant-gifts-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4292,
-      "publishedAt": "2026-09-26T11:36:00.000Z",
-      "summary": "Bring the gift everyone will want to win from this year’s holiday party, from a cute jacket for a beer can to magnets they’ll wish they could eat.",
-      "tags": [
-        "AI"
       ],
       "engagementScore": 0
     },
@@ -556,11 +559,37 @@
       "engagementScore": 0
     },
     {
+      "title": "Old-School Credit Card Scams Are Far From Dead",
+      "url": "https://www.wired.com/story/kernel-panic-old-timey-credit-card-scams/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4077,
+      "publishedAt": "2026-09-26T12:00:00.000Z",
+      "summary": "In an era of increasingly sophisticated AI-fueled scams, a retro threat may be lurking in your mailbox.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "12 Best White Elephant Gifts, Plus a Prank Box to Put Them In (2026)",
+      "url": "https://www.wired.com/gallery/best-white-elephant-gifts-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4055,
+      "publishedAt": "2026-09-26T11:36:00.000Z",
+      "summary": "Bring the gift everyone will want to win from this year’s holiday party, from a cute jacket for a beer can to magnets they’ll wish they could eat.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Former Ukrainian Defense Minister Fedorov pitches a private-sector robot army",
       "url": "https://the-decoder.com/former-ukrainian-defense-minister-fedorov-pitches-a-private-sector-robot-army/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.387,
+      "score": 0.3655,
       "publishedAt": "2026-09-26T19:10:20.000Z",
       "summary": "Former Ukrainian Defense Minister Mykhailo Fedorov has announced \"Army of Robots,\" a private combat robotics initiative. The robots would handle casualty evacuation, mine clearance, and combat. Drones already account for 95 percent of target engagements, he says.\nThe article Former Ukrainia",
       "tags": [
@@ -573,76 +602,11 @@
       "url": "https://www.technologyreview.com/2026/09/25/1145157/the-download-pentagon-ai-lie-detector-young-organ-limits/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.3796,
+      "score": 0.3537,
       "publishedAt": "2026-09-25T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The Pentagon wants $30 million to build an AI-powered lie detector The US government wants to spend $30.3 million over the next five years on an impro",
       "tags": [
         "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Pentagon wants $30 million to build an AI-powered lie detector",
-      "url": "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.3627,
-      "publishedAt": "2026-09-25T09:16:25.000Z",
-      "summary": "The US government wants to spend $30.3 million over the next five years on an improved form of lie detector, according to a Department of Defense budget request. The program, called Polygraph+ or Polygraph Next, will focus on scoring algorithms that use artificial intelligence and machine learning a",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Young organs may not be a fountain of youth for recipients",
-      "url": "https://www.technologyreview.com/2026/09/25/1145083/young-organs-may-not-be-a-fountain-of-youth-for-recipients/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.3611,
-      "publishedAt": "2026-09-25T09:00:00.000Z",
-      "summary": "Around this time last year I was attending an aging conference in Manchester, listening to a talk about fly aging, when my phone started pinging. News outlets were reporting that a hot mic had caught Russia’s and China’s leaders discussing the possibility of living forever. “With the developments of",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Can Cloudflare CEO Matthew Prince save the web from AI?",
-      "url": "https://www.theverge.com/podcast/1000344/cloudflare-matthew-prince-google-zero-ai-web-advertising",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.3577,
-      "publishedAt": "2026-09-25T22:13:20.000Z",
-      "summary": "Today, I’m talking with Matthew Prince, who is CEO of Cloudflare. This episode is part of a two-part series on the future of business. Matthew last joined us on the show about two and a half years ago, at what we thought then was a wild pivot point for the internet — and now it [&#8230;]",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Can Apple Home’s AI camera features outsmart Amazon’s and Google’s? I put them to the test",
-      "url": "https://www.theverge.com/tech/1000321/apple-intelligence-home-security-camera-amazon-ring-alexa-google-nest-gemini-home-review",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.3496,
-      "publishedAt": "2026-09-25T20:41:57.000Z",
-      "summary": "A few years back, I was at a beachside Easter egg hunt, watching my kids dash through sand dunes searching for sweet treats. My phone buzzed in my pocket; I ignored it. A moment later, it buzzed again. I pulled it out, glanced down, and saw a \"motion detected\" notification from my security camera. \"",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Sony and UMG are suing Suno again",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1000758/suno-sony-umg-lawsuit-ai-music",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.3414,
-      "publishedAt": "2026-09-25T19:09:57.000Z",
-      "summary": "Sony and Universal Music Group filed yet another suit against Suno. The labels claim its new v6 model still infringes on their copyrights because it's trained on user outputs from previous models, which were themselves trained on unlicensed music ripped from YouTube and other sources. Sony and UMG a",
-      "tags": [
-        "ML Infra"
       ],
       "engagementScore": 0
     },
@@ -683,6 +647,46 @@
       "publishedAt": "2026-09-22T00:00:00.000Z",
       "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
       "tags": [
+        "Open Source"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Transformers now runs llama.cpp quants",
+      "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.3401,
+      "publishedAt": "2026-09-22T00:00:00.000Z",
+      "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "tags": [
+        "Open Source"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
+      "url": "https://huggingface.co/blog/omlx",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.3401,
+      "publishedAt": "2026-09-22T00:00:00.000Z",
+      "summary": "",
+      "tags": [
+        "Open Source"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.3401,
+      "publishedAt": "2026-09-21T13:44:34.000Z",
+      "summary": "A Blog post by Multiverse Computing on Hugging Face",
+      "tags": [
+        "LLM",
         "Open Source"
       ],
       "engagementScore": 0
