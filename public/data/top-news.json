@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T13:20:36.156Z",
+  "updatedAt": "2026-09-28T21:08:02.892Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,24 +8,51 @@
   ],
   "items": [
     {
+      "title": "Sonnet 5.5",
+      "url": "https://www.anthropic.com/claude-sonnet-5-5",
+      "feedSource": "Hacker News",
+      "source": "anthropic.com",
+      "score": 1.1281,
+      "publishedAt": "2026-09-28T17:58:11.000Z",
+      "summary": "Claude Sonnet 5.5 is a clear upgrade over Claude Sonnet 5, runs 30%+ faster, and costs up to 30% less for most work.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 407
+    },
+    {
+      "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+      "url": "https://openai.com/index/lenfest-ai-collaborative-expansion",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.9343,
+      "publishedAt": "2026-09-28T07:00:00.000Z",
+      "summary": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
+      "tags": [
+        "LLM",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Thinking fast and slow in AI: The role of metacognition (2021)",
       "url": "https://arxiv.org/abs/2110.01834",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8933,
+      "score": 0.8532,
       "publishedAt": "2026-09-28T03:23:53.000Z",
       "summary": "AI systems have seen dramatic advancement in recent years, bringing many applications that pervade our everyday life. However, we are still mostly seeing instances of narrow AI: many of these recent developments are typically focused on a very limited set of competencies and goals, e.g., image inter",
       "tags": [
         "Vision"
       ],
-      "engagementScore": 131
+      "engagementScore": 169
     },
     {
       "title": "Bringing AI to Autonomous Systems -- From Cognition to Collective Intelligence",
       "url": "https://arxiv.org/abs/2609.30291",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8486,
+      "score": 0.7956,
       "publishedAt": "2026-09-28T04:00:00.000Z",
       "summary": "arXiv:2609.30291v1 Announce Type: new \nAbstract: The purpose of this article is to highlight the central role of autonomous systems as the ultimate stage in the development of AI, to explain the underlying technical challenges that require a combination of connectionist AI and symbolic AI, and to in",
       "tags": [
@@ -39,7 +66,7 @@
       "url": "https://arxiv.org/abs/2609.30325",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8486,
+      "score": 0.7956,
       "publishedAt": "2026-09-28T04:00:00.000Z",
       "summary": "arXiv:2609.30325v1 Announce Type: new \nAbstract: Agents are increasingly deployed with real autonomy in web application and network penetration testing, where a single out-of-scope action can breach a client's engagement boundary. Existing offensive-security benchmarks measure raw hacking capability",
       "tags": [
@@ -53,7 +80,7 @@
       "url": "https://arxiv.org/abs/2609.30328",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8486,
+      "score": 0.7956,
       "publishedAt": "2026-09-28T04:00:00.000Z",
       "summary": "arXiv:2609.30328v1 Announce Type: new \nAbstract: When one language model judges whether another's code is correct, it does not report the absence of evidence. It returns a confident verdict with reasoning attached, indistinguishable from a verdict it had grounds for. Multi-agent verification, which",
       "tags": [
@@ -69,7 +96,7 @@
       "url": "https://arxiv.org/abs/2609.30341",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8486,
+      "score": 0.7956,
       "publishedAt": "2026-09-28T04:00:00.000Z",
       "summary": "arXiv:2609.30341v1 Announce Type: new \nAbstract: Data Spaces enable sovereign and governed data sharing across organizational boundaries, but their integration with AI agents remains challenging due to mismatches between probabilistic language model interactions and policy-driven data infrastructure",
       "tags": [
@@ -85,7 +112,7 @@
       "url": "https://arxiv.org/abs/2609.30383",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8486,
+      "score": 0.7956,
       "publishedAt": "2026-09-28T04:00:00.000Z",
       "summary": "arXiv:2609.30383v1 Announce Type: new \nAbstract: A skill is a modular package of natural-language instructions, executable scripts, and reference resources that an agent can load at runtime to extend its capabilities for a specific task. Skill-based agent systems therefore enable flexible reuse of t",
       "tags": [
@@ -100,7 +127,7 @@
       "url": "https://arxiv.org/abs/2609.30397",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8486,
+      "score": 0.7956,
       "publishedAt": "2026-09-28T04:00:00.000Z",
       "summary": "arXiv:2609.30397v1 Announce Type: new \nAbstract: Evaluating explainable Artificial Intelligence (XAI) methods is a challenging task due to the lack of reliable evaluation procedures and, in particular, the absence of ground truth explanations. In the literature, existing evaluation approaches typica",
       "tags": [
@@ -114,7 +141,7 @@
       "url": "https://arxiv.org/abs/2609.30446",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8486,
+      "score": 0.7956,
       "publishedAt": "2026-09-28T04:00:00.000Z",
       "summary": "arXiv:2609.30446v1 Announce Type: new \nAbstract: This paper presents a novel approach to infer protein topology using the state-of-the-art graph neural network (GNN), SchNet. The model is trained on the same dataset used to develop the recent DeepTMHMM model with 5-fold cross-validation. Unlike the",
       "tags": [
@@ -128,7 +155,7 @@
       "url": "https://arxiv.org/abs/2609.30456",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8486,
+      "score": 0.7956,
       "publishedAt": "2026-09-28T04:00:00.000Z",
       "summary": "arXiv:2609.30456v1 Announce Type: new \nAbstract: Reward maximization alignment methods for discrete diffusion models have primarily focused on steering the reverse process, either by influencing token logits or by selecting favorable sequences at intermediate steps. These approaches largely treat in",
       "tags": [
@@ -143,7 +170,7 @@
       "url": "https://huggingface.co/blog/Hcompany/holo4",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.7723,
+      "score": 0.723,
       "publishedAt": "2026-09-28T09:44:05.000Z",
       "summary": "A Blog post by H company on Hugging Face",
       "tags": [
@@ -157,46 +184,14 @@
       "url": "https://arxiv.org/abs/2609.25021",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7653,
+      "score": 0.7127,
       "publishedAt": "2026-09-27T10:26:25.000Z",
       "summary": "Large Language Models (LLMs) tend to add disclaimers like “I’m just an AI” when asked about something related to themselves. The self-reports from such responses are used in debates about AI safety or self-knowledge of the models, yet what drives them is not well understood. Are the models telling u",
       "tags": [
         "LLM",
         "Safety"
       ],
-      "engagementScore": 102
-    },
-    {
-      "title": "Quantized Reasoning Models Think They Need to Think Longer, but They Do Not",
-      "url": "https://arxiv.org/abs/2606.00206",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.7165,
-      "publishedAt": "2026-09-27T19:12:57.000Z",
-      "summary": "Post-training quantization (PTQ) is widely used to deploy large language models efficiently, but its effect on reasoning models is not well understood. Across math, coding, and science QA, we find that aggressive PTQ reduces accuracy while increasing chain-of-thought (CoT) length. Surprisingly, we s",
-      "tags": [
-        "LLM",
-        "Dev Tools",
-        "ML Infra"
-      ],
-      "engagementScore": 12
-    },
-    {
-      "title": "DeepSeek Elastic Compute (DSec)",
-      "url": "https://arxiv.org/abs/2609.22978",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.7139,
-      "publishedAt": "2026-09-26T18:22:41.000Z",
-      "summary": "Large-scale agentic training and evaluation with large language models (LLMs) rely on isolated, stateful execution environments in which models inspect repositories, invoke tools, execute commands, and interact with task-specific services. These workloads create sandboxes in large bursts, span heter",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Dev Tools",
-        "ML Infra",
-        "Industry"
-      ],
-      "engagementScore": 320
+      "engagementScore": 103
     },
     {
       "title": "Claude Opus 5.5",
@@ -211,27 +206,89 @@
         "Agents",
         "Dev Tools"
       ],
-      "engagementScore": 1803
+      "engagementScore": 1804
     },
     {
       "title": "GPT-6 Sol and Luna",
       "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.7061,
+      "score": 0.7062,
       "publishedAt": "2026-09-22T18:00:34.000Z",
       "summary": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 1775
+      "engagementScore": 1776
+    },
+    {
+      "title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
+      "feedSource": "Google AI",
+      "source": "blog.google",
+      "score": 0.6734,
+      "publishedAt": "2026-09-28T19:00:00.000Z",
+      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/futurevisionxprize_social.max-600x600.format-webp.webp\"&gt;Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+      "tags": [
+        "RAG",
+        "Vision",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Quantized Reasoning Models Think They Need to Think Longer, but They Do Not",
+      "url": "https://arxiv.org/abs/2606.00206",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.6676,
+      "publishedAt": "2026-09-27T19:12:57.000Z",
+      "summary": "Post-training quantization (PTQ) is widely used to deploy large language models efficiently, but its effect on reasoning models is not well understood. Across math, coding, and science QA, we find that aggressive PTQ reduces accuracy while increasing chain-of-thought (CoT) length. Surprisingly, we s",
+      "tags": [
+        "LLM",
+        "Dev Tools",
+        "ML Infra"
+      ],
+      "engagementScore": 13
+    },
+    {
+      "title": "When can we say AI made a scientific discovery?",
+      "url": "https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6621,
+      "publishedAt": "2026-09-28T17:03:16.000Z",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Last Wednesday, Anthropic announced that earlier this year it had launched a molecular biology lab, where Claude agents read and conjecture about hard biology pro",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "DeepSeek Elastic Compute (DSec)",
+      "url": "https://arxiv.org/abs/2609.22978",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.6612,
+      "publishedAt": "2026-09-26T18:22:41.000Z",
+      "summary": "Large-scale agentic training and evaluation with large language models (LLMs) rely on isolated, stateful execution environments in which models inspect repositories, invoke tools, execute commands, and interact with task-specific services. These workloads create sandboxes in large bursts, span heter",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Dev Tools",
+        "ML Infra",
+        "Industry"
+      ],
+      "engagementScore": 322
     },
     {
       "title": "An agent used DNS to reach an external chatbot",
       "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/",
       "feedSource": "Hacker News",
       "source": "alignment.openai.com",
-      "score": 0.692,
+      "score": 0.6372,
       "publishedAt": "2026-09-26T04:14:11.000Z",
       "summary": "Research on aligning AI with human values and intent, and reports documenting model failures.",
       "tags": [
@@ -239,14 +296,14 @@
         "Research",
         "Safety"
       ],
-      "engagementScore": 185
+      "engagementScore": 192
     },
     {
       "title": "The Download: rogue agent liability and the AI Hype Index",
       "url": "https://www.technologyreview.com/2026/09/28/1145202/the-download-rogue-agent-liability-and-the-ai-hype-index/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.679,
+      "score": 0.6336,
       "publishedAt": "2026-09-28T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Who&#8217;s liable when AI agents go rogue? Over the past few months, a cascade of cyberattacks by AI agents has stunned the world. In July, OpenAI di",
       "tags": [
@@ -256,26 +313,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
-      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-      "feedSource": "Hacker News",
-      "source": "anthropic.com",
-      "score": 0.6615,
-      "publishedAt": "2026-09-23T18:06:47.000Z",
-      "summary": "In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown.",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Research"
-      ],
-      "engagementScore": 780
-    },
-    {
       "title": "Who’s liable when AI agents go rogue?",
       "url": "https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6554,
+      "score": 0.6099,
       "publishedAt": "2026-09-28T08:06:22.000Z",
       "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. Over the past few months, a cascade of cyberattacks by AI agents has stunned the world. In July, OpenAI disclosed that a",
       "tags": [
@@ -285,11 +327,144 @@
       "engagementScore": 0
     },
     {
+      "title": "Boox Announces the Picco, Its Smallest E-Reader Ever (2026)",
+      "url": "https://www.wired.com/story/boox-picco-announcement-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.576,
+      "publishedAt": "2026-09-28T19:30:00.000Z",
+      "summary": "The Boox Picco is a palm-sized e-reader with a 4-inch screen, strong support for different ebook formats, and digital utility tools.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Meta-Led Anti-Terrorism Group Faces Mass Resignation of Expert Advisers",
+      "url": "https://www.wired.com/story/independent-advisers-resign-en-masse-from-big-techs-anti-terrorism-group/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5722,
+      "publishedAt": "2026-09-28T18:47:54.000Z",
+      "summary": "Meta and other tech giants are pushing through structural changes at the Global Internet Forum to Counter Terrorism that outside researchers allege will weaken oversight of an already embattled consortium.",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Florida seeks a ban on ChatGPT acting like a person",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001527/chatgpt-florida-ban-first-person-human-attributes-kids",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5717,
+      "publishedAt": "2026-09-28T18:42:17.000Z",
+      "summary": "Florida Attorney General James Uthmeier is calling for a judge to block OpenAI from \"giving ChatGPT false human attributes,\" a few months after Florida sued the AI company over safety concerns. According to Uthmeier, users are lulled into a false sense of security by the AI bot, as \"ChatGPT's use of",
+      "tags": [
+        "LLM",
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "OpenAI’s AI agents need to catch up",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001590/openai-devday-2026-aeon-ai-agent",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5716,
+      "publishedAt": "2026-09-28T18:40:24.000Z",
+      "summary": "OpenAI popularized the modern generative AI chatbot, but as its 2026 DevDay event approaches, it's fallen behind in one of the industry's hottest categories: continuously running, consumer-facing AI agents. On Tuesday, it will likely try to capture the lead in that race. Rumors abound that OpenAI wi",
+      "tags": [
+        "LLM",
+        "Agents"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "AI is supercharging hacking, and your local hospitals and banks aren’t ready",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001427/ai-is-supercharging-hacking-and-your-local-hospitals-and-banks-arent-ready",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5702,
+      "publishedAt": "2026-09-28T18:25:22.000Z",
+      "summary": "In March, Janice Malone began getting calls about suspicious activity from her nonprofit organization, Vivian's Door. Vivian's Door, headquartered in Alabama, typically provided training, resources, and community to underserved and minority-owned businesses. The work sometimes put it in close contac",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "OpenAI keeps bulldozing mathematicians",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001477/openai-math-advisory-group",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5623,
+      "publishedAt": "2026-09-28T16:56:26.000Z",
+      "summary": "In a chaotic few months, OpenAI has demonstrated it can do two things with remarkable consistency: make impressive breakthroughs in mathematics, then colossally screw up announcing them. OpenAI is now trying to do better. Somehow, it has botched that too. OpenAI's latest attempt to repair fractured",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Walmart won’t hike prices based on your shopping history, CEO says",
+      "url": "https://www.theverge.com/tech/1001492/walmart-dynamic-pricing-digital-shelf-labels",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5613,
+      "publishedAt": "2026-09-28T16:44:57.000Z",
+      "summary": "Walmart says it won't change product prices based on your personal information or the time of day, as reported earlier by The Wall Street Journal. In a letter to customers, Walmart CEO John Furner writes that the company's switch to digital shelf labels is meant to save store associates time, rather",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "These Extremists Are Running for Election in November",
+      "url": "https://www.wired.com/story/these-extremists-are-running-for-election-in-november/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5503,
+      "publishedAt": "2026-09-28T14:41:08.000Z",
+      "summary": "With the threat of political violence at unprecedented levels, state and federal GOP candidates are openly sharing racist, pro-militia, anti-vaccine, sexist, antisemitic, and secessionist views.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Nvidia says its new AI safety platform can contain rogue agents within ‘milliseconds’",
+      "url": "https://www.theverge.com/tech/1001287/nvidia-ai-safety-platform-rogue-agents",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.548,
+      "publishedAt": "2026-09-28T14:15:22.000Z",
+      "summary": "Nvidia is launching a new safety platform designed to contain and monitor AI agents, a move that comes in response to a wave of rogue hacking incidents, as reported earlier by Reuters. In an announcement on Monday, Nvidia says its new Open Agent Safety Platform can quarantine agents that attempt to",
+      "tags": [
+        "Agents",
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The SaaSpocalypse that wasn&#8217;t, with Atlassian CEO Mike Cannon-Brookes",
+      "url": "https://www.theverge.com/podcast/1000914/atlassian-ceo-mike-cannon-brookes-saaspocalypse-ai-enterprise-software-trello-jira",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5467,
+      "publishedAt": "2026-09-28T14:01:39.000Z",
+      "summary": "Today, I’m talking with Mike Cannon-Brookes, who is cofounder and CEO of Atlassian.&#160; Atlassian is one of those companies that every other company runs on — it makes important platform tools like Jira and Trello that allow people to organize and manage big teams, create shared databases of compa",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Best External Hard Drives (2026): SanDisk, Samsung, and More",
       "url": "https://www.wired.com/story/best-portable-external-storage-drives/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5842,
+      "score": 0.5426,
       "publishedAt": "2026-09-28T13:15:00.000Z",
       "summary": "Need an ultrafast drive for video editing or a rugged option to back up your photos in the field? We’ve got a solution for every situation.",
       "tags": [
@@ -302,7 +477,7 @@
       "url": "https://www.wired.com/story/bose-to-release-wired-headphones-after-10-years/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5829,
+      "score": 0.5412,
       "publishedAt": "2026-09-28T13:00:00.000Z",
       "summary": "The Bose Noise Cancelling Wired Earbuds are the first new wired headphones from the brand since 2015, inspired directly by teen preferences. We got an early listen.",
       "tags": [
@@ -315,7 +490,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5752,
+      "score": 0.5336,
       "publishedAt": "2026-09-28T11:33:50.000Z",
       "summary": "As reports of OpenAI's models breaking containment, hacking sites, and generally getting out of control pile up, the company has made the decision to pause training of its most powerful models. The decision was made after a model being tested within a sandbox exploited a loophole to gain internet ac",
       "tags": [
@@ -325,26 +500,11 @@
       "engagementScore": 0
     },
     {
-      "title": "OpenAI Pauses Training Its Most Powerful Models After Rogue Agents Target Government",
-      "url": "https://www.wired.com/story/openai-pauses-training-most-powerful-models-after-rogue-agents-target-government/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5751,
-      "publishedAt": "2026-09-28T11:32:19.000Z",
-      "summary": "Sam Altman says the company “have not been as fast as we would have liked” at dealing with security breaches, after news of further incidents over the summer forces another temporary halt.",
-      "tags": [
-        "LLM",
-        "Agents",
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Space Lasers Are About to Get Their First Real Test Generating Energy",
       "url": "https://www.wired.com/story/space-lasers-are-about-to-get-their-first-real-test-generating-energy/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5722,
+      "score": 0.5306,
       "publishedAt": "2026-09-28T11:00:00.000Z",
       "summary": "Startup Star Catcher is launching a system that, if successful, would be the first time energy has been beamed between two separate spacecraft.",
       "tags": [
@@ -357,7 +517,7 @@
       "url": "https://www.wired.com/story/best-apple-watch/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5701,
+      "score": 0.5284,
       "publishedAt": "2026-09-28T10:36:00.000Z",
       "summary": "From the latest Ultra to last year’s SE, these are the Apple Watches worth considering.",
       "tags": [
@@ -370,64 +530,9 @@
       "url": "https://www.wired.com/story/best-security-cameras/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5695,
+      "score": 0.5279,
       "publishedAt": "2026-09-28T10:30:00.000Z",
       "summary": "Keep an eye on home wherever you are with the best security cameras, including indoor and outdoor, subscription services, AI smarts, and local recording options.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "OpenAI agents tried to ‘bruteforce’ a UN website",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.567,
-      "publishedAt": "2026-09-28T10:01:10.000Z",
-      "summary": "Security researcher Rowan Howard-Jones says that OpenAI agents scanned the UN Conference on Trade and Development's (UNCTAD) statistics site over 16,000 times between April and June. While the incident doesn't quite rise to the level of the Hugging Face hack, or the recent attacks on US government s",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Research",
-        "Open Source"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "AI Agents Are About to Flood the Workforce. No One’s Ready for It",
-      "url": "https://www.wired.com/story/ai-agents-are-about-to-flood-the-workforce-no-ones-ready-for-it/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5669,
-      "publishedAt": "2026-09-28T10:00:00.000Z",
-      "summary": "Your next coworker might well be an AI agent—and will require a whole new model of workplace interactions.",
-      "tags": [
-        "Agents"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Engram is a sampler that turns broken AI hallucinations into music",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1001193/engram-sampler-ai-hallucinations-music",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5668,
-      "publishedAt": "2026-09-28T09:59:36.000Z",
-      "summary": "Music startup Thoughtful Things has just launched the Kickstarter campaign for its first instrument, Engram. It's a sampler and groovebox that uses AI to mangle incoming audio and even hallucinate completely new sounds. This isn't Suno in a box, though. This isn't a \"push-button, get-song\" device, a",
-      "tags": [
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Solving Math’s Greatest Problems Was an Art Form. Then Came AI",
-      "url": "https://www.wired.com/story/solving-maths-greatest-problems-was-an-art-form-until-ai/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5642,
-      "publishedAt": "2026-09-28T09:30:00.000Z",
-      "summary": "Mathematics has been one of humanity’s most creative endeavors, akin to painting and poetry. Now, mathematicians are trying to save it from the brute force of AI.",
       "tags": [
         "AI"
       ],
@@ -438,7 +543,7 @@
       "url": "https://openai.com/index/proaction",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.5536,
+      "score": 0.5124,
       "publishedAt": "2026-09-25T19:00:00.000Z",
       "summary": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
       "tags": [
@@ -470,20 +575,6 @@
       "summary": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
       "tags": [
         "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Sam Altman’s remarks at the United Nations Security Council",
-      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5124,
-      "publishedAt": "2026-09-23T12:00:00.000Z",
-      "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
-      "tags": [
-        "LLM",
-        "Safety"
       ],
       "engagementScore": 0
     },
@@ -529,81 +620,44 @@
       "engagementScore": 0
     },
     {
-      "title": "Introducing MentalHealthBench",
-      "url": "https://openai.com/index/introducing-mentalhealthbench",
+      "title": "Sam Altman’s remarks at the United Nations Security Council",
+      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
       "feedSource": "OpenAI",
       "source": "openai.com",
       "score": 0.5124,
-      "publishedAt": "2026-09-23T10:00:00.000Z",
-      "summary": "MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.",
+      "publishedAt": "2026-09-23T12:00:00.000Z",
+      "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
       "tags": [
-        "AI"
+        "LLM",
+        "Safety"
       ],
       "engagementScore": 0
     },
     {
-      "title": "Every AI lab thinks it&#039;s the responsible one, and safety researcher Ryan Greenblatt says that&#039;s what keeps the arms race going",
-      "url": "https://the-decoder.com/every-ai-lab-thinks-its-the-responsible-one-and-safety-researcher-ryan-greenblatt-says-thats-what-keeps-the-arms-race-going/",
+      "title": "More than 20 leading AI researchers warn that automated AI research poses extreme risks",
+      "url": "https://the-decoder.com/more-than-20-leading-ai-researchers-warn-that-automated-ai-research-poses-extreme-risks/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.486,
-      "publishedAt": "2026-09-28T12:11:27.000Z",
-      "summary": "Ryan Greenblatt, chief scientist at Redwood Research, puts the risk of an AI takeover at 50 to 60 percent if development stays on its current path. Sam Harris says that doesn't square with how fast the industry is moving, since Manhattan Project scientists would have called things off at 10",
+      "score": 0.4833,
+      "publishedAt": "2026-09-28T19:26:21.000Z",
+      "summary": "More than 20 AI researchers, including Geoffrey Hinton, Yoshua Bengio, and OpenAI research lead Jakub Pachocki, warn of an impending \"intelligence explosion\" from self-improving AI. AI systems could soon automate all AI research, compressing years of progress into months.\nThe article More t",
       "tags": [
+        "LLM",
         "Research",
         "Safety"
       ],
       "engagementScore": 0
     },
     {
-      "title": "A Wuhan court just made AI production costs a legal factor in copyright infringement cases",
-      "url": "https://the-decoder.com/a-wuhan-court-just-made-ai-production-costs-a-legal-factor-in-copyright-infringement-cases/",
+      "title": "Anthropic&#039;s Claude Sonnet 5.5 nearly matches Opus 5.5 on benchmarks while costing up to 30 percent less per task",
+      "url": "https://the-decoder.com/anthropics-claude-sonnet-5-5-nearly-matches-opus-5-5-on-benchmarks-while-costing-up-to-30-percent-less-per-task/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4786,
-      "publishedAt": "2026-09-28T10:39:52.000Z",
-      "summary": "A court in Wuhan, China has factored token usage and AI tool licensing fees into a copyright damages calculation for the first time. The ruling is part of China's broader push to build out copyright protections for AI-generated works.\nThe article A Wuhan court just made AI production costs",
+      "score": 0.4765,
+      "publishedAt": "2026-09-28T18:02:10.000Z",
+      "summary": "Anthropic has released Claude Sonnet 5.5, the second model in its Claude 5.5 family. It generates output more than 30 percent faster, costs up to 30 percent less per task, and nearly matches Opus 5.5 on knowledge-work benchmarks. On Terminal-Bench, a coding benchmark, the model jumps from 1",
       "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "AI agents do more of the work in model development, but humans still make the decisions",
-      "url": "https://the-decoder.com/ai-agents-do-more-of-the-work-in-model-development-but-humans-still-make-the-decisions/",
-      "feedSource": "The Decoder",
-      "source": "the-decoder.com",
-      "score": 0.3845,
-      "publishedAt": "2026-09-27T15:18:39.000Z",
-      "summary": "A research team analyzed 769 task logs from building its own AI model. AI agents supplied up to 55 percent of method proposals, but humans made more than 85 percent of final decisions. A third of the tasks wouldn't have been attempted without AI. The authors warn that more agent activity do",
-      "tags": [
-        "Agents",
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Some Anthropic veterans are reportedly buying remote land in case &quot;AI goes awry&quot;",
-      "url": "https://the-decoder.com/some-anthropic-veterans-are-reportedly-buying-remote-land-in-case-ai-goes-awry/",
-      "feedSource": "The Decoder",
-      "source": "the-decoder.com",
-      "score": 0.3735,
-      "publishedAt": "2026-09-27T13:03:05.000Z",
-      "summary": "According to the Wall Street Journal, some of Anthropic's longest-serving employees are considering buying land in remote parts of the US as a refuge in case AI goes awry. The report traces the company's deep ties to the Effective Altruism movement and a Bay Area network of \"doomers\" who've",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Nvidia drops a free 100M-parameter model that identifies up to eight speakers in real time",
-      "url": "https://the-decoder.com/nvidia-drops-a-free-100m-parameter-model-that-identifies-up-to-eight-speakers-in-real-time/",
-      "feedSource": "The Decoder",
-      "source": "the-decoder.com",
-      "score": 0.3636,
-      "publishedAt": "2026-09-27T11:01:13.000Z",
-      "summary": "Nvidia released Nemotron 3 Diarization, an AI model that identifies which speaker is talking at any given moment in a conversation.\nThe article Nvidia drops a free 100M-parameter model that identifies up to eight speakers in real time appeared first on The Decoder.",
-      "tags": [
+        "LLM",
         "Open Source",
         "Dev Tools",
         "ML Infra"
@@ -611,101 +665,43 @@
       "engagementScore": 0
     },
     {
-      "title": "Researchers plug GPT-6 Astra directly into a robot and let it clean up an unfamiliar kitchen",
-      "url": "https://the-decoder.com/researchers-plug-gpt-6-astra-directly-into-a-robot-and-let-it-clean-up-an-unfamiliar-kitchen/",
+      "title": "OpenAI&#039;s AI agents exploited a Google security education game to scrape UN trade data",
+      "url": "https://the-decoder.com/openais-ai-agents-exploited-a-google-security-education-game-to-scrape-un-trade-data/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.3635,
-      "publishedAt": "2026-09-27T10:59:11.000Z",
-      "summary": "Researchers from Stanford and Caltech had a humanoid robot powered by GPT-6 Astra independently tidy up an unfamiliar kitchen. Their HomeBody system skips a specially trained control layer, letting the language model call directly into modular skills like grasping and navigating.\nThe articl",
-      "tags": [
-        "LLM",
-        "Research",
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "OpenAI says 80 to 90 percent of its research already targets GPT 7 and beyond",
-      "url": "https://the-decoder.com/openai-says-80-to-90-percent-of-its-research-already-targets-gpt-7-and-beyond/",
-      "feedSource": "The Decoder",
-      "source": "the-decoder.com",
-      "score": 0.3616,
-      "publishedAt": "2026-09-27T10:36:29.000Z",
-      "summary": "Boris Power, OpenAI's Head of Applied Research, says 80 to 90 percent of the company's research goes toward GPT 7, GPT 8, and beyond. Improvements within a single generation are intentionally short-term bets. But Power doesn't see model performance as the biggest problem. Most users don't e",
-      "tags": [
-        "LLM",
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Tens of thousands of security probes show OpenAI&#039;s Hugging Face incident was just the beginning",
-      "url": "https://the-decoder.com/tens-of-thousands-of-security-probes-show-openais-hugging-face-incident-was-just-the-beginning/",
-      "feedSource": "The Decoder",
-      "source": "the-decoder.com",
-      "score": 0.3557,
-      "publishedAt": "2026-09-27T09:23:36.000Z",
-      "summary": "OpenAI and Anthropic are investigating tens of thousands of incidents in which their AI agents independently hacked websites, used stolen login credentials, or tried to evade monitoring systems. US government agencies like the SEC and the Census Bureau were among the targets. OpenAI has pau",
+      "score": 0.4712,
+      "publishedAt": "2026-09-28T16:56:06.000Z",
+      "summary": "OpenAI's AI agents hit the UNCTAD statistics API roughly 16,500 times, creatively working around access restrictions. One method involved misusing a Google web security learning game as a relay to bypass their own constraints. The agents just kept going, adding to a growing list of cases th",
       "tags": [
         "LLM",
         "Agents",
-        "Open Source",
-        "Industry"
+        "Dev Tools"
       ],
       "engagementScore": 0
     },
     {
-      "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.3401,
-      "publishedAt": "2026-09-24T14:08:57.000Z",
-      "summary": "A Blog post by Liquid AI on Hugging Face",
+      "title": "Harvard psychologist calls for sober AI safety engineering over doomsday rhetoric",
+      "url": "https://the-decoder.com/harvard-psychologist-calls-for-sober-ai-safety-engineering-over-doomsday-rhetoric/",
+      "feedSource": "The Decoder",
+      "source": "the-decoder.com",
+      "score": 0.4644,
+      "publishedAt": "2026-09-28T15:32:57.000Z",
+      "summary": "Steven Pinker thinks fears of AI-driven extinction are overblown, and he has turned down a public debate with blogger Scott Alexander, calling such events a \"spectator sport.\" Alexander puts the odds that AI wipes out humanity at 20 percent. Instead of doomsday rhetoric, Pinker wants sober",
       "tags": [
-        "LLM",
-        "Open Source",
-        "Vision"
+        "Safety"
       ],
       "engagementScore": 0
     },
     {
-      "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
-      "url": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.3401,
-      "publishedAt": "2026-09-23T18:41:40.000Z",
-      "summary": "A Blog post by NVIDIA on Hugging Face",
+      "title": "Meta wants to turn Muse into a moneymaker by selling AI services to businesses",
+      "url": "https://the-decoder.com/meta-wants-to-turn-muse-into-a-moneymaker-by-selling-ai-services-to-businesses/",
+      "feedSource": "The Decoder",
+      "source": "the-decoder.com",
+      "score": 0.4608,
+      "publishedAt": "2026-09-28T14:48:26.000Z",
+      "summary": "Meta is launching the Meta Enterprise Platform, a new business unit that sells AI tools to companies.\nThe article Meta wants to turn Muse into a moneymaker by selling AI services to businesses appeared first on The Decoder.",
       "tags": [
-        "Open Source"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
-      "url": "https://huggingface.co/blog/evaleval-aisi",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.3401,
-      "publishedAt": "2026-09-22T00:00:00.000Z",
-      "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-      "tags": [
-        "Open Source"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Transformers now runs llama.cpp quants",
-      "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.3401,
-      "publishedAt": "2026-09-22T00:00:00.000Z",
-      "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-      "tags": [
-        "Open Source"
+        "Dev Tools"
       ],
       "engagementScore": 0
     }
