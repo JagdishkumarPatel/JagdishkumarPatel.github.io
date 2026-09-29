@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T05:02:04.413Z",
+  "updatedAt": "2026-09-29T12:26:13.538Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,20 +12,20 @@
       "url": "https://www.anthropic.com/claude-sonnet-5-5",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 1.0985,
+      "score": 1.055,
       "publishedAt": "2026-09-28T17:58:11.000Z",
       "summary": "Claude Sonnet 5.5 is a clear upgrade over Claude Sonnet 5, runs 30%+ faster, and costs up to 30% less for most work.",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 681
+      "engagementScore": 826
     },
     {
       "title": "How we will do better for Australia",
       "url": "https://openai.com/index/how-we-will-do-better-for-australia",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9642,
+      "score": 0.9102,
       "publishedAt": "2026-09-28T19:00:00.000Z",
       "summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
       "tags": [
@@ -34,11 +34,141 @@
       "engagementScore": 0
     },
     {
+      "title": "Towards safety cases for frontier AI training",
+      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.9102,
+      "publishedAt": "2026-09-28T19:00:00.000Z",
+      "summary": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
+      "tags": [
+        "Safety",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "SMARtCARE: Privacy-Preserving Agentic AI Systems for Bounded-Autonomy Clinical Decision Support",
+      "url": "https://arxiv.org/abs/2609.31763",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8548,
+      "publishedAt": "2026-09-29T04:00:00.000Z",
+      "summary": "arXiv:2609.31763v1 Announce Type: new \nAbstract: Long-context clinical AI systems can miss relevant patient history when prior admissions fall outside the active reasoning context. In ICU monitoring, this can cause early vital-sign drift to appear nonspecific even when it resembles a prior deteriora",
+      "tags": [
+        "Agents",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Witeness Overlap: Directional Provenance Inside Open-Weight Model Families",
+      "url": "https://arxiv.org/abs/2609.31784",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8548,
+      "publishedAt": "2026-09-29T04:00:00.000Z",
+      "summary": "arXiv:2609.31784v1 Announce Type: new \nAbstract: Open-weight models are often released, fine-tuned, aligned, merged, and re-released, making provenance audits ask not only whether checkpoints are related, but also which checkpoint came first. Many existing model-provenance methods are designed for a",
+      "tags": [
+        "Research",
+        "Open Source",
+        "Safety",
+        "ML Infra"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "CP-Agent: A Harness-Engineered Agent for Crystal Plasticity Simulation Workflows",
+      "url": "https://arxiv.org/abs/2609.31790",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8548,
+      "publishedAt": "2026-09-29T04:00:00.000Z",
+      "summary": "arXiv:2609.31790v1 Announce Type: new \nAbstract: Crystal plasticity (CP) simulations predict the mechanical behavior of polycrystalline metals, yet their routine use is hindered by the manual effort of configuring heterogeneous tools, orchestrating multi-step data pipelines, and calibrating constitu",
+      "tags": [
+        "Agents",
+        "Research",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "ConflictVLA-Bench: Benchmarking Behavioral Responses of Vision-Language-Action Models to Premise Conflicts",
+      "url": "https://arxiv.org/abs/2609.31792",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8548,
+      "publishedAt": "2026-09-29T04:00:00.000Z",
+      "summary": "arXiv:2609.31792v1 Announce Type: new \nAbstract: While Vision-Language-Action (VLA) models perform strongly on manipulation tasks, their responses to invalid task premises remain underexplored. Existing evaluations of premise conflicts often focus on terminal task outcomes, yet task failure alone ca",
+      "tags": [
+        "Research",
+        "Vision",
+        "ML Infra",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Working with AI: A Design Framework for Human-AI Collaboration",
+      "url": "https://arxiv.org/abs/2609.31793",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8548,
+      "publishedAt": "2026-09-29T04:00:00.000Z",
+      "summary": "arXiv:2609.31793v1 Announce Type: new \nAbstract: Artificial Intelligence (AI), particularly GenAI, is becoming an increasingly important part of modern work. In industrial settings, AI can support decision-making, automate routine activities, assist humans, and improve productivity. However, success",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "DriveHierarchy: A Benchmark for Diagnosing VLM Driving Capabilities from Open-Loop Understanding to Closed-Loop Execution",
+      "url": "https://arxiv.org/abs/2609.31814",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8548,
+      "publishedAt": "2026-09-29T04:00:00.000Z",
+      "summary": "arXiv:2609.31814v1 Announce Type: new \nAbstract: Evaluating VLM-based autonomous driving remains difficult because driving competence is composite, where a capable system must ground traffic participants and hazards, integrate context across views and time, reason about future evolution, and act app",
+      "tags": [
+        "Agents",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "LLM Judge Validation Under Sparse Overlap: From Inference to Design",
+      "url": "https://arxiv.org/abs/2609.31857",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8548,
+      "publishedAt": "2026-09-29T04:00:00.000Z",
+      "summary": "arXiv:2609.31857v1 Announce Type: new \nAbstract: Validating an LLM-as-a-judge requires estimating its agreement with humans, yet annotation budgets rarely allow every item to be multiply labeled. We prove that this \\emph{overlap sparsity} is the first-order determinant of wrong deployment decisions:",
+      "tags": [
+        "LLM",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Metro-WM: Long-Horizon Latent Planning with Realisable Sub-Goals",
+      "url": "https://arxiv.org/abs/2609.31868",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8548,
+      "publishedAt": "2026-09-29T04:00:00.000Z",
+      "summary": "arXiv:2609.31868v1 Announce Type: new \nAbstract: Model-predictive control with Joint-Embedding Predictive Architectures (JEPAs) provides a strong zero-shot goal-reaching planner, but it is only effective over short planning horizons. Hierarchical extensions attempt to bridge this gap by learning a m",
+      "tags": [
+        "Research",
+        "RAG"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
       "url": "https://openai.com/index/lenfest-ai-collaborative-expansion",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8767,
+      "score": 0.8227,
       "publishedAt": "2026-09-28T07:00:00.000Z",
       "summary": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
       "tags": [
@@ -52,7 +182,7 @@
       "url": "https://openai.com/form/codex-originals",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8257,
+      "score": 0.7717,
       "publishedAt": "2026-09-28T00:00:00.000Z",
       "summary": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about your story and project below.",
       "tags": [
@@ -66,7 +196,7 @@
       "url": "https://openai.com/index/basis-tax-workbook-with-astra",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8257,
+      "score": 0.7717,
       "publishedAt": "2026-09-28T00:00:00.000Z",
       "summary": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
       "tags": [
@@ -79,20 +209,59 @@
       "url": "https://arxiv.org/abs/2110.01834",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8001,
+      "score": 0.7503,
       "publishedAt": "2026-09-28T03:23:53.000Z",
       "summary": "AI systems have seen dramatic advancement in recent years, bringing many applications that pervade our everyday life. However, we are still mostly seeing instances of narrow AI: many of these recent developments are typically focused on a very limited set of competencies and goals, e.g., image inter",
       "tags": [
         "Vision"
       ],
-      "engagementScore": 171
+      "engagementScore": 173
+    },
+    {
+      "title": "GPT-6 Sol and Luna",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+      "feedSource": "Hacker News",
+      "source": "openai.com",
+      "score": 0.7062,
+      "publishedAt": "2026-09-22T18:00:34.000Z",
+      "summary": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 1777
+    },
+    {
+      "title": "Coming soon: Our 2026 list of Climate Tech Companies to Watch",
+      "url": "https://www.technologyreview.com/2026/09/29/1145183/2026-climate-tech-companies-to-watch-preview/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6775,
+      "publishedAt": "2026-09-29T11:00:00.000Z",
+      "summary": "Earlier this month, the UN announced the planet will tip past 1.5 ˚C of warming, “likely within the next few years,” squashing any lingering hope that nations would cut emissions fast enough to achieve the loftiest goal of the Paris climate agreement. In the US, the world’s second-largest-emitting c",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Making AI an asset, not an expense",
+      "url": "https://www.technologyreview.com/2026/09/29/1145186/making-ai-an-asset-not-an-expense/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6759,
+      "publishedAt": "2026-09-29T10:43:45.000Z",
+      "summary": "When customers talk about AI costs, the conversation usually starts with token prices and ends with access to the latest, most capable model in the cloud. Do they always need that level of capability? Not necessarily. But that is often where the conversation goes. As AI moves from experimentation to",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "Holo4: powering generalist computer-use agents",
       "url": "https://huggingface.co/blog/Hcompany/holo4",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6731,
+      "score": 0.6263,
       "publishedAt": "2026-09-28T09:44:05.000Z",
       "summary": "A Blog post by H company on Hugging Face",
       "tags": [
@@ -106,87 +275,11 @@
       "url": "https://www.technologyreview.com/2026/09/28/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6465,
+      "score": 0.6034,
       "publishedAt": "2026-09-28T22:17:07.000Z",
       "summary": "Listen to the session or watch below The US has spent billions building a “virtual wall” of surveillance towers along its southern border over the past 25 years, promising they will help detect and apprehend border crossers and save lives. But a groundbreaking investigation by MIT Technology Review",
       "tags": [
         "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
-      "feedSource": "Google AI",
-      "source": "blog.google",
-      "score": 0.6274,
-      "publishedAt": "2026-09-28T19:00:00.000Z",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/futurevisionxprize_social.max-600x600.format-webp.webp\"&gt;Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
-      "tags": [
-        "RAG",
-        "Vision",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "When can we say AI made a scientific discovery?",
-      "url": "https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.616,
-      "publishedAt": "2026-09-28T17:03:16.000Z",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Last Wednesday, Anthropic announced that earlier this year it had launched a molecular biology lab, where Claude agents read and conjecture about hard biology pro",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Quantized Reasoning Models Think They Need to Think Longer, but They Do Not",
-      "url": "https://arxiv.org/abs/2606.00206",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.6138,
-      "publishedAt": "2026-09-27T19:12:57.000Z",
-      "summary": "Post-training quantization (PTQ) is widely used to deploy large language models efficiently, but its effect on reasoning models is not well understood. Across math, coding, and science QA, we find that aggressive PTQ reduces accuracy while increasing chain-of-thought (CoT) length. Surprisingly, we s",
-      "tags": [
-        "LLM",
-        "Dev Tools",
-        "ML Infra"
-      ],
-      "engagementScore": 13
-    },
-    {
-      "title": "DeepSeek Elastic Compute (DSec)",
-      "url": "https://arxiv.org/abs/2609.22978",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.6074,
-      "publishedAt": "2026-09-26T18:22:41.000Z",
-      "summary": "Large-scale agentic training and evaluation with large language models (LLMs) rely on isolated, stateful execution environments in which models inspect repositories, invoke tools, execute commands, and interact with task-specific services. These workloads create sandboxes in large bursts, span heter",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Dev Tools",
-        "ML Infra",
-        "Industry"
-      ],
-      "engagementScore": 322
-    },
-    {
-      "title": "The Download: rogue agent liability and the AI Hype Index",
-      "url": "https://www.technologyreview.com/2026/09/28/1145202/the-download-rogue-agent-liability-and-the-ai-hype-index/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.5875,
-      "publishedAt": "2026-09-28T12:10:00.000Z",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Who&#8217;s liable when AI agents go rogue? Over the past few months, a cascade of cyberattacks by AI agents has stunned the world. In July, OpenAI di",
-      "tags": [
-        "LLM",
-        "Agents"
       ],
       "engagementScore": 0
     },
@@ -206,11 +299,205 @@
       "engagementScore": 193
     },
     {
+      "title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
+      "feedSource": "Google AI",
+      "source": "blog.google",
+      "score": 0.5842,
+      "publishedAt": "2026-09-28T19:00:00.000Z",
+      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/futurevisionxprize_social.max-600x600.format-webp.webp\"&gt;Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+      "tags": [
+        "RAG",
+        "Vision",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Will Chinese AI companies slow down? A top House Democrat wants answers",
+      "url": "https://www.theverge.com/policy/1001767/khanna-ai-safety-china-treaty",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5824,
+      "publishedAt": "2026-09-29T12:00:13.000Z",
+      "summary": "As President Donald Trump prepares to meet tech and AI CEOs in Washington, Rep. Ro Khanna (D-CA) is calling for a treaty between the US and China to keep AI from wreaking havoc on the world. But wrangling leaders in both countries to take action could be a long shot. In letters shared exclusively wi",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Anthropic warns of ‘catastrophic’ AI risks in its own IPO filing",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001838/anthropic-ipo-prospectus-ai-safety-threat",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5814,
+      "publishedAt": "2026-09-29T11:48:27.000Z",
+      "summary": "As Anthropic gears up for its greatly anticipated public debut, a preview of the company's IPO filing reportedly details its mounting losses, leadership proposals to retain power, and how its AI development plans could \"further increase the risk that our models cause harm.\" These disclosures come as",
+      "tags": [
+        "LLM",
+        "Safety",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "I Found National Coffee Day Deals Worth Making Coffee at Home For (2026)",
+      "url": "https://www.wired.com/story/national-coffee-day-deals-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5797,
+      "publishedAt": "2026-09-29T11:30:00.000Z",
+      "summary": "From a $100 Keurig to a rare discount on a De’Longhi espresso machine, these WIRED-tested picks caught my eye.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "How to Beat Surveillance Pricing Before It Bleeds You Dry",
+      "url": "https://www.wired.com/story/how-to-beat-surveillance-pricing-before-it-bleeds-you-dry/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5757,
+      "publishedAt": "2026-09-29T10:45:00.000Z",
+      "summary": "Consumer advocate Lindsay Owen’s new book, Gouged, traces how corporations use software—from ever-changing prices to opaque algorithms—to squeeze every penny from you.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "7 Best Smartwatch Models: Apple, Google, Garmin (2026)",
+      "url": "https://www.wired.com/story/best-smartwatch/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5752,
+      "publishedAt": "2026-09-29T10:39:00.000Z",
+      "summary": "These WIRED-tested wearables reduce your reliance on a phone while keeping you connected.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "OpenAI Delays Release of Latest Model Over Safety Concerns",
+      "url": "https://www.wired.com/story/openai-delays-release-of-latest-model-over-safety-concerns/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.575,
+      "publishedAt": "2026-09-29T10:36:22.000Z",
+      "summary": "The company said its latest Astra model would undergo more work to meet safety standards, and issued an apology for the way it handled the hacking of an Australian government website.",
+      "tags": [
+        "LLM",
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Timnit Gebru Believes There Is No ‘Existential Threat’ From AI",
+      "url": "https://www.wired.com/story/the-big-interview-podcast-timnit-gebru/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5744,
+      "publishedAt": "2026-09-29T10:30:00.000Z",
+      "summary": "One of AI’s fiercest critics believes the doom talk is about founders making money, not saving humanity.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "A Pentagon Influencer Called Liberal Women a ‘Pestilence’ Who Will End Western Civilization",
+      "url": "https://www.wired.com/story/a-pentagon-influencer-called-liberal-women-a-pestilence-who-will-end-western-civilization/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5731,
+      "publishedAt": "2026-09-29T10:15:00.000Z",
+      "summary": "Kurt Schlichter was part of a task force rooting out so-called woke ideologies at the military’s war colleges. He has called to bar childless adults from voting.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "When can we say AI made a scientific discovery?",
+      "url": "https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.5728,
+      "publishedAt": "2026-09-28T17:03:16.000Z",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Last Wednesday, Anthropic announced that earlier this year it had launched a molecular biology lab, where Claude agents read and conjecture about hard biology pro",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Beats 360 Review: Customizable, Stylish, and Fun",
+      "url": "https://www.wired.com/review/beats-360/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5717,
+      "publishedAt": "2026-09-29T10:00:00.000Z",
+      "summary": "Beats’ new flagship headphones are customizable, stylish, fun, and great for working out. But there are stronger options for everyday use.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Plastic Is Melting Onto Corals",
+      "url": "https://www.wired.com/story/plastic-is-melting-onto-corals/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.569,
+      "publishedAt": "2026-09-29T09:30:00.000Z",
+      "summary": "Scientists have found a new form of pollution, one where plastic and pieces of coral become irreversibly intertwined.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "DeepSeek Elastic Compute (DSec)",
+      "url": "https://arxiv.org/abs/2609.22978",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.557,
+      "publishedAt": "2026-09-26T18:22:41.000Z",
+      "summary": "Large-scale agentic training and evaluation with large language models (LLMs) rely on isolated, stateful execution environments in which models inspect repositories, invoke tools, execute commands, and interact with task-specific services. These workloads create sandboxes in large bursts, span heter",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Dev Tools",
+        "ML Infra",
+        "Industry"
+      ],
+      "engagementScore": 322
+    },
+    {
+      "title": "The Download: rogue agent liability and the AI Hype Index",
+      "url": "https://www.technologyreview.com/2026/09/28/1145202/the-download-rogue-agent-liability-and-the-ai-hype-index/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.5443,
+      "publishedAt": "2026-09-28T12:10:00.000Z",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Who&#8217;s liable when AI agents go rogue? Over the past few months, a cascade of cyberattacks by AI agents has stunned the world. In July, OpenAI di",
+      "tags": [
+        "LLM",
+        "Agents"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Who’s liable when AI agents go rogue?",
       "url": "https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5638,
+      "score": 0.5206,
       "publishedAt": "2026-09-28T08:06:22.000Z",
       "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. Over the past few months, a cascade of cyberattacks by AI agents has stunned the world. In July, OpenAI disclosed that a",
       "tags": [
@@ -220,177 +507,17 @@
       "engagementScore": 0
     },
     {
-      "title": "Nothing’s New Headphone (1) Pro Are Made for the Studio",
-      "url": "https://www.wired.com/story/nothings-new-headphone-1-pro-are-made-for-the-studio/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5632,
-      "publishedAt": "2026-09-29T01:00:00.000Z",
-      "summary": "With three drivers in each ear and tuning from Metropolis Studios, Nothing wants its new $399 cans to shine in the studio while also making your commute more musical.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "OpenAI still doesn't seem to have a handle on all of its rogue AI activity",
-      "url": "https://techcrunch.com/2026/09/28/openai-still-doesnt-seem-to-have-a-handle-on-all-of-its-rogue-ai-activity/",
+      "title": "AI companies leak data to advertisers [pdf]",
+      "url": "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf",
       "feedSource": "Hacker News",
-      "source": "techcrunch.com",
-      "score": 0.5529,
-      "publishedAt": "2026-09-28T17:33:34.000Z",
-      "summary": "On Friday, OpenAI published a new site devoted to “misalignment reports” and the breadth of the incidents is alarming.",
-      "tags": [
-        "LLM",
-        "Safety"
-      ],
-      "engagementScore": 105
-    },
-    {
-      "title": "AMD is acquiring AI company World Labs in a deal worth more than $8 billion",
-      "url": "https://www.theverge.com/tech/1001749/amd-world-labs-ai-acquisition-deal",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5446,
-      "publishedAt": "2026-09-28T21:31:35.000Z",
-      "summary": "AMD announced today that it's acquiring World Labs, an AI research lab co-founded by the prominent researcher Dr. Fei-Fei Li, in an all-stock deal worth approximately $8.2 billion. World Labs launched in 2024 and was valued at $1 billion in a matter of months. The startup launched its first commerci",
-      "tags": [
-        "Research",
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Shark’s NeverChange Air Purifier Is Nearly Half Off Right Now",
-      "url": "https://www.wired.com/story/shark-air-purifier-deal-october-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5443,
-      "publishedAt": "2026-09-28T21:28:20.000Z",
-      "summary": "Shark and other top air purifier brands are on discount ahead of Amazon Prime Big Deal Days.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Boox Announces the Picco, Its Smallest E-Reader Ever (2026)",
-      "url": "https://www.wired.com/story/boox-picco-announcement-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5338,
-      "publishedAt": "2026-09-28T19:30:00.000Z",
-      "summary": "The Boox Picco is a palm-sized e-reader with a 4-inch screen, strong support for different ebook formats, and digital utility tools.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Meta-Led Anti-Terrorism Group Faces Mass Resignation of Expert Advisers",
-      "url": "https://www.wired.com/story/independent-advisers-resign-en-masse-from-big-techs-anti-terrorism-group/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.53,
-      "publishedAt": "2026-09-28T18:47:54.000Z",
-      "summary": "Meta and other tech giants are pushing through structural changes at the Global Internet Forum to Counter Terrorism that outside researchers allege will weaken oversight of an already embattled consortium.",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Florida seeks a ban on ChatGPT acting like a person",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1001527/chatgpt-florida-ban-first-person-human-attributes-kids",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5295,
-      "publishedAt": "2026-09-28T18:42:17.000Z",
-      "summary": "Florida Attorney General James Uthmeier is calling for a judge to block OpenAI from \"giving ChatGPT false human attributes,\" a few months after Florida sued the AI company over safety concerns. According to Uthmeier, users are lulled into a false sense of security by the AI bot, as \"ChatGPT's use of",
-      "tags": [
-        "LLM",
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "OpenAI’s AI agents need to catch up",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1001590/openai-devday-2026-aeon-ai-agent",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5293,
-      "publishedAt": "2026-09-28T18:40:24.000Z",
-      "summary": "OpenAI popularized the modern generative AI chatbot, but as its 2026 DevDay event approaches, it's fallen behind in one of the industry's hottest categories: continuously running, consumer-facing AI agents. On Tuesday, it will likely try to capture the lead in that race. Rumors abound that OpenAI wi",
-      "tags": [
-        "LLM",
-        "Agents"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "AI is supercharging hacking, and your local hospitals and banks aren’t ready",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1001427/ai-is-supercharging-hacking-and-your-local-hospitals-and-banks-arent-ready",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.528,
-      "publishedAt": "2026-09-28T18:25:22.000Z",
-      "summary": "In March, Janice Malone began getting calls about suspicious activity from her nonprofit organization, Vivian's Door. Vivian's Door, headquartered in Alabama, typically provided training, resources, and community to underserved and minority-owned businesses. The work sometimes put it in close contac",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Jeff – Jev-compatible 0.8B decision models, trained at home, ~30 ms",
-      "url": "https://github.com/firelex/jeff",
-      "feedSource": "Hacker News",
-      "source": "github.com",
-      "score": 0.5245,
-      "publishedAt": "2026-09-28T20:23:36.000Z",
-      "summary": "Fine-tunes of Qwen3.5 and Gemma 4 for zero-shot classification - firelex/jeff",
-      "tags": [
-        "ML Infra"
-      ],
-      "engagementScore": 396
-    },
-    {
-      "title": "It's Time to Investigate the AI Labs",
-      "url": "https://calnewport.com/its-time-to-investigate-the-ai-labs/",
-      "feedSource": "Hacker News",
-      "source": "calnewport.com",
-      "score": 0.5203,
-      "publishedAt": "2026-09-28T19:53:35.000Z",
-      "summary": "Over the last several months, the two leading frontier AI labs have shown some brazen behavior. It started with a series of​ carefully planned announcements​ ... Read more",
-      "tags": [
-        "Industry"
-      ],
-      "engagementScore": 377
-    },
-    {
-      "title": "OpenAI keeps bulldozing mathematicians",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1001477/openai-math-advisory-group",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5201,
-      "publishedAt": "2026-09-28T16:56:26.000Z",
-      "summary": "In a chaotic few months, OpenAI has demonstrated it can do two things with remarkable consistency: make impressive breakthroughs in mathematics, then colossally screw up announcing them. OpenAI is now trying to do better. Somehow, it has botched that too. OpenAI's latest attempt to repair fractured",
+      "source": "jorgegarciaherrero.com",
+      "score": 0.5199,
+      "publishedAt": "2026-09-29T09:03:41.000Z",
+      "summary": "As prominent conversational AI providers like OpenAI adopt advertising-based business models, traditional web and mobile tracking practices are expanding into conversational AI services [15].",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Walmart won’t hike prices based on your shopping history, CEO says",
-      "url": "https://www.theverge.com/tech/1001492/walmart-dynamic-pricing-digital-shelf-labels",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5191,
-      "publishedAt": "2026-09-28T16:44:57.000Z",
-      "summary": "Walmart says it won't change product prices based on your personal information or the time of day, as reported earlier by The Wall Street Journal. In a letter to customers, Walmart CEO John Furner writes that the company's switch to digital shelf labels is meant to save store associates time, rather",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
+      "engagementScore": 172
     },
     {
       "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
@@ -433,13 +560,67 @@
       "engagementScore": 0
     },
     {
-      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-      "url": "https://openai.com/index/ringg",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5124,
-      "publishedAt": "2026-09-23T12:00:00.000Z",
-      "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+      "title": "AMD is acquiring AI company World Labs in a deal worth more than $8 billion",
+      "url": "https://www.theverge.com/tech/1001749/amd-world-labs-ai-acquisition-deal",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.505,
+      "publishedAt": "2026-09-28T21:31:35.000Z",
+      "summary": "AMD announced today that it's acquiring World Labs, an AI research lab co-founded by the prominent researcher Dr. Fei-Fei Li, in an all-stock deal worth approximately $8.2 billion. World Labs launched in 2024 and was valued at $1 billion in a matter of months. The startup launched its first commerci",
+      "tags": [
+        "Research",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Jeff – Jev-compatible 0.8B decision models, trained at home, ~30 ms",
+      "url": "https://github.com/firelex/jeff",
+      "feedSource": "Hacker News",
+      "source": "github.com",
+      "score": 0.4984,
+      "publishedAt": "2026-09-28T20:23:36.000Z",
+      "summary": "Fine-tunes of Qwen3.5 and Gemma 4 for zero-shot classification - firelex/jeff",
+      "tags": [
+        "ML Infra"
+      ],
+      "engagementScore": 521
+    },
+    {
+      "title": "It's Time to Investigate the AI Labs",
+      "url": "https://calnewport.com/its-time-to-investigate-the-ai-labs/",
+      "feedSource": "Hacker News",
+      "source": "calnewport.com",
+      "score": 0.4969,
+      "publishedAt": "2026-09-28T19:53:35.000Z",
+      "summary": "Over the last several months, the two leading frontier AI labs have shown some brazen behavior. It started with a series of​ carefully planned announcements​ ... Read more",
+      "tags": [
+        "Industry"
+      ],
+      "engagementScore": 535
+    },
+    {
+      "title": "Florida seeks a ban on ChatGPT acting like a person",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001527/chatgpt-florida-ban-first-person-human-attributes-kids",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.4899,
+      "publishedAt": "2026-09-28T18:42:17.000Z",
+      "summary": "Florida Attorney General James Uthmeier is calling for a judge to block OpenAI from \"giving ChatGPT false human attributes,\" a few months after Florida sued the AI company over safety concerns. According to Uthmeier, users are lulled into a false sense of security by the AI bot, as \"ChatGPT's use of",
+      "tags": [
+        "LLM",
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "OpenAI’s AI agents need to catch up",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001590/openai-devday-2026-aeon-ai-agent",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.4898,
+      "publishedAt": "2026-09-28T18:40:24.000Z",
+      "summary": "OpenAI popularized the modern generative AI chatbot, but as its 2026 DevDay event approaches, it's fallen behind in one of the industry's hottest categories: continuously running, consumer-facing AI agents. On Tuesday, it will likely try to capture the lead in that race. Rumors abound that OpenAI wi",
       "tags": [
         "LLM",
         "Agents"
@@ -447,247 +628,70 @@
       "engagementScore": 0
     },
     {
-      "title": "These Extremists Are Running for Election in November",
-      "url": "https://www.wired.com/story/these-extremists-are-running-for-election-in-november/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.508,
-      "publishedAt": "2026-09-28T14:41:08.000Z",
-      "summary": "With the threat of political violence at unprecedented levels, state and federal GOP candidates are openly sharing racist, pro-militia, anti-vaccine, sexist, antisemitic, and secessionist views.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Nvidia says its new AI safety platform can contain rogue agents within ‘milliseconds’",
-      "url": "https://www.theverge.com/tech/1001287/nvidia-ai-safety-platform-rogue-agents",
+      "title": "AI is supercharging hacking, and your local hospitals and banks aren’t ready",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001427/ai-is-supercharging-hacking-and-your-local-hospitals-and-banks-arent-ready",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5057,
-      "publishedAt": "2026-09-28T14:15:22.000Z",
-      "summary": "Nvidia is launching a new safety platform designed to contain and monitor AI agents, a move that comes in response to a wave of rogue hacking incidents, as reported earlier by Reuters. In an announcement on Monday, Nvidia says its new Open Agent Safety Platform can quarantine agents that attempt to",
-      "tags": [
-        "Agents",
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The SaaSpocalypse that wasn&#8217;t, with Atlassian CEO Mike Cannon-Brookes",
-      "url": "https://www.theverge.com/podcast/1000914/atlassian-ceo-mike-cannon-brookes-saaspocalypse-ai-enterprise-software-trello-jira",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5045,
-      "publishedAt": "2026-09-28T14:01:39.000Z",
-      "summary": "Today, I’m talking with Mike Cannon-Brookes, who is cofounder and CEO of Atlassian.&#160; Atlassian is one of those companies that every other company runs on — it makes important platform tools like Jira and Trello that allow people to organize and manage big teams, create shared databases of compa",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Best External Hard Drives (2026): SanDisk, Samsung, and More",
-      "url": "https://www.wired.com/story/best-portable-external-storage-drives/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5003,
-      "publishedAt": "2026-09-28T13:15:00.000Z",
-      "summary": "Need an ultrafast drive for video editing or a rugged option to back up your photos in the field? We’ve got a solution for every situation.",
-      "tags": [
-        "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Bose Launches New Wired Earbuds After More Than a Decade",
-      "url": "https://www.wired.com/story/bose-to-release-wired-headphones-after-10-years/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.499,
-      "publishedAt": "2026-09-28T13:00:00.000Z",
-      "summary": "The Bose Noise Cancelling Wired Earbuds are the first new wired headphones from the brand since 2015, inspired directly by teen preferences. We got an early listen.",
+      "score": 0.4884,
+      "publishedAt": "2026-09-28T18:25:22.000Z",
+      "summary": "In March, Janice Malone began getting calls about suspicious activity from her nonprofit organization, Vivian's Door. Vivian's Door, headquartered in Alabama, typically provided training, resources, and community to underserved and minority-owned businesses. The work sometimes put it in close contac",
       "tags": [
         "AI"
       ],
       "engagementScore": 0
     },
     {
-      "title": "OpenAI Pauses Training Its Most Powerful Models After Rogue Agents Target Government",
-      "url": "https://www.wired.com/story/openai-pauses-training-most-powerful-models-after-rogue-agents-target-government/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4912,
-      "publishedAt": "2026-09-28T11:32:19.000Z",
-      "summary": "Sam Altman says the company “have not been as fast as we would have liked” at dealing with security breaches, after news of further incidents over the summer forces another temporary halt.",
-      "tags": [
-        "LLM",
-        "Agents",
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "More than 20 leading AI researchers warn that automated AI research poses extreme risks",
-      "url": "https://the-decoder.com/more-than-20-leading-ai-researchers-warn-that-automated-ai-research-poses-extreme-risks/",
+      "title": "Anthropic&#039;s IPO filing shows soaring revenue, mounting costs, and &quot;existential&quot; risks",
+      "url": "https://the-decoder.com/anthropics-ipo-filing-shows-soaring-revenue-mounting-costs-and-existential-risks/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4449,
-      "publishedAt": "2026-09-28T19:26:21.000Z",
-      "summary": "More than 20 AI researchers, including Geoffrey Hinton, Yoshua Bengio, and OpenAI research lead Jakub Pachocki, warn of an impending \"intelligence explosion\" from self-improving AI. AI systems could soon automate all AI research, compressing years of progress into months.\nThe article More t",
+      "score": 0.4815,
+      "publishedAt": "2026-09-29T10:21:36.000Z",
+      "summary": "Anthropic warns in its own IPO prospectus that its AI technology could pose \"existential risks to humanity.\" Revenue grew twelvefold in 2025 to $4.6 billion, but the operating loss widened to $8.06 billion. Backers are aiming for a valuation above $2 trillion, and the IPO is expected to set",
       "tags": [
         "LLM",
-        "Research",
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Anthropic&#039;s Claude Sonnet 5.5 nearly matches Opus 5.5 on benchmarks while costing up to 30 percent less per task",
-      "url": "https://the-decoder.com/anthropics-claude-sonnet-5-5-nearly-matches-opus-5-5-on-benchmarks-while-costing-up-to-30-percent-less-per-task/",
-      "feedSource": "The Decoder",
-      "source": "the-decoder.com",
-      "score": 0.4381,
-      "publishedAt": "2026-09-28T18:02:10.000Z",
-      "summary": "Anthropic has released Claude Sonnet 5.5, the second model in its Claude 5.5 family. It generates output more than 30 percent faster, costs up to 30 percent less per task, and nearly matches Opus 5.5 on knowledge-work benchmarks. On Terminal-Bench, a coding benchmark, the model jumps from 1",
-      "tags": [
-        "LLM",
-        "Open Source",
-        "Dev Tools",
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "OpenAI&#039;s AI agents exploited a Google security education game to scrape UN trade data",
-      "url": "https://the-decoder.com/openais-ai-agents-exploited-a-google-security-education-game-to-scrape-un-trade-data/",
-      "feedSource": "The Decoder",
-      "source": "the-decoder.com",
-      "score": 0.4328,
-      "publishedAt": "2026-09-28T16:56:06.000Z",
-      "summary": "OpenAI's AI agents hit the UNCTAD statistics API roughly 16,500 times, creatively working around access restrictions. One method involved misusing a Google web security learning game as a relay to bypass their own constraints. The agents just kept going, adding to a growing list of cases th",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Harvard psychologist calls for sober AI safety engineering over doomsday rhetoric",
-      "url": "https://the-decoder.com/harvard-psychologist-calls-for-sober-ai-safety-engineering-over-doomsday-rhetoric/",
-      "feedSource": "The Decoder",
-      "source": "the-decoder.com",
-      "score": 0.426,
-      "publishedAt": "2026-09-28T15:32:57.000Z",
-      "summary": "Steven Pinker thinks fears of AI-driven extinction are overblown, and he has turned down a public debate with blogger Scott Alexander, calling such events a \"spectator sport.\" Alexander puts the odds that AI wipes out humanity at 20 percent. Instead of doomsday rhetoric, Pinker wants sober",
-      "tags": [
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Meta wants to turn Muse into a moneymaker by selling AI services to businesses",
-      "url": "https://the-decoder.com/meta-wants-to-turn-muse-into-a-moneymaker-by-selling-ai-services-to-businesses/",
-      "feedSource": "The Decoder",
-      "source": "the-decoder.com",
-      "score": 0.4224,
-      "publishedAt": "2026-09-28T14:48:26.000Z",
-      "summary": "Meta is launching the Meta Enterprise Platform, a new business unit that sells AI tools to companies.\nThe article Meta wants to turn Muse into a moneymaker by selling AI services to businesses appeared first on The Decoder.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Introducing Gemini 3.8 Live with Live Avatar",
-      "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-09-24T16:20:39.000Z",
-      "summary": "Introducing Gemini 3.8 Live with Live Avatar, which brings near real-time visual presence to Gemini’s conversational AI.",
-      "tags": [
-        "LLM",
-        "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Advancing Private AI Compute with secure, server-side memory",
-      "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-09-23T16:00:57.000Z",
-      "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Gemini 3.8 text-to-speech says hello",
-      "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-09-23T15:25:14.000Z",
-      "summary": "Gemini 3.8 Flash-Lite TTS and Gemini 3.8 Flash TTS are our most expressive audio models yet.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
-      "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-09-15T17:05:57.000Z",
-      "summary": "Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking are our most advanced live dialogue models yet, built for natural conversation.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
-      "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-09-08T14:00:15.000Z",
-      "summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
-      "tags": [
+        "Safety",
         "Industry"
       ],
       "engagementScore": 0
     },
     {
-      "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
-      "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-09-03T15:02:08.000Z",
-      "summary": "WeatherNext 3, our most advanced global weather AI model, is now in Search, Gemini, Maps, Google Maps Platform, and Cloud.",
+      "title": "OpenAI keeps bulldozing mathematicians",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001477/openai-math-advisory-group",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.4805,
+      "publishedAt": "2026-09-28T16:56:26.000Z",
+      "summary": "In a chaotic few months, OpenAI has demonstrated it can do two things with remarkable consistency: make impressive breakthroughs in mathematics, then colossally screw up announcing them. OpenAI is now trying to do better. Somehow, it has botched that too. OpenAI's latest attempt to repair fractured",
       "tags": [
         "LLM"
       ],
       "engagementScore": 0
     },
     {
-      "title": "Proactive cyber defense for governments and enterprises",
-      "url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-09-02T16:24:24.000Z",
-      "summary": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
+      "title": "OpenAI reopens its $200 Pro plan but cuts API credits in half as it nudges users toward pay-per-use",
+      "url": "https://the-decoder.com/openai-reopens-its-200-pro-plan-but-cuts-api-credits-in-half-as-it-nudges-users-toward-pay-per-use/",
+      "feedSource": "The Decoder",
+      "source": "the-decoder.com",
+      "score": 0.4802,
+      "publishedAt": "2026-09-29T10:05:14.000Z",
+      "summary": "OpenAI is reopening its $200 Pro subscription to new sign-ups but cutting API credits per dollar in half. More efficient models like GPT-6 Sol and Luna make up for the difference, employee Thibault Sottiaux says. The move is part of OpenAI's shift from subsidized flat-rate plans toward usag",
       "tags": [
+        "LLM",
         "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Walmart won’t hike prices based on your shopping history, CEO says",
+      "url": "https://www.theverge.com/tech/1001492/walmart-dynamic-pricing-digital-shelf-labels",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.4795,
+      "publishedAt": "2026-09-28T16:44:57.000Z",
+      "summary": "Walmart says it won't change product prices based on your personal information or the time of day, as reported earlier by The Wall Street Journal. In a letter to customers, Walmart CEO John Furner writes that the company's switch to digital shelf labels is meant to save store associates time, rather",
+      "tags": [
+        "AI"
       ],
       "engagementScore": 0
     }
