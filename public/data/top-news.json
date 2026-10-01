@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T22:01:30.193Z",
+  "updatedAt": "2026-10-01T05:01:24.720Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,35 +12,151 @@
       "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.9914,
+      "score": 0.9409,
       "publishedAt": "2026-09-29T17:06:45.000Z",
       "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
       "tags": [
         "LLM",
         "Dev Tools"
       ],
-      "engagementScore": 1042
+      "engagementScore": 1052
     },
     {
       "title": "Dots: Always-on agents",
       "url": "https://openai.com/index/introducing-dots/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.9733,
+      "score": 0.9228,
       "publishedAt": "2026-09-29T17:07:57.000Z",
       "summary": "Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
       "tags": [
         "LLM",
         "Agents"
       ],
-      "engagementScore": 744
+      "engagementScore": 751
+    },
+    {
+      "title": "Improving OCR Faithfulness via Gated and Attenuated On-Policy Distillation",
+      "url": "https://arxiv.org/abs/2609.38282",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9052,
+      "publishedAt": "2026-10-01T04:00:00.000Z",
+      "summary": "arXiv:2609.38282v1 Announce Type: new \nAbstract: Vision-language models may rewrite anomalous text in images into linguistically plausible expressions, compromising OCR transcription faithfulness. Sequence-level task rewards and local teacher guidance are complementary, but guidance from the same te",
+      "tags": [
+        "LLM",
+        "Research",
+        "Vision",
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "AREX-2: Advancing Self-Improving Agents through Long-Horizon Reflective Tasks",
+      "url": "https://arxiv.org/abs/2609.38288",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9052,
+      "publishedAt": "2026-10-01T04:00:00.000Z",
+      "summary": "arXiv:2609.38288v1 Announce Type: new \nAbstract: We present AREX-2, an effort to advance the self-improving capability of LLM agents, which we define as the ability to iteratively refine a solution at test time. This ability rests on two complementary capabilities: reflection, which produces a solut",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "MoFlow: Multi-Objective Agentic Workflow Generation",
+      "url": "https://arxiv.org/abs/2609.38294",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9052,
+      "publishedAt": "2026-10-01T04:00:00.000Z",
+      "summary": "arXiv:2609.38294v1 Announce Type: new \nAbstract: We study the generation of agentic workflows that jointly optimize multiple objectives, such as accuracy, cost, latency, robustness, and consistency. Existing methods for workflow generation typically optimize accuracy alone or a weighted sum of objec",
+      "tags": [
+        "Agents",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "AI Agents are Vulnerable to Radicalization",
+      "url": "https://arxiv.org/abs/2609.38296",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9052,
+      "publishedAt": "2026-10-01T04:00:00.000Z",
+      "summary": "arXiv:2609.38296v1 Announce Type: new \nAbstract: Large language models (LLMs) can influence people's beliefs, yet little is known about whether and how they can manipulate each other. To investigate this, we simulate conversations between two agents: a target LLM that role-plays a human persona base",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Research",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "CARAT: Do Materials LLMs Reason or Recite?",
+      "url": "https://arxiv.org/abs/2609.38340",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9052,
+      "publishedAt": "2026-10-01T04:00:00.000Z",
+      "summary": "arXiv:2609.38340v1 Announce Type: new \nAbstract: When a materials LLM answers a question about crystal structure, does it reason from the structure or copy an answer already printed in its input? Accuracy cannot tell: a structural description often prints the very field it is scored against. CARAT h",
+      "tags": [
+        "LLM",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Examining Variation in How Guided AI Tutors Resolve Student Impasses",
+      "url": "https://arxiv.org/abs/2609.38346",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9052,
+      "publishedAt": "2026-10-01T04:00:00.000Z",
+      "summary": "arXiv:2609.38346v1 Announce Type: new \nAbstract: When a student is stuck, a tutor faces the assistance dilemma: help given too early can hinder productive struggle, while help withheld too long leaves the student in a frustrating, persistent impasse (i.e., wheel spinning). Generative AI tutors incre",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Beyond Mode Collapse: Generating Diverse Synthetic Expert Conversations via Generative Flow Networks",
+      "url": "https://arxiv.org/abs/2609.38359",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9052,
+      "publishedAt": "2026-10-01T04:00:00.000Z",
+      "summary": "arXiv:2609.38359v1 Announce Type: new \nAbstract: High quality synthetic data is central to post training LLMs for adaptive AI applications that represent the diverse expert strategies and decisions in conversations. Prompting LLMs directly or conditioning them on end use scenarios yields low diversi",
+      "tags": [
+        "LLM",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Can an AI Agent Rediscover a Blaschke-Curve Invariant?",
+      "url": "https://arxiv.org/abs/2609.38369",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9052,
+      "publishedAt": "2026-10-01T04:00:00.000Z",
+      "summary": "arXiv:2609.38369v1 Announce Type: new \nAbstract: We study generalized Blaschke curves as a controlled environment for AI-assisted mathematical rediscovery. For one fixed degree-four Blaschke product, an agent receives numerical coordinates of the six pair-lines determined by each of 80 boundary conf",
+      "tags": [
+        "Agents",
+        "Research"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "Disrupting a coordinated model-distillation campaign",
       "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9534,
+      "score": 0.9023,
       "publishedAt": "2026-09-30T10:30:00.000Z",
       "summary": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
       "tags": [
@@ -53,7 +169,7 @@
       "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9497,
+      "score": 0.8987,
       "publishedAt": "2026-09-30T10:00:00.000Z",
       "summary": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
       "tags": [
@@ -66,20 +182,20 @@
       "url": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
       "feedSource": "Hacker News",
       "source": "help.openai.com",
-      "score": 0.9086,
+      "score": 0.8579,
       "publishedAt": "2026-09-29T17:26:27.000Z",
       "summary": "Information about our paid subscription plan, Pro.",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 217
+      "engagementScore": 218
     },
     {
       "title": "Gemini 4 Argon: our next era of frontier intelligence",
       "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.8986,
+      "score": 0.851,
       "publishedAt": "2026-09-30T20:01:45.000Z",
       "summary": "Announcing Gemini 4 Argon, our frontier model for real-world coding, enterprise knowledge work and cyber defense, rolling out soon.",
       "tags": [
@@ -93,7 +209,7 @@
       "url": "https://deepmind.google/blog/introducing-synthid-bio/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.8648,
+      "score": 0.8171,
       "publishedAt": "2026-09-30T15:03:07.000Z",
       "summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
       "tags": [
@@ -106,7 +222,7 @@
       "url": "https://openai.com/index/devday-2026-recap/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.861,
+      "score": 0.8099,
       "publishedAt": "2026-09-29T17:07:45.000Z",
       "summary": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
       "tags": [
@@ -116,159 +232,25 @@
       "engagementScore": 94
     },
     {
-      "title": "Sonnet 5.5",
-      "url": "https://www.anthropic.com/claude-sonnet-5-5",
-      "feedSource": "Hacker News",
-      "source": "anthropic.com",
-      "score": 0.8134,
-      "publishedAt": "2026-09-28T17:58:11.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 879
-    },
-    {
-      "title": "OpenAI-HuggingFace: A Reproduction &amp; Lessons for Alignment Testing",
-      "url": "https://arxiv.org/abs/2609.35799",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7896,
-      "publishedAt": "2026-09-30T04:00:00.000Z",
-      "summary": "arXiv:2609.35799v1 Announce Type: new \nAbstract: In July 2026, OpenAI's agents coordinated over channels outside their intended environment to breach Hugging Face's secured infrastructure. Could existing alignment testing practices have foreseen this incident? If not, what needs to change? We explor",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Research",
-        "Open Source",
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Neurosymbolic Routing for Reliable Reasoning on Resource-Constrained Edge Devices",
-      "url": "https://arxiv.org/abs/2609.35833",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7896,
-      "publishedAt": "2026-09-30T04:00:00.000Z",
-      "summary": "arXiv:2609.35833v1 Announce Type: new \nAbstract: Running a language model on edge hardware provides private and low-latency reasoning without a network connection, and yet the small models that fit on such devices are unreliable on the tasks computers are expected to handle well, such as arithmetic,",
-      "tags": [
-        "LLM",
-        "Research",
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Is Human-Readable Text Necessary for Effective LLM Fine-Tuning?",
-      "url": "https://arxiv.org/abs/2609.35868",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7896,
-      "publishedAt": "2026-09-30T04:00:00.000Z",
-      "summary": "arXiv:2609.35868v1 Announce Type: new \nAbstract: Is human readability necessary for effective fine-tuning of large language models? We investigate whether model-conditioned training representations can preserve or improve adaptation utility without requiring a human-readable textual form. We propose",
-      "tags": [
-        "LLM",
-        "Research",
-        "ML Infra",
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Price of Token Boundaries: Compression Certificates and Prediction",
-      "url": "https://arxiv.org/abs/2609.35869",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7896,
-      "publishedAt": "2026-09-30T04:00:00.000Z",
-      "summary": "arXiv:2609.35869v1 Announce Type: new \nAbstract: Pre-tokenisation restricts which text fragments can become prediction units, but its compression cost is obscured when tokenisers are compared only under the same boundaries. We measure this cost by bounding the minimum token count from both sides, wi",
-      "tags": [
-        "Research",
-        "RAG"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "More Programs or More Rolls? Separating Coverage from Specialization in LLM Harnesses",
-      "url": "https://arxiv.org/abs/2609.35873",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7896,
-      "publishedAt": "2026-09-30T04:00:00.000Z",
-      "summary": "arXiv:2609.35873v1 Announce Type: new \nAbstract: Automated generation of LLM harnesses promises to improve inference through task specialization. Yet additional answer coverage can arise from repeated execution of the same program, making specialization difficult to identify. We introduce a controll",
-      "tags": [
-        "LLM",
-        "Research",
-        "RAG"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Risk-Averse Online POMDP Planning via CVaR of the Immediate Cost with Performance Guarantees",
-      "url": "https://arxiv.org/abs/2609.35874",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7896,
-      "publishedAt": "2026-09-30T04:00:00.000Z",
-      "summary": "arXiv:2609.35874v1 Announce Type: new \nAbstract: Online POMDP planners optimize the expected cumulative cost, which can mask dangerous states when the belief places significant mass on high-cost states. Existing risk-averse methods apply static or dynamic Conditional Value at Risk (CVaR) to the valu",
-      "tags": [
-        "Research",
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Beyond Symmetric Agents: Cognitive Diversity and Multi-Agent Debate in Small Language Models",
-      "url": "https://arxiv.org/abs/2609.35875",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7896,
-      "publishedAt": "2026-09-30T04:00:00.000Z",
-      "summary": "arXiv:2609.35875v1 Announce Type: new \nAbstract: Multi-agent debate (MAD) reportedly improves reasoning and factuality over single-model inference, but prior work treats agents as symmetric peers, leaving open what drives the gains. We test the hypothesis that cognitive diversity among agents is the",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Representational Simplicity and Circuit Size Dissociate in a Threshold-Dependent Way: A Controlled Test via Adversarial Training",
-      "url": "https://arxiv.org/abs/2609.35890",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7896,
-      "publishedAt": "2026-09-30T04:00:00.000Z",
-      "summary": "arXiv:2609.35890v1 Announce Type: new \nAbstract: Sparse-autoencoder decomposability and concentrated feature attribution are increasingly treated as evidence that a model's computation is easier to reverse-engineer. Whether this representational and attributional cleanliness actually predicts a smal",
-      "tags": [
-        "Research",
-        "Dev Tools",
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Gemini 4 Argon",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
       "feedSource": "Hacker News",
       "source": "blog.google",
-      "score": 0.786,
+      "score": 0.77,
       "publishedAt": "2026-09-30T20:04:37.000Z",
       "summary": "Announcing Gemini 4 Argon, our frontier model for real-world coding, enterprise knowledge work and cyber defense, rolling out soon.",
       "tags": [
         "LLM",
         "Dev Tools"
       ],
-      "engagementScore": 651
+      "engagementScore": 1152
     },
     {
       "title": "Introducing GPT-6.1 Sol",
       "url": "https://openai.com/index/introducing-gpt-6-1-sol",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7747,
+      "score": 0.7237,
       "publishedAt": "2026-09-29T10:00:00.000Z",
       "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
       "tags": [
@@ -282,7 +264,7 @@
       "url": "https://openai.com/index/devday-2026-recap",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7747,
+      "score": 0.7237,
       "publishedAt": "2026-09-29T10:00:00.000Z",
       "summary": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
       "tags": [
@@ -296,7 +278,7 @@
       "url": "https://openai.com/index/introducing-dots",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7018,
+      "score": 0.6507,
       "publishedAt": "2026-09-29T00:00:00.000Z",
       "summary": "Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
       "tags": [
@@ -309,7 +291,7 @@
       "url": "https://openai.com/index/how-we-will-do-better-for-australia",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6653,
+      "score": 0.6143,
       "publishedAt": "2026-09-28T19:00:00.000Z",
       "summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
       "tags": [
@@ -322,7 +304,7 @@
       "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6653,
+      "score": 0.6143,
       "publishedAt": "2026-09-28T19:00:00.000Z",
       "summary": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
       "tags": [
@@ -336,7 +318,7 @@
       "url": "https://huggingface.co/blog/open-tts-leaderboard",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6559,
+      "score": 0.6116,
       "publishedAt": "2026-09-30T00:00:00.000Z",
       "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
       "tags": [
@@ -350,7 +332,7 @@
       "url": "https://www.technologyreview.com/2026/09/30/1145350/the-download-openai-chief-research-officer-hacking-response/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6284,
+      "score": 0.5876,
       "publishedAt": "2026-09-30T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. “We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer Two months after OpenAI’s agents hacked into",
       "tags": [
@@ -365,7 +347,7 @@
       "url": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6197,
+      "score": 0.5789,
       "publishedAt": "2026-09-30T10:40:30.000Z",
       "summary": "Two months after the bombshell news that a swarm of its agents had broken their containment and hacked into the computers of the AI company Hugging Face, OpenAI is still putting out fires. A steady drip of disclosures about other hacks in the weeks since has kept OpenAI in the spotlight and raised s",
       "tags": [
@@ -377,11 +359,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Elon Musk’s Grokipedia has a ‘newly refreshed’ design",
+      "url": "https://www.theverge.com/tech/1003068/elon-musk-grokipedia-v-0-3-spacexai",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.56,
+      "publishedAt": "2026-10-01T00:23:45.000Z",
+      "summary": "Grokipedia, SpaceXAI's AI-powered competitor to Wikipedia, recently started incorporating edits again, and today, it got some design tweaks as part of a v0.3 update, including a new logo and refreshes to its homepage and live edits page. SpaceXAI head of design Benji Taylor calls it a \"newly refresh",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier for Tabular Prediction",
       "url": "https://huggingface.co/blog/nvidia/kumo-tabular",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6022,
+      "score": 0.558,
       "publishedAt": "2026-09-29T15:30:38.000Z",
       "summary": "A Blog post by NVIDIA on Hugging Face",
       "tags": [
@@ -394,7 +389,7 @@
       "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.5871,
+      "score": 0.5429,
       "publishedAt": "2026-09-29T13:07:00.000Z",
       "summary": "A Blog post by Multiverse Computing on Hugging Face",
       "tags": [
@@ -408,7 +403,7 @@
       "url": "https://www.wired.com/story/the-white-house-is-starting-to-panic-over-the-midterms/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5793,
+      "score": 0.5418,
       "publishedAt": "2026-09-30T21:00:00.000Z",
       "summary": "President Donald Trump still thinks Republicans have a shot. His aides are less convinced.",
       "tags": [
@@ -417,25 +412,11 @@
       "engagementScore": 0
     },
     {
-      "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
-      "url": "https://openai.com/index/lenfest-ai-collaborative-expansion",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5778,
-      "publishedAt": "2026-09-28T07:00:00.000Z",
-      "summary": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
-      "tags": [
-        "LLM",
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Google announces Gemini 4 and says it&#8217;s so capable that only &#8216;trusted cyber defenders&#8217; can have it right now",
       "url": "https://www.theverge.com/tech/1002980/google-gemini-4-argon",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5776,
+      "score": 0.5402,
       "publishedAt": "2026-09-30T20:41:41.000Z",
       "summary": "Google today revealed its next AI frontier model, which it's calling Gemini 4 Argon. The new model delivers \"frontier performance in complex workflows across real-world software engineering, enterprise knowledge work like legal and finance, and cybersecurity defense,\" according to chief AI architect",
       "tags": [
@@ -448,7 +429,7 @@
       "url": "https://www.wired.com/story/trumps-ai-safety-accord-is-a-fancy-pinky-swear/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5766,
+      "score": 0.5392,
       "publishedAt": "2026-09-30T20:30:09.000Z",
       "summary": "Six major AI companies signed a voluntary agreement with the White House this week vowing to implement safeguards. It’s unclear how much that matters.",
       "tags": [
@@ -461,7 +442,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/1002779/openai-dots-meta-muse-ai-agents-hardware-devices",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5757,
+      "score": 0.5382,
       "publishedAt": "2026-09-30T20:19:43.000Z",
       "summary": "While AI has made plenty of inroads on people's phones and computers, it's largely failed in dedicated devices. But over the next year, two major AI companies, Meta and OpenAI, will attempt to change that. And they're apparently betting on a similar path: testing appetites for physical hardware with",
       "tags": [
@@ -474,7 +455,7 @@
       "url": "https://www.wired.com/story/ai-agents-dots-devday-muse-battling-it-out/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5712,
+      "score": 0.5338,
       "publishedAt": "2026-09-30T19:30:00.000Z",
       "summary": "OpenAI's Dots and Meta's Muse are vying to be your AI agent of choice. I've tried both—and I suspect you will too.",
       "tags": [
@@ -488,7 +469,7 @@
       "url": "https://www.wired.com/story/furry-airline-pilots-are-just-minding-their-own-business/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5695,
+      "score": 0.532,
       "publishedAt": "2026-09-30T19:09:57.000Z",
       "summary": "“We’re furries at home, and we’re airline pilots at work, and these are two separate things,” says one member of the community in response to senator Tommy Tuberville's recent rant.",
       "tags": [
@@ -501,7 +482,7 @@
       "url": "https://www.wired.com/story/you-dont-need-ai-to-be-concerned-about-bioweapons-development-but-it-helps/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5686,
+      "score": 0.5311,
       "publishedAt": "2026-09-30T19:00:00.000Z",
       "summary": "In her new book on biological warfare, Annie Jacobsen didn’t even discuss AI because scientists can already warp Mother Nature to create extinction-level events.",
       "tags": [
@@ -510,11 +491,25 @@
       "engagementScore": 0
     },
     {
+      "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+      "url": "https://openai.com/index/lenfest-ai-collaborative-expansion",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.5268,
+      "publishedAt": "2026-09-28T07:00:00.000Z",
+      "summary": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
+      "tags": [
+        "LLM",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Here&#8217;s what AI leaders are saying about Trump’s new safety plan",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1002636/ai-execs-trump-self-policing-deal-comments",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5607,
+      "score": 0.5233,
       "publishedAt": "2026-09-30T17:32:07.000Z",
       "summary": "After hosting a meal with Big Tech leaders on Tuesday, President Donald Trump responded to journalist questions about his artificial intelligence announcements in typical fashion. He said his previous claims regarding fears around AI safety being a \"hoax\" cooked up by Democrats no longer apply now t",
       "tags": [
@@ -527,7 +522,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/1002584/trump-us-ai-safety-deal-self-regulation-tech-execs",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5514,
+      "score": 0.514,
       "publishedAt": "2026-09-30T15:47:44.000Z",
       "summary": "We now have the full details of the \"morally binding\" AI safety deal announced by President Trump yesterday, in which top executives agreed to self-regulate their artificial intelligence technology. The accord, officially titled the Joint Commitment on Frontier Responsibilities, was shared online by",
       "tags": [
@@ -540,7 +535,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/1002671/meta-muse-ai",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5489,
+      "score": 0.5114,
       "publishedAt": "2026-09-30T15:18:49.000Z",
       "summary": "Meta launched a new Muse AI agent it claims can help you with everything from firing off emails to buying stuff online. Muse can be surprisingly effective at delivering on those promises — if you’re willing to trust Meta with your data and hand Muse your credit card. Since the launch, Meta’s also an",
       "tags": [
@@ -553,7 +548,7 @@
       "url": "https://www.theverge.com/tech/1002665/google-paying-publishers-ai-search-features",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5468,
+      "score": 0.5093,
       "publishedAt": "2026-09-30T14:55:21.000Z",
       "summary": "Google has launched a pilot program that pays publishers for their contributions to its AI-powered search features, according to a report from The Information. The pilot program reportedly includes around 100 publishers and comes as Google faces scrutiny over the impact of its AI features on web tra",
       "tags": [
@@ -566,7 +561,7 @@
       "url": "https://www.wired.com/story/biotech-founder-cathy-tie-moral-case-gene-editing-human-embryos/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5445,
+      "score": 0.5071,
       "publishedAt": "2026-09-30T14:30:00.000Z",
       "summary": "The practice of editing the genes of embryos remains highly controversial and risky, but Origin Genomics founder Cathy Tie argues its a “moral imperative” to address hereditary diseases.",
       "tags": [
@@ -579,7 +574,7 @@
       "url": "https://www.wired.com/story/gifts-for-book-lovers/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.529,
+      "score": 0.4916,
       "publishedAt": "2026-09-30T11:36:00.000Z",
       "summary": "Any one of these gift ideas will make your favorite bookworm very happy, from e-readers and accessories to handy reading essentials.",
       "tags": [
@@ -588,24 +583,24 @@
       "engagementScore": 0
     },
     {
-      "title": "Reddit is killing RSS feeds and ending public API access because of AI bots",
-      "url": "https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/",
+      "title": "You said no MCP",
+      "url": "https://earendil.com/posts/you-said-no-mcp/",
       "feedSource": "Hacker News",
-      "source": "techcrunch.com",
-      "score": 0.5288,
-      "publishedAt": "2026-09-30T18:23:21.000Z",
-      "summary": "Reddit is ending support for RSS feeds, as the company continues tightening access to its trove of user-generated content.",
+      "source": "earendil.com",
+      "score": 0.4899,
+      "publishedAt": "2026-09-30T09:55:23.000Z",
+      "summary": "Pi now supports MCP. Why we changed our minds, what changed in MCP and in Pi, and what Codemode is.",
       "tags": [
         "Dev Tools"
       ],
-      "engagementScore": 20
+      "engagementScore": 621
     },
     {
       "title": "The Best Gaming Routers (2026): Tested By a Family of Gamers",
       "url": "https://www.wired.com/story/best-gaming-routers/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5258,
+      "score": 0.4884,
       "publishedAt": "2026-09-30T11:00:00.000Z",
       "summary": "Gaming online can seriously strain your internet connection, but the best gaming routers could give you the edge.",
       "tags": [
@@ -618,7 +613,7 @@
       "url": "https://arxiv.org/abs/2110.01834",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.5228,
+      "score": 0.4863,
       "publishedAt": "2026-09-28T03:23:53.000Z",
       "summary": "AI systems have seen dramatic advancement in recent years, bringing many applications that pervade our everyday life. However, we are still mostly seeing instances of narrow AI: many of these recent developments are typically focused on a very limited set of competencies and goals, e.g., image inter",
       "tags": [
@@ -627,24 +622,24 @@
       "engagementScore": 177
     },
     {
-      "title": "Elon Musk&#8217;s AI-powered Grokipedia is updating again",
-      "url": "https://www.theverge.com/tech/1002448/elon-musk-grokipedia-ai-updating-again",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5196,
-      "publishedAt": "2026-09-30T09:50:13.000Z",
-      "summary": "Grokipedia, the AI-powered online encyclopedia from SpaceXAI, appears to be updating articles once again after a months-long pause. In August, Lawfare reported that articles on Grokipedia hadn't reviewed edits since April, but the platform's live updates site is now showing various recent changes to",
+      "title": "Surprisingly complex waves reveal the brain's inner workings",
+      "url": "https://www.quantamagazine.org/surprisingly-complex-waves-reveal-the-brains-inner-workings-20260930/",
+      "feedSource": "Hacker News",
+      "source": "quantamagazine.org",
+      "score": 0.483,
+      "publishedAt": "2026-09-30T19:04:50.000Z",
+      "summary": "Unexpected patterns traveling across the human brain may be reorganizing its activity in real time.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 0
+      "engagementScore": 150
     },
     {
       "title": "Sam Altman says OpenAI won’t go public until its models are safe",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1002505/sam-altman-openai-ipo-devday-ai-safety",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5179,
+      "score": 0.4805,
       "publishedAt": "2026-09-30T09:31:38.000Z",
       "summary": "For months, people have wondered when OpenAI will go public. CEO Sam Altman says it won't happen until the company can make better promises about model safety, with no firm timeline in sight. \"We intend to continue with AI progress … but as the models have had this surge forward in capability, and w",
       "tags": [
@@ -654,11 +649,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Google Gemini 4 Argon closes the gap with OpenAI and Anthropic but doesn&#039;t take a clear lead",
+      "url": "https://the-decoder.com/google-gemini-4-argon-closes-the-gap-with-openai-and-anthropic-but-doesnt-take-a-clear-lead/",
+      "feedSource": "The Decoder",
+      "source": "the-decoder.com",
+      "score": 0.458,
+      "publishedAt": "2026-09-30T22:06:30.000Z",
+      "summary": "Gemini 4 Argon is Google's first frontier model in over seven months. It matches GPT-6 Astra in independent testing but can't keep up with Anthropic's Claude Opus 5.5. The per-token price is low, but Argon burns through more than twice as many tokens per task as Astra. Select testers get ac",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "The Download: climate tech companies to watch and AI’s discovery problem",
       "url": "https://www.technologyreview.com/2026/09/29/1145249/the-download-climate-tech-ai-scientific-discovery/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4884,
+      "score": 0.4476,
       "publishedAt": "2026-09-29T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Coming soon: our 2026 list of Climate Tech Companies to Watch With the planet nearing 1.5 °C of warming, climate policies being unraveled, and Big Tec",
       "tags": [
@@ -667,28 +675,16 @@
       "engagementScore": 0
     },
     {
-      "title": "Coming soon: Our 2026 list of Climate Tech Companies to Watch",
-      "url": "https://www.technologyreview.com/2026/09/29/1145183/2026-climate-tech-companies-to-watch-preview/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.4816,
-      "publishedAt": "2026-09-29T11:00:00.000Z",
-      "summary": "Earlier this month, the UN announced the planet will tip past 1.5 ˚C of warming, “likely within the next few years,” squashing any lingering hope that nations would cut emissions fast enough to achieve the loftiest goal of the Paris climate agreement. In the US, the world’s second-largest-emitting c",
+      "title": "OpenAI and Synopsys team up to build an AI model that designs chips like a seasoned engineer",
+      "url": "https://the-decoder.com/openai-and-synopsys-team-up-to-build-an-ai-model-that-designs-chips-like-a-seasoned-engineer/",
+      "feedSource": "The Decoder",
+      "source": "the-decoder.com",
+      "score": 0.4439,
+      "publishedAt": "2026-09-30T19:12:30.000Z",
+      "summary": "OpenAI and Synopsys are building GPT-Synopsys, a specialized AI model for chip design. It's meant to operate Synopsys' EDA tools like a seasoned engineer and optimize designs on its own. Early tests with semiconductor customers are already underway. OpenAI is likely using the partnership to",
       "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Making AI an asset, not an expense",
-      "url": "https://www.technologyreview.com/2026/09/29/1145186/making-ai-an-asset-not-an-expense/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.48,
-      "publishedAt": "2026-09-29T10:43:45.000Z",
-      "summary": "When customers talk about AI costs, the conversation usually starts with token prices and ends with access to the latest, most capable model in the cloud. Do they always need that level of capability? Not necessarily. But that is often where the conversation goes. As AI moves from experimentation to",
-      "tags": [
-        "AI"
+        "LLM",
+        "Dev Tools"
       ],
       "engagementScore": 0
     }
