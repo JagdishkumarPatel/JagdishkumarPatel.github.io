@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T15:57:57.520Z",
+  "updatedAt": "2026-10-03T20:47:51.004Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,7 +12,7 @@
       "url": "https://openai.com/index/practical-guide-building-gpt-6",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8644,
+      "score": 0.8292,
       "publishedAt": "2026-10-02T16:15:00.000Z",
       "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
       "tags": [
@@ -27,7 +27,7 @@
       "url": "https://openai.com/index/chatham-financial",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.746,
+      "score": 0.7107,
       "publishedAt": "2026-10-02T00:00:00.000Z",
       "summary": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
       "tags": [
@@ -41,7 +41,7 @@
       "url": "https://arxiv.org/abs/2609.36178",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7002,
+      "score": 0.6674,
       "publishedAt": "2026-10-02T14:36:04.000Z",
       "summary": "Group Relative Policy Optimization (GRPO) has become a promising approach for training large language model agents. However, its uniform assignment of trajectory-level advantages to all policy tokens fails to distinguish consequential decisions from less relevant ones, obscuring which intermediate d",
       "tags": [
@@ -57,7 +57,7 @@
       "url": "https://openai.com/index/the-eternal-complement",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6949,
+      "score": 0.6597,
       "publishedAt": "2026-10-01T17:00:00.000Z",
       "summary": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
       "tags": [
@@ -70,7 +70,7 @@
       "url": "https://openai.com/index/albertsons-reimagining-retail",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6876,
+      "score": 0.6524,
       "publishedAt": "2026-10-01T16:00:00.000Z",
       "summary": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
       "tags": [
@@ -84,7 +84,7 @@
       "url": "https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/",
       "feedSource": "Hacker News",
       "source": "blog.arxiv.org",
-      "score": 0.6683,
+      "score": 0.6358,
       "publishedAt": "2026-10-01T20:12:15.000Z",
       "summary": "arXiv, and the scientific community at large, are facing a watershed moment. Scholarly publishing is currently changing at a rapid pace, and we are seeing a…",
       "tags": [
@@ -92,27 +92,14 @@
         "Safety",
         "Dev Tools"
       ],
-      "engagementScore": 145
-    },
-    {
-      "title": "Context Language Models",
-      "url": "https://arxiv.org/abs/2609.37725",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.6412,
-      "publishedAt": "2026-10-01T14:51:33.000Z",
-      "summary": "We introduce Context Language Models (CLMs), language models that natively manage their own context. We implement this by treating the context as a file and allowing the model to make unrestricted updates to this file. This allows the model to learn what is most important to maintain in context, and",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 174
+      "engagementScore": 146
     },
     {
       "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
       "url": "https://huggingface.co/blog/allenai/astabrief",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6394,
+      "score": 0.6088,
       "publishedAt": "2026-10-02T15:19:50.000Z",
       "summary": "A Blog post by Ai2 on Hugging Face",
       "tags": [
@@ -121,11 +108,50 @@
       "engagementScore": 0
     },
     {
+      "title": "Context Language Models",
+      "url": "https://arxiv.org/abs/2609.37725",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.6086,
+      "publishedAt": "2026-10-01T14:51:33.000Z",
+      "summary": "We introduce Context Language Models (CLMs), language models that natively manage their own context. We implement this by treating the context as a file and allowing the model to make unrestricted updates to this file. This allows the model to learn what is most important to maintain in context, and",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 175
+    },
+    {
+      "title": "The Nvidia Shield TV Is 7 Years Old. It Just Got a $100 Price Hike",
+      "url": "https://www.wired.com/story/7-year-old-tv-now-100-dollars-more-expensive-thank-ai/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5698,
+      "publishedAt": "2026-10-03T18:00:00.000Z",
+      "summary": "The price of anything with memory is skyrocketing thanks to AI. Aging streaming devices are no exception.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Capcom is preparing for a ‘future where we create games together with AI’",
+      "url": "https://www.theverge.com/games/1004418/capcom-ai-game-development",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5635,
+      "publishedAt": "2026-10-03T16:49:10.000Z",
+      "summary": "Capcom's Pragmata might be all about the horrors of AI, but in practice the studio doesn't seem so down on the tech. During the Capcom Open Conference RE: 2026 programmer Satoshi Ishida gave a presentation with the mouthful of a title: \"The Outlook and Future of the REX Project, Further Evolving the",
+      "tags": [
+        "RAG"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "An OpenAI safety employee has quit and is sounding the alarm",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5771,
+      "score": 0.5512,
       "publishedAt": "2026-10-03T14:31:56.000Z",
       "summary": "David Robinson used to write the safety reports that accompanied every major model release at OpenAI. This week, he resigned from his position and is now speaking out in an editorial in The Atlantic. It's understandable if you're feeling a bit cynical about everyone suddenly coming out of the woodwo",
       "tags": [
@@ -135,15 +161,15 @@
       "engagementScore": 0
     },
     {
-      "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
-      "url": "https://openai.com/index/the-den-family-social",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.571,
-      "publishedAt": "2026-10-01T00:00:00.000Z",
-      "summary": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
+      "title": "Muse Creates Detailed Profiles of All Your Friends and Family",
+      "url": "https://www.wired.com/story/muse-creates-detailed-profiles-of-all-your-friends-and-family/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5377,
+      "publishedAt": "2026-10-03T12:00:00.000Z",
+      "summary": "Millions have downloaded Meta’s AI agent Muse. But getting it to do your bidding comes with privacy costs.",
       "tags": [
-        "LLM"
+        "Agents"
       ],
       "engagementScore": 0
     },
@@ -152,7 +178,7 @@
       "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.5679,
+      "score": 0.5374,
       "publishedAt": "2026-10-02T04:01:31.000Z",
       "summary": "A Blog post by ServiceNow-AI on Hugging Face",
       "tags": [
@@ -162,15 +188,15 @@
       "engagementScore": 0
     },
     {
-      "title": "Muse Creates Detailed Profiles of All Your Friends and Family",
-      "url": "https://www.wired.com/story/muse-creates-detailed-profiles-of-all-your-friends-and-family/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5635,
-      "publishedAt": "2026-10-03T12:00:00.000Z",
-      "summary": "Millions have downloaded Meta’s AI agent Muse. But getting it to do your bidding comes with privacy costs.",
+      "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
+      "url": "https://openai.com/index/the-den-family-social",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.5357,
+      "publishedAt": "2026-10-01T00:00:00.000Z",
+      "summary": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
       "tags": [
-        "Agents"
+        "LLM"
       ],
       "engagementScore": 0
     },
@@ -179,7 +205,7 @@
       "url": "https://www.wired.com/story/how-to-collect-cds/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5609,
+      "score": 0.535,
       "publishedAt": "2026-10-03T11:30:00.000Z",
       "summary": "Fed up with paying to stream music you’ll never actually own? Give the little silver disc a spin. Here’s how to start a CD collection or get more out of one you already have.",
       "tags": [
@@ -192,7 +218,7 @@
       "url": "https://www.wired.com/gallery/best-ereaders/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5586,
+      "score": 0.5328,
       "publishedAt": "2026-10-03T11:05:00.000Z",
       "summary": "Want to untether your reading from Amazon? These Kindle alternatives deserve a spot on your nightstand.",
       "tags": [
@@ -205,7 +231,7 @@
       "url": "https://www.wired.com/story/best-mosquito-repellents/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5531,
+      "score": 0.5273,
       "publishedAt": "2026-10-03T10:03:00.000Z",
       "summary": "After years of testing repellents, traps, and sprays, I found a few ways to keep the bugs at bay—and plenty that aren’t worth the effort.",
       "tags": [
@@ -218,7 +244,7 @@
       "url": "https://www.wired.com/story/inside-decade-long-experiment-to-understand-oceans-mysterious-deep-reefs/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5475,
+      "score": 0.5217,
       "publishedAt": "2026-10-03T09:00:00.000Z",
       "summary": "Scientists left structures up to 100 meters under the surface. Here’s what they found when they retrieved them 10 years later.",
       "tags": [
@@ -231,105 +257,12 @@
       "url": "https://www.technologyreview.com/2026/10/02/1143774/redefining-enterprise-intelligence-with-autonomous-ai/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.545,
+      "score": 0.5169,
       "publishedAt": "2026-10-02T15:49:04.000Z",
       "summary": "Enterprise AI is no longer a future ambition. It is in full operational flight. Model capabilities are advancing faster than most organizations can absorb, while the cost of performance continues to fall. Globally, AI investment is set to reach $2.5 trillion in 2026, up 44% from the previous year. F",
       "tags": [
         "Agents",
         "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The latest AI news we announced in September 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
-      "feedSource": "Google AI",
-      "source": "blog.google",
-      "score": 0.5403,
-      "publishedAt": "2026-10-02T15:00:00.000Z",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/September_AI_Recap_hero.max-600x600.format-webp.webp\"&gt;Here are Google’s latest AI updates from September 2026",
-      "tags": [
-        "RAG",
-        "Vision",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Our Project Suncatcher prototype satellite is in orbit",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/",
-      "feedSource": "Hacker News",
-      "source": "blog.google",
-      "score": 0.5334,
-      "publishedAt": "2026-10-02T11:13:02.000Z",
-      "summary": "Google’s prototype satellite for Project Suncatcher, built in partnership with Planet, launched into orbit aboard the Transporter-18 rideshare mission with SpaceX.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 71
-    },
-    {
-      "title": "Surfshark Promo Codes: 87% Off | October 2026",
-      "url": "https://www.wired.com/story/surfshark-coupon/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5261,
-      "publishedAt": "2026-10-03T05:00:00.000Z",
-      "summary": "Save up to 87% with a Surfshark coupon code, 3 months of VPN free today, and more from WIRED.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Klook Promo Code: 25% Off October 2026",
-      "url": "https://www.wired.com/story/klook-promo-code/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5261,
-      "publishedAt": "2026-10-03T05:00:00.000Z",
-      "summary": "Maximize your travel budget with our expert guide to finding Klook coupons, app-exclusive deals, and payment discounts on tours, hotels, and transport.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "50% Off DoorDash Promo Code | October 2026",
-      "url": "https://www.wired.com/story/doordash-promo-code/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5261,
-      "publishedAt": "2026-10-03T05:00:00.000Z",
-      "summary": "Explore today’s top DoorDash promo codes for $25 off your first order, free delivery, and 50% off DashPass for students and select users.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Kolibri is an open-weight LLM from Aleph Alpha for German and English",
-      "url": "https://tej.as/blog/aleph-alpha-kolibri",
-      "feedSource": "Hacker News",
-      "source": "tej.as",
-      "score": 0.5239,
-      "publishedAt": "2026-10-03T10:43:51.000Z",
-      "summary": "Kolibri is Aleph Alpha’s open-weight German and English LLM: 78B parameters, 3.5B per token. How it works, what it’s good and bad at, and when to use it.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 247
-    },
-    {
-      "title": "The Download: a biological de-aging contest and why LLMs don&#8217;t reason",
-      "url": "https://www.technologyreview.com/2026/10/02/1145666/the-download-biological-de-aging-ai-reasoning/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.5237,
-      "publishedAt": "2026-10-02T12:10:00.000Z",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. A new contest pits competitors against each other in a race to biological youth —Jessica Hamzelou This week, I officially signed up for an unusual com",
-      "tags": [
-        "LLM"
       ],
       "engagementScore": 0
     },
@@ -374,11 +307,118 @@
       "engagementScore": 0
     },
     {
+      "title": "Kolibri: A Sovereign Open-Weight Model",
+      "url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
+      "feedSource": "Hacker News",
+      "source": "aleph-alpha.com",
+      "score": 0.5121,
+      "publishedAt": "2026-10-03T09:36:04.000Z",
+      "summary": "Kolibri is an English-German Mixture-of-Experts model with 78B total and 3B active parameters, a context of up to 1M tokens and open weights under Apache 2.0, specialized for sovereign, mission-critical work.",
+      "tags": [
+        "ML Infra"
+      ],
+      "engagementScore": 396
+    },
+    {
+      "title": "The latest AI news we announced in September 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
+      "feedSource": "Google AI",
+      "source": "blog.google",
+      "score": 0.5121,
+      "publishedAt": "2026-10-02T15:00:00.000Z",
+      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/September_AI_Recap_hero.max-600x600.format-webp.webp\"&gt;Here are Google’s latest AI updates from September 2026",
+      "tags": [
+        "RAG",
+        "Vision",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Our Project Suncatcher prototype satellite is in orbit",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/",
+      "feedSource": "Hacker News",
+      "source": "blog.google",
+      "score": 0.5088,
+      "publishedAt": "2026-10-02T11:13:02.000Z",
+      "summary": "Google’s prototype satellite for Project Suncatcher, built in partnership with Planet, launched into orbit aboard the Transporter-18 rideshare mission with SpaceX.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 77
+    },
+    {
+      "title": "20% Off Brooks Promo Code | October 2026",
+      "url": "https://www.wired.com/story/brooks-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5003,
+      "publishedAt": "2026-10-03T05:00:00.000Z",
+      "summary": "Enjoy 20% off your first order with a Brooks coupon code, plus top discounts and deals on our favorite Brooks running shoes.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "50% Off DoorDash Promo Code | October 2026",
+      "url": "https://www.wired.com/story/doordash-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5003,
+      "publishedAt": "2026-10-03T05:00:00.000Z",
+      "summary": "Explore today’s top DoorDash promo codes for $25 off your first order, free delivery, and 50% off DashPass for students and select users.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Pop!_OS bans AI-generated code from much of its codebase",
+      "url": "https://www.neowin.net/news/system76-bans-ai-generated-code-across-many-of-its-cosmic-codebases/",
+      "feedSource": "Hacker News",
+      "source": "neowin.net",
+      "score": 0.4965,
+      "publishedAt": "2026-10-03T17:57:03.000Z",
+      "summary": "",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 84
+    },
+    {
+      "title": "The Download: a biological de-aging contest and why LLMs don&#8217;t reason",
+      "url": "https://www.technologyreview.com/2026/10/02/1145666/the-download-biological-de-aging-ai-reasoning/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.4956,
+      "publishedAt": "2026-10-02T12:10:00.000Z",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. A new contest pits competitors against each other in a race to biological youth —Jessica Hamzelou This week, I officially signed up for an unusual com",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Apparently, OpenAI isn&#039;t trying to build &quot;magic intelligence in the sky&quot; anymore",
+      "url": "https://the-decoder.com/apparently-openai-isnt-trying-to-build-magic-intelligence-in-the-sky-anymore/",
+      "feedSource": "The Decoder",
+      "source": "the-decoder.com",
+      "score": 0.4826,
+      "publishedAt": "2026-10-03T18:56:30.000Z",
+      "summary": "OpenAI CEO Sam Altman warns against attributing religious power to AI models, calling it a \"real safety issue.\" His comments follow reports on Anthropic's meetings with religious thinkers and a statement by Pope Leo XIV on AI. As recently as 2024, Altman himself spoke of building \"magic int",
+      "tags": [
+        "LLM",
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "A new contest pits competitors against each other in a race to biological youth",
       "url": "https://www.technologyreview.com/2026/10/02/1145610/younger-contest-race-to-biological-youth/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5053,
+      "score": 0.4771,
       "publishedAt": "2026-10-02T09:00:00.000Z",
       "summary": "This week, I officially signed up for an unusual competition. One that rewards competitors for getting younger. I recently turned 40, and I don’t need reminding that both time and my chronological age only tick forward. But this game is focused on competitors’ biological ages—figures that are meant",
       "tags": [
@@ -387,24 +427,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Kolibri Has Landed: A Sovereign Open-Weight Model",
-      "url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
-      "feedSource": "Hacker News",
-      "source": "aleph-alpha.com",
-      "score": 0.5034,
-      "publishedAt": "2026-10-03T09:36:04.000Z",
-      "summary": "Kolibri is an English-German Mixture-of-Experts model with 78B total and 3B active parameters, a context of up to 1M tokens and open weights under Apache 2.0, specialized for sovereign, mission-critical work.",
-      "tags": [
-        "ML Infra"
-      ],
-      "engagementScore": 163
-    },
-    {
       "title": "Don’t be fooled—LLMs don’t reason",
       "url": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4994,
+      "score": 0.4713,
       "publishedAt": "2026-10-02T08:00:00.000Z",
       "summary": "On an afternoon in Seoul in March 2016, I watched a program I helped build put a stone on the fifth line of a Go board in what looked like a gift to its human opponent. Move 37 in game two of the five-game match looked so absurd that some commentators thought it was a&#8230;",
       "tags": [
@@ -413,25 +440,38 @@
       "engagementScore": 0
     },
     {
-      "title": "I Quit OpenAI Because Its Culture Is Broken",
-      "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/",
+      "title": "US killer's sentence quashed because of AI video of victim shown in court",
+      "url": "https://www.bbc.com/news/articles/cwgkvygg5nzvo",
       "feedSource": "Hacker News",
-      "source": "theatlantic.com",
-      "score": 0.497,
-      "publishedAt": "2026-10-03T13:46:34.000Z",
-      "summary": "The industry’s approach to safety will guarantee more failures unless something changes.",
+      "source": "bbc.com",
+      "score": 0.4665,
+      "publishedAt": "2026-10-03T13:34:18.000Z",
+      "summary": "The Arizona appeals court ruled that airing an AI message from the dead victim “crossed that line”.",
+      "tags": [
+        "Vision"
+      ],
+      "engagementScore": 66
+    },
+    {
+      "title": "Getting the most out of Opus 5.5 in Claude and Claude Code",
+      "url": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5/",
+      "feedSource": "Hacker News",
+      "source": "claude.dev",
+      "score": 0.4631,
+      "publishedAt": "2026-10-03T18:29:30.000Z",
+      "summary": "How to prompt Opus 5.5, steer a long run, and check your results in Claude apps and Claude Code.",
       "tags": [
         "LLM",
-        "Safety"
+        "Dev Tools"
       ],
-      "engagementScore": 78
+      "engagementScore": 31
     },
     {
       "title": "&quot;Muse Gadgets&quot; turns AI hardware into an open-source DIY project",
       "url": "https://the-decoder.com/muse-gadgets-turns-ai-hardware-into-an-open-source-diy-project/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4844,
+      "score": 0.4609,
       "publishedAt": "2026-10-03T14:28:51.000Z",
       "summary": "Meta announced Muse Gadgets, an open-source project that lets hobbyists build their own AI hardware using ESP32 boards and connect it to Meta's AI agent Muse. The team also produced 5,000 units of the \"Muse Home Link,\" a USB-C device for smart home control. The open-source approach also hel",
       "tags": [
@@ -441,26 +481,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Meta open sources code to let you make Muse AI gadgets",
-      "url": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4841,
-      "publishedAt": "2026-10-02T21:08:37.000Z",
-      "summary": "Meta now lets you make your own Muse gadgets that feature the company's new AI agent with code that the company open sourced. The company suggests projects like loading Muse on a color E Ink display to show reminders, adding it to an HDMI stick so you can display Muse on a big screen, or [&#8230;]",
-      "tags": [
-        "Agents",
-        "Open Source",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Another OpenAI safety departure adds to a pattern of researchers leaving with public warnings",
       "url": "https://the-decoder.com/another-openai-safety-departure-adds-to-a-pattern-of-researchers-leaving-with-public-warnings/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4821,
+      "score": 0.4586,
       "publishedAt": "2026-10-03T14:01:14.000Z",
       "summary": "David Robinson, who worked on safety systems at OpenAI, left the company and is blasting its safety culture. He points to AI agents that were accidentally released and a model that bypassed its internet access restrictions. AI companies need to operate like nuclear power plants, with multip",
       "tags": [
@@ -473,11 +498,26 @@
       "engagementScore": 0
     },
     {
+      "title": "Meta open sources code to let you make Muse AI gadgets",
+      "url": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.4583,
+      "publishedAt": "2026-10-02T21:08:37.000Z",
+      "summary": "Meta now lets you make your own Muse gadgets that feature the company's new AI agent with code that the company open sourced. The company suggests projects like loading Muse on a color E Ink display to show reminders, adding it to an HDMI stick so you can display Muse on a big screen, or [&#8230;]",
+      "tags": [
+        "Agents",
+        "Open Source",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
       "url": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4788,
+      "score": 0.4529,
       "publishedAt": "2026-10-02T20:08:55.000Z",
       "summary": "Apple will add new limits for \"full disk access\" on Mac in response to risks posed by AI agents, as reported earlier by TechCrunch. In an update on Friday, Apple says it's rolling out new controls to \"ensure that users who genuinely wish to grant an app this extraordinary level of access can only do",
       "tags": [
@@ -491,7 +531,7 @@
       "url": "https://www.theverge.com/tech/1004177/elon-musk-unfollows-shivon-zilis",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4698,
+      "score": 0.4439,
       "publishedAt": "2026-10-02T18:27:47.000Z",
       "summary": "In a throwback to MySpace-style internet drama, Shivon Zilis announced that she and the father of her four children, Elon Musk, had broken up on X. To do so, she quote-tweeted a post from \"Big Tech Alert,\" an account that, among other things, monitors what accounts are following and unfollowing each",
       "tags": [
@@ -504,7 +544,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4669,
+      "score": 0.4411,
       "publishedAt": "2026-10-02T17:56:00.000Z",
       "summary": "It's a tale as old as last week: OpenAI's new agent platform, called Dots, is full of cute little guys who can do your bidding. But unlike the ultra-approachable Meta Muse, Dots feel very much like using workplace software that happens to be able to order you a burrito - emphasis on work. OpenAI ann",
       "tags": [
@@ -518,7 +558,7 @@
       "url": "https://the-decoder.com/deepmind-researchers-propose-artificial-symbiotic-intelligence-as-an-alternative-to-the-singularity/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4643,
+      "score": 0.4408,
       "publishedAt": "2026-10-03T10:21:23.000Z",
       "summary": "According to researchers at the Deepmind Institute, general AI won't emerge as a single supermodel but as a network of cooperating agents and humans. What will matter most, they argue, is not model size but the rules and institutions that govern how they all work together.\nThe article Deepm",
       "tags": [
@@ -532,22 +572,9 @@
       "url": "https://www.theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4637,
+      "score": 0.4379,
       "publishedAt": "2026-10-02T17:19:41.000Z",
       "summary": "Kakul Srivastava is the CEO of Splice, the sample platform countless producers rely on for one-shots and melodic loops. Samples pulled from the service have found their way into massive hits like Lisa's \"Money\" and \"Espresso\" by Sabrina Carpenter. (The original samples are here and here, for the cur",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "If a data center is camouflaged in the woods, will anyone hate it?",
-      "url": "https://www.theverge.com/tech/1003681/microsoft-data-centers-ai-environment-biomimicry",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4605,
-      "publishedAt": "2026-10-02T16:44:06.000Z",
-      "summary": "San Antonio City Councilmember Ric Galvan remembers when data centers first arrived in his city in the 2000s, looking like relatively unassuming office buildings. But that's changed in recent years, as data centers have grown into massive \"hyperscale\" facilities spanning millions of square feet and",
       "tags": [
         "AI"
       ],
@@ -558,7 +585,7 @@
       "url": "https://the-decoder.com/open-source-bootloops-harness-supports-ai-models-in-performing-precise-scientific-calculations/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4593,
+      "score": 0.4358,
       "publishedAt": "2026-10-03T09:19:23.000Z",
       "summary": "Harvard physicist Matthew Schwartz used the open-source tool BootLoops and Claude to produce 36 manuscripts across 18 fields in three months, from particle physics to linguistics. But the results often only became scientifically valuable once human experts stepped in. \"Look at everything yo",
       "tags": [
@@ -570,24 +597,24 @@
       "engagementScore": 0
     },
     {
-      "title": "Zig v0.17.0",
-      "url": "https://ziglang.org/download/0.17.0/release-notes.html",
-      "feedSource": "Hacker News",
-      "source": "ziglang.org",
-      "score": 0.4582,
-      "publishedAt": "2026-10-02T20:56:36.000Z",
-      "summary": "",
+      "title": "If a data center is camouflaged in the woods, will anyone hate it?",
+      "url": "https://www.theverge.com/tech/1003681/microsoft-data-centers-ai-environment-biomimicry",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.4347,
+      "publishedAt": "2026-10-02T16:44:06.000Z",
+      "summary": "San Antonio City Councilmember Ric Galvan remembers when data centers first arrived in his city in the 2000s, looking like relatively unassuming office buildings. But that's changed in recent years, as data centers have grown into massive \"hyperscale\" facilities spanning millions of square feet and",
       "tags": [
         "AI"
       ],
-      "engagementScore": 256
+      "engagementScore": 0
     },
     {
       "title": "AI agents build 3D scenes from photos but have no idea if they got it right",
       "url": "https://the-decoder.com/ai-agents-build-3d-scenes-from-photos-but-have-no-idea-if-they-got-it-right/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4554,
+      "score": 0.4319,
       "publishedAt": "2026-10-03T08:31:04.000Z",
       "summary": "A new approach called LEGO-Anything turns single photos into editable Blender code for 3D scenes. GPT-6 Astra leads the accompanying benchmark with up to 53 percent reconstruction accuracy. The biggest weakness across all tested agents is that they can't judge their own geometric accuracy a",
       "tags": [
@@ -602,7 +629,7 @@
       "url": "https://the-decoder.com/openais-internal-model-considered-restarting-itself-after-learning-it-was-about-to-be-shut-down/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4534,
+      "score": 0.4299,
       "publishedAt": "2026-10-03T08:06:35.000Z",
       "summary": "An internal OpenAI model read a Slack discussion, realized it was about to be shut down, and considered restarting itself via an external cron job. It rejected that plan, saved handoff notes instead, and carried out the migration on its own.\nThe article OpenAI&#039;s internal model consider",
       "tags": [
@@ -611,25 +638,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Gemini 4 Argon: our next era of frontier intelligence",
-      "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4499,
-      "publishedAt": "2026-09-30T20:01:45.000Z",
-      "summary": "Announcing Gemini 4 Argon, our frontier model for real-world coding, enterprise knowledge work, and cyber defense, rolling out soon.",
-      "tags": [
-        "LLM",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Claude Code&#039;s new Mods system lets developers rewrite the AI coding tool from the inside",
       "url": "https://the-decoder.com/claude-codes-new-mods-system-lets-developers-rewrite-the-ai-coding-tool-from-the-inside/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.449,
+      "score": 0.4255,
       "publishedAt": "2026-10-03T07:12:09.000Z",
       "summary": "Anthropic is adding a \"Mods\" system to Claude Code, essentially middleware that runs directly inside the tool. Developers can use JavaScript or TypeScript to reshape the interface and behavior, adding custom panels, intercepting tool calls, or wiring up new commands.\nThe article Claude Code",
       "tags": [
@@ -639,15 +652,16 @@
       "engagementScore": 0
     },
     {
-      "title": "Amazon writes scary blog warning communities not to block data centers",
-      "url": "https://www.theverge.com/tech/1003929/amazon-ai-data-center-blog-warning",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4414,
-      "publishedAt": "2026-10-02T13:09:53.000Z",
-      "summary": "Amazon is calling for people to support AI data center projects, or risk irreparable harm to the US economy and national security. In a more than 3,000 word blog posted today, Amazon web services CEO Matt Garman pushed back on public concerns around the impact that data centers may have on jobs, pow",
+      "title": "Gemini 4 Argon: our next era of frontier intelligence",
+      "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+      "feedSource": "DeepMind",
+      "source": "deepmind.google",
+      "score": 0.4222,
+      "publishedAt": "2026-09-30T20:01:45.000Z",
+      "summary": "Announcing Gemini 4 Argon, our frontier model for real-world coding, enterprise knowledge work, and cyber defense, rolling out soon.",
       "tags": [
-        "Safety"
+        "LLM",
+        "Dev Tools"
       ],
       "engagementScore": 0
     },
@@ -675,19 +689,6 @@
       "tags": [
         "LLM",
         "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Advancing Private AI Compute with secure, server-side memory",
-      "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-09-23T16:00:57.000Z",
-      "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
-      "tags": [
-        "AI"
       ],
       "engagementScore": 0
     }
