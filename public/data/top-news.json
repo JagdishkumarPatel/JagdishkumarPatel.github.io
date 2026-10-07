@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T20:05:31.956Z",
+  "updatedAt": "2026-10-07T00:29:33.934Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,11 +8,40 @@
   ],
   "items": [
     {
+      "title": "Sharing AI progress in mathematics",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+      "feedSource": "Hacker News",
+      "source": "openai.com",
+      "score": 1.1167,
+      "publishedAt": "2026-10-06T22:17:21.000Z",
+      "summary": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
+      "tags": [
+        "LLM",
+        "Research",
+        "Open Source"
+      ],
+      "engagementScore": 290
+    },
+    {
+      "title": "Decisions API is in public beta",
+      "url": "https://developers.openai.com/api/docs/guides/decisions",
+      "feedSource": "Hacker News",
+      "source": "developers.openai.com",
+      "score": 1.0554,
+      "publishedAt": "2026-10-06T20:57:25.000Z",
+      "summary": "Use the Decisions API to check conditions, select from fixed options, and score text and images against a rubric.",
+      "tags": [
+        "Vision",
+        "Dev Tools"
+      ],
+      "engagementScore": 112
+    },
+    {
       "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
       "url": "https://openai.com/index/atlassian-partnership",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 1.0075,
+      "score": 0.9754,
       "publishedAt": "2026-10-06T16:00:00.000Z",
       "summary": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
       "tags": [
@@ -21,11 +50,40 @@
       "engagementScore": 0
     },
     {
+      "title": "How Jump Trading is scaling quant research with ChatGPT",
+      "url": "https://openai.com/index/jump-trading",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.9463,
+      "publishedAt": "2026-10-06T12:00:00.000Z",
+      "summary": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
+      "tags": [
+        "LLM",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Sharing AI progress in mathematics",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.9463,
+      "publishedAt": "2026-10-06T12:00:00.000Z",
+      "summary": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
+      "tags": [
+        "LLM",
+        "Research",
+        "Open Source"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Advancing computer use with Ironclad",
       "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9638,
+      "score": 0.9317,
       "publishedAt": "2026-10-06T10:00:00.000Z",
       "summary": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
       "tags": [
@@ -35,38 +93,67 @@
       "engagementScore": 0
     },
     {
+      "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+      "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+      "feedSource": "DeepMind",
+      "source": "deepmind.google",
+      "score": 0.8813,
+      "publishedAt": "2026-10-06T19:57:04.000Z",
+      "summary": "Introducing EmbeddingGemma 2, an open multimodal embedding model optimized for privacy-first use cases",
+      "tags": [
+        "RAG",
+        "Vision",
+        "ML Infra"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Subquadratic 3SUM and Subcubic APSP",
       "url": "https://arxiv.org/abs/2610.06783",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8708,
+      "score": 0.8622,
       "publishedAt": "2026-10-06T12:31:17.000Z",
       "summary": "We give the first polynomial improvements over the textbook algorithms for $3$SUM and All-Pairs Shortest Paths (APSP): we show how to deterministically solve $3$SUM on $n$ integers of polynomial size in $O(n^{1.9992})$ time and APSP on directed $n$-vertex graphs with polynomially bounded integer wei",
       "tags": [
         "AI"
       ],
-      "engagementScore": 61
+      "engagementScore": 93
     },
     {
       "title": "Our approach to EU text provenance rules",
       "url": "https://openai.com/index/eu-text-provenance/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.8475,
+      "score": 0.8161,
       "publishedAt": "2026-10-05T15:38:55.000Z",
       "summary": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
       "tags": [
         "LLM",
         "Research"
       ],
-      "engagementScore": 69
+      "engagementScore": 70
+    },
+    {
+      "title": "UniEvo-VL: Self-Distillation Training for Multimodal Model Self-Improvement",
+      "url": "https://arxiv.org/abs/2609.38721",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.7937,
+      "publishedAt": "2026-10-06T22:51:35.000Z",
+      "summary": "Modern multimodal models bring generation and understanding into a single unified system, which enables them to provide and learn from their own feedback. Motivated by this unified capacity, we introduce UniEvo-VL, a self-evolving framework for multimodal models to learn from this constructive self-",
+      "tags": [
+        "Vision",
+        "ML Infra"
+      ],
+      "engagementScore": 6
     },
     {
       "title": "Our approach to EU text provenance rules",
       "url": "https://openai.com/index/eu-text-provenance",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8252,
+      "score": 0.7932,
       "publishedAt": "2026-10-05T15:00:00.000Z",
       "summary": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
       "tags": [
@@ -80,7 +167,7 @@
       "url": "https://arxiv.org/abs/2610.03872",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8027,
+      "score": 0.7727,
       "publishedAt": "2026-10-06T04:00:00.000Z",
       "summary": "arXiv:2610.03872v1 Announce Type: new \nAbstract: AI agents are becoming increasingly capable of generating scientific code, but generating code is not the same as improving the algorithms behind it. For numerical solvers, execution feedback can expose poor performance, but rarely reveals its underly",
       "tags": [
@@ -95,7 +182,7 @@
       "url": "https://arxiv.org/abs/2610.03888",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8027,
+      "score": 0.7727,
       "publishedAt": "2026-10-06T04:00:00.000Z",
       "summary": "arXiv:2610.03888v1 Announce Type: new \nAbstract: Reconstructing global sea surface pH from sparse observations is critical for monitoring ocean acidification and understanding marine carbon cycling. Traditional assimilation and inverse models are physically grounded but costly for large-scale recons",
       "tags": [
@@ -108,7 +195,7 @@
       "url": "https://arxiv.org/abs/2610.03894",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8027,
+      "score": 0.7727,
       "publishedAt": "2026-10-06T04:00:00.000Z",
       "summary": "arXiv:2610.03894v1 Announce Type: new \nAbstract: A deployed LLM agent emits tool calls, queries, and code that can be silently wrong -- by the time the error surfaces, the action has run. Frontier chat APIs hide the model's token probabilities; the agent's stated confidence barely beats chance on th",
       "tags": [
@@ -124,7 +211,7 @@
       "url": "https://arxiv.org/abs/2610.03934",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8027,
+      "score": 0.7727,
       "publishedAt": "2026-10-06T04:00:00.000Z",
       "summary": "arXiv:2610.03934v1 Announce Type: new \nAbstract: Existing analog integrated circuit design benchmarks make two questions hard to answer: whether a model has learned transferable circuit skills rather than recalled familiar examples, and whether its output works under defined process and test conditi",
       "tags": [
@@ -139,7 +226,7 @@
       "url": "https://arxiv.org/abs/2610.03938",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8027,
+      "score": 0.7727,
       "publishedAt": "2026-10-06T04:00:00.000Z",
       "summary": "arXiv:2610.03938v1 Announce Type: new \nAbstract: Agentic multimodal large language models (MLLMs) have recently pushed the frontier of visual reasoning by calling tools such as zooming and tagging. Despite the recent strong success of agentic MLLMs, this work uncovers a critical safety failure in th",
       "tags": [
@@ -157,7 +244,7 @@
       "url": "https://arxiv.org/abs/2610.03948",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8027,
+      "score": 0.7727,
       "publishedAt": "2026-10-06T04:00:00.000Z",
       "summary": "arXiv:2610.03948v1 Announce Type: new \nAbstract: Autonomous driving decision systems must balance safety, efficiency, and social norms in complex traffic interactions. Philosophical and ethical considerations have received limited attention in existing autonomous driving decision-making approaches b",
       "tags": [
@@ -174,7 +261,7 @@
       "url": "https://arxiv.org/abs/2610.03959",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8027,
+      "score": 0.7727,
       "publishedAt": "2026-10-06T04:00:00.000Z",
       "summary": "arXiv:2610.03959v1 Announce Type: new \nAbstract: Recent world action models (WAMs) reuse pretrained video VAEs whose encoder latents directly condition downstream action policies. Quantization must therefore preserve not only reconstruction fidelity but also the policy-facing latent contract expecte",
       "tags": [
@@ -191,7 +278,7 @@
       "url": "https://arxiv.org/abs/2610.03966",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8027,
+      "score": 0.7727,
       "publishedAt": "2026-10-06T04:00:00.000Z",
       "summary": "arXiv:2610.03966v1 Announce Type: new \nAbstract: Each run of an AI-driven research system (ADRS) is an expensive search over a vast solution space, and dependable evaluation requires many runs, making run data both costly to produce and valuable to retain for large-scale analysis. Yet this data rema",
       "tags": [
@@ -205,7 +292,7 @@
       "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7888,
+      "score": 0.7567,
       "publishedAt": "2026-10-05T10:00:00.000Z",
       "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
       "tags": [
@@ -216,11 +303,26 @@
       "engagementScore": 0
     },
     {
+      "title": "EmbeddingGemma 2: An open, lightweight multimodal embedding model",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+      "feedSource": "Hacker News",
+      "source": "blog.google",
+      "score": 0.6974,
+      "publishedAt": "2026-10-06T16:03:49.000Z",
+      "summary": "Introducing EmbeddingGemma 2, an open multimodal embedding model optimized for privacy-first use cases",
+      "tags": [
+        "RAG",
+        "Vision",
+        "ML Infra"
+      ],
+      "engagementScore": 202
+    },
+    {
       "title": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
       "url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.7107,
+      "score": 0.6829,
       "publishedAt": "2026-10-06T06:44:39.000Z",
       "summary": "A Blog post by Technology Innovation Institute on Hugging Face",
       "tags": [
@@ -234,7 +336,7 @@
       "url": "https://www.technologyreview.com/2026/10/06/1145836/weight-loss-drugs-glp1-lilly-novo-aging-clocks/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.666,
+      "score": 0.6403,
       "publishedAt": "2026-10-06T16:40:36.000Z",
       "summary": "Popular weight-loss drugs may do more than help people shed pounds. They might also melt away the years. Drug giants Eli Lilly and Novo Nordisk say patients taking their drugs age less quickly, according to readouts from molecular “aging clocks.” Such clocks assess a person’s biological age by looki",
       "tags": [
@@ -247,7 +349,7 @@
       "url": "https://www.technologyreview.com/2026/10/06/1145796/the-download-10-climate-tech-companies-to-watch/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6397,
+      "score": 0.614,
       "publishedAt": "2026-10-06T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. 10 climate tech companies to watch Each year, MIT Technology Review puts together a list of the most promising climate tech companies in the world. Th",
       "tags": [
@@ -260,7 +362,7 @@
       "url": "https://www.technologyreview.com/2026/10/06/1143800/2026-climate-tech-companies-to-watch/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6304,
+      "score": 0.6048,
       "publishedAt": "2026-10-06T10:35:00.000Z",
       "summary": "Each year, the MIT Technology Review team puts together a list of some of the most promising climate tech companies in the world.",
       "tags": [
@@ -273,7 +375,7 @@
       "url": "https://www.technologyreview.com/2026/10/06/1144978/2026-climate-tech-companies-to-watch-how-we-chose/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6304,
+      "score": 0.6048,
       "publishedAt": "2026-10-06T10:35:00.000Z",
       "summary": "As the team at MIT Technology Review set out to choose companies for this year’s edition of our annual list of Climate Tech Companies to Watch, the challenge felt more daunting than any year since we started compiling the list in 2023.&#160; This year is shaping up to be one of the hottest ever reco",
       "tags": [
@@ -286,7 +388,7 @@
       "url": "https://www.technologyreview.com/2026/10/06/1144987/2026-climate-tech-companies-to-watch-welion-semi-solid-state-batteries/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6304,
+      "score": 0.6048,
       "publishedAt": "2026-10-06T10:35:00.000Z",
       "summary": "WeLion New Energy is on a quest to make safer, better batteries. The company’s semi-solid-state cells could improve safety and offer greater energy density than lithium-ion batteries to power electric cars, boats, and drones. From the EVs that carry commuters home to the ships that transport goods a",
       "tags": [
@@ -299,7 +401,7 @@
       "url": "https://www.technologyreview.com/2026/10/06/1145020/2026-climate-tech-companies-to-watch-form-energy-iron-batteries/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6304,
+      "score": 0.6048,
       "publishedAt": "2026-10-06T10:35:00.000Z",
       "summary": "Form Energy is building iron-based batteries that can store energy for multiple days. The company is ramping up supply at its factory and signing deals for commercial projects. New solar and wind installations produce electricity more affordably than fossil fuels in most places, but their output var",
       "tags": [
@@ -312,7 +414,7 @@
       "url": "https://www.technologyreview.com/2026/10/06/1145025/2026-climate-tech-companies-to-watch-x-energy-helium-cooled-nuclear-reactors/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6304,
+      "score": 0.6048,
       "publishedAt": "2026-10-06T10:35:00.000Z",
       "summary": "X-energy is developing small modular reactors to satisfy some of the planet’s most power-hungry users: industrial manufacturers that need high temperatures to produce billions of tons of concrete, plastics, fibers, and chemicals. Solar panels and wind turbines are great at producing electricity but",
       "tags": [
@@ -325,7 +427,7 @@
       "url": "https://www.technologyreview.com/2026/10/06/1145032/2026-climate-tech-companies-to-watch-energy-dome-carbon-dioxide-batteries/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6304,
+      "score": 0.6048,
       "publishedAt": "2026-10-06T10:35:00.000Z",
       "summary": "There’s a growing need for long-duration storage to meet energy demand and balance out renewables on the grid. Energy Dome uses compressed carbon dioxide gas in its massive grid batteries, which can deliver power for up to 24 hours.&#160; As the world races to meet growing electricity demand, solar",
       "tags": [
@@ -334,92 +436,119 @@
       "engagementScore": 0
     },
     {
-      "title": "EmbeddingGemma 2",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
-      "feedSource": "Hacker News",
-      "source": "blog.google",
-      "score": 0.5879,
-      "publishedAt": "2026-10-06T16:03:49.000Z",
-      "summary": "Introducing EmbeddingGemma 2, an open multimodal embedding model optimized for privacy-first use cases",
-      "tags": [
-        "RAG",
-        "Vision"
-      ],
-      "engagementScore": 9
-    },
-    {
-      "title": "Everybody’s Favorite Art TV Is Nearly Half Off for Prime Day (2026)",
-      "url": "https://www.wired.com/story/samsung-the-frame-tv-deal-prime-day-10-6-2026/",
+      "title": "Jaguar Finally Reveals Its Biggest Gamble: the Type 01",
+      "url": "https://www.wired.com/story/jaguar-finally-reveals-its-biggest-gamble-the-type-01/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5785,
-      "publishedAt": "2026-10-06T18:55:16.000Z",
-      "summary": "Samsung’s The Frame is the leading art TV for a reason. The matte display makes paintings look like museum pieces, not a glossy screensaver.",
+      "score": 0.5821,
+      "publishedAt": "2026-10-07T00:00:00.000Z",
+      "summary": "Following a viral rebrand and two years without selling a new vehicle, the British marque takes the covers off the most divisive electric car yet seen.",
       "tags": [
         "AI"
       ],
       "engagementScore": 0
     },
     {
-      "title": "‘Artificial’ Roasts AI’s Creators—and Sends a Dark Warning About Its Dangers",
-      "url": "https://www.wired.com/story/artificial-roasts-ais-creators-and-sends-a-dark-warning-about-its-dangers/",
+      "title": "OpenAI drops another batch of mathematical breakthroughs",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1005004/openai-math-release-github",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5791,
+      "publishedAt": "2026-10-06T23:26:38.000Z",
+      "summary": "OpenAI has revealed solutions to a number of long-standing mathematics problems produced by an unreleased frontier model in a batch of 722 manuscripts, covering 372 result families that group related papers. It extends a run of breakthroughs that have both impressed and unsettled parts of the mathem",
+      "tags": [
+        "LLM",
+        "Research",
+        "Open Source"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "You Probably Aren’t Going to Get the Plague",
+      "url": "https://www.wired.com/story/what-we-know-about-plague-russia/",
       "feedSource": "Wired",
       "source": "wired.com",
       "score": 0.5776,
-      "publishedAt": "2026-10-06T18:45:39.000Z",
-      "summary": "From their dorky parties to their weird walks, the movie holds OpenAI CEO Sam Altman and other stakeholders with contempt, while demonstrating their recklessness.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Apple AirPods Max 2 Are $120 Off Right Now During Prime Day (2026)",
-      "url": "https://www.wired.com/story/apple-airpods-max-2-deal-october-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5774,
-      "publishedAt": "2026-10-06T18:43:27.000Z",
-      "summary": "They’re the best over-ear headphones for Apple loyalists, and over 20 percent off at multiple retailers right now.",
+      "publishedAt": "2026-10-06T23:09:20.000Z",
+      "summary": "The death of a lab worker in Russia has authorities looking at whether plague played a role. Even if it did, though, the odds of it spreading are very low.",
       "tags": [
         "AI"
       ],
       "engagementScore": 0
     },
     {
-      "title": "The Best Prime Day Smart Home Deals Are Up to 50% Off (2026)",
-      "url": "https://www.wired.com/story/best-smart-home-prime-day-10-6-2026/",
+      "title": "Best Prime Day Digital Wall Calendar Deals: Skylight, Everblog, Apolosign (2026)",
+      "url": "https://www.wired.com/story/prime-day-digital-wall-calendar-deals-10-06-2026/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5762,
-      "publishedAt": "2026-10-06T18:30:00.000Z",
-      "summary": "The right gadgets can make your house feel smarter. After extensive testing and price checks, these are the Prime Day smart home deals worth bagging.",
+      "score": 0.5688,
+      "publishedAt": "2026-10-06T21:30:41.000Z",
+      "summary": "Digital wall calendars can organize multiple family calendars, meal plans, chores, and to-do lists, and even double as a digital photo frame. And best of all, they’re on sale.",
       "tags": [
         "AI"
       ],
       "engagementScore": 0
     },
     {
-      "title": "Yeti Coolers and Cups Are Up to $100 Off for Amazon Prime Day (2026)",
-      "url": "https://www.wired.com/story/amazon-prime-day-2026-yeti-deals/",
+      "title": "The Best Anti–Prime Day Deals for Amazon Haters",
+      "url": "https://www.wired.com/story/anti-prime-day-deals-october-2026/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.576,
-      "publishedAt": "2026-10-06T18:26:53.000Z",
-      "summary": "Snag some new Yeti gear in your choice of eye-popping colors while supplies last (which won't be long).",
+      "score": 0.5676,
+      "publishedAt": "2026-10-06T21:17:39.000Z",
+      "summary": "Want to save money without supporting Amazon? This roundup is full of deals on WIRED-approved favorites.",
       "tags": [
         "AI"
       ],
       "engagementScore": 0
     },
     {
-      "title": "Save Up to 50% on the Best Amazon Prime Day Espresso and Coffee Machine Deals (2026)",
-      "url": "https://www.wired.com/story/prime-day-espresso-machine-deals-10-06-2026/",
+      "title": "Best Prime Day Laptop Deals: Save Up to $500 (2026)",
+      "url": "https://www.wired.com/story/best-prime-day-laptop-deals/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5758,
-      "publishedAt": "2026-10-06T18:25:33.000Z",
-      "summary": "Breville, Keurig, Fellow, and AeroPress gear we recommend is on sale, with options for espresso enthusiasts and one-button brewers alike.",
+      "score": 0.5674,
+      "publishedAt": "2026-10-06T21:15:00.000Z",
+      "summary": "My favorite MacBook, gaming PC, and budget laptop are all on sale for Prime Day, some at the lowest prices I’ve seen in months.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "102 Best Prime Day Deals We’re Shopping This October (2026)",
+      "url": "https://www.wired.com/story/absolute-best-amazon-prime-day-deals-10-06-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5656,
+      "publishedAt": "2026-10-06T20:54:57.000Z",
+      "summary": "Amazon Prime Big Deal Days are here, and we’ve tracked down the best discounts on all the gear our team recommends.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "We’re Tracking October Prime Day Live (2026)",
+      "url": "https://www.wired.com/live/amazon-prime-day-live-tracker-october-06-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.565,
+      "publishedAt": "2026-10-06T20:47:43.000Z",
+      "summary": "Our team is tracking Prime Day deals in real time. Here’s what’s worth buying today.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Amazon Prime Day Deals Under $50 in October 2026",
+      "url": "https://www.wired.com/story/best-amazon-prime-day-deals-under-50-10-06-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5646,
+      "publishedAt": "2026-10-06T20:43:38.000Z",
+      "summary": "Everything is expensive. Treat yourself to one of these WIRED-approved Prime Day picks under $50.",
       "tags": [
         "AI"
       ],
@@ -430,7 +559,7 @@
       "url": "https://mistral.ai/news/mistral-large-4/\\",
       "feedSource": "Hacker News",
       "source": "mistral.ai",
-      "score": 0.5753,
+      "score": 0.5615,
       "publishedAt": "2026-10-06T13:15:49.000Z",
       "summary": "The most powerful AI platform for enterprises. Customize, fine-tune, and deploy AI assistants, autonomous agents, and multimodal AI with open models.",
       "tags": [
@@ -439,40 +568,14 @@
         "Vision",
         "ML Infra"
       ],
-      "engagementScore": 1263
-    },
-    {
-      "title": "114 Best Prime Day Deals We’re Shopping This October (2026)",
-      "url": "https://www.wired.com/story/absolute-best-amazon-prime-day-deals-10-06-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5744,
-      "publishedAt": "2026-10-06T18:09:44.000Z",
-      "summary": "Amazon Prime Big Deal Days are here and we’ve tracked down the best discounts on all the gear our team recommends.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "8 Best Prime Day Wearable Deals: Apple, Google, Samsung (2026)",
-      "url": "https://www.wired.com/story/amazon-prime-day-wearable-deals-10-6-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5743,
-      "publishedAt": "2026-10-06T18:08:23.000Z",
-      "summary": "I’ve tested the wearables, tracked the prices, and found the Prime Day deals worth grabbing.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
+      "engagementScore": 1558
     },
     {
       "title": "We can’t just change the definition of ‘recording’",
       "url": "https://www.theverge.com/column/1005697/we-cant-just-change-the-definition-of-recording",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5655,
+      "score": 0.542,
       "publishedAt": "2026-10-06T16:29:44.000Z",
       "summary": "With AI hardware, tech companies are pushing the definition of what does and doesn't constitute a recording. For most of gadget history, it'd be reasonable to assume that a device with a microphone or camera is either recording you or it isn't; it's either on or off, without much gray area. Micropho",
       "tags": [
@@ -485,7 +588,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/1005451/google-gemini-free-flash-lite-only",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5485,
+      "score": 0.525,
       "publishedAt": "2026-10-06T13:19:01.000Z",
       "summary": "Starting on October 9th, anyone using Google Gemini on a free plan will be limited to the Flash Lite model. Free users can currently choose from Gemini Flash Lite, Flash, and Pro, but now you'll need a $4.99/month Google AI Plus subscription to access the standard Flash model. However, that subscrip",
       "tags": [
@@ -498,39 +601,13 @@
       "url": "https://www.helgilibrary.com/companies/jetbrains",
       "feedSource": "Hacker News",
       "source": "helgilibrary.com",
-      "score": 0.5381,
+      "score": 0.5178,
       "publishedAt": "2026-10-06T11:45:55.000Z",
       "summary": "JetBrains (Media & Entertainment, Czechia): total revenue CZK 16,008 mil, net profit CZK -315 mil in 2025, ROE -11.1%. 709 indicators from filings, financials, KPIs and Excel download.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 553
-    },
-    {
-      "title": "Amazon Alexa Plus keeps creepily singing ‘lalala’ for minutes on end",
-      "url": "https://www.theverge.com/tech/1005342/amazon-alexa-plus-keeps-creepily-singing-lalala-for-minutes-on-end",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5355,
-      "publishedAt": "2026-10-06T10:53:11.000Z",
-      "summary": "An unsettling Alexa Plus bug has seen some Amazon Echo smart home speakers reduced to saying - and sometimes singing - nothing but \"lalala\" on repeat for minutes at a time, often in the middle of conversations with users. When quizzed about the behavior, Alexa is apparently entirely unaware of what",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "AI is now capable of developing its own inference hardware",
-      "url": "https://github.com/FeSens/openTPU",
-      "feedSource": "Hacker News",
-      "source": "github.com",
-      "score": 0.5155,
-      "publishedAt": "2026-10-06T16:23:25.000Z",
-      "summary": "An open-source AI accelerator, developed by AI: RTL, ISA, simulator, compiler and profiler in one repo. Runs Qwen3, LFM2.5 and Qwen3.5 on a Kintex-7 PCIe card. - FeSens/openTPU",
-      "tags": [
-        "Open Source"
-      ],
-      "engagementScore": 159
+      "engagementScore": 570
     },
     {
       "title": "A model guide for the GPT-6 family",
@@ -562,64 +639,24 @@
       "engagementScore": 0
     },
     {
-      "title": "The eternal complement",
-      "url": "https://openai.com/index/the-eternal-complement",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5124,
-      "publishedAt": "2026-10-01T17:00:00.000Z",
-      "summary": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
+      "title": "Amazon Alexa Plus keeps creepily singing ‘lalala’ for minutes on end",
+      "url": "https://www.theverge.com/tech/1005342/amazon-alexa-plus-keeps-creepily-singing-lalala-for-minutes-on-end",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.512,
+      "publishedAt": "2026-10-06T10:53:11.000Z",
+      "summary": "An unsettling Alexa Plus bug has seen some Amazon Echo smart home speakers reduced to saying - and sometimes singing - nothing but \"lalala\" on repeat for minutes at a time, often in the middle of conversations with users. When quizzed about the behavior, Alexa is apparently entirely unaware of what",
       "tags": [
         "AI"
       ],
       "engagementScore": 0
-    },
-    {
-      "title": "How Albertsons Companies is reimagining retail from the inside out",
-      "url": "https://openai.com/index/albertsons-reimagining-retail",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5124,
-      "publishedAt": "2026-10-01T16:00:00.000Z",
-      "summary": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
-      "tags": [
-        "LLM",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Nature's capacity to 'bounce back' when species are lost is overestimated: study",
-      "url": "https://phys.org/news/2026-10-nature-capacity-species-lost-vastly.html",
-      "feedSource": "Hacker News",
-      "source": "phys.org",
-      "score": 0.5087,
-      "publishedAt": "2026-10-06T11:11:51.000Z",
-      "summary": "",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 265
-    },
-    {
-      "title": "Former German spy chief arrested for attempted treason",
-      "url": "https://www.reuters.com/business/finance/former-german-spy-chief-detained-suspicion-espionage-treason-bild-reports-2026-10-06/",
-      "feedSource": "Hacker News",
-      "source": "reuters.com",
-      "score": 0.4959,
-      "publishedAt": "2026-10-06T16:51:50.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 87
     },
     {
       "title": "Google claims EmbeddingGemma 2 outperforms rival embedding models twice its size",
       "url": "https://the-decoder.com/google-claims-embeddinggemma-2-outperforms-rival-embedding-models-twice-its-size/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4901,
+      "score": 0.4687,
       "publishedAt": "2026-10-06T19:47:27.000Z",
       "summary": "Google released EmbeddingGemma 2, an open model with 740 million parameters that converts text, images, video, audio, and code into vectors. It runs on-device, needs only about 191 MB of RAM, and outperforms some competing models twice its size, according to Google. Paired with a small open",
       "tags": [
@@ -636,7 +673,7 @@
       "url": "https://the-decoder.com/googles-new-image-model-nano-banana-2-1-generates-better-images-for-less-money/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4887,
+      "score": 0.4673,
       "publishedAt": "2026-10-06T19:29:42.000Z",
       "summary": "Google's new Nano Banana 2.1 image model uses Gemini 3.6 Flash and beats the previous Pro model in some benchmarks at a lower cost. But its predecessor also scored well in tests, while Pro often produced better images in practice.\nThe article Google&#039;s new image model Nano Banana 2.1 ge",
       "tags": [
@@ -651,7 +688,7 @@
       "url": "https://the-decoder.com/wikimedia-confirms-openais-rogue-ai-agents-edited-wikis-tried-to-compromise-tools-and-hammered-its-infrastructure/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4838,
+      "score": 0.4624,
       "publishedAt": "2026-10-06T18:29:35.000Z",
       "summary": "According to the Wikimedia Foundation, rogue OpenAI agents edited wikis without permission, tried to abuse a citation tool as a proxy, and may have caused a partial Wikidata Query Service outage through massive crawling. Wikimedia says AI companies need to take responsibility for their agen",
       "tags": [
@@ -666,38 +703,11 @@
       "url": "https://the-decoder.com/microsoft-publishes-nobel-economists-bearish-ai-forecast-of-just-1-5-gdp-growth-over-a-decade/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4791,
+      "score": 0.4577,
       "publishedAt": "2026-10-06T17:31:51.000Z",
       "summary": "Microsoft published a bearish AI outlook from Nobel economist Daron Acemoglu. He predicts about 1.5 percent GDP growth over ten years and at most five percent of jobs replaced. Bigger models won't move the needle, he argues. What's missing are practical apps that change how work gets done.",
       "tags": [
         "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Gemini Call for Me might tell your mom you&#8217;re running late",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1005177/google-gemini-call-for-me-expansion-rumors",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4728,
-      "publishedAt": "2026-10-05T23:09:55.000Z",
-      "summary": "Google may be expanding its \"Call for Me\" AI feature beyond business calls so you can use it to send messages to friends and family. Android Authority reports finding a \"Gemini Calling\" introductory screen in an APK teardown with examples that include \"Call Mom and tell her I will be 15 minutes late",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Insurers brace for millions in claims as AI agents spin out of control",
-      "url": "https://the-decoder.com/insurers-brace-for-millions-in-claims-as-ai-agents-spin-out-of-control/",
-      "feedSource": "The Decoder",
-      "source": "the-decoder.com",
-      "score": 0.4722,
-      "publishedAt": "2026-10-06T16:06:46.000Z",
-      "summary": "Insurers are bracing for millions in claims from rogue AI agents, and executives like OpenAI's Sam Altman and Anthropic's Dario Amodei could be personally on the hook for the fallout.\nThe article Insurers brace for millions in claims as AI agents spin out of control appeared first on The De",
-      "tags": [
-        "LLM",
-        "Agents"
       ],
       "engagementScore": 0
     }
