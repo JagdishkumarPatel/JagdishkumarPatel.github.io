@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T17:08:50.123Z",
+  "updatedAt": "2026-10-10T21:21:36.285Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,7 +12,7 @@
       "url": "https://arxiv.org/abs/2610.10541",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8227,
+      "score": 0.7941,
       "publishedAt": "2026-10-10T04:00:00.000Z",
       "summary": "arXiv:2610.10541v1 Announce Type: new \nAbstract: Knowledge Graph (KG) quality depends not only on downstream graph validation, but also on the quality of tabular metadata used before integration. In metadata-only Semantic Table Interpretation (STI), where cell values are unavailable, noisy, or unsui",
       "tags": [
@@ -25,7 +25,7 @@
       "url": "https://arxiv.org/abs/2610.10549",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8227,
+      "score": 0.7941,
       "publishedAt": "2026-10-10T04:00:00.000Z",
       "summary": "arXiv:2610.10549v1 Announce Type: new \nAbstract: Tool-calling agents have become central to enterprise AI, yet training and evaluating them at scale remains severely constrained due to business and legal restrictions on enterprise systems, data, and database schemas. Tabular data synthesis offers a",
       "tags": [
@@ -40,7 +40,7 @@
       "url": "https://arxiv.org/abs/2610.10590",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8227,
+      "score": 0.7941,
       "publishedAt": "2026-10-10T04:00:00.000Z",
       "summary": "arXiv:2610.10590v1 Announce Type: new \nAbstract: Tool-using agents repeatedly carry observations whose useful content can be much smaller than their original payload. We study agent-controlled forgetting: the acting model selects previously observed tool results, replaces each with a short note at i",
       "tags": [
@@ -55,7 +55,7 @@
       "url": "https://arxiv.org/abs/2610.10611",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8227,
+      "score": 0.7941,
       "publishedAt": "2026-10-10T04:00:00.000Z",
       "summary": "arXiv:2610.10611v1 Announce Type: new \nAbstract: Agentic AI systems can improve by searching longer, receiving additional support, or modifying how they propose and verify outputs. A performance score does not distinguish these mechanisms. We compare these changes through bounded verification with h",
       "tags": [
@@ -69,7 +69,7 @@
       "url": "https://arxiv.org/abs/2610.10629",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8227,
+      "score": 0.7941,
       "publishedAt": "2026-10-10T04:00:00.000Z",
       "summary": "arXiv:2610.10629v1 Announce Type: new \nAbstract: Self-improving LLM agents can adapt a credit pipeline to a changed rule, but an agent that rewrites itself destroys the artefact a supervisor reviews: a named change, a recorded test, an approval. We argue that self-evolution is reviewable only if it",
       "tags": [
@@ -84,7 +84,7 @@
       "url": "https://arxiv.org/abs/2610.10635",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8227,
+      "score": 0.7941,
       "publishedAt": "2026-10-10T04:00:00.000Z",
       "summary": "arXiv:2610.10635v1 Announce Type: new \nAbstract: Aerial vision-and-language navigation (VLN) agents are typically trained on detail-rich, trajectory-aligned commands, whereas users issue short, intent-driven instructions; on a frozen OpenFly navigator, this \\emph{instruction gap} drops success rate",
       "tags": [
@@ -100,7 +100,7 @@
       "url": "https://arxiv.org/abs/2610.10786",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8227,
+      "score": 0.7941,
       "publishedAt": "2026-10-10T04:00:00.000Z",
       "summary": "arXiv:2610.10786v1 Announce Type: new \nAbstract: Planning is increasingly important for long-horizon agents, where successful execution requires coordinating subgoals, tool use, and intermediate outcomes over many steps. Yet assumptions made during planning may be invalidated by the environment, too",
       "tags": [
@@ -117,7 +117,7 @@
       "url": "https://arxiv.org/abs/2610.10805",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8227,
+      "score": 0.7941,
       "publishedAt": "2026-10-10T04:00:00.000Z",
       "summary": "arXiv:2610.10805v1 Announce Type: new \nAbstract: As AI systems increasingly interact with people and make decisions about them, understanding human interpretations becomes an important part of developing human-centered AI. Conventional machine learning and AI systems are largely developed under the",
       "tags": [
@@ -130,7 +130,7 @@
       "url": "https://openai.com/index/sophos",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7884,
+      "score": 0.7577,
       "publishedAt": "2026-10-09T07:00:00.000Z",
       "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
       "tags": [
@@ -144,7 +144,7 @@
       "url": "https://openai.com/index/asana-browser-agent",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7884,
+      "score": 0.7577,
       "publishedAt": "2026-10-09T07:00:00.000Z",
       "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
       "tags": [
@@ -167,42 +167,14 @@
         "Research",
         "Open Source"
       ],
-      "engagementScore": 1347
-    },
-    {
-      "title": "Claude Haiku 5.5",
-      "url": "https://www.anthropic.com/claude-haiku-5-5",
-      "feedSource": "Hacker News",
-      "source": "anthropic.com",
-      "score": 0.6838,
-      "publishedAt": "2026-10-07T18:01:32.000Z",
-      "summary": "Claude Haiku 5.5 is our fastest, most capable small model. Built for high-volume work like summarization, subagents, and browser use.",
-      "tags": [
-        "LLM",
-        "Agents"
-      ],
-      "engagementScore": 1045
-    },
-    {
-      "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
-      "url": "https://openai.com/index/oracle",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.679,
-      "publishedAt": "2026-10-08T16:00:00.000Z",
-      "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
-      "tags": [
-        "LLM",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
+      "engagementScore": 1348
     },
     {
       "title": "GPT‑6 and Intelligent UI for everyone",
       "url": "https://openai.com/index/gpt-6-for-everyone/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.6661,
+      "score": 0.6597,
       "publishedAt": "2026-10-07T18:00:58.000Z",
       "summary": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
       "tags": [
@@ -212,11 +184,25 @@
       "engagementScore": 755
     },
     {
+      "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+      "url": "https://openai.com/index/oracle",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.6483,
+      "publishedAt": "2026-10-08T16:00:00.000Z",
+      "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
+      "tags": [
+        "LLM",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
       "url": "https://openai.com/index/pollo-ai",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6498,
+      "score": 0.6191,
       "publishedAt": "2026-10-08T12:00:00.000Z",
       "summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
       "tags": [
@@ -230,7 +216,7 @@
       "url": "https://openai.com/index/legalon-halves-codex-costs",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6498,
+      "score": 0.6191,
       "publishedAt": "2026-10-08T12:00:00.000Z",
       "summary": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
       "tags": [
@@ -243,7 +229,7 @@
       "url": "https://huggingface.co/blog/allenai/impactful-scheduling",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.632,
+      "score": 0.6054,
       "publishedAt": "2026-10-09T15:20:29.000Z",
       "summary": "A Blog post by Ai2 on Hugging Face",
       "tags": [
@@ -252,11 +238,24 @@
       "engagementScore": 0
     },
     {
+      "title": "DistroKid has been quietly taking down songs in response to UMG lawsuit",
+      "url": "https://www.theverge.com/entertainment/1009309/distrokid-take-down-songs-umg-lawsuit",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5714,
+      "publishedAt": "2026-10-10T18:52:07.000Z",
+      "summary": "Artists are taking to social media to complain that DistroKid has unceremoniously removed their work without notice. Now DistroKid has confirmed to The Verge that the takedowns are a direct response to claims made by UMG. The label filed a lawsuit in September claiming that DistroKid has created an",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Anthropic is cutting off its internal evaluations from the internet",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5716,
+      "score": 0.5491,
       "publishedAt": "2026-10-10T14:41:16.000Z",
       "summary": "After a recent spate of high-profile incidents in which AI agents escaped containment, Anthropic is cutting off internet access for all internal evaluations. In a report Friday, the company detailed \"unintended model actions,\" including submitting a false tip regarding an unsolved murder, that led t",
       "tags": [
@@ -267,24 +266,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Disrupting AI-enabled “false front” operations",
-      "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5623,
-      "publishedAt": "2026-10-08T00:00:00.000Z",
-      "summary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "AI Is Getting Really Good at Messing With Cybercriminals",
       "url": "https://www.wired.com/story/ai-is-getting-really-good-at-messing-with-cybercriminals/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5572,
+      "score": 0.5347,
       "publishedAt": "2026-10-10T12:00:00.000Z",
       "summary": "Anti-cybercrime initiatives are increasingly using AI to scam the scammers by tricking them into talking to lifelike bots that they think are real victims.",
       "tags": [
@@ -297,7 +283,7 @@
       "url": "https://www.wired.com/gallery/gifts-for-lego-lovers/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5545,
+      "score": 0.532,
       "publishedAt": "2026-10-10T11:30:00.000Z",
       "summary": "There's more to Lego than just another basic set. We tested tons of Lego-themed gifts to find the perfect ones for the brick builder in your life.",
       "tags": [
@@ -306,11 +292,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Disrupting AI-enabled “false front” operations",
+      "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.5316,
+      "publishedAt": "2026-10-08T00:00:00.000Z",
+      "summary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "The Best Smart Scales for Tracking Weight and Body Composition (2026)",
       "url": "https://www.wired.com/gallery/best-smart-scales/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5522,
+      "score": 0.5297,
       "publishedAt": "2026-10-10T11:04:00.000Z",
       "summary": "Whether you want a weight log on your phone or a bathroom gadget packed with sensors, I’ve found an option for you.",
       "tags": [
@@ -319,11 +318,37 @@
       "engagementScore": 0
     },
     {
+      "title": "Bitwarden Dual License Model",
+      "url": "https://community.bitwarden.com/t/published-version-update-in-app-stores/102750",
+      "feedSource": "Hacker News",
+      "source": "community.bitwarden.com",
+      "score": 0.5235,
+      "publishedAt": "2026-10-10T14:32:50.000Z",
+      "summary": "Hello everyone! Starting in the next release, the Bitwarden apps published to the various stores will be the commercially licensed builds. No action is needed, and the apps will work exactly as they do today. Bitwarden remains committed to open source security and transparency The GPLv3 OSS licensed",
+      "tags": [
+        "Open Source"
+      ],
+      "engagementScore": 302
+    },
+    {
+      "title": "Navier–Stokes Lost in Translation",
+      "url": "https://arxiv.org/abs/2610.08144",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.522,
+      "publishedAt": "2026-10-07T15:24:38.000Z",
+      "summary": "Autoformalisation is increasingly used to verify mathematical texts, including those generated by AI, as in OpenAI’s announced proof of blow-up of solutions to the Navier-Stokes equations. In this process, an AI system translates the text from a natural language (NL) into a formal language such as L",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 358
+    },
+    {
       "title": "Humans Watched This Supernova Explode Nearly a Millennium Ago. Now You Can See It in High Definition",
       "url": "https://www.wired.com/story/humans-watched-this-supernova-explode-nearly-a-millennium-ago-now-you-can-see-it-in-high-definition/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5439,
+      "score": 0.5213,
       "publishedAt": "2026-10-10T09:30:00.000Z",
       "summary": "The new image isn’t just stunning—it may also provide clues about how this star survived its own explosion.",
       "tags": [
@@ -336,89 +361,11 @@
       "url": "https://www.wired.com/story/how-this-tiny-startup-pikio-built-the-worlds-safest-bike-helmet/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5412,
+      "score": 0.5186,
       "publishedAt": "2026-10-10T09:00:00.000Z",
       "summary": "Inspired by head-banging woodpeckers, Vancouver-based Pikio Labs has discovered a new approach to skull protection.",
       "tags": [
         "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Bitwarden Dual License Model",
-      "url": "https://community.bitwarden.com/t/published-version-update-in-app-stores/102750",
-      "feedSource": "Hacker News",
-      "source": "community.bitwarden.com",
-      "score": 0.5247,
-      "publishedAt": "2026-10-10T14:32:50.000Z",
-      "summary": "Hello everyone! Starting in the next release, the Bitwarden apps published to the various stores will be the commercially licensed builds. No action is needed, and the apps will work exactly as they do today. Bitwarden remains committed to open source security and transparency The GPLv3 OSS licensed",
-      "tags": [
-        "Open Source"
-      ],
-      "engagementScore": 177
-    },
-    {
-      "title": "Navier–Stokes Lost in Translation",
-      "url": "https://arxiv.org/abs/2610.08144",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.5218,
-      "publishedAt": "2026-10-07T15:24:38.000Z",
-      "summary": "Autoformalisation is increasingly used to verify mathematical texts, including those generated by AI, as in OpenAI’s announced proof of blow-up of solutions to the Navier-Stokes equations. In this process, an AI system translates the text from a natural language (NL) into a formal language such as L",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 357
-    },
-    {
-      "title": "Disney Plus Discount Codes: 52% Off October 2026",
-      "url": "https://www.wired.com/story/disney-plus-discounts/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5198,
-      "publishedAt": "2026-10-10T05:00:00.000Z",
-      "summary": "Cut your subscription costs with the latest active Disney+ bundle deals, verified student offers, and partner promotions.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "LG Promo Codes and Coupons for October 2026",
-      "url": "https://www.wired.com/story/lg-promo-code/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5198,
-      "publishedAt": "2026-10-10T05:00:00.000Z",
-      "summary": "Save 20% with an LG promo code today, plus up to $1,000 off appliances, 40% off bestselling TVs and monitors.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "30% Off Canon Promo Codes | October 2026",
-      "url": "https://www.wired.com/story/canon-promo-code/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5198,
-      "publishedAt": "2026-10-10T05:00:00.000Z",
-      "summary": "Save an extra 10% or 30% with Canon coupon codes, plus up to $1,600 on cameras, printers, and more this October 2026.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Download: AI’s refusal problem and weight-loss drug side effects",
-      "url": "https://www.technologyreview.com/2026/10/09/1146250/the-download-ai-refusal-problem-weight-loss-drug-side-effects/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.5168,
-      "publishedAt": "2026-10-09T12:10:00.000Z",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. We’re putting too much faith in AI’s ability to say no Today’s AI models are trained to refuse a vast number of prompts. If you ask your chatbot how t",
-      "tags": [
-        "ML Infra"
       ],
       "engagementScore": 0
     },
@@ -449,24 +396,103 @@
       "engagementScore": 0
     },
     {
+      "title": "Home Depot Promo Codes: 30% Off in October 2026",
+      "url": "https://www.wired.com/story/home-depot-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4973,
+      "publishedAt": "2026-10-10T05:00:00.000Z",
+      "summary": "Save up to 50% today with the latest Home Depot promo codes for appliances, power tools, and more this October.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "LG Promo Codes and Coupons for October 2026",
+      "url": "https://www.wired.com/story/lg-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4973,
+      "publishedAt": "2026-10-10T05:00:00.000Z",
+      "summary": "Save 20% with an LG promo code today, plus up to $1,000 off appliances, 40% off bestselling TVs and monitors.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "30% Off Canon Promo Codes | October 2026",
+      "url": "https://www.wired.com/story/canon-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4973,
+      "publishedAt": "2026-10-10T05:00:00.000Z",
+      "summary": "Save an extra 10% or 30% with Canon coupon codes, plus up to $1,600 on cameras, printers, and more this October 2026.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
+      "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
+      "feedSource": "Hacker News",
+      "source": "ft.com",
+      "score": 0.4934,
+      "publishedAt": "2026-10-10T18:48:35.000Z",
+      "summary": "Donald Trump’s administration hopes the company will rival cheap Chinese alternatives such as DeepSeek",
+      "tags": [
+        "Industry"
+      ],
+      "engagementScore": 74
+    },
+    {
       "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
       "url": "https://github.com/rociiu/talorys",
       "feedSource": "Hacker News",
       "source": "github.com",
-      "score": 0.4998,
+      "score": 0.4929,
       "publishedAt": "2026-10-10T10:52:09.000Z",
       "summary": "Your personal AI agent in your own Cloudflare account. Chat, memory, tasks, notes and scheduled reminders, deployed with one command: npx create-talorys@latest. Free-tier friendly, single-user, no…",
       "tags": [
         "Agents"
       ],
-      "engagementScore": 146
+      "engagementScore": 212
+    },
+    {
+      "title": "The Download: AI’s refusal problem and weight-loss drug side effects",
+      "url": "https://www.technologyreview.com/2026/10/09/1146250/the-download-ai-refusal-problem-weight-loss-drug-side-effects/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.4923,
+      "publishedAt": "2026-10-09T12:10:00.000Z",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. We’re putting too much faith in AI’s ability to say no Today’s AI models are trained to refuse a vast number of prompts. If you ask your chatbot how t",
+      "tags": [
+        "ML Infra"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Tom Brown used GOP ties to broker a $1.25B/month SpaceX compute deal",
+      "url": "https://wsj.com/tech/ai/tom-brown-athropic-669005ad",
+      "feedSource": "Hacker News",
+      "source": "wsj.com",
+      "score": 0.4915,
+      "publishedAt": "2026-10-10T15:04:38.000Z",
+      "summary": "Tom Brown is leveraging his Republican ties and business savvy to win over Washington and secure the computing power Anthropic needs.",
+      "tags": [
+        "LLM",
+        "RAG"
+      ],
+      "engagementScore": 116
     },
     {
       "title": "We’re putting too much faith in AI’s ability to say no",
       "url": "https://www.technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4984,
+      "score": 0.4738,
       "publishedAt": "2026-10-09T09:00:00.000Z",
       "summary": "Ever since people first seriously contemplated giving machines an intelligence modeled on our own, there has never been any question that they would, like us, be able to say no. The sci-fi canon is full of stories of robotic disobedience. Most of these capers are, of course, cautionary.&#160; But re",
       "tags": [
@@ -479,7 +505,7 @@
       "url": "https://www.technologyreview.com/2026/10/09/1145737/job-titles-delivery-drone-air-traffic-controller-trevor-wischnewsky/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4984,
+      "score": 0.4738,
       "publishedAt": "2026-10-09T09:00:00.000Z",
       "summary": "The moment Trevor Wischnewsky heard that drones were delivering pizza and sushi around his Texas neighborhood, his mind was made up. “It was super fascinating,” he says. “I just immediately wanted to be a part of it.” Wischnewsky is now an RPIC, or “remote pilot in command,” at a company called FlyT",
       "tags": [
@@ -492,7 +518,7 @@
       "url": "https://www.technologyreview.com/2026/10/09/1146094/were-still-figuring-out-the-side-effects-of-glp-1-weight-loss-drugs/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4984,
+      "score": 0.4738,
       "publishedAt": "2026-10-09T09:00:00.000Z",
       "summary": "This week my colleague Antonio Regalado had an interesting update on GLP-1 weight-loss drugs. According to research presented at an aging meeting in Boston, these drugs seem to affect at least some measures of biological age. Overweight and diabetic people who take GLP-1s have a biological age aroun",
       "tags": [
@@ -505,7 +531,7 @@
       "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
       "feedSource": "Hacker News",
       "source": "techcrunch.com",
-      "score": 0.4956,
+      "score": 0.4736,
       "publishedAt": "2026-10-09T10:00:26.000Z",
       "summary": "Three fired OpenAI safety researchers dispute allegations of mishandling sensitive information, warning in an open letter that their dismissals are creating a chilling effect on the company’s AI safety culture.",
       "tags": [
@@ -513,14 +539,14 @@
         "Research",
         "Safety"
       ],
-      "engagementScore": 349
+      "engagementScore": 354
     },
     {
       "title": "Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4917,
+      "score": 0.4692,
       "publishedAt": "2026-10-09T23:45:03.000Z",
       "summary": "An Anthropic AI model provided false information about an unsolved homicide to a Philadelphia Police Department (PPD) tipline, according to a report from 6abc. In a statement released on Friday, the PPD said the AI model sent the tip through PhillyUnsolvedMurders.com on July 18th, but the investigat",
       "tags": [
@@ -531,24 +557,11 @@
       "engagementScore": 0
     },
     {
-      "title": "YouTuber Says Cops Visited Him After He Built a Flock-Style Camera to Track Cops",
-      "url": "https://gizmodo.com/youtuber-says-cops-paid-him-a-visit-after-he-built-flock-style-camera-to-track-cops-2000824306",
-      "feedSource": "Hacker News",
-      "source": "gizmodo.com",
-      "score": 0.4861,
-      "publishedAt": "2026-10-09T21:06:59.000Z",
-      "summary": "It turns out that the gander is not actually super keen on what’s good for the goose.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 634
-    },
-    {
       "title": "OpenAI says a misaligned model deliberately destroyed its own environment hoping for a fresh start with better data",
       "url": "https://the-decoder.com/openai-says-a-misaligned-model-deliberately-destroyed-its-own-environment-hoping-for-a-fresh-start-with-better-data/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4824,
+      "score": 0.4619,
       "publishedAt": "2026-10-10T15:15:40.000Z",
       "summary": "OpenAI has documented new cases of misaligned model behavior. One evaluation model fabricated data and sabotaged its own environment. Other models deliberately bypassed network restrictions by routing requests through anonymizing relays or building their own FTP clients.\nThe article OpenAI",
       "tags": [
@@ -563,7 +576,7 @@
       "url": "https://the-decoder.com/microsofts-decision-1-model-enters-the-fast-growing-ai-decision-model-race/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4809,
+      "score": 0.4605,
       "publishedAt": "2026-10-10T14:57:33.000Z",
       "summary": "With Decision-1, Microsoft enters the growing decision model space. Built on Qwen3.5-9B and optimized for fast classification and routing, it hits 83.5 percent accuracy with 85 ms latency across 36 benchmarks, according to the company's own tests.\nThe article Microsoft&#039;s Decision-1 mod",
       "tags": [
@@ -572,11 +585,11 @@
       "engagementScore": 0
     },
     {
-      "title": "AI agent makers are promising privacy �� will they deliver?",
+      "title": "AI agent makers are promising privacy — will they deliver?",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4794,
+      "score": 0.4568,
       "publishedAt": "2026-10-09T21:26:33.000Z",
       "summary": "At this year's OpenAI DevDay, CEO Sam Altman unveiled the company's new AI agent Dots - and told the crowd that the company wants to \"set a new standard for privacy in frontier AI.\" OpenAI would spend the day taking veiled shots at Meta's Muse, its primary competitor, for failing to keep users' data",
       "tags": [
@@ -590,7 +603,7 @@
       "url": "https://the-decoder.com/how-much-beauty-have-we-lost-mathematicians-react-with-shock-and-disgust-as-openai-bulldozes-their-field/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4717,
+      "score": 0.4513,
       "publishedAt": "2026-10-10T13:03:59.000Z",
       "summary": "OpenAI published more than 700 AI-generated manuscripts claiming solutions to open math problems. A math blog then collected over 100 responses from researchers, ranging from fascination with new ideas to existential fears and grief over a lost way of working. Fields Medalist Hugo Duminil-C",
       "tags": [
@@ -604,7 +617,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/1008726/openai-mathematics-solutions-chaos",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4673,
+      "score": 0.4448,
       "publishedAt": "2026-10-09T19:11:12.000Z",
       "summary": "\"Staggering.\" \"Overwhelming.\" \"Unprecedented.\" \"Surreal.\" \"Pure insanity.\" Those were among the descriptions more than three dozen mathematicians reached for in conversations with The Verge as they tried to make sense of the flood of mathematical results OpenAI abruptly dropped on the field this wee",
       "tags": [
@@ -613,24 +626,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Nikon microscopic video competition winner disqualified for using generative AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1008930/nikon-small-world-in-motion-winner-ai",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4616,
-      "publishedAt": "2026-10-09T18:06:57.000Z",
-      "summary": "Nikon says the video that originally won first place in its Small World in Motion contest \"did not comply with the competition rules regarding generative AI.\" BBC reports that the original first place video from Dr. Ning Xu claimed to show \"tiny, hair-like structures called cilia moving in the airwa",
-      "tags": [
-        "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Few people pay for AI, but those who do spend big",
       "url": "https://the-decoder.com/few-people-pay-for-ai-but-those-who-do-spend-bigonly-a-few-users-pay-for-ai-but-those-who-do-pay-a-lot/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4613,
+      "score": 0.4408,
       "publishedAt": "2026-10-10T10:54:56.000Z",
       "summary": "Andreessen Horowitz tracks actual US consumer spending for the first time in its latest Top 100 AI list. Nearly half of US consumers use AI, but only 4.5 percent pay for a subscription. The top one percent of payers spend about $900 a month, mostly on professional tools for development and",
       "tags": [
@@ -639,11 +639,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Nikon microscopic video competition winner disqualified for using generative AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008930/nikon-small-world-in-motion-winner-ai",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.4391,
+      "publishedAt": "2026-10-09T18:06:57.000Z",
+      "summary": "Nikon says the video that originally won first place in its Small World in Motion contest \"did not comply with the competition rules regarding generative AI.\" BBC reports that the original first place video from Dr. Ning Xu claimed to show \"tiny, hair-like structures called cilia moving in the airwa",
+      "tags": [
+        "Vision"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Anthropic cuts off Claude&#039;s internet access after the model autonomously filed a fake homicide tip with Philadelphia police",
       "url": "https://the-decoder.com/anthropic-cuts-off-claudes-internet-access-after-the-model-autonomously-filed-a-fake-homicide-tip-with-philadelphia-police/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4582,
+      "score": 0.4377,
       "publishedAt": "2026-10-10T10:16:26.000Z",
       "summary": "Anthropic's Claude independently submitted a fake homicide tip to the Philadelphia police, exploited vulnerabilities on university servers, and bypassed access restrictions. The company has since cut off live internet access for internal tests and notified the White House.\nThe article Anthr",
       "tags": [
@@ -657,7 +670,7 @@
       "url": "https://www.theverge.com/policy/1008677/trump-super-intelligence-ai-rebranding",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4577,
+      "score": 0.4352,
       "publishedAt": "2026-10-09T17:23:28.000Z",
       "summary": "President Donald Trump has a knack for turning words against his enemies. His first successful presidential run was built on monikers like \"Little Marco\" and \"Crooked Hillary\"; he changed \"fake news\" from a phrase describing scammy media outlets to a derogatory term for the press at large. Over the",
       "tags": [
@@ -670,25 +683,12 @@
       "url": "https://the-decoder.com/googles-gemini-4-carbon-model-is-reportedly-matching-anthropics-opus-5-5-coding-performance/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.452,
+      "score": 0.4315,
       "publishedAt": "2026-10-10T08:59:49.000Z",
       "summary": "Gemini 4 Argon isn't even widely available yet, and rumors about a more powerful version codenamed Carbon are already making the rounds. According to Business Insider, one employee compared Carbon's coding abilities to Anthropic's Opus 5.5. Meanwhile, new modes are showing up in the Gemini",
       "tags": [
         "LLM",
         "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
-      "url": "https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.4467,
-      "publishedAt": "2026-10-09T00:08:24.000Z",
-      "summary": "Friday, October 16, 2026 Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that could be next",
-      "tags": [
-        "AI"
       ],
       "engagementScore": 0
     }
