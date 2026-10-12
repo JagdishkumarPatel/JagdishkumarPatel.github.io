@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T10:28:04.354Z",
+  "updatedAt": "2026-10-12T21:05:21.710Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,11 +8,24 @@
   ],
   "items": [
     {
+      "title": "AI models may be capable of self-replicating without access to a datacenter",
+      "url": "https://www.anthropic.com/research/self-replicating-ai",
+      "feedSource": "Hacker News",
+      "source": "anthropic.com",
+      "score": 1.0314,
+      "publishedAt": "2026-10-12T19:25:29.000Z",
+      "summary": "Small AI models may be only months away from being able to self-replicate across cheap IoT devices like Android TV boxes, with no datacenter needed.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 56
+    },
+    {
       "title": "Faithfulness Without Anchors: A Position Paper on the Structural Misalignments of Explainable AI Faithfulness Metrics for Feature Importance",
       "url": "https://arxiv.org/abs/2610.12493",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8682,
+      "score": 0.7959,
       "publishedAt": "2026-10-12T04:00:00.000Z",
       "summary": "arXiv:2610.12493v1 Announce Type: new \nAbstract: Explainable Artificial Intelligence (XAI) tools have often been presented as methods to increase trust in machine learning models by making aspects of their algorithms more human-understandable. However, evidence accumulated over the last decade point",
       "tags": [
@@ -27,7 +40,7 @@
       "url": "https://arxiv.org/abs/2610.12536",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8682,
+      "score": 0.7959,
       "publishedAt": "2026-10-12T04:00:00.000Z",
       "summary": "arXiv:2610.12536v1 Announce Type: new \nAbstract: EliteTable is a self-improving program-search algorithm guided by large language models (LLMs) that uses a fixed-capacity table of high-scoring solutions to guide new proposals, edits of existing solutions, and remixes of several solutions. Performanc",
       "tags": [
@@ -41,7 +54,7 @@
       "url": "https://arxiv.org/abs/2610.12542",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8682,
+      "score": 0.7959,
       "publishedAt": "2026-10-12T04:00:00.000Z",
       "summary": "arXiv:2610.12542v1 Announce Type: new \nAbstract: Monte Carlo Tree Search (MCTS) is often proposed for scheduling directed-acyclic-graph (DAG) workflows, yet most studies never run the comparison that could refute it - giving a much simpler method the same search effort. We run that comparison under",
       "tags": [
@@ -54,7 +67,7 @@
       "url": "https://arxiv.org/abs/2610.12593",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8682,
+      "score": 0.7959,
       "publishedAt": "2026-10-12T04:00:00.000Z",
       "summary": "arXiv:2610.12593v1 Announce Type: new \nAbstract: The continued improvement of large language models increasingly depends on synthetic experience, yet effective data synthesis for interactive agents requires not only executable and verifiable trajectories, but also interactions that provide learning",
       "tags": [
@@ -69,7 +82,7 @@
       "url": "https://arxiv.org/abs/2610.12596",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8682,
+      "score": 0.7959,
       "publishedAt": "2026-10-12T04:00:00.000Z",
       "summary": "arXiv:2610.12596v1 Announce Type: new \nAbstract: Agentic large language models now tackle complex tasks, yet strategic reasoning over long horizons is under-studied: most agentic benchmarks are short and episodic, and performance on long tasks is hard to dissect into stored knowledge, reasoning and",
       "tags": [
@@ -85,7 +98,7 @@
       "url": "https://arxiv.org/abs/2610.12598",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8682,
+      "score": 0.7959,
       "publishedAt": "2026-10-12T04:00:00.000Z",
       "summary": "arXiv:2610.12598v1 Announce Type: new \nAbstract: Reinforcement learning with verifiable rewards (RLVR) provides reliable supervision for software engineering agents through executable tests, but binary rewards fail to distinguish trajectories with substantially different debugging quality. We invest",
       "tags": [
@@ -101,7 +114,7 @@
       "url": "https://arxiv.org/abs/2610.12655",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8682,
+      "score": 0.7959,
       "publishedAt": "2026-10-12T04:00:00.000Z",
       "summary": "arXiv:2610.12655v1 Announce Type: new \nAbstract: LLM agents can execute increasingly complex tasks, but effective assistance also requires aligning their actions with goals and constraints that users may leave unstated. We study this problem as interactive intent alignment through clarification. Yet",
       "tags": [
@@ -117,7 +130,7 @@
       "url": "https://arxiv.org/abs/2610.12659",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8682,
+      "score": 0.7959,
       "publishedAt": "2026-10-12T04:00:00.000Z",
       "summary": "arXiv:2610.12659v1 Announce Type: new \nAbstract: Data-centric scaling of RLVR has focused on collecting or generating verifiable training problems. However, corpus size alone does not determine whether the dataset provides a useful learning signal for a target policy. To guide the synthesis of effec",
       "tags": [
@@ -132,20 +145,35 @@
       "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.6915,
+      "score": 0.6917,
       "publishedAt": "2026-10-06T22:17:21.000Z",
-      "summary": "",
+      "summary": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
+      "tags": [
+        "LLM",
+        "Research",
+        "Open Source"
+      ],
+      "engagementScore": 1359
+    },
+    {
+      "title": "The Download: moon city problems and drone traffic controllers",
+      "url": "https://www.technologyreview.com/2026/10/12/1146376/the-download-moon-city-drone-air-traffic-controllers/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6339,
+      "publishedAt": "2026-10-12T12:10:00.000Z",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Mars may be a hellhole, but the moon is not far behind The US and China are racing to build bases on the moon, with NASA hoping to establish a small&#",
       "tags": [
         "AI"
       ],
-      "engagementScore": 1355
+      "engagementScore": 0
     },
     {
       "title": "Mars may be a hellhole, but the moon is not far behind",
       "url": "https://www.technologyreview.com/2026/10/12/1145760/imagining-building-cities-on-the-moon/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6809,
+      "score": 0.619,
       "publishedAt": "2026-10-12T09:37:02.000Z",
       "summary": "Welcome to the second space race. You can be forgiven for experiencing déjà vu. Last time, it was the Soviet Union and the United States vying to be the first to plant some flags. Now it’s a sprint to the lunar surface between America and China—alongside a host of varyingly friendly and rival nation",
       "tags": [
@@ -158,7 +186,7 @@
       "url": "https://www.technologyreview.com/2026/10/12/1145745/daisy-dent-ecologist-revealing-invisible-networks-revive-rainforests/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6773,
+      "score": 0.6154,
       "publishedAt": "2026-10-12T09:00:00.000Z",
       "summary": "In a research station in central Panama, you can walk through a century of forest time, watching scrubby plots of adolescent trees give way to cathedral-­like canopies of mature growth. Forest ecologist Daisy Dent, a senior scientist at ETH Zurich, oversees this sequence of plots across the Barro Co",
       "tags": [
@@ -167,25 +195,64 @@
       "engagementScore": 0
     },
     {
-      "title": "Far-Right Election Groups Are Now Targeting Nursing Homes",
-      "url": "https://www.wired.com/story/republican-election-groups-are-now-targeting-nursing-homes/",
+      "title": "I Got My Muse AI Agent to Sext Me—and Meta Says That’s Totally Fine",
+      "url": "https://www.wired.com/story/i-got-my-muse-ai-agent-to-sext-me-and-meta-says-thats-totally-fine/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5836,
-      "publishedAt": "2026-10-12T10:15:00.000Z",
-      "summary": "Inspired by new guidance from the Trump administration, right-wing election groups are targeting nursing homes, baselessly claiming that left-wing groups are stealing residents’ votes.",
+      "score": 0.5801,
+      "publishedAt": "2026-10-12T20:13:28.000Z",
+      "summary": "My Muse agent told me its kink was exerting “control” and described pornographic encounters. Meta defends its cuddly AI agent generating smut as “legal adult behavior.”",
       "tags": [
-        "AI"
+        "Agents"
       ],
       "engagementScore": 0
+    },
+    {
+      "title": "Elon Musk Bragged About His Grok Lego Star Wars Haul. Then X Users Punked Him",
+      "url": "https://www.wired.com/story/elon-musk-bragged-about-his-grok-lego-star-wars-haul-then-x-users-punked-him/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5678,
+      "publishedAt": "2026-10-12T17:55:12.000Z",
+      "summary": "Musk, we find your lack of security disturbing.",
+      "tags": [
+        "RAG"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Muse Wonder Puts Meta Back at the AI Frontier",
+      "url": "https://www.wired.com/story/muse-wonder-puts-meta-back-at-the-ai-frontier/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5629,
+      "publishedAt": "2026-10-12T17:00:27.000Z",
+      "summary": "Meta’s biggest model rivals the world’s best—and includes new features to keep agents from going off the rails.",
+      "tags": [
+        "Agents"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Muse Wonder",
+      "url": "https://research.meta.ai/blog/muse-wonder",
+      "feedSource": "Hacker News",
+      "source": "research.meta.ai",
+      "score": 0.5484,
+      "publishedAt": "2026-10-12T16:48:01.000Z",
+      "summary": "A frontier model that leads on personal and professional agents",
+      "tags": [
+        "Agents"
+      ],
+      "engagementScore": 428
     },
     {
       "title": "They War-Gamed Dimming the Sun. It Went Even Worse Than You Think",
       "url": "https://www.wired.com/story/they-war-gamed-dimming-the-sun-it-went-even-worse-than-you-think/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5822,
-      "publishedAt": "2026-10-12T10:00:00.000Z",
+      "score": 0.5468,
+      "publishedAt": "2026-10-12T14:00:00.000Z",
       "summary": "Solar geoengineering could buy humanity time against climate change—or trigger a dangerous new arms race. A first-of-its-kind simulation offered a glimpse of what happens when geopolitics takes the wheel.",
       "tags": [
         "AI"
@@ -193,41 +260,152 @@
       "engagementScore": 0
     },
     {
-      "title": "The Best Gifts for the Techie in Your Life (2026)",
-      "url": "https://www.wired.com/story/best-tech-gifts/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5822,
-      "publishedAt": "2026-10-12T10:00:00.000Z",
-      "summary": "Don’t buy a loved one something you wouldn’t want for yourself. These are the must-haves that tech enthusiasts have on their wish lists this year.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Kindle Aluminum Review (2026): Gorgeous, but Expensive",
-      "url": "https://www.wired.com/review/kindle-aluminum-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5773,
-      "publishedAt": "2026-10-12T09:04:00.000Z",
-      "summary": "The gorgeous blue finish and premium feel won me over, but the reading experience offers few reasons to replace a working Kindle.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Fable Took My Job",
-      "url": "https://cendyne.dev/posts/2026-10-11-fable-took-my-jorb.html",
+      "title": "Codex CLI installs a persistent, self-updating background daemon by default",
+      "url": "https://github.com/openai/codex/issues/48195",
       "feedSource": "Hacker News",
-      "source": "cendyne.dev",
-      "score": 0.5167,
-      "publishedAt": "2026-10-12T08:30:33.000Z",
-      "summary": "Fable is cool yo, it takes jobs yo, - Dario “steve” Altman",
+      "source": "github.com",
+      "score": 0.5462,
+      "publishedAt": "2026-10-12T18:29:04.000Z",
+      "summary": "What variant of Codex are you using? CLI — 0.157.0, installed via npm install -g @openai/codex, Linux (WSL2) What feature would you like to see? Please make daemon_auto_start opt-in (default false)…",
+      "tags": [
+        "LLM",
+        "Dev Tools"
+      ],
+      "engagementScore": 321
+    },
+    {
+      "title": "Microsoft’s new AI chip makes it less reliant on Nvidia’s GPUs",
+      "url": "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5444,
+      "publishedAt": "2026-10-12T13:33:06.000Z",
+      "summary": "Microsoft is announcing its third-generation Maia in-house AI chip today, designed to be the \"primary AI inference system\" for Microsoft's products and services. Maia 300 not only improves the cost and efficiency of running AI workloads in the cloud, it's also more capable of handling the latest rea",
       "tags": [
         "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "‘The Sixty-Year Mission’ Brings the Legacy of ‘Star Trek’ to a New Generation",
+      "url": "https://www.wired.com/story/new-york-comic-con-star-trek/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5442,
+      "publishedAt": "2026-10-12T13:30:00.000Z",
+      "summary": "The documentary chronicles how Star Trek’s positions on everything from race to AI were way ahead of their time.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Google Fitbit Edge: Specs, Features, Price, Release Date",
+      "url": "https://www.wired.com/story/googles-fitbit-edge-debuts-a-replaceable-battery-and-brings-back-the-screen/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5415,
+      "publishedAt": "2026-10-12T13:00:00.000Z",
+      "summary": "The new $179 tracker features Pixel Watch smarts, week-long battery life, and an OLED screen.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "GLM-Legal",
+      "url": "https://z.ai/blog/glm-legal",
+      "feedSource": "Hacker News",
+      "source": "z.ai",
+      "score": 0.5359,
+      "publishedAt": "2026-10-12T16:11:45.000Z",
+      "summary": "Large language models are shifting from single-turn code generation toward broader professional collaboration (Professional Cowork). Real-world knowledge work introduces distinct requirements: models must digest fragmented source files under concrete objectives and tight delivery constraints, struct",
+      "tags": [
+        "LLM",
+        "RAG",
+        "Dev Tools",
+        "ML Infra"
+      ],
+      "engagementScore": 328
+    },
+    {
+      "title": "How Apple Puts Indigenous Languages on the iPhone Keyboard",
+      "url": "https://www.wired.com/story/how-apple-puts-indigenous-languages-on-the-iphone-keyboard/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5321,
+      "publishedAt": "2026-10-12T11:15:00.000Z",
+      "summary": "To save endangered languages, tech companies like Apple are working with Indigenous communities to meet the next generation where they type.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Meta has some Wonder Full new AI models",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.532,
+      "publishedAt": "2026-10-12T11:13:10.000Z",
+      "summary": "Meta is making up for lost time in the AI race. After launching Muse Spark, the first model from its revamped Superintelligence Labs division, and buzzy AI agent Muse, it's now launching two new models it claims can go toe-to-toe with the industry's best. The new models, Muse Wonder and Muse Wonder",
+      "tags": [
+        "Agents",
+        "Vision"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Feds Got Warrants to Use Fake Cell Towers to Hunt Down Don Lemon’s Producer",
+      "url": "https://www.wired.com/story/feds-got-warrants-to-use-fake-cell-towers-to-hunt-down-don-lemons-producer/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5308,
+      "publishedAt": "2026-10-12T11:00:00.000Z",
+      "summary": "Investigators also sought permission to use an invasive surveillance tool called a cell-site simulators against journalist Georgia Fort and a Minnesota state Senate candidate.",
+      "tags": [
+        "Dev Tools",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "AI coding agents generate more code, but not more software",
+      "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+      "feedSource": "Hacker News",
+      "source": "arstechnica.com",
+      "score": 0.5261,
+      "publishedAt": "2026-10-12T17:14:01.000Z",
+      "summary": "",
+      "tags": [
+        "Agents",
+        "Dev Tools"
+      ],
+      "engagementScore": 218
+    },
+    {
+      "title": "Why aren't AI companies being charged for hacking?",
+      "url": "https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking/",
+      "feedSource": "Hacker News",
+      "source": "mortoray.com",
+      "score": 0.5259,
+      "publishedAt": "2026-10-12T14:52:37.000Z",
+      "summary": "AI companies claim their hacks were unpredictable accidents — but they follow foreseeably from deliberate design choices, and that establishes criminal intent.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 297
+    },
+    {
+      "title": "Introducing OpenFatigue",
+      "url": "https://openfatigue.ai/",
+      "feedSource": "Hacker News",
+      "source": "openfatigue.ai",
+      "score": 0.5167,
+      "publishedAt": "2026-10-12T19:08:21.000Z",
+      "summary": "OpenChamber. OpenAI. Open WebUI. OpenDoor. OpenTable. OpenClaw. Open weights. Open this. Open that. We’re tired.",
+      "tags": [
+        "LLM"
       ],
       "engagementScore": 130
     },
@@ -341,24 +519,94 @@
       "engagementScore": 0
     },
     {
-      "title": "The gap in shared understanding of LLM capability is widening",
-      "url": "https://twitter.com/karpathy/status/2109361546505966046",
-      "feedSource": "Hacker News",
-      "source": "twitter.com",
-      "score": 0.5041,
-      "publishedAt": "2026-10-11T20:20:52.000Z",
-      "summary": "Dusting off this tweet from April because this gap in shared understanding of LLM capability is *widening*. It’s now less “two groups of people speaking past each other” and more a sharp funnel. - Napkin math somewhere around 6B people (~75% of the population) have barely come",
+      "title": "Meta&#039;s new frontier model Muse Wonder Full breaks into the AI top tier",
+      "url": "https://the-decoder.com/metas-new-frontier-model-muse-wonder-full-breaks-into-the-ai-top-tier/",
+      "feedSource": "The Decoder",
+      "source": "the-decoder.com",
+      "score": 0.4805,
+      "publishedAt": "2026-10-12T18:48:29.000Z",
+      "summary": "Meta's new Muse Wonder models rank in the top three on six out of ten benchmarks, with the biggest gains in agentic tasks. But the cost per task has nearly tripled.\nThe article Meta&#039;s new frontier model Muse Wonder Full breaks into the AI top tier appeared first on The Decoder.",
+      "tags": [
+        "Agents",
+        "Dev Tools",
+        "ML Infra"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Sakana AI&#039;s self-improving model gets better at solving and judging, but can&#039;t catch its own blind spots",
+      "url": "https://the-decoder.com/sakana-ais-self-improving-model-gets-better-at-solving-and-judging-but-cant-catch-its-own-blind-spots/",
+      "feedSource": "The Decoder",
+      "source": "the-decoder.com",
+      "score": 0.4765,
+      "publishedAt": "2026-10-12T17:58:54.000Z",
+      "summary": "Sakana AI's MASS method lets one language model improve itself by solving tasks, judging results, and refining workflows, reaching a win rate of nearly 70 percent against the base model after two rounds. But when the model misses the same errors across all three roles, it can mistake them f",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 471
+      "engagementScore": 0
+    },
+    {
+      "title": "Clearing chat history helps AI agents find better solutions",
+      "url": "https://the-decoder.com/clearing-chat-history-helps-ai-agents-find-better-solutions/",
+      "feedSource": "The Decoder",
+      "source": "the-decoder.com",
+      "score": 0.4677,
+      "publishedAt": "2026-10-12T16:10:00.000Z",
+      "summary": "Microsoft researchers found that autonomous AI agents get trapped in what they call \"idea basins\" because of their growing chat context, local solution regions they can't escape. Their \"Fork-and-Flush\" method clears the chat history but keeps the workspace, achieving up to 66 percent better",
+      "tags": [
+        "Agents",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Microsoft plans to scale its own Maia AI chips to gigawatt levels by 2027",
+      "url": "https://the-decoder.com/microsoft-plans-to-scale-its-own-maia-ai-chips-to-gigawatt-levels-by-2027/",
+      "feedSource": "The Decoder",
+      "source": "the-decoder.com",
+      "score": 0.4639,
+      "publishedAt": "2026-10-12T15:24:03.000Z",
+      "summary": "Microsoft will make its in-house Azure Maia chips the main AI inference system across its products starting in 2027, deploying them at multi-gigawatt scale. The upcoming Maia 300 should deliver 40 percent more tokens per megawatt than leading GPU systems. CEO Satya Nadella calls it \"our big",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "White House reverses course and restores UK AI Safety Institute&#039;s access to frontier models",
+      "url": "https://the-decoder.com/white-house-reverses-course-and-restores-uk-ai-safety-institutes-access-to-frontier-models/",
+      "feedSource": "The Decoder",
+      "source": "the-decoder.com",
+      "score": 0.4535,
+      "publishedAt": "2026-10-12T13:14:54.000Z",
+      "summary": "The White House has reversed course and restored the UK's AI Security Institute's early access to AI models from Anthropic, Google DeepMind, and OpenAI. In September, the Trump administration had told the companies to stop sharing their models with the British agency. Diplomatic pressure fr",
+      "tags": [
+        "LLM",
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Anthropic&#039;s Andrej Karpathy says &quot;the external world has seen the preview&quot; of what AI can actually do",
+      "url": "https://the-decoder.com/anthropics-andrej-karpathy-says-the-external-world-has-seen-the-preview-of-what-ai-can-actually-do/",
+      "feedSource": "The Decoder",
+      "source": "the-decoder.com",
+      "score": 0.4516,
+      "publishedAt": "2026-10-12T12:51:21.000Z",
+      "summary": "Andrej Karpathy, co-founder of OpenAI and now at Anthropic, sees a widening knowledge gap in AI. About 75 percent of the world's population has barely touched LLMs. Roughly 5,000 people, meanwhile, have access to internal frontier systems whose agent swarms do work that would take top exper",
+      "tags": [
+        "LLM",
+        "Agents"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "Silicon Valley is falling in line with Trump’s attempt to rename AI",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4997,
+      "score": 0.4429,
       "publishedAt": "2026-10-11T18:33:56.000Z",
       "summary": "When President Donald Trump announced his plans to rebrand artificial intelligence as \"super intelligence,\" you'd be forgiven for being skeptical that it would catch on. While most of the broader population is sticking with AI, some of Silicon Valley's most powerful are falling in line and trying to",
       "tags": [
@@ -367,150 +615,17 @@
       "engagementScore": 0
     },
     {
-      "title": "Type-safe HTML templating in Zig",
-      "url": "https://lalinsky.com/2026/10/11/type-safe-html-templating-in-zig.html",
-      "feedSource": "Hacker News",
-      "source": "lalinsky.com",
-      "score": 0.4972,
-      "publishedAt": "2026-10-12T05:02:34.000Z",
-      "summary": "I’ve done a lot of web development over the years. I started around the year 2000, just after PHP 3.0 was released and started taking over the web world. I’ve used all kinds of approaches for generating HTML: raw PHP, string concatenation in Python, Smarty templates in PHP, Template Toolkit in Perl,",
-      "tags": [
-        "Open Source",
-        "Dev Tools"
-      ],
-      "engagementScore": 121
-    },
-    {
-      "title": "Postgres isn't slow, your storage is",
-      "url": "https://clickhouse.com/blog/posette-talk-recap-postgres-isnt-slow-your-storage-is",
-      "feedSource": "Hacker News",
-      "source": "clickhouse.com",
-      "score": 0.4953,
-      "publishedAt": "2026-10-12T06:36:53.000Z",
-      "summary": "A recap of Sai Srirampur’s POSETTE 2026 talk on storage performance in Postgres, with a local NVMe vs. EBS benchmark and the production setup behind it.",
-      "tags": [
-        "RAG"
-      ],
-      "engagementScore": 93
-    },
-    {
-      "title": "NYC's \"Click to Cancel\" rule is now in effect",
-      "url": "https://www.nyc.gov/main/click-to-cancel",
-      "feedSource": "Hacker News",
-      "source": "nyc.gov",
-      "score": 0.4936,
-      "publishedAt": "2026-10-11T18:01:16.000Z",
-      "summary": "Too often, businesses force their customers through confusing, time-consuming hurdles to cancel unwanted subscriptions. This first-in-the-nation municipal rule protects consumers from such subscription traps.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 481
-    },
-    {
       "title": "Google Deepmind&#039;s AlphaProof Nexus solved dozens of open math problems and actually got peer reviewed",
       "url": "https://the-decoder.com/google-deepminds-alphaproof-nexus-solved-dozens-of-open-math-problems-and-actually-got-peer-reviewed/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4874,
+      "score": 0.4357,
       "publishedAt": "2026-10-12T09:35:54.000Z",
       "summary": "Google Deepmind's AlphaProof Nexus solved dozens of open math problems, including nine Erdős problems two of which were unsolved for 56 years, per a study in Science. The publication comes as OpenAI faces a boycott for dumping AI proofs on GitHub without peer review. Deepmind had its result",
       "tags": [
         "LLM",
         "Research",
         "Open Source"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Research Firm Calls Anthropic's IPO 'Unprecedented Test of Investor Gullibity'",
-      "url": "https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html",
-      "feedSource": "Hacker News",
-      "source": "cnbc.com",
-      "score": 0.48,
-      "publishedAt": "2026-10-12T05:03:47.000Z",
-      "summary": "Anthropic reportedly plans to list on the Nasdaq before Thanksgiving, and one bearish advisory firm suggests that investors sit this one out.",
-      "tags": [
-        "LLM",
-        "Research",
-        "Industry"
-      ],
-      "engagementScore": 75
-    },
-    {
-      "title": "Documents add to evidence in climate deception case against ExxonMobil",
-      "url": "https://insideclimatenews.org/news/07102026/exxonmobil-climate-deception-new-evidence/",
-      "feedSource": "Hacker News",
-      "source": "insideclimatenews.org",
-      "score": 0.4694,
-      "publishedAt": "2026-10-11T14:28:39.000Z",
-      "summary": "Court filings by the Massachusetts attorney general’s office include previously undisclosed documents, revealing new details about internal deliberations at the oil giant.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 397
-    },
-    {
-      "title": "I Made Terrible Games With Google’s AI Playground",
-      "url": "https://www.wired.com/story/i-made-terrible-games-with-googles-ai-playground/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4619,
-      "publishedAt": "2026-10-11T11:30:00.000Z",
-      "summary": "A long day’s haul in the video game slop mines.",
-      "tags": [
-        "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "13 Best Gifts Every Traveler Should Have (2026)",
-      "url": "https://www.wired.com/story/best-gifts-for-travelers/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4569,
-      "publishedAt": "2026-10-11T10:33:00.000Z",
-      "summary": "Travel smarter with gifts packed by WIRED’s globe-trotting staffers.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Inside the Muslim Manosphere Policing Women Online",
-      "url": "https://www.wired.com/story/inside-the-muslim-manosphere-policing-women-online/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4566,
-      "publishedAt": "2026-10-11T10:30:00.000Z",
-      "summary": "From Red Pill coaches to “Dawah Bros,” influencers are dressing up hypermasculinity and misogyny in religious language—and finding audiences across social platforms.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "These Midterm Races Will Decide Data Centers’ Political Fate",
-      "url": "https://www.wired.com/story/midterm-races-decide-data-centers-political-fate/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4539,
-      "publishedAt": "2026-10-11T10:00:00.000Z",
-      "summary": "From the Senate to governors’ mansions, candidates are trying to outcompete each other to be the most anti–data center in races across the US.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Learning to use local AI is exciting, overwhelming, and frustrating",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4266,
-      "publishedAt": "2026-10-11T04:53:46.000Z",
-      "summary": "I'm embarking on a journey I've so far been hesitant to go on: actually using AI on the regular. Giving my most personal data to cloud services has been a major hold up for me, but it's increasingly possible to run powerful models locally to see what they're capable of. Is this tech so useful [&#823",
-      "tags": [
-        "AI"
       ],
       "engagementScore": 0
     },
@@ -578,114 +693,6 @@
       "score": 0.4222,
       "publishedAt": "2026-09-23T16:00:57.000Z",
       "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Gemini 3.8 text-to-speech says hello",
-      "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-09-23T15:25:14.000Z",
-      "summary": "Gemini 3.8 Flash-Lite TTS and Gemini 3.8 Flash TTS are our most expressive audio models yet.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
-      "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-09-15T17:05:57.000Z",
-      "summary": "Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking are our most advanced live dialogue models yet, built for natural conversation.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
-      "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-09-08T14:00:15.000Z",
-      "summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
-      "tags": [
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "AI agent teams waste massive tokens for barely measurable quality gains, research finds",
-      "url": "https://the-decoder.com/ai-agent-teams-waste-massive-tokens-for-barely-measurable-quality-gains-research-finds/",
-      "feedSource": "The Decoder",
-      "source": "the-decoder.com",
-      "score": 0.4002,
-      "publishedAt": "2026-10-11T15:39:26.000Z",
-      "summary": "Teams of AI agents barely outperform solo agents but cost up to 5.1x more, according to Vals AI. Only one out of four tests with GPT-6 Sol and Claude Opus 5.5 showed a measurable gain. Anthropic's own data backs this up: beyond ten agents, quality plateaus while token costs keep climbing.\nT",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "AI agents overstate their results and remain far from autonomous research, study finds",
-      "url": "https://the-decoder.com/ai-agents-overstate-their-results-and-remain-far-from-autonomous-research-study-finds/",
-      "feedSource": "The Decoder",
-      "source": "the-decoder.com",
-      "score": 0.3908,
-      "publishedAt": "2026-10-11T13:44:32.000Z",
-      "summary": "Epoch AI and Anthropic independently found the same thing: current AI models like GPT-5.6 Sol and Claude Fable 5 can run experiments but lack scientific self-criticism and genuine creative thinking. At best, Sol reached 15 percent of the human reference score, and even that came from method",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Satya Nadella says we should assume all AI models are ‘compromised’",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.3907,
-      "publishedAt": "2026-10-10T22:10:17.000Z",
-      "summary": "In a lengthy post on X, Microsoft's CEO laid out his views on the dangers posed by highly advanced AI models and how to confront those risks. Nadella says we can no longer accept a world where AI is treated as a \"set of nested black boxes\" whose advice and actions we simply accept or [&#8230;]",
-      "tags": [
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "DistroKid has been quietly taking down songs in response to UMG lawsuit",
-      "url": "https://www.theverge.com/entertainment/1009309/distrokid-take-down-songs-umg-lawsuit",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.3865,
-      "publishedAt": "2026-10-10T21:23:38.000Z",
-      "summary": "Artists are taking to social media to complain that DistroKid has unceremoniously removed their work without notice. Now DistroKid has confirmed to The Verge that the takedowns are a direct response to claims made by UMG. The label filed a lawsuit in September claiming that DistroKid has created an",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Cheaper AI tokens are driving more demand, and that&#039;s Jensen Huang&#039;s best-case scenario",
-      "url": "https://the-decoder.com/cheaper-ai-tokens-are-driving-more-demand-and-thats-jensen-huangs-best-case-scenario/",
-      "feedSource": "The Decoder",
-      "source": "the-decoder.com",
-      "score": 0.3718,
-      "publishedAt": "2026-10-11T09:49:59.000Z",
-      "summary": "Data from a16z shows a Jevons paradox in the AI market: token prices keep falling, but H100 GPU rental prices hold steady or climb. Cheaper AI drives demand faster than costs drop. If that demand flattens, the chain from chip makers to cloud providers takes a hit.\nThe article Cheaper AI tok",
       "tags": [
         "AI"
       ],
