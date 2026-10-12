@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T00:19:32.000Z",
+  "updatedAt": "2026-10-12T10:28:04.354Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,26 +8,235 @@
   ],
   "items": [
     {
+      "title": "Faithfulness Without Anchors: A Position Paper on the Structural Misalignments of Explainable AI Faithfulness Metrics for Feature Importance",
+      "url": "https://arxiv.org/abs/2610.12493",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8682,
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "summary": "arXiv:2610.12493v1 Announce Type: new \nAbstract: Explainable Artificial Intelligence (XAI) tools have often been presented as methods to increase trust in machine learning models by making aspects of their algorithms more human-understandable. However, evidence accumulated over the last decade point",
+      "tags": [
+        "Research",
+        "Safety",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "EliteTable: Self-Improving Program Search for Executable Control Policies",
+      "url": "https://arxiv.org/abs/2610.12536",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8682,
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "summary": "arXiv:2610.12536v1 Announce Type: new \nAbstract: EliteTable is a self-improving program-search algorithm guided by large language models (LLMs) that uses a fixed-capacity table of high-scoring solutions to guide new proposals, edits of existing solutions, and remixes of several solutions. Performanc",
+      "tags": [
+        "LLM",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Equal-Budget Monte Carlo Tree Search versus Randomized-Restart List Scheduling for DAG Workflows: A Controlled Equal-Budget Computational Study",
+      "url": "https://arxiv.org/abs/2610.12542",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8682,
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "summary": "arXiv:2610.12542v1 Announce Type: new \nAbstract: Monte Carlo Tree Search (MCTS) is often proposed for scheduling directed-acyclic-graph (DAG) workflows, yet most studies never run the comparison that could refute it - giving a much simpler method the same search effort. We run that comparison under",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Know What You Don't Know: Agentic Data Synthesis by Evolving Generation Space for Closed-Loop Learning",
+      "url": "https://arxiv.org/abs/2610.12593",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8682,
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "summary": "arXiv:2610.12593v1 Announce Type: new \nAbstract: The continued improvement of large language models increasingly depends on synthetic experience, yet effective data synthesis for interactive agents requires not only executable and verifiable trajectories, but also interactions that provide learning",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "SpireBench: Evaluating Long-Horizon Strategic Play of Agentic Models with Slay the Spire",
+      "url": "https://arxiv.org/abs/2610.12596",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8682,
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "summary": "arXiv:2610.12596v1 Announce Type: new \nAbstract: Agentic large language models now tackle complex tasks, yet strategic reasoning over long horizons is under-studied: most agentic benchmarks are short and episodic, and performance on long tasks is hard to dissect into stored knowledge, reasoning and",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Research",
+        "ML Infra"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Beyond Binary Verifiable Rewards: Behavioral Self-Rewarding for SWE Agents",
+      "url": "https://arxiv.org/abs/2610.12598",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8682,
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "summary": "arXiv:2610.12598v1 Announce Type: new \nAbstract: Reinforcement learning with verifiable rewards (RLVR) provides reliable supervision for software engineering agents through executable tests, but binary rewards fail to distinguish trajectories with substantially different debugging quality. We invest",
+      "tags": [
+        "Agents",
+        "Research",
+        "Vision",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "CLEAT: Learning Value-Guided Clarification for Interactive Agents",
+      "url": "https://arxiv.org/abs/2610.12655",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8682,
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "summary": "arXiv:2610.12655v1 Announce Type: new \nAbstract: LLM agents can execute increasingly complex tasks, but effective assistance also requires aligning their actions with goals and constraints that users may leave unstated. We study this problem as interactive intent alignment through clarification. Yet",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Research",
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "MagicBeanStalk: Escaping the RLVR Zero Advantage Trap with Recursive Data Synthesis",
+      "url": "https://arxiv.org/abs/2610.12659",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8682,
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "summary": "arXiv:2610.12659v1 Announce Type: new \nAbstract: Data-centric scaling of RLVR has focused on collecting or generating verifiable training problems. However, corpus size alone does not determine whether the dataset provides a useful learning signal for a target policy. To guide the synthesis of effec",
+      "tags": [
+        "Research",
+        "Safety",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Sharing AI progress in mathematics",
       "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.6914,
+      "score": 0.6915,
       "publishedAt": "2026-10-06T22:17:21.000Z",
-      "summary": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
+      "summary": "",
       "tags": [
-        "LLM",
-        "Research",
-        "Open Source"
+        "AI"
       ],
-      "engagementScore": 1352
+      "engagementScore": 1355
+    },
+    {
+      "title": "Mars may be a hellhole, but the moon is not far behind",
+      "url": "https://www.technologyreview.com/2026/10/12/1145760/imagining-building-cities-on-the-moon/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6809,
+      "publishedAt": "2026-10-12T09:37:02.000Z",
+      "summary": "Welcome to the second space race. You can be forgiven for experiencing déjà vu. Last time, it was the Soviet Union and the United States vying to be the first to plant some flags. Now it’s a sprint to the lunar surface between America and China—alongside a host of varyingly friendly and rival nation",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The ecologist revealing the invisible networks that revive rainforests",
+      "url": "https://www.technologyreview.com/2026/10/12/1145745/daisy-dent-ecologist-revealing-invisible-networks-revive-rainforests/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6773,
+      "publishedAt": "2026-10-12T09:00:00.000Z",
+      "summary": "In a research station in central Panama, you can walk through a century of forest time, watching scrubby plots of adolescent trees give way to cathedral-­like canopies of mature growth. Forest ecologist Daisy Dent, a senior scientist at ETH Zurich, oversees this sequence of plots across the Barro Co",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Far-Right Election Groups Are Now Targeting Nursing Homes",
+      "url": "https://www.wired.com/story/republican-election-groups-are-now-targeting-nursing-homes/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5836,
+      "publishedAt": "2026-10-12T10:15:00.000Z",
+      "summary": "Inspired by new guidance from the Trump administration, right-wing election groups are targeting nursing homes, baselessly claiming that left-wing groups are stealing residents’ votes.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "They War-Gamed Dimming the Sun. It Went Even Worse Than You Think",
+      "url": "https://www.wired.com/story/they-war-gamed-dimming-the-sun-it-went-even-worse-than-you-think/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5822,
+      "publishedAt": "2026-10-12T10:00:00.000Z",
+      "summary": "Solar geoengineering could buy humanity time against climate change—or trigger a dangerous new arms race. A first-of-its-kind simulation offered a glimpse of what happens when geopolitics takes the wheel.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Best Gifts for the Techie in Your Life (2026)",
+      "url": "https://www.wired.com/story/best-tech-gifts/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5822,
+      "publishedAt": "2026-10-12T10:00:00.000Z",
+      "summary": "Don’t buy a loved one something you wouldn’t want for yourself. These are the must-haves that tech enthusiasts have on their wish lists this year.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Kindle Aluminum Review (2026): Gorgeous, but Expensive",
+      "url": "https://www.wired.com/review/kindle-aluminum-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5773,
+      "publishedAt": "2026-10-12T09:04:00.000Z",
+      "summary": "The gorgeous blue finish and premium feel won me over, but the reading experience offers few reasons to replace a working Kindle.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Fable Took My Job",
+      "url": "https://cendyne.dev/posts/2026-10-11-fable-took-my-jorb.html",
+      "feedSource": "Hacker News",
+      "source": "cendyne.dev",
+      "score": 0.5167,
+      "publishedAt": "2026-10-12T08:30:33.000Z",
+      "summary": "Fable is cool yo, it takes jobs yo, - Dario “steve” Altman",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 130
     },
     {
       "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
       "url": "https://openai.com/index/sophos",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.561,
+      "score": 0.5124,
       "publishedAt": "2026-10-09T07:00:00.000Z",
       "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
       "tags": [
@@ -41,78 +250,13 @@
       "url": "https://openai.com/index/asana-browser-agent",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.561,
+      "score": 0.5124,
       "publishedAt": "2026-10-09T07:00:00.000Z",
       "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
       "tags": [
         "LLM",
         "Agents",
         "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Silicon Valley is falling in line with Trump’s attempt to rename AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5539,
-      "publishedAt": "2026-10-11T18:33:56.000Z",
-      "summary": "When President Donald Trump announced his plans to rebrand artificial intelligence as \"super intelligence,\" you'd be forgiven for being skeptical that it would catch on. While most of the broader population is sticking with AI, some of Silicon Valley's most powerful are falling in line and trying to",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "NYC's \"Click to Cancel\" rule is now in effect",
-      "url": "https://www.nyc.gov/main/click-to-cancel",
-      "feedSource": "Hacker News",
-      "source": "nyc.gov",
-      "score": 0.5282,
-      "publishedAt": "2026-10-11T18:01:16.000Z",
-      "summary": "Too often, businesses force their customers through confusing, time-consuming hurdles to cancel unwanted subscriptions. This first-in-the-nation municipal rule protects consumers from such subscription traps.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 321
-    },
-    {
-      "title": "The gap in shared understanding of LLM capability is widening",
-      "url": "https://twitter.com/karpathy/status/2109361546505966046",
-      "feedSource": "Hacker News",
-      "source": "twitter.com",
-      "score": 0.5208,
-      "publishedAt": "2026-10-11T20:20:52.000Z",
-      "summary": "Dusting off this tweet from April because this gap in shared understanding of LLM capability is *widening*. It’s now less “two groups of people speaking past each other” and more a sharp funnel. - Napkin math somewhere around 6B people (~75% of the population) have barely come",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 191
-    },
-    {
-      "title": "Documents add to evidence in climate deception case against ExxonMobil",
-      "url": "https://insideclimatenews.org/news/07102026/exxonmobil-climate-deception-new-evidence/",
-      "feedSource": "Hacker News",
-      "source": "insideclimatenews.org",
-      "score": 0.5172,
-      "publishedAt": "2026-10-11T14:28:39.000Z",
-      "summary": "Court filings by the Massachusetts attorney general’s office include previously undisclosed documents, revealing new details about internal deliberations at the oil giant.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 381
-    },
-    {
-      "title": "I Made Terrible Games With Google’s AI Playground",
-      "url": "https://www.wired.com/story/i-made-terrible-games-with-googles-ai-playground/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5162,
-      "publishedAt": "2026-10-11T11:30:00.000Z",
-      "summary": "A long day’s haul in the video game slop mines.",
-      "tags": [
-        "Vision"
       ],
       "engagementScore": 0
     },
@@ -197,11 +341,133 @@
       "engagementScore": 0
     },
     {
-      "title": "13 Best Gifts for Every Traveler Should Have (2026)",
+      "title": "The gap in shared understanding of LLM capability is widening",
+      "url": "https://twitter.com/karpathy/status/2109361546505966046",
+      "feedSource": "Hacker News",
+      "source": "twitter.com",
+      "score": 0.5041,
+      "publishedAt": "2026-10-11T20:20:52.000Z",
+      "summary": "Dusting off this tweet from April because this gap in shared understanding of LLM capability is *widening*. It’s now less “two groups of people speaking past each other” and more a sharp funnel. - Napkin math somewhere around 6B people (~75% of the population) have barely come",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 471
+    },
+    {
+      "title": "Silicon Valley is falling in line with Trump’s attempt to rename AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.4997,
+      "publishedAt": "2026-10-11T18:33:56.000Z",
+      "summary": "When President Donald Trump announced his plans to rebrand artificial intelligence as \"super intelligence,\" you'd be forgiven for being skeptical that it would catch on. While most of the broader population is sticking with AI, some of Silicon Valley's most powerful are falling in line and trying to",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Type-safe HTML templating in Zig",
+      "url": "https://lalinsky.com/2026/10/11/type-safe-html-templating-in-zig.html",
+      "feedSource": "Hacker News",
+      "source": "lalinsky.com",
+      "score": 0.4972,
+      "publishedAt": "2026-10-12T05:02:34.000Z",
+      "summary": "I’ve done a lot of web development over the years. I started around the year 2000, just after PHP 3.0 was released and started taking over the web world. I’ve used all kinds of approaches for generating HTML: raw PHP, string concatenation in Python, Smarty templates in PHP, Template Toolkit in Perl,",
+      "tags": [
+        "Open Source",
+        "Dev Tools"
+      ],
+      "engagementScore": 121
+    },
+    {
+      "title": "Postgres isn't slow, your storage is",
+      "url": "https://clickhouse.com/blog/posette-talk-recap-postgres-isnt-slow-your-storage-is",
+      "feedSource": "Hacker News",
+      "source": "clickhouse.com",
+      "score": 0.4953,
+      "publishedAt": "2026-10-12T06:36:53.000Z",
+      "summary": "A recap of Sai Srirampur’s POSETTE 2026 talk on storage performance in Postgres, with a local NVMe vs. EBS benchmark and the production setup behind it.",
+      "tags": [
+        "RAG"
+      ],
+      "engagementScore": 93
+    },
+    {
+      "title": "NYC's \"Click to Cancel\" rule is now in effect",
+      "url": "https://www.nyc.gov/main/click-to-cancel",
+      "feedSource": "Hacker News",
+      "source": "nyc.gov",
+      "score": 0.4936,
+      "publishedAt": "2026-10-11T18:01:16.000Z",
+      "summary": "Too often, businesses force their customers through confusing, time-consuming hurdles to cancel unwanted subscriptions. This first-in-the-nation municipal rule protects consumers from such subscription traps.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 481
+    },
+    {
+      "title": "Google Deepmind&#039;s AlphaProof Nexus solved dozens of open math problems and actually got peer reviewed",
+      "url": "https://the-decoder.com/google-deepminds-alphaproof-nexus-solved-dozens-of-open-math-problems-and-actually-got-peer-reviewed/",
+      "feedSource": "The Decoder",
+      "source": "the-decoder.com",
+      "score": 0.4874,
+      "publishedAt": "2026-10-12T09:35:54.000Z",
+      "summary": "Google Deepmind's AlphaProof Nexus solved dozens of open math problems, including nine Erdős problems two of which were unsolved for 56 years, per a study in Science. The publication comes as OpenAI faces a boycott for dumping AI proofs on GitHub without peer review. Deepmind had its result",
+      "tags": [
+        "LLM",
+        "Research",
+        "Open Source"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Research Firm Calls Anthropic's IPO 'Unprecedented Test of Investor Gullibity'",
+      "url": "https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html",
+      "feedSource": "Hacker News",
+      "source": "cnbc.com",
+      "score": 0.48,
+      "publishedAt": "2026-10-12T05:03:47.000Z",
+      "summary": "Anthropic reportedly plans to list on the Nasdaq before Thanksgiving, and one bearish advisory firm suggests that investors sit this one out.",
+      "tags": [
+        "LLM",
+        "Research",
+        "Industry"
+      ],
+      "engagementScore": 75
+    },
+    {
+      "title": "Documents add to evidence in climate deception case against ExxonMobil",
+      "url": "https://insideclimatenews.org/news/07102026/exxonmobil-climate-deception-new-evidence/",
+      "feedSource": "Hacker News",
+      "source": "insideclimatenews.org",
+      "score": 0.4694,
+      "publishedAt": "2026-10-11T14:28:39.000Z",
+      "summary": "Court filings by the Massachusetts attorney general’s office include previously undisclosed documents, revealing new details about internal deliberations at the oil giant.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 397
+    },
+    {
+      "title": "I Made Terrible Games With Google’s AI Playground",
+      "url": "https://www.wired.com/story/i-made-terrible-games-with-googles-ai-playground/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4619,
+      "publishedAt": "2026-10-11T11:30:00.000Z",
+      "summary": "A long day’s haul in the video game slop mines.",
+      "tags": [
+        "Vision"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "13 Best Gifts Every Traveler Should Have (2026)",
       "url": "https://www.wired.com/story/best-gifts-for-travelers/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5111,
+      "score": 0.4569,
       "publishedAt": "2026-10-11T10:33:00.000Z",
       "summary": "Travel smarter with gifts packed by WIRED’s globe-trotting staffers.",
       "tags": [
@@ -214,7 +480,7 @@
       "url": "https://www.wired.com/story/inside-the-muslim-manosphere-policing-women-online/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5108,
+      "score": 0.4566,
       "publishedAt": "2026-10-11T10:30:00.000Z",
       "summary": "From Red Pill coaches to “Dawah Bros,” influencers are dressing up hypermasculinity and misogyny in religious language—and finding audiences across social platforms.",
       "tags": [
@@ -227,7 +493,7 @@
       "url": "https://www.wired.com/story/midterm-races-decide-data-centers-political-fate/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5081,
+      "score": 0.4539,
       "publishedAt": "2026-10-11T10:00:00.000Z",
       "summary": "From the Senate to governors’ mansions, candidates are trying to outcompete each other to be the most anti–data center in races across the US.",
       "tags": [
@@ -236,165 +502,15 @@
       "engagementScore": 0
     },
     {
-      "title": "How the 2026 Super El Niño and Climate Change Are Related",
-      "url": "https://www.wired.com/story/super-el-nino-climate-change-connections/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5055,
-      "publishedAt": "2026-10-11T09:30:00.000Z",
-      "summary": "Here’s what we know about the record-setting El Niño on a record-hot planet, and the most important questions scientists are trying to answer.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "California’s Tallest and Most Iconic Trees Are Getting Heatstroke",
-      "url": "https://www.wired.com/story/californias-tallest-and-most-iconic-trees-are-getting-heat-stroke/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5028,
-      "publishedAt": "2026-10-11T09:00:00.000Z",
-      "summary": "Redwoods adapted to a cool, foggy climate. Now a new study shows they slow down photosynthesis when their environment warms.",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "I paid people to try and follow my README",
-      "url": "https://shkspr.mobi/blog/2026/10/i-paid-people-to-try-and-follow-my-readme/",
-      "feedSource": "Hacker News",
-      "source": "shkspr.mobi",
-      "score": 0.5024,
-      "publishedAt": "2026-10-11T11:47:29.000Z",
-      "summary": "Developers suck at writing documentation. We like to say RTFM but often there ain’t no FM to R. At best we have a half-arsed collection of notes, some obsolete tips, and a link to a desolate forum full of people asking the same questions again and again. That’s no way to treat our users. I naïvely b",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 363
-    },
-    {
       "title": "Learning to use local AI is exciting, overwhelming, and frustrating",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4809,
+      "score": 0.4266,
       "publishedAt": "2026-10-11T04:53:46.000Z",
       "summary": "I'm embarking on a journey I've so far been hesitant to go on: actually using AI on the regular. Giving my most personal data to cloud services has been a major hold up for me, but it's increasingly possible to run powerful models locally to see what they're capable of. Is this tech so useful [&#823",
       "tags": [
         "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Recursive self-improvement through collective intelligence",
-      "url": "https://pub.sakana.ai/mass/",
-      "feedSource": "Hacker News",
-      "source": "pub.sakana.ai",
-      "score": 0.4692,
-      "publishedAt": "2026-10-11T22:22:10.000Z",
-      "summary": "Self-supervision through better coordination among agents that share one language model.",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Vision"
-      ],
-      "engagementScore": 35
-    },
-    {
-      "title": "AI agent teams waste massive tokens for barely measurable quality gains, research finds",
-      "url": "https://the-decoder.com/ai-agent-teams-waste-massive-tokens-for-barely-measurable-quality-gains-research-finds/",
-      "feedSource": "The Decoder",
-      "source": "the-decoder.com",
-      "score": 0.4494,
-      "publishedAt": "2026-10-11T15:39:26.000Z",
-      "summary": "Teams of AI agents barely outperform solo agents but cost up to 5.1x more, according to Vals AI. Only one out of four tests with GPT-6 Sol and Claude Opus 5.5 showed a measurable gain. Anthropic's own data backs this up: beyond ten agents, quality plateaus while token costs keep climbing.\nT",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Build your own decision model",
-      "url": "https://nishtahir.com/build-your-own-decision-model/",
-      "feedSource": "Hacker News",
-      "source": "nishtahir.com",
-      "score": 0.4473,
-      "publishedAt": "2026-10-10T22:50:10.000Z",
-      "summary": "“System one” decision models are models that infer and respond with calibrated probabilities or every allowed answer. Consider your everyday language model, to get typed output from it (JSON), you may use Structured Output to constrain the output to guaranteed valid JSON. While model prefills the in",
-      "tags": [
-        "LLM",
-        "ML Infra"
-      ],
-      "engagementScore": 451
-    },
-    {
-      "title": "Satya Nadella says we should assume all AI models are ‘compromised’",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4449,
-      "publishedAt": "2026-10-10T22:10:17.000Z",
-      "summary": "In a lengthy post on X, Microsoft's CEO laid out his views on the dangers posed by highly advanced AI models and how to confront those risks. Nadella says we can no longer accept a world where AI is treated as a \"set of nested black boxes\" whose advice and actions we simply accept or [&#8230;]",
-      "tags": [
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Nicolas Cage says he won't work with Amazon again over AI dispute",
-      "url": "https://www.latimes.com/entertainment-arts/business/story/2026-10-10/nicolas-cage-says-he-wont-work-with-amazon-again-over-ai-dispute",
-      "feedSource": "Hacker News",
-      "source": "latimes.com",
-      "score": 0.4441,
-      "publishedAt": "2026-10-11T11:03:21.000Z",
-      "summary": "Nicolas Cage, who recently starred in “Spider-Noir,” said he won’t work with Amazon again after a disagreement over an AI waiver.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 80
-    },
-    {
-      "title": "DistroKid has been quietly taking down songs in response to UMG lawsuit",
-      "url": "https://www.theverge.com/entertainment/1009309/distrokid-take-down-songs-umg-lawsuit",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4407,
-      "publishedAt": "2026-10-10T21:23:38.000Z",
-      "summary": "Artists are taking to social media to complain that DistroKid has unceremoniously removed their work without notice. Now DistroKid has confirmed to The Verge that the takedowns are a direct response to claims made by UMG. The label filed a lawsuit in September claiming that DistroKid has created an",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "AI agents overstate their results and remain far from autonomous research, study finds",
-      "url": "https://the-decoder.com/ai-agents-overstate-their-results-and-remain-far-from-autonomous-research-study-finds/",
-      "feedSource": "The Decoder",
-      "source": "the-decoder.com",
-      "score": 0.4401,
-      "publishedAt": "2026-10-11T13:44:32.000Z",
-      "summary": "Epoch AI and Anthropic independently found the same thing: current AI models like GPT-5.6 Sol and Claude Fable 5 can run experiments but lack scientific self-criticism and genuine creative thinking. At best, Sol reached 15 percent of the human reference score, and even that came from method",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Impactful scheduling for GPU clusters",
-      "url": "https://huggingface.co/blog/allenai/impactful-scheduling",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.435,
-      "publishedAt": "2026-10-09T15:20:29.000Z",
-      "summary": "A Blog post by Ai2 on Hugging Face",
-      "tags": [
-        "Open Source"
       ],
       "engagementScore": 0
     },
@@ -507,179 +623,71 @@
       "engagementScore": 0
     },
     {
-      "title": "Cheaper AI tokens are driving more demand, and that&#039;s Jensen Huang&#039;s best-case scenario",
-      "url": "https://the-decoder.com/cheaper-ai-tokens-are-driving-more-demand-and-thats-jensen-huangs-best-case-scenario/",
+      "title": "AI agent teams waste massive tokens for barely measurable quality gains, research finds",
+      "url": "https://the-decoder.com/ai-agent-teams-waste-massive-tokens-for-barely-measurable-quality-gains-research-finds/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4211,
-      "publishedAt": "2026-10-11T09:49:59.000Z",
-      "summary": "Data from a16z shows a Jevons paradox in the AI market: token prices keep falling, but H100 GPU rental prices hold steady or climb. Cheaper AI drives demand faster than costs drop. If that demand flattens, the chain from chip makers to cloud providers takes a hit.\nThe article Cheaper AI tok",
+      "score": 0.4002,
+      "publishedAt": "2026-10-11T15:39:26.000Z",
+      "summary": "Teams of AI agents barely outperform solo agents but cost up to 5.1x more, according to Vals AI. Only one out of four tests with GPT-6 Sol and Claude Opus 5.5 showed a measurable gain. Anthropic's own data backs this up: beyond ten agents, quality plateaus while token costs keep climbing.\nT",
       "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "ArXiv caps submissions at two per month as AI paper flood overwhelms the preprint server",
-      "url": "https://the-decoder.com/arxiv-caps-submissions-at-two-per-month-as-ai-paper-flood-overwhelms-the-preprint-server/",
-      "feedSource": "The Decoder",
-      "source": "the-decoder.com",
-      "score": 0.4185,
-      "publishedAt": "2026-10-11T09:17:32.000Z",
-      "summary": "Starting October 2026, arXiv will cap submissions at two per person per month. Monthly submissions have doubled in two years, and in the cs.AI category they've grown more than sixfold. According to arXiv, a small fraction of authors are flooding the platform with low-quality papers, overwhe",
-      "tags": [
+        "LLM",
+        "Agents",
         "Research"
       ],
       "engagementScore": 0
     },
     {
-      "title": "Microsoft&#039;s Nadella bows to Trump&#039;s language diktat on &quot;Super Intelligence&quot; and uses it to attack OpenAI and Anthropic",
-      "url": "https://the-decoder.com/microsofts-nadella-bows-to-trumps-language-diktat-on-super-intelligence-and-uses-it-to-attack-openai-and-anthropic/",
+      "title": "AI agents overstate their results and remain far from autonomous research, study finds",
+      "url": "https://the-decoder.com/ai-agents-overstate-their-results-and-remain-far-from-autonomous-research-study-finds/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4178,
-      "publishedAt": "2026-10-11T09:08:35.000Z",
-      "summary": "Microsoft CEO Satya Nadella now calls artificial intelligence \"super intelligence\" instead of artificial intelligence, falling in line with Trump's preferred language. In his latest blog post, he frames AI models as insider security threats, taking yet another shot at OpenAI and Anthropic.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Odyssey-3 is a new generative world model that you can try for free",
-      "url": "https://the-decoder.com/odyssey-3-is-a-new-generative-world-model-that-you-can-try-for-free/",
-      "feedSource": "The Decoder",
-      "source": "the-decoder.com",
-      "score": 0.4113,
-      "publishedAt": "2026-10-11T07:48:01.000Z",
-      "summary": "Odyssey is making its world model Odyssey-3 available as a public research preview. The 14-billion-parameter model generates interactive environments from text prompts in real time and can reportedly control robots, drones, and even GTA V. Odyssey claims top scores on physics benchmarks, th",
-      "tags": [
-        "Research",
-        "ML Infra",
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Anthropic is cutting off its internal evaluations from the internet",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4049,
-      "publishedAt": "2026-10-10T14:41:16.000Z",
-      "summary": "After a recent spate of high-profile incidents in which AI agents escaped containment, Anthropic is cutting off internet access for all internal evaluations. In a report Friday, the company detailed \"unintended model actions,\" including submitting a false tip regarding an unsolved murder, that led t",
+      "score": 0.3908,
+      "publishedAt": "2026-10-11T13:44:32.000Z",
+      "summary": "Epoch AI and Anthropic independently found the same thing: current AI models like GPT-5.6 Sol and Claude Fable 5 can run experiments but lack scientific self-criticism and genuine creative thinking. At best, Sol reached 15 percent of the human reference score, and even that came from method",
       "tags": [
         "LLM",
         "Agents",
-        "Industry"
+        "Research"
       ],
       "engagementScore": 0
     },
     {
-      "title": "AI Is Getting Really Good at Messing With Cybercriminals",
-      "url": "https://www.wired.com/story/ai-is-getting-really-good-at-messing-with-cybercriminals/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.3905,
-      "publishedAt": "2026-10-10T12:00:00.000Z",
-      "summary": "Anti-cybercrime initiatives are increasingly using AI to scam the scammers by tricking them into talking to lifelike bots that they think are real victims.",
+      "title": "Satya Nadella says we should assume all AI models are ‘compromised’",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.3907,
+      "publishedAt": "2026-10-10T22:10:17.000Z",
+      "summary": "In a lengthy post on X, Microsoft's CEO laid out his views on the dangers posed by highly advanced AI models and how to confront those risks. Nadella says we can no longer accept a world where AI is treated as a \"set of nested black boxes\" whose advice and actions we simply accept or [&#8230;]",
+      "tags": [
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "DistroKid has been quietly taking down songs in response to UMG lawsuit",
+      "url": "https://www.theverge.com/entertainment/1009309/distrokid-take-down-songs-umg-lawsuit",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.3865,
+      "publishedAt": "2026-10-10T21:23:38.000Z",
+      "summary": "Artists are taking to social media to complain that DistroKid has unceremoniously removed their work without notice. Now DistroKid has confirmed to The Verge that the takedowns are a direct response to claims made by UMG. The label filed a lawsuit in September claiming that DistroKid has created an",
       "tags": [
         "AI"
       ],
       "engagementScore": 0
     },
     {
-      "title": "Best Lego Gifts for Brick Builders (2026): Smart Bricks, Video Games, and More",
-      "url": "https://www.wired.com/gallery/gifts-for-lego-lovers/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.3878,
-      "publishedAt": "2026-10-10T11:30:00.000Z",
-      "summary": "There's more to Lego than just another basic set. We tested tons of Lego-themed gifts to find the perfect ones for the brick builder in your life.",
+      "title": "Cheaper AI tokens are driving more demand, and that&#039;s Jensen Huang&#039;s best-case scenario",
+      "url": "https://the-decoder.com/cheaper-ai-tokens-are-driving-more-demand-and-thats-jensen-huangs-best-case-scenario/",
+      "feedSource": "The Decoder",
+      "source": "the-decoder.com",
+      "score": 0.3718,
+      "publishedAt": "2026-10-11T09:49:59.000Z",
+      "summary": "Data from a16z shows a Jevons paradox in the AI market: token prices keep falling, but H100 GPU rental prices hold steady or climb. Cheaper AI drives demand faster than costs drop. If that demand flattens, the chain from chip makers to cloud providers takes a hit.\nThe article Cheaper AI tok",
       "tags": [
-        "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The model that didn&apos;t exist, so you made it yourself",
-      "url": "https://huggingface.co/blog/building-with-ml-intern",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.3401,
-      "publishedAt": "2026-10-08T00:00:00.000Z",
-      "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-      "tags": [
-        "Open Source"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Multimodal open d1 decision models for the edge",
-      "url": "https://huggingface.co/blog/LiquidAI/open-d1",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.3401,
-      "publishedAt": "2026-10-07T16:54:33.000Z",
-      "summary": "A Blog post by Liquid AI on Hugging Face",
-      "tags": [
-        "Open Source",
-        "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Introducing Falcon ASR",
-      "url": "https://huggingface.co/blog/tiiuae/falcon-asr",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.3401,
-      "publishedAt": "2026-10-07T13:21:03.000Z",
-      "summary": "A Blog post by Technology Innovation Institute on Hugging Face",
-      "tags": [
-        "Open Source"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.3401,
-      "publishedAt": "2026-10-07T12:45:31.000Z",
-      "summary": "A Blog post by NVIDIA on Hugging Face",
-      "tags": [
-        "Open Source",
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Agent Said It Was Done. The Database Disagreed.",
-      "url": "https://huggingface.co/blog/microsoft/thinkingbox",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.3401,
-      "publishedAt": "2026-10-03T22:56:48.000Z",
-      "summary": "A Blog post by Microsoft on Hugging Face",
-      "tags": [
-        "Agents",
-        "Open Source"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
-      "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.3401,
-      "publishedAt": "2026-10-02T04:01:31.000Z",
-      "summary": "A Blog post by ServiceNow-AI on Hugging Face",
-      "tags": [
-        "Agents",
-        "Open Source"
+        "AI"
       ],
       "engagementScore": 0
     }
