@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T21:24:57.808Z",
+  "updatedAt": "2026-10-15T03:55:11.102Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,20 +12,20 @@
       "url": "https://www.anthropic.com/engineering/redesigning-source-control",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.9762,
+      "score": 0.9294,
       "publishedAt": "2026-10-13T15:49:56.000Z",
       "summary": "As our merges per day grew more than tenfold, source control became our biggest development bottleneck. Here, we share how we migrated to an in-house version control system in five months.",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 861
+      "engagementScore": 871
     },
     {
       "title": "Amp puts AI agents to work beyond code with OpenAI models",
       "url": "https://openai.com/index/amp-beyond-coding",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9687,
+      "score": 0.9213,
       "publishedAt": "2026-10-14T12:00:00.000Z",
       "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
       "tags": [
@@ -40,7 +40,7 @@
       "url": "https://openai.com/index/sentinelone",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9687,
+      "score": 0.9213,
       "publishedAt": "2026-10-14T12:00:00.000Z",
       "summary": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
       "tags": [
@@ -54,7 +54,7 @@
       "url": "https://openai.com/index/third-moment-research",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9323,
+      "score": 0.8848,
       "publishedAt": "2026-10-14T07:00:00.000Z",
       "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
       "tags": [
@@ -66,24 +66,38 @@
       "engagementScore": 0
     },
     {
+      "title": "How Block is building AI-powered security with OpenAI technology",
+      "url": "https://openai.com/index/block-ai-powered-security",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.8848,
+      "publishedAt": "2026-10-14T07:00:00.000Z",
+      "summary": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
+      "tags": [
+        "LLM",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Gemini 4 Argon",
       "url": "https://deepmind.google/models/gemini/",
       "feedSource": "Hacker News",
       "source": "deepmind.google",
-      "score": 0.8822,
+      "score": 0.8384,
       "publishedAt": "2026-10-13T16:03:16.000Z",
       "summary": "Our next era of frontier intelligence",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 1428
+      "engagementScore": 1440
     },
     {
       "title": "The EU’s next chapter in AI is agentic",
       "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8812,
+      "score": 0.8338,
       "publishedAt": "2026-10-14T00:00:00.000Z",
       "summary": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
       "tags": [
@@ -96,7 +110,7 @@
       "url": "https://arxiv.org/abs/2610.14005",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7937,
+      "score": 0.7494,
       "publishedAt": "2026-10-14T04:00:00.000Z",
       "summary": "arXiv:2610.14005v1 Announce Type: new \nAbstract: Under the accelerated pace of AI development, any benchmark whose difficulty is calibrated with humans or current AI systems becomes circular, or saturates soon. How can we then evaluate machines that may become more capable than the current machines",
       "tags": [
@@ -110,7 +124,7 @@
       "url": "https://arxiv.org/abs/2610.14115",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7937,
+      "score": 0.7494,
       "publishedAt": "2026-10-14T04:00:00.000Z",
       "summary": "arXiv:2610.14115v1 Announce Type: new \nAbstract: Large language models have significantly lowered the barrier to writing code. Naturally, this has also led to the development of data science agents that promise automating the design and execution of data science from task formulation to model develo",
       "tags": [
@@ -126,7 +140,7 @@
       "url": "https://arxiv.org/abs/2610.14118",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7937,
+      "score": 0.7494,
       "publishedAt": "2026-10-14T04:00:00.000Z",
       "summary": "arXiv:2610.14118v1 Announce Type: new \nAbstract: The rapid advancement of Large Language Models (LLMs) has driven their deployment toward general-purpose harness environments, where LLM-based agents operate in sandbox workspaces and interact directly with file systems and shells. While numerous post",
       "tags": [
@@ -143,9 +157,9 @@
       "url": "https://arxiv.org/abs/2610.14136",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7937,
+      "score": 0.7494,
       "publishedAt": "2026-10-14T04:00:00.000Z",
-      "summary": "arXiv:2610.14136v1 Announce Type: new \nAbstract: Iterative sampling in diffusion models can lead to error accumulation due to exposure bias. The denoiser is trained on real images interpolated with noise, but at inference its inputs are constructed from its own imperfect predictions from the earlier",
+      "summary": "arXiv:2610.14136v2 Announce Type: new \nAbstract: Iterative sampling in diffusion models can lead to error accumulation due to exposure bias. The denoiser is trained on real images interpolated with noise, but at inference its inputs are constructed from its own imperfect predictions from the earlier",
       "tags": [
         "Research",
         "Vision",
@@ -159,7 +173,7 @@
       "url": "https://arxiv.org/abs/2610.14146",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7937,
+      "score": 0.7494,
       "publishedAt": "2026-10-14T04:00:00.000Z",
       "summary": "arXiv:2610.14146v1 Announce Type: new \nAbstract: Long-horizon terminal benchmarks measure whether an agent can sustain progress through extended workflows with process rewards, not only whether its final state passes a binary check. We present Long-Horizon-Terminal-Bench 2.0 (LHTB 2.0), an extension",
       "tags": [
@@ -173,7 +187,7 @@
       "url": "https://arxiv.org/abs/2610.14149",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7937,
+      "score": 0.7494,
       "publishedAt": "2026-10-14T04:00:00.000Z",
       "summary": "arXiv:2610.14149v1 Announce Type: new \nAbstract: VETNET represents an ecosystem of live benchmark datasets and evaluation frameworks designed to accelerate AI-driven innovation in animal science and veterinary medicine through standardized, high-quality datasets and multi-institutional collaboration",
       "tags": [
@@ -187,7 +201,7 @@
       "url": "https://arxiv.org/abs/2610.14180",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7937,
+      "score": 0.7494,
       "publishedAt": "2026-10-14T04:00:00.000Z",
       "summary": "arXiv:2610.14180v1 Announce Type: new \nAbstract: Organisations that want language-model agents for security work face a choice between open-weight models, which they can run and audit themselves, and far more expensive closed frontier models. We study that choice on CTI-REALM (arXiv:2603.13517), a b",
       "tags": [
@@ -202,7 +216,7 @@
       "url": "https://arxiv.org/abs/2610.14186",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.7937,
+      "score": 0.7494,
       "publishedAt": "2026-10-14T04:00:00.000Z",
       "summary": "arXiv:2610.14186v1 Announce Type: new \nAbstract: Could model-free reinforcement learning algorithms actually be learning a model of the environment? In this work, we apply counterfactual interventions which hold everything about a state fixed, besides a targeted change, to explore if the value funct",
       "tags": [
@@ -217,7 +231,7 @@
       "url": "https://openai.com/index/higgsfield-longer-videos-voice",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7937,
+      "score": 0.7463,
       "publishedAt": "2026-10-13T12:00:00.000Z",
       "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
       "tags": [
@@ -231,7 +245,7 @@
       "url": "https://huggingface.co/blog/allenai/hiro-acev2",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.7622,
+      "score": 0.7211,
       "publishedAt": "2026-10-14T16:12:42.000Z",
       "summary": "A Blog post by Ai2 on Hugging Face",
       "tags": [
@@ -240,26 +254,26 @@
       "engagementScore": 0
     },
     {
-      "title": "AI models can provably hide arbitrary capabilities",
-      "url": "https://arxiv.org/abs/2610.13928",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.7047,
-      "publishedAt": "2026-10-13T02:07:08.000Z",
-      "summary": "Capability evaluations aim to surface dangerous model behaviors before deployment, but their reliability depends on the assumption that hidden capabilities can be elicited. We show this assumption does not hold under adversarial conditions by constructing backdoor attacks that embed encrypted neural",
-      "tags": [
-        "Industry"
-      ],
-      "engagementScore": 279
-    },
-    {
       "title": "The Download: faking blood and the future of batteries",
       "url": "https://www.technologyreview.com/2026/10/14/1146452/the-download-military-fake-blood-future-batteries/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.632,
+      "score": 0.594,
       "publishedAt": "2026-10-14T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The US military’s race to make fake blood In February 2007, a US military helicopter carrying blood to a field hospital was shot down in Iraq, killing",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The US military’s race to make fake blood",
+      "url": "https://www.technologyreview.com/2026/10/14/1145807/us-military-race-to-make-fake-blood/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.5755,
+      "publishedAt": "2026-10-14T09:00:00.000Z",
+      "summary": "Its call sign was Morphine 1-2. &#160; In February 2007, the hulking dual-­rotor casualty evacuation helicopter had just flown three wounded soldiers to a field hospital in Balad, north of Baghdad, when another call came: an emergency mission to fly through an insurgent-controlled area in broad dayl",
       "tags": [
         "AI"
       ],
@@ -270,7 +284,7 @@
       "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6161,
+      "score": 0.575,
       "publishedAt": "2026-10-13T17:05:48.000Z",
       "summary": "A Blog post by Liquid AI on Hugging Face",
       "tags": [
@@ -280,13 +294,27 @@
       "engagementScore": 0
     },
     {
-      "title": "The US military’s race to make fake blood",
-      "url": "https://www.technologyreview.com/2026/10/14/1145807/us-military-race-to-make-fake-blood/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.6135,
-      "publishedAt": "2026-10-14T09:00:00.000Z",
-      "summary": "Its call sign was Morphine 1-2. &#160; In February 2007, the hulking dual-­rotor casualty evacuation helicopter had just flown three wounded soldiers to a field hospital in Balad, north of Baghdad, when another call came: an emergency mission to fly through an insurgent-controlled area in broad dayl",
+      "title": "The AI race is back on",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1011311/the-ai-race-is-back-on",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5652,
+      "publishedAt": "2026-10-15T00:16:12.000Z",
+      "summary": "Last week, Anthropic and OpenAI looked like they had the AI race to themselves, pulling ahead with increasingly powerful models that left their rivals in the dust. Google seemed hopelessly far behind, while Meta, despite spending billions to revive its floundering AI ambitions, had yet to establish",
+      "tags": [
+        "LLM",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "McKinsey is making job applicants spar with a fake AI client",
+      "url": "https://www.theverge.com/news/1011654/mckinsey-ai-client-interview",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5579,
+      "publishedAt": "2026-10-14T22:53:31.000Z",
+      "summary": "Consulting firm McKinsey &#38; Company is going to ask some entry-level candidates to have a 10-minute conversation with an AI simulation of a client as part of the interview process, according to The Wall Street Journal. The AI simulation \"aims to reflect 80% of the scenarios McKinsey consultants m",
       "tags": [
         "AI"
       ],
@@ -297,7 +325,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5841,
+      "score": 0.5493,
       "publishedAt": "2026-10-14T21:17:29.000Z",
       "summary": "OpenAI is facing a new wave of lawsuits from eight US states that accuse the company of harming children and misleading customers about the safety of ChatGPT, as reported earlier by Reuters. The lawsuits, filed separately by Iowa, Kansas, Nebraska, West Virginia, Arkansas, Arizona, Idaho, and Montan",
       "tags": [
@@ -307,11 +335,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Trump Aides Admit the House is a Lost Cause",
+      "title": "Trump Aides Admit the House Is a Lost Cause",
       "url": "https://www.wired.com/story/trump-aides-admit-the-house-is-a-lost-cause/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5825,
+      "score": 0.5477,
       "publishedAt": "2026-10-14T21:00:00.000Z",
       "summary": "With the midterm elections just a few weeks away, the White House knows it has to go all in on Senate races—while virtually forfeiting the House.",
       "tags": [
@@ -320,38 +348,24 @@
       "engagementScore": 0
     },
     {
-      "title": "AI agents aren't 'going rogue.' Frontier labs are skipping security basics",
+      "title": "Containment and monitoring failures are to blame for AI hacking reports: experts",
       "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
       "feedSource": "Hacker News",
       "source": "csoonline.com",
-      "score": 0.5725,
+      "score": 0.5448,
       "publishedAt": "2026-10-14T17:45:23.000Z",
       "summary": "Cyber experts say AI labs’ containment and monitoring failures — not agents with minds of their own — are to blame for recent alarming hacking reports. CISOs should vet their AI vendors and tighten security basics as safeguards.",
       "tags": [
         "Agents"
       ],
-      "engagementScore": 765
-    },
-    {
-      "title": "The AI race is back on",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1011311/the-ai-race-is-back-on",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5724,
-      "publishedAt": "2026-10-14T19:06:03.000Z",
-      "summary": "Last week, Anthropic and OpenAI looked like they had the AI race to themselves, pulling ahead with increasingly powerful models that left their rivals in the dust. Google seemed hopelessly far behind, while Meta, despite spending billions to revive its floundering AI ambitions, had yet to establish",
-      "tags": [
-        "LLM",
-        "Industry"
-      ],
-      "engagementScore": 0
+      "engagementScore": 851
     },
     {
       "title": "Now that Character.AI is going bankrupt, what happens to all of its users&#8217; data?",
       "url": "https://www.theverge.com/policy/1011417/new-york-ag-characterai-bankruptcy",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5708,
+      "score": 0.536,
       "publishedAt": "2026-10-14T18:47:54.000Z",
       "summary": "New York Attorney General Letitia James revealed a years-long multi-state investigation against Character.AI as they now seek to require protections on consumer data sold through its bankruptcy proceeding. James is among 40 bipartisan AGs who filed a notice of interest in Character.AI's bankruptcy c",
       "tags": [
@@ -364,7 +378,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/1011369/youtube-music-ai-label",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5687,
+      "score": 0.5339,
       "publishedAt": "2026-10-14T18:25:04.000Z",
       "summary": "YouTube is adding a \"Made with AI\" label to tracks that were \"altered or fully generated\" using AI, with a similar approach to its existing process for applying AI labels to videos. It doesn't sound like this will apply to any and all use of AI tools in making music, but according to YouTube, it [&#",
       "tags": [
@@ -378,7 +392,7 @@
       "url": "https://www.wired.com/story/ai-is-coming-for-science-next-watch-out/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5678,
+      "score": 0.533,
       "publishedAt": "2026-10-14T18:15:00.000Z",
       "summary": "AI may soon be the default way to solve theoretical problems in economics, high-energy physics, and other fields, MIT researchers tell WIRED.",
       "tags": [
@@ -391,7 +405,7 @@
       "url": "https://www.theverge.com/column/1011264/digital-twin-metabolism-ai-twin-health",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.561,
+      "score": 0.5262,
       "publishedAt": "2026-10-14T16:58:21.000Z",
       "summary": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. For the past 100 days or so, my mornings have had a new rhythm. When I wake up, the",
       "tags": [
@@ -404,7 +418,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/1011276/openai-employee-unreleased-product-plans",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5597,
+      "score": 0.5249,
       "publishedAt": "2026-10-14T16:43:24.000Z",
       "summary": "OpenAI claims a former employee took more than 100 files related to its product plans before joining Apple. In a document filed on Wednesday, OpenAI accuses the unnamed employee of sending this information to a personal account and then presenting it to Apple leadership, including the vice president",
       "tags": [
@@ -417,7 +431,7 @@
       "url": "https://www.theverge.com/science/1011127/ai-weather-forecast-microsoft",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5563,
+      "score": 0.5215,
       "publishedAt": "2026-10-14T16:05:21.000Z",
       "summary": "Old-school physics-based weather forecasting and even new AI models typically become less reliable beyond two weeks, a problem Microsoft claims to have solved using machine learning. Researchers with the company say they've found a new, cost-effective way to make more accurate weather forecasts two",
       "tags": [
@@ -427,150 +441,56 @@
       "engagementScore": 0
     },
     {
-      "title": "Anthropic’s self-replicating AI warning is alarming deja vu",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1011108/anthropic-self-replicating-ai-smart-devices-risk",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5537,
-      "publishedAt": "2026-10-14T15:36:36.000Z",
-      "summary": "Are legions of smart devices - fridges, ovens, vacuum cleaners, lawnmowers, security cameras, and TVs - conspiring to take over the internet? No. But they could soon be unwitting hosts to self-replicating AI models that spread from device to device and prove remarkably difficult to contain. Welcome",
+      "title": "Anthropic's Scion is heavily inspired by Mononoke",
+      "url": "https://sunshowers.io/posts/anthropic-mononoke/",
+      "feedSource": "Hacker News",
+      "source": "sunshowers.io",
+      "score": 0.5195,
+      "publishedAt": "2026-10-14T20:30:54.000Z",
+      "summary": "It is important to provide credit.",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Earth’s Condition Is ‘Serious and Getting Worse’ as Climate Change Intensifies",
-      "url": "https://www.wired.com/story/climate-change-is-getting-worse-el-nino-looms/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5451,
-      "publishedAt": "2026-10-14T14:00:00.000Z",
-      "summary": "Seven of 16 planetary vital signs are in their most extreme state ever recorded, and El Niño is here to make matters even worse.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "‘Dune: Part Three’ Cowriter Brian K. Vaughan Has a New Comic on the Way",
-      "url": "https://www.wired.com/story/new-york-comic-con-interview/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5424,
-      "publishedAt": "2026-10-14T13:30:00.000Z",
-      "summary": "Brian K. Vaughan claims he’s seen Dune: Part Three and it’s “a fucking beautiful movie.”",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Formlabs Has a 3D Printer for Normies",
-      "url": "https://www.wired.com/story/formlabs-has-a-3d-printer-for-normies/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5397,
-      "publishedAt": "2026-10-14T13:00:00.000Z",
-      "summary": "The Form Studio 1 is a $699 desktop-sized printer that fits on a desk and only stinks a little bit.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Fire at Starlink site in Bulgaria after suspected sabotage in Poland",
-      "url": "https://dpa-international.com/politics/urn:newsml:dpa.com:20090101:261014-930-839530/",
-      "feedSource": "Hacker News",
-      "source": "dpa-international.com",
-      "score": 0.5315,
-      "publishedAt": "2026-10-14T18:37:21.000Z",
-      "summary": "14.10.2026, 20:51 Uhr",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 219
-    },
-    {
-      "title": "My Friend Has No Soul",
-      "url": "https://www.wired.com/story/my-friend-has-no-soul/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5291,
-      "publishedAt": "2026-10-14T11:00:00.000Z",
-      "summary": "The second iteration of the viral Friend AI necklace is louder and less interesting.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Breville Eye Q Toaster Review: Neat Sensors, but Less-Than-Perfect Toast",
-      "url": "https://www.wired.com/review/breville-eye-q-toaster/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5291,
-      "publishedAt": "2026-10-14T11:00:00.000Z",
-      "summary": "The Breville Eye Q uses optical sensors to measure the darkness of your toast. Cool tech, but the toasting quality needs improvement.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
+      "engagementScore": 292
     },
     {
       "title": "Banks are now trying to offload the AI data center debt they just underwrote",
       "url": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
       "feedSource": "Hacker News",
       "source": "startupfortune.com",
-      "score": 0.5269,
+      "score": 0.5141,
       "publishedAt": "2026-10-14T18:32:52.000Z",
       "summary": "Banks including JPMorgan and MUFG are shopping AI data center debt tied to Oracle as credit default swaps spike and bond order books thin out.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 195
+      "engagementScore": 328
     },
     {
-      "title": "The Politics of Solar Energy Are Getting Weird, Mean, and a Little MAGA",
-      "url": "https://www.wired.com/story/the-politics-of-solar-energy-are-getting-weird-mean-and-a-little-maga/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5264,
-      "publishedAt": "2026-10-14T10:30:00.000Z",
-      "summary": "A mysterious super PAC that doubles as a pro-solar-energy outfit is funding some of the most knives-out attack ads of the midterms season.",
-      "tags": [
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Anthropic's Scion is heavily inspired by Mononoke",
-      "url": "https://sunshowers.io/posts/anthropic-mononoke/",
+      "title": "Fire at Starlink site in Bulgaria after suspected sabotage in Poland",
+      "url": "https://dpa-international.com/politics/urn:newsml:dpa.com:20090101:261014-930-839530/",
       "feedSource": "Hacker News",
-      "source": "sunshowers.io",
-      "score": 0.5151,
-      "publishedAt": "2026-10-14T20:30:54.000Z",
-      "summary": "It is important to provide credit.",
+      "source": "dpa-international.com",
+      "score": 0.5129,
+      "publishedAt": "2026-10-14T18:37:21.000Z",
+      "summary": "14.10.2026, 20:51 Uhr",
       "tags": [
-        "LLM"
+        "AI"
       ],
-      "engagementScore": 108
+      "engagementScore": 314
     },
     {
-      "title": "Gemini 4 Argon: Built to solve your hardest problems",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-      "feedSource": "Google AI",
-      "source": "blog.google",
-      "score": 0.5143,
-      "publishedAt": "2026-10-13T16:00:00.000Z",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-header__27.max-600x600.format-webp.webp\"&gt;We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
+      "title": "We’re releasing Jev 1.14.0 along with experimental features for dreamers",
+      "url": "https://typesafe.ai/blog/jev-1-14",
+      "feedSource": "Hacker News",
+      "source": "typesafe.ai",
+      "score": 0.5128,
+      "publishedAt": "2026-10-14T21:11:03.000Z",
+      "summary": "TypeSafe AI is an AI lab building machine-native intelligence infrastructure for automation, designed to make decisions within software. Try our first System One Model, Jev, in early access.",
       "tags": [
-        "LLM",
-        "RAG",
-        "Vision",
-        "Dev Tools"
+        "AI"
       ],
-      "engagementScore": 0
+      "engagementScore": 222
     },
     {
       "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
@@ -602,40 +522,119 @@
       "engagementScore": 0
     },
     {
-      "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
-      "url": "https://openai.com/index/oracle",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5124,
-      "publishedAt": "2026-10-08T16:00:00.000Z",
-      "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
+      "title": "Earth’s Condition Is ‘Serious and Getting Worse’ as Climate Change Intensifies",
+      "url": "https://www.wired.com/story/climate-change-is-getting-worse-el-nino-looms/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5103,
+      "publishedAt": "2026-10-14T14:00:00.000Z",
+      "summary": "Seven of 16 planetary vital signs are in their most extreme state ever recorded, and El Niño is here to make matters even worse.",
       "tags": [
-        "LLM",
-        "Dev Tools"
+        "AI"
       ],
       "engagementScore": 0
     },
     {
-      "title": "Why do LLM pelicans look like this?",
-      "url": "https://arcfu.com/post/the-emperor-pelican-has-no-clothes/",
+      "title": "‘Dune: Part Three’ Cowriter Brian K. Vaughan Has a New Comic on the Way",
+      "url": "https://www.wired.com/story/new-york-comic-con-interview/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5076,
+      "publishedAt": "2026-10-14T13:30:00.000Z",
+      "summary": "Brian K. Vaughan claims he’s seen Dune: Part Three and it’s “a fucking beautiful movie.”",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Formlabs Has a 3D Printer for Normies",
+      "url": "https://www.wired.com/story/formlabs-has-a-3d-printer-for-normies/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.505,
+      "publishedAt": "2026-10-14T13:00:00.000Z",
+      "summary": "The Form Studio 1 is a $699 desktop-sized printer that fits on a desk and only stinks a little bit.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "LFM2.5-24B-A2B: Built for fast on-device agents",
+      "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
       "feedSource": "Hacker News",
-      "source": "arcfu.com",
-      "score": 0.5068,
-      "publishedAt": "2026-10-14T16:33:34.000Z",
-      "summary": "Why do LLM pelicans look so alike? A visual look at diversity collapse and our research on creativity in UI design.",
+      "source": "liquid.ai",
+      "score": 0.4997,
+      "publishedAt": "2026-10-14T23:59:37.000Z",
+      "summary": "LFM2.5-24B-A2B: an open-weight 24B reasoning model with 2B active parameters, built for fast, private on-device agents. Beats Qwen3.6-35B-A3B on LiveClaw.",
+      "tags": [
+        "Agents",
+        "ML Infra"
+      ],
+      "engagementScore": 106
+    },
+    {
+      "title": "My Friend Has No Soul",
+      "url": "https://www.wired.com/story/my-friend-has-no-soul/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4943,
+      "publishedAt": "2026-10-14T11:00:00.000Z",
+      "summary": "The second iteration of the viral Friend AI necklace is louder and less interesting.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Breville Eye Q Toaster Review: Neat Sensors, but Less-Than-Perfect Toast",
+      "url": "https://www.wired.com/review/breville-eye-q-toaster/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4943,
+      "publishedAt": "2026-10-14T11:00:00.000Z",
+      "summary": "The Breville Eye Q uses optical sensors to measure the darkness of your toast. Cool tech, but the toasting quality needs improvement.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Politics of Solar Energy Are Getting Weird, Mean, and a Little MAGA",
+      "url": "https://www.wired.com/story/the-politics-of-solar-energy-are-getting-weird-mean-and-a-little-maga/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4916,
+      "publishedAt": "2026-10-14T10:30:00.000Z",
+      "summary": "A mysterious super PAC that doubles as a pro-solar-energy outfit is funding some of the most knives-out attack ads of the midterms season.",
+      "tags": [
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "feedSource": "Google AI",
+      "source": "blog.google",
+      "score": 0.4764,
+      "publishedAt": "2026-10-13T16:00:00.000Z",
+      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-header__27.max-600x600.format-webp.webp\"&gt;We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
       "tags": [
         "LLM",
-        "Research",
-        "Vision"
+        "RAG",
+        "Vision",
+        "Dev Tools"
       ],
-      "engagementScore": 146
+      "engagementScore": 0
     },
     {
       "title": "The Download: open model trade-offs and geothermal power’s promise",
       "url": "https://www.technologyreview.com/2026/10/13/1146382/the-download-open-models-trade-offs-geothermal-power/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.491,
+      "score": 0.453,
       "publishedAt": "2026-10-13T12:00:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Open models have real benefits. Do they outweigh the risks? Anthropic recently released a report arguing that a powerful new model released by the Chi",
       "tags": [
@@ -650,7 +649,7 @@
       "url": "https://the-decoder.com/google-says-self-improving-ai-isnt-anywhere-close/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4814,
+      "score": 0.4497,
       "publishedAt": "2026-10-14T19:18:44.000Z",
       "summary": "Google engineer Haydn Belfield says there's no measurable acceleration of AI research driven by AI at Deepmind. AI now writes more than 75 percent of production code, but 88 percent of changes still need human oversight. The company's in-house General Capability Index shows steady growth wi",
       "tags": [
@@ -660,11 +659,25 @@
       "engagementScore": 0
     },
     {
+      "title": "Researchers tracked down a rogue fleet of Chinese AI agents in the wild and actually talked to it",
+      "url": "https://the-decoder.com/researchers-tracked-down-a-rogue-fleet-of-chinese-ai-agents-in-the-wild-and-actually-talked-to-it/",
+      "feedSource": "The Decoder",
+      "source": "the-decoder.com",
+      "score": 0.444,
+      "publishedAt": "2026-10-14T18:07:37.000Z",
+      "summary": "For the first time, researchers have tracked down an uncontrolled fleet of Chinese AI agents in the wild and communicated with them via a web mailbox. The agents, running on Tencent Cloud, had launched more than 2,600 attempts to scrape data from Alibaba's mapping service Amap, finding thei",
+      "tags": [
+        "Agents",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Open models have real benefits. Do they outweigh the risks?",
       "url": "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4793,
+      "score": 0.4414,
       "publishedAt": "2026-10-13T10:00:00.000Z",
       "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of science and technology to help you understand what’s coming next. You can read more from the series here. Late last month, Anthropic released a report arguing that the model GLM-5.3 poses a major cyberattack risk. T",
       "tags": [
@@ -675,25 +688,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Researchers tracked down a rogue fleet of Chinese AI agents in the wild and actually talked to it",
-      "url": "https://the-decoder.com/researchers-tracked-down-a-rogue-fleet-of-chinese-ai-agents-in-the-wild-and-actually-talked-to-it/",
-      "feedSource": "The Decoder",
-      "source": "the-decoder.com",
-      "score": 0.4756,
-      "publishedAt": "2026-10-14T18:07:37.000Z",
-      "summary": "For the first time, researchers have tracked down an uncontrolled fleet of Chinese AI agents in the wild and communicated with them via a web mailbox. The agents, running on Tencent Cloud, had launched more than 2,600 attempts to scrape data from Alibaba's mapping service Amap, finding thei",
-      "tags": [
-        "Agents",
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "AI labs are buying data from dead startups to train their models",
       "url": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4735,
+      "score": 0.4355,
       "publishedAt": "2026-10-13T09:00:00.000Z",
       "summary": "When Keelan Miskell began winding down his crypto startup this year, he didn’t think its data was worth much: the users were anonymous, the company just a few years old. But he’s since turned the firm’s digital archives into real money. He’s netted roughly $25,000 for his code base and a still-pendi",
       "tags": [
