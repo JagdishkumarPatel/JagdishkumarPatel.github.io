@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T03:51:16.232Z",
+  "updatedAt": "2026-10-16T11:00:55.562Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,7 +12,7 @@
       "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9728,
+      "score": 0.9206,
       "publishedAt": "2026-10-15T19:00:00.000Z",
       "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
       "tags": [
@@ -27,7 +27,7 @@
       "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9291,
+      "score": 0.8768,
       "publishedAt": "2026-10-15T13:00:00.000Z",
       "summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
       "tags": [
@@ -36,11 +36,159 @@
       "engagementScore": 0
     },
     {
+      "title": "The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock",
+      "url": "https://arxiv.org/abs/2610.20665",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8645,
+      "publishedAt": "2026-10-16T04:00:00.000Z",
+      "summary": "arXiv:2610.20665v1 Announce Type: new \nAbstract: Large language model (LLM) agents can solve complex interactive tasks, yet reasoning and tool calls take time. In continuously changing environments, an otherwise correct action may arrive too late. We introduce RealtimeBench, with 180 tasks across si",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Research",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Evaluating Model Capabilities After Benchmark Saturation",
+      "url": "https://arxiv.org/abs/2610.20667",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8645,
+      "publishedAt": "2026-10-16T04:00:00.000Z",
+      "summary": "arXiv:2610.20667v1 Announce Type: new \nAbstract: Rapid advances in AI capabilities are causing benchmarks to saturate. Once several models approach perfect scores, a benchmark loses its power to differentiate between them, and with it its utility for informing AI safety cases and frontier policies.",
+      "tags": [
+        "Research",
+        "Safety",
+        "Dev Tools",
+        "ML Infra"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Value-Informed Schedule Trimming for Accelerated Sequential Monte Carlo Guidance in Discrete Diffusion",
+      "url": "https://arxiv.org/abs/2610.20669",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8645,
+      "publishedAt": "2026-10-16T04:00:00.000Z",
+      "summary": "arXiv:2610.20669v1 Announce Type: new \nAbstract: Reward-guided discrete diffusion enables test-time alignment with downstream objectives, but applying Sequential Monte Carlo (SMC) guidance at every denoising step is computationally expensive. Active guidance steps require additional reward evaluatio",
+      "tags": [
+        "Research",
+        "Vision",
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "AlphaDiana: A Measurement System for Agents in Verifiable Reasoning Tasks",
+      "url": "https://arxiv.org/abs/2610.20675",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8645,
+      "publishedAt": "2026-10-16T04:00:00.000Z",
+      "summary": "arXiv:2610.20675v1 Announce Type: new \nAbstract: Agents pair reasoning models with harnesses that organize model calls, execute tools, load skill instructions, and retain history in memory. Understanding agent performance requires linking execution conditions to outcomes, behavior, and resource use.",
+      "tags": [
+        "Agents",
+        "Research",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "When Correctness Feedback Erases Evidence: Phase-Separated Completeness Auditing in Verus",
+      "url": "https://arxiv.org/abs/2610.20676",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8645,
+      "publishedAt": "2026-10-16T04:00:00.000Z",
+      "summary": "arXiv:2610.20676v1 Announce Type: new \nAbstract: Correctness feedback suppresses the very evidence that specification-completeness auditing is designed to uncover: programs that satisfy a written contract but violate intended behavior. We demonstrate this objective reversal on 12 Verus/Rust tasks ac",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Counterfactual Neighborhood Risk Fields: Evidence-Grounded Selective Safety for Vision-Language Models",
+      "url": "https://arxiv.org/abs/2610.20679",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8645,
+      "publishedAt": "2026-10-16T04:00:00.000Z",
+      "summary": "arXiv:2610.20679v1 Announce Type: new \nAbstract: Representation-based safety defenses for vision-language models (VLMs) often learn to separate harmful from benign inputs, but separation alone does not establish what a risk score means or when it should be trusted. We introduce Counterfactual Neighb",
+      "tags": [
+        "LLM",
+        "Research",
+        "Vision",
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "IneqAgent: Agentic Inequality Proving in Lean with Symbolic Computation",
+      "url": "https://arxiv.org/abs/2610.20681",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8645,
+      "publishedAt": "2026-10-16T04:00:00.000Z",
+      "summary": "arXiv:2610.20681v1 Announce Type: new \nAbstract: Formal inequality proving requires mathematical reasoning and exact computation, often connected through intermediate lemmas and goal reformulations. We introduce IneqAgent, an agentic framework combining LLM reasoning with symbolic computation for in",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "L2G-SR: Learning to Guide LLM-based Symbolic Regression",
+      "url": "https://arxiv.org/abs/2610.20685",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8645,
+      "publishedAt": "2026-10-16T04:00:00.000Z",
+      "summary": "arXiv:2610.20685v1 Announce Type: new \nAbstract: Symbolic regression searches for an equation that explains observed data. Numerical error is commonly used to guide the search, but it alone can favor an accurate surrogate over a candidate with the right structure. We propose L2G-SR, a framework for",
+      "tags": [
+        "LLM",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Self-Evolving Agent Harness",
+      "url": "https://arxiv.org/abs/2610.18813",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.7987,
+      "publishedAt": "2026-10-16T04:57:30.000Z",
+      "summary": "Harness self-evolution revises an agent’s software scaffolding, including prompts, memory, workflows, and executable components, while keeping model weights fixed. We formalize a feedback-driven process in which accepted revisions persist across runs. The framework separates update targets from prop",
+      "tags": [
+        "Agents",
+        "Vision",
+        "ML Infra"
+      ],
+      "engagementScore": 12
+    },
+    {
+      "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+      "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+      "feedSource": "DeepMind",
+      "source": "deepmind.google",
+      "score": 0.7837,
+      "publishedAt": "2026-10-15T16:08:03.000Z",
+      "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Sullivan & Cromwell brings legal expertise into agreement review",
       "url": "https://openai.com/index/sullivan-cromwell",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8343,
+      "score": 0.7821,
       "publishedAt": "2026-10-15T00:00:00.000Z",
       "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
       "tags": [
@@ -50,26 +198,40 @@
       "engagementScore": 0
     },
     {
-      "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
-      "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.8325,
-      "publishedAt": "2026-10-15T16:08:03.000Z",
-      "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
+      "title": "The Thinking Leakage in Reinforcement Learning for LLMs",
+      "url": "https://arxiv.org/abs/2610.14270",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.7637,
+      "publishedAt": "2026-10-16T03:49:46.000Z",
+      "summary": "Hybrid reasoning models such as the Qwen3 series switch between a THINK mode and a NO-THINK mode through a few chat-template tokens. A popular recipe trains such models with reinforcement learning in NO-THINK mode and reports improved reasoning performance. We provide evidence that much of this gain",
       "tags": [
-        "AI"
+        "LLM",
+        "ML Infra"
       ],
-      "engagementScore": 0
+      "engagementScore": 7
     },
     {
       "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
       "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.7817,
+      "score": 0.7365,
       "publishedAt": "2026-10-16T01:44:47.000Z",
       "summary": "A Blog post by NVIDIA on Hugging Face",
+      "tags": [
+        "Open Source"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.7037,
+      "publishedAt": "2026-10-15T20:34:01.000Z",
+      "summary": "A Blog post by IBM Granite on Hugging Face",
       "tags": [
         "Open Source"
       ],
@@ -80,7 +242,7 @@
       "url": "https://www.anthropic.com/engineering/redesigning-source-control",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.7557,
+      "score": 0.7035,
       "publishedAt": "2026-10-13T15:49:56.000Z",
       "summary": "As our merges per day grew more than tenfold, source control became our biggest development bottleneck. Here, we share how we migrated to an in-house version control system in five months.",
       "tags": [
@@ -89,143 +251,11 @@
       "engagementScore": 885
     },
     {
-      "title": "Why Static Skill Inconsistencies Do Not Equate to Runtime Risks: A Behavioral Analysis of LLM Agent Execution",
-      "url": "https://arxiv.org/abs/2610.18927",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7499,
-      "publishedAt": "2026-10-15T04:00:00.000Z",
-      "summary": "arXiv:2610.18927v1 Announce Type: new \nAbstract: LLM agent frameworks heavily rely on external skill assets to standardize tool usage, encode operational workflows, and supply executable runtime resources. Despite their widespread adoption, multi-component skill packages frequently suffer from cross",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Research",
-        "Safety",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Agentic Scientist: Orchestrating Coding Agents for Automated Scientific (Co-)Discovery",
-      "url": "https://arxiv.org/abs/2610.18933",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7499,
-      "publishedAt": "2026-10-15T04:00:00.000Z",
-      "summary": "arXiv:2610.18933v1 Announce Type: new \nAbstract: Modern coding agents are fundamentally reshaping the role of human input for computational research: they write code, launch in silico experiments, analyze their results, and autonomously operate with ever-increasing time horizons. Despite these devel",
-      "tags": [
-        "Agents",
-        "Research",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Beyond Equation Search: Conjecture-Guided Discovery with SCOPE and ClosureBench",
-      "url": "https://arxiv.org/abs/2610.18938",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7499,
-      "publishedAt": "2026-10-15T04:00:00.000Z",
-      "summary": "arXiv:2610.18938v1 Announce Type: new \nAbstract: Most symbolic regression methods optimize candidate equations, but improving an equation's fit does not establish whether its underlying scientific conjecture should be retained, revised, or rejected. A conjecture may admit multiple mathematical reali",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Discovering Undisclosed Concepts in LoRA Adapters for Diffusion-Based AIGC Models",
-      "url": "https://arxiv.org/abs/2610.18990",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7499,
-      "publishedAt": "2026-10-15T04:00:00.000Z",
-      "summary": "arXiv:2610.18990v1 Announce Type: new \nAbstract: Low-Rank Adaptation (LoRA) has made diffusion model personalization affordable and widely shareable, but it also creates moderation risks when harmful or problematic content is not faithfully disclosed. Hence, it is desired to develop a mechanism that",
-      "tags": [
-        "Research",
-        "Vision",
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Smart Alone, Blind Together: Why Accuracy Fails to CertifyTheory of Mind in Multi-Agent Teams",
-      "url": "https://arxiv.org/abs/2610.19051",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7499,
-      "publishedAt": "2026-10-15T04:00:00.000Z",
-      "summary": "arXiv:2610.19051v1 Announce Type: new \nAbstract: Coordinators that act on what they infer about teammates are usually certified by the accuracy of those inferences. We argue that accuracy is the wrong certificate, for two reasons. First, the accuracy needed to act depends on what a wrong action cost",
-      "tags": [
-        "Agents",
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "RLPE: Teaching LLMs to Prompt with Reinforcement Learning",
-      "url": "https://arxiv.org/abs/2610.19062",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7499,
-      "publishedAt": "2026-10-15T04:00:00.000Z",
-      "summary": "arXiv:2610.19062v1 Announce Type: new \nAbstract: Prompting is a widely used method for adapting general-purpose LLMs to domain-specific tasks. Effective prompts can be tedious to create manually, so prompt writing is increasingly handed to LLMs, with recent work training LLMs to write prompts for ot",
-      "tags": [
-        "LLM",
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Plan or Retrieve First? A Scale Study of Tool Discovery Architectures",
-      "url": "https://arxiv.org/abs/2610.19068",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7499,
-      "publishedAt": "2026-10-15T04:00:00.000Z",
-      "summary": "arXiv:2610.19068v1 Announce Type: new \nAbstract: Tool-augmented LLM agents discover relevant APIs from large registries before planning execution, yet finite context windows prohibit injecting all tool definitions into a single prompt. The dominant approach, which we term Retrieve-then-Plan (RtP), e",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Research",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "GroundGUI: GUI Grounding by High-Quality Data and Distillation-to-Reinforcement Learning",
-      "url": "https://arxiv.org/abs/2610.19100",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7499,
-      "publishedAt": "2026-10-15T04:00:00.000Z",
-      "summary": "arXiv:2610.19100v1 Announce Type: new \nAbstract: Constructing robust GUI agents relies on multimodal visual grounding: the ability to precisely map natural language intents to actionable on-screen components. Despite abundant desktop, web, and mobile benchmarks, high-fidelity resources tailored for",
-      "tags": [
-        "Agents",
-        "Research",
-        "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
-      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.749,
-      "publishedAt": "2026-10-15T20:34:01.000Z",
-      "summary": "A Blog post by IBM Granite on Hugging Face",
-      "tags": [
-        "Open Source"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Amp puts AI agents to work beyond code with OpenAI models",
       "url": "https://openai.com/index/amp-beyond-coding",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7468,
+      "score": 0.6946,
       "publishedAt": "2026-10-14T12:00:00.000Z",
       "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
       "tags": [
@@ -240,7 +270,7 @@
       "url": "https://openai.com/index/sentinelone",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7468,
+      "score": 0.6946,
       "publishedAt": "2026-10-14T12:00:00.000Z",
       "summary": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
       "tags": [
@@ -250,11 +280,63 @@
       "engagementScore": 0
     },
     {
+      "title": "This implant can restore sight for patients with macular degeneration",
+      "url": "https://www.technologyreview.com/2026/10/16/1145840/prima-implant-restores-sight-macular-degeneration-patients/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6741,
+      "publishedAt": "2026-10-16T09:00:00.000Z",
+      "summary": "Age-related macular degeneration (AMD) affects more than 5 million people around the world. And until now, no treatment could restore their vision. The Prima system, which was approved in Europe in July and is awaiting FDA clearance in the US, changes that. It combines a retinal implant with camera-",
+      "tags": [
+        "Vision"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Love is infrastructure",
+      "url": "https://www.technologyreview.com/2026/10/16/1145845/love-is-infrastructure-fiction-charlie-jane-anders/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6741,
+      "publishedAt": "2026-10-16T09:00:00.000Z",
+      "summary": "I. Meet cute Barnabas and Mainspring grew up near at hand, about an hour apart with good traffic, but for a long time they weren’t close. They traded glimpses and occasional hellos and then went about their business. Both of them carried on livelier conversations with farther-flung neighbors, who we",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Can’t bear to say goodbye to your pet? Biotech’s got you covered.",
+      "url": "https://www.technologyreview.com/2026/10/16/1146766/pet-biotech-longevity-cloning-cryonics/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6741,
+      "publishedAt": "2026-10-16T09:00:00.000Z",
+      "summary": "I don’t remember much about Peppy, my first and only pet cat. I can conjure the sensation of stroking her while she purred, recall how she used to get stuck in trees (just like in cartoons!), and chuckle about the time she pooed in my baby sister’s cot. That’s about it. What I do vividly&#8230;",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Kids are outsmarting social media bans. That’s not a problem we need to solve.",
+      "url": "https://www.technologyreview.com/2026/10/16/1146834/kids-are-outsmarting-social-media-bans-thats-not-a-problem-we-need-to-solve/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.668,
+      "publishedAt": "2026-10-16T07:56:32.000Z",
+      "summary": "Social media bans are stacking up. In July, France joined Australia in restricting minors from accessing social media—barring children under 15 from major platforms, before the ban was blocked by the country’s top court on human rights grounds. The UK aims to forbid kids under 16 from accessing Face",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
       "url": "https://openai.com/index/third-moment-research",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7103,
+      "score": 0.6581,
       "publishedAt": "2026-10-14T07:00:00.000Z",
       "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
       "tags": [
@@ -270,7 +352,7 @@
       "url": "https://openai.com/index/block-ai-powered-security",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7103,
+      "score": 0.6581,
       "publishedAt": "2026-10-14T07:00:00.000Z",
       "summary": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
       "tags": [
@@ -284,7 +366,7 @@
       "url": "https://deepmind.google/models/gemini/",
       "feedSource": "Hacker News",
       "source": "deepmind.google",
-      "score": 0.6761,
+      "score": 0.6274,
       "publishedAt": "2026-10-13T16:03:16.000Z",
       "summary": "Our next era of frontier intelligence",
       "tags": [
@@ -297,7 +379,7 @@
       "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6593,
+      "score": 0.6071,
       "publishedAt": "2026-10-14T00:00:00.000Z",
       "summary": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
       "tags": [
@@ -306,11 +388,63 @@
       "engagementScore": 0
     },
     {
+      "title": "The Best Digital Wall Calendar (2026): Skylight, Everblog, Greenlight",
+      "url": "https://www.wired.com/story/are-digital-wall-calendars-worth-it/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5822,
+      "publishedAt": "2026-10-16T10:32:00.000Z",
+      "summary": "What originally looked like clutter turned out to be my new favorite gadget for organizing my family’s life.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Jabra Enhance Select M3 Review (2026): A Big Price for Small Wins",
+      "url": "https://www.wired.com/review/review-jabra-enhance-select-m3/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5793,
+      "publishedAt": "2026-10-16T10:00:00.000Z",
+      "summary": "This direct-to-consumer brand’s latest top-of-the-line devices work well but only showcase incremental improvements over previous models.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The New Fan’s Guide to the Unreal World of Nathan Fielder",
+      "url": "https://www.wired.com/story/the-new-fans-guide-to-the-unreal-world-of-nathan-fielder/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5793,
+      "publishedAt": "2026-10-16T10:00:00.000Z",
+      "summary": "Surprised by the hype around yet another documentary on Theranos fraudster Elizabeth Holmes? It has everything to do with this experimental comedian.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Egypt’s Climate-Resilient ‘Super Corals’ Are Starting to Feel the Heat",
+      "url": "https://www.wired.com/story/egypts-climate-resilient-super-corals-are-starting-to-feel-the-heat/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.574,
+      "publishedAt": "2026-10-16T09:00:00.000Z",
+      "summary": "Scientists can’t agree why reefs in the Red Sea have long been immune to bleaching. The answer could be the key to saving these tough corals as climate change begins taking its toll.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
       "url": "https://huggingface.co/blog/meta-muse-spark-open",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.619,
+      "score": 0.5738,
       "publishedAt": "2026-10-15T00:00:00.000Z",
       "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
       "tags": [
@@ -325,7 +459,7 @@
       "url": "https://huggingface.co/blog/flux-3",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.619,
+      "score": 0.5738,
       "publishedAt": "2026-10-15T00:00:00.000Z",
       "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
       "tags": [
@@ -339,20 +473,20 @@
       "url": "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/magic-state-cultivation-quantum-computing/",
       "feedSource": "Hacker News",
       "source": "blog.google",
-      "score": 0.5953,
+      "score": 0.5625,
       "publishedAt": "2026-10-15T18:26:30.000Z",
       "summary": "In a paper published in Science, Google has shown that Magic State Cultivation works on Google Quantum AI hardware.",
       "tags": [
         "Research"
       ],
-      "engagementScore": 22
+      "engagementScore": 27
     },
     {
       "title": "The Download: reviving frozen pig kidneys and boosting nuclear power",
       "url": "https://www.technologyreview.com/2026/10/15/1146755/the-download-reviving-frozen-pig-kidneys-boosting-nuclear-power/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5944,
+      "score": 0.5526,
       "publishedAt": "2026-10-15T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Pig kidneys that were “frozen” for a year have been brought back to life Pig kidneys that were cooled to -150 °C and stored in a freezer for months ha",
       "tags": [
@@ -361,26 +495,65 @@
       "engagementScore": 0
     },
     {
-      "title": "How much more can nuclear power plants give?",
-      "url": "https://www.technologyreview.com/2026/10/15/1146577/nuclear-power-upgrade/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.5818,
-      "publishedAt": "2026-10-15T10:00:00.000Z",
-      "summary": "In this age of rising electricity demand, people are trying to squeeze every last bit of power out of every power plant possible. Over the past few weeks, there’s been big news about nuclear power plants trying to do just that. Constellation, the largest nuclear operator in the US, announced plans t",
+      "title": "Skechers Coupon Codes 20% Off",
+      "url": "https://www.wired.com/story/skechers-coupon-codes/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5526,
+      "publishedAt": "2026-10-16T05:00:00.000Z",
+      "summary": "Learn how to find, compare, and apply the best Skechers online discounts to save on comfortable sneakers, athletic apparel, and accessories.",
       "tags": [
-        "AI"
+        "Dev Tools"
       ],
       "engagementScore": 0
     },
     {
-      "title": "A Tesla Flying Car? I Don’t Know, Man",
-      "url": "https://www.wired.com/story/tesla-flying-car-faa/",
+      "title": "Surfshark Promo Codes: 87% Off | October 2026",
+      "url": "https://www.wired.com/story/surfshark-coupon/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5818,
-      "publishedAt": "2026-10-16T03:18:30.000Z",
-      "summary": "The Federal Aviation Administration will likely have thoughts about the Tesla Roadster 2’s ability to leave the ground.",
+      "score": 0.5526,
+      "publishedAt": "2026-10-16T05:00:00.000Z",
+      "summary": "Save up to 87% with a Surfshark coupon code, 3 months of VPN free today, and more from WIRED.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Total Wireless Promo Codes &amp; Deals: 50% Off Select Plans",
+      "url": "https://www.wired.com/story/total-wireless-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5526,
+      "publishedAt": "2026-10-16T05:00:00.000Z",
+      "summary": "Find great deals for Total Wireless, like 50% off select plans, and enjoy big savings.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "HP Coupon Codes and Deals October 2026",
+      "url": "https://www.wired.com/story/hp-coupon-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5526,
+      "publishedAt": "2026-10-16T05:00:00.000Z",
+      "summary": "Save up to 60%, plus an extra 20% with HP promo codes for laptops, printers, PCs, and more tech.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "How much more can nuclear power plants give?",
+      "url": "https://www.technologyreview.com/2026/10/15/1146577/nuclear-power-upgrade/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.54,
+      "publishedAt": "2026-10-15T10:00:00.000Z",
+      "summary": "In this age of rising electricity demand, people are trying to squeeze every last bit of power out of every power plant possible. Over the past few weeks, there’s been big news about nuclear power plants trying to do just that. Constellation, the largest nuclear operator in the US, announced plans t",
       "tags": [
         "AI"
       ],
@@ -391,7 +564,7 @@
       "url": "https://www.technologyreview.com/2026/10/15/1145819/six-wild-ideas-perpetuating-your-mind-cognitive-immortality/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5759,
+      "score": 0.5341,
       "publishedAt": "2026-10-15T09:00:00.000Z",
       "summary": "Have you ever thought about what makes you you? Science assures us it has everything to do with the three-pound organ between our ears, with its billions of neurons and trillions of delicate connections. But it’s a lot trickier to explain why we have a sense of self-awareness or to pin down precisel",
       "tags": [
@@ -404,7 +577,7 @@
       "url": "https://www.technologyreview.com/2026/10/15/1146091/pig-kidneys-that-were-frozen-for-a-year-have-been-brought-back-to-life/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5743,
+      "score": 0.5325,
       "publishedAt": "2026-10-15T08:43:24.000Z",
       "summary": "Pig kidneys that were cooled to -150 °C and stored in a freezer for months have been successfully rewarmed and shown to work again for the first time, say scientists. They hope to replicate the findings with human organs. The kidneys—which are similar in size to human ones—were left in a glass-like",
       "tags": [
@@ -413,37 +586,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
-      "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.573,
-      "publishedAt": "2026-10-14T02:00:14.000Z",
-      "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
-      "tags": [
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Tesla Roadster 2 Is Here—and It Flies",
-      "url": "https://www.wired.com/story/tesla-roadster-2-launch/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5715,
-      "publishedAt": "2026-10-16T01:22:51.000Z",
-      "summary": "The automaker unveiled its next luxury sports car at an event in Texas. It has thrusters on it that can send it airborne.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
       "url": "https://huggingface.co/blog/allenai/hiro-acev2",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.5698,
+      "score": 0.5246,
       "publishedAt": "2026-10-14T16:12:42.000Z",
       "summary": "A Blog post by Ai2 on Hugging Face",
       "tags": [
@@ -452,11 +599,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+      "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+      "feedSource": "DeepMind",
+      "source": "deepmind.google",
+      "score": 0.5242,
+      "publishedAt": "2026-10-14T02:00:14.000Z",
+      "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
+      "tags": [
+        "ML Infra"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "ChatGPT can peek at your Chrome tabs now",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5573,
+      "score": 0.519,
       "publishedAt": "2026-10-15T22:43:23.000Z",
       "summary": "OpenAI's ChatGPT Atlas browser is gone, but now ChatGPT's Google Chrome extension is getting some upgrades that allow it to use the browser tabs you already have open. With the extension installed, OpenAI says ChatGPT can now view your browser tabs when you tag Chrome in ChatGPT's web or desktop app",
       "tags": [
@@ -469,7 +629,7 @@
       "url": "https://www.theverge.com/games/1012512/sega-total-war-shogun-2-remaster-pulled",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5566,
+      "score": 0.5183,
       "publishedAt": "2026-10-15T22:35:55.000Z",
       "summary": "Sega is removing Total War: Shogun 2 - Complete Edition from storefronts following a disastrous launch where users complained about issues like bugs and upscaling that appears to have been done by AI. Complete Edition, a remaster of the 2011 strategy game, launched on Tuesday, and it bundled the mai",
       "tags": [
@@ -482,7 +642,7 @@
       "url": "https://www.theverge.com/entertainment/1012438/hollywood-tech-backlash-you-can-see-everything-musk-the-social-reckoning-artificial",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5516,
+      "score": 0.5133,
       "publishedAt": "2026-10-15T21:39:52.000Z",
       "summary": "Though movies about disruptive tech founders are nothing new, 2026 has been unusually stacked with features that take a much more critical look at how Silicon Valley is reshaping our reality. Aaron Sorkin's The Social Reckoning frames Mark Zuckerberg as a robotic villain whose ambitions are destabil",
       "tags": [
@@ -495,7 +655,7 @@
       "url": "https://www.theverge.com/policy/1012445/donald-trump-ai-photo-white-house-rennovation-column",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.551,
+      "score": 0.5127,
       "publishedAt": "2026-10-15T21:32:54.000Z",
       "summary": "President Donald Trump posted a series of photos on Truth Social showing off renovations to the White House - but one of them appears to be modified with AI. The picture, which compares an old White House column to a \"restored\" one, has several discrepancies and was flagged by Google's AI detector a",
       "tags": [
@@ -504,188 +664,28 @@
       "engagementScore": 0
     },
     {
-      "title": "We Got Hot and Heavy With Meta’s Muse—and Baffled by Apple’s HomeView",
-      "url": "https://www.wired.com/story/uncanny-valley-podcast-we-got-hot-and-heavy-with-metas-muse-and-underwhelmed-by-apples-homeview/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5497,
-      "publishedAt": "2026-10-15T21:18:15.000Z",
-      "summary": "This week on “Uncanny Valley,” we dive into an unexpected Muse feature, shadowy spending from the largest pro-AI super PAC, and men’s tendency to lie about how much they know about AI.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "AI Hacks Leave a Mess That AI Companies Aren’t Paying For",
-      "url": "https://www.wired.com/story/ai-hacks-leave-a-mess-that-ai-companies-arent-cleaning-up/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5481,
-      "publishedAt": "2026-10-15T21:00:28.000Z",
-      "summary": "Powerful AI models continue to cause chaos, but their targets aren’t widely seeking justice. Instead, they’re being encouraged to adopt those same tools.",
-      "tags": [
-        "RAG",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Bluesky&#8217;s AI tool now lets you make games and apps to share on social",
-      "url": "https://www.theverge.com/tech/1012374/bluesky-ai-attie-small-social-games-apps",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5425,
-      "publishedAt": "2026-10-15T19:57:16.000Z",
-      "summary": "Bluesky's Attie AI tool, which initially launched earlier this year as a way to use AI to build your own feeds, now lets you make \"small\" social apps like games, polls, and dashboards that you can then share with others as their own websites. In an interview at TechCrunch Disrupt, Bluesky CEO Toni S",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Friends don&#8217;t let friends feed their data to AI agents",
-      "url": "https://www.theverge.com/tech/1011938/muse-ai-data-friends-consent",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5393,
-      "publishedAt": "2026-10-15T19:20:49.000Z",
-      "summary": "There's a growing trend in the consumer tech world: gadgets designed to spy on everything and everyone around you, regardless of whether or not anyone else actually consented to it. Now, with the advent of \"AI personal assistants\" like Meta's Muse, you're being cheerfully asked not just to give up y",
-      "tags": [
-        "Agents"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "How Windows is being optimized for Nvidia’s RTX Spark laptops",
-      "url": "https://www.theverge.com/tech/1011996/microsoft-windows-rtx-spark-platform-changes-notepad",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5382,
-      "publishedAt": "2026-10-15T19:09:23.000Z",
-      "summary": "Microsoft and Nvidia held a launch party for the first wave of RTX Spark laptops last week in San Francisco, where a new wave of AI PCs took center stage amid a packed crowd and a lively hands-on area. A day after the media event, I was invited to a quieter Nvidia event to hear [&#8230;]",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Upgrade Your Thermostat for Winter With This Ecobee Deal for $120",
-      "url": "https://www.wired.com/story/ecobee-fall-sale-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5375,
-      "publishedAt": "2026-10-15T19:00:49.000Z",
-      "summary": "You don’t need the fanciest model to make your heating routine smarter. A refurbished Ecobee we love is just $120 through October 21.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Muse Spark Open",
       "url": "https://research.meta.ai/blog/muse-spark-open",
       "feedSource": "Hacker News",
       "source": "research.meta.ai",
-      "score": 0.5367,
+      "score": 0.5094,
       "publishedAt": "2026-10-15T17:47:39.000Z",
       "summary": "Muse Spark Open is the most capable US open-weight model to date, and brings leading agentic capabilities to your desktop on Apple M5 Ultra Mac Studios.",
       "tags": [
         "Agents",
         "ML Infra"
       ],
-      "engagementScore": 672
+      "engagementScore": 827
     },
     {
-      "title": "Meta and Apple team up to make Muse AI models run better on Macs",
-      "url": "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx",
+      "title": "Bluesky&#8217;s AI tool now lets you make games and apps to share on social",
+      "url": "https://www.theverge.com/tech/1012374/bluesky-ai-attie-small-social-games-apps",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5334,
-      "publishedAt": "2026-10-15T18:15:36.000Z",
-      "summary": "Meta announced the Muse Spark Open AI model today, claiming that it's the \"most capable US open-weight model to date.\" But the company also says that it's the \"the first model in its class\" that can \"run on your desktop using two Apple M5 Ultra Mac Studios with the latest MLX framework.\" Meta and Ap",
+      "score": 0.5042,
+      "publishedAt": "2026-10-15T19:57:16.000Z",
+      "summary": "Bluesky's Attie AI tool, which initially launched earlier this year as a way to use AI to build your own feeds, now lets you make \"small\" social apps like games, polls, and dashboards that you can then share with others as their own websites. In an interview at TechCrunch Disrupt, Bluesky CEO Toni S",
       "tags": [
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Developing Gemini 4 Argon responsibly and safely",
-      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.5302,
-      "publishedAt": "2026-10-13T19:43:07.000Z",
-      "summary": "Learn more about our approach to safety and security for Gemini 4 Argon.",
-      "tags": [
-        "LLM",
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "White House Press Secretary Katie Zacharia Was an Affiliate Marketer for a Fitness MLM",
-      "url": "https://www.wired.com/story/white-house-press-secretary-katie-zacharia-was-an-affiliate-marketer-for-a-fitness-mlm/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5272,
-      "publishedAt": "2026-10-15T17:05:19.000Z",
-      "summary": "Trump’s newly installed press secretary tells WIRED that in the early 2010s, she promoted a product for a company then called Beachbody, which she described as “sort of a pyramid scheme.”",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Neural networks are clean",
-      "url": "https://already-clean.goodfire.com/",
-      "feedSource": "Hacker News",
-      "source": "already-clean.goodfire.com",
-      "score": 0.5213,
-      "publishedAt": "2026-10-15T16:04:01.000Z",
-      "summary": "A working hypothesis about neurons, generalization, and the ecology of circuits.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 553
-    },
-    {
-      "title": "Junji Ito’s Manga Horrors Hit Harder as Live-Action TV",
-      "url": "https://www.wired.com/story/new-york-comic-con-panel-2/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.508,
-      "publishedAt": "2026-10-15T13:30:00.000Z",
-      "summary": "The artist’s macabre short works have been adapted into eerily freaky 30-minute bites for television. We got a sneak preview of the next episode airing on HBO Max.",
-      "tags": [
-        "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Gemini 4 Argon for Robotics",
-      "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.5051,
-      "publishedAt": "2026-10-13T16:01:58.000Z",
-      "summary": "Discover Gemini 4 Argon for robotics: leading the ERQA benchmark with physical reasoning, zero-shot control, Real2Sim, and agentic workflows.",
-      "tags": [
-        "LLM",
-        "Agents"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Gemini 4 Argon: Built to solve your hardest problems",
-      "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.5051,
-      "publishedAt": "2026-10-13T16:01:52.000Z",
-      "summary": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
-      "tags": [
-        "LLM",
         "Dev Tools"
       ],
       "engagementScore": 0
