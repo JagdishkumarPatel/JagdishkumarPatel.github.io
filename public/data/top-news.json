@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T16:44:46.628Z",
+  "updatedAt": "2026-10-23T21:11:22.807Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,7 +12,7 @@
       "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 1.0392,
+      "score": 1.0068,
       "publishedAt": "2026-10-23T17:00:00.000Z",
       "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
       "tags": [
@@ -28,7 +28,7 @@
       "url": "https://www.anthropic.com/research/formal-verification",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 1.0213,
+      "score": 0.9925,
       "publishedAt": "2026-10-22T22:54:43.000Z",
       "summary": "Claude formally proved security properties in the compiled code of 123 open-source libraries. Along the way, it found bugs that had eluded detection for years.",
       "tags": [
@@ -36,14 +36,44 @@
         "Open Source",
         "Dev Tools"
       ],
-      "engagementScore": 408
+      "engagementScore": 436
+    },
+    {
+      "title": "Securing our frontier model training environment",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.9558,
+      "publishedAt": "2026-10-23T10:00:00.000Z",
+      "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+      "tags": [
+        "LLM",
+        "ML Infra",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "An alignment assessment of the UK AISI cybertesting incident",
+      "url": "https://www.anthropic.com/research/alignment-assessment-ukaisi",
+      "feedSource": "Hacker News",
+      "source": "anthropic.com",
+      "score": 0.9213,
+      "publishedAt": "2026-10-23T14:44:50.000Z",
+      "summary": "In a UK AISI evaluation, Mythos 5 took unsanctioned actions that impacted real people and organizations. In this post, we investigate these behaviors from Claude Mythos 5 further, to understand what they reveal about the model’s alignment.",
+      "tags": [
+        "LLM",
+        "Safety",
+        "Industry"
+      ],
+      "engagementScore": 14
     },
     {
       "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
       "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9153,
+      "score": 0.8829,
       "publishedAt": "2026-10-23T00:00:00.000Z",
       "summary": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
       "tags": [
@@ -58,7 +88,7 @@
       "url": "https://openai.com/index/decisions-api",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8788,
+      "score": 0.8464,
       "publishedAt": "2026-10-22T19:00:00.000Z",
       "summary": "Fast, focused, low-cost decisions for any application.",
       "tags": [
@@ -67,26 +97,11 @@
       "engagementScore": 0
     },
     {
-      "title": "An alignment assessment of the UK AISI cybertesting incident",
-      "url": "https://www.anthropic.com/research/alignment-assessment-ukaisi",
-      "feedSource": "Hacker News",
-      "source": "anthropic.com",
-      "score": 0.8701,
-      "publishedAt": "2026-10-23T14:44:50.000Z",
-      "summary": "In a UK AISI evaluation, Mythos 5 took unsanctioned actions that impacted real people and organizations. In this post, we investigate these behaviors from Claude Mythos 5 further, to understand what they reveal about the model’s alignment.",
-      "tags": [
-        "LLM",
-        "Safety",
-        "Industry"
-      ],
-      "engagementScore": 3
-    },
-    {
       "title": "The Cost of Saying Hello: An Empirical Study of Handshake Overhead in AI Agent Communication Protocols",
       "url": "https://arxiv.org/abs/2610.30151",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8255,
+      "score": 0.7952,
       "publishedAt": "2026-10-23T04:00:00.000Z",
       "summary": "arXiv:2610.30151v1 Announce Type: new \nAbstract: Every interaction between AI agents begins with a handshake: the initiating agent must locate its counterpart, learn what it can do, and establish a session before the first useful message can be sent. Surveys of agent communication protocols name han",
       "tags": [
@@ -100,7 +115,7 @@
       "url": "https://arxiv.org/abs/2610.30157",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8255,
+      "score": 0.7952,
       "publishedAt": "2026-10-23T04:00:00.000Z",
       "summary": "arXiv:2610.30157v1 Announce Type: new \nAbstract: AI agents require interfaces to interact with external systems such as files, APIs, databases, and cloud services. Two competing paradigms have emerged: CLI (Command Line Interface), where agents execute shell commands directly, and MCP (Model Context",
       "tags": [
@@ -115,7 +130,7 @@
       "url": "https://arxiv.org/abs/2610.30170",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8255,
+      "score": 0.7952,
       "publishedAt": "2026-10-23T04:00:00.000Z",
       "summary": "arXiv:2610.30170v1 Announce Type: new \nAbstract: Canada's increasing wildfire activity requires frequent national hazard mapping to guide proactive mitigation, including fuel management, land-use planning, infrastructure protection, and evacuation routing. However, process-based wildfire simulation",
       "tags": [
@@ -128,7 +143,7 @@
       "url": "https://arxiv.org/abs/2610.30173",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8255,
+      "score": 0.7952,
       "publishedAt": "2026-10-23T04:00:00.000Z",
       "summary": "arXiv:2610.30173v1 Announce Type: new \nAbstract: Yager's 1987 rule of combination $\\boxplus$ was proposed on epistemic grounds: under high conflict, mass should be redistributed to ignorance rather than renormalised onto the class simplex. We observe that backpropagation needs the same rule: Dempste",
       "tags": [
@@ -141,7 +156,7 @@
       "url": "https://arxiv.org/abs/2610.30176",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8255,
+      "score": 0.7952,
       "publishedAt": "2026-10-23T04:00:00.000Z",
       "summary": "arXiv:2610.30176v1 Announce Type: new \nAbstract: We investigate structural conditions under which preferred and stable semantics agree in abstract argumentation frameworks. Our approach is based on suitably chosen sets of paths in the attack graph and binary relations induced by them. We establish a",
       "tags": [
@@ -156,7 +171,7 @@
       "url": "https://arxiv.org/abs/2610.30205",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8255,
+      "score": 0.7952,
       "publishedAt": "2026-10-23T04:00:00.000Z",
       "summary": "arXiv:2610.30205v1 Announce Type: new \nAbstract: When an LLM agent's move fails, the harness writes the move and the failure message into the transcript and asks again. In tool calling, this record makes small models more likely to repeat the failed action. We test whether the same holds in games (S",
       "tags": [
@@ -172,7 +187,7 @@
       "url": "https://arxiv.org/abs/2610.30277",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8255,
+      "score": 0.7952,
       "publishedAt": "2026-10-23T04:00:00.000Z",
       "summary": "arXiv:2610.30277v1 Announce Type: new \nAbstract: While artificial intelligence has made rapid progress in mathematical reasoning, many open problems depend on structure that is revealed only through large-scale computational exploration and analytical synthesis. One such example is Lehmer's problem",
       "tags": [
@@ -186,7 +201,7 @@
       "url": "https://arxiv.org/abs/2610.30351",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8255,
+      "score": 0.7952,
       "publishedAt": "2026-10-23T04:00:00.000Z",
       "summary": "arXiv:2610.30351v1 Announce Type: new \nAbstract: Large language models often apply complex reasoning indiscriminately, leading to overthinking on simple tasks and underthinking on harder ones. We present Route-and-Generate (Rouge), a hierarchical training framework that enables LLMs to adaptively de",
       "tags": [
@@ -201,7 +216,7 @@
       "url": "https://arxiv.org/abs/2610.27251",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8117,
+      "score": 0.7815,
       "publishedAt": "2026-10-22T18:28:16.000Z",
       "summary": "The scientific literature can be viewed as an “information commons:” an intangible resource that “no one owns and is shared by everyone.” There are well-established economic and political frameworks for understanding such commons, emerging from the history of agricultural common lands found in place",
       "tags": [
@@ -210,11 +225,24 @@
       "engagementScore": 137
     },
     {
+      "title": "The alien space of science: Coherent but cognitively unavailable directions",
+      "url": "https://arxiv.org/abs/2603.01092",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.7639,
+      "publishedAt": "2026-10-22T13:25:01.000Z",
+      "summary": "Scientific discovery is constrained not only by what is true, but by what is cognitively available to researchers. Many directions are coherent in light of the literature yet unlikely to be proposed because no existing community combines the relevant concepts, methods, and intuitions. Modern languag",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 191
+    },
+    {
       "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
       "url": "https://huggingface.co/blog/allenai/litpivot",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.792,
+      "score": 0.7639,
       "publishedAt": "2026-10-23T16:15:50.000Z",
       "summary": "A Blog post by Ai2 on Hugging Face",
       "tags": [
@@ -224,24 +252,11 @@
       "engagementScore": 0
     },
     {
-      "title": "The alien space of science: Coherent but cognitively unavailable directions",
-      "url": "https://arxiv.org/abs/2603.01092",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.7864,
-      "publishedAt": "2026-10-22T13:25:01.000Z",
-      "summary": "Scientific discovery is constrained not only by what is true, but by what is cognitively available to researchers. Many directions are coherent in light of the literature yet unlikely to be proposed because no existing community combines the relevant concepts, methods, and intuitions. Modern languag",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 164
-    },
-    {
       "title": "What FDE means at OpenAI",
       "url": "https://openai.com/index/forward-deployed-engineering-means",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.784,
+      "score": 0.7516,
       "publishedAt": "2026-10-22T06:00:00.000Z",
       "summary": "What forward deployed engineering means at OpenAI",
       "tags": [
@@ -254,7 +269,7 @@
       "url": "https://openai.com/index/openai-models-google-cloud/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.7605,
+      "score": 0.7281,
       "publishedAt": "2026-10-21T12:53:11.000Z",
       "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
       "tags": [
@@ -268,7 +283,7 @@
       "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.7583,
+      "score": 0.7259,
       "publishedAt": "2026-10-21T14:03:43.000Z",
       "summary": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
       "tags": [
@@ -283,7 +298,7 @@
       "url": "https://openai.com/index/uber-chatgpt-work-rollout",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7403,
+      "score": 0.7079,
       "publishedAt": "2026-10-22T00:00:00.000Z",
       "summary": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
       "tags": [
@@ -297,7 +312,7 @@
       "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.7336,
+      "score": 0.7034,
       "publishedAt": "2026-10-22T14:30:24.000Z",
       "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
       "tags": [
@@ -310,7 +325,7 @@
       "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.727,
+      "score": 0.6946,
       "publishedAt": "2026-10-21T13:37:00.000Z",
       "summary": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
       "tags": [
@@ -325,22 +340,9 @@
       "url": "https://openai.com/index/broad-access-through-consistent-standards",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7184,
+      "score": 0.686,
       "publishedAt": "2026-10-21T21:00:00.000Z",
       "summary": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "How AT&T is rethinking in-house legal work with OpenAI",
-      "url": "https://openai.com/index/att-legal",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.6892,
-      "publishedAt": "2026-10-21T17:00:00.000Z",
-      "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
       "tags": [
         "LLM"
       ],
@@ -351,7 +353,7 @@
       "url": "https://huggingface.co/blog/torch-neuronx-model-support",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6892,
+      "score": 0.6612,
       "publishedAt": "2026-10-23T00:00:00.000Z",
       "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
       "tags": [
@@ -361,11 +363,24 @@
       "engagementScore": 0
     },
     {
+      "title": "How AT&T is rethinking in-house legal work with OpenAI",
+      "url": "https://openai.com/index/att-legal",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.6568,
+      "publishedAt": "2026-10-21T17:00:00.000Z",
+      "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
       "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6792,
+      "score": 0.6511,
       "publishedAt": "2026-10-22T22:24:34.000Z",
       "summary": "A Blog post by Microsoft on Hugging Face",
       "tags": [
@@ -375,24 +390,11 @@
       "engagementScore": 0
     },
     {
-      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
-      "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.6601,
-      "publishedAt": "2026-10-21T13:00:00.000Z",
-      "summary": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "The Download: testing six tech promises and biotech&#8217;s blind spots",
       "url": "https://www.technologyreview.com/2026/10/23/1147628/the-download-testing-tech-promises-science-blind-spots/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6592,
+      "score": 0.6333,
       "publishedAt": "2026-10-23T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Are we there yet? A reality check on six big tech promises Some seemingly impossible feats are too good to give up on. Decoding a pet’s yowls and yips",
       "tags": [
@@ -401,11 +403,24 @@
       "engagementScore": 0
     },
     {
+      "title": "In the biotech world, you can’t see everything",
+      "url": "https://www.technologyreview.com/2026/10/23/1147610/biotech-you-can-see-everything-theranos-holmes/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6148,
+      "publishedAt": "2026-10-23T09:00:00.000Z",
+      "summary": "Earlier this week, I attended a screening of You Can See Everything, the buzzy new documentary about the disgraced former biotech CEO Elizabeth Holmes.&#160; I went in not really knowing what to expect. I’d avoided spoilers (and won’t be giving anything away here, either!). I was wondering what new",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Using Claude to reduce the attack surface of code",
       "url": "https://www.anthropic.com/research/attack-surface-reduction",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.6455,
+      "score": 0.6131,
       "publishedAt": "2026-10-21T03:36:43.000Z",
       "summary": "Automated attack surface analysis and reduction can meaningfully improve the security of deployed software in the near term. In this post, we preview data we’ve collected from applying attack surface reduction techniques to large open-source codebases using Claude.",
       "tags": [
@@ -416,13 +431,68 @@
       "engagementScore": 135
     },
     {
-      "title": "In the biotech world, you can’t see everything",
-      "url": "https://www.technologyreview.com/2026/10/23/1147610/biotech-you-can-see-everything-theranos-holmes/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.6407,
-      "publishedAt": "2026-10-23T09:00:00.000Z",
-      "summary": "Earlier this week, I attended a screening of You Can See Everything, the buzzy new documentary about the disgraced former biotech CEO Elizabeth Holmes.&#160; I went in not really knowing what to expect. I’d avoided spoilers (and won’t be giving anything away here, either!). I was wondering what new",
+      "title": "OpenAI now trains its frontier AI models with no internet access",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5847,
+      "publishedAt": "2026-10-23T21:11:07.000Z",
+      "summary": "OpenAI is now training its most advanced AI models without internet access following a string of rogue hacking incidents. In a blog post on Friday, OpenAI says it built an offline testing environment where AI models can interact with indexed and cached web content \"without risk of affecting external",
+      "tags": [
+        "LLM",
+        "Safety",
+        "ML Infra"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5759,
+      "publishedAt": "2026-10-23T19:32:39.000Z",
+      "summary": "Jack Dorsey's Block announced an AI model called Dessa that's trained \"from scratch on nothing but human conversation,\" and to show off the model, Block shared chats it has had with humans that can occasionally be a little awkward and uncanny. Take this one, for example, shared by Dessa lead Ragavan",
+      "tags": [
+        "RAG",
+        "ML Infra"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Revival Rugs Birthday Sale: 20 Percent Off Sitewide Through Sunday",
+      "url": "https://www.wired.com/story/revival-rugs-birthday-sale-october-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5701,
+      "publishedAt": "2026-10-23T18:27:32.000Z",
+      "summary": "The brand’s lovely selection of hand-knotted and handwoven wool rugs at reasonable prices make it a WIRED-staff favorite.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The iPhone Duo should have been an iPad",
+      "url": "https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5624,
+      "publishedAt": "2026-10-23T17:00:18.000Z",
+      "summary": "We gave the iPhone Duo a 7 /10. But that wasn't always the score we planned, and it might not be the right score forever. Such are the challenges of reviewing - and assessing - a big, new idea about the most popular smartphone in history. On this episode of The Vergecast, David and Nilay [&#8230;]",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "What’s the Best iPhone to Buy or Avoid Right Now? (2026)",
+      "url": "https://www.wired.com/gallery/iphone-buying-guide/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5623,
+      "publishedAt": "2026-10-23T17:00:00.000Z",
+      "summary": "The first folding iPhone Duo is here, alongside the 18 Pro and 18 Pro Max, but they’re not your only options. We have all the details on Apple’s smartphone lineup to help you find the right model.",
       "tags": [
         "AI"
       ],
@@ -433,7 +503,7 @@
       "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.5872,
+      "score": 0.5591,
       "publishedAt": "2026-10-22T07:51:31.000Z",
       "summary": "A Blog post by IBM Research on Hugging Face",
       "tags": [
@@ -447,7 +517,7 @@
       "url": "https://www.wired.com/story/elon-musk-just-dumped-another-dollar76-million-into-the-midterms/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5819,
+      "score": 0.5581,
       "publishedAt": "2026-10-23T16:12:49.000Z",
       "summary": "The trillionaire has given more than $445 million to Republican political groups this election cycle, as Democrats vow to investigate him.",
       "tags": [
@@ -460,7 +530,7 @@
       "url": "https://www.wired.com/story/how-many-billions-would-it-take-to-hold-meta-accountable/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5754,
+      "score": 0.5516,
       "publishedAt": "2026-10-23T15:00:00.000Z",
       "summary": "Meta got hit this week with its biggest fine yet, the latest in a mounting pile of court-ordered payments.",
       "tags": [
@@ -473,7 +543,7 @@
       "url": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5743,
+      "score": 0.5505,
       "publishedAt": "2026-10-23T14:47:41.000Z",
       "summary": "Meta is delaying the enforcement of its new business terms after publishers raised concerns that they could allow the company to scrape news sites for AI training, as reported earlier by Fast Company. In a statement to The Verge, Meta spokesperson Daniel Roberts says the terms will go into effect on",
       "tags": [
@@ -486,7 +556,7 @@
       "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5724,
+      "score": 0.5465,
       "publishedAt": "2026-10-22T21:17:29.000Z",
       "summary": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift. For the past several years, much of the AI conversation has centered on model capability: bigger models, better reasoning, larger context windows,",
       "tags": [
@@ -499,7 +569,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5694,
+      "score": 0.5456,
       "publishedAt": "2026-10-23T13:52:15.000Z",
       "summary": "Retro video games are everywhere lately - especially in places where they aren't supposed to be. Halo in a web browser, Wind Waker on the iPhone, Super Smash Bros. in mixed reality. Over the past month or so, these kinds of unexpected projects have gone viral with incredible frequency thanks to new",
       "tags": [
@@ -508,24 +578,11 @@
       "engagementScore": 0
     },
     {
-      "title": "The Foundations of Scalable AI",
-      "url": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.5579,
-      "publishedAt": "2026-10-22T18:48:04.000Z",
-      "summary": "A scalable AI system requires a strong foundation. Data, engineering, platforms, operating models, and governance must converge to work as one. This session from MIT Technology Review&#8217;s EmTech Future conference explores what it takes to build that foundation in a highly regulated environment a",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Samsung Galaxy Z Flip8 Review: The Littlest Smartphone That Could",
       "url": "https://www.wired.com/review/samsung-galazy-z-flip8/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5567,
+      "score": 0.5329,
       "publishedAt": "2026-10-23T11:30:00.000Z",
       "summary": "Samsung’s cute compact is for those who want the smallest possible phone. Performance and camera are solid, but it’s pricier than its predecessor.",
       "tags": [
@@ -538,7 +595,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/1016879/spacex-tesla-cursed-katamari",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5566,
+      "score": 0.5328,
       "publishedAt": "2026-10-23T11:28:50.000Z",
       "summary": "Oh sure, SpaceX's credit risk is pretty high because it's about to borrow another $40 billion to spend on Nvidia chips, but who cares about that? SpaceX and Tesla have formed special committees to discuss a merger! The degree to which you find this merger compelling likely has to do with the degree",
       "tags": [
@@ -548,11 +605,24 @@
       "engagementScore": 0
     },
     {
-      "title": "Split Tunneling Is Your VPN’s Best Feature. Here��s How to Make the Most of It",
+      "title": "The Foundations of Scalable AI",
+      "url": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.532,
+      "publishedAt": "2026-10-22T18:48:04.000Z",
+      "summary": "A scalable AI system requires a strong foundation. Data, engineering, platforms, operating models, and governance must converge to work as one. This session from MIT Technology Review&#8217;s EmTech Future conference explores what it takes to build that foundation in a highly regulated environment a",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Split Tunneling Is Your VPN’s Best Feature. Here’s How to Make the Most of It",
       "url": "https://www.wired.com/story/split-tunneling-is-your-vpns-best-feature-heres-how-to-make-the-most-of-it/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.554,
+      "score": 0.5303,
       "publishedAt": "2026-10-23T11:00:00.000Z",
       "summary": "This feature common to VPN services gives you protection and privacy specifically when and where you need it.",
       "tags": [
@@ -565,7 +635,7 @@
       "url": "https://www.wired.com/review/turtle-beach-vulcan-xp-ii/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5527,
+      "score": 0.5289,
       "publishedAt": "2026-10-23T10:45:00.000Z",
       "summary": "Great for typing and fine for gaming, but too many compromises keep this mechanical keyboard from leveling up your play.",
       "tags": [
@@ -578,35 +648,9 @@
       "url": "https://www.wired.com/review/tdm-neo-hybrid-headphones/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5513,
+      "score": 0.5276,
       "publishedAt": "2026-10-23T10:30:00.000Z",
       "summary": "CES 2026 loved these innovative headphones that transform into a Bluetooth speaker. After living with them, I’m impressed by the engineering, but less impressed by the sound.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "A Dating App Is Offering ‘Chivalry Mode’ and ‘Marriage Timeline’ to Get Gen Z Married",
-      "url": "https://www.wired.com/story/a-dating-app-is-offering-chivalry-mode-and-marriage-timeline-to-get-gen-z-married/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.55,
-      "publishedAt": "2026-10-23T10:15:00.000Z",
-      "summary": "Upward, a newly relaunched Christian app, is pitching trad values to a generation that barely even dates.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "What Type of Mattress Is Right for You? (2026)",
-      "url": "https://www.wired.com/story/mattress-types-explained-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5494,
-      "publishedAt": "2026-10-23T10:08:00.000Z",
-      "summary": "Here’s how to pick the best mattress for your sleep needs, straight from a professional mattress tester.",
       "tags": [
         "AI"
       ],
@@ -617,7 +661,7 @@
       "url": "https://www.technologyreview.com/2026/10/22/1147612/the-download-computing-next-leap-permafrost-climate-threat/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5192,
+      "score": 0.4933,
       "publishedAt": "2026-10-22T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. How far can we push computing? On a December evening in 1959, the physicist Richard Feynman gave a lecture called “There’s Plenty of Room at the Botto",
       "tags": [
@@ -626,68 +670,29 @@
       "engagementScore": 0
     },
     {
-      "title": "Making the case for context-aware AI",
-      "url": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.5066,
-      "publishedAt": "2026-10-22T10:00:00.000Z",
-      "summary": "Enterprise AI can generate recommendations, automate tasks, and help organizations make decisions faster. But without an understanding of how a business actually operates, even powerful models can miss the constraints and relationships that determine whether a decision is the right one. As companies",
+      "title": "Chinese AI model Kimi K3.1 Pro is closing in on Anthropic&#039;s Claude Opus 5.5",
+      "url": "https://the-decoder.com/chinese-ai-model-kimi-k3-1-pro-is-closing-in-on-anthropics-claude-opus-5-5/",
+      "feedSource": "The Decoder",
+      "source": "the-decoder.com",
+      "score": 0.481,
+      "publishedAt": "2026-10-23T19:00:07.000Z",
+      "summary": "Moonshot AI's Kimi K3.1 Pro scores 55 points on the Artificial Analysis Intelligence Index, an 11-point jump over its predecessor that puts it in fourth place. Only three Anthropic and Meta models rank higher. If Moonshot releases the weights as planned, the gap between open and proprietary",
       "tags": [
+        "LLM",
         "ML Infra"
       ],
       "engagementScore": 0
     },
     {
-      "title": "Three things you should know about permafrost",
-      "url": "https://www.technologyreview.com/2026/10/22/1147591/permafrost-primer/",
+      "title": "Making the case for context-aware AI",
+      "url": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5066,
+      "score": 0.4806,
       "publishedAt": "2026-10-22T10:00:00.000Z",
-      "summary": "How much do you know about permafrost? Maybe, like me, you’ve been aware that this layer of frozen soil is thawing, that it’s important in the global puzzle of climate change … and that’s about the extent of it.&#160;&#160; The great news for both of us is that my colleague James Temple just publish",
+      "summary": "Enterprise AI can generate recommendations, automate tasks, and help organizations make decisions faster. But without an understanding of how a business actually operates, even powerful models can miss the constraints and relationships that determine whether a decision is the right one. As companies",
       "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
-      "url": "https://huggingface.co/blog/nvidia/kumo-relational",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.5024,
-      "publishedAt": "2026-10-21T18:26:30.000Z",
-      "summary": "A Blog post by NVIDIA on Hugging Face",
-      "tags": [
-        "Open Source"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "AI&#8217;s hidden storage bill: What inference leaves behind",
-      "url": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.4989,
-      "publishedAt": "2026-10-22T08:41:18.000Z",
-      "summary": "Ask most executives to picture the cost of AI and they’ll likely see GPUs—racks of accelerators with gigawatts of power—and a waitlist for silicon. But that picture leaves something out: Data storage costs. What happens to data after a model responds? Much of the back-end data that’s generated—from",
-      "tags": [
-        "RAG"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
-      "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.4971,
-      "publishedAt": "2026-10-21T17:35:36.000Z",
-      "summary": "A Blog post by Dharma-AI on Hugging Face",
-      "tags": [
-        "Open Source",
-        "Safety"
+        "ML Infra"
       ],
       "engagementScore": 0
     }
