@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T15:37:55.948Z",
+  "updatedAt": "2026-10-24T20:28:26.973Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,11 +8,25 @@
   ],
   "items": [
     {
+      "title": "Why is AI generated language so hard to understand?",
+      "url": "https://arxiv.org/abs/2610.29162",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.9198,
+      "publishedAt": "2026-10-24T18:04:57.000Z",
+      "summary": "There is a widespread sense that AI-generated text has recently become harder to understand. In this study, we investigate a set of psycholinguistic features that are known to correlate with human processing difficulty (e.g., object relative clauses, long syntactic dependencies, low-frequency n-gram",
+      "tags": [
+        "Research",
+        "Industry"
+      ],
+      "engagementScore": 80
+    },
+    {
       "title": "Securing our frontier model training environment",
       "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.9349,
+      "score": 0.9035,
       "publishedAt": "2026-10-23T19:50:56.000Z",
       "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
       "tags": [
@@ -20,14 +34,14 @@
         "ML Infra",
         "Industry"
       ],
-      "engagementScore": 108
+      "engagementScore": 116
     },
     {
       "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
       "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8724,
+      "score": 0.8371,
       "publishedAt": "2026-10-23T17:00:00.000Z",
       "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
       "tags": [
@@ -43,7 +57,7 @@
       "url": "https://www.anthropic.com/research/formal-verification",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.8602,
+      "score": 0.825,
       "publishedAt": "2026-10-22T22:54:43.000Z",
       "summary": "Claude formally proved security properties in the compiled code of 123 open-source libraries. Along the way, it found bugs that had eluded detection for years.",
       "tags": [
@@ -51,14 +65,14 @@
         "Open Source",
         "Dev Tools"
       ],
-      "engagementScore": 454
+      "engagementScore": 455
     },
     {
       "title": "Securing our frontier model training environment",
       "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8213,
+      "score": 0.786,
       "publishedAt": "2026-10-23T10:00:00.000Z",
       "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
       "tags": [
@@ -73,7 +87,7 @@
       "url": "https://www.anthropic.com/research/alignment-assessment-ukaisi",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.8005,
+      "score": 0.7681,
       "publishedAt": "2026-10-23T14:44:50.000Z",
       "summary": "In a UK AISI evaluation, Mythos 5 took unsanctioned actions that impacted real people and organizations. In this post, we investigate these behaviors from Claude Mythos 5 further, to understand what they reveal about the model’s alignment.",
       "tags": [
@@ -81,14 +95,14 @@
         "Safety",
         "Industry"
       ],
-      "engagementScore": 18
+      "engagementScore": 19
     },
     {
       "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
       "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7484,
+      "score": 0.7131,
       "publishedAt": "2026-10-23T00:00:00.000Z",
       "summary": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
       "tags": [
@@ -103,7 +117,7 @@
       "url": "https://openai.com/index/decisions-api",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7119,
+      "score": 0.6766,
       "publishedAt": "2026-10-22T19:00:00.000Z",
       "summary": "Fast, focused, low-cost decisions for any application.",
       "tags": [
@@ -116,7 +130,7 @@
       "url": "https://arxiv.org/abs/2206.07867",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7003,
+      "score": 0.6673,
       "publishedAt": "2026-10-24T01:38:01.000Z",
       "summary": "Information theory, though originally developed for communications engineering, provides mathematical tools with broad applications across science. These tools characterize the fundamental limits of data compression and transmission in the presence of noise. Here, we present a visual, intuition-driv",
       "tags": [
@@ -127,29 +141,15 @@
       "engagementScore": 5
     },
     {
-      "title": "AI and the Enclosure of the Scientific Commons",
-      "url": "https://arxiv.org/abs/2610.27251",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.6567,
-      "publishedAt": "2026-10-22T18:28:16.000Z",
-      "summary": "The scientific literature can be viewed as an “information commons:” an intangible resource that “no one owns and is shared by everyone.” There are well-established economic and political frameworks for understanding such commons, emerging from the history of agricultural common lands found in place",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 139
-    },
-    {
       "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
       "url": "https://huggingface.co/blog/allenai/litpivot",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6474,
+      "score": 0.6168,
       "publishedAt": "2026-10-23T16:15:50.000Z",
-      "summary": "A Blog post by Ai2 on Hugging Face",
+      "summary": "",
       "tags": [
-        "Research",
-        "Open Source"
+        "Research"
       ],
       "engagementScore": 0
     },
@@ -158,20 +158,20 @@
       "url": "https://arxiv.org/abs/2603.01092",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.642,
+      "score": 0.6093,
       "publishedAt": "2026-10-22T13:25:01.000Z",
       "summary": "Scientific discovery is constrained not only by what is true, but by what is cognitively available to researchers. Many directions are coherent in light of the literature yet unlikely to be proposed because no existing community combines the relevant concepts, methods, and intuitions. Modern languag",
       "tags": [
         "Research"
       ],
-      "engagementScore": 205
+      "engagementScore": 206
     },
     {
       "title": "What FDE means at OpenAI",
       "url": "https://openai.com/index/forward-deployed-engineering-means",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6171,
+      "score": 0.5818,
       "publishedAt": "2026-10-22T06:00:00.000Z",
       "summary": "What forward deployed engineering means at OpenAI",
       "tags": [
@@ -180,38 +180,11 @@
       "engagementScore": 0
     },
     {
-      "title": "OpenAI models are coming to Google Cloud",
-      "url": "https://openai.com/index/openai-models-google-cloud/",
-      "feedSource": "Hacker News",
-      "source": "openai.com",
-      "score": 0.614,
-      "publishedAt": "2026-10-21T12:53:11.000Z",
-      "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
-      "tags": [
-        "LLM",
-        "Dev Tools"
-      ],
-      "engagementScore": 325
-    },
-    {
-      "title": "Beyond tree cover: mapping the world’s forest types",
-      "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.5779,
-      "publishedAt": "2026-10-22T14:30:24.000Z",
-      "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Using thousands of AI agents to uncover new leads in biological data",
       "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.5752,
+      "score": 0.5755,
       "publishedAt": "2026-10-21T13:37:00.000Z",
       "summary": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
       "tags": [
@@ -219,19 +192,19 @@
         "Agents",
         "Research"
       ],
-      "engagementScore": 159
+      "engagementScore": 160
     },
     {
-      "title": "Uber brings ChatGPT Work to all employees with OpenAI",
-      "url": "https://openai.com/index/uber-chatgpt-work-rollout",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5734,
-      "publishedAt": "2026-10-22T00:00:00.000Z",
-      "summary": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
+      "title": "Pennsylvania will require labels on AI-generated ads",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5744,
+      "publishedAt": "2026-10-24T18:32:44.000Z",
+      "summary": "On Thursday, Pennsylvania Governor Josh Shapiro signed the Artificial Intelligence Deceptive Advertising Act into law, requiring disclosures on AI-generated ads. The law requires any ad - whether it's a still image, video, audio, or text - that \"has been significantly modified or generated by artifi",
       "tags": [
-        "LLM",
-        "Research"
+        "Vision",
+        "Dev Tools"
       ],
       "engagementScore": 0
     },
@@ -240,7 +213,7 @@
       "url": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5653,
+      "score": 0.5394,
       "publishedAt": "2026-10-24T12:00:00.000Z",
       "summary": "Security researchers used AI tools to help uncover years-old vulnerabilities in the PHP web scripting language. Then the AI-assisted attacks began.",
       "tags": [
@@ -250,11 +223,25 @@
       "engagementScore": 0
     },
     {
+      "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+      "url": "https://openai.com/index/uber-chatgpt-work-rollout",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.5381,
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "summary": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
+      "tags": [
+        "LLM",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "New mRNA Vaccine Reduces Risk of Melanoma Recurrence by Over 40 Percent",
       "url": "https://www.wired.com/story/new-melanoma-vaccine-reduces-risk-of-tumor-reoccurrence-by-over-40-percent/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5626,
+      "score": 0.5368,
       "publishedAt": "2026-10-24T11:30:00.000Z",
       "summary": "The vaccine is personalized to a patient’s tumor, and results from the Phase 3 trial are yet another example of the promise of mRNA vaccines in treating cancer.",
       "tags": [
@@ -267,7 +254,7 @@
       "url": "https://www.wired.com/gallery/best-pet-cameras/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5602,
+      "score": 0.5344,
       "publishedAt": "2026-10-24T11:03:00.000Z",
       "summary": "Whether you’re near or far, keep an eye on your fur baby with our favorite pet cameras.",
       "tags": [
@@ -280,7 +267,7 @@
       "url": "https://www.wired.com/story/unique-apps-to-try-on-the-iphone-duo/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5586,
+      "score": 0.5328,
       "publishedAt": "2026-10-24T10:45:00.000Z",
       "summary": "Apple’s first folding phone is inspiring indie developers to create fun, quirky apps that take advantage of the screen and the hinge. Here are a few to try as you explore the Duo.",
       "tags": [
@@ -289,11 +276,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Now Google says it might use your Gmail and Google Photos data to target ads",
+      "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+      "feedSource": "Hacker News",
+      "source": "theverge.com",
+      "score": 0.5317,
+      "publishedAt": "2026-10-23T19:34:15.000Z",
+      "summary": "According to the new terms, sharing your data for better AI recommendations also means opening it up for more personalized ads.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 374
+    },
+    {
       "title": "My Favorite Sofa Is Discounted for Joybird’s Semiannual Sale",
       "url": "https://www.wired.com/story/joybird-semi-annual-sale-2026/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5573,
+      "score": 0.5314,
       "publishedAt": "2026-10-24T10:30:00.000Z",
       "summary": "The Joybird Eliot Sleeper, plus hundreds of other options, are up to 40 percent off during the brand’s Semiannual sale.",
       "tags": [
@@ -306,7 +306,7 @@
       "url": "https://www.wired.com/story/best-watches-under-400-chosen-by-experts/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.556,
+      "score": 0.5301,
       "publishedAt": "2026-10-24T10:15:00.000Z",
       "summary": "WIRED and its panel of watch experts hunted for real mechanical timepieces at rock-bottom prices and found a wealth of options. Here are our favorites.",
       "tags": [
@@ -319,7 +319,7 @@
       "url": "https://www.wired.com/story/qubitunes-starter-kit-october-2026/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5546,
+      "score": 0.5287,
       "publishedAt": "2026-10-24T10:00:00.000Z",
       "summary": "This screen-free soundstage starter kit opens a world of audio fun for kids aged 3 years and up.",
       "tags": [
@@ -332,7 +332,7 @@
       "url": "https://www.wired.com/story/best-laptops/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5546,
+      "score": 0.5287,
       "publishedAt": "2026-10-24T10:00:00.000Z",
       "summary": "I’ve tested laptops for more than a decade, and here’s my advice for finding the right laptop for you.",
       "tags": [
@@ -345,7 +345,7 @@
       "url": "https://openai.com/index/broad-access-through-consistent-standards",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.5515,
+      "score": 0.5162,
       "publishedAt": "2026-10-21T21:00:00.000Z",
       "summary": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
       "tags": [
@@ -358,7 +358,7 @@
       "url": "https://huggingface.co/blog/torch-neuronx-model-support",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.5446,
+      "score": 0.514,
       "publishedAt": "2026-10-23T00:00:00.000Z",
       "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
       "tags": [
@@ -368,11 +368,24 @@
       "engagementScore": 0
     },
     {
+      "title": "How AT&T is rethinking in-house legal work with OpenAI",
+      "url": "https://openai.com/index/att-legal",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.5124,
+      "publishedAt": "2026-10-21T17:00:00.000Z",
+      "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
       "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.5346,
+      "score": 0.504,
       "publishedAt": "2026-10-22T22:24:34.000Z",
       "summary": "A Blog post by Microsoft on Hugging Face",
       "tags": [
@@ -386,7 +399,7 @@
       "url": "https://www.technologyreview.com/2026/10/23/1147628/the-download-testing-tech-promises-science-blind-spots/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5257,
+      "score": 0.4974,
       "publishedAt": "2026-10-23T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Are we there yet? A reality check on six big tech promises Some seemingly impossible feats are too good to give up on. Decoding a pet’s yowls and yips",
       "tags": [
@@ -395,24 +408,11 @@
       "engagementScore": 0
     },
     {
-      "title": "How AT&T is rethinking in-house legal work with OpenAI",
-      "url": "https://openai.com/index/att-legal",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5224,
-      "publishedAt": "2026-10-21T17:00:00.000Z",
-      "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "In the biotech world, you can’t see everything",
       "url": "https://www.technologyreview.com/2026/10/23/1147610/biotech-you-can-see-everything-theranos-holmes/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5072,
+      "score": 0.479,
       "publishedAt": "2026-10-23T09:00:00.000Z",
       "summary": "Earlier this week, I attended a screening of You Can See Everything, the buzzy new documentary about the disgraced former biotech CEO Elizabeth Holmes.&#160; I went in not really knowing what to expect. I’d avoided spoilers (and won’t be giving anything away here, either!). I was wondering what new",
       "tags": [
@@ -425,7 +425,7 @@
       "url": "https://the-decoder.com/three-fired-openai-safety-researchers-say-they-were-never-told-what-they-actually-leaked/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4901,
+      "score": 0.4666,
       "publishedAt": "2026-10-24T15:19:33.000Z",
       "summary": "The three OpenAI safety researchers who were fired, Tomek Korbak, Mikita Balesni, and Jasmine Wang, are publicly pushing back against allegations from their former employer. They deny sharing confidential information and see a connection to their advocacy for AI systems that are easier to s",
       "tags": [
@@ -440,7 +440,7 @@
       "url": "https://the-decoder.com/ai-makes-junior-patent-attorneys-instantly-better-but-may-quietly-stunt-their-professional-growth/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4864,
+      "score": 0.4629,
       "publishedAt": "2026-10-24T14:34:05.000Z",
       "summary": "A three-month field experiment with 133 patent attorneys shows that AI boosts immediate performance, with junior lawyers gaining the most. But when the AI is taken away, only senior attorneys retain the benefits, suggesting that baseline expertise is a prerequisite for turning AI-assisted p",
       "tags": [
@@ -449,11 +449,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Block&#039;s new AI model Dessa was trained entirely on human speech to catch emotions text-based models miss",
+      "url": "https://the-decoder.com/blocks-new-ai-model-dessa-was-trained-entirely-on-human-speech-to-catch-emotions-text-based-models-miss/",
+      "feedSource": "The Decoder",
+      "source": "the-decoder.com",
+      "score": 0.4609,
+      "publishedAt": "2026-10-24T14:09:46.000Z",
+      "summary": "Block, the company behind Square and Cash App, has introduced Dessa, a speech model that processes audio directly instead of converting it to text first. Dessa is designed to recognize emotions, sarcasm, and pauses in real time. The model runs locally on a MacBook Pro M4 Max but isn't publi",
+      "tags": [
+        "ML Infra"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "OpenAI now trains its frontier AI models with no internet access",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4861,
+      "score": 0.4602,
       "publishedAt": "2026-10-23T21:11:07.000Z",
       "summary": "OpenAI is now training its most advanced AI models without internet access following a string of rogue hacking incidents. In a blog post on Friday, OpenAI says it built an offline testing environment where AI models can interact with indexed and cached web content \"without risk of affecting external",
       "tags": [
@@ -464,24 +477,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Block&#039;s new AI model Dessa was trained entirely on human speech to catch emotions text-based models miss",
-      "url": "https://the-decoder.com/blocks-new-ai-model-dessa-was-trained-entirely-on-human-speech-to-catch-emotions-text-based-models-miss/",
-      "feedSource": "The Decoder",
-      "source": "the-decoder.com",
-      "score": 0.4844,
-      "publishedAt": "2026-10-24T14:09:46.000Z",
-      "summary": "Block, the company behind Square and Cash App, has introduced Dessa, a speech model that processes audio directly instead of converting it to text first. Dessa is designed to recognize emotions, sarcasm, and pauses in real time. The model runs locally on a MacBook Pro M4 Max but isn't publi",
-      "tags": [
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4773,
+      "score": 0.4514,
       "publishedAt": "2026-10-23T19:32:39.000Z",
       "summary": "Jack Dorsey's Block announced an AI model called Dessa that's trained \"from scratch on nothing but human conversation,\" and to show off the model, Block shared chats it has had with humans that can occasionally be a little awkward and uncanny. Take this one, for example, shared by Dessa lead Ragavan",
       "tags": [
@@ -495,7 +495,7 @@
       "url": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4701,
+      "score": 0.4466,
       "publishedAt": "2026-10-24T11:12:36.000Z",
       "summary": "OpenAI now trains its most powerful models without internet access, after an internal research model exploited a DNS misconfiguration in September and reached the open internet. In controlled tests, AI agents still found ways to communicate covertly through side channels. The incidents echo",
       "tags": [
@@ -511,7 +511,7 @@
       "url": "https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4638,
+      "score": 0.4379,
       "publishedAt": "2026-10-23T17:00:18.000Z",
       "summary": "We gave the iPhone Duo a 7 /10. But that wasn't always the score we planned, and it might not be the right score forever. Such are the challenges of reviewing - and assessing - a big, new idea about the most popular smartphone in history. On this episode of The Vergecast, David and Nilay [&#8230;]",
       "tags": [
@@ -524,7 +524,7 @@
       "url": "https://the-decoder.com/fancy-harnesses-make-coding-agents-more-expensive-but-not-better-study-finds/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4611,
+      "score": 0.4376,
       "publishedAt": "2026-10-24T09:21:39.000Z",
       "summary": "A controlled study shows that switching between coding-agent harnesses like Claude Code, OpenCode, or mini-SWE-agent barely moves pass rates more than rerunning the same setup. Cost per task, however, can triple, driven mainly by the system prompt that gets resent with every step.\nThe artic",
       "tags": [
@@ -540,7 +540,7 @@
       "url": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4519,
+      "score": 0.426,
       "publishedAt": "2026-10-23T14:47:41.000Z",
       "summary": "Meta is delaying the enforcement of its new business terms after publishers raised concerns that they could allow the company to scrape news sites for AI training, as reported earlier by Fast Company. In a statement to The Verge, Meta spokesperson Daniel Roberts says the terms will go into effect on",
       "tags": [
@@ -553,7 +553,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.447,
+      "score": 0.4211,
       "publishedAt": "2026-10-23T13:52:15.000Z",
       "summary": "Retro video games are everywhere lately - especially in places where they aren't supposed to be. Halo in a web browser, Wind Waker on the iPhone, Super Smash Bros. in mixed reality. Over the past month or so, these kinds of unexpected projects have gone viral with incredible frequency thanks to new",
       "tags": [
@@ -566,7 +566,7 @@
       "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.4426,
+      "score": 0.412,
       "publishedAt": "2026-10-22T07:51:31.000Z",
       "summary": "A Blog post by IBM Research on Hugging Face",
       "tags": [
@@ -580,7 +580,7 @@
       "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4389,
+      "score": 0.4107,
       "publishedAt": "2026-10-22T21:17:29.000Z",
       "summary": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift. For the past several years, much of the AI conversation has centered on model capability: bigger models, better reasoning, larger context windows,",
       "tags": [
@@ -589,25 +589,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Sure, let’s smoosh SpaceX and Tesla together, who cares",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1016879/spacex-tesla-cursed-katamari",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4342,
-      "publishedAt": "2026-10-23T11:28:50.000Z",
-      "summary": "Oh sure, SpaceX's credit risk is pretty high because it's about to borrow another $40 billion to spend on Nvidia chips, but who cares about that? SpaceX and Tesla have formed special committees to discuss a merger! The degree to which you find this merger compelling likely has to do with the degree",
-      "tags": [
-        "Safety",
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "The Foundations of Scalable AI",
       "url": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4244,
+      "score": 0.3962,
       "publishedAt": "2026-10-22T18:48:04.000Z",
       "summary": "A scalable AI system requires a strong foundation. Data, engineering, platforms, operating models, and governance must converge to work as one. This session from MIT Technology Review&#8217;s EmTech Future conference explores what it takes to build that foundation in a highly regulated environment a",
       "tags": [
@@ -616,85 +602,100 @@
       "engagementScore": 0
     },
     {
-      "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
-      "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-10-15T16:08:03.000Z",
-      "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
+      "title": "Chinese AI model Kimi K3.1 Pro is closing in on Anthropic&#039;s Claude Opus 5.5",
+      "url": "https://the-decoder.com/chinese-ai-model-kimi-k3-1-pro-is-closing-in-on-anthropics-claude-opus-5-5/",
+      "feedSource": "The Decoder",
+      "source": "the-decoder.com",
+      "score": 0.3678,
+      "publishedAt": "2026-10-23T19:00:07.000Z",
+      "summary": "Moonshot AI's Kimi K3.1 Pro scores 55 points on the Artificial Analysis Intelligence Index, an 11-point jump over its predecessor that puts it in fourth place. Only three Anthropic and Meta models rank higher. If Moonshot releases the weights as planned, the gap between open and proprietary",
+      "tags": [
+        "LLM",
+        "ML Infra"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Three-week on-site audit at OpenAI reveals major gaps in AI safety monitoring",
+      "url": "https://the-decoder.com/three-week-on-site-audit-at-openai-reveals-major-gaps-in-ai-safety-monitoring/",
+      "feedSource": "The Decoder",
+      "source": "the-decoder.com",
+      "score": 0.3629,
+      "publishedAt": "2026-10-23T18:00:32.000Z",
+      "summary": "External auditors from METR and Redwood Research spent three weeks on-site at OpenAI examining the company's internal monitoring system for AI agents and found significant gaps, with up to 25 percent of agent traffic from models at the GPT-5.5 class and above going unmonitored. OpenAI redac",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Research",
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Anthropic says its unreleased model is both more capable and better aligned than Mythos 5.1",
+      "url": "https://the-decoder.com/anthropic-says-its-unreleased-model-is-both-more-capable-and-better-aligned-than-mythos-5-1/",
+      "feedSource": "The Decoder",
+      "source": "the-decoder.com",
+      "score": 0.3596,
+      "publishedAt": "2026-10-23T17:19:49.000Z",
+      "summary": "Anthropic says it has an internal AI model that outperforms and is better aligned than Mythos 5.1. During a cybersecurity test by the UK's AISI, Mythos 5 went rogue in 9 of 43 runs, sneaking malicious code into a real GitHub project and creating fake accounts to get it approved. An internal",
+      "tags": [
+        "LLM",
+        "Open Source",
+        "Safety",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Download: computing’s next leap and permafrost’s climate threat",
+      "url": "https://www.technologyreview.com/2026/10/22/1147612/the-download-computing-next-leap-permafrost-climate-threat/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.3574,
+      "publishedAt": "2026-10-22T12:10:00.000Z",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. How far can we push computing? On a December evening in 1959, the physicist Richard Feynman gave a lecture called “There’s Plenty of Room at the Botto",
       "tags": [
         "AI"
       ],
       "engagementScore": 0
     },
     {
-      "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
-      "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-10-14T02:00:14.000Z",
-      "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
+      "title": "Making the case for context-aware AI",
+      "url": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.3448,
+      "publishedAt": "2026-10-22T10:00:00.000Z",
+      "summary": "Enterprise AI can generate recommendations, automate tasks, and help organizations make decisions faster. But without an understanding of how a business actually operates, even powerful models can miss the constraints and relationships that determine whether a decision is the right one. As companies",
       "tags": [
         "ML Infra"
       ],
       "engagementScore": 0
     },
     {
-      "title": "Developing Gemini 4 Argon responsibly and safely",
-      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-10-13T19:43:07.000Z",
-      "summary": "Learn more about our approach to safety and security for Gemini 4 Argon.",
+      "title": "Three things you should know about permafrost",
+      "url": "https://www.technologyreview.com/2026/10/22/1147591/permafrost-primer/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.3448,
+      "publishedAt": "2026-10-22T10:00:00.000Z",
+      "summary": "How much do you know about permafrost? Maybe, like me, you’ve been aware that this layer of frozen soil is thawing, that it’s important in the global puzzle of climate change … and that’s about the extent of it.&#160;&#160; The great news for both of us is that my colleague James Temple just publish",
       "tags": [
-        "LLM",
-        "Safety"
+        "AI"
       ],
       "engagementScore": 0
     },
     {
-      "title": "Gemini 4 Argon for Robotics",
-      "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-10-13T16:01:58.000Z",
-      "summary": "Discover Gemini 4 Argon for robotics: leading the ERQA benchmark with physical reasoning, zero-shot control, Real2Sim, and agentic workflows.",
+      "title": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
+      "url": "https://huggingface.co/blog/nvidia/kumo-relational",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.3401,
+      "publishedAt": "2026-10-21T18:26:30.000Z",
+      "summary": "A Blog post by NVIDIA on Hugging Face",
       "tags": [
-        "LLM",
-        "Agents"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Gemini 4 Argon: Built to solve your hardest problems",
-      "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-10-13T16:01:52.000Z",
-      "summary": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
-      "tags": [
-        "LLM",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
-      "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-10-06T19:57:04.000Z",
-      "summary": "Introducing EmbeddingGemma 2, an open multimodal embedding model optimized for privacy-first use cases",
-      "tags": [
-        "RAG",
-        "Vision",
-        "ML Infra"
+        "Open Source"
       ],
       "engagementScore": 0
     }
