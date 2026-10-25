@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T20:36:10.643Z",
+  "updatedAt": "2026-10-25T23:05:24.736Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,20 +12,20 @@
       "url": "https://arxiv.org/abs/2610.29162",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8108,
+      "score": 0.7941,
       "publishedAt": "2026-10-24T18:04:57.000Z",
       "summary": "",
       "tags": [
         "AI"
       ],
-      "engagementScore": 238
+      "engagementScore": 239
     },
     {
       "title": "Securing our frontier model training environment",
       "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.7294,
+      "score": 0.7113,
       "publishedAt": "2026-10-23T19:50:56.000Z",
       "summary": "",
       "tags": [
@@ -38,7 +38,7 @@
       "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6611,
+      "score": 0.643,
       "publishedAt": "2026-10-23T17:00:00.000Z",
       "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
       "tags": [
@@ -54,7 +54,7 @@
       "url": "https://www.anthropic.com/research/formal-verification",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.6497,
+      "score": 0.6328,
       "publishedAt": "2026-10-22T22:54:43.000Z",
       "summary": "Claude formally proved security properties in the compiled code of 123 open-source libraries. Along the way, it found bugs that had eluded detection for years.",
       "tags": [
@@ -69,7 +69,7 @@
       "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6101,
+      "score": 0.5919,
       "publishedAt": "2026-10-23T10:00:00.000Z",
       "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
       "tags": [
@@ -80,26 +80,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Using thousands of AI agents to uncover new leads in biological data",
-      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
-      "feedSource": "Hacker News",
-      "source": "openai.com",
-      "score": 0.5755,
-      "publishedAt": "2026-10-21T13:37:00.000Z",
-      "summary": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Research"
-      ],
-      "engagementScore": 160
-    },
-    {
       "title": "r/opensource just banned AI, non-English speakers, and more",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5487,
+      "score": 0.5354,
       "publishedAt": "2026-10-25T13:52:12.000Z",
       "summary": "The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI. The post made Saturday evening opens by saying, \"If your project uses AI, is made by AI, or is intended for AI, it's not welcome on r/opensource. AI, as it exists today, is incongruent to this",
       "tags": [
@@ -108,11 +93,24 @@
       "engagementScore": 0
     },
     {
+      "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+      "url": "https://lynchlab.net/llm-skin-cancer",
+      "feedSource": "Hacker News",
+      "source": "lynchlab.net",
+      "score": 0.5346,
+      "publishedAt": "2026-10-25T17:15:38.000Z",
+      "summary": "I am a dermatologist. I tested the ability of GPT-6 Astra and Claude Fable 5.1 to diagnosis skin cancer and found that they were less accurate than I expected. I compared to a 10-year old CNN and to my surprise found that this was superior.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 359
+    },
+    {
       "title": "Wallhack M-001 Review: When Fun Overrides Specs",
       "url": "https://www.wired.com/review/wallhack-m-001/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5414,
+      "score": 0.5281,
       "publishedAt": "2026-10-25T12:30:00.000Z",
       "summary": "With a tactile dongle for on-the-fly customization and a metal chassis, the Wallhack M-001 is the most fun I've had reviewing a gaming mouse in a long time.",
       "tags": [
@@ -125,7 +123,7 @@
       "url": "https://www.wired.com/story/scientists-trapped-an-antimatter-particle-for-months-to-study-its-secrets/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5387,
+      "score": 0.5254,
       "publishedAt": "2026-10-25T12:00:00.000Z",
       "summary": "These elusive and reactive particles have been challenging to hold on to and even more challenging to study, but a new method paves the way for tests on the differences between matter and antimatter.",
       "tags": [
@@ -134,11 +132,37 @@
       "engagementScore": 0
     },
     {
+      "title": "6 Best Folding Phones (2026): Samsung, Apple, Google, Motorola",
+      "url": "https://www.wired.com/gallery/best-folding-phones/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5228,
+      "publishedAt": "2026-10-25T11:30:00.000Z",
+      "summary": "Ready to move on from the traditional glass slab? Introduce a hinge into your life with these folding smartphones.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The MacBook Pro Max Just Dropped to Its Lowest Price Ever",
+      "url": "https://www.wired.com/story/macbook-pro-m5-max-deal-october-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5201,
+      "publishedAt": "2026-10-25T11:00:00.000Z",
+      "summary": "Apple will reportedly launch an innovative new MacBook next week, which means existing options have their largest discount yet.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
       "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.5372,
+      "score": 0.519,
       "publishedAt": "2026-10-23T00:00:00.000Z",
       "summary": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
       "tags": [
@@ -149,50 +173,11 @@
       "engagementScore": 0
     },
     {
-      "title": "6 Best Folding Phones (2026): Samsung, Apple, Google, Motorola",
-      "url": "https://www.wired.com/gallery/best-folding-phones/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5361,
-      "publishedAt": "2026-10-25T11:30:00.000Z",
-      "summary": "Ready to move on from the traditional glass slab? Introduce a hinge into your life with these folding smartphones.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
-      "url": "https://lynchlab.net/llm-skin-cancer",
-      "feedSource": "Hacker News",
-      "source": "lynchlab.net",
-      "score": 0.5358,
-      "publishedAt": "2026-10-25T17:15:38.000Z",
-      "summary": "I am a dermatologist. I tested the ability of GPT-6 Astra and Claude Fable 5.1 to diagnosis skin cancer and found that they were less accurate than I expected. I compared to a 10-year old CNN and to my surprise found that this was superior.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 266
-    },
-    {
-      "title": "The MacBook Pro Max Just Dropped to Its Lowest Price Ever",
-      "url": "https://www.wired.com/story/macbook-pro-m5-max-deal-october-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5334,
-      "publishedAt": "2026-10-25T11:00:00.000Z",
-      "summary": "Apple will reportedly launch an innovative new MacBook next week, which means existing options have their largest discount yet.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Oil Spills Wreak Havoc on the Bottom of the Ocean, Even a Decade Later",
       "url": "https://www.wired.com/story/oil-spills-wreak-havoc-on-the-bottom-of-the-ocean-even-a-decade-later/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5307,
+      "score": 0.5174,
       "publishedAt": "2026-10-25T10:30:00.000Z",
       "summary": "While oil is known to float, new research finds that over time it can permeate even extremely deep marine habitats, with animal populations declining by as much as 80 percent.",
       "tags": [
@@ -205,7 +190,7 @@
       "url": "https://www.wired.com/story/apple-carplay-and-android-auto-make-your-phone-hot-heres-how-to-keep-it-cool/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5294,
+      "score": 0.5161,
       "publishedAt": "2026-10-25T10:15:00.000Z",
       "summary": "Powering a car dashboard is more demanding on your handset than you might think. These tips will save battery life and help your phone chill out.",
       "tags": [
@@ -218,7 +203,7 @@
       "url": "https://www.wired.com/review/hyve-smart-package-locker/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5281,
+      "score": 0.5148,
       "publishedAt": "2026-10-25T10:01:00.000Z",
       "summary": "Hyve’s smart porch lockbox can secure incoming gifts—if your delivery driver uses it and there’s still room inside.",
       "tags": [
@@ -231,7 +216,7 @@
       "url": "https://www.wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5281,
+      "score": 0.5147,
       "publishedAt": "2026-10-25T10:00:00.000Z",
       "summary": "Paris Marx, author of Hyperscale, has been tracking global data center development for years. The US has a lot to learn from what’s happened everywhere from Ireland to New Zealand.",
       "tags": [
@@ -310,46 +295,59 @@
       "url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
       "feedSource": "Hacker News",
       "source": "dailycal.org",
-      "score": 0.5066,
+      "score": 0.5054,
       "publishedAt": "2026-10-25T16:28:26.000Z",
       "summary": "Richard Borcherds, a UC Berkeley professor and Fields medalist, no longer grades his students’ homework. After seeing how many of his students used AI to consistently receive top scores, he",
       "tags": [
         "AI"
       ],
-      "engagementScore": 132
-    },
-    {
-      "title": "The alien space of science: Coherent but cognitively unavailable directions",
-      "url": "https://arxiv.org/abs/2603.01092",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.4944,
-      "publishedAt": "2026-10-22T13:25:01.000Z",
-      "summary": "Scientific discovery is constrained not only by what is true, but by what is cognitively available to researchers. Many directions are coherent in light of the literature yet unlikely to be proposed because no existing community combines the relevant concepts, methods, and intuitions. Modern languag",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 208
+      "engagementScore": 178
     },
     {
       "title": "JetBrains Thinkrail",
       "url": "https://github.com/JetBrains/thinkrail",
       "feedSource": "Hacker News",
       "source": "github.com",
-      "score": 0.4906,
+      "score": 0.4986,
       "publishedAt": "2026-10-25T16:27:12.000Z",
       "summary": "",
       "tags": [
         "AI"
       ],
-      "engagementScore": 85
+      "engagementScore": 148
+    },
+    {
+      "title": "Why I Am a Programmer",
+      "url": "https://www.alfie.wtf/programming/why-i-am-a-programmer.html",
+      "feedSource": "Hacker News",
+      "source": "alfie.wtf",
+      "score": 0.4914,
+      "publishedAt": "2026-10-25T19:11:31.000Z",
+      "summary": "There they sit, the preschooler class encircling their mentor, the substitute teacher.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 84
+    },
+    {
+      "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+      "url": "https://minimaxir.com/2026/10/cheap-llms/",
+      "feedSource": "Hacker News",
+      "source": "minimaxir.com",
+      "score": 0.4793,
+      "publishedAt": "2026-10-25T21:11:31.000Z",
+      "summary": "",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 46
     },
     {
       "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
       "url": "https://huggingface.co/blog/allenai/litpivot",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.4643,
+      "score": 0.4486,
       "publishedAt": "2026-10-23T16:15:50.000Z",
       "summary": "A Blog post by Ai2 on Hugging Face",
       "tags": [
@@ -363,7 +361,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4611,
+      "score": 0.4478,
       "publishedAt": "2026-10-24T21:29:12.000Z",
       "summary": "BBC's Blue Planet III is looking to prove its authenticity by leaving in the less-than-perfect shots. Previous incarnations of the nature series were defined by their gorgeous, crystal-clear footage that seemed almost too good to be real. But one dead giveaway of AI is when things look too polished",
       "tags": [
@@ -376,7 +374,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4454,
+      "score": 0.4321,
       "publishedAt": "2026-10-24T18:32:44.000Z",
       "summary": "On Thursday, Pennsylvania Governor Josh Shapiro signed the Artificial Intelligence Deceptive Advertising Act into law, requiring disclosures on AI-generated ads. The law requires any ad - whether it's a still image, video, audio, or text - that \"has been significantly modified or generated by artifi",
       "tags": [
@@ -390,7 +388,7 @@
       "url": "https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4408,
+      "score": 0.4287,
       "publishedAt": "2026-10-25T10:08:49.000Z",
       "summary": "Nvidia's new data engine Flora labels one hour of robot video for 72 cents instead of $88 with GPT-6 Astra, while scoring slightly higher on quality. The open system, built on three fine-tuned Qwen3.5 models, catches errors in robot actions far more reliably than any competitor but sometime",
       "tags": [
@@ -406,7 +404,7 @@
       "url": "https://the-decoder.com/anthropic-co-founder-jack-clark-moves-his-prediction-for-self-improving-ai-forward-to-2027/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4382,
+      "score": 0.4262,
       "publishedAt": "2026-10-25T09:37:46.000Z",
       "summary": "A new benchmark by P-Zero Research measures how well AI models design and evaluate experiments on their own. The results are improving so fast that Anthropic co-founder Jack Clark now thinks self-improving AI could arrive by 2027.\nThe article Anthropic co-founder Jack Clark moves his predic",
       "tags": [
@@ -421,7 +419,7 @@
       "url": "https://the-decoder.com/anthropic-says-one-ai-agent-beats-many-subagents-now-that-models-can-handle-complexity-alone/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4362,
+      "score": 0.4241,
       "publishedAt": "2026-10-25T09:12:10.000Z",
       "summary": "Anthropic says companies should evaluate whether they can consolidate sub-agents into a single agent that loads context on demand. In one architecture comparison, the single-agent setup ran about twice as fast. Anthropic has published a migration kit on GitHub to help teams make the transit",
       "tags": [
@@ -436,7 +434,7 @@
       "url": "https://the-decoder.com/ex-google-ceo-eric-schmidt-calls-openai-and-anthropic-modern-colonial-trading-companies/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4311,
+      "score": 0.419,
       "publishedAt": "2026-10-25T08:09:32.000Z",
       "summary": "In Foreign Affairs, historian Niall Ferguson, researcher Lisa Klaassen, and former Google CEO Eric Schmidt cast the US and China as AI empires and every other country as a dependency. The race won't be decided by breakthroughs but by who can bankroll it. US corporations alone plan to spend",
       "tags": [
@@ -450,7 +448,7 @@
       "url": "https://the-decoder.com/openai-offers-discounts-up-to-90-percent-to-poach-anthropics-biggest-customers/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4279,
+      "score": 0.4158,
       "publishedAt": "2026-10-25T07:30:11.000Z",
       "summary": "OpenAI is poaching Anthropic's customers with steep discounts. Companies like Rippling, Replit, and DataCamp say they've cut AI costs by up to 90 percent after switching. Anthropic's growth has slowed, but OpenAI is trading its own margins for market share. Chinese rivals like Deepseek are",
       "tags": [
@@ -463,7 +461,7 @@
       "url": "https://the-decoder.com/openmobile-2-proves-open-source-smartphone-agents-can-rival-proprietary-models/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4251,
+      "score": 0.413,
       "publishedAt": "2026-10-25T06:55:22.000Z",
       "summary": "Smartphone agents don't get better by processing more data. They improve by training on as many different apps as possible. The researchers behind OpenMobile-2 built an open training environment with more than 110 applications, including 35 replicas of popular apps. On real Android devices,",
       "tags": [
@@ -475,121 +473,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Beyond tree cover: mapping the world’s forest types",
-      "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-10-22T14:30:24.000Z",
-      "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
-      "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-10-15T16:08:03.000Z",
-      "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
-      "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-10-14T02:00:14.000Z",
-      "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
-      "tags": [
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Developing Gemini 4 Argon responsibly and safely",
-      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-10-13T19:43:07.000Z",
-      "summary": "Learn more about our approach to safety and security for Gemini 4 Argon.",
-      "tags": [
-        "LLM",
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Gemini 4 Argon for Robotics",
-      "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-10-13T16:01:58.000Z",
-      "summary": "Discover Gemini 4 Argon for robotics: leading the ERQA benchmark with physical reasoning, zero-shot control, Real2Sim, and agentic workflows.",
-      "tags": [
-        "LLM",
-        "Agents"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Gemini 4 Argon: Built to solve your hardest problems",
-      "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-10-13T16:01:52.000Z",
-      "summary": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
-      "tags": [
-        "LLM",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
-      "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-10-06T19:57:04.000Z",
-      "summary": "Introducing EmbeddingGemma 2, an open multimodal embedding model optimized for privacy-first use cases",
-      "tags": [
-        "RAG",
-        "Vision",
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Gemini 4 Argon: our next era of frontier intelligence",
-      "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-09-30T20:01:45.000Z",
-      "summary": "Announcing Gemini 4 Argon, our frontier model for real-world coding, enterprise knowledge work, and cyber defense, rolling out soon.",
-      "tags": [
-        "LLM",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Does Your Model Run on AWS Trainium? Look It Up",
       "url": "https://huggingface.co/blog/torch-neuronx-model-support",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.3615,
+      "score": 0.3458,
       "publishedAt": "2026-10-23T00:00:00.000Z",
       "summary": "",
       "tags": [
@@ -602,7 +490,7 @@
       "url": "https://www.technologyreview.com/2026/10/23/1147628/the-download-testing-tech-promises-science-blind-spots/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.3567,
+      "score": 0.3422,
       "publishedAt": "2026-10-23T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Are we there yet? A reality check on six big tech promises Some seemingly impossible feats are too good to give up on. Decoding a pet’s yowls and yips",
       "tags": [
@@ -615,40 +503,12 @@
       "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.3515,
+      "score": 0.3401,
       "publishedAt": "2026-10-22T22:24:34.000Z",
       "summary": "A Blog post by Microsoft on Hugging Face",
       "tags": [
         "Agents",
         "Open Source"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Three fired OpenAI safety researchers say they were never told what they actually leaked",
-      "url": "https://the-decoder.com/three-fired-openai-safety-researchers-say-they-were-never-told-what-they-actually-leaked/",
-      "feedSource": "The Decoder",
-      "source": "the-decoder.com",
-      "score": 0.3493,
-      "publishedAt": "2026-10-24T15:19:33.000Z",
-      "summary": "The three OpenAI safety researchers who were fired, Tomek Korbak, Mikita Balesni, and Jasmine Wang, are publicly pushing back against allegations from their former employer. They deny sharing confidential information and see a connection to their advocacy for AI systems that are easier to s",
-      "tags": [
-        "LLM",
-        "Research",
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "AI makes junior patent attorneys instantly better but may quietly stunt their professional growth",
-      "url": "https://the-decoder.com/ai-makes-junior-patent-attorneys-instantly-better-but-may-quietly-stunt-their-professional-growth/",
-      "feedSource": "The Decoder",
-      "source": "the-decoder.com",
-      "score": 0.3456,
-      "publishedAt": "2026-10-24T14:34:05.000Z",
-      "summary": "A three-month field experiment with 133 patent attorneys shows that AI boosts immediate performance, with junior lawyers gaining the most. But when the AI is taken away, only senior attorneys retain the benefits, suggesting that baseline expertise is a prerequisite for turning AI-assisted p",
-      "tags": [
-        "AI"
       ],
       "engagementScore": 0
     },
@@ -673,9 +533,9 @@
       "source": "huggingface.co",
       "score": 0.3401,
       "publishedAt": "2026-10-21T18:26:30.000Z",
-      "summary": "",
+      "summary": "A Blog post by NVIDIA on Hugging Face",
       "tags": [
-        "AI"
+        "Open Source"
       ],
       "engagementScore": 0
     },
@@ -689,6 +549,141 @@
       "summary": "",
       "tags": [
         "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
+      "url": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.3401,
+      "publishedAt": "2026-10-21T16:04:43.000Z",
+      "summary": "A Blog post by Amazon on Hugging Face",
+      "tags": [
+        "Open Source"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.3401,
+      "publishedAt": "2026-10-21T14:58:18.000Z",
+      "summary": "A Blog post by IBM Granite on Hugging Face",
+      "tags": [
+        "Open Source"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Three fired OpenAI safety researchers say they were never told what they actually leaked",
+      "url": "https://the-decoder.com/three-fired-openai-safety-researchers-say-they-were-never-told-what-they-actually-leaked/",
+      "feedSource": "The Decoder",
+      "source": "the-decoder.com",
+      "score": 0.3372,
+      "publishedAt": "2026-10-24T15:19:33.000Z",
+      "summary": "The three OpenAI safety researchers who were fired, Tomek Korbak, Mikita Balesni, and Jasmine Wang, are publicly pushing back against allegations from their former employer. They deny sharing confidential information and see a connection to their advocacy for AI systems that are easier to s",
+      "tags": [
+        "LLM",
+        "Research",
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "AI makes junior patent attorneys instantly better but may quietly stunt their professional growth",
+      "url": "https://the-decoder.com/ai-makes-junior-patent-attorneys-instantly-better-but-may-quietly-stunt-their-professional-growth/",
+      "feedSource": "The Decoder",
+      "source": "the-decoder.com",
+      "score": 0.3335,
+      "publishedAt": "2026-10-24T14:34:05.000Z",
+      "summary": "A three-month field experiment with 133 patent attorneys shows that AI boosts immediate performance, with junior lawyers gaining the most. But when the AI is taken away, only senior attorneys retain the benefits, suggesting that baseline expertise is a prerequisite for turning AI-assisted p",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "In the biotech world, you can’t see everything",
+      "url": "https://www.technologyreview.com/2026/10/23/1147610/biotech-you-can-see-everything-theranos-holmes/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.3237,
+      "publishedAt": "2026-10-23T09:00:00.000Z",
+      "summary": "Earlier this week, I attended a screening of You Can See Everything, the buzzy new documentary about the disgraced former biotech CEO Elizabeth Holmes.&#160; I went in not really knowing what to expect. I’d avoided spoilers (and won’t be giving anything away here, either!). I was wondering what new",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "OpenAI now trains its frontier AI models with no internet access",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.3179,
+      "publishedAt": "2026-10-23T21:11:07.000Z",
+      "summary": "OpenAI is now training its most advanced AI models without internet access following a string of rogue hacking incidents. In a blog post on Friday, OpenAI says it built an offline testing environment where AI models can interact with indexed and cached web content \"without risk of affecting external",
+      "tags": [
+        "LLM",
+        "Safety",
+        "ML Infra"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Google’s AI search changes upended online publishing",
+      "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.3153,
+      "publishedAt": "2026-10-23T20:42:34.000Z",
+      "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more about AI's impact on the web, follow Emma Roth. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started The digital publishing industry",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.3091,
+      "publishedAt": "2026-10-23T19:32:39.000Z",
+      "summary": "Jack Dorsey's Block announced an AI model called Dessa that's trained \"from scratch on nothing but human conversation,\" and to show off the model, Block shared chats it has had with humans that can occasionally be a little awkward and uncanny. Take this one, for example, shared by Dessa lead Ragavan",
+      "tags": [
+        "RAG",
+        "ML Infra"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The iPhone Duo should have been an iPad",
+      "url": "https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.2955,
+      "publishedAt": "2026-10-23T17:00:18.000Z",
+      "summary": "We gave the iPhone Duo a 7 /10. But that wasn't always the score we planned, and it might not be the right score forever. Such are the challenges of reviewing - and assessing - a big, new idea about the most popular smartphone in history. On this episode of The Vergecast, David and Nilay [&#8230;]",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Now Google says it might use your Gmail and Google Photos data to target ads",
+      "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.2949,
+      "publishedAt": "2026-10-23T16:52:55.000Z",
+      "summary": "Google has updated its privacy policy in a way that could mean you'll start seeing targeted ads based on your personal data if you're using personalized AI features. The update, spotted by Android Authority, adds an exception to its promise about not using your Drive, Gmail, or Google Photos for per",
+      "tags": [
+        "Safety"
       ],
       "engagementScore": 0
     }
