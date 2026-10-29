@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T20:08:24.030Z",
+  "updatedAt": "2026-10-29T00:40:08.266Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,24 +8,39 @@
   ],
   "items": [
     {
+      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.9541,
+      "publishedAt": "2026-10-28T13:15:00.000Z",
+      "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Early progress on accelerating drug development with Claude",
       "url": "https://www.anthropic.com/research/early-progress-drug-development",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.9667,
+      "score": 0.9354,
       "publishedAt": "2026-10-27T20:50:42.000Z",
       "summary": "Over the past several months, we’ve partnered with six organizations to accelerate curing disease. We’ve also started drug discovery efforts of our own, including programs for rare childhood forms of muscular dystrophy. In this post, we provide an update on our progress.",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 311
+      "engagementScore": 321
     },
     {
       "title": "The future of the firm",
       "url": "https://openai.com/index/the-future-of-the-firm",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9634,
+      "score": 0.9304,
       "publishedAt": "2026-10-28T10:00:00.000Z",
       "summary": "How AI might enter the org chart—beneath, beside, and between us.",
       "tags": [
@@ -38,7 +53,7 @@
       "url": "https://openai.com/index/legora",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9598,
+      "score": 0.9268,
       "publishedAt": "2026-10-28T09:30:00.000Z",
       "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
       "tags": [
@@ -53,7 +68,7 @@
       "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.891,
+      "score": 0.8601,
       "publishedAt": "2026-10-28T17:00:58.000Z",
       "summary": "Gemini 4 Carbon is our strongest model with state-of-the-art cybersecurity and long horizon capabilities.",
       "tags": [
@@ -66,36 +81,33 @@
       "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.8754,
+      "score": 0.8436,
       "publishedAt": "2026-10-27T22:23:37.000Z",
-      "summary": "Anthropic is an AI safety and research company that’s working to build reliable, interpretable, and steerable AI systems.",
+      "summary": "",
       "tags": [
-        "LLM",
-        "Research",
-        "Safety"
+        "LLM"
       ],
-      "engagementScore": 47
+      "engagementScore": 48
     },
     {
       "title": "Three new discoveries in mathematics, computer science, and physics",
       "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.8678,
+      "score": 0.835,
       "publishedAt": "2026-10-26T21:35:28.000Z",
-      "summary": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
+      "summary": "",
       "tags": [
-        "LLM",
-        "Research"
+        "AI"
       ],
-      "engagementScore": 1143
+      "engagementScore": 1146
     },
     {
       "title": "Discovering and exploiting vulnerabilities in critical software with Claude",
       "url": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.8555,
+      "score": 0.8225,
       "publishedAt": "2026-10-28T07:11:09.000Z",
       "summary": "Over the past few months, we’ve used an unreleased, internal research model to find critical vulnerabilities in some of the world’s most widely used software, such as browsers and operating systems. In this post, we share details of five attack chains, which led to remote code execution and other cr",
       "tags": [
@@ -107,11 +119,25 @@
       "engagementScore": 10
     },
     {
+      "title": "Sleep framework: A new way for LLMs to retain knowledge in continual learning",
+      "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+      "feedSource": "Hacker News",
+      "source": "research.google",
+      "score": 0.8045,
+      "publishedAt": "2026-10-28T12:24:25.000Z",
+      "summary": "Modern LLMs achieve impressive performance via pre-training and in-context learning (ICL). However, once deployed, they remain largely static, operating with a fixed knowledge cutoff date that leaves them unable to acquire long-term capabilities or adapt to new information.",
+      "tags": [
+        "LLM",
+        "Industry"
+      ],
+      "engagementScore": 31
+    },
+    {
       "title": "Retell uses OpenAI models to help power 100M monthly calls",
       "url": "https://openai.com/index/retell-ai",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8249,
+      "score": 0.7919,
       "publishedAt": "2026-10-27T15:00:00.000Z",
       "summary": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
       "tags": [
@@ -127,20 +153,20 @@
       "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.8096,
+      "score": 0.7767,
       "publishedAt": "2026-10-26T18:01:17.000Z",
       "summary": "Delivering fast and capable computer use at scale",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 632
+      "engagementScore": 633
     },
     {
       "title": "Counting the Bandages: On measuring the time that AI saves",
       "url": "https://arxiv.org/abs/2610.35942",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8024,
+      "score": 0.7716,
       "publishedAt": "2026-10-28T04:00:00.000Z",
       "summary": "arXiv:2610.35942v1 Announce Type: new \nAbstract: I consider what it means for AI assistance to save time. I contrast a stopwatch view, on which time saved is whatever the clock records, with a ledger view, on which it is a counterfactual that has to be read next to the errors the work lets through,",
       "tags": [
@@ -153,7 +179,7 @@
       "url": "https://arxiv.org/abs/2610.35984",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8024,
+      "score": 0.7716,
       "publishedAt": "2026-10-28T04:00:00.000Z",
       "summary": "arXiv:2610.35984v1 Announce Type: new \nAbstract: Deep learning models are highly effective in a wide range of domains, particu larly in plant disease diagnosis. However, their performance is often limited by challenges such as insufficient data and class imbalance. In our work, we propose a comprehe",
       "tags": [
@@ -166,7 +192,7 @@
       "url": "https://arxiv.org/abs/2610.36077",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8024,
+      "score": 0.7716,
       "publishedAt": "2026-10-28T04:00:00.000Z",
       "summary": "arXiv:2610.36077v1 Announce Type: new \nAbstract: Multimodal intelligence can be viewed as human-guided co-evolution between worlds and agents through interaction. However, scaling this process faces two bottlenecks: constructing heterogeneous, verifiable environments is costly, and manual Harness it",
       "tags": [
@@ -181,7 +207,7 @@
       "url": "https://arxiv.org/abs/2610.36100",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8024,
+      "score": 0.7716,
       "publishedAt": "2026-10-28T04:00:00.000Z",
       "summary": "arXiv:2610.36100v1 Announce Type: new \nAbstract: Language model agents for clinical cohort curation should accommodate evolving eligibility criteria without repeatedly processing unchanged requirements. We introduce CohortFlow, a steerable agent that represents natural language corrections as locali",
       "tags": [
@@ -196,7 +222,7 @@
       "url": "https://arxiv.org/abs/2610.36116",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8024,
+      "score": 0.7716,
       "publishedAt": "2026-10-28T04:00:00.000Z",
       "summary": "arXiv:2610.36116v1 Announce Type: new \nAbstract: As AI begins to match or exceed human researchers at core scientific tasks, two questions become pressing: \\emph{why} should humans keep doing science, and \\emph{how} should they use AI when they do? This paper argues that the second can be answered o",
       "tags": [
@@ -209,7 +235,7 @@
       "url": "https://arxiv.org/abs/2610.36146",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8024,
+      "score": 0.7716,
       "publishedAt": "2026-10-28T04:00:00.000Z",
       "summary": "arXiv:2610.36146v1 Announce Type: new \nAbstract: Prompt optimization should improve the image a user receives without changing the scene the user requested. Yet stylistic rewriting can weaken object attributes and relations even when global text--image similarity remains high. We propose StruPO, a s",
       "tags": [
@@ -223,7 +249,7 @@
       "url": "https://arxiv.org/abs/2610.36169",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8024,
+      "score": 0.7716,
       "publishedAt": "2026-10-28T04:00:00.000Z",
       "summary": "arXiv:2610.36169v1 Announce Type: new \nAbstract: A retrieval-augmented language model answers from two sources, the retrieved context and its own knowledge, and the two disagree whenever the context is incomplete or wrong. Existing methods settle the disagreement with a rule fixed at design time: fo",
       "tags": [
@@ -238,7 +264,7 @@
       "url": "https://arxiv.org/abs/2610.36183",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8024,
+      "score": 0.7716,
       "publishedAt": "2026-10-28T04:00:00.000Z",
       "summary": "arXiv:2610.36183v1 Announce Type: new \nAbstract: We study time-to-arrival (TTA) in sports: the shortest plausible time a player needs to reach an arbitrary location on the pitch given their current kinematic state, estimated as the lower envelope of observed locomotion times. Rather than modeling sp",
       "tags": [
@@ -247,38 +273,37 @@
       "engagementScore": 0
     },
     {
-      "title": "Sleep framework: A new way for LLMs to retain knowledge in continual learning",
-      "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
-      "feedSource": "Hacker News",
-      "source": "research.google",
-      "score": 0.7986,
-      "publishedAt": "2026-10-28T12:24:25.000Z",
-      "summary": "Modern LLMs achieve impressive performance via pre-training and in-context learning (ICL). However, once deployed, they remain largely static, operating with a fixed knowledge cutoff date that leaves them unable to acquire long-term capabilities or adapt to new information.",
-      "tags": [
-        "LLM",
-        "Industry"
-      ],
-      "engagementScore": 15
-    },
-    {
       "title": "Gemini 4 Carbon",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
       "feedSource": "Hacker News",
       "source": "blog.google",
-      "score": 0.7715,
+      "score": 0.7607,
       "publishedAt": "2026-10-28T17:01:23.000Z",
       "summary": "Gemini 4 Carbon is our strongest model with state-of-the-art cybersecurity and long horizon capabilities.",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 546
+      "engagementScore": 781
+    },
+    {
+      "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.7338,
+      "publishedAt": "2026-10-28T14:58:17.000Z",
+      "summary": "A Blog post by NVIDIA on Hugging Face",
+      "tags": [
+        "Open Source"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
       "url": "https://openai.com/index/oracle-apps-in-chatgpt",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7666,
+      "score": 0.7335,
       "publishedAt": "2026-10-27T07:00:00.000Z",
       "summary": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
       "tags": [
@@ -288,24 +313,24 @@
       "engagementScore": 0
     },
     {
-      "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.7624,
-      "publishedAt": "2026-10-28T14:58:17.000Z",
+      "title": "Executable Archaeology: Reanimating the Heuristic Compiler (1961) and KBEmacs (1984)",
+      "url": "https://arxiv.org/abs/2610.36341",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.7035,
+      "publishedAt": "2026-10-28T02:01:51.000Z",
       "summary": "",
       "tags": [
         "AI"
       ],
-      "engagementScore": 0
+      "engagementScore": 17
     },
     {
       "title": "Genie 4: A new generation of world simulation",
       "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.7209,
+      "score": 0.6901,
       "publishedAt": "2026-10-27T16:01:38.000Z",
       "summary": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
       "tags": [
@@ -314,24 +339,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Executable Archaeology: Reanimating the Heuristic Compiler (1961) and KBEmacs (1984)",
-      "url": "https://arxiv.org/abs/2610.36341",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.7207,
-      "publishedAt": "2026-10-28T02:01:51.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 13
-    },
-    {
       "title": "How Check Point accelerates vulnerability research with Daybreak",
       "url": "https://openai.com/index/check-point-daybreak",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7155,
+      "score": 0.6825,
       "publishedAt": "2026-10-27T00:00:00.000Z",
       "summary": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
       "tags": [
@@ -345,7 +357,7 @@
       "url": "https://openai.com/index/greptile-code-review-codex-astra",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7009,
+      "score": 0.6679,
       "publishedAt": "2026-10-26T22:00:00.000Z",
       "summary": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
       "tags": [
@@ -355,11 +367,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Creating AI value with enterprise context",
+      "url": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6618,
+      "publishedAt": "2026-10-28T20:32:02.000Z",
+      "summary": "Across a business, any number of AI platforms, systems, and tools may be at work simultaneously—for example, AI-powered customer platforms, conversational assistants, and workflow and process automation tools. Each one is sophisticated, advanced, and quick to respond. But, when set to work, the outc",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Working with academic communities to build scientific understanding",
       "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6463,
+      "score": 0.6132,
       "publishedAt": "2026-10-26T14:30:00.000Z",
       "summary": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
       "tags": [
@@ -369,29 +394,11 @@
       "engagementScore": 0
     },
     {
-      "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
-      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.6408,
-      "publishedAt": "2026-10-26T13:45:00.000Z",
-      "summary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Research",
-        "Safety",
-        "Dev Tools",
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "The Download: dead startups fueling AI and interspecies communication",
       "url": "https://www.technologyreview.com/2026/10/28/1147767/the-download-dead-startups-fueling-ai-interspecies-communication/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6394,
+      "score": 0.613,
       "publishedAt": "2026-10-28T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. AI labs are buying data from dead startups to train their models When Keelan Miskell began winding down his crypto startup, he didn’t think its data w",
       "tags": [
@@ -405,7 +412,7 @@
       "url": "https://www.technologyreview.com/2026/10/28/1147637/pairing-industrial-ai-autonomy-and-human-control/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6384,
+      "score": 0.612,
       "publishedAt": "2026-10-28T12:00:00.000Z",
       "summary": "Living digital twins are helping industrial plants run more like living systems, and setting the stage for industries that work in sync.",
       "tags": [
@@ -418,11 +425,10 @@
       "url": "https://huggingface.co/blog/LiquidAI/lfm3",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6253,
+      "score": 0.5967,
       "publishedAt": "2026-10-27T17:16:52.000Z",
-      "summary": "A Blog post by Liquid AI on Hugging Face",
+      "summary": "",
       "tags": [
-        "Open Source",
         "Vision"
       ],
       "engagementScore": 0
@@ -432,13 +438,78 @@
       "url": "https://huggingface.co/blog/allenai/novelty-bench",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6186,
+      "score": 0.5899,
       "publishedAt": "2026-10-27T16:12:42.000Z",
-      "summary": "A Blog post by Ai2 on Hugging Face",
+      "summary": "",
       "tags": [
         "LLM",
-        "Research",
-        "Open Source"
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Adam Mosseri says negativity around AI is ‘going to get worse’",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1021644/adam-mosseri-instagram-ai-negativity",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5763,
+      "publishedAt": "2026-10-28T23:05:39.000Z",
+      "summary": "Asked about AI and the trend of college students booing tech CEOs at graduation ceremonies, Instagram head Adam Mosseri acknowledged in an interview that a lot of people really don't like AI, and it's not just young people and creatives. Appearing on the Colin and Samir podcast to talk about the lau",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The 2,000-Nit OLED in Apple’s New MacBook Is a Big Deal",
+      "url": "https://www.wired.com/story/the-2000-nit-oled-in-apples-new-macbook-pro-is-a-big-deal/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5753,
+      "publishedAt": "2026-10-28T22:54:16.000Z",
+      "summary": "The touchscreen in the new MacBook Pro is crazily bright with very deep blacks. Here’s why it’s unlike anything else you can currently buy.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Akai is embracing vibe-coded mods with an open-source MPC",
+      "url": "https://www.theverge.com/gadgets/1021405/akai-open-source-mpc-sample-key",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5682,
+      "publishedAt": "2026-10-28T21:34:04.000Z",
+      "summary": "The MPC Sample Key isn't even formally announced yet, but Akai is already showing off what the modding community is cooking up through vibe coding. Akai has decided to embrace the explosion of hackers and custom firmware developers by giving them early access to the device, which will have open-sour",
+      "tags": [
+        "Open Source",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "This Is What the GOP’s Final Midterms Push Looks Like",
+      "url": "https://www.wired.com/story/this-is-what-the-gops-final-midterms-push-looks-like/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5651,
+      "publishedAt": "2026-10-28T21:00:00.000Z",
+      "summary": "Republicans are spending their time and money on Senate races in historically red states—a sign they’re more nervous than ever as Election Day looms.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Most Servers on the Planet Are Vulnerable to This Firmware Code-Execution Flaw",
+      "url": "https://www.wired.com/story/most-servers-on-the-planet-are-vulnerable-to-a-code-execution-flaw-in-uefi-firmware/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5625,
+      "publishedAt": "2026-10-28T20:30:00.000Z",
+      "summary": "The critical flaw in UEFI firmware—used by most server vendors and data centers—allows attackers to execute code early in the boot process.",
+      "tags": [
+        "Dev Tools"
       ],
       "engagementScore": 0
     },
@@ -447,7 +518,7 @@
       "url": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5843,
+      "score": 0.56,
       "publishedAt": "2026-10-28T20:03:00.000Z",
       "summary": "Google has released its latest frontier model, Gemini 4 Carbon, offering \"significant gains\" in coding, agentic tasks, and cybersecurity. In an announcement on Wednesday, Google highlights Carbon's top spot on the Artificial Analysis Intelligence Index (v5.0) benchmark, with Claude Opus 5.5 and GPT-",
       "tags": [
@@ -460,24 +531,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Massive Leak Exposes 41,000 Homeland Security Workers—Including Undercover ICE Agents",
-      "url": "https://www.wired.com/story/massive-leak-exposes-41000-homeland-security-workers-including-undercover-ice-agents/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.584,
-      "publishedAt": "2026-10-28T20:00:00.000Z",
-      "summary": "The leaked records include the locations of ICE and CBP facilities, workers' cellphone numbers, and the members of groups tied to wiretap programs, Palantir software, and xAI’s Grok chatbot.",
-      "tags": [
-        "Agents"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Voters in Texas agree: They hate data centers",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1018676/data-center-midterm-election-energy-water-texas",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5802,
+      "score": 0.556,
       "publishedAt": "2026-10-28T19:17:42.000Z",
       "summary": "Ask Texas NAACP president Gary Bledsoe what it's been like to see data center developers descend upon Austin and its surrounding suburbs and he can rattle off project after project facing opposition from locals. There's the fight in Taylor over plans to build a data center at a site that's supposed",
       "tags": [
@@ -490,7 +548,7 @@
       "url": "https://www.wired.com/story/m6-macbook-pro-price-problem/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5784,
+      "score": 0.5542,
       "publishedAt": "2026-10-28T18:57:22.000Z",
       "summary": "For $1,999, you could own an M6 Mac Mini and an M5 MacBook Air instead, both of which are on sale right now.",
       "tags": [
@@ -503,7 +561,7 @@
       "url": "https://www.theverge.com/tech/1021143/microsoft-lg-samsung-copilot-ai-assistant-smart-tvs-ending",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5765,
+      "score": 0.5523,
       "publishedAt": "2026-10-28T18:36:26.000Z",
       "summary": "Nearly two years after LG and Samsung announced at CES 2025 that their latest smart TVs would include access to Microsoft's Copilot, the company is ending support for the AI assistant's functionality on all TVs this year, according to a report by Windows Central. The news comes not from an official",
       "tags": [
@@ -516,7 +574,7 @@
       "url": "https://www.wired.com/story/i-put-ai-agents-in-charge-of-a-fantasy-team/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.576,
+      "score": 0.5518,
       "publishedAt": "2026-10-28T18:30:00.000Z",
       "summary": "To experiment with AI’s predictive skills, I let Codex loose on a fantasy team. It tried to bench Erling Haaland at first, but it soon learned the error of its ways.",
       "tags": [
@@ -530,7 +588,7 @@
       "url": "https://www.wired.com/story/the-inside-story-of-why-apple-finally-brought-a-touch-display-to-the-mac/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5693,
+      "score": 0.5451,
       "publishedAt": "2026-10-28T17:15:16.000Z",
       "summary": "An exclusive early look at Apple’s new touchscreen MacBook Pro—the computer Apple said would never happen.",
       "tags": [
@@ -543,7 +601,7 @@
       "url": "https://www.theverge.com/tech/1020626/chrome-enhanced-autofill-gmail-forms-gemini-personal-intelligence",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5655,
+      "score": 0.5413,
       "publishedAt": "2026-10-28T16:32:41.000Z",
       "summary": "Following improvements made to Chrome's enhanced autofill last year that included your name, passport number, email address, and physical addresses sourced from your Google Accounts and services like Google Wallet, the feature is now expanding. Starting today, Chrome's enhanced autofill will use Gem",
       "tags": [
@@ -556,7 +614,7 @@
       "url": "https://www.theverge.com/tech/1020769/meta-updated-business-terms-delay-indefinitely",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.564,
+      "score": 0.5398,
       "publishedAt": "2026-10-28T16:15:30.000Z",
       "summary": "Meta says it may push the implementation of its new business terms past November 20th as it faces backlash from publishers over concerns about AI training. In a post on X, Meta communications head Andy Stone said the company does \"not plan to make policy changes without a full consultation with indu",
       "tags": [
@@ -569,7 +627,7 @@
       "url": "https://www.wired.com/story/sony-wants-you-to-forget-about-discs-with-its-gorgeous-transparent-controller/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5573,
+      "score": 0.533,
       "publishedAt": "2026-10-28T15:00:00.000Z",
       "summary": "Sony has new, spiffy see-through controllers and covers for its PlayStation 5 that let you see the hardware guts inside.",
       "tags": [
@@ -582,7 +640,7 @@
       "url": "https://www.wired.com/story/senators-demand-to-know-if-dr-oz-collaborated-with-election-denial-groups/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5561,
+      "score": 0.5318,
       "publishedAt": "2026-10-28T14:46:35.000Z",
       "summary": "A far-right campaign claiming leftists are stealing votes from nursing home residents has centered on changing guidance from Mehmet Oz’s Centers for Medicare and Medicaid Services.",
       "tags": [
@@ -595,48 +653,9 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/1020596/xai-mississippi-neighborhood-data-center-lawsuit",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5558,
+      "score": 0.5316,
       "publishedAt": "2026-10-28T14:44:00.000Z",
       "summary": "A subsidiary of Elon Musk's xAI is offering to buy up homes in a Mississippi neighborhood, as long as residents don't join a lawsuit targeting the company's nearby data center and power plant, according to a report from The Guardian. A realtor going door-to-door in the Southaven neighborhood reporte",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "What’s the Best Kindle of 2026 (So Far)?",
-      "url": "https://www.wired.com/gallery/best-kindle/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5467,
-      "publishedAt": "2026-10-28T13:02:00.000Z",
-      "summary": "I’ve tested every single Kindle, from Paperwhite and Colorsoft to the new aluminum models. Here’s how Amazon’s ebook readers stack up.",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Amazon Kindle Paperwhite (2026) and Colorsoft (2026) Review: Best for Accessories",
-      "url": "https://www.wired.com/review/kindle-paperwhite-kindle-colorsoft-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5467,
-      "publishedAt": "2026-10-28T13:01:00.000Z",
-      "summary": "The latest generation of Kindle’s 7-inch e-readers have a new look and new accessories. But are they worth the upgrade given Amazon’s new Kindle prices?",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Meta quietly launched an &#8216;AI pet journal&#8217; app",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1020410/meta-launched-ai-pet-journal-app-waddle-world",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5383,
-      "publishedAt": "2026-10-28T11:27:30.000Z",
-      "summary": "Meta has launched a \"tamagotchi-style\" pet game called Waddle World, with virtual creatures that chat with users and create doodles to illustrate conversations. According to its Apple and Play Store listings, the \"16-bit pet care game\" is not really a game, but \"a daily journal disguised as a pet.\"",
       "tags": [
         "AI"
       ],
@@ -647,7 +666,7 @@
       "url": "https://www.technologyreview.com/2026/10/27/1147693/the-download-anthropic-ipo-smarter-power-grids-exercise-pills/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4994,
+      "score": 0.473,
       "publishedAt": "2026-10-27T12:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Will the real Anthropic please stand up? After weeks of frenzied speculation, Anthropic has filed its IPO prospectus. The 335-page document (100 pages",
       "tags": [
@@ -661,36 +680,9 @@
       "url": "https://www.technologyreview.com/2026/10/27/1147142/industrial-intelligence-the-next-growth-opportunity-for-manufacturing/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4945,
+      "score": 0.468,
       "publishedAt": "2026-10-27T11:19:18.000Z",
       "summary": "Every manufacturer has its own industrial intelligence. Some is documented, and some resides in the knowledge of experienced workers. Consider an experienced operator preparing to restart a line after a changeover. The machine settings matter, but so does knowing how a particular material behaves, w",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Google Deepmind releases Gemini 4 Carbon just two weeks after Argon with gains across the board",
-      "url": "https://the-decoder.com/google-deepmind-releases-gemini-4-carbon-just-two-weeks-after-argon-with-gains-across-the-board/",
-      "feedSource": "The Decoder",
-      "source": "the-decoder.com",
-      "score": 0.4875,
-      "publishedAt": "2026-10-28T19:17:58.000Z",
-      "summary": "Just two weeks after Gemini 4 Argon, Google DeepMind is releasing Gemini 4 Carbon, which tops the Artificial Analysis Intelligence Index v5 with 59 points. Google says the model is built for extended agent workflows and the full cyber defense lifecycle. Because of those advanced security ca",
-      "tags": [
-        "LLM",
-        "Agents"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "How solid-state transformers could help power the AI boom",
-      "url": "https://www.technologyreview.com/2026/10/27/1147684/solid-state-transformers/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.4809,
-      "publishedAt": "2026-10-27T09:00:00.000Z",
-      "summary": "Transformers are a crucial but nearly invisible part of our grid. The devices help efficiently move power across long distances, but they’re complicated and in short supply. And given that their basic design hasn’t changed much for about a century, they could use an upgrade.&#160; As the world races",
       "tags": [
         "AI"
       ],
