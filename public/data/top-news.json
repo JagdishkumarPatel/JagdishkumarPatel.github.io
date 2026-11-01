@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T21:13:20.574Z",
+  "updatedAt": "2026-11-01T05:12:03.730Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,129 +8,38 @@
   ],
   "items": [
     {
-      "title": "LRMoE: Demand-Side Load Re-Calibration for Efficient MoE Training on Memory-Constrained Nodes",
-      "url": "https://arxiv.org/abs/2610.37720",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.795,
-      "publishedAt": "2026-10-31T04:00:00.000Z",
-      "summary": "arXiv:2610.37720v1 Announce Type: new \nAbstract: Sparse Mixture-of-Experts (MoE) models offer scalable capacity for Web applications, but uneven routing creates computation and communication bottlenecks. Existing placement and replication methods redistribute this workload, yet additional expert cop",
-      "tags": [
-        "Research",
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Amortized Localized Posterior Inference for Model Calibration with Application to an Ocean Turbulence Closure",
-      "url": "https://arxiv.org/abs/2610.37731",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.795,
-      "publishedAt": "2026-10-31T04:00:00.000Z",
-      "summary": "arXiv:2610.37731v1 Announce Type: new \nAbstract: Model discrepancy may prevent a single calibration parameter from reproducing a physical response across the context domain. In addition, uncertainties in observations and contexts affect calibration and must be accounted for and quantified. We constr",
-      "tags": [
-        "Research",
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "ThinkJev: One Thought, Every Budget for Calibrated Typed Decisions",
-      "url": "https://arxiv.org/abs/2610.37732",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.795,
-      "publishedAt": "2026-10-31T04:00:00.000Z",
-      "summary": "arXiv:2610.37732v1 Announce Type: new \nAbstract: Many uses of language models end in a typed decision: a choice among a closed set of options, whose probabilities code can act on. Reading those probabilities from one forward pass is fast but often wrong on decisions that take several steps, such as",
+      "title": "ChatGPT and Codex usage limits merging",
+      "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+      "feedSource": "Hacker News",
+      "source": "help.openai.com",
+      "score": 0.9728,
+      "publishedAt": "2026-10-31T21:49:07.000Z",
+      "summary": "",
       "tags": [
         "LLM",
-        "Research",
         "Dev Tools"
       ],
-      "engagementScore": 0
+      "engagementScore": 41
     },
     {
-      "title": "OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery",
-      "url": "https://arxiv.org/abs/2610.37739",
-      "feedSource": "arXiv",
+      "title": "Leaking Secrets from Air-Gap Computers by Spelling Radio Signals from RAM",
+      "url": "https://arxiv.org/abs/2409.02292",
+      "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.795,
-      "publishedAt": "2026-10-31T04:00:00.000Z",
-      "summary": "arXiv:2610.37739v1 Announce Type: new \nAbstract: Large language models (LLMs) have shown increasing promise in research-level problem solving, yet a comprehensive collection of such problems is still missing, and evaluating them on research-level problems remains challenging. We introduce OpenFronti",
+      "score": 0.8647,
+      "publishedAt": "2026-11-01T01:46:29.000Z",
+      "summary": "Air-gapped systems are physically separated from external networks, including the Internet. This isolation is achieved by keeping the air-gap computers disconnected from wired or wireless networks, preventing direct or remote communication with other devices or networks. Air-gap measures may be used",
       "tags": [
-        "LLM",
-        "Research",
-        "ML Infra"
+        "AI"
       ],
-      "engagementScore": 0
-    },
-    {
-      "title": "WebAnything: From the Wild Web to Scalable Agent Environments",
-      "url": "https://arxiv.org/abs/2610.37786",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.795,
-      "publishedAt": "2026-10-31T04:00:00.000Z",
-      "summary": "arXiv:2610.37786v1 Announce Type: new \nAbstract: Web agents require diverse, executable, and resettable website environments for reproducible training and evaluation. Human-assisted mirrors demand per-site engineering, while generative construction can diverge from specified real websites. Capture-a",
-      "tags": [
-        "Agents",
-        "Research",
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "What Does an Ontology Catch? Curated, LLM-Generated and Data-Derived Ontologies as Checkers of LLM Agents over Knowledge Graphs",
-      "url": "https://arxiv.org/abs/2610.37809",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.795,
-      "publishedAt": "2026-10-31T04:00:00.000Z",
-      "summary": "arXiv:2610.37809v1 Announce Type: new \nAbstract: LLM agents that answer questions over Web knowledge graphs are increasingly wrapped in checks derived from the graph's ontology, on the assumption that a formal schema makes a reliable judge. Yet a checker can be wrong as well: it can miss errors, and",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Measuring Where Intent Gets Lost in Agentic Smart Contract Synthesis",
-      "url": "https://arxiv.org/abs/2610.37830",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.795,
-      "publishedAt": "2026-10-31T04:00:00.000Z",
-      "summary": "arXiv:2610.37830v1 Announce Type: new \nAbstract: AI agents can now write software from a plain-English description, but code that runs is not the same as code that does what was asked. This gap matters most for smart contracts, the programs behind Web3 applications that move money on a blockchain an",
-      "tags": [
-        "Agents",
-        "Research",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Detecting Covert Collusion between AI Agents through Partner-Outsider Positive Listening",
-      "url": "https://arxiv.org/abs/2610.37849",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.795,
-      "publishedAt": "2026-10-31T04:00:00.000Z",
-      "summary": "arXiv:2610.37849v1 Announce Type: new \nAbstract: AI agents that share a secret convention can coordinate through messages that look innocent, so a monitor that reads only the messages can miss them. We propose a behavioural test: a partner that uses a code reacts to the exact wording of a message, w",
-      "tags": [
-        "Agents",
-        "Research",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
+      "engagementScore": 31
     },
     {
       "title": "Making it easier for websites to express AI training preferences",
       "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7769,
+      "score": 0.7187,
       "publishedAt": "2026-10-30T09:30:00.000Z",
       "summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
       "tags": [
@@ -143,7 +52,7 @@
       "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7733,
+      "score": 0.7151,
       "publishedAt": "2026-10-30T09:00:00.000Z",
       "summary": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
       "tags": [
@@ -157,7 +66,7 @@
       "url": "https://openai.com/index/fair-use-benefits-everyone",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7076,
+      "score": 0.6495,
       "publishedAt": "2026-10-30T00:00:00.000Z",
       "summary": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
       "tags": [
@@ -166,24 +75,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Three new discoveries in mathematics, computer science, and physics",
-      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
-      "feedSource": "Hacker News",
-      "source": "openai.com",
-      "score": 0.683,
-      "publishedAt": "2026-10-26T21:35:28.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 1158
-    },
-    {
       "title": "An updated Model Spec for more capable and beneficial AI",
       "url": "https://openai.com/index/updated-model-spec",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6566,
+      "score": 0.5984,
       "publishedAt": "2026-10-29T17:00:00.000Z",
       "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
       "tags": [
@@ -196,7 +92,7 @@
       "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6228,
+      "score": 0.5723,
       "publishedAt": "2026-10-30T17:57:24.000Z",
       "summary": "A Blog post by NVIDIA on Hugging Face",
       "tags": [
@@ -209,7 +105,7 @@
       "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.5983,
+      "score": 0.5401,
       "publishedAt": "2026-10-29T09:00:00.000Z",
       "summary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
       "tags": [
@@ -220,11 +116,24 @@
       "engagementScore": 0
     },
     {
+      "title": "First response from the Project Suncatcher prototype satellite",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/",
+      "feedSource": "Hacker News",
+      "source": "blog.google",
+      "score": 0.5297,
+      "publishedAt": "2026-10-31T03:54:00.000Z",
+      "summary": "This week, we reached our “Hello World” milestone: the first-ever AI response from a data center class TPU in orbit.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 41
+    },
+    {
       "title": "How Ropes & Gray is developing AI for transactional diligence",
       "url": "https://openai.com/index/ropes-gray-ai-diligence",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.5837,
+      "score": 0.5255,
       "publishedAt": "2026-10-29T07:00:00.000Z",
       "summary": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
       "tags": [
@@ -237,7 +146,7 @@
       "url": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5576,
+      "score": 0.515,
       "publishedAt": "2026-10-31T16:09:02.000Z",
       "summary": "Mark Zuckerberg's Meta made AI look so stinking cute by giving it a squishy little face - and this holiday season, he wants to sell you a Muse Charm so you can carry your jolly AI helper around like a Tamagotchi. But I won't be buying one, because we have Muse Charm at home. It [&#8230;]",
       "tags": [
@@ -246,135 +155,15 @@
       "engagementScore": 0
     },
     {
-      "title": "Serbia just elected the world's brainiest parliament",
-      "url": "https://www.science.org/content/article/serbia-just-elected-world-s-brainiest-parliament",
-      "feedSource": "Hacker News",
-      "source": "science.org",
-      "score": 0.5368,
-      "publishedAt": "2026-10-31T10:21:30.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 750
-    },
-    {
-      "title": "Spooky New Infostealer Malware Uses AI to ‘Autodox’ Victims",
-      "url": "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5354,
-      "publishedAt": "2026-10-31T12:00:00.000Z",
-      "summary": "Named “Volta-Autodoxer,” the recently uncovered malware uses AI tools to collect troves of data about victims, from login credentials and credit card numbers to Discord sessions and UberEats receipts.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
       "url": "https://openai.com/index/credit-saison",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.5326,
+      "score": 0.5124,
       "publishedAt": "2026-10-29T00:00:00.000Z",
       "summary": "Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption.",
       "tags": [
         "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Govee Christmas Lights 2 Deal: Save $25 on These Smart String Lights",
-      "url": "https://www.wired.com/story/govee-christmas-lights-deal-october-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5301,
-      "publishedAt": "2026-10-31T11:00:00.000Z",
-      "summary": "Glow up your home indoors or out with these versatile, discounted, full color smart string lights. They’re WIRED-tested and 25 percent off right now.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "There’s a Completely New Type of Whisky. It’s French and Made in Concrete Eggs",
-      "url": "https://www.wired.com/story/theres-a-completely-new-type-of-whisky-its-french-and-made-in-concrete-eggs/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5301,
-      "publishedAt": "2026-10-31T11:00:00.000Z",
-      "summary": "The founders of Maison Lineti are, in a world first, making single malt whisky as if it were wine—and the spirit world is mighty impressed.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Backup by Biolite Review: A Cool Idea",
-      "url": "https://www.wired.com/review/backup-by-biolite/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5277,
-      "publishedAt": "2026-10-31T10:33:00.000Z",
-      "summary": "Backup by BioLite is designed to power your fridge when the grid goes down. It works, but protecting your ice cream doesn’t come cheap.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Meta’s Muse Could Upend All Kinds of Businesses. It Hasn’t Yet",
-      "url": "https://www.wired.com/story/metas-muse-could-upend-all-kinds-of-businesses-it-hasnt-yet/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5274,
-      "publishedAt": "2026-10-31T10:30:00.000Z",
-      "summary": "Companies have spent the past several weeks trying to reassure investors that Muse and other AI agents pose more of an opportunity than a threat.",
-      "tags": [
-        "Agents",
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "An AI Agent Injected Drugs Into a Live Mouse’s Brain",
-      "url": "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5247,
-      "publishedAt": "2026-10-31T10:00:00.000Z",
-      "summary": "A biotech startup let an agent choose a gene therapy and successfully inject the treatment, offering a startling glimpse of the future of research labs.",
-      "tags": [
-        "Agents",
-        "Research",
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Bose QC Headphones (2nd Gen) Sale: Lowest Price Ahead of Black Friday",
-      "url": "https://www.wired.com/story/bose-deals-october-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5247,
-      "publishedAt": "2026-10-31T10:00:00.000Z",
-      "summary": "They’re a steal at over 40 percent off in multiple colors. Plus, other great Bose deals you should know about ahead of Black Friday.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Keurig Alta Brewer Review: Brand-New Tech, Classically Good Coffee",
-      "url": "https://www.wired.com/review/keurig-alta-brewer/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5225,
-      "publishedAt": "2026-10-31T09:35:00.000Z",
-      "summary": "This multifaceted home coffee brewer and its new AltaRounds will make you rethink everything you know about Keurig machines.",
-      "tags": [
-        "AI"
       ],
       "engagementScore": 0
     },
@@ -394,107 +183,188 @@
       "engagementScore": 0
     },
     {
-      "title": "Malware uses LLMs to rank victims by how much they're worth",
-      "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+      "title": "Anthropic blocks users for anything touching training larger models",
+      "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
       "feedSource": "Hacker News",
-      "source": "blog.talosintelligence.com",
-      "score": 0.5115,
-      "publishedAt": "2026-10-31T14:29:03.000Z",
-      "summary": "The self-deleting VOLTA infostealer steals credentials, sessions, and cryptocurrency wallets. Then, it uses LLMs to profile victims and rank their most valuable assets.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 214
-    },
-    {
-      "title": "GPT-5.6 Sol can beat Factorio on peaceful mode",
-      "url": "https://ryanmadden.net/gpt-56-beats-factorio/",
-      "feedSource": "Hacker News",
-      "source": "ryanmadden.net",
-      "score": 0.5089,
-      "publishedAt": "2026-10-31T18:50:34.000Z",
-      "summary": "Previously: We got Claude Code playing Factorio, Towards beating Factorio autonomously, and Faketorio: an agent testbed\nI got GPT-5.6 Sol, running in Codex with low thinking level, to complete a peaceful (i.e. no biters) Factorio run in 13.5 hours of game time:\nA timelapse of the full run is availab",
+      "source": "twitter.com",
+      "score": 0.5071,
+      "publishedAt": "2026-10-31T19:39:19.000Z",
+      "summary": "",
       "tags": [
         "LLM",
-        "Agents",
-        "Dev Tools"
+        "ML Infra"
       ],
-      "engagementScore": 111
+      "engagementScore": 277
     },
     {
       "title": "Sleep framework: A new way for LLMs to retain knowledge in continual learning",
       "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
       "feedSource": "Hacker News",
       "source": "research.google",
-      "score": 0.5031,
+      "score": 0.5046,
       "publishedAt": "2026-10-28T12:24:25.000Z",
       "summary": "Modern LLMs achieve impressive performance via pre-training and in-context learning (ICL). However, once deployed, they remain largely static, operating with a fixed knowledge cutoff date that leaves them unable to acquire long-term capabilities or adapt to new information.",
       "tags": [
         "LLM",
         "Industry"
       ],
-      "engagementScore": 247
+      "engagementScore": 254
     },
     {
-      "title": "Do the math: How we took over ChatGPT accounts",
-      "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+      "title": "Serbia just elected the world's brainiest parliament",
+      "url": "https://www.science.org/content/article/serbia-just-elected-world-s-brainiest-parliament",
       "feedSource": "Hacker News",
-      "source": "parameter.ai",
-      "score": 0.5023,
-      "publishedAt": "2026-10-31T10:30:11.000Z",
-      "summary": "By bypassing ChatGPT’s sandbox and content security policy, our research team was able to take over anyone’s account simply by sending them a link.",
+      "source": "science.org",
+      "score": 0.5022,
+      "publishedAt": "2026-10-31T10:21:30.000Z",
+      "summary": "",
       "tags": [
-        "LLM",
-        "Research",
-        "Safety"
+        "AI"
       ],
-      "engagementScore": 284
+      "engagementScore": 843
     },
     {
-      "title": "The Download: GLP-1s and eating disorders, self-aware cities, and forever chemicals",
-      "url": "https://www.technologyreview.com/2026/10/30/1147843/the-download-glp-1s-eating-disorders-forever-chemicals/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.4892,
-      "publishedAt": "2026-10-30T11:30:00.000Z",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Eating disorders are on the rise. GLP-1s could make things worse. GLP-1 weight-loss drugs are one of the biggest biotech breakthroughs of the last dec",
+      "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
+      "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
+      "feedSource": "Hacker News",
+      "source": "github.com",
+      "score": 0.4989,
+      "publishedAt": "2026-10-31T22:46:12.000Z",
+      "summary": "A lightweight coding and automation agent in one CLI binary. Run locally or over SSH, optimize token use, and automate CI and cron with durable workflows. - guregodevo/memdoor",
+      "tags": [
+        "Agents",
+        "Dev Tools",
+        "ML Infra"
+      ],
+      "engagementScore": 145
+    },
+    {
+      "title": "Spooky New Infostealer Malware Uses AI to ‘Autodox’ Victims",
+      "url": "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4928,
+      "publishedAt": "2026-10-31T12:00:00.000Z",
+      "summary": "Named “Volta-Autodoxer,” the recently uncovered malware uses AI tools to collect troves of data about victims, from login credentials and credit card numbers to Discord sessions and UberEats receipts.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Govee Christmas Lights 2 Deal: Save $25 on These Smart String Lights",
+      "url": "https://www.wired.com/story/govee-christmas-lights-deal-october-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4874,
+      "publishedAt": "2026-10-31T11:00:00.000Z",
+      "summary": "Glow up your home indoors or out with these versatile, discounted, full color smart string lights. They’re WIRED-tested and 25 percent off right now.",
       "tags": [
         "AI"
       ],
       "engagementScore": 0
     },
     {
-      "title": "The Impact of Generative AI on Critical Thinking: Self-Reported (2025)",
-      "url": "https://dl.acm.org/doi/full/10.1145/3706598.3713778",
-      "feedSource": "Hacker News",
-      "source": "dl.acm.org",
-      "score": 0.4867,
-      "publishedAt": "2026-10-31T18:02:29.000Z",
-      "summary": "",
+      "title": "There’s a Completely New Type of Whisky. It’s French and Made in Concrete Eggs",
+      "url": "https://www.wired.com/story/theres-a-completely-new-type-of-whisky-its-french-and-made-in-concrete-eggs/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4874,
+      "publishedAt": "2026-10-31T11:00:00.000Z",
+      "summary": "The founders of Maison Lineti are, in a world first, making single malt whisky as if it were wine—and the spirit world is mighty impressed.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 67
+      "engagementScore": 0
     },
     {
-      "title": "The Duty of a Scholar",
-      "url": "https://www.daemonology.net/blog/2026-10-31-The-Duty-of-a-Scholar.html",
+      "title": "Anthropic takes steps to block Claude from reverse-engineering video games",
+      "url": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
       "feedSource": "Hacker News",
-      "source": "daemonology.net",
-      "score": 0.4842,
-      "publishedAt": "2026-10-31T19:07:36.000Z",
-      "summary": "There was a joke at the time that although the National Security Agency had\nopened up in recent years and started taking their defensive role more\nseriously, the one aspect of cryptography which they would never discuss\npublicly was side channel attacks — and this itself constituted a side\nchannel,",
+      "source": "mashable.com",
+      "score": 0.4852,
+      "publishedAt": "2026-10-31T21:07:58.000Z",
+      "summary": "",
+      "tags": [
+        "LLM",
+        "Vision"
+      ],
+      "engagementScore": 124
+    },
+    {
+      "title": "Backup by Biolite Review: A Cool Idea",
+      "url": "https://www.wired.com/review/backup-by-biolite/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.485,
+      "publishedAt": "2026-10-31T10:33:00.000Z",
+      "summary": "Backup by BioLite is designed to power your fridge when the grid goes down. It works, but protecting your ice cream doesn’t come cheap.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 54
+      "engagementScore": 0
+    },
+    {
+      "title": "Meta’s Muse Could Upend All Kinds of Businesses. It Hasn’t Yet",
+      "url": "https://www.wired.com/story/metas-muse-could-upend-all-kinds-of-businesses-it-hasnt-yet/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4847,
+      "publishedAt": "2026-10-31T10:30:00.000Z",
+      "summary": "Companies have spent the past several weeks trying to reassure investors that Muse and other AI agents pose more of an opportunity than a threat.",
+      "tags": [
+        "Agents",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "An AI Agent Injected Drugs Into a Live Mouse’s Brain",
+      "url": "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4821,
+      "publishedAt": "2026-10-31T10:00:00.000Z",
+      "summary": "A biotech startup let an agent choose a gene therapy and successfully inject the treatment, offering a startling glimpse of the future of research labs.",
+      "tags": [
+        "Agents",
+        "Research",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Bose QC Headphones (2nd Gen) Sale: Lowest Price Ahead of Black Friday",
+      "url": "https://www.wired.com/story/bose-deals-october-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4821,
+      "publishedAt": "2026-10-31T10:00:00.000Z",
+      "summary": "They’re a steal at over 40 percent off in multiple colors. Plus, other great Bose deals you should know about ahead of Black Friday.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Keurig Alta Brewer Review: Brand-New Tech, Classically Good Coffee",
+      "url": "https://www.wired.com/review/keurig-alta-brewer/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.4798,
+      "publishedAt": "2026-10-31T09:35:00.000Z",
+      "summary": "This multifaceted home coffee brewer and its new AltaRounds will make you rethink everything you know about Keurig machines.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "Anthropic&#039;s watermark rollout leaves a loophole on two older Claude models",
       "url": "https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4825,
+      "score": 0.4437,
       "publishedAt": "2026-10-31T19:20:55.000Z",
       "summary": "Anthropic is expanding its text watermark to four more Claude models to meet the EU AI Act's December deadline. On the older models Claude Opus 4.6 and Sonnet 4.6, developers can bypass the watermark by tweaking a single sampling parameter. Anthropic addresses the loophole with just a compl",
       "tags": [
@@ -505,13 +375,13 @@
       "engagementScore": 0
     },
     {
-      "title": "Eating disorders are on the rise. GLP-1s could make things worse.",
-      "url": "https://www.technologyreview.com/2026/10/30/1147838/eating-disorders-rise-glp-1s-weight-loss-drugs/",
+      "title": "The Download: GLP-1s and eating disorders, self-aware cities, and forever chemicals",
+      "url": "https://www.technologyreview.com/2026/10/30/1147843/the-download-glp-1s-eating-disorders-forever-chemicals/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4746,
-      "publishedAt": "2026-10-30T09:00:00.000Z",
-      "summary": "GLP-1 weight-loss drugs are one of the biggest biotech breakthroughs of the last decade. But to some clinical psychologists, they can represent something more sinister—a potential trigger for eating disorders. A new report suggests that the global incidence of anorexia nervosa and bulimia nervosa sh",
+      "score": 0.4426,
+      "publishedAt": "2026-10-30T11:30:00.000Z",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Eating disorders are on the rise. GLP-1s could make things worse. GLP-1 weight-loss drugs are one of the biggest biotech breakthroughs of the last dec",
       "tags": [
         "AI"
       ],
@@ -522,7 +392,7 @@
       "url": "https://the-decoder.com/openai-plans-to-train-models-on-daybreak-blue-cybersecurity-session-data-that-was-previously-off-limits/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4693,
+      "score": 0.4305,
       "publishedAt": "2026-10-31T16:38:37.000Z",
       "summary": "Starting November 29, OpenAI will use data from Daybreak Blue sessions to train its models, even when users have turned off training. After backlash, a follow-up email promised a separate opt-out. The move revives concerns from the dispute with mathematicians who suspected OpenAI used their",
       "tags": [
@@ -532,13 +402,13 @@
       "engagementScore": 0
     },
     {
-      "title": "Apple Intelligence is finally coming to China with iOS 27.3",
-      "url": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4635,
-      "publishedAt": "2026-10-30T22:32:53.000Z",
-      "summary": "Apple will launch Apple Intelligence in China with iOS 27.3, the company announced on its Chinese newsroom website, as reported by MacRumors. The Apple Intelligence features will be available first in an iOS 27.3 beta that's set to launch on November 4th, with a full iOS 27.3 release scheduled for D",
+      "title": "Eating disorders are on the rise. GLP-1s could make things worse.",
+      "url": "https://www.technologyreview.com/2026/10/30/1147838/eating-disorders-rise-glp-1s-weight-loss-drugs/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.4281,
+      "publishedAt": "2026-10-30T09:00:00.000Z",
+      "summary": "GLP-1 weight-loss drugs are one of the biggest biotech breakthroughs of the last decade. But to some clinical psychologists, they can represent something more sinister—a potential trigger for eating disorders. A new report suggests that the global incidence of anorexia nervosa and bulimia nervosa sh",
       "tags": [
         "AI"
       ],
@@ -549,7 +419,7 @@
       "url": "https://the-decoder.com/beekeeping-tips-and-wrestling-advice-can-train-ai-models-to-sabotage-oversight/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4618,
+      "score": 0.4231,
       "publishedAt": "2026-10-31T15:06:14.000Z",
       "summary": "Anthropic used Claude to automatically generate training data that looks harmless but trains smaller models to misbehave, such as sabotaging oversight or deceiving users. Hidden within fictional contexts about beekeeping, professional wrestling, and mitochondria, these datasets bypass safet",
       "tags": [
@@ -560,11 +430,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Apple Intelligence is finally coming to China with iOS 27.3",
+      "url": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.4208,
+      "publishedAt": "2026-10-30T22:32:53.000Z",
+      "summary": "Apple will launch Apple Intelligence in China with iOS 27.3, the company announced on its Chinese newsroom website, as reported by MacRumors. The Apple Intelligence features will be available first in an iOS 27.3 beta that's set to launch on November 4th, with a full iOS 27.3 release scheduled for D",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "The biggest names in AI are backing a new way to opt out of scraping",
       "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.461,
+      "score": 0.4183,
       "publishedAt": "2026-10-30T22:04:23.000Z",
       "summary": "OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI, as reported earlier by Search Engine Roundtable. With this control, publishers can apply their AI training preferences across multiple AI companies, instead of setti",
       "tags": [
@@ -578,7 +461,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4583,
+      "score": 0.4156,
       "publishedAt": "2026-10-30T21:33:57.000Z",
       "summary": "Investing in any stock is kind of like gambling in the sense that you're betting your money on a company's future performance. But how do you bet on a technology that could, in the worst-case scenario, \"pose catastrophic or existential risks to humanity,\" or best case, \"bring forth an age of miracle",
       "tags": [
@@ -592,7 +475,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4542,
+      "score": 0.4116,
       "publishedAt": "2026-10-30T20:48:43.000Z",
       "summary": "Asked about supply chain shortages, like the ongoing RAM shortage, OpenAI CEO Sam Altman said in an interview that it's \"terrible\" to have RAM in personal PCs instead of data centers. During his appearance on the Cheeky Pint podcast, where he also commented on AI's impact on math, Altman said: \"A lo",
       "tags": [
@@ -601,37 +484,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Granite Switch 4.1.1 — Update models like you update software",
-      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.4437,
-      "publishedAt": "2026-10-29T13:37:07.000Z",
-      "summary": "A Blog post by IBM Granite on Hugging Face",
-      "tags": [
-        "Open Source"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Google&#8217;s satellite AI server transmits its first response to Earth",
-      "url": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4411,
-      "publishedAt": "2026-10-30T18:21:38.000Z",
-      "summary": "Google's AI chip-equipped satellite has generated its first response from space. In a blog post on Friday, Google says it successfully booted up the satellite's Tensor Processing Units (TPUs), allowing the on-board Gemma 4 model to follow through on a prompt to create a haiku about being in space: B",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Microsoft offers a quarter of its workforce voluntary severance while shielding AI-critical teams",
       "url": "https://the-decoder.com/microsoft-offers-a-quarter-of-its-workforce-voluntary-severance-while-shielding-ai-critical-teams/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4406,
+      "score": 0.4018,
       "publishedAt": "2026-10-31T10:43:58.000Z",
       "summary": "Microsoft is offering voluntary severance packages to about 60,000 employees, roughly a quarter of its workforce, in the second such program this year. The company's headcount has held flat at around 223,000 since 2022 even as it plans to spend about $170 billion on AI infrastructure in 202",
       "tags": [
@@ -644,7 +501,7 @@
       "url": "https://the-decoder.com/google-deepmind-creates-a-global-map-of-forests-with-satellite-data-and-ai/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4383,
+      "score": 0.3995,
       "publishedAt": "2026-10-31T10:15:45.000Z",
       "summary": "Google Deepmind and the World Resources Institute have released ForTy, a global map that classifies forests and other land into six categories, including primary forest, plantations, and tree crops. The map could help track deforestation under EU rules, but it identifies only about half of",
       "tags": [
@@ -653,13 +510,13 @@
       "engagementScore": 0
     },
     {
-      "title": "Starbucks wants to use AI to show you a ‘personalized digital menu’ at the drive-thru",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru",
+      "title": "Google&#8217;s satellite AI server transmits its first response to Earth",
+      "url": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4372,
-      "publishedAt": "2026-10-30T17:38:04.000Z",
-      "summary": "Starbucks could eventually show you a personalized digital menu when you pull up to the drive-thru. During an earnings call on Thursday, Starbucks CEO Brian Niccol said the company is going to explore \"experiences that recognize participating customers as they arrive, present personalized digital me",
+      "score": 0.3984,
+      "publishedAt": "2026-10-30T18:21:38.000Z",
+      "summary": "Google's AI chip-equipped satellite has generated its first response from space. In a blog post on Friday, Google says it successfully booted up the satellite's Tensor Processing Units (TPUs), allowing the on-board Gemma 4 model to follow through on a prompt to create a haiku about being in space: B",
       "tags": [
         "AI"
       ],
@@ -670,7 +527,7 @@
       "url": "https://the-decoder.com/openai-raises-just-11-billion-of-its-30-billion-target-as-big-investors-lose-their-ai-appetite/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.434,
+      "score": 0.3952,
       "publishedAt": "2026-10-31T09:22:52.000Z",
       "summary": "OpenAI raised only about $11 billion in its latest funding round, less than half of the $30 billion it was targeting. At $1.25 trillion, the valuation falls short of expectations, and major investors appear to be pulling back amid the recent tech sell-off. Meanwhile, rival Anthropic is push",
       "tags": [
@@ -680,16 +537,152 @@
       "engagementScore": 0
     },
     {
+      "title": "Starbucks wants to use AI to show you a ‘personalized digital menu’ at the drive-thru",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.3946,
+      "publishedAt": "2026-10-30T17:38:04.000Z",
+      "summary": "Starbucks could eventually show you a personalized digital menu when you pull up to the drive-thru. During an earnings call on Thursday, Starbucks CEO Brian Niccol said the company is going to explore \"experiences that recognize participating customers as they arrive, present personalized digital me",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Granite Switch 4.1.1 — Update models like you update software",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.3933,
+      "publishedAt": "2026-10-29T13:37:07.000Z",
+      "summary": "A Blog post by IBM Granite on Hugging Face",
+      "tags": [
+        "Open Source"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Pope Leo calls for the disarmament of AI: ‘Machines are tools, not persons’",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4244,
+      "score": 0.3818,
       "publishedAt": "2026-10-30T15:14:37.000Z",
       "summary": "Pope Leo XIV says AI systems should be \"disarmed,\" adding that humans \"have the responsibility to guide, change and, when necessary, reject its applications.\" In Friday's Papal Address, Pope Leo encourages United Nations member states to \"take concrete steps toward banning lethal autonomous weapons\"",
       "tags": [
         "Agents",
         "RAG",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+      "url": "https://huggingface.co/blog/announcing-project-protostar",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.3401,
+      "publishedAt": "2026-10-29T00:00:00.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+      "url": "https://huggingface.co/blog/mistral-large4",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.3401,
+      "publishedAt": "2026-10-29T00:00:00.000Z",
+      "summary": "",
+      "tags": [
+        "LLM",
+        "Open Source"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+      "url": "https://huggingface.co/blog/anydecisionmodel",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.3401,
+      "publishedAt": "2026-10-29T00:00:00.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Build specialized multimodal models with LFM3",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.3401,
+      "publishedAt": "2026-10-27T17:16:52.000Z",
+      "summary": "",
+      "tags": [
+        "Vision"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Can we trust LLMs to judge whether a research idea is novel?",
+      "url": "https://huggingface.co/blog/allenai/novelty-bench",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.3401,
+      "publishedAt": "2026-10-27T16:12:42.000Z",
+      "summary": "",
+      "tags": [
+        "LLM",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Does Your Model Run on AWS Trainium? Look It Up",
+      "url": "https://huggingface.co/blog/torch-neuronx-model-support",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.3401,
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "summary": "",
+      "tags": [
+        "ML Infra"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "A Claude model autonomously chose a gene therapy and operated on a mouse brain with no human decision-making",
+      "url": "https://the-decoder.com/a-claude-model-autonomously-chose-a-gene-therapy-and-operated-on-a-mouse-brain-with-no-human-decision-making/",
+      "feedSource": "The Decoder",
+      "source": "the-decoder.com",
+      "score": 0.3288,
+      "publishedAt": "2026-10-30T19:42:59.000Z",
+      "summary": "An AI agent performed brain surgery on an epileptic mouse, picking the drug, the brain target, and the injection coordinates on its own. According to lead researcher Ocana-Santero, it's the first time an AI agent has autonomously chosen a treatment and delivered it to a living mammal. But w",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Malicious Claude Code extension in Cursor&#039;s marketplace attempted remote access and data theft",
+      "url": "https://the-decoder.com/malicious-claude-code-extension-in-cursors-marketplace-attempted-remote-access-and-data-theft/",
+      "feedSource": "The Decoder",
+      "source": "the-decoder.com",
+      "score": 0.3218,
+      "publishedAt": "2026-10-30T18:16:10.000Z",
+      "summary": "A tampered Claude Code extension was live on the Cursor marketplace for about 11 hours, affecting up to 5,000 users. It tried to steal user data and set up remote access. Cursor took the entire marketplace offline and reinstated it after confirming there was no further risk.\nThe article Mal",
+      "tags": [
+        "LLM",
+        "Safety",
         "Dev Tools"
       ],
       "engagementScore": 0
