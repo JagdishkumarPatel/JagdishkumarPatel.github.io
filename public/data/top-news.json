@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T21:32:24.280Z",
+  "updatedAt": "2026-11-03T05:55:50.836Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,11 +8,52 @@
   ],
   "items": [
     {
+      "title": "Scaling Git at OpenAI",
+      "url": "https://openai.com/index/scaling-git-at-openai/",
+      "feedSource": "Hacker News",
+      "source": "openai.com",
+      "score": 1.0474,
+      "publishedAt": "2026-11-02T23:47:56.000Z",
+      "summary": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
+      "tags": [
+        "LLM",
+        "Dev Tools"
+      ],
+      "engagementScore": 137
+    },
+    {
+      "title": "Rewarding defenders with bigger bug bounties",
+      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.9504,
+      "publishedAt": "2026-11-02T18:00:00.000Z",
+      "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
+      "tags": [
+        "LLM",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Preparing our next security sprint to harden OpenAI",
+      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.9504,
+      "publishedAt": "2026-11-02T18:00:00.000Z",
+      "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "GPT-Rosalind-6 System Card Addendum",
       "url": "https://deploymentsafety.openai.com/gpt-rosalind-6",
       "feedSource": "Hacker News",
       "source": "deploymentsafety.openai.com",
-      "score": 0.9958,
+      "score": 0.9416,
       "publishedAt": "2026-11-02T14:44:02.000Z",
       "summary": "Explore OpenAI safety evaluations and system cards for deployed AI systems.",
       "tags": [
@@ -20,14 +61,28 @@
         "Safety",
         "Industry"
       ],
-      "engagementScore": 58
+      "engagementScore": 66
+    },
+    {
+      "title": "Scaling Git at OpenAI",
+      "url": "https://openai.com/index/scaling-git-at-openai",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.9322,
+      "publishedAt": "2026-11-02T15:30:00.000Z",
+      "summary": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
+      "tags": [
+        "LLM",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "Introducing the Grid Protectors Program",
       "url": "https://openai.com/index/grid-protectors-program",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9897,
+      "score": 0.9285,
       "publishedAt": "2026-11-02T15:00:00.000Z",
       "summary": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
       "tags": [
@@ -40,7 +95,7 @@
       "url": "https://openai.com/index/lifeval",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9459,
+      "score": 0.8848,
       "publishedAt": "2026-11-02T09:00:00.000Z",
       "summary": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
       "tags": [
@@ -53,7 +108,7 @@
       "url": "https://arxiv.org/abs/2610.37741",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.9,
+      "score": 0.8665,
       "publishedAt": "2026-11-02T18:30:58.000Z",
       "summary": "Large language models are pretrained on vast, uncurated corpora scraped from the public web. This creates a security risk from attackers who plant poisoned content in the pretraining data. We show for the first time that such poisoning can plant a remote code execution backdoor in an agent, causing",
       "tags": [
@@ -63,14 +118,30 @@
         "Dev Tools",
         "ML Infra"
       ],
-      "engagementScore": 59
+      "engagementScore": 94
+    },
+    {
+      "title": "Open-Source 5G Ran Platforms: A Dual Perspective on Performance and Capabilities",
+      "url": "https://arxiv.org/abs/2608.25820",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.8311,
+      "publishedAt": "2026-11-03T02:58:44.000Z",
+      "summary": "Open-source implementations of the fifth generation (5G) Radio Access Network (RAN), such as OpenAirInterface (OAI) and srsRAN, have become increasingly relevant for industry and academic research, rapid prototyping, and low-cost private 5G deployments. The state of the art presents different evalua",
+      "tags": [
+        "LLM",
+        "Research",
+        "Open Source",
+        "Dev Tools"
+      ],
+      "engagementScore": 15
     },
     {
       "title": "Qodo builds context into AI code review with Codex",
       "url": "https://openai.com/index/qodo-codex-plugin",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8803,
+      "score": 0.8191,
       "publishedAt": "2026-11-02T00:00:00.000Z",
       "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
       "tags": [
@@ -79,122 +150,15 @@
       "engagementScore": 0
     },
     {
-      "title": "More Rules, Longer Lists? Benchmarking Self-Evolving Agents on a Hidden-Rule Curriculum",
-      "url": "https://arxiv.org/abs/2610.40758",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7997,
-      "publishedAt": "2026-11-02T05:00:00.000Z",
-      "summary": "arXiv:2610.40758v1 Announce Type: new \nAbstract: Self-evolving agents rewrite a persistent state from feedback, but it is largely untested whether this lets them learn a rule nobody told them. An agent can also pass by writing down each correction as an exception, and its list then grows with every",
+      "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+      "url": "https://openai.com/index/dan-driscoll-joins-openai",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.8191,
+      "publishedAt": "2026-11-02T00:00:00.000Z",
+      "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
       "tags": [
-        "Agents",
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Beyond Plausible Prediction: Safety Sufficiency in Web World Models",
-      "url": "https://arxiv.org/abs/2610.40798",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7997,
-      "publishedAt": "2026-11-02T05:00:00.000Z",
-      "summary": "arXiv:2610.40798v1 Announce Type: new \nAbstract: Web world models increasingly predict the consequences of candidate actions before agents act, yet a plausible predicted future does not necessarily support the correct safety decision. In a matched human evaluation of 3,000 predictions from ten froze",
-      "tags": [
-        "Agents",
-        "Research",
-        "Safety",
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Circumventing the Computational Hardness of Computational Arbitrage",
-      "url": "https://arxiv.org/abs/2610.40831",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7997,
-      "publishedAt": "2026-11-02T05:00:00.000Z",
-      "summary": "arXiv:2610.40831v1 Announce Type: new \nAbstract: AI model marketplaces host providers with heterogeneous costs and capabilities. These differences create an opportunity for computational arbitrage (Olmedo et al., 2026), in which an intermediary purchases inference from a portfolio of models and rese",
-      "tags": [
-        "Research",
-        "RAG"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Incongruence-Aware Evaluation of Multimodal Speech Emotion Recognition in Audio Large Language Models",
-      "url": "https://arxiv.org/abs/2610.40883",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7997,
-      "publishedAt": "2026-11-02T05:00:00.000Z",
-      "summary": "arXiv:2610.40883v1 Announce Type: new \nAbstract: Voice-interactive large language models process both what a speaker says and how they say it, yet the two channels do not always agree. We ask whether that disagreement degrades speech emotion recognition. Mapping text and audio into a shared valence-",
-      "tags": [
-        "LLM",
-        "Research",
-        "Vision",
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "ChatGPT as a Surveillance Assistant? An Exploratory Case Study of AI-Assisted Surveillance Risks",
-      "url": "https://arxiv.org/abs/2610.40890",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7997,
-      "publishedAt": "2026-11-02T05:00:00.000Z",
-      "summary": "arXiv:2610.40890v1 Announce Type: new \nAbstract: Large language models (LLMs) can generate detailed guidance, functional code, and persuasive text at scale. As one of the most widely used consumer language model products as of 2026, ChatGPT gives broad public access to these capabilities, motivating",
-      "tags": [
-        "LLM",
-        "Research",
-        "Safety",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Does Recursive Knowledge Construction Help Agents Verify Consensus Claims in Science?",
-      "url": "https://arxiv.org/abs/2610.40906",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7997,
-      "publishedAt": "2026-11-02T05:00:00.000Z",
-      "summary": "arXiv:2610.40906v1 Announce Type: new \nAbstract: Recent scientific agents build knowledge recursively by retrieving evidence, constructing an intermediate state, and judging whether that state contains sufficient information. These agents are evaluated end-to-end, usually without ground truth, so th",
-      "tags": [
-        "Agents",
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Towards Portable Specification of the Agent Harness",
-      "url": "https://arxiv.org/abs/2610.40917",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7997,
-      "publishedAt": "2026-11-02T05:00:00.000Z",
-      "summary": "arXiv:2610.40917v1 Announce Type: new \nAbstract: Large language models act only through the infrastructure that surrounds them. That infrastructure, the harness, determines what a model can accomplish and how it fails, yet it has no settled definition. To address this gap, we decompose the harness i",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Agentic World Modeling for Agent Test-time Scaling without Environment Replica",
-      "url": "https://arxiv.org/abs/2610.40927",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7997,
-      "publishedAt": "2026-11-02T05:00:00.000Z",
-      "summary": "arXiv:2610.40927v1 Announce Type: new \nAbstract: Test-time scaling (TTS) improves large language model agents by sampling and selecting among multiple candidate trajectories, but common realizations assume that these trajectories can be executed in parallel. This assumption breaks in realistic deplo",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Research"
+        "LLM"
       ],
       "engagementScore": 0
     },
@@ -203,12 +167,11 @@
       "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
       "feedSource": "Hacker News",
       "source": "help.openai.com",
-      "score": 0.773,
+      "score": 0.7118,
       "publishedAt": "2026-10-31T21:49:07.000Z",
-      "summary": "Starting in December, Plus, Pro, and Business plans’ usage allowance will be shared across ChatGPT and Codex as we bring the agentic capabilities of Work into the main ChatGPT experience.",
+      "summary": "",
       "tags": [
         "LLM",
-        "Agents",
         "Dev Tools"
       ],
       "engagementScore": 233
@@ -218,33 +181,61 @@
       "url": "https://arxiv.org/abs/2610.39302",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7519,
+      "score": 0.6967,
       "publishedAt": "2026-11-01T13:24:49.000Z",
       "summary": "",
       "tags": [
         "AI"
       ],
-      "engagementScore": 158
+      "engagementScore": 164
+    },
+    {
+      "title": "Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test",
+      "url": "https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6765,
+      "publishedAt": "2026-11-03T04:18:47.000Z",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. At the end of September, President Trump signed an executive order that contained just one directive, ordering government agencies to rebrand what they had been c",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "When Modernization Breaks Working Code: A Study of LLMs on Legacy PHP",
+      "url": "https://arxiv.org/abs/2610.40269",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.6416,
+      "publishedAt": "2026-11-01T21:22:28.000Z",
+      "summary": "Pasting a legacy file into an LLM and asking it to “modernize this” is an easy shortcut. But is the result better than leaving the code alone? In this paper, we study this single-file setting with five LLMs, each asked to modernize 100 WordPress 4.0 PHP files to PHP 8.3 while preserving behavior, wi",
+      "tags": [
+        "LLM",
+        "Research",
+        "Dev Tools"
+      ],
+      "engagementScore": 19
     },
     {
       "title": "Leaking Secrets from Air-Gap Computers by Spelling Radio Signals from RAM (2024)",
       "url": "https://arxiv.org/abs/2409.02292",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.6885,
+      "score": 0.6321,
       "publishedAt": "2026-11-01T01:46:29.000Z",
       "summary": "Air-gapped systems are physically separated from external networks, including the Internet. This isolation is achieved by keeping the air-gap computers disconnected from wired or wireless networks, preventing direct or remote communication with other devices or networks. Air-gap measures may be used",
       "tags": [
         "AI"
       ],
-      "engagementScore": 216
+      "engagementScore": 219
     },
     {
       "title": "The latest AI news we announced in October 2026",
       "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.6638,
+      "score": 0.6149,
       "publishedAt": "2026-11-02T17:45:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Oct_AI_Recap_social.max-600x600.format-webp.webp\"&gt;Here are Google’s latest AI updates from October 2026",
       "tags": [
@@ -259,7 +250,7 @@
       "url": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6594,
+      "score": 0.6105,
       "publishedAt": "2026-11-02T17:00:00.000Z",
       "summary": "In just a few years, generative AI has changed the face of enterprise analytics, notably by making analytics accessible to users across the organization. Agentic AI promises to do even more, by automating entire workflows and taking actions based on agent insights. But there is a problem: The qualit",
       "tags": [
@@ -272,7 +263,7 @@
       "url": "https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6371,
+      "score": 0.5882,
       "publishedAt": "2026-11-02T13:10:32.000Z",
       "summary": "When a developer gives an AI agent a coding task, the agent does more than answer once. It plans, generates code, runs tests, and repeats the process to correct errors. A single task can use 10 to 50 times more tokens than a basic chat prompt. The more useful the agent becomes, the more calls&#8230;",
       "tags": [
@@ -286,7 +277,7 @@
       "url": "https://www.technologyreview.com/2026/11/02/1147889/the-download-agentic-web-arrives-eliminating-traffic-deaths/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6371,
+      "score": 0.5881,
       "publishedAt": "2026-11-02T13:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The agentic web is here In 2001, a decade after inventing the World Wide Web, Tim Berners-Lee articulated a new vision: an internet navigated by auton",
       "tags": [
@@ -300,7 +291,7 @@
       "url": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6162,
+      "score": 0.5672,
       "publishedAt": "2026-11-02T09:35:19.000Z",
       "summary": "In 2001, a decade after he invented the World Wide Web, Tim Berners-Lee articulated a new vision. Together with two colleagues, he published an article in the magazine Scientific American in which he outlined what he called the “Semantic Web”: an internet designed to be navigated by autonomous softw",
       "tags": [
@@ -311,11 +302,65 @@
       "engagementScore": 0
     },
     {
+      "title": "The New York Times sues Brave web browser for AI scraping and bypassing paywalls",
+      "url": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5495,
+      "publishedAt": "2026-11-02T23:20:01.000Z",
+      "summary": "The New York Times and a group of other publications have filed lawsuits against the company that makes the Brave web browser over alleged unlawful scraping to train AI and also letting users bypass their paywalls, as reported by Reuters. According to a complaint filed by the New York Daily News, th",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Online Right’s Closing Campaign Argument: Fascist Anakin Skywalker Memes",
+      "url": "https://www.wired.com/story/the-online-rights-closing-campaign-argument-fascist-anakin-skywalker-memes/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5492,
+      "publishedAt": "2026-11-02T23:17:27.000Z",
+      "summary": "With Democrats poised to make significant gains in Tuesday’s midterm elections, Trump supporters have been reduced to posting bizarre Star Wars fan fiction.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Anthropic clamps down on Claude’s AI video game clones",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5474,
+      "publishedAt": "2026-11-02T22:57:16.000Z",
+      "summary": "Anthropic has updated Claude Code's system prompt to prevent the AI tool from being used to re-create existing video games, as reported by Tom's Hardware. Retro gaming is currently being overrun with AI-made decompilations, recompilations, and ports, but while Anthropic will still let people use Cla",
+      "tags": [
+        "LLM",
+        "Vision",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "How to Save $25 on Burga’s Phone Accessories With This Sale",
+      "url": "https://www.wired.com/story/burga-sale-november-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5397,
+      "publishedAt": "2026-11-02T21:30:00.000Z",
+      "summary": "Whether you need a phone case, magnetic ring, Apple Watch band, or power bank, now’s a great time to save $25 on orders over $50.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Best Dyson Vacuum Deals (2026): Dyson Spot+Scrub Ai, Dyson V16 Piston Animal",
       "url": "https://www.wired.com/story/dyson-vacuum-deals-nov-2026/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5819,
+      "score": 0.537,
       "publishedAt": "2026-11-02T21:00:00.000Z",
       "summary": "Black Friday is still weeks away, but you don’t have to wait for a good sale on Dyson vacuums.",
       "tags": [
@@ -328,7 +373,7 @@
       "url": "https://www.wired.com/story/early-black-friday-coffee-espresso-deals-2026/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5746,
+      "score": 0.5297,
       "publishedAt": "2026-11-02T19:38:06.000Z",
       "summary": "Impress your Thanksgiving guests with a cappuccino. These early deals on WIRED-tested favorites leave you time to practice.",
       "tags": [
@@ -337,26 +382,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Anthropic clamps down on Claude’s AI video game clones",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5708,
-      "publishedAt": "2026-11-02T18:56:02.000Z",
-      "summary": "Anthropic has updated Claude Code's system prompt to prevent the AI tool from being used to recreate existing video games, as reported by Tom's Hardware. Retro gaming is currently being overrun with AI-made decompilations, recompilations, and ports, but while Anthropic will still let people use Clau",
-      "tags": [
-        "LLM",
-        "Vision",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "OpenAI pitches data center power plants as a way to protect nearby areas",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5659,
+      "score": 0.5211,
       "publishedAt": "2026-11-02T18:01:30.000Z",
       "summary": "In an announcement on Monday, OpenAI says it will pilot its \"Grid Protectors Program\" at an upcoming data center in Effingham County, Georgia, where the company promises to free up to 1,000 megawatts of power during extreme weather or emergencies, enough to power air conditioners in around 700,000 h",
       "tags": [
@@ -369,7 +399,7 @@
       "url": "https://www.wired.com/story/a-right-wing-think-tank-has-a-plan-to-prevent-democrats-from-being-seated-in-congress/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5631,
+      "score": 0.5182,
       "publishedAt": "2026-11-02T17:29:17.000Z",
       "summary": "The influential Center for Renewing America says that “neo-Marxist progressives and anti-Western Muslims” can’t sincerely swear to protect the Constitution—and shouldn’t be allowed to assume office.",
       "tags": [
@@ -382,7 +412,7 @@
       "url": "https://www.wired.com/story/anti-oligarchy-activists-plan-to-dox-elon-musk-and-hundreds-of-billionaire-linked-homes/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5605,
+      "score": 0.5156,
       "publishedAt": "2026-11-02T17:00:00.000Z",
       "summary": "The Capytistas, a secretive group claiming more than $1.2 million in backing, started with Elon Musk and Tesla’s board. Members argue that those who buy political power deserve the scrutiny they’ll impose.",
       "tags": [
@@ -395,79 +425,13 @@
       "url": "https://www.wired.com/review/asus-rog-rapture-gt-bn98-pro/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5591,
+      "score": 0.5142,
       "publishedAt": "2026-11-02T16:44:20.000Z",
       "summary": "The first Wi-Fi 8 router has arrived. This quad-band gaming beast from Asus is fabulously fast and feature-packed.",
       "tags": [
         "AI"
       ],
       "engagementScore": 0
-    },
-    {
-      "title": "Here’s How the Trump Administration Is Trying to Undermine the Election",
-      "url": "https://www.wired.com/story/the-trump-administration-is-wreaking-havoc-on-the-electoral-system-before-the-midterms/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.551,
-      "publishedAt": "2026-11-02T15:13:39.000Z",
-      "summary": "So far, Department of Justice–led efforts to sow chaos, even as Americans are already voting, have fallen flat.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Get 25 Percent Off My Favorite Renter-Friendly Storage Lockers",
-      "url": "https://www.wired.com/story/mustard-made-sale-october-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5458,
-      "publishedAt": "2026-11-02T14:15:29.000Z",
-      "summary": "These gorgeous, renter-friendly storage lockers are hardly ever discounted.",
-      "tags": [
-        "RAG"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Birdbuddy vs. Birdfy: Which Budget Smart Feeder Should You Buy? (2026)",
-      "url": "https://www.wired.com/story/birdbuddy-nook-vs-birdfy-rookie/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5444,
-      "publishedAt": "2026-11-02T14:00:00.000Z",
-      "summary": "I tested Birdbuddy’s Nook and Birdfy’s Rookie in my backyard. Saving money comes with compromises, but some are easier to live with.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Anthropic's internal AI use, at retail prices, now exceeds its employee pay",
-      "url": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
-      "feedSource": "Hacker News",
-      "source": "businessinsider.com",
-      "score": 0.5244,
-      "publishedAt": "2026-11-02T16:40:29.000Z",
-      "summary": "Anthropic’s IPO filing reveals a striking milestone: Its internal AI usage is now valued above employee compensation.",
-      "tags": [
-        "LLM",
-        "Industry"
-      ],
-      "engagementScore": 238
-    },
-    {
-      "title": "US boy names that became girl names and vice versa",
-      "url": "https://namedaisy.com/blog/boy-names-that-became-girl-names",
-      "feedSource": "Hacker News",
-      "source": "namedaisy.com",
-      "score": 0.5165,
-      "publishedAt": "2026-11-02T16:34:36.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 194
     },
     {
       "title": "Making it easier for websites to express AI training preferences",
@@ -483,79 +447,24 @@
       "engagementScore": 0
     },
     {
-      "title": "Community safety report and new protections for teens",
-      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5124,
-      "publishedAt": "2026-10-30T09:00:00.000Z",
-      "summary": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
+      "title": "Here’s How the Trump Administration Is Trying to Undermine the Election",
+      "url": "https://www.wired.com/story/the-trump-administration-is-wreaking-havoc-on-the-electoral-system-before-the-midterms/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5061,
+      "publishedAt": "2026-11-02T15:13:39.000Z",
+      "summary": "So far, Department of Justice–led efforts to sow chaos, even as Americans are already voting, have fallen flat.",
       "tags": [
-        "LLM",
-        "Safety"
+        "AI"
       ],
       "engagementScore": 0
-    },
-    {
-      "title": "Fair use benefits everyone",
-      "url": "https://openai.com/index/fair-use-benefits-everyone",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5124,
-      "publishedAt": "2026-10-30T00:00:00.000Z",
-      "summary": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "An updated Model Spec for more capable and beneficial AI",
-      "url": "https://openai.com/index/updated-model-spec",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5124,
-      "publishedAt": "2026-10-29T17:00:00.000Z",
-      "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "How we detect frontier model misalignment",
-      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.5124,
-      "publishedAt": "2026-10-29T09:00:00.000Z",
-      "summary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The New York Times sues Brave web browser for AI scraping and bypassing paywalls",
-      "url": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
-      "feedSource": "Hacker News",
-      "source": "theverge.com",
-      "score": 0.5123,
-      "publishedAt": "2026-11-02T18:00:57.000Z",
-      "summary": "",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 13
     },
     {
       "title": "Goldman Sachs pulls AI coding tools from traders and bankers",
       "url": "https://the-decoder.com/goldman-sachs-pulls-ai-coding-tools-from-traders-and-bankers/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4841,
+      "score": 0.4433,
       "publishedAt": "2026-11-02T20:00:03.000Z",
       "summary": "Goldman Sachs is pulling AI coding tools like Claude Code and GitHub Copilot from traders and bankers, limiting access to engineers only. As recently as July, CIO Marco Argenti publicly praised \"vibe coding\" by non-technical staff. Now the bank cites \"productivity and risk management\" as th",
       "tags": [
@@ -571,7 +480,7 @@
       "url": "https://the-decoder.com/ai-elites-might-hoard-intelligence-like-mercantilists-hoarded-gold/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4828,
+      "score": 0.442,
       "publishedAt": "2026-11-02T19:43:51.000Z",
       "summary": "Engineer Venkatesh Rao compares the fear of AI job losses to mercantilism: intelligence is treated as a scarce resource that elites want to control. But AI could boost demand for human thinking, much like early capitalism made people voluntarily work more.\nThe article AI elites might hoard",
       "tags": [
@@ -584,7 +493,7 @@
       "url": "https://the-decoder.com/spacexsi-apparently-cuts-grok-bot-quotas-weeks-after-musk-called-it-his-fastest-growing-product/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4756,
+      "score": 0.4349,
       "publishedAt": "2026-11-02T18:15:39.000Z",
       "summary": "SpaceXSI is apparently cutting usage limits for its AI agent Grok Bot, less than two weeks after Musk called it his fastest-growing product. The operating costs were \"unsustainably high relative to revenue,\" Musk wrote on X. OpenAI and Anthropic are also tightening their flat-rate plans as",
       "tags": [
@@ -598,7 +507,7 @@
       "url": "https://the-decoder.com/anthropic-grows-revenue-twelvefold-but-posts-23-billion-loss/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4668,
+      "score": 0.426,
       "publishedAt": "2026-11-02T16:26:03.000Z",
       "summary": "Anthropic swings back to an operating loss ahead of its blockbuster IPO.\nThe article Anthropic grows revenue twelvefold but posts $23 billion loss appeared first on The Decoder.",
       "tags": [
@@ -613,40 +522,12 @@
       "url": "https://the-decoder.com/one-brutal-minecraft-night-scared-50-ai-agents-into-inventing-chicken-handoff-protocols-a-fertilizer-officer-and-fishing-shifts/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4632,
+      "score": 0.4224,
       "publishedAt": "2026-11-02T15:42:27.000Z",
       "summary": "In experiments by Y Combinator Labs and Olam Labs, OpenAI's GPT-6.1 Sol model showed two very different sides. When 50 agents were tasked with peaceful civilization-building in Minecraft, they froze up in absurd bureaucracy. In direct competition against Claude Opus 5.5, they independently",
       "tags": [
         "LLM",
         "Agents"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Saudi Aramco takes 49 percent stake in AI firm Humain with $2.6 billion deal",
-      "url": "https://the-decoder.com/saudi-aramco-takes-49-percent-stake-in-ai-firm-humain-with-2-6-billion-deal/",
-      "feedSource": "The Decoder",
-      "source": "the-decoder.com",
-      "score": 0.4442,
-      "publishedAt": "2026-11-02T11:47:14.000Z",
-      "summary": "Saudi Aramco is buying into Humain, the company meant to turn Saudi Arabia into a global AI hub.\nThe article Saudi Aramco takes 49 percent stake in AI firm Humain with $2.6 billion deal appeared first on The Decoder.",
-      "tags": [
-        "Dev Tools",
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "OpenAI prepares lobbying blitz for a post-midterm Washington",
-      "url": "https://the-decoder.com/openai-prepares-lobbying-blitz-for-a-post-midterm-washington/",
-      "feedSource": "The Decoder",
-      "source": "the-decoder.com",
-      "score": 0.4394,
-      "publishedAt": "2026-11-02T10:47:59.000Z",
-      "summary": "OpenAI is gearing up for a political lobbying and PR push after the US midterms.\nThe article OpenAI prepares lobbying blitz for a post-midterm Washington appeared first on The Decoder.",
-      "tags": [
-        "LLM",
-        "Dev Tools"
       ],
       "engagementScore": 0
     },
@@ -699,6 +580,113 @@
       "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
       "tags": [
         "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+      "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+      "feedSource": "DeepMind",
+      "source": "deepmind.google",
+      "score": 0.4222,
+      "publishedAt": "2026-10-15T16:08:03.000Z",
+      "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+      "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+      "feedSource": "DeepMind",
+      "source": "deepmind.google",
+      "score": 0.4222,
+      "publishedAt": "2026-10-14T02:00:14.000Z",
+      "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
+      "tags": [
+        "ML Infra"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Developing Gemini 4 Argon responsibly and safely",
+      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+      "feedSource": "DeepMind",
+      "source": "deepmind.google",
+      "score": 0.4222,
+      "publishedAt": "2026-10-13T19:43:07.000Z",
+      "summary": "",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Gemini 4 Argon for Robotics",
+      "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+      "feedSource": "DeepMind",
+      "source": "deepmind.google",
+      "score": 0.4222,
+      "publishedAt": "2026-10-13T16:01:58.000Z",
+      "summary": "Discover Gemini 4 Argon for robotics: leading the ERQA benchmark with physical reasoning, zero-shot control, Real2Sim, and agentic workflows.",
+      "tags": [
+        "LLM",
+        "Agents"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Saudi Aramco takes 49 percent stake in AI firm Humain with $2.6 billion deal",
+      "url": "https://the-decoder.com/saudi-aramco-takes-49-percent-stake-in-ai-firm-humain-with-2-6-billion-deal/",
+      "feedSource": "The Decoder",
+      "source": "the-decoder.com",
+      "score": 0.4034,
+      "publishedAt": "2026-11-02T11:47:14.000Z",
+      "summary": "Saudi Aramco is buying into Humain, the company meant to turn Saudi Arabia into a global AI hub.\nThe article Saudi Aramco takes 49 percent stake in AI firm Humain with $2.6 billion deal appeared first on The Decoder.",
+      "tags": [
+        "Dev Tools",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "OpenAI prepares lobbying blitz for a post-midterm Washington",
+      "url": "https://the-decoder.com/openai-prepares-lobbying-blitz-for-a-post-midterm-washington/",
+      "feedSource": "The Decoder",
+      "source": "the-decoder.com",
+      "score": 0.3986,
+      "publishedAt": "2026-11-02T10:47:59.000Z",
+      "summary": "OpenAI is gearing up for a political lobbying and PR push after the US midterms.\nThe article OpenAI prepares lobbying blitz for a post-midterm Washington appeared first on The Decoder.",
+      "tags": [
+        "LLM",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "nemotron-halloween",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.3401,
+      "publishedAt": "2026-10-30T17:57:24.000Z",
+      "summary": "A Blog post by NVIDIA on Hugging Face",
+      "tags": [
+        "Open Source"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Granite Switch 4.1.1 — Update models like you update software",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.3401,
+      "publishedAt": "2026-10-29T13:37:07.000Z",
+      "summary": "A Blog post by IBM Granite on Hugging Face",
+      "tags": [
+        "Open Source"
       ],
       "engagementScore": 0
     }
