@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T19:32:40.927Z",
+  "updatedAt": "2026-11-05T01:22:29.949Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,20 +12,64 @@
       "url": "https://www.anthropic.com/research/provable-inference",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 1.0607,
+      "score": 1.0462,
       "publishedAt": "2026-11-04T17:17:46.000Z",
       "summary": "Sharing progress on a powerful type of cryptographic proof known as a zkSNARK, which is uniquely fit for provable inference.",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 104
+      "engagementScore": 174
+    },
+    {
+      "title": "Images 2.6",
+      "url": "https://openai.com/index/introducing-images-2-6/",
+      "feedSource": "Hacker News",
+      "source": "openai.com",
+      "score": 1.0434,
+      "publishedAt": "2026-11-04T23:35:44.000Z",
+      "summary": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
+      "tags": [
+        "LLM",
+        "Vision",
+        "Dev Tools"
+      ],
+      "engagementScore": 71
+    },
+    {
+      "title": "A thousand fewer paths to root",
+      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+      "feedSource": "Hacker News",
+      "source": "openai.com",
+      "score": 1.0383,
+      "publishedAt": "2026-11-04T23:33:14.000Z",
+      "summary": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+      "tags": [
+        "LLM",
+        "Agents"
+      ],
+      "engagementScore": 65
+    },
+    {
+      "title": "OpenAI to acquire Pierre Computer Company",
+      "url": "https://openai.com/index/openai-to-acquire-pierre/",
+      "feedSource": "Hacker News",
+      "source": "openai.com",
+      "score": 1.0339,
+      "publishedAt": "2026-11-04T15:21:21.000Z",
+      "summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
+      "tags": [
+        "LLM",
+        "Dev Tools",
+        "Industry"
+      ],
+      "engagementScore": 180
     },
     {
       "title": "OpenAI to acquire Pierre Computer Company, Inc.",
       "url": "https://openai.com/index/openai-to-acquire-pierre",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 1.0006,
+      "score": 0.9581,
       "publishedAt": "2026-11-04T14:30:00.000Z",
       "summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
       "tags": [
@@ -36,11 +80,25 @@
       "engagementScore": 0
     },
     {
+      "title": "A thousand fewer paths to root",
+      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.9107,
+      "publishedAt": "2026-11-04T08:00:00.000Z",
+      "summary": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+      "tags": [
+        "LLM",
+        "Agents"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
       "url": "https://openai.com/index/daybreak-red-aws-govcloud",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9459,
+      "score": 0.9034,
       "publishedAt": "2026-11-04T07:00:00.000Z",
       "summary": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
       "tags": [
@@ -49,24 +107,53 @@
       "engagementScore": 0
     },
     {
+      "title": "Introducing Images 2.6",
+      "url": "https://openai.com/index/introducing-images-2-6",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.8524,
+      "publishedAt": "2026-11-04T00:00:00.000Z",
+      "summary": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
+      "tags": [
+        "LLM",
+        "Vision",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
+      "url": "https://openai.com/index/devrev-enterprise-self-service",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.8524,
+      "publishedAt": "2026-11-04T00:00:00.000Z",
+      "summary": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
+      "tags": [
+        "LLM",
+        "Agents"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
       "url": "https://arxiv.org/abs/2605.29713",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8657,
+      "score": 0.8269,
       "publishedAt": "2026-11-03T21:40:53.000Z",
       "summary": "This book provides a compact, derivation-oriented introduction to the mathematical foundations of modern generative artificial intelligence. Rather than surveying every recent architecture or implementation detail, it develops a coherent route through the ideas connecting major families of generativ",
       "tags": [
         "AI"
       ],
-      "engagementScore": 376
+      "engagementScore": 383
     },
     {
       "title": "Kimi K3.1 Pro model weights are out",
       "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
       "feedSource": "Hacker News",
       "source": "huggingface.co",
-      "score": 0.8366,
+      "score": 0.8257,
       "publishedAt": "2026-11-04T15:30:30.000Z",
       "summary": "Image-Text-to-Text model with 2.8T parameters. Download, explore files and run it on Hugging Face.",
       "tags": [
@@ -74,14 +161,14 @@
         "Vision",
         "ML Infra"
       ],
-      "engagementScore": 208
+      "engagementScore": 361
     },
     {
       "title": "Alignment Faking Depends on the Value, Not Just the Model",
       "url": "https://arxiv.org/abs/2611.03650",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8132,
+      "score": 0.7736,
       "publishedAt": "2026-11-04T05:00:00.000Z",
       "summary": "arXiv:2611.03650v1 Announce Type: new \nAbstract: Language models can follow a directive when they believe they are monitored and abandon it when they believe they are not, a pattern termed Alignment Faking. Prior work establishes this for harmful-content objectives and a handful of moral-foundations",
       "tags": [
@@ -96,7 +183,7 @@
       "url": "https://arxiv.org/abs/2611.03651",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8132,
+      "score": 0.7736,
       "publishedAt": "2026-11-04T05:00:00.000Z",
       "summary": "arXiv:2611.03651v1 Announce Type: new \nAbstract: Geometric certificates make mathematical claims about specified estimator objects, while robotic action requires a physical transform, a service decision, and timely proof support. We present CARD, a proof-carrying interface that keeps these objects d",
       "tags": [
@@ -109,7 +196,7 @@
       "url": "https://arxiv.org/abs/2611.03662",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8132,
+      "score": 0.7736,
       "publishedAt": "2026-11-04T05:00:00.000Z",
       "summary": "arXiv:2611.03662v1 Announce Type: new \nAbstract: The Model Context Protocol (MCP) connects large language model agents to external tools and services through official SDKs that implement message validation and session logic. Specification constraints omitted by these SDKs may propagate to downstream",
       "tags": [
@@ -126,7 +213,7 @@
       "url": "https://arxiv.org/abs/2611.03684",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8132,
+      "score": 0.7736,
       "publishedAt": "2026-11-04T05:00:00.000Z",
       "summary": "arXiv:2611.03684v1 Announce Type: new \nAbstract: Language models serve as the reasoning core of agents for chemistry and materials science, where they must interpret molecular structure before planning syntheses or proposing materials. Yet their outputs show only what they say, not what they know. G",
       "tags": [
@@ -141,7 +228,7 @@
       "url": "https://arxiv.org/abs/2611.03685",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8132,
+      "score": 0.7736,
       "publishedAt": "2026-11-04T05:00:00.000Z",
       "summary": "arXiv:2611.03685v1 Announce Type: new \nAbstract: Visual agents need to coordinate reasoning and action while their environment evolves during inference. We introduce LOLPlay, a benchmark in native \\emph{League of Legends} with 36 champion-specific tasks spanning resource management, combat, cooperat",
       "tags": [
@@ -156,7 +243,7 @@
       "url": "https://arxiv.org/abs/2611.03698",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8132,
+      "score": 0.7736,
       "publishedAt": "2026-11-04T05:00:00.000Z",
       "summary": "arXiv:2611.03698v1 Announce Type: new \nAbstract: Recursive Self-Improvement (RSI) aims to enable AI systems to autonomously build and improve AI systems themselves, including models, harnesses, and underlying infrastructure. Within this broader agenda, a central capability is enabling agents to trai",
       "tags": [
@@ -172,7 +259,7 @@
       "url": "https://arxiv.org/abs/2611.03713",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8132,
+      "score": 0.7736,
       "publishedAt": "2026-11-04T05:00:00.000Z",
       "summary": "arXiv:2611.03713v1 Announce Type: new \nAbstract: Before a scientist fits any parameter, they must decide what the model contains: which quantities exist, which are hidden, how they interact, and how they are measured. Physicists call such a trial form an ansatz. Benchmarks for automated equation dis",
       "tags": [
@@ -186,7 +273,7 @@
       "url": "https://arxiv.org/abs/2611.03721",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8132,
+      "score": 0.7736,
       "publishedAt": "2026-11-04T05:00:00.000Z",
       "summary": "arXiv:2611.03721v1 Announce Type: new \nAbstract: Recent breakthroughs in artificial-intelligence-assisted mathematics show that open-ended machine search can outperform human mathematicians, yet transferring this paradigm to physics requires refactoring the research workflow. We introduce Simjecture",
       "tags": [
@@ -200,7 +287,7 @@
       "url": "https://openai.com/index/scaling-git-at-openai/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.8099,
+      "score": 0.7674,
       "publishedAt": "2026-11-02T23:47:56.000Z",
       "summary": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
       "tags": [
@@ -214,7 +301,7 @@
       "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8074,
+      "score": 0.7649,
       "publishedAt": "2026-11-03T12:00:00.000Z",
       "summary": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
       "tags": [
@@ -228,7 +315,7 @@
       "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.7843,
+      "score": 0.7474,
       "publishedAt": "2026-11-04T17:50:10.000Z",
       "summary": "A Blog post by Dharma-AI on Hugging Face",
       "tags": [
@@ -242,7 +329,7 @@
       "url": "https://openai.com/index/cisco-cyber",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7782,
+      "score": 0.7357,
       "publishedAt": "2026-11-03T08:00:00.000Z",
       "summary": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
       "tags": [
@@ -255,7 +342,7 @@
       "url": "https://openai.com/index/heimstaden",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7782,
+      "score": 0.7357,
       "publishedAt": "2026-11-03T08:00:00.000Z",
       "summary": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
       "tags": [
@@ -269,7 +356,7 @@
       "url": "https://arxiv.org/abs/2611.02618",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7283,
+      "score": 0.6886,
       "publishedAt": "2026-11-03T16:40:02.000Z",
       "summary": "",
       "tags": [
@@ -278,24 +365,11 @@
       "engagementScore": 49
     },
     {
-      "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
-      "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.7199,
-      "publishedAt": "2026-11-03T00:00:00.000Z",
-      "summary": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
       "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6818,
+      "score": 0.6478,
       "publishedAt": "2026-11-04T18:50:55.000Z",
       "summary": "Texas is the fastest-growing data center market in the US and ground zero for Big Tech&#8217;s largest AI buildouts. But the blue wave that swept the Lone Star State may jeopardize that position. Democrat James Talarico won the US Senate seat against Ken Paxton. Gina Hinojosa won the race for govern",
       "tags": [
@@ -308,7 +382,7 @@
       "url": "https://www.technologyreview.com/2026/11/04/1148049/roundtables-inside-the-quest-for-cognitive-immortality/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.679,
+      "score": 0.645,
       "publishedAt": "2026-11-04T18:21:40.000Z",
       "summary": "Tuesday, November 17, 2026 In an effort to reach an elusive continuity of the self, some far-thinking technologists are working on ways to keep your brain going—even beyond death. Join science editor Mary Beth Griggs and senior editor for biomedicine Antonio Regalado for a conversation exploring pos",
       "tags": [
@@ -317,38 +391,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Rewarding defenders with bigger bug bounties",
-      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.6761,
-      "publishedAt": "2026-11-02T18:00:00.000Z",
-      "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
-      "tags": [
-        "LLM",
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Preparing our next security sprint to harden OpenAI",
-      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.6761,
-      "publishedAt": "2026-11-02T18:00:00.000Z",
-      "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "What’s next for US energy policy after the midterm elections?",
       "url": "https://www.technologyreview.com/2026/11/04/1148022/us-energy-midterm/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6718,
+      "score": 0.6378,
       "publishedAt": "2026-11-04T17:08:00.000Z",
       "summary": "I’ve been locked in to my various screens since results from midterm elections started to roll in last night. And it didn’t take long to see the beginning of the blue wave: Democrats took control of both the US House of Representatives and the Senate, a dramatic swing from Donald Trump’s victory two",
       "tags": [
@@ -361,7 +408,7 @@
       "url": "https://www.technologyreview.com/2026/11/04/1148001/the-download-blended-meat-sight-restoring-implant-agentic-web/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6487,
+      "score": 0.6147,
       "publishedAt": "2026-11-04T13:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. These startups hope “blended” food will cut our appetite for red meat&#160; In the fall of 2025, Jeff Dodge served hungry students steaming marinara s",
       "tags": [
@@ -375,7 +422,7 @@
       "url": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6477,
+      "score": 0.6137,
       "publishedAt": "2026-11-04T13:00:00.000Z",
       "summary": "A sales representative asks an AI agent for customer pricing, and the agent pulls data from multiple sources: restricted pricing systems, internal communications, and archived quotes. The output looks accurate to the agent, so a second agent uses the data to draft the proposal for the sales rep. No",
       "tags": [
@@ -384,27 +431,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Open-Source 5G Ran Platforms: A Dual Perspective on Performance and Capabilities",
-      "url": "https://arxiv.org/abs/2608.25820",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.6381,
-      "publishedAt": "2026-11-03T02:58:44.000Z",
-      "summary": "Open-source implementations of the fifth generation (5G) Radio Access Network (RAN), such as OpenAirInterface (OAI) and srsRAN, have become increasingly relevant for industry and academic research, rapid prototyping, and low-cost private 5G deployments. The state of the art presents different evalua",
-      "tags": [
-        "LLM",
-        "Research",
-        "Open Source",
-        "Dev Tools"
-      ],
-      "engagementScore": 52
-    },
-    {
       "title": "StateBench: Testing how language models track state changes over long documents",
       "url": "https://huggingface.co/blog/allenai/statebench",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6289,
+      "score": 0.5921,
       "publishedAt": "2026-11-03T17:15:21.000Z",
       "summary": "A Blog post by Ai2 on Hugging Face",
       "tags": [
@@ -418,12 +449,143 @@
       "url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6247,
+      "score": 0.5879,
       "publishedAt": "2026-11-03T16:35:36.000Z",
-      "summary": "A Blog post by IBM Research on Hugging Face",
+      "summary": "",
       "tags": [
-        "Research",
-        "Open Source"
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Blue Wave Has Tech Bros Scrambling for Data Centers in Space",
+      "url": "https://www.wired.com/story/the-blue-wave-has-tech-bros-scrambling-for-data-centers-in-space/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5732,
+      "publishedAt": "2026-11-04T23:13:14.000Z",
+      "summary": "After Democrats won big in Texas and other AI infrastructure hot spots on Tuesday, data center enthusiasts looked for comfort in low Earth orbit.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Qualcomm is betting big on data centers as smartphone sales sink",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5705,
+      "publishedAt": "2026-11-04T22:42:15.000Z",
+      "summary": "With smartphone sales tanking by around 20 percent compared to 2025, Qualcomm is looking to data centers to help boost its bottom line. During its Q4 2026 earnings call, the company laid out its plans to make a splash in the AI data center business, through partnerships with companies like Amazon an",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "17 better ways Elon Musk could have wasted $446 million",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1026878/not-even-good-at-being-rich",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5653,
+      "publishedAt": "2026-11-04T21:44:00.000Z",
+      "summary": "One of the basic problems of spending too much time on social media is that you are cooking your brain by reading posts from a pack of attention-seeking lunatics. If your social media of choice is the site formerly known as Twitter, and it is your main source of contact with the outside world, you [",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "‘We Have No Shared Reality’: Two Political Influencers on the Future of Politics Online",
+      "url": "https://www.wired.com/story/wired-world-fair-2026-cj-pearson-and-kat-abughazaleh/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5617,
+      "publishedAt": "2026-11-04T21:04:05.000Z",
+      "summary": "Kat Abughazaleh and CJ Pearson spoke at WIRED World Fair on Wednesday about the influence of social media on politics following Tuesday’s midterm elections.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "My therapist thinks I should chuck the Amazon Bee Frontier out a window",
+      "url": "https://www.theverge.com/column/1026464/optimizer-amazon-bee-frontier-ambient-listening-wearables",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5599,
+      "publishedAt": "2026-11-04T20:43:15.000Z",
+      "summary": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. \"How does that make you feel?\" I get asked this a lot in therapy. Plenty of life eve",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Biggest Pro-AI Super PAC Network Didn’t Really Impact the Midterms",
+      "url": "https://www.wired.com/story/the-biggest-pro-ai-super-pac-network-didnt-really-impact-the-midterms/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5597,
+      "publishedAt": "2026-11-04T20:41:29.000Z",
+      "summary": "Leading the Future, backed by Silicon Valley’s biggest billionaires, had a war chest of $100 million and an aggressive stance against AI regulation. All of it didn’t add up to much on Tuesday night.",
+      "tags": [
+        "Safety",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "‘Blade Runner 2099’ Shows the ���Silver Linings’ of a Replicant Takeover",
+      "url": "https://www.wired.com/story/wired-world-fair-2026-blade-runner-2099/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5582,
+      "publishedAt": "2026-11-04T20:24:14.000Z",
+      "summary": "Showrunner Silka Luisa and star Hunter Schafer want their series, Blade Runner 2099, to show the benefits of a post-revolution world.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Gemini for Home now plugs into AT&#038;T’s smart security system",
+      "url": "https://www.theverge.com/tech/1026787/att-gemini-for-home-connected-life-security-system",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5581,
+      "publishedAt": "2026-11-04T20:23:24.000Z",
+      "summary": "AT&#38;T's smart home security system now integrates with Gemini for Home. The company says its Connected Life system is the \"first\" home security product to integrate with Google Home Premium, enabling a bunch of Gemini-powered features that can summarize home events, search your video history, and",
+      "tags": [
+        "LLM",
+        "Vision"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Google Is Forcing AI Overviews in Classrooms. Schools Are Searching for a Way Out",
+      "url": "https://www.wired.com/story/google-is-forcing-ai-overviews-in-classrooms-schools-are-searching-for-a-way-out/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5566,
+      "publishedAt": "2026-11-04T20:06:21.000Z",
+      "summary": "Google is tying up AI Overviews with traditional search, angering parents and educators who worry that easy, machine-generated answers are leaving kids less capable.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Knives Are Out in the White House",
+      "url": "https://www.wired.com/story/knives-are-out-in-the-white-house/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5535,
+      "publishedAt": "2026-11-04T19:32:01.000Z",
+      "summary": "From top officials like Pete Hegseth to White House aides to right-wing pundits, the race is on to find someone besides Donald Trump to blame for the Republicans’ catastrophic losses.",
+      "tags": [
+        "AI"
       ],
       "engagementScore": 0
     },
@@ -432,7 +594,7 @@
       "url": "https://www.wired.com/story/wired-world-fair-2026-clement-delangue-hugging-face/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5833,
+      "score": 0.5521,
       "publishedAt": "2026-11-04T19:16:25.000Z",
       "summary": "“Most of the risk is actually created by a couple of players building behind closed doors,” Clément Delangue said of the need for open source AI.",
       "tags": [
@@ -446,7 +608,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5821,
+      "score": 0.5509,
       "publishedAt": "2026-11-04T19:02:40.000Z",
       "summary": "ChatGPT can now create GIFs using a prompt or a photo uploaded to the AI chatbot. The update, which is rolling out alongside OpenAI's new Images 2.6 model, allows you to adjust the GIF's animation speed, edit individual frames, and share it with others. Before this change, ChatGPT couldn't natively",
       "tags": [
@@ -460,7 +622,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/1026586/nothing-screen-free-ai-device-carl-pei",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.581,
+      "score": 0.5499,
       "publishedAt": "2026-11-04T18:51:06.000Z",
       "summary": "Nothing CEO Carl Pei said in a post on X that the company's launching its first AI device in December. That's just a little over a year after Pei announced plans for \"AI-native\" devices and an AI operating system. He didn't give away much about what exactly the new device is, only that one feature [",
       "tags": [
@@ -473,7 +635,7 @@
       "url": "https://www.wired.com/story/google-pixel-11-deal-november-2026/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5789,
+      "score": 0.5477,
       "publishedAt": "2026-11-04T18:27:19.000Z",
       "summary": "Upgrade to the smartest Android smartphones. Google’s latest Pixel 11 phones are all on sale at their lowest prices to date, well ahead of Black Friday.",
       "tags": [
@@ -482,50 +644,11 @@
       "engagementScore": 0
     },
     {
-      "title": "The Lawyer Holding Big Tech Accountable by ‘Beating the Tar Out of Them’ in Court",
-      "url": "https://www.wired.com/story/wired-world-fair-2026-mark-lanier/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5784,
-      "publishedAt": "2026-11-04T18:21:26.000Z",
-      "summary": "Mark Lanier led the first social media addiction case to go to trial, winning a verdict against Meta and Google in March. It’s just the beginning.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Small Phones Have Vanished. Enough Phone Wants to Bring Them Back",
-      "url": "https://www.wired.com/story/big-tech-abandoned-the-small-phone-the-enough-phone-wants-to-save-it/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5765,
-      "publishedAt": "2026-11-04T18:00:00.000Z",
-      "summary": "As flagship smartphones balloon in size, the Enough Phone offers a 5.3-inch handset. Choose between stock Android or an anti-distraction operating system.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "My therapist thinks I should chuck the Amazon Bee Frontier out a window",
-      "url": "https://www.theverge.com/column/1026464/optimizer-amazon-bee-frontier-ambient-listening-wearables",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5748,
-      "publishedAt": "2026-11-04T17:41:01.000Z",
-      "summary": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. \"How does that make you feel?\" I get asked this a lot in therapy. Plenty of life eve",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Sam Altman addresses RAM comments: People should &#8216;put as much as they want in their computers&#8217;",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1026292/sam-altman-ram-shortage-pcs-comments",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5729,
+      "score": 0.5417,
       "publishedAt": "2026-11-04T17:19:15.000Z",
       "summary": "OpenAI CEO Sam Altman spent election night defending his position on PC RAM purchases. He changed his name on X to \"Ram Altman\" in response to another user's comment, saying, \"i actually do want the world to have tons of memory and people to put as much as they want in their computers, and it [&#823",
       "tags": [
@@ -534,37 +657,11 @@
       "engagementScore": 0
     },
     {
-      "title": "The Results Are In: Voters Hate Data Centers",
-      "url": "https://www.wired.com/story/the-results-are-in-voters-hate-data-centers/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5708,
-      "publishedAt": "2026-11-04T16:56:17.000Z",
-      "summary": "From high-profile Senate races to local rezoning initiatives, data centers and their supporters did miserably on the ballot in the 2026 midterms.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "‘You Don’t Put Your Head in the Sand for 4 Years’: Colossal CEO Ben Lamm on Working With Trump",
-      "url": "https://www.wired.com/story/wired-world-fair-2026-ben-lamm-colossal-biosciences/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5697,
-      "publishedAt": "2026-11-04T16:43:35.000Z",
-      "summary": "The company’s cofounder recently convinced the Trump administration to support an initiative to gather DNA samples from endangered species.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Data centers lost the midterms",
       "url": "https://www.theverge.com/policy/1026365/data-centers-midterms-results",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5663,
+      "score": 0.5351,
       "publishedAt": "2026-11-04T16:05:39.000Z",
       "summary": "Data center developers are poised to face a more restrictive building environment after voters across the country voted in candidates who favor moratoriums and ballot measures that put more obstacles on their expansion, delivering a stinging blow to a central pillar of the AI industry. Of voters pol",
       "tags": [
@@ -573,89 +670,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Voters Set $400 Million of Elon Musk’s Money on Fire",
-      "url": "https://www.wired.com/story/voters-set-dollar400-million-of-elon-musks-money-on-fire/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5663,
-      "publishedAt": "2026-11-04T16:06:12.000Z",
-      "summary": "Elon Musk almost single-handedly funded the Republican midterms push. But of every traceable dollar Musk put into races that have been decided, more than 99 cents went to a race he lost.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Uber only fulfilled 4 rides from AI agents last quarter",
-      "url": "https://www.theverge.com/transportation/1026306/uber-ai-agents-q3-earnings-disintermediation",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5662,
-      "publishedAt": "2026-11-04T16:05:06.000Z",
-      "summary": "AI agents won't be stealing Uber's lunch any time soon. Only four rides were arranged by third-party AI agents during the third quarter of 2026, Uber executives disclosed during an earnings call this morning. The volume of Uber Eats orders fulfilled by AI agents was a little higher, with the company",
-      "tags": [
-        "Agents"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Election Deniers Aren’t Contesting Their Massive Losses",
-      "url": "https://www.wired.com/story/election-deniers-not-contesting-their-massive-losses/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5631,
-      "publishedAt": "2026-11-04T15:30:18.000Z",
-      "summary": "For months, election deniers claimed without evidence that the vote would be rigged. Now they appear to be accepting crushing defeats.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "YC's Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
-      "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
-      "feedSource": "Hacker News",
-      "source": "techcrunch.com",
-      "score": 0.5597,
-      "publishedAt": "2026-11-04T15:28:31.000Z",
-      "summary": "Y Combinator Garry Tan has jokingly admitted that he’s suffered from “cyber psychosis” and barely sleeps sometimes because he’s so excited to be working with his AI agents. On a new episode of Walter Isaacson’s podcast, The Builders, Tan put a price tag on his passion.",
-      "tags": [
-        "Agents"
-      ],
-      "engagementScore": 46
-    },
-    {
-      "title": "Those Jeff Bezos hair transplant photos are very fake",
-      "url": "https://www.theverge.com/tech/1025745/fake-jeff-bezos-hair-replacement-photos-debunk",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5556,
-      "publishedAt": "2026-11-04T14:05:44.000Z",
-      "summary": "Amazon founder Jeff Bezos and actor Jason Statham have a distinctive feature in common: They're both famously bald, and that definitely hasn't changed in the last few days. However, there are some images of the two men circulating around X, Threads, and Bluesky in which they both have substantially",
-      "tags": [
-        "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "AI is forcing us to pay off 40 years of technical debt",
-      "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
-      "feedSource": "Hacker News",
-      "source": "spectrum.ieee.org",
-      "score": 0.5555,
-      "publishedAt": "2026-11-04T11:52:17.000Z",
-      "summary": "Forbidden",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 819
-    },
-    {
       "title": "CWE-bench v2: More coverage, quality, and transparency",
       "url": "https://huggingface.co/blog/cwe-bench",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.5199,
+      "score": 0.483,
       "publishedAt": "2026-11-03T00:00:00.000Z",
       "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
       "tags": [
@@ -669,25 +688,11 @@
       "url": "https://huggingface.co/blog/transformers-mic",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.5199,
+      "score": 0.483,
       "publishedAt": "2026-11-03T00:00:00.000Z",
-      "summary": "",
+      "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
       "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Download: controlling AI agents and &#8220;Super Intelligence&#8221; loyalty tests",
-      "url": "https://www.technologyreview.com/2026/11/03/1147940/the-download-controlling-ai-agents-trump-super-intelligence/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.5087,
-      "publishedAt": "2026-11-03T13:10:00.000Z",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. How “reverse game theory” could keep AI agents in check A new approach known as “reverse game theory” aims to control powerful AI models by designing",
-      "tags": [
-        "Agents",
-        "Research"
+        "Open Source"
       ],
       "engagementScore": 0
     }
