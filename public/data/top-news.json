@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T19:42:31.122Z",
+  "updatedAt": "2026-11-06T01:25:39.761Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,49 +12,35 @@
       "url": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/",
       "feedSource": "Hacker News",
       "source": "alignment.openai.com",
-      "score": 1.0285,
+      "score": 1.0048,
       "publishedAt": "2026-11-05T07:44:30.000Z",
-      "summary": "",
+      "summary": "Research on aligning AI with human values and intent, and reports documenting model failures.",
       "tags": [
         "LLM",
         "Research",
         "Safety"
       ],
-      "engagementScore": 212
+      "engagementScore": 295
     },
     {
-      "title": "A thousand fewer paths to root",
-      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
-      "feedSource": "Hacker News",
+      "title": "Cult.fit builds operational muscle with Codex",
+      "url": "https://openai.com/index/cultfit-builds-with-codex",
+      "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 1.0111,
-      "publishedAt": "2026-11-04T23:33:14.000Z",
-      "summary": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+      "score": 0.9978,
+      "publishedAt": "2026-11-05T20:00:00.000Z",
+      "summary": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
       "tags": [
-        "LLM",
-        "Agents"
+        "Dev Tools"
       ],
-      "engagementScore": 462
-    },
-    {
-      "title": "Images 2.6",
-      "url": "https://openai.com/index/introducing-images-2-6/",
-      "feedSource": "Hacker News",
-      "source": "openai.com",
-      "score": 0.9997,
-      "publishedAt": "2026-11-04T23:35:44.000Z",
-      "summary": "",
-      "tags": [
-        "Vision"
-      ],
-      "engagementScore": 372
+      "engagementScore": 0
     },
     {
       "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
       "url": "https://openai.com/index/introducing-gpt-6-cyber/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.9944,
+      "score": 0.9747,
       "publishedAt": "2026-11-05T17:07:57.000Z",
       "summary": "",
       "tags": [
@@ -62,14 +48,41 @@
         "Agents",
         "Safety"
       ],
-      "engagementScore": 32
+      "engagementScore": 48
+    },
+    {
+      "title": "A thousand fewer paths to root",
+      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+      "feedSource": "Hacker News",
+      "source": "openai.com",
+      "score": 0.9707,
+      "publishedAt": "2026-11-04T23:33:14.000Z",
+      "summary": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+      "tags": [
+        "LLM",
+        "Agents"
+      ],
+      "engagementScore": 473
+    },
+    {
+      "title": "Images 2.6",
+      "url": "https://openai.com/index/introducing-images-2-6/",
+      "feedSource": "Hacker News",
+      "source": "openai.com",
+      "score": 0.9585,
+      "publishedAt": "2026-11-04T23:35:44.000Z",
+      "summary": "",
+      "tags": [
+        "Vision"
+      ],
+      "engagementScore": 376
     },
     {
       "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
       "url": "https://openai.com/index/introducing-gpt-6-cyber",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9593,
+      "score": 0.9176,
       "publishedAt": "2026-11-05T09:00:00.000Z",
       "summary": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
       "tags": [
@@ -81,11 +94,25 @@
       "engagementScore": 0
     },
     {
+      "title": "Merge builds product and business tools with OpenAI technology",
+      "url": "https://openai.com/index/merge-builds-with-openai",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.9103,
+      "publishedAt": "2026-11-05T08:00:00.000Z",
+      "summary": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
+      "tags": [
+        "LLM",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Progress on provable inference for large language models",
       "url": "https://www.anthropic.com/research/provable-inference",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.9288,
+      "score": 0.8871,
       "publishedAt": "2026-11-04T17:17:46.000Z",
       "summary": "",
       "tags": [
@@ -98,11 +125,12 @@
       "url": "https://openai.com/index/openai-to-acquire-pierre/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.9203,
+      "score": 0.8786,
       "publishedAt": "2026-11-04T15:21:21.000Z",
-      "summary": "",
+      "summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
       "tags": [
         "LLM",
+        "Dev Tools",
         "Industry"
       ],
       "engagementScore": 261
@@ -112,7 +140,7 @@
       "url": "https://openai.com/index/updated-model-spec/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.9138,
+      "score": 0.8721,
       "publishedAt": "2026-11-05T15:31:43.000Z",
       "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
       "tags": [
@@ -125,7 +153,7 @@
       "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9083,
+      "score": 0.8666,
       "publishedAt": "2026-11-05T02:00:00.000Z",
       "summary": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
       "tags": [
@@ -135,11 +163,40 @@
       "engagementScore": 0
     },
     {
+      "title": "Flipsnack grows product signups with conversion optimization",
+      "url": "https://openai.com/ads/customers/flipsnack",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.8575,
+      "publishedAt": "2026-11-05T00:45:15.000Z",
+      "summary": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Franklin Templeton uses OpenAI to support investment research",
+      "url": "https://openai.com/index/franklin-templeton",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.852,
+      "publishedAt": "2026-11-05T00:00:00.000Z",
+      "summary": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
+      "tags": [
+        "LLM",
+        "Research",
+        "Safety",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "OpenAI to acquire Pierre Computer Company, Inc.",
       "url": "https://openai.com/index/openai-to-acquire-pierre",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8244,
+      "score": 0.7827,
       "publishedAt": "2026-11-04T14:30:00.000Z",
       "summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
       "tags": [
@@ -154,7 +211,7 @@
       "url": "https://arxiv.org/abs/2611.05390",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8121,
+      "score": 0.7732,
       "publishedAt": "2026-11-05T05:00:00.000Z",
       "summary": "arXiv:2611.05390v1 Announce Type: new \nAbstract: Multi-agent language-model systems often add a reviewer to improve an upstream agent's decision. Yet a reviewer can both repair errors and replace decisions that were already correct. We study this as a problem of institutional jurisdiction: condition",
       "tags": [
@@ -169,7 +226,7 @@
       "url": "https://arxiv.org/abs/2611.05391",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8121,
+      "score": 0.7732,
       "publishedAt": "2026-11-05T05:00:00.000Z",
       "summary": "arXiv:2611.05391v1 Announce Type: new \nAbstract: Tool descriptions tell an agent what an action can do, but they do not necessarily reveal whether that action is healthy or suitable at the moment of use. Execution harnesses often possess this information through monitors, traces, and recent failures",
       "tags": [
@@ -184,7 +241,7 @@
       "url": "https://arxiv.org/abs/2611.05392",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8121,
+      "score": 0.7732,
       "publishedAt": "2026-11-05T05:00:00.000Z",
       "summary": "arXiv:2611.05392v1 Announce Type: new \nAbstract: Agentic artificial intelligence (AI) systems powered by large language models (LLMs) execute as autonomous multi-step pipelines that dynamically invoke tools, integrate observations into memory, and iterate until a task is resolved or a resource budge",
       "tags": [
@@ -200,7 +257,7 @@
       "url": "https://arxiv.org/abs/2611.05393",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8121,
+      "score": 0.7732,
       "publishedAt": "2026-11-05T05:00:00.000Z",
       "summary": "arXiv:2611.05393v1 Announce Type: new \nAbstract: Large language models perform strongly on standard medical QA but degrade on harder reasoning tasks, where multi-agent debate often fails to beat strong single-model prompting. We argue that a key limitation is that existing systems select experts and",
       "tags": [
@@ -216,7 +273,7 @@
       "url": "https://arxiv.org/abs/2611.05394",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8121,
+      "score": 0.7732,
       "publishedAt": "2026-11-05T05:00:00.000Z",
       "summary": "arXiv:2611.05394v1 Announce Type: new \nAbstract: Tiered inference distributes large language model computation across a hierarchy of devices, from on-device and edge hardware to the datacenter, and is increasingly offered as the route to cheaper, lower-latency, and more private serving. Most such sy",
       "tags": [
@@ -230,7 +287,7 @@
       "url": "https://arxiv.org/abs/2611.05450",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8121,
+      "score": 0.7732,
       "publishedAt": "2026-11-05T05:00:00.000Z",
       "summary": "arXiv:2611.05450v1 Announce Type: new \nAbstract: As agents become more capable, they are moving beyond one-off tasks toward sustained assistance across successive user goals. Such assistance requires agents to discover how unfamiliar environments work, reuse what they learn across tasks, and keep th",
       "tags": [
@@ -244,7 +301,7 @@
       "url": "https://arxiv.org/abs/2611.05459",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8121,
+      "score": 0.7732,
       "publishedAt": "2026-11-05T05:00:00.000Z",
       "summary": "arXiv:2611.05459v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly used to support scientific literature reviews, yet evaluations often examine individual tasks rather than the review process as a whole. We assess six AI tools across four stages: finding relevant articles",
       "tags": [
@@ -261,7 +318,7 @@
       "url": "https://arxiv.org/abs/2611.05512",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8121,
+      "score": 0.7732,
       "publishedAt": "2026-11-05T05:00:00.000Z",
       "summary": "arXiv:2611.05512v1 Announce Type: new \nAbstract: AI Agents are becoming digital coworkers that can browse the web, write code, run experiments, and assist humans over extended horizons. Yet existing benchmarks fall short of real knowledge work: many rely on synthetic data or isolated tasks, missing",
       "tags": [
@@ -276,7 +333,7 @@
       "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.7943,
+      "score": 0.7582,
       "publishedAt": "2026-11-05T19:35:16.000Z",
       "summary": "",
       "tags": [
@@ -289,7 +346,7 @@
       "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.777,
+      "score": 0.7353,
       "publishedAt": "2026-11-04T08:00:00.000Z",
       "summary": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
       "tags": [
@@ -299,79 +356,24 @@
       "engagementScore": 0
     },
     {
-      "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
-      "url": "https://openai.com/index/daybreak-red-aws-govcloud",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.7697,
-      "publishedAt": "2026-11-04T07:00:00.000Z",
-      "summary": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Kimi K3.1 Pro model weights are out",
       "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
       "feedSource": "Hacker News",
       "source": "huggingface.co",
-      "score": 0.7345,
+      "score": 0.6994,
       "publishedAt": "2026-11-04T15:30:30.000Z",
       "summary": "",
       "tags": [
         "ML Infra"
       ],
-      "engagementScore": 610
-    },
-    {
-      "title": "Introducing Images 2.6",
-      "url": "https://openai.com/index/introducing-images-2-6",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.7187,
-      "publishedAt": "2026-11-04T00:00:00.000Z",
-      "summary": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
-      "tags": [
-        "LLM",
-        "Vision",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
-      "url": "https://openai.com/index/devrev-enterprise-self-service",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.7187,
-      "publishedAt": "2026-11-04T00:00:00.000Z",
-      "summary": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
-      "tags": [
-        "LLM",
-        "Agents"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
-      "url": "https://huggingface.co/blog/phonon-tts",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.6705,
-      "publishedAt": "2026-11-05T00:00:00.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
+      "engagementScore": 623
     },
     {
       "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.6701,
+      "score": 0.6367,
       "publishedAt": "2026-11-05T17:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-omni-1.2_FZLql41.max-600x600.format-webp.webp\"&gt;Gemini Omni 1.2 Flash brings native 15-second video generation and editing, stronger consistency, and 30% lower pricing.",
       "tags": [
@@ -383,11 +385,24 @@
       "engagementScore": 0
     },
     {
+      "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
+      "url": "https://huggingface.co/blog/phonon-tts",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.6344,
+      "publishedAt": "2026-11-05T00:00:00.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "The Download: Texas’s fragile AI boom and energy policy shifts",
       "url": "https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6477,
+      "score": 0.6144,
       "publishedAt": "2026-11-05T13:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Texas was the new epicenter of the AI data center buildout. That might be kaput. Texas is the fastest-growing data center market in the US and ground",
       "tags": [
@@ -397,11 +412,24 @@
       "engagementScore": 0
     },
     {
+      "title": "A new bill could change how the US builds energy infrastructure",
+      "url": "https://www.technologyreview.com/2026/11/05/1148062/permitting-reform/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.5959,
+      "publishedAt": "2026-11-05T10:00:00.000Z",
+      "summary": "A sweeping bit of legislation designed to cut red tape could speed up the buildout of energy infrastructure in the US. With the dust barely settled on this week’s momentous midterms, the Senate is set to vote on the Bipartisan American Affordability and Jobs Act (BAAJA) on November 9. It’s a plan th",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
       "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6316,
+      "score": 0.5954,
       "publishedAt": "2026-11-04T17:50:10.000Z",
       "summary": "",
       "tags": [
@@ -410,27 +438,40 @@
       "engagementScore": 0
     },
     {
-      "title": "Accelerating engineering for the physical world",
-      "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.6312,
-      "publishedAt": "2026-11-03T12:00:00.000Z",
-      "summary": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+      "title": "OpenAI is stepping back from NDAs for data center projects",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5805,
+      "publishedAt": "2026-11-06T00:37:56.000Z",
+      "summary": "Following this week's midterms where voters resoundingly voiced their opposition to data center expansion, OpenAI today announced new commitments to communities where it is working on data center projects, including that it won't use non-disclosure agreements (NDAs) with public officials. Many data",
       "tags": [
-        "LLM",
-        "Dev Tools"
+        "LLM"
       ],
       "engagementScore": 0
     },
     {
-      "title": "A new bill could change how the US builds energy infrastructure",
-      "url": "https://www.technologyreview.com/2026/11/05/1148062/permitting-reform/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.6293,
-      "publishedAt": "2026-11-05T10:00:00.000Z",
-      "summary": "A sweeping bit of legislation designed to cut red tape could speed up the buildout of energy infrastructure in the US. With the dust barely settled on this week’s momentous midterms, the Senate is set to vote on the Bipartisan American Affordability and Jobs Act (BAAJA) on November 9. It’s a plan th",
+      "title": "Airbnb is working on an AI travel agent",
+      "url": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5777,
+      "publishedAt": "2026-11-06T00:06:12.000Z",
+      "summary": "Airbnb plans to roll out an AI agent in the first half of 2027 that will help users plan and book travel, the company said in its Q3 2026 earnings shareholder letter released today. \"Today's AI agents are good at simple, routine tasks, like making a restaurant reservation or scheduling an appointmen",
+      "tags": [
+        "Agents",
+        "Open Source"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "6 Best VPN Services (2026), Tested and Reviewed",
+      "url": "https://www.wired.com/gallery/best-vpn/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5718,
+      "publishedAt": "2026-11-05T23:00:00.000Z",
+      "summary": "Every VPN says it’s the best, but only some of them are telling the truth.",
       "tags": [
         "AI"
       ],
@@ -441,11 +482,92 @@
       "url": "https://www.theverge.com/tech/1028015/meta-muse-ai-voice-mode-expressive-avatar",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5816,
-      "publishedAt": "2026-11-05T19:07:13.000Z",
+      "score": 0.5704,
+      "publishedAt": "2026-11-05T22:45:04.000Z",
       "summary": "Meta now lets you have voice conversations with your Muse AI agent in real time, CEO Mark Zuckerberg announced today. The feature has been rolled out to me, and I gave it a spin on the iOS app while writing this article. As you chat with your Muse agent, the avatar at the top of [&#8230;]",
       "tags": [
         "Agents"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The 7 Best Early Black Friday TV Deals (2026)",
+      "url": "https://www.wired.com/story/early-black-friday-tv-deals-11-5-26/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.569,
+      "publishedAt": "2026-11-05T22:28:43.000Z",
+      "summary": "I found discounts of up to half off some of the top WIRED-tested TVs.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Perplexity launches its own take on AI agents for work",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5688,
+      "publishedAt": "2026-11-05T22:26:50.000Z",
+      "summary": "Perplexity is taking on OpenAI and Anthropic with its own work-focused AI agents. The startup's new always-on \"Teammates\" can take on multiple roles within a workspace, while pulling existing projects, skills, and memory from the Perplexity tools you already use. Teammates integrate with Perplexity",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Dev Tools",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "How Elon Musk and Big Tech Poured Millions Into the Midterms, and Lost",
+      "url": "https://www.wired.com/story/uncanny-valley-podcast-how-elon-musk-and-big-tech-poured-millions-into-the-midterms-and-lost/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5681,
+      "publishedAt": "2026-11-05T22:18:42.000Z",
+      "summary": "This week on “Uncanny Valley,” we discuss the historic blue wave that swept the midterms and delivered a rebuke to the Trump administration, Big Tech, and data centers.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Ads in Chatbots Have Arrived. Here’s What’s Working—and What’s Not",
+      "url": "https://www.wired.com/story/ads-in-chatbots-have-arrived-heres-whats-working-and-whats-not/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5644,
+      "publishedAt": "2026-11-05T21:37:18.000Z",
+      "summary": "As Anthropic maintains its vow to keep ads out of Claude, the rest of the AI chatbot industry is racing to win over advertisers without antagonizing users.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "13 Best Early Black Friday Deals at Best Buy on Hot Tech (2026)",
+      "url": "https://www.wired.com/story/early-black-friday-best-buy-deals-11-5-26/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5558,
+      "publishedAt": "2026-11-05T20:00:29.000Z",
+      "summary": "Get a head start on holiday shopping with discounts on WIRED-tested headphones, laptops, and TVs.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Blue Tsunami Swept Doctors and Scientists Into Office",
+      "url": "https://www.wired.com/story/the-blue-tsunami-swept-doctors-and-scientists-into-office/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5553,
+      "publishedAt": "2026-11-05T19:55:24.000Z",
+      "summary": "More than 80 percent of congressional candidates backed by the pro-science PAC 314 Action won, including Michigan senator-elect and epidemiologist Abdul El-Sayed.",
+      "tags": [
+        "AI"
       ],
       "engagementScore": 0
     },
@@ -454,7 +576,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/1026927/total-repudiation-the-blue-wave-is-about-to-hit-ai",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5749,
+      "score": 0.5443,
       "publishedAt": "2026-11-05T17:51:52.000Z",
       "summary": "On Tuesday night, Democrats made history as they took control of the House and the Senate, and a blue wave swept through traditionally red and swing states - with the nation's first Black woman governor elected in Georgia, the country's first Native American woman governor elected in New Mexico, and",
       "tags": [
@@ -467,7 +589,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5747,
+      "score": 0.5441,
       "publishedAt": "2026-11-05T17:49:25.000Z",
       "summary": "Anthropic has a new pitch for managing your personal finances: let Claude do it instead, with a new Personal Finance feature that connects it to your bank and card accounts via the Plaid bank bridging platform. You can ask the chatbot \"where did my money go this month,\" for example, and it'll create",
       "tags": [
@@ -480,7 +602,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/1027599/openai-gpt-6-cyber-launch",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5712,
+      "score": 0.5406,
       "publishedAt": "2026-11-05T17:10:19.000Z",
       "summary": "OpenAI is launching GPT-6 Cyber, the latest version of its cybersecurity AI model, which it says is better at finding vulnerabilities and less likely to go rogue and hack other platforms in the process. OpenAI says that during testing, GPT-6 Cyber went out of bounds less than 1 percent of the time,",
       "tags": [
@@ -493,7 +615,7 @@
       "url": "https://www.wired.com/story/wired-world-fair-2026-alexis-ohanian/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5673,
+      "score": 0.5367,
       "publishedAt": "2026-11-05T16:26:57.000Z",
       "summary": "Alexis Ohanian is trying to figure out what’s next for user-generated content now that so much of the internet is “compromised.”",
       "tags": [
@@ -506,7 +628,7 @@
       "url": "https://www.wired.com/story/wired-world-fair-2026-ben-collins-the-onion/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.563,
+      "score": 0.5324,
       "publishedAt": "2026-11-05T15:38:07.000Z",
       "summary": "A day after the US midterm elections gave Democrats control of Congress, Onion CEO Ben Collins and comedian Patti Harrison spoke to WIRED about the salve of satire during politically fraught times.",
       "tags": [
@@ -519,7 +641,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/1027427/ai-music-soundcloud-elevenlabs",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5584,
+      "score": 0.5278,
       "publishedAt": "2026-11-05T14:47:10.000Z",
       "summary": "After partnering with Moises earlier this year, SoundCloud is now adding integration with another AI music platform, ElevenLabs. Now, rather than having to export and download your outputs from ElevenLabs and then upload them to SoundCloud, you can publish them directly. As part of the partnership,",
       "tags": [
@@ -528,117 +650,11 @@
       "engagementScore": 0
     },
     {
-      "title": "The hidden supply chain costs of the AI boom",
-      "url": "https://www.theverge.com/podcast/1024438/willy-shih-supply-chain-ai-chips-ram-where-does-my-stuff-come-from-book",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5545,
-      "publishedAt": "2026-11-05T14:03:27.000Z",
-      "summary": "Today, I’m talking with Willy Shih, an economist, a professor of management practice at Harvard Business School, and the author of the upcoming book, Where Does My Stuff Come From? The Powerful Economics Behind Global Supply Chains. Willy is one of my all-time favorite Decoder guests — his way of lo",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Exclusive: Aina’s Smart Ring Wants to Be a Remote Control for Your AI Agent",
-      "url": "https://www.wired.com/story/aina-smart-ring/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5542,
-      "publishedAt": "2026-11-05T14:00:00.000Z",
-      "summary": "The startup Aina bets you won’t need to rely on your phone to control virtual assistants. It’s making a smart ring that lets you control the actions of your autonomous agents with one tap.",
-      "tags": [
-        "Agents",
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Apple MacBook Pro OLED (2026) Review: The Best Comes at a Cost",
-      "url": "https://www.wired.com/review/apple-macbook-pro-oled-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5542,
-      "publishedAt": "2026-11-05T14:00:00.000Z",
-      "summary": "The new OLED MacBook Pro comes with an incredible-looking touchscreen display—and an equally eye-popping price.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Grimes is going to star in an AI movie that’s coming to theaters",
-      "url": "https://www.theverge.com/entertainment/1026282/grimes-ai-movie",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5517,
-      "publishedAt": "2026-11-05T13:31:36.000Z",
-      "summary": "The AI-generated sci-fi film Gods Don't Give Gifts has added a bit of star power: Pop star Grimes is going to appear in the movie. Billed as \"the first AI film to come to theatres,\" Gods Don't Give Gifts is a notable test case for the commercial potential of AI films, and it releases on [&#8230;]",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Finding New Drugs Is Laborious. This AI Startup Is Skipping The Lab Work",
-      "url": "https://www.wired.com/story/finding-new-drugs-is-laborious-this-ai-startup-is-skipping-the-lab-work/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5489,
-      "publishedAt": "2026-11-05T13:00:00.000Z",
-      "summary": "Potential Sciences, a startup backed by the UK government, is betting that training AI models on computer-generated biochemical data can speed up the plodding process of developing new drugs.",
-      "tags": [
-        "ML Infra",
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Motorola Signature 27: Specs, Price, Features, Release Date",
-      "url": "https://www.wired.com/story/motorola-wants-to-sell-you-a-1600-phone-that-doesnt-fold/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5489,
-      "publishedAt": "2026-11-05T13:00:00.000Z",
-      "summary": "Equipped with the brightest display, an “Event-Based Vision Sensor,” and the next-generation Qualcomm processor, Motorola hopes you’ll want to spend big bucks on its ceramic and aluminum Signature 27.",
-      "tags": [
-        "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Best Wireless Chargers (2026): My Picks After Testing 100+",
-      "url": "https://www.wired.com/gallery/best-wireless-chargers/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5435,
-      "publishedAt": "2026-11-05T12:00:00.000Z",
-      "summary": "Stop fumbling for cables in the dark. These WIRED-tested stands and pads will take the hassle out of refueling your phone, wireless earbuds, and watch.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "AI’s Next Trick? Speaking Dolphin",
-      "url": "https://www.wired.com/story/wired-world-fair-2026-denise-herzing-wild-dolphin/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5435,
-      "publishedAt": "2026-11-05T12:00:00.000Z",
-      "summary": "Denise Herzing, the founder and director of the Wild Dolphin Project, is using AI to help understand audio and video footage of the marine mammals.",
-      "tags": [
-        "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
       "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5409,
+      "score": 0.5075,
       "publishedAt": "2026-11-04T18:50:55.000Z",
       "summary": "Texas is the fastest-growing data center market in the US and ground zero for Big Tech&#8217;s largest AI buildouts. But the blue wave that swept the Lone Star State may jeopardize that position. Democrat James Talarico won the US Senate seat against Ken Paxton. Gina Hinojosa won the race for govern",
       "tags": [
@@ -651,22 +667,9 @@
       "url": "https://www.technologyreview.com/2026/11/04/1148049/roundtables-inside-the-quest-for-cognitive-immortality/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.538,
+      "score": 0.5047,
       "publishedAt": "2026-11-04T18:21:40.000Z",
       "summary": "Tuesday, November 17, 2026 In an effort to reach an elusive continuity of the self, some far-thinking technologists are working on ways to keep your brain going—even beyond death. Join science editor Mary Beth Griggs and senior editor for biomedicine Antonio Regalado for a conversation exploring pos",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Big Tech’s big AI buildout will not end until someone stops it",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1027344/amazon-microsoft-alphabet-google-meta-data-centers-earnings-q3",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.536,
-      "publishedAt": "2026-11-05T10:35:19.000Z",
-      "summary": "After four of the biggest competitors in the AI race held quarterly earnings calls late last month, two things are clear: Big Tech is not done spending record amounts on the AI data center buildout, and the AI data center buildout is not any closer to yielding its promised returns. A third thing is",
       "tags": [
         "AI"
       ],
@@ -677,7 +680,7 @@
       "url": "https://www.technologyreview.com/2026/11/04/1148022/us-energy-midterm/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5309,
+      "score": 0.4975,
       "publishedAt": "2026-11-04T17:08:00.000Z",
       "summary": "I’ve been locked in to my various screens since results from midterm elections started to roll in last night. And it didn’t take long to see the beginning of the blue wave: Democrats took control of both the US House of Representatives and the Senate, a dramatic swing from Donald Trump’s victory two",
       "tags": [
@@ -690,7 +693,7 @@
       "url": "https://www.technologyreview.com/2026/11/04/1148001/the-download-blended-meat-sight-restoring-implant-agentic-web/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5077,
+      "score": 0.4744,
       "publishedAt": "2026-11-04T13:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. These startups hope “blended” food will cut our appetite for red meat&#160; In the fall of 2025, Jeff Dodge served hungry students steaming marinara s",
       "tags": [
