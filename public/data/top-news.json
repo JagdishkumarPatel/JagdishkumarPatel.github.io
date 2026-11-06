@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T01:25:39.761Z",
+  "updatedAt": "2026-11-06T10:35:02.866Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,7 +12,7 @@
       "url": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/",
       "feedSource": "Hacker News",
       "source": "alignment.openai.com",
-      "score": 1.0048,
+      "score": 0.9436,
       "publishedAt": "2026-11-05T07:44:30.000Z",
       "summary": "Research on aligning AI with human values and intent, and reports documenting model failures.",
       "tags": [
@@ -20,14 +20,14 @@
         "Research",
         "Safety"
       ],
-      "engagementScore": 295
+      "engagementScore": 327
     },
     {
       "title": "Cult.fit builds operational muscle with Codex",
       "url": "https://openai.com/index/cultfit-builds-with-codex",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9978,
+      "score": 0.931,
       "publishedAt": "2026-11-05T20:00:00.000Z",
       "summary": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
       "tags": [
@@ -40,7 +40,7 @@
       "url": "https://openai.com/index/introducing-gpt-6-cyber/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.9747,
+      "score": 0.9143,
       "publishedAt": "2026-11-05T17:07:57.000Z",
       "summary": "",
       "tags": [
@@ -48,41 +48,172 @@
         "Agents",
         "Safety"
       ],
-      "engagementScore": 48
+      "engagementScore": 54
+    },
+    {
+      "title": "Australian universities are creating AI-native graduates",
+      "url": "https://openai.com/index/australian-universities-ai-native-graduates",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.9092,
+      "publishedAt": "2026-11-05T17:00:00.000Z",
+      "summary": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "A thousand fewer paths to root",
       "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.9707,
+      "score": 0.9048,
       "publishedAt": "2026-11-04T23:33:14.000Z",
       "summary": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
       "tags": [
         "LLM",
         "Agents"
       ],
-      "engagementScore": 473
+      "engagementScore": 481
     },
     {
       "title": "Images 2.6",
       "url": "https://openai.com/index/introducing-images-2-6/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.9585,
+      "score": 0.8924,
       "publishedAt": "2026-11-04T23:35:44.000Z",
-      "summary": "",
+      "summary": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
       "tags": [
-        "Vision"
+        "LLM",
+        "Vision",
+        "Dev Tools"
       ],
-      "engagementScore": 376
+      "engagementScore": 380
+    },
+    {
+      "title": "Formalizing inverse problems in the age of AI: possibilities, pitfalls, and an invitation",
+      "url": "https://arxiv.org/abs/2611.06962",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8742,
+      "publishedAt": "2026-11-06T05:00:00.000Z",
+      "summary": "arXiv:2611.06962v1 Announce Type: new \nAbstract: Proof assistants such as Lean check mathematical proofs down to the axioms, and AI agents have recently made writing such proofs cheap. We describe AutoIP, a Lean library in which classical linear regularization theory, together with the functional an",
+      "tags": [
+        "Agents",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "KDASO: Knowledge-Data Dual-Driven Automated Skill Optimization for Liability Adjudication Tasks",
+      "url": "https://arxiv.org/abs/2611.06972",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8742,
+      "publishedAt": "2026-11-06T05:00:00.000Z",
+      "summary": "arXiv:2611.06972v1 Announce Type: new \nAbstract: Liability adjudication tasks (e.g., legal charge determination) require analyzing event descriptions against domain-specific skills to determine whether a party should bear liability. While Large Language Models (LLMs) have shown promise in this area",
+      "tags": [
+        "LLM",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "BlockLock: Reproducible LLM Inference with Fixed Batch Geometry",
+      "url": "https://arxiv.org/abs/2611.06977",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8742,
+      "publishedAt": "2026-11-06T05:00:00.000Z",
+      "summary": "arXiv:2611.06977v1 Announce Type: new \nAbstract: Reproducible LLM inference requires that a request produces the same output regardless of the other requests in the batch. Existing solutions pay for this in different ways: batch-invariant kernels constrain every operator, and isolating prefill with",
+      "tags": [
+        "LLM",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Resource-Efficient Reinforcement Learning Post-Training through Elastic Expert Parallelism",
+      "url": "https://arxiv.org/abs/2611.06984",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8742,
+      "publishedAt": "2026-11-06T05:00:00.000Z",
+      "summary": "arXiv:2611.06984v1 Announce Type: new \nAbstract: Reinforcement learning post-training improves the capabilities of large language models, but generating training responses is a major computational bottleneck. In mixture-of-experts models, workers that finish their assigned responses may remain occup",
+      "tags": [
+        "LLM",
+        "Research",
+        "ML Infra"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Two-Ledger Model: Transaction-Grain Cost Accounting for Multi-Agent AI Systems Across Clouds, Models, and Systems of Record",
+      "url": "https://arxiv.org/abs/2611.06989",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8742,
+      "publishedAt": "2026-11-06T05:00:00.000Z",
+      "summary": "arXiv:2611.06989v1 Announce Type: new \nAbstract: Enterprises run business transactions through multi-agent AI systems spanning clouds, large language models (LLMs), orchestration harnesses, and systems of record. Finance receives AI cost only at settlement grain, aggregated by SKU and charge period.",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Autonomous AI Agents Systematically Diverge From Human Preferences in Proof Formalization",
+      "url": "https://arxiv.org/abs/2611.06995",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8742,
+      "publishedAt": "2026-11-06T05:00:00.000Z",
+      "summary": "arXiv:2611.06995v1 Announce Type: new \nAbstract: Artificial intelligence (AI) systems have ushered in a new age of proof abundance, but helping humans understand these proofs requires new attention to the differences in how AI agents and humans pursue a proof-making task. We present \"simulated colla",
+      "tags": [
+        "Agents",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Trust Responsive Runtime Authorization for Agentic AI with Empirical Characterization of Policy Behavior and Parameter Sensitivity",
+      "url": "https://arxiv.org/abs/2611.06996",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8742,
+      "publishedAt": "2026-11-06T05:00:00.000Z",
+      "summary": "arXiv:2611.06996v1 Announce Type: new \nAbstract: The policy that converts runtime estimates of an autonomous agent's condition into operational authority is rarely specified or measured. We empirically characterize the Trust Responsive Authorization Policy (TRAP), which maps an Authorization Readine",
+      "tags": [
+        "Agents",
+        "Research",
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Adapting the Process of Adaptation: Darwinian, Lamarckian, and Agent-Directed Evolution in AI",
+      "url": "https://arxiv.org/abs/2611.07048",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8742,
+      "publishedAt": "2026-11-06T05:00:00.000Z",
+      "summary": "arXiv:2611.07048v1 Announce Type: new \nAbstract: Evolution has shaped intelligence for billions of years. Artificial intelligence (AI) now raises a striking possibility: intelligence may begin to direct its own evolution. As AI agents become capable of modifying and evaluating their own behavior, ho",
+      "tags": [
+        "Agents",
+        "Research",
+        "Industry"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
       "url": "https://openai.com/index/introducing-gpt-6-cyber",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9176,
+      "score": 0.8508,
       "publishedAt": "2026-11-05T09:00:00.000Z",
       "summary": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
       "tags": [
@@ -98,7 +229,7 @@
       "url": "https://openai.com/index/merge-builds-with-openai",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9103,
+      "score": 0.8435,
       "publishedAt": "2026-11-05T08:00:00.000Z",
       "summary": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
       "tags": [
@@ -112,20 +243,20 @@
       "url": "https://www.anthropic.com/research/provable-inference",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.8871,
+      "score": 0.821,
       "publishedAt": "2026-11-04T17:17:46.000Z",
       "summary": "",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 235
+      "engagementScore": 238
     },
     {
       "title": "OpenAI to acquire Pierre Computer Company",
       "url": "https://openai.com/index/openai-to-acquire-pierre/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.8786,
+      "score": 0.8121,
       "publishedAt": "2026-11-04T15:21:21.000Z",
       "summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
       "tags": [
@@ -133,14 +264,14 @@
         "Dev Tools",
         "Industry"
       ],
-      "engagementScore": 261
+      "engagementScore": 262
     },
     {
       "title": "An updated Model Spec for more capable and beneficial AI",
       "url": "https://openai.com/index/updated-model-spec/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.8721,
+      "score": 0.8053,
       "publishedAt": "2026-11-05T15:31:43.000Z",
       "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
       "tags": [
@@ -153,7 +284,7 @@
       "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8666,
+      "score": 0.7998,
       "publishedAt": "2026-11-05T02:00:00.000Z",
       "summary": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
       "tags": [
@@ -163,11 +294,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+      "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+      "feedSource": "DeepMind",
+      "source": "deepmind.google",
+      "score": 0.7931,
+      "publishedAt": "2026-11-05T17:05:16.000Z",
+      "summary": "",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Flipsnack grows product signups with conversion optimization",
       "url": "https://openai.com/ads/customers/flipsnack",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8575,
+      "score": 0.7907,
       "publishedAt": "2026-11-05T00:45:15.000Z",
       "summary": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.",
       "tags": [
@@ -180,7 +324,7 @@
       "url": "https://openai.com/index/franklin-templeton",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.852,
+      "score": 0.7852,
       "publishedAt": "2026-11-05T00:00:00.000Z",
       "summary": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
       "tags": [
@@ -192,11 +336,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+      "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.7282,
+      "publishedAt": "2026-11-06T00:00:00.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "OpenAI to acquire Pierre Computer Company, Inc.",
       "url": "https://openai.com/index/openai-to-acquire-pierre",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7827,
+      "score": 0.7159,
       "publishedAt": "2026-11-04T14:30:00.000Z",
       "summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
       "tags": [
@@ -207,133 +364,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Who May Overrule the Agent? Evidence-Gated Authority in LLM Review Institutions",
-      "url": "https://arxiv.org/abs/2611.05390",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7732,
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "summary": "arXiv:2611.05390v1 Announce Type: new \nAbstract: Multi-agent language-model systems often add a reviewer to improve an upstream agent's decision. Yet a reviewer can both repair errors and replace decisions that were already correct. We study this as a problem of institutional jurisdiction: condition",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Agent Harness Awareness: Turning Verified Telemetry into Operational Control for Tool-Using Agents",
-      "url": "https://arxiv.org/abs/2611.05391",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7732,
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "summary": "arXiv:2611.05391v1 Announce Type: new \nAbstract: Tool descriptions tell an agent what an action can do, but they do not necessarily reveal whether that action is healthy or suitable at the moment of use. Execution harnesses often possess this information through monitors, traces, and recent failures",
-      "tags": [
-        "Agents",
-        "Research",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Uncertainty-Aware Resource Orchestration for Agentic AI Systems",
-      "url": "https://arxiv.org/abs/2611.05392",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7732,
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "summary": "arXiv:2611.05392v1 Announce Type: new \nAbstract: Agentic artificial intelligence (AI) systems powered by large language models (LLMs) execute as autonomous multi-step pipelines that dynamically invoke tools, integrate observations into memory, and iterate until a task is resolved or a resource budge",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Research",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Challenge-Aware Knowledge Recruitment with Meta-Agent Supervision for Medical Multi-Agent Reasoning",
-      "url": "https://arxiv.org/abs/2611.05393",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7732,
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "summary": "arXiv:2611.05393v1 Announce Type: new \nAbstract: Large language models perform strongly on standard medical QA but degrade on harder reasoning tasks, where multi-agent debate often fails to beat strong single-model prompting. We argue that a key limitation is that existing systems select experts and",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Research",
-        "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "A Feasibility Condition for Confidence-Gated Tiered LLM Inference",
-      "url": "https://arxiv.org/abs/2611.05394",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7732,
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "summary": "arXiv:2611.05394v1 Announce Type: new \nAbstract: Tiered inference distributes large language model computation across a hierarchy of devices, from on-device and edge hardware to the datacenter, and is increasingly offered as the route to cheaper, lower-latency, and more private serving. Most such sy",
-      "tags": [
-        "LLM",
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Towards Robust Long-Lived Agents: Benchmarking Experience Lifecycles in Evolving Environments",
-      "url": "https://arxiv.org/abs/2611.05450",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7732,
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "summary": "arXiv:2611.05450v1 Announce Type: new \nAbstract: As agents become more capable, they are moving beyond one-off tasks toward sustained assistance across successive user goals. Such assistance requires agents to discover how unfamiliar environments work, reuse what they learn across tasks, and keep th",
-      "tags": [
-        "Agents",
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Can Large Language Models Review the Scientific Literature? A Test Against a 102-Article Benchmark",
-      "url": "https://arxiv.org/abs/2611.05459",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7732,
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "summary": "arXiv:2611.05459v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly used to support scientific literature reviews, yet evaluations often examine individual tasks rather than the review process as a whole. We assess six AI tools across four stages: finding relevant articles",
-      "tags": [
-        "LLM",
-        "Research",
-        "Dev Tools",
-        "ML Infra",
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "SlackBench: Benchmarking Agents on Collaborative Projects Grounded in Real Code Repositories",
-      "url": "https://arxiv.org/abs/2611.05512",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7732,
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "summary": "arXiv:2611.05512v1 Announce Type: new \nAbstract: AI Agents are becoming digital coworkers that can browse the web, write code, run experiments, and assist humans over extended horizons. Yet existing benchmarks fall short of real knowledge work: many rely on synthetic data or isolated tasks, missing",
-      "tags": [
-        "Agents",
-        "Research",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
       "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.7582,
+      "score": 0.7003,
       "publishedAt": "2026-11-05T19:35:16.000Z",
       "summary": "",
       "tags": [
@@ -342,38 +377,50 @@
       "engagementScore": 0
     },
     {
-      "title": "A thousand fewer paths to root",
-      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.7353,
-      "publishedAt": "2026-11-04T08:00:00.000Z",
-      "summary": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+      "title": "The MoE Training Handbook",
+      "url": "https://huggingface.co/spaces/huggingface/moe-blogpost",
+      "feedSource": "Hacker News",
+      "source": "huggingface.co",
+      "score": 0.6859,
+      "publishedAt": "2026-11-06T06:05:05.000Z",
+      "summary": "",
       "tags": [
-        "LLM",
-        "Agents"
+        "AI"
+      ],
+      "engagementScore": 9
+    },
+    {
+      "title": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
+      "url": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6825,
+      "publishedAt": "2026-11-06T10:00:00.000Z",
+      "summary": "I’m not the sort of person who typically pays for a house cleaner. I’m too frugal, and I kind of enjoy putting on a podcast and going to town on my tub with a Magic Eraser. But when I saw an X post about a new humanoid-robot cleaning service in San Francisco, I immediately signed&#8230;",
+      "tags": [
+        "AI"
       ],
       "engagementScore": 0
     },
     {
-      "title": "Kimi K3.1 Pro model weights are out",
-      "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
-      "feedSource": "Hacker News",
-      "source": "huggingface.co",
-      "score": 0.6994,
-      "publishedAt": "2026-11-04T15:30:30.000Z",
-      "summary": "",
+      "title": "Greenlight Family Hub Digital Wall Calendar Black Friday Sale (2026)",
+      "url": "https://www.wired.com/story/greenlight-hub-black-friday-deal-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5843,
+      "publishedAt": "2026-11-06T10:30:00.000Z",
+      "summary": "The Greenlight Family Hub displays your family calendars, manages your kid’s chores, and doubles as a photo frame. It’s also already discounted ahead of Black Friday.",
       "tags": [
-        "ML Infra"
+        "AI"
       ],
-      "engagementScore": 623
+      "engagementScore": 0
     },
     {
       "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.6367,
+      "score": 0.5833,
       "publishedAt": "2026-11-05T17:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-omni-1.2_FZLql41.max-600x600.format-webp.webp\"&gt;Gemini Omni 1.2 Flash brings native 15-second video generation and editing, stronger consistency, and 30% lower pricing.",
       "tags": [
@@ -389,7 +436,7 @@
       "url": "https://huggingface.co/blog/phonon-tts",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6344,
+      "score": 0.5765,
       "publishedAt": "2026-11-05T00:00:00.000Z",
       "summary": "",
       "tags": [
@@ -402,7 +449,7 @@
       "url": "https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6144,
+      "score": 0.561,
       "publishedAt": "2026-11-05T13:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Texas was the new epicenter of the AI data center buildout. That might be kaput. Texas is the fastest-growing data center market in the US and ground",
       "tags": [
@@ -416,7 +463,7 @@
       "url": "https://www.technologyreview.com/2026/11/05/1148062/permitting-reform/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5959,
+      "score": 0.5425,
       "publishedAt": "2026-11-05T10:00:00.000Z",
       "summary": "A sweeping bit of legislation designed to cut red tape could speed up the buildout of energy infrastructure in the US. With the dust barely settled on this week’s momentous midterms, the Senate is set to vote on the Bipartisan American Affordability and Jobs Act (BAAJA) on November 9. It’s a plan th",
       "tags": [
@@ -429,7 +476,7 @@
       "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.5954,
+      "score": 0.5376,
       "publishedAt": "2026-11-04T17:50:10.000Z",
       "summary": "",
       "tags": [
@@ -442,7 +489,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5805,
+      "score": 0.5315,
       "publishedAt": "2026-11-06T00:37:56.000Z",
       "summary": "Following this week's midterms where voters resoundingly voiced their opposition to data center expansion, OpenAI today announced new commitments to communities where it is working on data center projects, including that it won't use non-disclosure agreements (NDAs) with public officials. Many data",
       "tags": [
@@ -455,7 +502,7 @@
       "url": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5777,
+      "score": 0.5287,
       "publishedAt": "2026-11-06T00:06:12.000Z",
       "summary": "Airbnb plans to roll out an AI agent in the first half of 2027 that will help users plan and book travel, the company said in its Q3 2026 earnings shareholder letter released today. \"Today's AI agents are good at simple, routine tasks, like making a restaurant reservation or scheduling an appointmen",
       "tags": [
@@ -469,7 +516,7 @@
       "url": "https://www.wired.com/gallery/best-vpn/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5718,
+      "score": 0.5228,
       "publishedAt": "2026-11-05T23:00:00.000Z",
       "summary": "Every VPN says it’s the best, but only some of them are telling the truth.",
       "tags": [
@@ -482,7 +529,7 @@
       "url": "https://www.theverge.com/tech/1028015/meta-muse-ai-voice-mode-expressive-avatar",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5704,
+      "score": 0.5215,
       "publishedAt": "2026-11-05T22:45:04.000Z",
       "summary": "Meta now lets you have voice conversations with your Muse AI agent in real time, CEO Mark Zuckerberg announced today. The feature has been rolled out to me, and I gave it a spin on the iOS app while writing this article. As you chat with your Muse agent, the avatar at the top of [&#8230;]",
       "tags": [
@@ -495,7 +542,7 @@
       "url": "https://www.wired.com/story/early-black-friday-tv-deals-11-5-26/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.569,
+      "score": 0.52,
       "publishedAt": "2026-11-05T22:28:43.000Z",
       "summary": "I found discounts of up to half off some of the top WIRED-tested TVs.",
       "tags": [
@@ -508,7 +555,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5688,
+      "score": 0.5198,
       "publishedAt": "2026-11-05T22:26:50.000Z",
       "summary": "Perplexity is taking on OpenAI and Anthropic with its own work-focused AI agents. The startup's new always-on \"Teammates\" can take on multiple roles within a workspace, while pulling existing projects, skills, and memory from the Perplexity tools you already use. Teammates integrate with Perplexity",
       "tags": [
@@ -524,7 +571,7 @@
       "url": "https://www.wired.com/story/uncanny-valley-podcast-how-elon-musk-and-big-tech-poured-millions-into-the-midterms-and-lost/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5681,
+      "score": 0.5191,
       "publishedAt": "2026-11-05T22:18:42.000Z",
       "summary": "This week on “Uncanny Valley,” we discuss the historic blue wave that swept the midterms and delivered a rebuke to the Trump administration, Big Tech, and data centers.",
       "tags": [
@@ -537,7 +584,7 @@
       "url": "https://www.wired.com/story/ads-in-chatbots-have-arrived-heres-whats-working-and-whats-not/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5644,
+      "score": 0.5154,
       "publishedAt": "2026-11-05T21:37:18.000Z",
       "summary": "As Anthropic maintains its vow to keep ads out of Claude, the rest of the AI chatbot industry is racing to win over advertisers without antagonizing users.",
       "tags": [
@@ -550,7 +597,7 @@
       "url": "https://www.wired.com/story/early-black-friday-best-buy-deals-11-5-26/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5558,
+      "score": 0.5068,
       "publishedAt": "2026-11-05T20:00:29.000Z",
       "summary": "Get a head start on holiday shopping with discounts on WIRED-tested headphones, laptops, and TVs.",
       "tags": [
@@ -563,7 +610,7 @@
       "url": "https://www.wired.com/story/the-blue-tsunami-swept-doctors-and-scientists-into-office/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5553,
+      "score": 0.5063,
       "publishedAt": "2026-11-05T19:55:24.000Z",
       "summary": "More than 80 percent of congressional candidates backed by the pro-science PAC 314 Action won, including Michigan senator-elect and epidemiologist Abdul El-Sayed.",
       "tags": [
@@ -576,7 +623,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/1026927/total-repudiation-the-blue-wave-is-about-to-hit-ai",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5443,
+      "score": 0.4953,
       "publishedAt": "2026-11-05T17:51:52.000Z",
       "summary": "On Tuesday night, Democrats made history as they took control of the House and the Senate, and a blue wave swept through traditionally red and swing states - with the nation's first Black woman governor elected in Georgia, the country's first Native American woman governor elected in New Mexico, and",
       "tags": [
@@ -589,7 +636,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5441,
+      "score": 0.4951,
       "publishedAt": "2026-11-05T17:49:25.000Z",
       "summary": "Anthropic has a new pitch for managing your personal finances: let Claude do it instead, with a new Personal Finance feature that connects it to your bank and card accounts via the Plaid bank bridging platform. You can ask the chatbot \"where did my money go this month,\" for example, and it'll create",
       "tags": [
@@ -602,7 +649,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/1027599/openai-gpt-6-cyber-launch",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5406,
+      "score": 0.4916,
       "publishedAt": "2026-11-05T17:10:19.000Z",
       "summary": "OpenAI is launching GPT-6 Cyber, the latest version of its cybersecurity AI model, which it says is better at finding vulnerabilities and less likely to go rogue and hack other platforms in the process. OpenAI says that during testing, GPT-6 Cyber went out of bounds less than 1 percent of the time,",
       "tags": [
@@ -615,22 +662,9 @@
       "url": "https://www.wired.com/story/wired-world-fair-2026-alexis-ohanian/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5367,
+      "score": 0.4878,
       "publishedAt": "2026-11-05T16:26:57.000Z",
       "summary": "Alexis Ohanian is trying to figure out what’s next for user-generated content now that so much of the internet is “compromised.”",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Area Man Feels Joy Online for First Time in Years",
-      "url": "https://www.wired.com/story/wired-world-fair-2026-ben-collins-the-onion/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5324,
-      "publishedAt": "2026-11-05T15:38:07.000Z",
-      "summary": "A day after the US midterm elections gave Democrats control of Congress, Onion CEO Ben Collins and comedian Patti Harrison spoke to WIRED about the salve of satire during politically fraught times.",
       "tags": [
         "AI"
       ],
@@ -641,7 +675,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/1027427/ai-music-soundcloud-elevenlabs",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5278,
+      "score": 0.4789,
       "publishedAt": "2026-11-05T14:47:10.000Z",
       "summary": "After partnering with Moises earlier this year, SoundCloud is now adding integration with another AI music platform, ElevenLabs. Now, rather than having to export and download your outputs from ElevenLabs and then upload them to SoundCloud, you can publish them directly. As part of the partnership,",
       "tags": [
@@ -650,55 +684,15 @@
       "engagementScore": 0
     },
     {
-      "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
-      "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.5075,
-      "publishedAt": "2026-11-04T18:50:55.000Z",
-      "summary": "Texas is the fastest-growing data center market in the US and ground zero for Big Tech&#8217;s largest AI buildouts. But the blue wave that swept the Lone Star State may jeopardize that position. Democrat James Talarico won the US Senate seat against Ken Paxton. Gina Hinojosa won the race for govern",
+      "title": "Agentic cheminformatics with Google Antigravity",
+      "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+      "feedSource": "DeepMind",
+      "source": "deepmind.google",
+      "score": 0.4661,
+      "publishedAt": "2026-11-03T17:01:49.000Z",
+      "summary": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
       "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Roundtables: Inside the Quest for Cognitive Immortality",
-      "url": "https://www.technologyreview.com/2026/11/04/1148049/roundtables-inside-the-quest-for-cognitive-immortality/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.5047,
-      "publishedAt": "2026-11-04T18:21:40.000Z",
-      "summary": "Tuesday, November 17, 2026 In an effort to reach an elusive continuity of the self, some far-thinking technologists are working on ways to keep your brain going—even beyond death. Join science editor Mary Beth Griggs and senior editor for biomedicine Antonio Regalado for a conversation exploring pos",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "What’s next for US energy policy after the midterm elections?",
-      "url": "https://www.technologyreview.com/2026/11/04/1148022/us-energy-midterm/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.4975,
-      "publishedAt": "2026-11-04T17:08:00.000Z",
-      "summary": "I’ve been locked in to my various screens since results from midterm elections started to roll in last night. And it didn’t take long to see the beginning of the blue wave: Democrats took control of both the US House of Representatives and the Senate, a dramatic swing from Donald Trump’s victory two",
-      "tags": [
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Download: blended meat, restored sight, and the agentic web",
-      "url": "https://www.technologyreview.com/2026/11/04/1148001/the-download-blended-meat-sight-restoring-implant-agentic-web/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.4744,
-      "publishedAt": "2026-11-04T13:10:00.000Z",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. These startups hope “blended” food will cut our appetite for red meat&#160; In the fall of 2025, Jeff Dodge served hungry students steaming marinara s",
-      "tags": [
-        "Agents",
-        "Industry"
+        "Agents"
       ],
       "engagementScore": 0
     }
