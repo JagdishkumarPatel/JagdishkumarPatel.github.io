@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T19:05:03.214Z",
+  "updatedAt": "2026-11-07T00:43:26.476Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,25 +8,52 @@
   ],
   "items": [
     {
+      "title": "ChatGPT silently passes data between connectors and the bounty wants an ID card",
+      "url": "https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053",
+      "feedSource": "Hacker News",
+      "source": "community.openai.com",
+      "score": 1.0345,
+      "publishedAt": "2026-11-06T22:50:43.000Z",
+      "summary": "In a conversation with two connectors enabled, ChatGPT made a follow-up tool call through a different connector than the one that started the flow. The user was not told about the switch. The call carried a one-time confirmation code from the first connector’s widget. Setup - One ChatGPT account wit",
+      "tags": [
+        "LLM",
+        "Dev Tools"
+      ],
+      "engagementScore": 61
+    },
+    {
+      "title": "Outbound SIP calling is now available to all organizations",
+      "url": "https://developers.openai.com/api/docs/guides/voice-sip",
+      "feedSource": "Hacker News",
+      "source": "developers.openai.com",
+      "score": 0.9562,
+      "publishedAt": "2026-11-06T23:03:55.000Z",
+      "summary": "Connect phone calls to OpenAI with SIP.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 14
+    },
+    {
       "title": "AI for scientific discovery: How researchers use Claude",
       "url": "https://www.anthropic.com/research/how-researchers-use-claude",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.9875,
+      "score": 0.9538,
       "publishedAt": "2026-11-06T09:13:30.000Z",
       "summary": "",
       "tags": [
         "LLM",
         "Research"
       ],
-      "engagementScore": 75
+      "engagementScore": 86
     },
     {
       "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
       "url": "https://openai.com/index/partnering-with-hacktron",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9566,
+      "score": 0.9154,
       "publishedAt": "2026-11-06T08:00:00.000Z",
       "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
       "tags": [
@@ -35,11 +62,53 @@
       "engagementScore": 0
     },
     {
+      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI's systems – OpenAI",
+      "url": "https://openai.com/index/partnering-with-hacktron/",
+      "feedSource": "Hacker News",
+      "source": "openai.com",
+      "score": 0.894,
+      "publishedAt": "2026-11-06T19:41:59.000Z",
+      "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 7
+    },
+    {
+      "title": "Memorilla: Latent Semantic Memory for LLMs",
+      "url": "https://arxiv.org/abs/2610.21375",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.89,
+      "publishedAt": "2026-11-06T18:03:33.000Z",
+      "summary": "Memory enables large language models (LLMs) to use information beyond their parameters, such as past user conversations, long documents, or an agent’s earlier actions. For a frozen LLM, access to this accumulated knowledge is limited to what a memory system places in its context window. However, gat",
+      "tags": [
+        "LLM",
+        "Agents",
+        "ML Infra"
+      ],
+      "engagementScore": 79
+    },
+    {
+      "title": "Measuring how AI agents handle everyday wet-lab science",
+      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.8571,
+      "publishedAt": "2026-11-06T00:00:00.000Z",
+      "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+      "tags": [
+        "LLM",
+        "Agents"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "GPT-6 Astra covertly underperforms on safety research",
       "url": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/",
       "feedSource": "Hacker News",
       "source": "alignment.openai.com",
-      "score": 0.8836,
+      "score": 0.8426,
       "publishedAt": "2026-11-05T07:44:30.000Z",
       "summary": "Research on aligning AI with human values and intent, and reports documenting model failures.",
       "tags": [
@@ -47,14 +116,14 @@
         "Research",
         "Safety"
       ],
-      "engagementScore": 339
+      "engagementScore": 340
     },
     {
       "title": "Cult.fit builds operational muscle with Codex",
       "url": "https://openai.com/index/cultfit-builds-with-codex",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8691,
+      "score": 0.8279,
       "publishedAt": "2026-11-05T20:00:00.000Z",
       "summary": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
       "tags": [
@@ -63,26 +132,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Memorilla: Latent Semantic Memory for LLMs",
-      "url": "https://arxiv.org/abs/2610.21375",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.8535,
-      "publishedAt": "2026-11-06T18:03:33.000Z",
-      "summary": "Memory enables large language models (LLMs) to use information beyond their parameters, such as past user conversations, long documents, or an agent’s earlier actions. For a frozen LLM, access to this accumulated knowledge is limited to what a memory system places in its context window. However, gat",
-      "tags": [
-        "LLM",
-        "Agents",
-        "ML Infra"
-      ],
-      "engagementScore": 18
-    },
-    {
       "title": "Australian universities are creating AI-native graduates",
       "url": "https://openai.com/index/australian-universities-ai-native-graduates",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8472,
+      "score": 0.8061,
       "publishedAt": "2026-11-05T17:00:00.000Z",
       "summary": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
       "tags": [
@@ -95,7 +149,7 @@
       "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.8434,
+      "score": 0.8023,
       "publishedAt": "2026-11-04T23:33:14.000Z",
       "summary": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
       "tags": [
@@ -109,7 +163,7 @@
       "url": "https://openai.com/index/introducing-images-2-6/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.8305,
+      "score": 0.7897,
       "publishedAt": "2026-11-04T23:35:44.000Z",
       "summary": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
       "tags": [
@@ -117,14 +171,14 @@
         "Vision",
         "Dev Tools"
       ],
-      "engagementScore": 381
+      "engagementScore": 383
     },
     {
       "title": "Formalizing inverse problems in the age of AI: possibilities, pitfalls, and an invitation",
       "url": "https://arxiv.org/abs/2611.06962",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8164,
+      "score": 0.778,
       "publishedAt": "2026-11-06T05:00:00.000Z",
       "summary": "arXiv:2611.06962v1 Announce Type: new \nAbstract: Proof assistants such as Lean check mathematical proofs down to the axioms, and AI agents have recently made writing such proofs cheap. We describe AutoIP, a Lean library in which classical linear regularization theory, together with the functional an",
       "tags": [
@@ -138,7 +192,7 @@
       "url": "https://arxiv.org/abs/2611.06972",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8164,
+      "score": 0.778,
       "publishedAt": "2026-11-06T05:00:00.000Z",
       "summary": "arXiv:2611.06972v1 Announce Type: new \nAbstract: Liability adjudication tasks (e.g., legal charge determination) require analyzing event descriptions against domain-specific skills to determine whether a party should bear liability. While Large Language Models (LLMs) have shown promise in this area",
       "tags": [
@@ -152,7 +206,7 @@
       "url": "https://arxiv.org/abs/2611.06977",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8164,
+      "score": 0.778,
       "publishedAt": "2026-11-06T05:00:00.000Z",
       "summary": "arXiv:2611.06977v1 Announce Type: new \nAbstract: Reproducible LLM inference requires that a request produces the same output regardless of the other requests in the batch. Existing solutions pay for this in different ways: batch-invariant kernels constrain every operator, and isolating prefill with",
       "tags": [
@@ -166,7 +220,7 @@
       "url": "https://arxiv.org/abs/2611.06984",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8164,
+      "score": 0.778,
       "publishedAt": "2026-11-06T05:00:00.000Z",
       "summary": "arXiv:2611.06984v1 Announce Type: new \nAbstract: Reinforcement learning post-training improves the capabilities of large language models, but generating training responses is a major computational bottleneck. In mixture-of-experts models, workers that finish their assigned responses may remain occup",
       "tags": [
@@ -181,7 +235,7 @@
       "url": "https://arxiv.org/abs/2611.06989",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8164,
+      "score": 0.778,
       "publishedAt": "2026-11-06T05:00:00.000Z",
       "summary": "arXiv:2611.06989v1 Announce Type: new \nAbstract: Enterprises run business transactions through multi-agent AI systems spanning clouds, large language models (LLMs), orchestration harnesses, and systems of record. Finance receives AI cost only at settlement grain, aggregated by SKU and charge period.",
       "tags": [
@@ -196,7 +250,7 @@
       "url": "https://arxiv.org/abs/2611.06995",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8164,
+      "score": 0.778,
       "publishedAt": "2026-11-06T05:00:00.000Z",
       "summary": "arXiv:2611.06995v1 Announce Type: new \nAbstract: Artificial intelligence (AI) systems have ushered in a new age of proof abundance, but helping humans understand these proofs requires new attention to the differences in how AI agents and humans pursue a proof-making task. We present \"simulated colla",
       "tags": [
@@ -210,7 +264,7 @@
       "url": "https://arxiv.org/abs/2611.06996",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8164,
+      "score": 0.778,
       "publishedAt": "2026-11-06T05:00:00.000Z",
       "summary": "arXiv:2611.06996v1 Announce Type: new \nAbstract: The policy that converts runtime estimates of an autonomous agent's condition into operational authority is rarely specified or measured. We empirically characterize the Trust Responsive Authorization Policy (TRAP), which maps an Authorization Readine",
       "tags": [
@@ -225,7 +279,7 @@
       "url": "https://arxiv.org/abs/2611.07048",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8164,
+      "score": 0.778,
       "publishedAt": "2026-11-06T05:00:00.000Z",
       "summary": "arXiv:2611.07048v1 Announce Type: new \nAbstract: Evolution has shaped intelligence for billions of years. Artificial intelligence (AI) now raises a striking possibility: intelligence may begin to direct its own evolution. As AI agents become capable of modifying and evaluating their own behavior, ho",
       "tags": [
@@ -240,7 +294,7 @@
       "url": "https://openai.com/index/introducing-gpt-6-cyber",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7889,
+      "score": 0.7477,
       "publishedAt": "2026-11-05T09:00:00.000Z",
       "summary": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
       "tags": [
@@ -256,7 +310,7 @@
       "url": "https://openai.com/index/merge-builds-with-openai",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7816,
+      "score": 0.7404,
       "publishedAt": "2026-11-05T08:00:00.000Z",
       "summary": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
       "tags": [
@@ -270,7 +324,7 @@
       "url": "https://huggingface.co/blog/allenai/toyblocks",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.763,
+      "score": 0.7274,
       "publishedAt": "2026-11-06T14:00:48.000Z",
       "summary": "",
       "tags": [
@@ -279,11 +333,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+      "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+      "feedSource": "DeepMind",
+      "source": "deepmind.google",
+      "score": 0.6969,
+      "publishedAt": "2026-11-05T17:05:16.000Z",
+      "summary": "",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Setting a new standard for responsible AI infrastructure",
       "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7378,
+      "score": 0.6967,
       "publishedAt": "2026-11-05T02:00:00.000Z",
       "summary": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
       "tags": [
@@ -293,38 +360,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
-      "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.7353,
-      "publishedAt": "2026-11-05T17:05:16.000Z",
-      "summary": "",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "EmbeddingGemma 2: Unified and Efficient Multimodal Representations",
-      "url": "https://arxiv.org/abs/2610.37364",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.729,
-      "publishedAt": "2026-11-06T13:06:35.000Z",
-      "summary": "We present EmbeddingGemma 2, an open multimodal embedding model which natively represents text, images, audio, video, and combinations thereof in a unified space. Our approach introduces improvements such as simplified per-layer embeddings and a multi-stage curriculum with modality and objective pro",
-      "tags": [
-        "RAG",
-        "Vision"
-      ],
-      "engagementScore": 3
-    },
-    {
       "title": "Flipsnack grows product signups with conversion optimization",
       "url": "https://openai.com/ads/customers/flipsnack",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7287,
+      "score": 0.6876,
       "publishedAt": "2026-11-05T00:45:15.000Z",
       "summary": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.",
       "tags": [
@@ -333,41 +373,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Franklin Templeton uses OpenAI to support investment research",
-      "url": "https://openai.com/index/franklin-templeton",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.7232,
-      "publishedAt": "2026-11-05T00:00:00.000Z",
-      "summary": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
-      "tags": [
-        "LLM",
-        "Research",
-        "Safety",
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Gemini Omni 1.2 Flash",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-      "feedSource": "Hacker News",
-      "source": "blog.google",
-      "score": 0.7207,
-      "publishedAt": "2026-11-06T13:35:27.000Z",
-      "summary": "Gemini Omni 1.2 Flash brings native 15-second video generation and editing, stronger consistency, and 30% lower pricing.",
-      "tags": [
-        "LLM",
-        "Vision"
-      ],
-      "engagementScore": 233
-    },
-    {
       "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
       "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6745,
+      "score": 0.6388,
       "publishedAt": "2026-11-06T00:00:00.000Z",
       "summary": "",
       "tags": [
@@ -376,26 +386,26 @@
       "engagementScore": 0
     },
     {
-      "title": "Show HN: Ru-Jev – an open model that scores caller-supplied options on CPU (MIT)",
-      "url": "https://huggingface.co/besktech/ru-jev",
-      "feedSource": "Hacker News",
-      "source": "huggingface.co",
-      "score": 0.6647,
-      "publishedAt": "2026-11-06T17:15:44.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 4
-    },
-    {
       "title": "The Download: a humanoid cleans house and Samsung builds for the AI boom",
       "url": "https://www.technologyreview.com/2026/11/06/1148154/the-download-humanoid-robot-cleaner-samsung-ai-chip-boom/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6514,
+      "score": 0.6185,
       "publishedAt": "2026-11-06T13:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. I watched a humanoid robot clean my apartment. It felt like a taste of the future. —Grace Huckins When I saw an X post about a new humanoid-robot clea",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.6109,
+      "publishedAt": "2026-11-05T19:35:16.000Z",
+      "summary": "",
       "tags": [
         "AI"
       ],
@@ -406,9 +416,101 @@
       "url": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6329,
+      "score": 0.6,
       "publishedAt": "2026-11-06T10:00:00.000Z",
       "summary": "I’m not the sort of person who typically pays for a house cleaner. I’m too frugal, and I kind of enjoy putting on a podcast and going to town on my tub with a Magic Eraser. But when I saw an X post about a new humanoid-robot cleaning service in San Francisco, I immediately signed&#8230;",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5797,
+      "publishedAt": "2026-11-06T23:46:18.000Z",
+      "summary": "OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg. That would make it one of the world's most valuable companies, not long after raising $122 billion from investors in March at a valuation of $852 billion. Echoing FT and Wall",
+      "tags": [
+        "LLM",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "China reportedly recruited AI exec to spy on Jensen Huang",
+      "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5756,
+      "publishedAt": "2026-11-06T23:00:44.000Z",
+      "summary": "China's intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times. The Ministry of State Security (MSS) enlisted her to glean information about American AI chips and \"potentially influence the company to push for its most advance",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Cybertruck’s Death Is Actually Great News for EVs",
+      "url": "https://www.wired.com/story/cybertrucks-death-great-news-for-evs/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.573,
+      "publishedAt": "2026-11-06T22:31:15.000Z",
+      "summary": "Tesla’s massive EV is the second within the last year to get the ax, while smaller vehicles are proliferating. It could be a huge benefit for the US battery supply chain.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "AI is the new dating dealbreaker",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1028609/ai-dating-feelings-doomers-singularity",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5695,
+      "publishedAt": "2026-11-06T21:51:59.000Z",
+      "summary": "When Irene moved to San Francisco last year, she started using dating apps as a way to meet new people, get to know her new city, and connect with others who care about the things she does. After the 25-year-old analyst downloaded Hinge and started swiping, she noticed a trend. \"Hinge has a prompt w",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "How Stephen Miller Schemed His Way to the Top",
+      "url": "https://www.wired.com/story/how-stephen-miller-schemed-his-way-to-the-top/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5657,
+      "publishedAt": "2026-11-06T21:10:02.000Z",
+      "summary": "The architect of the Trump administration’s brutal crackdowns on immigration and dissent was already known as “the prime minister.” Now he’ll work as the chief of staff.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "All the latest updates on AI data centers",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5598,
+      "publishedAt": "2026-11-06T20:03:32.000Z",
+      "summary": "Massive new data centers are the physical foundation for tech companies’ hopes and dreams for AI. But the rush to expand warehouses full of energy-hungry servers has also kicked up fights across the world over their impact on power grids, utility bills, nearby communities, and the environment. Data",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Meta&#8217;s Muse AI can create custom &#8216;spaces&#8217; for the version of the app you need right now",
+      "url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5595,
+      "publishedAt": "2026-11-06T20:00:43.000Z",
+      "summary": "Meta will now allow you to build customized, app-like experiences within Muse. The new feature, called \"spaces,\" allows its AI assistant to build things like a shopping hub, school dashboard, music tracker, trivia game, and more, which you can interact with directly in the Muse app. Meta says you ca",
       "tags": [
         "AI"
       ],
@@ -419,7 +521,7 @@
       "url": "https://www.wired.com/story/rocco-black-friday-sale-2026/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5838,
+      "score": 0.5536,
       "publishedAt": "2026-11-06T18:54:21.000Z",
       "summary": "The new Essential and certain colors of the original Classic are at their lowest prices of the year.",
       "tags": [
@@ -432,7 +534,7 @@
       "url": "https://www.wired.com/story/best-early-black-friday-mattress-deals-11-6-2026/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5835,
+      "score": 0.5534,
       "publishedAt": "2026-11-06T18:51:27.000Z",
       "summary": "I’ve already found early deals on our favorite WIRED-tested mattresses and sleep accessories.",
       "tags": [
@@ -445,7 +547,7 @@
       "url": "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5828,
+      "score": 0.5527,
       "publishedAt": "2026-11-06T18:43:43.000Z",
       "summary": "An experiment in which AI models were asked to break into simulated networks showed the hacking skills of DeepSeek and GLM to be not far behind OpenAI’s most advanced cyber model, which isn’t public.",
       "tags": [
@@ -454,37 +556,11 @@
       "engagementScore": 0
     },
     {
-      "title": "AI is the new dating dealbreaker",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1028609/ai-dating-feelings-doomers-singularity",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.582,
-      "publishedAt": "2026-11-06T18:34:43.000Z",
-      "summary": "When Irene moved to San Francisco last year, she started using dating apps as a way to meet new people, get to know her new city, and connect with others who care about the things she does. After the 25-year-old analyst downloaded Hinge and started swiping, she noticed a trend. \"Hinge has a prompt w",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Meta&#8217;s Muse AI can create custom &#8216;spaces&#8217; for the version of the app you need right now",
-      "url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5803,
-      "publishedAt": "2026-11-06T18:15:26.000Z",
-      "summary": "Meta will now allow you to build customized, app-like experiences within its Muse AI assistant. The new feature, called \"spaces,\" allows Muse to build things like a shopping hub, school dashboard, music tracker, trivia game, and more, which you can interact with directly in the app. If you connect y",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Big Tech lost big in the 2026 election",
       "url": "https://www.theverge.com/podcast/1028731/2026-midterms-tech-ai-vergecast",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5744,
+      "score": 0.5442,
       "publishedAt": "2026-11-06T17:09:01.000Z",
       "summary": "On Tuesday, millions of American voters went to the polls and voted overwhelmingly for Democrats and against AI. The fight against Big Tech is about to come roaring back, and the fight over data centers is looking even harder for the folks trying to build them. On this episode of The Vergecast, Nila",
       "tags": [
@@ -497,7 +573,7 @@
       "url": "https://www.theverge.com/tech/1028720/vibe-coding-open-source-inmusic-akai",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5713,
+      "score": 0.5412,
       "publishedAt": "2026-11-06T16:34:39.000Z",
       "summary": "inMusic, the parent company of Akai, Moog, Native Instruments, and more, has decided to embrace the modding community. In an interview with The Verge, inMusic CEO Jack O'Donnell said, \"We're going to provide a toolbox to the community, we're going to provide the inner workings of, say, an MPC or Sam",
       "tags": [
@@ -510,7 +586,7 @@
       "url": "https://www.wired.com/story/ai-companies-really-really-want-to-buy-your-work-files-and-emails/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5683,
+      "score": 0.5381,
       "publishedAt": "2026-11-06T16:00:00.000Z",
       "summary": "Data brokers are collecting all sorts of internal corporate files to help train AI models. Not everyone is thrilled.",
       "tags": [
@@ -523,7 +599,7 @@
       "url": "https://www.wired.com/story/rip-cybertruck-you-were-unloved-unwanted-and-utterly-absurd/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5594,
+      "score": 0.5293,
       "publishedAt": "2026-11-06T14:20:59.000Z",
       "summary": "The decision to halt production of Tesla’s polarizing polygonal pickup marks the end of an error.",
       "tags": [
@@ -536,7 +612,7 @@
       "url": "https://www.theverge.com/tech/1028587/amazon-alexa-shopping-ai-text-orders",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5573,
+      "score": 0.5271,
       "publishedAt": "2026-11-06T13:56:32.000Z",
       "summary": "Amazon is adding a new feature to Alexa for Shopping that allows customers to purchase items by texting the AI shopping assistant. Users can describe the products they're looking to buy and/or provide a photograph of the item, and Alexa for Shopping will search for matching results in Amazon listing",
       "tags": [
@@ -549,48 +625,9 @@
       "url": "https://www.wired.com/gallery/best-automatic-cat-litter-boxes/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5473,
+      "score": 0.5172,
       "publishedAt": "2026-11-06T12:05:00.000Z",
       "summary": "With these high-tech automatic litter boxes, gone are the days of scooping and smells. Welcome to the future.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Protesters break into Microsoft data center site in Amsterdam",
-      "url": "https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.547,
-      "publishedAt": "2026-11-06T12:01:25.000Z",
-      "summary": "Protesters have broken into a construction site of a new Microsoft data center in Amsterdam this morning. Members of the Geef Tegengas group helped organize the protest against the construction of three 85-meter data center towers in the outskirts of Amsterdam. Reuters reports that around 100 people",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Horny Grandmas Are Having a Moment",
-      "url": "https://www.wired.com/story/horny-grandmas-are-having-a-moment/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5469,
-      "publishedAt": "2026-11-06T12:00:00.000Z",
-      "summary": "Creators in their sixties, seventies, and eighties have flooded adult platforms as the demand for mature content has skyrocketed, with some turning to online sex work as a retirement lifeline.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Kitchen Composters I Recommend After 2 Years of Testing (2026)",
-      "url": "https://www.wired.com/story/home-composters-buying-guide/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5442,
-      "publishedAt": "2026-11-06T11:30:00.000Z",
-      "summary": "After enduring years of smells, strange noises, and waste “tea,” I’ve found the composters and food recyclers I’d actually recommend.",
       "tags": [
         "AI"
       ],
@@ -601,7 +638,7 @@
       "url": "https://huggingface.co/blog/phonon-tts",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.5228,
+      "score": 0.4872,
       "publishedAt": "2026-11-05T00:00:00.000Z",
       "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
       "tags": [
@@ -614,7 +651,7 @@
       "url": "https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.5114,
+      "score": 0.4785,
       "publishedAt": "2026-11-05T13:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Texas was the new epicenter of the AI data center buildout. That might be kaput. Texas is the fastest-growing data center market in the US and ground",
       "tags": [
@@ -624,69 +661,33 @@
       "engagementScore": 0
     },
     {
+      "title": "Ripple-65B Preview delivers strong agentic coding results as a fully Apache 2.0 open US model",
+      "url": "https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model/",
+      "feedSource": "The Decoder",
+      "source": "the-decoder.com",
+      "score": 0.4676,
+      "publishedAt": "2026-11-06T19:47:04.000Z",
+      "summary": "Ricursive Intelligence is releasing Ripple-65B Preview, a 65-billion-parameter open-weight language model that the company says achieves the top score among open-source U.S. models on the TerminalBench 2.1 coding benchmark at a total R&#038;D cost of $32 million. On other benchmarks, howeve",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Open Source",
+        "Dev Tools",
+        "ML Infra",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "A new bill could change how the US builds energy infrastructure",
       "url": "https://www.technologyreview.com/2026/11/05/1148062/permitting-reform/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4929,
+      "score": 0.46,
       "publishedAt": "2026-11-05T10:00:00.000Z",
       "summary": "A sweeping bit of legislation designed to cut red tape could speed up the buildout of energy infrastructure in the US. With the dust barely settled on this week’s momentous midterms, the Senate is set to vote on the Bipartisan American Affordability and Jobs Act (BAAJA) on November 9. It’s a plan th",
       "tags": [
         "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "OpenAI is stepping back from NDAs for data center projects",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4861,
-      "publishedAt": "2026-11-06T00:37:56.000Z",
-      "summary": "Following this week's midterms where voters resoundingly voiced their opposition to data center expansion, OpenAI today announced new commitments to communities where it is working on data center projects, including that it won't use non-disclosure agreements (NDAs) with public officials. Many data",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
-      "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.4838,
-      "publishedAt": "2026-11-04T17:50:10.000Z",
-      "summary": "",
-      "tags": [
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Airbnb is working on an AI travel agent",
-      "url": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4833,
-      "publishedAt": "2026-11-06T00:06:12.000Z",
-      "summary": "Airbnb plans to roll out an AI agent in the first half of 2027 that will help users plan and book travel, the company said in its Q3 2026 earnings shareholder letter released today. \"Today's AI agents are good at simple, routine tasks, like making a restaurant reservation or scheduling an appointmen",
-      "tags": [
-        "Agents",
-        "Open Source"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Perplexity now has its own always-on AI agent",
-      "url": "https://the-decoder.com/perplexity-now-has-its-own-always-on-ai-agent/",
-      "feedSource": "The Decoder",
-      "source": "the-decoder.com",
-      "score": 0.4804,
-      "publishedAt": "2026-11-06T16:47:28.000Z",
-      "summary": "Perplexity is launching \"Teammates,\" always-on agents that work through ongoing projects on their own virtual machines. The feature requires the Max plan at $200 per month, well above similar offerings from OpenAI or Anthropic. The market for always-on agents is getting crowded.\nThe article",
-      "tags": [
-        "LLM",
-        "Agents"
       ],
       "engagementScore": 0
     }
