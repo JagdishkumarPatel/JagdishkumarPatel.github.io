@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T22:05:42.348Z",
+  "updatedAt": "2026-11-10T06:39:31.964Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,21 +12,21 @@
       "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 1.1619,
-      "publishedAt": "2026-11-09T18:56:29.000Z",
+      "score": 1.0632,
+      "publishedAt": "2026-11-09T18:01:10.000Z",
       "summary": "Claude Fable 5.2 and Claude Mythos 5.2, our new models for the hardest technical challenges. Fable 5.2 sets a new bar in coding, finance, and the sciences.",
       "tags": [
         "LLM",
         "Dev Tools"
       ],
-      "engagementScore": 757
+      "engagementScore": 439
     },
     {
       "title": "ChatGPT Enterprise now available in AWS Marketplace",
       "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 1.0148,
+      "score": 0.9524,
       "publishedAt": "2026-11-09T19:00:00.000Z",
       "summary": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
       "tags": [
@@ -35,11 +35,24 @@
       "engagementScore": 0
     },
     {
-      "title": "Introducing Control Room: Human control over AI workloads",
-      "url": "https://openai.com/index/introducing-control-room",
+      "title": "Testing Claude on real-world electronics design",
+      "url": "https://www.anthropic.com/research/claude-electronics-design",
+      "feedSource": "Hacker News",
+      "source": "anthropic.com",
+      "score": 0.9146,
+      "publishedAt": "2026-11-09T18:58:48.000Z",
+      "summary": "We asked Claude to design three electronic devices: a speakerphone, a voice-assistant hub, and a handheld virtual pet. The prototypes worked without any fixes to their circuitry.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 25
+    },
+    {
+      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+      "url": "https://openai.com/index/control-room",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9711,
+      "score": 0.9086,
       "publishedAt": "2026-11-09T13:00:00.000Z",
       "summary": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
       "tags": [
@@ -51,11 +64,126 @@
       "engagementScore": 0
     },
     {
+      "title": "Enhancing Academic Advisement with Case-Based Reasoning",
+      "url": "https://arxiv.org/abs/2611.08572",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9009,
+      "publishedAt": "2026-11-10T05:00:00.000Z",
+      "summary": "arXiv:2611.08572v1 Announce Type: new \nAbstract: This research involved the study of an application of Case-Based Reasoning (CBR) in the field of academic advising. Academic advisement has been recognised as an important function of higher education. However, there is a widespread desire to improve",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "NormGym: Evaluating Normative Competence through Social Interaction",
+      "url": "https://arxiv.org/abs/2611.08613",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9009,
+      "publishedAt": "2026-11-10T05:00:00.000Z",
+      "summary": "arXiv:2611.08613v1 Announce Type: new \nAbstract: Normative competence, the ability to infer socially enforced expectations from interaction and adjust behavior accordingly, is essential for agents operating in unfamiliar human communities. Yet existing evaluations largely test whether agents can rec",
+      "tags": [
+        "Agents",
+        "Research",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "LLM-Based Feature Extraction for Multi-Criteria Inventory Classification",
+      "url": "https://arxiv.org/abs/2611.08626",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9009,
+      "publishedAt": "2026-11-10T05:00:00.000Z",
+      "summary": "arXiv:2611.08626v1 Announce Type: new \nAbstract: E-commerce supply chains generate large volumes of customer feedback and operational data that remain underutilized in inventory management. Traditional inventory classification techniques such as ABC analysis rely primarily on annual dollar usage, wh",
+      "tags": [
+        "LLM",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Aspect-wise Pairwise Tournaments for Test-Time Selection",
+      "url": "https://arxiv.org/abs/2611.08640",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9009,
+      "publishedAt": "2026-11-10T05:00:00.000Z",
+      "summary": "arXiv:2611.08640v1 Announce Type: new \nAbstract: Scaling test-time compute has proven highly effective at improving LLM reasoning. A popular method is best-of-n sampling, where a model generates many candidate solutions and one is selected. This motivates the question: how can we select the best can",
+      "tags": [
+        "LLM",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Decision Context: Persistent Behavioral Learning for AI Agents",
+      "url": "https://arxiv.org/abs/2611.08644",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9009,
+      "publishedAt": "2026-11-10T05:00:00.000Z",
+      "summary": "arXiv:2611.08644v1 Announce Type: new \nAbstract: LLM agents do not learn from corrections across sessions. A user fixes the same mistake at the start of every conversation. Existing agent memory systems primarily handle facts, such as preferences, entities, and conversational history, rather than pr",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "IWIBench: Evaluating Gradient-Free Model Driven Intra-weight Injection",
+      "url": "https://arxiv.org/abs/2611.08647",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9009,
+      "publishedAt": "2026-11-10T05:00:00.000Z",
+      "summary": "arXiv:2611.08647v1 Announce Type: new \nAbstract: Intra-weight injection lets one model change another model's behaviour by editing its weights directly, without gradients. Such edits can range from altering lexical associations to enforcing output formats or updating factual knowledge. Despite growi",
+      "tags": [
+        "Research",
+        "ML Infra"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Pdb or Not to Be: Comparing Debugging Interfaces With Pass$_{X}$@$k$",
+      "url": "https://arxiv.org/abs/2611.08666",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9009,
+      "publishedAt": "2026-11-10T05:00:00.000Z",
+      "summary": "arXiv:2611.08666v1 Announce Type: new \nAbstract: Interactive debuggers are indispensable to human software development, yet coding agents overwhelmingly rely on edit-execute-observe loops, using common bash tools, test scripts, and print statements to debug via repeated shell commands. Stepping thro",
+      "tags": [
+        "Agents",
+        "Research",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "ChainFlow: Few-Step Latent Flow Matching for Speculative Decoding",
+      "url": "https://arxiv.org/abs/2611.08669",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.9009,
+      "publishedAt": "2026-11-10T05:00:00.000Z",
+      "summary": "arXiv:2611.08669v1 Announce Type: new \nAbstract: Speculative decoding has become a standard way to accelerate LLM inference: a lightweight drafter proposes tokens that the target verifies in one parallel pass. Existing drafters face trade-offs that limits their speedups: autoregressive drafters gene",
+      "tags": [
+        "LLM",
+        "Research",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "CodeRabbit scales agentic software development and ships 20x more",
       "url": "https://openai.com/index/coderabbit-codex-daybreak",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9346,
+      "score": 0.8722,
       "publishedAt": "2026-11-09T08:00:00.000Z",
       "summary": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
       "tags": [
@@ -70,7 +198,7 @@
       "url": "https://openai.com/index/kuken",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9346,
+      "score": 0.8722,
       "publishedAt": "2026-11-09T08:00:00.000Z",
       "summary": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
       "tags": [
@@ -80,157 +208,42 @@
       "engagementScore": 0
     },
     {
-      "title": "Testing Claude on real-world electronics design",
-      "url": "https://www.anthropic.com/research/claude-electronics-design",
-      "feedSource": "Hacker News",
-      "source": "anthropic.com",
-      "score": 0.9216,
-      "publishedAt": "2026-11-09T18:58:48.000Z",
-      "summary": "We asked Claude to design three electronic devices: a speakerphone, a voice-assistant hub, and a handheld virtual pet. The prototypes worked without any fixes to their circuitry.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 9
-    },
-    {
       "title": "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation",
       "url": "https://arxiv.org/abs/2610.14162",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8753,
+      "score": 0.8173,
       "publishedAt": "2026-11-09T07:20:37.000Z",
       "summary": "Diffusion language models (DLMs) offer parallel sampling for faster generation than autoregressive models, an increasingly important advantage as inference becomes a dominant computational workload. However, DLMs degrade quickly with fewer sampling steps, process the full sequence at every step, and",
       "tags": [
         "LLM",
         "Vision"
       ],
-      "engagementScore": 175
+      "engagementScore": 176
     },
     {
-      "title": "Enhancing Academic Advisement with Case-Based Reasoning",
-      "url": "https://arxiv.org/abs/2611.08572",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7959,
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "summary": "arXiv:2611.08572v1 Announce Type: new \nAbstract: This research involved the study of an application of Case-Based Reasoning (CBR) in the field of academic advising. Academic advisement has been recognised as an important function of higher education. However, there is a widespread desire to improve",
+      "title": "TPU 8tx and TPU 8i Max",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/",
+      "feedSource": "Hacker News",
+      "source": "blog.google",
+      "score": 0.7038,
+      "publishedAt": "2026-11-09T21:56:57.000Z",
+      "summary": "We’ve expanded our eighth generation TPU portfolio with TPU 8tx and TPU 8i Max, marking four new TPU systems in a single year.",
       "tags": [
-        "Research"
+        "AI"
       ],
-      "engagementScore": 0
-    },
-    {
-      "title": "NormGym: Evaluating Normative Competence through Social Interaction",
-      "url": "https://arxiv.org/abs/2611.08613",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7959,
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "summary": "arXiv:2611.08613v1 Announce Type: new \nAbstract: Normative competence, the ability to infer socially enforced expectations from interaction and adjust behavior accordingly, is essential for agents operating in unfamiliar human communities. Yet existing evaluations largely test whether agents can rec",
-      "tags": [
-        "Agents",
-        "Research",
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "LLM-Based Feature Extraction for Multi-Criteria Inventory Classification",
-      "url": "https://arxiv.org/abs/2611.08626",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7959,
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "summary": "arXiv:2611.08626v1 Announce Type: new \nAbstract: E-commerce supply chains generate large volumes of customer feedback and operational data that remain underutilized in inventory management. Traditional inventory classification techniques such as ABC analysis rely primarily on annual dollar usage, wh",
-      "tags": [
-        "LLM",
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Aspect-wise Pairwise Tournaments for Test-Time Selection",
-      "url": "https://arxiv.org/abs/2611.08640",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7959,
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "summary": "arXiv:2611.08640v1 Announce Type: new \nAbstract: Scaling test-time compute has proven highly effective at improving LLM reasoning. A popular method is best-of-n sampling, where a model generates many candidate solutions and one is selected. This motivates the question: how can we select the best can",
-      "tags": [
-        "LLM",
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Decision Context: Persistent Behavioral Learning for AI Agents",
-      "url": "https://arxiv.org/abs/2611.08644",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7959,
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "summary": "arXiv:2611.08644v1 Announce Type: new \nAbstract: LLM agents do not learn from corrections across sessions. A user fixes the same mistake at the start of every conversation. Existing agent memory systems primarily handle facts, such as preferences, entities, and conversational history, rather than pr",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "IWIBench: Evaluating Gradient-Free Model Driven Intra-weight Injection",
-      "url": "https://arxiv.org/abs/2611.08647",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7959,
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "summary": "arXiv:2611.08647v1 Announce Type: new \nAbstract: Intra-weight injection lets one model change another model's behaviour by editing its weights directly, without gradients. Such edits can range from altering lexical associations to enforcing output formats or updating factual knowledge. Despite growi",
-      "tags": [
-        "Research",
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Pdb or Not to Be: Comparing Debugging Interfaces With Pass$_{X}$@$k$",
-      "url": "https://arxiv.org/abs/2611.08666",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7959,
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "summary": "arXiv:2611.08666v1 Announce Type: new \nAbstract: Interactive debuggers are indispensable to human software development, yet coding agents overwhelmingly rely on edit-execute-observe loops, using common bash tools, test scripts, and print statements to debug via repeated shell commands. Stepping thro",
-      "tags": [
-        "Agents",
-        "Research",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "ChainFlow: Few-Step Latent Flow Matching for Speculative Decoding",
-      "url": "https://arxiv.org/abs/2611.08669",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7959,
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "summary": "arXiv:2611.08669v1 Announce Type: new \nAbstract: Speculative decoding has become a standard way to accelerate LLM inference: a lightweight drafter proposes tokens that the target verifies in one parallel pass. Existing drafters face trade-offs that limits their speedups: autoregressive drafters gene",
-      "tags": [
-        "LLM",
-        "Research",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
+      "engagementScore": 243
     },
     {
       "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan&apos;s Demographics and Financial Context",
       "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.7509,
+      "score": 0.6967,
       "publishedAt": "2026-11-09T15:05:57.000Z",
-      "summary": "",
+      "summary": "A Blog post by NVIDIA on Hugging Face",
       "tags": [
-        "AI"
+        "Open Source"
       ],
       "engagementScore": 0
     },
@@ -239,7 +252,7 @@
       "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.7349,
+      "score": 0.6808,
       "publishedAt": "2026-11-09T12:34:29.000Z",
       "summary": "",
       "tags": [
@@ -252,7 +265,7 @@
       "url": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6713,
+      "score": 0.6214,
       "publishedAt": "2026-11-09T19:35:33.000Z",
       "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. As voters went to the polls across the US last week, I was in Ashburn, Virginia, part of what’s known as Data Center Alley—the world’s largest data center hub. It",
       "tags": [
@@ -265,7 +278,7 @@
       "url": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6567,
+      "score": 0.6068,
       "publishedAt": "2026-11-09T17:05:43.000Z",
       "summary": "As a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI. Now, after winning a tight congressional race for former Speaker of the House Nancy Pelosi’s open San Francisco seat, he could play a key role in setting federal AI policy.&#160; I spoke with",
       "tags": [
@@ -274,11 +287,24 @@
       "engagementScore": 0
     },
     {
+      "title": "The Download: empty AI climate claims, and an Nvidia investigation",
+      "url": "https://www.technologyreview.com/2026/11/09/1148176/the-download-empty-ai-climate-claims-and-an-nvidia-investigation/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.5844,
+      "publishedAt": "2026-11-09T13:15:00.000Z",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Opinion: The climate case for AI has not been made  —By Mary Nichols, distinguished counsel at the UCLA School of Law and the former chair of the Cali",
+      "tags": [
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "The Components of Agent Memory",
       "url": "https://www.anthropic.com/research/components-of-agent-memory",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.6464,
+      "score": 0.584,
       "publishedAt": "2026-11-07T06:39:04.000Z",
       "summary": "For Claude to learn from experience, it has to decide what’s worth remembering before it knows what’s next. Here’s how “dreaming” helps it organize memory and correct mistakes.",
       "tags": [
@@ -288,24 +314,11 @@
       "engagementScore": 187
     },
     {
-      "title": "The Download: empty AI climate claims, and an Nvidia investigation",
-      "url": "https://www.technologyreview.com/2026/11/09/1148176/the-download-empty-ai-climate-claims-and-an-nvidia-investigation/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.6343,
-      "publishedAt": "2026-11-09T13:15:00.000Z",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Opinion: The climate case for AI has not been made  —By Mary Nichols, distinguished counsel at the UCLA School of Law and the former chair of the Cali",
-      "tags": [
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Innovating with AI in the special chemicals industry",
       "url": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6328,
+      "score": 0.5829,
       "publishedAt": "2026-11-09T13:00:00.000Z",
       "summary": "As companies look to accelerate innovation with artificial intelligence, cloud computing, and advanced modeling, the primary challenge is connecting new technologies to reliable data, scientific expertise, and the practical realities of bringing products to market. For specialty chemicals manufactur",
       "tags": [
@@ -314,11 +327,115 @@
       "engagementScore": 0
     },
     {
+      "title": "Rover Promo Codes and Referral Deals for November 2026",
+      "url": "https://www.wired.com/story/rover-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5812,
+      "publishedAt": "2026-11-10T06:00:00.000Z",
+      "summary": "Score your Rover promo code for November 2026.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Naturepedic Promo Codes: Get 20% Off Plus Free Pillows",
+      "url": "https://www.wired.com/story/naturepedic-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5812,
+      "publishedAt": "2026-11-10T06:00:00.000Z",
+      "summary": "Shop the Naturepedic sale this November 2026.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Sam's Club Promo Codes and Membership Deals for November 2026",
+      "url": "https://www.wired.com/story/sams-club-coupon/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5812,
+      "publishedAt": "2026-11-10T06:00:00.000Z",
+      "summary": "Save on bulk groceries, household essentials, and electronics with a verified Sam's Club promo code or membership discount.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Office Depot Coupons: $20 Off November 2026",
+      "url": "https://www.wired.com/story/office-depot-promo-codes/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5812,
+      "publishedAt": "2026-11-10T06:00:00.000Z",
+      "summary": "From furniture and ink to professional printing services, use an Office Depot discount code to maximize your savings on every workspace essential.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Bose Promo Code: 40% Off for November 2026",
+      "url": "https://www.wired.com/story/bose-coupon-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5812,
+      "publishedAt": "2026-11-10T06:00:00.000Z",
+      "summary": "Get at least 40% off headphones, speakers, soundbars, and other audio products from Bose.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Valvoline Coupons and Promo Codes for November 2026",
+      "url": "https://www.wired.com/story/valvoline-coupons/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5812,
+      "publishedAt": "2026-11-10T06:00:00.000Z",
+      "summary": "We've gathered all the top Valvoline coupons and promo codes for November 2026, including deals on full synthetic oil changes and other essential maintenance.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Chirp Discount Codes: 67% Off",
+      "url": "https://www.wired.com/story/chirp-discount-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5812,
+      "publishedAt": "2026-11-10T06:00:00.000Z",
+      "summary": "Use these verified Chirp coupon codes and shopping tips to score up to 67% off wheels, up to 50% off refurbished products, and more.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Barkbox Promo Codes and Discounts: Up to 50% Off",
+      "url": "https://www.wired.com/story/barkbox-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5812,
+      "publishedAt": "2026-11-10T06:00:00.000Z",
+      "summary": "Save on Barkbox subscriptions, including monthly themed collections of plush toys, tough chews, and healthy snacks designed to keep your pup’s tail wagging.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "The climate case for AI has not been made",
       "url": "https://www.technologyreview.com/2026/11/09/1148166/the-climate-case-for-ai-has-not-been-made/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6153,
+      "score": 0.5654,
       "publishedAt": "2026-11-09T10:00:00.000Z",
       "summary": "This week, as countries meet in Antalya, Turkey for the United Nations climate conference, one topic likely to dominate the conversation is artificial intelligence. The host has already called on countries to commit to ensuring that AI is designed, powered, and deployed in ways that support climate",
       "tags": [
@@ -327,28 +444,54 @@
       "engagementScore": 0
     },
     {
-      "title": "These WIRED-Tested Standing Desks Are Already on Sale for Black Friday",
-      "url": "https://www.wired.com/story/best-early-black-friday-deals-on-standing-desks-11-9-26/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5842,
-      "publishedAt": "2026-11-09T22:00:00.000Z",
-      "summary": "Upgrade your workspace with discounts on WIRED-tested desks from Branch, Vari, FlexiSpot, and Uplift—plus a walking pad to keep things moving.",
+      "title": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
+      "url": "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5517,
+      "publishedAt": "2026-11-10T00:28:49.000Z",
+      "summary": "During Paramount Skydance's latest earnings call, CEO David Ellison said \"it's hard to imagine\" AI won't have a bigger impact on the film industry than CGI. In response to a question about the company's outlook for AI, Ellison said: \"I think when you zoom out and look at production, AI really has th",
       "tags": [
         "AI"
       ],
       "engagementScore": 0
     },
     {
-      "title": "The 9 Best TV Shows to Stream This Month (November 2026)",
-      "url": "https://www.wired.com/story/the-9-best-shows-to-stream-right-now/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5778,
-      "publishedAt": "2026-11-09T20:47:28.000Z",
-      "summary": "Black Doves, The Lord of the Rings: The Rings of Power, and Blade Runner 2099 are just a few of the shows you should be watching right now.",
+      "title": "What could China get from Jensen Huang?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5498,
+      "publishedAt": "2026-11-10T00:07:10.000Z",
+      "summary": "It's difficult to overstate Nvidia's power in today's AI landscape. The company's chips are the bedrock upon which advanced AI technology in the US is being built, and demand has consistently outpaced supply for years. Nvidia has also been an influential investor in a wide range of up-and-coming AI",
+      "tags": [
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Here’s what Trump said he knew about Jensen Huang",
+      "url": "https://www.theverge.com/tech/1030446/trump-jensen-huang-press-conference",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5493,
+      "publishedAt": "2026-11-10T00:02:17.000Z",
+      "summary": "President Trump held a White House press briefing earlier today and responded to several questions about his knowledge of Nvidia CEO Jensen Huang's affair with an alleged Chinese spy. Huang said this weekend that he had been \"&#8203;&#8203;unfaithful\" to his wife, and the company has opened an inves",
       "tags": [
         "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Everything we know so far about the Nvidia spy scandal targeting CEO Jensen Huang",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5479,
+      "publishedAt": "2026-11-09T23:46:30.000Z",
+      "summary": "The leather-jacketed CEO of Nvidia, Jensen Huang, has acknowledged an affair with Megaspeed exec Alice Huang, spurring an investigation by his company and intense discussions worldwide. Recent reporting noted that since last year, US intelligence reports had identified Alice Huang (no relation) as n",
+      "tags": [
+        "Industry"
       ],
       "engagementScore": 0
     },
@@ -357,7 +500,7 @@
       "url": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5691,
+      "score": 0.5233,
       "publishedAt": "2026-11-09T19:09:58.000Z",
       "summary": "After publishing a support article in early September outlining usage limits for some Apple Intelligence features, the company has updated Logic Pro with an option to \"Buy More Usage\" for a one-time purchase price of $49.99, as spotted by 9to5Mac. It has a built-in AI assistant to do things like \"st",
       "tags": [
@@ -370,7 +513,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5681,
+      "score": 0.5223,
       "publishedAt": "2026-11-09T18:58:38.000Z",
       "summary": "Anthropic is announcing two new models today: Claude Fable 5.2 and Claude Mythos 5.2, which it says are designed to take on \"daunting\" technical challenges. The company claims the new models show improvements in coding, reasoning, and vision, and can generate outputs faster than the 5.1 versions of",
       "tags": [
@@ -385,7 +528,7 @@
       "url": "https://www.theverge.com/tech/1030061/instagram-ai-effect-builder-filters",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5635,
+      "score": 0.5177,
       "publishedAt": "2026-11-09T18:07:23.000Z",
       "summary": "After expanding its Edits app to macOS last week, Instagram's next move is launching this Effect Builder that generates custom filters for your Stories posts with AI. Available now for US residents who are over 18, it has a prompt box for describing your filter idea to the chatbot, with an option to",
       "tags": [
@@ -394,202 +537,31 @@
       "engagementScore": 0
     },
     {
-      "title": "Nvidia is investigating Jensen Huang’s relationship with an alleged Chinese spy",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5619,
-      "publishedAt": "2026-11-09T17:49:31.000Z",
-      "summary": "Nvidia has announced that it is opening an investigation into CEO Jensen Huang and his relationship with Megaspeed executive Alice Huang, who was reportedly recruited by China's Ministry of State Security to spy on the company. A statement posted by the board of directors reads: The NVIDIA Board is",
+      "title": "Google Gemini routes personal Drive files and emails to human annotators",
+      "url": "https://github.com/thisisme6598/gemini_files/",
+      "feedSource": "Hacker News",
+      "source": "github.com",
+      "score": 0.517,
+      "publishedAt": "2026-11-09T18:24:38.000Z",
+      "summary": "Documentation of Gemini File Leaking Behavior. Contribute to thisisme6598/gemini_files development by creating an account on GitHub.",
       "tags": [
-        "Industry"
+        "LLM",
+        "Open Source"
       ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5617,
-      "publishedAt": "2026-11-09T17:46:40.000Z",
-      "summary": "On Sunday, Nvidia announced it was launching an investigation into CEO Jensen Huang's relationship with Alice Huang, an AI executive and agent of the Chinese government. In addition to the Board of Directors announcing the investigation, Huang sent a memo to Nvidia employees acknowledging the affair",
-      "tags": [
-        "Agents",
-        "Industry"
-      ],
-      "engagementScore": 0
+      "engagementScore": 523
     },
     {
       "title": "The future of AI hinges on… Jensen Huang’s sex life?",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1029990/jensen-huang-the-spy-who-loved-me",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5607,
+      "score": 0.515,
       "publishedAt": "2026-11-09T17:36:26.000Z",
       "summary": "I would prefer that these people's sex lives were none of my business but I guess we have to talk about Jensen Huang and the National Security Incident. Who could have guessed that the guy who was out here signing titties might not have great judgment about how to behave around women? Alice Huang -",
       "tags": [
         "AI"
       ],
       "engagementScore": 0
-    },
-    {
-      "title": "Trump’s 60 Minutes interview touched on AI safety, threat to arrest an AI exec",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029802/trump-60-minutes-ai",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5522,
-      "publishedAt": "2026-11-09T16:00:35.000Z",
-      "summary": "Asked about AI executives' warnings about their models' safety on 60 Minutes, Trump said, \"I think that the risk is not nearly as real as it- as they talk, and I think the risk can be managed, and it's managed.\" He claimed the DOJ is managing that risk, saying, \"We had a situation where somebody [&#",
-      "tags": [
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Hold up — I had a great time talking to the RIAA guy",
-      "url": "https://www.theverge.com/podcast/1029684/riaa-mitch-glazier-napster-ai-labels-music",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5488,
-      "publishedAt": "2026-11-09T15:22:38.000Z",
-      "summary": "Today, I’m talking with Mitch Glazier, who is CEO and chairman of the RIAA. This conversation was a real full-circle moment for me: I was in college when Napster hit, and the RIAA became everyone’s villain for suing kids for downloading music. That was when I decided to go be a copyright lawyer, whi",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Our newest TPUs: 8tx and 8i Max, built for the agentic era",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/",
-      "feedSource": "Hacker News",
-      "source": "blog.google",
-      "score": 0.5477,
-      "publishedAt": "2026-11-09T13:02:50.000Z",
-      "summary": "We’ve expanded our eighth generation TPU portfolio with TPU 8tx and TPU 8i Max, marking four new TPU systems in a single year.",
-      "tags": [
-        "Agents"
-      ],
-      "engagementScore": 7
-    },
-    {
-      "title": "Jensen Huang Hired a PR Firm Known for Handling Sex Scandals Last Year",
-      "url": "https://www.wired.com/story/nvidia-ceo-jensen-huang-hired-a-pr-firm-known-for-handling-sex-scandals-last-year/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5442,
-      "publishedAt": "2026-11-09T14:30:56.000Z",
-      "summary": "The Nvidia CEO began working with consultants from Heller as early as October 2025, around the same time he was first linked to a suspected Chinese spy.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Fold Epic Paper Airplanes",
-      "url": "https://www.foldableflight.com",
-      "feedSource": "Hacker News",
-      "source": "foldableflight.com",
-      "score": 0.542,
-      "publishedAt": "2026-11-09T12:19:22.000Z",
-      "summary": "The world’s largest database of paper airplanes with easy, step-by- step video tutorials for folding each plane!",
-      "tags": [
-        "Research",
-        "Vision"
-      ],
-      "engagementScore": 749
-    },
-    {
-      "title": "Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system",
-      "url": "https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy",
-      "feedSource": "Hacker News",
-      "source": "payments.ca",
-      "score": 0.5389,
-      "publishedAt": "2026-11-09T16:00:45.000Z",
-      "summary": "The new system will enable participating financial service providers to clear and settle payments in real time, providing a made-in-Canada platform for future innovation and prosperity.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 418
-    },
-    {
-      "title": "King Arthur Baking Sourdough Sidekick Review: Rising to the Occasion",
-      "url": "https://www.wired.com/review/king-arthur-baking-sourdough-sidekick/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5308,
-      "publishedAt": "2026-11-09T12:00:00.000Z",
-      "summary": "This techy automatic starter feeder has some quirks, but it ended my yearlong sourdough slump.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "New Hulu Doc ‘Get Huge’ Shows the Deadly Toll of Looksmaxxing",
-      "url": "https://www.wired.com/story/hulu-doc-get-huge-shows-the-deadly-toll-of-looksmaxxing/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5308,
-      "publishedAt": "2026-11-09T12:00:00.000Z",
-      "summary": "The new Hulu docuseries Get Huge: Looksmaxxing to Death shines a light on the mysterious deaths and disappearances of a group of male influencers in Thailand—and the leader at the center of it all.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Midterms Were a Pretty Good Sign for the Right-to-Repair Movement",
-      "url": "https://www.wired.com/story/the-midterms-were-a-pretty-good-sign-for-right-to-repair/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5281,
-      "publishedAt": "2026-11-09T11:30:00.000Z",
-      "summary": "A shifting political landscape gives right-to-repair advocates their best shot yet at meaningful federal reform.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Scientists May Have Discovered a Massive Starless Galaxy",
-      "url": "https://www.wired.com/story/scientists-discover-massive-starless-galaxy/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5268,
-      "publishedAt": "2026-11-09T11:15:00.000Z",
-      "summary": "The promising candidate contains roughly 2 billion times the sun’s mass in hydrogen, yet appears to have no stars. Studying it could help answer questions that have vexed astronomers for years.",
-      "tags": [
-        "Research",
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Audioengine Color of the Year Kit Review: Bright Look, Good Sound",
-      "url": "https://www.wired.com/review/audioengine-2026-color-of-the-year-kit/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5254,
-      "publishedAt": "2026-11-09T11:00:00.000Z",
-      "summary": "The canary-yellow set is equal parts design and audio performance, and includes speakers, speaker stands, a turntable, and a subwoofer.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Humans will never again create a project quite like Wikipedia",
-      "url": "https://www.economist.com/culture/2026/10/29/humans-will-never-again-create-a-project-quite-like-wikipedia",
-      "feedSource": "Hacker News",
-      "source": "economist.com",
-      "score": 0.5253,
-      "publishedAt": "2026-11-09T12:30:20.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 460
     },
     {
       "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
@@ -645,11 +617,38 @@
       "engagementScore": 0
     },
     {
+      "title": "Foldable Flight: The Best Paper Airplanes",
+      "url": "https://www.foldableflight.com",
+      "feedSource": "Hacker News",
+      "source": "foldableflight.com",
+      "score": 0.5086,
+      "publishedAt": "2026-11-09T12:19:22.000Z",
+      "summary": "The world’s largest database of paper airplanes with easy, step-by- step video tutorials for folding each plane!",
+      "tags": [
+        "Research",
+        "Vision"
+      ],
+      "engagementScore": 938
+    },
+    {
+      "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+      "url": "https://artificialanalysis.ai/models/claude-fable-5-2",
+      "feedSource": "Hacker News",
+      "source": "artificialanalysis.ai",
+      "score": 0.5086,
+      "publishedAt": "2026-11-09T20:04:55.000Z",
+      "summary": "Analysis of Anthropic’s Claude Fable 5.2 (Max, Default Fallback) and comparison to other AI models across key metrics including quality, price, performance (time per Intelligence Index task & time to first answer token), context window & more.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 331
+    },
+    {
       "title": "Claude Fable 5.2 and Mythos 5.2 cement Anthropic&#039;s AI lead just before its IPO",
       "url": "https://the-decoder.com/claude-fable-5-2-and-mythos-5-2-cement-anthropics-ai-lead-just-before-its-ipo/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4875,
+      "score": 0.4459,
       "publishedAt": "2026-11-09T21:15:23.000Z",
       "summary": "Anthropic is releasing Claude Fable 5.2 and Mythos 5.2, its most powerful models to date, in two versions: one freely available and one reserved for verified organizations. The models solve open physics problems, show stronger cybersecurity capabilities, design functioning operating systems",
       "tags": [
@@ -663,7 +662,7 @@
       "url": "https://the-decoder.com/meta-launches-muse-ember-a-small-ai-model-built-for-the-repetitive-work-agents-actually-do/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4799,
+      "score": 0.4383,
       "publishedAt": "2026-11-09T19:41:51.000Z",
       "summary": "Meta is introducing Muse Ember, its smallest and most efficient AI model, optimized for repetitive agent tasks such as tool calls, routing, and data extraction. According to Meta, it delivers more intelligence per dollar than Claude Haiku 5.5 or GPT-6 Luna. But it falls short when it comes",
       "tags": [
@@ -678,7 +677,7 @@
       "url": "https://the-decoder.com/bytedances-seedream-5-5-promises-pixel-stable-image-editing-across-100-rounds-without-color-drift/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4757,
+      "score": 0.4341,
       "publishedAt": "2026-11-09T18:50:01.000Z",
       "summary": "Bytedance Seed has introduced Seedream 5.5, an image model built for professional production workflows. It supports stable multi-pass editing over up to 100 iterations, generates native RGBA images with transparent backgrounds, and, according to Bytedance, outperforms GPT-Image-2.5 Sunburst",
       "tags": [
