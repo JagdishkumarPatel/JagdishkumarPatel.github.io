@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T13:13:06.646Z",
+  "updatedAt": "2026-11-14T19:48:33.718Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,7 +12,7 @@
       "url": "https://openai.com/index/introducing-chatgpt-wallet",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8754,
+      "score": 0.8273,
       "publishedAt": "2026-11-13T15:00:00.000Z",
       "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
       "tags": [
@@ -27,21 +27,21 @@
       "url": "https://ipo.anthropic.com/us/",
       "feedSource": "Hacker News",
       "source": "ipo.anthropic.com",
-      "score": 0.8393,
+      "score": 0.7915,
       "publishedAt": "2026-11-12T11:46:41.000Z",
-      "summary": "Anthropic has filed to become a public company. Read the Founders’ letter and other relevant information.",
+      "summary": "",
       "tags": [
         "LLM",
         "Industry"
       ],
-      "engagementScore": 996
+      "engagementScore": 1001
     },
     {
       "title": "Shield helps technicians hand off legacy portal work with OpenAI",
       "url": "https://openai.com/business/customer-stories/shield",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.8243,
+      "score": 0.7763,
       "publishedAt": "2026-11-13T08:00:00.000Z",
       "summary": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
       "tags": [
@@ -51,11 +51,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Global Optimization for Combinatorial Geometry Problems Revisited in Era of LLMs",
+      "url": "https://arxiv.org/abs/2601.05943",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.7157,
+      "publishedAt": "2026-11-14T11:53:06.000Z",
+      "summary": "Recent progress in LLM-driven algorithm discovery, exemplified by DeepMind’s AlphaEvolve, has produced new best-known solutions for a range of hard geometric and combinatorial problems. This raises a natural question: to what extent can modern off-the-shelf global optimization solvers match such res",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 3
+    },
+    {
       "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
       "url": "https://openai.com/business/customer-stories/amplitude",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7368,
+      "score": 0.6888,
       "publishedAt": "2026-11-12T20:00:00.000Z",
       "summary": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
       "tags": [
@@ -66,38 +79,50 @@
       "engagementScore": 0
     },
     {
-      "title": "Llama.cpp hits v1.0 with a native app for macOS",
-      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
       "feedSource": "Hacker News",
+      "source": "anthropic.com",
+      "score": 0.6707,
+      "publishedAt": "2026-11-09T18:01:10.000Z",
+      "summary": "",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 923
+    },
+    {
+      "title": "Searching for exotic scalars at fusion reactors (2025)",
+      "url": "https://arxiv.org/abs/2502.12314",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.662,
+      "publishedAt": "2026-11-14T03:59:42.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 3
+    },
+    {
+      "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+      "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+      "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6882,
-      "publishedAt": "2026-11-14T02:05:37.000Z",
-      "summary": "A Blog post by ggml-org on Hugging Face",
+      "score": 0.632,
+      "publishedAt": "2026-11-13T18:00:39.000Z",
+      "summary": "A Blog post by NVIDIA on Hugging Face",
       "tags": [
         "Open Source"
       ],
-      "engagementScore": 23
-    },
-    {
-      "title": "DeepSeek V4 Pro 0813",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
-      "feedSource": "Hacker News",
-      "source": "huggingface.co",
-      "score": 0.6823,
-      "publishedAt": "2026-11-14T00:50:33.000Z",
-      "summary": "Text Generation model with 1.7T parameters. Download, explore files and run it on Hugging Face.",
-      "tags": [
-        "Open Source",
-        "ML Infra"
-      ],
-      "engagementScore": 24
+      "engagementScore": 0
     },
     {
       "title": "Gondola doubles revenue as its team builds more with Codex",
       "url": "https://openai.com/business/customer-stories/gondola",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6785,
+      "score": 0.6304,
       "publishedAt": "2026-11-12T12:00:00.000Z",
       "summary": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
       "tags": [
@@ -107,38 +132,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
-      "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.6737,
-      "publishedAt": "2026-11-13T18:00:39.000Z",
-      "summary": "A Blog post by NVIDIA on Hugging Face",
-      "tags": [
-        "Open Source"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Claude Fable 5.2 and Mythos 5.2",
-      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
-      "feedSource": "Hacker News",
-      "source": "anthropic.com",
-      "score": 0.6707,
-      "publishedAt": "2026-11-09T18:01:10.000Z",
-      "summary": "Claude Fable 5.2 and Claude Mythos 5.2, our new models for the hardest technical challenges. Fable 5.2 sets a new bar in coding, finance, and the sciences.",
-      "tags": [
-        "LLM",
-        "Dev Tools"
-      ],
-      "engagementScore": 923
-    },
-    {
       "title": "XYBench: Helping with the problem behind the question",
       "url": "https://huggingface.co/blog/allenai/xybench",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6676,
+      "score": 0.6259,
       "publishedAt": "2026-11-13T17:02:35.000Z",
       "summary": "A Blog post by Ai2 on Hugging Face",
       "tags": [
@@ -147,11 +145,24 @@
       "engagementScore": 0
     },
     {
+      "title": "Silicon Valley claims to know the future. So why'd it get the midterms so wrong?",
+      "url": "https://www.technologyreview.com/2026/11/13/1148498/silicon-valley-claims-to-know-the-future-so-why-did-it-get-the-midterms-so-wrong/",
+      "feedSource": "Hacker News",
+      "source": "technologyreview.com",
+      "score": 0.6244,
+      "publishedAt": "2026-11-14T19:17:45.000Z",
+      "summary": "Tech executives traded their reputations as visionaries for short-term political gain.",
+      "tags": [
+        "Vision"
+      ],
+      "engagementScore": 13
+    },
+    {
       "title": "Holiday Extras is rethinking what it can build with Codex",
       "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6603,
+      "score": 0.6122,
       "publishedAt": "2026-11-12T09:30:00.000Z",
       "summary": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
       "tags": [
@@ -160,11 +171,24 @@
       "engagementScore": 0
     },
     {
+      "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.6072,
+      "publishedAt": "2026-11-13T14:05:22.000Z",
+      "summary": "A Blog post by ggml-org on Hugging Face",
+      "tags": [
+        "Open Source"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Introducing Gemini 4 Hydrogen",
       "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.6182,
+      "score": 0.5733,
       "publishedAt": "2026-11-12T18:00:50.000Z",
       "summary": "Today, we’re introducing Gemini 4 Hydrogen, our daily driver for agentic workflows",
       "tags": [
@@ -174,11 +198,63 @@
       "engagementScore": 0
     },
     {
+      "title": "Jensen Huang and the decline of the visionary showman founder CEO",
+      "url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5601,
+      "publishedAt": "2026-11-14T15:12:19.000Z",
+      "summary": "On January 6th, 2025, Nvidia CEO Jensen Huang got his rockstar moment at last. He strode triumphantly onstage, hand raised in the air, to the claps and cheers of a 14,000-person arena absolutely packed with influencers and fans, their faces awash in blue glow, as he made his entrance in a black leat",
+      "tags": [
+        "Vision"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Beware the New AI-Fueled Ransomware Boom",
+      "url": "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5483,
+      "publishedAt": "2026-11-14T13:00:00.000Z",
+      "summary": "Fully automated ransomware hasn’t arrived—yet. But seemingly unsophisticated attackers are using AI tools to wreak havoc.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "I Put the Best Digital Notebooks to the Test. Here Are My Favorites (2026)",
+      "url": "https://www.wired.com/gallery/best-smart-notebooks-and-smart-pens/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5434,
+      "publishedAt": "2026-11-14T12:05:00.000Z",
+      "summary": "These nifty tools combine the ease of jotting notes by hand with the power of saving them digitally.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "How to Run SteamOS on Your Mac",
+      "url": "https://www.wired.com/story/get-steamos-easily-running-on-your-mac/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.543,
+      "publishedAt": "2026-11-14T12:00:00.000Z",
+      "summary": "A free app lets you boot SteamOS in a virtual machine on your Apple Silicon Mac, unlocking PC and legacy games that otherwise won’t run.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Supporting research on AI and children’s safety",
       "url": "https://openai.com/index/children-first-declaration",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.591,
+      "score": 0.5429,
       "publishedAt": "2026-11-12T00:00:00.000Z",
       "summary": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
       "tags": [
@@ -194,7 +270,7 @@
       "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.591,
+      "score": 0.5429,
       "publishedAt": "2026-11-12T00:00:00.000Z",
       "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
       "tags": [
@@ -203,39 +279,13 @@
       "engagementScore": 0
     },
     {
-      "title": "Beware the New AI-Fueled Ransomware Boom",
-      "url": "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/",
+      "title": "10 Best Early Black Friday Headphone Deals (2026): Up to 50% Off",
+      "url": "https://www.wired.com/story/best-early-black-friday-headphone-deals-11-14-26/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5836,
-      "publishedAt": "2026-11-14T13:00:00.000Z",
-      "summary": "Fully automated ransomware hasn’t arrived—yet. But seemingly unsophisticated attackers are using AI tools to wreak havoc.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "I Put the Best Digital Notebooks to the Test. Here Are My Favorites (2026)",
-      "url": "https://www.wired.com/gallery/best-smart-notebooks-and-smart-pens/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5787,
-      "publishedAt": "2026-11-14T12:05:00.000Z",
-      "summary": "These nifty tools combine the ease of jotting notes by hand with the power of saving them digitally.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "How to Run SteamOS on Your Mac",
-      "url": "https://www.wired.com/story/get-steamos-easily-running-on-your-mac/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5782,
-      "publishedAt": "2026-11-14T12:00:00.000Z",
-      "summary": "A free app lets you boot SteamOS in a virtual machine on your Apple Silicon Mac, unlocking PC and legacy games that otherwise won’t run.",
+      "score": 0.5403,
+      "publishedAt": "2026-11-14T11:30:00.000Z",
+      "summary": "Get up to 50 percent off some of my favorite headphones and earbuds from Apple, Sony, Nothing, and more.",
       "tags": [
         "AI"
       ],
@@ -246,7 +296,7 @@
       "url": "https://www.wired.com/story/audit-all-the-cloud-storage-links-youve-shared/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5756,
+      "score": 0.5403,
       "publishedAt": "2026-11-14T11:30:00.000Z",
       "summary": "Those old links you shared with friends ages ago are still live, and they might be attracting unwelcome visitors.",
       "tags": [
@@ -255,24 +305,24 @@
       "engagementScore": 0
     },
     {
-      "title": "10 Best Early Black Friday Headphone Deals (2026): Up to 50% Off",
-      "url": "https://www.wired.com/story/best-early-black-friday-headphone-deals-11-14-26/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5756,
-      "publishedAt": "2026-11-14T11:30:00.000Z",
-      "summary": "Get up to 50 percent off some of my favorite headphones and earbuds from Apple, Sony, Nothing, and more.",
+      "title": "Lovable apps expose passport details and more than 200K private messages",
+      "url": "https://www.crissyfield.de/research/lovable-en/",
+      "feedSource": "Hacker News",
+      "source": "crissyfield.de",
+      "score": 0.5401,
+      "publishedAt": "2026-11-14T17:43:10.000Z",
+      "summary": "Our analysis of 159,041 Lovable projects reveals many cases where sensitive data was accessible without logging in.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 0
+      "engagementScore": 253
     },
     {
       "title": "The 21 Best REI Holiday Sale Outdoor Deals (2026)",
       "url": "https://www.wired.com/story/best-rei-holiday-sale-outdoor-deals-2026/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5729,
+      "score": 0.5376,
       "publishedAt": "2026-11-14T11:00:00.000Z",
       "summary": "Stock up on outdoor gear and gifts for friends at REI's annual holiday sale.",
       "tags": [
@@ -285,7 +335,7 @@
       "url": "https://www.wired.com/story/no-pilots-few-air-traffic-controllers-what-could-go-wrong/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5729,
+      "score": 0.5376,
       "publishedAt": "2026-11-14T11:00:00.000Z",
       "summary": "Normally, aviation is slow to embrace new technology—but AI has come for the skies.",
       "tags": [
@@ -298,7 +348,7 @@
       "url": "https://www.wired.com/story/best-pickleball-paddles/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5708,
+      "score": 0.5356,
       "publishedAt": "2026-11-14T10:37:00.000Z",
       "summary": "Paddles are getting more sophisticated and expensive. We’ve tested 100+ over the years to find our favorites.",
       "tags": [
@@ -307,125 +357,30 @@
       "engagementScore": 0
     },
     {
-      "title": "The Download: Silicon Valley’s blind spot and Nvidia’s chip-tracking plan",
-      "url": "https://www.technologyreview.com/2026/11/13/1148551/the-download-silicon-valley-midterms-nvidia-chip-tracking/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.5456,
-      "publishedAt": "2026-11-13T13:10:00.000Z",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Silicon Valley claims to know the future. So why did it get the midterms so wrong? —Aaron Zamost, a tech communications consultant and a former execut",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Jensen Huang scandal is hardly over",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1032069/jensen-huang-resignation-affair-chips-smuggling",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5401,
-      "publishedAt": "2026-11-14T04:51:44.000Z",
-      "summary": "I was certain, until the story of Jensen Huang's second affair hit, that Huang was bulletproof. After all, why wouldn't he be? He's placed himself indispensably at the center of the AI industry and famously had no succession plan at Nvidia. In fact, he's the only CEO Nvidia has ever had. L'&#233;tat",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Gemini 4 Hydrogen",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+      "title": "Tech Companies Are Trying to Shift the Concept of Privacy (Again)",
+      "url": "https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again",
       "feedSource": "Hacker News",
-      "source": "blog.google",
-      "score": 0.5393,
-      "publishedAt": "2026-11-12T18:01:48.000Z",
-      "summary": "Today, we’re introducing Gemini 4 Hydrogen, our daily driver for agentic workflows",
+      "source": "eff.org",
+      "score": 0.5244,
+      "publishedAt": "2026-11-14T12:45:45.000Z",
+      "summary": "Privacy, which companies were once happy to claim was all about personal choice, is now primed to affect everyone around you even more than it already did.Meta and Google’s smart glasses can record anything the owner is looking at or use artificial intelligence to describe it. Apple’s* Audio…",
       "tags": [
-        "LLM",
-        "Agents"
+        "AI"
       ],
-      "engagementScore": 565
+      "engagementScore": 319
     },
     {
       "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
       "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
       "feedSource": "Hacker News",
       "source": "techpowerup.com",
-      "score": 0.5385,
+      "score": 0.5174,
       "publishedAt": "2026-11-14T02:52:59.000Z",
-      "summary": "Following the departure of now-former NVIDIA CEO, Jensen Huang, a new report by The Wall Street Journal (via Wccftech) has emerged alleging that NVIDIA artificially inflated the ongoing GPU and memory shortage by investing in AI startups that would go on to buy NVIDIA GPUs and build data centers.…",
+      "summary": "Following the departure of now-former NVIDIA CEO, Jensen Huang, a new report by The Wall Street Journal (via Wccftech) has emerged alleging that NVIDIA artificially inflated the ongoing GPU and memory shortage by investing in AI startups that would go on to buy NVIDIA GPUs and build data centers.���",
       "tags": [
         "Industry"
       ],
-      "engagementScore": 733
-    },
-    {
-      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
-      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.5291,
-      "publishedAt": "2026-11-12T19:07:35.000Z",
-      "summary": "",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "More autonomy, fewer NDAs: Volunteers have new requests for brain implant trials",
-      "url": "https://www.technologyreview.com/2026/11/13/1148474/more-autonomy-fewer-ndas-volunteers-have-new-requests-for-brain-implant-trials/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.5271,
-      "publishedAt": "2026-11-13T10:00:00.000Z",
-      "summary": "Scientists have been working on ways to decode brain activity for decades. Teams have developed brain implants that can be used to control robotic limbs and computers, and even to “speak.” The people who volunteer for trials of those devices play a vital role in that research, and they ought to be r",
-      "tags": [
-        "Research",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Silicon Valley claims to know the future. So why did it get the midterms so wrong?",
-      "url": "https://www.technologyreview.com/2026/11/13/1148498/silicon-valley-claims-to-know-the-future-so-why-did-it-get-the-midterms-so-wrong/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.5271,
-      "publishedAt": "2026-11-13T10:00:00.000Z",
-      "summary": "The self-styled visionaries of Silicon Valley, leaders like OpenAI chief executive Sam Altman and SpaceX boss Elon Musk, have built careers claiming to see the future. Long-term vision is currency: Meta’s Mark Zuckerberg built a 10-year road map for Facebook in 2016, and Google famously told investo",
-      "tags": [
-        "LLM",
-        "Vision",
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Jensen Huang and the decline of the visionary showman founder CEO",
-      "url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5225,
-      "publishedAt": "2026-11-14T01:34:37.000Z",
-      "summary": "On January 6th, 2025, Nvidia CEO Jensen Huang got his rockstar moment at last. He strode triumphantly onstage, hand raised in the air, to the claps and cheers of a 14,000-person arena absolutely packed with influencers and fans, their faces awash in blue glow, as he made his entrance in a black leat",
-      "tags": [
-        "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Amazon has a plan to index the world’s online shopping data",
-      "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5131,
-      "publishedAt": "2026-11-13T23:49:11.000Z",
-      "summary": "Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters. The project, called the \"World Product Graph,\" is meant to make it less likely that shoppers lea",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
+      "engagementScore": 992
     },
     {
       "title": "ChatGPT Plus for veterans and servicemembers",
@@ -441,24 +396,119 @@
       "engagementScore": 0
     },
     {
-      "title": "Ggml v1.0.0",
-      "url": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0",
-      "feedSource": "Hacker News",
-      "source": "github.com",
-      "score": 0.5054,
-      "publishedAt": "2026-11-14T02:28:29.000Z",
-      "summary": "Overview\nggml 1.0.0 prunes the deprecated public API and the legacy DIAG_MASK ops, adds configurable YaRN truncation and FP8 support, and brings broad performance work across backends: few-row quan…",
+      "title": "The Download: Silicon Valley’s blind spot and Nvidia’s chip-tracking plan",
+      "url": "https://www.technologyreview.com/2026/11/13/1148551/the-download-silicon-valley-midterms-nvidia-chip-tracking/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.5072,
+      "publishedAt": "2026-11-13T13:10:00.000Z",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Silicon Valley claims to know the future. So why did it get the midterms so wrong? —Aaron Zamost, a tech communications consultant and a former execut",
       "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "More autonomy, fewer NDAs: Volunteers have new requests for brain implant trials",
+      "url": "https://www.technologyreview.com/2026/11/13/1148474/more-autonomy-fewer-ndas-volunteers-have-new-requests-for-brain-implant-trials/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.4887,
+      "publishedAt": "2026-11-13T10:00:00.000Z",
+      "summary": "Scientists have been working on ways to decode brain activity for decades. Teams have developed brain implants that can be used to control robotic limbs and computers, and even to “speak.” The people who volunteer for trials of those devices play a vital role in that research, and they ought to be r",
+      "tags": [
+        "Research",
         "Dev Tools"
       ],
-      "engagementScore": 310
+      "engagementScore": 0
+    },
+    {
+      "title": "Anthropic CEO Amodei admits &quot;there&#039;s a huge uncertainty in what&#039;s going to happen next year&quot; days before a record IPO",
+      "url": "https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/",
+      "feedSource": "The Decoder",
+      "source": "the-decoder.com",
+      "score": 0.4881,
+      "publishedAt": "2026-11-14T19:05:17.000Z",
+      "summary": "Days before what could be the largest IPO in history, Anthropic CEO Dario Amodei called buying compute 'the deepest business dilemma' his company faces. Anthropic's commitments now total nearly $901 billion, and it's still far from clear whether future revenue will justify those costs. The",
+      "tags": [
+        "LLM",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.4874,
+      "publishedAt": "2026-11-12T19:07:35.000Z",
+      "summary": "",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The OpenAI board member who fired Sam Altman says we still can&#8217;t trust AI CEOs",
+      "url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.4794,
+      "publishedAt": "2026-11-14T00:06:40.000Z",
+      "summary": "Today, I’m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University. This episode is part two of our series on AI in real life. Helen is a well-known figure in the AI safety and policy community, though she is perhaps best known for",
+      "tags": [
+        "LLM",
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Amazon has a plan to index the world’s online shopping data",
+      "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.4779,
+      "publishedAt": "2026-11-13T23:49:11.000Z",
+      "summary": "Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters. The project, called the \"World Product Graph,\" is meant to make it less likely that shoppers lea",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Gemini 4 Carbon takes the MathArena crown but costs 15 times more than GPT-6.1 Sol",
+      "url": "https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/",
+      "feedSource": "The Decoder",
+      "source": "the-decoder.com",
+      "score": 0.477,
+      "publishedAt": "2026-11-14T16:48:01.000Z",
+      "summary": "For the first time in a while, no OpenAI model leads the MathArena AI math benchmark. Google's Gemini 4 Carbon and Anthropic's Fable 5.2 have knocked GPT-6.1 Sol from the top, though both cost significantly more. Gemini ignored the time limit in testing and almost never gave up on a task.\nT",
+      "tags": [
+        "LLM",
+        "ML Infra"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Anthropic says outdated prompting habits are slowing down Claude Opus 5.5",
+      "url": "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/",
+      "feedSource": "The Decoder",
+      "source": "the-decoder.com",
+      "score": 0.4765,
+      "publishedAt": "2026-11-14T16:42:56.000Z",
+      "summary": "Anthropic has made Claude Opus 5.5 the default model on all paid plans and published a guide that does away with old prompting habits. The main takeaway is to drop \"think hard\" and start at Medium effort.\nThe article Anthropic says outdated prompting habits are slowing down Claude Opus 5.5",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4967,
+      "score": 0.4615,
       "publishedAt": "2026-11-13T20:45:10.000Z",
       "summary": "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued American Express, Chase, Mastercard and",
       "tags": [
@@ -468,24 +518,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Nvidia director sold nearly $1B in stock weeks before the Jensen Huang scandal",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html",
-      "feedSource": "Hacker News",
-      "source": "finance.yahoo.com",
-      "score": 0.4895,
-      "publishedAt": "2026-11-14T02:21:36.000Z",
-      "summary": "Huang stepped down as CEO after reports of a second extramarital relationship with Nvidia executive Kimberly Powell emerged.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 203
-    },
-    {
       "title": "What&#8217;s really at stake in the Jensen Huang saga",
       "url": "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.4889,
+      "score": 0.4536,
       "publishedAt": "2026-11-13T19:17:15.000Z",
       "summary": "One part of the saga surrounding Nvidia CEO Jensen Huang ended on Thursday, when Huang resigned from his position at the top of AI's most important company. But in the coming weeks and months, a much bigger story may be about to unfold. A story about Nvidia's dealings in China, about the US governme",
       "tags": [
@@ -498,7 +535,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.488,
+      "score": 0.4527,
       "publishedAt": "2026-11-13T19:07:12.000Z",
       "summary": "Usually, we'd be offering to answer your questions about a news event, but honestly we don't really have any answers about what the hell is going on over at Nvidia. I can't speak for Nilay but at the rate Jensen Huang's new mistresses are dropping, I am concerned we are approaching an affair Singula",
       "tags": [
@@ -511,7 +548,7 @@
       "url": "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4841,
+      "score": 0.4521,
       "publishedAt": "2026-11-14T11:40:51.000Z",
       "summary": "OpenAI is dissolving its standalone robotics team for the second time, but not because it lacks data. General-purpose models like GPT-6 Astra can apparently control robots directly, making a dedicated unit unnecessary. The researchers are being redistributed across other teams in what the c",
       "tags": [
@@ -525,7 +562,7 @@
       "url": "https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4826,
+      "score": 0.4505,
       "publishedAt": "2026-11-14T11:21:41.000Z",
       "summary": "Former OpenAI and Anthropic researcher Jacob Coxon points to a slide from Anthropic's IPO roadshow as a reason he left, saying it shows the company's algorithms are improving not just quickly but at an accelerating rate. Coxon continues to call for a pause on frontier model development so c",
       "tags": [
@@ -541,7 +578,7 @@
       "url": "https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4748,
+      "score": 0.4427,
       "publishedAt": "2026-11-14T09:45:45.000Z",
       "summary": "Runway releases its robotics model Praxis-1 with open weights and source code under the Apache 2.0 license. The model uses knowledge from video training for robot control and leads the World Action Model category on Nvidia's RoboLab-120 benchmark. It can't yet plan complex action sequences",
       "tags": [
@@ -553,44 +590,15 @@
       "engagementScore": 0
     },
     {
-      "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
-      "url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.4471,
-      "publishedAt": "2026-11-12T20:16:24.000Z",
-      "summary": "Representatives from Nvidia told Illinois representative Bill Foster that it would be technically possible to implement the anti-smuggling measures called for in the Chip Security Act, Foster told MIT Technology Review in an interview on Thursday, even while an industry group claimed they were “pote",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
       "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
       "feedSource": "DeepMind",
       "source": "deepmind.google",
-      "score": 0.4344,
+      "score": 0.4222,
       "publishedAt": "2026-11-11T15:00:15.000Z",
       "summary": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
       "tags": [
         "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
-      "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
-      "feedSource": "Google AI",
-      "source": "blog.google",
-      "score": 0.4338,
-      "publishedAt": "2026-11-12T18:00:00.000Z",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/HydrogenUI_socialshare.max-600x600.format-webp.webp\"&gt;We are bringing Gemini 4 Hydrogen to Google Search globally to provide you with more helpful, visual, and intuitive responses.",
-      "tags": [
-        "LLM",
-        "RAG",
-        "Vision",
-        "Dev Tools"
       ],
       "engagementScore": 0
     },
@@ -672,20 +680,6 @@
       "summary": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
       "tags": [
         "Agents"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Jensen Huang&#039;s ouster likely traces back to Nvidia&#039;s risky business practices more than his personal life",
-      "url": "https://the-decoder.com/jensen-huangs-ouster-likely-traces-back-to-nvidias-risky-business-practices-more-than-his-personal-life/",
-      "feedSource": "The Decoder",
-      "source": "the-decoder.com",
-      "score": 0.4085,
-      "publishedAt": "2026-11-13T20:07:34.000Z",
-      "summary": "Jensen Huang likely left Nvidia more because of risky business practices than anything else, a Wall Street Journal report suggests. At the very least, those practices made him enemies internally. The company offered cloud providers billions in financial guarantees for chip purchases, includ",
-      "tags": [
-        "Safety",
-        "Industry"
       ],
       "engagementScore": 0
     }
