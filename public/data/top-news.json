@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T21:47:48.274Z",
+  "updatedAt": "2026-11-17T07:14:40.957Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,25 +8,24 @@
   ],
   "items": [
     {
-      "title": "OpenAI: Strengthening the fight against online child sexual abuse",
+      "title": "Strengthening the fight against online child sexual abuse",
       "url": "https://openai.com/index/strengthening-online-child-safety/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 1.0295,
+      "score": 0.9866,
       "publishedAt": "2026-11-16T18:12:48.000Z",
       "summary": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
       "tags": [
-        "LLM",
         "Dev Tools"
       ],
-      "engagementScore": 70
+      "engagementScore": 113
     },
     {
       "title": "Broadening access to AI for scientists",
       "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 1.0024,
+      "score": 0.9335,
       "publishedAt": "2026-11-16T17:00:00.000Z",
       "summary": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
       "tags": [
@@ -40,7 +39,7 @@
       "url": "https://openai.com/index/strengthening-online-child-safety",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 1.0024,
+      "score": 0.9335,
       "publishedAt": "2026-11-16T17:00:00.000Z",
       "summary": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
       "tags": [
@@ -53,20 +52,22 @@
       "url": "https://openai.com/index/our-first-phase-of-embedded-assessments/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.9664,
+      "score": 0.926,
       "publishedAt": "2026-11-16T16:07:20.000Z",
-      "summary": "",
+      "summary": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
       "tags": [
-        "LLM"
+        "LLM",
+        "Research",
+        "Safety"
       ],
-      "engagementScore": 29
+      "engagementScore": 49
     },
     {
       "title": "Science at the Frontier: How scientists use ChatGPT",
       "url": "https://openai.com/index/science-at-the-frontier",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9659,
+      "score": 0.8971,
       "publishedAt": "2026-11-16T12:00:00.000Z",
       "summary": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
       "tags": [
@@ -76,11 +77,142 @@
       "engagementScore": 0
     },
     {
+      "title": "When Should LLM Agents Forget? Memory Filtering Under Query-Critical Resolver Errors",
+      "url": "https://arxiv.org/abs/2611.17338",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8969,
+      "publishedAt": "2026-11-17T05:00:00.000Z",
+      "summary": "arXiv:2611.17338v1 Announce Type: new \nAbstract: LLM memory systems often delete facts classified as stale. We show that this hard-filtering step can reduce downstream accuracy when resolver errors delete query-critical facts. Across three models, a controlled sensitivity intervention moves hard-dro",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Does the Ranking Hold? A Practitioner-Facing Audit of Hallucination Detectors on Small, Quantized, On-Device LLMs",
+      "url": "https://arxiv.org/abs/2611.17339",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8969,
+      "publishedAt": "2026-11-17T05:00:00.000Z",
+      "summary": "arXiv:2611.17339v1 Announce Type: new \nAbstract: Hallucination detection for large language models is dominated by methods evaluated on 7B-70B research models with abundant sampling budgets and exact-match or ROUGE correctness labels. The small models practitioners actually ship on-device, Phi-3-min",
+      "tags": [
+        "LLM",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "LoRAWeaver: Directional Adapter Routing in LoRA Representation Space",
+      "url": "https://arxiv.org/abs/2611.17340",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8969,
+      "publishedAt": "2026-11-17T05:00:00.000Z",
+      "summary": "arXiv:2611.17340v1 Announce Type: new \nAbstract: Large language models are expensive to update through full retraining. Parameter-efficient fine-tuning reduces the cost of adaptation, but repeated adaptation creates a growing pool of task-specific LoRA adapters. This pool complicates adapter selecti",
+      "tags": [
+        "LLM",
+        "Research",
+        "ML Infra"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Tabular Population Priors as Structured Retrieval for EHR Medication Set Prediction",
+      "url": "https://arxiv.org/abs/2611.17341",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8969,
+      "publishedAt": "2026-11-17T05:00:00.000Z",
+      "summary": "arXiv:2611.17341v1 Announce Type: new \nAbstract: Medication prediction from electronic health records is a fixed vocabulary structured prediction problem, yet recent clinical RAG systems often treat it like open ended case based reasoning: retrieve similar patient admissions and ask an LLM to infer",
+      "tags": [
+        "LLM",
+        "Research",
+        "RAG"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "An Operationalization of Opaque Serial Depth",
+      "url": "https://arxiv.org/abs/2611.17495",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8969,
+      "publishedAt": "2026-11-17T05:00:00.000Z",
+      "summary": "arXiv:2611.17495v1 Announce Type: new \nAbstract: Chain-of-thought (CoT) is currently a valuable tool for overseeing AI models, but some architectural shifts could significantly reduce CoT monitorability. We operationalize a measure that serves as a proxy for the amount of unverbalized serial cogniti",
+      "tags": [
+        "Research",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Advancing Quantization for R&amp;R Models with Microscaling Formats",
+      "url": "https://arxiv.org/abs/2611.17501",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8969,
+      "publishedAt": "2026-11-17T05:00:00.000Z",
+      "summary": "arXiv:2611.17501v1 Announce Type: new \nAbstract: Recommendation and Ranking (R&amp;R) models, particularly in digital advertising, require massive inference throughput but exhibit extreme sensitivity to precision loss. Unlike Large Language Models (LLMs) that frequently tolerate quantization-induced",
+      "tags": [
+        "LLM",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "A Push Down the Mountain: Framing Effects and Internal State Interventions on Collusive Behavior in a Long-Horizon LLM Agent",
+      "url": "https://arxiv.org/abs/2611.17515",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8969,
+      "publishedAt": "2026-11-17T05:00:00.000Z",
+      "summary": "arXiv:2611.17515v1 Announce Type: new \nAbstract: Can sustained gain-loss (valence) framing sway an LLM agent toward market manipulation? We place Gemma 3 12B into the seat of a defendant in the London silver-fixing litigation, in a market simulation built from real case transcripts. Across 260 simul",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Model Annealing: Data-Efficient Learning through Review and Consolidation",
+      "url": "https://arxiv.org/abs/2611.17524",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8969,
+      "publishedAt": "2026-11-17T05:00:00.000Z",
+      "summary": "arXiv:2611.17524v1 Announce Type: new \nAbstract: A small labelled dataset is memorized long before the training budget runs out, and the one-hot labels that remain to be fitted then mostly sharpen confidence. Model annealing spends the rest of the budget on review and consolidation, relearning from",
+      "tags": [
+        "Research",
+        "ML Infra"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "How Revolut raises ambition without lowering the bar",
+      "url": "https://openai.com/business/customer-stories/revolut",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.8788,
+      "publishedAt": "2026-11-16T09:30:00.000Z",
+      "summary": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.",
+      "tags": [
+        "LLM",
+        "Dev Tools",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
       "url": "https://openai.com/index/lvmh-media-division-partnership",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9441,
+      "score": 0.8752,
       "publishedAt": "2026-11-16T09:00:00.000Z",
       "summary": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
       "tags": [
@@ -94,7 +226,7 @@
       "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9368,
+      "score": 0.8679,
       "publishedAt": "2026-11-16T08:00:00.000Z",
       "summary": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
       "tags": [
@@ -109,7 +241,7 @@
       "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9222,
+      "score": 0.8533,
       "publishedAt": "2026-11-16T06:00:00.000Z",
       "summary": "Healthcare is fragmented, and teams often need to move information between systems manually before a patient can get care. When a clinician recommends an MRI, for example, the information an insurer needs may be in a patient’s medical record, but a team member still needs to retrieve it and enter it",
       "tags": [
@@ -123,7 +255,7 @@
       "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9222,
+      "score": 0.8533,
       "publishedAt": "2026-11-16T06:00:00.000Z",
       "summary": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
       "tags": [
@@ -133,140 +265,11 @@
       "engagementScore": 0
     },
     {
-      "title": "The King’s Trust and OpenAI launch £1m partnership",
-      "url": "https://openai.com/index/the-kings-trust-and-openai",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.8784,
-      "publishedAt": "2026-11-16T00:00:00.000Z",
-      "summary": "The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "When Should LLM Agents Forget? Memory Filtering Under Query-Critical Resolver Errors",
-      "url": "https://arxiv.org/abs/2611.17338",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7979,
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "summary": "arXiv:2611.17338v1 Announce Type: new \nAbstract: LLM memory systems often delete facts classified as stale. We show that this hard-filtering step can reduce downstream accuracy when resolver errors delete query-critical facts. Across three models, a controlled sensitivity intervention moves hard-dro",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Does the Ranking Hold? A Practitioner-Facing Audit of Hallucination Detectors on Small, Quantized, On-Device LLMs",
-      "url": "https://arxiv.org/abs/2611.17339",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7979,
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "summary": "arXiv:2611.17339v1 Announce Type: new \nAbstract: Hallucination detection for large language models is dominated by methods evaluated on 7B-70B research models with abundant sampling budgets and exact-match or ROUGE correctness labels. The small models practitioners actually ship on-device, Phi-3-min",
-      "tags": [
-        "LLM",
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "LoRAWeaver: Directional Adapter Routing in LoRA Representation Space",
-      "url": "https://arxiv.org/abs/2611.17340",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7979,
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "summary": "arXiv:2611.17340v1 Announce Type: new \nAbstract: Large language models are expensive to update through full retraining. Parameter-efficient fine-tuning reduces the cost of adaptation, but repeated adaptation creates a growing pool of task-specific LoRA adapters. This pool complicates adapter selecti",
-      "tags": [
-        "LLM",
-        "Research",
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Tabular Population Priors as Structured Retrieval for EHR Medication Set Prediction",
-      "url": "https://arxiv.org/abs/2611.17341",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7979,
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "summary": "arXiv:2611.17341v1 Announce Type: new \nAbstract: Medication prediction from electronic health records is a fixed vocabulary structured prediction problem, yet recent clinical RAG systems often treat it like open ended case based reasoning: retrieve similar patient admissions and ask an LLM to infer",
-      "tags": [
-        "LLM",
-        "Research",
-        "RAG"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "An Operationalization of Opaque Serial Depth",
-      "url": "https://arxiv.org/abs/2611.17495",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7979,
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "summary": "arXiv:2611.17495v1 Announce Type: new \nAbstract: Chain-of-thought (CoT) is currently a valuable tool for overseeing AI models, but some architectural shifts could significantly reduce CoT monitorability. We operationalize a measure that serves as a proxy for the amount of unverbalized serial cogniti",
-      "tags": [
-        "Research",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Advancing Quantization for R&amp;R Models with Microscaling Formats",
-      "url": "https://arxiv.org/abs/2611.17501",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7979,
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "summary": "arXiv:2611.17501v1 Announce Type: new \nAbstract: Recommendation and Ranking (R&amp;R) models, particularly in digital advertising, require massive inference throughput but exhibit extreme sensitivity to precision loss. Unlike Large Language Models (LLMs) that frequently tolerate quantization-induced",
-      "tags": [
-        "LLM",
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "A Push Down the Mountain: Framing Effects and Internal State Interventions on Collusive Behavior in a Long-Horizon LLM Agent",
-      "url": "https://arxiv.org/abs/2611.17515",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7979,
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "summary": "arXiv:2611.17515v1 Announce Type: new \nAbstract: Can sustained gain-loss (valence) framing sway an LLM agent toward market manipulation? We place Gemma 3 12B into the seat of a defendant in the London silver-fixing litigation, in a market simulation built from real case transcripts. Across 260 simul",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Model Annealing: Data-Efficient Learning through Review and Consolidation",
-      "url": "https://arxiv.org/abs/2611.17524",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7979,
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "summary": "arXiv:2611.17524v1 Announce Type: new \nAbstract: A small labelled dataset is memorized long before the training budget runs out, and the one-hot labels that remain to be fitted then mostly sharpen confidence. Model annealing spends the rest of the budget on review and consolidation, relearning from",
-      "tags": [
-        "Research",
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "The open-source movement wants Jensen Huang back",
       "url": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6675,
+      "score": 0.6124,
       "publishedAt": "2026-11-16T18:38:47.000Z",
       "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. On Friday, a petition to reinstate Jensen Huang as CEO of Nvidia began circulating on social media, and by Monday it listed some notable signatories, including El",
       "tags": [
@@ -279,7 +282,7 @@
       "url": "https://huggingface.co/blog/openrouter",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6573,
+      "score": 0.5976,
       "publishedAt": "2026-11-16T00:00:00.000Z",
       "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
       "tags": [
@@ -293,7 +296,7 @@
       "url": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6525,
+      "score": 0.5974,
       "publishedAt": "2026-11-16T16:04:28.000Z",
       "summary": "In October this year, OpenAI disclosed that two of its AI agents had switched off the systems built to monitor them. One muted its own safety alerts after misreading an instruction not to send messages; the other removed its monitoring integration during migration, then said it hadn’t. No rule had t",
       "tags": [
@@ -308,7 +311,7 @@
       "url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.6404,
+      "score": 0.5853,
       "publishedAt": "2026-11-16T14:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Ask_Maps_November_herosocial.max-600x600.format-webp.webp\"&gt;Plan holiday road trips, get route tips, find local appointments, and search your saved lists with new Ask Maps features.",
       "tags": [
@@ -323,7 +326,7 @@
       "url": "https://www.technologyreview.com/2026/11/16/1148599/the-download-testing-tech-promises-cognitive-immortality-quest/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6356,
+      "score": 0.5804,
       "publishedAt": "2026-11-16T13:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Are we there yet? Six technologies that promised to change the world How do you measure progress towards the future? In the Impossible issue of MIT Te",
       "tags": [
@@ -336,7 +339,7 @@
       "url": "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6346,
+      "score": 0.5795,
       "publishedAt": "2026-11-16T13:00:00.000Z",
       "summary": "For years, enterprises have approached AI as a series of discrete experiments. Now, as AI agents begin to move into the workflows that run the business, that model is starting to look inadequate. Organizations moving from isolated pilots toward AI agents and autonomous workflows are confronting a de",
       "tags": [
@@ -345,13 +348,117 @@
       "engagementScore": 0
     },
     {
+      "title": "Chewy Promo Codes: 25% Off November 2026",
+      "url": "https://www.wired.com/story/chewy-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5781,
+      "publishedAt": "2026-11-17T06:00:00.000Z",
+      "summary": "Explore Chewy coupon codes for $30 off, $20 off your first order of $49, 50% off pet food, and more November 2026 discounts.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Uber Eats Promo Codes: $15 Off│November 2026",
+      "url": "https://www.wired.com/story/uber-eats-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5781,
+      "publishedAt": "2026-11-17T06:00:00.000Z",
+      "summary": "Hunger meets savings. Discover verified Uber Eats promo codes, new user offers, and Uber One discounts to slash your delivery fees and meal costs.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "50% Off DoorDash Promo Code | November 2026",
+      "url": "https://www.wired.com/story/doordash-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5781,
+      "publishedAt": "2026-11-17T06:00:00.000Z",
+      "summary": "Explore today’s top DoorDash promo codes for $25 off your first order, free delivery, and 50% off DashPass for students and select users.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Booking.com Promo Codes: 20% Off | November 2026",
+      "url": "https://www.wired.com/story/booking-com-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5781,
+      "publishedAt": "2026-11-17T06:00:00.000Z",
+      "summary": "Enjoy big savings on your next adventure with our Booking.com promo codes, coupons, and handpicked travel deals.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Hotels.com Coupon Codes: 50% Off for November 2026",
+      "url": "https://www.wired.com/story/hotels-com-coupon/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5781,
+      "publishedAt": "2026-11-17T06:00:00.000Z",
+      "summary": "Unlock significant savings on hotels, resorts, and getaways with our verified Hotels.com promo codes and gift card discounts. Plan your perfect trip today!",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Udemy Coupon Codes: 20% Off November 2026",
+      "url": "https://www.wired.com/story/udemy-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5781,
+      "publishedAt": "2026-11-17T06:00:00.000Z",
+      "summary": "Learn new skills for less. Discover how to apply a promo code for Udemy, find verified online discounts, and save on professional development.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Surfshark Promo Codes: 87% Off | November 2026",
+      "url": "https://www.wired.com/story/surfshark-coupon/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5781,
+      "publishedAt": "2026-11-17T06:00:00.000Z",
+      "summary": "Save up to 87% with a Surfshark coupon code, 3 months of VPN free today, and more from WIRED.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "1Password Coupon: Score a Free Trial in November 2026",
+      "url": "https://www.wired.com/story/1password-coupon/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5781,
+      "publishedAt": "2026-11-17T06:00:00.000Z",
+      "summary": "Save up to 28% on business and personal memberships with 1Password promo codes and deals.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "California sues OpenAI over rogue AI hacking incidents",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5792,
-      "publishedAt": "2026-11-16T20:46:01.000Z",
-      "summary": "California is suing OpenAI after its AI agents broke out of their testing environment and hacked other companies, including Hugging Face. In a lawsuit on Monday, Attorney General Rob Bonta accuses OpenAI of violating consumer safety law by knowingly developing a \"dangerous product without proper ove",
+      "score": 0.541,
+      "publishedAt": "2026-11-16T23:04:02.000Z",
+      "summary": "California is suing OpenAI after its AI agents broke out of their testing environment and hacked other companies, including Hugging Face. In a lawsuit filed Monday, Attorney General Rob Bonta accuses OpenAI of violating consumer safety law by knowingly developing a \"dangerous product without proper",
       "tags": [
         "LLM",
         "Agents",
@@ -365,8 +472,8 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/1034787/sam-altman-ram-shortage-semafor",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5788,
-      "publishedAt": "2026-11-16T20:41:28.000Z",
+      "score": 0.5395,
+      "publishedAt": "2026-11-16T22:47:14.000Z",
       "summary": "OpenAI CEO Sam Altman is once again addressing his controversial comments on PC RAM purchases. \"I want to be clear, I want people to have a lot of RAM, I think everybody should be able to buy a lot of RAM for their own computer,\" Altman said today. \"I think the home tinkering is great.\" [&#8230;]",
       "tags": [
         "LLM"
@@ -374,11 +481,25 @@
       "engagementScore": 0
     },
     {
+      "title": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
+      "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+      "feedSource": "Hacker News",
+      "source": "xusheng.dev",
+      "score": 0.5342,
+      "publishedAt": "2026-11-16T22:58:20.000Z",
+      "summary": "Reverse engineering Windows 11’s MissionControlAggregator reveals coding-agent and developer-tool usage bits in a diagnostic ETW report.",
+      "tags": [
+        "Agents",
+        "Dev Tools"
+      ],
+      "engagementScore": 493
+    },
+    {
       "title": "Big Nuclear isn’t worried about the Democrats stopping data centers",
       "url": "https://www.theverge.com/science/1034694/nuclear-energy-constellation-earnings-data-centers-democrats",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5781,
+      "score": 0.5275,
       "publishedAt": "2026-11-16T20:32:51.000Z",
       "summary": "Constellation Energy - America's largest operator of nuclear power plants - does not share Wall Street's concerns that the Democrats will slow down data center development. On the company's third-quarter earnings call last week, CEO Joe Dominguez was, for lack of a better word, unbothered as he addr",
       "tags": [
@@ -391,7 +512,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/1034668/data-centers-electricity-climate-pollution-study-harvard",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5776,
+      "score": 0.5271,
       "publishedAt": "2026-11-16T20:27:58.000Z",
       "summary": "Fossil fuels are still the biggest source of electricity for hyperscale data centers in the US, a new paper published in the journal Nature Sustainability shows. They likely burn through more electricity collectively than many countries do, resulting in a serious amount of greenhouse gas emissions.",
       "tags": [
@@ -400,24 +521,24 @@
       "engagementScore": 0
     },
     {
-      "title": "Best Early Black Friday Espresso Machine Deals (2026)",
-      "url": "https://www.wired.com/story/early-black-friday-coffee-espresso-deals-11-16-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5751,
-      "publishedAt": "2026-11-16T20:00:00.000Z",
-      "summary": "Impress your Thanksgiving guests with a cappuccino. These early deals on WIRED-tested favorites leave you time to practice.",
+      "title": "Tech leaders are convinced that Jensen Huang's exit was a plot against him",
+      "url": "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories",
+      "feedSource": "Hacker News",
+      "source": "theverge.com",
+      "score": 0.5266,
+      "publishedAt": "2026-11-17T05:50:41.000Z",
+      "summary": "",
       "tags": [
         "AI"
       ],
-      "engagementScore": 0
+      "engagementScore": 14
     },
     {
       "title": "Apple is testing daily usage limits for more complex Siri AI interactions",
       "url": "https://www.theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5721,
+      "score": 0.5216,
       "publishedAt": "2026-11-16T19:25:42.000Z",
       "summary": "Apple released betas of iOS 27.3, iPadOS 27.3, and macOS 27.3 today, and the company is using the update to test new per device daily usage limits for some Siri AI and Apple Intelligence features, according to MacRumors. Basic Siri commands and requests will remain free and unlimited, but more advan",
       "tags": [
@@ -430,7 +551,7 @@
       "url": "https://www.theverge.com/policy/1034527/openai-csam-classifier",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5719,
+      "score": 0.5214,
       "publishedAt": "2026-11-16T19:23:45.000Z",
       "summary": "OpenAI is announcing a tool that it says will help child sexual abuse investigators cut through the noise to find harmful material they can act on quickly. At a Monday press briefing in Washington, DC, OpenAI announced a classifier it says can better detect abusive imagery of kids, including whether",
       "tags": [
@@ -447,7 +568,7 @@
       "url": "https://www.theverge.com/tech/1034501/nvidia-board-jensen-huang-not-bringing-back",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5683,
+      "score": 0.5178,
       "publishedAt": "2026-11-16T18:43:35.000Z",
       "summary": "Nvidia's board of directors \"isn't considering\" having Jensen Huang return as CEO, according to a report from CNBC. A source tells the outlet the board \"is focused on an investigation into Huang, and is not in discussions to bring him back.\" Since Huang's resignation last week, tech executives, alon",
       "tags": [
@@ -456,195 +577,78 @@
       "engagementScore": 0
     },
     {
-      "title": "The iPhone Duo Is Getting a Limited Version of Face ID",
-      "url": "https://www.wired.com/story/iphone-duo-is-getting-a-limited-version-of-face-id/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5668,
-      "publishedAt": "2026-11-16T18:26:26.000Z",
-      "summary": "Originally launching only with Touch ID, Apple’s folding phone now borrows a feature from the new HomeView and can recognize your mug, but it’s likely not as secure as Face ID.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Nvidia scandal isn’t slowing down",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1031740/jensen-huang-nvidia-scandal-isnt-slowing-down",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5595,
-      "publishedAt": "2026-11-16T17:05:03.000Z",
-      "summary": "For years, Jensen Huang has had an almost unprecedented power to shape AI's advancement as Nvidia's CEO, cofounder, and president. As The Verge wrote last week, Nvidia's chips are \"the bedrock upon which advanced AI technology in the US is being built.\" Ever-increasing demand has consistently outpac",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Instagram Is Bringing Amazon Affiliate Links Directly to Reels and Posts",
-      "url": "https://www.wired.com/story/instagram-is-bringing-amazon-affiliate-links-directly-to-reels-and-posts/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5591,
-      "publishedAt": "2026-11-16T17:00:00.000Z",
-      "summary": "The Meta-owned social media platform now lets creators attach up to 30 affiliate links per Reel to make money from Amazon more easily.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "AO3 Is Back. This Is Not a Drill",
-      "url": "https://www.wired.com/story/ao3-is-back-this-is-not-a-drill/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5574,
-      "publishedAt": "2026-11-16T16:40:33.000Z",
-      "summary": "Following a weeks-long shutdown, the home to over 18 million works of fan fiction is back online, with some limitations.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Jensen Huang Is Gone. Now What?",
-      "url": "https://www.wired.com/story/the-big-interview-podcast-lauren-goode-jensen-huang/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5549,
-      "publishedAt": "2026-11-16T16:12:51.000Z",
-      "summary": "After a shocking downfall, Nvidia’s CEO is out of a job. WIRED’s Lauren Goode explains what that means for the world’s most critical chip company, the AI industry, and Jensen Huang himself.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Just 400 US Data Centers Use More Electricity Than Michigan",
-      "url": "https://www.wired.com/story/data-centers-use-more-electricity-than-michigan/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5537,
-      "publishedAt": "2026-11-16T16:00:00.000Z",
-      "summary": "New Harvard research shows that data-center power demand is outstripping states—and that doesn’t even include facilities with off-grid gas plants.",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "FBI says Artex AI open-source hacking tool used to breach networks",
       "url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
       "feedSource": "Hacker News",
       "source": "techcrunch.com",
-      "score": 0.549,
+      "score": 0.5108,
       "publishedAt": "2026-11-16T18:12:21.000Z",
       "summary": "The FBI says that the open-source hacking tool was used in cyberattacks targeting a U.S. IT giant and the South Korean financial industry.",
       "tags": [
         "Open Source",
         "Dev Tools"
       ],
-      "engagementScore": 33
+      "engagementScore": 45
     },
     {
-      "title": "Best Digital Photo Frames (2026): Aura, Skylight, Amazon",
-      "url": "https://www.wired.com/story/best-digital-photo-frames/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5324,
-      "publishedAt": "2026-11-16T12:01:00.000Z",
-      "summary": "There are more digital photo frames than ever these days. After years of testing, these are the ones I’d buy.",
+      "title": "Audible is trying to make it easier to find audiobooks you’ll actually like",
+      "url": "https://www.theverge.com/tech/1034083/audible-audio-discovery-ai-feature-availability",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5073,
+      "publishedAt": "2026-11-16T16:45:35.000Z",
+      "summary": "Audible is introducing an AI-assisted synopsis feature that's designed to help users determine whether they'll enjoy an audiobook before they jump in and start listening to it. The new audio discovery feature combines audiobook samples, AI overviews, and author commentary to give users more informat",
       "tags": [
         "AI"
       ],
       "engagementScore": 0
     },
     {
-      "title": "The EPA’s Chemical-Detecting Plane Isn’t Doing Its Job Anymore",
-      "url": "https://www.wired.com/story/epa-chemical-detecting-plane-isnt-doing-job/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5297,
-      "publishedAt": "2026-11-16T11:30:00.000Z",
-      "summary": "The Cessna is flying fewer missions and can no longer provide real-time data to disaster responders as toxic emergencies rise.",
+      "title": "United Airlines experiencing a widespread system outage, airline says",
+      "url": "https://www.cnn.com/2026/11/16/us/united-airlines-outage",
+      "feedSource": "Hacker News",
+      "source": "cnn.com",
+      "score": 0.5034,
+      "publishedAt": "2026-11-16T22:14:38.000Z",
+      "summary": "United Airlines is experiencing a widespread system outage affecting departing flights and is working to get operations “back up and running as soon as possible,” the airline said in a post on X, just days after a rare FAA ground stop halted all departures nationwide for hours.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 0
+      "engagementScore": 232
+    },
+    {
+      "title": "OpenCode Browse",
+      "url": "https://opencode.ai/product/browse",
+      "feedSource": "Hacker News",
+      "source": "opencode.ai",
+      "score": 0.4959,
+      "publishedAt": "2026-11-16T21:20:37.000Z",
+      "summary": "Browse lets OpenCode and other MCP clients use your real browser. Agents read, click, type, take screenshots, record tabs and hand logins and 2FA back to you.",
+      "tags": [
+        "Agents",
+        "Dev Tools"
+      ],
+      "engagementScore": 213
     },
     {
       "title": "Frame – 31.5\" color ePaper display",
       "url": "https://trmnl.com/blog/introducing-frame",
       "feedSource": "Hacker News",
       "source": "trmnl.com",
-      "score": 0.5181,
+      "score": 0.4926,
       "publishedAt": "2026-11-16T16:23:22.000Z",
       "summary": "Hand made wooden body, full color 31.5″ display.",
       "tags": [
         "Research"
       ],
-      "engagementScore": 215
-    },
-    {
-      "title": "Grazing sheep in fields with solar arrays",
-      "url": "https://news.cornell.edu/stories/2026/10/sheep-grazing-solar-fields-offers-farmers-economic-ecological-gains",
-      "feedSource": "Hacker News",
-      "source": "news.cornell.edu",
-      "score": 0.5133,
-      "publishedAt": "2026-11-16T17:27:46.000Z",
-      "summary": "As solar grazing expands across the country, new research helps sheep farmers increase profitability and sheds light on the how the number of sheep in solar array fields interacts with beneficial insects.",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 163
-    },
-    {
-      "title": "Whistleblower accuses Pentagon over Iran strike on US base that killed 6",
-      "url": "https://www.cnn.com/2026/11/15/politics/army-soldier-whistleblower-complaint",
-      "feedSource": "Hacker News",
-      "source": "cnn.com",
-      "score": 0.5066,
-      "publishedAt": "2026-11-16T14:17:53.000Z",
-      "summary": "One of the US Army soldiers that survived an Iranian strike that hit a makeshift operations center in Kuwait and killed six has submitted a whistleblower complaint alleging that the Pentagon did not listen to concerns about the lack of proper protection for troops, CBS reported Sunday.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 207
-    },
-    {
-      "title": "Qwen4-Max",
-      "url": "https://qwen.ai/blog?id=qwen4-max",
-      "feedSource": "Hacker News",
-      "source": "qwen.ai",
-      "score": 0.4989,
-      "publishedAt": "2026-11-16T02:14:44.000Z",
-      "summary": "Qwen offers comprehensive functionality spanning chatbot, image and video understanding, image generation, document processing, web search integration, tool utilization, and artifacts.",
-      "tags": [
-        "Vision",
-        "Dev Tools"
-      ],
-      "engagementScore": 845
-    },
-    {
-      "title": "Interpreting claims that a theorem is correct because it was checked in Lean",
-      "url": "https://xenaproject.wordpress.com/2026/11/12/and-the-proof-is-checked-in-lean/",
-      "feedSource": "Hacker News",
-      "source": "xenaproject.wordpress.com",
-      "score": 0.4846,
-      "publishedAt": "2026-11-16T07:38:19.000Z",
-      "summary": "This post is an attempt to explain in simple terms how to interpret claims of the form “this theorem is correct because it was checked in Lean”. The summary is: there is an important si…",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 276
+      "engagementScore": 378
     },
     {
       "title": "Google warns that fully automated cyberattacks have arrived and will get worse fast",
       "url": "https://the-decoder.com/google-warns-that-fully-automated-cyberattacks-have-arrived-and-will-get-worse-fast/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4814,
+      "score": 0.4355,
       "publishedAt": "2026-11-16T19:42:13.000Z",
       "summary": "Google's Threat Intelligence Group has for the first time caught attackers finding and exploiting security vulnerabilities with no human involvement at all. An AI framework called \"exploit_agent,\" found on an exposed server, automatically compared code before and after patches, built exploits, and r",
       "tags": [
@@ -658,7 +662,7 @@
       "url": "https://the-decoder.com/openais-gpt-6-astra-tackles-the-standard-models-toughest-math-problem-on-a-lattice/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4796,
+      "score": 0.4337,
       "publishedAt": "2026-11-16T19:19:56.000Z",
       "summary": "OpenAI physicist Nathaniel Craig used GPT-6 Astra to tackle a problem that had stumped particle physicists for over 25 years. The AI model took Craig's strategy for defining the full Standard Model on a computational lattice and turned it into a working proof. Craig says a lot of work remai",
       "tags": [
@@ -671,7 +675,7 @@
       "url": "https://the-decoder.com/moonshot-ai-pivots-kimi-models-from-coding-to-science-as-benchmark-gains-flatten/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4774,
+      "score": 0.4315,
       "publishedAt": "2026-11-16T18:52:55.000Z",
       "summary": "Moonshot AI is done chasing coding benchmarks, it says. The Beijing startup is pivoting its Kimi language models toward biology, chemistry, and pharma research, arguing that science demands smarter AI than law, finance, or code.\nThe article Moonshot AI pivots Kimi models from coding to scie",
       "tags": [
@@ -685,17 +689,16 @@
       "engagementScore": 0
     },
     {
-      "title": "Alibaba&#039;s Qwen4-Max takes on Opus 5.5, GPT-6, and Kimi K3.1 Pro at much lower prices",
-      "url": "https://the-decoder.com/alibabas-qwen4-max-takes-on-opus-5-5-gpt-6-and-kimi-k3-1-pro-at-much-lower-prices/",
-      "feedSource": "The Decoder",
-      "source": "the-decoder.com",
-      "score": 0.468,
-      "publishedAt": "2026-11-16T16:56:04.000Z",
-      "summary": "Alibaba launches Qwen4-Max, a new flagship model with 2.4 trillion parameters that activates only 71 billion per token. A hybrid architecture sharply cuts costs on long contexts. Qwen4-Max lands just behind Kimi K3.1 Pro on the Artificial Analysis Intelligence Index, and Alibaba plans to re",
+      "title": "Introducing Gemini 4 Hydrogen",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+      "feedSource": "DeepMind",
+      "source": "deepmind.google",
+      "score": 0.4222,
+      "publishedAt": "2026-11-12T18:00:50.000Z",
+      "summary": "Today, we’re introducing Gemini 4 Hydrogen, our daily driver for agentic workflows",
       "tags": [
         "LLM",
-        "ML Infra",
-        "Industry"
+        "Agents"
       ],
       "engagementScore": 0
     }
