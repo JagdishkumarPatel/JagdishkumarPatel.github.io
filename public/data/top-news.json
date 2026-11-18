@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T02:47:21.485Z",
+  "updatedAt": "2026-11-18T11:20:27.193Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,21 +12,48 @@
       "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 1.1399,
+      "score": 1.0855,
       "publishedAt": "2026-11-17T17:46:43.000Z",
       "summary": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
       "tags": [
         "LLM",
         "Dev Tools"
       ],
-      "engagementScore": 1108
+      "engagementScore": 1283
+    },
+    {
+      "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+      "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.9547,
+      "publishedAt": "2026-11-18T00:00:00.000Z",
+      "summary": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Advancing computer-use agents for healthcare teams",
+      "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams/",
+      "feedSource": "Hacker News",
+      "source": "openai.com",
+      "score": 0.9119,
+      "publishedAt": "2026-11-17T18:26:05.000Z",
+      "summary": "Healthcare is fragmented, and teams often need to move information between systems manually before a patient can get care. When a clinician recommends an MRI, for example, the information an insurer needs may be in a patient’s medical record, but a team member still needs to retrieve it and enter it",
+      "tags": [
+        "Agents",
+        "RAG"
+      ],
+      "engagementScore": 48
     },
     {
       "title": "Introducing GPT-6.2 Astra and Sol",
       "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9715,
+      "score": 0.9091,
       "publishedAt": "2026-11-17T17:45:00.000Z",
       "summary": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
       "tags": [
@@ -36,25 +63,141 @@
       "engagementScore": 0
     },
     {
-      "title": "Advancing computer-use agents for healthcare teams",
-      "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams/",
-      "feedSource": "Hacker News",
-      "source": "openai.com",
-      "score": 0.9683,
-      "publishedAt": "2026-11-17T18:26:05.000Z",
-      "summary": "Healthcare is fragmented, and teams often need to move information between systems manually before a patient can get care. When a clinician recommends an MRI, for example, the information an insurer needs may be in a patient’s medical record, but a team member still needs to retrieve it and enter it",
+      "title": "NEBench R1: a Reasoning Benchmark for Evaluating Nuclear Domain Competence in Large Language Models",
+      "url": "https://arxiv.org/abs/2611.21682",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8691,
+      "publishedAt": "2026-11-18T05:00:00.000Z",
+      "summary": "arXiv:2611.21682v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly being explored for knowledge-intensive and safety-critical applications in nuclear engineering. However, existing nuclear-domain benchmarks provide limited content coverage or focus primarily on answer acc",
+      "tags": [
+        "LLM",
+        "Research",
+        "RAG",
+        "Safety",
+        "ML Infra"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Chain-of-Thought Controllability Can Reduce Chain-of-Thought Monitorability",
+      "url": "https://arxiv.org/abs/2611.21799",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8691,
+      "publishedAt": "2026-11-18T05:00:00.000Z",
+      "summary": "arXiv:2611.21799v1 Announce Type: new \nAbstract: Chain-of-thought (CoT) monitoring is a promising tool for detecting hidden goals, off-task behavior, and other failures in AI agents. One risk is that models could deliberately shape their reasoning to make it opaque to monitors. We stress-test this r",
       "tags": [
         "Agents",
-        "RAG"
+        "Research",
+        "Safety",
+        "Dev Tools"
       ],
-      "engagementScore": 43
+      "engagementScore": 0
+    },
+    {
+      "title": "How Much of SAR Vehicle Recognition Is the Vehicle? Background Shortcuts, Angle Gaps and Partial Libraries on MSTAR and ATRNet-STAR",
+      "url": "https://arxiv.org/abs/2611.21827",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8691,
+      "publishedAt": "2026-11-18T05:00:00.000Z",
+      "summary": "arXiv:2611.21827v1 Announce Type: new \nAbstract: Deep networks score near 99% on the MSTAR vehicle benchmark, and the newer ATRNet-STAR benchmark was built to be harder. We ask how much of these scores comes from the vehicle itself. With a modern network (ConvNeXt-Small, 3 seeds) we first reproduce",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Auditors Struggle to Catch Sabotage In End-to-End Transcripts of AI Safety Research",
+      "url": "https://arxiv.org/abs/2611.21832",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8691,
+      "publishedAt": "2026-11-18T05:00:00.000Z",
+      "summary": "arXiv:2611.21832v1 Announce Type: new \nAbstract: As AI systems are increasingly used to automate AI R&amp;D, misaligned systems could sabotage research intended to improve model safety and alignment. To stress-test defenses against such sabotage, we use a human expert as a proxy saboteur on AI safet",
+      "tags": [
+        "Research",
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Language Models Can Rewrite Their Own Weights",
+      "url": "https://arxiv.org/abs/2611.21885",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8691,
+      "publishedAt": "2026-11-18T05:00:00.000Z",
+      "summary": "arXiv:2611.21885v1 Announce Type: new \nAbstract: Language models are trained once, frozen and deployed: improving one again takes another training run, and a prompt, a scaffold or extra computation at inference is gone once the task ends. A frontier model has been shown to edit the weights of a much",
+      "tags": [
+        "LLM",
+        "Research",
+        "ML Infra"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "DNeo: Your Parallel Draft Model Needs Better Target Feature Encoding",
+      "url": "https://arxiv.org/abs/2611.21925",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8691,
+      "publishedAt": "2026-11-18T05:00:00.000Z",
+      "summary": "arXiv:2611.21925v1 Announce Type: new \nAbstract: Speculative-diffusion decoding uses a small parallel drafter model to generate b draft tokens in one forward pass, which then undergo parallel verification via a larger target model. Faster inference can be achieved when multiple draft tokens pass ver",
+      "tags": [
+        "Research",
+        "Vision",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "SLED: Sensor SLicing from Edge to Datacenter",
+      "url": "https://arxiv.org/abs/2611.21937",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8691,
+      "publishedAt": "2026-11-18T05:00:00.000Z",
+      "summary": "arXiv:2611.21937v1 Announce Type: new \nAbstract: Modern sensing systems generate large volumes of heterogeneous data streams from multiple sensor modalities, increasing reliance on datacenters for computation, artificial intelligence/superintelligence (AI/SI) inference, and AI/SI training. Each sens",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Conserved Verdicts, Drifting Commitments: Identifying Harmful Overthinking",
+      "url": "https://arxiv.org/abs/2611.21946",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8691,
+      "publishedAt": "2026-11-18T05:00:00.000Z",
+      "summary": "arXiv:2611.21946v1 Announce Type: new \nAbstract: A reasoning model that has reached a correct answer can lose it by continuing to think. Deciding whether to stop means comparing two probabilities at the same point of a chain: that the answer the model would give if stopped now is correct (its commit",
+      "tags": [
+        "Research",
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Effects of a Nuclear Detonation in Low Earth Orbit",
+      "url": "https://arxiv.org/abs/2611.09827",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.8404,
+      "publishedAt": "2026-11-17T19:46:57.000Z",
+      "summary": "More than 13,000 satellites operate in low Earth orbit (LEO), and concern has grown that nuclear weapons could be used in space to target them. Beyond the initial X-ray burst, electrons released by radioactive fission products can become trapped in Earth’s magnetic field, repeatedly exposing satelli",
+      "tags": [
+        "Open Source"
+      ],
+      "engagementScore": 98
     },
     {
       "title": "Introducing ChatGPT for Sales",
       "url": "https://openai.com/index/introducing-chatgpt-for-sales",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9004,
+      "score": 0.838,
       "publishedAt": "2026-11-17T08:00:00.000Z",
       "summary": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
       "tags": [
@@ -64,24 +207,25 @@
       "engagementScore": 0
     },
     {
-      "title": "Effects of a Nuclear Detonation in Low Earth Orbit",
-      "url": "https://arxiv.org/abs/2611.09827",
+      "title": "Classical Energies Learn to Reason 1k× Faster Than Looped Models",
+      "url": "https://arxiv.org/abs/2611.17309",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.8902,
-      "publishedAt": "2026-11-17T19:46:57.000Z",
-      "summary": "More than 13,000 satellites operate in low Earth orbit (LEO), and concern has grown that nuclear weapons could be used in space to target them. Beyond the initial X-ray burst, electrons released by radioactive fission products can become trapped in Earth’s magnetic field, repeatedly exposing satelli",
+      "score": 0.789,
+      "publishedAt": "2026-11-18T05:12:47.000Z",
+      "summary": "Looped models have emerged as a prominent paradigm for reasoning, with successes on simple reasoning puzzles such as Sudoku-Extreme and Maze-Unique. However, these models can be unstable, slow to train, and use many parameters and FLOPs to solve simple puzzles. Descent on an energy not only mitigate",
       "tags": [
-        "Open Source"
+        "Vision",
+        "ML Infra"
       ],
-      "engagementScore": 83
+      "engagementScore": 10
     },
     {
       "title": "Strengthening the fight against online child sexual abuse",
       "url": "https://openai.com/index/strengthening-online-child-safety/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.8496,
+      "score": 0.7872,
       "publishedAt": "2026-11-16T18:12:48.000Z",
       "summary": "",
       "tags": [
@@ -94,7 +238,7 @@
       "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.842,
+      "score": 0.7797,
       "publishedAt": "2026-11-17T00:00:00.000Z",
       "summary": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
       "tags": [
@@ -107,7 +251,7 @@
       "url": "https://openai.com/index/astra-law-6-2",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.842,
+      "score": 0.7797,
       "publishedAt": "2026-11-17T00:00:00.000Z",
       "summary": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
       "tags": [
@@ -121,7 +265,7 @@
       "url": "https://openai.com/index/introducing-openai-for-chile",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.842,
+      "score": 0.7797,
       "publishedAt": "2026-11-17T00:00:00.000Z",
       "summary": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
       "tags": [
@@ -131,11 +275,24 @@
       "engagementScore": 0
     },
     {
+      "title": "A Review of Alfred North Whitehead's \"Introduction to Mathematics\"",
+      "url": "https://arxiv.org/abs/2403.19675",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.7762,
+      "publishedAt": "2026-11-18T05:00:03.000Z",
+      "summary": "In 1911, Alfred North Whitehead published a short book “Introduction to Mathematics” (IM) intended for students wanting an explanation of the fundamental ideas of mathematics. Whitehead’s IM has enduring value because it was written not long after he and Bertrand Russell published their monumental t",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 8
+    },
+    {
       "title": "First phase of embedded assessments at OpenAI",
       "url": "https://openai.com/index/our-first-phase-of-embedded-assessments/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.7927,
+      "score": 0.7303,
       "publishedAt": "2026-11-16T16:07:20.000Z",
       "summary": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
       "tags": [
@@ -150,7 +307,7 @@
       "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.791,
+      "score": 0.7286,
       "publishedAt": "2026-11-16T17:00:00.000Z",
       "summary": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
       "tags": [
@@ -164,7 +321,7 @@
       "url": "https://openai.com/index/strengthening-online-child-safety",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.791,
+      "score": 0.7286,
       "publishedAt": "2026-11-16T17:00:00.000Z",
       "summary": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
       "tags": [
@@ -173,147 +330,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Agents Cannot Hand Over What They Have Not Yet Understood",
-      "url": "https://arxiv.org/abs/2611.18642",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7639,
-      "publishedAt": "2026-11-17T05:00:00.000Z",
-      "summary": "arXiv:2611.18642v1 Announce Type: new \nAbstract: Agents that work beyond a single context window, or in teams, hand their work to a successor as a short written summary. Evaluation has focused on whether an agent can solve a task, and relatively little is known about how much of what an agent has le",
-      "tags": [
-        "Agents",
-        "Research",
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "How to make a moral agent: sentimentalism and rationalism as lenses on AI",
-      "url": "https://arxiv.org/abs/2611.18714",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7639,
-      "publishedAt": "2026-11-17T05:00:00.000Z",
-      "summary": "arXiv:2611.18714v1 Announce Type: new \nAbstract: Can AI systems be moral agents? That is, can they undertake actions that can be correctly assessed as morally right or wrong? There is no settled normative criterion of moral agency that applies neatly outside paradigm human cases. Because of the diff",
-      "tags": [
-        "Agents",
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Video-as-Experience: Learning Computer Use via Audio-Visual Understanding",
-      "url": "https://arxiv.org/abs/2611.18747",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7639,
-      "publishedAt": "2026-11-17T05:00:00.000Z",
-      "summary": "arXiv:2611.18747v1 Announce Type: new \nAbstract: Multimodal large language models (LLMs) have enabled capable computer-use agents that perceive graphical user interfaces, reason over instructions, and execute actions. However, existing approaches to learning from video demonstrations typically conve",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Research",
-        "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Multimodal Fusion: A Review of Breast Cancer Advanced and Traditional Modalities",
-      "url": "https://arxiv.org/abs/2611.18793",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7639,
-      "publishedAt": "2026-11-17T05:00:00.000Z",
-      "summary": "arXiv:2611.18793v1 Announce Type: new \nAbstract: Purpose: Multimodal medical imaging fusion (MMIF) is an increasingly important approach to breast cancer detection (BCD), as different imaging modalities rely on different physical principles and provide complementary information. No single modality c",
-      "tags": [
-        "Research",
-        "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "D\\'ecoupage: Directorial Audio-Visual Control for Long Multi-Shot Video Generation",
-      "url": "https://arxiv.org/abs/2611.18866",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7639,
-      "publishedAt": "2026-11-17T05:00:00.000Z",
-      "summary": "arXiv:2611.18866v1 Announce Type: new \nAbstract: In cinematic storytelling, sound and visual transitions do not always coincide in lockstep: dialogue frequently bridges across cuts to reveal reactions or introduces new scenes via J- and L-cuts, while deliberate silences pace the scene. Existing audi",
-      "tags": [
-        "Research",
-        "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "SPLICE: Structured Prompt Local Iterative Combinatorial Evolution",
-      "url": "https://arxiv.org/abs/2611.18883",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7639,
-      "publishedAt": "2026-11-17T05:00:00.000Z",
-      "summary": "arXiv:2611.18883v1 Announce Type: new \nAbstract: Natural language optimization (NLO) improves an agent by having a model critique and rewrite its natural language policy parameters: system prompts, tool instructions, reasoning directives, few-shot demonstrations. These artifacts are multi-section do",
-      "tags": [
-        "Agents",
-        "Research",
-        "Safety",
-        "Dev Tools",
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Bring Back Language to Actions: Restoring VLM capabilities in VLA Models via Parameter Merging",
-      "url": "https://arxiv.org/abs/2611.18891",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7639,
-      "publishedAt": "2026-11-17T05:00:00.000Z",
-      "summary": "arXiv:2611.18891v1 Announce Type: new \nAbstract: Vision-Language-Action models (VLAs) are obtained by fine-tuning pre-trained Vision-Language Models (VLMs) on robot demonstration data, enabling action prediction from visual observations and language instructions. However, this fine-tuning induces ca",
-      "tags": [
-        "LLM",
-        "Research",
-        "Vision",
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Ask Precisely, Assume Wisely: Interactive Evaluation of Ambiguity Resolution in Large Language Models",
-      "url": "https://arxiv.org/abs/2611.18905",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7639,
-      "publishedAt": "2026-11-17T05:00:00.000Z",
-      "summary": "arXiv:2611.18905v1 Announce Type: new \nAbstract: Ambiguity is a core challenge in human--AI interaction, where models must decide when to make assumptions and when to seek clarification. Existing approaches to ambiguity evaluation largely focus on coverage over multiple interpretations using static",
-      "tags": [
-        "LLM",
-        "Research",
-        "RAG",
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Science at the Frontier: How scientists use ChatGPT",
-      "url": "https://openai.com/index/science-at-the-frontier",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.7545,
-      "publishedAt": "2026-11-16T12:00:00.000Z",
-      "summary": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
-      "tags": [
-        "LLM",
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Self-Improvement Memory Enables Continual Recursive Self-Improvement",
       "url": "https://arxiv.org/abs/2611.18856",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7442,
+      "score": 0.7144,
       "publishedAt": "2026-11-17T20:54:25.000Z",
       "summary": "Harness optimization is often studied with a fixed policy model and benchmark. When either changes, the optimizer must decide which parts of an evolved harness to reuse or revise, but the harness alone may not explain why earlier edits were made or how they performed. In this work, we study Continua",
       "tags": [
@@ -321,29 +342,55 @@
         "Safety",
         "ML Infra"
       ],
-      "engagementScore": 4
+      "engagementScore": 7
     },
     {
-      "title": "Exploiting Replay Protected Monotonic Counters to Brute-Force Windows Hello PINs",
-      "url": "https://arxiv.org/abs/2611.18126",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.6654,
-      "publishedAt": "2026-11-16T13:25:17.000Z",
-      "summary": "",
+      "title": "This smell startup says its AI nose is as good as a human’s",
+      "url": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6801,
+      "publishedAt": "2026-11-18T10:20:30.000Z",
+      "summary": "In a lab near Newark Airport in New Jersey, a team of around 30 experienced human sniffers are slowly working their way through every odor on Earth. Their careful notes—“nutty,” “peachy,” “marine”—are cross-referenced with a chemical analysis to create a rich set of training data for what AI startup",
       "tags": [
-        "AI"
+        "Industry"
       ],
-      "engagementScore": 58
+      "engagementScore": 0
     },
     {
       "title": "Roundtables: Inside the Quest for Cognitive Immortality",
       "url": "https://www.technologyreview.com/2026/11/17/1148049/roundtables-inside-the-quest-for-cognitive-immortality/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6392,
+      "score": 0.5893,
       "publishedAt": "2026-11-17T18:46:47.000Z",
       "summary": "Listen to the session or watch below In an effort to reach an elusive continuity of the self, some far-thinking technologists are working on ways to keep your brain going—even beyond death. Science editor Mary Beth Griggs and senior editor for biomedicine Antonio Regalado explore possible paths to k",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Suno now lets you make AI videos for your AI music",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1036415/suno-visuals-ai-generated-video-images-feature",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5844,
+      "publishedAt": "2026-11-18T11:16:53.000Z",
+      "summary": "Suno has introduced image and video generation in its latest effort to expand beyond being an AI music platform. The new feature, called \"Visuals,\" allows users to turn Suno songs into AI-generated video clips that automatically lipsync to lyrics, or make images via prompt descriptions that can be u",
+      "tags": [
+        "Vision"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Voyager 1 Beat the Odds and Is Still Working a Light-Day Away From Earth",
+      "url": "https://www.wired.com/story/voyager-1-beat-still-working-light-day-away/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5843,
+      "publishedAt": "2026-11-18T11:15:00.000Z",
+      "summary": "The spacecraft stores data on an eight-track tape, but it’s managed to stay in contact with scientists for decades. Now, it’s the first human-made object to travel a light-day away from Earth.",
       "tags": [
         "AI"
       ],
@@ -354,7 +401,7 @@
       "url": "https://www.technologyreview.com/2026/11/17/1148742/hydropower-drought-colorado-river/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6339,
+      "score": 0.584,
       "publishedAt": "2026-11-17T17:52:10.000Z",
       "summary": "The US Southwest generated 28% less electricity via hydropower between April and August than the 10-year average, according to new data from the US Energy Information Administration. Most hydropower plants in the US rely on dams to hold back water, creating reservoirs. The water can be released thro",
       "tags": [
@@ -364,11 +411,37 @@
       "engagementScore": 0
     },
     {
+      "title": "Exclusive: Germ DM Is a Signal Alternative That’s Now on Android",
+      "url": "https://www.wired.com/story/germ-dm-is-now-available-on-android/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5829,
+      "publishedAt": "2026-11-18T11:00:00.000Z",
+      "summary": "Germ DM is an encrypted messaging platform that uses “burner cards” instead of phone numbers or usernames to compartmentalize your conversations.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Apple HomeView Review (2026): Should’ve Been Better",
+      "url": "https://www.wired.com/review/apple-homeview-review/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5792,
+      "publishedAt": "2026-11-18T10:18:00.000Z",
+      "summary": "Apple’s HomeView marks a very late arrival to the smart display world, and one that didn’t blow me away.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Put Gemini to work for you",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.6288,
+      "score": 0.5789,
       "publishedAt": "2026-11-17T17:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Hero_2784_x_1566.max-600x600.format-webp.webp\"&gt;Tasks in Gemini is now free of charge in six countries, with new features starting in the U.S. and deeper Google Workspace integration to get things done on your behalf.",
       "tags": [
@@ -380,11 +453,51 @@
       "engagementScore": 0
     },
     {
+      "title": "Best Smart Bed of 2026: Bryte and Tempur-Pedic",
+      "url": "https://www.wired.com/gallery/best-smart-bed/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5782,
+      "publishedAt": "2026-11-18T10:07:00.000Z",
+      "summary": "If you’re going to spend a third of your life in bed, it might as well be a smart one. Here are our favorites.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "House Democrats Are Officially Coming for Trump’s Orbit",
+      "url": "https://www.wired.com/story/house-democrats-are-officially-coming-for-trumps-orbit/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5776,
+      "publishedAt": "2026-11-18T10:00:00.000Z",
+      "summary": "The incoming head of the House Oversight Committee sent record preservation requests to Donald Trump Jr., Eric Trump, JD Vance, Stephen Miller, and other administration officials.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Lovable Wants You to Vibe Code Your Dream Job",
+      "url": "https://www.wired.com/story/lovable-wants-you-to-vibe-code-a-living/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5776,
+      "publishedAt": "2026-11-18T10:00:00.000Z",
+      "summary": "This Swedish startup dominated the vibe-coded app boom. Two years after launch, Lovable is shifting gears to help users run vibe-coded businesses.",
+      "tags": [
+        "Dev Tools",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Research Reports",
       "url": "https://www.technologyreview.com/2026/11/17/1148203/research-reports/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6152,
+      "score": 0.5653,
       "publishedAt": "2026-11-17T14:39:46.000Z",
       "summary": "To access a report, click on the corresponding image below.",
       "tags": [
@@ -398,7 +511,7 @@
       "url": "https://www.technologyreview.com/2026/11/17/1148679/the-download-jensen-huang-open-source-ai-cognitive-immortality/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6064,
+      "score": 0.5565,
       "publishedAt": "2026-11-17T13:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The open-source movement wants Jensen Huang back A petition to reinstate Jensen Huang as Nvidia CEO has attracted more than 115,000 signatures, includ",
       "tags": [
@@ -407,11 +520,37 @@
       "engagementScore": 0
     },
     {
+      "title": "Loop Earplugs Discount Codes: 25% Off",
+      "url": "https://www.wired.com/story/loop-earplugs-discount-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5562,
+      "publishedAt": "2026-11-18T06:00:00.000Z",
+      "summary": "Save on Loop Earplugs, including Quiet 2 and popular gift sets for improved sleep, focus, and comfort.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Columbia Promo Codes: 15% Off | November 2026",
+      "url": "https://www.wired.com/story/columbia-promo-code/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5562,
+      "publishedAt": "2026-11-18T06:00:00.000Z",
+      "summary": "Explore current Columbia deals on jackets, outdoor gear, and apparel. Find active Columbia promo codes, student discounts, and free shipping offers to save on your next adventure.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Satya Nadella says he’s AGI-pilled now",
       "url": "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5795,
+      "score": 0.5337,
       "publishedAt": "2026-11-18T01:48:18.000Z",
       "summary": "Microsoft CEO Satya Nadella says he's AGI-pilled, at least when it comes to how AI might make startling changes to the structure of the economy and how politics might change because of it. \"I am AGI-pilled in the sense that at an economy level, what is the political economy's organization around AGI",
       "tags": [
@@ -420,24 +559,11 @@
       "engagementScore": 0
     },
     {
-      "title": "‘The Predators Are Real’: Senate Hearing Slams Roblox Over Child Sex Abuse",
-      "url": "https://www.wired.com/story/the-predators-are-real-senate-hearing-slams-roblox-over-child-sex-abuse/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5727,
-      "publishedAt": "2026-11-18T00:32:39.000Z",
-      "summary": "US Senators Josh Hawley and Dick Durbin have introduced legislation to make it easier for families to sue if their child has been harmed through the massive gaming platform.",
-      "tags": [
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Not even Sam Altman is safe from AI deepfakes on Instagram",
       "url": "https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5692,
+      "score": 0.5234,
       "publishedAt": "2026-11-17T23:52:34.000Z",
       "summary": "Instagram is filled with people posting deepfaked content - including, as of late, from one of Meta's most prominent executives. Earlier in November, Alexandr Wang, Meta's chief AI officer, shared a short clip to promote Muse, the company's consumer AI agent. In the AI-generated clip, Wang, Meta CEO",
       "tags": [
@@ -446,37 +572,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Review: Nubia Redmagic 12 Pro | Camera",
-      "url": "https://www.wired.com/gallery/review-nubia-redmagic-12-pro-or-camera/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5676,
-      "publishedAt": "2026-11-17T23:34:44.000Z",
-      "summary": "Review: Nubia Redmagic 12 Pro | Camera",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Best Early Amazon Black Friday Deals (2026)",
-      "url": "https://www.wired.com/story/amazon-black-friday-november-2026-early-deals/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5643,
-      "publishedAt": "2026-11-17T22:57:54.000Z",
-      "summary": "For die-hard Amazon shoppers, the retail giant starts Black Friday deals on November 19. But you can already stock up on early deals now.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Nvidia’s Q3 earnings hit the mark, without mentioning the whole Jensen Huang thing",
       "url": "https://www.theverge.com/tech/1036032/nvidia-q3-2027-jensen-huang",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5636,
+      "score": 0.5179,
       "publishedAt": "2026-11-17T22:50:29.000Z",
       "summary": "Interim Nvidia CEO Colette Kress announced the company's Q3 earnings on Tuesday, without initially mentioning former CEO Jensen Huang or the details of his departure, or possible attempt at a return. On the earnings call accompanying the release, board chair Harvey Jones kicked things off by saying",
       "tags": [
@@ -485,50 +585,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Nvidia’s Board Has No Plans to Bring Back Jensen Huang",
-      "url": "https://www.wired.com/story/nvidias-board-has-no-plans-to-reinstate-jensen-huang/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5609,
-      "publishedAt": "2026-11-17T22:19:19.000Z",
-      "summary": "Despite pressure from President Trump, Elon Musk, and Silicon Valley executives, Nvidia’s board says it “does not intend” to reinstate the company’s ousted CEO.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "How to Tell If It’s a Cyberattack or Just an Outage",
-      "url": "https://www.wired.com/story/how-to-tell-if-its-a-cyberattack-or-just-an-outage/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5467,
-      "publishedAt": "2026-11-17T19:40:57.000Z",
-      "summary": "Email, flights, banks; network failures are piling up. Here’s how WIRED investigates if they’re the result of hacker mayhem. (Hint: usually not.)",
-      "tags": [
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Waymo Pauses All Highway Rides After California Safety Ban",
-      "url": "https://www.wired.com/story/waymo-pulls-its-robotaxis-from-highways-after-california-incidents/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5465,
-      "publishedAt": "2026-11-17T19:38:08.000Z",
-      "summary": "California’s DMV banned Waymo’s self-driving cars from freeways after determining that they pose “an imminent hazard to public safety.”",
-      "tags": [
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Google’s Spark AI agent becomes ‘Tasks’ — and now it’s free",
       "url": "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.543,
+      "score": 0.4973,
       "publishedAt": "2026-11-17T18:58:54.000Z",
       "summary": "Google is rebranding its Spark AI agent as \"Tasks\" and making it free to use. The feature, which is powered by Google's new Gemini 4 Hydrogen AI model, can do things like create meal plans, manage your calendar, and dig through your emails to find recurring expenses you might not need. Users in the",
       "tags": [
@@ -538,50 +599,11 @@
       "engagementScore": 0
     },
     {
-      "title": "The Nvidia Scandal Could Upend Chip Sales to China. Trump Wants to Keep Them Going",
-      "url": "https://www.wired.com/story/the-nvidia-scandal-is-about-chip-sales-to-china-trump-wants-to-keep-them-going/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5381,
-      "publishedAt": "2026-11-17T18:03:32.000Z",
-      "summary": "Commerce secretary Howard Lutnick has been under attack for not blacklisting a company caught up in the Jensen Huang scandal. But Trump is on board with the policy.",
-      "tags": [
-        "Safety"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Jensen Huang Says He’s Open to Coming Back to Nvidia",
-      "url": "https://www.wired.com/story/jensen-huang-says-hes-open-to-coming-back-to-nvidia/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5353,
-      "publishedAt": "2026-11-17T17:32:24.000Z",
-      "summary": "Huang said in a statement that he “would be honored” to return as Nvidia CEO if the board of directors supported the decision.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "New Evidence Shows School Phone Bans Are Gradually Improving Test Scores",
-      "url": "https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html",
-      "feedSource": "Hacker News",
-      "source": "nytimes.com",
-      "score": 0.5329,
-      "publishedAt": "2026-11-17T11:45:51.000Z",
-      "summary": "Previous results were mixed, but the first national study to track individual students’ growth shows bans may help reverse declines.",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 1178
-    },
-    {
       "title": "Jensen Huang says he’s willing to return as Nvidia CEO",
       "url": "https://www.theverge.com/tech/1035420/jensen-huang-nvidia-return-as-ceo-statement",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5328,
+      "score": 0.4871,
       "publishedAt": "2026-11-17T17:04:40.000Z",
       "summary": "Jensen Huang, who resigned as Nvidia's CEO last week, would be willing to return as CEO if the company's board of directors wanted it, he said in a statement reported on by The Wall Street Journal. \"Since my departure, I've seen an outpouring of calls from Nvidia's employees, investors, business par",
       "tags": [
@@ -590,11 +612,25 @@
       "engagementScore": 0
     },
     {
+      "title": "Suno&#039;s new Visuals feature pairs AI-generated music with AI-generated video",
+      "url": "https://the-decoder.com/sunos-new-visuals-feature-pairs-ai-generated-music-with-ai-generated-video/",
+      "feedSource": "The Decoder",
+      "source": "the-decoder.com",
+      "score": 0.4869,
+      "publishedAt": "2026-11-18T10:22:45.000Z",
+      "summary": "AI music generator Suno can now create images and video clips to go with its songs, thanks to a new feature called Visuals.\nThe article Suno&#039;s new Visuals feature pairs AI-generated music with AI-generated video appeared first on The Decoder.",
+      "tags": [
+        "Vision",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "The DOJ says it’s investigating Megaspeed",
       "url": "https://www.theverge.com/policy/1035410/doj-megaspeed-nvidia-investigation-update",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5287,
+      "score": 0.483,
       "publishedAt": "2026-11-17T16:19:03.000Z",
       "summary": "The Justice and Commerce Departments said that they are investigating Megaspeed, the Singapore-based data center company intertwined with the resignation of Nvidia CEO Jensen Huang, after reporting suggested an investigation had been halted last year. \"While we don't typically comment on ongoing inv",
       "tags": [
@@ -607,7 +643,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/1034787/sam-altman-ram-shortage-semafor",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5204,
+      "score": 0.4747,
       "publishedAt": "2026-11-17T14:45:26.000Z",
       "summary": "OpenAI CEO Sam Altman is once again addressing his controversial comments on PC RAM purchases. \"I want to be clear, I want people to have a lot of RAM, I think everybody should be able to buy a lot of RAM for their own computer,\" Altman said today. \"I think the home tinkering is great.\" [&#8230;]",
       "tags": [
@@ -620,7 +656,7 @@
       "url": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4984,
+      "score": 0.4485,
       "publishedAt": "2026-11-16T18:38:47.000Z",
       "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. On Friday, a petition to reinstate Jensen Huang as CEO of Nvidia began circulating on social media, and by Monday it listed some notable signatories, including El",
       "tags": [
@@ -633,7 +669,7 @@
       "url": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.4834,
+      "score": 0.4335,
       "publishedAt": "2026-11-16T16:04:28.000Z",
       "summary": "In October this year, OpenAI disclosed that two of its AI agents had switched off the systems built to monitor them. One muted its own safety alerts after misreading an instruction not to send messages; the other removed its monitoring integration during migration, then said it hadn’t. No rule had t",
       "tags": [
@@ -644,57 +680,15 @@
       "engagementScore": 0
     },
     {
-      "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
-      "url": "https://huggingface.co/blog/openrouter",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.4741,
-      "publishedAt": "2026-11-16T00:00:00.000Z",
+      "title": "Introducing Gemini 4 Hydrogen",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+      "feedSource": "DeepMind",
+      "source": "deepmind.google",
+      "score": 0.4222,
+      "publishedAt": "2026-11-12T18:00:50.000Z",
       "summary": "",
       "tags": [
-        "Open Source",
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "New Ask Maps features to help with holiday travel and prep",
-      "url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
-      "feedSource": "Google AI",
-      "source": "blog.google",
-      "score": 0.4713,
-      "publishedAt": "2026-11-16T14:00:00.000Z",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Ask_Maps_November_herosocial.max-600x600.format-webp.webp\"&gt;Plan holiday road trips, get route tips, find local appointments, and search your saved lists with new Ask Maps features.",
-      "tags": [
-        "RAG",
-        "Vision",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Download: testing tech promises and searching for cognitive immortality",
-      "url": "https://www.technologyreview.com/2026/11/16/1148599/the-download-testing-tech-promises-cognitive-immortality-quest/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.4664,
-      "publishedAt": "2026-11-16T13:10:00.000Z",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Are we there yet? Six technologies that promised to change the world How do you measure progress towards the future? In the Impossible issue of MIT Te",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Building AI that can work across the enterprise",
-      "url": "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.4655,
-      "publishedAt": "2026-11-16T13:00:00.000Z",
-      "summary": "For years, enterprises have approached AI as a series of discrete experiments. Now, as AI agents begin to move into the workflows that run the business, that model is starting to look inadequate. Organizations moving from isolated pilots toward AI agents and autonomous workflows are confronting a de",
-      "tags": [
-        "Agents"
+        "LLM"
       ],
       "engagementScore": 0
     }
