@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T20:14:11.531Z",
+  "updatedAt": "2026-11-20T02:07:25.933Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,34 +12,34 @@
       "url": "https://www.anthropic.com/research/claude-black-hole-physics",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 1.0952,
+      "score": 1.0865,
       "publishedAt": "2026-11-19T17:30:44.000Z",
       "summary": "Claude Fable 5.2 has solved two open problems in theoretical physics. Both concern black holes and the search for a theory of quantum gravity.",
       "tags": [
         "LLM",
         "Research"
       ],
-      "engagementScore": 209
+      "engagementScore": 393
     },
     {
       "title": "Anthropic prices initial public offering",
       "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 1,
+      "score": 0.9576,
       "publishedAt": "2026-11-18T23:30:09.000Z",
       "summary": "Today Anthropic, PBC priced its initial public offering of its Class A common stock.",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 407
+      "engagementScore": 411
     },
     {
       "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
       "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.9482,
+      "score": 0.9052,
       "publishedAt": "2026-11-19T08:00:00.000Z",
       "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
       "tags": [
@@ -53,20 +53,73 @@
       "url": "https://openai.com/index/advancing-chip-design-with-our-models/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.9245,
+      "score": 0.8818,
       "publishedAt": "2026-11-18T17:45:47.000Z",
       "summary": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 219
+      "engagementScore": 220
+    },
+    {
+      "title": "Deploying Daybreak Red",
+      "url": "https://openai.com/business/learn/deploying-daybreak-red",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.8469,
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+      "tags": [
+        "Safety",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "See PR scans in action",
+      "url": "https://openai.com/business/learn/pr-scans-demo",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.8469,
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "summary": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Explore the Codex Security Plugin",
+      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.8469,
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Get started with Daybreak Blue",
+      "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.8469,
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "summary": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "GPT‑6.2 Astra and Sol",
       "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.8482,
+      "score": 0.8052,
       "publishedAt": "2026-11-17T17:46:43.000Z",
       "summary": "",
       "tags": [
@@ -79,7 +132,7 @@
       "url": "https://arxiv.org/abs/2611.23322",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8085,
+      "score": 0.7685,
       "publishedAt": "2026-11-19T05:00:00.000Z",
       "summary": "arXiv:2611.23322v1 Announce Type: new \nAbstract: One hope for a good human future alongside advanced AI rests on enduring mutualism: humans and AI will need each other, so the relationship will stay good for both. We argue that this hope fails as AI capability grows. Bargaining guarantees each side",
       "tags": [
@@ -93,7 +146,7 @@
       "url": "https://arxiv.org/abs/2611.23365",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8085,
+      "score": 0.7685,
       "publishedAt": "2026-11-19T05:00:00.000Z",
       "summary": "arXiv:2611.23365v1 Announce Type: new \nAbstract: Language models increasingly exhibit behaviors that are difficult to detect in transcripts, such as reward hacking, deception, and sycophancy. Asking the assistant follow-up questions about its actions is unreliable, since models are generally not tra",
       "tags": [
@@ -108,7 +161,7 @@
       "url": "https://arxiv.org/abs/2611.23375",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8085,
+      "score": 0.7685,
       "publishedAt": "2026-11-19T05:00:00.000Z",
       "summary": "arXiv:2611.23375v1 Announce Type: new \nAbstract: Coding agents are billed by the token, yet software engineering says nothing about what a token actually buys. Here we introduce a theory of software thermodynamics. The theory draws analogues from classical and stochastic thermodynamics, extends them",
       "tags": [
@@ -123,7 +176,7 @@
       "url": "https://arxiv.org/abs/2611.23398",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8085,
+      "score": 0.7685,
       "publishedAt": "2026-11-19T05:00:00.000Z",
       "summary": "arXiv:2611.23398v1 Announce Type: new \nAbstract: The rapid scale-up of AI infrastructure has made datacenter reliability a cornerstone of the cloud business economy. Since hardware failures in hyper-scale AI clusters can stall multi-million dollar training workloads, the downtime of individual machi",
       "tags": [
@@ -138,7 +191,7 @@
       "url": "https://arxiv.org/abs/2611.23410",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8085,
+      "score": 0.7685,
       "publishedAt": "2026-11-19T05:00:00.000Z",
       "summary": "arXiv:2611.23410v1 Announce Type: new \nAbstract: While multimodal language models can interpret diagrams and generate structured outputs, their capacity to connect passive radio-frequency (RF) design intent, layout geometry, and electromagnetic behavior remains largely untested. To address this gap,",
       "tags": [
@@ -154,7 +207,7 @@
       "url": "https://arxiv.org/abs/2611.23445",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8085,
+      "score": 0.7685,
       "publishedAt": "2026-11-19T05:00:00.000Z",
       "summary": "arXiv:2611.23445v1 Announce Type: new \nAbstract: Deep vision models operating in resource-constrained environments depend heavily on low-bit quantization, yet compressing weights below 4 bits frequently induces catastrophic accuracy collapse. While mixed-precision recovery strategies aim to rescue a",
       "tags": [
@@ -169,7 +222,7 @@
       "url": "https://arxiv.org/abs/2611.23454",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8085,
+      "score": 0.7685,
       "publishedAt": "2026-11-19T05:00:00.000Z",
       "summary": "arXiv:2611.23454v1 Announce Type: new \nAbstract: Access to large-scale clinical text collections is crucial for advancing medical information retrieval research, including clinical note search, patient cohort identification, and domain-adapted retrieval models. However, real clinical notes are rarel",
       "tags": [
@@ -183,7 +236,7 @@
       "url": "https://arxiv.org/abs/2611.23456",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8085,
+      "score": 0.7685,
       "publishedAt": "2026-11-19T05:00:00.000Z",
       "summary": "arXiv:2611.23456v1 Announce Type: new \nAbstract: Automatic generation of mathematics assessment items is a growing area in educational artificial intelligence, yet classroom deployment remains challenging. Generated questions must satisfy multiple constraints: mathematical correctness, curriculum al",
       "tags": [
@@ -197,7 +250,7 @@
       "url": "https://openai.com/index/the-silent-consensus",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7877,
+      "score": 0.7448,
       "publishedAt": "2026-11-18T10:00:00.000Z",
       "summary": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
       "tags": [
@@ -210,36 +263,20 @@
       "url": "https://arxiv.org/abs/2607.29378",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7801,
+      "score": 0.7412,
       "publishedAt": "2026-11-19T01:27:02.000Z",
       "summary": "Large language models (LLMs) generate text by auto-regressively sampling the next token. This inherently leads to a many-to-many mapping between prompts and responses, complicating the task of inferring prompts from observed outputs. Prior work on LLM inversion frames prompt recovery as a semantic r",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 46
-    },
-    {
-      "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
-      "url": "https://openai.com/business/customer-stories/sumitomo-life",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.7732,
-      "publishedAt": "2026-11-18T08:00:00.000Z",
-      "summary": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
-      "tags": [
-        "LLM",
-        "Research",
-        "Dev Tools",
-        "Industry"
-      ],
-      "engagementScore": 0
+      "engagementScore": 47
     },
     {
       "title": "Research acceleration: The jagged frontier",
       "url": "https://openai.com/index/research-acceleration-jagged-frontier",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7732,
+      "score": 0.7302,
       "publishedAt": "2026-11-18T08:00:00.000Z",
       "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
       "tags": [
@@ -251,15 +288,18 @@
       "engagementScore": 0
     },
     {
-      "title": "Inside the Codex sandbox",
-      "url": "https://openai.com/index/inside-the-codex-sandbox",
+      "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+      "url": "https://openai.com/business/customer-stories/sumitomo-life",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7732,
+      "score": 0.7302,
       "publishedAt": "2026-11-18T08:00:00.000Z",
-      "summary": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
+      "summary": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
       "tags": [
-        "Dev Tools"
+        "LLM",
+        "Research",
+        "Dev Tools",
+        "Industry"
       ],
       "engagementScore": 0
     },
@@ -268,113 +308,46 @@
       "url": "https://arxiv.org/abs/2510.18203",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7611,
+      "score": 0.7221,
       "publishedAt": "2026-11-18T14:44:33.000Z",
-      "summary": "",
+      "summary": "This is a textbook on Fourier Series, suitable for both undergraduate and graduate courses. The textbook is endowed with exercises, and full solutions are provided at the end of the book.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 133
-    },
-    {
-      "title": "Managing frontier AI risk: From training to deployment",
-      "url": "https://openai.com/index/managing-frontier-ai-risk",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.7586,
-      "publishedAt": "2026-11-18T06:00:00.000Z",
-      "summary": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
-      "tags": [
-        "LLM",
-        "Safety",
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Introducing Gemini 4 Neon",
-      "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.7581,
-      "publishedAt": "2026-11-18T21:35:43.000Z",
-      "summary": "",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Genie 4 is now available",
-      "url": "https://deepmind.google/blog/genie-4-is-now-available/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.7352,
-      "publishedAt": "2026-11-18T18:13:42.000Z",
-      "summary": "We are rolling out a new Project Genie experience to eligible Google AI Ultra subscribers, opening access to our new Genie 4 world model.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
+      "engagementScore": 136
     },
     {
       "title": "Recurrent Interface Networks",
       "url": "https://arxiv.org/abs/2212.11972",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7183,
+      "score": 0.6817,
       "publishedAt": "2026-11-19T01:13:16.000Z",
       "summary": "",
       "tags": [
         "AI"
       ],
-      "engagementScore": 14
-    },
-    {
-      "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
-      "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.7148,
-      "publishedAt": "2026-11-18T00:00:00.000Z",
-      "summary": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Advancing chip design with OpenAI models",
-      "url": "https://openai.com/index/advancing-chip-design-with-our-models",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.7148,
-      "publishedAt": "2026-11-18T00:00:00.000Z",
-      "summary": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
+      "engagementScore": 15
     },
     {
       "title": "Gemini 4 Neon",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
       "feedSource": "Hacker News",
       "source": "blog.google",
-      "score": 0.6835,
+      "score": 0.6501,
       "publishedAt": "2026-11-18T21:34:07.000Z",
       "summary": "Today, we’re introducing Gemini 4 Neon",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 993
+      "engagementScore": 1016
     },
     {
       "title": "Introducing Tool Retrieval in the Gemini API",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.6729,
+      "score": 0.6385,
       "publishedAt": "2026-11-19T18:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Tool_retrieval_hero.max-600x600.format-webp.webp\"&gt;Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API.",
       "tags": [
@@ -391,7 +364,7 @@
       "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.667,
+      "score": 0.6327,
       "publishedAt": "2026-11-19T17:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Dialogues.max-600x600.format-webp.webp\"&gt;Walter Isaacson joins Google to discuss how history’s greatest innovators inspire creativity and human judgment in the AI age. Watch the episode.",
       "tags": [
@@ -406,7 +379,7 @@
       "url": "https://www.technologyreview.com/2026/11/19/1148979/the-download-liver-kept-alive-sila-battery-deal-ai-hype/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6447,
+      "score": 0.6103,
       "publishedAt": "2026-11-19T13:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. A human liver has been kept alive outside the body for a record seven weeks Researchers in Australia claim they’ve kept a human liver alive on life su",
       "tags": [
@@ -420,7 +393,7 @@
       "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6414,
+      "score": 0.6042,
       "publishedAt": "2026-11-18T19:54:56.000Z",
       "summary": "A Blog post by RadixArk on Hugging Face",
       "tags": [
@@ -433,7 +406,7 @@
       "url": "https://www.technologyreview.com/2026/11/19/1148934/a-human-liver-has-been-kept-alive-outside-the-body-for-seven-weeks-setting-a-record/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6379,
+      "score": 0.6035,
       "publishedAt": "2026-11-19T12:00:00.000Z",
       "summary": "Researchers in Australia claim they’ve kept a human liver alive, on life support, outside the body for seven weeks, opening up speculative new possibilities in biomedical engineering. The feat, whose details are pending publication, was carried out in Sydney after a team led by surgeon and inventor",
       "tags": [
@@ -446,7 +419,7 @@
       "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6349,
+      "score": 0.5977,
       "publishedAt": "2026-11-18T18:53:43.000Z",
       "summary": "",
       "tags": [
@@ -459,7 +432,7 @@
       "url": "https://www.technologyreview.com/2026/11/19/1148922/sila-panasonic-battery-deal/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.632,
+      "score": 0.5977,
       "publishedAt": "2026-11-19T11:00:00.000Z",
       "summary": "After a tough few years littered with some high-profile failures, there’s some positive news for next-generation batteries in the US. Sila just signed an agreement with Panasonic Energy, a global battery manufacturer, to supply silicon-carbon anode material, a possible key to smaller, lighter batter",
       "tags": [
@@ -472,7 +445,7 @@
       "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6103,
+      "score": 0.5731,
       "publishedAt": "2026-11-18T15:00:23.000Z",
       "summary": "",
       "tags": [
@@ -481,13 +454,133 @@
       "engagementScore": 0
     },
     {
+      "title": "Apple is hiring engineers to build its own AI agent",
+      "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5692,
+      "publishedAt": "2026-11-19T23:13:01.000Z",
+      "summary": "Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services. That's according to a job listing spotted by Bloomberg, which says Apple is looking for an engineer to lead the creation of an agentic",
+      "tags": [
+        "Agents",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Dudes Online Are So Mad That ‘Grand Theft Auto 6’ Makes Them Respect Women",
+      "url": "https://www.wired.com/story/dudes-online-are-so-mad-that-gta-vi-makes-them-respect-women/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5691,
+      "publishedAt": "2026-11-19T23:12:17.000Z",
+      "summary": "Much to the dismay of right-wing streamers, being a thoughtful boyfriend is key to the game’s storyline.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Best Amazon Black Friday Deals (2026)",
+      "url": "https://www.wired.com/story/amazon-black-friday-november-2026-early-deals/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5629,
+      "publishedAt": "2026-11-19T22:02:12.000Z",
+      "summary": "For die-hard Amazon shoppers, the retailer is starting Black Friday early. You can shop the deals from now until November 30.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "A brief history of Nvidia’s recent stock fluctuations",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5627,
+      "publishedAt": "2026-11-19T21:59:35.000Z",
+      "summary": "\"We've got this,\" Colette Kress, interim CEO of Nvidia, said Tuesday night as she closed out the embattled chip company's third quarter earnings call. By Thursday, the company's stock price was hovering at around $150 per share, a nearly 40 percent drop from its all-time high on October 6th, and wip",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "What’s With All These Outages?",
+      "url": "https://www.wired.com/story/uncanny-valley-podcast-whats-with-all-these-outages/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5624,
+      "publishedAt": "2026-11-19T21:57:01.000Z",
+      "summary": "This week on “Uncanny Valley,” we discuss the outages that have swept digital life over the past week, where new money from Anthropic’s IPO is going, and the AI chip world post-Jensen Huang.",
+      "tags": [
+        "LLM",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Anthropic starts trading on Wall Street",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5594,
+      "publishedAt": "2026-11-19T21:22:34.000Z",
+      "summary": "Anthropic has officially gone public. It began trading on the Nasdaq under the ticker symbol \"ANT\" at $111.50 per share, up from its initial $83 per share price that put company's value at around $1.5 trillion. The listing comes nearly a month after Anthropic revealed its plans to go public. In its",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Best Hatch Black Friday Deals (2026)",
+      "url": "https://www.wired.com/story/hatch-black-friday-deals-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.556,
+      "publishedAt": "2026-11-19T20:44:44.000Z",
+      "summary": "Grab the Hatch Sleep Clock for $188 (25 percent off) at Hatch or Amazon through November 30.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Jensen Huang Blast Radius Has Hit His Favorite Restaurants",
+      "url": "https://www.wired.com/story/jensen-huangs-favorite-restaurants-are-caught-up-in-his-scandals-too/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5551,
+      "publishedAt": "2026-11-19T20:34:17.000Z",
+      "summary": "In Taiwan, some food vendors are distancing themselves from Nvidia’s former CEO. Others stand by him. “It’s not as if he killed someone or set something on fire,” says one shop owner.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Meta’s Muse Charm might cost $300",
+      "url": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5546,
+      "publishedAt": "2026-11-19T20:29:21.000Z",
+      "summary": "Meta is planning to price the Muse Charm, a little gadget with a screen that lets you chat with your Muse AI agent, at $300, according to The Information. CEO Mark Zuckerberg revealed the gadget earlier this year and said the company expected to ship the Charm \"in time for the holidays in December,\"",
+      "tags": [
+        "Agents",
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "Google is putting AI chats right on the homepage",
       "url": "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5844,
-      "publishedAt": "2026-11-19T20:10:36.000Z",
-      "summary": "Google is updating its homepage to include AI searches. In a post on X, Google's vice president of product, Robby Stein, shows how you can now open a sidebar to view and continue your AI chats. Based on the GIF shared by Stein, it looks like you can open the sidebar by clicking the gray [&#8230;]",
+      "score": 0.5533,
+      "publishedAt": "2026-11-19T20:14:34.000Z",
+      "summary": "Google is updating its homepage to include AI searches. In a post on X, Google's vice president of product, Robby Stein, shows how you can now open a collapsible sidebar to view and continue your AI chats. Based on the GIF shared by Stein, it looks like you can open the sidebar by clicking the [&#82",
       "tags": [
         "AI"
       ],
@@ -498,7 +591,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5791,
+      "score": 0.5476,
       "publishedAt": "2026-11-19T19:10:57.000Z",
       "summary": "Today is a new beginning for Anthropic: a years-in-the-making IPO that beat out SpaceX for most valuable of all time, having raised $81.3 billion and set an important precedent for the other public AI lab debuts to come. But it's not simply a financial milestone. Anthropic was founded on the idea th",
       "tags": [
@@ -512,22 +605,9 @@
       "url": "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5788,
+      "score": 0.5473,
       "publishedAt": "2026-11-19T19:07:41.000Z",
       "summary": "Google's Gemini app for macOS now has computer use, meaning it can help you \"get multi-step tasks done across your local files, desktop apps, and the web,\" the company says. Google suggests the feature might be useful for things like speeding up workflows, filling in forms, making presentations, and",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Anthropic starts trading on Wall Street",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5675,
-      "publishedAt": "2026-11-19T17:01:00.000Z",
-      "summary": "Anthropic has officially gone public. It began trading on the Nasdaq under the ticker symbol \"ANT\" at $111.50 per share, up from its initial $83 per share price that put company's value at around $1.5 trillion. The listing comes nearly a month after Anthropic revealed its plans to go public. In its",
       "tags": [
         "LLM"
       ],
@@ -538,7 +618,7 @@
       "url": "https://www.wired.com/story/google-built-a-giant-mirror-dimension-internet-to-test-its-chrome-ai-agents/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5674,
+      "score": 0.536,
       "publishedAt": "2026-11-19T17:00:00.000Z",
       "summary": "The company’s alternate-universe internet serves as a massive sandbox that allows the Chrome team to properly train AI browsing agents—without the risk of them going rogue.",
       "tags": [
@@ -548,25 +628,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Nvidia’s rise, visualized",
-      "url": "https://www.theverge.com/tech/1035924/nvidia-visualized-revenue-profit-earnings-after-huang",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5639,
-      "publishedAt": "2026-11-19T16:19:57.000Z",
-      "summary": "If someone handed you $8,300 every second, what would you do? That's how much pure profit Nvidia now makes. By the time you finish reading this paragraph, Nvidia will likely have cleared $45,000 and change. It's easy to look at Nvidia, a company that just lost its visionary founder CEO due to a seri",
-      "tags": [
-        "RAG",
-        "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "ChatGPT can transcribe as you speak now with Live Dictation",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation",
       "feedSource": "The Verge",
       "source": "theverge.com",
-      "score": 0.5582,
+      "score": 0.5268,
       "publishedAt": "2026-11-19T15:16:45.000Z",
       "summary": "ChatGPT can receive audio prompts from your microphone faster now with a Live Dictation feature that transcribes as you speak, rather than waiting until you finish recording. It's rolling out now globally on all ChatGPT plans on the web, desktop app, and iOS and Android apps. While using dictation i",
       "tags": [
@@ -575,25 +641,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Canva adds an AI ‘off’ button",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1037126/canva-ai-features-off-button",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5468,
-      "publishedAt": "2026-11-19T13:08:05.000Z",
-      "summary": "Canva will now allow you to turn off its generative AI features. With this change, you can disable the graphic design platform's array of AI tools, such as its AI photo-extending Magic Expand feature, as well as turn off the ability to generate images with its Canva chatbot. This toggle doesn't turn",
-      "tags": [
-        "Vision",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "21 Best Home Entertainment Gifts (2026): TVs, Lights, and More",
       "url": "https://www.wired.com/story/best-home-entertainment-gifts-2026/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5407,
+      "score": 0.5092,
       "publishedAt": "2026-11-19T12:00:00.000Z",
       "summary": "Because staying home can actually mean having the time of your life, whether alone or with friends.",
       "tags": [
@@ -606,7 +658,7 @@
       "url": "https://www.wired.com/story/voyager-light-day-away-how-far-that-really-is/",
       "feedSource": "Wired",
       "source": "wired.com",
-      "score": 0.5407,
+      "score": 0.5092,
       "publishedAt": "2026-11-19T12:00:00.000Z",
       "summary": "The distance and forces shaping the venerable craft’s trajectory are mind-boggling reminders of the vastness of space.",
       "tags": [
@@ -615,78 +667,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Anthropic’s Record-Breaking IPO Highlights the AI Giant’s Worst Enemy—Itself",
-      "url": "https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5407,
-      "publishedAt": "2026-11-19T12:00:00.000Z",
-      "summary": "Investors betting a barnstorming $107 billion will weigh whether the company’s AI safety strategy and growing public anger toward data centers could impact its growth.",
-      "tags": [
-        "LLM",
-        "Safety",
-        "Industry"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Best Early Black Friday Deals on Laptops I’ve Tested (2026)",
-      "url": "https://www.wired.com/story/best-early-black-friday-laptop-deals-11-18-26/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.538,
-      "publishedAt": "2026-11-19T11:30:00.000Z",
-      "summary": "Some of the best deals on my favorite laptops of the year have already dropped in the lead-up to Black Friday.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Best Early Dyson Black Friday Vacuum Deals (2026)",
-      "url": "https://www.wired.com/story/best-early-black-friday-dyson-vacuum-deals-11-19-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5354,
-      "publishedAt": "2026-11-19T11:00:00.000Z",
-      "summary": "Dyson’s early Black Friday deals start today, and these are the vacuum deals you don’t want to skip.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Leaked: How Silicon Valley Elites Bankrolled an Anti-Migrant, Pro-Israel Propaganda Machine",
-      "url": "https://www.wired.com/story/leaked-how-silicon-valley-elites-bankrolled-anti-migrant-pro-israel-propaganda-machine/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5354,
-      "publishedAt": "2026-11-19T11:00:00.000Z",
-      "summary": "Documents reveal the sordid inner workings of Visegrad24, an obscure Polish influence operation that became one of Elon Musk’s favorite sources of fake news.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "10 Best Therabody Gadgets &amp; Theraguns to Gift This Year (2026)",
-      "url": "https://www.wired.com/gallery/best-theragun-percussive-therapy-devices/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5327,
-      "publishedAt": "2026-11-19T10:30:00.000Z",
-      "summary": "From massage guns to compression boots and LED face masks, these Therabody gifts are perfect for anyone who deserves some rest and relaxation.",
-      "tags": [
-        "RAG"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "The Gemini app is now available on lower-memory Android devices.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
       "feedSource": "Google AI",
       "source": "blog.google",
-      "score": 0.527,
+      "score": 0.4927,
       "publishedAt": "2026-11-18T17:00:00.000Z",
       "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_app_Android_social_share.max-600x600.format-webp.webp\"&gt;The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today.",
       "tags": [
@@ -694,6 +679,19 @@
         "RAG",
         "Vision",
         "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The AI Hype Index: AI is everywhere",
+      "url": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.4793,
+      "publishedAt": "2026-11-18T14:42:44.000Z",
+      "summary": "Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue. Leave your apartment, and you might pass two people heaving an AI-powered humanoid robot up the stairs to clean someone’s rooms. Go to",
+      "tags": [
+        "Industry"
       ],
       "engagementScore": 0
     }
