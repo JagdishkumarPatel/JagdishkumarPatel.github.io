@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T03:24:48.429Z",
+  "updatedAt": "2026-11-26T16:37:14.393Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -8,11 +8,24 @@
   ],
   "items": [
     {
+      "title": "An algebraic quantization of gravity from the null cone",
+      "url": "https://arxiv.org/abs/2611.34924",
+      "feedSource": "Hacker News",
+      "source": "arxiv.org",
+      "score": 0.8839,
+      "publishedAt": "2026-11-26T05:37:51.000Z",
+      "summary": "We propose a background independent quantization of vacuum general relativity on four dimensional Lorentzian spacetimes. Starting from first order gravity, we solve the gravitational constraints on intersecting null cones of a bulk subregion and obtain the reduced phase space at finite $G_N$. We pro",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 125
+    },
+    {
       "title": "Migrating Our Messages API to Rust",
       "url": "https://www.anthropic.com/research/migrating-api-to-rust",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.933,
+      "score": 0.856,
       "publishedAt": "2026-11-25T19:33:10.000Z",
       "summary": "How we used the existing Messages API to verify the new one, with teams of Claude agents tracking down and fixing differences between the Python and Rust versions.",
       "tags": [
@@ -20,166 +33,214 @@
         "Agents",
         "Dev Tools"
       ],
-      "engagementScore": 21
+      "engagementScore": 30
+    },
+    {
+      "title": "Context Scaling: A New Frontier of AI Scaling",
+      "url": "https://arxiv.org/abs/2611.33160",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8331,
+      "publishedAt": "2026-11-26T05:00:00.000Z",
+      "summary": "arXiv:2611.33160v1 Announce Type: new \nAbstract: Many failures of deployed AI arise not from weak inference but from a mismatch between the state a task depends on and the context available when the system acts. Relevant user state, repository revisions, tool traces, sensor readings, or environment",
+      "tags": [
+        "Research",
+        "Vision",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Constraint-Aware Test-Time Scoring for LLM and VLM Candidate Selection",
+      "url": "https://arxiv.org/abs/2611.33161",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8331,
+      "publishedAt": "2026-11-26T05:00:00.000Z",
+      "summary": "arXiv:2611.33161v1 Announce Type: new \nAbstract: When an LLM or VLM produces several candidate answers, picking the best one usually relies on the model's own confidence, a learned judge model, or a domain check. Each has a known weakness: an answer can be fluent but insecure, mathematically plausib",
+      "tags": [
+        "LLM",
+        "Research",
+        "ML Infra"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "AutoformBench: A Lean Formalization Benchmark for Advanced Mathematics",
+      "url": "https://arxiv.org/abs/2611.33165",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8331,
+      "publishedAt": "2026-11-26T05:00:00.000Z",
+      "summary": "arXiv:2611.33165v1 Announce Type: new \nAbstract: AI systems are increasingly capable of producing machine-checked Lean proofs of advanced mathematical results. Real mathematical formalization, however, is not isolated theorem proving: it requires building the definitions and intermediate lemmas that",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "General-Purpose Decision Models for AI Configuration Tuning",
+      "url": "https://arxiv.org/abs/2611.33190",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8331,
+      "publishedAt": "2026-11-26T05:00:00.000Z",
+      "summary": "arXiv:2611.33190v1 Announce Type: new \nAbstract: AI configuration tuning searches for settings that improve the performance of AI systems under a limited budget. Existing tuners use different sampling and search policies, making the choice of decision strategy central to both tuning quality and cost",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "What, Who, and When: Structured Harm Assessment for Mental Health Safety via Short Reasoning",
+      "url": "https://arxiv.org/abs/2611.33263",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8331,
+      "publishedAt": "2026-11-26T05:00:00.000Z",
+      "summary": "arXiv:2611.33263v1 Announce Type: new \nAbstract: The growing use of large language models (LLMs) for mental health support raises important safety concerns. Existing guard models primarily identify categories of harmful content, often overlooking the context needed to determine an appropriate respon",
+      "tags": [
+        "LLM",
+        "Research",
+        "Safety"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Certify What You Plant: Shortcut-Free Proof Depth in Logical Reasoning Data",
+      "url": "https://arxiv.org/abs/2611.33303",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8331,
+      "publishedAt": "2026-11-26T05:00:00.000Z",
+      "summary": "arXiv:2611.33303v1 Announce Type: new \nAbstract: Procedurally generated logic problems are used to both evaluate and train reasoning in language models. Their difficulty is usually set by planting a proof, that is, by sampling a proof of the desired depth and stating its premises as the problem. How",
+      "tags": [
+        "LLM",
+        "Research",
+        "ML Infra"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Platonic Representation Hypothesis in Jacobian-Space: Language and Vision Models Agree Approximately Up to a Rotation",
+      "url": "https://arxiv.org/abs/2611.33304",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8331,
+      "publishedAt": "2026-11-26T05:00:00.000Z",
+      "summary": "arXiv:2611.33304v1 Announce Type: new \nAbstract: The Platonic Representation Hypothesis (PRH) posits that AI models converge toward a shared representation of the world, even when trained on different data modalities. Previous work has found evidence for the PRH in the activations of vision and lang",
+      "tags": [
+        "Research",
+        "Vision",
+        "ML Infra"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Brand Recall and Category Accuracy in Language Models: An Audit of 1,000 B2B SaaS Brands",
+      "url": "https://arxiv.org/abs/2611.33322",
+      "feedSource": "arXiv",
+      "source": "arxiv.org",
+      "score": 0.8331,
+      "publishedAt": "2026-11-26T05:00:00.000Z",
+      "summary": "arXiv:2611.33322v1 Announce Type: new \nAbstract: A language model can name a brand without classifying it correctly. This study measures these outcomes separately for 1,000 B2B SaaS brands across 333 product categories. On Gemma 4 12B, with no external retrieval, category prompts elicit 510 brands (",
+      "tags": [
+        "LLM",
+        "Research",
+        "RAG"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
       "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
       "feedSource": "Hacker News",
       "source": "openai.com",
-      "score": 0.922,
+      "score": 0.826,
       "publishedAt": "2026-11-24T21:02:22.000Z",
       "summary": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
       "tags": [
         "LLM",
         "Dev Tools"
       ],
-      "engagementScore": 353
+      "engagementScore": 355
+    },
+    {
+      "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+      "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.7635,
+      "publishedAt": "2026-11-26T11:37:17.000Z",
+      "summary": "A Blog post by ggml-org on Hugging Face",
+      "tags": [
+        "Open Source"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "Working with AI",
       "url": "https://www.anthropic.com/research/working-with-ai",
       "feedSource": "Hacker News",
       "source": "anthropic.com",
-      "score": 0.8472,
+      "score": 0.7516,
       "publishedAt": "2026-11-24T21:07:38.000Z",
       "summary": "",
       "tags": [
         "AI"
       ],
-      "engagementScore": 88
+      "engagementScore": 89
+    },
+    {
+      "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+      "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.7222,
+      "publishedAt": "2026-11-26T05:05:36.000Z",
+      "summary": "",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "The industrialization of noise: Automated proof-solving is the same old dead end [pdf]",
       "url": "https://arxiv.org/abs/2611.31286",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7984,
+      "score": 0.7121,
       "publishedAt": "2026-11-25T08:23:34.000Z",
-      "summary": "Nearly fifty years ago, DeMillo, Lipton, and Perlis argued that mathematical proofs are not static, isolated structures of formal logic, but the products of a vibrant, evolving social process of human critique, internalization, and shared intuition. In October 2026, OpenAI challenged this thesis by",
+      "summary": "",
       "tags": [
-        "LLM"
+        "AI"
       ],
-      "engagementScore": 68
+      "engagementScore": 73
     },
     {
-      "title": "Irreducible Governance Structure for Autonomous Agent Systems: Fair Allocation, Strategy-Proofness, and Multi-Scale Composition",
-      "url": "https://arxiv.org/abs/2611.31284",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7597,
-      "publishedAt": "2026-11-25T05:00:00.000Z",
-      "summary": "arXiv:2611.31284v1 Announce Type: new \nAbstract: Autonomous agent governance is commonly framed as a problem of enforcing correct execution. However, in multi-agent systems, an equally fundamental question precedes execution: which agents are allowed to act.\n  In this paper, we show that allocation",
+      "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+      "url": "https://huggingface.co/blog/training-swarms",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.69,
+      "publishedAt": "2026-11-26T00:00:00.000Z",
+      "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
       "tags": [
         "Agents",
-        "Research"
+        "Open Source"
       ],
       "engagementScore": 0
     },
     {
-      "title": "MOZAIC: An Audio-Video Deepfake Benchmark for Telling What Is Fake",
-      "url": "https://arxiv.org/abs/2611.31301",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7597,
-      "publishedAt": "2026-11-25T05:00:00.000Z",
-      "summary": "arXiv:2611.31301v1 Announce Type: new \nAbstract: Audio-video (AV) deepfakes can fake the face, the voice, or both. Most benchmarks only ask whether a clip is real or fake, so they cannot show whether a detector relies on the picture, the voice, or encoding traces. We present MOZAIC, a paired benchma",
+      "title": "The Download: Better bionic hands and AI’s natural-gas boom",
+      "url": "https://www.technologyreview.com/2026/11/26/1149934/the-download-better-bionic-hands-ai-natural-gas-boom/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6658,
+      "publishedAt": "2026-11-26T13:10:00.000Z",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The next generation of bionic hands is here—and they can feel Avi Davidson lost his left hand as a teenager. Since then, he&#8217;s cycled through a f",
       "tags": [
-        "Research",
-        "Vision",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Conservative Overlap Fuzzy Rough Sets for Incomplete Data",
-      "url": "https://arxiv.org/abs/2611.31329",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7597,
-      "publishedAt": "2026-11-25T05:00:00.000Z",
-      "summary": "arXiv:2611.31329v1 Announce Type: new \nAbstract: Attribute reduction in incomplete information systems is difficult because missing values break the equivalence-class structure of rough set theory. We propose the Conservative Overlap Fuzzy Rough Set (COFRS) model. Each object is described by its set",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Beyond Static Charts: Benchmarking Interactive Chart-to-Code Generation for MLLMs",
-      "url": "https://arxiv.org/abs/2611.31345",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7597,
-      "publishedAt": "2026-11-25T05:00:00.000Z",
-      "summary": "arXiv:2611.31345v1 Announce Type: new \nAbstract: In recent years, multimodal large language models (MLLMs) have achieved significant progress in chart-to-code generation. However, existing benchmarks mainly focus on static charts, overlooking interactive charts that enable richer and more expressive",
-      "tags": [
-        "LLM",
-        "Research",
-        "Vision",
-        "Dev Tools",
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "What People Choose Not to Say: A Multimodal Benchmark for Fine-Grained Information Manipulation in Conversations",
-      "url": "https://arxiv.org/abs/2611.31346",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7597,
-      "publishedAt": "2026-11-25T05:00:00.000Z",
-      "summary": "arXiv:2611.31346v1 Announce Type: new \nAbstract: Recent advances in MLLMs have improved social understanding, enabling models to recognize emotions and distinguish truthful from deceptive behaviors. However, existing benchmarks largely focus on coarse-grained emotion recognition or binary truth-dece",
-      "tags": [
-        "LLM",
-        "Research",
-        "Vision",
-        "ML Infra"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Antares-Smaug: Adversarial Names, Tokens and Attack Rewrites: Sanitisers Miss Unseen Generalisations",
-      "url": "https://arxiv.org/abs/2611.31347",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7597,
-      "publishedAt": "2026-11-25T05:00:00.000Z",
-      "summary": "arXiv:2611.31347v1 Announce Type: new \nAbstract: Laya is an open decision model: given a text, a question and K named options with descriptions, it returns one probability per option in a single pass, and software may act on the answer unseen. We attack six Laya models with 81 programmatic edits of",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "ContextLure: Exploiting Benign Conversation History for Indirect Prompt Injection",
-      "url": "https://arxiv.org/abs/2611.31424",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7597,
-      "publishedAt": "2026-11-25T05:00:00.000Z",
-      "summary": "arXiv:2611.31424v1 Announce Type: new \nAbstract: As LLMs become more capable, agents can perform more complex tasks with tools and maintain longer interactions with users. These benign conversations contain evidence on task results, user concerns, and operational constraints. The risk is that attack",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Research",
-        "Safety",
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Learning What vs. Learning How: Decomposing Task and Interface Competence in Agentic Training",
-      "url": "https://arxiv.org/abs/2611.31427",
-      "feedSource": "arXiv",
-      "source": "arxiv.org",
-      "score": 0.7597,
-      "publishedAt": "2026-11-25T05:00:00.000Z",
-      "summary": "arXiv:2611.31427v1 Announce Type: new \nAbstract: LLM agents operate through harnesses that define system prompts, action formats, feedback loops, and resource constraints. A model may possess the knowledge needed to solve a task yet fail to express that knowledge through a particular harness. This r",
-      "tags": [
-        "LLM",
-        "Agents",
-        "Research",
-        "ML Infra"
+        "AI"
       ],
       "engagementScore": 0
     },
@@ -188,7 +249,7 @@
       "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.7573,
+      "score": 0.661,
       "publishedAt": "2026-11-24T13:00:00.000Z",
       "summary": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
       "tags": [
@@ -198,24 +259,11 @@
       "engagementScore": 0
     },
     {
-      "title": "Searching for distant planets with Astra",
-      "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
-      "feedSource": "OpenAI",
-      "source": "openai.com",
-      "score": 0.7427,
-      "publishedAt": "2026-11-24T11:00:00.000Z",
-      "summary": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Where scientists draw the line on AI agents",
       "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.7412,
+      "score": 0.6577,
       "publishedAt": "2026-11-25T18:52:55.000Z",
       "summary": "",
       "tags": [
@@ -224,37 +272,50 @@
       "engagementScore": 0
     },
     {
-      "title": "A Tasty Combination: Multivariable Calculus and Differential Forms",
-      "url": "https://arxiv.org/abs/0910.0047",
-      "feedSource": "Hacker News",
-      "source": "arxiv.org",
-      "score": 0.7302,
-      "publishedAt": "2026-11-25T19:28:26.000Z",
-      "summary": "",
+      "title": "The next generation of bionic hands is here—and they can feel",
+      "url": "https://www.technologyreview.com/2026/11/26/1149923/the-next-generation-of-bionic-hands-is-here-and-they-can-feel/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6472,
+      "publishedAt": "2026-11-26T09:59:00.000Z",
+      "summary": "Avi Davidson lost his left hand as a teenager. Since then, he’s cycled through a few prosthetics. But his latest is different—it’s wired up to nerves in the upper part of his forearm and allows him to feel pressure. For the first time in years, he can use his left limb to handle delicate objects&#82",
       "tags": [
         "AI"
       ],
-      "engagementScore": 4
+      "engagementScore": 0
+    },
+    {
+      "title": "Searching for distant planets with Astra",
+      "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+      "feedSource": "OpenAI",
+      "source": "openai.com",
+      "score": 0.6464,
+      "publishedAt": "2026-11-24T11:00:00.000Z",
+      "summary": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "The KL Divergence Is Never Negative, Except in PyTorch",
       "url": "https://arxiv.org/abs/2611.30835",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7032,
+      "score": 0.6138,
       "publishedAt": "2026-11-24T15:50:22.000Z",
       "summary": "",
       "tags": [
         "AI"
       ],
-      "engagementScore": 96
+      "engagementScore": 97
     },
     {
       "title": "An Indic Voice Agent with CUGA",
       "url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6874,
+      "score": 0.6039,
       "publishedAt": "2026-11-25T10:22:09.000Z",
       "summary": "A Blog post by IBM Research on Hugging Face",
       "tags": [
@@ -265,11 +326,37 @@
       "engagementScore": 0
     },
     {
+      "title": "The Best Black Friday Deals Are Now Live: Our Expert Picks for 2026",
+      "url": "https://www.wired.com/story/best-black-friday-deals-11-26-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5824,
+      "publishedAt": "2026-11-26T16:10:24.000Z",
+      "summary": "The early bird gets the worm. Here are the best Black Friday deals for 2026 you can get right now.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The New York Times warns photographers not to update Photoshop over AI features",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+      "feedSource": "Hacker News",
+      "source": "theverge.com",
+      "score": 0.5755,
+      "publishedAt": "2026-11-25T21:18:02.000Z",
+      "summary": "The NYT doesn’t want AI metadata inadvertently added to its photos.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 531
+    },
+    {
       "title": "How Intentful uses dots to make more time for growth",
       "url": "https://openai.com/business/customer-stories/intentful-dots",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6625,
+      "score": 0.5662,
       "publishedAt": "2026-11-24T00:00:00.000Z",
       "summary": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.",
       "tags": [
@@ -282,7 +369,7 @@
       "url": "https://openai.com/business/customer-stories/ifood",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6625,
+      "score": 0.5662,
       "publishedAt": "2026-11-24T00:00:00.000Z",
       "summary": "",
       "tags": [
@@ -296,7 +383,7 @@
       "url": "https://openai.com/business/customer-stories/clay-plugins-openai",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6625,
+      "score": 0.5662,
       "publishedAt": "2026-11-24T00:00:00.000Z",
       "summary": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
       "tags": [
@@ -307,24 +394,154 @@
       "engagementScore": 0
     },
     {
-      "title": "Perplexity and Intelligence",
-      "url": "https://openai.com/index/perplexity-and-intelligence/",
-      "feedSource": "Hacker News",
-      "source": "openai.com",
-      "score": 0.6572,
-      "publishedAt": "2026-11-22T17:06:27.000Z",
-      "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+      "title": "10 Best Meal Delivery Services, Tested by an Ex-Restaurant Critic",
+      "url": "https://www.wired.com/gallery/best-meal-kit-services-1/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5654,
+      "publishedAt": "2026-11-26T13:00:00.000Z",
+      "summary": "Here are the best delivery services and meal kits in 2026, including the Martha Stewart meal service, a GLP-1–supportive plan, and a budget-friendly option.",
       "tags": [
-        "Dev Tools"
+        "AI"
       ],
-      "engagementScore": 720
+      "engagementScore": 0
+    },
+    {
+      "title": "10 Best Office Chairs of 2026—We Tested 70 to Pick Them",
+      "url": "https://www.wired.com/gallery/best-office-chairs/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5632,
+      "publishedAt": "2026-11-26T12:35:00.000Z",
+      "summary": "Upgrade your WFH setup and work in style with these comfy, WIRED-tested seats.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Jensen Huang deepfakes are the hot new AI slop",
+      "url": "https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5627,
+      "publishedAt": "2026-11-26T12:29:18.000Z",
+      "summary": "Jensen Huang is partying it up in Ibiza. In a video with nearly 6 million views on Instagram, the former CEO of Nvidia is dancing in a crowded club, champagne glass in hand, still wearing his signature black leather jacket. Suddenly, from behind him, Alice Huang - the Chinese technology executive an",
+      "tags": [
+        "Vision"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "From spectrum to structure: Identifying molecules with Mass Spec Skills for Google Antigravity",
+      "url": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
+      "feedSource": "DeepMind",
+      "source": "deepmind.google",
+      "score": 0.5618,
+      "publishedAt": "2026-11-24T13:07:53.000Z",
+      "summary": "Mass Spec Skills empowers scientists using Google Antigravity to interpret tandem mass spectra.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The Best MagSafe Wallets for Your Everyday Carry (2026)",
+      "url": "https://www.wired.com/gallery/best-magsafe-wallets/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5614,
+      "publishedAt": "2026-11-26T12:15:00.000Z",
+      "summary": "The slim, convenient magnetic wallets you’ll actually want to stick to the back of your iPhone.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Here’s Everything You Can Do With With the New Gemini AI on Android Auto",
+      "url": "https://www.wired.com/story/heres-everything-you-can-do-with-with-the-new-gemini-ai-on-android-auto/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.56,
+      "publishedAt": "2026-11-26T12:00:00.000Z",
+      "summary": "Android Auto is now smarter than before, thanks to the addition of Gemini. You can navigate more easily and even bounce ideas off of it along the way.",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "8 Best Keyboards (2026): My Honest Picks After Testing Dozens",
+      "url": "https://www.wired.com/gallery/best-keyboards/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.56,
+      "publishedAt": "2026-11-26T12:00:00.000Z",
+      "summary": "As a professional keyboard nerd, I’ve tested dozens and dozens of models. One of these eight picks should suit your needs—no matter your budget.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "A First Drive With the Fiat Topolino in New York City",
+      "url": "https://www.wired.com/story/fiat-topolino-first-drive/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5587,
+      "publishedAt": "2026-11-26T11:45:00.000Z",
+      "summary": "Fiat’s $15,000, 25-mph electric quadricycle is built for beach towns and gated communities. Naturally, I took it across the Manhattan Bridge.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Best Gaming Mouse (2026): My Picks After Testing Dozens of Mice",
+      "url": "https://www.wired.com/gallery/best-gaming-mouse/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5574,
+      "publishedAt": "2026-11-26T11:30:00.000Z",
+      "summary": "From ergonomic to ultralight, we’ve tested dozens of the best gaming mice to find the absolute best for the style of gaming you prefer.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
+      "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.5489,
+      "publishedAt": "2026-11-26T09:54:40.000Z",
+      "summary": "A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off \"the private chat histories of more",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "How data centers are driving a US natural-gas boom",
+      "url": "https://www.technologyreview.com/2026/11/25/1149836/data-centers-gas-power-plants/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.5481,
+      "publishedAt": "2026-11-25T17:00:00.000Z",
+      "summary": "In May 2025, my colleague David Rotman wrote a feature story describing how AI could keep us dependent on natural gas. Just 18 months later, I’ve lost count of how many times he’s already been proved right. Sure, it’s technically possible to meet the world’s rising electricity demand with other powe",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "OpenAI and Cisco introduce Shirudo",
       "url": "https://openai.com/index/introducing-shirudo",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.6431,
+      "score": 0.5468,
       "publishedAt": "2026-11-23T21:20:00.000Z",
       "summary": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
       "tags": [
@@ -334,24 +551,11 @@
       "engagementScore": 0
     },
     {
-      "title": "How data centers are driving a US natural-gas boom",
-      "url": "https://www.technologyreview.com/2026/11/25/1149836/data-centers-gas-power-plants/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.6252,
-      "publishedAt": "2026-11-25T17:00:00.000Z",
-      "summary": "In May 2025, my colleague David Rotman wrote a feature story describing how AI could keep us dependent on natural gas. Just 18 months later, I’ve lost count of how many times he’s already been proved right. Sure, it’s technically possible to meet the world’s rising electricity demand with other powe",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
       "url": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6218,
+      "score": 0.5384,
       "publishedAt": "2026-11-25T00:00:00.000Z",
       "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
       "tags": [
@@ -360,24 +564,11 @@
       "engagementScore": 0
     },
     {
-      "title": "The New York Times warns photographers not to update Photoshop over AI features",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
-      "feedSource": "Hacker News",
-      "source": "theverge.com",
-      "score": 0.6143,
-      "publishedAt": "2026-11-25T21:18:02.000Z",
-      "summary": "The NYT doesn’t want AI metadata inadvertently added to its photos.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 239
-    },
-    {
       "title": "The Download: AI swamping open records, and firefighting for permafrost",
       "url": "https://www.technologyreview.com/2026/11/25/1149808/the-download-ai-open-records-permafrost-fires/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6028,
+      "score": 0.5258,
       "publishedAt": "2026-11-25T13:10:00.000Z",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. AI is straining America’s open records systems AI has intensified investors&#8217; interest in public records. Over the last few years, venture-backed",
       "tags": [
@@ -386,50 +577,11 @@
       "engagementScore": 0
     },
     {
-      "title": "AI is straining America’s open records systems",
-      "url": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.5843,
-      "publishedAt": "2026-11-25T10:00:00.000Z",
-      "summary": "In Panton, Vermont, population 660, town clerk Kyle Rowe did it all. He crafted budgets, paid vendors, handled property tax disputes, and served as the town’s zoning supervisor and presiding elections officer. During morning office hours at the town hall—a wood-frame structure built as a church in 1",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
-      "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.5749,
-      "publishedAt": "2026-11-24T16:34:13.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future",
-      "url": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.555,
-      "publishedAt": "2026-11-25T21:51:26.000Z",
-      "summary": "Last year, Google filed a patent for a system called My Channel that's designed to create feeds filled with personalized, AI-generated videos and advertisements based on information the company knows about its users. The patent has been rejected, but unfortunately, Google might appeal or resubmit an",
-      "tags": [
-        "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
       "title": "Connected intelligence for in-house legal",
       "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.5458,
+      "score": 0.5124,
       "publishedAt": "2026-11-23T08:00:00.000Z",
       "summary": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
       "tags": [
@@ -442,7 +594,7 @@
       "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.5458,
+      "score": 0.5124,
       "publishedAt": "2026-11-23T08:00:00.000Z",
       "summary": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
       "tags": [
@@ -453,240 +605,82 @@
       "engagementScore": 0
     },
     {
-      "title": "The Iowa Lead Detonation Happened. Now the Real Work Begins to Study It",
-      "url": "https://www.wired.com/story/iowa-lead-detonation-real-monitoring-work-begins/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5378,
-      "publishedAt": "2026-11-25T18:38:12.000Z",
-      "summary": "Early results indicate minimal signs of lead in the environment, though it will take days for more rigorous testing.",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
-      "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5331,
-      "publishedAt": "2026-11-25T17:44:57.000Z",
-      "summary": "In an announcement on Wednesday, the FCC says it authorized SpaceX to deploy up to 1 million AI chip-equipped satellites as part of the Elon Musk-owned company's \"Starmind\" initiative. With several others also pursuing the idea of putting AI data centers in space, including Google and Blue Origin, t",
+      "title": "AI is straining America’s open records systems",
+      "url": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.5073,
+      "publishedAt": "2026-11-25T10:00:00.000Z",
+      "summary": "In Panton, Vermont, population 660, town clerk Kyle Rowe did it all. He crafted budgets, paid vendors, handled property tax disputes, and served as the town’s zoning supervisor and presiding elections officer. During morning office hours at the town hall—a wood-frame structure built as a church in 1",
       "tags": [
         "AI"
       ],
       "engagementScore": 0
     },
     {
-      "title": "Nothing offers a full look at its AI earbuds and charging case",
-      "url": "https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5238,
-      "publishedAt": "2026-11-25T16:00:59.000Z",
-      "summary": "Nothing is showing off a much more detailed look at its upcoming AI earbuds ahead of their December 8th release. The Ear Note buds can record your calls, while their charging case can record, transcribe, and summarize your conversations. Like the Ear 3, the Ear Note's microphone-equipped case comes",
+      "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+      "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
+      "feedSource": "Hacker News",
+      "source": "twitter.com",
+      "score": 0.5051,
+      "publishedAt": "2026-11-26T03:36:58.000Z",
+      "summary": "We made a billing mistake at launch of GPT-6.2 that incorrectly discounted GPT-6.2 Astra and Sol usage for most users. We’ve fixed this now, so the same work will use more of your plan’s usage allowance. Comparing to last week, you will reach your limits 40% faster on GPT-6.2 Astra and 25% faster on",
       "tags": [
-        "AI"
+        "LLM"
       ],
-      "engagementScore": 0
+      "engagementScore": 416
     },
     {
-      "title": "The 30 Best Early Black Friday Deals: Our Ultimate Picks (2026)",
-      "url": "https://www.wired.com/story/best-black-friday-deals-11-25-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5187,
-      "publishedAt": "2026-11-25T15:03:16.000Z",
-      "summary": "The early bird gets the worm. Here are the best Black Friday deals for 2026 you can get right now.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Amazon is reportedly in talks to end Muse AI shopping block",
-      "url": "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.5141,
-      "publishedAt": "2026-11-25T14:12:33.000Z",
-      "summary": "Amazon has held talks about letting Meta's Muse AI agent shop on its online marketplace, according to a report from Fortune. The discussions, which could end Amazon's block on Muse, reportedly center on the kinds of products the AI agent recommends and the potential impact on the ecommerce giant's a",
-      "tags": [
-        "Agents"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "How Jump-Roping Toy Soldiers Accidentally Took Over Your FYP",
-      "url": "https://www.wired.com/story/hot-jump-roping-toy-soldiers-accidentally-made-their-own-psyop/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5023,
-      "publishedAt": "2026-11-25T12:00:00.000Z",
-      "summary": "The holiday theme park performers started posting their own AI fan videos as an inside joke. They didn’t expect it to actually catch on.",
-      "tags": [
-        "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The 36 Best Gifts for Dads (2026)",
-      "url": "https://www.wired.com/story/best-gifts-for-dads-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5013,
-      "publishedAt": "2026-11-25T11:49:00.000Z",
-      "summary": "Dads are typically tough to shop for. Let me help with these WIRED-tested gift ideas.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Best TVs We’ve Tested (2026): Samsung, LG, TCL, Sony, and More.",
-      "url": "https://www.wired.com/story/best-tvs/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4997,
-      "publishedAt": "2026-11-25T11:30:00.000Z",
-      "summary": "Affordable QLEDs, glorious RGB, premium OLEDs—these are our favorite televisions across every category.",
-      "tags": [
-        "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Airplane Turbulence Is Extremely Hard to Predict, but Maybe Not for Long",
-      "url": "https://www.wired.com/story/airplane-turbulence-is-extremely-hard-to-predict-and-avoid/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.4997,
-      "publishedAt": "2026-11-25T11:30:00.000Z",
-      "summary": "The “hardest remaining problem in classical physics” gets a boost from terabytes of crowdsourced data and new ways of using machine learning and AI.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The ‘True Crime Community’ Is Inspiring Violent Attacks Through TikTok",
-      "url": "https://www.wired.com/story/the-true-crime-community-is-inspiring-violent-attacks-through-tiktok/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.497,
-      "publishedAt": "2026-11-25T11:00:00.000Z",
-      "summary": "Attacks linked to a network of young people obsessed with mass shooters are greatly increasing, research shared with WIRED shows, as the nihilistic group uses TikTok and AI to spread its message.",
-      "tags": [
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "A Journey Through the Absurd Hell of Trump’s Third-Country Deportations",
-      "url": "https://www.wired.com/story/journey-through-the-pathetic-absurd-hell-of-trumps-third-country-deportations/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.497,
-      "publishedAt": "2026-11-25T11:00:00.000Z",
-      "summary": "How a Thai-born, US-raised Cambodian refugee ended up a prisoner of Africa’s last absolute monarch.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "How Gemini is changing the game for Golden State's organization and fans.",
-      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
-      "feedSource": "Google AI",
-      "source": "blog.google",
-      "score": 0.4793,
-      "publishedAt": "2026-11-24T16:00:00.000Z",
-      "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Gemini_1.max-600x600.format-webp.webp\"&gt;Google Gemini partners with Golden State to power fan experiences and business operations for the Warriors, Valkyries, and Chase Center. See the news.",
+      "title": "After OpenAI and Anthropic shut the door on their data, a Chinese AI developer is turning to Google and Meta instead",
+      "url": "https://the-decoder.com/after-openai-and-anthropic-shut-the-door-on-their-data-a-chinese-ai-developer-is-turning-to-google-and-meta-instead/",
+      "feedSource": "The Decoder",
+      "source": "the-decoder.com",
+      "score": 0.4874,
+      "publishedAt": "2026-11-26T15:45:08.000Z",
+      "summary": "Chinese AI companies Z.AI and Moonshot AI have to delay their next flagship models and are looking for new sources of training data.\nThe article After OpenAI and Anthropic shut the door on their data, a Chinese AI developer is turning to Google and Meta instead appeared first on The Decoder",
       "tags": [
         "LLM",
-        "RAG",
-        "Vision",
-        "Dev Tools"
+        "Dev Tools",
+        "ML Infra"
       ],
       "engagementScore": 0
     },
     {
-      "title": "The Download: AI’s gas power boom and a consciousness reality check",
-      "url": "https://www.technologyreview.com/2026/11/24/1149669/the-download-data-centers-gas-ai-consciousness/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.4628,
-      "publishedAt": "2026-11-24T13:10:00.000Z",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Data centers are getting their own natural gas power plants One of the biggest obstacles to building a data center is getting approval to connect to t",
+      "title": "Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future",
+      "url": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
+      "feedSource": "The Verge",
+      "source": "theverge.com",
+      "score": 0.4844,
+      "publishedAt": "2026-11-25T21:51:26.000Z",
+      "summary": "Last year, Google filed a patent for a system called My Channel that's designed to create feeds filled with personalized, AI-generated videos and advertisements based on information the company knows about its users. The patent has been rejected, but unfortunately, Google might appeal or resubmit an",
+      "tags": [
+        "Vision"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "FCC clears SpaceX to deploy up to 1 million Starmind satellites for orbital AI data centers by 2040",
+      "url": "https://the-decoder.com/fcc-clears-spacex-to-deploy-up-to-1-million-starmind-satellites-for-orbital-ai-data-centers-by-2040/",
+      "feedSource": "The Decoder",
+      "source": "the-decoder.com",
+      "score": 0.4773,
+      "publishedAt": "2026-11-26T13:41:07.000Z",
+      "summary": "The FCC has authorized SpaceX to deploy up to 1 million Starmind satellites to process AI data as orbital data centers. SpaceX is targeting its first launches in 2027, and the full constellation is set to be operating by 2040. Google and Blue Origin are also working on AI infrastructure in",
       "tags": [
         "AI"
       ],
       "engagementScore": 0
     },
     {
-      "title": "US chip-access curbs and anti-distillation measures are reportedly already slowing Chinese AI labs",
-      "url": "https://the-decoder.com/us-chip-access-curbs-and-anti-distillation-measures-are-reportedly-already-slowing-chinese-ai-labs/",
+      "title": "Microsoft details how state-backed hackers use the ARTEX AI framework to automate cyberattacks",
+      "url": "https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/",
       "feedSource": "The Decoder",
       "source": "the-decoder.com",
-      "score": 0.4597,
-      "publishedAt": "2026-11-25T20:51:02.000Z",
-      "summary": "Chip restrictions, anti-distillation measures, and shrinking access to Nvidia hardware abroad are putting growing pressure on Deepseek, Moonshot AI, and Alibaba, according to a report. Deepseek researchers internally estimate they're already up to nine months behind US models, and the gap i",
+      "score": 0.4667,
+      "publishedAt": "2026-11-26T11:30:06.000Z",
+      "summary": "Microsoft has published the technical architecture of ARTEX, an AI framework in wide use since July 2026 that runs cyberattacks with specialized agents and almost no human involvement. State-backed groups from China and North Korea, along with criminal organizations, are already using the s",
       "tags": [
-        "Research"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Anthropic CEO Dario Amodei says letting AI govern society would be &quot;a bad idea&quot;",
-      "url": "https://the-decoder.com/anthropic-ceo-dario-amodei-says-letting-ai-govern-society-would-be-a-bad-idea/",
-      "feedSource": "The Decoder",
-      "source": "the-decoder.com",
-      "score": 0.4568,
-      "publishedAt": "2026-11-25T20:15:50.000Z",
-      "summary": "Anthropic CEO Dario Amodei is pushing back on an Axios report saying some employees believe humanity will hand power to superintelligent systems. Amodei says \"turning over governance to AI is a bad idea.\"\nThe article Anthropic CEO Dario Amodei says letting AI govern society would be &quot;a",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Data centers are getting their own natural gas power plants",
-      "url": "https://www.technologyreview.com/2026/11/24/1149622/data-centers-natural-gas/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.4502,
-      "publishedAt": "2026-11-24T11:00:00.000Z",
-      "summary": "One of the biggest roadblocks to starting up a data center is getting approval to connect to the electric grid—a wait that could last as long as a decade. Some developers aren’t willing to wait and are instead opting to build their own off-grid, or behind-the-meter, gas power plants to fuel the AI b",
-      "tags": [
-        "Dev Tools"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "OpenAI wants companies to trust it with sensitive work by promising not to look at their data",
-      "url": "https://the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data/",
-      "feedSource": "The Decoder",
-      "source": "the-decoder.com",
-      "score": 0.4476,
-      "publishedAt": "2026-11-25T18:22:02.000Z",
-      "summary": "OpenAI is testing a new feature called \"Private Inference\" that lets companies run queries on its most powerful models without OpenAI being able to access the data.\nThe article OpenAI wants companies to trust it with sensitive work by promising not to look at their data appeared first on Th",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Amazon and Meta are in talks to end the block on Meta&#039;s AI shopping agent Muse in Amazon&#039;s online store.",
-      "url": "https://the-decoder.com/amazon-and-meta-are-in-talks-to-end-the-block-on-metas-ai-shopping-agent-muse-in-amazons-online-store/",
-      "feedSource": "The Decoder",
-      "source": "the-decoder.com",
-      "score": 0.4397,
-      "publishedAt": "2026-11-25T16:44:37.000Z",
-      "summary": "Amazon and Meta are in talks to bring back Muse, Meta's AI shopping agent that Amazon kicked off its platform in September. The two sides are stuck on ad revenue and who gets to control search results. That matters because Amazon's ad business generates $68.6 billion a year, and Muse alread",
-      "tags": [
-        "Agents",
-        "Industry"
+        "Agents"
       ],
       "engagementScore": 0
     }
