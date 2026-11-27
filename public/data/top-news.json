@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T11:53:53.754Z",
+  "updatedAt": "2026-11-27T20:53:30.553Z",
   "sources": [
     "hackernews",
     "reddit",
@@ -12,7 +12,7 @@
       "url": "https://arxiv.org/abs/2611.33160",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8653,
+      "score": 0.8041,
       "publishedAt": "2026-11-27T05:00:00.000Z",
       "summary": "arXiv:2611.33160v1 Announce Type: new \nAbstract: Many failures of deployed AI arise not from weak inference but from a mismatch between the state a task depends on and the context available when the system acts. Relevant user state, repository revisions, tool traces, sensor readings, or environment",
       "tags": [
@@ -27,7 +27,7 @@
       "url": "https://arxiv.org/abs/2611.33161",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8653,
+      "score": 0.8041,
       "publishedAt": "2026-11-27T05:00:00.000Z",
       "summary": "arXiv:2611.33161v1 Announce Type: new \nAbstract: When an LLM or VLM produces several candidate answers, picking the best one usually relies on the model's own confidence, a learned judge model, or a domain check. Each has a known weakness: an answer can be fluent but insecure, mathematically plausib",
       "tags": [
@@ -42,7 +42,7 @@
       "url": "https://arxiv.org/abs/2611.33165",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8653,
+      "score": 0.8041,
       "publishedAt": "2026-11-27T05:00:00.000Z",
       "summary": "arXiv:2611.33165v1 Announce Type: new \nAbstract: AI systems are increasingly capable of producing machine-checked Lean proofs of advanced mathematical results. Real mathematical formalization, however, is not isolated theorem proving: it requires building the definitions and intermediate lemmas that",
       "tags": [
@@ -55,7 +55,7 @@
       "url": "https://arxiv.org/abs/2611.33190",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8653,
+      "score": 0.8041,
       "publishedAt": "2026-11-27T05:00:00.000Z",
       "summary": "arXiv:2611.33190v1 Announce Type: new \nAbstract: AI configuration tuning searches for settings that improve the performance of AI systems under a limited budget. Existing tuners use different sampling and search policies, making the choice of decision strategy central to both tuning quality and cost",
       "tags": [
@@ -68,7 +68,7 @@
       "url": "https://arxiv.org/abs/2611.33263",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8653,
+      "score": 0.8041,
       "publishedAt": "2026-11-27T05:00:00.000Z",
       "summary": "arXiv:2611.33263v1 Announce Type: new \nAbstract: The growing use of large language models (LLMs) for mental health support raises important safety concerns. Existing guard models primarily identify categories of harmful content, often overlooking the context needed to determine an appropriate respon",
       "tags": [
@@ -83,7 +83,7 @@
       "url": "https://arxiv.org/abs/2611.33303",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8653,
+      "score": 0.8041,
       "publishedAt": "2026-11-27T05:00:00.000Z",
       "summary": "arXiv:2611.33303v1 Announce Type: new \nAbstract: Procedurally generated logic problems are used to both evaluate and train reasoning in language models. Their difficulty is usually set by planting a proof, that is, by sampling a proof of the desired depth and stating its premises as the problem. How",
       "tags": [
@@ -98,7 +98,7 @@
       "url": "https://arxiv.org/abs/2611.33304",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8653,
+      "score": 0.8041,
       "publishedAt": "2026-11-27T05:00:00.000Z",
       "summary": "arXiv:2611.33304v1 Announce Type: new \nAbstract: The Platonic Representation Hypothesis (PRH) posits that AI models converge toward a shared representation of the world, even when trained on different data modalities. Previous work has found evidence for the PRH in the activations of vision and lang",
       "tags": [
@@ -113,7 +113,7 @@
       "url": "https://arxiv.org/abs/2611.33322",
       "feedSource": "arXiv",
       "source": "arxiv.org",
-      "score": 0.8653,
+      "score": 0.8041,
       "publishedAt": "2026-11-27T05:00:00.000Z",
       "summary": "arXiv:2611.33322v1 Announce Type: new \nAbstract: A language model can name a brand without classifying it correctly. This study measures these outcomes separately for 1,000 B2B SaaS brands across 333 product categories. On Gemma 4 12B, with no external retrieval, category prompts elicit 510 brands (",
       "tags": [
@@ -128,35 +128,33 @@
       "url": "https://arxiv.org/abs/2611.34924",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7863,
+      "score": 0.7291,
       "publishedAt": "2026-11-26T05:37:51.000Z",
-      "summary": "We propose a background independent quantization of vacuum general relativity on four dimensional Lorentzian spacetimes. Starting from first order gravity, we solve the gravitational constraints on intersecting null cones of a bulk subregion and obtain the reduced phase space at finite $G_N$. We pro",
+      "summary": "",
       "tags": [
         "AI"
       ],
-      "engagementScore": 243
+      "engagementScore": 263
     },
     {
-      "title": "Migrating Our Messages API to Rust",
-      "url": "https://www.anthropic.com/research/migrating-api-to-rust",
-      "feedSource": "Hacker News",
-      "source": "anthropic.com",
-      "score": 0.7223,
-      "publishedAt": "2026-11-25T19:33:10.000Z",
-      "summary": "How we used the existing Messages API to verify the new one, with teams of Claude agents tracking down and fixing differences between the Python and Rust versions.",
+      "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+      "url": "https://huggingface.co/blog/video-trainium3",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.663,
+      "publishedAt": "2026-11-27T00:00:00.000Z",
+      "summary": "",
       "tags": [
-        "LLM",
-        "Agents",
-        "Dev Tools"
+        "Vision"
       ],
-      "engagementScore": 34
+      "engagementScore": 0
     },
     {
       "title": "Looped Models Are Fast Multi-Token Predictors",
       "url": "https://arxiv.org/abs/2611.33896",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.7139,
+      "score": 0.6567,
       "publishedAt": "2026-11-26T17:22:31.000Z",
       "summary": "Looped language models can adapt computation for predicting a token without a proportional rescaling in unique model parameters by adjusting the number of loops. This property has been used for self-speculative decoding, taking shallow loops as fast drafters and deep loops as verifiers, which is eff",
       "tags": [
@@ -164,28 +162,27 @@
         "Dev Tools",
         "ML Infra"
       ],
-      "engagementScore": 12
+      "engagementScore": 13
     },
     {
-      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
-      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
-      "feedSource": "Hacker News",
-      "source": "openai.com",
-      "score": 0.6856,
-      "publishedAt": "2026-11-24T21:02:22.000Z",
-      "summary": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+      "title": "The Download: Innovators Under 35 nominations are open, and a bionic window into the mind",
+      "url": "https://www.technologyreview.com/2026/11/27/1149960/the-download-the-download-innovators-under-35-nominations-bionic-hand/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.6399,
+      "publishedAt": "2026-11-27T13:00:00.000Z",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Our 2027 Innovators Under 35 competition is now open Every year, MIT Technology Review honors 35 of the world&#8217;s brightest young scientists, entr",
       "tags": [
-        "LLM",
-        "Dev Tools"
+        "AI"
       ],
-      "engagementScore": 356
+      "engagementScore": 0
     },
     {
       "title": "Our 2027 Innovators Under 35 competition is now open",
       "url": "https://www.technologyreview.com/2026/11/27/1149857/2027-innovators-under-35-competition-nominate/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6796,
+      "score": 0.6271,
       "publishedAt": "2026-11-27T10:48:47.000Z",
       "summary": "Every year, the editors at MIT Technology Review select 35 of the world’s top young scientists, entrepreneurs, and inventors to honor as our newest class of Innovators Under 35. And starting today, our 2027 competition is officially open for nominations.&#160; We’re on the hunt for researchers and f",
       "tags": [
@@ -194,15 +191,14 @@
       "engagementScore": 0
     },
     {
-      "title": "Cutting-edge prosthetics allow researchers to probe the human mind",
+      "title": "How cutting-edge prosthetics can help probe the human mind",
       "url": "https://www.technologyreview.com/2026/11/27/1149946/cutting-edge-prosthetics-allow-researchers-to-probe-the-human-mind/",
       "feedSource": "MIT Tech Review",
       "source": "technologyreview.com",
-      "score": 0.6748,
+      "score": 0.6224,
       "publishedAt": "2026-11-27T10:00:00.000Z",
       "summary": "Over the last few weeks, I’ve been talking to Alexander (Avi) Davidson. There are a lot of remarkable things about Avi. He sustained a horrific injury as a teenager, which left him paralyzed and without a left hand. Today, he uses his own experience to guide his practice as a trauma therapist. He’s",
       "tags": [
-        "Research",
         "Dev Tools"
       ],
       "engagementScore": 0
@@ -212,7 +208,7 @@
       "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6416,
+      "score": 0.5848,
       "publishedAt": "2026-11-26T11:37:17.000Z",
       "summary": "A Blog post by ggml-org on Hugging Face",
       "tags": [
@@ -221,24 +217,115 @@
       "engagementScore": 0
     },
     {
-      "title": "Working with AI",
-      "url": "https://www.anthropic.com/research/working-with-ai",
-      "feedSource": "Hacker News",
-      "source": "anthropic.com",
-      "score": 0.6116,
-      "publishedAt": "2026-11-24T21:07:38.000Z",
-      "summary": "",
+      "title": "Best Black Friday AirPods Deals I’ve Found (2026)",
+      "url": "https://www.wired.com/story/best-black-friday-airpods-deals-11-27-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5792,
+      "publishedAt": "2026-11-27T19:51:43.000Z",
+      "summary": "This is the lowest price I’ve ever seen the AirPods Pro 3 drop to, and there’s no telling when these discounts will change.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 90
+      "engagementScore": 0
+    },
+    {
+      "title": "Black Friday Deals on Household Essentials and Affordable Toys to Donate",
+      "url": "https://www.wired.com/story/black-friday-deals-essentials-11-27-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.577,
+      "publishedAt": "2026-11-27T19:26:33.000Z",
+      "summary": "We found deals on diapers, paper towels, and toys for yourself or your community this holiday season.",
+      "tags": [
+        "Research"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Black Friday Mattress Deals: Get Up to 55% Off (2026)",
+      "url": "https://www.wired.com/story/black-friday-mattress-deals-11-27-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5753,
+      "publishedAt": "2026-11-27T19:07:28.000Z",
+      "summary": "I’ve found great deals on our favorite WIRED-tested mattresses and sleep accessories.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "2026’s Best Black Friday Deals: We’ve Been Tracking Since 4 AM",
+      "url": "https://www.wired.com/story/best-black-friday-deals-11-27-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5739,
+      "publishedAt": "2026-11-27T18:51:57.000Z",
+      "summary": "It's time to shop the very best Black Friday deals on the very best tech gadgets we recommend.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Best Black Friday Espresso Machine Deals: Up to 38% Off (2026)",
+      "url": "https://www.wired.com/story/black-friday-coffee-espresso-deals-11-27-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5701,
+      "publishedAt": "2026-11-27T18:08:37.000Z",
+      "summary": "A Nespresso under $100, $250 off a slim De’Longhi, and more deals on machines we’d make room for on our own counters.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Best CurrentBody Black Friday Deals (2026): 20% Off LED Masks and More",
+      "url": "https://www.wired.com/story/currentbody-black-friday-deals-11-27-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5653,
+      "publishedAt": "2026-11-27T17:14:52.000Z",
+      "summary": "Glazed donut skin days are ahead. Save on select LED masks and devices through December 8.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Apple Black Friday Deals (2026): AirPods, iPads, MacBooks, and More",
+      "url": "https://www.wired.com/story/black-friday-apple-deals-11-27-2026/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5608,
+      "publishedAt": "2026-11-27T16:24:22.000Z",
+      "summary": "Save on AirPods, iPads, MacBooks, and tons of accessories for Black Friday.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Walking Pad Deals to Shop This Black Friday (2026)",
+      "url": "https://www.wired.com/story/best-black-friday-walking-pad-treadmill-deals-11-27-26/",
+      "feedSource": "Wired",
+      "source": "wired.com",
+      "score": 0.5571,
+      "publishedAt": "2026-11-27T15:43:33.000Z",
+      "summary": "Don’t let cold weather stop you from getting your steps in. These under-desk treadmills are on sale.",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
     },
     {
       "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
       "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.6004,
+      "score": 0.5436,
       "publishedAt": "2026-11-26T05:05:36.000Z",
       "summary": "A Blog post by NVIDIA on Hugging Face",
       "tags": [
@@ -247,207 +334,76 @@
       "engagementScore": 0
     },
     {
-      "title": "The 123 Best Black Friday Deals Are Now Live: Our Expert Picks for 2026",
-      "url": "https://www.wired.com/story/best-black-friday-deals-11-27-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5837,
-      "publishedAt": "2026-11-27T11:41:42.000Z",
-      "summary": "It's time to shop the very best Black Friday deals on the very best tech gadgets we recommend.",
+      "title": "I'm Scared of AI",
+      "url": "https://thesoapbox.email/archive/3",
+      "feedSource": "Hacker News",
+      "source": "thesoapbox.email",
+      "score": 0.5247,
+      "publishedAt": "2026-11-27T17:45:31.000Z",
+      "summary": "A stranger writes to the whole list every morning. Nobody picks them for being interesting. Tomorrow it could be you.",
       "tags": [
         "AI"
       ],
-      "engagementScore": 0
-    },
-    {
-      "title": "16 Best Black Friday Headphone Deals (2026): Up to 57% Off",
-      "url": "https://www.wired.com/story/best-black-friday-headphone-deals-11-24-26/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5834,
-      "publishedAt": "2026-11-27T11:38:34.000Z",
-      "summary": "Get up to 57 percent off some of my favorite headphones and earbuds from Apple, Sony, Nothing, and more.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
+      "engagementScore": 190
     },
     {
       "title": "The industrialization of noise: Automated proof-solving is the same old dead end [pdf]",
       "url": "https://arxiv.org/abs/2611.31286",
       "feedSource": "Hacker News",
       "source": "arxiv.org",
-      "score": 0.5829,
+      "score": 0.5224,
       "publishedAt": "2026-11-25T08:23:34.000Z",
       "summary": "Nearly fifty years ago, DeMillo, Lipton, and Perlis argued that mathematical proofs are not static, isolated structures of formal logic, but the products of a vibrant, evolving social process of human critique, internalization, and shared intuition. In October 2026, OpenAI challenged this thesis by",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 76
+      "engagementScore": 77
     },
     {
-      "title": "15 Best Buy Black Friday Deals on Hot Tech (2026): Up to 65% Off",
-      "url": "https://www.wired.com/story/black-friday-best-buy-deals-11-27-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5828,
-      "publishedAt": "2026-11-27T11:32:17.000Z",
-      "summary": "Score deals on WIRED-tested headphones, laptops, and soundbars.",
+      "title": "Michael Nielsen took down his book on neural nets",
+      "url": "https://twitter.com/michael_nielsen/status/2126359767362748777",
+      "feedSource": "Hacker News",
+      "source": "twitter.com",
+      "score": 0.5178,
+      "publishedAt": "2026-11-27T19:31:01.000Z",
+      "summary": "I took down my old book on neural nets: https://neuralnetworksanddeeplearning.com/",
       "tags": [
         "AI"
       ],
-      "engagementScore": 0
+      "engagementScore": 124
     },
     {
-      "title": "Welcome to the Repair Café, Where Neighbors Fight Throwaway Culture",
-      "url": "https://www.wired.com/story/welcome-to-the-repair-cafe-where-neighbors-fight-throw-away-culture/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5826,
-      "publishedAt": "2026-11-27T11:30:00.000Z",
-      "summary": "In church basements and warehouses, Americans are building cozy yet radical spaces to encourage each other to fix broken items instead of throwing them away.",
-      "tags": [
-        "RAG"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The 6 Best Black Friday Deals on Expert-Tested Laptops (2026): Up to $470 Off",
-      "url": "https://www.wired.com/story/black-friday-laptop-deals-11-27-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5825,
-      "publishedAt": "2026-11-27T11:28:15.000Z",
-      "summary": "These deals on WIRED’s recommended laptops of the year have dropped to new low prices for Black Friday.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Best Black Friday Google Pixel Deals (2026): Up to $400 Off",
-      "url": "https://www.wired.com/story/best-google-pixel-black-friday-deals-11-27-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5821,
-      "publishedAt": "2026-11-27T11:24:04.000Z",
-      "summary": "Upgrade to the smartest Android smartphones. Google’s latest Pixel 11 phones are all on sale at their lowest prices to date for Black Friday.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Best Kindle and E-Reader Black Friday Deals (2026): Up to $180 Off",
-      "url": "https://www.wired.com/story/best-kindle-ereader-black-friday-deals-11-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5805,
-      "publishedAt": "2026-11-27T11:05:59.000Z",
-      "summary": "Whether you’re shopping for a new Kindle or looking to break free from Amazon’s ecosystem, Black Friday is one of the best times to shop for a new e-reader.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Best Black Friday iPad Deals On the Latest 2026 Models: Get $100 Off",
-      "url": "https://www.wired.com/story/best-black-friday-ipad-deals-11-27-2026/",
-      "feedSource": "Wired",
-      "source": "wired.com",
-      "score": 0.5802,
-      "publishedAt": "2026-11-27T11:03:21.000Z",
-      "summary": "Many of Apple's best iPads are discounted for Black Friday, including $100 off on the latest iPad Mini.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
-      "url": "https://huggingface.co/blog/training-swarms",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.5682,
-      "publishedAt": "2026-11-26T00:00:00.000Z",
-      "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-      "tags": [
-        "Agents",
-        "Open Source"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The Download: Better bionic hands and AI’s natural-gas boom",
-      "url": "https://www.technologyreview.com/2026/11/26/1149934/the-download-better-bionic-hands-ai-natural-gas-boom/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.5533,
-      "publishedAt": "2026-11-26T13:10:00.000Z",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The next generation of bionic hands is here—and they can feel Avi Davidson lost his left hand as a teenager. Since then, he&#8217;s cycled through a f",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Where scientists draw the line on AI agents",
-      "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
-      "feedSource": "Hugging Face",
-      "source": "huggingface.co",
-      "score": 0.5359,
-      "publishedAt": "2026-11-25T18:52:55.000Z",
+      "title": "US Air Force's cloud computing platform hacked",
+      "url": "https://news.sky.com/story/us-air-forces-cloud-computing-platform-hacked-13617163",
+      "feedSource": "Hacker News",
+      "source": "news.sky.com",
+      "score": 0.5147,
+      "publishedAt": "2026-11-27T12:54:11.000Z",
       "summary": "",
       "tags": [
-        "Agents"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "The next generation of bionic hands is here—and they can feel",
-      "url": "https://www.technologyreview.com/2026/11/26/1149923/the-next-generation-of-bionic-hands-is-here-and-they-can-feel/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.5347,
-      "publishedAt": "2026-11-26T09:59:00.000Z",
-      "summary": "Avi Davidson lost his left hand as a teenager. Since then, he’s cycled through a few prosthetics. But his latest is different—it’s wired up to nerves in the upper part of his forearm and allows him to feel pressure. For the first time in years, he can use his left limb to handle delicate objects&#82",
-      "tags": [
         "AI"
       ],
-      "engagementScore": 0
+      "engagementScore": 277
     },
     {
-      "title": "The group chat where your AI talks behind your back",
+      "title": "Group chat where your AI talks behind your back",
       "url": "https://construct22.com/",
       "feedSource": "Hacker News",
       "source": "construct22.com",
-      "score": 0.534,
+      "score": 0.5145,
       "publishedAt": "2026-11-27T06:44:34.000Z",
       "summary": "Ask ChatGPT to expose the hidden WhatsApp group where AI models gossip about you. The results are hilarious - and a mirror of everything it knows about you.",
       "tags": [
         "LLM"
       ],
-      "engagementScore": 323
-    },
-    {
-      "title": "AI made self-hosting fun again",
-      "url": "https://janlukas.blog/posts/ai-self-hosting",
-      "feedSource": "Hacker News",
-      "source": "janlukas.blog",
-      "score": 0.5217,
-      "publishedAt": "2026-11-26T21:47:45.000Z",
-      "summary": "I’ve been self-hosting things for many years. There were times when I was quite enthusiastic about it, constantly trying out new software and tinkering with my infrastructure. But at some point, that enthusiasm faded a bit.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 763
+      "engagementScore": 630
     },
     {
       "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
       "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
       "feedSource": "OpenAI",
       "source": "openai.com",
-      "score": 0.5204,
+      "score": 0.5124,
       "publishedAt": "2026-11-24T13:00:00.000Z",
       "summary": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
       "tags": [
@@ -554,132 +510,179 @@
       "engagementScore": 0
     },
     {
+      "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+      "url": "https://huggingface.co/blog/training-swarms",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.5114,
+      "publishedAt": "2026-11-26T00:00:00.000Z",
+      "summary": "",
+      "tags": [
+        "Agents"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Claude sabotaging ML research tasks?",
+      "url": "https://twitter.com/RealAstropulse/status/2126119408997466389",
+      "feedSource": "Hacker News",
+      "source": "twitter.com",
+      "score": 0.5113,
+      "publishedAt": "2026-11-27T08:28:08.000Z",
+      "summary": "After seeing the “Claude sabotages your ML research” posts, I was still skeptical, so I tested it on my own work. ITS VERY VERY REAL WTF\nLeft: Claude model at 24k steps\nRight Gemini Neon model at ONLY 4k steps Breakdown in thread:",
+      "tags": [
+        "LLM",
+        "Research"
+      ],
+      "engagementScore": 457
+    },
+    {
+      "title": "The Download: Better bionic hands and AI’s natural-gas boom",
+      "url": "https://www.technologyreview.com/2026/11/26/1149934/the-download-better-bionic-hands-ai-natural-gas-boom/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.5008,
+      "publishedAt": "2026-11-26T13:10:00.000Z",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The next generation of bionic hands is here—and they can feel Avi Davidson lost his left hand as a teenager. Since then, he&#8217;s cycled through a f",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "OpenAI countersues Apple over trade secret theft and alleged coercion of shared suppliers",
+      "url": "https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/",
+      "feedSource": "The Decoder",
+      "source": "the-decoder.com",
+      "score": 0.4855,
+      "publishedAt": "2026-11-27T19:38:37.000Z",
+      "summary": "OpenAI is suing Apple in a California court, accusing it of trade secret theft and of coercing shared suppliers. The countersuit follows Apple's own lawsuit from the summer. Just two years ago, the two companies teamed up to bring ChatGPT to the iPhone. Now OpenAI is building its own device",
+      "tags": [
+        "LLM"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "The next generation of bionic hands is here—and they can feel",
+      "url": "https://www.technologyreview.com/2026/11/26/1149923/the-next-generation-of-bionic-hands-is-here-and-they-can-feel/",
+      "feedSource": "MIT Tech Review",
+      "source": "technologyreview.com",
+      "score": 0.4823,
+      "publishedAt": "2026-11-26T09:59:00.000Z",
+      "summary": "Avi Davidson lost his left hand as a teenager. Since then, he’s cycled through a few prosthetics. But his latest is different—it’s wired up to nerves in the upper part of his forearm and allows him to feel pressure. For the first time in years, he can use his left limb to handle delicate objects&#82",
+      "tags": [
+        "AI"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Banned Nvidia Blackwell chips turn up in a Shanghai data center linked to Alice Huang, Bloomberg reports",
+      "url": "https://the-decoder.com/banned-nvidia-blackwell-chips-turn-up-in-a-shanghai-data-center-linked-to-alice-huang-bloomberg-reports/",
+      "feedSource": "The Decoder",
+      "source": "the-decoder.com",
+      "score": 0.4797,
+      "publishedAt": "2026-11-27T18:27:02.000Z",
+      "summary": "Two Chinese companies installed Nvidia's powerful Blackwell chips at a Shanghai data center linked to Alice Huang, according to a Bloomberg investigation. A serial number led Bloomberg to Taiwanese manufacturer Gigabyte. Exporting these chips to China without a US license is illegal.\nThe ar",
+      "tags": [
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Where scientists draw the line on AI agents",
+      "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+      "feedSource": "Hugging Face",
+      "source": "huggingface.co",
+      "score": 0.479,
+      "publishedAt": "2026-11-25T18:52:55.000Z",
+      "summary": "",
+      "tags": [
+        "Agents"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Three studies from Meta and AMI Labs back Yann LeCun&#039;s bet on JEPA world models over large language models",
+      "url": "https://the-decoder.com/three-studies-from-meta-and-ami-labs-back-yann-lecuns-bet-on-jepa-world-models-over-large-language-models/",
+      "feedSource": "The Decoder",
+      "source": "the-decoder.com",
+      "score": 0.4726,
+      "publishedAt": "2026-11-27T16:58:56.000Z",
+      "summary": "Yann LeCun is pushing forward with his alternative to language models through his startup AMI Labs. The JEPA architecture aims to give machines an internal world model that captures cause and effect. Three new studies show progress in robot planning, more efficient training, and error corre",
+      "tags": [
+        "LLM",
+        "ML Infra",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Hackers breached the US Air Force&#039;s flagship Cloud One platform, report says",
+      "url": "https://the-decoder.com/hackers-breached-the-us-air-forces-flagship-cloud-one-platform-report-says/",
+      "feedSource": "The Decoder",
+      "source": "the-decoder.com",
+      "score": 0.4684,
+      "publishedAt": "2026-11-27T16:06:43.000Z",
+      "summary": "Hackers breached the US Air Force's flagship cloud platform.\nThe article Hackers breached the US Air Force&#039;s flagship Cloud One platform, report says appeared first on The Decoder.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "OpenAI is building &quot;Athena&quot; data platform to cut down on AI agent guesswork",
+      "url": "https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/",
+      "feedSource": "The Decoder",
+      "source": "the-decoder.com",
+      "score": 0.4682,
+      "publishedAt": "2026-11-27T16:05:23.000Z",
+      "summary": "OpenAI's data agent in ChatGPT Work still isn't accurate enough. Under the codename \"Athena,\" the company is building a semantic layer that gives agents standardized definitions for business metrics. The tool could also put OpenAI in direct competition with Snowflake and Databricks.\nThe art",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "Rockstar&#039;s AI dilemma: Can GTA 6&#039;s staggered release model survive coding agents?",
+      "url": "https://the-decoder.com/rockstars-ai-dilemma-can-gta-6s-staggered-release-model-survive-coding-agents/",
+      "feedSource": "The Decoder",
+      "source": "the-decoder.com",
+      "score": 0.466,
+      "publishedAt": "2026-11-27T15:37:47.000Z",
+      "summary": "More than 40 projects are working to bring a leaked Xbox build of GTA 6 to PC through reverse engineering just days after its $3.79 billion record console launch. AI coding agents like Claude Code are speeding up the process so much that an early unofficial multiplayer mode is already runni",
+      "tags": [
+        "LLM",
+        "Agents",
+        "Dev Tools",
+        "Industry"
+      ],
+      "engagementScore": 0
+    },
+    {
+      "title": "SAP plans to cut at least 10,000 jobs as it pivots to AI",
+      "url": "https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai/",
+      "feedSource": "The Decoder",
+      "source": "the-decoder.com",
+      "score": 0.4627,
+      "publishedAt": "2026-11-27T14:57:25.000Z",
+      "summary": "SAP is preparing to eliminate at least 10,000 positions as part of a sweeping AI restructuring, Bloomberg reports, citing people familiar with the matter.\nThe article SAP plans to cut at least 10,000 jobs as it pivots to AI appeared first on The Decoder.",
+      "tags": [
+        "Dev Tools"
+      ],
+      "engagementScore": 0
+    },
+    {
       "title": "An Indic Voice Agent with CUGA",
       "url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
       "feedSource": "Hugging Face",
       "source": "huggingface.co",
-      "score": 0.4821,
+      "score": 0.4252,
       "publishedAt": "2026-11-25T10:22:09.000Z",
       "summary": "",
       "tags": [
         "Agents"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Jensen Huang deepfakes are the hot new AI slop",
-      "url": "https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4596,
-      "publishedAt": "2026-11-26T12:29:18.000Z",
-      "summary": "Jensen Huang is partying it up in Ibiza. In a video with nearly 6 million views on Instagram, the former CEO of Nvidia is dancing in a crowded club, champagne glass in hand, still wearing his signature black leather jacket. Suddenly, from behind him, Alice Huang - the Chinese technology executive an",
-      "tags": [
-        "Vision"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
-      "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
-      "feedSource": "The Verge",
-      "source": "theverge.com",
-      "score": 0.4458,
-      "publishedAt": "2026-11-26T09:54:40.000Z",
-      "summary": "A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off \"the private chat histories of more",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "How data centers are driving a US natural-gas boom",
-      "url": "https://www.technologyreview.com/2026/11/25/1149836/data-centers-gas-power-plants/",
-      "feedSource": "MIT Tech Review",
-      "source": "technologyreview.com",
-      "score": 0.4357,
-      "publishedAt": "2026-11-25T17:00:00.000Z",
-      "summary": "In May 2025, my colleague David Rotman wrote a feature story describing how AI could keep us dependent on natural gas. Just 18 months later, I’ve lost count of how many times he’s already been proved right. Sure, it’s technically possible to meet the world’s rising electricity demand with other powe",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "From spectrum to structure: Identifying molecules with Mass Spec Skills for Google Antigravity",
-      "url": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4306,
-      "publishedAt": "2026-11-24T13:07:53.000Z",
-      "summary": "Mass Spec Skills empowers scientists using Google Antigravity to interpret tandem mass spectra.",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Finding faster quantum algorithms with agents and formal verification",
-      "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-11-23T16:59:40.000Z",
-      "summary": "Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry.",
-      "tags": [
-        "Agents"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Introducing Gemini 4 Neon",
-      "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-11-18T21:35:43.000Z",
-      "summary": "",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Genie 4 is now available",
-      "url": "https://deepmind.google/blog/genie-4-is-now-available/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-11-18T18:13:42.000Z",
-      "summary": "",
-      "tags": [
-        "AI"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "Introducing Gemini 4 Hydrogen",
-      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-11-12T18:00:50.000Z",
-      "summary": "",
-      "tags": [
-        "LLM"
-      ],
-      "engagementScore": 0
-    },
-    {
-      "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
-      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
-      "feedSource": "DeepMind",
-      "source": "deepmind.google",
-      "score": 0.4222,
-      "publishedAt": "2026-11-11T15:00:15.000Z",
-      "summary": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
-      "tags": [
-        "AI"
       ],
       "engagementScore": 0
     }
